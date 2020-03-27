@@ -1,0 +1,32 @@
+---
+description: Usado por getJobLogsParam/sortBy
+seo-description: Usado por getJobLogsParam/sortBy
+seo-title: Campos de Classificação do Log de Trabalho
+solution: Experience Manager
+title: Campos de Classificação do Log de Trabalho
+topic: Scene7 Image Production System API
+uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# Campos de Classificação do Log de Trabalho{#job-log-sort-fields}
+
+Usado por getJobLogsParam/sortBy
+
+Sintaxe
+
+## Values {#section-e59e2c76cec94599946bd3714d3d6dd3}
+
+* [!DNL `JobName`]
+* [!DNL `LogType`]
+* [!DNL `StartDate`]
+* [!DNL `CompanyName`]
+* [!DNL `UserId`]
+* [!DNL `Email`]
+* [!DNL `FileErrorCount`]
+* [!DNL `FileWarningCount`]
+* [!DNL `FileSuccessCount`]
+
