@@ -1,0 +1,33 @@
+---
+description: nulo
+seo-description: nulo
+seo-title: Retornos de chamada de Evento
+solution: Experience Manager
+title: Retornos de chamada de Evento
+topic: Dynamic media
+uuid: 08756e93-2c6c-4c63-9dd0-c64531561d6f
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Retornos de chamada de Evento{#event-callbacks}
+
+O visualizador suporta retornos de chamada do evento JavaScript que a página da Web usa para rastrear o processo de inicialização do visualizador ou o comportamento do tempo de execução.
+
+Os manipuladores de retorno de chamada são atribuídos transmitindo nomes de eventos e funções de manipulador correspondentes com a `handlers` propriedade para o objeto `config` JSON no construtor do visualizador. Como alternativa, é possível usar o método `setHandlers()` API.
+
+Os eventos do visualizador suportados incluem:
+
+* `initComplete` - aciona quando a inicialização do visualizador é concluída e todos os componentes internos são criados, para que seja possível usar a `getComponent()` API. O manipulador de retorno de chamada não aceita nenhum argumento.
+
+* `trackEvent` - dispara cada vez que um evento ocorre dentro do visualizador que pode ser manipulado por um sistema de rastreamento de eventos, como o Adobe Analytics. O manipulador de retorno de chamada aceita os seguintes argumentos:
+
+   * `objID {String}` não utilizado no momento.
+   * `compClass {String}` não utilizado no momento.
+   * `instName {String}` um nome de instância do componente SDK do visualizador que acionou o evento.
+   * `timeStamp {Number}` evento carimbo de data/hora.
+   * `eventInfo {String}` Carga do evento.
+
+Consulte também [VideoViewer](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md#reference-bfad5aa071c74a66a23c39a9b48dedb0) e [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-sethandlers.md#reference-22b373b37e8943a7be5c4d4cc21ed926).
