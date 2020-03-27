@@ -1,0 +1,50 @@
+---
+description: Região de interesse. Especifica uma região retangular de interesse (ROI) na imagem composta, expressa em pixels.
+seo-description: Região de interesse. Especifica uma região retangular de interesse (ROI) na imagem composta, expressa em pixels.
+seo-title: rgn
+solution: Experience Manager
+title: rgn
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# rgn{#rgn}
+
+Região de interesse. Especifica uma região retangular de interesse (ROI) na imagem composta, expressa em pixels.
+
+rgn= *`coord`*, *`size`*
+
+<table id="simpletable_3A430F9078B04C2E90F4D1A130AFA20C"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="varname"> cabo</span> </p> </td> 
+  <td class="stentry"> <p>Deslocamento de pixel do canto superior esquerdo da imagem composta para a parte superior esquerda do ROI (int, int). </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="varname"> tamanho</span> </p></td> 
+  <td class="stentry"> <p>Tamanho do ROI em pixels (int, int). </p></td> 
+ </tr> 
+</table>
+
+>[!NOTE]
+>
+>`rgn=` define somente um ROI sem cortar a imagem. Quando o tamanho `wid=` e/ou `hei=` maior que o tamanho também é aplicado, dados adicionais da imagem composta podem estar visíveis na imagem de resposta final.
+
+## Propriedades {#section-53edb35f4e364d7ca13fd0886e8b0c86}
+
+Atributo de Visualização. Aplica-se independentemente da configuração de camada atual.
+
+Todas as áreas do ROI que se estendem para fora da imagem composta são preenchidas com `bgc=`.
+
+`rgn=` é aplicada antes do dimensionamento final e ajuste com `scl=`, `wid=`, `hei=`, `fit=`, `rect=`ou `align=`.
+
+## Padrão {#section-6a3df8f670084def900ffef9dab7e94a}
+
+Imagem composta inteira ( `rgn=0,0,width,height`).
+
+## Consulte também {#section-07883760f25c4d17aedbee36b7883891}
+
+[safra=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab) , [estende=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47), [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-align.md#reference-b7d6b87c75124d78884f916dd6544bc7)[](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989)[alinhamento=, fit=, rect=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rect.md#reference-520b90d30b4c4b4692a723e4df6adaf3)
