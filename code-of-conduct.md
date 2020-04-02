@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
@@ -45,4 +45,4 @@ Os mantenedores de projetos que não sigam ou apliquem o Código de Conduta de b
 
 ## Atribuição
 
-Este código de conduta é adaptado do Pacto de [Contribuinte](https://contributor-covenant.org), versão 1.4, disponível em [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Este Código de Conduta é adaptado pelo Pacto de [Contribuintes](https://contributor-covenant.org), versão 1.4, disponível em [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/).
