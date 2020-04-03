@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Diretrizes para contribuição para a documentação dos recursos do desenvolvedor do Adobe Dynamic Media
 
-## Filosofia de documentação do Adobe Dynamic Media Developer Resources
+## Filosofia da documentação
 
 Sabemos que os usuários do Adobe Dynamic Media estão trabalhando em ambientes altamente competitivos, tentando criar experiências digitais que os separarão de seus concorrentes. Portanto, é vital que, quando a Adobe fornecer novas ferramentas avançadas, essas ferramentas sejam complementadas com documentação precisa e clara para permitir que o cliente aproveite imediatamente seu investimento em Dynamic Media e maximize o ROI.
 
@@ -35,9 +35,9 @@ As exceções a essa regra se aplicam às notas de versão, onde os problemas co
 
 Quaisquer ideias que você precise melhorar a documentação são bem-vindas como contribuições. No entanto, comentários, problemas e solicitações de baixa automática são destinados apenas a *contribuições* . Eles não devem ser usados para responder suas perguntas sobre como usar o Dynamic Media, implementar seu projeto ou resolver problemas técnicos.
 
-Quaisquer dúvidas sobre o uso do Dynamic Media ou erros técnicos que possam ter sido relatados por meio do processo normal de suporte.
+Quaisquer dúvidas sobre o uso do Dynamic Media ou erros técnicos que possam ter sido relatados por meio do portal [de suporte empresarial da](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud ou discutidos na comunidade do [Experience Manager.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***As contribuições de documentação não substituem o suporte*** da Adobe e quaisquer contribuições que busquem respostas para perguntas relacionadas ao suporte serão rejeitadas.
+***As contribuições de documentação não substituem o Atendimento*** ao cliente da Adobe e quaisquer contribuições que busquem respostas para perguntas relacionadas ao suporte serão rejeitadas.
 
 ### As contribuições devem mencionar claramente as páginas de documentação afetadas.
 
