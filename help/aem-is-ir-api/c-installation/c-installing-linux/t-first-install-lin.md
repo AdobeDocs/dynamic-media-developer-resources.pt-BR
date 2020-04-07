@@ -21,8 +21,7 @@ Este procedimento mostra como instalar o Serviço de imagem pela primeira vez no
 
    Se o arquivo de chave de licença do Servidor de imagens e/ou Renderização de imagens (com sufixo de [!DNL .sc8] arquivo) estiver disponível, copie-o para esta pasta. Caso contrário, continue com a instalação e instale a chave de licença mais tarde.
 1. Descompacte e descompacte o arquivo tar de distribuição do Servidor de imagens.
-1. 
-   4. Execute [!DNL ./install-is], localizado na [!DNL Setup] pasta, para iniciar o assistente de instalação.
+1. Execute [!DNL ./install-is], localizado na [!DNL Setup] pasta, para iniciar o assistente de instalação.
    Se nenhuma chave de licença for encontrada, serão exibidas instruções descrevendo como obter um arquivo de licença. Faça isso neste ponto ou prossiga com a instalação do Serviço de imagens e instale a chave de licença mais tarde.
 1. Quando o Contrato de Licença de Usuário Final (EULA) for exibido, leia o contrato de licença e digite `y` para prosseguir.
 
