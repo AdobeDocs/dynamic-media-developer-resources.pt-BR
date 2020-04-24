@@ -7,7 +7,7 @@ title: Restrições e problemas conhecidos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -29,7 +29,7 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 * Sublinhar é um pouco mais baixo e mais fino do que usar `text=`.
 * `\expnd` e `\expndtw` usados com valores negativos altos fazem com que os caracteres sejam colocados na frente uns dos outros ao usar `text=`.
 
-* `\charscaley` dimensiona de forma diferente do que ao usar, mas não afeta a altura da linha. `text=`
+* `\charscaley` dimensiona de forma diferente do que ao usar `text=` , mas não afeta a altura da linha.
 
 * Se a última linha de texto não se ajustar, a linha inteira será solta em vez de aparecer como corte.
 * `\slmult` e `\sl` comportam-se de forma diferente do MS Word e `text=`, simplesmente entram em vigor para os parágrafos atuais e posteriores.
@@ -80,7 +80,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
 * As solicitações de TIFF ou vinheta sem pirâmide geram uma mensagem de erro semelhante à
 
-   *&quot;A imagem C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt não tem um DSF válido e a área de 2,25MPixel excede o máximo de 2 MPixel&quot;* .
+   *&quot;A imagem não`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`tem um DSF válido e a área de 2,25MPixel excede o máximo de 2 MPixel&quot;* .
 
    A melhor prática é usar arquivos em pirâmide e vinhetas. Se tiver de utilizar pontas ou vinhetas não pirâmides, siga as instruções abaixo para aumentar o limite de tamanho.
 
