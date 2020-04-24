@@ -7,7 +7,7 @@ title: Formatação de texto
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
    <td> <p>Ajuste de cópias </p> </td> 
    <td> <p>not </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> Ajuste de cópia <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> Ajuste de cópia <p>, <pre>\copyfit</pre>, <pre>\copy fitlines</pre>, <pre>\copy fitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Margens da caixa de texto </p> </td> 
    <td> <p>not </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> <p>\margl, \margr, \margt, \margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Justificação completa do parágrafo </p> </td> 
    <td> <p>not </p> </td> 
    <td> <p>yes </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>justificação da última linha </p> </td> 
@@ -153,7 +153,7 @@ Alguns processadores de texto geram arquivos bastante grandes, que incluem preâ
 
 A codificação de idioma baseada em padrões UTF-8 e ISO é suportada em strings RTF como uma alternativa aos mecanismos de codificação de caracteres RTF padrão. Isso permite que os aplicativos enviem texto que não seja em inglês para o servidor sem o conhecimento da codificação RTF.
 
-Todos os caracteres não compatíveis com HTTP devem ser escapados corretamente, se a string for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam ser evitados se a string for incorporada ao `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`e `<TAB>` devem ser sempre removidos.
+Todos os caracteres não compatíveis com HTTP devem ser evitados corretamente, se a sequência for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam ser evitados se a string for incorporada ao `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`e `<TAB>` devem ser sempre removidos.
 
 Os mecanismos de texto do Serviço de imagem interpretam um subconjunto de comandos definidos pela Especificação RTF (Rich Text Format), versão 1.6. Esse subconjunto está focado na formatação de fontes/caracteres, na formatação simples de parágrafos e no suporte a fontes e conjuntos de caracteres internacionais. No momento, não há suporte para construções de formatação mais avançadas, como folhas de estilos e tabelas.
 
