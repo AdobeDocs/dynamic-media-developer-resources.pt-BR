@@ -1,20 +1,25 @@
 ---
-description: Instruções para instalar a API do Scene7 Viewers.
-seo-description: Instruções para instalar a API do Scene7 Viewers.
+description: Instruções para instalar a API do visualizador de mídia dinâmica.
+seo-description: Instruções para instalar a API do visualizador de mídia dinâmica.
 seo-title: Instalação de vários visualizadores no mesmo servidor
 solution: Experience Manager
 title: Instalação de vários visualizadores no mesmo servidor
 topic: Dynamic media
 uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 1%
 
 ---
 
 
 # Instalação de vários visualizadores no mesmo servidor{#installing-multiple-viewers-on-the-same-server}
 
-Instruções para instalar a API do Scene7 Viewers.
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
+Instruções para instalar a API de visualizadores do Dynamic Media.
 
 Instale e teste o Serviço de imagem antes de instalar os visualizadores do Servidor de imagens.
 
@@ -22,7 +27,7 @@ Copie os arquivos IS Viewers para o disco rígido e implante o `s7viewers.war` a
 
 >[!NOTE]
 >
->Não há instalação de atualização para os visualizadores do Servidor de imagens. A Adobe recomenda que você faça backup de qualquer diretório de visualizadores Scene7 existente antes de continuar com a instalação.
+>Não há instalação de atualização para os visualizadores do Servidor de imagens. A Adobe recomenda que você faça backup de qualquer diretório de visualizadores do Dynamic Media existente antes de continuar com a instalação.
 
 **Para instalar os visualizadores no mesmo servidor**
 
