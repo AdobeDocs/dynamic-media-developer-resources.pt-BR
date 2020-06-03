@@ -5,9 +5,13 @@ seo-title: Requisitos do sistema
 solution: Experience Manager
 title: Requisitos do sistema
 topic: Dynamic media
+contentOwner: Rick Brough
 uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
@@ -16,10 +20,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 Requisitos de sistema para visualizadores HTML5.
 
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+
 ## Hardware e software para servidor {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Server 6.5.3 ou posterior.
-* Os visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.7.1 ou posterior.
+* Dynamic Media Classic Image Server 6.7.1 ou posterior.
+* Os visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.9.1 ou posterior.
 * Os recursos sociais &quot;Envie um email para um amigo&quot; exigem s7ondemand 5.0.7 ou posterior.
 * eCatalog Viewer - O suporte ao painel Informações requer o servidor de informações 2.1.8 ou posterior.
 * Os componentes do recurso de pesquisa exigem s7search 2.3.0 ou posterior.
@@ -28,18 +34,16 @@ Requisitos de sistema para visualizadores HTML5.
 
 **Requisitos mínimos do navegador cliente para visualizadores de componentes**
 
-* Monitor colorido e placa de vídeo que suportam cores altas de 16 bits com resolução de 1024 x 768 ou superior.
-* Microsoft® Windows® 7 ou posterior; Mac OS X 10.9 ou posterior.
-* Firefox 61, Safari 10 (somente Mac OS), Chrome 66 (ou versão mais recente; O Chrome é atualizado automaticamente para a versão mais recente), Internet Explorer 11, Microsoft Edge.
+* Microsoft® Windows® 7 ou posterior; macOS X 10.12 ou posterior.
+* Firefox 69, Safari 11 (somente macOS), Chrome 75 (ou versão mais recente; O Chrome é atualizado automaticamente para a versão mais recente), Internet Explorer 11, Microsoft Edge.
 * iOS6 ou posterior.
 * Certificado no iPhone 3GS ou posterior e no iPad 2 ou posterior (somente navegadores Safari e Chrome).
 * Android OS 4.x ou posterior.
 * BlackBerry 10 ou posterior; somente navegadores nativos. A reprodução de vídeo só é suportada neste momento.
 * O Internet Explorer em dispositivos móveis não é suportado no momento.
-* O visualizador panorâmico é compatível com iOS 10 ou posterior, Firefox 61, Chrome 66, Safari 11 ou posterior, Internet Explorer 11 ou posterior, Microsoft Edge, Android 4.4 ou posterior (somente dispositivos telefônicos).
-* O visualizador de vídeo 360 é compatível com iOS12 ou posterior, Firefox 61, Chrome 66, Safari 12 ou posterior, Microsoft Edge, Android 5 ou posterior (somente dispositivos telefônicos).
-* O visualizador Zoom vertical é compatível com iOS 10 ou posterior, Firefox 61, Chrome 66, Safari 11 ou posterior, Internet Explorer 11, Microsoft Edge, Android 4.x ou posterior.
-* O visualizador de vídeo não suporta a reprodução HLS (HTTP Live Streaming) no Internet Explorer 11 em execução no Windows 7.
+* O visualizador panorâmico é compatível com iOS 10 ou posterior, Firefox 69, Chrome 75, Safari 11 ou posterior, Internet Explorer 11 ou posterior, Microsoft Edge, Android 4.4 ou posterior (somente dispositivos telefônicos).
+* O visualizador de vídeo 360 e o visualizador Dimensional têm suporte para iOS12 ou posterior, Firefox 69, Chrome 75, Safari 12 ou posterior, Microsoft Edge, Android 5 ou posterior (somente dispositivos telefônicos).
+* O visualizador Zoom vertical é compatível com iOS 10 ou posterior, Firefox 69, Chrome 75, Safari 11 ou posterior, Internet Explorer 11, Microsoft Edge, Android 4.x ou posterior.
 
 <!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
 
