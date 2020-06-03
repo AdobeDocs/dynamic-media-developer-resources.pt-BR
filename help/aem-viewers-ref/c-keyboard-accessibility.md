@@ -1,26 +1,31 @@
 ---
-description: Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
-seo-description: Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
+description: Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carrossel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
+seo-description: Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Dimensional (3D), Carrossel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
 seo-title: Acessibilidade e navegação do teclado
 solution: Experience Manager
 title: Acessibilidade e navegação do teclado
 topic: Dynamic media
 uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 0%
 
 ---
 
 
 # Acessibilidade e navegação do teclado{#keyboard-accessibility-and-navigation}
 
-Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
+Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interative Image, Interative Video e Video360 são acessíveis ao teclado.
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Acessibilidade e navegação do teclado {#topic-f5650e9493404e55a3627c8d1366b861}
 
-Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Interative Image, Interative Video e Video360 são acessíveis ao teclado.
+Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interative Image, Interative Video e Video360 são acessíveis ao teclado.
 
-Um usuário final pode navegar entre os elementos da interface do usuário visualizador usando os pressionamentos de teclas **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** . O uso da **[!UICONTROL guia]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; usar **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta ao elemento anterior da interface do usuário. O foco transversal segue a localização do elemento natural da interface do usuário na tela e se move de esquerda para direita e de cima para baixo.
+Um usuário final pode navegar entre os elementos da interface do usuário do visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. O uso **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; o uso **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta ao elemento anterior da interface do usuário. O foco transversal segue a localização do elemento natural da interface do usuário na tela e se move de esquerda para direita e de cima para baixo.
 
 Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário que tem foco de entrada pode receber uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada em torno do elemento da interface do usuário.
 
