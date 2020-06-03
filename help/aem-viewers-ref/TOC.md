@@ -2,9 +2,12 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Dynamic Media Viewers Reference Guide
+user-guide-title: Guia de referência do visualizador de Dynamic Media
 translation-type: tm+mt
-source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
+source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+workflow-type: tm+mt
+source-wordcount: '1898'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +20,10 @@ source-git-commit: 58ac8050c9fc11557b3081eab3e6cacf03813441
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalação de vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
 + Notas de versão dos visualizadores {#viewers-release-notes}
-   + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-rn-07-08-19.md)
+   + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-rn-06-03-20.md)
    + Arquivo {#archive}
       + [Arquivo de notas de versão](c-release-notes/c-archive/c-archive.md)
+      + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Notas de versão dos visualizadores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
       + [Notas de versão do Scene7 Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
