@@ -7,7 +7,10 @@ title: Novas Adições e Alterações
 topic: Scene7 Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1234'
+ht-degree: 0%
 
 ---
 
@@ -115,7 +118,7 @@ As capas do visualizador suportam dois parâmetros: `skinFg` e `skinBg`. O códi
 
 Operação `getAssociatedAssets` implementada.
 
-Adicionado o tipo de `ReprocessAssets` trabalho para permitir o reprocessamento de arquivos mestres carregados anteriormente, incluindo a repetição de PDFs e a reotimização de imagens.
+Adicionado o tipo de `ReprocessAssets` trabalho para permitir o reprocessamento de arquivos de origem primária carregados anteriormente, incluindo a repetição de PDFs e a reotimização de imagens.
 
 Tipo de `PropertySetType` campo renomeado para `propertyType`. Isso afeta o `createPropertySetType` parâmetro e a `getPropertySetType/getPropertySetTypes` resposta.
 
