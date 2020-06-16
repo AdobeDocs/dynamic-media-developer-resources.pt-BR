@@ -7,7 +7,10 @@ title: Restrições e problemas conhecidos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 
 ## Restrições aplicáveis a bibliotecas de terceiros {#section-79768b96bf634e44ab672c5b893f343d}
 
-A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma imagem se ela já tiver sido detectada. Se uma edição suficiente for feita em uma imagem mestre, a biblioteca Digimarc ainda poderá reconhecer que a marca d&#39;água foi aplicada. No entanto, pode não ser capaz de ler essa informação. Isso resulta em uma nova imagem na qual as informações originais da Digimarc aplicadas à imagem original não podem ser obtidas. O Serviço de imagem agora pode aplicar a marca d&#39;água Digimarc definida no catálogo de empresas.
+A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma imagem se ela já tiver sido detectada. Se uma edição suficiente for feita em uma imagem primária, a biblioteca Digimarc ainda poderá reconhecer que a marca d&#39;água foi aplicada. No entanto, pode não ser capaz de ler essa informação. Isso resulta em uma nova imagem na qual as informações originais da Digimarc aplicadas à imagem original não podem ser obtidas. O Serviço de imagem agora pode aplicar a marca d&#39;água Digimarc definida no catálogo de empresas.
 
 ## Restrições aplicáveis ao Serviço de imagem e à Renderização de imagem {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
