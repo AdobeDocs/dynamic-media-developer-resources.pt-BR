@@ -7,7 +7,10 @@ title: Conversor de vinheta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ O Conversor de vinheta (vntc) é um utilitário de linha de comando usado para p
 
 [!DNL vntc] está localizado em [!DNL *[!DNL install_root]*\ImageServing\bin]. Ele tem os seguintes recursos:
 
-* Converte as vinhetas mestre em vinhetas de produção de resolução única, multiresolução ou pirâmide (consulte Escala de [vinheta](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)).
+* Converte as vinhetas primárias em vinhetas de produção de resolução única, multiresolução ou pirâmide (consulte [Escala](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585)de vinheta).
 * Produz arquivos de estilo do gabinete e da janela de produção (consulte `-resolution` e `-jpegquality`).
 
 * Pode produzir versões de arquivos diferentes de vinhetas, gabinetes e arquivos de estilo de revestimento de janela para uso com versões mais antigas da Renderização de imagem.
