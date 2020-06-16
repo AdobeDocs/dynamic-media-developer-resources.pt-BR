@@ -7,10 +7,13 @@ getting-started-title: Introdução
 getting-started-url: https://helpx.adobe.com/experience-manager/scene7/topics/getting-started.html
 tutorials-title: Tutoriais
 tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-videos/
-git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.pt-BR
 index: true
 translation-type: tm+mt
-source-git-commit: 3c3386026eabee4fa9be3294a912d9d255ef622f
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +30,4 @@ O arquivo metadata.md inclui metadados de nível de acordo de recompra que passa
 | getting-started-url | Link para a página de introdução ao helpx |
 | tutoriais-url | Link para tutoriais em vídeo — tutoriais do helpx ou tutoriais do KT |
 | níveis minitoctoc | Determina o número de níveis de cabeçalho exibidos no painel direito. o padrão é 2 |
-| repo git | Especifica o local do acordo principal para uso interno |
+| repo git | Especifica o local do acordo de origem principal para uso interno |
