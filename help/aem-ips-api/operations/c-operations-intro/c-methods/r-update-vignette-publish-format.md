@@ -7,7 +7,10 @@ title: updateVignettePublishFormat
 topic: Scene7 Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +35,8 @@ Atualiza as configurações de formato de publicação de vinheta.
 | ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Sim | Identificador de formato de publicação. |
 | ` *`name`*` | `xsd:string` | Não | Nome do formato de publicação. |
-| ` *`targetWidth`*` | `xsd:int` | Sim | Especifica a largura do público alvo da visualização de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho que a vinheta mestre. |
-| ` *`targetHeight`*` | `xsd:int` | Sim | Especifica a altura do público alvo da visualização de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho que a vinheta mestre. |
+| ` *`targetWidth`*` | `xsd:int` | Sim | Especifica a largura do público alvo da visualização de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho que a vinheta primária. |
+| ` *`targetHeight`*` | `xsd:int` | Sim | Especifica a altura do público alvo da visualização de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho que a vinheta primária. |
 | ` *`createPirâmid`*` | `xsd:boolean` | Sim | Cria uma vinheta pirâmide otimizada para aumentar o zoom no servidor de renderização de imagem. A partir do tamanho máximo, definido pelos campos Tamanho da vinheta do Público alvo, isso cria visualizações de vários tamanhos em um único arquivo de saída de vinheta. Cada tamanho de visualização subsequente é dividido em metade até que a largura e a altura estejam dentro de 128x128 pixels. |
 | ` *`thumbWidth`*` | `xsd:int` | Sim | Especifica a largura de cada miniatura resultante em pixels. Esta configuração é opcional. Deixe como zero para nenhum arquivo de miniatura. |
 | ` *`saveAsVersion`*` | `xsd:int` | Sim | Especifica o formato de arquivo para as vinhetas publicadas. Dada uma nova versão da Criação de imagens e uma versão mais antiga do Servidor de renderização de imagens, você deve especificar uma versão de vinheta que o Servidor de renderização de imagens pode ler. Se você especificar uma versão superior, o servidor de renderização de imagem não poderá ler as vinhetas publicadas. Defina como zero para publicar vinhetas na versão mais recente. |
