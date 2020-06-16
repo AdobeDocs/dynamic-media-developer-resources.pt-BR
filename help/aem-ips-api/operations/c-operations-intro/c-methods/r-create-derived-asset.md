@@ -1,20 +1,23 @@
 ---
-description: Cria um novo ativo derivado de um ativo de imagem mestre existente.
-seo-description: Cria um novo ativo derivado de um ativo de imagem mestre existente.
+description: Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
+seo-description: Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
 seo-title: createDeriveAsset
 solution: Experience Manager
 title: createDeriveAsset
 topic: Scene7 Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
 
 # createDeriveAsset{#createderivedasset}
 
-Cria um novo ativo derivado de um ativo de imagem mestre existente.
+Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
 
 Sintaxe
 
@@ -40,7 +43,7 @@ Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o ativo do qual você derivará o novo ativo. |
-| ` *`ownerHandle`*` | `xsd:string` | Sim | O identificador do ativo de imagem mestre a partir do qual a nova imagem será derivada. |
+| ` *`ownerHandle`*` | `xsd:string` | Sim | O identificador do ativo de imagem principal a partir do qual a nova imagem será derivada. |
 | ` *`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta na qual o novo ativo derivado será criado. |
 | ` *`name`*` | `xsd:string` | Sim | O nome do ativo derivado. |
 | ` *`type`*` | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
