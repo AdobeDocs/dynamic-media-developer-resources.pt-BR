@@ -7,7 +7,10 @@ title: ExportJob
 topic: Scene7 Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 1%
 
 ---
 
@@ -37,12 +40,12 @@ O ExportJob não oferece suporte aos seguintes tipos de ativos:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipos:HandleArray</span> </p> </td> 
    <td colname="col3" valign="top"> <p>Lista do <span class="codeph"> assetHandle</span> que deve ser exportada. Consulte <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Especifica o tipo de <span class="codeph"> export.Possible Values</span>: [barra, converter] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
@@ -51,17 +54,17 @@ O ExportJob não oferece suporte aos seguintes tipos de ativos:
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica a string de URL de renderização do <span class="codeph"> ImageServer</span> , que é anexada à solicitação de conversão <span class="codeph"> do ExportJob</span> . </p> <p>Consulte a documentação <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/" scope="external" format="html"> do</a> IS para obter detalhes sobre como enviar os modificadores IS. </p> </td> 
+   <td colname="col3"> <p>Especifica a string de URL de renderização do <span class="codeph"> ImageServer</span> , que é anexada à solicitação de conversão <span class="codeph"> do ExportJob</span> . </p> <p>Consulte a documentação <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> do</a> IS para obter detalhes sobre como enviar os modificadores IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Opção de configuração de email. Valores possíveis: </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
@@ -73,7 +76,7 @@ O ExportJob não oferece suporte aos seguintes tipos de ativos:
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Especifica o endereço IP do cliente ou cliente que iniciou a solicitação de exportação. </p> <p> <p>Observação:  esse parâmetro não é preenchido ativamente no momento e está reservado exclusivamente para uso futuro. </p> </p> </td> 
   </tr> 
