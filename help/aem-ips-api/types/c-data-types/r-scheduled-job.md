@@ -7,7 +7,10 @@ title: ScheduledJob
 topic: Scene7 Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 0%
 
 ---
 
@@ -36,14 +39,14 @@ Sintaxe
 | ` *`triggerState`*` | `xsd:int` | Estado do acionador da escolha de trabalho. |
 | ` *`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Detalhes da tarefa para uma tarefa de publicação de serviço de imagem. |
 | ` *`imageServingRenderJob`*` | `types:ImageServingRenderJob` | Detalhes do trabalho para um trabalho de renderização de imagem. |
-| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Detalhes do trabalho para um trabalho de publicação de vídeo. Consulte [VideoPublishJob](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`videoPublishJob`*` | `types:VideoPublishJob` | Detalhes do trabalho para um trabalho de publicação de vídeo. Consulte [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | ` *`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | Detalhes da tarefa para uma tarefa de publicação de diretório de servidor. |
 | ` *`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | Detalhes do trabalho para um trabalho de diretório de upload. |
 | ` *`uploadUrlsJob`*` | `types:UploadUrlsJob` | Detalhes do trabalho para um trabalho de upload de URLs. |
 | ` *`otimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar trabalho](https://marketing.adobe.com/resources/help/en_US/s7/ips_api/types/r_scheduled_job.html). |
+| ` *`exportJob`*` | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar trabalho](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
