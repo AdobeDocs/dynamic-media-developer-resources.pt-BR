@@ -8,7 +8,10 @@ title: Mídia mista
 topic: Dynamic media
 uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2681'
+ht-degree: 0%
 
 ---
 
@@ -189,7 +192,7 @@ O caminho relativo tem a seguinte aparência:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-outer-area.html)
 
-   Para tornar as dimensões principais da visualização estáticas, defina o tamanho do visualizador em unidades absolutas para o componente interno do `Container` SDK usando o seletor de `.s7mixedmediaviewer .s7container` CSS ou usando o `stagesize` modificador.
+   Para tornar as dimensões de visualização principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente SDK interno usando o seletor `Container` CSS ou usando o `.s7mixedmediaviewer .s7container` `stagesize` modificador.
 
    A seguir está um exemplo de como definir o tamanho do visualizador para o componente interno do `Container` SDK para que a área de visualização principal não altere seu tamanho ao alternar o ativo:
 
@@ -214,7 +217,7 @@ O caminho relativo tem a seguinte aparência:
 
 1. Criação e inicialização do visualizador.
 
-   Depois de concluir as etapas acima, crie uma instância de `s7viewers.MixedMediaViewer` classe, passe todas as informações de configuração para seu construtor e chame o `init()` método em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter o `containerId` `params` campo que contém o nome da ID do container do visualizador e o objeto JSON aninhado com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o `params` objeto deve ter pelo menos o URL de disponibilização de imagem passado como `serverUrl` propriedade, o URL do servidor de vídeo passado como `videoserverurl` propriedade e ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite que você crie e start o visualizador com uma única linha de código.
+   Depois de concluir as etapas acima, crie uma instância de `s7viewers.MixedMediaViewer` classe, passe todas as informações de configuração para o construtor e chame o `init()` método em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter o `containerId` `params` campo que contém o nome da ID do container do visualizador e o objeto JSON aninhado com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o `params` objeto deve ter pelo menos o URL de disponibilização de imagem passado como `serverUrl` propriedade, o URL do servidor de vídeo passado como `videoserverurl` propriedade e ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite que você crie e start o visualizador com uma única linha de código.
 
    É importante ter o container do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do container por sua ID. Alguns navegadores atrasam a criação de DOM até o final da página da Web. Para obter compatibilidade máxima, chame o `init()` método imediatamente antes da `BODY` tag de fechamento ou no `onload()` evento body.
 
@@ -325,9 +328,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura sem restrições:
+A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura irrestrita:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Incorporação flexível de tamanho com definição de largura e altura {#section-0a329016f9414d199039776645c693de}
 
