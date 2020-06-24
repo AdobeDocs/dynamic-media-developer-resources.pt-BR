@@ -8,14 +8,17 @@ title: Zoom
 topic: Dynamic media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2460'
+ht-degree: 0%
 
 ---
 
 
 # Zoom{#zoom}
 
-O Zoom Viewer é um visualizador de imagens que exibe uma imagem com zoom. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele tem ferramentas de zoom, suporte a tela cheia, amostras e um botão de fechamento opcional. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+O Zoom Viewer é um visualizador de imagens que exibe uma imagem com zoom. Esse visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele tem ferramentas de zoom, suporte a tela cheia, amostras e um botão de fechamento opcional. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
 >[!NOTE]
 >
@@ -133,7 +136,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic com os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic com os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
@@ -316,7 +319,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura irrestrita:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Incorporação de tamanho flexível com definição de largura e altura {#section-3674e6c032594441a6576b7fb1de6e64}
 
