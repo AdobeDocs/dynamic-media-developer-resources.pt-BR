@@ -1,20 +1,23 @@
 ---
-description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução Adobe Experience Manager na Adobe Marketing Cloud.
-seo-description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução Adobe Experience Manager na Adobe Marketing Cloud.
+description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
+seo-description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
 seo-title: Versão do último trimestre de 2016 do Scene7
 solution: Experience Manager
 title: Versão do último trimestre de 2016 do Scene7
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2263'
+ht-degree: 0%
 
 ---
 
 
 # Versão do último trimestre de 2016 do Scene7{#scene-fall-release}
 
-As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução Adobe Experience Manager na Adobe Marketing Cloud.
+As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
 
 ## Versão do último trimestre de 2016 do Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
@@ -58,7 +61,7 @@ Para obter a documentação completa, consulte [https://docs.adobe.com/content/h
 
 ## Visualizadores (Servidor de imagens 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obter a documentação completa, consulte o Guia [de referência dos visualizadores do](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
 
 **Correções de erros para o Serviço de imagem 5.5.3**
 
@@ -68,7 +71,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos visual
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obter a documentação completa, consulte o Guia [de referência dos visualizadores do](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
 
 **Correções de erros para o Serviço de imagem 5.5.2**
 
@@ -77,14 +80,14 @@ Para obter a documentação completa, consulte o Guia [de referência dos visual
 
 ## Visualizadores (Servidor de imagens 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obter a documentação completa, consulte o Guia [de referência dos visualizadores do](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/)Scene7.
+Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
 
 **Novos recursos, melhorias e correções de erros para o Serviço de Imagens 5.5.1**
 
 * Visualizador do eCatalog HTML5 com recurso de pesquisa.
 * Adicionada a reprodução de vídeo de streaming HLS como um método de delivery de vídeo padrão para a maioria dos sistemas de desktop. O streaming de vídeo HDS baseado em Flash ainda está disponível como uma opção alternativa de reprodução.
 * Adicionado suporte para dispositivos com entrada de mouse e toque que executam o navegador Chrome.
-* Adição do suporte à Marketing Cloud Org ID à integração do Analytics.
+* Adição do suporte à Marketing Cloud Org ID à integração com a Analytics.
 * Atualize a biblioteca JavaScript do AppMeasurement para a versão 1.6.1.
 * Adicionado suporte para a orientação da direita para a esquerda no visualizador eCatalog.
 * Corrigido o problema que `tip=0,-1,0` causava um erro fora do intervalo.
@@ -192,7 +195,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos visual
 
    * A imagem do pôster pode encontrar o erro &quot;tamanho máximo&quot;. A Empresa pode precisar aumentar a configuração de limite para o Image Serving Publish.
    * As legendas de vídeo exigem um conjunto de regras de empresa se a hospedagem da página HTML for fornecida por um servidor externo (não por um servidor Scene7). Entre em contato com o suporte da Adobe para obter ajuda.
-   * O rastreamento do Analytics pode relatar uma porcentagem de reprodução incorreta devido ao buffering
+   * O rastreamento do Analytics pode relatar a porcentagem de reprodução incorreta devido ao buffering
    * O quadro preto em vez da imagem de pôster pode ser exibido em dispositivos iPad ou Android.
    * O quadro preto pode piscar na tela durante o carregamento do visualizador em dispositivos iPad ou Android.
    * Bordas pretas são exibidas ao lado do componente VideoPlayer quando o plano de fundo é definido para branco/transparente em dispositivos iPad.
