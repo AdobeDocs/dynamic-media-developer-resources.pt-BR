@@ -1,14 +1,17 @@
 ---
-description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Esse visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsive
-seo-description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+seo-description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Esse visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 seo-title: Flyout
 solution: Experience Manager
 title: Flyout
 topic: Dynamic media
 uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2130'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +85,7 @@ O modo de incorporação de design responsivo supõe que o visualizador talvez p
 
 Ao usar o modo de incorporação de design responsivo com o Flyout Viewer, certifique-se de especificar pontos de interrupção explícitos para a imagem de visualização principal usando o `imagereload` parâmetro. Idealmente, combine seus pontos de interrupção com os pontos de interrupção da largura do visualizador, conforme indicado pelo CSS da página da Web.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como uma página da Web dimensiona seu container `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Isso significa que o ativo se encaixa perfeitamente na visualização, sem qualquer preenchimento lateral. Esse caso de uso em particular é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como uma página da Web dimensiona seu container `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Isso significa que o ativo se encaixa perfeitamente na visualização, sem qualquer preenchimento lateral. Esse caso de uso em particular é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap, Base e assim por diante.
 
 Caso contrário, se a página da Web definir a largura e a altura do container do visualizador `DIV`, o visualizador preencherá somente essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo de caso de uso é incorporar o visualizador em uma sobreposição modal, na qual a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -298,9 +301,11 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura sem restrições:
+A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura irrestrita:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 ## Incorporação flexível de tamanho com definição de largura e altura {#section-0a329016f9414d199039776645c693de}
 
