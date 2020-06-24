@@ -7,7 +7,10 @@ title: Vídeo interativo
 topic: Dynamic media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2243'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,7 @@ A incorporação de tamanho fixo é usada quando o visualizador não altera seu 
 
 A incorporação responsiva do design supõe que o visualizador talvez precise ser redimensionado no tempo de execução em resposta à alteração do tamanho de seu container `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu container `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à visualização, sem qualquer preenchimento lateral. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas de web design, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu container `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à visualização, sem qualquer preenchimento lateral. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas de design da Web, como Bootstrap, Foundation e assim por diante.
 
 Caso contrário, se a página da Web definir a largura e a altura do container do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho que o layout da página da Web fornece. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, na qual a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -93,7 +96,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic com os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic com os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
@@ -126,7 +129,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático para o visualizador declarando-o para a classe CSS de nível `.s7interactivevideoviewer` superior em unidades absolutas ou usando o `stagesize` modificador.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador nos ativos AEM - sob demanda ou transmitido explicitamente usando o `style` comando.
+   Você pode colocar o dimensionamento no CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador em AEM Assets - sob demanda ou transmitido explicitamente usando `style` o comando.
 
    Consulte [Personalização do visualizador](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de vídeo interativo para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -139,7 +142,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o `stagesize` modificador no registro predefinido do visualizador nos ativos AEM - sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com `params` coleção ou como uma chamada de API conforme descrito na seção Referência de comando, como:
+   Você pode definir o `stagesize` modificador no registro predefinido do visualizador em AEM Assets - sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com `params` coleção ou como uma chamada de API conforme descrito na seção Referência de comando, como:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -278,7 +281,9 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 A página de exemplos a seguir ilustra os usos mais reais da incorporação responsiva de design com altura irrestrita:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incorporação responsiva com definição de largura e altura**
 
