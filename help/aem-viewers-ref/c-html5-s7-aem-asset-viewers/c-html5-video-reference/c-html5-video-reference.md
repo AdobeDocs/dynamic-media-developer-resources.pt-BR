@@ -8,7 +8,10 @@ title: Vídeo
 topic: Dynamic media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2402'
+ht-degree: 0%
 
 ---
 
@@ -116,7 +119,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic com os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic com os IS-Viewers instalados.
 
 O caminho relativo é semelhante ao seguinte:
 
@@ -282,7 +285,9 @@ var videoViewer = new s7viewers.VideoViewer({
 
 A página de exemplos a seguir ilustra o uso mais real da incorporação responsiva de design com altura sem restrições:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incorporação de design responsivo com definição de largura e altura**
 
