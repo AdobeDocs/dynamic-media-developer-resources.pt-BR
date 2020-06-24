@@ -8,7 +8,10 @@ title: Rodar
 topic: Dynamic media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2166'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Consulte Requisitos [do sistema e pré-requisitos](../../c-system-requirements-a
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
 ## Uso do Spin Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -186,7 +189,7 @@ Você adiciona o Visualizador de rotação a uma página da Web, fazendo o segui
 
 1. Criação e inicialização do visualizador.
 
-   Depois de concluir as etapas acima, crie uma instância de `s7viewers.SpinViewer` classe, passe todas as informações de configuração para seu construtor e chame o `init()` método em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto tem um `containerId` `params` campo que contém o nome da ID de container do visualizador e o objeto JSON aninhado com parâmetros de configuração compatíveis com o visualizador. Nesse caso de `params` objeto, ele deve ter pelo menos o URL de disponibilização de imagem passado como `serverUrl` propriedade e ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite que você crie e start o visualizador com uma única linha de código.
+   Depois de concluir as etapas acima, crie uma instância de `s7viewers.SpinViewer` classe, passe todas as informações de configuração para o construtor e chame o `init()` método em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto tem um `containerId` `params` campo que contém o nome da ID de container do visualizador e o objeto JSON aninhado com parâmetros de configuração compatíveis com o visualizador. Nesse caso de `params` objeto, ele deve ter pelo menos o URL de disponibilização de imagem passado como `serverUrl` propriedade e ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite que você crie e start o visualizador com uma única linha de código.
 
    É importante ter o container do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do container por sua ID. Alguns navegadores atrasam a criação de DOM até o final da página da Web. Para obter compatibilidade máxima, chame o `init()` método imediatamente antes da `BODY` tag de fechamento ou no `onload()` evento body.
 
@@ -293,7 +296,9 @@ var spinViewer = new s7viewers.SpinViewer({
 
 A página de exemplos a seguir ilustra casos de uso mais reais de incorporação responsiva de design com altura sem restrições:
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Demos ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
 **Incorporação flexível de tamanho com definição de largura e altura**
 
