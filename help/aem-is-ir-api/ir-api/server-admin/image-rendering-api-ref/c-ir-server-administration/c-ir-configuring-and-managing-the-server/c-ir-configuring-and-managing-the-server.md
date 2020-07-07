@@ -7,7 +7,10 @@ title: Configuração e gerenciamento do servidor
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Esta seção contém informações para ajudá-lo a configurar e gerenciar o Servidor de renderização de imagem.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >O serviço de imagem deve estar corretamente configurado e funcional para o funcionamento correto da renderização de imagem.
 
