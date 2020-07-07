@@ -7,7 +7,10 @@ title: Servidor
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 50db98cc-8354-4884-9416-00808828061b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -20,23 +23,23 @@ Use essas configurações do servidor para configurar seu servidor.
 
 Uma versão de 32 e 64 bits do Image Server está disponível para Linux. Especifique ImageServer64 quando instalado em servidores Linux de 64 bits, ou ImageServer32 (padrão) quando instalado em servidores de 32 bits.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >A versão de 64 bits do Servidor de imagens não suporta arquivos de origem FlashPix.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >O modo de 64 bits não é suportado no Windows. Só `ImageServer32` pode ser especificado. Caso contrário, o Serviço de imagem não será start.
 
-## SV::PsHeapSize - Tamanho do Heap do Servidor de Plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Tamanho do Heap do Servidor Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-O tamanho do heap do Java para o Servidor da plataforma. O padrão é &quot; `512m`&quot; (512 Mbytes).
+O tamanho do heap do Java para o Platform Server. O padrão é &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Porta de escuta do servidor de imagens {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica a porta usada para comunicação entre o Servidor de plataforma e o Servidor de imagem. Especifique um número de porta que não seja usado de outra forma no sistema host.
+Especifica a porta usada para comunicação entre o Platform Server e o Image Server. Especifique um número de porta que não seja usado de outra forma no sistema host.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Para que o serviço de imagem funcione corretamente, o mesmo valor deve ser definido para `IS::TcpPort` e `PS::isConnection.port`.
 
