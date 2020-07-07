@@ -7,7 +7,10 @@ title: Limites de alerta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Use essas configurações do servidor para configurar limites de alerta.
 
 ## AS: monitorAlertGenerator.maxAverageResponseTime - Limite de tempo de resposta AS: monitorAlertGenerator.maxAverageResponseTime - Tempo de resposta {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-Um alerta de tempo de resposta é emitido quando o tempo médio para processar uma solicitação durante o intervalo de amostragem excede o limite definido aqui. Expresso em mseg; integer 0 ou maior. Os valores típicos estão entre 100 e 1000 ms, dependendo da complexidade das operações.
+Um alerta de tempo de resposta é emitido quando o tempo médio para processar uma solicitação durante o intervalo de amostragem excede o limite definido aqui. Expresso em mseg; integer 0 ou maior. Valores típicos estão entre 100 e 1000 ms, dependendo da complexidade das operações.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >As solicitações que resultam em status de resposta 4xx ou 5xx não são consideradas para este alerta.
 
@@ -36,7 +39,7 @@ Um alerta de tráfego mínimo é enviado quando o número médio de solicitaçõ
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Limite de espaço livre do heap {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica o mínimo de espaço livre do Java heap. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre do heap está abaixo desse limite. 50 MB são recomendados para a operação segura do Servidor de plataforma. Manter o espaço livre do heap acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
+Especifica o mínimo de espaço livre do Java heap. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre do heap está abaixo desse limite. 50 MB são recomendados para a operação segura do Platform Server. Manter o espaço livre do heap acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
 
 ## AS::monitorAlertGenerator.maxOverlap - Número Máximo de Solicitações Simultâneas {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
