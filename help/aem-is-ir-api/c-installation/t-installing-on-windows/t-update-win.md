@@ -7,7 +7,10 @@ title: Atualização do IS 4.7.4 ou posterior
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +21,19 @@ Use este procedimento ao atualizar o Scene7 Image Serving.
 
 Se você estiver atualizando de uma versão mais antiga do Serviço de imagem, entre em contato com o suporte para o processo correto.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >A [!DNL webapps] pasta pode ser excluída na atualização. Faça backup da [!DNL webapps] pasta antes da atualização.
 
 1. Faça logon no host do servidor com privilégios administrativos.
 1. Extraia o conteúdo do arquivo zip de distribuição do Servidor de imagens.
 1. Execute setup/setup.exe para iniciar o assistente de instalação.
-1. Clique em **[!UICONTROL Avançar]** para avançar para o Contrato de Licença de Usuário Final (EULA), ler o contrato de licença e clicar em **[!UICONTROL Sim]**.
+1. Clique para avançar **[!UICONTROL Next]** para o Contrato de Licença de Usuário Final (EULA), ler o contrato de licença e clicar em **[!UICONTROL Yes]**.
 
    A página seguinte exibe as configurações anteriores.
-1. Clique em **[!UICONTROL Avançar]** para start da instalação da atualização.
+1. Clique em **[!UICONTROL Next]** para start da instalação de atualização.
 
-   >[!NOTE] {class=&quot;- tópico/observação &quot;}
+   >[!NOTE]
    >
    >O instalador faz o backup dos arquivos de configuração do servidor antigos na [!DNL BACKUP/] pasta.
 
