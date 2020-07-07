@@ -7,9 +7,9 @@ title: Conversor de vinheta
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Ao gerar vinhetas de produção, a largura de pixel da vinheta de saída (ou 0 n
 
 [!DNL vntc] limita-se, por padrão, a no máximo 3 GB de memória. Quando a Vntc atingir esse limite, o processamento será interrompido e ocorrerá um erro. Esse limite pode ser alterado usando `-maxmem`.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >A Ferramenta de atualização de vinheta na criação de imagens também pode ser usada para preparar vinhetas para o uso da renderização de imagens. Da mesma forma, a Ferramenta de criação de conteúdo é capaz de gerar arquivos no estilo gabinete para uso com a Renderização de imagem. Use [!DNL vntc] se o processamento for automatizado. As ferramentas na Criação de imagens incluem uma interface gráfica do usuário, portanto, normalmente são mais fáceis de usar interativamente.
 
