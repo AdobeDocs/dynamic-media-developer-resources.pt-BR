@@ -7,7 +7,10 @@ title: Solicitação de aninhamento e incorporação
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 O Serviço de imagens oferece suporte ao aninhamento ilimitado de solicitações do Serviço de imagens, à incorporação de solicitações de Renderização de imagens, bem como à incorporação de imagens recuperadas de servidores estrangeiros. Somente imagens de camada e máscaras de camada suportam esses mecanismos.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Determinados clientes de email e servidores proxy podem codificar as chaves usadas para a sintaxe de aninhamento e incorporação. Os aplicativos para os quais isso é um problema devem usar parênteses em vez de chaves.
 
@@ -30,7 +33,7 @@ O `is` token faz distinção entre maiúsculas e minúsculas.
 
 A solicitação aninhada não deve incluir o caminho raiz do servidor (normalmente ` http:// *[!DNL server]*/is/image/'`).
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações aninhadas devem ser codificadas da mesma forma que a solicitação externa (aninhamento).
 
@@ -62,7 +65,7 @@ O `ir` token faz distinção entre maiúsculas e minúsculas.
 
 *[!DNL renderRequest]* é a solicitação comum de renderização de imagem, excluindo o caminho raiz HTTP ` http:// *[!DNL server]*/ir/render/`.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
@@ -87,13 +90,13 @@ Quando o renderizador de gráficos FXG (também conhecido como [!DNL AGMServer])
 
 O `fxg` token faz distinção entre maiúsculas e minúsculas.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >A renderização de gráficos FXG está disponível somente no ambiente hospedado do Scene7 e pode exigir licenciamento adicional. Entre em contato com o suporte do Scene7 para obter mais informações.
 
 *[!DNL renderRequest]* é a solicitação de renderização FXG comum, excluindo o caminho raiz HTTP ` http:// *[!DNL server]*/agm/render/`.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
@@ -119,7 +122,7 @@ Para especificar um URL externo para um comando `src=` ou `mask=` , delimite o f
 
 Importante Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
-URLs absolutos completos (se `attribute::AllowDirectUrls` estiverem definidos) e URLs relativos a `attribute::RootUrl` são permitidos. Ocorre um erro se um URL absoluto for incorporado e o atributo: `AllowDirectUrls` é 0, ou se um URL relativo é especificado e `attribute::RootUrl` está vazio.
+URLs absolutos completos (se `attribute::AllowDirectUrls` estiverem definidos) e URLs relativos a `attribute::RootUrl` são permitidos. Ocorre um erro se um URL absoluto for incorporado e o atributo: `AllowDirectUrls` for 0, ou se um URL relativo for especificado e `attribute::RootUrl` estiver vazio.
 
 Embora URLs externos não possam ser especificados diretamente no componente de caminho do URL da solicitação, é possível configurar uma regra de pré-processamento para permitir a conversão de caminhos relativos em URLs absolutos (consulte o exemplo abaixo).
 
@@ -127,7 +130,7 @@ As imagens estrangeiras são armazenadas em cache pelo servidor de acordo com os
 
 Este mecanismo suporta os mesmos formatos de arquivo de imagem suportados pelo utilitário Conversão de imagem (IC), com exceção das imagens de origem com 16 bits por componente.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >O Serviço de imagem executará automaticamente o utilitário de validação quando uma imagem estrangeira for usada pela primeira vez, para garantir que a imagem seja válida e não tenha sido corrompida durante a transmissão. Isso pode causar um pequeno atraso no primeiro acesso. Para obter o melhor desempenho, é recomendável limitar o tamanho dessas imagens e/ou usar um formato de arquivo de imagem que compacte bem.
 
