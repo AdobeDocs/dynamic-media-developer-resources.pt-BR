@@ -7,7 +7,10 @@ title: Validação do cache de respostas
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Para aplicativos típicos que envolvem principalmente imagens registradas em cat
 
 As entradas de cache se tornam inválidas e estão sujeitas a nova geração quando uma entrada de catálogo envolvida na solicitação muda de uma forma que provavelmente causaria uma alteração na imagem de resposta. Por exemplo, o conteúdo das `catalog::Modifier` alterações.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >As imagens TIFF (PTIFF) da pirâmide Scene7 mantêm a data do arquivo internamente no cabeçalho do arquivo para fins de validação. O tempo de modificação do arquivo mantido pelo sistema de arquivos é usado para verificar se um arquivo não PTIFF foi alterado.
 
