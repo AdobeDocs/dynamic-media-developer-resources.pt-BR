@@ -7,7 +7,10 @@ title: Limites de tamanho de imagem
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Use essas configurações do servidor para definir os limites de tamanho da imag
 
 ## IS::MaxMessageSize - Limite de Tamanho de Resposta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita o tamanho dos dados que o Servidor de Imagens tem permissão para enviar ao Servidor de Plataformas. Efetivamente, isso limita o tamanho da imagem de resposta codificada/compactada que o Serviço de imagem pode retornar ao cliente via HTTP (Mbytes).
+Limita o tamanho dos dados que o Servidor de Imagens tem permissão para enviar ao Platform Server. Efetivamente, isso limita o tamanho da imagem de resposta codificada/compactada que o Serviço de imagem pode retornar ao cliente via HTTP (Mbytes).
 
 ## IS::MaxRenderRgnPixels - Limite de Tamanho de Imagem de Saída {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -32,7 +35,7 @@ Limita o tamanho das imagens que o Servidor de imagens gravará nos arquivos com
 
 O tamanho máximo (em pixels) de imagens que não são PTIFFs que o Servidor de imagens tem permissão para abrir. O Serviço de imagem retornará um erro quando for feita uma tentativa de acessar uma imagem não PTIFF maior que esse limite.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >A configuração desse valor muito alto pode fazer com que o Servidor de imagens fique sem memória e resultar em falhas, incluindo falhas.
 
