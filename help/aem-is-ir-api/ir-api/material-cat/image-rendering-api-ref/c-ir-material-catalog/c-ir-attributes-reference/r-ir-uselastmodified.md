@@ -7,7 +7,10 @@ title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ O servidor usa o mais recente `vignette::TimeStamp` e o `catalog::TimeStamp` val
 
 Deve ser ativada somente se uma rede de armazenamento em cache distribuída, como Akamai, for usada e não suportar cabeçalhos de tag.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >É necessário ter cuidado ao usar cabeçalhos Última modificação em um ambiente com balanceamento de carga que envolva vários hosts de disponibilização/renderização de imagem. O cache do cliente pode ser derrotado e a carga do servidor pode aumentar se, por algum motivo, os servidores tiverem carimbos de data e hora diferentes para as mesmas entradas do catálogo. Tal situação pode ocorrer do seguinte modo:
 
