@@ -7,7 +7,10 @@ title: Pastas de dados de conteúdo
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 0%
 
 ---
 
@@ -26,9 +29,9 @@ A localização dos dados da fonte de conteúdo estático que devem ser entregue
 
 Vários valores podem ser especificados separados por ponto-e-vírgula para distribuir conteúdo estático em vários sistemas de arquivos. Normalmente definido para os mesmos valores `IS::RootPath`.
 
-O Servidor de plataforma tenta os caminhos raiz na ordem especificada até que o arquivo solicitado seja encontrado.
+O Platform Server tenta os caminhos raiz na ordem especificada até que o arquivo solicitado seja encontrado.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Por padrão, esse campo é definido intencionalmente para um local não existente ( [!DNL *[!DNL install_folder]*/static]), desativando efetivamente o serviço de conteúdo estático.
 
