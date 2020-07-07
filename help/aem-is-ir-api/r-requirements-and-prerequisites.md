@@ -7,7 +7,10 @@ title: Requisitos e pré-requisitos do sistema
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Antes de usar o Scene7 Image Serving, verifique se o sistema atende aos requisit
 
 Seu servidor deve atender aos seguintes requisitos de hardware.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
->Os sistemas com processadores AMD64 e Intel® EM64T geralmente são configurados como plataformas NUMA (Non-Uniform Memory Architecture). Isso significa que o kernel constrói vários nós de memória em tempo de inicialização, em vez de construir um único nó de memória. A construção de vários nós pode resultar em exaustão de memória em um ou mais nós antes que outros nós fiquem esgotados. Quando ocorre o esgotamento da memória, o kernel pode decidir matar processos (por exemplo, o Servidor de imagens ou o Servidor de plataformas) mesmo que haja memória disponível. Portanto, a Adobe Systems recomenda que, se você estiver executando um sistema desse tipo, desligue o NUMA. Use a opção `numa=off` start para evitar que o kernel pare esses processos.
+>Os sistemas com processadores AMD64 e Intel® EM64T geralmente são configurados como plataformas NUMA (Non-Uniform Memory Architecture). Isso significa que o kernel constrói vários nós de memória em tempo de inicialização, em vez de construir um único nó de memória. A construção de vários nós pode resultar em exaustão de memória em um ou mais nós antes que outros nós fiquem esgotados. Quando ocorre o esgotamento da memória, o kernel pode decidir matar processos (por exemplo, o Servidor de imagens ou o Servidor Platform) mesmo que haja memória disponível. Portanto, a Adobe Systems recomenda que, se você estiver executando um sistema desse tipo, desligue o NUMA. Use a opção `numa=off` start para evitar que o kernel pare esses processos.
 
 **Windows**
 
