@@ -7,7 +7,10 @@ title: ImageServerRegistry.xml
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintax
 
 Para que as alterações entrem em vigor, reinicie o Servidor de imagens após a edição deste arquivo. Somente os valores de elementos listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando solicitado pelo Suporte técnico do Scene7.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Não altere a estrutura de `<imageserverregistry>`, incluindo a ordem dos elementos. Tenha cuidado ao editar esse arquivo; caso contrário, o Servidor de imagens poderá falhar no start.
 
