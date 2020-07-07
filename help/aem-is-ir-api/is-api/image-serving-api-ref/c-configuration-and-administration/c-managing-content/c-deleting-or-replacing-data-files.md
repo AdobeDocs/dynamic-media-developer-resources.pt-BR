@@ -7,7 +7,10 @@ title: Exclusão ou substituição de arquivos de dados
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Embora a adição de novos arquivos de dados seja simples e direta, é necessário ter cuidado especial ao substituir os arquivos de dados existentes que são usados ativamente pelo servidor. Em vez de simplesmente substituir esses arquivos, é recomendável dar um novo nome ao arquivo de substituição (por exemplo, anexar um sufixo de versão ao nome do arquivo). Depois que o novo arquivo for colocado em execução, a versão antiga poderá ser excluída.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Os arquivos de dados nunca devem ser substituídos ou excluídos enquanto estiverem em uso ativo pelo Serviço de imagem. Caso contrário, podem ocorrer erros ou mesmo falhas no servidor.
 
-Em todos os casos, lembre-se de que o cache do Servidor de plataforma e as entradas de cache do cliente devem se tornar obsoletos antes que os dados atualizados sejam vistos pelo cliente. Entradas específicas do cache podem ser atualizadas imediatamente usando o `cache=validate` comando.
+Em todos os casos, lembre-se de que o cache do Platform Server e as entradas do cache do cliente devem se tornar obsoletos antes que os dados atualizados sejam vistos pelo cliente. Entradas específicas do cache podem ser atualizadas imediatamente usando o `cache=validate` comando.
 
 As alterações nos arquivos de fonte e nos arquivos de perfil ICC não são rastreadas diretamente pelo gerenciador de cache. Se tal recurso for modificado sem alterar sua id, o cache do servidor não saberá da alteração e não `cache=validate` fará com que a entrada do cache seja atualizada. `cache=update` pode ser usado para forçar a regeneração dessas entradas de cache.
 
