@@ -7,7 +7,10 @@ title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Carimbo de data e hora de modificação do arquivo. Especifica a data/hora em qu
 
 Se `attribute::UseLastModified` estiver definido, o mais recente dos valores `catalog::TimeStamp` e `vignette::TimeStamp` valores de todos os materiais e a vinheta envolvida na solicitação será retornada na resposta HTTP como um cabeçalho modificado pela última vez.
 
->[!NOTE] {class=&quot;- tópico/observação &quot;}
+>[!NOTE]
 >
 >Os tempos de arquivo reais da imagem ou dos arquivos de dados anexados a esse registro de catálogo nunca são usados para essa finalidade.
 
