@@ -7,7 +7,10 @@ title: Instalação pela primeira vez
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
@@ -61,13 +64,14 @@ Este procedimento mostra como instalar o Serviço de imagem pela primeira vez no
 
    Certifique-se de que todos os números de porta especificados sejam exclusivos e não usados de outra forma neste host.
 
-   **Importante: **Se uma conta que não seja raiz for especificada, verifique se as permissões de acesso para todos os arquivos e pastas que o Servidor de imagens precisa ler e/ou gravar estão configuradas corretamente quando essas pastas forem reconfiguradas nos arquivos de configuração.
->O Serviço de imagem agora está instalado em [!DNL /usr/local/Scene7/ImageServing]. Determinados conteúdos de renderização de imagem estão instalados em [!DNL /usr/local/Scene7/ImageRendering].
->
->No final da instalação, o assistente de instalação tenta start do Image Server. Se nenhuma chave de licença válida for encontrada, o Servidor de Imagens não poderá start. Se houver uma licença válida e o Servidor de imagens ainda não estiver inicializando, consulte os arquivos de registro.
->[!NOTE]
-Se a licença for instalada após a instalação do Servidor de imagens, o Servidor de imagens deverá ser iniciado manualmente antes do uso.
->
->
->
+   >[!IMPORTANT]
+   >
+   >Se uma conta que não seja raiz for especificada, verifique se as permissões de acesso para todos os arquivos e pastas que o Servidor de imagens precisa ler e/ou gravar estão configuradas corretamente quando essas pastas são reconfiguradas nos arquivos de configuração.
+   >
+   >O Serviço de imagem agora está instalado em [!DNL /usr/local/Scene7/ImageServing]. Determinados conteúdos de renderização de imagem estão instalados em [!DNL /usr/local/Scene7/ImageRendering].
+   >
+   >No final da instalação, o assistente de instalação tenta start do Image Server. Se nenhuma chave de licença válida for encontrada, o Servidor de Imagens não poderá start. Se houver uma licença válida e o Servidor de imagens ainda não estiver inicializando, consulte os arquivos de registro.
 
+>[!NOTE]
+>
+>Se a licença for instalada após a instalação do Servidor de imagens, o Servidor de imagens deverá ser iniciado manualmente antes do uso.
