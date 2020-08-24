@@ -7,7 +7,10 @@ title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p> Configura como o componente obtém novas imagens para a visualização principal e flyout durante o redimensionamento. </p> <p>Definido como <span class="codeph"> 0 </span>, o componente não carrega novas imagens durante o redimensionamento, e a resolução da imagem na visualização flyout não é alterada. </p> <p>Definir como <span class="codeph"> 1 </span> permite especificar um ou mais pontos de interrupção de largura para a imagem carregada na visualização principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ponto de interrupção, <span class="varname"> largura </span>[; <span class="varname"> largura </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ponto de interrupção, <span class="varname"> largura </span>; <span class="varname"> largura </span> </span> </p> </td> 
    <td colname="col2"> <p>Pontos de interrupção de largura para a imagem carregada na visualização principal. </p> <p>O componente sempre usa o melhor tamanho de ajuste para a carga inicial. Após o redimensionamento, garante que a imagem na visualização principal seja sempre baixada usando a largura igual ao ponto de interrupção maior mais próximo e baixada no cliente. </p> </td> 
   </tr> 
  </tbody> 
