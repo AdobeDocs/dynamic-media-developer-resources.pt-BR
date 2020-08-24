@@ -7,7 +7,10 @@ title: ImageSet
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
-source-git-commit: 06f227705765e4173e1c4b49dd7d8202884f5e07
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '703'
+ht-degree: 0%
 
 ---
 
@@ -18,19 +21,19 @@ Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classi
 
 Um conjunto de imagens consiste em uma lista de itens classificada, separada por vírgulas, com cada item consistindo em um ou mais sub-itens (IDs de imagem, IDs de amostra, caminhos de arquivos de mídia, rótulos etc.), separados por ponto-e-vírgula e/ou dois-pontos.
 
-As chaves &#39;{ }&#39; e os parênteses &#39;( )&#39; podem ser usados para delimitar determinado conteúdo (como valores de cor) ou indicar conjuntos aninhados. Os chaves ou parênteses usados dessa forma não devem ser codificados e devem sempre aparecer como pares correspondentes; caso contrário, ocorrerá um erro de análise de catálogo.
+As chaves `{ }` e os parênteses `( )` podem ser usados para delimitar determinado conteúdo (como valores de cor) ou indicar conjuntos aninhados. Os chaves ou parênteses usados dessa forma não devem ser codificados e devem sempre aparecer como pares correspondentes; caso contrário, ocorrerá um erro de análise de catálogo.
 
 >[!NOTE]
 >
 >Os seguintes caracteres são usados como delimitadores definidos e devem ser codificados por HTTP quando aparecem no conjunto como parte dos valores de id ou string:
 >
->* ,
->* ;
->* :
->* {
->* }
->* (
->* )
+>* `,`
+>* `;`
+>* `:`
+>* `{`
+>* `}`
+>* `(`
+>* `)`
 
 
 
@@ -116,7 +119,7 @@ Um conjunto de vídeos consiste em uma lista simples de ids de vídeo em que cad
 
 ## Propriedades {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Sequência de caracteres de texto. lista de `catalog::Id` valores separados por vírgulas, caminhos de arquivo absolutos do Servidor de imagens ou caminhos de arquivo relativos a `attribute::RootPath`. A mesma imagem pode ser referenciada mais de uma vez no conjunto. O registro de catálogo de definição pode aparecer no conjunto em qualquer local.
+Sequência de caracteres de texto. Lista de `catalog::Id` valores separados por vírgulas, caminhos de arquivo absolutos do Servidor de imagens ou caminhos de arquivo relativos a `attribute::RootPath`. A mesma imagem pode ser referenciada mais de uma vez no conjunto. O registro de catálogo de definição pode aparecer no conjunto em qualquer local.
 
 Esse campo participa da localização da string de texto. Além das *`label`* strings (parte do *`solidColorSpecifier`*), todos os campos delimitados são localizados se incluírem pelo menos um token de localização &#39; `^loc=…^`&#39;. Consulte a Localização [String de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texto na Referência *do protocolo* HTTP para obter detalhes.
 
