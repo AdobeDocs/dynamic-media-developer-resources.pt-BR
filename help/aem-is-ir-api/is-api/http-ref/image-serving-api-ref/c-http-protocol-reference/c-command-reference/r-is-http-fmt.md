@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 Formato de imagem de resposta.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alfa| png8-alfa| tif| tif-alfa| swf| swf-alfa| swf3| swf3-alfa| eps| gif| gif-alfa| m3u8| f4m| Web| webp-alfa| jpeg2000| jpeg2000-alfa| jpegxr| jpegxr-alfa
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alfa | png8-alfa | tif | tif-alfa | swf | swf-alfa | swf3 | swf3-alfa | eps | gif | gif-alfa | m3u8 | f4m | Web | webp-alfa | jpeg2000 | jpeg2000-alfa | jpegxr | jpegxr-alfa
 
 | *`format`* | Descrição |
 |---|---| 
@@ -35,12 +38,12 @@ Formato de imagem de resposta.
 | `eps` | PostScript binário encapsulado não compactado |
 | `gif` | GIF com 2 a 256 cores |
 | `gif-alpha` | GIF com 2 a 255 cores mais transparência de cores chave |
-| `swf` | JPEG com perda incorporado em um arquivo swf do Adobe AS2 |
-| `swf-alpha` | JPEG com perda e uma máscara compactada em deflate incorporada a um arquivo swf do Adobe AS2 |
-| `swf3` | JPEG com perda incorporado em um arquivo swf do Adobe AS3 |
-| `swf3-alpha` | JPEG com perdas e uma máscara compactada em deflate incorporada a um arquivo swf do Adobe AS3. **Observação**: os formatos swf e swf-alfa são melhor usados para aplicativos ActionScript 2 (Flash Player 8 e anterior). swf3 e swf3-alfa são recomendados para uso em aplicativos ActionScript3 (Flash Player 9 e posterior) |
+| `swf` | JPEG com perdas incorporado em um arquivo swf do Adobe AS2 |
+| `swf-alpha` | JPEG com perdas e uma máscara compactada deflate incorporada em um arquivo swf do Adobe AS2 |
+| `swf3` | JPEG com perdas incorporado em um arquivo swf do Adobe AS3 |
+| `swf3-alpha` | JPEG com perda e uma máscara compactada em deflate incorporada a um arquivo swf do Adobe AS3. **Observação**: os formatos swf e swf-alfa são mais bem usados para aplicativos do ActionScript 2 (Flash Player 8 e anterior). swf3 e swf3-alfa são recomendados para uso em aplicativos ActionScript3 (Flash Player 9 e posterior) |
 | `m3u8` | Formato de manifesto do Apple Streaming Server |
-| `f4m` | Formato de manifesto do Flash Streaming Server |
+| `f4m` | Formato de manifesto do Servidor de Streaming do Flash |
 | `webp` | WebP sem perdas e com perdas |
 | `webp-alpha` | WebP com perda e perda com canal alfa |
 | `jpeg2000` | JPEG 2000 com perdas e perdas |
@@ -82,8 +85,8 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> formato</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> format</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> Tipo MIME de resposta</b> </th> 
    <th class="entry"> <b>Incorporar perfil ICC</b> </th> 
    <th class="entry"> <b> Opções</b> </th> 
@@ -116,13 +119,13 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span></span> <p> ( <span class="codeph"> nenhum|lzw|zip|jpeg </span>) </p> <p>apenas "tiff"; 'tiff-alfa' não suporta compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorada, a menos que <span class="varname"> a compactação </span> seja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compressão </span> </span> <p> ( <span class="codeph"> nenhum|lzw|zip|jpeg </span>) </p> <p>apenas "tiff"; 'tiff-alfa' não suporta compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorada, a menos que <span class="varname"> a compactação </span> seja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alfa, swf-alfa3 </p> </td> 
    <td colname="col2"> <p>rgb, cinza </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Não </p> <p> <p>Observação:  O Adobe Flash Player ignora perfis ICC incorporados. </p> </p> </td> 
+   <td colname="col4"> <p>Não </p> <p> <p>Observação:  O Flash Player Adobe ignora perfis ICC incorporados. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -130,7 +133,7 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span></span> <p> ( <span class="codeph"> nenhum|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorada, a menos que <span class="codeph"> a compactação <span class="varname"> esteja definida como </span> jpeg </span> <span class="codeph"> </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compressão </span> </span> <p> ( <span class="codeph"> nenhum|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorada, a menos que <span class="codeph"> a compactação <span class="varname"> esteja definida como </span> jpeg </span> <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -151,7 +154,7 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;imagem/Web&gt; </span> </p> </td> 
    <td> <p>Não </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compactação </span> ( </span> com perdas <span class="codeph"> , sem </span>perdas <span class="codeph"> </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perdas </span>. </p> <p>Como não há conceito de redução da resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>), o segundo valor ( <span class="codeph"> 1 </span>) será ignorado. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compactação </span> ( </span> com perdas <span class="codeph"> , </span>sem perdas <span class="codeph"> </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perdas </span>. </p> <p>Como não há conceito de redução da resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>), o segundo valor ( <span class="codeph"> 1 </span>) será ignorado. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alfa </p> </td> 
