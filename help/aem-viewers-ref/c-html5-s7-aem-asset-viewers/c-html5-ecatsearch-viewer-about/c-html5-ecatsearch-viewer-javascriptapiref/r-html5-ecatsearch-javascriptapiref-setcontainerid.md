@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -18,14 +21,14 @@ Referência da API JavaScript para o eCatalog Viewer.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-Define a ID do `DOM` container [!DNL (normalmente a [!DNL `DIV`]) no qual o visualizador é inserido. Não é necessário ter o elemento de container criado no momento em que esse método é chamado. No entanto, o container deve existir quando [!DNL `init()`] é executado. Deve ser chamado antes [!DNL `init()`].
+Define a ID do `DOM` container (normalmente a `DIV`) na qual o visualizador é inserido. Não é necessário ter o elemento de container criado no momento em que esse método é chamado. No entanto, o container deve existir quando `init()` é executado. Deve ser chamado antes `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto [!DNL `config`] JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> ID do container. </p> </td> 
   </tr> 
  </tbody> 
