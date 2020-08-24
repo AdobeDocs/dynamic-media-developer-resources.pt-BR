@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Formato de imagem de resposta. Especifica o formato de codificação de imagem para os dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP.
 
-` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*`]]
+` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -52,12 +55,12 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>JPEG com perda incorporado em um arquivo swf Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG com perda incorporado em um arquivo swf do Macromedia. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alfa </p> </td> 
-  <td class="stentry"> <p>JPEG com perdas e uma máscara compactada deflate incorporada a um arquivo swf Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG com perda e uma máscara compactada em deflate incorporada a um arquivo swf do Macromedia. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
