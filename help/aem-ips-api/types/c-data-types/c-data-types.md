@@ -7,7 +7,10 @@ title: Tipos de dados
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 0%
 
 ---
 
@@ -124,7 +127,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [MaskInfo](r-mask-info.md)
 + [MasterVideoInfo](r-master-video-info.md)
 + [MediaOptions](r-media-options.md)
-+ [Metadados](r-metadata.md)
++ [Media](r-metadata.md)
 + [MetadataArray](r-metadata-array.md)
 + [MetadataCondition](r-metadata-conditon.md)
 + [MetadataConditionArray](r-metadata-condition-array.md)
@@ -159,7 +162,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [Projeto](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [Propriedade](r-property.md)
-+ [PropertyArray](r-property-array.md)
++ [StringProperty](r-property-array.md)
 + [PropertySet](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
@@ -191,7 +194,6 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TagCondition](r-tag-condition.md)
 + [TagConditionArray](r-tag-condition-array.md)
-+ [TagConditionArray](r-tag-condition-array.md)
 + [TagFieldValues](r-tag-field-values.md)
 + [TagFieldValuesArray](r-tag-field-values-array.md)
 + [TagValueUpdate](r-tag-value-update.md)
@@ -202,7 +204,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [TaskItemProgressArray](r-task-item-progress-array.md)
 + [TaskProgress](r-task-progress.md)
 + [TaskProgressArray](r-task-progress-array.md)
-+ [TemplateInfo](r-template-info.md)
++ [Operações de ModeloInfo](r-template-info.md)
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [OpçõesMiniaturas](r-thumbnail-options.md)
@@ -214,8 +216,8 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [UploadUrlArray](r-upload-url-array.md)
 + [UploadUrlsJob](r-upload-urls-job.md)
 + [UrlArray](r-url-array.md)
-+ [Usuário](r-user.md)
-+ [UserArray](r-user-array.md)
++ [Tarefa](r-user.md)
++ [TipoUserArray](r-user-array.md)
 + [VideoCaptionInfo](r-video-caption-info.md)
 + [VideoInfo](r-video-info.md)
 + [VideoPublishJob](r-video-publish-job.md)
