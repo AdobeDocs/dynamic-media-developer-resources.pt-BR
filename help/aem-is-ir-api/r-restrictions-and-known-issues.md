@@ -1,15 +1,15 @@
 ---
-description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Serving.
-seo-description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Serving.
+description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Server.
+seo-description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Server.
 seo-title: Restrições e problemas conhecidos
 solution: Experience Manager
 title: Restrições e problemas conhecidos
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Restrições e problemas conhecidos{#restrictions-and-known-issues}
 
-Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Serving.
+Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Server.
 
 ## errata de documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -37,9 +37,9 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 * Se a última linha de texto não se ajustar, a linha inteira será solta em vez de aparecer como corte.
 * `\slmult` e `\sl` comportam-se de forma diferente do MS Word e `text=`, simplesmente entram em vigor para os parágrafos atuais e posteriores.
 
-* `\sb` se aplica ao primeiro parágrafo para MS Word e `text=`, o Adobe InDesign e o Photoshop não fazem isso.
+* `\sb` se aplica ao primeiro parágrafo para MS Word e `text=`, Adobe InDesign e Photoshop não fazem isso.
 
-* `\sa` se aplica ao último parágrafo para MS Word e `text=`, o Adobe InDesign e o Photoshop não fazem isso.
+* `\sa` se aplica ao último parágrafo para MS Word e `text=`, Adobe InDesign e Photoshop não fazem isso.
 
 ## Compatibilidade com versões anteriores {#section-a76842f751944f4fb664af296d064122}
 
@@ -89,19 +89,19 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    *Solução*:
 
-   Para renderizar vinhetas não pirâmides, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no arquivo de configuração [!DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   Para renderizar imagens em vinhetas não pirâmides, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no arquivo de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuração.
 
-   Para TIFFs não pirâmides do Serviço de Imagens, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de configuração [!DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   Para TIFFs não pirâmides do Serviço de imagem, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuração.
 
 * O Adobe Photoshop CS3 não salva arquivos PSD em camadas por padrão em uma imagem composta.
 
    *Sintomas*:
 
-   O arquivo PSD em camadas do Adobe Photoshop CS3 é exibido como preto com o texto informando: &quot;Esse arquivo em camadas do Photoshop não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
+   O arquivo PSD em camadas do Adobe Photoshop CS3 é exibido como preto com o texto informando: &quot;Esse arquivo Photoshop em camadas não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
 
    *Solução*:
 
-   Salve o arquivo do Adobe Photoshop CS3 com o máximo de compatibilidade ativado.
+   Salve o arquivo Adobe Photoshop CS3 com o máximo de compatibilidade ativado.
 
 * Atribuir Perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução*:
 
@@ -119,8 +119,8 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 * Imagens PNG de 16bpc não são compatíveis com texto PhotoFont.
 * As correções de cores para imagens PNG com perfis de cor incorporados usam opções codificadas. O propósito de renderização é colorimétrico relativo e a compensação do ponto preto está ativada para o texto PhotoFont.
 * A pesquisa baseada em arquivo não é suportada quando a tradução da localidade está ativada no arquivo de empresa [!DNL ini] .
-* O Serviço de imagem não grava corretamente caminhos do Photoshop não fechados.
-* No momento, o Serviço de imagem não suporta o processamento de arquivos TIFF exportados usando o Adobe Media Encoder 4.0.1 ou anterior. O Adobe Media Encoder está incluído no Premiere Pro CS4, no After Effects CS4 e no Creative Suite 4 Production Premium.
+* O Serviço de imagem não grava corretamente caminhos Photoshop não fechados.
+* No momento, o Serviço de imagem não oferece suporte ao processamento de arquivos TIFF exportados usando o Adobe Media Encoder 4.0.1 ou anterior. A Adobe Media Encoder está incluída no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
 * O uso `text=` com camadas de autodimensionamento não suporta sequências de caracteres RTF que usam mais de uma configuração para justificação de linha.
 
    *Exemplo*
@@ -135,7 +135,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    *Solução*
 
-   Defina a propriedade `svgProvider.fontRoot=` em [!DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf].
+   Defina a propriedade `svgProvider.fontRoot=` em [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Atualmente, a opção Recortar está usando `bgColor=` em vez de `color=` preencher qualquer área recentemente estendida.
 
@@ -145,7 +145,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 ## Restrições aplicáveis somente à renderização de imagem {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Os decalques e materiais de parede não são removíveis.
-* O tamanho das texturas é limitado em relação ao tamanho da visualização da vinheta. Em raras circunstâncias, o limite padrão de 425% do tamanho da visualização pode interferir com um aplicativo usando texturas muito grandes não repetíveis. Se não for possível alterar o aplicativo ou o conteúdo para que funcione dentro das limitações predefinidas, a porcentagem pode ser aumentada da seguinte forma. Usando um editor de texto, abra [!DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml], localize `IrMaxTextureSizeFactor` e insira um novo valor de porcentagem. A alteração entrará em vigor imediatamente sem reiniciar o Servidor de imagens.
+* O tamanho das texturas é limitado em relação ao tamanho da visualização da vinheta. Em raras circunstâncias, o limite padrão de 425% do tamanho da visualização pode interferir com um aplicativo usando texturas muito grandes não repetíveis. Se não for possível alterar o aplicativo ou o conteúdo para que funcione dentro das limitações predefinidas, a porcentagem pode ser aumentada da seguinte forma. Usando um editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], localize `IrMaxTextureSizeFactor` e insira um novo valor de porcentagem. A alteração entrará em vigor imediatamente sem reiniciar o Servidor de imagens.
 
 * Os mecanismos JavaScript nos dados de resposta do cache Netscape e Opera mesmo se o cabeçalho nocache estiver definido. Isto interfere no funcionamento adequado dos pedidos de Estado.
 
