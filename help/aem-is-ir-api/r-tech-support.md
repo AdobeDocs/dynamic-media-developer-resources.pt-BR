@@ -7,7 +7,10 @@ title: Suporte técnico
 topic: Scene7 Image Serving - Image Rendering API
 uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 420021e6c15bb7434379b90990ed4f6c7d695f4e
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Use o seguinte para entrar em contato com o suporte técnico.
 
-| Telefone: | 800-898-9743 das 6 às 18 horas, horário do Pacífico dos Estados Unidos, de segunda a sexta-feira, exceto Feriados |
-|---|---|
-| Email: | s7support@adobe.com |
+* **Telefone** - 800-898-9743 das 06:00 às 18:00, Horário do Pacífico dos Estados Unidos, de segunda a sexta-feira, exceto feriados.
+* **Criar um caso** de suporte - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
