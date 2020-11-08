@@ -7,7 +7,10 @@ title: Bloqueio de solicitação
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 Para reduzir a possibilidade de adulteração de pedidos, é disponibilizada uma facilidade de bloqueio simples.
 
 Se o atributo::RequestLock estiver definido, um valor de bloqueio deve ser anexado à solicitação, na forma de `&xxxx`, com xxxx sendo um valor hexadecimal de quatro dígitos. Esse valor hexadecimal é gerado usando um algoritmo de hash simples aplicado à parte dos *modificadores* da solicitação (após &#39;?&#39; que separa o caminho do URL dos *modificadores*). Isso deve ser feito depois que a solicitação for totalmente codificada em http, mas antes que seja (opcionalmente) ofuscada. Depois de desofuscar a solicitação, o servidor usará o mesmo algoritmo de hash na string do modificador (excluindo os últimos 5 caracteres, que contêm o valor de bloqueio). Se a chave gerada não corresponder ao bloqueio, a solicitação será rejeitada.
+
+>[!IMPORTANT]
+>
+>Se você habilitar esse recurso, esteja ciente de que há certas limitações ao seu uso que incluem o seguinte:<br>- A interface do usuário do Dynamic Media pode não mostrar os detalhes corretos para o **[!UICONTROL Last Published]** campo. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo HLS não funciona quando **[!UICONTROL Request Obfuscation]** e **[!UICONTROL Request Locking]** são ativados.
 
 Código de amostra C++ para gerar o valor de bloqueio de solicitação:
 
