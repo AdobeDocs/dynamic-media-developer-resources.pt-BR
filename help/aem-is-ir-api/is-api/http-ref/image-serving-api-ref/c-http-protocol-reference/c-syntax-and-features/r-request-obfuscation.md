@@ -7,7 +7,10 @@ title: Ofuscação de solicitação
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +20,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 O conteúdo de toda a parte dos modificadores da string de solicitação, incluindo o sufixo de bloqueio opcional, pode ser ocultado pela aplicação da codificação padrão base64.
 
 O servidor tentará decodificar se `attribute::RequestObfuscation` estiver definido. Se a decodificação falhar, o pedido será rejeitado. Se o bloqueio de solicitação e a ofuscação de solicitação forem aplicados, o sufixo de bloqueio deverá ser gerado e anexado antes da codificação de base64.
+
+>[!IMPORTANT]
+>
+>Se você habilitar esse recurso, esteja ciente de que há certas limitações ao seu uso que incluem o seguinte:<br>- A interface do usuário do Dynamic Media pode não mostrar os detalhes corretos para o **[!UICONTROL Last Published]** campo. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo HLS não funciona quando **[!UICONTROL Request obfuscation]** e **[!UICONTROL Request locking]** são ativados.
 
 ## Example {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
