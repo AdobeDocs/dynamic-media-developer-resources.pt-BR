@@ -7,7 +7,7 @@ title: Ofuscação de solicitação
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -23,7 +23,7 @@ O servidor tentará decodificar se `attribute::RequestObfuscation` estiver defin
 
 >[!IMPORTANT]
 >
->Se você habilitar esse recurso, esteja ciente de que há certas limitações ao seu uso que incluem o seguinte:<br>- A interface do usuário do Dynamic Media pode não mostrar os detalhes corretos para o **[!UICONTROL Last Published]** campo. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo HLS não funciona quando **[!UICONTROL Request obfuscation]** e **[!UICONTROL Request locking]** são ativados.
+>Se você ativar esse recurso, esteja ciente de que há certas limitações ao seu uso que incluem o seguinte:<br>- A interface do usuário do Dynamic Media pode não mostrar os detalhes corretos para o **[!UICONTROL Last Published]** campo. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo HLS não funciona quando **[!UICONTROL Request obfuscation]** e **[!UICONTROL Request locking]** são ativados.
 
 ## Example {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
