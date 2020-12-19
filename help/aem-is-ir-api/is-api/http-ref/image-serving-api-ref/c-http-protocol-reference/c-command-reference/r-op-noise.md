@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +46,7 @@ Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plan
 
 ## Propriedades {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`.
 
 ## Padrão {#section-d548868fa4b64a60bcb481cad1f8113e}
 
