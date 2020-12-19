@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ A aparência das regiões de resultado da pesquisa é controlada com o seguinte 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fundo  </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo da região de resultados da pesquisa. </p> </td> 
   </tr> 
  </tbody> 
