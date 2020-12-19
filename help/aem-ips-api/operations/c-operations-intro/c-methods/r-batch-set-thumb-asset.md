@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Define a imagem em miniatura de um ou mais ativos.
 
 Sintaxe
 
-## Tipos de ativos em miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Tipos de ativos miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
 Os tipos de ativos em miniatura permitidos consistem no seguinte:
 
