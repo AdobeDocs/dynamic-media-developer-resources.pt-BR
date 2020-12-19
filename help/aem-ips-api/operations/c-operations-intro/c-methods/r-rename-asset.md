@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Renomeia um ativo.
 
 >[!NOTE]
 >
->O `renameFiles` parâmetro foi descontinuado para versões anteriores e removido de `renameAsset`. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos do arquivo físico não são afetados. Os clientes da API precisam remover referências a esse parâmetro ao atualizar para a nova versão da API.
+>O parâmetro `renameFiles` foi preterido para versões anteriores e removido de `renameAsset`. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos do arquivo físico não são afetados. Os clientes da API precisam remover referências a esse parâmetro ao atualizar para a nova versão da API.
 
 ## Tipos de usuário autorizados {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -42,11 +45,11 @@ Renomeia um ativo.
 | ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
 | ` *`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo que você deseja renomear. |
 | ` *`newName`*` | `xsd:string` | Sim | O novo nome do ativo. |
-| ` *`validateName`*` | `xsd:boolean` | Sim | Se o `validateName` for e o tipo de ativo exigir uma ID IPS exclusiva, o novo nome será verificado quanto à exclusividade global e `true` `renameAsset` emitirá uma falha se não for exclusiva. |
+| ` *`validateName`*` | `xsd:boolean` | Sim | Se `validateName` for `true` e o tipo de ativo exigir uma ID IPS exclusiva, o novo nome será verificado quanto à exclusividade global e `renameAsset` emitirá uma falha se não for exclusiva. |
 
 **Saída (renameAssetReturn)**
 
-A API IPS não retorna uma resposta para esta operação. Consulte a descrição do `<ns1:validateName>` elemento para obter avisos sobre esse elemento.
+A API IPS não retorna uma resposta para esta operação. Consulte a descrição do elemento `<ns1:validateName>` para obter avisos sobre esse elemento.
 
 ## Exemplos {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
