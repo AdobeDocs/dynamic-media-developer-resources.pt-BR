@@ -32,7 +32,7 @@ ht-degree: 0%
       ]&gt;</code> </p> <p>A sintaxe real do modelo de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Ou seja, o modelo deve start com o elemento <span class="codeph"> &lt;info&gt;</span> que pode conter elementos padrão <span class="codeph"> &lt;var&gt;</span> opcionais. O próprio conteúdo do modelo, <span class="codeph"> TEMPLATE_CONTENT</span> é o texto HTML. Além disso, o modelo de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres. Esses caracteres são substituídos pelos valores de variável que o servidor de informações retorna ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de sobreposição não estiver definido) ou específicas para uma determinada chave de sobreposição (se o atributo de sobreposição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para sobrepor chaves têm prioridade sobre as variáveis globais. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Ou seja, o modelo deve start com o elemento <span class="codeph"> &lt;info&gt;</span> que pode conter elementos opcionais padrão <span class="codeph"> &lt;var&gt;</span>. O próprio conteúdo do modelo, <span class="codeph"> TEMPLATE_CONTENT</span> é texto HTML. Além disso, o modelo de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres. Esses caracteres são substituídos pelos valores de variável que o servidor de informações retorna ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de sobreposição não estiver definido) ou específicas para uma determinada chave de sobreposição (se o atributo de sobreposição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para sobrepor chaves têm prioridade sobre as variáveis globais. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,8 +49,8 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-16d184665c484964af9a22f79ff3f840}
+## Exemplo {#section-16d184665c484964af9a22f79ff3f840}
 
-Supondo que a resposta do servidor de informações retorne o nome do produto como variável `$1$` e o URL da imagem do produto seja retornado como variável `$2$`.
+Supondo que a resposta do servidor de informações retorne o nome do produto como variável `$1$` e o URL da imagem do produto é retornado como variável `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
