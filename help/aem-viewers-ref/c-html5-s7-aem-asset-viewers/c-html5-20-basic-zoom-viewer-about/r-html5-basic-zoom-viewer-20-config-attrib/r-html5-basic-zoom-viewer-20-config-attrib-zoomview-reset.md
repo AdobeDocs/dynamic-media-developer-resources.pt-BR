@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3f46660f-28d4-421b-b35a-27c3bfb53579
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Redefine a porta de visualização quando o quadro (imagem) muda. Se definido como <span class="varname"> 0</span> , preservará a porta de visualização atual com o melhor ajuste possível, preservando a proporção da imagem recém-definida. </p> </td> 
+   <td colname="col2"> <p> Redefine a porta de visualização quando o quadro (imagem) muda. Se definido como <span class="varname"> 0</span> preserva a porta de visualização atual com o melhor ajuste possível, preservando a proporção da imagem recém-definida. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `1`
 
-## Example {#section-96e69b70365f461dae4399e49044ea2f}
+## Exemplo {#section-96e69b70365f461dae4399e49044ea2f}
 
 `reset=0`
