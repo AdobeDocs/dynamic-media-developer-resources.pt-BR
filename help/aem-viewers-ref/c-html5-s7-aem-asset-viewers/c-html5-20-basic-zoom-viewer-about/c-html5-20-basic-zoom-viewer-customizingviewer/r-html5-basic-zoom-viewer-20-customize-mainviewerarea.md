@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f37b8d25-4bd6-481e-88e7-98192186b177
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,11 +42,11 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A largura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
