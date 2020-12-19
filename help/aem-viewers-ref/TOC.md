@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: Guia de referência do visualizador de Dynamic Media
+user-guide-title: Guia de referência de visualizadores do Dynamic Media
 translation-type: tm+mt
 source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
 workflow-type: tm+mt
@@ -12,16 +12,16 @@ ht-degree: 1%
 ---
 
 
-# Guia de referência do visualizador de Dynamic Media {#library}
+# Guia de referência de visualizadores do Dynamic Media {#library}
 
-+ [Página inicial dos recursos do desenvolvedor do Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Guia de referência do visualizador de Dynamic Media](/help/aem-viewers-ref/home.md)
++ [Página inicial de recursos do desenvolvedor Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Guia de referência de visualizadores do Dynamic Media](/help/aem-viewers-ref/home.md)
 + [Exemplos da biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalação de vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
-+ Notas de versão dos visualizadores {#viewers-release-notes}
++ Notas de versão do visualizador {#viewers-release-notes}
    + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-rn-06-03-20.md)
-   + Arquivo {#archive}
+   + Arquivar {#archive}
       + [Arquivo de notas de versão](c-release-notes/c-archive/c-archive.md)
       + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
@@ -35,8 +35,8 @@ ht-degree: 1%
       + [Notas de versão do Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Notas de versão do Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notas de compatibilidade](c-compatibility-notes.md)
-+ Visualizadores para ativos AEM e Dynamic Media Classic {#viewers-aem-assets-dmc}
-   + [Visualizadores para ativos AEM e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
++ Visualizadores para AEM Assets e Dynamic Media Classic {#viewers-aem-assets-dmc}
+   + [Visualizadores para AEM Assets e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Zoom básico {#basic-zoom}
       + [Visualizador de zoom básico](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-basic-zoom}
@@ -65,7 +65,7 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setaram.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
       + Personalização do Visualizador de zoom básico {#customizing-basic-zoom}
          + [Personalização do Visualizador de zoom básico](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [Botão Fechar](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
@@ -77,12 +77,12 @@ ht-degree: 1%
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Botão Redefinir zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomresetbutton.md)
-         + [visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomview.md)
+         + [Visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-zoomview.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md)
       + [Suporte a tela cheia](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-full-screen-support.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-ecatalog}
@@ -142,7 +142,7 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
       + Personalização do eCatalog Viewer {#customizing-ecatalog}
          + [Personalização do eCatalog Viewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [Botão Adicionar favorito](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
@@ -153,7 +153,7 @@ ht-degree: 1%
          + [Compartilhamento no Facebook](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-facebookshare.md)
          + [Menu Favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesmenu.md)
          + [Efeito Favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoriteseffect.md)
-         + [visualização Favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesview.md)
+         + [Visualização Favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-favoritesview.md)
          + [Botão Primeira página](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-firstpagebutton.md)
          + [Destaque do foco](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-focushighlight.md)
          + [Botão de tela cheia](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-fullscreenbutton.md)
@@ -168,7 +168,7 @@ ht-degree: 1%
          + [Área do visualizador principal](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-mainviewerarea.md)
          + [Botão Próxima página](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-nextpagebutton.md)
          + [Indicador de página](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-pageindicator.md)
-         + [visualização da página](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-pageview.md)
+         + [Visualização da página](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-pageview.md)
          + [Botão Página anterior](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-previouspagebutton.md)
          + [Imprimir](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-print.md)
          + [Botão Remover favorito](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-removefavorite.md)
@@ -179,7 +179,7 @@ ht-degree: 1%
          + [Botão Miniaturas](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-thumbnailsbutton.md)
          + [Dicas de ferramentas](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-tooltips.md)
          + [Compartilhamento no Twitter](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-customize-twittershare.md)
-         + [Botão Visualização de todos os favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-viewallfavorites.md)
+         + [Botão visualização de todos os favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-viewallfavorites.md)
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomoutbutton.md)
          + [Botão Redefinir zoom](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-zoomresetbutton.md)
@@ -192,7 +192,7 @@ ht-degree: 1%
       + [Recurso Imprimir](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-print-feature.md)
       + [Download](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-download.md)
       + [Recurso Favoritos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-favorites-feature.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
    + Pesquisa do eCatalog {#ecatalog-search}
       + [Pesquisa do eCatalog](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-ecatalog-search}
@@ -246,7 +246,7 @@ ht-degree: 1%
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
-      + Referência de API do Javascript para o eCatalog Search Viewer {#jsapi-ecatalog-search}
+      + Referência de API do Javascript para o visualizador de pesquisa do eCatalog {#jsapi-ecatalog-search}
          + [Referência de API do Javascript para o eCatalog Search Viewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [dispor](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
@@ -258,8 +258,8 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + Personalização do eCatalog Search Viewer {#customize-ecatalog-search}
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
+      + Personalizando o eCatalog Search Viewer {#customize-ecatalog-search}
          + [Personalização do eCatalog Search Viewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [Botão Adicionar favorito](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [Botão Fechar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -269,7 +269,7 @@ ht-degree: 1%
          + [Compartilhamento no Facebook](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-facebookshare.md)
          + [Efeito Favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoriteseffect.md)
          + [Menu Favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesmenu.md)
-         + [visualização Favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesview.md)
+         + [Visualização Favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-favoritesview.md)
          + [Botão Primeira página](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-firstpagebutton.md)
          + [Destaque do foco](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-focushighlight.md)
          + [Botão de tela cheia](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-fullscreenbutton.md)
@@ -284,7 +284,7 @@ ht-degree: 1%
          + [Área do visualizador principal](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-mainviewerarea.md)
          + [Botão Próxima página](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-nextpagebutton.md)
          + [Indicador de página](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-pageindicator.md)
-         + [visualização da página](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-pageview.md)
+         + [Visualização da página](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-pageview.md)
          + [Botão Página anterior](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-previouspagebutton.md)
          + [Imprimir](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-print.md)
          + [Botão Remover favorito](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-removefavorite.md)
@@ -298,7 +298,7 @@ ht-degree: 1%
          + [Botão Miniaturas](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-thumbnailsbutton.md)
          + [Dicas de ferramentas](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-tooltips.md)
          + [Compartilhamento no Twitter](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-twittershare.md)
-         + [Botão Visualização de todos os favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-viewallfavorites.md)
+         + [Botão visualização de todos os favoritos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-viewallfavorites.md)
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomoutbutton.md)
          + [Botão Redefinir zoom](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-zoomresetbutton.md)
@@ -311,7 +311,7 @@ ht-degree: 1%
       + [Suporte a tela cheia](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-full-screen-support.md)
       + [Download](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-download.md)
       + [Recurso de pesquisa](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-favorites-feature.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
    + Flyout {#flyout}
       + [Flyout](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-flyout}
@@ -347,10 +347,10 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md)
       + Personalização do Flyout Viewer {#customize-flyout}
          + [Personalização do Flyout Viewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md)
-         + [visualização de zoom do menu suspenso](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
+         + [Visualização de zoom do menu suspenso](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-flyoutzoomview.md)
          + [Destaque do foco](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-focushighlight.md)
          + [Área do visualizador principal](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-mainviewerarea.md)
          + [Amostras](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/r-html5-flyout-viewer-20-customize-swatches.md)
@@ -358,7 +358,7 @@ ht-degree: 1%
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
    + Zoom em linha {#inline-zoom}
       + [Zoom em linha](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-inline-zoom}
@@ -392,18 +392,18 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + Personalização do Visualizador de zoom incorporado {#customing-inline-zoom}
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
+      + Personalizando o Visualizador de Zoom Inline {#customing-inline-zoom}
          + [Personalização do Visualizador de zoom incorporado](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [Área do visualizador principal](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
-         + [visualização de zoom do menu suspenso](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
+         + [Visualização de zoom do menu suspenso](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
          + [Destaque do foco](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-focushighlight.md)
          + [Amostras](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-swatches.md)
          + [Dicas de ferramentas](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-tooltips.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
    + Mídia mista {#mixed-media}
       + [Mídia mista](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-mixed-media}
@@ -476,7 +476,7 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
       + Personalização do visualizador de mídia mista {#customing-mixed-media}
          + [Personalização do visualizador de mídia mista](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [Botão Legenda](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
@@ -493,7 +493,7 @@ ht-degree: 1%
          + [Definir indicador](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-setindicator.md)
          + [Botão Girar para a esquerda](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinleftbutton.md)
          + [Botão girar para a direita](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinrightbutton.md)
-         + [visualização de rotação](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinview.md)
+         + [Visualização de rotação](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinview.md)
          + [Efeito ícone visualização de rotação](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinviewiconeffect.md)
          + [Dicas de ferramentas](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-tooltips.md)
          + [Botão Vídeo em tela cheia](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-videofullscreenbutton.md)
@@ -504,15 +504,15 @@ ht-degree: 1%
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomoutbutton.md)
          + [Botão Redefinir zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomresetbutton.md)
-         + [visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomview.md)
+         + [Visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomview.md)
          + [Efeito de ícone de visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-zoomviewiconeffect.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-assistive.md)
-      + [delivery de vídeo HTTPS](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
+      + [DELIVERY de vídeo HTTPS](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md)
       + [Suporte para tela cheia](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
-   + Rodar {#spin}
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
+   + Girar {#spin}
       + [Visualizador de rotação](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-spin}
          + [Referência de comando - Atributos de configuração](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib.md)
@@ -541,7 +541,7 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
       + Personalização do visualizador de rotação {#customizing-spin}
          + [Personalização do visualizador de rotação](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [Botão Fechar](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
@@ -551,7 +551,7 @@ ht-degree: 1%
          + [Área do visualizador principal](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-mainviewerarea.md)
          + [Botão Girar para a esquerda](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-spinleftbutton.md)
          + [Botão girar para a direita](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-spinrightbutton.md)
-         + [visualização de rotação](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-spinview.md)
+         + [Visualização de rotação](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-spinview.md)
          + [Dicas de ferramentas](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-tooltips.md)
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-zoomoutbutton.md)
@@ -560,7 +560,7 @@ ht-degree: 1%
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md)
       + [Suporte a tela cheia](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-full-screen-support.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
    + Vídeo {#video}
       + [Vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-reference.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-video}
@@ -605,7 +605,7 @@ ht-degree: 1%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setparams.md)
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
       + Personalização do visualizador de vídeo {#customizing-video-viewer}
          + [Personalização do visualizador de vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [Botão Legenda](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
@@ -628,11 +628,11 @@ ht-degree: 1%
          + [Tempo de vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-videotime.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-sitecatalystracking.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-assistive.md)
-      + [delivery de vídeo HTTP](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md)
+      + [DELIVERY de vídeo HTTP](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-securevideodelivery.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md)
       + [Suporte a tela cheia](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-full-screen-support.md)
       + [Suporte externo a vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + Zoom {#zoom}
       + [Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-zoom}
@@ -659,7 +659,7 @@ ht-degree: 1%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transição](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + Referência de API do Javascript para Visualizador de zoom {#jsapi-zoom}
+      + Referência de API do JavaScript para Visualizador de zoom {#jsapi-zoom}
          + [Referência de API do Javascript para Visualizador de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [dispor](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
@@ -671,8 +671,8 @@ ht-degree: 1%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparams.md)
          + [ZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-zoomviewer.md)
-      + [Retornos de chamada de Evento](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
-      + Personalização do Visualizador de zoom {#customizing-zoom}
+      + [Retornos de chamada de evento](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
+      + Personalização do Visualizador de Zoom {#customizing-zoom}
          + [Personalização do Visualizador de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [Botão Fechar](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [Destaque do foco](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
@@ -685,14 +685,14 @@ ht-degree: 1%
          + [Botão Mais zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoominbutton.md)
          + [Botão Menos zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomoutbutton.md)
          + [Botão Redefinir zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomresetbutton.md)
-         + [visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomview.md)
+         + [Visualização de zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-zoomview.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [Suporte para tela cheia](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
-      + [namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ Somente visualizadores para ativos AEM {#viewers-for-aem-assets-only}
-   + [Somente visualizadores para ativos AEM](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
+      + [Namespace do SDK do visualizador](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
++ Somente visualizadores para AEM Assets {#viewers-for-aem-assets-only}
+   + [Somente visualizadores para AEM Assets](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + Carrossel {#carousel}
       + [Carrossel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-carousel}
@@ -709,7 +709,7 @@ ht-degree: 1%
       + Referência de comando - URL {#command-reference-url-carousel}
          + [Referência de comando - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
-      + Referência de API do Javascript para o Visualizador do carrossel {#jsapi-carousel}
+      + Referência de API do JavaScript para o Visualizador do carrossel {#jsapi-carousel}
          + [Referência da API JavaScript para o Visualizador do carrossel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [CarouselViewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [dispor](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
@@ -721,10 +721,10 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
       + Personalização do Visualizador do carrossel {#customizing-carousel}
          + [Personalização do Visualizador do carrossel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
-         + [visualização do carrossel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
+         + [Visualização do carrossel](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [Destaque do foco](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
          + [Pontos de conexão e mapas de imagem](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md)
          + [Área do visualizador principal](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-mainviewerarea.md)
@@ -738,7 +738,7 @@ ht-degree: 1%
       + [Localização dos elementos da interface do usuário](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
       + [Suporte a mapas de imagem e pontos de conexão](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
       + [Pré-carregar imagem](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
-      + [namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + Imagem interativa {#interactive-images}
       + [Imagem interativa](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-interactive-images}
@@ -749,7 +749,7 @@ ht-degree: 1%
       + Referência de comando - URL {#command-reference-interactive-images}
          + [Referência de comando - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [preloadimage](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + Referência de API do Javascript para o Visualizador de imagens interativo {#jsapi-interactive-image}
+      + Referência de API do Javascript para o Visualizador de Imagem Interativo {#jsapi-interactive-image}
          + [Referência da API JavaScript para o Visualizador de imagens interativo](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [dispor](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -760,20 +760,20 @@ ht-degree: 1%
          + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-sethandlers.md)
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
       + Personalização do Visualizador de Imagens Interativo {#customizing-interactive-image}
          + [Personalização do Visualizador de Imagens Interativo](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [Destaque do foco](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [Pontos de conexão](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
          + [Área do visualizador principal](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-mainviewerarea.md)
          + [Dicas de ferramentas](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-tooltips.md)
-         + [visualização de zoom](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-zoomview.md)
+         + [Visualização de zoom](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-zoomview.md)
       + [Suporte para rastreamento de análises](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-localization.md)
       + [Suporte para pontos de conexão](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-hotspot-support.md)
       + [Pré-carregar imagem](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md)
-      + [namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
    + Vídeo interativo {#interactive-video}
       + [Vídeo interativo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-interactive-video}
@@ -831,7 +831,7 @@ ht-degree: 1%
          + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setlocalizedtexts.md)
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
-      + [Retornos de chamada de Evento](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
       + Personalização do Visualizador de vídeo interativo {#customizing-interactive-video}
          + [Personalização do Visualizador de vídeo interativo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [Chamada à ação](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
@@ -854,13 +854,13 @@ ht-degree: 1%
          + [Tempo de vídeo](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-videotime.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-sitecatalyst.md)
       + [Suporte a tecnologia assistiva](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-assistive.md)
-      + [delivery de vídeo HTTPS](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
+      + [DELIVERY de vídeo HTTPS](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-securevideodelivery.md)
       + [Suporte a dados interativos](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-int-data-support.md)
       + [Localização dos elementos da interface do usuário](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md)
       + [Suporte a tela cheia](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
-      + [namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
-   + Vídeo360 {#video360}
-      + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
+      + [Namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
+   + Video360 {#video360}
+      + [Vídeo360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-video360}
          + [Referência de comando - Atributos de configuração](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transição](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
@@ -898,7 +898,7 @@ ht-degree: 1%
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
-      + [Retornos de chamada de Evento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
+      + [Retornos de chamada de evento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
       + Personalização do visualizador Video360 {#customizing-video360}
          + [Personalização do visualizador Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [Barra de controle](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
@@ -918,12 +918,12 @@ ht-degree: 1%
          + [depurador de vídeo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [Tempo de vídeo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
       + [Suporte para rastreamento do Adobe Analytics](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
-      + [delivery de vídeo HTTPS](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
+      + [DELIVERY de vídeo HTTPS](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-securevideodelivery.md)
       + [Suporte a tecnologia assistiva](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-assistive.md)
       + [Localização dos elementos da interface do usuário](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md)
       + [Suporte a tela cheia](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [Suporte externo a vídeo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
-      + [namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
+      + [Namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
 + Referência de comando comum para todos os visualizadores - Atributos de configuração {#command-reference-common-to-all-viewers-config-attrib}
    + [Referência de comando comum para todos os visualizadores - Atributos de configuração](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
