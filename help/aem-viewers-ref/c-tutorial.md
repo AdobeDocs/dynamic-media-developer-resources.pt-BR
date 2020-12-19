@@ -1,6 +1,6 @@
 ---
-description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pelo Adobe Scene7 seja incorporado em páginas da Web.
-seo-description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pelo Adobe Scene7 seja incorporado em páginas da Web.
+description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
+seo-description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
 seo-title: Tutorial do SDK do visualizador
 solution: Experience Manager
 title: Tutorial do SDK do visualizador
@@ -8,23 +8,26 @@ topic: Dynamic media
 uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Tutorial do SDK do visualizador{#viewer-sdk-tutorial}
 
-O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pelo Adobe Scene7 seja incorporado em páginas da Web.
+O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
 
-Por exemplo, o SDK fornece zoom e panorâmica interativos. Ele também fornece visualização de 360° e reprodução de vídeo de ativos que foram carregados para o Adobe Scene7 por meio do aplicativo de backend chamado SPS (Scene7 Publishing System).
+Por exemplo, o SDK fornece zoom e panorâmica interativos. Ele também fornece visualização de 360° e reprodução de vídeo de ativos que foram carregados para a Adobe Scene7 por meio do aplicativo de backend chamado SPS (Scene7 Publishing System).
 
 Embora os componentes dependam da funcionalidade HTML5, eles foram projetados para funcionar em dispositivos Android e Apple iOS e em desktops, incluindo o Internet Explorer e posterior. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas suportadas.
 
-O SDK consiste em componentes de interface que compõem o conteúdo do visualizador. Você pode estilizar esses componentes por meio de CSS e componentes que não sejam de interface do usuário que têm algum tipo de função de suporte, como busca e análise ou rastreamento de definição de conjunto. Todos os comportamentos de componente são personalizáveis por meio de modificadores que podem ser especificados de várias maneiras, por exemplo, como `name=value` pares no URL.
+O SDK consiste em componentes de interface que compõem o conteúdo do visualizador. Você pode estilizar esses componentes por meio de CSS e componentes que não sejam de interface do usuário que têm algum tipo de função de suporte, como busca e análise ou rastreamento de definição de conjunto. Todos os comportamentos de componente são personalizáveis por meio de modificadores que podem ser especificados de várias maneiras, por exemplo, como pares `name=value` no URL.
 
 Este tutorial inclui a seguinte ordem de tarefas para ajudá-lo a criar um visualizador básico de zoom:
 
-* [Baixe o SDK do visualizador mais recente do Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Baixe o SDK do visualizador mais recente da Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Carregar o SDK do visualizador](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Adicionar estilo ao visualizador](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Incluindo Container e ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
@@ -34,7 +37,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudá-lo a criar um visua
 
 ## Baixe o SDK do visualizador mais recente do Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Baixe o SDK do visualizador mais recente do Adobe Developer Connection [aqui](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Baixe o SDK do visualizador mais recente do Adobe Developer Connection [here](https://marketing.adobe.com/developer/devcenter/scene7/show).
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudá-lo a criar um visua
 
 ## Carregar o SDK do visualizador {#section-98596c276faf4cf79ccf558a9f4432c6}
 
-1. Start ao configurar uma página nova para desenvolver o visualizador de zoom básico que você criará.
+1. Start ao configurar uma página nova para desenvolver o visualizador básico de zoom que você criará.
 
    Considere esse código de inicialização ou carregador para configurar um aplicativo SDK vazio. Abra o editor de texto favorito e cole a seguinte marcação HTML nele:
 
@@ -79,7 +82,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudá-lo a criar um visua
    </html>
    ```
 
-   Adicione o seguinte código JavaScript dentro da `script` tag para inicializar a `ParameterManager`. Isso ajuda você a se preparar para criar e instanciar componentes do SDK dentro da `initViewer` função:
+   Adicione o seguinte código JavaScript dentro da tag `script` para inicializar o `ParameterManager`. Isso ajuda você a se preparar para criar e instanciar componentes do SDK dentro da função `initViewer`:
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -123,7 +126,7 @@ Agora, você adicionará estilo ao seu visualizador.
 
 1. Para este visualizador de página completo que você está criando, é possível adicionar alguns estilos básicos.
 
-   Adicione o seguinte `style` bloco à parte inferior do `head`:
+   Adicione o seguinte bloco `style` à parte inferior de `head`:
 
    ```
    <style> 
@@ -148,7 +151,7 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
 
 1. Crie um visualizador real incluindo os componentes `Container` e `ZoomView`.
 
-   Insira as seguintes `include` declarações na parte inferior do `<head>` elemento após o [!DNL Utils.js] script ser carregado:
+   Insira as seguintes instruções `include` na parte inferior do elemento `<head>` depois que o script [!DNL Utils.js] for carregado:
 
    ```
    <!-- 
@@ -163,13 +166,13 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
 
 1. Agora, crie variáveis para fazer referência aos vários componentes do SDK.
 
-   Adicione as seguintes variáveis à parte superior da função anônima principal, logo acima `s7sdk.Util.init()`:
+   Adicione as seguintes variáveis à parte superior da função anônima principal, logo acima de `s7sdk.Util.init()`:
 
    ```
    var container, zoomView;
    ```
 
-1. Insira o seguinte dentro da `initViewer` função para definir alguns modificadores e instanciar os respectivos componentes:
+1. Insira o seguinte dentro da função `initViewer` para definir alguns modificadores e instanciar os respectivos componentes:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +193,7 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Para que o código acima seja executado corretamente, adicione um manipulador de `containerResize` eventos e uma função auxiliar:
+1. Para que o código acima seja executado corretamente, adicione um manipulador de eventos `containerResize` e uma função auxiliar:
 
    ```
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -209,9 +212,9 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
 
    ![](assets/viewer-1.jpg)
 
-Agora, você adicionará os componentes `MediaSet` e `Swatches` ao visualizador.
+Agora, você adicionará os componentes `MediaSet` e `Swatches` ao seu visualizador.
 
-## Adicionar componentes MediaSet e Swatches ao seu visualizador {#section-02b8c21dd842400e83eae2a48ec265b7}
+## Adicionar componentes MediaSet e Swatches ao visualizador {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. Para dar aos usuários a capacidade de selecionar imagens de um conjunto, você pode adicionar os componentes `MediaSet` e `Swatches`.
 
@@ -228,9 +231,9 @@ Agora, você adicionará os componentes `MediaSet` e `Swatches` ao visualizador.
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instanciar `MediaSet` e `Swatches` componentes dentro da `initViewer` função.
+1. Instancie os componentes `MediaSet` e `Swatches` dentro da função `initViewer`.
 
-   Certifique-se de instanciar a `Swatches` instância depois dos componentes `ZoomView` e `Container` , caso contrário, a ordem de empilhamento ocultará a `Swatches`:
+   Certifique-se de instanciar a instância `Swatches` após os componentes `ZoomView` e `Container`; caso contrário, a ordem de empilhamento oculta `Swatches`:
 
    ```
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +269,7 @@ Agora, você adicionará os componentes `MediaSet` e `Swatches` ao visualizador.
    }
    ```
 
-1. Posicione as amostras na parte inferior do visualizador adicionando o seguinte CSS ao `style` elemento:
+1. Posicione as amostras na parte inferior do visualizador adicionando o seguinte CSS ao elemento `style`:
 
    ```
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +283,7 @@ Agora, você adicionará os componentes `MediaSet` e `Swatches` ao visualizador.
 
 1. Pré-visualização no visualizador.
 
-   Observe que as amostras estão na parte inferior esquerda do visualizador. Para que as amostras tenham a largura total do visualizador, adicione uma chamada para redimensionar manualmente as amostras sempre que o usuário redimensionar seu navegador. Adicione o seguinte à `resizeViewer` função:
+   Observe que as amostras estão na parte inferior esquerda do visualizador. Para que as amostras tenham a largura total do visualizador, adicione uma chamada para redimensionar manualmente as amostras sempre que o usuário redimensionar seu navegador. Adicione o seguinte à função `resizeViewer`:
 
    ```
    swatches.resize(width, swatches.getHeight());
@@ -308,9 +311,9 @@ Agora, você adicionará botões de zoom, zoom e zoom e redefinição de zoom ao
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instanciar botões na parte inferior da `initViewer` função.
+1. Instanciar botões na parte inferior da função `initViewer`.
 
-   Lembre-se de que o pedido é importante, a menos que você especifique o `z-index` em CSS:
+   Lembre-se de que a ordem é importante, a menos que você especifique `z-index` no CSS:
 
    ```
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +327,7 @@ Agora, você adicionará botões de zoom, zoom e zoom e redefinição de zoom ao
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Agora, defina alguns estilos básicos para os botões adicionando o seguinte ao `style` bloco na parte superior do arquivo:
+1. Agora, defina alguns estilos básicos para os botões adicionando o seguinte ao bloco `style` na parte superior do arquivo:
 
    ```
    /* define styles common to all button components and their sub-classes */ 
@@ -358,21 +361,21 @@ Agora, você adicionará botões de zoom, zoom e zoom e redefinição de zoom ao
 
 ## Configuração vertical das amostras {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Você pode configurar modificadores diretamente na `ParameterManager` instância.
+1. Você pode configurar modificadores diretamente na instância `ParameterManager`.
 
-   Adicione o seguinte à parte superior da `initViewer` função para configurar o layout de `Swatches` miniatura como uma única linha:
+   Adicione o seguinte à parte superior da função `initViewer` para configurar o layout miniatura `Swatches` como uma única linha:
 
    ```
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Atualize a seguinte chamada de redimensionamento dentro `resizeViewer`:
+1. Atualize a seguinte chamada de redimensionamento dentro de `resizeViewer`:
 
    ```
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Edite a seguinte `s7swatches` regra em `ZoomViewer.css`:
+1. Edite a seguinte regra `s7swatches` em `ZoomViewer.css`:
 
    ```
    .s7swatches { 
