@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,9 +34,9 @@ Sintaxe
 | ` *`x3`*` | `xsd:double` | Coordenação do eixo x esquerdo inferior. |
 | ` *`y3`*` | `xsd:double` | Coordenada inferior do eixo y à esquerda. |
 
-## Example {#section-19ed4409ff3a41c9b52a9c9424612927}
+## Exemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-O `PerspectiveQuad` tipo retorna dados nesta ordem:
+O tipo `PerspectiveQuad` retorna os dados nesta ordem:
 
 ```
 <complexType name="PerspectiveQuad">
