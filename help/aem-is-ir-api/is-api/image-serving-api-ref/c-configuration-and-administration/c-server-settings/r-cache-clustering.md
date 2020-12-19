@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Cluster de cache{#cache-clustering}
+# Clustering de cache{#cache-clustering}
 
 Use essas configurações de servidor para agrupamento de cache.
 
@@ -20,7 +23,7 @@ Use essas configurações de servidor para agrupamento de cache.
 
 Lista de endereços IP, separados por ponto-e-vírgula. Inclua os endereços IP de todos os servidores de mesmo nível dos quais esse host deve obter dados de cache. O endereço IP do host local pode ser incluído por conveniência; isso permite as mesmas configurações para todos os servidores no cluster.
 
-## PS::cacheCluster.updateLocalCache - Atualizar cache local {#section-154c2c0af4544200a3499232bb130dde}
+## PS::cacheCluster.updateLocalCache - Atualizar Cache Local {#section-154c2c0af4544200a3499232bb130dde}
 
 Defina como &quot;Sim&quot; se uma entrada de cache fornecida por um servidor de mesmo nível deve ser copiada para o cache de resposta local.
 
