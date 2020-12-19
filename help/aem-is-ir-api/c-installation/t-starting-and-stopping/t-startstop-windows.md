@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 79b7690a-cea1-4c5e-99d6-60febf0e85f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +21,6 @@ Existem vários mecanismos para start/parada do Servidor de Imagens e do Servido
 
 1. Escolha uma das seguintes opções para start ou parar o serviço de imagem:
 
-* O Painel de Controle de Serviço do Windows pode ser usado para start, parada, reinicialização e verificação do status do serviço &quot;Scene7 Image Serving&quot;.
-* **[!UICONTROL Menu]** Start> **[!UICONTROL Todos os Programas]**> **[!UICONTROL Scene7]**> Servidor **** de imagens> Serviço **[!UICONTROL de]** controle fornece comandos para Start, Parar e Reiniciar o serviço de Servidor de imagens Scene7.
+* O Painel de controle do Campaign de Serviço do Windows pode ser usado para start, parada, reinicialização e verificação do status do serviço &quot;Scene7 Image Server&quot;.
+* **[!UICONTROL Start Menu]**>  **[!UICONTROL All Programs]**>  **[!UICONTROL Scene7]**>  **[!UICONTROL Image Serving]**>  **[!UICONTROL Control Service]** fornece comandos para Start, Parar e Reiniciar o serviço Scene7 Image Server.
 
