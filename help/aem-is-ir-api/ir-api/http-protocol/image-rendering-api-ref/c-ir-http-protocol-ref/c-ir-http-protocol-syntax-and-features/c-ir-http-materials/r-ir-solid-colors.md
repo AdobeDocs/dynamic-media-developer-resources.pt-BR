@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis, bem como qualquer outra aplicação em que as texturas não sejam necessárias.
 
-Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias mudanças de textura ou para definir a cor para o aparador plástico e o carpete de um interior automotivo. Um material é considerado uma cor sólida se nenhum `src=` valor estiver presente no MSS.
+Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias mudanças de textura ou para definir a cor para o aparador plástico e o carpete de um interior automotivo. Um material é considerado uma cor sólida se nenhum valor `src=` estiver presente no MSS.
 
 As cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
 
@@ -30,7 +33,7 @@ As cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span></a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color=  </span> </a> </p> </td> 
    <td colname="col2"> <p> Valor de cor cinza ou RGB; obrigatório. </p> </td> 
    <td colname="col3"> <p>Nenhum. </p> </td> 
   </tr> 
