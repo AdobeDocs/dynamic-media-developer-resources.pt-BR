@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Especifica o formato de imagem que o componente usa para carregar imagens do Ser
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alfa|gif|gif-alfa</span> </p> </td> 
-   <td colname="col2"> <p> Se o formato especificado terminar com <span class="codeph"> -alfa</span>, o componente renderizará as imagens como conteúdo transparente. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. </p> <p>Observe que o componente tem um fundo branco por padrão. Portanto, para torná-la completamente transparente, defina a propriedade CSS de cor <span class="codeph"> de fundo como</span> transparente <span class="codeph"></span>. </p> </td> 
+   <td colname="col2"> <p> Se o formato especificado terminar com <span class="codeph"> -alfa</span>, o componente renderizará as imagens como conteúdo transparente. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. </p> <p>Observe que o componente tem um fundo branco por padrão. Portanto, para torná-la completamente transparente, defina a propriedade CSS <span class="codeph"> background-color</span> como <span class="codeph"> transparente</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,6 +38,6 @@ Opcional.
 
 `jpeg`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `fmt=png-alpha`
