@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7b7dccb3-6c64-4342-aac7-82c769561902
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 0%
 
 ---
 
@@ -26,22 +29,22 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
 .s7mixedmediaviewer .s7controlbar
 ```
 
-## Propriedades de CSS da barra de controle {#css-properties-of-the-control-bar}
+## Propriedades CSS da barra de controle {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Example {#section-e8caea0a303c425a8a637c2a47c06355}
+## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
 Para configurar um visualizador de mídia mista com uma barra de controle cinza de 30 pixels de altura.
 
