@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ O Serviço de imagem do Scene 7 consiste nos seguintes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de renderização de texto ATE </p> </td> 
-   <td colname="col2"> <p>Uma ou mais instâncias do serviço de renderização de texto podem estar ativas quando operações <span class="codeph"> textPs=</span> são executadas. </p> </td> 
+   <td colname="col2"> <p>Uma ou mais instâncias do serviço de renderização de texto podem estar ativas quando as operações <span class="codeph"> textPs=</span> são executadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de renderização SVG </p> </td> 
@@ -58,9 +61,9 @@ O Serviço de imagem do Scene 7 consiste nos seguintes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renderização de imagem do Scene7 (também conhecido como Servidor de renderização) </p> </td> 
-   <td colname="col2"> <p>Requer uma licença separada para ativar. Acesso HTTP em <span class="filepath"> /ir/renderizar</span>. Toda a funcionalidade de renderização de imagem é integrada ao Servidor de plataforma e ao Servidor de imagens, sem componentes executáveis separados. </p> </td> 
+   <td colname="col2"> <p>Requer uma licença separada para ativar. Acesso HTTP em <span class="filepath"> /ir/render</span>. Toda a funcionalidade de renderização de imagem é integrada ao Servidor de plataforma e ao Servidor de imagens, sem componentes executáveis separados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou catálogos de imagens específicos (consulte Catálogos [de](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) imagens para obter detalhes).
+Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou catálogos de imagens específicos (consulte [Catálogos de imagens](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes).
