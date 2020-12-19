@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Exibir marcas de impressora. Especifica como exibir as marcas da impressora.
 
-` printerMark= *`aparar`*, *`marcas`*, *`marcas de sangria marcas de registro`*, *`marcas`*, *`de cores da barra de`*, *``*, *`informações`*, *`stylelineweight`*`
+` printerMark= *`aparar `*, *`marcas `*, *`marcas de sangria marcas de registro `*, *`marcas `*, *`de cores da barra de `*, *``*, *`informações `*, *`stylelineweight`*`
 
 As diferentes marcas podem ser desativadas ou ativadas. O estilo das marcas de impressora também pode ser controlado.
 
@@ -65,6 +68,6 @@ Estes são os valores válidos:
  </tr> 
 </table>
 
-## Example {#section-d2e394ddabe14f4ea63af6dab233a163}
+## Exemplo {#section-d2e394ddabe14f4ea63af6dab233a163}
 
 `&printerMark=1,1,1,1,1,Illustrator,.25,1`
