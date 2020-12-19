@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +26,6 @@ Converta o texto em um arquivo PDF em contornos.
  </tr> 
 </table>
 
-Use o comando URL `convertTextToOutlines=1` para alterar todo o texto de um arquivo PDF para caminhos contornados.
+Use o comando URL `convertTextToOutlines=1` para alterar todo o texto em um arquivo PDF para caminhos contornados.
 
 Quando qualquer efeito for aplicado ao texto em um arquivo PDF, como converter texto em contornos, a imagem renderizada final será reduzida ou &quot;nivelada&quot; no tamanho.
