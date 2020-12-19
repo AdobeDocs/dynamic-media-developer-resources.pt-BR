@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ebd78249-45ea-47cd-8845-786070f92f21
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> codificação</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> UTF-8| UTF-16| UTF-16LE| UTF-16BE| ISO-8859-1</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
@@ -37,7 +40,7 @@ A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::NonI
 >
 >O caractere de dois pontos não é permitido em solicitações req=set.
 
-As solicitações compatíveis com o formato de resposta JSON permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do `req=` parâmetro:
+As solicitações compatíveis com o formato de resposta JSON permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
