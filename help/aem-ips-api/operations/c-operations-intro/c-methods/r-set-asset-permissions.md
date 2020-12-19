@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Define as permissões de um único ativo usando um ativo de permissão.
 
-Por padrão, os ativos herdam as permissões de sua pasta pai. Depois de definir permissões em um ativo, elas não herdam mais as permissões do pai, a menos que você chame `removeAssetPermissions`.
+Por padrão, os ativos herdam as permissões de sua pasta pai. Depois de definir permissões em um ativo, ele não herda mais as permissões do pai, a menos que você chame `removeAssetPermissions`.
 
 ## Tipos de usuário autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
