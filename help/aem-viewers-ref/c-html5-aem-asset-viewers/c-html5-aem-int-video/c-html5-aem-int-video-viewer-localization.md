@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 0%
 
 ---
 
 
-# Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
+# Localização de elementos da interface do usuário{#localization-of-user-interface-elements}
 
 Determinado conteúdo exibido pelo Visualizador de vídeo interativo está sujeito a localização. Isso inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 No exemplo acima, o objeto localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
 
-O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor do `localizedTexts` campo do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,119 +56,119 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO  </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para elemento visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p> Estado do botão de pausa de reprodução selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de pausa de reprodução desmarcado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
    <td colname="col2"> <p> Reproduzir o estado do botão de pausa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Vídeo depurador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Tempo de vídeo na barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p> Volume silencioso selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Volume mutable desmarcado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Rótulo do botão deslizante do volume exposto por meio do atributo ARIA <span class="codeph"> aria-valuetext </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
+   <td colname="col2"> <p> Rótulo do botão deslizante do volume exposto por meio do atributo ARIA <span class="codeph"> aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Botão de tela inteira em estado normal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Botão de tela cheia no estado de tela cheia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p> Estado do botão de legenda fechada selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p> Estado desmarcado do botão de legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> InterativeSwatches.BANNER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> InterativeSwatches.BANNER  </span> </p> </td> 
    <td colname="col2"> <p>Legenda do banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão de rolagem para cima. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão de rolagem para baixo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Ferramenta de compartilhamento em redes sociais. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão Compartilhar link. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER  </span> </p> </td> 
    <td colname="col2"> <p>Cabeçalho da caixa de diálogo Link. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
    <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo Link. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>Descrição do link de compartilhamento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão Cancelar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
    <td colname="col2"> <p>botão Cancelar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão Selecionar tudo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION  </span> </p> </td> 
    <td colname="col2"> <p> Selecione o botão Todos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão de compartilhamento do Facebook. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão Compartilhar do Twitter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Chamar para o botão Fechar do painel de ação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de erro que é exibida quando nenhuma reprodução de vídeo é possível. </p> </td> 
   </tr> 
  </tbody> 
