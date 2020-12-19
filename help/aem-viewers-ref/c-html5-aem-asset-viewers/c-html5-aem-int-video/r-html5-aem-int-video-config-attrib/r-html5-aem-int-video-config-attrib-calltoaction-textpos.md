@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3592daf7-6222-4c42-b6bb-ab3ef5b8ae70
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> é especificado, o texto do rótulo é exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> nenhum</span> para desativar o rótulo. </p> </td> 
+   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> for especificado, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> none</span> para desativar o rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Opcional.
 
 `bottom`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 ```
 textpos=top
