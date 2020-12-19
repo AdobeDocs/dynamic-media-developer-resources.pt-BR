@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Há duas opções para iniciar ou parar o Serviço de imagem no Linux.
 
-* O script para start, parada e verificação do status do Serviço de imagem está localizado na [!DNL ImageServing/bin] pasta:
+* O script para start, parada e verificação do status do Serviço de imagem está localizado na pasta [!DNL ImageServing/bin]:
 
    `ImageServing.sh {start|stop|restart|status}`
 * A seguinte alternativa deve ser familiar aos administradores do sistema:
