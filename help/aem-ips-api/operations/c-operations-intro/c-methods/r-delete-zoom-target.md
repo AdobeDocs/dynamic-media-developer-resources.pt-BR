@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
 source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Exclui um público alvo de zoom.
 
 A API IPS não retorna uma resposta para esta operação.
 
-## Example {#section-a35857a5ca884357a879f7ba6cf985fe}
+## Exemplo {#section-a35857a5ca884357a879f7ba6cf985fe}
 
 Esta amostra de código exclui um público alvo de zoom de uma empresa.
 
