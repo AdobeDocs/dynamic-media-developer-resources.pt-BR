@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Configuração e gerenciamento do servidor{#configuring-and-managing-the-server}
+# Configurar e gerenciar o servidor{#configuring-and-managing-the-server}
 
 Esta seção contém informações para ajudá-lo a configurar e gerenciar o Servidor de renderização de imagem.
 
