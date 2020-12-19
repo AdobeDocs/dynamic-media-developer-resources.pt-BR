@@ -1,6 +1,6 @@
 ---
-description: Caminho do arquivo de Perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
-seo-description: Caminho do arquivo de Perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
+description: Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
+seo-description: Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
 seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59e78bfb-bc5c-45e4-aa70-d18cab2f9e39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 0%
 
 ---
 
 
 # ProfilePath{#profilepath}
 
-Caminho do arquivo de Perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
+Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cor ICC, incluindo o sufixo do arquivo.
 
 ## Propriedades {#section-d342866853f24e168ba44215ef594e29}
 
