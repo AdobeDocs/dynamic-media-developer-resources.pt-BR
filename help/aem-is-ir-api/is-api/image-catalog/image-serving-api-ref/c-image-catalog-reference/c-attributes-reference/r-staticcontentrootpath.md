@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Caminho raiz dos dados de conteúdo estático. Segmento de caminho absoluto ou relativo para a pasta raiz para os dados de conteúdo estático desse catálogo de imagens.
 
-Consulte [Gerenciamento de dados](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) de origem para obter informações adicionais sobre os caminhos raiz do servidor.
+Consulte [Gerenciando Dados de Origem](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) para obter informações adicionais sobre os caminhos raiz do servidor.
 
 ## Propriedades {#section-f8e3986096294b36948d43aafdc3e795}
 
@@ -28,4 +31,4 @@ Herdado de `default::StaticContentsRootPath` se não estiver definido. Se defini
 
 ## Consulte também {#section-9af8846d20d242789df67877f84ed8a7}
 
-[PS::staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) , [Gerenciamento de dados de origem](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)
+[PS::staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) ,   [Gerenciamento de dados de origem](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)
