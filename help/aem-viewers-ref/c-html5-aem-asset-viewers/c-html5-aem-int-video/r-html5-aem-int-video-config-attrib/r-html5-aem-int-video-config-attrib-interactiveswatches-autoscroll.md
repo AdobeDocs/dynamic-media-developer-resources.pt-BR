@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuração para o Visualizador de vídeo interativo.
 seo-description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-title: InterativeSwatches.autoscroll
+seo-title: InteractiveSwatches.autoscroll
 solution: Experience Manager
-title: InterativeSwatches.autoscroll
+title: InteractiveSwatches.autoscroll
 topic: Dynamic media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 
 
-# InterativeSwatches.autoscroll{#interactiveswatches-autoscroll}
+# InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
 Atributo de configuração para o Visualizador de vídeo interativo.
 
@@ -35,7 +38,7 @@ Opcional.
 
 `1`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 ```
 autoscroll=0
