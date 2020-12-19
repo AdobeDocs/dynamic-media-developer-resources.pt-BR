@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [Estilos de fonte](r-font-styles.md)
 * [Tipos de fonte](r-font-types.md)
 * [Informações de geração](r-generation-info.md)
-* [Processos do Illustrator](r-illustrator-processes.md)
+* [Processos Illustrator](r-illustrator-processes.md)
 * [Tipos de Arquivo de Log de Trabalho](r-job-log-file-types.md)
 * [Campos de Classificação do Log de Trabalho](r-job-log-sort-fields.md)
 * [Tipos de Log de Trabalho](r-job-log-types.md)
@@ -36,10 +39,10 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [Operadores de comparação numéricos/de datas](r-numeric-date-comparison-operators.md)
 * [Processos PDF](r-pdf-processes.md)
 * [Tipos de permissão](r-permission-types.md)
-* [Modos de âncora do Photoshop](r-photoshop-anchor-modes.md)
-* [Modos de nomenclatura de camada do Photoshop](r-photoshop-layer-naming-modes.md)
+* [Modos de âncora Photoshop](r-photoshop-anchor-modes.md)
+* [Modos de nomenclatura de camada Photoshop](r-photoshop-layer-naming-modes.md)
 * [Modos PostScript Colorspace](r-postscript-colorspace-modes.md)
-* [Classes de Perfis](r-profile-classes.md)
+* [Classes de perfis](r-profile-classes.md)
 * [Publicar estado](r-publish-state.md)
 * [Tipos de conjunto de propriedades](r-property-set-types.md)
 * [Contexto de publicação](r-publish-context.md)
