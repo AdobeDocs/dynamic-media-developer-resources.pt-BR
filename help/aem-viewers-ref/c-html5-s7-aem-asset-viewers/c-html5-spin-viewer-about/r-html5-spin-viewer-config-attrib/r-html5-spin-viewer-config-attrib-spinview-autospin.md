@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a animação de rotação automática. Para obter a melhor experiência de rotação automática, é recomendável pré-carregar todos os quadros, definindo <span class="codeph"> maxloadradius</span> como <span class="codeph"> -1</span>. Entretanto, observe que isso resulta em maior tempo de carga e maior uso da largura de banda. </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a animação de rotação automática. Para obter a melhor experiência de rotação automática, é recomendável pré-carregar todos os quadros definindo <span class="codeph"> maxloadradius</span> como <span class="codeph"> -1</span>. Entretanto, observe que isso resulta em maior tempo de carga e maior uso da largura de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duração</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> direção</span></span> </p> </td> 
-   <td colname="col2"> <p> A direção de rotação que é <span class="codeph"> 0</span> para o leste giratório e <span class="codeph"> 1</span> para o oeste giratório. </p> </td> 
+   <td colname="col2"> <p> A direção de rotação que é <span class="codeph"> 0</span> para leste girando e <span class="codeph"> 1</span> para oeste girando. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> O número de rotações completas feitas antes de a rotação automática parar. O número é um número de ponto flutuante. Defina como <span class="codeph"> -1</span> para uma rotação automática infinita. </p> </td> 
+   <td colname="col2"> <p> O número de rotações completas feitas antes de a rotação automática parar. O número é um número de ponto flutuante. Defina como <span class="codeph"> -1</span> para obter uma rotação automática infinita. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,6 +48,6 @@ Opcional.
 
 `0,1,1,1`
 
-## Example {#section-622348a84fbe4ff4b5dd7eb53b044d83}
+## Exemplo {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 
 `autospin=1,2,-1,1`
