@@ -35,7 +35,7 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 ## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
 * Vazamento de memória observado com visualizadores de Zoom e eCatalog. A navegação repetida pelos quadros pode fazer com que o navegador falhe.
-* Tocar no Duplo em um visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala do lado do navegador ativada.
+* Tocar no duplo em um visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala do lado do navegador ativada.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
@@ -43,9 +43,9 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Tocar no Duplo em um visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador, com a escala do lado do navegador ativada.
+* Tocar no duplo em um visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador, com a escala do lado do navegador ativada.
 
-## Galaxy Nexus 10 e Galaxy {#section-ef52bd1249fe4f358c11838f7a557a00}
+## Galaxy Nexus 10 e Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
 
 * O eCatalog mostra páginas espelhadas incorretas com orientações retrato e paisagem.
 
@@ -73,7 +73,7 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 ou posterior: As configurações de plug-in da Internet podem impedir a reprodução de vídeo Flash.
+* Safari 6.1 ou posterior: As configurações de plug-in da Internet podem impedir a reprodução do vídeo do Flash.
 * A busca de vídeo usando streaming HLS no Safari pode ser inconsistente.
 * Não é possível buscar o fim do vídeo no Safari 6 usando o streaming HLS.
 
