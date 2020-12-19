@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Defina para <span class="codeph"> dividir</span> para permitir que o visualizador exiba páginas espelhadas de duplo como uma página separada quando usada em dispositivos móveis na orientação retrato. Definido como <span class="codeph"> sólido</span> para exibir sempre as páginas espelhadas como imagens sólidas, independentemente da orientação do dispositivo. </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> split</span> para permitir que o visualizador exiba páginas espelhadas de duplo como uma página separada quando usada em dispositivos móveis na orientação retrato. Defina como <span class="codeph"> solid</span> para sempre exibir as páginas espelhadas como imagens sólidas, independentemente da orientação do dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 [!DNL `split`]
 
-## Example {#section-798e4fc8dd9b4b059171b41a608a96ce}
+## Exemplo {#section-798e4fc8dd9b4b059171b41a608a96ce}
 
 [!DNL `portraitFrames=solid`]
