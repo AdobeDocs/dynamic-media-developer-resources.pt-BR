@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -46,56 +49,56 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> A alça da empresa com o mapa de imagem que você deseja salvar. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O identificador do ativo de imagem ao qual o mapa de imagem pertence. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> A alça do mapa de imagem. Cria um mapa de imagem se NULO. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nome </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O nome do mapa de imagem criado ou salvo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Escolha da forma da região. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> região </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> região  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Uma lista de pontos delimitada por vírgulas que define a região. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ação </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ação  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>O valor <span class="codeph"> href </span> associado ao mapa de imagem, conforme especificado na interface IPS. </p> <p>Para obter o <span class="codeph"> valor href </span> , clique na imagem na interface IPS, copie e cole o URL neste elemento e formate o URL IPS como um URL adequado. Por exemplo, <span class="codeph"> &amp; </span> se torna <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>O valor <span class="codeph"> href </span> associado ao mapa de imagem, conforme especificado na interface IPS. </p> <p>Para obter o valor <span class="codeph"> href </span>, clique na imagem na interface IPS, copie e cole o URL neste elemento e formate o URL IPS como um URL adequado. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> posição </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> posição  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> A ordem na lista de mapas de imagem (o eixo Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ativado </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"></td> 
   </tr> 
