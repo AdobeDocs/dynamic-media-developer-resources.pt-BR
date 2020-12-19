@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Se jsonp for especificado como o formato de resposta, os dados de resposta serão formatados usando JSONP (JavaScript Object Notation with Padding), vinculados a uma chamada de função JavaScript.
 
-O cliente pode especificar um identificador de solicitação exclusivo opcional ( *`reqId`*), que é retornado na resposta e permite que o cliente diferencie várias respostas recebidas de forma assíncrona. Uma resposta típica tem a seguinte estrutura geral:
+O cliente pode especificar um identificador de solicitação exclusivo opcional ( *`reqId`*), que é retornado na resposta e permite que o cliente distinga várias respostas recebidas de forma assíncrona. Uma resposta típica tem a seguinte estrutura geral:
 
 ```
 /*jsonp*/s7jsonResponse({ 
@@ -37,7 +40,7 @@ O cliente pode especificar um identificador de solicitação exclusivo opcional 
 </varname>" );
 ```
 
-A função `s7jsonResponse` JavaScript deve ser definida pelo cliente. Em sua forma mais simples, a função pode se parecer com:
+A função JavaScript `s7jsonResponse` deve ser definida pelo cliente. Em sua forma mais simples, a função pode se parecer com:
 
 ```
 var responseData; 
@@ -47,7 +50,7 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do `req=` parâmetro:
+As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler]`
 
@@ -59,4 +62,4 @@ Consulte [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP
 
 Consulte [www.json.org](http://www.json.org) para obter mais informações sobre o formato JSON.
 
-Consulte também [perguntas frequentes](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
+Consulte também [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).
