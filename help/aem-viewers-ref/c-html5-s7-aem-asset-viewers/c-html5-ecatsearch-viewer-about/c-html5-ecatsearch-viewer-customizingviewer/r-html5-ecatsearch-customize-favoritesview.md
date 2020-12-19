@@ -1,18 +1,21 @@
 ---
 description: A visualização Favoritos consiste em uma coluna de imagens em miniatura.
 seo-description: A visualização Favoritos consiste em uma coluna de imagens em miniatura.
-seo-title: visualização Favoritos
+seo-title: Visualização Favoritos
 solution: Experience Manager
-title: visualização Favoritos
+title: Visualização Favoritos
 topic: Dynamic media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
 
-# visualização Favoritos{#favorites-view}
+# Visualização favorita{#favorites-view}
 
 A visualização Favoritos consiste em uma coluna de imagens em miniatura.
 
@@ -31,7 +34,7 @@ A posição e a altura da visualização Favoritos são geridas pela visualizaç
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo da visualização Favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +64,7 @@ O espaçamento entre miniaturas Favoritos é controlado com o seguinte seletor d
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
    <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -86,15 +89,15 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +105,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o seletor de `state` atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Em particular, `state="selected"` corresponde à miniatura recentemente selecionada pelo usuário. `state="default"` corresponde ao resto das miniaturas. E `state="over"` é usado ao passar o mouse.
+>A miniatura suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Especificamente, `state="selected"` corresponde à miniatura recentemente selecionada pelo usuário. `state="default"` corresponde ao resto das miniaturas. E `state="over"` é usado ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 75 x 75 pixels, uma borda padrão cinza claro e uma borda cinza escura selecionada.
 
@@ -130,11 +133,11 @@ A aparência da etiqueta em miniatura é controlada com o seguinte seletor de cl
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
