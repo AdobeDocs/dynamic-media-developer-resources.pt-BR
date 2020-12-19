@@ -9,7 +9,7 @@ uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
 source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, 
 
 Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interative Image, Interative Video e Video360 são acessíveis ao teclado.
 
-Um usuário final pode navegar entre os elementos da interface do usuário do visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. O uso **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; o uso **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta ao elemento anterior da interface do usuário. O foco transversal segue a localização do elemento natural da interface do usuário na tela e se move de esquerda para direita e de cima para baixo.
+Um usuário final pode navegar entre os elementos da interface do usuário visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. Usar **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; usar **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta ao elemento anterior da interface do usuário. O foco transversal segue a localização do elemento natural da interface do usuário na tela e se move de esquerda para direita e de cima para baixo.
 
 Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário que tem foco de entrada pode receber uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada em torno do elemento da interface do usuário.
 
-É possível desativar ou personalizar esse realce de foco no CSS do visualizador. No sumário deste sistema de Ajuda, em um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em ***Personalizar nome do visualizador ***> Destaque**de **foco.
+É possível desativar ou personalizar esse realce de foco no CSS do visualizador. No sumário deste sistema de Ajuda, em um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalizar *nome do visualizador*** >** Destaque do foco **.
 
 Os pressionamentos de teclas suportados pelos elementos da interface do usuário do visualizador individual são, na maioria dos casos, óbvios e fáceis de descobrir.
 
@@ -47,7 +47,7 @@ Os pressionamentos de teclas suportados pelos elementos da interface do usuário
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aumentar ou diminuir o zoom </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> ou <span class="uicontrol"> - </span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> ou  <span class="uicontrol"> -  </span>, respectivamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Redefinição de zoom </p> </td> 
@@ -66,7 +66,7 @@ Os pressionamentos de teclas suportados pelos elementos da interface do usuário
    <td colname="col2"> <p>Tecla de seta para cima, para baixo, para a esquerda ou para a direita; Tecla Home ou End. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ativação de amostras de produtos </p> </td> 
+   <td colname="col1"> <p>Ativação de amostras de produtos </p> </td> 
    <td colname="col2"> <p>Tecla Space ou Enter. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Os pressionamentos de teclas suportados pelos elementos da interface do usuário
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carrossel, seleção de pontos de conexão e ativação de pontos de conexão </p> </td> 
-   <td colname="col2"> <p>Seleção de pontos de conexão: tecla de seta para cima, para baixo, para a esquerda ou para a direita </p> <p>ativação do ponto de conexão: Tecla Space ou Enter. </p> </td> 
+   <td colname="col2"> <p>Seleção de pontos de conexão: tecla de seta para cima, para baixo, para a esquerda ou para a direita </p> <p>Ativação do ponto de conexão: Tecla Space ou Enter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eCatalog, altere a imagem da página na visualização principal </p> </td> 
