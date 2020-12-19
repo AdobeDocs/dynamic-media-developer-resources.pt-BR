@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`CompanyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`CompanyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`publishSettingsArray`*` | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene 7. |
 | ` *`contextHandle`*` | `xsd:string` | Não | Lidar com o contexto de publicação. |
 
