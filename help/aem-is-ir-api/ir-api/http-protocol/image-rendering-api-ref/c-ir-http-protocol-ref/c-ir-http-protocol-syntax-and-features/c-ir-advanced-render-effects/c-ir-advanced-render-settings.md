@@ -1,6 +1,6 @@
 ---
-description: A Ferramenta de criação de vinheta (parte do pacote Scene7 Image Authoring) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
-seo-description: A Ferramenta de criação de vinheta (parte do pacote Scene7 Image Authoring) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
+description: A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
+seo-description: A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
 seo-title: Configurações avançadas de renderização
 solution: Experience Manager
 title: Configurações avançadas de renderização
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
 source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Configurações avançadas de renderização{#advanced-render-settings}
 
-A Ferramenta de criação de vinheta (parte do pacote Scene7 Image Authoring) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
+A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
 
 >[!NOTE]
 >
->Configurações de renderização é um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte Técnico da Adobe ou seu representante de consultoria da Adobe para treinamento, consulta ou ambos, sobre o uso das Configurações de renderização.
+>Configurações de renderização é um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte Técnico da Adobe ou seu representante de consultoria da Adobe para treinamento, consulta ou ambos sobre como usar as Configurações de renderização.
 
-Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o `rs=` comando (ou com o `catalog::RenderSettings` valor). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos realces ou do contraste das sombras.
+Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o comando `rs=` (ou com o valor `catalog::RenderSettings`). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos realces ou do contraste das sombras.
 
 ## Valores de Configuração de Renderização Avançada (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -138,7 +141,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Use alternar. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>O padrão é 1. </p> </td> 
   </tr> 
   <tr> 
