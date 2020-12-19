@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +25,12 @@ Quatro valores inteiros, separados por vírgulas.
 
 ` *``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`type`*` ativa a incorporação Digimarc e especifica o tipo de marca d&#39;água:
+` *`O `*` tipo permite a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
    <th class="entry"> <p><b>Tipo de marca d'água</b> </p> </th> 
   </tr> 
  </thead>
@@ -45,7 +48,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>ID da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
   </tr> 
   <tr> 
@@ -55,12 +58,12 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-` *`sinalizadores`*` é um campo de bit com três valores. Defina o bit 0 para indicar o conteúdo protegido contra cópia, o bit 1 para indicar o conteúdo restrito e o bit 2 para indicar o conteúdo adulto:
+` *`sinaliza `*` um campo de bit com três valores. Defina o bit 0 para indicar o conteúdo protegido contra cópia, o bit 1 para indicar o conteúdo restrito e o bit 2 para indicar o conteúdo adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> flags</span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> sinalizadores</span> </span> </p> </th> 
    <th class="entry"> <p><b>Descrição</b> </p> </th> 
   </tr> 
  </thead>
@@ -70,7 +73,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido por cópia. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +81,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>Restrito. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protegido por cópia, restrito. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +103,14 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-A interpretação de ` *`val1`*` e ` *`val2`*` depende do ` *`tipo`*`:
+A interpretação de ` *`val1`*` e ` *`val2`*` depende de ` *`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span></span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span></span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -127,7 +130,7 @@ A interpretação de ` *`val1`*` e ` *`val2`*` depende do ` *`tipo`*`:
    <td> <p>Não usado. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
    <td> <p>Não usado. </p> </td> 
   </tr> 
@@ -157,4 +160,4 @@ Herdado do atributo::DigimarcInfo se o campo não estiver presente ou se estiver
 
 ## Consulte também {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
