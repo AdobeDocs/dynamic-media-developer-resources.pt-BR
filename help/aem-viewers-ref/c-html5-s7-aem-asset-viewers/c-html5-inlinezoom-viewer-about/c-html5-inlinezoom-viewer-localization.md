@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
+# Localização de elementos da interface do usuário{#localization-of-user-interface-elements}
 
 Determinado conteúdo exibido pelo Flyout Viewer está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e mensagens de informações que são exibidas pela visualização de zoom de flyout ao carregar.
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 No exemplo acima, o objeto localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
 
-O código da página da Web deve passar esse objeto de localização para o construtor do visualizador, como um valor do `localizedTexts` campo do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar esse objeto de localização para o construtor do visualizador, como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,39 +56,39 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO  </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para elemento visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p>Descrição da função ARIA para o componente principal da visualização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
    <td colname="col2"> <p>Dicas de uso ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
    <td colname="col2"> <p>Mensagem informativa para sistemas desktop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de informação para dispositivos de toque. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para rolar o botão esquerdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem direito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para cima. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para baixo. </p> </td> 
   </tr> 
  </tbody> 
