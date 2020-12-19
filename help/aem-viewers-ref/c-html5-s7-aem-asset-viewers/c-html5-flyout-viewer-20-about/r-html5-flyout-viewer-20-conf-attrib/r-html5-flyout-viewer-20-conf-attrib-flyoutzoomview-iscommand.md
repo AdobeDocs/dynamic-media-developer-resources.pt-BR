@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1e8dcafb-33ef-42ea-8636-b3b7de81dfbd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
    <td colname="col2"> <p> </p> <p>A string de comando do Servidor de imagens que é aplicada à imagem principal FlyoutZoomView e o zoom na visualização. Se for especificado no URL, certifique-se de que você codifica por HTTP todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação:  Comandos de manipulação de dimensionamento de imagem não são suportados. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -33,7 +36,7 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-0338be21edd04ff1a3bed5c8319b61a4}
+## Exemplo {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
 Quando especificado no URL do visualizador:
 
