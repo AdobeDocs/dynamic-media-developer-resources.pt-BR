@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna um máximo de 100.000 pastas.
 
-## Finalidade das pastas {#section-66e344d5333f42f1b060a0cba25935c3}
+## Propósito das Pastas {#section-66e344d5333f42f1b060a0cba25935c3}
 
 Uma pasta permite organizar subpastas e ativos. Todos os nomes de pastas e ativos devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causarão um conflito de namespaces, mesmo se estiverem em hierarquias de pastas diferentes.
 Sintaxe
