@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5a461da2-4b08-4854-9bdc-98de208dc0fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> url</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o URL básico para o serviço de email Scene7 OnDemand. </p> </td> 
+   <td colname="col2"> <p> Especifica o URL básico do serviço de Scene7 OnDemand email. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Opcional.
 
 `/s7/emailFriend`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 emailurl=http://s7d1.scene7.com/s7/emailFriend
