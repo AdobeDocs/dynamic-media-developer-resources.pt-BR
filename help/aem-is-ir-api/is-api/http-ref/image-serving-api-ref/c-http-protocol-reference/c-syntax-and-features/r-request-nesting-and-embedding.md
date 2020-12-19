@@ -9,13 +9,13 @@ uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Solicitação de aninhamento e incorporação{#request-nesting-and-embedding}
+# Solicitar aninhamento e incorporação{#request-nesting-and-embedding}
 
 O Serviço de imagens oferece suporte ao aninhamento ilimitado de solicitações do Serviço de imagens, à incorporação de solicitações de Renderização de imagens, bem como à incorporação de imagens recuperadas de servidores estrangeiros. Somente imagens de camada e máscaras de camada suportam esses mecanismos.
 
@@ -29,17 +29,17 @@ Uma solicitação de Serviço de imagem inteira pode ser usada como uma fonte de
 
 `…&src=is( nestedRequest)&…`
 
-O `is` token faz distinção entre maiúsculas e minúsculas.
+O token `is` faz distinção entre maiúsculas e minúsculas.
 
 A solicitação aninhada não deve incluir o caminho raiz do servidor (normalmente ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações aninhadas devem ser codificadas da mesma forma que a solicitação externa (aninhamento).
+>Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) nas solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações aninhadas devem ser codificadas da mesma forma que a solicitação externa (aninhamento).
 
 As regras de pré-processamento são aplicadas a solicitações aninhadas.
 
-Os comandos a seguir são ignorados quando especificados em solicitações aninhadas (no URL da solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
+Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (no URL da solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -61,13 +61,13 @@ Quando a Renderização de imagem do Scene7 está ativada no servidor, as solici
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-O `ir` token faz distinção entre maiúsculas e minúsculas.
+O token `ir` faz distinção entre maiúsculas e minúsculas.
 
-*[!DNL renderRequest]* é a solicitação comum de renderização de imagem, excluindo o caminho raiz HTTP ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* é a solicitação comum de renderização de imagem, excluindo o caminho raiz HTTP  ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
+>Os caracteres delimitadores de solicitação aninhados ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) nas solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
 Os seguintes comandos de Renderização de imagem são ignorados quando especificados em solicitações aninhadas:
 
@@ -78,27 +78,27 @@ Os seguintes comandos de Renderização de imagem são ignorados quando especifi
 * `printRes=`
 * `req=`
 
-Também são ignorados `attribute::MaxPix` e do catálogo `attribute::DefaultPix` de materiais que se aplica à solicitação de renderização aninhada.
+Também são ignorados `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
 
-O resultado da imagem de uma solicitação infravermelha aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando se espera que a imagem intermediária seja reutilizada em uma solicitação diferente dentro de um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
+O resultado da imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando se espera que a imagem intermediária seja reutilizada em uma solicitação diferente dentro de um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
 
 ## Solicitações de renderização FXG incorporadas {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-Quando o renderizador de gráficos FXG (também conhecido como [!DNL AGMServer]) é instalado e ativado com o Serviço de imagem, as solicitações FXG podem ser usadas como fontes de camada especificando-as em `src=` (ou `mask=`) comandos. Use a seguinte sintaxe:
+Quando o renderizador de gráficos FXG (também conhecido como [!DNL AGMServer]) é instalado e ativado com o Serviço de Imagens, as solicitações FXG podem ser usadas como fontes de camada especificando-as nos comandos `src=` (ou `mask=`). Use a seguinte sintaxe:
 
 `…&src=fxg( renderRequest)&…`
 
-O `fxg` token faz distinção entre maiúsculas e minúsculas.
+O token `fxg` faz distinção entre maiúsculas e minúsculas.
 
 >[!NOTE]
 >
->A renderização de gráficos FXG está disponível somente no ambiente hospedado do Scene7 e pode exigir licenciamento adicional. Entre em contato com o suporte do Scene7 para obter mais informações.
+>A renderização de gráficos FXG está disponível somente no ambiente hospedado da Scene7 e pode exigir licenciamento adicional. Entre em contato com o Suporte da Scene7 para obter mais informações.
 
-*[!DNL renderRequest]* é a solicitação de renderização FXG comum, excluindo o caminho raiz HTTP ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* é a solicitação de renderização FXG comum, excluindo o caminho raiz HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
+>Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) nas solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
 Os seguintes comandos FXG são ignorados quando especificados em solicitações aninhadas:
 
@@ -116,17 +116,17 @@ O Serviço de imagens oferece suporte ao acesso a imagens de origem em servidore
 >
 >Somente o protocolo HTTP é compatível com URLs remotos.
 
-Para especificar um URL externo para um comando `src=` ou `mask=` , delimite o fragmento de URL ou URL externo com parênteses:
+Para especificar um URL externo para um comando `src=` ou `mask=`, delimite o fragmento de URL ou URL externo com parênteses:
 
 `…&src=( foreignUrl)&…`
 
-Importante Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) em solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
+Importante Os caracteres delimitadores ( `'(',')'`) e os caracteres delimitadores de comando ( `'?'`, `'&'`, `'='`) nas solicitações aninhadas não devem ser codificados por HTTP. Efetivamente, as solicitações incorporadas devem ser codificadas da mesma forma que a solicitação externa (incorporação).
 
-URLs absolutos completos (se `attribute::AllowDirectUrls` estiverem definidos) e URLs relativos a `attribute::RootUrl` são permitidos. Ocorre um erro se um URL absoluto for incorporado e o atributo: `AllowDirectUrls` for 0, ou se um URL relativo for especificado e `attribute::RootUrl` estiver vazio.
+URLs absolutos completos (se `attribute::AllowDirectUrls` estiver definido) e URLs relativos a `attribute::RootUrl` serão permitidos. Ocorre um erro se um URL absoluto for incorporado e o atributo: `AllowDirectUrls` é 0, ou se um URL relativo é especificado e `attribute::RootUrl` está vazio.
 
 Embora URLs externos não possam ser especificados diretamente no componente de caminho do URL da solicitação, é possível configurar uma regra de pré-processamento para permitir a conversão de caminhos relativos em URLs absolutos (consulte o exemplo abaixo).
 
-As imagens estrangeiras são armazenadas em cache pelo servidor de acordo com os cabeçalhos de cache incluídos na resposta HTTP. Se não houver um cabeçalho de resposta HTTP `ETag` ou Última modificação, a resposta não será armazenada em cache. Isso pode causar um desempenho ruim para acessos repetidos para a mesma imagem externa, já que o Serviço de imagem precisa buscar novamente e revalidar a imagem em cada acesso.
+As imagens estrangeiras são armazenadas em cache pelo servidor de acordo com os cabeçalhos de cache incluídos na resposta HTTP. Se nenhum cabeçalho de resposta HTTP `ETag` ou Last-Modifid estiver presente, a resposta não será armazenada em cache. Isso pode causar um desempenho ruim para acessos repetidos para a mesma imagem externa, já que o Serviço de imagem precisa buscar novamente e revalidar a imagem em cada acesso.
 
 Este mecanismo suporta os mesmos formatos de arquivo de imagem suportados pelo utilitário Conversão de imagem (IC), com exceção das imagens de origem com 16 bits por componente.
 
@@ -154,7 +154,7 @@ Com pequenas modificações, podemos pré-dimensionar a imagem da camada 0 e arm
 
 **Incorporação de solicitações para renderização de imagem do Scene7**
 
-Uso de um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada2 do modelo usando a Renderização de imagem do Scene7:
+Usando um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada2 do modelo usando a Renderização de imagem do Scene7:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -162,4 +162,4 @@ Observe as chaves aninhadas. A solicitação de renderização de imagem incorpo
 
 ## Consulte também {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Solicitar pré-processamento](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Referência de renderização de imagem, [Modelos](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), Utilitários de [disponibilização de imagem](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [Solicitar pré-processamento](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Referência de renderização de imagem,  [Modelos](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), Utilitários de  [disponibilização de imagem](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
