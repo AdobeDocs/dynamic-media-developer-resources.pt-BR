@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 45a79636-3fa9-4f2a-98bb-a46c9b627dd4
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Geralmente, um identificador curto e exclusivo, como um número SKU, possivelmen
 
 ## Propriedades {#section-874a6853f67b4b229341ca76682884ae}
 
-Sequência de caracteres de texto. Obrigatório. Identificador de registro para a imagem/SVG ou tabela de dados de conteúdo estático. Cada `catalog::Id` valor dentro deste catálogo de imagens/SVG ou dentro deste catálogo de conteúdo estático deve ser exclusivo e não deve incluir caracteres &#39;,&#39;.
+Sequência de caracteres de texto. Obrigatório. Identificador de registro para a imagem/SVG ou tabela de dados de conteúdo estático. Cada valor `catalog::Id` neste catálogo de imagens/catálogo SVG ou neste catálogo de conteúdo estático deve ser exclusivo e não deve incluir caracteres &#39;,&#39;.
 
 ## Padrão {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
