@@ -21,7 +21,7 @@ Contém configurações do Servidor de imagens.
 
 Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor de imagens pode falhar no start.
 
-Para que as alterações entrem em vigor, reinicie o Servidor de imagens após a edição deste arquivo. Somente os valores de elementos listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando solicitado pelo Suporte técnico do Scene7.
+Para que as alterações entrem em vigor, reinicie o Servidor de imagens após a edição deste arquivo. Somente os valores de elementos listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando solicitado pelo Suporte técnico da Scene7.
 
 >[!NOTE]
 >
@@ -55,4 +55,4 @@ A seguir, são apresentados os elementos que podem ser alterados. Existem outros
 
 ## Notas {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Vários `<RootPath>` elementos podem estar presentes (um para cada pasta de arquivo de dados de origem). O Servidor de imagens pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.
+Vários elementos `<RootPath>` podem estar presentes (um para cada pasta de arquivo de dados de origem). O Servidor de imagens pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.
