@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Geralmente, um identificador curto e exclusivo, como um número SKU. Pode també
 
 ## Propriedades {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Sequência de caracteres de texto. Obrigatório. Chave de índice primária para a tabela do mapa de vinheta. Cada `vignette::Id` valor deve ser exclusivo na tabela e não deve conter caracteres &#39;,&#39;.
+Sequência de caracteres de texto. Obrigatório. Chave de índice primária para a tabela do mapa de vinheta. Cada valor `vignette::Id` deve ser exclusivo na tabela e não deve conter caracteres &#39;,&#39;.
 
 ## Padrão {#section-736d3419b19045efa00887cb595b0337}
 
