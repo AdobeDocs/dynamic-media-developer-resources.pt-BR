@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 8160af47-d639-4ef2-9d26-952de006ca9e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +25,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Alça da Empresa. |
-| ` *`name`*` | `xsd:string` | Nome da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Alça da empresa. |
+| ` *`name`*` | `xsd:string` | Nome da empresa. |
 | ` *`rootPath`*` | `xsd:string` | Caminho raiz da empresa. |
 | ` *`expira`*` | `xsd:dateTime` | Data e hora em que a empresa expira. |
 
