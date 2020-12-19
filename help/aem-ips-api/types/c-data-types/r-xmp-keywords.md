@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> itens</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas no nó de propriedade <span class="codeph"> dc:subject=</span> XMP. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisa ser escapada por um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida normal do duplo (\\). </p> </td> 
+   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas no nó de propriedades <span class="codeph"> dc:subject=</span> XMP. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisa ser escapada por um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida normal do duplo (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
