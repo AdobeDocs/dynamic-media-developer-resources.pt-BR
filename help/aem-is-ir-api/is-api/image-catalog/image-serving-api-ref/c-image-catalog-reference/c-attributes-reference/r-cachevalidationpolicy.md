@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Política de validação do cache do servidor. Especifica quando as entradas de cache do lado do servidor são validadas.
 
-Com a validação baseada em expiração, as imagens de origem são verificadas periodicamente se foram alteradas. Com a validação baseada em catálogo, as imagens de origem são verificadas somente depois que o `catalog::TimeStamp` valor é alterado.
+Com a validação baseada em expiração, as imagens de origem são verificadas periodicamente se foram alteradas. Com a validação baseada em catálogo, as imagens de origem são verificadas somente depois que o valor `catalog::TimeStamp` é alterado.
 
 A validação baseada em catálogo é recomendada quando os catálogos de imagem são usados. A validação baseada em expiração deve ser usada quando as imagens são referenciadas diretamente, sem o uso de um catálogo de imagens.
 
