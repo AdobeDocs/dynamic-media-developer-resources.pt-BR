@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 274e49da-9eb8-4082-971c-056acb47a53e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Tipos de dados: Novo e modificado{#data-types-new-and-modified}
+# Tipos de dados: Novo e Modificado{#data-types-new-and-modified}
 
 Descreve tipos de dados novos e alterados para a API IPS versão 4.2.
 
