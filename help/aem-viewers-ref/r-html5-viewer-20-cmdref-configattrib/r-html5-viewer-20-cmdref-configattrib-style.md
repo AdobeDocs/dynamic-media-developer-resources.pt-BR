@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 
-# estilo{#style}
+# style{#style}
 
 Você pode aplicar o seguinte comando da string do query URL e da configuração. O comando aplicado na string do query URL sempre tem precedência sobre o mesmo comando presente na configuração.
 
@@ -21,8 +24,8 @@ Você pode aplicar o seguinte comando da string do query URL e da configuração
 <table id="table_F800F787CF0342749B934DAEB600C0EB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span></span> </p> </td> 
-   <td colname="col2"> <p> Local CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se o <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, ele será resolvido em relação ao local da página HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> Local CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, será resolvido em relação ao local da página HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
