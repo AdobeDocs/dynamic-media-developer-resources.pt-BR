@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ A API IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Essa amostra de código usa o identificador do tipo como um campo no campo `deletePropertySetTypeParam` enviado para o servidor de serviços da Web IPS para excluir o tipo de conjunto de propriedades.
+Esta amostra de código usa o identificador do tipo como um campo no `deletePropertySetTypeParam` enviado para o servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
 
 **Solicitação**
 
