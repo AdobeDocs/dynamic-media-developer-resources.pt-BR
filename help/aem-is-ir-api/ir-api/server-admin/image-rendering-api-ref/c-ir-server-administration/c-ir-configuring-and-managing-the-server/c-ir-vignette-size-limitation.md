@@ -9,7 +9,7 @@ uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ Modifique o valor de `IrMaxNonPyrVignetteSize` em [!DNL *[!DNL install_root]* /I
 
 >[!NOTE]
 >
->`attribute::MaxPix` e também `IS::MaxMessageSize` pode ser necessário ajustar para permitir tamanhos de imagem de resposta invulgarmente grandes. Consulte a documentação do Servidor de imagens para obter detalhes.
+>`attribute::MaxPix` e também  `IS::MaxMessageSize` pode ser necessário ajustar para permitir tamanhos de imagem de resposta invulgarmente grandes. Consulte a documentação do Servidor de imagens para obter detalhes.
 
