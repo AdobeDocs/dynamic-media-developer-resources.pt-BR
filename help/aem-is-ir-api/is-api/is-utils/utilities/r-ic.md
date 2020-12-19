@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
 source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
 
 Utilitário de conversão de imagem.
 
-`ic` é uma ferramenta de linha de comando que converte arquivos de imagem no formato TIFF Pirâmide otimizado (PTIFF). Embora o Serviço de imagens possa processar imagens sem conversão, recomendamos que você converta todas as imagens maiores que 512x512 pixels em PTIFF. Essa conversão garante o desempenho ideal do servidor e o uso de recursos, além de minimizar os tempos de resposta.
+`ic` é uma ferramenta de linha de comando que converte arquivos de imagem para o formato TIFF Pirâmide otimizado (PTIFF). Embora o Serviço de imagens possa processar imagens sem conversão, recomendamos que você converta todas as imagens maiores que 512x512 pixels em PTIFF. Essa conversão garante o desempenho ideal do servidor e o uso de recursos, além de minimizar os tempos de resposta.
 
-Recomenda-se que os arquivos PTIFF que contêm conteúdo fotográfico sejam codificados em JPEG (especifique `-jpegcompress`). O conteúdo gerado por computador pode se beneficiar da compactação sem perdas (seja `-deflatecompress` ou `-lzwcompress`). A menos que uma conversão de cor ou tipo de pixel seja necessária, os dados de imagem de origem JPEG são transferidos para o PTIFF sem decodificação, para evitar a degradação da qualidade. Nesse caso, as opções de compactação especificadas aplicam-se apenas aos níveis de pirâmide de resolução mais baixa.
+Recomenda-se que os arquivos PTIFF que contêm conteúdo fotográfico sejam codificados em JPEG (especifique `-jpegcompress`). O conteúdo gerado por computador pode se beneficiar da compactação sem perdas (`-deflatecompress` ou `-lzwcompress`). A menos que uma conversão de cor ou tipo de pixel seja necessária, os dados de imagem de origem JPEG são transferidos para o PTIFF sem decodificação, para evitar a degradação da qualidade. Nesse caso, as opções de compactação especificadas aplicam-se apenas aos níveis de pirâmide de resolução mais baixa.
 
-Se não estiver convertendo imagens grandes, não é necessário definir os parâmetros que controlam a quantidade de memória a ser usada. No entanto, se estiver, forneça `ic` mais memória usando a configuração `-maxmem` descrita abaixo. Uma boa regra para calcular a quantidade de memória necessária é multiplicar a largura da imagem vezes a altura da imagem, vezes o número de canais. Por exemplo, quatro para uma imagem RGB com alfa vezes três. Além disso, se os canais forem de 16 bits por componente em vez de 8 duplos, o resultado final.
+Se não estiver convertendo imagens grandes, não é necessário definir os parâmetros que controlam a quantidade de memória a ser usada. No entanto, se estiver, forneça mais memória a `ic` usando a configuração `-maxmem` descrita abaixo. Uma boa regra para calcular a quantidade de memória necessária é multiplicar a largura da imagem vezes a altura da imagem, vezes o número de canais. Por exemplo, quatro para uma imagem RGB com alfa vezes três. Além disso, se os canais forem de 16 bits por componente em vez de 8 duplos, o resultado final.
 
 ## Uso {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -33,23 +36,23 @@ Se não estiver convertendo imagens grandes, não é necessário definir os par�
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>opções</i> </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>opções</i> </span> </span> </p> </td> 
    <td colname="col2"> <p>Opções de comando (veja abaixo). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sourceFile <i></i> </span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> <i>sourceFile</i> </span> </span> </p> </td> 
    <td colname="col2"> <p>Arquivo de imagem de entrada única. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFile</i></span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFile</i></span> </span> </p> </td> 
    <td colname="col2"> <p>Arquivo PTIFF de saída único (não válido se usado com SourceDirectory). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>sourceFolder</i></span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>sourceFolder</i></span> </span> </p> </td> 
    <td colname="col2"> <p>Pasta que contém imagens de entrada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFolder</i></span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"><i>destFolder</i></span> </span> </p> </td> 
    <td colname="col2"> <p>Pasta na qual os arquivos PTIFF de saída são gravados. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,143 +67,143 @@ Se não estiver convertendo imagens grandes, não é necessário definir os par�
 <table id="table_02011C7C076745A8BF4378B22C48C8A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -descompactado </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -descompactado  </span> </p> </td> 
    <td colname="col2"> <p>Não compacte a imagem de saída. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -deflatecompress </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -deflatecompress  </span> </p> </td> 
    <td colname="col2"> <p>Use a compactação deflate (zip) (padrão). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -lzwcompress </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -lzwcompress  </span> </p> </td> 
    <td colname="col2"> <p>Use a compactação Lempel-Ziv-Welch (LZW). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>Use a codificação JPEG. Ignorado se <span class="codeph"> o <span class="varname"> sourceFile </span> </span> incluir dados alfa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -jpegcompress  </span> </p> </td> 
+   <td colname="col2"> <p>Use a codificação JPEG. Ignorado se <span class="codeph"> <span class="varname"> sourceFile </span> </span> incluir dados alfa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> quality </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -jpegquality  &lt;&gt; quality  </span>&gt;  </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>Qualidade JPEG (0-100; padrão é 95). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -fullsamples echrominance </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -fullsamples echrominance  </span> </p> </td> 
    <td colname="col2"> <p>Desative a redução da resolução cromática de JPEG (pode melhorar a qualidade do texto e gráficos coloridos). Isso não afeta imagens de saída que sejam CMYK ou em tons de cinza. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> amount </span>&gt; &lt; <span class="varname"> radius </span>&gt; &lt; <span class="varname"> limit </span>&gt; &lt; <span class="varname"> monocromático </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -usm  &lt;&gt; amount  </span>&gt;  &lt;&gt; radius  </span>&gt;  &lt;&gt; limit  </span>&gt;  &lt;&gt; monocromático  </span>&gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"> </span></span></span></span></p> </td> 
    <td colname="col2"> <p>Aplica máscaras de nitidez a níveis de pirâmide subamplificados. Consulte <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a> para obter detalhes. (Não aplicado à imagem de resolução completa.) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -applyClippath </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -applyClippath  </span> </p> </td> 
    <td colname="col2"> <p>Use o caminho do clipe no arquivo de origem, se houver, para criar dados alfa associados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Resolução de impressão (dpi) para <span class="codeph"> destFile <span class="varname"> </span> </span>; se não for especificado, a resolução de impressão de <span class="codeph"> srcFile </span> será copiada para <span class="codeph"> destFile <span class="varname"> </span> </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -dpi  &lt;&gt; dpi  </span>&gt;  </span><span class="varname"> </span></p> </td> 
+   <td colname="col2"> <p>Resolução de impressão (dpi) para <span class="codeph"> <span class="varname"> destFile </span> </span>; se não for especificada, a resolução de impressão de <span class="codeph"> srcFile </span> será copiada para <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -recortar automaticamente &lt; <span class="varname"> canto </span>&gt; &lt; <span class="varname"> modo </span>&gt; &lt; <span class="varname"> tolerância </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Calcule um retângulo de corte para minimizar um plano de fundo de cor sólida. Nenhuma informação de corte será gerada se o algoritmo de corte automático resultar em toda a imagem sendo cortada. </p> <p>Para calcular o retângulo de recorte sem converter a imagem, especifique <span class="codeph"> -recortar automaticamente </span> sem <span class="codeph"> -converter </span> e sem <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
+   <td colname="col1"> <p> <span class="codeph"> -recortar automaticamente  &lt;&gt; canto  </span>&gt;  &lt;&gt; modo  </span>&gt;  &lt;&gt; tolerância  </span>&gt;  &lt;&gt; infoFile  </span>&gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"> </span></span></span></span></p> </td> 
+   <td colname="col2"> <p>Calcule um retângulo de corte para minimizar um plano de fundo de cor sólida. Nenhuma informação de corte será gerada se o algoritmo de corte automático resultar em toda a imagem sendo cortada. </p> <p>Para calcular o retângulo de recorte sem converter a imagem, especifique <span class="codeph"> -autoRecortar </span> sem <span class="codeph"> -converter </span> e sem <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
-<p><i><b>canto</b></i> - ul| ur| ll| lr </p>
+<p><i><b>canto</b></i>  - ul | ur | ll | lr </p>
    <p> Especifica qual canto da imagem usar um ponto de propagação. Ignorado se o modo for 1.</p>
-   <p><i><b>modo</b></i> - 0| 1</p>
+   <p><i><b>modo</b></i> - 0 | 1</p>
    <p>Defina como 0 para cortar com base na cor do pixel de canto especificado; funciona em dados de cor pré-multiplicados se os dados alfa estiverem associados à imagem de origem.</p>
    <p>Definir como 1 para cortar com base em dados alfa; o canto é ignorado e 0 é sempre o valor semente; nenhum corte será aplicado se nenhum dado alfa estiver associado à imagem de origem.</p> 
-   <p><i><b>tolerância</b></i> - Corresponder tolerância. Valor real de 0.0 a 1.0. Especifica a tolerância para corresponder aos valores de componentes de pixel. Defina como 0 para correspondências exatas.</p>
-   <p><i><b>infoFile</b></i> - Caminho e nome do arquivo de saída XML no qual os dados de informações de corte serão gravados.</p>
+   <p><i><b>tolerância</b></i>  - Corresponder tolerância. Valor real de 0.0 a 1.0. Especifica a tolerância para corresponder aos valores de componentes de pixel. Defina como 0 para correspondências exatas.</p>
+   <p><i><b>infoFile</b></i>  - Caminho e nome do arquivo de saída XML no qual os dados de informações de corte serão gravados.</p>
 
 <p>  
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>Copie metadados XMP, se disponíveis, de <span class="codeph"> sourceFile <span class="varname"> a </span> destFile </span> <span class="codeph"> <span class="varname"> </span> </span> sem modificação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -embedXmpData  </span> </p> </td> 
+   <td colname="col2"> <p>Copie os metadados XMP, se disponíveis, de <span class="codeph"> <span class="varname"> sourceFile </span> </span> para <span class="codeph"> <span class="varname"> destFile </span> </span> sem modificações. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
-   <td colname="col2"> <p> Incorpore o perfil de cor ICC ao <span class="codeph"> destFile <span class="varname"> </span> </span>, se disponível (nenhum perfil é incorporado por padrão). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -embedColorProfile  </span> </p> </td> 
+   <td colname="col2"> <p> Incorpore o perfil de cor ICC em <span class="codeph"> <span class="varname"> destFile </span> </span>, se disponível (nenhum perfil é incorporado por padrão). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Caminho e nome de um arquivo de perfil ICC. Define o espaço de cor de <span class="codeph"> sourceFile <span class="varname"> </span> </span> e deve corresponder ao seu tipo de pixel. Deve ser especificado somente se nenhum perfil estiver incorporado no <span class="codeph"><span class="varname"> arquivo de origem </span> </span>, pois isso substitui o perfil incorporado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -imageprofile  &lt;&gt; file  </span>&gt;  </span><span class="varname"> </span></p> </td> 
+   <td colname="col2"> <p>Caminho e nome de um arquivo de perfil ICC. Define o espaço de cores de <span class="codeph"> <span class="varname"> sourceFile </span> </span> e deve corresponder ao seu tipo de pixel. Deve ser especificado somente se nenhum perfil estiver incorporado em <span class="codeph"> <span class="varname"> sourceFile </span> </span>, uma vez que isso substitui o perfil incorporado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Caminho e nome de um arquivo de perfil ICC. Define o tipo de pixel e o espaço de cores de <span class="codeph"> destFile <span class="varname"> </span> </span>. O IC converte para esse perfil se <span class="codeph"> o <span class="varname"> sourceFile </span> tiver um perfil incorporado ou se </span> -imageprofile <span class="codeph"> </span> também for especificado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -viewprofile  &lt;&gt; file  </span>&gt;  </span><span class="varname"> </span></p> </td> 
+   <td colname="col2"> <p>Caminho e nome de um arquivo de perfil ICC. Define o tipo de pixel e o espaço de cor de <span class="codeph"> <span class="varname"> destFile </span> </span>. O IC converte para esse perfil se <span class="codeph"> <span class="varname"> sourceFile </span> </span> tiver um perfil incorporado ou se <span class="codeph"> -imageprofile </span> também for especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentPerceptual  </span> </p> </td> 
    <td colname="col2"> <p>Propósito de renderização perceptual para conversões de espaço de cor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentRelColorimetric </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentRelColorimetric  </span> </p> </td> 
    <td colname="col2"> <p> Propósito de renderização Colorimétrico relativo para conversões de espaço de cor (padrão). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentAbsColorimétrico </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentAbsColorimétrico  </span> </p> </td> 
    <td colname="col2"> <p>Intenção de renderização colorimétrica absoluta para conversões de espaço de cor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -intentSaturation </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -intentSaturation  </span> </p> </td> 
    <td colname="col2"> <p>Propósito de renderização de saturação para conversões de espaço de cor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -cmsNoBlackPointCompensação </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -cmsNoBlackPointCompensação  </span> </p> </td> 
    <td colname="col2"> <p>Desabilitar compensação de ponto de interrupção para determinadas conversões de cores </p> <p>Ativado por padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -cmsNoDither8 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -cmsNoDither8  </span> </p> </td> 
    <td colname="col2"> <p>Desative o pontilhamento (difusão de erros) ao converter cores. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -Maintainpixeltype </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -Maintainpixeltype  </span> </p> </td> 
    <td colname="col2"> <p> Desative a conversão automática de CMYK para RGB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>Forçar a decodificação e a recodificação de imagens de entrada JPEG. </p> <p> <b>Cuidado:</b> A aplicação dessa opção pode reduzir a qualidade da imagem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress  </span> </p> </td> 
+   <td colname="col2"> <p>Forçar a decodificação e a recodificação de imagens de entrada JPEG. </p> <p> <b>Cuidado: </b> aplicar essa opção pode reduzir a qualidade da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -downsample2x2  </span> </p> </td> 
    <td colname="col2"> <p>Use o filtro de reamostragem de qualidade padrão (bi-linear). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -downsample8x8 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -downsample8x8  </span> </p> </td> 
    <td colname="col2"> <p>Use o filtro de reamostragem de qualidade superior (janela Lanczos) (padrão). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -downsample8x8FlashPix </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -downsample8x8FlashPix  </span> </p> </td> 
    <td colname="col2"> <p>Use o filtro de reamostragem de qualidade superior (FlashPix). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -downsample8x8BicubicSharp </span> </p> </td> 
-   <td colname="col2"> <p>Reduza a resolução com o filtro 8 x 8 bicúbico com estilo Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -downsample8x8BicubicSharp  </span> </p> </td> 
+   <td colname="col2"> <p>Reduza a resolução com o filtro 8 x 8 bicúbico com nitidez no estilo Photoshop. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -zero </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -zero  </span> </p> </td> 
    <td colname="col2"> <p> Quando especificada como a primeira opção, a saída das informações de uso é omitida quando opções inválidas são encontradas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -overwrite </span> </p> </td> 
-   <td colname="col2"> <p>Permitir a substituição de um <span class="codeph"> destFile existente <span class="varname"> </span> </span>. Por padrão, um sufixo numérico é anexado ao nome do arquivo para evitar a substituição. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -overwrite  </span> </p> </td> 
+   <td colname="col2"> <p>Permita a substituição de um <span class="codeph"> <span class="varname"> destFile </span> </span> existente. Por padrão, um sufixo numérico é anexado ao nome do arquivo para evitar a substituição. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -skiphidden </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -skiphidden  </span> </p> </td> 
    <td colname="col2"> <p>Ignorar arquivos de origem ocultos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -continueonerror </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -continueonerror  </span> </p> </td> 
    <td colname="col2"> <p>Não interrompa o processamento quando ocorrer um erro. Somente tem efeito ao processar vários arquivos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logfile &lt; <span class="varname"> file </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logfile  &lt;&gt; file  </span>&gt;  </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>Caminho e nome do arquivo de log (o padrão é <span class="codeph"> stdout </span>). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -loglevel &lt; <span class="varname"> level </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -loglevel  &lt;&gt; level  </span>&gt;  </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>Nível de log. </p> 
-   <p>&lt; 0 - Registro desativado.</p>
+   <p>&lt; 0=""&gt;</p>
    <p>0 - Arquivos de Lista a serem processados.</p>
    <p>1 - Adicione relatórios para arquivos desnecessários.</p>
    <p>2 - Adicionar relatórios progress.</p>
@@ -209,27 +212,27 @@ Se não estiver convertendo imagens grandes, não é necessário definir os par�
    <p> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logappend </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logappend  </span> </p> </td> 
    <td colname="col2"> <p>Anexar ao arquivo de log (padrão). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -nologappend </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -nologappend  </span> </p> </td> 
    <td colname="col2"> <p>Substituir arquivo de log. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -logprogressmsec &lt; <span class="varname"> msec </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -logprogressmsec  &lt;&gt; msec  </span>&gt;  </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>Intervalo de registro em msec para o nível de log 2 e superior (o padrão é 3000). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> bytes </span>&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -maxmem  &lt;&gt; bytes  </span>&gt;  </span><span class="varname"> </span></p> </td> 
    <td colname="col2"> <p>Limite de uso de memória. Deve ter pelo menos 10 MB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> percent </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Limite de uso de memória. O padrão é 25% da memória física. Se nenhum <span class="codeph"> maxmem </span> ou <span class="codeph"> maxmempercent </span> estiverem definidos explicitamente, usará o padrão maxmempercent. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -maxmempercent  &lt;&gt;  </span>&gt;  </span><span class="varname"> </span></p> </td> 
+   <td colname="col2"> <p>Limite de uso de memória. O padrão é 25% da memória física. Se <span class="codeph"> maxmem </span> nem <span class="codeph"> maxmempercent </span> não estiverem explicitamente definidos, o padrão de maxmempercent será usado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -version </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -version  </span> </p> </td> 
    <td colname="col2"> <p> Retorna as informações de versão deste utilitário. Especifique sem outras opções. </p> </td> 
   </tr> 
  </tbody> 
@@ -243,7 +246,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
  <thead> 
   <tr> 
    <th class="entry"> <p> <b> Formato</b> </p> </th> 
-   <th class="entry"> <p> <b> Tipo</b> de pixel <b> Bits/Chan</b> </p> </th> 
+   <th class="entry"> <p> <b> Pixel </b> <b> TypeBits/Chan</b> </p> </th> 
    <th class="entry"> <p> <b> Bits/Chan</b> </p> </th> 
    <th class="entry"> <p> <b> Compactação</b> </p> </th> 
    <th class="entry"> <p> <b> Notas</b> </p> </th> 
@@ -252,16 +255,16 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
  <tbody> 
   <tr> 
    <td> <b> BMP</b> <p> (Bitmap do Windows) </p> </td> 
-   <td> <p> RGB| indexado </p> </td> 
+   <td> <p> RGB | indexado </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
-   <td> <p> descompactado| RLE </p> </td> 
+   <td> <p> descompactado | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica suporte para RGB de 16 bits (5-5-5 e 5-6-5 bits/canal). </p> </td> 
   </tr> 
   <tr> 
    <td> <b> EPS</b> <p> (Postscript encapsulado) </p> </td> 
-   <td> <p> CMYK| RGB| cinza </p> </td> 
+   <td> <p> CMYK | RGB | cinza </p> </td> 
    <td> <p> 8 </p> </td> 
-   <td> <p> ASCII| ASCII85| Binário| JPEG </p> </td> 
+   <td> <p> ASCII | ASCII85 | Binário | JPEG </p> </td> 
    <td> <p> Somente arquivos EPS gerados pelo Photoshop são suportados. </p> </td> 
   </tr> 
   <tr> 
@@ -280,16 +283,16 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   </tr> 
   <tr> 
    <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
-   <td> <p> CMYK| RGB| cinza </p> </td> 
+   <td> <p> CMYK | RGB | cinza </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMYK| CMYKA| RGB| RGBA| cinza| cinzaA </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzaA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> descompactado| comprimido </p> </td> 
+   <td> <p> descompactado | comprimido </p> </td> 
    <td> <p> Somente imagem mesclada; camadas e canais extras são ignorados. </p> </td> 
   </tr> 
   <tr> 
@@ -301,22 +304,22 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
-   <td> <p> RGB| RGBA| cinza| cinzaA| indexado </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compactado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMYK| CMYKA| RGB| RGBA| cinza| cinzaA| indexado </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> descompactado| ZIP| LZW| JPEG| FUNÇÃO DE CRITÉRIO| CCITT G3| CCITT G4| Embalagens </p> </td> 
+   <td> <p> descompactado | ZIP | LZW | JPEG | FUNÇÃO DE CRITÉRIO | CCITT G3 | CCITT G4 | Embalagens </p> </td> 
    <td> <p> Com exceção do primeiro canal alfa associado, canais extras são ignorados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-perfis ICC incorporados são reconhecidos em arquivos EPS, JPG, PSD, PNG e TIFF.
+Perfis ICC incorporados são reconhecidos em arquivos EPS, JPG, PSD, PNG e TIFF.
 
 Caminhos incorporados e metadados XMP são reconhecidos em arquivos EPS, JPG, PSD e TIFF.
 
@@ -326,7 +329,7 @@ Converta uma única imagem na melhor qualidade e mantenha-a na mesma pasta:
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Converta todas as imagens em TIFFs de pirâmide codificados em JPEG e coloque em *`srcFolder`* *`destFolder`*:
+Converta todas as imagens em *`srcFolder`* em TIFFs de pirâmide codificados em JPEG e coloque em *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
