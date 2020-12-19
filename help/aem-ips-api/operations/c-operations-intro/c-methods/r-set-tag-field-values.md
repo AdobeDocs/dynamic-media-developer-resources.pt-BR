@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`fieldHandle`*` | `xsd:string` | Sim | Identificador de campo de tag. |
 | ` *`valueArray`*` | `types:StringArray` | Sim | Uma matriz de valores de tag que substitui o dicionário existente do campo. As associações de ativos são mantidas quando um novo valor corresponde a um valor existente. |
 
