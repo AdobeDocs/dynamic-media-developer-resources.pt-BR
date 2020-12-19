@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,14 +23,14 @@ Quando especificado, as solicitações para este catálogo de imagens que se ori
 
 ## Propriedades {#section-d785265988324af68835410c9ba54147}
 
-lista separada por vírgulas de endereços IP com máscaras de rede opcionais (a notação CIDR é usada):
+Lista separada por vírgulas de endereços IP com máscaras de rede opcionais (a notação CIDR é usada):
 
-`*`ipAddress`*` `[`/ *`netmask`*`]`*`[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Endereço IP no formato <span class="varname"> ddd.ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>Endereço IP no formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> máscara</span> </p></td> 
@@ -35,7 +38,7 @@ lista separada por vírgulas de endereços IP com máscaras de rede opcionais (a
  </tr> 
 </table>
 
-Esse atributo é ignorado quando uma regra de pré-processamento com um `<addressfilter>` elemento é aplicada.
+Este atributo é ignorado quando uma regra de pré-processamento com um elemento `<addressfilter>` é aplicada.
 
 ## Padrão {#section-de26e8c9225745e985e4beac1f03f4f6}
 
