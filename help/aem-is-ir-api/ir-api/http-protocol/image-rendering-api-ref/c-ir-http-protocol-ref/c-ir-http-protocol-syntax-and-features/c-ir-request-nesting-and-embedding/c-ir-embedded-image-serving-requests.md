@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Solicitações do Servidor de imagens incorporado{#embedded-image-server-requests}
+# Solicitações do Servidor de Imagens Incorporado{#embedded-image-server-requests}
 
 Uma solicitação do Servidor de imagens (IS) pode ser usada como uma imagem de material.
 
-Especifique a solicitação no `src=` comando da seguinte maneira:
+Especifique a solicitação no comando `src=` da seguinte maneira:
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-O `is` token faz distinção entre maiúsculas e minúsculas.
+O token `is` faz distinção entre maiúsculas e minúsculas.
 
 A solicitação aninhada não deve incluir o caminho raiz do Servidor de imagens (normalmente [!DNL http:// *[!DNL server]*/is/image/&quot;]), mas pode incluir tokens de regras de pré-processamento.
 
@@ -35,7 +38,7 @@ Os seguintes comandos IS são ignorados quando especificados em solicitações a
 * `quantize=`
 * `req=`
 
-Também são ignorados `attribute::MaxPix` e do catálogo `attribute::DefaultPix` de imagens que se aplica à solicitação IS incorporada.
+Também são ignorados `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de imagens que se aplica à solicitação IS incorporada.
 
 Se a imagem resultante da solicitação aninhada incluir dados de máscara (alfa), ela sempre será passada para o material. Use uma camada de imagem de plano de fundo de cor sólida para evitar alfa indesejado.
 
