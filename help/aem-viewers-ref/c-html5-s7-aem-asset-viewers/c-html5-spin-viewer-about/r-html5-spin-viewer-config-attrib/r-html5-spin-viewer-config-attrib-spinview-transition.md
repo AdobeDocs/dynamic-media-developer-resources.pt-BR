@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: SpinView.transição
+seo-title: SpinView.transition
 solution: Experience Manager
-title: SpinView.transição
+title: SpinView.transition
 topic: Dynamic media
 uuid: 9d7ea421-9892-4276-8f22-3e1099f91f2f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# SpinView.transição{#spinview-transition}
+# SpinView.transition{#spinview-transition}
 
 ` [SpinView.|<containerId>_spinView.]transition= *``*[, *`tempo`*]`
 
@@ -45,6 +48,6 @@ Opcional.
 
 `0.5,0`
 
-## Example {#section-622348a84fbe4ff4b5dd7eb53b044d83}
+## Exemplo {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 
 `transition=2,2`
