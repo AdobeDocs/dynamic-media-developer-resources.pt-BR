@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ab078f32-c523-4b6c-a0d6-45dd2af35b36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ Referência da API JavaScript para o Visualizador de vídeo.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo </span></span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nova ID de ativo ou conjunto de imagens explícito com modificadores opcionais do Serviço de imagens anexados após <span class="codeph"> ? </span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Cadeia </span>} nova ID de ativo ou conjunto de imagens explícito com modificadores opcionais do Serviço de Imagens anexados após <span class="codeph"> ? </span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define um novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois [!DNL `init()`]. Se for chamado depois [!DNL `init()`], o visualizador alterna o ativo em tempo de execução.
+Define um novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de [!DNL `init()`]. Se for chamado depois de [!DNL `init()`], o visualizador alternará o ativo em tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -35,7 +38,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalo
 
 Nenhum.
 
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 Referência única para um conjunto de imagens definido em um catálogo:
 
