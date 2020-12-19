@@ -1,6 +1,6 @@
 ---
-description: Atributo de configuração para o visualizador do Video360.
-seo-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o visualizador Video360.
+seo-description: Atributo de configuração para o visualizador Video360.
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Video360Player.iconeffect{#video-player-iconeffect}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o visualizador Video360.
 
 ` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
 
@@ -22,7 +25,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que IconEffect seja exibido na parte superior do vídeo quando o vídeo estiver em estado de pausa. Em alguns dispositivos, controles nativos são usados. Nesses casos, o modificador do efeito <span class="codeph"> de</span> ícone é ignorado. </p> </td> 
+   <td colname="col2"> <p> Permite que IconEffect seja exibido na parte superior do vídeo quando o vídeo estiver em estado de pausa. Em alguns dispositivos, controles nativos são usados. Nesses casos, o modificador do ícone <span class="codeph"></span> é ignorado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
@@ -47,6 +50,6 @@ Opcional.
 
 `1,-1,0.3,0`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `iconeffect=0`
