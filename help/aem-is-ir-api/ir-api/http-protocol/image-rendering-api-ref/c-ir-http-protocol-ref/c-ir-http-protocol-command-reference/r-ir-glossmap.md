@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# glossário{#glossmap}
+# glossmap{#glossmap}
 
 Imagem do mapa de brilho. Fornece controle pixel por pixel da luminosidade de uma textura repetível, papel de parede/borda ou decal.
 
@@ -24,7 +24,7 @@ Imagem do mapa de brilho. Fornece controle pixel por pixel da luminosidade de um
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;laço;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'  </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glossMapFile</span> </span> </p></td> 
@@ -35,14 +35,14 @@ Imagem do mapa de brilho. Fornece controle pixel por pixel da luminosidade de um
   <td class="stentry"> <p>Solicitar ao servidor de imagens. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> foreignReq  </span> </span> </p></td> 
   <td class="stentry"> <p>Solicitar a um servidor externo. </p></td> 
  </tr> 
 </table>
 
 Aplicável a materiais como efeitos de tinta metálica, papéis de parede de folha cortada sob tinta e bordas, tecidos metálicos de fio, e assim por diante.
 
-A imagem do mapa de brilho deve ter uma escala de cinza de 8 bits e ter exatamente o mesmo tamanho da imagem principal especificada com `src=`. Consulte a descrição do [ para obter mais informações `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) .
+A imagem do mapa de brilho deve ter uma escala de cinza de 8 bits e ter exatamente o mesmo tamanho que a imagem principal especificada com `src=`. Consulte a descrição de [ `gloss=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) para obter mais informações.
 
 ## Propriedades {#section-26375672d69849be9b026cc93c3bc558}
 
@@ -54,4 +54,4 @@ Nenhum.
 
 ## Consulte também {#section-33953fc1be82452da37141f2e541e00c}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca), [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca),  [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)
