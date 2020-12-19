@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: SearchPanel.alinhamento
+seo-title: SearchPanel.align
 solution: Experience Manager
-title: SearchPanel.alinhamento
+title: SearchPanel.align
 topic: Dynamic media
 uuid: 769ae5e4-23ee-435a-9a56-d84a32004b00
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 1%
 
 ---
 
 
-# SearchPanel.alinhamento{#searchpanel-align}
+# SearchPanel.align{#searchpanel-align}
 
 [!DNL `[SearchPanel.|<containerId>_searchPanel.]align=left|center|right,top|center|bottom`]
 
@@ -33,6 +36,6 @@ Opcional.
 
 [!DNL `center,top`]
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 [!DNL `align=left,top`]
