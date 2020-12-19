@@ -36,7 +36,7 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lace;'<span class="varname"> &amp;estranhoReq</span>' amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -78,19 +78,19 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
 
 Os materiais repetidos de Textura, Decalque e Papel de parede exigem uma única imagem, que pode ser especificada como um arquivo ou uma solicitação incorporada.
 
-Os materiais do gabinete exigem um arquivo estilo gabinete ( [!DNL .vnc]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de imagem de textura é opcional para gabinetes e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
+Os materiais do gabinete exigem um arquivo de estilo de gabinete ( [!DNL .vnc]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de imagem de textura é opcional para gabinetes e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
 
-Os materiais de revestimento de janelas exigem um arquivo de estilo de cobertura de janela ( [!DNL .vnw]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de textura é opcional e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
+Os materiais de cobertura de janelas exigem um arquivo de estilo de cobertura de janela ( [!DNL .vnw]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de textura é opcional e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
 
-A renderização de imagem usa as mesmas regras que o Serviço de imagem para procurar catálogos de materiais, entradas de catálogo e arquivos de dados. Consulte a descrição do Tipo de *`object`* dados na documentação do Servidor de imagens para obter detalhes.
+A renderização de imagem usa as mesmas regras que o Serviço de imagem para procurar catálogos de materiais, entradas de catálogo e arquivos de dados. Consulte a descrição do *`object`* Tipo de dados na documentação do Servidor de imagens para obter detalhes.
 
-*`materialFile`* é um caminho relativo a `attribute::RootPath`.
+*`materialFile`* é um caminho relativo a  `attribute::RootPath`.
 
-*`foreignReq`* pode ser um URL relativo a `attribute::RootUrl`ou um URL absoluto se `attribute::AllowDirectUrls` estiver definido.
+*`foreignReq`* pode ser um URL relativo a  `attribute::RootUrl`ou um URL absoluto se  `attribute::AllowDirectUrls` estiver definido.
 
-Se não *`catId`* for especificado, o catálogo de sessão será usado.
+Se *`catId`* não for especificado, o catálogo de sessão será usado.
 
-`srcE=` e `srcN=` fornecer acesso aos materiais incorporados na vinheta.
+`srcE=` e  `srcN=` fornecer acesso aos materiais incorporados na vinheta.
 
 ## Formatos de arquivo suportados {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -108,13 +108,13 @@ Atributo material. Exigido para todos os materiais, com exceção da cor sólida
 
 Nenhum.
 
-## Example {#section-675865444f8a4d35b9fc6e58b36e3438}
+## Exemplo {#section-675865444f8a4d35b9fc6e58b36e3438}
 
 Um MSS para um gabinete colorido com uma textura repetível separada:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-O mesmo material poderia estar localizado em um catálogo de materiais `'cat`&#39; no registro &#39; `12-3-2`&#39;:
+O mesmo material pode estar localizado em um catálogo de materiais `'cat`&#39; no registro &#39; `12-3-2`&#39;:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -124,4 +124,4 @@ Uma solicitação aninhada ao Serviço de imagem para obter uma imagem de textur
 
 ## Consulte também {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Catálogos](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)de materiais, [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [atributo::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Catálogos](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2) de materiais,  [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [atributo::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
