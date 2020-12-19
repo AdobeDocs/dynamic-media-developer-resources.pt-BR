@@ -1,9 +1,9 @@
 ---
-description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
-seo-description: As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
-seo-title: Versão do último trimestre de 2016 do Scene7
+description: As notas de versão mais recentes da versão Adobe Scene7 do último trimestre de 2016 fazem parte da solução Adobe Experience Manager no Adobe Marketing Cloud.
+seo-description: As notas de versão mais recentes da versão Adobe Scene7 do último trimestre de 2016 fazem parte da solução Adobe Experience Manager no Adobe Marketing Cloud.
+seo-title: Versão do último trimestre de 2016 da Scene7
 solution: Experience Manager
-title: Versão do último trimestre de 2016 do Scene7
+title: Versão do último trimestre de 2016 da Scene7
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
@@ -15,13 +15,13 @@ ht-degree: 0%
 ---
 
 
-# Versão do último trimestre de 2016 do Scene7{#scene-fall-release}
+# Versão do último trimestre de 2016 da Scene7{#scene-fall-release}
 
-As notas de versão mais recentes do Adobe Scene7 Fall 2016 fazem parte da solução de Adobe Experience Manager no Adobe Marketing Cloud.
+As notas de versão mais recentes da versão Adobe Scene7 do último trimestre de 2016 fazem parte da solução Adobe Experience Manager no Adobe Marketing Cloud.
 
-## Versão do último trimestre de 2016 do Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Versão do último trimestre de 2016 da Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-As notas de versão mais recentes para a versão do [!DNL Adobe Scene7] último trimestre de 2016 fazem parte da [!DNL Adobe Experience Manager] solução no [!DNL Adobe Marketing Cloud].
+As notas de versão mais recentes de [!DNL Adobe Scene7] versão do último trimestre de 2016 da solução [!DNL Adobe Experience Manager] no [!DNL Adobe Marketing Cloud].
 
 * [Geral](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -33,9 +33,9 @@ As notas de versão mais recentes para a versão do [!DNL Adobe Scene7] último 
 
 ## Geral {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-A Adobe está empolgada em anunciar a disponibilidade do delivery HTTP/2 de conteúdo com o benefício geral de melhor desempenho.
+A Adobe está empolgada em anunciar a disponibilidade do delivery HTTP/2 de conteúdo com o benefício geral de um melhor desempenho.
 
-Consulte Perguntas frequentes sobre o Delivery [HTTP2 para](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)conteúdo.
+Consulte [Delivery HTTP2 de Perguntas frequentes sobre conteúdo](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
@@ -43,25 +43,25 @@ Para obter a documentação completa, consulte [https://docs.adobe.com/content/h
 
 **Novos recursos, melhorias e correções de erros**
 
-* Recurso de recuperação de vídeo removido da interface do [!DNL Adobe Scene7 Publishing System] usuário.
+* Recurso de recuperação de vídeo removido da interface do usuário [!DNL Adobe Scene7 Publishing System].
 * Autenticação adicionada a todos os servlets Scene7, quando necessário e possível.
 * Correção de erros envolvendo a Visualização da Lista na lata de lixo.
-* Recurso **Create SPSAdmin** user removido do Gerenciamento de usuários devido a questões de segurança.
+* Remoção do recurso **Create SPSAdmin** do usuário do Gerenciamento de usuários devido a problemas de segurança.
 * O FTP WebAdmin agora oferece suporte à autenticação OKTA.
 * Remoção do recurso da senha padrão que foi criada para novos usuários do Portal de mídia.
 * Correção de bug que envolve a senha temporária gerada quando um novo usuário foi adicionado. A senha não atendeu aos requisitos de senha necessários.
 * Solução de problemas de disco raiz do WebAdmin cheio.
 * A correção de erros que envolve a desativação de um usuário não é refletida imediatamente na interface do usuário.
 * Correção de erros que envolve a exclusão de um usuário que não permitiu a recriação do usuário posteriormente.
-* Correção de erros envolvendo o email de boas-vindas enviado para novos usuários do Scene7 que não incluíram autenticação para controlar determinadas configurações.
+* Correção de erros envolvendo o email de boas-vindas enviado para novos usuários do Scene7 que não incluíam autenticação para controlar determinadas configurações.
 * Correção de erro que envolve a falha ao recuperar uma lista de pasta FTP se qualquer pasta tiver caracteres especiais em seu nome.
 * Configure provedores de serviço OKTA para ambientes Scene7.
-* Adição de suporte à Marketing Cloud Org ID para o Viewer Analytics.
-* O cliente Scene7 SAML foi implementado.
+* Adição de suporte para ID de empresa do Marketing Cloud para o Viewer Analytics.
+* Cliente Scene7 SAML implementado.
 
 ## Visualizadores (Servidor de imagens 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Correções de erros para o Serviço de imagem 5.5.3**
 
@@ -71,7 +71,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Correções de erros para o Serviço de imagem 5.5.2**
 
@@ -80,17 +80,17 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 ## Visualizadores (Servidor de imagens 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obter a documentação completa, consulte o Guia [de referência dos](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)visualizadores.
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 **Novos recursos, melhorias e correções de erros para o Serviço de Imagens 5.5.1**
 
 * Visualizador do eCatalog HTML5 com recurso de pesquisa.
-* Adicionada a reprodução de vídeo de streaming HLS como um método de delivery de vídeo padrão para a maioria dos sistemas de desktop. O streaming de vídeo HDS baseado em Flash ainda está disponível como uma opção alternativa de reprodução.
+* Adicionada a reprodução de vídeo de streaming HLS como um método de delivery de vídeo padrão para a maioria dos sistemas de desktop. O streaming de vídeo HDS baseado em Flashes ainda está disponível como uma opção alternativa de reprodução.
 * Adicionado suporte para dispositivos com entrada de mouse e toque que executam o navegador Chrome.
-* Adição do suporte à Marketing Cloud Org ID à integração com a Analytics.
+* Adição do suporte à ID de organização do Marketing Cloud à integração do Analytics.
 * Atualize a biblioteca JavaScript do AppMeasurement para a versão 1.6.1.
 * Adicionado suporte para a orientação da direita para a esquerda no visualizador eCatalog.
-* Corrigido o problema que `tip=0,-1,0` causava um erro fora do intervalo.
+* Foi corrigido um problema em que `tip=0,-1,0` causava um erro fora do intervalo.
 
 **Notas de compatibilidade**
 
@@ -108,7 +108,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 * Galaxy SIII
 
    * Vazamento de memória observado com visualizadores HTML5 de Zoom e eCatalog. A navegação repetida pelos quadros pode fazer com que o navegador falhe.
-   * O toque de Duplo no visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala ativada no navegador.
+   * O toque de duplo no visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala ativada no navegador.
 
 * Galaxy S4
 
@@ -116,7 +116,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 * Galaxy Nexus
 
-   * O toque de Duplo no visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala ativada no navegador.
+   * O toque de duplo no visualizador pode fazer com que a página inteira aumente o zoom em vez de apenas o visualizador com a escala ativada no navegador.
 
 * Galaxy Nexus 10 e Galaxy
 
@@ -130,7 +130,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 * Vídeo HTML5
 
    * Internet Explorer 9: as imagens de pôster personalizadas não são exibidas.
-   * `IntialBitRate` o modificador só é suportado com a reprodução HLS de software e Flash HDS. Ela não funciona quando a reprodução está usando o player nativo.
+   * `IntialBitRate` só há suporte para modificador com HLS de software e reprodução HDS de Flash. Ela não funciona quando a reprodução está usando o player nativo.
    * A reprodução progressiva OGG e WebM não é suportada neste momento.
    * A escala do navegador pode fazer com que o player de vídeo seja exibido em um tamanho incorreto (incluindo as configurações de exibição do painel de controle do SO do Windows)
    * A busca de vídeo usando streaming HLS no Safari pode ser inconsistente.
@@ -148,24 +148,24 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 * Safari
 
-   * Safari 6.1 ou posterior: As configurações de plug-ins da Internet podem impedir a reprodução de vídeo Flash.
+   * Safari 6.1 ou posterior: As configurações de plug-ins da Internet podem impedir a reprodução do vídeo do Flash.
    * A &quot;busca&quot; de vídeo usando o streaming de HLS no Safari pode ser inconsistente.
    * Não é possível buscar o fim do vídeo no Safari 6 usando o streaming HLS.
 
 **Problemas conhecidos e restrições**
 
-* Os modificadores do Servidor de imagens de não `iscommands` são adicionados à `req=set` solicitação por padrão. Os modificadores que afetam apenas a exibição da imagem funcionam bem. Modificadores que afetam o tamanho devem ser usados em um ativo complexo. Por exemplo,
+* Os modificadores do Servidor de imagens de `iscommands` não são adicionados à solicitação `req=set` por padrão. Os modificadores que afetam apenas a exibição da imagem funcionam bem. Modificadores que afetam o tamanho devem ser usados em um ativo complexo. Por exemplo,
 
    `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [O Flyout] IE9 às vezes permanece na tela após o mouse desligar.
+* [O ] FlyoutIE9 às vezes permanece na tela após o mouse desligar.
 * A escala do navegador leva ao redimensionamento incorreto.
 * iPad 2: O grande ativo do eCatalog travará o Safari no iOS.
 * Todos os visualizadores
 
    * Marcas d&#39;água, ofuscação e bloqueio não são suportadas.
    * As predefinições de imagens não são suportadas.
-   * No momento, não há suporte para adicionar ou remover o visualizador do DOM usando o `display:none` CSS ou desconectando-o dinamicamente do nó pai.
+   * No momento, não há suporte para adicionar ou remover o visualizador do DOM usando `display:none` CSS ou desconectando-o dinamicamente do nó pai.
 
 * Todos os visualizadores HTML5
 
@@ -173,7 +173,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
    * Parâmetros com nomes de instâncias explícitos no código exigem nomes de instâncias no URL, além de serem substituídos (por exemplo, `zoomView.iconfeffect=0`).
    * O recorte de comando do Servidor de Imagens não é suportado no momento.
    * O botão Fechar funciona somente se o visualizador estiver aberto na janela secundária.
-   * O `iscommands` modificador não suporta modificadores do Serviço de imagem que afetam o tamanho da imagem.
+   * O modificador `iscommands` não suporta modificadores do Servidor de imagens que afetam o tamanho da imagem.
 
 * eCatalog HTML5
 
@@ -189,13 +189,13 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 * HTML5 Social
 
-   * Para renderizar miniaturas corretamente no email de saída, o `serverurl` modificador deve ter um URL absoluto.
+   * Para renderizar miniaturas corretamente no email de saída, o modificador `serverurl` deve ter um URL absoluto.
 
 * Vídeo HTML5
 
-   * A imagem do pôster pode encontrar o erro &quot;tamanho máximo&quot;. A Empresa pode precisar aumentar a configuração de limite para o Image Serving Publish.
-   * As legendas de vídeo exigem um conjunto de regras de empresa se a hospedagem da página HTML for fornecida por um servidor externo (não por um servidor Scene7). Entre em contato com o suporte da Adobe para obter ajuda.
-   * O rastreamento do Analytics pode relatar a porcentagem de reprodução incorreta devido ao buffering
+   * A imagem do pôster pode encontrar o erro &quot;tamanho máximo&quot;. A empresa pode precisar aumentar a configuração de limite para o Image Serving Publish.
+   * As legendas de vídeo exigem um conjunto de regras de empresa se a hospedagem da página HTML for fornecida por um servidor externo (não por um servidor Scene7). Entre em contato com o Suporte ao Adobe para obter assistência.
+   * O rastreamento do Analytics pode relatar uma porcentagem de reprodução incorreta devido ao buffering
    * O quadro preto em vez da imagem de pôster pode ser exibido em dispositivos iPad ou Android.
    * O quadro preto pode piscar na tela durante o carregamento do visualizador em dispositivos iPad ou Android.
    * Bordas pretas são exibidas ao lado do componente VideoPlayer quando o plano de fundo é definido para branco/transparente em dispositivos iPad.
@@ -206,7 +206,7 @@ Para obter a documentação completa, consulte o Guia [de referência dos](https
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instalação do cliente. A documentação da API do componente é encontrada na subpasta docs da instalação do cliente.
+O Guia do usuário está localizado na pasta Adobe HTML5 Viewer SDK da instalação do cliente. A documentação da API do componente é encontrada na subpasta docs da instalação do cliente.
 
 **Correções de erros para 3.0.2**
 
@@ -217,7 +217,7 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
 * Geral
 
-   * Adicionada a reprodução de vídeo de streaming HLS como um método de delivery de vídeo padrão para a maioria dos sistemas de desktop. O streaming de vídeo HDS baseado em Flash ainda está disponível como uma opção alternativa de reprodução.
+   * Adicionada a reprodução de vídeo de streaming HLS como um método de delivery de vídeo padrão para a maioria dos sistemas de desktop. O streaming de vídeo HDS baseado em Flashes ainda está disponível como uma opção alternativa de reprodução.
    * Adicionados os componentes SearchManager, SearchPanel, SearchEffect e SearchButton para suportar o novo recurso de Pesquisa nos visualizadores eCatalog.
    * Adicionado suporte para dispositivos com entrada de mouse e toque em execução no navegador Chrome.
    * Detecção de versão do Android atualizada para suportar versões futuras do SO
@@ -251,12 +251,12 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
    * Às vezes, o visualizador falha ao carregar em tela cheia.
    * No momento, o Pageview sofre de um vazamento de memória no dispositivo.
-   * O gesto de toque no Duplo amplia o visualizador e a página quando a escala no navegador está ativa.
+   * O gesto de toque no duplo amplia o visualizador e a página quando a escala no navegador está ativa.
 
 * Galaxy Nexus
 
    * Artefatos exibidos sobre alguns componentes de visualização.
-   * O gesto de toque no Duplo amplia o visualizador e a página quando a escala no navegador está ativa.
+   * O gesto de toque no duplo amplia o visualizador e a página quando a escala no navegador está ativa.
 
 * iPad 3
 
@@ -288,15 +288,15 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
 * Xoom
 
-   * O gesto de toque no Duplo amplia o visualizador e a página quando a escala no navegador está ativa.
+   * O gesto de toque no duplo amplia o visualizador e a página quando a escala no navegador está ativa.
 
 **Problemas conhecidos e restrições**
 
 * Todos os componentes
 
-   * Nas versões 2.7.2 e anteriores, alguns componentes foram adicionados ao DOM usando a `insertBefore()` API. Como resultado, esses componentes seriam colocados na parte inferior da ordem de empilhamento, independentemente de quando a instância do componente fosse criada em relação a outros componentes. Com a versão 2.8.1, todos os componentes estão usando a `appendChild()` API agora, o que significa que a ordem de empilhamento do componente corresponderia à ordem de criação da instância.
+   * Nas versões 2.7.2 e anteriores, alguns componentes foram adicionados ao DOM usando a API `insertBefore()`. Como resultado, esses componentes seriam colocados na parte inferior da ordem de empilhamento, independentemente de quando a instância do componente fosse criada em relação a outros componentes. Com a versão 2.8.1, todos os componentes estão usando a API `appendChild()` agora, o que significa que a ordem de empilhamento de componentes corresponderia à ordem de criação da instância.
 
-   * Não há suporte para o uso `iscommand` do modificador para definir o formato de canal alfa da imagem. Em vez disso, use o `FMT` parâmetro component.
+   * Não há suporte para o uso do modificador `iscommand` para definir o formato de canal alfa da imagem. Em vez disso, use o parâmetro `FMT` do componente.
    * A propriedade de transformação CSS não é suportada no momento.
 
 * Dispositivos de toque
@@ -305,7 +305,7 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
 * Container
 
-   * Borda, preenchimento e margens no container não são suportados. A Adobe sugere adicionar elementos de estilo ao DIV pai.
+   * Borda, preenchimento e margens no container não são suportados. O Adobe sugere adicionar elementos de estilo ao DIV pai.
    * É necessário definir explicitamente o tamanho do container ou os componentes podem ser dimensionados corretamente.
 
 * Componente de impressão
@@ -330,7 +330,7 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
 * Componente PageScrubber
 
-   * No iPhone 5, quando a bolha do PageScrubber está definida como texto, ela exibe artefatos ao deslizar o botão ao longo da faixa. Usar `-webkit-background-clip: content;` no estilo dá uma volta ao problema.
+   * No iPhone 5, quando a bolha do PageScrubber está definida como texto, ela exibe artefatos ao deslizar o botão ao longo da faixa. Usar `-webkit-background-clip: content;` no estilo funciona em torno do problema.
 
 * Componente SpinView
 
@@ -339,7 +339,7 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 * Componente de amostras
 
    * Ao selecionar uma amostra fora dos limites, 2 realces são mostrados.
-   * Rolagem automática com `selectSwatch()` método funcionando incorretamente.
+   * A rolagem automática com o método `selectSwatch()` está funcionando incorretamente.
 
 * VideoPlayer
 
@@ -350,6 +350,6 @@ O Guia do usuário está localizado na pasta SDK do Adobe HTML5 Viewer da instal
 
 ## Scene7 Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* Utilitário IC - o sinalizador não é mais compatível `downsample2x2` . Esse sinalizador era um redutor de qualidade 2x2 ruim que não é mais usado pelo IPS.
+* Utilitário IC - o sinalizador `downsample2x2` não é mais suportado. Esse sinalizador era um redutor de qualidade 2x2 ruim que não é mais usado pelo IPS.
 * Cabeçalho CORS - Atualmente, o cabeçalho CORS está configurado para `/is/content/` solicitações.
 
