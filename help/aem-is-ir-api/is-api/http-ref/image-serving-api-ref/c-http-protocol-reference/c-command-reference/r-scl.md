@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +28,9 @@ Dimensionar visualização. Dimensiona a imagem composta pelo inverso de renceFa
  </tr> 
 </table>
 
-Nenhuma escala é aplicada quando `scl=1`. *`invFactor`* maior que 1,0 de escala reduzida e menor que 1,0 amplia a imagem composta.
+Nenhum dimensionamento é aplicado quando `scl=1`. *`invFactor`* maior que 1,0 de escala reduzida e menor que 1,0 amplia a imagem composta.
 
-Se `scl=` for especificado e `wid=` e/ou `hei=` estiverem presentes também, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
+Se `scl=` for especificado e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
 
 >[!NOTE]
 >
@@ -35,16 +38,16 @@ Se `scl=` for especificado e `wid=` e/ou `hei=` estiverem presentes também, a i
 
 ## Propriedades {#section-60af012719db477db4a4703e9a6da5f5}
 
-Atributo de Visualização. Aplica-se independentemente da configuração de camada atual.
+Atributo de visualização. Aplica-se independentemente da configuração de camada atual.
 
 ## Padrão {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se nem `wid=`, `hei=`nem `scl=` forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
+Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
 
-## Example {#section-a33f6239476a4b438d939656ad99aa76}
+## Exemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
-Consulte o exemplo em [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para obter uma aplicação comum de `scl=`.
+Consulte o exemplo em [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para obter um aplicativo comum de `scl=`.
 
 ## Consulte também {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [atributo::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [atributo::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
