@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 0%
 
 ---
 
 
-# Cluster de cache{#cache-clustering}
+# Clustering de cache{#cache-clustering}
 
 O agrupamento em cache permite que vários servidores com balanceamento de carga troquem entradas de cache no cache de resposta principal e no cache de dados secundário (para solicitações aninhadas/incorporadas), com o potencial de aumentar significativamente a capacidade de resposta do servidor, eliminando a necessidade de gerar a mesma entrada de cache em vários servidores.
 
@@ -26,9 +29,9 @@ O cluster de cache pode operar em uma das duas configurações básicas:
 
 * Quando `PS::cacheCluster.updateLocalCache` estiver ativado (padrão), qualquer entrada de cache encontrada em um servidor de mesmo nível será copiada para o cache local.
 
-   Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também oferece o tempo de resposta mais rápido, ao custo de ter todas as entradas de cache replicadas para todos os servidores do cluster. Esta é a configuração recomendada.
+   Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também fornece os tempos de resposta mais rápidos, ao custo de ter todas as entradas de cache replicadas para todos os servidores no cluster. Esta é a configuração recomendada.
 
-* Quando `PS::cacheCluster.updateLocalCache` está desativado, os dados de outros servidores não são copiados para o cache local.
+* Quando `PS::cacheCluster.updateLocalCache` estiver desativado, os dados de outros servidores não são copiados para o cache local.
 
    Isso multiplica o espaço em disco disponível para dados de cache. No entanto, ele aumenta o tráfego entre os servidores de mesmo nível e reduz o tempo geral de resposta. Use essa configuração somente quando você observar taxas baixas de ocorrência em cache.
 
