@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
 
-# Solicitação pré-processamento *{#request-pre-processing}
+# Solicitar pré-processamento *{#request-pre-processing}
 
 A Renderização de imagem fornece uma simples solicitação pré-processador com base em regras de substituição e correspondência de expressão regular.
 
@@ -22,7 +25,7 @@ As regras de pré-processamento de solicitação podem modificar o caminho e as 
 
 As regras de pré-processamento de solicitações são adequadas para uma variedade de aplicativos, alguns dos quais listados abaixo:
 
-* Implemente um mecanismo de caminhos ** virtuais, que permite o remapeamento do caminho da solicitação para caminhos de arquivo, FTP e HTTP.
+* Implemente um mecanismo de *caminhos virtuais*, que permite o remapeamento do caminho da solicitação para caminhos de arquivo, FTP e HTTP.
 * Não permitir o uso de comandos com uso intenso da CPU para evitar o abuso do servidor.
 * Controle as configurações de qualidade de imagem (como qualidade JPEG ou nitidez) dependendo do caminho da solicitação ou do nome da imagem.
 
