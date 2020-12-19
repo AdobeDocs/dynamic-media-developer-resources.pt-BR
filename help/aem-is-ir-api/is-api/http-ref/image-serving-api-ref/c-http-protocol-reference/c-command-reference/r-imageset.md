@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ecfb3905-e3ef-4ab8-a2c4-2c3f200e0f0f
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao g
  </tr> 
 </table>
 
-Para escapar do valor e garantir que todos os modificadores incluídos não sejam interpretados como parte da string do query de URL, o valor inteiro deve estar entre chaves. Se o registro do catálogo for especificado no caminho de rede, esse valor do modificador substituirá `catalog::ImageSet` do registro principal. Para obter uma descrição da sintaxe válida do conjunto de imagens, consulte a `catalog::ImageSet` documentação.
+Para escapar do valor e garantir que todos os modificadores incluídos não sejam interpretados como parte da string do query de URL, o valor inteiro deve estar entre chaves. Se o registro do catálogo for especificado no caminho de rede, esse valor do modificador substituirá `catalog::ImageSet` do registro principal. Para obter uma descrição da sintaxe válida do conjunto de imagens, consulte a documentação `catalog::ImageSet`.
 
 ## Propriedades {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 
@@ -35,12 +38,12 @@ Atributo de solicitação. Opcional. Substitui `catalog::ImageSet` do registro p
 
 Nenhum.
 
-## Example {#section-68513d3c601f477399602a0741dab390}
+## Exemplo {#section-68513d3c601f477399602a0741dab390}
 
-Especifique o conjunto de imagens para uso com a `req=set` solicitação:
+Especifique o conjunto de imagens para uso com a solicitação `req=set`:
 
 `http://server/myRootId?imageSet={asset1,asset2,asset3}&req=set`
 
 ## Consulte também {#section-7e0320b2e09d475897082711a8f023a9}
 
-[catálogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) , [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Solicitações do Conjunto [de Mídias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[catálogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) ,  [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Solicitações  [do Conjunto de Mídias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
