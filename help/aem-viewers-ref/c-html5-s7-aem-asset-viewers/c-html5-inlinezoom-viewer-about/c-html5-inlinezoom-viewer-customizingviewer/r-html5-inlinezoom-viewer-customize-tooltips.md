@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 726eb6c1-378b-499e-b4c4-c293db8fdc71
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,27 +38,27 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor da borda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor da borda  </span> </p> </td> 
    <td colname="col2"> <p> Cor da borda do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
 
 >[!NOTE]
 >
->Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades devem conter a `!IMPORTANT` regra. Isso não é necessário se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
+>Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades devem conter a regra `!IMPORTANT`. Isso não é necessário se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
 
 Exemplo - para configurar dicas de ferramentas que tenham uma borda cinza com raio de canto de 3px, plano de fundo preto e texto branco gravados com Arial, tamanho de 11 pixels:
 
