@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,8 +32,8 @@ Cada catálogo de imagens consiste em um arquivo de atributo de catálogo necess
 
 Os arquivos de dados do catálogo são associados aos catálogos de imagens por referências de arquivo no arquivo de atributos do catálogo. O mesmo arquivo de dados do catálogo pode ser compartilhado por vários catálogos de imagens.
 
-Os arquivos de atributo do catálogo devem ter um sufixo de [!DNL .ini] arquivo e devem estar localizados na pasta de catálogo do Servidor de plataforma ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor da plataforma.
+Os arquivos de atributos do catálogo devem ter um sufixo de arquivo [!DNL .ini] e devem estar localizados na pasta de catálogo do Servidor de plataforma ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor da plataforma.
 
-Este documento descreve o formato de arquivo do Catálogo de imagens para o sistema Scene7 Image Serving. A audiência pretendida é programadores experientes e desenvolvedores de sites da Web que desejam utilizar o Scene7 Image Serving para uma aplicação Web ou personalizada.
+Este documento descreve o formato de arquivo do Catálogo de imagens para o sistema Scene7 Image Server. A audiência pretendida é programadores experientes e desenvolvedores de sites da Web que desejam utilizar o Scene7 Image Service para uma aplicação Web ou personalizada.
 
-Pressupõe-se que o leitor esteja familiarizado com o sistema Scene7 Image Serving, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
+Pressupõe-se que o leitor esteja familiarizado com o sistema Scene7 Image Service, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
