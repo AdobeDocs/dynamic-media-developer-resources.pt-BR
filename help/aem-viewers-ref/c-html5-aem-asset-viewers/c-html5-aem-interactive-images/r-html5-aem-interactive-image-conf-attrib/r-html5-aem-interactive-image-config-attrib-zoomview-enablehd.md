@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5badee0b-3bbc-4306-bc60-a606775db2bd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sempre|nunca|limite</span> </p> </td> 
-   <td colname="col2"> <p> Ative, limite ou desative a otimização para dispositivos em que <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>. Afeta dispositivos com tela de alta densidade, como iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse uma proporção de pixel de <span class="codeph"> 1</span>, reduzindo assim a largura de banda. </p> </td> 
+   <td colname="col2"> <p> Ative, limite ou desative a otimização para dispositivos nos quais <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>. Afeta dispositivos com tela de alta densidade, como iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse uma proporção de pixels de <span class="codeph"> 1</span>, reduzindo assim a largura de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
@@ -37,6 +40,6 @@ Opcional.
 
 `limit,1500`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `enableHD=always`
