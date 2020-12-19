@@ -1,6 +1,6 @@
 ---
-description: Esta seção descreve a sintaxe do protocolo HTTP e apresenta a Renderização de imagem do Scene7.
-seo-description: Esta seção descreve a sintaxe do protocolo HTTP e apresenta a Renderização de imagem do Scene7.
+description: Esta seção descreve a sintaxe do protocolo HTTP e a apresentação para renderização de imagem Scene7.
+seo-description: Esta seção descreve a sintaxe do protocolo HTTP e a apresentação para renderização de imagem Scene7.
 seo-title: Sintaxe e recursos do protocolo HTTP
 solution: Experience Manager
 title: Sintaxe e recursos do protocolo HTTP
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
 source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
 
 # Sintaxe e recursos do protocolo HTTP{#http-protocol-syntax-and-features}
 
-Esta seção descreve a sintaxe do protocolo HTTP e apresenta a Renderização de imagem do Scene7.
+Esta seção descreve a sintaxe do protocolo HTTP e a apresentação para renderização de imagem Scene7.
 
 * [Sintaxe básica do protocolo HTTP de renderização de imagem](r-ir-basic-syntax.md)
 * [Visão geral do comando do protocolo HTTP de renderização de imagem](c-ir-command-overview/c-ir-command-overview.md)
