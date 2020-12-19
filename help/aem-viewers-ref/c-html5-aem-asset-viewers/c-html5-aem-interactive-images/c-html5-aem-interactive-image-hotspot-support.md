@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
 
-# Suporte para pontos de conexão{#hotspot-support}
+# Suporte a hotspots{#hotspot-support}
 
 O visualizador suporta a renderização de ícones de ponto de acesso na parte superior da visualização principal. A aparência dos ícones de hotspot é controlada pelo CSS, conforme descrito na seção Hotspots.
 
@@ -22,8 +25,8 @@ Os pontos de acesso podem ativar um recurso de Visualização rápida na página
 
 ## Pontos de conexão de Visualização rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Esses tipos de hotspots devem ser criados usando o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media, dos ativos AEM - sob demanda. Quando um usuário ativa tal ponto de acesso, o visualizador executa o retorno de chamada do `quickViewActivate` JavaScript e transmite os dados do ponto de acesso para ele. Espera-se que a página da Web de incorporação escute esse retorno de chamada. Quando aciona a página, ela abre sua própria implementação de Visualização Rápida.
+Esses tipos de hotspots devem ser criados usando o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media, do AEM Assets - sob demanda. Quando um usuário ativa tal ponto de acesso, o visualizador executa o `quickViewActivate` retorno de chamada JavaScript e transmite os dados do ponto de acesso para ele. Espera-se que a página da Web de incorporação escute esse retorno de chamada. Quando aciona a página, ela abre sua própria implementação de Visualização Rápida.
 
 ## Redirecionar para página da Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Pontos de conexão criados para a ação tipo &quot;Visualização rápida&quot; no Dynamic Media dos ativos AEM - por demanda redireciona o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL será aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeado.
+Pontos de conexão criados para o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media do AEM Assets - a pedido redireciona o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL será aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeado.
