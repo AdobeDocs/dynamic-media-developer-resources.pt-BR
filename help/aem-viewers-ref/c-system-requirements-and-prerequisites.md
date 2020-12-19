@@ -10,7 +10,7 @@ uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
 source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Requisitos de sistema para visualizadores HTML5.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Hardware e software para servidor {#section-05099146f1f0418988c196635110bee6}
+## Hardware e software de servidor {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Server 6.7.1 ou posterior.
 * Os visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.9.1 ou posterior.
@@ -49,7 +49,7 @@ Requisitos de sistema para visualizadores HTML5.
 
 >[!NOTE]
 >
->A partir de 30 de setembro de 2018, os Visualizadores do Adobe Dynamic Media Classic encerrarão o suporte ao Transport Layer Security 1.0 (TLS 1.0). Dessa forma, o Dynamic Media Classic não oferece mais suporte a visualizadores nos seguintes navegadores e/ou plataformas que suportam TLS 1.0. (A Adobe Systems recomenda o uso do TLS 1.2 ou posterior.)
+>A partir de 30 de setembro de 2018, os visualizadores Adobe Dynamic Media Classic estarão encerrando o suporte ao Transport Layer Security 1.0 (TLS 1.0). Como tal, o Dynamic Media Classic não é mais compatível com visualizadores nos seguintes navegadores e/ou plataformas compatíveis com TLS 1.0. (A Adobe Systems recomenda o uso do TLS 1.2 ou posterior.)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Requisitos de sistema para visualizadores HTML5.
 
 >[!NOTE]
 >
->FLASH VIEWERS END-OF-LIFE—A partir de 31 de janeiro de 2017, o Adobe Scene7 Publishing System encerrou oficialmente o suporte para a plataforma do visualizador Flash. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes:
+>FIM DA VIDA ÚTIL DOS VISUALIZADORES DE Flashes—A partir de 31 de janeiro de 2017, o Adobe Scene7 Publishing System encerrou oficialmente o suporte para a plataforma do visualizador de Flashes. Para obter mais informações sobre essa mudança importante, consulte o seguinte site de perguntas frequentes:
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
