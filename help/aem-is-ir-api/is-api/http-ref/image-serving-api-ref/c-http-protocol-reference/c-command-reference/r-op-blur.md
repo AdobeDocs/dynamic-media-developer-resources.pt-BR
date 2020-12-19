@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +32,13 @@ Desfocar imagem. Aplica um filtro de desfoque aos dados da imagem.
 
 ## Propriedades {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`.
 
 ## Padrão {#section-a976cb86620d489085a8fc9bae2626c0}
 
 `op_blur=0`, sem efeito de desfocagem.
 
-## Example {#section-1ebacde68388492eb108ae0fcd7424db}
+## Exemplo {#section-1ebacde68388492eb108ae0fcd7424db}
 
 Desfocar o plano de fundo de uma imagem. Uma imagem de máscara separada é referenciada por `catalog::MaskPath`. Observe que `layer=0`deve ser especificado explicitamente, caso contrário, `op_blur` seria aplicado à imagem composta inteira.
 
