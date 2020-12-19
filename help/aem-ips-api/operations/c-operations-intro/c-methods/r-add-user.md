@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ Ao adicionar um usuário a várias empresas, especifique essas empresas pelas al
 | ` *`firstName`*` | `xsd:string` | Sim | O nome do usuário. |
 | ` *`lastName`*` | `xsd:string` | Sim | O sobrenome do usuário. |
 | ` *`email`*` | `xsd:string` | Sim | O endereço de email do usuário. |
-| ` *`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que a `IpsAdmin` função substitui outras configurações por empresa. |
+| ` *`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Entretanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
 | ` *`password`*` | `xsd:string` | Sim | Define a senha do usuário |
 | ` *`passwordExpires`*` | `xsd:dateTime` | Não | Define o período de expiração da senha. Forneça o fuso horário ao transmitir a solicitação. Os fusos horários são ajustados para Hora central. |
 | ` *`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é válido. |
