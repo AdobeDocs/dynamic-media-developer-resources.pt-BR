@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6ec0730-1ddc-4026-939c-2c9f8ecee5c7
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Referência da API JavaScript para o Visualizador de vídeo interativo.
 
 Start a inicialização do Visualizador de vídeo interativo. Nesse momento, o elemento DOM do container deve ser criado para que o código do visualizador possa encontrá-lo por sua ID.
 
-Se o elemento container ainda não fizer parte do layout da página da Web (por exemplo, pode estar oculto usando o `display:none` estilo atribuído a ele), o visualizador suspenderá seu processo de inicialização até o momento em que a página da Web trazer o elemento container de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+Se o elemento container ainda não fizer parte do layout da página da Web (por exemplo, pode estar oculto usando o estilo `display:none` atribuído a ele), o visualizador suspenderá seu processo de inicialização até o momento em que a página da Web trazer o elemento container de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
 
 Chame este método apenas uma vez durante o ciclo de vida do visualizador; chamadas subsequentes são ignoradas.
 
@@ -32,7 +35,7 @@ Nenhum.
 
 `{Object}` Uma referência à instância do visualizador.
 
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.init()
