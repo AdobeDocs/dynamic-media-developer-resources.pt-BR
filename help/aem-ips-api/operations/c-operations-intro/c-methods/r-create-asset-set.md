@@ -9,7 +9,7 @@ uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 translation-type: tm+mt
 source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -45,38 +45,38 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O identificador da empresa que conterá o conjunto de ativos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O identificador da pasta na qual o novo conjunto de ativos será criado. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do ativo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Um identificador exclusivo criado pelo cliente para o tipo de conjunto de ativos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Os parâmetros na string de definição do conjunto. <p>Eles devem resolver no formato especificado pelo visualizador de públicos alvos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Manuseie o ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. </td> 
   </tr> 
@@ -89,7 +89,7 @@ Você pode especificar funções de substituição em linha que são resolvidas 
 
 >[!NOTE]
 >
->Os literais de identificação nas listas de parâmetro devem estar entre colchetes `([])`. Todo o texto que está fora de uma string de substituição é copiado textualmente para a string de saída durante a resolução.
+>Os literais de identificador nas listas de parâmetro devem estar entre parênteses `([])`. Todo o texto que está fora de uma string de substituição é copiado textualmente para a string de saída durante a resolução.
 
 | **Função de Substituição** | **Retorna** |
 |---|---|
