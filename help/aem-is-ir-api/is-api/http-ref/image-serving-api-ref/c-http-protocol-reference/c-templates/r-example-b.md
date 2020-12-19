@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Requisitos semelhantes aos do Exemplo A, mas usam um fundo de cor sólida e perm
  </tr> 
 </table>
 
-A imagem é colocada na camada 0 e o valor de altura de `size=` é definido como 0, o que faz com que a altura real seja determinada pela altura da imagem depois de dimensioná-la para 800 pixels de largura.
+A imagem é colocada na camada 0 e o valor de altura `size=` é definido como 0, o que faz com que a altura real seja determinada pela altura da imagem depois de dimensioná-la para 800 pixels de largura.
 
 `extend=` adiciona 100 pixels à parte superior e inferior e 200 pixels à direita.
 
