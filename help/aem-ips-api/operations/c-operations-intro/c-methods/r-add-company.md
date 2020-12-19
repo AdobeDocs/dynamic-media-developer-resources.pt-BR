@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Adiciona uma empresa ao sistema.
 
 Envia o nome da empresa a ser adicionada ao sistema e, opcionalmente, envia se a empresa expira.
 
-Quando essa operação é invocada, o sistema recebe um tipo ` *`companyInfo`*` que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitada já existir no sistema, ele emitirá um `ipsApiFault`.
+Quando essa operação é invocada, o sistema recebe um tipo ` *`companyInfo`*` que contém um identificador de empresa e campos descritivos. Se o nome de empresa solicitado já existir no sistema, ele emitirá um `ipsApiFault`.
 
 ## Tipos de usuário autorizados {#section-ae926c7672984be79f6102748accab72}
 
@@ -41,13 +44,13 @@ Quando essa operação é invocada, o sistema recebe um tipo ` *`companyInfo`*` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>O nome da empresa a ser adicionada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>A data de expiração da empresa. Forneça o fuso horário com a solicitação para este campo. Os fusos horários são ajustados para Hora central. </p> </td> 
@@ -68,7 +71,7 @@ Quando essa operação é invocada, o sistema recebe um tipo ` *`companyInfo`*` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>Manipule e nomeie, caminho raiz, data de expiração e hora da nova empresa. </p> </td> 
