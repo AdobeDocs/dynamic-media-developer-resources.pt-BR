@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote XMP. |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote. |
 
 ## Exemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
