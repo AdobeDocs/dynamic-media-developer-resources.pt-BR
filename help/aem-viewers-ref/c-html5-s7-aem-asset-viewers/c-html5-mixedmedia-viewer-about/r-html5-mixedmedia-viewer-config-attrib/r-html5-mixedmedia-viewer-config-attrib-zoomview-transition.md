@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: ZoomView.transição
+seo-title: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transição
+title: ZoomView.transition
 topic: Dynamic media
 uuid: c7daf4e8-cb37-4f20-aaca-2ccde341d775
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# ZoomView.transição{#zoomview-transition}
+# ZoomView.transition{#zoomview-transition}
 
 ` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`tempo`*]`
 
@@ -45,6 +48,6 @@ Opcional.
 
 `0.5,0`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `transition=2,2`
