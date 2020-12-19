@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 0%
 
 ---
 
@@ -30,37 +33,37 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Trabalho. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nome do trabalho. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensagem no registro de tarefas. <p><span class="codeph"> o campo de resposta logMessage</span> está localizado com base no campo de localidade <span class="codeph"> authHeader</span> . </p></td> 
+   <td colname="col3">Mensagem no registro de tarefas. <p><span class="codeph"> O campo </span> logMessageresponse está localizado com base no campo  <span class="codeph"> </span> authHeaderlocale. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Tipo de tarefa na entrada do registro. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> email do usuário que enviou o trabalho. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Data do trabalho. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:JobLogDetailArray</span> </td> 
    <td colname="col3"> Matriz de mensagens de registro de tarefas auxiliares para cada registro de tarefas. </td> 
   </tr> 
