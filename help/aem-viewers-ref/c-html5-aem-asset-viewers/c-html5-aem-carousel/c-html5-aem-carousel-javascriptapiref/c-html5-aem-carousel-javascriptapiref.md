@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d235ca5e-9c5b-44e2-84b1-2704bf8c6ca5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 A classe principal do Visualizador do carrossel é o CarouselViewer. Ela é declarada na namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada desta classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado da `s7viewers.CarouselViewer` classe.
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado da classe `s7viewers.CarouselViewer`.
