@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 56600f9c-c51e-40a4-93b6-a43902ef5ff1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ A aparência é controlada pelo seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> esboço </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> esboço  </span> </p> </td> 
    <td colname="col2"> <p>Estilo de realce do foco. </p> </td> 
   </tr> 
  </tbody> 
