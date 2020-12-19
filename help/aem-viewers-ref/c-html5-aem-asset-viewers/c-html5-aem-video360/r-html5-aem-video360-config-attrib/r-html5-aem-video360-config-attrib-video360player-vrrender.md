@@ -1,6 +1,6 @@
 ---
-description: Atributo de configuração para o visualizador do Video360.
-seo-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o visualizador Video360.
+seo-description: Atributo de configuração para o visualizador Video360.
 seo-title: Video360Player.vrrender
 solution: Experience Manager
 title: Video360Player.vrrender
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 21%
 
 ---
 
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o visualizador Video360.
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
@@ -35,6 +38,6 @@ Opcional.
 
 `0`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `vrrender=1`
