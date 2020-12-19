@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 52347bee-2cdf-4bb4-bb6f-eefff06b82af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p>Quando definido como <span class="codeph"> 0</span>, somente miniaturas visíveis são carregadas. </p> <p> Quando definido como <span class="codeph"><span class="varname"> pré-carregamento</span></span>, você pode especificar quantas linhas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
+   <td colname="col2"> <p> Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p>Quando definido como <span class="codeph"> 0</span>, somente miniaturas visíveis são carregadas. </p> <p> Quando definido como <span class="codeph"><span class="varname"> preloadnbr</span></span>, você pode especificar quantas linhas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `1`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 `maxloadradius=0`
