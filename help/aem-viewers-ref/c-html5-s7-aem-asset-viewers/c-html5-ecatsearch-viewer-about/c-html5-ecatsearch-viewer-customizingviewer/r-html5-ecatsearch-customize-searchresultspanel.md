@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +38,11 @@ Quando o painel está ativo, a interface do usuário do visualizador é coberta 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
    <td colname="col2"> <p>Opacidade da cor. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ A parte superior do painel de resultados da pesquisa é dedicada à caixa de ent
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento em torno da caixa de entrada. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +104,23 @@ O campo de entrada de pesquisa é controlado pelo seguinte seletor de classe CSS
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do campo de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento à esquerda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento à esquerda  </span> </p> </td> 
    <td colname="col2"> <p> O preenchimento interno entre os limites do campo de entrada e o texto de entrada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
    <td colname="col2"> <p>Borda do campo de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
    <td colname="col2"> <p>Margem do campo de entrada de pesquisa </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,27 +147,27 @@ O botão de pesquisa à esquerda do campo de entrada de pesquisa na forma do &qu
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de entrada da pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de entrada da pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>O URL da imagem do ícone "de vidro". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho do plano de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho do plano de fundo  </span> </p> </td> 
    <td colname="col2"> <p>O tamanho do ícone de "vidro de aparência". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
    <td colname="col2"> <p>Borda do botão de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
    <td colname="col2"> <p>Margem do botão de entrada da pesquisa. </p> </td> 
   </tr> 
  </tbody> 
@@ -194,19 +197,19 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-alignment </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-alignment  </span> </p> </td> 
    <td colname="col2"> <p>Alinhamento horizontal do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho do texto da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,9 +217,9 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
 
 >[!NOTE]
 >
->Esse painel de texto oferece suporte ao seletor de `state` atributos, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Corresponde, em particular, `state='prompt'` ao prompt de texto exibido quando o painel é chamado pela primeira vez; corresponde `state='results'` ao texto com informações sobre ocorrências de pesquisa; e `state='no_results'` corresponde ao texto mostrado quando o query de pesquisa não retornou nenhum resultado.
+>Esse painel de texto oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Em particular, `state='prompt'` corresponde ao prompt de texto exibido quando o painel é chamado pela primeira vez; `state='results'` corresponde ao texto com informações sobre ocorrências de pesquisa; e `state='no_results'` corresponde ao texto mostrado quando o query de pesquisa não retornou nenhum resultado.
 
-O texto da mensagem pode ser localizado. Consulte [Localização de elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) da interface do usuário para obter mais informações.
+O texto da mensagem pode ser localizado. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
 Exemplo - para configurar um painel de texto que usa uma fonte cinza de 18 pixels:
 
@@ -238,7 +241,7 @@ Os resultados da pesquisa são renderizados como uma única coluna ou linha úni
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
    <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -263,15 +266,15 @@ A aparência de miniaturas individuais é controlada com o seguinte seletor de c
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -298,15 +301,15 @@ A aparência da etiqueta em miniatura é controlada com o seguinte seletor de cl
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte de texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -336,29 +339,29 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS super
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> A imagem que é exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também Sprites <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de `state` atributos, que pode ser usado para aplicar diferentes capas aos estados `"up"`, `"down"`, `"over"`e `"disabled"` botões.
+>Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas aos estados dos botões `"up"`, `"down"`, `"over"` e `"disabled"`.
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) da interface do usuário para obter mais informações.
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
 Exemplo - para configurar um botão de rolagem para cima que tenha 125 x 35 pixels e arte-final diferente para cada estado:
 
