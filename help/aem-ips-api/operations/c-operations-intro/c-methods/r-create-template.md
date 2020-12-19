@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 
-O `urlModifier` parâmetro especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens aplicado antes de qualquer comando fornecido pelo usuário no URL. O `urlPostApplyModifier` parâmetro especifica comandos de protocolo aplicados após qualquer comando de URL, o que substituirá quaisquer configurações conflitantes fornecidas pelo usuário.
+O parâmetro `urlModifier` especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens aplicado antes de qualquer comando fornecido pelo usuário no URL. O parâmetro `urlPostApplyModifier` especifica comandos de protocolo aplicados após qualquer comando de URL, o que substituirá quaisquer configurações conflitantes fornecidas pelo usuário.
 
 ## Tipos de usuário autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +50,7 @@ O `urlModifier` parâmetro especifica os comandos de protocolo do Servidor de im
 
 ## Exemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Essa amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, um `urlModifier`e um `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
+Esta amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, `urlModifier` e um `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
 
 **Solicitação**
 
