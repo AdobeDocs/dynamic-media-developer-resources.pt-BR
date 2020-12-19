@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f0c967e-a2fa-4ef0-bacb-3dcfb06a8027
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Se um atributo específico não puder ser encontrado em um catálogo de imagens 
 
 Além disso, o catálogo padrão fornece todos os atributos e registros de dados (macros, fontes, perfis ICC, regras de pré-processamento de solicitação) quando nenhum catálogo de imagem específico está envolvido em uma operação.
 
-Para o funcionamento correto do Servidor de plataforma, o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], deve existir sempre na pasta do catálogo e deve ser preenchido completamente com todos os atributos necessários, exceto `attribute::RootId` as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
+Para o funcionamento correto do Servidor de Plataformas, o arquivo de atributos do catálogo para o catálogo padrão deve ser chamado de [!DNL default.ini], sempre deve existir na pasta do catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
 
 >[!NOTE]
 >
->Todos os arquivos de atributos do catálogo, exceto [!DNL default.ini] devem conter um `attribute::RootId` valor exclusivo. `attribute::RootId` in [!DNL default.ini] deve estar vazio.
+>Todos os arquivos de atributos do catálogo, exceto [!DNL default.ini], devem conter um valor `attribute::RootId` exclusivo. `attribute::RootId` in  [!DNL default.ini] deve estar vazio.
 
