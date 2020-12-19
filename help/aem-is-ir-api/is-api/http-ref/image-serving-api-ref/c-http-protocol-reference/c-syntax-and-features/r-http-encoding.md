@@ -15,11 +15,11 @@ ht-degree: 19%
 ---
 
 
-# Codificação HTTP de disponibilização de imagem{#image-serving-http-encoding}
+# Codificação HTTP do Serviço de Imagens{#image-serving-http-encoding}
 
 Os valores de comando devem ser codificados por http usando %xx sequências de escape, de modo que as strings de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP exige a codificação dos caracteres não seguros, bem como de quaisquer caracteres de controle, como `<return>` e `<tab>`. A codificação de URL de um caractere consiste em um símbolo &quot;%&quot;, seguido pela representação hexadecimal de dois dígitos (não diferencia maiúsculas de minúsculas) do ponto de código ISO-Latino para o caractere. Os caracteres e os pontos de código não seguros são:
+Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, bem como de quaisquer caracteres de controle, como `<return>` e `<tab>`. A codificação de URL de um caractere consiste em um símbolo &quot;%&quot;, seguido pela representação hexadecimal de dois dígitos (não diferencia maiúsculas de minúsculas) do ponto de código ISO-Latino para o caractere. Os caracteres e os pontos de código não seguros são:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -36,7 +36,7 @@ Caso contrário, as regras de codificação HTTP padrão se aplicam. A especific
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -62,7 +62,7 @@ Caso contrário, as regras de codificação HTTP padrão se aplicam. A especific
   </tr> 
   <tr> 
    <td colname="col1"> <p>&amp;lbrace; </p> </td> 
-   <td colname="col2"> <p>7B </p> </td> 
+   <td colname="col2"> <p>7 B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Caso contrário, as regras de codificação HTTP padrão se aplicam. A especific
   </tr> 
   <tr> 
    <td colname="col1"> <p>| </p> </td> 
-   <td colname="col2"> <p>7C </p> </td> 
+   <td colname="col2"> <p>7 C </p> </td> 
    <td colname="col3"> <p>124 </p> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Os caracteres reservados também devem ser codificados.
  </tbody> 
 </table>
 
-## Example {#section-b85895e5b6a84b96b7fca987656dd34d}
+## Exemplo {#section-b85895e5b6a84b96b7fca987656dd34d}
 
 `…&$text=rate&weight=85% 27#&…`
 
@@ -186,4 +186,4 @@ Se a ofuscação for aplicada, a codificação pode ser limitada para remover os
 
 ## Consulte também {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Solicitar ofuscação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), especificação [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Solicitar ofuscação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), especificação  [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
