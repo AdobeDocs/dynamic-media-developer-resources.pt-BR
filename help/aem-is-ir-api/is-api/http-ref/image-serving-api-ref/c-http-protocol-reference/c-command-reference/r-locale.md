@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82acc0bb-fd94-44c9-8ff9-3b9cefab4627
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,7 @@ Usando essa id e as regras especificadas com `attribute::LocaleMap` e `attribute
 
 ## Propriedades {#section-1854a9902b884d9b8e8e713b6635723f}
 
-comando Solicitar. Aplica-se a toda a solicitação, incluindo solicitações aninhadas/incorporadas, independentemente de onde ela seja especificada. `locId` deve incluir somente caracteres ASCII imprimíveis. Ignorado se nenhum mapa de localização estiver definido no catálogo principal desta solicitação. Um erro é retornado se vazio ou inválido `locId` for especificado e nenhuma regra padrão for definida em `attribute::DefaultLocale`.
+comando Solicitar. Aplica-se a toda a solicitação, incluindo solicitações aninhadas/incorporadas, independentemente de onde ela seja especificada. `locId` deve incluir somente caracteres ASCII imprimíveis. Ignorado se nenhum mapa de localização estiver definido no catálogo principal desta solicitação. Um erro será retornado se `locId` for especificado vazio ou inválido e nenhuma regra padrão for definida em `attribute::DefaultLocale`.
 
 ## Padrão {#section-9699fbc26de6453e9029e0003c79a7ef}
 
@@ -37,4 +40,4 @@ comando Solicitar. Aplica-se a toda a solicitação, incluindo solicitações an
 
 ## Consulte também {#section-28a586d43ac4429d98e318a580c92af4}
 
-[atributo::DefaultLocale](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b) , [atributo::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [atributo::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e), Suporte à Localização
+[atributo::DefaultLocale](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b) ,  [atributo::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318),  [atributo::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e), Suporte à Localização
