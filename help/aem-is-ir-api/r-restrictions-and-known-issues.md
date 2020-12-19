@@ -19,27 +19,27 @@ ht-degree: 0%
 
 Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Scene7 Image Server.
 
-## errata de documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
+## Documentação errata {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* O número de linhas não excederá o máximo da `\copyfitmaxlines` configuração e o número de linhas explícitas na entrada de texto.
+* O número de linhas não excederá o máximo da configuração `\copyfitmaxlines` e o número de linhas explícitas na entrada de texto.
 * São necessários parênteses e chaves correspondentes em conjuntos de imagens. Se as chaves e os parênteses não forem correspondentes, eles precisarão ser codificados no URL.
 * O alerta de tempo de resposta global do servidor inclui respostas de erro.
-* O `id=` comando é necessário no momento ao usar o `rect=` comando com uma solicitação de imagem ou máscara.
+* O comando `id=` é necessário no momento ao usar o comando `rect=` com uma solicitação de imagem ou máscara.
 
 ## Diferenças conhecidas textPs= vs text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
-* O itálico sintético é renderizado menos inclinado do que quando usado `text=`.
-* Sublinhar é um pouco mais baixo e mais fino do que usar `text=`.
-* `\expnd` e `\expndtw` usados com valores negativos altos fazem com que os caracteres sejam colocados na frente uns dos outros ao usar `text=`.
+* O itálico sintético é renderizado com menos inclinação do que ao usar `text=`.
+* O sublinhado é um pouco mais baixo e mais fino do que ao usar `text=`.
+* `\expnd` e  `\expndtw` usados com valores negativos altos fazem com que os caracteres sejam colocados na frente uns dos outros ao usar  `text=`.
 
-* `\charscaley` dimensiona de forma diferente do que ao usar `text=` , mas não afeta a altura da linha.
+* `\charscaley` dimensiona de forma diferente do que ao usar,  `text=` mas não afeta a altura da linha.
 
 * Se a última linha de texto não se ajustar, a linha inteira será solta em vez de aparecer como corte.
-* `\slmult` e `\sl` comportam-se de forma diferente do MS Word e `text=`, simplesmente entram em vigor para os parágrafos atuais e posteriores.
+* `\slmult` e  `\sl` comportam-se de forma diferente do MS Word e  `text=`, simplesmente entram em vigor para os parágrafos atuais e posteriores.
 
-* `\sb` se aplica ao primeiro parágrafo para MS Word e `text=`, Adobe InDesign e Photoshop não fazem isso.
+* `\sb` se aplica ao primeiro parágrafo para MS Word e  `text=`, Adobe InDesign e Photoshop não fazem isso.
 
-* `\sa` se aplica ao último parágrafo para MS Word e `text=`, Adobe InDesign e Photoshop não fazem isso.
+* `\sa` se aplica ao último parágrafo para MS Word e  `text=`, Adobe InDesign e Photoshop não fazem isso.
 
 ## Compatibilidade com versões anteriores {#section-a76842f751944f4fb664af296d064122}
 
@@ -48,11 +48,11 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 * Suporte para manipulação de macro sem distinção entre maiúsculas e minúsculas.
 * O cache do catálogo foi reduzido de 60 para 10 segundos.
 * O recurso de redirecionamento de erro agora redireciona somente as solicitações que fazem referência a imagens corrompidas, fontes, perfis coloridos e imagens publicadas em um catálogo, mas não encontradas em disco.
-* `posN=`, `anchor=`, `anchorN=`, `origin=`e `originN=` agora retorna um erro de análise se qualquer um dos valores do modificador for maior que 2147483648.
+* `posN=`,  `anchor=`,  `anchorN=`,  `origin=`e  `originN=` agora retorna um erro de análise se qualquer um dos valores do modificador for maior que 2147483648.
 
 * A codificação de solicitações aninhadas não é suportada. Transição ao novo comportamento e descodifique quaisquer valores de solicitação aninhados encontrados em solicitações de URL no seu site e em seus catálogos de empresa.
 * DefaultImage agora aplica atributos de miniatura ao usar `req=tmb`.
-* Em versões anteriores que usavam `flip=`, a imagem nunca era reposicionada independentemente do ponto de ancoragem.
+* Em versões anteriores usando `flip=`, a imagem nunca foi reposicionada independentemente do ponto de ancoragem.
 
 ## Restrições aplicáveis a bibliotecas de terceiros {#section-79768b96bf634e44ab672c5b893f343d}
 
@@ -62,18 +62,18 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
 * O serviço de imagem e a renderização de imagem podem não aproveitar todas as CPUs quando há mais de 4 CPUs disponíveis. Simule seu tráfego nesses computadores para ver a sua vantagem com mais de 4 CPUs.
 * URLs remotos que retornam um redirecionamento (status HTTP 301, 302 ou 303) são rejeitados.
-* Ao configurar `errorRedirect.rootUrl` o endereço IP definido nessa propriedade, é necessário incluí-lo no valor da `<addressfilter>` tag do conjunto de regras nesse servidor.
+* Ao configurar `errorRedirect.rootUrl`, o endereço IP definido nesta propriedade precisa ser incluído no valor da tag `<addressfilter>` do conjunto de regras nesse servidor.
 
    *Exemplo*:
 
-   O servidor A definiu `errorRedirect.rootUrl=10.10.10.10` .
+   O servidor A definiu `errorRedirect.rootUrl=10.10.10.10`.
 
-   O servidor B, que tem o endereço IP 10.10.10.10, define o valor da `<addressfilter>` tag no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
+   O servidor B, que tem o endereço IP 10.10.10.10, define o valor da tag `<addressfilter>` no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
 
 * O texto do ponto e o caminho do texto com posicionamento podem exibir recorte.
-* `text=` aplica-se apenas `\sa` e `\sb` a todo o bloco de texto e não a cada parágrafo.
+* `text=` aplica-se somente  `\sa` e  `\sb` a todo o bloco de texto e não a cada parágrafo.
 
-* Ao usar uma empresa definida no URL e outra empresa definida para o modificador `src=` ou `mask=` , você deve prefixar uma barra para a empresa definida para `src=` ou `mask=` para que esse formulário de solicitação funcione.
+* Ao usar uma empresa definida no URL e outra empresa definida para o modificador `src=` ou `mask=`, você deve prefixar uma barra para a empresa definida para `src=` ou `mask=` para que esse formulário de solicitação funcione.
 
    *Exemplo*:
 
@@ -83,15 +83,15 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
 * As solicitações de TIFF ou vinheta sem pirâmide geram uma mensagem de erro semelhante à
 
-   *&quot;A imagem não`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`tem um DSF válido e a área de 2,25MPixel excede o máximo de 2 MPixel&quot;* .
+   *&quot;A imagem não  `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` tem um DSF válido e a área de 2,25MPixel excede o máximo de 2 MPixel&quot;* .
 
    A melhor prática é usar arquivos em pirâmide e vinhetas. Se tiver de utilizar pontas ou vinhetas não pirâmides, siga as instruções abaixo para aumentar o limite de tamanho.
 
    *Solução*:
 
-   Para renderizar imagens em vinhetas não pirâmides, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no arquivo de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuração.
+   Para renderizar vinhetas não pirâmides, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no arquivo de configuração [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-   Para TIFFs não pirâmides do Serviço de imagem, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuração.
+   Para TIFFs sem pirâmide do Serviço de imagem, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de configuração [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
 * O Adobe Photoshop CS3 não salva arquivos PSD em camadas por padrão em uma imagem composta.
 
@@ -105,23 +105,23 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
 * Atribuir Perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução*:
 
-   Alterar o formato da imagem de resposta usando `fmt=`
+   Altere o formato da imagem de resposta usando `fmt=`
 
 * O tamanho da imagem de resposta HTTP após a compactação, incluindo o cabeçalho do arquivo, é limitado a 16 MB.
 * &quot; ..&quot; não é permitido em nenhum elemento de caminho em solicitações HTTP.
 * A desinstalação pode remover arquivos criados pelo usuário ou modificados de *[!DNL install_root]* ou de qualquer subpasta. Copie esses arquivos para um local diferente antes de desinstalar.
 
-## Restrições aplicáveis somente ao Serviço de imagem {#section-b08ad535e4454265b8157dec244c4faf}
+## Restrições aplicáveis somente ao Serviço de Imagem {#section-b08ad535e4454265b8157dec244c4faf}
 
 * As cores de primeiro plano no comando RTF ( `\cf`) não são compatíveis com o texto PhotoFont.
 * A síntese de negrito, itálico e negrito/itálico será rejeitada como um erro para o texto PhotoFont.
 * O fluxo de texto vertical não é compatível com o texto PhotoFont.
 * Imagens PNG de 16bpc não são compatíveis com texto PhotoFont.
 * As correções de cores para imagens PNG com perfis de cor incorporados usam opções codificadas. O propósito de renderização é colorimétrico relativo e a compensação do ponto preto está ativada para o texto PhotoFont.
-* A pesquisa baseada em arquivo não é suportada quando a tradução da localidade está ativada no arquivo de empresa [!DNL ini] .
+* A pesquisa baseada em arquivo não é suportada quando a tradução de localidade está ativada no arquivo [!DNL ini] da empresa.
 * O Serviço de imagem não grava corretamente caminhos Photoshop não fechados.
 * No momento, o Serviço de imagem não oferece suporte ao processamento de arquivos TIFF exportados usando o Adobe Media Encoder 4.0.1 ou anterior. A Adobe Media Encoder está incluída no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
-* O uso `text=` com camadas de autodimensionamento não suporta sequências de caracteres RTF que usam mais de uma configuração para justificação de linha.
+* Usar `text=` com camadas de autodimensionamento não suporta strings RTF que usam mais de uma configuração para a justificação de linha.
 
    *Exemplo*
 
@@ -135,9 +135,9 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    *Solução*
 
-   Defina a propriedade `svgProvider.fontRoot=` em [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+   Defina a propriedade `svgProvider.fontRoot=` em [!DNL install_root/ImageServing/conf/PlatformServer.conf].
 
-* Atualmente, a opção Recortar está usando `bgColor=` em vez de `color=` preencher qualquer área recentemente estendida.
+* Atualmente, a opção Recortar está usando `bgColor=` em vez de `color=` para preencher qualquer área recentemente estendida.
 
 * A conversão de cores pode não estar correta quando `bgColor=` não corresponde ao espaço de cores base que envolve perfis de cores.
 * Os efeitos de camada externa não são renderizados se a camada não tiver uma máscara ou dados alfa.
@@ -151,8 +151,8 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    *Solução*
 
-   Anexe um carimbo de data e hora ou outro identificador exclusivo à sequência de caracteres da solicitação, como `"&.ts=currentTime`.
+   Anexe um carimbo de data e hora ou outro identificador exclusivo à string de solicitação, como `"&.ts=currentTime`.
 
-## Restrições aplicáveis apenas aos serviços de utilidade pública {#section-906a6b2378154b3da122b2332983f7a5}
+## Restrições aplicáveis somente a utilitários {#section-906a6b2378154b3da122b2332983f7a5}
 
-`ImageConvert`às vezes falha com uma falha de segmentação quando parada com um `control-c`.
+`ImageConvert`às vezes falha com uma falha de segmentação quando parada com um  `control-c`.
