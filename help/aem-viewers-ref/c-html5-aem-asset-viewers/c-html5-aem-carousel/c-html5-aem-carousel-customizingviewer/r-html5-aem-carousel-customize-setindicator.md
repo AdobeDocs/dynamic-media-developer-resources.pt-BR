@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ A aparência do container indicador definido é controlada com o seguinte seleto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo no formato hexadecimal do indicador de conjunto. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +46,7 @@ A aparência do container indicador definido é controlada com o seguinte seleto
 
 >[!NOTE]
 >
->O indicador Set suporta o seletor de atributos mode, que você pode usar para aplicar estilos diferentes para modos de operação pontilhados e numéricos. Corresponde, em especial, `mode="numeric"` ao modo de operação numérico; corresponde `mode="dotted"` ao estado de ponto padrão.
+>O indicador Set suporta o seletor de atributos mode, que você pode usar para aplicar estilos diferentes para modos de operação pontilhados e numéricos. Em particular, `mode="numeric"` corresponde ao modo de operação numérico; `mode="dotted"` corresponde ao estado de ponto padrão.
 
 Exemplo - para configurar o indicador de configuração com um fundo branco:
 
@@ -70,51 +73,51 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Largura do ponto indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do ponto indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
    <td colname="col2"> <p>Margem esquerda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
    <td colname="col2"> <p>Margem superior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem direita </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem direita  </span> </p> </td> 
    <td colname="col2"> <p>Margem direita em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alinhamento vertical </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinhamento vertical  </span> </p> </td> 
    <td colname="col2"> <p>Alinhamento vertical do índice do banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura da linha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura da linha  </span> </p> </td> 
    <td colname="col2"> <p>Altura do texto para o índice do banner. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +125,7 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
 
 >[!NOTE]
 >
->Os itens de indicador definidos suportam o seletor de `state` atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Corresponde, em especial, `state="selected"` ao elemento atual do conjunto; corresponde `state="unselected"` ao estado padrão do item.
+>Os itens do indicador definidos suportam o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Em particular, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado padrão do item.
 
 Exemplo - para configurar o indicador de configuração no modo pontilhado para que os sistemas de desktop sejam posicionados 20 pixels a partir da parte inferior do visualizador. Os pontos não selecionados são pretos com 50% de transparência, 15 x 15 pixels com 7 pixels de cantos arredondados. Os pontos selecionados são pretos com 90% de transparência, 18 x 18 pixels com 9 pixels de cantos arredondados. O espaçamento entre pontos é de 5 pixels.
 
