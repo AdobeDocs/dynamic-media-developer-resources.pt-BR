@@ -34,39 +34,39 @@ Use as seguintes entidades especiais ao formatar texto.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \line </span> </td> 
+   <td> <span class="codeph"> \line  </span> </td> 
    <td> <p>Quebra de linha. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>Barra. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;braçadeira;  </span> </td> 
    <td> <p>Chave aberta. </p> </td> 
    <td> <p>A chave deve ser codificada por HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;trace;  </span> </td> 
    <td> <p>Chave fechada. </p> </td> 
    <td> <p>A chave deve ser codificada por HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Espaço não separável. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> apenas. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Hífen não separável. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> apenas. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Hífen opcional. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> apenas. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
  </tbody> 
 </table>
