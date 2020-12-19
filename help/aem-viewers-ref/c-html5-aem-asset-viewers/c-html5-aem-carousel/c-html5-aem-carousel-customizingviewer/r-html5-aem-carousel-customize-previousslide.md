@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
@@ -33,19 +36,19 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posição na parte superior da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posição à direita da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posição à esquerda da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posição na parte inferior da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -53,19 +56,19 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também sprites <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Tipo de cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -73,9 +76,9 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Este botão suporta o seletor de `state` atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) da interface do usuário para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obter mais informações.
 
 Exemplo - para configurar um botão de slide anterior com 60 x 60 pixels, posicionado 10 pixels a partir da borda do visualizador esquerdo e centralizado verticalmente, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
