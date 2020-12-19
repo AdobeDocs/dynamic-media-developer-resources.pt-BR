@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Resolução de impressão. Substitui o valor de resolução de impressão incorp
  </tr> 
 </table>
 
-A resolução de impressão é normalmente definida `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem de camada com o número de camada mais baixo.
+A resolução de impressão é normalmente definida por `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem de camada com o número de camada mais baixo.
 
 Definir a resolução da impressão não altera o tamanho do pixel da imagem de resposta.
 
