@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +53,7 @@ Verifica se um usuário com uma empresa específica (identificada pelo identific
 
 ## Exemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este exemplo de código usa um parâmetro de identificador de empresa, um endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *puder* fazer logon, esse método retornará a string `ValidLogin`. Se o usuário *não conseguir* fazer logon, esse método retornará a string `InvalidLogin`.
+Este exemplo de código usa um parâmetro de identificador de empresa, um endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *pode* efetuar logon, esse método retornará a string, `ValidLogin`. Se o usuário *não puder* fazer logon, esse método retornará a string, `InvalidLogin`.
 
 **Solicitação**
 
