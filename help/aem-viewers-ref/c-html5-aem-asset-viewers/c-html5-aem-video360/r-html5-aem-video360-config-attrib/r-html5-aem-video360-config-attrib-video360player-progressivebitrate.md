@@ -1,6 +1,6 @@
 ---
-description: Atributo de configuração para o visualizador do Video360.
-seo-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o visualizador Video360.
+seo-description: Atributo de configuração para o visualizador Video360.
 seo-title: Video360Player.progressivebitrate
 solution: Experience Manager
 title: Video360Player.progressivebitrate
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 438c18d7-e7ac-4834-8445-def590264448
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o visualizador Video360.
 
 ` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
 
@@ -35,7 +38,7 @@ Opcional.
 
 `700`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 progressivebitrate=600
