@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3599c8d3-dc4b-434e-8b11-775ea6f155ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Caminhos do arquivo de dados da imagem. Especifica os arquivos que contêm os dados de imagem para este catálogo.
 
-Os arquivos de dados de imagem são carregados na ordem especificada. Se o mesmo `catalog::Id` valor ocorrer em mais de um registro (no mesmo ou em arquivos de catálogo diferentes), a última instância prevalecerá.
+Os arquivos de dados de imagem são carregados na ordem especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (no mesmo arquivo de catálogo ou em arquivos de catálogo diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-6da55f145ecd4e31a5de52637a436983}
 
