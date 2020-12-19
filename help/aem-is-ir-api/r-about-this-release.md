@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +22,8 @@ Esta versão—Serviço de imagem 6.6.1 e Renderização de imagem 6.6.1—subst
 ## Problemas conhecidos e alterações de comportamento {#section-9dbc05206187477f926a78e8108a34e1}
 
 * O uso do caractere de ponto de interrogação em IDs de ativos não é mais suportado, mesmo se o caractere for codificado em URL.
-* As `/xfl/flash/` solicitações de banner dinâmico não são mais suportadas e agora retornam um código de erro http 404.
-* Não há mais suporte para `/is/agm/` solicitações W2P.
+* As solicitações de banner dinâmico `/xfl/flash/` não são mais suportadas e agora retornam um código de erro http 404.
+* As solicitações W2P `/is/agm/` não são mais suportadas.
 * Algumas mensagens de erro não são mais renderizadas no navegador. Dessa forma, é necessário revisar o log de rastreamento para depurar.
 
 ## Novos recursos {#section-b1386e36cb4544ebb79766a06b16842d}
@@ -30,5 +33,5 @@ Esta versão—Serviço de imagem 6.6.1 e Renderização de imagem 6.6.1—subst
 
 ## Correção de erros {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
-* Corrigido o problema no qual a opção `\qc` RTF seguida de um espaço fazia com que uma solicitação não fosse renderizada.
+* Foi corrigido um problema em que a opção `\qc` RTF seguida por um espaço fazia com que uma solicitação não fosse renderizada.
 
