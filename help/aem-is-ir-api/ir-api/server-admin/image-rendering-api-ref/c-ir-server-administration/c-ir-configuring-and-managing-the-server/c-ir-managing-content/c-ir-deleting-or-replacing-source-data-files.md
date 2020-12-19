@@ -9,7 +9,7 @@ uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,6 @@ Lembre-se de que a exclusão ou substituição de um arquivo de dados de origem 
 
 O Servidor de Renderização deve ser interrompido para substituir outros arquivos de dados.
 
-As entradas de cache do Platform Server são automaticamente invalidadas quando os arquivos de material ou as vinhetas são substituídos. A substituição de arquivos de perfil ICC não invalida caches.
+As entradas de cache do Servidor de plataforma são automaticamente invalidadas quando os arquivos de material ou as vinhetas são substituídos. A substituição de arquivos de perfil ICC não invalida caches.
 
 Para evitar as complicações da substituição de arquivos, é recomendável dar um novo nome a um arquivo de substituição e atualizar as entradas de catálogo correspondentes. Isso permite a substituição de qualquer arquivo de dados enquanto o servidor estiver ativo e faz com que as entradas de cache do servidor fiquem obsoletas automaticamente sem nenhuma intervenção adicional. Essa abordagem pode ser usada para todos os arquivos de dados gerenciados por catálogos de imagens.
