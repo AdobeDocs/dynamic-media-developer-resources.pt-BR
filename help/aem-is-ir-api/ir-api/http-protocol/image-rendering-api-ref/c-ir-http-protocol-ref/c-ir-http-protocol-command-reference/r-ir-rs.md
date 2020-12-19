@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ Configurações avançadas de renderização. Especifica uma configuração de r
  </tr> 
 </table>
 
-Usado para ajustar a aparência da renderização. Use o recurso de renderização da Ferramenta de criação de vinheta (parte do pacote Scene7 Image Authoring) para criar strings de configurações de renderização.
+Usado para ajustar a aparência da renderização. Use o recurso de renderização da Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7) para criar strings de configurações de renderização.
 
 ## Propriedades {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -35,9 +38,9 @@ Atributo material.
 
 `catalog::RenderSettings`.
 
-## Example {#section-47e4811882574441a4d517e42a35f352}
+## Exemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Depois de algum experimento na Criação de imagens, determina-se que o mascaramento com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A string de configurações de renderização que configura o USM é copiada para o `rs=` comando para usar com este material:
+Depois de algum experimento na Criação de imagens, determina-se que o máscara com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o comando `rs=` a ser usado com este material:
 
 `…&rs=U2V20W50X2&…`
 
