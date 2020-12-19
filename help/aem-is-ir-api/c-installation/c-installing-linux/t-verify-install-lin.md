@@ -9,7 +9,7 @@ uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,6 @@ O Servidor de imagens está instalado como um daemon Linux.
 
 [!DNL http:// *[!DNL server:port]*/ir/render]
 
-Nas respostas, verifique a presença de itens que começam com &quot; `imageServer.`&quot;, o que indica que o Platform Server conseguiu se comunicar com êxito com o Image Server.
+Nas respostas, verifique a presença de itens que começam com &quot; `imageServer.`&quot;, que indicam que o Servidor de plataforma conseguiu se comunicar com êxito com o Servidor de imagem.
 >A verificação adicional pode ser realizada usando as páginas de amostra dos pacotes Documentação e Demonstração, se estiverem instalados.
 
