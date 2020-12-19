@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 0%
 
 ---
 
 
-# objeto{#object}
+# object{#object}
 
 Especificador do objeto de origem. Objetos de imagem, SVG e perfil ICC podem ser especificados como entradas de catálogo de imagens ou caminhos de arquivo relativos
 
@@ -20,36 +23,36 @@ Especificador do objeto de origem. Objetos de imagem, SVG e perfil ICC podem ser
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId  </span> </span> </p> </td> 
   <td class="stentry"> <p>nome do catálogo de imagens ( <span class="codeph"> atributo::RootId </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId  </span> </span> </p> </td> 
   <td class="stentry"> <p>id da imagem, SVG, modelo ou registro de perfil ICC no catálogo de imagens especificado, principal ou padrão </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> caminho </span></span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> caminho  </span> </span> </p> </td> 
   <td class="stentry"> <p>imagem relativa, máscara ou nome do arquivo de perfil ICC </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objeto </span></span> </p> </td> 
-  <td class="stentry"> <p>pode ocorrer no caminho do URL principal ou em um comando <span class="codeph"> src= </span>, <span class="codeph"> mask= </span>, ou <span class="codeph"> icc= </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objeto  </span> </span> </p> </td> 
+  <td class="stentry"> <p>pode ocorrer no caminho principal do URL ou em um comando <span class="codeph"> src= </span>, <span class="codeph"> mask= </span> ou <span class="codeph"> icc= </span> </p> </td> 
  </tr> 
 </table>
 
-*`rootId`* identifica um catálogo de imagens. (Consulte Catálogo [de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes.) Se *`rootId`* for especificado no caminho do URL, esse catálogo se tornará o catálogo ** principal para essa solicitação. Caso contrário, o catálogo padrão será usado como o catálogo principal. Vários catálogos de imagem diferentes podem ser usados na mesma solicitação.
+*`rootId`* identifica um catálogo de imagens. (Consulte [Catálogo de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes.) Se *`rootId`* for especificado no caminho do URL, esse catálogo se tornará o *catálogo principal* desta solicitação. Caso contrário, o catálogo padrão será usado como o catálogo principal. Vários catálogos de imagem diferentes podem ser usados na mesma solicitação.
 
-Inicialmente, o servidor assume que *`rootId`* é omitido nos comandos `src=`, `mask=`e `icc=` e tentará localizar uma entrada de catálogo no catálogo principal. Efetivamente, o servidor tenta usar a *`object`* string inteira como *`objId.`*
+Inicialmente, o servidor presume que *`rootId`* esteja omitido nos comandos `src=`, `mask=` e `icc=` e tentará localizar uma entrada de catálogo no catálogo principal. Com efeito, o servidor tenta utilizar toda a cadeia *`object`* como *`objId.`*
 
-Se uma entrada de catálogo for encontrada, ela será usada; caso contrário, o servidor tentará corresponder ao catálogo *`rootId`* de imagens. Se um catálogo for identificado, ele será pesquisado *`objId`*. Se for encontrada uma entrada, ela será usada.
+Se uma entrada de catálogo for encontrada, ela será usada; caso contrário, o servidor tentará corresponder a *`rootId`* de um catálogo de imagens. Se um catálogo for identificado, ele será pesquisado por *`objId`*. Se for encontrada uma entrada, ela será usada.
 
-Caso contrário, *`object`* será considerado um caminho de arquivo explícito. Nesse caso, se `attribute::FullMatch` estiver definido no catálogo principal, o catálogo será ignorado para esse objeto e o catálogo padrão será usado. Se não `attribute::FullMatch` estiver definido, o catálogo principal será usado para processamento adicional.
+Caso contrário, *`object`* será considerado um caminho de arquivo explícito. Nesse caso, se `attribute::FullMatch` estiver definido no catálogo principal, o catálogo será ignorado para esse objeto e o catálogo padrão será usado. Se `attribute::FullMatch` não estiver definido, o catálogo principal será usado para processamento adicional.
 
-Tanto *`rootId`* quanto *`objId`* fazem distinção entre maiúsculas e minúsculas. *`path`* faz distinção entre maiúsculas e minúsculas somente no UNIX.
+Ambos *`rootId`* e *`objId`* fazem distinção entre maiúsculas e minúsculas. *`path`* faz distinção entre maiúsculas e minúsculas somente no UNIX.
 
-Se um &#39;/&#39; à esquerda for especificado, o catálogo padrão será pesquisado em vez do catálogo principal. Isso é útil principalmente quando um caminho explícito requer `default::RootPath` em vez do catálogo principal `attribute::RootPath`, mas também pode ser usado para obter acesso a entradas no catálogo padrão que, de outra forma, seriam substituídas por entradas no catálogo principal.
+Se um &#39;/&#39; à esquerda for especificado, o catálogo padrão será pesquisado em vez do catálogo principal. Isso é útil principalmente quando um caminho explícito requer `default::RootPath` em vez de `attribute::RootPath` do catálogo principal, mas também pode ser usado para obter acesso a entradas no catálogo padrão que, de outra forma, seriam substituídas por entradas no catálogo principal.
 
-Consulte *Gerenciamento de conteúdo* no Guia *de configuração do* servidor para obter detalhes sobre como *`path`* é traduzido para um caminho de arquivo físico.
+Consulte *Managing Content* no *Server Configuration Guide* para obter detalhes sobre como *`path`* é traduzido para um caminho de arquivo físico.
 
 >[!NOTE]
 >
@@ -71,16 +74,16 @@ Recupere a imagem &#39; [!DNL myImage]&#39; no catálogo de imagens identificado
 
 Uso de um único catálogo de imagens com camadas
 
-**Crie uma imagem composta simples formada por três camadas, todas recuperadas de &#39;[!DNL myCatalog]&#39;:**
+**Crie uma imagem composta simples formada por três camadas, todas recuperadas de &#39;  [!DNL myCatalog]&#39;:**
 
 ` http:// *`server`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
 **Acessar arquivos de imagem diretamente enquanto ainda usa um catálogo para fornecer atributos**
 
-Acessar [!DNL my/image/path/myImage.tif], usando os atributos jpg padrão configurados em `myImageCatalog`:
+Acesse [!DNL my/image/path/myImage.tif], usando os atributos jpg padrão configurados em `myImageCatalog`:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 
 ## Consulte também {#section-b6eccefad63f441d922699c4aba58fc9}
 
-[Utilitário](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b)IC, [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [atributo::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
+[Utilitário](../../../../../is-api/is-utils/utilities/r-ic.md#reference-de9f43c63a8f48f1a755ff1760af8b7b) IC,  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [atributo::FullMatch](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7)
