@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,23 +34,23 @@ Script de controle do Servidor de imagens. Esse script é usado para start, para
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
    <td colname="col2"> <p> Start o Server Supervisor e todos os outros componentes do Serviço de imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
    <td colname="col2"> <p> Pare todos os componentes do Servidor de imagens, incluindo o Supervisor de Servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reiniciar </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reiniciar  </span> </p> </td> 
    <td colname="col2"> <p>Reinicie todos os componentes do Servidor de imagens, incluindo o Supervisor de Servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps| is| svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Reinicie o servidor Tomcat/Platform, o servidor de imagens ou SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps| is| svg ] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
    <td colname="col2"> <p>Retorna informações de tempo de funcionamento e uso de memória atual para o Servidor de imagens, Tomcat/Platform Server e SVGserver, ou status apenas para o servidor especificado; uma mensagem informativa é retornada se o Supervisor de Servidor não estiver em execução. </p> </td> 
   </tr> 
  </tbody> 
