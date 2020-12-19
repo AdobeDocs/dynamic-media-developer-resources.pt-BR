@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Alça da empresa. |
 | ` *`jobHandle`*` | `xsd:string` | Trabalho. |
 | ` *`jobName`*` | `xsd:string` | Nome do trabalho. |
 | ` *`originalJobName`*` | `xsd:string` | O nome original enviado para o trabalho com `submitJob`. |
@@ -42,6 +45,6 @@ Sintaxe
 | ` *`transferErrorCount`*` | `xsd:int` | Número de erros de transferência. |
 | ` *`transferWarningCount`*` | `xsd:int` | Número de avisos de transferência. |
 | ` *`fatalError`*` | `xsd:boolean` | Se o trabalho gerou um erro fatal. |
-| ` *`detailTotalRows`*` | `xsd:int` | O número total de linhas que correspondem ao query, que pode ser maior que o tamanho de `detailArray` devido aos limites de tamanho da página. |
+| ` *`detailTotalRows`*` | `xsd:int` | O número total de linhas correspondentes ao query, que pode ser maior que o tamanho de `detailArray` devido aos limites de tamanho da página. |
 | ` *`detailArray`*` | `types:JobLogDetailArray` | A matriz de detalhes sobre o trabalho registrado. |
 
