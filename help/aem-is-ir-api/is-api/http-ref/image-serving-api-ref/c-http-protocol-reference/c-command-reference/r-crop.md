@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
 
-# cultura{#crop}
+# cortar{#crop}
 
 Recortar imagem. Especifica uma região de corte retangular, expressa em pixels ou normalizada em relação à imagem de origem de resolução total ou à imagem de máscara.
 
@@ -39,7 +42,7 @@ Recortar imagem. Especifica uma região de corte retangular, expressa em pixels 
  </tr> 
 </table>
 
-Também pode ser usado para estender a imagem além de seus limites especificando valores x, y e/ou largura negativos, valores de altura maiores que a largura e altura da imagem. Nesse caso, a área estendida é totalmente transparente (a menos que `bgColor=` seja especificada).
+Também pode ser usado para estender a imagem além de seus limites especificando valores x, y e/ou largura negativos, valores de altura maiores que a largura e altura da imagem. Nesse caso, a área estendida é totalmente transparente (a menos que `bgColor=` seja especificado).
 
 ## Propriedades {#section-632e0405bb9940679b5f8b1c10e0902e}
 
@@ -61,4 +64,4 @@ Imagem inteira ( `cropN=0,0,1,1`).
 
 ## Consulte também {#section-d5616c7aa0ce4faa88f51dd5662e5daf}
 
-[RecortarPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [âncora=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [chapterPathbgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) ,  [âncora=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c),  [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
