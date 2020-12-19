@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 translation-type: tm+mt
 source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
 
-# Dados Image_SVG{#image-svg-data}
+# Image_SVG data{#image-svg-data}
 
 Os campos a seguir são reconhecidos em arquivos de imagem e dados SVG.
 
@@ -40,15 +43,15 @@ Os campos a seguir são reconhecidos em arquivos de imagem e dados SVG.
    <td colname="col2"> <p>Expiração do cache (tempo de ativação) para imagens de resposta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificador</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificador</a> </span> </p> </td> 
    <td colname="col2"> <p>Modificadores de solicitação de prefixo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
    <td colname="col2"> <p>Modificadores de solicitação de sufixo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> Carimbo de data e hora</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
    <td colname="col2"> <p>Carimbo de data e hora de modificação do arquivo. </p> </td> 
   </tr> 
  </tbody> 
@@ -85,12 +88,12 @@ Os campos a seguir são reconhecidos em arquivos de imagem e dados SVG.
  </tbody> 
 </table>
 
-## Atributos de miniatura {#section-c5ac27bcd4224a80b7f42ead249027b1}
+## Atributos miniatura {#section-c5ac27bcd4224a80b7f42ead249027b1}
 
 <table id="table_E07909B6C16F4D9686ADA381A4178E25"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> Miniaturas</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
    <td colname="col2"> <p>Resolução em miniatura. </p> </td> 
   </tr> 
   <tr> 
