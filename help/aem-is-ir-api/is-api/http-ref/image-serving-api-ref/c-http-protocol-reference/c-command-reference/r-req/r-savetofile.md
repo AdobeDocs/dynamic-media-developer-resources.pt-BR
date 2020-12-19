@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,15 +58,15 @@ Quando a solicitação de salvamento é concluída com êxito, a solicitação r
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> concluído</span> se bem sucedido. </p> </td> 
+   <td> <p> <span class="codeph"> se </span> for bem-sucedido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Retorna o status de resposta HTTP 200 se bem-sucedido e 403 se a solicitação falhar ou expirar. A resposta tem o tipo MIME `text/plain` e não pode ser armazenada em cache.
+Retorna o status de resposta HTTP 200 se bem-sucedido e 403 se a solicitação falhar ou expirar. A resposta tem o tipo MIME `text/plain` e não pode ser obtida em cache.
 
-Importante Salvar em arquivos deve ser ativado especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se `attribute::SavePath` estiver vazio.
+Importante Salvar em arquivos deve ser ativado especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se  `attribute::SavePath` estiver vazio.
 
-*`file`* é obrigatório e deve ser um caminho relativo combinado com `attribute::SavePath`. O Serviço de Imagens não cria pastas. A pasta público alvo deve existir no servidor e ter as configurações de permissão apropriadas para que o Serviço de imagem crie arquivos.
+*`file`* é obrigatório e deve ser um caminho relativo combinado com  `attribute::SavePath`. O Serviço de Imagens não cria pastas. A pasta público alvo deve existir no servidor e ter as configurações de permissão apropriadas para que o Serviço de imagem crie arquivos.
 
-`timeout=` é opcional. O tempo limite padrão é de 60.000 ms, ou o valor configurado com `PS::SaveTimeout`.
+`timeout=` é opcional. O tempo limite padrão é de 60.000 ms, ou qualquer valor configurado com `PS::SaveTimeout`.
