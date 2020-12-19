@@ -1,18 +1,21 @@
 ---
 description: Atributo de configuração para o Visualizador do carrossel.
 seo-description: Atributo de configuração para o Visualizador do carrossel.
-seo-title: ControlBar.transição
+seo-title: ControlBar.transition
 solution: Experience Manager
-title: ControlBar.transição
+title: ControlBar.transition
 topic: Dynamic media
 uuid: 80053511-f0e2-49f6-a1db-cd96c7788703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ControlBar.transição{#controlbar-transition}
+# ControlBar.transition{#controlbar-transition}
 
 Atributo de configuração para o Visualizador do carrossel.
 
@@ -22,11 +25,11 @@ Atributo de configuração para o Visualizador do carrossel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Defina como <span class="codeph"> nenhum</span> para mostrar/ocultar instantaneamente. </p> <p>Definido para <span class="codeph"> desaparecer</span> para fornecer um efeito gradual de entrada/saída. </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Defina como <span class="codeph"> none</span> para mostrar/ocultar instantaneamente. </p> <p>Defina como <span class="codeph"> fade</span> para fornecer um efeito gradual de entrada/saída. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p>Se definido como <span class="codeph"> -1</span> , o componente nunca aciona seu efeito de ocultação automática e, portanto, sempre fica visível na tela. </p> </td> 
+   <td colname="col2"> <p> Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p>Se definido como <span class="codeph"> -1</span> o componente nunca aciona seu efeito de ocultação automática e, portanto, sempre fica visível na tela. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duração</span></span> </p> </td> 
@@ -43,7 +46,7 @@ Opcional. Esse comando é ignorado em dispositivos de toque nos quais a barra de
 
 `fade,2,0.3`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 ```
 transition=none
