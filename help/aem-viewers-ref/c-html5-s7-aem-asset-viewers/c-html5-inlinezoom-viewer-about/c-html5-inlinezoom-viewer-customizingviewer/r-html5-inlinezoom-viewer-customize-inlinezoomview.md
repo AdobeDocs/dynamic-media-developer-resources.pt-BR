@@ -1,18 +1,21 @@
 ---
 description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
 seo-description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
-seo-title: visualização de zoom do menu suspenso
+seo-title: Visualização de zoom do menu suspenso
 solution: Experience Manager
-title: visualização de zoom do menu suspenso
+title: Visualização de zoom do menu suspenso
 topic: Dynamic media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
 
-# visualização de zoom do menu suspenso{#flyout-zoom-view}
+# Visualização de zoom do Flyout{#flyout-zoom-view}
 
 A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
 
@@ -35,7 +38,7 @@ A aparência da visualização principal é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> A cor de fundo da visualização principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +60,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. Entretanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituir por CSS usando `left` ou `right` propriedades.
+É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. Entretanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituir por CSS usando as propriedades `left` ou `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -68,41 +71,41 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Deslocamento na parte inferior da visualização principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento em torno do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
    <td colname="col2"> <p>Opacidade do texto da mensagem em segundo plano. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-A mensagem de dica pode ser localizada. Consulte [Localização de elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) da interface do usuário para obter mais informações.
+A mensagem de dica pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 
 .
 
