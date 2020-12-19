@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Os tópicos desta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
 * [Macros de comando](r-is-http-command-macros.md)
 * [Catálogos de imagens](r-image-catalogs.md)
 * [Tradução da ID do objeto](r-object-id-translation.md)
-* [localização da string de texto](r-text-string-localization.md)
+* [Localização da string de texto](r-text-string-localization.md)
 * [Suporte a SVG](r-svg-support.md)
 * [Pré-processamento da solicitação](r-request-preprocessing.md)
 * [Mapas de imagem](r-image-maps.md)
