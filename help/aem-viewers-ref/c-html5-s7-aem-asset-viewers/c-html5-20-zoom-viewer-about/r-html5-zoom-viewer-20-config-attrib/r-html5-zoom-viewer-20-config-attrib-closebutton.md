@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 71e7f14b-f305-4703-bb43-d6ad027fd37e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 8%
 
 ---
 
 
-# close{#closebutton}
+# close-button{#closebutton}
 
 `closebutton=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão de fechamento ou defina como <span class="codeph"> 0</span> para ocultar o botão de fechamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão de fechamento, ou defina como <span class="codeph"> 0</span> para ocultar o botão de fechamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `0`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `closebutton=1`
