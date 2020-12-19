@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 12%
 
 ---
 
 
-# repetição{#repeat}
+# repetir{#repeat}
 
 Modo de repetição de textura. Especifica o modo de repetição para materiais de textura repetíveis.
 
@@ -32,7 +35,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
   <td class="stentry"> <p>Ocasionamento aleatório de 8 vias. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Lado a lado. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -109,7 +112,7 @@ Atributo material. Ignorados por materiais de cor sólida, decalque e gabinete.
 
 ## Padrão {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, se o material for baseado em uma entrada de catálogo, caso contrário `0` (repetição direta).
+`catalog::Repeat`, se o material for baseado em uma entrada de catálogo, caso contrário  `0` (repetição direta).
 
 ## Consulte também {#section-ac99113b64654d75a3a86e41db546269}
 
