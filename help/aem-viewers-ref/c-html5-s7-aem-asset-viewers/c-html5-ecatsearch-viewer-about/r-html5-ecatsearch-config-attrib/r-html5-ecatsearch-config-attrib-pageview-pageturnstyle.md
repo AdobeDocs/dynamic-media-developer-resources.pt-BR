@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 748adb73-bfb6-4fce-aa6a-4216184edabb
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`diviserWidthdividerColordivOpacityborderOnOffborderColorfillColor`*`]
 
-Controla a aparência do componente quando um componente [!DNL `PageView.frametransition`] está definido como [!DNL `turn`] ou como [!DNL `auto`] em sistemas de desktop.
+Controla a aparência do componente quando um [!DNL `PageView.frametransition`] está definido para [!DNL `turn`] ou para [!DNL `auto`] em sistemas de desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +33,11 @@ Controla a aparência do componente quando um componente [!DNL `PageView.frametr
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> divOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>A opacidade da sombra no intervalo de <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>A opacidade de sombra no intervalo de <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> O sinalizador ( <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda ao redor da página de viragem. </p> </td> 
+   <td colname="col2"> <p> O sinalizador (<span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda em torno da página de viragem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
