@@ -1,18 +1,21 @@
 ---
 description: A visualização principal consiste na imagem com zoom.
 seo-description: A visualização principal consiste na imagem com zoom.
-seo-title: visualização de zoom
+seo-title: Visualização de zoom
 solution: Experience Manager
-title: visualização de zoom
+title: Visualização de zoom
 topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
 
-# visualização de zoom{#zoom-view}
+# Visualização de zoom{#zoom-view}
 
 A visualização principal consiste na imagem com zoom.
 
@@ -35,11 +38,11 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursor exibido sobre a visualização principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Exemplo - para tornar a visualização principal transparente.
 }
 ```
 
-Em sistemas desktop, o componente suporta o seletor de `cursortype` atributos que pode ser aplicado à `.s7zoomview` classe. Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes `cursortype` valores são suportados:
+Em sistemas desktop, o componente suporta o seletor de atributos `cursortype` que pode ser aplicado à classe `.s7zoomview`. Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
 
 * `default`
 
