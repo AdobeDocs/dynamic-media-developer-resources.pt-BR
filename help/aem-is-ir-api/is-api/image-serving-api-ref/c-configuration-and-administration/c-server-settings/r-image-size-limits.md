@@ -21,7 +21,7 @@ Use essas configurações do servidor para definir os limites de tamanho da imag
 
 ## IS::MaxMessageSize - Limite de Tamanho de Resposta {#section-bd942385d4d144cd904003695d72c85e}
 
-Limita o tamanho dos dados que o Servidor de Imagens tem permissão para enviar ao Platform Server. Efetivamente, isso limita o tamanho da imagem de resposta codificada/compactada que o Serviço de imagem pode retornar ao cliente via HTTP (Mbytes).
+Limita o tamanho dos dados que o Servidor de Imagens tem permissão para enviar ao Servidor de Plataformas. Efetivamente, isso limita o tamanho da imagem de resposta codificada/compactada que o Serviço de imagem pode retornar ao cliente via HTTP (Mbytes).
 
 ## IS::MaxRenderRgnPixels - Limite de Tamanho de Imagem de Saída {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -29,7 +29,7 @@ Limita o tamanho das imagens que o Servidor de imagens pode produzir (exceto ima
 
 ## IS::MaxSavePixels - Limite de tamanho para salvar em arquivos {#section-d1547c4afa88467080ab08356f775e06}
 
-Limita o tamanho das imagens que o Servidor de imagens gravará nos arquivos com o `req=saveToFile` comando. Valor inteiro maior que 0 em milhões de pixels. Um erro será retornado se a operação de salvar o arquivo exceder esse limite. O padrão é 100 milhões de pixels.
+Limita o tamanho das imagens que o Servidor de imagens gravará nos arquivos com o comando `req=saveToFile`. Valor inteiro maior que 0 em milhões de pixels. Um erro será retornado se a operação de salvar o arquivo exceder esse limite. O padrão é 100 milhões de pixels.
 
 ## IS::MaxNonDsfSize - Limite De Tamanho Para Imagens De Entrada Não PTIFF {#section-50de28a7158a436393cce5da0d1e4d46}
 
