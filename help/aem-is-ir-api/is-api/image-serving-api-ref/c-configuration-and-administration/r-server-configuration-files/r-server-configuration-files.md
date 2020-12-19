@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Todos os arquivos de configuração estão localizados em install_folder/conf e 
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas a menos que sejam especificamente instruídas pelo Suporte técnico do Scene7.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam especificamente instruídas pelo Suporte técnico da Scene7.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 
