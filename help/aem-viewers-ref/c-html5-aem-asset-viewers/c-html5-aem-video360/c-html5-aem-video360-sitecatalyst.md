@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0d4dee7b-3ffb-4bf5-93b1-67972bfc9b2a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Por padrão, o visualizador envia uma solicitação HTTP de rastreamento único 
 
 ## Acompanhamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do `trackEvent` visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processar o argumento `eventInfo` da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -54,37 +57,37 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>evento de usuário do SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Evento de usuário do SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Enviado... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
    <td colname="col2"> <p>quando o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
+   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> JOGAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JOGAR  </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução for start. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSA  </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução é pausada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARAR  </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução for interrompida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MARCO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MARCO  </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução atinge um dos seguintes marcos: 0%, 25%, 50%, 75% ou 100%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERATIVE_SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERATIVE_SWATCH  </span> </p> </td> 
    <td colname="col2"> <p>sempre que o usuário clicar em uma amostra interativa. </p> </td> 
   </tr> 
  </tbody> 
