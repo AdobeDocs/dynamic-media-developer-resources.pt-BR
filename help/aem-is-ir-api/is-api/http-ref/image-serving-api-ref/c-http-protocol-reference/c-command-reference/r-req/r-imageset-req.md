@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8854e903-a85f-403a-ae3d-b7281a236262
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Dados do conjunto de imagens do catálogo de imagens. Retorna dados do conjunto 
 <table id="simpletable_86FF9E59B11D4C408F0D932D46CC2F8E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> codificação</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> UTF-8| UTF-16| UTF-16LE| UTF-16BE| ISO-8859-1</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> requestId</span></span> </p></td> 
@@ -33,7 +36,7 @@ O conteúdo de `catalog::ImageSet` é retornado sem modificações adicionais (e
 
 Outros comandos na string de solicitação são ignorados. A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::NonImgExpiration`.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do `req=` parâmetro:
+As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
