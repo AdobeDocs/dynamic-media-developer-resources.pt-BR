@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +38,8 @@ Sintaxe
 | ` *`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários administradores não IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização será retornada se o usuário não tiver associações de empresa ativas. |
 | ` *`includeInvalid`*` | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
 | ` *`companyHandleArray`*` | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Não | Resultados de Filtros com base em grupos. |
-| ` *`userRoleArray`*` | `types:StringArray` | Não | Resultados de Filtros com base na função do usuário. |
+| ` *`groupHandleArray`*` | `types:HandleArray` | Não | Resultados de filtros com base em grupos. |
+| ` *`userRoleArray`*` | `types:StringArray` | Não | Resultados de filtros com base na função do usuário. |
 | ` *`numChars`*` | `xsd:int` | Não | Habilitar > 1 caractere. |
 
 **Saída (getUserCharsReturn)**
