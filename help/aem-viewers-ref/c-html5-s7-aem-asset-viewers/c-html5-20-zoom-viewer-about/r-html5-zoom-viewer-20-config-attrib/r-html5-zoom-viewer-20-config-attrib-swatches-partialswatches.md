@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Amostras.amostras parciais
+seo-title: Swatches.partialswatches
 solution: Experience Manager
-title: Amostras.amostras parciais
+title: Swatches.partialswatches
 topic: Dynamic media
 uuid: f783f75f-02ea-4a71-88e2-6857c981de27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Amostras.amostras parciais{#swatches-partialswatches}
+# Swatches.partialswatches{#swatches-partialswatches}
 
 `[Swatches.|<containerId>_swatches.]partialswatches=0|1`
 
@@ -33,6 +36,6 @@ Opcional.
 
 `0`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `partialswatches=1`
