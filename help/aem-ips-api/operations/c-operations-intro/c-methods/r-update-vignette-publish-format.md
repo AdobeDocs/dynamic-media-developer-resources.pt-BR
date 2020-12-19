@@ -32,7 +32,7 @@ Atualiza as configurações de formato de publicação de vinheta.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Sim | Identificador de formato de publicação. |
 | ` *`name`*` | `xsd:string` | Não | Nome do formato de publicação. |
 | ` *`targetWidth`*` | `xsd:int` | Sim | Especifica a largura do público alvo da visualização de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho que a vinheta primária. |
@@ -52,7 +52,7 @@ Atualiza as configurações de formato de publicação de vinheta.
 |---|---|---|---|
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Sim | Manuseie o formato de publicação de vinheta atualizado. |
 
-## Example {#section-fcba4bf2b7264786a676e315a35dbe43}
+## Exemplo {#section-fcba4bf2b7264786a676e315a35dbe43}
 
 Este exemplo de código atualiza um formato de publicação de vinheta e retorna o identificador para o formato atualizado.
 
