@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
 
 >[!NOTE]
 >
->*Somente* o tipo de `IpsAdmin` usuário está autorizado a executar chamadas setPassword para outros usuários.
+>** Somente o tipo de  `IpsAdmin` usuário está autorizado a executar chamadas setPassword para outros usuários.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,14 +52,14 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Identificador do usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> senha </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>Senha. </p> <p>Os seguintes requisitos são aplicados na senha escolhida: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -67,13 +70,13 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres em inglês minúsculos. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres em inglês maiúsculos. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por exemplo, <span class="codeph"> 1 2 3 4 5 </span> e assim por diante. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer uma das seguintes opções: <span class="codeph"> ` ~! @ # $ % ^ * ( ) _ + - = { }| [ ] &amp; \ : "; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer uma das seguintes opções: <span class="codeph"> " ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : "; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Determina a data de expiração da senha. <p>Observação:  Forneça o fuso horário com a solicitação para este campo. Os fusos horários são ajustados para Hora central. </p> </p> </td> 
   </tr> 
