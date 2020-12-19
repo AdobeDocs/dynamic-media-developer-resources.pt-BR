@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
 
-# Tipos de dados: Novo e modificado{#data-types-new-and-modified}
+# Tipos de dados: Novo e Modificado{#data-types-new-and-modified}
 
 Descreve tipos novos e alterados para a API IPS versão 6.
 
@@ -50,7 +53,7 @@ Sintaxe
 
 * Adicionado `exportJob` a `ActiveJob` e `ScheduledJob`.
 
-* Adicionado `optmizedPath` e `optimizedFile` a `PsdInfo`.
+* Adicionados `optmizedPath` e `optimizedFile` a `PsdInfo`.
 
 * Adicionado `contextHandle` a:
 
@@ -66,9 +69,9 @@ Sintaxe
 
 **Alterado**
 
-* Em `User`, mudei `role` para `defaultRole`.
+* Em `User`, `role` foi alterado para `defaultRole`.
 
-* Em `Folder`, mudei `permissions` para `permissionsSetHandle`.
+* Em `Folder`, `permissions` foi alterado para `permissionsSetHandle`.
 
-* Em `AssetSummary`, `type` e agora `name` são opcionais.
+* Em `AssetSummary`, `type` e `name` agora são opcionais.
 
