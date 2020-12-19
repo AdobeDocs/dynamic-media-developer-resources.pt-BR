@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Ative os cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Última modificação em respostas HTTP passíveis de cache emitidas pela Renderização de imagem.
 
-O servidor usa o mais recente `vignette::TimeStamp` e o `catalog::TimeStamp` valor de todos os catálogos/registros de catálogo de vinheta e material envolvidos em uma resposta como o valor do cabeçalho Última modificação.
+O servidor usa os valores mais recentes `vignette::TimeStamp` e `catalog::TimeStamp` de todos os catálogos/catálogos de vinheta e material envolvidos em uma resposta como o valor do cabeçalho Última modificação.
 
 Deve ser ativada somente se uma rede de armazenamento em cache distribuída, como Akamai, for usada e não suportar cabeçalhos de tag.
 
@@ -27,10 +27,10 @@ Deve ser ativada somente se uma rede de armazenamento em cache distribuída, com
 >
 >É necessário ter cuidado ao usar cabeçalhos Última modificação em um ambiente com balanceamento de carga que envolva vários hosts de disponibilização/renderização de imagem. O cache do cliente pode ser derrotado e a carga do servidor pode aumentar se, por algum motivo, os servidores tiverem carimbos de data e hora diferentes para as mesmas entradas do catálogo. Tal situação pode ocorrer do seguinte modo:
 
-* Nem `catalog::TimeStamp`, `vignette::TimeStamp`, nem `attribute::TimeStamp` está definido, de modo que a hora de modificação do [!DNL catalog.ini] arquivo seja usada como padrão para `catalog::TimeStamp`.
+* Nem `catalog::TimeStamp`, `vignette::TimeStamp`, nem `attribute::TimeStamp` estão definidos, pelo que a hora de modificação do arquivo [!DNL catalog.ini] é usada como padrão para `catalog::TimeStamp`.
 
 * Em vez de compartilhar os arquivos de catálogo de materiais por meio de uma montagem de rede, cada servidor tem sua própria instância dos arquivos de catálogo em um sistema de arquivos local.
-* Duas ou mais instâncias do mesmo [!DNL catalog.ini] arquivo têm datas de modificação de arquivo diferentes, possivelmente causadas pela cópia incorreta dos arquivos.
+* Duas ou mais instâncias do mesmo arquivo [!DNL catalog.ini] têm datas de modificação de arquivo diferentes, possivelmente causadas pela cópia incorreta dos arquivos.
 
 ## Propriedades {#section-453952244193452caccfaf7f601007c1}
 
@@ -42,4 +42,4 @@ Herdado de `default::UseLastModified` se não estiver definido ou se estiver vaz
 
 ## Consulte também {#section-1536715169da48b0aecc4ab7326c86db}
 
-[catálogo::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) , [vinheta::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
+[catálogo::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) ,  [vinheta::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
