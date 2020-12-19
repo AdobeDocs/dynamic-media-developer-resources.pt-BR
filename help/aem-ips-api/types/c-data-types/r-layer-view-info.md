@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 58d26f4d-03a6-4f57-bc8e-117355c0d74c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`url`*` | `xsd:string` | URL do servidor de imagens que representa o modelo. Combina `urlModifier` e `urlPostAp- plyModifier` campos. |
-| ` *`urlModifier`*` | `xsd:string` | Comandos de protocolo de serviço de imagem a serem aplicados antes da solicitação ou `urlPostApplyModifier` dos comandos. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Comandos de protocolo de serviço de imagem a serem aplicados após `urlModifier` e solicitar comandos. |
+| ` *`url`*` | `xsd:string` | URL do servidor de imagens que representa o modelo. Combina os campos `urlModifier` e `urlPostAp- plyModifier`. |
+| ` *`urlModifier`*` | `xsd:string` | Comandos de protocolo de serviço de imagem a serem aplicados antes dos comandos request ou `urlPostApplyModifier`. |
+| ` *`urlPostApplyModifier`*` | `xsd:string` | Comandos de protocolo de serviço de imagem a serem aplicados depois de `urlModifier` e comandos de solicitação. |
 
