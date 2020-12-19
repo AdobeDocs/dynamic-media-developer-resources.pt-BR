@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c5944515-c378-45c3-bc18-3261133ba009
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Após a instalação, será necessário configurar os serviços para serem executados na outra conta de usuário.
 
-1. Para acessar as configurações da Política de segurança local do Windows, clique em Menu **[!UICONTROL do]** Start > **[!UICONTROL Configurações]** > **[!UICONTROL Painel]** de controle > Ferramentas **** administrativas > Política **[!UICONTROL de segurança]** local.
-1. Selecione Configurações **[!UICONTROL de]** segurança > Políticas **** locais > Atribuição **[!UICONTROL de direitos de]** usuário.
+1. Acesse as configurações da Política de Segurança Local do Windows clicando em **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
+1. Selecione **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
 1. Duplo clique na política &quot;Fazer logon como um serviço&quot;.
-1. Clique em **[!UICONTROL Adicionar...]** e selecione o Usuário ou Grupo, em seguida, clique em **[!UICONTROL Ok]** para confirmar.
+1. Clique em **[!UICONTROL Add…]** e selecione Usuário ou Grupo, em seguida, clique em **[!UICONTROL Ok]** para confirmar.
