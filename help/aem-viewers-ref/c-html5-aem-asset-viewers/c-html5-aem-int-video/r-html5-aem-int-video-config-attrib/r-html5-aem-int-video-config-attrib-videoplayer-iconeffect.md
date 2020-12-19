@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a403d44d-d5b5-4d09-876e-39146585704f
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que IconEffect seja exibido na parte superior do vídeo quando o vídeo estiver em estado de pausa. Em alguns dispositivos, controles nativos são usados. Nesses casos, o modificador do efeito <span class="codeph"> de</span> ícone é ignorado. </p> </td> 
+   <td colname="col2"> <p> Permite que IconEffect seja exibido na parte superior do vídeo quando o vídeo estiver em estado de pausa. Em alguns dispositivos, controles nativos são usados. Nesses casos, o modificador do ícone <span class="codeph"></span> é ignorado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
@@ -47,6 +50,6 @@ Opcional.
 
 `1,-1,0.3,0`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `iconeffect=0`
