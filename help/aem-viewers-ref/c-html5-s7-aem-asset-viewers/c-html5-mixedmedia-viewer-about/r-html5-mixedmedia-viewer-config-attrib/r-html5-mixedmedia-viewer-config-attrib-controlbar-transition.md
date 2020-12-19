@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: ControlBar.transição
+seo-title: ControlBar.transition
 solution: Experience Manager
-title: ControlBar.transição
+title: ControlBar.transition
 topic: Dynamic media
 uuid: 803df8d4-6fb9-49ef-a097-c883d4115fad
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# ControlBar.transição{#controlbar-transition}
+# ControlBar.transition{#controlbar-transition}
 
 ` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`retardo`*]`
 
@@ -20,14 +23,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Use <span class="codeph"> none</span> para mostrar e ocultar instantaneamente. Use o <span class="codeph"> desaparecimento gradual</span> para fornecer um efeito gradual de desaparecimento gradual. </p> <p>O Fade não é suportado no Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Use <span class="codeph"> none</span> para mostrar e ocultar instantaneamente. Use <span class="codeph"> fade</span> para fornecer um efeito gradual de aparecimento e desaparecimento gradual. </p> <p>O Fade não é suportado no Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p> Se definido como <span class="codeph"> -1</span> , o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p> Se definido como <span class="codeph"> -1</span> o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração</span> </span> </p> </td> 
    <td colname="col2"> <p>Define a duração da animação de aparecimento e desaparecimento gradual, em segundos. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,6 +44,6 @@ Opcional.
 
 `fade,2,0.5`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `transition=none`
