@@ -9,7 +9,7 @@ uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
 source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Cria uma pasta.
 
 >[!NOTE]
 >
->A nova pasta é subordinada à pasta Imagens, mesmo que você especifique um item `/` para indicar a raiz da empresa.
+>A nova pasta é secundária para a pasta Imagens, mesmo se você especificar um `/` para indicar a raiz da empresa.
 
 Sintaxe
 
