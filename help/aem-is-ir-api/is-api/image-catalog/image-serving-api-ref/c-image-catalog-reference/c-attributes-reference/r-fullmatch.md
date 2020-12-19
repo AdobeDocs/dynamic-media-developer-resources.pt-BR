@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 Opção de correspondência de catálogo.
 
-Uma entrada de catálogo é especificada como um par ` *``*/ *`rootIdimageId`*` em solicitações HTTP. Ao analisar, um catálogo será selecionado se ` *`rootId`*` corresponder ao `attribute::RootId` valor do catálogo e o registro do catálogo for identificado pela correspondência de ` *`imageId`*` com um `catalog::Id` valor. Se um catálogo for encontrado, mas não houver uma entrada de catálogo correspondente a ` *`imageId`*`, o servidor poderá fazer uma das seguintes ações:
+Uma entrada de catálogo é especificada como um par ` *`rootId`*/ *`imageId`*` em solicitações HTTP. Ao analisar, um catálogo será selecionado se ` *`rootId`*` corresponder ao valor `attribute::RootId` do catálogo e o registro do catálogo for identificado pela correspondência de ` *`imageId`*` com um valor `catalog::Id`. Se um catálogo for encontrado, mas não houver uma entrada de catálogo que corresponda a ` *`imageId`*`, o servidor poderá fazer uma das seguintes ações:
 
-Se não `attribute::FullMatch` estiver definido, o servidor usará os atributos do catálogo correspondente. Nesse caso, ` *`rootId`*` é substituído por `attribute::RootPath` (ou `default::RootPath`, se não for especificado neste catálogo).
+Se `attribute::FullMatch` não estiver definido, o servidor usará os atributos do catálogo correspondente. Nesse caso, ` *`rootId`*` é substituído por `attribute::RootPath` (ou `default::RootPath`, se não for especificado neste catálogo).
 
-Se `attribute::FullMatch` estiver definido, o servidor ignorará completamente o catálogo, como se nenhum catálogo tivesse sido correspondido, e continuará usando os atributos do catálogo padrão. Nesse caso, ` *`rootId`*` continua fazendo parte do caminho (que é anexado por `default::RootPath`).
+Se `attribute::FullMatch` estiver definido, o servidor ignorará completamente o catálogo, como se nenhum catálogo tivesse sido correspondido, e continuará usando os atributos do catálogo padrão. Nesse caso, ` *`rootId`*` permanece parte do caminho (que é anexado por `default::RootPath`).
 
 ## Propriedades {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
@@ -32,4 +35,4 @@ Herdado de `default::FullMatch` se não estiver definido ou se estiver vazio.
 
 ## Consulte também {#section-42da0ba53e0b4c089c62108785faf5a9}
 
-[atributo::RootId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546) , [catálogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
+[atributo::RootId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546) ,  [catálogo::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md)
