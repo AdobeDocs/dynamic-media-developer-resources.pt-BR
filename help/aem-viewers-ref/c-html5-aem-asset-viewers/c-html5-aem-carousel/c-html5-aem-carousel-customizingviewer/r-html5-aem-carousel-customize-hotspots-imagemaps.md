@@ -1,6 +1,6 @@
 ---
-description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados na Dynamic Media of AEM Assets - sob demanda.
-seo-description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados na Dynamic Media of AEM Assets - sob demanda.
+description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+seo-description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 seo-title: Pontos de conexão e mapas de imagem
 solution: Experience Manager
 title: Pontos de conexão e mapas de imagem
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
 
 # Pontos de conexão e mapas de imagem{#hotspots-and-image-maps}
 
-O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados na Dynamic Media of AEM Assets - sob demanda.
+O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +38,11 @@ A aparência do ícone do ponto de conexão é controlada com o seguinte seletor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Arte-final do ícone de ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +50,7 @@ A aparência do ícone do ponto de conexão é controlada com o seguinte seletor
    <td colname="col2"> <p>Largura do ícone do ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do ícone do ponto de acesso. </p> </td> 
   </tr> 
  </tbody> 
@@ -83,16 +86,16 @@ A aparência da região do mapa de imagem é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fundo  </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira </span> </p> </td> 
-   <td colname="col2"> <p> Estilo da borda da região do mapa de imagens. Deve ser especificado como " <span class="codeph"> width </span> solid color <span class="codeph"> ", onde </span>width <span class="codeph"> é expressa em pixels, e a cor </span> é definida como <span class="codeph"> #RRGGBB </span> <span class="codeph"> </span><span class="codeph"> </span><span class="codeph"> </span>, RGB(R,G,B) , ou RGBA(R,G,B,A) . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
+   <td colname="col2"> <p> Estilo da borda da região do mapa de imagens. Deve ser especificado como " <span class="codeph"> largura </span> <span class="codeph"> cor sólida </span>", onde <span class="codeph"> largura </span> é expressa em pixels, e <span class="codeph"> cor </span> é definida como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1 1/&gt; ou <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
