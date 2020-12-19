@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1be6021b-3026-48ef-b121-eeb8270d2bae
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,19 +32,19 @@ O indicador de página de aparência é controlado com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda superior da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
    <td colname="col2"> <p>Posição na borda direita da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p>Posição da borda esquerda da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p>Posição na borda inferior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -49,19 +52,19 @@ O indicador de página de aparência é controlado com o seguinte seletor de cla
    <td colname="col2"> <p>Largura do indicador de página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do indicador de página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
