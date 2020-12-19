@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 82e4dc72-cc12-4ab5-8370-6270f9a3d45f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
+# Localização de elementos da interface do usuário{#localization-of-user-interface-elements}
 
 Determinado conteúdo exibido pelo Visualizador do carrossel está sujeito a localização. Isso inclui botões de navegação de slide.
 
@@ -40,7 +43,7 @@ defaultLocale:"en"
 
 No exemplo acima, o objeto localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
 
-O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor do `localizedTexts` campo do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,27 +56,27 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de pausa de reprodução selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de pausa de reprodução não selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CAROUSELVIEWER_TOOLTIP_GOTO  </span> </p> </td> 
    <td colname="col2"> <p> Dica de ferramenta e rótulo ARIA para botões de slide anteriores e seguintes. </p> <p>Aceita dois tokens de substituição: <span class="codeph"> $CURRENT_FRAME$ </span> para o índice do slide atual e <span class="codeph"> $TOTAL_FRAMES$ </span> para o número total de slides. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO  </span> </p> </td> 
    <td colname="col2"> <p> Rótulo ARIA para elemento visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.ROLE_DESCRIPTION  </span> </p> </td> 
    <td colname="col2"> <p> Descrição da função ARIA para o componente principal da visualização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CarouselView.USAGE_HINT  </span> </p> </td> 
    <td colname="col2"> <p> Dicas de uso ARIA para usuários de teclado. </p> </td> 
   </tr> 
  </tbody> 
