@@ -1,6 +1,6 @@
 ---
-description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
-seo-description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
+description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pela Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
+seo-description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pela Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
 seo-title: trabalho
 solution: Experience Manager
 title: trabalho
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# trabalho{#joboption}
+# joboption{#joboption}
 
-Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
+Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefinição de PDF é um arquivo gerado pela Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valor</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>O IPSID do arquivo de opções de trabalho. </p></td> 
  </tr> 
 </table>
@@ -44,7 +47,7 @@ Atualmente, as seguintes opções são suportadas:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Cor </p></td> 
-  <td class="stentry"> <p> Estratégia de cor (a tag somente imagens é tratada como tag all) </p> <p> Propósito de renderização do Documento </p> <p> Apenas os seguintes espaços de trabalho são suportados na seção 4.2.5. </p> <p> 
+  <td class="stentry"> <p> Estratégia de cor (a tag somente imagens é tratada como tag all) </p> <p> Propósito de renderização do documento </p> <p> Apenas os seguintes espaços de trabalho são suportados na seção 4.2.5. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
