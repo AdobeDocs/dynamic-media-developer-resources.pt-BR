@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Os catálogos de materiais fornecem informações sobre vinhetas, materiais e dados de suporte, como perfis ICC, ao servidor.
 
-Cada catálogo de materiais consiste em um arquivo *de atributos de* catálogo necessário e um conjunto de arquivos *de dados de* catálogo opcionais:
+Cada catálogo de materiais consiste em um *arquivo de atributo de catálogo* e um conjunto de arquivos de dados de catálogo *opcionais*:
 
 * O arquivo do mapa de vinheta, que apresenta vinhetas e modelos e seus metadados associados.
 * O arquivo de dados de material, que categoriza materiais e especifica os arquivos de imagem de textura e os metadados associados.
@@ -25,7 +28,7 @@ Cada catálogo de materiais consiste em um arquivo *de atributos de* catálogo n
 
 Os arquivos de dados do catálogo são associados aos catálogos de materiais por referências de arquivo no arquivo de atributos do catálogo. O mesmo arquivo de dados do catálogo pode ser compartilhado por vários catálogos de materiais.
 
-Os arquivos de atributo do catálogo devem ter um sufixo de [!DNL .ini] arquivo e devem estar localizados na pasta *de* catálogo de renderização de imagem ( [!DNL PlatformServer::ir.catalogRootPath]). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor de renderização.
+Os arquivos de atributo do catálogo devem ter um sufixo de arquivo [!DNL .ini] e devem estar localizados na pasta de catálogo *Renderização de imagem* ( [!DNL PlatformServer::ir.catalogRootPath]). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor de renderização.
 
 **Atualização de catálogos de materiais**
 
@@ -37,7 +40,7 @@ O catálogo padrão fornece valores padrão para todos os atributos do catálogo
 
 Além disso, o catálogo padrão fornece todos os atributos e registros de dados (perfis ICC) quando nenhum catálogo de materiais específico está envolvido em uma operação.
 
-Para o funcionamento correto do Servidor de renderização, o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], deve sempre existir na pasta do catálogo e deve ser preenchido completamente com todos os atributos necessários, exceto `attribute::RootId` as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
+Para o funcionamento correto do Servidor de renderização, o arquivo de atributos do catálogo para o catálogo padrão deve ser chamado de [!DNL default.ini], sempre deve existir na pasta do catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
 
 **Consulte também**
 
