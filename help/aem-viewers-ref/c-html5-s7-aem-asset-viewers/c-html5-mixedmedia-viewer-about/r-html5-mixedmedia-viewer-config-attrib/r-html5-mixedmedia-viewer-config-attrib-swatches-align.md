@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Amostras.alinhar
+seo-title: Swatches.align
 solution: Experience Manager
-title: Amostras.alinhar
+title: Swatches.align
 topic: Dynamic media
 uuid: 272e4416-4b2f-4f6e-bb04-584d3aad29f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 1%
 
 ---
 
 
-# Amostras.alinhar{#swatches-align}
+# Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
@@ -39,6 +42,6 @@ Opcional.
 
 `center,center`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `align=left,top`
