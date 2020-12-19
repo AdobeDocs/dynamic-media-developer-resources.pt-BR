@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ Usado por MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataF
 
 Sintaxe
 
-## Values {#section-1d8f05dbeff74bfdbd5960ccc7347557}
+## Valores {#section-1d8f05dbeff74bfdbd5960ccc7347557}
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Um caso especial de [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado com os valores [!DNL `True`] e [!DNL `False`].
+* [!DNL `BooleanTag`]: Um caso especial de  [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado para os valores  [!DNL `True`] e  [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
