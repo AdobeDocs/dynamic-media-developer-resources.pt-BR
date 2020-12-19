@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aa245d18-15cc-41cb-a49d-757d74fe6231
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 0%
 
 ---
 
@@ -28,4 +31,4 @@ Herdado de `default::DefaultExt` se não estiver definido. Se definido, mas vazi
 
 ## Consulte também {#section-d7c408b979844643adff8258f500eb7c}
 
-[catálogo::Caminho](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catálogo::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
+[catálogo::Caminho](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [catálogo::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
