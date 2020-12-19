@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a389d884-1e16-4ba8-86e4-f00956be0465
 translation-type: tm+mt
 source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
 
 A classe principal do Visualizador de vídeo interativo é `InteractiveVideoViewer`. Ela é declarada na namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada desta classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado da `s7viewers.InteractiveVideoViewer` classe.
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado da classe `s7viewers.InteractiveVideoViewer`.
