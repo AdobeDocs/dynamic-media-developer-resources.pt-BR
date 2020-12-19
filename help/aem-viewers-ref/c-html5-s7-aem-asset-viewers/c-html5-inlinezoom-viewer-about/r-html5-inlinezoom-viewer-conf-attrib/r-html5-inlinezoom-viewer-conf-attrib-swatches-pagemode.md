@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 116aef33-b31a-48d9-91bb-f068a02ca75a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_52306D2150BC4EE2BD4CE4C718E96CC0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
    <td colname="col2"> <p> Quando alternados, os botões de rolagem fazem com que as amostras pulem automaticamente em uma página inteira. </p> <p>O espaço em branco extra será exibido na última página se as amostras não couberem. Além disso, a última página tem o mesmo número de células que qualquer página anterior. </p> <p>A etapa de rolagem é ignorada e a rolagem do mouse é definida somente em páginas completas. </p> </td> 
   </tr> 
  </tbody> 
@@ -33,6 +36,6 @@ Opcional.
 
 `0`
 
-## Example {#section-3a188ab955c445bcb2efa3c49722c10d}
+## Exemplo {#section-3a188ab955c445bcb2efa3c49722c10d}
 
 `pagemode=1`
