@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -21,8 +24,8 @@ Parâmetro comum a todos os visualizadores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span></span> </p> </td> 
-   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Servidor de imagens. </p> <p> Especifica um caminho relativo ou absoluto para o Serviço de imagens, a partir do qual o visualizador recupera imagens. Se o caminho não tiver um <span class="filepath"> /</span>à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span>à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo Compartilhamento por email esteja ativado no visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Servidor de imagens. </p> <p> Especifica um caminho relativo ou absoluto para o Serviço de imagens, a partir do qual o visualizador recupera imagens. Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo Compartilhamento por email esteja ativado no visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
