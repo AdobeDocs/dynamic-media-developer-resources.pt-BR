@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`configurações`*` | `types:CompanySettings` | Sim | Configurações de Empresa. |
+| ` *`configurações`*` | `types:CompanySettings` | Sim | Configurações de empresa. |
 
 ## Exemplos {#section-191f78995ecf473a95eadf7296204fd7}
 
