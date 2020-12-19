@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Os valores de comando devem ser codificados por http usando %xx sequências de e
 
 Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, como &#39; &#39; (espaço), &#39;&quot;&#39;(citação-duplo), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
 
-**Cuidado:** As chaves { } usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se isso for um problema, a renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
+**Cuidado: as chaves { }** usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se isso for um problema, a renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
 
-## Example {#section-3edc5b8ee2354220a281b01722ad337a}
+## Exemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 
 `…&$text=rate&weight=85% 27#&…`
 
