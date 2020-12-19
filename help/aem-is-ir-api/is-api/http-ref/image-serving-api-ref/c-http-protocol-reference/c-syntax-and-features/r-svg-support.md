@@ -21,21 +21,21 @@ O Serviço de imagem oferece suporte a arquivos Scalable Vetor Graphics (SVG) co
 
 O Serviço de Imagens só reconhece conteúdo SVG estático; animações, scripts e outros conteúdos interativos não são suportados.
 
-O SVG pode ser especificado onde quer que os arquivos de imagem sejam permitidos (caminho do URL `src=`e `mask=`). Depois que o conteúdo do arquivo SVG é rasterizado, ele é manipulado como uma imagem.
+O SVG pode ser especificado onde quer que os arquivos de imagem sejam permitidos (caminho do URL, `src=` e `mask=`). Depois que o conteúdo do arquivo SVG é rasterizado, ele é manipulado como uma imagem.
 
 Semelhante às imagens, os arquivos SVG podem ser especificados como entradas de catálogo de imagens ou como caminhos de arquivo relativos.
 
 ## Variáveis de substituição {#section-83b149f13f244193901df39b204c975b}
 
-` $ *[!DNL var]*$` variáveis de substituição podem ser incluídas no arquivo SVG nos `<text>` elementos de strings de valor e em qualquer atributo de elemento.
+` $ *[!DNL var]*$` variáveis de substituição podem ser incluídas no arquivo SVG nos  `<text>` elementos de strings de valor e em qualquer atributo de elemento.
 
 Variáveis importantes na parte query das solicitações incorporadas do Serviço de imagem não são substituídas diretamente. Em vez disso, todas as definições de variáveis disponíveis são anexadas à solicitação, o que permite que o Serviço de imagem substitua variáveis ao analisar a solicitação.
 
-Consulte Variáveis [de](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) substituição para obter mais informações.
+Consulte [Variáveis de substituição](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) para obter mais informações.
 
 ## Referências de imagem {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-As imagens podem ser inseridas no SVG usando o `<image>` elemento . As imagens referenciadas pelo `xlink::href` atributo do `<image>` elemento devem ser solicitações válidas de serviço de imagem. URLs externos não são permitidos.
+As imagens podem ser inseridas no SVG usando o elemento `<image>`. As imagens referenciadas pelo atributo `xlink::href` do elemento `<image>` devem ser solicitações válidas de serviço de imagem. URLs externos não são permitidos.
 
 Especifique uma solicitação completa de Serviço de imagem, começando com `http://`, ou um url relativo, começando com `/is/image`. Se um caminho HTTP completo for especificado, o nome do domínio será removido do caminho para conversão no formato relativo. O uso de um caminho HTTP completo pode ser vantajoso, pois permite que o arquivo seja visualizado com um renderizador SVG de terceiros.
 
@@ -49,13 +49,13 @@ Especifique uma solicitação completa de Serviço de imagem, começando com `ht
 
 ## Gerenciamento de cores {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Pressupõe-se que todos os valores de cor incorporados em arquivos SVG e passados para modelos SVG por meio de variáveis de substituição existam no espaço de `sRgb` cores.
+Pressupõe-se que todos os valores de cor incorporados em arquivos SVG e passados para modelos SVG por meio de variáveis de substituição existam no espaço de cores `sRgb`.
 
-Nenhuma conversão de cores é realizada quando as imagens são incorporadas ao SVG. Para garantir a fidelidade da cor, especifique `icc=sRgb` todas as solicitações de imagem incorporadas.
+Nenhuma conversão de cores é realizada quando as imagens são incorporadas ao SVG. Para garantir a fidelidade de cores, especifique `icc=sRgb` para todas as solicitações de imagem incorporadas.
 
 Após a rasterização, a imagem SVG participa do gerenciamento de cores como qualquer outra imagem.
 
-## Example {#section-036cdd45abd449849ee00a8f21788c28}
+## Exemplo {#section-036cdd45abd449849ee00a8f21788c28}
 
 O seguinte modelo SVG ilustra as referências de imagem e o uso de variáveis.
 
@@ -77,4 +77,4 @@ No momento, não há suporte para especificações de cores baseadas em perfis I
 
 ## Consulte também {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), Especificação [SVG 1.1](http://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), Especificação  [SVG 1.1](http://www.w3.org/TR/SVG11/)
