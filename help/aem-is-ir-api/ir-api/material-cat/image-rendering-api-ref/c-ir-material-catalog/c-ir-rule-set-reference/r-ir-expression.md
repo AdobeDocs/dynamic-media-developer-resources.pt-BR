@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 0%
 
 ---
 
 
 # expressão{#expression}
 
-Elemento de padrão de expressão regular. Opcional em `<rule>` elementos.
+Elemento de padrão de expressão regular. Opcional nos elementos `<rule>`.
 
 ## Atributos {#section-fd0574eee1f9423cbb2ed709c0906800}
 
@@ -26,19 +29,19 @@ Sequência de caracteres de padrão de expressão regular.
 
 ## Descrição {#section-3245c8a531bb455d8398449f6ea63b37}
 
-O `<expression>` elemento pode estar vazio ou conter uma sequência de caracteres de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a string de solicitação.
+O elemento `<expression>` pode estar vazio ou conter uma sequência de caracteres de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a string de solicitação.
 
-Uma correspondência sempre ocorre quando `<expression>` está vazia ou não é especificada; isso equivale a especificar `<expression>.*</expression>`.
+Uma correspondência sempre ocorre quando `<expression>` está vazio ou não é especificado; isso equivale a especificar `<expression>.*</expression>`.
 
-A implementação é baseada no pacote Java [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e), que fornece uma sintaxe de expressão regular semelhante à da Perl.
+A implementação é baseada no pacote Java [java.util.regex](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-rule-set-reference/r-ir-expression.md#reference-49867deecb58412bbdc2ced564bbea3e), que fornece uma sintaxe de expressão regular semelhante à de Perl.
 
-## Nota {#section-6b41a900b0ce4a9590e5861e3c81599c}
+## Observação {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-A cadeia de caracteres de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a sequência inteira pode ser anexada em uma `CDATA` seção XML:
+A cadeia de caracteres de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a sequência inteira pode ser anexada em uma seção XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Todos os caracteres entre as tags `<expression>` e `</expression>` são passados para o analisador de expressão regular, incluindo caracteres fora da seção opcional `CDATA` . Deve-se ter cuidado para evitar espaços em branco adicionais.
+Todos os caracteres entre as tags `<expression>` e `</expression>` são passados para o analisador de expressão regular, incluindo caracteres fora da seção opcional `CDATA`. Deve-se ter cuidado para evitar espaços em branco adicionais.
 
 ## Consulte também {#section-15a9fea18e644b8e9c498f5fd88e2eaa}
 
