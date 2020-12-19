@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ A posição e o tamanho da ferramenta de compartilhamento em redes sociais na in
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p> Posição vertical da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
    <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -41,13 +44,13 @@ A posição e o tamanho da ferramenta de compartilhamento em redes sociais na in
    <td colname="col2"> <p> A largura da ferramenta de compartilhamento em redes sociais. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>A altura da ferramenta de compartilhamento em redes sociais. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar uma ferramenta de compartilhamento em redes sociais que seja posicionada quatro pixels da parte superior e cinco pixels da direita do container do visualizador e seja dimensionada em 28 x 28 pixels.
+**Exemplo**  - Para configurar uma ferramenta de compartilhamento em redes sociais que seja posicionada quatro pixels da parte superior e cinco pixels da direita do container do visualizador e seja dimensionada em 28 x 28 pixels.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -69,23 +72,23 @@ A aparência do botão da ferramenta de compartilhamento em redes sociais é con
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> A imagem que é exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de `state` atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)da interface do usuário.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemplo** - Para configurar um botão de ferramenta de compartilhamento em redes sociais que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
+**Exemplo**  - Para configurar um botão de ferramenta de compartilhamento em redes sociais que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -113,13 +116,13 @@ A aparência do painel que contém os ícones individuais de compartilhamento em
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>A cor de plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar um painel para ter uma cor transparente:
+**Exemplo**  - Para configurar um painel para ter uma cor transparente:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 
