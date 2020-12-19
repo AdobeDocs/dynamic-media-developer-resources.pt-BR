@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 27eb2a48-008b-455e-9a03-41bb4030271b
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +40,6 @@ Opcional.
 
 [!DNL `1,1`]
 
-## Example {#section-1e20672d42c845bd84f02f88cbc53efc}
+## Exemplo {#section-1e20672d42c845bd84f02f88cbc53efc}
 
 [!DNL `zoomstep=2,3`]
