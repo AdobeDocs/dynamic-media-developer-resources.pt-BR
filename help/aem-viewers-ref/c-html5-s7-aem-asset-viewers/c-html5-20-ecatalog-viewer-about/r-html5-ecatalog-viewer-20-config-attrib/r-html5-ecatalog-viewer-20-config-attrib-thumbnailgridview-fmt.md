@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6aaac931-af78-4f63-9345-6c2580f52414
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 1%
 
 ---
 
@@ -33,6 +36,6 @@ Opcional.
 
 `jpeg`
 
-## Example {#section-5cde7b856ba646c293cfd3d79e47c507}
+## Exemplo {#section-5cde7b856ba646c293cfd3d79e47c507}
 
 `fmt-png-alpha`
