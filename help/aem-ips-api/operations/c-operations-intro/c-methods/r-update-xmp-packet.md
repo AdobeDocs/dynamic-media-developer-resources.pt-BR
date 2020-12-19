@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 0%
 
 ---
 
@@ -34,9 +37,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote XMP que você deseja definir ou atualizar. |
+| ` *`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote que deseja definir ou atualizar. |
 
 **Saída (updateXMPPacketReturn)**
 
