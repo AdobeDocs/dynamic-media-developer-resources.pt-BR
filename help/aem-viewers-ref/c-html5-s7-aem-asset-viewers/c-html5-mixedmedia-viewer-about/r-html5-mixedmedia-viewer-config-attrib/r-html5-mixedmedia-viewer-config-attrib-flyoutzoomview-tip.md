@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> desvanecer</span></span> </p> </td> 
-   <td colname="col2"> Especifica a duração de uma animação de esmaecimento que ocorre quando o texto é exibido ou desaparece. Um valor de <span class="codeph"> 0</span> indica que não há transição de desaparecimento gradual. </td> 
+   <td colname="col2"> Especifica a duração de uma animação de esmaecimento que ocorre quando o texto é exibido ou desaparece. Um valor de <span class="codeph"> 0</span> indica que não há transição de desaparecimento. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,6 +44,6 @@ Opcional.
 
 `3,1,0.3`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `tip=1,-1,0`
