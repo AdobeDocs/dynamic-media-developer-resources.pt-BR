@@ -1,18 +1,21 @@
 ---
 description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 seo-description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
-seo-title: Comandos de Visualização
+seo-title: Comandos de visualização
 solution: Experience Manager
-title: Comandos de Visualização
+title: Comandos de visualização
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
 
-# Comandos de Visualização{#view-commands}
+# Comandos de visualização{#view-commands}
 
 Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 
