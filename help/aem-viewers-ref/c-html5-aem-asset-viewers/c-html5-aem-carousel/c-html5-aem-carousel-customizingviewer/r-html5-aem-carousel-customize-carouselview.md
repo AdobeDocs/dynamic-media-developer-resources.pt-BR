@@ -1,18 +1,21 @@
 ---
 description: A visualização principal consiste na imagem do banner.
 seo-description: A visualização principal consiste na imagem do banner.
-seo-title: visualização do carrossel
+seo-title: Visualização do carrossel
 solution: Experience Manager
-title: visualização do carrossel
+title: Visualização do carrossel
 topic: Dynamic media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# visualização do carrossel{#carousel-view}
+# Visualização do carrossel{#carousel-view}
 
 A visualização principal consiste na imagem do banner.
 
@@ -35,7 +38,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
   </tr> 
  </tbody> 
