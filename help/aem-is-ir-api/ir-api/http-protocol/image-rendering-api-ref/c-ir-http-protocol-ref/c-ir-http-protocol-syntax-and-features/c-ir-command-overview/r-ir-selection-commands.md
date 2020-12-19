@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: fac4080b-3b7e-46ac-a564-3a7eff80c9eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ O comando ou o material, ou ambos, são especificados depois desse comando de se
 
 <table id="simpletable_028957E516644FE8A7B1BC056A32FCD1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a" type="reference" format="dita" scope="local"> obj</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a" type="reference" format="dita" scope="local"> obj</a> </span> </p></td> 
   <td class="stentry"> <p>Selecione um grupo de vinhetas ou objeto por nome. </p></td> 
  </tr> 
  <tr class="strow"> 
