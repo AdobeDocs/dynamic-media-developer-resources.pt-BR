@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eb93ad7a-6176-47ed-92c6-2eb1afcac0eb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p> Configura o comportamento de ocultação automática dependendo do número de páginas e do tamanho do componente de tempo de execução. </p> <p> <span class="codeph"> 0</span> desativa a ocultação automática. </p> <p> <span class="codeph"> 1</span> ativa a ocultação automática. O componente oculta seus pontos se pelo menos uma das seguintes condições se tornar verdadeira: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">a linha com pontos se torna maior que a largura do componente de tempo de execução, ou </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">o número de páginas definido para este componente excede o limite configurado pelo parâmetro de <span class="codeph"><span class="varname"> limite</span></span> . </li> 
-     </ul> </p> <p> Definir <span class="codeph"><span class="varname"> limite</span></span> como <span class="codeph"> -1</span> desativa a segunda condição de ocultação automática. </p> </td> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">o número de páginas definido para este componente excede o limite configurado pelo parâmetro <span class="codeph"><span class="varname"> limit</span></span>. </li> 
+     </ul> </p> <p> Definir <span class="codeph"><span class="varname"> limit</span></span> como <span class="codeph"> -1</span> desativa a segunda condição de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,6 +40,6 @@ Opcional.
 
 `1,10`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `autohide=0`
