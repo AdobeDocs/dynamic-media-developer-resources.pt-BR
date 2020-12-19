@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +32,13 @@ Ajuste a saturação. Altera a saturação de cada pixel visível da camada ou i
 
 ## Propriedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
 `op_saturation=0`, sem alteração na saturação. As imagens ou camadas CMYK são convertidas em RGB antes da operação ser aplicada.
 
-## Example {#section-033b272f1b7e4efeb94e841fd8095357}
+## Exemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 
 Manipule uma fotografia colorida para obter uma aparência &quot;chave&quot;:
 
