@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e36f0d5c-0170-4a65-9347-c7fd3538726b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
 
-# Operações: Novo e modificado{#operations-new-and-modified}
+# Operações: Novo e Modificado{#operations-new-and-modified}
 
 Descreve métodos de operações novos e alterados para a API IPS versão 6.
 
@@ -31,7 +34,7 @@ Sintaxe
 
 **Adicionado**
 
-* Adicionado `isHidden` e `initialTagValue` a:
+* Adicionados `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
@@ -41,12 +44,14 @@ Sintaxe
 
    * `createImageSet`
    * `createAssetSet`
+
    Adicionado `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
+
    Adicionado `contextHandle` a:
 
    * `getImageServingPublishSettings`
@@ -67,15 +72,15 @@ Sintaxe
 
 **Alterado**
 
-* Em `addUser` e `setUser`, mudei `role` para `defaultRole`.
+* Em `addUser` e `setUser`, `role` foram alteradas para `defaultRole`.
 
-* Em `getCompanyMembers`, mudei `userArray` para `memberArray`.
+* Em `getCompanyMembers`, `userArray` foi alterado para `memberArray`.
 
-* Em `getCompanyMembership`, mudei `companyArray` para `membershipArray`.
+* Em `getCompanyMembership`, `companyArray` foi alterado para `membershipArray`.
 
-* Em `addUser`, `setCompanyMembership`, e `addCompanyMembership`, mudei `membershipArray` para `companyHandleArray`.
+* Em `addUser`, `setCompanyMembership` e `addCompanyMembership`, `membershipArray` foram alteradas para `companyHandleArray`.
 
-* Em `getCompanyMembership`, mudei `companyArray` para `membershipArray`.
+* Em `getCompanyMembership`, `companyArray` foi alterado para `membershipArray`.
 
 * Em `getUserChars`, `includeInvalid` agora é opcional.
 
@@ -84,5 +89,5 @@ Sintaxe
 * Removido `renameFiles` de `renameAsset`.
 
 * Removido `getXMPPanelViewDefinition`.
-* Removido `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
+* Removidos `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
 
