@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
 
-# Constantes de string: Novo e modificado{#string-constants-new-and-modified}
+# Constantes de string: Novo e Modificado{#string-constants-new-and-modified}
 
 Descreve constantes de sequência novas e alteradas para a API IPS versão 3.8.
 
