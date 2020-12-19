@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
 
-# configuração{#config}
+# config{#config}
 
 Parâmetro comum a todos os visualizadores.
 
@@ -21,13 +24,13 @@ Parâmetro comum a todos os visualizadores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span></span> </p> </td> 
-   <td colname="col2"> <p>Catálogo/ID da configuração do visualizador. </p> <p> Especifica uma entrada do catálogo de imagens que contém as propriedades de configuração do visualizador no <span class="codeph"> catálogo::UserData </span>. Quando esse comando está presente, o visualizador envia um comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> ao servidor e extrai as propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a string de URL especificar as mesmas propriedades, eles substituirão os valores do <span class="codeph"> catálogo::UserData </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Catálogo/ID da configuração do visualizador. </p> <p> Especifica uma entrada de catálogo de imagens que contém as propriedades de configuração do visualizador no catálogo <span class="codeph">::UserData </span>. Quando esse comando está presente, o visualizador envia um comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> para o servidor e extrai as propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a string de URL especificar as mesmas propriedades, eles substituirão os valores do catálogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todos os comandos do visualizador que podem ser especificados em `catalog::UserData` espera `asset`, `serverUrl`, `contentUrl``searchServerUrl`e em `config` si mesmo.
+Todos os comandos do visualizador que podem ser especificados em `catalog::UserData` esperam `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` e `config` em si.
 
 ## Propriedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -39,7 +42,7 @@ Nenhum.
 
 ## Exemplo 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Um catálogo de imagens com o nome 2020 contém a entrada `preset-oct`. O `catalog::UserData` campo desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens com o nome 2020 contém a entrada `preset-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
 
 ```
 style=customStyle.css
@@ -59,7 +62,7 @@ style=customStyle.css
 
 ## Exemplo 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Um catálogo de imagens com o nome 2019 contém a entrada `spin-oct`. O `catalog::UserData` campo desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens com o nome 2019 contém a entrada `spin-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
 
 ```
 zoomStep=3 
@@ -96,7 +99,7 @@ Isso equivale aos seguintes comandos especificados explicitamente no URL:
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## Exemplo 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## Exemplo 5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
 Uma predefinição do visualizador chamada `Shoppable_Video_Dark` contém os seguintes dados:
 
@@ -118,7 +121,7 @@ style=etc/dam/presets/css/html5_interactivevideo_dark.css
 
 ## Exemplo 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
-Uma predefinição do visualizador denominada `Carousel_Dotted_light` os seguintes dados:
+Uma predefinição do visualizador chamada `Carousel_Dotted_light` os seguintes dados:
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
