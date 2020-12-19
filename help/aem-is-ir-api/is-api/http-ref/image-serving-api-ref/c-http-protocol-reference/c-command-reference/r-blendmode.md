@@ -1,6 +1,6 @@
 ---
-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
-seo-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
+description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
+seo-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
 
 ---
 
 
 # blendMode{#blendmode}
 
-Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
+Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
@@ -26,7 +29,7 @@ Atributo da camada. Ignorado por `layer=0` e `layer=comp`.
 
 `blendMode=norm`
 
-## Example {#section-d209dd9c270b469c87558a8910c50b61}
+## Exemplo {#section-d209dd9c270b469c87558a8910c50b61}
 
 `…&size=200,200&bgColor=191,120,241&…`
 
