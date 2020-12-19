@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Incorporar dados de caminhos. Especifica se os caminhos do Photoshop do arquivo 
 
 Atributo de solicitação. Ignorado se a imagem de origem não contiver dados de caminhos. Os dados de caminhos são dimensionados e girados como os dados da imagem. Somente caminhos da imagem de origem de `layer=0` são processados; caminhos de outras imagens de camada são ignorados.
 
-Ignorado se o formato de imagem de saída não oferecer suporte para incorporação de caminho. Consulte a descrição de `fmt=` uma lista de formatos de imagem de saída que suportam incorporação de caminho.
+Ignorado se o formato de imagem de saída não oferecer suporte para incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída compatíveis com a incorporação de caminhos.
 
 ## Restrições {#section-697cddb79a1542bc8457d2f4f59eec69}
 
