@@ -1,18 +1,21 @@
 ---
 description: A visualização principal consiste na imagem estática.
 seo-description: A visualização principal consiste na imagem estática.
-seo-title: visualização de zoom
+seo-title: Visualização de zoom
 solution: Experience Manager
-title: visualização de zoom
+title: Visualização de zoom
 topic: Dynamic media
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
 
-# visualização de zoom{#zoom-view}
+# Visualização de zoom{#zoom-view}
 
 A visualização principal consiste na imagem estática.
 
@@ -35,7 +38,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
   </tr> 
  </tbody> 
