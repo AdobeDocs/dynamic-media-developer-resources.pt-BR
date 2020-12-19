@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`folderHandle`*` | `xsd:string` | Sim | Identificador da pasta. |
 | ` *`updateChildren`*` | `xsd:boolean` | Sim | Determina se é necessário atualizar filhos com permissões definidas para a pasta de nível superior. |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | Sim | A matriz de atualizações de permissão que você deseja aplicar à pasta. |
