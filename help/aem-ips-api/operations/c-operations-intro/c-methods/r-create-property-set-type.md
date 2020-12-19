@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se não `companyHandle` for passado e o chamador for um `IpsAdmin`, um tipo de conjunto de propriedades global será criado. |
+| ` *`companyHandle`*` | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se `companyHandle` não for transmitido e o chamador for `IpsAdmin`, um tipo de conjunto de propriedades global será criado. |
 | ` *`name`*` | `xsd:string` | Sim | O nome do tipo de conjunto de propriedades. |
 | ` *`propertyType`*` | `xsd:string` | Sim | Escolha dos tipos de conjunto de propriedades. |
 | ` *`allowMultiple`*` | `xsd:boolean` | Sim | Determina se o programa pode ter vários conjuntos de propriedades. |
@@ -44,7 +47,7 @@ Sintaxe
 
 ## Exemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Essa amostra de código cria um conjunto de propriedades com um nome e um tipo especificados pela `PropertySet Types` constante. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades global será criado.
+Essa amostra de código cria um conjunto de propriedades com um nome e um tipo especificados pela constante `PropertySet Types`. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades global será criado.
 
 **Solicitação**
 
