@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,37 +40,37 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome da empresa à qual o campo de metadados pertence. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Tipo de ativo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do campo de metadados que você está criando. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4">Tipo de campo de metadados. <p>A constante de tipos de campos de metadados define os tipos disponíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>O valor padrão do campo de metadados a ser criado (por exemplo, <span class="codeph"> Cena 7</span>). </p> <p>Valores padrão não são suportados para tipos de campos de tag e devem ser omitidos. Se um padrão não vazio for especificado para um tipo de campo de tag, uma falha será retornada. </p> </td> 
+   <td colname="col4"> <p>O valor padrão do campo de metadados a ser criado (por exemplo, <span class="codeph"> Scene 7</span>). </p> <p>Valores padrão não são suportados para tipos de campos de tag e devem ser omitidos. Se um padrão não vazio for especificado para um tipo de campo de tag, uma falha será retornada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
@@ -79,7 +82,7 @@ Sintaxe
    <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será gerada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Permite criar um conjunto de valores enumerados compartilhados para os quais as tags selecionadas podem apontar. </td> 
