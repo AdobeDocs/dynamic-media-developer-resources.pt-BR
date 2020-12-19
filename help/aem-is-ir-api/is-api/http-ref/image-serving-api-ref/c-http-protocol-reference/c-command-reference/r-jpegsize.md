@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ Atributo de solicitação. Aplica-se independentemente da configuração de cama
 
 0
 
-## Example {#section-46bf806fd3ef4875b7726df32b6f834d}
+## Exemplo {#section-46bf806fd3ef4875b7726df32b6f834d}
 
 O tamanho da garantia não é muito grande para ser entregue a um dispositivo com memória limitada:
 
@@ -47,4 +50,4 @@ O tamanho da garantia não é muito grande para ser entregue a um dispositivo co
 
 ## Consulte também {#section-98d472b39d6547969fce6dd86748c153}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [atributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [atributo::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
