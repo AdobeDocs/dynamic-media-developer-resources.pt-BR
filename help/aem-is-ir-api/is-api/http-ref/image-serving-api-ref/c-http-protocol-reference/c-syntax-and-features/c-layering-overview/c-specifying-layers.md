@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 86ece2a6-5b91-4a24-baaa-542d9ae1e544
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +21,4 @@ Na sequência de comando URL ou catálogo::Modificador, uma sequência de defini
 
 Todos os comandos na sequência de definição de camada estão associados à camada.
 
-O `layer=` comando especifica um número de camada, que deve ser um número inteiro 0 ou maior. Todos os comandos em sequências de definição de camada com o mesmo número de camada são aplicados à mesma camada. Se o mesmo comando ocorrer mais de uma vez, a última instância prevalecerá.
+O comando `layer=` especifica um número de camada, que deve ser um número inteiro 0 ou maior. Todos os comandos em sequências de definição de camada com o mesmo número de camada são aplicados à mesma camada. Se o mesmo comando ocorrer mais de uma vez, a última instância prevalecerá.
