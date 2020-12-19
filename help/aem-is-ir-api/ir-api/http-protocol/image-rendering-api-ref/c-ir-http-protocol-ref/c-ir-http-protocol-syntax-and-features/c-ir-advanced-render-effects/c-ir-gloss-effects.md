@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e4424b04-2d8c-47e5-8474-b5271c923451
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Se ativado na vinheta, o renderizador irá variar o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 
-Esse efeito é independente da renderização de reflexão e o complementa simulando reflexões especulares. O efeito é controlado com os mesmos `gloss=`, `glossmap=`e `type=` atributos usados para controlar reflexos.
+Esse efeito é independente da renderização de reflexão e o complementa simulando reflexões especulares. O efeito é controlado com os mesmos atributos `gloss=`, `glossmap=` e `type=` que são usados para controlar reflexos.
