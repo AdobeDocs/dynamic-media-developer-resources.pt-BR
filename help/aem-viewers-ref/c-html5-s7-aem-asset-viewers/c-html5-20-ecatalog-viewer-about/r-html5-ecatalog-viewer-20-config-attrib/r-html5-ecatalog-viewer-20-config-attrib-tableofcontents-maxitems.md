@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>O número máximo de itens no sumário suspenso. </p> <p>Além disso, é possível diminuir o número de itens visíveis no menu suspenso caso ele seja cortado pelo container externo. </p> <p>Quando definido como <span class="codeph"> 0</span> , esse componente mostra o maior número possível de itens, considerando o container ao qual ele é adicionado. </p> </td> 
+   <td> <p>O número máximo de itens no sumário suspenso. </p> <p>Além disso, é possível diminuir o número de itens visíveis no menu suspenso caso ele seja cortado pelo container externo. </p> <p>Quando definido como <span class="codeph"> 0</span>, esse componente mostra o maior número possível de itens, considerando o container ao qual ele é adicionado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `0`
 
-## Example {#section-3a1a91fac1614b6db464626f7b32771a}
+## Exemplo {#section-3a1a91fac1614b6db464626f7b32771a}
 
 `maxitems=10`
