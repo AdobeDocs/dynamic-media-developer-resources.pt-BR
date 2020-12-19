@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18d400f4-7827-44a1-b09b-2292b97cd6cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 A pasta raiz do cache do sistema de catálogo.
 
-Pode ser um caminho absoluto ou um caminho relativo a [!DNL *[!DNL install_folder]*]. O padrão é [!DNL ./cache], que corresponde a [!DNL *[!DNL install_folder]*/cache].
+Pode ser um caminho absoluto ou um caminho relativo a [!DNL *[!DNL install_folder]*]. Os padrões são [!DNL ./cache], que corresponde a [!DNL *[!DNL install_folder]*/cache].
