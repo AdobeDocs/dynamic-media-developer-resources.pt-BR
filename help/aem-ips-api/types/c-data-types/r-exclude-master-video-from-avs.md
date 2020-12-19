@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ExcluirVídeoMestreDeAVS{#excludemastervideofromavs}
+# ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
 Exclui o vídeo primário do conjunto de vídeos adaptáveis.
 
@@ -33,7 +33,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> <p>Exclui o arquivo de vídeo mestre do conjunto de vídeos adaptáveis. </p> <p>O padrão é true. </p> </td> 
+   <td colname="col3"> <p>Exclui o arquivo de vídeo principal do conjunto de vídeos adaptáveis. </p> <p>O padrão é true. </p> </td> 
   </tr> 
  </tbody> 
 </table>
