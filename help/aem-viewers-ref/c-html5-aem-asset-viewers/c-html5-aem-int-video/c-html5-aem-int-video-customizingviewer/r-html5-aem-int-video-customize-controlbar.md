@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 0%
 
 ---
 
@@ -26,30 +29,30 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
 .s7interactivevideoviewer .s7controlbar
 ```
 
-## Propriedades de CSS da barra de controle {#css-properties-of-the-control-bar}
+## Propriedades CSS da barra de controle {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Example {#section-e8caea0a303c425a8a637c2a47c06355}
+## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
 Para configurar um visualizador de vídeo com uma barra de controle cinza de 30 pixels de altura e na parte superior do container do visualizador de vídeo.
 
