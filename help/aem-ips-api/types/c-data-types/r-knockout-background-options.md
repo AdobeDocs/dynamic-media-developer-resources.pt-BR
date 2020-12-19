@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
 
-# OpçõesDePlanoDeFundoDeConhecimento{#knockoutbackgroundoptions}
+# OpçõesDePlanoDeFundo{#knockoutbackgroundoptions}
 
 Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Um parâmetro opcional que está desativado por padrão.
 
@@ -30,9 +33,9 @@ Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite q
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> canto</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> canto</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Seleciona o canto com o qual deseja trabalhar. <span class="codeph"> corner</span> aceita estes valores: 
+   <td colname="col3">Seleciona o canto com o qual deseja trabalhar. <span class="codeph"> </span> corneraceite estes valores: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> Inferior esquerdo</span></li>
@@ -41,7 +44,7 @@ Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite q
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerância</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolerância</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
    <td colname="col3">Uma configuração opcional que remove o espaço em branco das bordas da imagem com base na transparência. Aceita um intervalo de valores de 0,0 a 1,0. Especificar: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
@@ -50,9 +53,9 @@ Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite q
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controle a transparência de pixels no local especificado pela variável de <span class="codeph"><span class="varname"> canto</span></span> . O <span class="codeph"> fillMethod</span> aceita estes valores: </p> 
+   <td colname="col3"> <p>Controle a transparência de pixels no local especificado pela variável <span class="codeph"><span class="varname"> corner</span></span>. O <span class="codeph"> fillMethod</span> aceita estes valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Torna transparentes todos os pixels no canto especificado. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Torna todos os pixels correspondentes transparentes, independentemente da localização. </li> 
@@ -61,7 +64,7 @@ Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite q
  </tbody> 
 </table>
 
-## Example {#section-3f9edfff321a4e4394f766298b9e284d}
+## Exemplo {#section-3f9edfff321a4e4394f766298b9e284d}
 
 ```
 <complexType name="KnockoutBackgroundOptions">
@@ -78,7 +81,7 @@ Mascarar (separação) o plano de fundo das imagens selecionadas. Isso permite q
 
 ## Usado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-O `KnockoutBackgroundOptions` tipo é usado por:
+O tipo `KnockoutBackgroundOptions` é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
