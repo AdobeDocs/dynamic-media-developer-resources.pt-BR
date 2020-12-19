@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# markOverfflllingTextFrames{#markoverflowingtextframes}
+# markOverfflningTextFrames{#markoverflowingtextframes}
 
 Exibe quadros de texto com excesso de tipos com sinal de mais. Um indicador de sobrefluxo de texto mostra quando o texto excede o espaço alocado para ele em um quadro de texto (ou no último quadro de texto no caso de texto encadeado). O indicador é uma caixa vermelha com um sinal de mais.
 
