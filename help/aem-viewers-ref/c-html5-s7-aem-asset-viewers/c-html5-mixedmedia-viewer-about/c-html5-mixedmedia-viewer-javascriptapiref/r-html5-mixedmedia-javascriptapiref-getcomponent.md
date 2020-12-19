@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ Referência da API JavaScript para Visualizador de mídia mista
 
 `getComponent(componentId)`
 
-Retorna uma referência ao componente do SDK do visualizador que é usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador predefinido. Chame esse método somente depois que o retorno de chamada do `initComplete` visualizador for executado; caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
+Retorna uma referência ao componente do SDK do visualizador que é usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador predefinido. Chame esse método somente depois que a chamada de retorno do visualizador `initComplete` for executada, caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` - `{String}` uma ID do componente SDK do visualizador usado pelo visualizador. Este visualizador suporta as seguintes IDs de componente:
+` *`componentID`*`  -  `{String}` uma ID do componente SDK do visualizador usado pelo visualizador. Este visualizador suporta as seguintes IDs de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,105 +36,105 @@ Retorna uma referência ao componente do SDK do visualizador que é usado pelo v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> flyoutZoomView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> flyoutZoomView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.FlyoutZoomView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoPlayer </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoPlayer  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controles </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controles  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoScrubber </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoScrubber  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoScrubber  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoTime </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoTime  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> amostras </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> amostras  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> colorSwatches </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> colorSwatches  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.Swatches  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomOutButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomOutButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinLeftButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinLeftButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinRightButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinRightButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mutableVolume </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mutableVolume  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> playPauseButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> playPauseButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PlayPauseButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ao trabalhar com as APIs do SDK, é importante usar a namespace do SDK correta e totalmente qualificada, conforme descrito em [Localização de elementos](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)da interface do usuário.
+Ao trabalhar com APIs do SDK, é importante usar a namespace do SDK correta e totalmente qualificada, conforme descrito em [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Consulte a documentação da API do SDK do visualizador para obter mais informações sobre um componente específico.
 
 ## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente SDK do visualizador. O método retornará `null` se o componente do visualizador não `componentId` for suportado ou se o componente ainda não foi criado pela lógica do visualizador.
+`{Object}` uma referência ao componente SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 
