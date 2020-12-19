@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica quando exibir o painel de informações. </p> <p>Se definido como <span class="codeph"> 1</span>, o painel de informações será exibido quando o mouse entrar na área do mapa de imagem (caso o mapa de imagem tenha um atributo não vazio, <span class="codeph"> rollover_key</span> ). </p> <p>Se definido como <span class="codeph"> 0</span> , o painel de informações será acionado quando o mapa de imagem for clicado (se o mapa de imagem tiver um <span class="codeph"> rollover_key</span> não vazio e atributos <span class="codeph"> href</span> vazios). </p> <p> Ignorado em dispositivos de toque, incluindo sistemas de desktop habilitados para toque, e automaticamente definido como <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Especifica quando exibir o painel de informações. </p> <p>Se definido como <span class="codeph"> 1</span>, o painel de informações é exibido quando o mouse entra na área do mapa de imagem (caso o mapa de imagem tenha atributo <span class="codeph"> rollover_key</span> não vazio). </p> <p>Se definido como <span class="codeph"> 0</span> o painel de informações é acionado quando o mapa de imagem é clicado (se o mapa de imagem tiver atributos <span class="codeph"> rollover_key</span> vazios e <span class="codeph"> href</span> vazios). </p> <p> Ignorado em dispositivos de toque, incluindo sistemas de desktop habilitados para toque, e automaticamente definido como <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `0`
 
-## Example {#section-b548ed09b52b4b65888ac891af08d725}
+## Exemplo {#section-b548ed09b52b4b65888ac891af08d725}
 
 `rollover=1`
