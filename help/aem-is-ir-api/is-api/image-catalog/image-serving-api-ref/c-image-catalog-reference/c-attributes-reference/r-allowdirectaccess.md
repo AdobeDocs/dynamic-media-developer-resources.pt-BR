@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -20,12 +23,12 @@ Quando esse atributo é definido, o acesso baseado em caminho é permitido ou re
 
 >[!NOTE]
 >
->Se o `AllowDirectAccess` atributo não for especificado, o valor padrão será `exclude`.
+>Se o atributo `AllowDirectAccess` não for especificado, o valor padrão será `exclude`.
 
 * `include` permite o acesso aos tipos de objetos especificados e restringe o acesso de todos os outros.
 * `exclude` restringe o acesso aos tipos de objetos especificados e permite o acesso de todos os outros.
 
-Se nem `include` nem `exclude` for especificado, `include` é assumido.
+Se `include` ou `exclude` não for especificado, `include` será assumido.
 
 Os seguintes tipos podem ser controlados:
 
@@ -39,27 +42,27 @@ Os seguintes tipos podem ser controlados:
 
 ## Exemplos {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Permitir acesso direto somente para tipos `IS` e `STATIC` objetos
+* Permitir acesso direto somente para os tipos de objetos `IS` e `STATIC`
 
    `AllowDirectAccess=include:IS,STATIC`
 
 * Permitir acesso direto para todos os tipos de objetos, exceto `IS` e `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Permitir acesso direto para *nenhum* tipo de objeto (ou seja, incluir nenhum)
+* Permitir acesso direto para tipos de objetos *no* (ou seja, incluir nenhum)
 
    `AllowDirectAccess=include:`
 
-* Permitir acesso direto para *todos* os tipos de objetos (ou seja, excluir nenhum)
+* Permitir acesso direto para os tipos de objetos *all* (ou seja, excluir nenhum)
 
    `AllowDirectAccess=exclude:`
 
-* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não estiver presente, `include` é assumido)
+* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não estiver presente, `include` será assumido)
 
    `AllowDirectAccess=IS,STATIC`
 
-   Observe que esse é o valor padrão que é usado se o `AllowDirectAccess` atributo não for especificado para essa empresa.
+   Observe que esse é o valor padrão que é usado se o atributo `AllowDirectAccess` não for especificado para essa empresa.
 
-* Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não estiver presente, `include` é assumido)
+* Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não estiver presente, `include` será assumido)
 
    `AllowDirectAccess=`
 
