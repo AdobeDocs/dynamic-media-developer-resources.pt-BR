@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# legenda{#caption}
+# caption{#caption}
 
 comando URL para o Visualizador de vídeo.
 
@@ -34,18 +37,18 @@ O visualizador oferece suporte a legendagem fechada por meio de arquivos WebVTT 
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alinhamento de texto </p> </td> 
    <td colname="col3"> <p><span class="codeph"> esquerda|direita|meio|start|fim</span> </p> </td> 
-   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é o <span class="codeph"> meio</span>. </p> </td> 
+   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> mid</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>posição do texto </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0% a 100% </p> </td> 
    <td colname="col4"> <p> Porcentagem de inserção no componente VideoPlayer para o início do texto da legenda. </p> <p>O padrão é 0%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>tamanho da linha </p> </td> 
-   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col3"> <p> 0% a 100% </p> </td> 
    <td colname="col4"> <p> Porcentagem da largura do vídeo usada para legendas. </p> <p>O padrão é 100%. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +83,7 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 caption=Scene7SharedAssets/adobe_qbc_final_cc,1
