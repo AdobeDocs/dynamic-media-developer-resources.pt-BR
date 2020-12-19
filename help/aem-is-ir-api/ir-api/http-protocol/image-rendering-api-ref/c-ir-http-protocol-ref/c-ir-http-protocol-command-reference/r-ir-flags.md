@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# sinalizadores{#flags}
+# flags{#flags}
 
 Aplique sinalizadores. Especifica opções de renderização adicionais.
 
