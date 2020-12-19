@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# op_color_balance{#op-colorbalance}
+# op_color balance{#op-colorbalance}
 
 Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB separadamente.
 
@@ -37,14 +40,14 @@ Os dados de imagem de entrada de cinza e CMYK são convertidos em RGB usando con
 
 ## Propriedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito. As imagens e as camadas CMYK são convertidas em RGB antes da operação ser aplicada.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado pelas camadas de efeito. As imagens e as camadas CMYK são convertidas em RGB antes da operação ser aplicada.
 
 ## Padrão {#section-08d84ef715964f7daea86f5ef237d199}
 
 `op_colorbalance=0,0,0` sem alteração de cores.
 
-## Example {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
+## Exemplo {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
 Empurre o equilíbrio de cores para vermelho:
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...
