@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b81968e7-ebaf-426c-9230-1afcf4b5cf24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0) ou um erode (ra
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Raio de dilate/erode em pixels onde o <span class="codeph"><span class="varname"> raioR</span></span> é aplicado como está, independentemente de a máscara ter sido reduzida (int -100.100). </p></td> 
+  <td class="stentry"> <p>Raio de dilate/erode em pixels onde <span class="codeph"><span class="varname"> radiusR</span></span> é aplicado como está, independentemente de a máscara ter sido reduzida (int -100.100). </p></td> 
  </tr> 
 </table>
 
