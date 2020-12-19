@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Obtém os ativos e o número de ativos associados a uma empresa específica.
 
-O `countArray` retorno consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
+O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
 Sintaxe
 
 ## Tipos de usuário autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -47,7 +50,7 @@ Sintaxe
 
 ## Exemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Esta amostra de código usa o identificador da empresa como um campo no servidor de serviços Web IPS `getAssetCountsParam` para obter as contagens de ativos.
+Esta amostra de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado para o servidor de serviços Web IPS para obter as contagens de ativos.
 
 **Solicitação**
 
