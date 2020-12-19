@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 0%
 
 ---
 
 
-# íleo{#illum}
+# illum{#illum}
 
 Seletor de mapa de iluminação. Especifica o mapa de iluminação que este material prefere ser renderizado.
 
@@ -20,7 +23,7 @@ Seletor de mapa de iluminação. Especifica o mapa de iluminação que este mate
 
 Se o mapa de iluminação especificado não estiver disponível na vinheta de público alvo, é utilizado o mapa disponível mais próximo.
 
-`illum=-1` especifica que o mapa de iluminação é selecionado automaticamente com base no `gloss=` valor.
+`illum=-1` especifica que o mapa de iluminação é selecionado automaticamente com base no  `gloss=` valor.
 
 ## Propriedades {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
