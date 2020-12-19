@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 244a8485-a615-4155-a5a9-9d468ac3208f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Quando definido como <span class="codeph"> 1</span> , o componente preenche o painel suspenso com elementos para todas as páginas, mesmo para aquelas que não têm rótulo definido. </p> <p>Quando definido como <span class="codeph"> 0</span> , somente os itens com rótulos explícitos serão exibidos no painel suspenso. </p> </td> 
+   <td> <p> Quando definido como <span class="codeph"> 1</span>, o componente preenche o painel suspenso com elementos para todas as páginas, mesmo para aquelas que não têm rótulo definido. </p> <p>Quando definido para <span class="codeph"> 0</span>, somente os itens com rótulos explícitos são exibidos no painel suspenso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `1`
 
-## Example {#section-41c69a5b36b84d8889b8f4fbd2d4cdad}
+## Exemplo {#section-41c69a5b36b84d8889b8f4fbd2d4cdad}
 
 `showdefault=0`
