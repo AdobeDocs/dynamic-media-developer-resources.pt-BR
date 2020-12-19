@@ -44,15 +44,15 @@ Sintaxe
 
 A API IPS não retorna uma resposta para esta operação.
 
-## parâmetro setDefinition: About {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## parâmetro setDefinition: Sobre {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **funções setDefinition**
 
-Especifique `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou durante a publicação. As strings de substituição têm o formato `${<substitution_func>}`e incluem o seguinte:
+Especifique `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou durante a publicação. As strings de substituição têm o formato `${<substitution_func>}` e incluem o seguinte:
 
 >[!NOTE]
 >
->As literais de manipulação nas listas de parâmetro devem estar entre colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
+>As literais de manuseio nas listas de parâmetro devem estar entre colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ Especifique `setDefinition` funções de substituição em linha. Eles são reso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_identificador </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
    <td colname="col2"> Caminho do arquivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalog([ <span class="varname"> asset_identificador </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalog([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
    <td colname="col2"> ID do catálogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_identificador </span>],[ <span class="varname"> metadata_field_identificador </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_identificador  </span>],[  <span class="varname"> metadata_field_identificador  </span>])  </span> </td> 
    <td colname="col2"> Valor dos metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_identificador </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
    <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Visualização ajustada, Visualização de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de thumb (se houver). Se nenhum ativo thumb estiver associado ao ativo, a função retornará uma string vazia. </p> </td> 
   </tr> 
  </tbody> 
