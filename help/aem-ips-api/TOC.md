@@ -2,20 +2,20 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: API do sistema de produção de imagem do Dynamic Media
+user-guide-title: API do sistema de produção de imagem Dynamic Media
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# API do sistema de produção de imagem do Dynamic Media {#image-production-api}
+# API do Dynamic Media Image Production System {#image-production-api}
 
-+ [Página inicial dos recursos do desenvolvedor do Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [Sobre a API do Dynamic Media Production System](c-overview.md)
++ [Página inicial de recursos do desenvolvedor Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Sobre a API do Dynamic Media Image Production System](c-overview.md)
 + [Chamadas obsoletas](c-deprecated-calls.md)
 + [Versões WSDL do Serviço Web IPS](c-wsdl-versions.md)
 + Métodos de operação {#operation-methods}
@@ -66,7 +66,7 @@ ht-degree: 0%
       + [deleteVignettePublishFormat](operations/c-operations-intro/c-methods/r-delete-vignette-publish-format.md)
       + [deleteZoomTarget](operations/c-operations-intro/c-methods/r-delete-zoom-target.md)
       + [emptyAssetsFromTrash](operations/c-operations-intro/c-methods/r-empty-assets-from-trash.md)
-      + [deleteJob](operations/c-operations-intro/c-methods/r-execute-job.md)
+      + [executeJob](operations/c-operations-intro/c-methods/r-execute-job.md)
       + [forceRepublishAssets](operations/c-operations-intro/c-methods/r-force-republish-assets.md)
       + [generatePassword](operations/c-operations-intro/c-methods/r-generate-password.md)
       + [getActiveJobs](operations/c-operations-intro/c-methods/r-get-active-jobs.md)
@@ -133,16 +133,16 @@ ht-degree: 0%
       + [removeProjectAssets](operations/c-operations-intro/c-methods/r-remove-project-assets.md)
       + [renameAsset](operations/c-operations-intro/c-methods/r-rename-asset.md)
       + [renameFolder](operations/c-operations-intro/c-methods/r-rename-folder.md)
-      + [search](operations/c-operations-intro/c-methods/r-rename-project.md)
-      + [getImage](operations/c-operations-intro/c-methods/r-replace-image.md)
+      + [renameProject](operations/c-operations-intro/c-methods/r-rename-project.md)
+      + [replaceImage](operations/c-operations-intro/c-methods/r-replace-image.md)
       + [restoreAssetsFromTrash](operations/c-operations-intro/c-methods/r-restore-assets-from-trash.md)
-      + [FromJob](operations/c-operations-intro/c-methods/r-resume-job.md)
+      + [resumeJob](operations/c-operations-intro/c-methods/r-resume-job.md)
       + [saveGroup](operations/c-operations-intro/c-methods/r-save-group.md)
       + [saveImageFormat](operations/c-operations-intro/c-methods/r-save-image-format.md)
       + [saveImageMap](operations/c-operations-intro/c-methods/r-save-image-map.md)
       + [saveMetadataField](operations/c-operations-intro/c-methods/r-save-metadata-field.md)
       + [saveZoomTarget](operations/c-operations-intro/c-methods/r-save-zoom-target.md)
-      + [resumeAssets](operations/c-operations-intro/c-methods/r-search-assets.md)
+      + [searchAssets](operations/c-operations-intro/c-methods/r-search-assets.md)
       + [searchAssetsByMetadata](operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md)
       + [setAssetsContextState](operations/c-operations-intro/c-methods/r-set-asset-context-state.md)
       + [setAssetMetadata](operations/c-operations-intro/c-methods/r-set-asset-metadata.md)
@@ -166,7 +166,7 @@ ht-degree: 0%
       + [setUserInfo](operations/c-operations-intro/c-methods/r-set-user-info.md)
       + [setViewerConfigSettings](operations/c-operations-intro/c-methods/r-set-viewer-config-settings.md)
       + [setZoomTargets](operations/c-operations-intro/c-methods/r-set-zoom-targets.md)
-      + [AssetStop](operations/c-operations-intro/c-methods/r-stop-job.md)
+      + [stopJob](operations/c-operations-intro/c-methods/r-stop-job.md)
       + [submitJob](operations/c-operations-intro/c-methods/r-submit-job.md)
       + [updateAssetPermissions](operations/c-operations-intro/c-methods/r-update-asset-permissions.md)
       + [updateAssetSet](operations/c-operations-intro/c-methods/r-update-asset-set.md)
@@ -194,7 +194,7 @@ ht-degree: 0%
    + [AssetJobLogArray](types/c-data-types/r-asset-job-log-array.md)
    + [AssetMetadataFields](types/c-data-types/r-asset-metadata-fields.md)
    + [AssetMetadataFieldsArray](types/c-data-types/r-asset-metadata-fields-array.md)
-   + [MoverAtivo](types/c-data-types/r-asset-move.md)
+   + [AssetMove](types/c-data-types/r-asset-move.md)
    + [AssetMoveArray](types/c-data-types/r-asset-move-array.md)
    + [AssetOperationFault](types/c-data-types/r-asset-operation-fault.md)
    + [AssetOperationFaultArray](types/c-data-types/r-asset-operation-fault-array.md)
@@ -287,7 +287,7 @@ ht-degree: 0%
    + [ManualCropOptions](types/c-data-types/r-manual-crop-options.md)
    + [Máscara](types/c-data-types/r-mask.md)
    + [MaskArray](types/c-data-types/r-mask-array.md)
-   + [PropertyInfo](types/c-data-types/r-mask-info.md)
+   + [MaskInfo](types/c-data-types/r-mask-info.md)
    + [MasterVideoInfo](types/c-data-types/r-master-video-info.md)
    + [MediaOptions](types/c-data-types/r-media-options.md)
    + [Metadados](types/c-data-types/r-metadata.md)
@@ -324,7 +324,7 @@ ht-degree: 0%
    + [PremierExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
    + [Projeto](types/c-data-types/r-project.md)
    + [ProjectArray](types/c-data-types/r-project-array.md)
-   + [Arte](types/c-data-types/r-property.md)
+   + [Propriedade](types/c-data-types/r-property.md)
    + [PropertyArray](types/c-data-types/r-property-array.md)
    + [PropertySet](types/c-data-types/r-property-set.md)
    + [PropertySetArray](types/c-data-types/r-property-set-array.md)
@@ -413,13 +413,13 @@ ht-degree: 0%
    + [Configurações de email](string-constants/c-string-constants/r-email-settings.md)
    + [Estilos de fonte](string-constants/c-string-constants/r-font-styles.md)
    + [Tipos de fonte](string-constants/c-string-constants/r-font-types.md)
-   + [Usuário de geração](string-constants/c-string-constants/r-generation-info.md)
+   + [Informações de geração](string-constants/c-string-constants/r-generation-info.md)
    + [Processos Illustrator](string-constants/c-string-constants/r-illustrator-processes.md)
    + [Tipos de Arquivo de Log de Trabalho](string-constants/c-string-constants/r-job-log-file-types.md)
    + [Campos de Classificação do Log de Trabalho](string-constants/c-string-constants/r-job-log-sort-fields.md)
    + [Tipos de Log de Trabalho](string-constants/c-string-constants/r-job-log-types.md)
    + [Estados de Acionador de Emprego](string-constants/c-string-constants/r-job-trigger-states.md)
-   + [Informações de trabalho](string-constants/c-string-constants/r-job-types.md)
+   + [Tipos de trabalho](string-constants/c-string-constants/r-job-types.md)
    + [Tipos de campo de metadados](string-constants/c-string-constants/r-metadata-field-types.md)
    + [Operadores de comparação numéricos/de datas](string-constants/c-string-constants/r-numeric-date-comparison-operators.md)
    + [Processos PDF](string-constants/c-string-constants/r-pdf-processes.md)
@@ -427,8 +427,8 @@ ht-degree: 0%
    + [Modos de âncora Photoshop](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Modos de nomenclatura de camada Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modos PostScript Colorspace](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
-   + [Tipos de perfil](string-constants/c-string-constants/r-profile-classes.md)
-   + [Classes Publicar Estado](string-constants/c-string-constants/r-publish-state.md)
+   + [Classes de perfis](string-constants/c-string-constants/r-profile-classes.md)
+   + [Publicar estado](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjunto de propriedades](string-constants/c-string-constants/r-property-set-types.md)
    + [Contexto de publicação](string-constants/c-string-constants/r-publish-context.md)
    + [Tipos de publicação](string-constants/c-string-constants/r-publish-types.md)
@@ -440,14 +440,14 @@ ht-degree: 0%
    + [Campos de Filtro de Caracteres do Usuário](string-constants/c-string-constants/r-user-char-filter-fields.md)
    + [Funções do usuário](string-constants/c-string-constants/r-user-roles.md)
    + [Campos de classificação do usuário](string-constants/c-string-constants/r-user-sort-fields.md)
-   + [Estado do visualizador](string-constants/c-string-constants/r-viewer-type.md)
+   + [Tipo de visualizador](string-constants/c-string-constants/r-viewer-type.md)
 + Falhas {#faults}
    + [Visão geral de falhas](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizedFault](faults/c-faults/r-authorization-fault.md)
    + [ipsApiFault](faults/c-faults/r-ips-api-fault.md)
-+ Operações {#change-log}
-   + [Operações](change-log/c-change-log.md)
++ Log de alterações {#change-log}
+   + [Log de alterações](change-log/c-change-log.md)
    + Versão 6.0 {#version-6-0}
       + [Versão 6.0](change-log/c-change-log/c-6/c-6.md)
       + [Operações: Novo e modificado](change-log/c-change-log/c-6/r-6-operations.md)
@@ -475,7 +475,7 @@ ht-degree: 0%
       + [Constantes de string: Novo e modificado](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Versão 3.7 {#version-3-7}
       + [Versão 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [.Operações: Operações novas e modificadas](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [Operações: Novo e modificado](change-log/c-change-log/c-3-7/r-3-7-operations.md)
       + [Tipos de dados: Novo e modificado](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [Constantes de string: Novo e modificado](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Carregando ativos por meio de HTTP POSTs no UploadFile...](c-http-post.md)
