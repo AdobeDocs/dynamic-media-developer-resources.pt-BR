@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0befdc0b-dd58-4aae-90e6-8c578f3b6c6f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> iscommand</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> iscommand</span> </span> </p> </td> 
    <td colname="col2"> <p> A string de comando do Servidor de imagens que é aplicada à imagem de zoom. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas por HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação:  Comandos de manipulação de dimensionamento de imagem não são suportados. </p> </p> </td> 
   </tr> 
  </tbody> 
@@ -33,7 +36,7 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-96e69b70365f461dae4399e49044ea2f}
+## Exemplo {#section-96e69b70365f461dae4399e49044ea2f}
 
 Quando especificado no URL do visualizador:
 
