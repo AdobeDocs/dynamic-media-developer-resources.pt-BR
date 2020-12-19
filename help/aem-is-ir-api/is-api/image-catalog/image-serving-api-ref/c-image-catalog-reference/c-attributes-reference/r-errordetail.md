@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +35,8 @@ São permitidos os seguintes valores:
   <td class="stentry"> <p>Mensagem detalhada. Fornece detalhes no nível do usuário sobre o erro. Pode incluir informações confidenciais, como caminhos de arquivo. Recomendado para servidores de armazenamento temporário, controle de qualidade e desenvolvimento de aplicativos. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis quando há problemas de relatórios no suporte técnico do Scene7. </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis quando há problemas de relatórios no suporte técnico da Scene7. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +46,7 @@ O valor enumerado deve ser 0, 1, 2 ou 3.
 
 ## Padrão {#section-8f27098e509945a18676aca0675c8f41}
 
-Herdado de `default::ErrorDetail` se não especificado ou se estiver vazio.
+Herdado de `default::ErrorDetail` se não for especificado ou se estiver vazio.
 
 ## Consulte também {#section-5451b0525ed74121950bfc34726c3970}
 
