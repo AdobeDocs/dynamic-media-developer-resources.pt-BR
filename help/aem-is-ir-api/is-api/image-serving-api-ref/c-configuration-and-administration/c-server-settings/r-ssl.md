@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +25,12 @@ Especifica a porta de escuta para as conexões SSL do Servidor de Plataformas. O
 
 ## TC::keystoreFile - Caminho do Arquivo do Keystore {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-Especifique o caminho/nome do arquivo de armazenamento de chaves SSL. Pode ser um caminho absoluto ou um caminho relativo a [!DNL *[!DNL install_folder]*/conf]. O padrão é *install_folder*/conf/cene7keystore.
+Especifique o caminho/nome do arquivo de armazenamento de chaves SSL. Pode ser um caminho absoluto ou um caminho relativo a [!DNL *[!DNL install_folder]*/conf]. O padrão é *install_folder*/conf/cena7keystore.
 
 ## TC::keystorePass - Senha do Keystore {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 
 A senha do arquivo de armazenamento de chaves. O padrão é `scene7`.
 
-## TC::keystoreType - Tipo de Keystore {#section-8f263e1ba67740728cd39181960d7c7d}
+## TC::keystoreType - Keystore Type {#section-8f263e1ba67740728cd39181960d7c7d}
 
 Selecione o tipo de armazenamento de chaves. &#39; `Java'` (padrão) e &#39; `PKCS12`&#39; são suportados.
