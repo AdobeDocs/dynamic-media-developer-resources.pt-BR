@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9e1aff9b-66a2-4eaa-a3ff-598504dcb1c3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 2%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantâneo</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantâneo</span> </span> </p> </td> 
    <td> <p>Faz com que os botões se alinhem ao lado das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantâneo</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantâneo</span> </span> </p> </td> 
    <td> <p>Faz com que os botões se alinhem ao lado da borda do componente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> sobreposição</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> sobreposição</span> </span> </p> </td> 
    <td> <p>Faz com que os botões sejam renderizados na parte superior das amostras. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,6 +44,6 @@ Opcional.
 
 `snapout`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 `buttonsnapmode=overlay`
