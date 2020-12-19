@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dda16612-57c7-4abe-8aa4-00e599a8ea69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Defina os atributos como elemento raiz FXG.
 
 Esse comando pode manipular atributos do elemento raiz.
 
-## Example {#section-2758a6e316c34b99b13b02147e5973bb}
+## Exemplo {#section-2758a6e316c34b99b13b02147e5973bb}
 
 Se tivermos o seguinte elemento raiz:
 
