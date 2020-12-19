@@ -23,7 +23,7 @@ Este parâmetro:
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
   <td class="stentry"> <p>Trecho XML de dados de tarefa concluídos. </p> </td> 
  </tr> 
 </table>
@@ -37,6 +37,6 @@ Retorna:
  </tr> 
 </table>
 
-## Example {#section-3886e8352e26419c97b24df21ca7f6fd}
+## Exemplo {#section-3886e8352e26419c97b24df21ca7f6fd}
 
 `http://scene7.adobe.com:8080/is/agm/AcmeCorp?req=batchjobsubmit&jobdata=<URLEncodedXMLFileContents>`
