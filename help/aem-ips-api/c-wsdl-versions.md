@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,49 +77,49 @@ Lembre-se, talvez seja necessário modificar seu código se quiser usar recursos
   <tr> 
    <th colname="col1" class="entry"> <p>Versão da API </p> </th> 
    <th colname="col2" class="entry"> <p>WSDL </p> </th> 
-   <th colname="col3" class="entry"> <p>namespace da API </p> </th> 
+   <th colname="col3" class="entry"> <p>NAMESPACE da API </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>6.8/2014R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2014-04-03.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2014-04-03  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.6/2013R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2013-02-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2013-02-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>6.0/2012R1 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2012-02-14.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pré-4.0 </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> IpsApi.wsdl  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +134,7 @@ O Serviço Web API IPS suporta apenas uma associação SOAP.
 
 **Transportes suportados**
 
-O vínculo IPS API SOAP suporta apenas transporte HTTP. Faça todas as solicitações SOAP usando o método HTTPS POST.
+O vínculo IPS API SOAP suporta apenas transporte HTTP. Faça todas as solicitações SOAP usando o método POST HTTPS.
 
 **Cabeçalho de ação SOAP**
 
@@ -139,11 +142,11 @@ Para processar uma solicitação, defina o cabeçalho HTTP SOAPAction como o nom
 
 **Formato de mensagem**
 
-O estilo documento/literal é usado para todas as mensagens de entrada e saída com tipos baseados na linguagem de definição do Schema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) e especificados no arquivo WSDL. Todos os tipos exigem nomes qualificados usando o valor de namespace do público alvo especificado no arquivo WSDL.
+O estilo documento/literal é usado para todas as mensagens de entrada e saída com tipos com base na linguagem de definição do Schema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) e especificado no arquivo WSDL. Todos os tipos exigem nomes qualificados usando o valor de namespace do público alvo especificado no arquivo WSDL.
 
 **Solicitar autenticação**
 
-O método preferido para transmitir credenciais de autenticação em solicitações de API é usar o `authHeader` elemento conforme definido no WSDL da API IPS.
+O método preferido para transmitir credenciais de autenticação em solicitações de API é usar o elemento `authHeader`, conforme definido no WSDL da API IPS.
 
 ```
 <element name="authHeader"> 
@@ -172,39 +175,39 @@ O método preferido para transmitir credenciais de autenticação em solicitaç�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> user </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> user  </span> </p> </td> 
    <td colname="col2"> <p> Email de usuário IPS válido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> password </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> password  </span> </p> </td> 
    <td colname="col2"> <p>Senha da conta de usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Local opcional para solicitação. Consulte <b>Localidade</b> para obter detalhes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> locale  </span> </p> </td> 
+   <td colname="col2"> <p> Local opcional para solicitação. Consulte <b>Locale</b> para obter detalhes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appName  </span> </p> </td> 
    <td colname="col2"> <p> Chamando o nome do aplicativo. Esse parâmetro é opcional, mas é recomendável incluí-lo em todas as solicitações. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> appVersion </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> appVersion  </span> </p> </td> 
    <td colname="col2"> <p> Chamando a versão do aplicativo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gzipResponse </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gzipResponse  </span> </p> </td> 
    <td colname="col2"> <p> Sinalizador opcional para ativar ou desativar a compactação gzip do XML de resposta. Por padrão, as respostas são compactadas por gzip se o cabeçalho HTTP Accept-Encoding indicar suporte para gzip. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> defaultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Parâmetro opcional para substituir o código de status HTTP para respostas de falha. Por padrão, as respostas de falha retornam o código de status HTTP 500 (Erro interno do servidor). Algumas plataformas cliente, incluindo o Adobe Flash, não conseguem ler o corpo da resposta a menos que um código de status 200 (OK) seja retornado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> defaultHttpStatusCode  </span> </p> </td> 
+   <td colname="col2"> <p> Parâmetro opcional para substituir o código de status HTTP para respostas de falha. Por padrão, as respostas de falha retornam o código de status HTTP 500 (Erro interno do servidor). Algumas plataformas cliente, incluindo o Flash Adobe, não conseguem ler o corpo da resposta a menos que um código de status 200 (OK) seja retornado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O `authHeader` elemento é sempre definido na namespace `http://www.scene7.com/IpsApi/xsd`, independentemente da versão da API.
+O elemento `authHeader` é sempre definido na namespace `http://www.scene7.com/IpsApi/xsd`, independentemente da versão da API.
 
-A seguir está um exemplo de uso do `authHeader` elemento em um cabeçalho SOAP de solicitação:
+A seguir está um exemplo de uso do elemento `authHeader` em um cabeçalho SOAP de solicitação:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,15 +222,15 @@ A seguir está um exemplo de uso do `authHeader` elemento em um cabeçalho SOAP 
 
 **Outros métodos de autenticação de solicitação**
 
-Se, por algum motivo, não for possível para seu aplicativo cliente passar o cabeçalho `authHeader` SOAP, as solicitações de API também poderão especificar credenciais usando a autenticação HTTP Basic (conforme especificado em RFC 2617).
+Se por algum motivo seu aplicativo cliente não puder passar o cabeçalho `authHeader` SOAP, as solicitações de API também poderão especificar credenciais usando a autenticação HTTP Basic (conforme especificado em RFC 2617).
 
-Para autenticação HTTP Basic, a seção do cabeçalho HTTP de cada solicitação SOAP POST deve incluir um cabeçalho do formulário:
+Para autenticação HTTP Basic, a seção do cabeçalho HTTP de cada solicitação de POST SOAP deve incluir um cabeçalho do formulário:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
 Onde `base64()` aplica a codificação Base64 padrão, `<IPS_user_email>` é o endereço de email de um usuário IPS válido e `<password>` é a senha do usuário.
 
-Envie o cabeçalho de Autorização antecipadamente com a solicitação inicial. Se nenhuma credencial de autenticação estiver incluída na solicitação, `IpsApiService` não responderá com um código de status de `401 (Unauthorized)`. Em vez disso, um código de status de é retornado com um corpo de falha SOAP informando que a solicitação não pôde ser autenticada. `500 (Internal Server Error)`
+Envie o cabeçalho de Autorização antecipadamente com a solicitação inicial. Se nenhuma credencial de autenticação estiver incluída na solicitação, `IpsApiService` não responderá com um código de status de `401 (Unauthorized)`. Em vez disso, um código de status de `500 (Internal Server Error)` é retornado com um corpo de falha SOAP informando que a solicitação não pôde ser autenticada.
 
 Antes do IPS 3.8, a autenticação via cabeçalho SOAP era implementada usando os elementos `AuthUser` e `AuthPassword` na namespace `http://www.scene7.com/IpsApi`. Por exemplo:
 
@@ -238,7 +241,7 @@ Antes do IPS 3.8, a autenticação via cabeçalho SOAP era implementada usando o
 </soap:Header>
 ```
 
-Esse estilo ainda é suportado para compatibilidade com versões anteriores, mas foi descontinuado em favor do `authHeader` elemento.
+Esse estilo ainda é suportado para compatibilidade com versões anteriores, mas foi descontinuado em favor do elemento `authHeader`.
 
 **Solicitar autorização**
 
@@ -246,7 +249,7 @@ Depois que as credenciais do chamador são autenticadas, a solicitação é veri
 
 **Amostra de solicitação e resposta SOAP**
 
-O exemplo a seguir mostra uma operação completa, incluindo cabeçalhos HTTP: `addCompany`
+O exemplo a seguir mostra uma operação `addCompany` completa, incluindo cabeçalhos HTTP:
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +303,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **Falhas de SOAP**
 
-Quando uma operação encontra uma condição de exceção, uma falha SOAP é retornada como o corpo da mensagem SOAP no lugar da resposta normal. Por exemplo, se um usuário não administrador tentar enviar a `addCompany` solicitação anterior, a seguinte resposta será retornada:
+Quando uma operação encontra uma condição de exceção, uma falha SOAP é retornada como o corpo da mensagem SOAP no lugar da resposta normal. Por exemplo, se um usuário não administrador tentar enviar a solicitação `addCompany` anterior, a seguinte resposta será retornada:
 
 ```
 HTTP/1.1 500 Internal Server Error 
