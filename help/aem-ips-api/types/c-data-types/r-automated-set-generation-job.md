@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -30,27 +33,27 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
    <td colname="col3">Uma matriz de identificadores de ativos usados para criar o conjunto. <p>Por padrão, 1000 é o número máximo de ativos que você pode ter no storage. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Caminho para a pasta onde deseja salvar os conjuntos. Salva a pasta raiz da empresa por padrão. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Define um sinalizador para indicar se os ativos devem ser publicados ou não. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
    <td colname="col3">Uma matriz de scripts de geração de conjuntos que podem ser executados nos arquivos carregados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Configure uma notificação por email automática para o trabalho. </p> </td> 
   </tr> 
@@ -59,7 +62,7 @@ Sintaxe
 
 **opções de emailSetting**
 
-O `emailSetting` parâmetro inclui as seguintes opções:
+O parâmetro `emailSetting` inclui as seguintes opções:
 
 | Opção | Retorna |
 |---|---|
@@ -69,7 +72,7 @@ O `emailSetting` parâmetro inclui as seguintes opções:
 | `JobCompletion` | Uma notificação de conclusão de tarefa para o recipient especificado. |
 | `None` | O trabalho não envia notificações de trabalho para o recipient especificado. |
 
-## Example {#section-d01ee7671f274a1fa12737e8df91d2cf}
+## Exemplo {#section-d01ee7671f274a1fa12737e8df91d2cf}
 
 ```
 <complexType name="AutomatedSetGenerationJob">
