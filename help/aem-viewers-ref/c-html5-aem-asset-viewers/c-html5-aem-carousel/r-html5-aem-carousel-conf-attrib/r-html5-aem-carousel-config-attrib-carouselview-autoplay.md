@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Atributo de configuração para o Visualizador do carrossel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,duração][,direção]</span> </p> </td> 
-   <td colname="col2"> <p> Especifica liga/desliga, duração para exibir cada banner no carrossel e direção do loop automático. </p> <p>Defina como <span class="codeph"> 0</span> para o loop automático desligado. </p> <p>Defina <span class="codeph"> 1</span> para ligar o loop automático com a duração da transição em segundos, controlada pela <span class="codeph"> duração</span>. </p> <p>A direção do loop automático é controlada com a <span class="codeph"> direção</span>. A <span class="codeph"> direção</span> tem o intervalo entre <span class="codeph"> 1</span> da direita para a esquerda e <span class="codeph"> 0</span> da esquerda para a direita. </p> </td> 
+   <td colname="col2"> <p> Especifica liga/desliga, duração para exibir cada banner no carrossel e direção do loop automático. </p> <p>Defina como <span class="codeph"> 0</span> para desligar o loop automático. </p> <p>Defina <span class="codeph"> 1</span> para efetuar o loop automático com a duração da transição em segundos controlados por <span class="codeph"> duração</span>. </p> <p>A direção do loop automático é controlada com <span class="codeph"> direção</span>. A direção <span class="codeph"></span> tem o intervalo entre <span class="codeph"> 1</span> da direita para a esquerda e <span class="codeph"> 0</span> da esquerda para a direita. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Opcional.
 
 `1,9`
 
-## Example {#section-bce98c31f08a4a0ab262fab7f95ba020}
+## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
 ```
 autoplay=1,2,1
