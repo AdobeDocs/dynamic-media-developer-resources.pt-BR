@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,43 +45,43 @@ Crie ou edite um campo de metadados. Omitir o identificador de campo opcional pa
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> A alça da empresa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Identificador de campo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Escolha dos tipos de ativos dos quais salvar metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do campo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Escolha dos tipos de campos de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Valor padrão dos campos para todos os ativos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
@@ -100,7 +103,7 @@ Crie ou edite um campo de metadados. Omitir o identificador de campo opcional pa
 
 ## Exemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Essa amostra de código cria um novo campo de metadados restrito pelas constantes de cadeia de caracteres Tipo de ativo e Tipos de campo de metadados. Se o `fieldHandle` elemento tiver um valor válido de identificador de campo, ele alterará os valores de metadados e obterá o mesmo identificador de campo especificado na solicitação.
+Essa amostra de código cria um novo campo de metadados restrito pelas constantes de cadeia de caracteres Tipo de ativo e Tipos de campo de metadados. Se o elemento `fieldHandle` tiver um valor válido de identificador de campo, ele alterará os valores de metadados e obterá o mesmo identificador de campo especificado na solicitação.
 
 **Solicitação**
 
