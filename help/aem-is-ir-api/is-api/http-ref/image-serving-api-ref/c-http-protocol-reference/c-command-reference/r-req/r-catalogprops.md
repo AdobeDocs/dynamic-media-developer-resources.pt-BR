@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 09252d39-8604-4785-bcdc-ad229a691035
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Propriedades do catálogo de imagens. Retorna atributos comuns do catálogo de i
 
 Omitir a ID do catálogo para recuperar as propriedades padrão do catálogo ( [!DNL default.ini]). A resposta HTTP pode ser armazenada em cache com o TTL baseado em `attribute::NonImgExpiration`.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do `req=` parâmetro:
+As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -80,7 +83,7 @@ Os seguintes valores de propriedade são retornados:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> Catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> atributo::LastModified</span>ou, se não estiver presente, a última hora modificada do arquivo .ini <span class="varname"> do catálogo</span><span class="filepath"></span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::LastModified</span> ou, se não estiver presente, a última hora modificada de  <span class="varname"> Catalog</span><span class="filepath"> .</span> inifile </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> Catalog.jpegQuality</span> </p> </td> 
