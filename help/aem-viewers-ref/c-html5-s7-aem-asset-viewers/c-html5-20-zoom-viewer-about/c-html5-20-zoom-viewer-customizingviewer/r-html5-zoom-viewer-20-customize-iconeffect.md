@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '194'
+ht-degree: 0%
 
 ---
 
 
-# Efeito Ícone{#icon-effect}
+# Efeito de ícone{#icon-effect}
 
 O indicador de zoom está sobreposto na área da visualização principal. Ela é exibida quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
 
@@ -35,19 +38,19 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Arte do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largura do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura do indicador de zoom. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +58,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 >[!NOTE]
 >
->O efeito Ícone suporta o seletor de `media-type` atributos, que você pode usar para aplicar efeitos de ícones diferentes em dispositivos diferentes. Em particular, `media-type='standard'` corresponde aos sistemas de desktop onde a entrada do mouse é normalmente usada e `media-type='multitouch'` corresponde a dispositivos com entrada de toque.
+>O efeito de ícone suporta o seletor de atributos `media-type`, que você pode usar para aplicar efeitos de ícones diferentes em dispositivos diferentes. Em particular, `media-type='standard'` corresponde a sistemas de desktop onde a entrada do mouse é normalmente usada e `media-type='multitouch'` corresponde a dispositivos com entrada de toque.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels com arte diferente para sistemas de desktop e dispositivos de toque.
 
