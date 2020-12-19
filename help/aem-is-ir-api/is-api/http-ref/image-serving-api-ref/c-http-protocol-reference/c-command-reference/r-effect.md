@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
 
-# efeito{#effect}
+# effect{#effect}
 
 Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segmento de camada na sequência de solicitação, que está associada à camada atual.
 
@@ -25,13 +28,13 @@ Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segme
  </tr> 
 </table>
 
-Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é encerrado pelo comando seguinte `layer=` ou `effect=` ou até o final da solicitação.
+Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é encerrado pelo próximo comando `layer=` ou `effect=` ou pelo final da solicitação.
 
 *`n`* deve ser menor que 0 para efeitos de camada externa (ou seja, efeitos atrás da camada pai) e maior que 0 para efeitos de camada interna (ou seja, efeitos dentro da camada pai). Os números de camada de efeito não precisam ser consecutivos.
 
 O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com numeração mais alta são colocadas sobre as camadas com numeração mais baixa.
 
-As camadas de efeito podem ser conectadas a `layer=comp`.
+As camadas de efeito podem ser anexadas a `layer=comp`.
 
 ## Propriedades {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -41,7 +44,7 @@ Comando da camada de efeito. *`n`* não deve ser 0.
 
 Nenhum.
 
-## Example {#section-adf2fd8edb184803a2603d7b9a6db6da}
+## Exemplo {#section-adf2fd8edb184803a2603d7b9a6db6da}
 
 `…&layer=5&src=/myCat/myImage&size=200,200&effect=-1&$shadow$&…`
 
