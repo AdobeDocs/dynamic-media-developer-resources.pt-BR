@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 054b10bd-02f2-49a9-83e4-e9b7cb71a4fd
 translation-type: tm+mt
 source-git-commit: b82b8eb6f8ac7c87b0c25d2b3915024ad220fa40
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -20,4 +23,4 @@ Em navegadores de desktop modernos, exceto o Internet Explorer 10 e versões ant
 
 Em dispositivos iOS e em navegadores Internet Explorer mais antigos, o visualizador usa o modo de tela cheia &quot;simulado&quot;. Nesse modo, o visualizador é redimensionado para ocupar a área completa da janela do navegador da Web. Além disso, a interface do usuário do navegador da Web e outras janelas ainda estão visíveis na tela.
 
-Um usuário entra e sai do modo de tela cheia pressionando o botão Tela cheia na interface do usuário do visualizador. Quando o modo de tela cheia &quot;nativo&quot; é usado na área de trabalho, também é possível sair dele pressionando **Esc**.
+Um usuário entra e sai do modo de tela cheia pressionando o botão Tela cheia na interface do usuário do visualizador. Quando o modo de tela cheia &quot;nativo&quot; é usado no desktop, também é possível sair dele pressionando **Esc**.
