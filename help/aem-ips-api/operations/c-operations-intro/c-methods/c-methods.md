@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
-* [getGroupMember](r-get-group-membership.md)
+* [getGroupMembship](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
 * [getImageFormats](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
