@@ -6,6 +6,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
 translation-type: tm+mt
 source-git-commit: 7b837020deef888a038a074d0aa826d43e60aeb6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Sequência de caracteres de texto. Obrigatório para registros de imagem, pode e
 
 Consulte a descrição do utilitário Conversor de imagens (IC) para obter uma lista completa dos formatos de arquivo suportados.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (Dynamic Media Pirâmid TIFF). O utilitário IC é usado para criar imagens PTIFF a partir de qualquer formato de imagem compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O utilitário IC é usado para criar imagens PTIFF a partir de qualquer formato de imagem compatível.
 
 ## Padrão {#path-default}
 
@@ -32,6 +35,6 @@ Nenhum.
 
 ## Consulte também {#path-seealso}
 
-[Utilitário](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) IC, [atributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [atributo::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[Utilitário](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [atributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) ,  [atributo::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) ,  [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->
