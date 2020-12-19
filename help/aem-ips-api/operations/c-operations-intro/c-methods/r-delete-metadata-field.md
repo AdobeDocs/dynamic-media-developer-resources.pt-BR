@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +42,7 @@ A API IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Essa amostra de código exclui um campo de metadados de empresa. Ele usa o identificador de empresa e o identificador de metadados como campos no `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar esta ação.
+Essa amostra de código exclui um campo de metadados de empresa. Ele usa o identificador de empresa e o identificador de metadados como campos no `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar essa ação.
 
 **Solicitação**
 
