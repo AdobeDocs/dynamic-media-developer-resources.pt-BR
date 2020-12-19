@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 0d15c07f-5545-42bb-a793-b6c77e7a1b7b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# EventoMPE{#mpevent}
+# MPEEvent{#mpevent}
 
 Um evento MediaPortal.
 
@@ -22,10 +25,10 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`eventType`*` | `xsd:string` | tipo de evento do Portal de mídia. |
-| ` *`createDate`*` | `xsd:dateTime` | Data de criação do Evento. |
+| ` *`eventType`*` | `xsd:string` | Tipo de evento do Portal de mídia. |
+| ` *`createDate`*` | `xsd:dateTime` | Data de criação do evento. |
 | ` *`ipsUser`*` | `xsd:string` | O sistema ou o usuário acionando o evento. |
-| ` *`companyId`*` | `xsd:int` | ID da Empresa. |
+| ` *`companyId`*` | `xsd:int` | ID da empresa. |
 | ` *`companyName`*` | `xsd:string` | Nome da empresa. |
 | ` *`jobName`*` | `xsd:string` | Um nome de trabalho exclusivo. |
 | ` *`jobDescription`*` | `xsd:string` | Uma descrição útil para o trabalho. |
