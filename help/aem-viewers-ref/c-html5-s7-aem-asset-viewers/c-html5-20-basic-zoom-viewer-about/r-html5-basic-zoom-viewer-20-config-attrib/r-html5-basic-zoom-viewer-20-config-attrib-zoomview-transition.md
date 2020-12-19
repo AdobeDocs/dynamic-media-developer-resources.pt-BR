@@ -1,29 +1,32 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: ZoomView.transição
+seo-title: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transição
+title: ZoomView.transition
 topic: Dynamic media
 uuid: f579397b-a449-42fe-b0a7-f0da65a6a248
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# ZoomView.transição{#zoomview-transition}
+# ZoomView.transition{#zoomview-transition}
 
 ` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`tempo`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hora</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> time</span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica o tempo, em segundos, que a animação de uma única ação de zoom leva. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> flexibilização</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> flexibilização</span> </span> </p> </td> 
    <td colname="col2"> <p> Cria uma ilusão de aceleração ou desaceleração que faz a transição parecer mais natural. É possível definir a atenuação para um dos seguintes: </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0 (automático) </li> 
@@ -45,6 +48,6 @@ Opcional.
 
 `0.5,0`
 
-## Example {#section-96e69b70365f461dae4399e49044ea2f}
+## Exemplo {#section-96e69b70365f461dae4399e49044ea2f}
 
 `transition=2,2`
