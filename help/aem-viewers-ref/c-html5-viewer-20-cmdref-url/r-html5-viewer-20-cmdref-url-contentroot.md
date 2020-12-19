@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 85b00c4e-b382-4970-b780-e4ef59108cb7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 1%
 
 ---
 
@@ -21,8 +24,8 @@ Parâmetro comum a todos os visualizadores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o caminho básico para arquivos CSS personalizados, qualquer conteúdo de legenda ou conteúdo de navegação. </p> <p>Se o caminho não tiver um <span class="filepath"> /</span>à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span>à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando você não especifica um comando de estilo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica o caminho básico para arquivos CSS personalizados, qualquer conteúdo de legenda ou conteúdo de navegação. </p> <p>Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando você não especifica um comando de estilo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
