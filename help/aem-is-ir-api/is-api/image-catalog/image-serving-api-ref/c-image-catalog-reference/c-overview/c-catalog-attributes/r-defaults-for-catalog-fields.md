@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8902766c-c2d9-433a-9c49-3182b063269f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ Os campos de catálogo usam esses padrões.
    <td colname="col2"> <p>Resolução de objeto padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> Miniaturas</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
    <td colname="col2"> <p>Resolução de miniatura padrão. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +46,7 @@ Os campos de catálogo usam esses padrões.
    <td colname="col2"> <p>Tipo de miniatura padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> Carimbo de data e hora</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
    <td colname="col2"> <p>Carimbo de hora de modificação de imagem padrão. </p> </td> 
   </tr> 
  </tbody> 
