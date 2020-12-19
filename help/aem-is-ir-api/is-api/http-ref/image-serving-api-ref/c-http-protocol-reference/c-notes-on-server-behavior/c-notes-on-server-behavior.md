@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 0%
 
 ---
 
@@ -21,5 +24,5 @@ Há vários problemas de comportamento do servidor que devem ser considerados.
 * [Escala em miniatura](r-thumbnail-scaling.md)
 * [Regras de miniatura](r-thumbnail-rules.md)
 * [Posicionamento da camada](r-layer-placement.md)
-* [Transformação de Visualização para imagens](r-view-transform-for-images.md)
-* [Transformação de Visualização para miniaturas](r-view-transform-for-thumbnails.md)
+* [Transformação de visualização para imagens](r-view-transform-for-images.md)
+* [Transformação de visualização para miniaturas](r-view-transform-for-thumbnails.md)
