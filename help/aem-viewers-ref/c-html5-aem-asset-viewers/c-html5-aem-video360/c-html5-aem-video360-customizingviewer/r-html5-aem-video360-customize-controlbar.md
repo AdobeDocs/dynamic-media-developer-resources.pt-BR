@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 328e34f1-9e60-4056-9a8a-e9292fb65605
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -26,30 +29,30 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
 .s7video360viewer .s7controlbar
 ```
 
-## Propriedades de CSS da barra de controle {#css-properties-of-the-control-bar}
+## Propriedades CSS da barra de controle {#css-properties-of-the-control-bar}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar um visualizador de vídeo com uma barra de controle cinza de 30 pixels de altura e que se situe na parte superior do container do visualizador de vídeo.
+**Exemplo**  - Para configurar um visualizador de vídeo com uma barra de controle cinza de 30 pixels de altura e que se situe na parte superior do container do visualizador de vídeo.
 
 ```
 .s7video360viewer .s7controlbar {  
