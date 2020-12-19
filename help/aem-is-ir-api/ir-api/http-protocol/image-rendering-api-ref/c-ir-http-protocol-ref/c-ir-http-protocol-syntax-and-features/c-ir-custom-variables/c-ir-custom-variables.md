@@ -9,7 +9,7 @@ uuid: 933fba00-759c-4bd3-bada-eec751426d9e
 translation-type: tm+mt
 source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ As variáveis são definidas de forma semelhante a outros comandos do servidor, 
 
 >[!NOTE]
 >
->*[!DNL value]* deve ser codificado em URL de passagem única para transmissão segura HTTP. A codificação do Duplo é necessária se *[!DNL value]* for retransmitida via HTTP. Esse é o caso quando *[!DNL value]* é substituído em uma solicitação estrangeira aninhada.
+>*[!DNL value]* deve ser codificado em URL de passagem única para transmissão segura HTTP. A codificação do duplo é necessária se *[!DNL value]* for retransmitido via HTTP. Esse é o caso quando *[!DNL value]* é substituído em uma solicitação estrangeira aninhada.
 
 As variáveis são referenciadas pela incorporação do nome da variável (delimitado por um $ à esquerda e um $ à direita) em qualquer lugar nos valores de comando. Por exemplo, entre &#39;=&#39; após o nome do comando e o &#39;&amp;&#39; subsequente ou o fim da solicitação. O servidor substitui cada ocorrência de $ *[!DNL name]*$ por *[!DNL string]*. Nenhuma substituição ocorrerá em nenhuma ocorrência de $ *[!DNL name]*$ em nomes de comando (antes do sinal de igual de um comando) e na parte do caminho da solicitação.
 
-As variáveis personalizadas não podem ser aninhadas. Nenhuma ocorrência de $ *[!DNL name]*$ dentro *[!DNL string]* é substituída. Por exemplo, o fragmento de solicitação `$var2=apple&$var1=my$var2$tree&text=$var1$` é resolvido como `text=my$var2$tree`.
+As variáveis personalizadas não podem ser aninhadas. Nenhuma ocorrência de $ *[!DNL name]*$ em *[!DNL string]* é substituída. Por exemplo, o fragmento de solicitação `$var2=apple&$var1=my$var2$tree&text=$var1$` resolve para `text=my$var2$tree`.
 
-$ não é um caractere reservado; pode ocorrer de outra forma na solicitação. Por exemplo, `src=my$texture$file.tif` é um comando válido (assumindo que uma entrada de catálogo de material ou um arquivo de textura chamado [!DNL my$texture$file.tif] existe), enquanto `wid=$number$` não é, porque `wid=` requer um argumento numérico.
+$ não é um caractere reservado; pode ocorrer de outra forma na solicitação. Por exemplo, `src=my$texture$file.tif` é um comando válido (assumindo que existe uma entrada de catálogo de material ou um arquivo de textura chamado [!DNL my$texture$file.tif]), enquanto `wid=$number$` não é, porque `wid=` requer um argumento numérico.
