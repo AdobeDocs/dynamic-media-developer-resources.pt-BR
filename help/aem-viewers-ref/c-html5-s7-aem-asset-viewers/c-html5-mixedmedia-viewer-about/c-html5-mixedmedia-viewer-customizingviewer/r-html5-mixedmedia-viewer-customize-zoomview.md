@@ -1,18 +1,21 @@
 ---
 description: No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
 seo-description: No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
-seo-title: visualização de zoom
+seo-title: Visualização de zoom
 solution: Experience Manager
-title: visualização de zoom
+title: Visualização de zoom
 topic: Dynamic media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# visualização de zoom{#zoom-view}
+# Visualização de zoom{#zoom-view}
 
 No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
 
@@ -35,11 +38,11 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Cursor exibido sobre a visualização principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ Exemplo - para tornar a visualização de zoom transparente.
 }
 ```
 
-Em sistemas desktop, o componente suporta o seletor de `cursortype` atributos que pode ser aplicado à `.s7zoomview` classe. Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes `cursortype` valores são suportados:
+Em sistemas desktop, o componente suporta o seletor de atributos `cursortype` que pode ser aplicado à classe `.s7zoomview`. Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
 
 * `default`
 
