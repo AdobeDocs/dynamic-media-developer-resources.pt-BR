@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8f475fa8-92d1-4663-bc12-1e65b76076ba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. Quando definido como <span class="codeph"> 1</span> quadros são carregados em alta qualidade, correspondendo ao tamanho do componente. Quando definido como <span class="codeph"> 0</span> , apenas o bloco gráfico de pré-visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em menor tempo de start e maior consumo de rede, portanto, use com cautela. Quando uma pré-carga de alta resolução é usada, os quadros pré-carregados estão sempre na resolução original na qual o componente foi inicialmente carregado. </p> </td> 
+   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. Quando definido como <span class="codeph"> 1</span> os quadros são carregados em alta qualidade, correspondendo ao tamanho do componente. Quando definido como <span class="codeph"> 0</span> apenas o bloco gráfico de pré-visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em menor tempo de start e maior consumo de rede, portanto, use com cautela. Quando uma pré-carga de alta resolução é usada, os quadros pré-carregados estão sempre na resolução original na qual o componente foi inicialmente carregado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,6 +40,6 @@ Opcional.
 
 `6,0`
 
-## Example {#section-622348a84fbe4ff4b5dd7eb53b044d83}
+## Exemplo {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 
 `maxloadradius=12,1`
