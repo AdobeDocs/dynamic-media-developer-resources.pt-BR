@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Define a lista de ativos associados a um conjunto de imagens.
 
-Essa operação ignora o `pageReset` parâmetro para `ImageSets` e `SpinSets` força o valor a ser verdadeiro.
+Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e força o valor a ser verdadeiro.
 
 ## Tipos de usuário autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -46,19 +49,19 @@ Essa operação ignora o `pageReset` parâmetro para `ImageSets` e `SpinSets` fo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Alça da Empresa. </p> </td> 
+   <td colname="col4"> <p>Alça da empresa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Alça do conjunto de imagens. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Matriz de membros do ativo que pertencem ao conjunto de imagens. </td> 
