@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +26,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> largura <span class="varname"> ,</span><span class="varname"> altura</span></span> </p> </td> 
-   <td colname="col2"> <p> A largura e a altura gerais do visualizador. O valor de <span class="codeph"> 0,0</span> significa que o visualizador é dimensionado de acordo com as regras de CSS e o layout da página da Web. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> largura</span>,<span class="varname"> altura</span></span> </p> </td> 
+   <td colname="col2"> <p> A largura e a altura gerais do visualizador. O valor de <span class="codeph"> 0,0</span> significa que o visualizador é dimensionado de acordo com as regras CSS e o layout da página da Web. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,6 +40,6 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-f8a0c032979047a38041abfce3f7a70b}
+## Exemplo {#section-f8a0c032979047a38041abfce3f7a70b}
 
 `stageSize=500,500`
