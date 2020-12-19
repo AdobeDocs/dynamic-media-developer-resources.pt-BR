@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`overwriteMode`*` | `xsd:string` | Não | Modo de substituição de ativo. |
 | ` *`keepPublishState`*` | `xsd:boolean` | Não | Defina como `true` para preservar o estado de publicação quando um ativo for carregado novamente. |
 | ` *`defaultSourceProfileHandle`*` | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de origem padrão. |
@@ -39,7 +42,7 @@ Sintaxe
 | ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | Não | Ativo XSL usado para mapear metadados IPTC e EXIF para campos de metadados IPS. |
 | ` *`xmpMappingXsltHandle`*` | `xsd:string` | Não | Ativo XSL usado para mapear metadados XMP para campos de metadados IPS. |
 | ` *`diskSpaceWarningMin`*` | `xsd:int` | Não | Espaço em disco livre mínimo (em KB) disponível antes do envio de uma mensagem de aviso. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | Não | Defina para `true` enviar uma notificação aos administradores de empresas sempre que os ativos forem esvaziados do lixo. |
+| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | Não | Defina como `true` para enviar aos administradores de empresas uma notificação sempre que os ativos forem esvaziados do lixo. |
 
 **Saída (setCompanySettingsReturn)**
 
