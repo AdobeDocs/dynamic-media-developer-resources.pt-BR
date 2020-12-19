@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Definição de cifras SSL{#defining-ssl-ciphers}
+# Definindo cifras SSL{#defining-ssl-ciphers}
 
 A tag Connector em server.xml oferece suporte a um atributo ciphers para limitar os ciphers que podem ser escolhidos para uma conexão SSL.
 
