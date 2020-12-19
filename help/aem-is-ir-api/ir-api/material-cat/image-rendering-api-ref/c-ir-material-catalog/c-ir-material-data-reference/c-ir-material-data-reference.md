@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1f2dae40-0314-483a-a731-11889e166dee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
-# Referência dos dados materiais{#material-data-reference}
+# Referência de dados de material{#material-data-reference}
 
 Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deve ser especificado no atributo::CatalogFile.
 
