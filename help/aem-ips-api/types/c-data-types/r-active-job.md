@@ -63,7 +63,7 @@ Especifique um valor de tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nome original do tipo <span class="codeph"> AtiveJob</span> enviado com o job. </td> 
+   <td colname="col3">Nome original do tipo <span class="codeph"> AtiveJob</span> submetido ao trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ Especifique um valor de tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">A localidade para detalhes do registro de tarefas e localização de e-mail. <p>Especifique localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, onde o código de idioma é um código de duas letras em minúsculas, conforme especificado pela ISO-639, e o código de país opcional é um código de duas letras em maiúsculas, conforme especificado pela ISO-3166. Por exemplo, a string de localidade para inglês (Estados Unidos) seria: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">A localidade para detalhes do registro de tarefas e localização de e-mail. <p>Especifique localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, onde o código de idioma é um código de duas letras minúsculas, conforme especificado pela ISO-639, e o código de país opcional é um código de duas letras maiúsculas, conforme especificado pela ISO-3166. Por exemplo, a string de localidade para inglês (Estados Unidos) seria: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Descrição da tarefa originalmente especificada em <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Descrição do trabalho originalmente especificada em <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
