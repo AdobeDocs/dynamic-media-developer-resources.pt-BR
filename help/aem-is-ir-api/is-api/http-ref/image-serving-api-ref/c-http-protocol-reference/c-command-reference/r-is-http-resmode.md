@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
 
 ---
 
@@ -21,20 +24,20 @@ Modo de reamostragem. Escolhe o algoritmo de reamostragem e/ou interpolação a 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilhão </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilhão  </span> </p> </td> 
    <td colname="col2"> <p>Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing podem ser perceptíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensivo da CPU do que a interpolação bidirecional, mas produzirá imagens mais nítidas com artefatos de aliasing menos perceptíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aguda2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função Lanczos Window modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> O afiado </span> foi substituído pelo <span class="codeph"> afiado2 </span>, que tem uma probabilidade menor de causar artefatos aliasados (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> aguda2  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função Lanczos Window modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> O afiado  </span> foi substituído pelo  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasados (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona o reamostrador padrão do Photoshop para reduzir o tamanho da imagem, que é chamado de "divisor bicúbico" no Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona o reamostrador padrão Photoshop para reduzir o tamanho da imagem, que é chamado de "divisor bicúbico" no Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +50,7 @@ Atributo de solicitação. Aplica-se a todas as operações de escala envolvidas
 
 `attribute::ResMode`
 
-## Example {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
+## Exemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
 Recupere uma representação de melhor qualidade de uma imagem em camadas armazenada em um catálogo de imagens. A imagem pode incluir texto. Esperamos continuar a processar em um aplicativo de edição de imagem e, portanto, solicitar um canal alfa com a imagem.
 
