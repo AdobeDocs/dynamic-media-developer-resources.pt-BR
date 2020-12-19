@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +36,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`assetHandle`*` | `xsd:string` | Sim | Ativo com o público alvo de zoom que você deseja definir. |
 | ` *`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sim | Matriz de definições de públicos alvos de zoom. |
 
