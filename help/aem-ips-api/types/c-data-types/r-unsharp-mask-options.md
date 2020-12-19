@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# UnsharMaskOptions{#unsharpmaskoptions}
+# UnsharkMaskOptions{#unsharpmaskoptions}
 
 Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
 
@@ -23,7 +23,7 @@ Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de p
 
 ## Parâmetros {#section-c3f0d03136ba4422819cb463bd393885}
 
-Especificar um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".`
+Especifique um valor para as opções `unsharpMaskOptions` com `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -65,12 +65,12 @@ Especificar um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromático</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Os valores incluem <span class="codeph"> 0</span> ou <span class="codeph"> 1</span> apenas. </p><p>Defina como <span class="codeph"> 0</span> para aplicar a cada componente colorido separadamente ou como <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara de camada ou a máscara composta também são afiadas. </p><p><span class="codeph"><span class="varname"> O monocromático</span></span> é ignorado para imagens em tons de cinza. </p></td>
+   <td colname="col3"><p>Os valores incluem apenas <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>. </p><p>Defina como <span class="codeph"> 0</span> para aplicar a cada componente de cor separadamente ou como <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara de camada ou a máscara composta também são afiadas. </p><p><span class="codeph"><span class="varname"> Os </span></span> monocromáticos são ignorados para imagens em tons de cinza. </p></td>
   </tr>
  </tbody>
 </table>
 
-## Example {#section-38adca96c7714cfea35331d20403f59e}
+## Exemplo {#section-38adca96c7714cfea35331d20403f59e}
 
 ```
 <element name="unsharpMaskOptions" type="types:UnsharpMaskOptions" minOccurs="0"/>
@@ -86,7 +86,7 @@ Especificar um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".
 
 ## Usado por {#section-db8124a5468b498694a780f8a56a4560}
 
-O `unsharpMaskOptions` tipo é usado por:
+O tipo `unsharpMaskOptions` é usado por:
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
