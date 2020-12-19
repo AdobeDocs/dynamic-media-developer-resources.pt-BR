@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d3a83b59-bcd7-4ae9-b1ee-e515fc3c9261
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 0%
 
 ---
 
@@ -43,109 +46,109 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>Alça da Empresa. </p> </td> 
+   <td colname="col4"> <p>Alça da empresa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Manipule o usuário que enviou o trabalho. </p> <p> <p>Observação: O sistema envia emails para o usuário especificado pelo <span class="codeph"> userHandle</span>. Se <span class="codeph"> userHandle</span> não for fornecido, a pessoa que enviou o serviço receberá os emails. </p> </p> </td> 
+   <td colname="col4"> <p>Manipule o usuário que enviou o trabalho. </p> <p> <p>Observação: O sistema envia emails para o usuário especificado por <span class="codeph"> userHandle</span>. Se <span class="codeph"> userHandle</span> não for fornecido, a pessoa que submeteu o trabalho receberá os emails. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> <p>Nome do trabalho. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> localidade</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>A localidade usada para detalhes do registro de tarefas e localização de email. </p> <p>As localidades são especificadas como <span class="codeph"> &lt;language_code&gt;</span> e <span class="codeph"> [&lt;country_code&gt;]</span>, onde o código de idioma é um código de duas letras em minúsculas, conforme especificado pela ISO-639, e o código de país opcional é um código de duas letras em maiúsculas, conforme especificado pela ISO-3166. Por exemplo, a string de localidade para inglês (Estados Unidos) seria: en-US. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Data e hora para executar a tarefa. </p> <p>Observação:  Forneça o fuso horário com a solicitação. Os fusos horários são ajustados para o fuso horário do servidor IPS de públicos alvos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser uma sequência de caracteres <span class="codeph"> cron</span> que executa o trabalho de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação IPS para obter o formato de agendamento personalizado. </p> </td> 
+   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser uma string <span class="codeph"> cron</span> que executa o trabalho de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação IPS para obter o formato de agendamento personalizado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Descrição do trabalho. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Exporte arquivos carregados anteriormente. </p> <p>Consulte <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> Exportar trabalho</a>. </p> </td> 
+   <td colname="col4"> <p>Exporte arquivos carregados anteriormente. </p> <p>Consulte <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageServingPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de uma tarefa de publicação de serviço de imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageRenderingPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de um trabalho de publicação de renderização de imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:VideoPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de um trabalho de publicação de vídeo. </p> <p>Consulte <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de um trabalho de publicação de diretório de servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadDirectoryJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de um trabalho de diretório de upload. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadUrlsJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Detalhes de um trabalho de URL de upload. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> otimizeImagesJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> otimizeImagesJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:OtimizeImagesJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:RipPdfsJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ReprocessAssetsJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> automatizadoSetGenerationJob</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> <p>Processar uma lista de ativo em conjuntos usando o Conjunto Automatizado de Scripts. </p> <p>Consulte <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
@@ -161,7 +164,7 @@ Sintaxe
 
 ## Exemplos {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Esta amostra de código envia um trabalho de publicação de serviço de imagem para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de tarefa na solicitação. Como `userHandle` foi omitido, as notificações por email são enviadas ao usuário que enviou o trabalho. Este trabalho de amostra é executado imediatamente porque `execTime` e `execSchedule` foi omitido.
+Esta amostra de código envia um trabalho de publicação de serviço de imagem para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de tarefa na solicitação. Como `userHandle` foi omitido, notificações por email são enviadas ao usuário que enviou o trabalho. Este trabalho de amostra é executado imediatamente porque `execTime` e `execSchedule` foram omitidos.
 
 **Solicitação**
 
