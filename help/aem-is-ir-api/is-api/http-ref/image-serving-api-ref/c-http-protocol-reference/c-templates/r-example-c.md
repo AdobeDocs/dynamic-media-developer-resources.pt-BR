@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Uma imagem de plano de fundo contém a foto de um modelo ou de um manequim. Regi
 
 Cada foto de aparato/acessório é mascarada e cortada na caixa delimitadora de máscara para minimizar os tamanhos de imagem. As âncoras e resoluções de imagens são cuidadosamente controladas para manter o alinhamento entre as camadas e a imagem de plano de fundo, e todas as imagens são adicionadas a um catálogo de imagens, com os valores apropriados armazenados em `catalog::Resolution` e `catalog::Anchor`.
 
-Além da disposição em camadas, também queremos alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de forma adequada ao comando de colorização. Esse pré-processamento pode ser feito offline, usando uma ferramenta de edição de imagem como o Photoshop, ou, em casos simples, pode ser feito trivialmente, adicionando `op_brightness=` e `op_contrast=` no `catalog::Modifier`campo.
+Além da disposição em camadas, também queremos alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de forma adequada ao comando de colorização. Esse pré-processamento pode ser feito offline, usando uma ferramenta de edição de imagem como Photoshop, ou, em casos simples, pode ser feito trivialmente adicionando `op_brightness=` e `op_contrast=` ao campo `catalog::Modifier`.
 
-Este aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente pelas âncoras de imagem ( `catalog::Anchor`) e dimensionados ( `catalog::Resolution`). Deixamos para o cliente garantir a ordem de camadas apropriada.
+Este aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente por suas âncoras de imagem ( `catalog::Anchor`) e dimensionados ( `catalog::Resolution`). Deixamos para o cliente garantir a ordem de camadas apropriada.
 
 Uma solicitação típica pode ser parecida com esta:
 
@@ -40,11 +43,11 @@ Somente a altura é especificada. Isso permite que a imagem retornada varie na l
 
 Não importa qual resolução é especificada para cada camada, desde que todas sejam iguais. Esta versão pode não permitir que as visualizações sejam maiores que as imagens compostas. A especificação de um valor de resolução grande evita problemas relacionados a essa limitação. Todo o processamento e composição são feitos na resolução ideal para o tamanho de imagem solicitado, para ajudar a obter o melhor desempenho e qualidade de saída.
 
-Os `res=` comandos podem ser omitidos se todas as imagens de origem tiverem a mesma resolução em escala completa (o que provavelmente acontece com esse tipo de aplicativo).
+Os comandos `res=` podem ser omitidos se todas as imagens de origem tiverem a mesma resolução em escala completa (o que provavelmente acontece com esse tipo de aplicativo).
 
-Os comandos `rootId` devem ser especificados para todos os `src=` comandos, mesmo que sejam os mesmos `rootId` especificados no caminho de url.
+Os `rootId` devem ser especificados para todos os comandos `src=`, mesmo que sejam os mesmos que `rootId` especificados no caminho de url.
 
-Se nenhum catálogo de imagens for usado, uma abordagem baseada em resolução para dimensionamento não será possível. Nesse caso, fatores de escala explícitos devem ser calculados para cada item de camada, com base na proporção dos `catalog::Resolution` valores de cada camada em relação ao `catalog::Resolution` valor da camada de plano de fundo. A solicitação de composição (com menos camadas) pode, portanto, ter a seguinte aparência:
+Se nenhum catálogo de imagens for usado, uma abordagem baseada em resolução para dimensionamento não será possível. Nesse caso, fatores de escala explícitos devem ser calculados para cada item de camada, com base na proporção dos valores `catalog::Resolution` para cada camada com o valor `catalog::Resolution` da camada de plano de fundo. A solicitação de composição (com menos camadas) pode, portanto, ter a seguinte aparência:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&
