@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +25,7 @@ comando URL para o Visualizador do carrossel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ative (<span class="codeph"> 1</span>) ou desative (<span class="codeph"> 0</span>) o recurso de pré-carregamento da imagem. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Pré-carregar imagem</a>. </p> </td> 
+   <td colname="col2"> <p> Ative (<span class="codeph"> 1</span>) ou desative (<span class="codeph"> 0</span>) o recurso de imagem de pré-carregamento. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Pré-carregar imagem</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Opcional.
 
 `1`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 preloadImage=0
