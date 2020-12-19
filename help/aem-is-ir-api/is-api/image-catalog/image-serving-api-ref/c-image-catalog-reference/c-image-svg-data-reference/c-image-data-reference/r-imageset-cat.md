@@ -9,7 +9,7 @@ uuid: 1a34aaef-4053-4474-abb8-794331898d88
 translation-type: tm+mt
 source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classi
 
 Um conjunto de imagens consiste em uma lista de itens classificada, separada por vírgulas, com cada item consistindo em um ou mais sub-itens (IDs de imagem, IDs de amostra, caminhos de arquivos de mídia, rótulos etc.), separados por ponto-e-vírgula e/ou dois-pontos.
 
-As chaves `{ }` e os parênteses `( )` podem ser usados para delimitar determinado conteúdo (como valores de cor) ou indicar conjuntos aninhados. Os chaves ou parênteses usados dessa forma não devem ser codificados e devem sempre aparecer como pares correspondentes; caso contrário, ocorrerá um erro de análise de catálogo.
+As chaves `{ }` e os parênteses `( )` podem ser usados para delimitar certos conteúdos (como valores de cor) ou indicar conjuntos aninhados. Os chaves ou parênteses usados dessa forma não devem ser codificados e devem sempre aparecer como pares correspondentes; caso contrário, ocorrerá um erro de análise de catálogo.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ As chaves `{ }` e os parênteses `( )` podem ser usados para delimitar determina
 
 Consulte a documentação Visualizadores do Servidor de imagens para obter mais detalhes sobre a estrutura e o uso dos conjuntos de imagens.
 
-O servidor retorna o conteúdo deste campo sem modificação em resposta a uma `req=imageset` solicitação.
+O servidor retorna o conteúdo deste campo sem modificação em resposta a uma solicitação `req=imageset`.
 
 ## Conjuntos padrão {#section-5ecc8ffee7224668b63f601383665564}
 
@@ -95,7 +95,7 @@ Cada item em um conjunto de páginas pode consistir em até três imagens de pá
 
 Cada item em um conjunto de mídia pode consistir em uma imagem, conjunto de amostras básico, conjunto de amostras hierárquico, conjunto de rotação básico, conjunto de rotação bidimensional, conjunto de páginas ou ativo de vídeo. Cada item de conjunto de mídia também pode conter uma amostra opcional e um identificador de tipo.
 
-| ` *`mediaSet`*` | ` *`item`* &#42;[ , *`item`* ]` |
+| ` *`mediaSet`*` | ` *`item `* &#42;[ , *`item`* ]` |
 |---|---|
 | ` *`item`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemItemImageItemItemItemIDreserved`* ] ] ]` |
 | ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
@@ -119,14 +119,14 @@ Um conjunto de vídeos consiste em uma lista simples de ids de vídeo em que cad
 
 ## Propriedades {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Sequência de caracteres de texto. Lista de `catalog::Id` valores separados por vírgulas, caminhos de arquivo absolutos do Servidor de imagens ou caminhos de arquivo relativos a `attribute::RootPath`. A mesma imagem pode ser referenciada mais de uma vez no conjunto. O registro de catálogo de definição pode aparecer no conjunto em qualquer local.
+Sequência de caracteres de texto. Lista separada por vírgulas de valores `catalog::Id`, caminhos de arquivo absolutos do Servidor de imagens ou caminhos de arquivo relativos a `attribute::RootPath`. A mesma imagem pode ser referenciada mais de uma vez no conjunto. O registro de catálogo de definição pode aparecer no conjunto em qualquer local.
 
-Esse campo participa da localização da string de texto. Além das *`label`* strings (parte do *`solidColorSpecifier`*), todos os campos delimitados são localizados se incluírem pelo menos um token de localização &#39; `^loc=…^`&#39;. Consulte a Localização [String de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texto na Referência *do protocolo* HTTP para obter detalhes.
+Esse campo participa da localização da string de texto. Além das strings *`label`* (parte de *`solidColorSpecifier`*), todos os campos delimitados são localizados se incluírem pelo menos um token de localização &#39; `^loc=…^`&#39;. Consulte [Localização de cadeia de caracteres de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) na *Referência de protocolo HTTP* para obter detalhes.
 
 ## Padrão {#section-c3a60e360393478284f0f2d2da5b963b}
 
 Nenhum.
 
-## Consulte também {#section-4c99c44f99074aa0a4ed90ba183bbc25}
+## Consulte Também {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [atributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), Tradução [de Id de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) objeto, Localização [de string de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texto, Documentação de visualizadores do Servidor de imagens
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [atributo::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), Tradução [ de Id de ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) objeto, Localização [ de string de ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texto, Documentação de visualizadores do Servidor de imagens
