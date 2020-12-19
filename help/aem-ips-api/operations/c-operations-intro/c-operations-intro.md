@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 713646a7-1108-4f93-bec2-3fbe7e548515
 translation-type: tm+mt
 source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 806e7e670ee98e1fb6adf52ffc95fb989fa69400
 
 Esta seção descreve os parâmetros de operação comuns manipulados pela API do Serviço Web IPS.
 
-Para obter uma descrição completa de cada parâmetro de operação, consulte Parâmetros [da](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)operação.
+Para obter uma descrição completa de cada parâmetro de operação, consulte [Parâmetros de operação](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Identificadores: About {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Identificadores: Sobre {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 Trata objetos IPS de referência retornados por determinadas operações de API. Você também pode passar identificadores como parâmetros para chamadas de operação subsequentes. Identificadores são tipos de dados de string ( `xsd:string`).
 
@@ -36,7 +39,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **Código de alça correto**
 
-Esta amostra de código está correta porque chama `getCompanyInfo` para retornar identificador válido. Ele não depende de um valor codificado. Use esse método ou outro equivalente de API IPS para retornar o identificador necessário.
+Esta amostra de código está correta porque chama `getCompanyInfo` para retornar um identificador válido. Ele não depende de um valor codificado. Use esse método ou outro equivalente de API IPS para retornar o identificador necessário.
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -47,17 +50,17 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-## Tipos de Identificador Comuns {#section-e683ac8283284f9688e63f51a494f7a0}
+## Tipos de Identificadores Comuns {#section-e683ac8283284f9688e63f51a494f7a0}
 
 **companyHandle**
 
-A maioria das operações exige que você defina um contexto de empresa transmitindo um `companyHandle` parâmetro. O identificador de empresa é um ponteiro retornado por determinadas operações, como `getCompanyInfo`, `addCompany`e `getCompanyMembership`.
+A maioria das operações exige que você defina um contexto de empresa transmitindo um parâmetro `companyHandle`. O identificador de empresa é um ponteiro retornado por determinadas operações, como `getCompanyInfo`, `addCompany` e `getCompanyMembership`.
 
 **userHandle**
 
-O `userHandle` parâmetro é um parâmetro opcional para operações que público alvo um usuário específico. Por padrão, essas operações públicos alvos o usuário chamador (o usuário cujas credenciais são enviadas para autenticação). No entanto, os usuários administradores com as permissões apropriadas podem especificar um usuário diferente. Por exemplo, a `setPassword` operação normalmente define a senha do usuário autenticado, mas um administrador pode usar o `userHandle` parâmetro para definir a senha para um usuário diferente.
+O parâmetro `userHandle` é um parâmetro opcional para operações que público alvo um usuário específico. Por padrão, essas operações públicos alvos o usuário chamador (o usuário cujas credenciais são enviadas para autenticação). No entanto, os usuários administradores com as permissões apropriadas podem especificar um usuário diferente. Por exemplo, a operação `setPassword` normalmente define a senha do usuário autenticado, mas um administrador pode usar o parâmetro `userHandle` para definir a senha para um usuário diferente.
 
-Para operações que exigem um contexto de empresa (usando o `companyHandle` parâmetro), os usuários autenticados e públicos alvos devem ser membros da empresa especificada. Para operações que não exigem um contexto de empresa, os usuários autenticados e públicos alvos devem ser membros de pelo menos uma empresa comum.
+Para operações que exigem um contexto de empresa (usando o parâmetro `companyHandle`), os usuários autenticados e públicos alvos devem ser membros da empresa especificada. Para operações que não exigem um contexto de empresa, os usuários autenticados e públicos alvos devem ser membros de pelo menos uma empresa comum.
 
 As seguintes operações podem recuperar os identificadores do usuário:
 
@@ -70,11 +73,11 @@ As seguintes operações podem recuperar os identificadores do usuário:
 
 **accessUserHandle e accessGroupHandle**
 
-Por padrão, as operações que exigem permissões de acesso (ler, gravar, excluir) operam no contexto de permissão do usuário chamador. Determinadas operações permitem modificar esse contexto com o parâmetro `accessUserHandle` ou `accessGroupHandle` . O `accessUserHandle` parâmetro permite que um administrador represente outro usuário. O `accessGroupHandle` parâmetro permite que o chamador funcione no contexto de um grupo de usuários específico.
+Por padrão, as operações que exigem permissões de acesso (ler, gravar, excluir) operam no contexto de permissão do usuário chamador. Algumas operações permitem modificar esse contexto com o parâmetro `accessUserHandle` ou `accessGroupHandle`. O parâmetro `accessUserHandle` permite que um administrador represente outro usuário. O parâmetro `accessGroupHandle` permite que o chamador funcione no contexto de um grupo de usuários específico.
 
 **responseFieldArray e excludeFieldArray**
 
-Algumas operações permitem que o chamador restrinja quais campos estão incluídos na resposta. A limitação de campos pode ajudar a reduzir o tempo e a memória necessários para processar a solicitação e reduzir o tamanho dos dados de resposta. O chamador pode solicitar uma lista específica de campos transmitindo um `responseFieldArray` parâmetro ou com uma lista enumerada de campos excluídos por meio do `excludeFieldArray` parâmetro.
+Algumas operações permitem que o chamador restrinja quais campos estão incluídos na resposta. A limitação de campos pode ajudar a reduzir o tempo e a memória necessários para processar a solicitação e reduzir o tamanho dos dados de resposta. O chamador pode solicitar uma lista específica de campos transmitindo um parâmetro `responseFieldArray` ou com uma lista enumerada de campos excluídos por meio do parâmetro `excludeFieldArray`.
 
 Ambos `responseFieldArray` e `excludeFieldArray` especificam campos usando um caminho de nó separado por `/`. Por exemplo, para especificar que `searchAssets` retorne somente o nome, a data da última modificação e os metadados de cada ativo, consulte o seguinte:
 
@@ -100,10 +103,10 @@ Se você não incluir `responseFieldArray` ou `excludeFieldArray` em uma solicit
 
 **Localidade**
 
-Desde o IPS 4.0, a API IPS suporta a configuração do contexto de localidade de uma operação, passando o parâmetro de `authHeader` localidade. Se o parâmetro de localidade não estiver presente, o cabeçalho HTTP `Accept-Language` será usado. Se esse cabeçalho também não estiver presente, a localidade padrão do servidor IPS será usada.
+Desde o IPS 4.0, a API IPS oferece suporte para a definição do contexto de localidade de uma operação, passando pelo parâmetro de localidade `authHeader`. Se o parâmetro de localidade não estiver presente, o cabeçalho HTTP `Accept-Language` será usado. Se esse cabeçalho também não estiver presente, a localidade padrão do servidor IPS será usada.
 
-Algumas operações também utilizam parâmetros de localidade explícitos, que podem ser diferentes do contexto de localidade da operação. Por exemplo, a operação `submitJob` usa um `locale` parâmetro que define a localidade usada para registro de tarefas e notificação por email.
+Algumas operações também utilizam parâmetros de localidade explícitos, que podem ser diferentes do contexto de localidade da operação. Por exemplo, a operação `submitJob` utiliza um parâmetro `locale` que define a localidade usada para registro de tarefas e notificação por email.
 
-Os parâmetros de localidade usam o formato `<language_code>[-<country_code>]`
+Os parâmetros locais usam o formato `<language_code>[-<country_code>]`
 
 Quando o código linguístico for um código em minúsculas, de duas letras especificado pela norma ISO-639 e o código opcional do país for um código em maiúsculas e de duas letras especificado pela norma ISO-3266. Por exemplo, a string de localidade para inglês dos EUA é `en-US`.
