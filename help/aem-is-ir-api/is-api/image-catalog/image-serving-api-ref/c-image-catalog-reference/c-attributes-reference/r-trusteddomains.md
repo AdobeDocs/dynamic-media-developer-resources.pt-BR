@@ -1,6 +1,6 @@
 ---
-description: Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues com fmt=swf ou fmt=swf3.
-seo-description: Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues com fmt=swf ou fmt=swf3.
+description: Domínios da Web do aplicativo de Flash. Os aplicativos de Flash podem exigir acesso às propriedades de imagens fornecidas com fmt=swf ou fmt=swf3.
+seo-description: Domínios da Web do aplicativo de Flash. Os aplicativos de Flash podem exigir acesso às propriedades de imagens fornecidas com fmt=swf ou fmt=swf3.
 seo-title: TrustedDomains
 solution: Experience Manager
 title: TrustedDomains
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1d056d68-b699-413c-897c-8612444735c5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 0%
 
 ---
 
 
 # TrustedDomains{#trusteddomains}
 
-Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues com fmt=swf ou fmt=swf3.
+Domínios da Web do aplicativo de Flash. Os aplicativos de Flash podem exigir acesso às propriedades de imagens fornecidas com fmt=swf ou fmt=swf3.
 
 O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo em que confia.
 
