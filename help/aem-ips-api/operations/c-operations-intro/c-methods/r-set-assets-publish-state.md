@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Esta é a versão em lote de [setAssetState](../../../operations/c-operations-in
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
 | ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sim | Matriz de valores de estado de publicação para os ativos. |
 
 **Saída (setAssetsPublishStateParam)**
