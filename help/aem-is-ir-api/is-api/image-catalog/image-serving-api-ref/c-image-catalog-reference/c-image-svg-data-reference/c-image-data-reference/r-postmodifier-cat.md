@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Servidor de imagens separados por &#39;&amp;&#39; caracteres.
 
-Os comandos nesse campo sempre substituem os comandos na solicitação HTTP e no `catalog::Modifier`.
+Os comandos nesse campo sempre substituem os comandos na solicitação HTTP e em `catalog::Modifier`.
 
-`catalog::PostModifier` é útil se determinadas imagens exigem configurações especiais que são normalmente controladas pelo URL, como `qlt=` ou `resmode=`. `catalog::Modifier` deve ser usado para definir a maioria dos comandos IS no catálogo de imagens.
+`catalog::PostModifier` é útil se determinadas imagens exigem configurações especiais que são normalmente controladas pelo URL, como  `qlt=` ou  `resmode=`. `catalog::Modifier` deve ser usado para definir a maioria dos comandos IS no catálogo de imagens.
 
-As macros são permitidas no, desde `catalog::PostModifier`que estejam definidas no mesmo catálogo ou no catálogo padrão. As variáveis personalizadas também podem ser usadas.
+As macros são permitidas em `catalog::PostModifier`, desde que estejam definidas no mesmo catálogo ou no catálogo padrão. As variáveis personalizadas também podem ser usadas.
 
 >[!NOTE]
 >
->Se uma solicitação envolver várias camadas, somente o conteúdo `catalog::PostModifier` da camada 0 será aplicado. `catalog::PostModifier` de todas as outras camadas é ignorada.
+>Se uma solicitação envolver várias camadas, somente o conteúdo de `catalog::PostModifier` da camada 0 será aplicado. `catalog::PostModifier` de todas as outras camadas é ignorada.
 
 ## Propriedades {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
