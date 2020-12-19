@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,17 +42,17 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A largura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Example {#section-ee18025b182a42dc98052de5f133ddfe}
+## Exemplo {#section-ee18025b182a42dc98052de5f133ddfe}
 
 Para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e aumentar seu tamanho em 512 x 288 pixels.
 
