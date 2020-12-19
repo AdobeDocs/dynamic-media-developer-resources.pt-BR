@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: ThumbnailGridView.alignment
+seo-title: ThumbnailGridView.align
 solution: Experience Manager
-title: ThumbnailGridView.alignment
+title: ThumbnailGridView.align
 topic: Dynamic media
 uuid: b0cdc9ee-4399-4783-99ec-cd9d03f262b1
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
 
-# ThumbnailGridView.alignment{#thumbnailgridview-align}
+# ThumbnailGridView.align{#thumbnailgridview-align}
 
 [!DNL `[ThumbnailGridView.|<containerId>_gridView.]align=left|center|right`]
 
@@ -33,6 +36,6 @@ Opcional.
 
 [!DNL `left`]
 
-## Example {#section-6867c2975b7747cd8aa023c2a20c794f}
+## Exemplo {#section-6867c2975b7747cd8aa023c2a20c794f}
 
 [!DNL `align=center`]
