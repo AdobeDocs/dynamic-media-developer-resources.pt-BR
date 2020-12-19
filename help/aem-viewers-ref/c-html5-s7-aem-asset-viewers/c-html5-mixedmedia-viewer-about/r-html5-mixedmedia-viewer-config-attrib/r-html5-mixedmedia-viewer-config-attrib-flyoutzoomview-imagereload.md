@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5cded4cb-7b02-47da-9e2d-b236548cc61d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 1%
 
 ---
 
@@ -16,16 +19,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Configura como o componente obtém novas imagens para a visualização principal e flyout durante o redimensionamento.
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`largura de`*[; *`largura`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`largura de `*[; *`largura`*]]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p>Quando definido como <span class="codeph"> 0 </span>, o componente não carrega novas imagens durante o redimensionamento, e a resolução da imagem na visualização do flyout não é alterada. </p> <p>Quando definido como <span class="codeph"> 1 </span> permite especificar um ou mais pontos de interrupção de largura para a imagem carregada na visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col2"> <p>Quando definido como <span class="codeph"> 0 </span>, o componente não carrega novas imagens durante o redimensionamento, e a resolução da imagem na visualização flyout não é alterada. </p> <p>Quando definido como <span class="codeph"> 1 </span> permite que você especifique um ou mais pontos de interrupção de largura para a imagem carregada na visualização principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ponto de interrupção, <span class="varname"> largura </span>[; <span class="varname"> largura </span>] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ponto de interrupção,  <span class="varname"> largura  </span>[;  <span class="varname"> largura  </span>]  </span> </p> </td> 
    <td colname="col2"> <p>Pontos de interrupção de largura para a imagem carregada na visualização principal. O componente sempre usará o melhor tamanho de ajuste para a carga inicial. Após o redimensionamento, a imagem na visualização principal sempre será baixada com a largura igual ao ponto de interrupção maior mais próximo e baixada no cliente. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,6 +42,6 @@ Opcional.
 
 `0`
 
-## Example {#section-bd6c4249bccf44aab13fee8552f5a8b3}
+## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
 `imagereload=1,breakpoint,200;400;800;1600`
