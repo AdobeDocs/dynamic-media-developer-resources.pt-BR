@@ -23,24 +23,24 @@ Se você estiver atualizando de uma versão mais antiga do Serviço de imagem, e
 
 >[!NOTE]
 >
->A [!DNL webapps] pasta pode ser excluída na atualização. Faça backup da [!DNL webapps] pasta antes da atualização.
+>A pasta [!DNL webapps] pode ser excluída na atualização. Faça backup da pasta [!DNL webapps] antes da atualização.
 
 1. Faça logon no host do servidor com privilégios administrativos.
 1. Extraia o conteúdo do arquivo zip de distribuição do Servidor de imagens.
 1. Execute setup/setup.exe para iniciar o assistente de instalação.
-1. Clique para avançar **[!UICONTROL Next]** para o Contrato de Licença de Usuário Final (EULA), ler o contrato de licença e clicar em **[!UICONTROL Yes]**.
+1. Clique em **[!UICONTROL Next]** para avançar para o Contrato de Licença de Usuário Final (EULA), ler o contrato de licença e clicar em **[!UICONTROL Yes]**.
 
    A página seguinte exibe as configurações anteriores.
-1. Clique em **[!UICONTROL Next]** para start da instalação de atualização.
+1. Clique em **[!UICONTROL Next]** para start da instalação da atualização.
 
    >[!NOTE]
    >
-   >O instalador faz o backup dos arquivos de configuração do servidor antigos na [!DNL BACKUP/] pasta.
+   >O instalador faz o backup dos arquivos de configuração do servidor antigos na pasta [!DNL BACKUP/].
 
 1. Quando a instalação estiver concluída, clique em &quot;Concluir&quot; para sair do assistente de instalação.
 
    Em alguns casos, o assistente de instalação pode solicitar a reinicialização do sistema.
 
-Durante uma atualização, o [!DNL ImageServing/conf/server.xml] arquivo é atualizado para as configurações mais recentes. Se você alterou ou adicionou algum valor, salve o existente [!DNL server.xml] e reimplemente as alterações após a atualização.
+Durante uma atualização, o arquivo [!DNL ImageServing/conf/server.xml] é atualizado para as configurações mais recentes. Se você alterou ou adicionou quaisquer valores, deve salvar [!DNL server.xml] e reimplementar as alterações após a atualização.
 
-Após uma instalação de atualização, considere aquecer o cache de resposta HTTP antes de colocar o servidor em funcionamento. Consulte a descrição do `playlog` utilitário para obter detalhes.
+Após uma instalação de atualização, considere aquecer o cache de resposta HTTP antes de colocar o servidor em funcionamento. Consulte a descrição do utilitário `playlog` para obter detalhes.
