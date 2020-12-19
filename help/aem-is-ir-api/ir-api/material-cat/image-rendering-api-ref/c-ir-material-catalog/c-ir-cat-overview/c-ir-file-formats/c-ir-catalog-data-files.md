@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +21,15 @@ Os arquivos de dados do catálogo podem ter qualquer nome e sufixo de arquivo (e
 
 Os arquivos de dados do catálogo podem ser mantidos prontamente usando aplicativos que suportam arquivos de dados de texto delimitados por tabulação, como o Microsoft Excel e o Access.
 
-Essencialmente uma tabela bidimensional, um arquivo de dados de catálogo consiste em um registro de cabeçalho que identifica as colunas de dados e qualquer número de registros de dados (linhas). Os campos nos registros de cabeçalho e de dados são separados por `<TAB>` caracteres únicos. Os registros são separados por um único `<CR>` (código ASCII 0xD), um único `<LF>` (código ASCII 0xA) ou um `<CR><LF>` par.
+Essencialmente uma tabela bidimensional, um arquivo de dados de catálogo consiste em um registro de cabeçalho que identifica as colunas de dados e qualquer número de registros de dados (linhas). Os campos nos registros de cabeçalho e de dados são separados por caracteres `<TAB>` únicos. Os registros são separados por um único par `<CR>` (código ASCII 0xD), um único par `<LF>` (código ASCII 0xA) ou um par `<CR><LF>`.
 
 O registro de cabeçalho deve conter os nomes exatos de cada campo de dados. Campos vazios não são permitidos na linha de cabeçalho. Os nomes de campos de dados não distinguem maiúsculas de minúsculas. Todos os nomes de campo devem ser exclusivos.
 
-Nenhum espaço em branco além dos separadores de `<TAB>` campos é permitido nos registros de cabeçalho e dados.
+Nenhum espaço em branco além dos separadores de campo `<TAB>` é permitido nos registros de cabeçalho e dados.
 
-Nos registros de dados, dois `<TAB>` caracteres adjacentes indicam um campo vazio. Campos vazios herdarão valores padrão dos atributos do catálogo ou dos padrões do servidor.
+Nos registros de dados, dois caracteres adjacentes `<TAB>` indicam um campo vazio. Campos vazios herdarão valores padrão dos atributos do catálogo ou dos padrões do servidor.
 
-Os campos de dados não devem conter `<CR>`, `<LF>`ou `<TAB>` caracteres, a menos que o valor de dados seja do tipo texto e esteja entre aspas simples ou de duplo. Os campos de dados não devem ser codificados por HTTP.
+Os campos de dados não devem conter caracteres `<CR>`, `<LF>` ou `<TAB>`, a menos que o valor de dados seja do tipo texto e esteja entre aspas simples ou duplos. Os campos de dados não devem ser codificados por HTTP.
 
 Vários valores de dados no mesmo campo são separados por vírgulas (&#39;,&#39;), salvo indicação em contrário.
 
