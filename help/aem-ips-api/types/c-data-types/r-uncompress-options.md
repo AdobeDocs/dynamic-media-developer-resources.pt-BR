@@ -9,7 +9,7 @@ uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 translation-type: tm+mt
 source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ Carregue a configuração para processar arquivos ZIP e TAR como ativos primári
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> Processar como ativos principais. </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> Extrair e processar conteúdo. </li>
-     </ul><p>Observação: As constantes de string fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> Descompactar</span>, não <span class="codeph"> descompactar</span> ou <span class="codeph"> descompactar</span>. </p></p> </td> 
+     </ul><p>Observação: As constantes de string fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> UnCompress</span>, não <span class="codeph"> uncompress</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Example {#section-48fd14af768a436284c31692038579a8}
+## Exemplo {#section-48fd14af768a436284c31692038579a8}
 
 ```
  <!-- uncompress zip/tar/gzip files -->
@@ -61,7 +61,7 @@ Carregue a configuração para processar arquivos ZIP e TAR como ativos primári
 
 ## Usado por {#section-b2a829cf5511412e968bb2000f85cc31}
 
-O `unCompressionOptions` tipo é usado por:
+O tipo `unCompressionOptions` é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
