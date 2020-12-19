@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +23,13 @@ Incorporar metadados XMP. Especifica se os metadados XMP devem ser incluídos na
 
 >[!NOTE]
 >
->Os dados XMP são passados da imagem de origem para a imagem de resposta sem modificação. Isso pode resultar na incorporação de dados incorretos na imagem de resposta.
+>XMP dados são passados da imagem de origem para a imagem de resposta sem modificação. Isso pode resultar na incorporação de dados incorretos na imagem de resposta.
 
 ## Propriedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Atributo de solicitação. Ignorado se a imagem de origem não contém dados XMP. Somente dados XMP da imagem de origem de `layer=0` são processados. Os dados XMP de outras imagens de camada são ignorados.
+Atributo de solicitação. Ignorado se a imagem de origem não contiver dados XMP. Somente dados XMP da imagem de origem de `layer=0` são processados. XMP dados de outras imagens de camada são ignorados.
 
-Ignorado se o formato de imagem de saída não oferecer suporte à incorporação XMP. Consulte a descrição de `fmt=` uma lista de formatos de imagem de saída compatíveis com a incorporação XMP.
+Ignorado se o formato de imagem de saída não suportar XMP incorporação. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída compatíveis com a incorporação XMP.
 
 ## Padrão {#section-aedbedd04d664ba184b2cfe35644b960}
 
