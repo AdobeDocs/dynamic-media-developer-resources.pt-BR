@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e3e5f0c8-8a20-4e9c-8018-156af2a3ca3b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> é especificado, o texto do rótulo é exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Quando definido como <span class="codeph"> nenhum</span>, desativa a exibição de rótulo. </p> </td> 
+   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> for especificado, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Quando definido como <span class="codeph"> none</span>, desativa a exibição do rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,6 +36,6 @@ Opcional.
 
 `bottom`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 `textpos=top`
