@@ -1,18 +1,21 @@
 ---
 description: Contém configurações relacionadas ao gerenciamento de catálogos de imagens.
 seo-description: Contém configurações relacionadas ao gerenciamento de catálogos de imagens.
-seo-title: Catalog-server.conf
+seo-title: catalog-server.conf
 solution: Experience Manager
-title: Catalog-server.conf
+title: catalog-server.conf
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 797a43d2-18f5-4735-8b19-da231952b1a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
 
-# Catalog-server.conf{#catalog-server-conf}
+# catalog-server.conf{#catalog-server-conf}
 
 Contém configurações relacionadas ao gerenciamento de catálogos de imagens.
 
