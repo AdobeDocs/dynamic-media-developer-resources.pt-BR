@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 O Serviço de imagem fornece várias alternativas para renderizar o texto, acessíveis com os comandos text= e textPs=.
 
-`textPs=` fornece um alto nível de similaridade com o texto renderizado com o Adobe Photoshop e o Illustrator. `text=` é razoavelmente compatível com o texto renderizado com o Windows Wordpad.
+`textPs=` fornece um alto nível de semelhança com texto renderizado com Adobe Photoshop e Illustrator. `text=` é razoavelmente compatível com o texto renderizado com o Windows Wordpad.
 
 >[!NOTE]
 >
->Além das diferenças listadas em outro lugar, `text=` produz diferenças sutis no texto renderizado quando comparado com `textPs=`. Por exemplo, sublinhados não têm a mesma espessura e posição e itálico sintetizado são renderizados em um ângulo ligeiramente diferente. Se o texto não se ajustar ao espaço disponível, `text=` pode cortar parcialmente a última linha, enquanto `textPs=` renderizará apenas as linhas completas.
+>Além das diferenças listadas em outro lugar, `text=` produz diferenças sutis no texto renderizado quando comparado com `textPs=`. Por exemplo, sublinhados não têm a mesma espessura e posição e itálico sintetizado são renderizados em um ângulo ligeiramente diferente. Se o texto não se ajustar ao espaço disponível, `text=` poderá cortar parcialmente a última linha, enquanto `textPs=` só renderizará as linhas completas.
 
 Todos os comandos de texto aceitam texto formatado com base em um subconjunto da especificação RTF (Rich Text Format). Cada camada de texto pode especificar um comando de texto diferente.
 
@@ -37,7 +40,7 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> Compatível com o Adobe Photoshop </p> </td> 
+   <td> <p> Compatível com Adobe Photoshop </p> </td> 
    <td> <p> not </p> </td> 
    <td> <p> limited </p> </td> 
    <td> <p> </p> </td> 
@@ -153,7 +156,7 @@ Alguns processadores de texto geram arquivos bastante grandes, que incluem preâ
 
 A codificação de idioma baseada em padrões UTF-8 e ISO é suportada em strings RTF como uma alternativa aos mecanismos de codificação de caracteres RTF padrão. Isso permite que os aplicativos enviem texto que não seja em inglês para o servidor sem o conhecimento da codificação RTF.
 
-Todos os caracteres não compatíveis com HTTP devem ser evitados corretamente, se a sequência for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam ser evitados se a string for incorporada ao `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`e `<TAB>` devem ser sempre removidos.
+Todos os caracteres não compatíveis com HTTP devem ser escapados corretamente, se a string for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam ser escapados se a string for incorporada ao campo `catalog::Modifiers` de um registro de catálogo de imagem. Os caracteres de controle, incluindo `<CR>`, `<LF>` e `<TAB>` devem ser sempre removidos.
 
 Os mecanismos de texto do Serviço de imagem interpretam um subconjunto de comandos definidos pela Especificação RTF (Rich Text Format), versão 1.6. Esse subconjunto está focado na formatação de fontes/caracteres, na formatação simples de parágrafos e no suporte a fontes e conjuntos de caracteres internacionais. No momento, não há suporte para construções de formatação mais avançadas, como folhas de estilos e tabelas.
 
