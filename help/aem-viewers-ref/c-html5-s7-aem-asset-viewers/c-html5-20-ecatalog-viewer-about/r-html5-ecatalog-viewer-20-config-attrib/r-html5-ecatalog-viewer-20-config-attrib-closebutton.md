@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
 
-# Tecla{#closebutton}
+# Closebutton{#closebutton}
 
 `closebutton=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão Fechar. Ou, defina como <span class="codeph"> 0 </span> para ocultar o botão Fechar. </p> <p>O botão Fechar é suportado apenas em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão Fechar. Ou defina para <span class="codeph"> 0 </span> para ocultar o botão Fechar. </p> <p>O botão Fechar é suportado apenas em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,7 +36,7 @@ Opcional.
 
 `0`
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 closebutton=1
