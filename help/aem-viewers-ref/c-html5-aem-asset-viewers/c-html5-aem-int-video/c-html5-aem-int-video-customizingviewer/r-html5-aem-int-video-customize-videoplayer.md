@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ff0f78b1-ff88-47b8-a118-4e0b3e75f341
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +34,7 @@ O seletor de classe CSS a seguir controla a aparência do player de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da visualização principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +42,7 @@ O seletor de classe CSS a seguir controla a aparência do player de vídeo:
 
 Você pode localizar a mensagem de erro exibida nos casos em que o sistema não consegue reproduzir o vídeo.
 
-Consulte [Localização de elementos](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)da interface do usuário.
+Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exemplo - Para configurar um visualizador de vídeo com o tamanho do player de vídeo definido como 512 x 288 pixels.
 
@@ -58,29 +61,29 @@ As legendas ocultas são colocadas em um container interno dentro do player de v
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do texto da legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
    <td colname="col2"> <p>Fechar a cor do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso </span> </p> </td> 
-   <td colname="col2"> <p> peso de fonte de legenda fechada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
+   <td colname="col2"> <p> Peso de fonte de legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p> Tamanho da fonte da legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
    <td colname="col2"> <p>Fonte da legenda fechada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Example {#section-5b82913ff3c44b7b8187969cb15e9560}
+## Exemplo {#section-5b82913ff3c44b7b8187969cb15e9560}
 
 Para configurar o texto da legenda para 14 pixels, cinza claro, Arial, em um plano de fundo preto semitransparente:
 
@@ -115,19 +118,19 @@ A aparência da animação de buffering é controlada com o seguinte seletor de 
    <td colname="col2"> <p> Largura do ícone de animação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p> Altura do ícone de animação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
    <td colname="col2"> <p> Margem esquerda do ícone Animação, normalmente menos metade da largura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
    <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Nódulo de arte. </p> </td> 
   </tr> 
  </tbody> 
