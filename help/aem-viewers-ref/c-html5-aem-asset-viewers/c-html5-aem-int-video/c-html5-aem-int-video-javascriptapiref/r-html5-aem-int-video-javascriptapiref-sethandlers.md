@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f33df5a9-e323-4dff-b792-88d778332c75
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +21,15 @@ Referência da API JavaScript para o Visualizador de vídeo interativo
 
 `setHandlers(handlers)`
 
-Especifica zero ou mais manipuladores de retorno de chamada. Uma chamada para esse método substitui totalmente os manipuladores de eventos que foram atribuídos anteriormente para essa instância do visualizador. Deve ser chamado antes `init()`.
+Especifica zero ou mais manipuladores de retorno de chamada. Uma chamada para esse método substitui totalmente os manipuladores de eventos que foram atribuídos anteriormente para essa instância do visualizador. Deve ser chamado antes de `init()`.
 
 ## Parâmetro {#section-b60f082cca1542748b605689b1d43f8a}
 
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> manipuladores </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Objeto JSON {Object} </span> com retornos de chamada de evento do visualizador, onde o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte Retornos de chamada do <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Evento </a> para obter mais informações sobre eventos do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> manipuladores  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> Objeto {Object}  </span> JSON com retornos de chamada de evento do visualizador, onde o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> retornos de chamada do Evento </a> para obter mais informações sobre eventos do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Especifica zero ou mais manipuladores de retorno de chamada. Uma chamada para es
 
 Nenhum.
 
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setHandlers({ 
