@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Operações: Novo e modificado{#operations-new-and-modified}
+# Operações: Novo e Modificado{#operations-new-and-modified}
 
 Descreve métodos de operações novos e alterados para a API IPS versão 3.8.
 
@@ -32,9 +35,9 @@ Sintaxe
 
 **searchAssets**
 
-* O `publishState` parâmetro opcional permite pesquisar no estado do `MarkedForPublish/NotMarkedForPublish` ativo.
+* O parâmetro opcional `publishState` permite que você pesquise no estado `MarkedForPublish/NotMarkedForPublish` do ativo.
 
 **getJobLogs**
 
-* O `userHandle` parâmetro opcional permite que você recupere logs de tarefas enviados por um usuário específico.
+* O parâmetro opcional `userHandle` permite que você recupere logs de tarefas enviados por um usuário específico.
 
