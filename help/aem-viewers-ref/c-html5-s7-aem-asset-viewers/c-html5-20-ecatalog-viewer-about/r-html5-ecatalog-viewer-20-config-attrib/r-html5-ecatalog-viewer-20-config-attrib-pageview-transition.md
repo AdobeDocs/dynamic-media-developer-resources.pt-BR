@@ -1,18 +1,21 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: PageView.transição
+seo-title: PageView.transition
 solution: Experience Manager
-title: PageView.transição
+title: PageView.transition
 topic: Dynamic media
 uuid: f84da456-ac02-4037-b1fd-7440823eb1ef
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
 
-# PageView.transição{#pageview-transition}
+# PageView.transition{#pageview-transition}
 
 ` [PageView.|<containerId>_pageView.]transition= *``*[, *`tempo`*]`
 
@@ -45,6 +48,6 @@ Opcional.
 
 `0.5,0`
 
-## Example {#section-cb6b8793ee9946b8bf1cfddab8612db5}
+## Exemplo {#section-cb6b8793ee9946b8bf1cfddab8612db5}
 
 `transition=2,2`
