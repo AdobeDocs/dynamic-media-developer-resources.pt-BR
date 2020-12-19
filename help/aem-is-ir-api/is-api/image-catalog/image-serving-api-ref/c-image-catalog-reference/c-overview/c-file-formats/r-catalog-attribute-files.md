@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Os arquivos de atributo do catálogo podem ter qualquer nome, mas devem ter um sufixo de arquivo .ini. Eles podem ser prontamente mantidos usando qualquer editor de texto.
 
-Os arquivos de atributos do catálogo consistem em um conjunto de registros de texto, separados por um único `<CR>` (código ASCII `0xD`), um único `<LF>` (código ASCII `0xA`) ou um `<CR><LF>` par. Cada registro consiste em um nome de atributo e um ou mais valores de atributo separados por vírgula:
+Os arquivos de atributos do catálogo consistem em um conjunto de registros de texto, separados por um único par `<CR>` (código ASCII `0xD`), um único `<LF>` (código ASCII `0xA`) ou um par `<CR><LF>`. Cada registro consiste em um nome de atributo e um ou mais valores de atributo separados por vírgula:
 
 ` *``*= *`nomes`*{<CR>|<LF>|<CR><LF }`
 
@@ -31,7 +34,7 @@ Os arquivos de atributos do catálogo consistem em um conjunto de registros de t
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Valor do atributo. Não deve incluir <span class="codeph"> &lt;CR&gt;</span> ou <span class="codeph"> &lt;LF&gt;</span> caracteres, a menos que sejam escapados por uma única barra invertida antes do caractere de nova linha. </p></td> 
+  <td class="stentry"> <p>Valor do atributo. Não deve incluir os caracteres <span class="codeph"> &lt;CR&gt;</span> ou <span class="codeph"> &lt;LF&gt;</span>, a menos que sejam evitados por uma única barra invertida imediatamente antes do caractere de nova linha. </p></td> 
  </tr> 
 </table>
 
