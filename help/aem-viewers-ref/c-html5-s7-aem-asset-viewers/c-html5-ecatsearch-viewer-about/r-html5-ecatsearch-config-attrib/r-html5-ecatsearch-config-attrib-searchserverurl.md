@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
    <td colname="col2"> <p> Caminho raiz do serviço de pesquisa. Se nenhum domínio for especificado, o domínio do qual o visualizador é disponibilizado será usado. </p> </td> 
   </tr> 
  </tbody> 
@@ -33,7 +36,7 @@ Opcional.
 
 [!DNL `/s7search/`]
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 searchServerUrl=https://s7search1.scene7.com/s7search/
