@@ -1,24 +1,27 @@
 ---
 description: Usado por IccProfileFieldUpdate/class.
 seo-description: Usado por IccProfileFieldUpdate/class.
-seo-title: Classes de Perfis
+seo-title: Classes de perfis
 solution: Experience Manager
-title: Classes de Perfis
+title: Classes de perfis
 topic: Scene7 Image Production System API
 uuid: da73b9d9-e19e-4166-a4c4-14f7eb17e3d5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '20'
+ht-degree: 0%
 
 ---
 
 
-# Classes de Perfis{#profile-classes}
+# Classes de perfil{#profile-classes}
 
 Usado por IccProfileFieldUpdate/class.
 
 Sintaxe
 
-## Values {#section-9c6ffefc9f40467da980a0b75986acbc}
+## Valores {#section-9c6ffefc9f40467da980a0b75986acbc}
 
 * [!DNL `Input`]
 * [!DNL `Display`]
