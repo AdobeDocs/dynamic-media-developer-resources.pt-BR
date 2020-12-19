@@ -25,7 +25,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Alça da Empresa. |
+| ` *`companyHandle`*` | `xsd:string` | Alça da empresa. |
 | ` *`jobHandle`*` | `xsd:string` | Manuseio de trabalho agendado. |
 | ` *`name`*` | `xsd:string` | Nome do trabalho. |
 | ` *`originalName`*` | `xsd:string` | Nome original do trabalho agendado. |
@@ -50,7 +50,7 @@ Sintaxe
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Quando você especifica um valor de tipo de tarefa no, `submitJob`o sistema retorna uma tarefa com base nesse tipo. Os seguintes trabalhos podem ser retornados:
+Quando você especifica um valor de tipo de trabalho em `submitJob`, o sistema retorna um trabalho com base nesse tipo. Os seguintes trabalhos podem ser retornados:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
