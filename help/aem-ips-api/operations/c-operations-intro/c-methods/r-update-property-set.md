@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | Sim | Manipule o conjunto de propriedades. |
-| ` *`replaceProperties`*` | `xsd:string` | Não | Defina como `true` substituir propriedades. |
+| ` *`replaceProperties`*` | `xsd:string` | Não | Defina como `true` para substituir as propriedades. |
 | ` *`propertyArray`*` | `types:PropertyArray` | Sim | Matriz de propriedades atualizadas para o conjunto de propriedades. |
 
 **Saída (updatePropertySetReturn)**
