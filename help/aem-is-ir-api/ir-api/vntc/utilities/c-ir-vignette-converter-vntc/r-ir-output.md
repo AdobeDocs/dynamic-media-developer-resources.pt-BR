@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f2041600-408f-481c-95fc-3c112def7b8a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 vntc gera dados de texto que são enviados para o stderr ou para o arquivo de log.
 
-Os dados são formatados como uma `name=value` propriedade por registro de texto. Os valores de cadeia de caracteres não são citados. Mensagens de aviso e erro são sempre enviadas para `stderr`, mesmo se `-log` forem especificadas.
+Os dados são formatados como uma propriedade `name=value` por registro de texto. Os valores de cadeia de caracteres não são citados. Mensagens de aviso e erro são sempre enviadas para `stderr`, mesmo se `-log` for especificado.
 
 Determinadas propriedades podem ocorrer várias vezes na mesma saída. Um número de sequência, começando com 0, é anexado ao nome dessas propriedades, separadas por um ponto. Essas propriedades são identificadas abaixo com um sufixo `. *`n`*` após o nome da propriedade.
 
@@ -41,7 +44,7 @@ As seguintes propriedades são geradas:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">vidro=<span class="varname"> frasco</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> o frasco para injetáveis</span> é 1 se a caixa incluir portas de vidro; caso contrário, 0. Somente estilos de gabinete. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 se a caixa incluir portas de vidro, caso contrário 0. Somente estilos de gabinete. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">iccProfile=<span class="varname"> string</span></span> </p></td> 
@@ -53,23 +56,23 @@ As seguintes propriedades são geradas:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">sourceIsMaster=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> o Val</span> será 1 se <span class="varname"> sourceFile</span> for uma vinheta mestre, 0 se tiver sido processado anteriormente com <span class="filepath"> vnUpdate</span> ou <span class="filepath"> vntc</span>. Apenas vinhetas. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 se  <span class="varname"> </span> sourceFile for uma vinheta principal, 0 se tiver sido processada anteriormente com  <span class="filepath"> </span> vnUpdateor  <span class="filepath"> vntc</span>. Apenas vinhetas. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">master=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> o valor</span> é 0 se <span class="varname"> sourceFile</span> for um estilo de gabinete contendo dados de imagem JPEG (um aviso também é exibido nesse caso), caso contrário, 1. Gabinete e janela que cobrem apenas arquivos de estilo. </p></td> 
+  <td class="stentry"> <p><span class="codeph">principal=<span class="varname"> marco</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 0 se  <span class="varname"> </span> sourceFile for um estilo de gabinete que contém dados de imagem JPEG (um aviso também é exibido nesse caso), caso contrário, 1. Gabinete e janela que cobrem apenas arquivos de estilo. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p>O limite máximo de memória que se aplica ao processo vntc em execução <span class="filepath"></span> . <span class="varname"> string</span> é <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span>ou <span class="codeph"></span> 0 (desabilitado). Onde <span class="varname"> K</span>, <span class="varname"> M</span>e <span class="varname"> G</span> se referem a Kilobytes (1024 bytes), Megabytes (1048576 bytes) e Gigabytes (1073741824 bytes). </p></td> 
+  <td class="stentry"> <p>O limite máximo de memória que se aplica ao processo em execução <span class="filepath"> vntc</span>. <span class="varname"> As </span> stringas são  <span class="varname"> ival</span>,  <span class="varname"> ivalK</span>,  <span class="varname"> ivalM</span>,  <span class="varname"> ivalG</span> ou  <span class="codeph">  </span> 0(desativadas). Onde <span class="varname"> K</span>, <span class="varname"> M</span> e <span class="varname"> G</span> se referem a Kilobytes (1024 bytes), Megabytes (1048576 bytes) e Gigabytes (1073741824 bytes). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Escala do nível mais baixo da pirâmide de resolução na vinheta de saída. Presente somente se <span class="codeph"> -pirâmide</span> for especificada. </p></td> 
+  <td class="stentry"> <p>Escala do nível mais baixo da pirâmide de resolução na vinheta de saída. Presente somente se <span class="codeph"> -pyramid</span> for especificado. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numMaterials=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>O número de materiais salvos no <span class="varname"> sourceFile</span>. Apenas vinhetas. </p></td> 
+  <td class="stentry"> <p>O número de materiais salvos em <span class="varname"> sourceFile</span>. Apenas vinhetas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">numPanels=<span class="codeph"> ival</span></span> </p></td> 
@@ -85,7 +88,7 @@ As seguintes propriedades são geradas:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution=<span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>Para estilos de gabinete, a resolução de objeto dos<span class="varname"> sourceFile</span>. Para vinhetas, esta é a resolução de material recomendada para obter resultados de renderização de melhor qualidade ao renderizar a vinheta de saída. Pixels/polegada (ppi). </p></td> 
+  <td class="stentry"> <p>Para estilos de gabinete, a resolução do objeto de<span class="varname"> sourceFile</span>. Para vinhetas, esta é a resolução de material recomendada para obter resultados de renderização de melhor qualidade ao renderizar a vinheta de saída. Pixels/polegada (ppi). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">resolution.min=<span class="varname"> val</span></span> </p></td> 
@@ -123,19 +126,19 @@ As seguintes propriedades são geradas:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">suffix=<span class="varname"> string</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> vnt</span> se <span class="varname"> sourceFile</span> for uma vinheta, <span class="codeph"> vnc</span> se <span class="varname"> sourceFile</span> for um estilo de gabinete, ou <span class="codeph"> vnw</span> se <span class="varname"></span> sourceFile for um estilo de cobertura de janela. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> vntif </span> sourceFile é uma vinheta,  <span class="varname"> </span> vncif  <span class="codeph"> </span> sourceFile é um estilo de gabinete ou  <span class="varname"> </span> vnwif  <span class="codeph"> </span>   <span class="varname"> </span> sourceFile é um estilo de cobertura de janela. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>O valor especificado com <span class="codeph"> -version</span>ou o valor de<span class="codeph"> defaultFileVersion</span> se<span class="codeph"> -version</span> não foi especificado. </p></td> 
+  <td class="stentry"> <p>O valor especificado com <span class="codeph"> -version</span>, ou o valor de<span class="codeph"> defaultFileVersion</span> se<span class="codeph"> -version</span> não foi especificado. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetSizes=<span class="varname"> vídeo</span>,<span class="varname"> ival</span>*[,<span class="varname"> ival</span>,<span class="varname"> ival</span>]</span> </p></td> 
-  <td class="stentry"> <p>lista separada por vírgulas dos tamanhos de pixel de todas as visualizações na vinheta de saída (visualização de resolução completa para vinhetas pirâmides), da imagem do painel padrão em um arquivo de estilo gabinete ou da primeira imagem de opacidade de um arquivo de estilo de cobertura de janela. </p> </td> 
+  <td class="stentry"> <p>Lista separada por vírgulas dos tamanhos de pixel de todas as visualizações na vinheta de saída (visualização de resolução completa para vinhetas pirâmides), da imagem do painel padrão em um arquivo de estilo gabinete ou da primeira imagem de opacidade de um arquivo de estilo de cobertura de janela. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">texturable=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> o campo</span> é 1 se o estilo de gabinete for texturizável, caso contrário, 0. Não está presente para arquivos de estilo de vinhetas e coberturas de janela. </p></td> 
+  <td class="stentry"> <p><span class="varname"> </span> ivalis 1 se o estilo de gabinete for texturizável, caso contrário, 0. Não está presente para arquivos de estilo de vinhetas e coberturas de janela. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">aviso.<span class="varname"> n</span>=<span class="varname"> string</span></span> </p></td> 
