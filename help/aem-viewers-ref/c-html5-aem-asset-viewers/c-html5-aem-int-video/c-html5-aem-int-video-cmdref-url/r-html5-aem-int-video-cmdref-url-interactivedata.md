@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Os dados interativos associam certas regiões do tempo no conteúdo de vídeo ao
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> arquivo</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> arquivo</span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo de dados interativos WebVTT. O arquivo WebVTT deve ser servido pelo Serviço de Imagens. </p> </td> 
   </tr> 
  </tbody> 
@@ -37,7 +40,7 @@ Opcional.
 
 Nenhum.
 
-## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+## Exemplo {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 interactivedata=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt
