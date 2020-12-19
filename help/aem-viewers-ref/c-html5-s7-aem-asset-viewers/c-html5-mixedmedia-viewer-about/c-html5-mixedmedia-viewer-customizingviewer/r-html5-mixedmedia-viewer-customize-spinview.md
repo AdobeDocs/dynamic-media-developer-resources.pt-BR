@@ -1,18 +1,21 @@
 ---
 description: A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 seo-description: A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
-seo-title: visualização de rotação
+seo-title: Visualização de rotação
 solution: Experience Manager
-title: visualização de rotação
+title: Visualização de rotação
 topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
 
-# visualização de rotação{#spin-view}
+# Visualização de rotação{#spin-view}
 
 A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 
@@ -35,7 +38,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da visualização de rotação. </p> </td> 
   </tr> 
  </tbody> 
