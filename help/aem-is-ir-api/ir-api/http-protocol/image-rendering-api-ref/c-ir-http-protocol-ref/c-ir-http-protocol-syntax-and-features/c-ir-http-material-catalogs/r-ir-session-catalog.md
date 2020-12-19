@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::RootUrl</span> </p> </td> 
-   <td> <p> URL raiz para caminhos de arquivo HTTP relativos em comandos <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL raiz para caminhos de arquivos HTTP relativos nos comandos <span class="codeph"> src=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::ShowOverlapObjs</span> </p> </td> 
@@ -58,7 +61,7 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::DefaultPix</span> </p> </td> 
-   <td> <p> Valores por defeito para <span class="codeph"> wid=</span> e <span class="codeph"> hei=</span> </p> </td> 
+   <td> <p> Valores padrão para <span class="codeph"> wid=</span> e <span class="codeph"> hei=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::Format</span> </p> </td> 
