@@ -29,15 +29,15 @@ Uma versão de 32 e 64 bits do Image Server está disponível para Linux. Especi
 
 >[!NOTE]
 >
->O modo de 64 bits não é suportado no Windows. Só `ImageServer32` pode ser especificado. Caso contrário, o Serviço de imagem não será start.
+>O modo de 64 bits não é suportado no Windows. Somente `ImageServer32` pode ser especificado. Caso contrário, o Serviço de imagem não será start.
 
-## SV::PsHeapSize - Tamanho do Heap do Servidor Platform {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - Tamanho do Heap do Servidor de Plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-O tamanho do heap do Java para o Platform Server. O padrão é &quot; `512m`&quot; (512 Mbytes).
+O tamanho do heap do Java para o Servidor da plataforma. O padrão é &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Porta de escuta do servidor de imagens {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica a porta usada para comunicação entre o Platform Server e o Image Server. Especifique um número de porta que não seja usado de outra forma no sistema host.
+Especifica a porta usada para comunicação entre o Servidor de plataforma e o Servidor de imagem. Especifique um número de porta que não seja usado de outra forma no sistema host.
 
 >[!NOTE]
 >
