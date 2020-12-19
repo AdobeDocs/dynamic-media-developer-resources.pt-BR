@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b5449564-c01c-4bb3-b265-b8d70e5f1b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ Referência da API JavaScript para o Visualizador do carrossel.
 
 `getComponent(componentId)`
 
-Retorna uma referência ao componente do SDK do visualizador que é usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador predefinido. Chame esse método somente depois que o retorno de chamada do `initComplete` visualizador for executado; caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
+Retorna uma referência ao componente do SDK do visualizador que é usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador predefinido. Chame esse método somente depois que a chamada de retorno do visualizador `initComplete` for executada, caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` - `{String}` uma ID do componente SDK do visualizador usado pelo visualizador. Este visualizador suporta as seguintes IDs de componente:
+` *`componentID`*`  -  `{String}` uma ID do componente SDK do visualizador usado pelo visualizador. Este visualizador suporta as seguintes IDs de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,53 +36,53 @@ Retorna uma referência ao componente do SDK do visualizador que é usado pelo v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> carrosselView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.CarouselView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> carrosselView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.CarouselView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imageMapEffect </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.mageMapEffect </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imageMapEffect  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.mageMapEffect  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controlBar </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlBar  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> setIndicator </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> setIndicator  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nextButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nextButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> prevButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> prevButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ao trabalhar com APIs do SDK, é importante usar a namespace do SDK totalmente qualificada correta, conforme descrito na namespace [do SDK do](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)visualizador.
+Ao trabalhar com APIs do SDK, é importante usar a namespace SDK totalmente qualificada correta, conforme descrito em [namespace do SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
 
 Consulte a documentação da API do SDK do visualizador para obter mais informações sobre um componente específico.
 
 ## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente SDK do visualizador. O método retornará `null` se o componente do visualizador não `componentId` for suportado ou se o componente ainda não foi criado pela lógica do visualizador.
+`{Object}` uma referência ao componente SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 <instance>.setHandlers({ 
