@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Cinco ou seis números inteiros separados por vírgulas. O terceiro e o quarto n
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Os `creator-id` e `creator-pin` são fornecidos pela Digimarc quando o serviço é comprado. Os valores não utilizados devem ser deixados em branco.
+Os `creator-id` e `creator-pin` são fornecidos pela Digimarc quando o serviço é adquirido. Os valores não utilizados devem ser deixados em branco.
 
 `durability` especifica a intensidade de incorporação da marca d&#39;água Digimarc. Pode ser 1, 2, 3 ou 4, com 1 indicador de menor durabilidade e 4 maior.
 
@@ -32,7 +35,7 @@ Defina `chroma` como 1 para codificar a marca d&#39;água nos dados de crominân
 
 Herdado de `default::DigimarcId` se não estiver definido ou se estiver vazio.
 
-## Example {#section-8469ae1c27b4461da3d53fbabc32d3c5}
+## Exemplo {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
 Especifique uma ID de criador da Digimarc de teste com durabilidade definida como 4.
 
