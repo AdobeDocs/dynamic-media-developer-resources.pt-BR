@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c62302b0-d034-49d4-b5a8-1a77a46fe889
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_942C8BDBDE1B441596987E9E971202E7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoom|Reset </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de ações de clicar/tocar em duplo para aplicar zoom. Definir como <span class="codeph"> nenhum </span> desativa o zoom de clique/toque em duplo. Se definido para <span class="codeph"> ampliar, </span> clicar no zoom da imagem é ampliado em uma etapa de zoom; CTRL+Clique diminui o zoom em uma etapa. A configuração para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível de zoom inicial. Para <span class="codeph"> zoomReset </span>, redefinir será aplicado se o fator de zoom atual estiver dentro ou acima do limite especificado, caso contrário o zoom será aplicado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoom|Reset  </span> </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de ações de clicar/tocar em duplo para aplicar zoom. A configuração para <span class="codeph"> none </span> desativa o zoom de clique/toque em duplo. Se definido para <span class="codeph"> zoom </span> clicando no zoom da imagem em uma etapa de zoom; CTRL+Clique diminui o zoom em uma etapa. Definir para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível de zoom inicial. Para <span class="codeph"> zoomReset </span>, a redefinição será aplicada se o fator de zoom atual estiver dentro ou acima do limite especificado, caso contrário o zoom será aplicado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,8 +34,8 @@ Opcional.
 
 ## Padrão {#section-814d6bc6a0834005a0a72c7040e45693}
 
-[!DNL `reset`] sobre computadores de secretária; [!DNL `zoomReset`] em dispositivos de toque.
+[!DNL `reset`] sobre computadores de secretária;  [!DNL `zoomReset`] em dispositivos de toque.
 
-## Example {#section-986e7672f3694b7aa7572fb4428172ca}
+## Exemplo {#section-986e7672f3694b7aa7572fb4428172ca}
 
 [!DNL `doubleclick=zoom`]
