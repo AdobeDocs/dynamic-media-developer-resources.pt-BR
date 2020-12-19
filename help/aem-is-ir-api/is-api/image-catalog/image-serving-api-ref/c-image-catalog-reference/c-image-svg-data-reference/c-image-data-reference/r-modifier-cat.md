@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +21,9 @@ Sequência do modificador da solicitação de prefixo. Nenhum ou mais comandos d
 
 Usado para modificar imagens e armazenar o corpo dos modelos de forma persistente.
 
-Os comandos nesse campo são substituídos pelos mesmos comandos na solicitação ou modelo a partir do qual esse registro é referenciado e pelos comandos em `catalog::PostModifier`
+Os comandos neste campo são substituídos pelos mesmos comandos na solicitação ou modelo a partir do qual este registro é referenciado e pelos comandos em `catalog::PostModifier`
 
-As macros são permitidas no, desde `catalog::Modifier`que estejam definidas no mesmo catálogo ou no catálogo padrão. As variáveis personalizadas também podem ser usadas.
+As macros são permitidas em `catalog::Modifier`, desde que estejam definidas no mesmo catálogo ou no catálogo padrão. As variáveis personalizadas também podem ser usadas.
 
 ## Propriedades {#section-6674388f77d644469371a17e8809c45f}
 
