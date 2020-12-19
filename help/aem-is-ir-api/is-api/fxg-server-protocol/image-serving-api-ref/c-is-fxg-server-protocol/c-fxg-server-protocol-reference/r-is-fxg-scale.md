@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
 
 ---
 
 
-# escala{#scale}
+# scale{#scale}
 
 Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de resolução completa.
 
@@ -20,7 +23,7 @@ Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de re
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> fator <span class="varname"></span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> fator</span></span> </p> </td> 
   <td class="stentry"> <p>Fator de escala (real, &gt;0). </p></td> 
  </tr> 
 </table>
@@ -29,6 +32,6 @@ Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de re
 
 Se não for especificado, a imagem será usada sem dimensionamento.
 
-## Example {#section-d5526953d6434c58bb2388bd936c13b5}
+## Exemplo {#section-d5526953d6434c58bb2388bd936c13b5}
 
 [!DNL http://server/is/agm/myRootId/myImageId?scale=.5]
