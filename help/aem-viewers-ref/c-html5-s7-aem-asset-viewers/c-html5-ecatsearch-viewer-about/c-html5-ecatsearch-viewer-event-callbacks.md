@@ -1,26 +1,29 @@
 ---
 description: nulo
 seo-description: nulo
-seo-title: Retornos de chamada de Evento
+seo-title: Retornos de chamada de evento
 solution: Experience Manager
-title: Retornos de chamada de Evento
+title: Retornos de chamada de evento
 topic: Dynamic media
 uuid: 0c4c4111-5ad7-458c-afa2-d551b5987322
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Retornos de chamada de Evento{#event-callbacks}
+# Retornos de chamada do evento{#event-callbacks}
 
 O visualizador suporta retornos de chamada do evento JavaScript que a página da Web usa para rastrear o processo de inicialização do visualizador ou o comportamento do tempo de execução.
 
-Os manipuladores de retorno de chamada são atribuídos transmitindo nomes de eventos e funções de manipulador correspondentes com a `handlers` propriedade para o objeto `config` JSON no construtor do visualizador. Como alternativa, é possível usar o método `setHandlers()` API.
+Os manipuladores de retorno de chamada são atribuídos transmitindo nomes de eventos e funções de manipulador correspondentes com a propriedade `handlers` para o objeto JSON `config` no construtor do visualizador. Como alternativa, é possível usar o método da API `setHandlers()`.
 
 Os eventos do visualizador suportados incluem:
 
-* `initComplete` - aciona quando a inicialização do visualizador é concluída e todos os componentes internos são criados, para que seja possível usar a `getComponent()` API. O manipulador de retorno de chamada não aceita nenhum argumento.
+* `initComplete` - dispara quando a inicialização do visualizador é concluída e todos os componentes internos são criados, para que seja possível usar a  `getComponent()` API. O manipulador de retorno de chamada não aceita nenhum argumento.
 
 * `trackEvent` - dispara cada vez que um evento ocorre dentro do visualizador que pode ser manipulado por um sistema de rastreamento de eventos, como o Adobe Analytics. O manipulador de retorno de chamada aceita os seguintes argumentos:
 
