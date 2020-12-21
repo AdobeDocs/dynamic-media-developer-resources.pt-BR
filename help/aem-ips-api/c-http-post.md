@@ -67,7 +67,7 @@ O trabalho de upload consiste em um ou mais POSTs HTTP que usam um `jobHandle` c
 >Todas as solicitações de POST para um trabalho de upload devem se originar do mesmo endereço IP.
 
 | Parte POST HTTP | Descrição |
-|-|-
+|-|-|
 |`auth` |  Obrigatório. Um documento authHeader XML que especifica as informações de autenticação e cliente. Consulte **Solicitar autenticação** em [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 |`file params` |  Opcional. Você pode incluir um ou mais arquivos para carregar com cada solicitação de POST. Cada parte do arquivo pode incluir um parâmetro de nome de arquivo no cabeçalho Content-Disposition usado como o nome de arquivo do público alvo no IPS se nenhum parâmetro `uploadPostParams/fileName` for especificado. |
 
