@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: ControlBar.transition
+description: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
 topic: Dynamic media
 uuid: 803df8d4-6fb9-49ef-a097-c883d4115fad
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
