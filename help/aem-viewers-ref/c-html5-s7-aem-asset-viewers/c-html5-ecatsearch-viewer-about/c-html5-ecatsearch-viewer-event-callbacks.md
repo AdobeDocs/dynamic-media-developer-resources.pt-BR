@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Retornos de chamada de evento
+description: Retornos de chamada de evento
 solution: Experience Manager
 title: Retornos de chamada de evento
 topic: Dynamic media
 uuid: 0c4c4111-5ad7-458c-afa2-d551b5987322
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
