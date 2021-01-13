@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guia de referência de visualizadores do Dynamic Media
 translation-type: tm+mt
-source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 1%
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalação de vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
 + Notas de versão do visualizador {#viewers-release-notes}
-   + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-rn-06-03-20.md)
+   + [Notas de versão dos visualizadores (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Arquivar {#archive}
       + [Arquivo de notas de versão](c-release-notes/c-archive/c-archive.md)
+      + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Notas de versão dos visualizadores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
@@ -35,6 +36,8 @@ ht-degree: 1%
       + [Notas de versão do Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Notas de versão do Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notas de compatibilidade](c-compatibility-notes.md)
++ [Acessibilidade e navegação do teclado](c-keyboard-accessibility.md)
++ [Tutorial do SDK do visualizador](c-tutorial.md)
 + Visualizadores para AEM Assets e Dynamic Media Classic {#viewers-aem-assets-dmc}
    + [Visualizadores para AEM Assets e Dynamic Media Classic](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + Zoom básico {#basic-zoom}
@@ -939,5 +942,4 @@ ht-degree: 1%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [Acessibilidade e navegação do teclado](c-keyboard-accessibility.md)
-+ [Tutorial do SDK do visualizador](c-tutorial.md)
+
