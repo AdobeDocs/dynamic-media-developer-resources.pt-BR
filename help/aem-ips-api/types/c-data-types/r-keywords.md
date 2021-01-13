@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Palavras-chave
+description: Palavras-chave
 solution: Experience Manager
 title: Palavras-chave
 topic: Scene7 Image Production System API
 uuid: 147b7dcd-dd6d-4530-b046-18925e851eb1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 2%
 
 ---
