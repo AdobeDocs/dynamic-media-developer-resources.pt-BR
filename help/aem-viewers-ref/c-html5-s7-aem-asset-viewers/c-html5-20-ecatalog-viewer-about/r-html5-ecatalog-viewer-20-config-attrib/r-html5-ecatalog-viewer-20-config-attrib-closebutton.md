@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: Tecla
+description: Tecla
 solution: Experience Manager
 title: Tecla
 topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '41'
 ht-degree: 4%
 
 ---
