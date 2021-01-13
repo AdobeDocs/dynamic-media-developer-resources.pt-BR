@@ -1,15 +1,13 @@
 ---
-description: nulo
-seo-description: nulo
-seo-title: direção
+description: direção
 solution: Experience Manager
 title: direção
 topic: Dynamic media
 uuid: 185824c5-d6f2-4e1b-99ac-726a295ec5f4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|esquerda|direita  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica a forma como as páginas são exibidas na visualização principal e nas miniaturas. Ela também especifica a forma como o usuário interage com a interface do usuário do visualizador para alterar entre quadros do catálogo. </p> <p>Quando <span class="codeph"> à esquerda </span> é usado, ele define um alinhamento à direita para a página inicial e o alinhamento à esquerda para a última página. Ele costuma subimagens de página individuais para ordem de renderização da esquerda para a direita. Ele também define a visualização principal para usar a animação de slide da direita para a esquerda para avançar no catálogo (no caso de <span class="codeph"> PageView.frametransition </span> estar definida como slide). Finalmente, as miniaturas são definidas para uma ordem de preenchimento da esquerda para a direita. </p> <p>Da mesma forma, quando <span class="codeph"> direita </span> é usado, ele define um alinhamento à esquerda para a página inicial e o alinhamento à direita para a última página. Ele costuma subimagens de página individuais para ordem de renderização da direita para a esquerda. Ele também define a visualização principal para usar a animação de slide da esquerda para a direita para avançar o catálogo (no caso de <span class="codeph"> PageView.frametransition </span> estar definido como slide). Por fim, ele inverte a ordem das miniaturas para que a visualização das miniaturas seja preenchida na direção direita para a esquerda, de cima para baixo. </p> <p>Quando <span class="codeph"> auto </span> estiver definido, o visualizador aplicará o modo <span class="codeph"> direito </span> quando a localidade estiver definida como <span class="codeph"> ja; </span>caso contrário, ele usa o modo <span class="codeph"> esquerdo </span>. </p> </td> 
+   <td colname="col2"> <p>Especifica a forma como as páginas são exibidas na visualização principal e nas miniaturas. Ela também especifica a forma como o usuário interage com a interface do usuário do visualizador para alterar entre quadros do catálogo. </p> <p>Quando <span class="codeph"> à esquerda </span> é usado, ele define um alinhamento à direita para a página inicial e o alinhamento à esquerda para a última página. Ele costuma subimagens de página individuais para ordem de renderização da esquerda para a direita. Ele também define a visualização principal para usar a animação de slide da direita para a esquerda para avançar no catálogo (no caso de <span class="codeph"> PageView.frametransition </span> estar definida como slide). Finalmente, as miniaturas são definidas para uma ordem de preenchimento da esquerda para a direita. </p> <p>Da mesma forma, quando <span class="codeph"> direita </span> é usado, ele define um alinhamento à esquerda para a página inicial e o alinhamento à direita para a última página. Ele costuma subimagens de página individuais para ordem de renderização da direita para a esquerda. Ele também define a visualização principal para usar a animação de slide da esquerda para a direita para avançar o catálogo (no caso de <span class="codeph"> PageView.frametransition </span> estar definido como slide). Finalmente, ele inverte a ordem das miniaturas para que a visualização das miniaturas seja preenchida na direção direita para esquerda, de cima para baixo. </p> <p>Quando <span class="codeph"> auto </span> estiver definido, o visualizador aplicará o modo <span class="codeph"> direito </span> quando a localidade estiver definida como <span class="codeph"> ja; </span>caso contrário, ele usa o modo <span class="codeph"> esquerdo </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
