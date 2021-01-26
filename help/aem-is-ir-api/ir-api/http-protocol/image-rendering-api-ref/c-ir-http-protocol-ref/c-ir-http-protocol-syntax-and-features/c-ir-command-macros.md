@@ -4,12 +4,12 @@ seo-description: As macros de comando fornecem atalhos nomeados para conjuntos d
 seo-title: Macros de comando *
 solution: Experience Manager
 title: Macros de comando *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
