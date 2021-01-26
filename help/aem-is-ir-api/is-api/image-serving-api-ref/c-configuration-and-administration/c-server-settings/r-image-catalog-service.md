@@ -4,10 +4,10 @@ seo-description: Use essas configurações de servidor para o serviço de catál
 seo-title: Serviço de catálogo de imagens
 solution: Experience Manager
 title: Serviço de catálogo de imagens
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601b1c30-7d51-448b-97b5-5ad9cb383975
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
