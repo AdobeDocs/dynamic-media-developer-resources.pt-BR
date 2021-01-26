@@ -4,12 +4,12 @@ seo-description: As macros de comando fornecem atalhos nomeados para conjuntos d
 seo-title: Macros de comando
 solution: Experience Manager
 title: Macros de comando
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As ma
  </tr> 
 </table>
 
-` *`O `*` nome não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
+`*`O `*` nome não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
 As macros podem ser chamadas em qualquer lugar em uma solicitação depois de &#39;?&#39;, bem como em qualquer lugar dentro de um campo `catalog::Modifier` ou `catalog::PostModifier`. As macros podem representar apenas um ou mais comandos completos do Serviço de Imagens e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 
