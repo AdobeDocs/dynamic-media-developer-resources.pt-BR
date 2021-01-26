@@ -4,13 +4,13 @@ seo-description: Informações da imagem Digimarc. Habilita a incorporação da 
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '248'
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ Informações da imagem Digimarc. Habilita a incorporação da Digimarc e especi
 
 Quatro valores inteiros, separados por vírgulas.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`O `*` tipo permite a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
+`*`O `*` tipo permite a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -48,7 +48,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>ID da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-` *`sinaliza `*` um campo de bit com três valores. Defina o bit 0 para indicar o conteúdo protegido contra cópia, o bit 1 para indicar o conteúdo restrito e o bit 2 para indicar o conteúdo adulto:
+`*`sinaliza `*` um campo de bit com três valores. Defina o bit 0 para indicar o conteúdo protegido contra cópia, o bit 1 para indicar o conteúdo restrito e o bit 2 para indicar o conteúdo adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +73,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>Protegido por cópia. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>Restrito. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido por cópia, restrito. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-A interpretação de ` *`val1`*` e ` *`val2`*` depende de ` *`type`*`:
+A interpretação de `*`val1`*` e `*`val2`*` depende de `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -130,7 +130,7 @@ A interpretação de ` *`val1`*` e ` *`val2`*` depende de ` *`type`*`:
    <td> <p>Não usado. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
    <td> <p>Não usado. </p> </td> 
   </tr> 
