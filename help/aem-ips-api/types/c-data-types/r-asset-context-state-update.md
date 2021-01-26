@@ -4,10 +4,10 @@ seo-description: Defina um novo conjunto de sinalizadores de estado de publicaç
 seo-title: AssetContextStateUpdate
 solution: Experience Manager
 title: AssetContextStateUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 74bc693f-1ce9-4dcf-92f5-1177668ea3ef
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
@@ -23,6 +23,6 @@ Defina um novo conjunto de sinalizadores de estado de publicação para o contex
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Manipule o ativo que deseja atualizar. |
-| ` *`contextStateUpdateArray`*` | `types:ContextStateUpdateArray` | Uma matriz de estados de contato de publicação para o ativo que você deseja atualizar. |
+| `*`assetHandle`*` | `xsd:string` | Manipule o ativo que deseja atualizar. |
+| `*`contextStateUpdateArray`*` | `types:ContextStateUpdateArray` | Uma matriz de estados de contato de publicação para o ativo que você deseja atualizar. |
 
