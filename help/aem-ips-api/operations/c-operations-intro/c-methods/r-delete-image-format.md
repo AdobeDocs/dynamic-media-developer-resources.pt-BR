@@ -4,10 +4,10 @@ seo-description: Exclui um formato de imagem. Obtenha o identificador de formato
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -34,8 +34,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o formato de imagem que você deseja excluir. |
-| ` *`imageFormatHandle`*` | `xsd:string` | Sim | O identificador do formato de imagem que você deseja excluir. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o formato de imagem que você deseja excluir. |
+| `*`imageFormatHandle`*` | `xsd:string` | Sim | O identificador do formato de imagem que você deseja excluir. |
 
 **Saída (deleteImageFormatParam)**
 
