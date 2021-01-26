@@ -4,12 +4,12 @@ seo-description: Os campos a seguir são compatíveis com catálogos de conteúd
 seo-title: Dados de conteúdo estático
 solution: Experience Manager
 title: Dados de conteúdo estático
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a890ffef-55b2-4880-afa5-ced8598642d1
 translation-type: tm+mt
-source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
