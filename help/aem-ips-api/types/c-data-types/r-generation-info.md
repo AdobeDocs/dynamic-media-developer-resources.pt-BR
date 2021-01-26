@@ -4,10 +4,10 @@ seo-description: Propriedades do arquivo PostScript.
 seo-title: GenerationInfo
 solution: Experience Manager
 title: GenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 166637e5-b981-4f64-8d92-5fce4f1b20d2
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -25,8 +25,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`motor`*` | `xsd:string` | Mecanismo de geração usado (consulte &quot;Informações de geração&quot; para obter os valores). |
-| ` *`originador`*` | `types:Asset` | Registro de ativo do ativo principal usado na geração. |
-| ` *`gerado`*` | `types:Asset` | Registro de ativo do ativo gerado. |
-| ` *`attributeArray`*` | `types:GenerationAttributeArray` | Matriz de atributos associados ao processo de geração. |
+| `*`motor`*` | `xsd:string` | Mecanismo de geração usado (consulte &quot;Informações de geração&quot; para obter os valores). |
+| `*`originador`*` | `types:Asset` | Registro de ativo do ativo principal usado na geração. |
+| `*`gerado`*` | `types:Asset` | Registro de ativo do ativo gerado. |
+| `*`attributeArray`*` | `types:GenerationAttributeArray` | Matriz de atributos associados ao processo de geração. |
 
