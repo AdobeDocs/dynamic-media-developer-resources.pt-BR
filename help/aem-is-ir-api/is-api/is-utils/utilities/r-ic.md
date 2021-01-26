@@ -4,12 +4,12 @@ seo-description: Utilitário de conversão de imagem.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Se não estiver convertendo imagens grandes, não é necessário definir os par�
 
 ## Uso {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -256,7 +256,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> BMP</b> <p> (Bitmap do Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> descompactado | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica suporte para RGB de 16 bits (5-5-5 e 5-6-5 bits/canal). </p> </td> 
   </tr> 
@@ -291,7 +291,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzaA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> descompactado | comprimido </p> </td> 
    <td> <p> Somente imagem mesclada; camadas e canais extras são ignorados. </p> </td> 
   </tr> 
@@ -305,7 +305,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compactado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
