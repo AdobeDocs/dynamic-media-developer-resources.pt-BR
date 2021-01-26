@@ -4,12 +4,12 @@ seo-description: Remove ativos de um projeto. Não destrói os ativos.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com os ativos que você deseja mover. |
-| ` *`projectHandle`*` | `xsd:string` | Sim | O identificador dos ativos do projeto que você deseja mover. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja mover. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com os ativos que você deseja mover. |
+| `*`projectHandle`*` | `xsd:string` | Sim | O identificador dos ativos do projeto que você deseja mover. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja mover. |
 
 **Saída (removeProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | Contagem de ativos removida com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou remover ativos do projeto. |
-| ` *`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou remover ativos do projeto. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou removê-los do projeto. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou removê-los do projeto. |
+| `*`successCount`*` | `xsd:int` | Sim | Contagem de ativos removida com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou remover ativos do projeto. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou remover ativos do projeto. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou removê-los do projeto. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou removê-los do projeto. |
 
 ## Exemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
