@@ -4,10 +4,10 @@ seo-description: Cria um conjunto de imagens.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -40,17 +40,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa à qual o conjunto de imagens pertence. |
-| ` *`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do conjunto de imagens. |
-| ` *`type`*` | `xsd:string` | Sim | Tipo de conjunto de imagens. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Não | Manuseie o ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa à qual o conjunto de imagens pertence. |
+| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta. |
+| `*`name`*` | `xsd:string` | Sim | Nome do conjunto de imagens. |
+| `*`type`*` | `xsd:string` | Sim | Tipo de conjunto de imagens. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Não | Manuseie o ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
 
 **Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sim | A alça do novo conjunto de imagens. |
+| `*`assetHandle`*` | `xsd:string` | Sim | A alça do novo conjunto de imagens. |
 
 ## Exemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 
