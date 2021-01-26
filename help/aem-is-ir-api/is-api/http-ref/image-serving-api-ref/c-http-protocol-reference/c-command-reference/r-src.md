@@ -4,12 +4,12 @@ seo-description: Imagem da camada.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -43,10 +43,6 @@ Consulte [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pr
 As solicitações aninhadas ou incorporadas são fechadas por chaves. Prefixe uma solicitação incorporada de Serviço de imagem com `is`, uma solicitação incorporada de Renderização de imagem com `ir` e uma solicitação de renderização de gráficos FXG com `fxg`. Uma solicitação para um servidor externo será assumida se nenhum prefixo for especificado.
 
 Consulte [Aninhamento e incorporação de solicitação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b).
-
->[!NOTE]
->
->A renderização de gráficos FXG está disponível somente no ambiente hospedado da Scene7 e pode exigir licenciamento adicional. Entre em contato com o Suporte da Scene7 para obter mais informações.
 
 ## Propriedades {#section-2c22bb89a35d470f833df8ba898efd93}
 
