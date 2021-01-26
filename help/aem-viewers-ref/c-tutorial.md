@@ -1,15 +1,12 @@
 ---
-description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
-seo-description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
-seo-title: Tutorial do SDK do visualizador
+description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada fornecido pela Adobe Dynamic Media seja incorporado em páginas da Web.
 solution: Experience Manager
 title: Tutorial do SDK do visualizador
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Tutorial do SDK do visualizador{#viewer-sdk-tutorial}
 
-O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que conteúdo de mídia avançada fornecido pela Adobe Scene7 seja incorporado em páginas da Web.
+O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada fornecido pela Adobe Dynamic Media seja incorporado em páginas da Web.
 
-Por exemplo, o SDK fornece zoom e panorâmica interativos. Ele também fornece visualização de 360° e reprodução de vídeo de ativos que foram carregados para a Adobe Scene7 por meio do aplicativo de backend chamado SPS (Scene7 Publishing System).
+Por exemplo, o SDK fornece zoom e panorâmica interativos. Ele também fornece visualização de 360° e reprodução de vídeo de ativos que foram carregados para a Adobe Dynamic Media por meio do aplicativo de backend chamado SPS (Scene7 Publishing System).
 
 Embora os componentes dependam da funcionalidade HTML5, eles foram projetados para funcionar em dispositivos Android e Apple iOS e em desktops, incluindo o Internet Explorer e posterior. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas suportadas.
 
@@ -67,8 +64,8 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudá-lo a criar um visua
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Agora, você adicionará botões de zoom, zoom e zoom e redefinição de zoom ao
 
    Seu visualizador de zoom básico agora está completo.
 
-   Este tutorial do visualizador toca nos fundamentos do que o Scene7 Viewer SDK fornece. Ao trabalhar com o SDK, você pode usar os vários componentes padrão para criar e criar com facilidade experiências de visualização avançadas para suas audiências de públicos alvos.
+   Este tutorial do visualizador toca nos fundamentos do que o Dynamic Media Viewer SDK fornece. Ao trabalhar com o SDK, você pode usar os vários componentes padrão para criar e criar com facilidade experiências de visualização avançadas para suas audiências de públicos alvos.
 
