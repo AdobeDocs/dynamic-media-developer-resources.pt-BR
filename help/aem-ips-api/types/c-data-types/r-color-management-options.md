@@ -4,12 +4,12 @@ seo-description: Opções especificadas durante o upload. Afeta como a cor é ge
 seo-title: ColorManagementOptions
 solution: Experience Manager
 title: ColorManagementOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`colorManagement`*` | `xsd:string` | Escolha do modo de gerenciamento de cores. |
-| ` *`sourceProfileHandle`*` | `xsd:string` | Identificador do perfil de origem. |
-| ` *`outputProfileHandle`*` | `xsd:string` | Alça do perfil de saída. |
+| `*`colorManagement`*` | `xsd:string` | Escolha do modo de gerenciamento de cores. |
+| `*`sourceProfileHandle`*` | `xsd:string` | Identificador do perfil de origem. |
+| `*`outputProfileHandle`*` | `xsd:string` | Alça do perfil de saída. |
 
