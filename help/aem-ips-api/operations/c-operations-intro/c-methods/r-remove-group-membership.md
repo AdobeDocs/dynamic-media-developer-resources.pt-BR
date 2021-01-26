@@ -4,10 +4,10 @@ seo-description: Remove usuários de uma matriz de grupos.
 seo-title: removeGroupMember
 solution: Experience Manager
 title: removeGroupMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -36,8 +36,8 @@ Remove usuários de uma matriz de grupos.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Não | O identificador da empresa cuja associação de grupo você deseja remover. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos dos quais você deseja que a empresa seja removida. |
+| `*`userHandle`*` | `xsd:string` | Não | O identificador da empresa cuja associação de grupo você deseja remover. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos dos quais você deseja que a empresa seja removida. |
 
 **Saída (removeGroupMemberReturn)**
 
