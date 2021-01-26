@@ -1,15 +1,12 @@
 ---
-description: Este documento descreve o protocolo HTTP para a renderização de imagem Scene7.
-seo-description: Este documento descreve o protocolo HTTP para a renderização de imagem Scene7.
-seo-title: Introdução
+description: Este documento descreve o protocolo HTTP para a renderização de imagem Dynamic Media.
 solution: Experience Manager
 title: Introdução
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 0%
 
 # Introdução{#introduction}
 
-Este documento descreve o protocolo HTTP para a renderização de imagem Scene7.
+Este documento descreve o protocolo HTTP para a renderização de imagem Dynamic Media.
 
-Apenas são descritos os aspectos do protocolo que se encontram à disposição do público. O servidor pode suportar comandos adicionais que são reservados para uso pelo software cliente Scene7.
+Apenas são descritos os aspectos do protocolo que se encontram à disposição do público. O servidor pode suportar comandos adicionais que são reservados para uso pelo software cliente Dynamic Media.
 
 **Audiência pretendida**
 
-Este documento destina-se a programadores experientes e desenvolvedores de sites da Web que desejam utilizar a Renderização de imagem da Scene7 para um site ou aplicativo personalizado.
+Este documento destina-se a programadores experientes e desenvolvedores de sites da Web que desejam utilizar a Renderização de imagem da Dynamic Media para um site ou aplicativo personalizado.
 
-Pressupõe-se que o leitor esteja familiarizado com a criação e renderização de imagens da Scene7, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
+Pressupõe-se que o leitor esteja familiarizado com a criação e renderização de imagens da Dynamic Media, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
 
 **convenções de documento**
 
@@ -100,4 +97,4 @@ Pressupõe-se que o leitor esteja familiarizado com a criação e renderização
 
 ** *`MSS`* ** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
 
-** *`vignette`* ** Uma imagem preparada na Criação de Imagens do Scene7 para uso com a Renderização de Imagens.
+** *`vignette`* ** Uma imagem preparada na Criação de Imagens do Dynamic Media para uso com a Renderização de Imagens.
