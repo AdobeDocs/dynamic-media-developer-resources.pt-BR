@@ -4,10 +4,10 @@ seo-description: Obtém os logs de trabalho de um ativo. Os itens retornados na 
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -39,14 +39,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | O identificador para o ativo com os logs de trabalho a serem recuperados. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador para o ativo com os logs de trabalho a serem recuperados. |
 
 **Saída (getAssetJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:AssetJobLogArray` | Sim | Matriz de log de trabalhos. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sim | Matriz de log de trabalhos. |
 
 ## Exemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
