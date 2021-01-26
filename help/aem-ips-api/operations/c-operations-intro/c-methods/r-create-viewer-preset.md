@@ -4,10 +4,10 @@ seo-description: Cria uma visualização predefinida que determina o que um usu�
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -34,17 +34,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém as predefinições e os ativos do visualizador. |
-| ` *`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta que contém os ativos. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do visualizador. |
-| ` *`type`*` | `xsd:string` | Sim | Tipo de visualizador. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e alças de imagens às quais você está aplicando predefinições. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém as predefinições e os ativos do visualizador. |
+| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta que contém os ativos. |
+| `*`name`*` | `xsd:string` | Sim | Nome do visualizador. |
+| `*`type`*` | `xsd:string` | Sim | Tipo de visualizador. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e alças de imagens às quais você está aplicando predefinições. |
 
 **Saída (createViewerPresetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Sim | Manuseie a predefinição para o visualizador. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sim | Manuseie a predefinição para o visualizador. |
 
 ## Exemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 
