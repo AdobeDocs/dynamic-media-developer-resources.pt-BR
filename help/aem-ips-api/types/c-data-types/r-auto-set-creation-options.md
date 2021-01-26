@@ -4,10 +4,10 @@ seo-description: Lista de script de geração de conjunto automática para traba
 seo-title: AutoSetCreationOptions
 solution: Experience Manager
 title: AutoSetCreationOptions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -25,5 +25,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`autoSetsArray`*` | `types:HandleArray` | A matriz de [!DNL PropertySet] trata da definição dos scripts de geração de conjunto automático aplicados durante o upload. |
+| `*`autoSetsArray`*` | `types:HandleArray` | A matriz de [!DNL PropertySet] trata da definição dos scripts de geração de conjunto automático aplicados durante o upload. |
 
