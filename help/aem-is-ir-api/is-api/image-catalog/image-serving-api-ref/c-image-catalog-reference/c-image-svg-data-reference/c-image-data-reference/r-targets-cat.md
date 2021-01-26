@@ -4,12 +4,12 @@ seo-description: Zoom nos dados do público alvo. Nenhuma ou mais propriedades d
 seo-title: Públicos alvos
 solution: Experience Manager
 title: Públicos alvos
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Público alvo. *`num`*.rect é necessário para cada público alvo de zoom e dev
 
 Para aplicativos que envolvam os clientes do visualizador de giro e folheto, os públicos alvos de zoom devem ser definidos no mesmo registro de catálogo que define o conjunto de imagens. Quaisquer definições de público alvo de zoom nos registros de catálogo dos membros do conjunto de imagens são ignoradas pelo visualizador.
 
-Os visualizadores do Scene7 esperam públicos alvos de zoom nas coordenadas da imagem de resolução completa já ajustada pelos comandos de `catalog::Modifier`.
+Os visualizadores do Dynamic Media esperam públicos alvos de zoom nas coordenadas da imagem de resolução completa já ajustada pelos comandos de `catalog::Modifier`.
 
 ## Propriedades {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
