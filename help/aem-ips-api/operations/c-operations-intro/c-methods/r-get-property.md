@@ -4,12 +4,12 @@ seo-description: Obtém valores de string das propriedades do sistema relacionad
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -48,13 +48,13 @@ As propriedades do sistema suportadas incluem:
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`name`*` | `xsd:string` | Sim | O nome da propriedade a ser obtida. |
+| `*`name`*` | `xsd:string` | Sim | O nome da propriedade a ser obtida. |
 
 **Saída (getPropertyReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`value`*` | `xsd:string` | Sim | O valor da propriedade. |
+| `*`value`*` | `xsd:string` | Sim | O valor da propriedade. |
 
 ## Exemplos {#section-3f80a78dd60c404181b34d3a912d7a36}
 
