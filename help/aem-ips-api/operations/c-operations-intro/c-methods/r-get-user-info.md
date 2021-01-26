@@ -4,12 +4,12 @@ seo-description: Obtém informações sobre um usuário. Use o endereço de emai
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -39,14 +39,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Não | Manipule o usuário cujas informações você deseja retornar. |
-| ` *`email`*` | `xsd:string` | Não | Endereço de email do usuário. |
+| `*`userHandle`*` | `xsd:string` | Não | Manipule o usuário cujas informações você deseja retornar. |
+| `*`email`*` | `xsd:string` | Não | Endereço de email do usuário. |
 
 **Saída (getUserInfoReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userInfo`*` | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se o usuário é válido e quando a senha do usuário expira. |
+| `*`userInfo`*` | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se o usuário é válido e quando a senha do usuário expira. |
 
 ## Exemplos {#section-98d77a2e360a438dbe240099bea26a65}
 
