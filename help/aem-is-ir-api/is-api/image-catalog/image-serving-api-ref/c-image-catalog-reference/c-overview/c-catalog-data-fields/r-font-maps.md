@@ -4,12 +4,12 @@ seo-description: Os campos a seguir são reconhecidos nos arquivos do mapa de fo
 seo-title: Mapas de fonte
 solution: Experience Manager
 title: Mapas de fonte
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
 translation-type: tm+mt
-source-git-commit: e1129b9c05eb97551a358d1da0a19a9e7950844b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
