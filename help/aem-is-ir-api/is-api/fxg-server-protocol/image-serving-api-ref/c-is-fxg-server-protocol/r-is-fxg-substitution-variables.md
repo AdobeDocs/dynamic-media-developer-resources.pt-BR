@@ -4,10 +4,10 @@ seo-description: As variáveis de substituição são usadas para transferir val
 seo-title: Variáveis de substituição
 solution: Experience Manager
 title: Variáveis de substituição
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -34,6 +34,6 @@ As variáveis de substituição são usadas para transferir valores do URL de so
 
 * Definições e referências de variáveis podem ocorrer na parte do query do URL da solicitação.
 * As variáveis são definidas como acima, semelhantes a outros comandos IS; o &#39;$&#39; à esquerda identifica o comando como uma definição de variável.
-* O nome da variável ` *`var`*` faz distinção entre maiúsculas e minúsculas e pode consistir em qualquer combinação de letras, números, &#39;-&#39; e &#39;_&#39;.
+* O nome da variável `*`var`*` faz distinção entre maiúsculas e minúsculas e pode consistir em qualquer combinação de letras, números, &#39;-&#39; e &#39;_&#39;.
 * O valor importante deve ser codificado em URL de passagem única para transmissão segura HTTP.
 
