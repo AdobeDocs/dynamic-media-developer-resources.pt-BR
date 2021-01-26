@@ -1,15 +1,15 @@
 ---
-description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Scene7.
-seo-description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Scene7.
+description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
+seo-description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
 seo-title: Prefácio de administração do servidor
 solution: Experience Manager
 title: Prefácio de administração do servidor
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Prefácio de administração do servidor{#server-administration-preface}
 
-Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Scene7.
+Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
 
 **Audiência pretendida**
 
-Esta documentação destina-se aos administradores de sistema e aos webmasters que precisam instalar, configurar e administrar a Renderização de imagem Scene7.
+Esta documentação destina-se aos administradores de sistema e aos webmasters que precisam instalar, configurar e administrar a Renderização de imagem Dynamic Media.
 
 **convenções de documento**
 
