@@ -4,10 +4,10 @@ seo-description: Caminho do clipe de camada. Especifica um caminho de clipe para
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -36,13 +36,13 @@ Caminho do clipe de camada. Especifica um caminho de clipe para a camada atual.
 
 Todas as partes da camada que estiverem fora da área definida por `clipPath=` serão renderizadas de forma transparente.
 
-` *``*` pathName é o nome de um caminho incorporado à imagem de origem da camada. O caminho é automaticamente transformado para manter o alinhamento relativo com o conteúdo da imagem. Se mais de um ` *`pathName`*` for especificado, o servidor recortará a imagem para a interseção desses caminhos. Qualquer ` *`pathName`*` não encontrado na imagem de origem é ignorado.
+`*``*` pathName é o nome de um caminho incorporado à imagem de origem da camada. O caminho é automaticamente transformado para manter o alinhamento relativo com o conteúdo da imagem. Se mais de um `*`pathName`*` for especificado, o servidor recortará a imagem para a interseção desses caminhos. Qualquer `*`pathName`*` não encontrado na imagem de origem é ignorado.
 
 >[!NOTE]
 >
->Somente strings ASCII são suportadas para ` *`pathName`*`.
+>Somente strings ASCII são suportadas para `*`pathName`*`.
 
-` *``*` pathDefinitionpermite especificar dados de caminho explícitos em coordenadas de pixel de camada.
+`*``*` pathDefinitionpermite especificar dados de caminho explícitos em coordenadas de pixel de camada.
 
 Se `size=` for especificado e não for 0,0, a camada será pré-dimensionada. Nesse caso, as coordenadas de caminho são relativas ao canto superior esquerdo do retângulo de camada e a camada é posicionada com base em `origin=` ou em seu padrão. Todas as regiões do caminho fora do retângulo de camada permanecem transparentes.
 
@@ -52,9 +52,9 @@ Se `size=` não for especificado para uma cor sólida ou camada de texto, a cama
 >
 >`scale=`,  `rotate=`e  `anchor=` comandos não são permitidos para camadas de cores sólidas de autodimensionamento.
 
-` *``*` pathDefinitionaceita uma string semelhante ao valor do  `d=` atributo do  `<path>` elemento SVG, exceto que vírgulas são usadas em vez de espaços para separar valores. ` *``*` pathDefinitionpode incluir um ou mais subcaminhos de loop fechado.
+`*``*` pathDefinitionaceita uma string semelhante ao valor do  `d=` atributo do  `<path>` elemento SVG, exceto que vírgulas são usadas em vez de espaços para separar valores. `*``*` pathDefinitionpode incluir um ou mais subcaminhos de loop fechado.
 
-Os seguintes comandos de caminho são suportados em ` *`pathDefinition`*`:
+Os seguintes comandos de caminho são suportados em `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
