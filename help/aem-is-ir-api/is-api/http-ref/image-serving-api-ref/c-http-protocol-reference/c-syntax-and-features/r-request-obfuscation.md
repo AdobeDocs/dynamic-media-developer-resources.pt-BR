@@ -4,10 +4,10 @@ seo-description: O conteúdo de toda a parte dos modificadores da string de soli
 seo-title: Ofuscação de solicitação
 solution: Experience Manager
 title: Ofuscação de solicitação
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
