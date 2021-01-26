@@ -4,10 +4,10 @@ seo-description: Obtém uma matriz de membros que estão em um conjunto de image
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -42,14 +42,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa que contém o conjunto de imagens. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo do conjunto de imagens. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa que contém o conjunto de imagens. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo do conjunto de imagens. |
 
 **Saída (getImageSetMembersReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`memberArray`*` | `types:ImageSetMemberArray` | Não | Matriz de membros do conjunto de imagens. |
+| `*`memberArray`*` | `types:ImageSetMemberArray` | Não | Matriz de membros do conjunto de imagens. |
 
 ## Exemplos {#section-888a9a78033346f39b171229de93dfa0}
 
