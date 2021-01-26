@@ -4,12 +4,12 @@ seo-description: Cor do plano de fundo. Especifica a cor subtrativa para textura
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Cor do plano de fundo. Especifica a cor subtrativa para texturas e decalques col
 
 O algoritmo de colorização de textura da renderização de imagem é bastante simples - os valores de componente de `bgc=` são subtraídos dos pixels de textura, `color=` é adicionado e, por fim, o resultado é cortado para `0,0,0` e `255,255,255`.
 
-Para usos típicos de colorização de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. A Criação de imagens do Scene7 fornece ferramentas semiautomáticas que extraem valores de cor razoáveis `bgc=` de imagens de texturas.
+Para usos típicos de colorização de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. A Criação de imagens do Dynamic Media fornece ferramentas semiautomáticas que extraem valores de cor razoáveis `bgc=` de imagens de texturas.
 
 Quando um material de textura é aplicado a um objeto de vinheta não texturizável, `bgc=` é aplicado como a cor do primeiro plano se `color=` não for especificado.
 
