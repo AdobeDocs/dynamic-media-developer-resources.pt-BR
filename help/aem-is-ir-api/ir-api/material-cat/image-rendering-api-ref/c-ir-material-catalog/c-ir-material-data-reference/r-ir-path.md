@@ -4,12 +4,12 @@ seo-description: Caminho do arquivo de imagem. Caminho relativo e nome de um arq
 seo-title: Caminho *
 solution: Experience Manager
 title: Caminho *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Sequência de caracteres de texto. Obrigatório para materiais de textura e deca
 
 ## Formatos de arquivo suportados {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-A renderização de imagem suporta os mesmos formatos de imagem de origem que o Scene7 Image Server.
+A renderização de imagem suporta os mesmos formatos de imagem de origem que o Dynamic Media Image Server.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Scene7. O Serviço de imagens inclui o utilitário Conversor de imagens (IC) que cria imagens PTIFF de qualquer formato compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O Serviço de imagens inclui o utilitário Conversor de imagens (IC) que cria imagens PTIFF de qualquer formato compatível.
 
 Consulte a descrição do utilitário IC na documentação do Servidor de imagens para obter uma lista completa dos formatos de arquivo suportados.
 
