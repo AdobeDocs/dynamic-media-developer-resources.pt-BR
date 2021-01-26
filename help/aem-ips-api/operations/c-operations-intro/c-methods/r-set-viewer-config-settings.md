@@ -4,10 +4,10 @@ seo-description: Anexa as configurações do visualizador a um ativo. Eles podem
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do ativo. |
-| ` *`type`*` | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
+| `*`name`*` | `xsd:string` | Sim | Nome do ativo. |
+| `*`type`*` | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
 
 **Saída (setViewerConfigSettingsParam)**
 
