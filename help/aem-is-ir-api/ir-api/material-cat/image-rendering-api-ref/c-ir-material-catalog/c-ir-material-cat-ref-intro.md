@@ -1,15 +1,15 @@
 ---
-description: Este documento descreve o catálogo de materiais para a renderização de imagem do Scene7.
-seo-description: Este documento descreve o catálogo de materiais para a renderização de imagem do Scene7.
+description: Este documento descreve o catálogo de materiais para a renderização de imagem do Dynamic Media.
+seo-description: Este documento descreve o catálogo de materiais para a renderização de imagem do Dynamic Media.
 seo-title: Introdução
 solution: Experience Manager
 title: Introdução
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Introdução{#introduction}
 
-Este documento descreve o catálogo de materiais para a renderização de imagem do Scene7.
+Este documento descreve o catálogo de materiais para a renderização de imagem do Dynamic Media.
 
 **Audiência pretendida**
 
-Este documento destina-se a programadores experientes e desenvolvedores de sites da Web que desejam utilizar a Renderização de imagem da Scene7 para um site ou aplicativo personalizado.
+Este documento destina-se a programadores experientes e desenvolvedores de sites da Web que desejam utilizar a Renderização de imagem da Dynamic Media para um site ou aplicativo personalizado.
 
-Pressupõe-se que o leitor esteja familiarizado com a criação e renderização de imagens da Scene7, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
+Pressupõe-se que o leitor esteja familiarizado com a criação e renderização de imagens da Dynamic Media, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
 
 **convenções de documento**
 
