@@ -1,15 +1,12 @@
 ---
-description: Vinhetas são imagens criadas com a Criação de imagens do Scene7 para uso com a Renderização de imagens.
-seo-description: Vinhetas são imagens criadas com a Criação de imagens do Scene7 para uso com a Renderização de imagens.
-seo-title: Vinhetas
+description: Vinhetas são imagens criadas com a Criação de imagens do Dynamic Media para uso com a Renderização de imagens.
 solution: Experience Manager
 title: Vinhetas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Vinhetas{#vignettes}
 
-Vinhetas são imagens criadas com a Criação de imagens do Scene7 para uso com a Renderização de imagens.
+Vinhetas são imagens criadas com a Criação de imagens do Dynamic Media para uso com a Renderização de imagens.
 
 O IR suporta dois tipos básicos de vinhetas, *2D* e *3D*. As cenas da sala normalmente são vinhetas 3D que podem renderizar reflexos, enquanto a maioria das outras cenas, como vestuário ou estofo, são normalmente vinhetas 2D que não têm capacidade de renderização de reflexo.
 
