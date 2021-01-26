@@ -4,10 +4,10 @@ seo-description: Procure ativos com base em seus critérios especificados.
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -240,8 +240,8 @@ Limite o tamanho do conjunto de dados com os parâmetros `responseFieldArray` ou
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | Não | Número de linhas que uma pesquisa retorna quando os registros por página não são limitados. |
-| ` *`assetArray`*` | `types:AssetArray` | Não | Ativos que a pesquisa retorna. |
+| `*`totalRows`*` | `xsd:int` | Não | Número de linhas que uma pesquisa retorna quando os registros por página não são limitados. |
+| `*`assetArray`*` | `types:AssetArray` | Não | Ativos que a pesquisa retorna. |
 
 ## Exemplos {#section-725484cc09b54772a838ad2cc930b94b}
 
