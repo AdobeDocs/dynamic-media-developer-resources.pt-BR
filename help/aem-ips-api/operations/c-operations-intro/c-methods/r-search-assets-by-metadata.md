@@ -4,12 +4,12 @@ seo-description: Pesquisa o repositório de índice de metadados para os termos 
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -127,8 +127,8 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | Não | Número de correspondências. |
-| ` *`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos retornados pela pesquisa. |
+| `*`totalRows`*` | `xsd:int` | Não | Número de correspondências. |
+| `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos retornados pela pesquisa. |
 
 ## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
