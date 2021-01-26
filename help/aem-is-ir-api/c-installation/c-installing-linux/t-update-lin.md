@@ -1,15 +1,15 @@
 ---
-description: Use este procedimento ao atualizar o Scene7 Image Serving no Linux.
-seo-description: Use este procedimento ao atualizar o Scene7 Image Serving no Linux.
+description: Use este procedimento ao atualizar o Dynamic Media Image Serving no Linux.
+seo-description: Use este procedimento ao atualizar o Dynamic Media Image Serving no Linux.
 seo-title: Atualização do IS 4.7.4 ou posterior
 solution: Experience Manager
 title: Atualização do IS 4.7.4 ou posterior
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 translation-type: tm+mt
-source-git-commit: 038f0f8f2c4f815e47749e0bab153c63e5396c91
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Atualização do IS 4.7.4 ou posterior{#updating-from-is-or-later}
 
-Use este procedimento ao atualizar o Scene7 Image Serving no Linux.
+Use este procedimento ao atualizar o Dynamic Media Image Serving no Linux.
 
 Se você estiver atualizando de uma versão mais antiga do Serviço de imagem, entre em contato com o suporte para o processo correto.
 
