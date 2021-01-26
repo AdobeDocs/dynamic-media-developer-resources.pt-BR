@@ -4,10 +4,10 @@ seo-description: A localização da string de texto permite que catálogos de im
 seo-title: Localização da string de texto
 solution: Experience Manager
 title: Localização da string de texto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 0%
@@ -124,7 +124,7 @@ O mapa de tradução de exemplo especifica que, nesse caso, *`defaultString`* de
 
 Vários valores *`locId`* podem ser associados a cada *`locale`* no mapa de conversão. Isso permite suportar variações específicas do país ou de região (por exemplo, inglês dos EUA vs inglês do Reino Unido) para selecionar *`stringElements`* enquanto lida com a maioria dos conteúdos com localidades de base comuns (por exemplo, inglês internacional).
 
-Para o nosso exemplo, queremos adicionar suporte para inglês específico dos EUA ( ` *`locId`* EUS`) e inglês específico do Reino Unido ( ` *`locId`* EUK`), para suportar a ortografia alternativa ocasional. Se a EUK ou a EUS não existissem, voltaríamos para a E. Da mesma forma, as variantes alemãs específicas da Áustria ( `DAT`) poderiam ser disponibilizadas quando necessário, ao devolver o alemão comum *`localizedStrings`* (marcado com `D`) a maior parte do tempo.
+Para o nosso exemplo, queremos adicionar suporte para inglês específico dos EUA ( `*`locId`* EUS`) e inglês específico do Reino Unido ( `*`locId`* EUK`), para suportar a ortografia alternativa ocasional. Se a EUK ou a EUS não existissem, voltaríamos para a E. Da mesma forma, as variantes alemãs específicas da Áustria ( `DAT`) poderiam ser disponibilizadas quando necessário, ao devolver o alemão comum *`localizedStrings`* (marcado com `D`) a maior parte do tempo.
 
 `attribute::LocaleStrMap` se pareceria com isto:
 
