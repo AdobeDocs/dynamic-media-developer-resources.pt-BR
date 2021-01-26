@@ -4,12 +4,12 @@ seo-description: O Serviço Web IPS é suportado por um conjunto de documentos W
 seo-title: Versões WSDL do Serviço Web IPS
 solution: Experience Manager
 title: Versões WSDL do Serviço Web IPS
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Acessar URLs para regiões do Scene7**
+**Acessar URLs para regiões do Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
