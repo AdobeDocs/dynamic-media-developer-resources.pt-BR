@@ -4,12 +4,12 @@ seo-description: 'O Serviço de Imagens do Scene 7 consiste nos seguintes compon
 seo-title: Componentes do serviço de imagem
 solution: Experience Manager
 title: Componentes do serviço de imagem
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ O Serviço de imagem do Scene 7 consiste nos seguintes componentes:
    <td colname="col2"> <p>Aplicativo Java independente (não hospedado pelo Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Renderização de imagem do Scene7 (também conhecido como Servidor de renderização) </p> </td> 
+   <td colname="col1"> <p>Renderização de imagem do Dynamic Media (também conhecido como Servidor de renderização) </p> </td> 
    <td colname="col2"> <p>Requer uma licença separada para ativar. Acesso HTTP em <span class="filepath"> /ir/render</span>. Toda a funcionalidade de renderização de imagem é integrada ao Servidor de plataforma e ao Servidor de imagens, sem componentes executáveis separados. </p> </td> 
   </tr> 
  </tbody> 
