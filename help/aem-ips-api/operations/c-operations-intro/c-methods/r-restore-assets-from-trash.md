@@ -4,12 +4,12 @@ seo-description: Restaura ativos do lixo.
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -36,18 +36,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador de uma empresa com os ativos que você deseja restaurar. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja restaurar. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador de uma empresa com os ativos que você deseja restaurar. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja restaurar. |
 
 **Saída (restoreAssetsFromTrashReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | Número de ativos removidos da lixeira com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | Número de avisos gerados quando a operação tentou restaurar ativos da lixeira. |
-| ` *`errorCount`*` | `xsd:int` | Sim | Número de erros gerados ao tentar restaurar ativos da lixeira. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou restaurar ativos da lixeira. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou restaurar ativos da lixeira. |
+| `*`successCount`*` | `xsd:int` | Sim | Número de ativos removidos da lixeira com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | Número de avisos gerados quando a operação tentou restaurar ativos da lixeira. |
+| `*`errorCount`*` | `xsd:int` | Sim | Número de erros gerados ao tentar restaurar ativos da lixeira. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou restaurar ativos da lixeira. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou restaurar ativos da lixeira. |
 
 ## Exemplos {#section-98fe0394b0634ca397c395f14f8a9358}
 
