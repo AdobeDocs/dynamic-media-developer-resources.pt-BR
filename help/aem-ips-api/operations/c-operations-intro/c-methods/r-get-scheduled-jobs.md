@@ -4,10 +4,10 @@ seo-description: Obtém trabalhos agendados para execução.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -38,15 +38,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| ` *`jobHandle`*` | `xsd:string` | Não | Trabalho. |
-| ` *`originalName`*` | `xsd:string` | Não | O nome especificado por `submitJob`. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
+| `*`jobHandle`*` | `xsd:string` | Não | Trabalho. |
+| `*`originalName`*` | `xsd:string` | Não | O nome especificado por `submitJob`. |
 
 **Saída (getScheduledJobsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`jobArray`*` | `types:ScheduledJobArray` | Sim | Matriz de trabalhos agendados. |
+| `*`jobArray`*` | `types:ScheduledJobArray` | Sim | Matriz de trabalhos agendados. |
 
 ## Exemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 
