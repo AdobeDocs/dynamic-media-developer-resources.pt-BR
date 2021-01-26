@@ -4,10 +4,10 @@ seo-description: Defina ou atualize o estado de publicação de um ou mais ativo
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -41,17 +41,17 @@ Defina ou atualize o estado de publicação de um ou mais ativos. Você pode def
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sim | Uma gama de ativos e seus novos estados de publicação. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sim | Uma gama de ativos e seus novos estados de publicação. |
 
 **Saída (setAssetsContexStateReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | O número de ativos alterados com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou modificar ativos. |
-| ` *`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou modificar ativos. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou modificá-los. |
+| `*`successCount`*` | `xsd:int` | Sim | O número de ativos alterados com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou modificar ativos. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou modificar ativos. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou modificá-los. |
 
 ## Exemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
