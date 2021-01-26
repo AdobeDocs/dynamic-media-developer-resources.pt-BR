@@ -1,16 +1,13 @@
 ---
 description: O Visualizador de zoom incorporado é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada sobre a imagem estática quando um usuário passa o mouse sobre ela ou toca a visualização principal. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsive
-seo-description: O Visualizador de zoom incorporado é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada sobre a imagem estática quando um usuário passa o mouse sobre ela ou toca a visualização principal. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-seo-title: Zoom em linha
 solution: Experience Manager
 title: Zoom em linha
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Scene7 e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Scene7 que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media com os IS-Viewers instalados.
 
 Um caminho relativo tem a seguinte aparência:
 
