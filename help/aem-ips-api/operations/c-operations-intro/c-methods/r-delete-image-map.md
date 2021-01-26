@@ -4,12 +4,12 @@ seo-description: Exclui um mapa de imagem.
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o mapa de imagem a ser excluído. |
-| ` *`imageMapHandle`*` | `xsd:string` | Sim | O identificador do mapa de imagem a ser excluído. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o mapa de imagem a ser excluído. |
+| `*`imageMapHandle`*` | `xsd:string` | Sim | O identificador do mapa de imagem a ser excluído. |
 
 **Saída (deleteImageMapParam)**
 
