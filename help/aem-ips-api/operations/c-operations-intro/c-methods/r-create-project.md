@@ -4,12 +4,12 @@ seo-description: Cria um novo projeto.
 seo-title: createProject
 solution: Experience Manager
 title: createProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa associada ao novo projeto. |
-| ` *`projectName`*` | `xsd:string` | Sim | Novo nome do projeto. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa associada ao novo projeto. |
+| `*`projectName`*` | `xsd:string` | Sim | Novo nome do projeto. |
 
 **Saída (createProjectParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Sim | O identificador do novo projeto. |
+| `*`projectHandle`*` | `xsd:string` | Sim | O identificador do novo projeto. |
 
 ## Exemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
