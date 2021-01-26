@@ -2,10 +2,10 @@
 description: getPublishContext
 solution: Experience Manager
 title: getPublishContext
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`publishContextArray`*` | tipos:PublishContextArray | Sim | Uma matriz de contextos de publicação para uma empresa, filtrados por tipo de contexto, se necessário. |
+| `*`publishContextArray`*` | tipos:PublishContextArray | Sim | Uma matriz de contextos de publicação para uma empresa, filtrados por tipo de contexto, se necessário. |
 
 ## Exemplos {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
