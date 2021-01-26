@@ -4,10 +4,10 @@ seo-description: Cria um novo ativo derivado de um ativo de imagem de origem pri
 seo-title: createDeriveAsset
 solution: Experience Manager
 title: createDeriveAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -42,19 +42,19 @@ Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o ativo do qual você derivará o novo ativo. |
-| ` *`ownerHandle`*` | `xsd:string` | Sim | O identificador do ativo de imagem principal a partir do qual a nova imagem será derivada. |
-| ` *`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta na qual o novo ativo derivado será criado. |
-| ` *`name`*` | `xsd:string` | Sim | O nome do ativo derivado. |
-| ` *`type`*` | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | Não | Os comandos do protocolo de disponibilização de imagem ou renderização de imagem aplicavam *antes* dos comandos request ou `urlPostApplyModifier`. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagem ou renderização de imagem aplicados *depois* à solicitação ou aos comandos `urlPostApplyModifier`. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o ativo do qual você derivará o novo ativo. |
+| `*`ownerHandle`*` | `xsd:string` | Sim | O identificador do ativo de imagem principal a partir do qual a nova imagem será derivada. |
+| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta na qual o novo ativo derivado será criado. |
+| `*`name`*` | `xsd:string` | Sim | O nome do ativo derivado. |
+| `*`type`*` | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
+| `*`urlModifier`*` | `xsd:string` | Não | Os comandos do protocolo de disponibilização de imagem ou renderização de imagem aplicavam *antes* dos comandos request ou `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagem ou renderização de imagem aplicados *depois* à solicitação ou aos comandos `urlPostApplyModifier`. |
 
 **Saída (createDerivingAssetParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo derivado. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo derivado. |
 
 ## Exemplos {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
