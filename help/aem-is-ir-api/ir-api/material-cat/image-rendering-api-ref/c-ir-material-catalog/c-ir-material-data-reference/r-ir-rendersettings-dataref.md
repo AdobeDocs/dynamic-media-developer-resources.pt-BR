@@ -1,15 +1,12 @@
 ---
 description: Configurações avançadas de renderização. As configurações avançadas de renderização são usadas para controlar os aspectos de baixo nível do mecanismo de renderização, como o tipo e os parâmetros de nitidez do material ou certos parâmetros dos algoritmos de iluminação.
-seo-description: Configurações avançadas de renderização. As configurações avançadas de renderização são usadas para controlar os aspectos de baixo nível do mecanismo de renderização, como o tipo e os parâmetros de nitidez do material ou certos parâmetros dos algoritmos de iluminação.
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 19823ca5-51a1-4885-b578-d7c9852acab6
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Configurações avançadas de renderização. As configurações avançadas de r
 
 ## Propriedades {#section-b4c8fe595efc4838ac598659bc820607}
 
-Sequência de caracteres de texto. Opcional para todos os materiais. Se especificado, deve ser uma string válida de configurações de renderização, conforme definido com a Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7).
+Sequência de caracteres de texto. Opcional para todos os materiais. Se especificado, deve ser uma string válida de configurações de renderização, conforme definido com a Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media).
 
 ## Padrão {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
