@@ -1,15 +1,12 @@
 ---
 description: Adiciona usuários de uma empresa específica a um grupo específico.
-seo-description: Adiciona usuários de uma empresa específica a um grupo específico.
-seo-title: addGroupMembers
 solution: Experience Manager
 title: addGroupMembers
-topic: Scene7 Image Production System API
-uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -33,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| ` *`groupHandle`*` | `xsd:string` | Sim | O identificador do grupo. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Sim | Uma matriz de identificadores para usuários que você deseja adicionar a um grupo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
+| `*`groupHandle`*` | `xsd:string` | Sim | O identificador do grupo. |
+| `*`userHandleArray`*` | `types:HandleArray` | Sim | Uma matriz de identificadores para usuários que você deseja adicionar a um grupo. |
 
 **Saída (addGroupMembersParam)**
 
@@ -43,7 +40,7 @@ A API IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-Este exemplo usa ` *`addGroupMembersParam`*` para adicionar um usuário a uma única empresa. A API IPS não retorna uma resposta para esta operação.
+Este exemplo usa `*`addGroupMembersParam`*` para adicionar um usuário a uma única empresa. A API IPS não retorna uma resposta para esta operação.
 
 **Solicitação**
 
