@@ -4,12 +4,12 @@ seo-description: As variáveis de substituição são usadas para transferir val
 seo-title: Variáveis de substituição
 solution: Experience Manager
 title: Variáveis de substituição
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Normalmente, os valores de variáveis que devem ser substituídos em solicitaç�
 
 ## Variável de caminho predefinida {#section-930d0dd12e8f49499becc9fe8df24092}
 
-O *`object`* especificado no caminho da solicitação é atribuído à variável predefinida ` *`$object`*`. &#39; ` $ *`object`*$`&#39; pode ser colocado em qualquer local da solicitação, no modelo referenciado pela solicitação ou em uma solicitação aninhada/incorporada, na qual esse objeto é permitido, incluindo o valor de `src=` e `mask=`, e o caminho de uma solicitação aninhada/incorporada.
+O *`object`* especificado no caminho da solicitação é atribuído à variável predefinida `*`$object`*`. &#39; ` $ *`object`*$`&#39; pode ser colocado em qualquer local da solicitação, no modelo referenciado pela solicitação ou em uma solicitação aninhada/incorporada, na qual esse objeto é permitido, incluindo o valor de `src=` e `mask=`, e o caminho de uma solicitação aninhada/incorporada.
 
 Por exemplo, a solicitação a seguir reutilizará a imagem especificada no caminho como a origem de uma camada em uma solicitação aninhada:
 
@@ -92,13 +92,13 @@ Isso equivale a
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-A definição de ` *`$object`*` pode ser substituída especificando explicitamente ` $ *`object`*=` com o valor desejado.
+A definição de `*`$object`*` pode ser substituída especificando explicitamente ` $ *`object`*=` com o valor desejado.
 
 A variável de caminho predefinida geralmente é usada em conjunto com `template=`.
 
 ## Padrão {#section-b02483d15529444586a2e9504805b155}
 
-Nenhum. Somente as variáveis que foram definidas serão substituídas pelo servidor (exceto a variável de caminho predefinida $object, que sempre será substituída). Quaisquer ocorrências de ` $ *`var`*$` permanecerão literais se ` *`var`*`não puderem ser correspondidas com uma definição de variável existente.
+Nenhum. Somente as variáveis que foram definidas serão substituídas pelo servidor (exceto a variável de caminho predefinida $object, que sempre será substituída). Quaisquer ocorrências de ` $ *`var`*$` permanecerão literais se `*`var`*`não puderem ser correspondidas com uma definição de variável existente.
 
 ## Exemplos {#section-fba9393df6984247b7e30b3f93992e86}
 
