@@ -4,10 +4,10 @@ seo-description: Uma condição de pesquisa de campo do sistema para a operaçã
 seo-title: CondiçãoCampoSistema
 solution: Experience Manager
 title: CondiçãoCampoSistema
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -25,19 +25,19 @@ Para comparação unária, passe exatamente um valor ( `boolVal`, `longVal`, `do
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`campo`*` | `xsd:string` | Escolha dos campos do sistema de pesquisa de ativos. |
-| ` *`op`*` | `xsd:string` | Escolha dos operadores de comparação de sequências de caracteres. |
-| ` *`value`*` | `xsd:string` | Valor a ser testado. |
-| ` *`boolVal`*` | `xsd:boolean` | Valor de comparação booliano. |
-| ` *`longVal`*` | `xsd:long` | Valor de comparação longo. |
-| ` *`minLong`*` | `xsd:long` | Limite inferior de longo alcance. |
-| ` *`maxLong`*` | `xsd:long` | Limite superior do intervalo longo. |
-| ` *`doubleVal`*` | `xsd:double` | Valor de comparação do duplo. |
-| ` *`minDouble`*` | `xsd:double` | Limite inferior do intervalo do duplo. |
-| ` *`maxDouble`*` | `xsd:double` | Limite superior do intervalo do duplo. |
-| ` *`dateVal`*` | `xsd:dateTime` | Valor de comparação de data. |
-| ` *`minDate`*` | `xsd:dateTime` | Intervalo de datas mínimo. |
-| ` *`maxDate`*` | `xsd:dateTime` | Máximo de intervalo de datas. |
+| `*`campo`*` | `xsd:string` | Escolha dos campos do sistema de pesquisa de ativos. |
+| `*`op`*` | `xsd:string` | Escolha dos operadores de comparação de sequências de caracteres. |
+| `*`value`*` | `xsd:string` | Valor a ser testado. |
+| `*`boolVal`*` | `xsd:boolean` | Valor de comparação booliano. |
+| `*`longVal`*` | `xsd:long` | Valor de comparação longo. |
+| `*`minLong`*` | `xsd:long` | Limite inferior de longo alcance. |
+| `*`maxLong`*` | `xsd:long` | Limite superior do intervalo longo. |
+| `*`doubleVal`*` | `xsd:double` | Valor de comparação do duplo. |
+| `*`minDouble`*` | `xsd:double` | Limite inferior do intervalo do duplo. |
+| `*`maxDouble`*` | `xsd:double` | Limite superior do intervalo do duplo. |
+| `*`dateVal`*` | `xsd:dateTime` | Valor de comparação de data. |
+| `*`minDate`*` | `xsd:dateTime` | Intervalo de datas mínimo. |
+| `*`maxDate`*` | `xsd:dateTime` | Máximo de intervalo de datas. |
 
 ## Exemplo {#section-347d4aabfff44530adba03d1dc0b9968}
 
