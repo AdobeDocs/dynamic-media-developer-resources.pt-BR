@@ -4,10 +4,10 @@ seo-description: Imagem do mapa de brilho. Fornece controle pixel por pixel da l
 seo-title: glossário
 solution: Experience Manager
 title: glossário
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
