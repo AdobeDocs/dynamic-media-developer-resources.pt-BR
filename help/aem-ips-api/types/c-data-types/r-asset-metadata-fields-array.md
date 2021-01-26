@@ -4,12 +4,12 @@ seo-description: Uma matriz de AssetMetadataFields. Usado por getAssetMetadataFi
 seo-title: AssetMetadataFieldsArray
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: a131b234-83f3-4e3c-afa9-14314e78367f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`items`*` | `types:AssetMetadataFields` | Um item de matriz `AssetMetadataFields`. |
+| `*`items`*` | `types:AssetMetadataFields` | Um item de matriz `AssetMetadataFields`. |
 
