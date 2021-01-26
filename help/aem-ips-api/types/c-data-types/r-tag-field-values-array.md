@@ -4,10 +4,10 @@ seo-description: Uma matriz de valores de campo de tag.
 seo-title: TagFieldValuesArray
 solution: Experience Manager
 title: TagFieldValuesArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 40a9110d-8ed4-4a9a-95ed-640c8215a7da
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%
@@ -25,5 +25,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`items`*` | `types:TagFieldValues` | Uma matriz de valores de campo de tag. |
+| `*`items`*` | `types:TagFieldValues` | Uma matriz de valores de campo de tag. |
 
