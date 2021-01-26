@@ -4,10 +4,10 @@ seo-description: Define campos de metadados de perfil ICC.
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Manuseie a empresa que contém os perfis ICC. |
-| ` *`matriz de atualização`*` | `xsd:string` | Sim | Matriz de atualizações de perfis ICC. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseie a empresa que contém os perfis ICC. |
+| `*`matriz de atualização`*` | `xsd:string` | Sim | Matriz de atualizações de perfis ICC. |
 
 **Saída (batchSetIccProfileFields)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | O número de campos de perfil ICC definidos com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de perfil ICC. |
-| ` *`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos do perfil ICC. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
+| `*`successCount`*` | `xsd:int` | Sim | O número de campos de perfil ICC definidos com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de perfil ICC. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos do perfil ICC. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
 
 ## Exemplos {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
