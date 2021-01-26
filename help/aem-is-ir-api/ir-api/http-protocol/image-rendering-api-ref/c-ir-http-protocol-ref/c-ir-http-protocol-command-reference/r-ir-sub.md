@@ -4,10 +4,10 @@ seo-description: Subseleção. Permite aplicar materiais diferentes a diferentes
 seo-title: sub
 solution: Experience Manager
 title: sub
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Subseleção. Permite aplicar materiais diferentes a diferentes áreas do objeto
   <td class="stentry"> <p>Selecione a parede inteira. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Selecione a metade superior da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
