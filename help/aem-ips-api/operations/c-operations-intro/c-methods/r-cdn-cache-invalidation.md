@@ -1,15 +1,12 @@
 ---
-description: Encaminha a lista de URLs fornecida para o provedor Scene7 CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
-seo-description: Encaminha a lista de URLs fornecida para o provedor Scene7 CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
-seo-title: cdnCacheInvalidation
+description: Encaminha a lista de URLs fornecida para o provedor Dynamic Media CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 0%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Encaminha a lista de URLs fornecida para o provedor Scene7 CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
+Encaminha a lista de URLs fornecida para o provedor Dynamic Media CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
 
 ## cdnCacheInvalidation: Sobre {#section-4f70d2bc79d64288b961836ab17e9690}
 
-A invalidação do cache de CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Scene7 depois que essa solicitação de invalidação é processada pela rede de CDN. Quaisquer URLs que não estejam conectados à estrutura do URL do serviço Scene7 e que correspondam diretamente à ID raiz da empresa Scene7 atribuída quando a empresa é criada resultarão em uma falha da API para toda a solicitação. Quaisquer URLs inválidos que o CDN não suporta e que considere inválidos também resultarão em uma falha de API para toda a solicitação.
+A invalidação do cache CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede Dynamic Media após essa solicitação de invalidação ser processada pela rede CDN. Quaisquer URLs que não estejam conectados à estrutura do URL do serviço Dynamic Media e que correspondam diretamente à ID raiz da empresa Dynamic Media atribuída quando a empresa é criada resultarão em uma falha da API para toda a solicitação. Quaisquer URLs inválidos que o CDN não suporta e que considere inválidos também resultarão em uma falha de API para toda a solicitação.
 
 **Frequência de utilização: Regras**
 
-As regras que regem a frequência de uso deste recurso são controladas pelos parceiros CDN da Scene7. O CDN mantém a discrição de diminuir a capacidade de resposta dessas invalidações para manter o desempenho ótimo de seu serviço para seus usuários. Se a Scene7 for notificada de uso excessivo deste recurso, será necessário desativar o recurso por empresa ou totalmente pelo serviço.
+As regras que regulam a frequência de uso desse recurso são controladas pelos parceiros CDN do Dynamic Media. O CDN mantém a discrição de diminuir a capacidade de resposta dessas invalidações para manter o desempenho ótimo de seu serviço para seus usuários. Se a Dynamic Media for notificada de uso excessivo deste recurso, será necessário desativar o recurso por empresa ou totalmente pelo serviço.
 
 **E-mails de confirmação**
 
-Os emails de confirmação do parceiro Scene7 CDN podem ser enviados para o criador da lista ou até cinco outros endereços de email. A API envia a confirmação quando toda a rede CDN foi notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` pode enviar vários emails se o número de URLs fornecidos exceder o número que a Scene7 pode fornecer ao parceiro CDN em uma única notificação. Atualmente, isso ocorre se a solicitação exceder 100 URLs, mas está sujeita a alterações com base na solicitação do parceiro CDN.
+Os emails de confirmação do parceiro Dynamic Media CDN podem ser enviados para o criador da lista ou até cinco outros endereços de email. A API envia a confirmação quando toda a rede CDN foi notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` pode enviar vários emails se o número de URLs fornecidos exceder o número que a Dynamic Media pode fornecer ao parceiro CDN em uma única notificação. Atualmente, isso ocorre se a solicitação exceder 100 URLs, mas está sujeita a alterações com base na solicitação do parceiro CDN.
 
 **Suportado desde**
 
@@ -64,7 +61,7 @@ Os emails de confirmação do parceiro Scene7 CDN podem ser enviados para o cria
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:UrlArray</span> </p> </td> 
    <td> <p> Sim </p> </td> 
-   <td> <p> Lista de até 1000 URLs para invalidar do cache CDN. Todos os URLS devem conter a ID raiz da empresa Scene7 a ser invalidada. </p> </td> 
+   <td> <p> Lista de até 1000 URLs para invalidar do cache CDN. Todos os URLS devem conter a ID raiz da empresa Dynamic Media a ser invalidada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
