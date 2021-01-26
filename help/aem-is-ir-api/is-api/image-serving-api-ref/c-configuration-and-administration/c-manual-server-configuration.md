@@ -4,12 +4,12 @@ seo-description: Muitos aspectos do serviço de imagens e da renderização de i
 seo-title: Configuração do servidor
 solution: Experience Manager
 title: Configuração do servidor
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
