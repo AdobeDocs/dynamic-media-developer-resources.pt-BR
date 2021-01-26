@@ -4,12 +4,12 @@ seo-description: As entradas de cache são atualizadas automaticamente usando a 
 seo-title: Validação do cache de respostas
 solution: Experience Manager
 title: Validação do cache de respostas
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ As entradas de cache se tornam inválidas e estão sujeitas a nova geração qua
 
 >[!NOTE]
 >
->As imagens TIFF (PTIFF) da pirâmide Scene7 mantêm a data do arquivo internamente no cabeçalho do arquivo para fins de validação. O tempo de modificação do arquivo mantido pelo sistema de arquivos é usado para verificar se um arquivo não PTIFF foi alterado.
+>As imagens TIFF (PTIFF) da pirâmide Dynamic Media mantêm a data do arquivo internamente no cabeçalho do arquivo para fins de validação. O tempo de modificação do arquivo mantido pelo sistema de arquivos é usado para verificar se um arquivo não PTIFF foi alterado.
 
 Somente arquivos de imagem participam do processo de validação do cache. As alterações nos arquivos de fonte ou nos arquivos de perfil ICC não causam a invalidação automática das entradas de cache.
