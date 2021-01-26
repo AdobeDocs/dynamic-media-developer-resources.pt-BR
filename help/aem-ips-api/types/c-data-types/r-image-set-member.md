@@ -4,10 +4,10 @@ seo-description: Ativos que pertencem a um conjunto de imagens.
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -25,6 +25,6 @@ Redefinição de página significa que um [!DNL eCatalog] deve start uma nova p�
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`ativo`*` | `type:Asset` | Ativos na matriz do conjunto de imagens. |
-| ` *`pageReset`*` | `xsd:boolean` | Start uma nova página. A configuração é ignorada e o valor é forçado a `true` para `eCatalog` e `RenderSet` conjuntos. |
+| `*`ativo`*` | `type:Asset` | Ativos na matriz do conjunto de imagens. |
+| `*`pageReset`*` | `xsd:boolean` | Start uma nova página. A configuração é ignorada e o valor é forçado a `true` para `eCatalog` e `RenderSet` conjuntos. |
 
