@@ -4,10 +4,10 @@ seo-description: Quantificação de cores. Especifica atributos de quantificaç�
 seo-title: quantificar
 solution: Experience Manager
 title: quantificar
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Quantificação de cores. Especifica atributos de quantificação de cores para 
 
 Atributo de solicitação. Aplica-se independentemente da configuração de camada atual. Usado somente se `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` ou `fmt=png8-alpha`. Caso contrário, ignorado.
 
-As cores especificadas com ` *`colorList`*` devem consistir em valores RGB no formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sem o prefixo &#39; `0x`&#39;. Não são permitidos outros especificadores de cores. *`numColors`* deve estar entre 2 e 256.
+As cores especificadas com `*`colorList`*` devem consistir em valores RGB no formato hex6 (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sem o prefixo &#39; `0x`&#39;. Não são permitidos outros especificadores de cores. *`numColors`* deve estar entre 2 e 256.
 
 ## Padrão {#section-ca3e817617244e8798ccff67b2023a32}
 
