@@ -1,15 +1,12 @@
 ---
 description: O Serviço de Imagens implementa um simples recurso de marca d'água visual.
-seo-description: O Serviço de Imagens implementa um simples recurso de marca d'água visual.
-seo-title: Marcas d'água
 solution: Experience Manager
 title: Marcas d'água
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Uma marca d&#39;água normalmente é uma imagem semitransparente, mas pode ser u
 
 A marca d&#39;água é ativada ao configurar `attribute::Watermark` para uma entrada de catálogo válida que conteria a imagem ou o modelo da marca d&#39;água. Se `attribute::Watermark` estiver definido em um catálogo nomeado, o servidor adicionará a marca d&#39;água a todas as solicitações de imagem que referenciarem a ID do catálogo no URL da solicitação. Se `default::Watermark` estiver definido (no catálogo padrão, [!DNL default.ini]), a marca d&#39;água será aplicada a todas as solicitações de imagem, independentemente de referenciarem ou não um catálogo.
 
-As marcas d&#39;água não são aplicadas a imagens retornadas em resposta a solicitações em miniatura ( `req=tmb`) e a determinadas solicitações dos visualizadores do Scene7.
+As marcas d&#39;água não são aplicadas a imagens retornadas em resposta a solicitações em miniatura ( `req=tmb`) e a determinadas solicitações dos visualizadores do Dynamic Media.
 
 ## Dimensionamento e alinhamento {#section-89ef9e5926ae438abbd8e70332749b76}
 
