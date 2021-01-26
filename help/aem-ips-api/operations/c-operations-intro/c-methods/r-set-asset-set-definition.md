@@ -4,10 +4,10 @@ seo-description: Atualiza a definição de conjunto para um Conjunto de ativos e
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -36,9 +36,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o conjunto de ativos. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | Identificador de conjunto de ativos |
-| ` *`setDefinition`*` | `xsd:string` | Sim | Sequência de caracteres de definição. Consulte abaixo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o conjunto de ativos. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de conjunto de ativos |
+| `*`setDefinition`*` | `xsd:string` | Sim | Sequência de caracteres de definição. Consulte abaixo. |
 
 **Saída (setAssetSetDefinitionReturn)**
 
