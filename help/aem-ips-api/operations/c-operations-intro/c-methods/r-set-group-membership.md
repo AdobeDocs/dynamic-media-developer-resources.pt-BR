@@ -4,10 +4,10 @@ seo-description: Define a associação de grupo para um usuário.
 seo-title: setGroupMember
 solution: Experience Manager
 title: setGroupMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
-| ` *`companyHandle`*` | `xsd:string` | Não | Alça da empresa. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos aos quais o usuário deve pertencer. |
+| `*`userHandle`*` | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
+| `*`companyHandle`*` | `xsd:string` | Não | Alça da empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos aos quais o usuário deve pertencer. |
 
 **Saída (setGroupMemberReturn)**
 
