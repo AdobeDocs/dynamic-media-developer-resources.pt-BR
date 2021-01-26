@@ -4,12 +4,12 @@ seo-description: Apenas para uso interno. Os usuários devem consultar a seção
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com as configurações de publicação do serviço de imagem. |
-| ` *`contextHandle`*` | `xsd:string` | Sim | Lidar com o contexto de publicação. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com as configurações de publicação do serviço de imagem. |
+| `*`contextHandle`*` | `xsd:string` | Sim | Lidar com o contexto de publicação. |
 
 **Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`publishSettingArray`*` | `xsd:string` | Sim | Configurações de publicação da matriz do servidor de imagens. |
+| `*`publishSettingArray`*` | `xsd:string` | Sim | Configurações de publicação da matriz do servidor de imagens. |
 
