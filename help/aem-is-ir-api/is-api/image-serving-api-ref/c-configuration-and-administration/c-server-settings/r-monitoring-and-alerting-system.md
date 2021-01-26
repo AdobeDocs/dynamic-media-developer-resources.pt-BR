@@ -4,10 +4,10 @@ seo-description: Use essas configurações do servidor para configurar o sistema
 seo-title: Sistema de acompanhamento e alerta
 solution: Experience Manager
 title: Sistema de acompanhamento e alerta
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
