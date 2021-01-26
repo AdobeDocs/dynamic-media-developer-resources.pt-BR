@@ -4,12 +4,12 @@ seo-description: Os conjuntos de propriedades são conjuntos específicos do apl
 seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades. |
-| ` *`PrimaryOwnerHandle`*` | `xsd:string` | Sim | O identificador do proprietário primário do conjunto de propriedades. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | Não | O identificador para o proprietário secundário do conjunto de propriedades. |
-| ` *`propertyArray`*` | `types:PropertyArray` | Sim | A matriz de propriedades. |
-| ` *`permissionsArray`*` | `types:PermissionUpdateArray` |  |  |
+| `*`typeHandle`*` | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades. |
+| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sim | O identificador do proprietário primário do conjunto de propriedades. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | Não | O identificador para o proprietário secundário do conjunto de propriedades. |
+| `*`propertyArray`*` | `types:PropertyArray` | Sim | A matriz de propriedades. |
+| `*`permissionsArray`*` | `types:PermissionUpdateArray` |  |  |
 
 **Saída (createPropertySetParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | Sim | O identificador do novo conjunto de propriedades. |
+| `*`setHandle`*` | `xsd:string` | Sim | O identificador do novo conjunto de propriedades. |
 
 ## Exemplos {#section-4e1f5b2883664bc88f590fcd253df22b}
 
