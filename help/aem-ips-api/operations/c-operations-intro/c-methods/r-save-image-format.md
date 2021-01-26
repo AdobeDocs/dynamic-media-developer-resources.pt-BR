@@ -4,10 +4,10 @@ seo-description: Cria um formato de imagem.
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -36,16 +36,16 @@ Cria um formato de imagem.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com o formato de imagem com o qual você deseja trabalhar. |
-| ` *`imageFormatHandle`*` | `xsd:string` | Não | Identificador do formato de imagem que deseja salvar. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do formato de imagem. |
-| ` *`urlModifier`*` | `xsd:string` | Sim | Pode ser qualquer cadeia de query de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário do IPS e, em seguida, recortar e colar a string de query. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com o formato de imagem com o qual você deseja trabalhar. |
+| `*`imageFormatHandle`*` | `xsd:string` | Não | Identificador do formato de imagem que deseja salvar. |
+| `*`name`*` | `xsd:string` | Sim | Nome do formato de imagem. |
+| `*`urlModifier`*` | `xsd:string` | Sim | Pode ser qualquer cadeia de query de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário do IPS e, em seguida, recortar e colar a string de query. |
 
 **Saída (saveImageFormatReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | Sim | Lidar com o formato de imagem. |
+| `*`imageFormatHandle`*` | `xsd:string` | Sim | Lidar com o formato de imagem. |
 
 ## Exemplos {#section-c7bd733212ef494297a97093f3af193f}
 
