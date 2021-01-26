@@ -4,13 +4,13 @@ seo-description: Crie ou edite um público alvo de zoom.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 1%
 
 ---
 
@@ -36,21 +36,21 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com o público alvo de zoom que você deseja salvar. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | A alça do público alvo de zoom. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | Não | Edita ou cria um público alvo de zoom. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do público alvo de zoom. |
-| ` *`xPosition`*` | `xsd:int` | Sim | Localização do pixel esquerdo. |
-| ` *`yPosition`*` | `xsd:int` | Sim | Localização do pixel superior. |
-| ` *`width`*` | `xsd:int` | Sim | Zoom na largura do público alvo. |
-| ` *`altura`*` | `xsd:int` | Sim | Aumenta o zoom da altura do público alvo. |
-| ` *`userData`*` | `xsd:string` | Sim | Para obter informações específicas do cliente. Pode conter qualquer tipo de dados. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com o público alvo de zoom que você deseja salvar. |
+| `*`assetHandle`*` | `xsd:string` | Sim | A alça do público alvo de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Não | Edita ou cria um público alvo de zoom. |
+| `*`name`*` | `xsd:string` | Sim | Nome do público alvo de zoom. |
+| `*`xPosition`*` | `xsd:int` | Sim | Localização do pixel esquerdo. |
+| `*`yPosition`*` | `xsd:int` | Sim | Localização do pixel superior. |
+| `*`width`*` | `xsd:int` | Sim | Zoom na largura do público alvo. |
+| `*`altura`*` | `xsd:int` | Sim | Aumenta o zoom da altura do público alvo. |
+| `*`userData`*` | `xsd:string` | Sim | Para obter informações específicas do cliente. Pode conter qualquer tipo de dados. |
 
 **Saída (saveZoomTargetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | Sim | Manuseie o público alvo de zoom recém-criado. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sim | Manuseie o público alvo de zoom recém-criado. |
 
 ## Exemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 
