@@ -4,10 +4,10 @@ seo-description: Cria uma imagem em camadas que pode ter várias camadas de text
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -35,18 +35,18 @@ O parâmetro `urlModifier` especifica os comandos de protocolo do Servidor de im
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A empresa à qual o modelo pertence. |
-| ` *`folderHandle`*` | `xsd:string` | Sim | O identificador de pasta que representa a pasta onde o modelo reside. |
-| ` *`name`*` | `xsd:string` | Sim | Nome do modelo. |
-| ` *`type`*` | `xsd:string` | Sim | Tipo de modelo. |
-| ` *`urlModifier`*` | `xsd:string` | Sim | Especifica os comandos do Servidor de imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A empresa à qual o modelo pertence. |
+| `*`folderHandle`*` | `xsd:string` | Sim | O identificador de pasta que representa a pasta onde o modelo reside. |
+| `*`name`*` | `xsd:string` | Sim | Nome do modelo. |
+| `*`type`*` | `xsd:string` | Sim | Tipo de modelo. |
+| `*`urlModifier`*` | `xsd:string` | Sim | Especifica os comandos do Servidor de imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário. |
 
 **Saída (createTemplateParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Sim | O identificador do modelo. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do modelo. |
 
 ## Exemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
