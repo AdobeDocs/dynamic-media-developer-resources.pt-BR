@@ -1,15 +1,12 @@
 ---
 description: Todos os arquivos de log são gravados na mesma pasta de log especificada com o diretório TC.
-seo-description: Todos os arquivos de log são gravados na mesma pasta de log especificada com o diretório TC.
-seo-title: Registro do servidor
 solution: Experience Manager
 title: Registro do servidor
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -25,7 +22,7 @@ ImportanteUma quantidade suficiente de espaço em disco deve ser reservada para 
 
 O Servidor de plataforma e o Servidor de imagens criam os três tipos de arquivos de registro descritos abaixo.
 
-Outros componentes do serviço de imagem e alguns outros pacotes do Scene7, como os visualizadores do Scene7, também podem criar arquivos de registro na mesma pasta. Esses arquivos de registro são para uso interno da Scene7 e podem ser solicitados pelo Suporte da Scene7 para fins de solução de problemas.
+Outros componentes do serviço de imagem e alguns outros pacotes do Dynamic Media, como os visualizadores do Dynamic Media, também podem criar arquivos de registro na mesma pasta. Esses arquivos de registro são para uso interno da Dynamic Media e podem ser solicitados pelo suporte técnico da Dynamic Media para fins de solução de problemas.
 
 * [Log de acesso](c-access-log.md)
 * [Registro de rastreamento](c-trace-log.md)
