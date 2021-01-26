@@ -1,15 +1,12 @@
 ---
 description: Detalhes da mensagem de erro. Especifica o nível de detalhes das mensagens de erro retornadas via HTTP como o valor error.message.
-seo-description: Detalhes da mensagem de erro. Especifica o nível de detalhes das mensagens de erro retornadas via HTTP como o valor error.message.
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
@@ -27,7 +24,7 @@ São permitidos os seguintes valores:
   <td class="stentry"> <p>Somente título. Retorna uma breve descrição geral do erro. Recomendado para servidores ao vivo que podem ser acessados publicamente. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Breve mensagem. Reservado para uso futuro. Atualmente retorna as mesmas informações de 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,8 +32,8 @@ São permitidos os seguintes valores:
   <td class="stentry"> <p>Mensagem detalhada. Fornece detalhes no nível do usuário sobre o erro. Pode incluir informações confidenciais, como caminhos de arquivo. Recomendado para servidores de armazenamento temporário, controle de qualidade e desenvolvimento de aplicativos. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis quando há problemas de relatórios no suporte técnico da Scene7. </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis quando há problemas de relatórios no suporte técnico da Dynamic Media. </p></td> 
  </tr> 
 </table>
 
