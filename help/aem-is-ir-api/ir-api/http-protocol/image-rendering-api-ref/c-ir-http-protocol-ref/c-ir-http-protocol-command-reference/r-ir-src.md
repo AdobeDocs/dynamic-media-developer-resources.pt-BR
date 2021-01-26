@@ -4,12 +4,12 @@ seo-description: Arquivo de material. Especifica dados de material, na forma de 
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Se *`catId`* não for especificado, o catálogo de sessão será usado.
 
 ## Formatos de arquivo suportados {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-A renderização de imagem suporta os mesmos formatos de imagem de origem que o Scene7 Image Server.
+A renderização de imagem suporta os mesmos formatos de imagem de origem que o Dynamic Media Image Server.
 
 Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Scene7. O Serviço de imagens inclui o utilitário Conversor de imagens (IC) que cria imagens PTIFF de qualquer formato compatível.
 
