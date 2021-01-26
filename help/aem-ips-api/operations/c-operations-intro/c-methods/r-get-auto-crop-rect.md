@@ -4,12 +4,12 @@ seo-description: Retorna uma região recortada para uma imagem com base na cor o
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -37,23 +37,23 @@ Sintaxe
 
 >[!NOTE]
 >
->Especifique ` *`autoColorCropOptions`*` ou ` *`autoTransparentCropOptions`*` ao chamar este método.
+>Especifique `*`autoColorCropOptions`*` ou `*`autoTransparentCropOptions`*` ao chamar este método.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o ativo que você deseja trabalhar. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo com o qual você deseja trabalhar. |
-| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base em cores. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Não | Calcule o retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o ativo que você deseja trabalhar. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo com o qual você deseja trabalhar. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base em cores. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Não | Calcule o retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Saída (getAutoCropRectReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`xOffset`*` | `xsd:int` | Sim | A coordenada inicial de pixels à esquerda da região de corte calculada. |
-| ` *`Deslocamento`*` | `xsd:int` | Sim | A coordenada de pixel superior inicial da região de corte calculada. |
-| ` *`width`*` | `xsd:int` | Sim | Largura da região de corte calculada (em pixels). |
-| ` *`altura`*` | `xsd:int` | Sim | Altura da região de corte calculada (em pixels). |
+| `*`xOffset`*` | `xsd:int` | Sim | A coordenada inicial de pixels à esquerda da região de corte calculada. |
+| `*`Deslocamento`*` | `xsd:int` | Sim | A coordenada de pixel superior inicial da região de corte calculada. |
+| `*`width`*` | `xsd:int` | Sim | Largura da região de corte calculada (em pixels). |
+| `*`altura`*` | `xsd:int` | Sim | Altura da região de corte calculada (em pixels). |
 
 ## Exemplos {#section-ba65bd66086d491cad1cea535954ee1f}
 
