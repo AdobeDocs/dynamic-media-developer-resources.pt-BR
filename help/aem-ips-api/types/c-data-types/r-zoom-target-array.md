@@ -4,12 +4,12 @@ seo-description: Uma matriz de públicos alvos de zoom.
 seo-title: ZoomTargetArray
 solution: Experience Manager
 title: ZoomTargetArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6dc21229-33b0-4e10-bcf2-1319016ffded
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`items`*` | `types:ZoomTarget` | Matriz de públicos alvos de zoom. |
+| `*`items`*` | `types:ZoomTarget` | Matriz de públicos alvos de zoom. |
 
