@@ -4,10 +4,10 @@ seo-description: Obtém registros de trabalhos especificados para a empresa sele
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -39,19 +39,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Não | A alça da empresa. |
-| ` *`userHandle`*` | `xsd:string` | Não | Obtém registros para trabalhos enviados por um usuário específico. |
-| ` *`sortBy`*` | `xsd:string` | Não | Permite selecionar campos de classificação. |
-| ` *`sortDirection`*` | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
-| ` *`startDate`*` | `xsd:dateTime` | Não | A data e a hora do start do registro de tarefas. Forneça o fuso horário com a solicitação para este campo. |
-| ` *`endDate`*` | `xsd:dateTime` | Não | A data e a hora do término do log de trabalhos. Forneça o fuso horário com a solicitação para este campo. |
-| ` *`numRows`*` | `xsd:int` | Não | Número máximo de linhas a retornar. |
+| `*`companyHandle`*` | `xsd:string` | Não | A alça da empresa. |
+| `*`userHandle`*` | `xsd:string` | Não | Obtém registros para trabalhos enviados por um usuário específico. |
+| `*`sortBy`*` | `xsd:string` | Não | Permite selecionar campos de classificação. |
+| `*`sortDirection`*` | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
+| `*`startDate`*` | `xsd:dateTime` | Não | A data e a hora do start do registro de tarefas. Forneça o fuso horário com a solicitação para este campo. |
+| `*`endDate`*` | `xsd:dateTime` | Não | A data e a hora do término do log de trabalhos. Forneça o fuso horário com a solicitação para este campo. |
+| `*`numRows`*` | `xsd:int` | Não | Número máximo de linhas a retornar. |
 
 **Saída (getJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Sim | Matriz de registros de trabalhos. |
 
 ## Exemplos {#section-35871c94b4a44559912577efddbc46a6}
 
