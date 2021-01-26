@@ -4,12 +4,12 @@ seo-description: Exclui um grupo.
 seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que pertence ao grupo que você deseja excluir. |
-| ` *`groupHandle`*` | `xsd:string` | Sim | O identificador do grupo que você deseja excluir. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que pertence ao grupo que você deseja excluir. |
+| `*`groupHandle`*` | `xsd:string` | Sim | O identificador do grupo que você deseja excluir. |
 
 **Saída (deleteGroupParam)**
 
