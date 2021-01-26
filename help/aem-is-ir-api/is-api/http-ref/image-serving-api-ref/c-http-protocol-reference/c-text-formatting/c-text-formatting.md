@@ -4,12 +4,12 @@ seo-description: O Serviço de imagem fornece várias alternativas para renderiz
 seo-title: Formatação de texto
 solution: Experience Manager
 title: Formatação de texto
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
 
 As strings compatíveis com RTF podem ser montadas manualmente ou formatando o texto desejado em um editor de texto ou processador de texto capaz de salvar arquivos RTF. O arquivo RTF pode ser aberto em um editor de texto simples e o conteúdo RTF bruto relevante do arquivo copiado para o URL da solicitação.
 
-Alguns processadores de texto geram arquivos bastante grandes, que incluem preâmbulos substanciais que não são usados pelo Scene7 Image Serving. Recomenda-se remover os elementos RTF não utilizados da string antes de passá-la para os comandos de texto.
+Alguns processadores de texto geram arquivos bastante grandes, que incluem preâmbulos substanciais que não são usados pelo Dynamic Media Image Serving. Recomenda-se remover os elementos RTF não utilizados da string antes de passá-la para os comandos de texto.
 
 A codificação de idioma baseada em padrões UTF-8 e ISO é suportada em strings RTF como uma alternativa aos mecanismos de codificação de caracteres RTF padrão. Isso permite que os aplicativos enviem texto que não seja em inglês para o servidor sem o conhecimento da codificação RTF.
 
