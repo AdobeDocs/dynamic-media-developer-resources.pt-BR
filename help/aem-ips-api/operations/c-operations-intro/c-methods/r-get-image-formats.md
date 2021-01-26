@@ -4,10 +4,10 @@ seo-description: Retorna formatos de imagem, como PDF, EPS, SWF e outros.
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com os formatos de imagem que você deseja obter. |
+| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com os formatos de imagem que você deseja obter. |
 
 **Saída (getImageFormatsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`imageFormatArray`*` | `types:ImageFormatArray` | Sim | A matriz de formato de imagem. |
+| `*`imageFormatArray`*` | `types:ImageFormatArray` | Sim | A matriz de formato de imagem. |
 
 ## Exemplos {#section-73881e12839b4904bf3299b0920bdd0c}
 
