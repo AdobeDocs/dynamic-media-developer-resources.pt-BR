@@ -4,10 +4,10 @@ seo-description: Define os atributos do usuário (por exemplo, nome, email, fun�
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -34,14 +34,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Não | Identificador do usuário. |
-| ` *`firstName`*` | `xsd:string` | Sim | Nome. |
-| ` *`lastName`*` | `xsd:string` | Sim | Sobrenome. |
-| ` *`email`*` | `xsd:string` | Sim | Email do usuário. |
-| ` *`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Entretanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Não | Definir a data de expiração da senha. |
-| ` *`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
-| ` *`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de alças de empresa. |
+| `*`userHandle`*` | `xsd:string` | Não | Identificador do usuário. |
+| `*`firstName`*` | `xsd:string` | Sim | Nome. |
+| `*`lastName`*` | `xsd:string` | Sim | Sobrenome. |
+| `*`email`*` | `xsd:string` | Sim | Email do usuário. |
+| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Entretanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Não | Definir a data de expiração da senha. |
+| `*`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
+| `*`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de alças de empresa. |
 
 **Saída (setUserInfoReturn)**
 
