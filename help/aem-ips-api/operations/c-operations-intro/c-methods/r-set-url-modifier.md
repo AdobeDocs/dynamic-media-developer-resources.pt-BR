@@ -4,10 +4,10 @@ seo-description: Define os comandos do protocolo Servidor de imagens ou Renderiz
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -36,10 +36,10 @@ Para o Serviço de imagem, os comandos no parâmetro `urlModifier` são publicad
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
-| ` *`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização ou renderização de imagem a serem aplicados antes dos comandos request ou `urlPostApplyModifier`. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização ou renderização de imagem a serem aplicados após `urlModifier` e solicitar comandos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
+| `*`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização ou renderização de imagem a serem aplicados antes dos comandos request ou `urlPostApplyModifier`. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização ou renderização de imagem a serem aplicados após `urlModifier` e solicitar comandos. |
 
 **Saída (setUrlModifierReturn)**
 
