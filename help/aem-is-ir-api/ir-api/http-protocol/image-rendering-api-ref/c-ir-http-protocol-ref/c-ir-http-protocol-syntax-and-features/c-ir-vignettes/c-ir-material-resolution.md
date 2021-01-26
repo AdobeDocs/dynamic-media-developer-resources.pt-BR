@@ -4,10 +4,10 @@ seo-description: O valor de resolução de uma textura repetível ou outro mater
 seo-title: Resolução de material
 solution: Experience Manager
 title: Resolução de material
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
