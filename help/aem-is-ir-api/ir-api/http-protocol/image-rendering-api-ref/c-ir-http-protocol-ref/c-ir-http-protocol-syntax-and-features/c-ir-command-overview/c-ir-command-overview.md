@@ -4,12 +4,12 @@ seo-description: Os comandos suportados pela renderização de imagem são lista
 seo-title: Visão geral do comando do protocolo HTTP de renderização de imagem
 solution: Experience Manager
 title: Visão geral do comando do protocolo HTTP de renderização de imagem
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3278c781-968a-4bde-b469-84e8dcfb0e9a
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
