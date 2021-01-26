@@ -4,12 +4,12 @@ seo-description: Os atributos de configuração são definidos como atributos di
 seo-title: Referência de comando - Atributos de configuração
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Vários comandos do Servidor de imagens ou nomes de predefinições de imagens s
 
 ## modo de dados {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Os dois modos de Recorte inteligente estão disponíveis no AEM 6.4 e superior e no Scene7 Viewers 5.9 e superior:
+Os dois modos de Recorte inteligente estão disponíveis no AEM 6.4 e superior e no Dynamic Media Viewers 5.9 e superior:
 
 * **Manual**  - os pontos de interrupção definidos pelo usuário e os comandos correspondentes do Serviço de imagem são definidos dentro de um atributo no elemento de imagem.
 * **Recorte**  inteligente - execuções de recorte inteligente calculadas são recuperadas automaticamente do servidor de delivery. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.
