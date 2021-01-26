@@ -4,10 +4,10 @@ seo-description: Remove os valores do campo de tag do dicionário de um campo de
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
-source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -31,9 +31,9 @@ Remove os valores do campo de tag do dicionário de um campo de tag.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
-| ` *`fieldHandle`*` | `xsd:string` | Sim | O identificador do campo de tag a ser modificado. |
-| ` *`valueArray`*` | `types:StringArray` | Sim | Uma matriz de valores de tag a serem excluídos do dicionário do campo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
+| `*`fieldHandle`*` | `xsd:string` | Sim | O identificador do campo de tag a ser modificado. |
+| `*`valueArray`*` | `types:StringArray` | Sim | Uma matriz de valores de tag a serem excluídos do dicionário do campo. |
 
 **Saída (deleteTagFieldValuesParam)**
 
