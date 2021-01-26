@@ -4,10 +4,10 @@ seo-description: Se um mapa de perfis ICC for necessário para um catálogo de i
 seo-title: Referência do mapa de perfis ICC
 solution: Experience Manager
 title: Referência do mapa de perfis ICC
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
