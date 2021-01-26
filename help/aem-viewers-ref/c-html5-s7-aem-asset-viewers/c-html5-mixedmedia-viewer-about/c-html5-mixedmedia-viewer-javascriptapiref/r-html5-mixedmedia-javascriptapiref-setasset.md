@@ -7,9 +7,9 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`asset`*` - {  `String`} nova ID de ativo ou conjunto de mídias mistas explícito, com modificadores opcionais do Serviço de Imagens anexados após  `?`.
+`*`asset`*` - {  `String`} nova ID de ativo ou conjunto de mídias mistas explícito, com modificadores opcionais do Serviço de Imagens anexados após  `?`.
 
 As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador.
 
-` *`data`*` - {  `JSON`} local do novo arquivo de legenda.
+`*`data`*` - {  `JSON`} local do novo arquivo de legenda.
 
 Se não for especificado, o botão de legenda não estará visível na interface do usuário. As legendas especificadas com este parâmetro aplicam-se ao vídeo que aparece primeiro no conjunto de mídia mista; vídeos subsequentes são reproduzidos sem legendas. Este visualizador suporta as seguintes IDs de componente:
 
