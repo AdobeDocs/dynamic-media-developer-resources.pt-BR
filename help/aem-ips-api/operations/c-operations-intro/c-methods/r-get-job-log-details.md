@@ -4,12 +4,12 @@ seo-description: Obtém os detalhes de um registro de trabalho de empresa.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ O campo de resposta `logMessage` está localizado com base no campo `authHeader`
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| `*`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de trabalhos. |
 
 ## Exemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 
