@@ -4,12 +4,12 @@ seo-description: Move vários ativos independentemente uns dos outros. Isso é r
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com os ativos a serem movidos. |
-| ` *`assetMoveArray`*` | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativos. Ele contém um ativo e uma pasta de destino do ativo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com os ativos a serem movidos. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativos. Ele contém um ativo e uma pasta de destino do ativo. |
 
 **Saída (moveAssetsReturn)**
 
