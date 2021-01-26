@@ -1,15 +1,12 @@
 ---
 description: 'Além do espaço necessário para instalar o software, o serviço de imagem tem os seguintes requisitos de espaço em disco '
-seo-description: 'Além do espaço necessário para instalar o software, o serviço de imagem tem os seguintes requisitos de espaço em disco '
-seo-title: Requisitos e recomendações de espaço em disco
 solution: Experience Manager
 title: Requisitos e recomendações de espaço em disco
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Além do espaço necessário para instalar o software, o Serviço de imagem tem 
 
 ## Requisitos de espaço em disco para imagens de origem {#section-317da75099ad480d9a461c7e706d4f1c}
 
-É recomendável converter todas as imagens de origem no formato de arquivo TIFF (PTIFF) da pirâmide usando a ferramenta de linha de comando (IC) do Conversor de imagens. Essa conversão garante o desempenho ideal de tempo de execução do Serviço de imagem para todos os aplicativos. Embora o Servidor de imagens possa processar todos os formatos de arquivo de origem aceitos pelo IC, a Scene7 não fornece suporte para esses usos.
+É recomendável converter todas as imagens de origem no formato de arquivo TIFF (PTIFF) da pirâmide usando a ferramenta de linha de comando (IC) do Conversor de imagens. Essa conversão garante o desempenho ideal de tempo de execução do Serviço de imagem para todos os aplicativos. Embora o Servidor de imagens possa processar todos os formatos de arquivo de origem aceitos pelo IC, a Dynamic Media não fornece suporte para esses usos.
 
 Quando você usa arquivos PTIFF, as seguintes regras de miniatura podem ajudá-lo a determinar os requisitos de espaço.
 
