@@ -4,12 +4,12 @@ seo-description: Os arquivos de atributo do catálogo podem ter qualquer nome, m
 seo-title: Arquivos de atributo do catálogo
 solution: Experience Manager
 title: Arquivos de atributo do catálogo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Os arquivos de atributo do catálogo podem ter qualquer nome, mas devem ter um s
 
 Os arquivos de atributos do catálogo consistem em um conjunto de registros de texto, separados por um único par `<CR>` (código ASCII 0xD), um único par `<LF>` (código ASCII 0xA) ou um par `<CR><LF>`. Cada registro consiste em um nome de atributo e um ou mais valores de atributo separados por vírgula:
 
-` *``*= *``*&#42;[, *`namassessment evalue`*]{<CR>|<LF>|<CR><LF>}`
+`*``*= *``*&#42;[, *`namassessment evalue`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
