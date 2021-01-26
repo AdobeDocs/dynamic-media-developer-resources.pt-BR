@@ -4,12 +4,12 @@ seo-description: Retorna ativos com base em uma matriz de nomes de ativos.
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtragem. |
+| `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtragem. |
 
 ## Exemplos {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
