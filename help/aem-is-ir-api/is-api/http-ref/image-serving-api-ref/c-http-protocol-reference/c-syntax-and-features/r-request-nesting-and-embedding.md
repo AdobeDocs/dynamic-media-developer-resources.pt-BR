@@ -4,12 +4,12 @@ seo-description: O Serviço de imagens oferece suporte ao aninhamento ilimitado 
 seo-title: Solicitação de aninhamento e incorporação
 solution: Experience Manager
 title: Solicitação de aninhamento e incorporação
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ O resultado da imagem de uma solicitação IS aninhada pode ser armazenado em ca
 
 ## Solicitações de renderização de imagem incorporadas {#section-69c5548db930412b9b90d9b2951a6969}
 
-Quando a Renderização de imagem do Scene7 está ativada no servidor, as solicitações de renderização podem ser usadas como fontes de camada, especificando-as no comando src= (ou mask=). Use a seguinte sintaxe:
+Quando a Renderização de imagem do Dynamic Media está ativada no servidor, as solicitações de renderização podem ser usadas como fontes de camada, especificando-as no comando src= (ou mask=). Use a seguinte sintaxe:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ O token `fxg` faz distinção entre maiúsculas e minúsculas.
 
 >[!NOTE]
 >
->A renderização de gráficos FXG está disponível somente no ambiente hospedado da Scene7 e pode exigir licenciamento adicional. Entre em contato com o Suporte da Scene7 para obter mais informações.
+>A renderização de gráficos FXG está disponível somente no ambiente hospedado da Dynamic Media e pode exigir licenciamento adicional. Entre em contato com o suporte técnico da Dynamic Media para obter mais informações.
 
 *[!DNL renderRequest]* é a solicitação de renderização FXG comum, excluindo o caminho raiz HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Com pequenas modificações, podemos pré-dimensionar a imagem da camada 0 e arm
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporação de solicitações para renderização de imagem do Scene7**
+**Incorporação de solicitações para renderização de imagem do Dynamic Media**
 
-Usando um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada2 do modelo usando a Renderização de imagem do Scene7:
+Usando um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada2 do modelo usando a Renderização de imagem do Dynamic Media:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
