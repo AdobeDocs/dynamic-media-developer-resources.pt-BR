@@ -4,10 +4,10 @@ seo-description: Atualizar informações para propriedades de fontes.
 seo-title: FontFieldUpdate
 solution: Experience Manager
 title: FontFieldUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
@@ -25,12 +25,12 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Identificador de ativo de fonte. |
-| ` *`fontName`*` | `xsd:string` | Nome da fonte. |
-| ` *`postscriptName`*` | `xsd:string` | Nome da fonte PostScript. |
-| ` *`rtfName`*` | `xsd:string` | Nome da fonte Rich Text. |
-| ` *`fontFamily`*` | `xsd:string` | Nome da família da fonte. |
-| ` *`estilo`*` | `xsd:string` | Estilo de fonte (consulte Estilos de fonte para obter valores). |
-| ` *`typeName`*` | `xsd:string` | Nome do tipo de fonte. |
-| ` *`type`*` | `xsd:string` | Tipo de fonte (consulte Tipos de fonte para obter valores). |
+| `*`assetHandle`*` | `xsd:string` | Identificador de ativo de fonte. |
+| `*`fontName`*` | `xsd:string` | Nome da fonte. |
+| `*`postscriptName`*` | `xsd:string` | Nome da fonte PostScript. |
+| `*`rtfName`*` | `xsd:string` | Nome da fonte Rich Text. |
+| `*`fontFamily`*` | `xsd:string` | Nome da família da fonte. |
+| `*`estilo`*` | `xsd:string` | Estilo de fonte (consulte Estilos de fonte para obter valores). |
+| `*`typeName`*` | `xsd:string` | Nome do tipo de fonte. |
+| `*`type`*` | `xsd:string` | Tipo de fonte (consulte Tipos de fonte para obter valores). |
 
