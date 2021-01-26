@@ -4,12 +4,12 @@ seo-description: Imagem de resposta de erro. O Serviço de imagem normalmente re
 seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
