@@ -1,15 +1,12 @@
 ---
 description: Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
-seo-description: Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
-seo-title: Arquivos de configuração do servidor
 solution: Experience Manager
 title: Arquivos de configuração do servidor
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Todos os arquivos de configuração estão localizados em install_folder/conf e 
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam especificamente instruídas pelo Suporte técnico da Scene7.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam especificamente instruídas pelo suporte técnico da Dynamic Media.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 
