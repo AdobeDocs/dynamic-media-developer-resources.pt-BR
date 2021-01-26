@@ -4,10 +4,10 @@ seo-description: Define a associação de um usuário em uma ou mais empresas.
 seo-title: setCompanyMember
 solution: Experience Manager
 title: setCompanyMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -34,8 +34,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:sting` | Não | Identificador do usuário. |
-| ` *`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Matriz de empresas. |
+| `*`userHandle`*` | `xsd:sting` | Não | Identificador do usuário. |
+| `*`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Matriz de empresas. |
 
 **Saída (setCompanyMemberParam)**
 
