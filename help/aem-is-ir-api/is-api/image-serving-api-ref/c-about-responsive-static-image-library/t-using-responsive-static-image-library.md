@@ -1,15 +1,12 @@
 ---
 description: Para adicionar a biblioteca de imagens responsivas a uma página da Web e gerenciar as imagens existentes com a biblioteca, conclua as seguintes etapas.
-seo-description: Para adicionar a biblioteca de imagens responsivas a uma página da Web e gerenciar as imagens existentes com a biblioteca, conclua as seguintes etapas.
-seo-title: Uso da biblioteca de imagens responsivas
 solution: Experience Manager
 title: Uso da biblioteca de imagens responsivas
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ O código a seguir é um exemplo completo de uma página trivial que tem uma ún
 
 **Uso de Recorte Inteligente**
 
-Há dois modos de Recorte inteligente disponíveis no AEM 6.4 e no Scene7 Viewers 5.9:
+Há dois modos de Recorte inteligente disponíveis no AEM 6.4 e no Dynamic Media Viewers 5.9:
 
 * **Manual**  - os pontos de interrupção definidos pelo usuário e os comandos correspondentes do Serviço de imagem são definidos dentro de um atributo no elemento de imagem.
 * **Recorte**  inteligente - execuções de recorte inteligente calculadas são recuperadas automaticamente do servidor de delivery. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.
