@@ -1,15 +1,15 @@
 ---
-description: Antes de usar o Scene7 Image Server, verifique se o sistema atende aos requisitos do sistema.
-seo-description: Antes de usar o Scene7 Image Server, verifique se o sistema atende aos requisitos do sistema.
+description: Antes de usar o Dynamic Media Image Server, verifique se o sistema atende aos requisitos do sistema.
+seo-description: Antes de usar o Dynamic Media Image Server, verifique se o sistema atende aos requisitos do sistema.
 seo-title: Requisitos e pré-requisitos do sistema
 solution: Experience Manager
 title: Requisitos e pré-requisitos do sistema
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Requisitos e pré-requisitos do sistema{#system-requirements-and-prerequisites}
 
-Antes de usar o Scene7 Image Server, verifique se o sistema atende aos requisitos do sistema.
+Antes de usar o Dynamic Media Image Server, verifique se o sistema atende aos requisitos do sistema.
 
 ## Hardware do servidor {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -57,7 +57,7 @@ to
 
 ## Software de servidor {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-O Scene7 Image Server requer o seguinte software de servidor.
+O Dynamic Media Image Server requer o seguinte software de servidor.
 
 **Windows**
 
