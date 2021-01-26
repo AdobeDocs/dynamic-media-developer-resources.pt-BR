@@ -4,10 +4,10 @@ seo-description: Atualiza os valores do dicionário de tags para um campo de tag
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -66,11 +66,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | O número de campos de tag atualizados com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou atualizar campos de tag. |
-| ` *`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou atualizar os campos da tag. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou atualizar os campos de tag. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou atualizar os campos de tag. |
+| `*`successCount`*` | `xsd:int` | Sim | O número de campos de tag atualizados com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou atualizar campos de tag. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou atualizar os campos da tag. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou atualizar os campos de tag. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou atualizar os campos de tag. |
 
 ## Exemplos {#section-bb4dcf97044c4675974c9b8d27674001}
 
