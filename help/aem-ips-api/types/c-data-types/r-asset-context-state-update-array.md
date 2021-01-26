@@ -4,12 +4,12 @@ seo-description: Uma matriz de atualizações de estado de contexto de ativos.
 seo-title: AssetContextStateUpdateArray
 solution: Experience Manager
 title: AssetContextStateUpdateArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0a4ea68c-381d-47e5-8c8a-c2a4b9080724
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
@@ -23,5 +23,5 @@ Uma matriz de atualizações de estado de contexto de ativos.
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ` *`items`*` | `types:AssetsContextStateUpdate` | Uma matriz de atualizações de estado de contexto de ativos. |
+| `*`items`*` | `types:AssetsContextStateUpdate` | Uma matriz de atualizações de estado de contexto de ativos. |
 
