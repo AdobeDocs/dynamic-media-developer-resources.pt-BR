@@ -1,15 +1,12 @@
 ---
 description: Retorna os contextos de publicação para ativos marcados para publicação.
-seo-description: Retorna os contextos de publicação para ativos marcados para publicação.
-seo-title: batchGetAssetPublishContext
 solution: Experience Manager
 title: batchGetAssetPublishContext
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -48,14 +45,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| ` *`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja query para contextos ativos (marcados para publicação). |
+| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja query para contextos ativos (marcados para publicação). |
 
 **Saída (batchGetAssetPublishContextReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
+| `*`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
 
 ## Exemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 
