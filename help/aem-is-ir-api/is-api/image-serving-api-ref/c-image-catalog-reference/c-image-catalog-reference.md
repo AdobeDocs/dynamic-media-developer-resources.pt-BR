@@ -4,12 +4,12 @@ seo-description: Os catálogos de imagens fornecem informações sobre imagens e
 seo-title: Referência do catálogo de imagens
 solution: Experience Manager
 title: Referência do catálogo de imagens
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
