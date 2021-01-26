@@ -4,10 +4,10 @@ seo-description: Um proxy de servidor de imagens pode ser usado para redimension
 seo-title: proxy do servidor de imagens
 solution: Experience Manager
 title: proxy do servidor de imagens
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
