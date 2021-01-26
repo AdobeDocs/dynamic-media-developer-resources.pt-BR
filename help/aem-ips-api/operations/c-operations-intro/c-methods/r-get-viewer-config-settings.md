@@ -4,10 +4,10 @@ seo-description: Obtém todas as configurações do visualizador associadas ao a
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 0%
@@ -34,13 +34,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| ` *`assetHandle`*` | `xsd:string` | Sim | Lidar com o ativo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Lidar com o ativo. |
 
 **Saída (getViewerCoinfigSettingsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`type`*` | `xsd:string` | Sim | Tipo de visualizador ao qual as configurações se aplicam. |
-| ` *`configSettingsArray`*` | `types:ConfigSettingsArray` | Sim | Matriz de configurações do visualizador. |
+| `*`type`*` | `xsd:string` | Sim | Tipo de visualizador ao qual as configurações se aplicam. |
+| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Sim | Matriz de configurações do visualizador. |
 
