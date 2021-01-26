@@ -1,15 +1,12 @@
 ---
 description: O upload de ativos no Scene7 Production System envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
-seo-description: O upload de ativos no Scene7 Production System envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
-seo-title: Fazer upload de ativos por meio de HTTP POSTs para o UploadFile Servlet
 solution: Experience Manager
 title: Fazer upload de ativos por meio de HTTP POSTs para o UploadFile Servlet
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Todas as solicitações de POST para um trabalho de upload devem se originar do mesmo endereço IP.
 
-**Acessar URLs para regiões do Scene7**
+**Acessar URLs para regiões do Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
