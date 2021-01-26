@@ -4,10 +4,10 @@ seo-description: Define os metadados do ativo usando o modo de lote.
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -36,18 +36,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa cujos metadados você deseja definir em uma operação em lote. |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | Sim | A matriz de atualizações de metadados aplicadas aos ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa cujos metadados você deseja definir em uma operação em lote. |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Sim | A matriz de atualizações de metadados aplicadas aos ativos. |
 
 **Saída (batchSetAssetMetadataParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | O número de metadados definidos com êxito. |
-| ` *`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir metadados. |
-| ` *`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir metadados. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram avisos quando a operação tentou definir em lote metadados para os ativos. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram erros quando a operação tentava definir metadados em lote para os ativos. |
+| `*`successCount`*` | `xsd:int` | Sim | O número de metadados definidos com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir metadados. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir metadados. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram avisos quando a operação tentou definir em lote metadados para os ativos. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram erros quando a operação tentava definir metadados em lote para os ativos. |
 
 ## Exemplos {#section-2de798ac920e4b47b971b1729a64395b}
 
