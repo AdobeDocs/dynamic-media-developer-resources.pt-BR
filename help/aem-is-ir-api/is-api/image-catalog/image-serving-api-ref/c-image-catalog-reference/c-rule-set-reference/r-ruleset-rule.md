@@ -4,10 +4,10 @@ seo-description: Elemento de container de regras. Um arquivo de conjunto de regr
 seo-title: conjunto de regras
 solution: Experience Manager
 title: conjunto de regras
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea44d7e6-8d82-41bb-a3b7-ec413c31afe0
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%
