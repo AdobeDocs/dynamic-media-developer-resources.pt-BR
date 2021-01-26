@@ -4,10 +4,10 @@ seo-description: Obtém uma lista dos caracteres usados em um campo específico.
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -34,19 +34,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`charField`*` | `xsd:string` | Sim | Determina o Estado de lixeira a ser pesquisado. |
-| ` *`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários administradores não IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização será retornada se o usuário não tiver associações de empresa ativas. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Não | Resultados de filtros com base em grupos. |
-| ` *`userRoleArray`*` | `types:StringArray` | Não | Resultados de filtros com base na função do usuário. |
-| ` *`numChars`*` | `xsd:int` | Não | Habilitar > 1 caractere. |
+| `*`charField`*` | `xsd:string` | Sim | Determina o Estado de lixeira a ser pesquisado. |
+| `*`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários administradores não IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização será retornada se o usuário não tiver associações de empresa ativas. |
+| `*`includeInvalid`*` | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Não | Resultados de filtros com base em grupos. |
+| `*`userRoleArray`*` | `types:StringArray` | Não | Resultados de filtros com base na função do usuário. |
+| `*`numChars`*` | `xsd:int` | Não | Habilitar > 1 caractere. |
 
 **Saída (getUserCharsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | Sim | Uma matriz de prefixos de caracteres. |
+| `*`userCharsArray`*` | `types:StringArray` | Sim | Uma matriz de prefixos de caracteres. |
 
 ## Exemplos {#section-3702f165e8b041139a6144f4a76ca25f}
 
