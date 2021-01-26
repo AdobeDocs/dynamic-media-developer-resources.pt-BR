@@ -4,10 +4,10 @@ seo-description: Opção de correspondência de catálogo.
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Opção de correspondência de catálogo.
 
-Uma entrada de catálogo é especificada como um par ` *`rootId`*/ *`imageId`*` em solicitações HTTP. Ao analisar, um catálogo será selecionado se ` *`rootId`*` corresponder ao valor `attribute::RootId` do catálogo e o registro do catálogo for identificado pela correspondência de ` *`imageId`*` com um valor `catalog::Id`. Se um catálogo for encontrado, mas não houver uma entrada de catálogo que corresponda a ` *`imageId`*`, o servidor poderá fazer uma das seguintes ações:
+Uma entrada de catálogo é especificada como um par `*`rootId`*/ *`imageId`*` em solicitações HTTP. Ao analisar, um catálogo será selecionado se `*`rootId`*` corresponder ao valor `attribute::RootId` do catálogo e o registro do catálogo for identificado pela correspondência de `*`imageId`*` com um valor `catalog::Id`. Se um catálogo for encontrado, mas não houver uma entrada de catálogo que corresponda a `*`imageId`*`, o servidor poderá fazer uma das seguintes ações:
 
-Se `attribute::FullMatch` não estiver definido, o servidor usará os atributos do catálogo correspondente. Nesse caso, ` *`rootId`*` é substituído por `attribute::RootPath` (ou `default::RootPath`, se não for especificado neste catálogo).
+Se `attribute::FullMatch` não estiver definido, o servidor usará os atributos do catálogo correspondente. Nesse caso, `*`rootId`*` é substituído por `attribute::RootPath` (ou `default::RootPath`, se não for especificado neste catálogo).
 
-Se `attribute::FullMatch` estiver definido, o servidor ignorará completamente o catálogo, como se nenhum catálogo tivesse sido correspondido, e continuará usando os atributos do catálogo padrão. Nesse caso, ` *`rootId`*` permanece parte do caminho (que é anexado por `default::RootPath`).
+Se `attribute::FullMatch` estiver definido, o servidor ignorará completamente o catálogo, como se nenhum catálogo tivesse sido correspondido, e continuará usando os atributos do catálogo padrão. Nesse caso, `*`rootId`*` permanece parte do caminho (que é anexado por `default::RootPath`).
 
 ## Propriedades {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
