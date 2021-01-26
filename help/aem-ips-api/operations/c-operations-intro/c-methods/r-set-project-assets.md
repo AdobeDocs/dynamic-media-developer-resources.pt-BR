@@ -4,12 +4,12 @@ seo-description: Atribuir ou atualizar ativos em um projeto.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Sim | Alça da empresa. |
-| ` *`projectHandle`*` | `xsd:string` | Sim | Manuseio do projeto. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores de ativos que você deseja associar ao projeto. |
+| `*`companyName`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`projectHandle`*` | `xsd:string` | Sim | Manuseio do projeto. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores de ativos que você deseja associar ao projeto. |
 
 **Saída (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
+| `*`successCount`*` | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
 
 ## Exemplos {#section-33c1a909c3dc4aa98da474c23a036596}
 
