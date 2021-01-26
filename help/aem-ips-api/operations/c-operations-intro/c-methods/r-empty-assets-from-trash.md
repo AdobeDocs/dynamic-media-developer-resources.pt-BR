@@ -4,10 +4,10 @@ seo-description: Esvazia ativos da lixeira IPS.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
@@ -37,18 +37,18 @@ Os ativos vivem no lixo até serem esvaziados manualmente ou até saírem do lix
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa proprietária dos ativos. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de alças que representam os itens a serem esvaziados do lixo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa proprietária dos ativos. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de alças que representam os itens a serem esvaziados do lixo. |
 
 **Saída (emptyAssetsFromTrashParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | Sim | O número de ativos esvaziados com êxito do lixo. |
-| ` *`warningCount`*` | `xsd:Int` | Sim | O número de avisos gerados quando a operação tentou esvaziar ativos do lixo. |
-| ` *`errorCount`*` | `xsd:Int` | Sim | O número de erros gerados quando a operação tentou esvaziar ativos do lixo. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou esvaziá-los da lixeira. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou esvaziá-los da lixeira. |
+| `*`successCount`*` | `xsd:Int` | Sim | O número de ativos esvaziados com êxito do lixo. |
+| `*`warningCount`*` | `xsd:Int` | Sim | O número de avisos gerados quando a operação tentou esvaziar ativos do lixo. |
+| `*`errorCount`*` | `xsd:Int` | Sim | O número de erros gerados quando a operação tentou esvaziar ativos do lixo. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou esvaziá-los da lixeira. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou esvaziá-los da lixeira. |
 
 ## Exemplos {#section-6154a873b6c342bf92e2036280cafdcf}
 
