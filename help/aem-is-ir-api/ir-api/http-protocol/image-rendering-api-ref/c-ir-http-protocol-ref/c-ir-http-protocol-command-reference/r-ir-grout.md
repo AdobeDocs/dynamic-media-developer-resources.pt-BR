@@ -4,10 +4,10 @@ seo-description: Cor e espessura da argila do bloco. Simula argila para azulejos
 seo-title: argila
 solution: Experience Manager
 title: argila
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -41,13 +41,13 @@ Para o controlo máximo da aparência do caldo de injeção, aplicam-se os segui
 
 ## Propriedades {#section-de78b678245b4ffda48097c345949e77}
 
-Atributo material. ` *``*` color deve ser um valor de cor RGB. ` *`A `*` largura deve ser um valor real 0 ou maior.
+Atributo material. `*``*` color deve ser um valor de cor RGB. `*`A `*` largura deve ser um valor real 0 ou maior.
 
 Ignorado se repetir = 4, 5, 7, 8, 9, 14 ou superior, ou quando especificado para materiais que não sejam texturas repetíveis.
 
 ## Padrão {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Se `grout=` não for especificado, o gráfico na imagem não será modificado. Se ` grout= *`color`*` for especificado, ` *`width`*` assumirá `catalog::GroutWidth` como padrão.
+Se `grout=` não for especificado, o gráfico na imagem não será modificado. Se ` grout= *`color`*` for especificado, `*`width`*` assumirá `catalog::GroutWidth` como padrão.
 
 ## Consulte também {#section-8d472906a44943f5a8557e98f2fbc71f}
 
