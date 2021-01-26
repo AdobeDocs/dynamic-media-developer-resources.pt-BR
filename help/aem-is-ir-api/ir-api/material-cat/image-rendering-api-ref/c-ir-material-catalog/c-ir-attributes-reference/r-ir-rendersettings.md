@@ -4,12 +4,12 @@ seo-description: Configurações de renderização avançadas padrão. Padrão p
 seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Configurações de renderização avançadas padrão. Padrão para catálogo::Re
 
 ## Propriedades {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Sequência de caracteres de texto. Se especificado, deve ser uma string válida de configurações de renderização, conforme definido com a Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Scene7).
+Sequência de caracteres de texto. Se especificado, deve ser uma string válida de configurações de renderização, conforme definido com a Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media).
 
 ## Padrão {#section-4e76784aeecd4f09a33124aded7406cb}
 
