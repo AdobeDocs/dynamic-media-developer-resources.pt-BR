@@ -4,12 +4,12 @@ seo-description: Caminho do arquivo de definições de macro. Especifica o arqui
 seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cbf7fd62-b868-4891-8b95-0aaf38078a36
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
