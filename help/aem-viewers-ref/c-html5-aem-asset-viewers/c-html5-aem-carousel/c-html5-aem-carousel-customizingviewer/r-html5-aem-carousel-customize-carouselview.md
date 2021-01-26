@@ -4,12 +4,12 @@ seo-description: A visualização principal consiste na imagem do banner.
 seo-title: Visualização do carrossel
 solution: Experience Manager
 title: Visualização do carrossel
-topic: Dynamic media
+topic: Dynamic Media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
