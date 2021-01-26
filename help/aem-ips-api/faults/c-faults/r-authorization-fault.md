@@ -1,16 +1,13 @@
 ---
 description: Acionado quando um usuário autenticado tem permissões insuficientes para realizar uma tarefa.
-seo-description: Acionado quando um usuário autenticado tem permissões insuficientes para realizar uma tarefa.
-seo-title: authorizedFault
 solution: Experience Manager
 title: authorizedFault
-topic: Scene7 Image Production System API
-uuid: 8b8df22a-aa76-4cbd-9c14-89969c5f9620
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '54'
+ht-degree: 18%
 
 ---
 
