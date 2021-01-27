@@ -4,10 +4,10 @@ seo-description: Clicar ou tocar nesse botão retorna um usuário ao slide anter
 seo-title: Slide anterior
 solution: Experience Manager
 title: Slide anterior
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
