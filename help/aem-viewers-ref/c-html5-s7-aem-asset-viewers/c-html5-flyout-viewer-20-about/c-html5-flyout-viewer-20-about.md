@@ -5,7 +5,7 @@ solution: Experience Manager
 title: Flyout
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -134,7 +134,7 @@ Um caminho relativo tem a seguinte aparência:
 
    Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens. Em sistemas desktop, as miniaturas são colocadas abaixo da visualização principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal durante o tempo de execução usando a API `setAsset()`. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na área inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e deixar a visualização principal aumentar sua altura e ocupar a área de miniaturas. Ou você pode manter o tamanho da visualização principal estático e reduzir a área do visualizador externo, permitindo, assim, que o conteúdo da página da Web se mova para cima e, em seguida, usar o espaço livre da página nas miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7flyoutviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System, ou transmitido explicitamente usando o comando style.
+   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7flyoutviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando o comando style.
 
    Consulte [Personalizando o Flyout Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) para obter mais informações sobre como estilizar o visualizador com CSS.
 
