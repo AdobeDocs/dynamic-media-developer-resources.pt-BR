@@ -5,7 +5,7 @@ title: Namespace do SDK do visualizador
 topic: Dynamic Media
 uuid: 993547f2-b943-4aba-b6cc-54fa32cfb2d3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
@@ -19,7 +19,7 @@ O visualizador foi criado com vários componentes do SDK do visualizador. Na mai
 
 No entanto, alguns casos de uso avançado exigem que a página da Web obtenha uma referência a um componente SDK interno usando a `getComponent()` API do visualizador e use toda a flexibilidade das APIs do próprio SDK.
 
-A namespace usada para carregar e inicializar componentes do SDK pelo visualizador depende do ambiente no qual o visualizador está operando. Se o visualizador estiver sendo executado no AEM (Adobe Experience Manager), o visualizador carregará os componentes do SDK na namespace `s7viewers.s7sdk`. E o visualizador fornecido pelo Scene7 Publishing System carrega o SDK em `s7classic.s7sdk`.
+A namespace usada para carregar e inicializar componentes do SDK pelo visualizador depende do ambiente no qual o visualizador está operando. Se o visualizador estiver sendo executado no AEM (Adobe Experience Manager), o visualizador carregará os componentes do SDK na namespace `s7viewers.s7sdk`. E o visualizador fornecido pelo Dynamic Media Classic carrega o SDK em `s7classic.s7sdk`.
 
 Em ambos os casos, a namespace usada pelo SDK dentro do visualizador tem `s7viewers` ou `s7classic` como o prefixo. Além disso, é diferente da namespace simples `s7sdk` usada no Guia do usuário do SDK ou na documentação da API do SDK.
 
