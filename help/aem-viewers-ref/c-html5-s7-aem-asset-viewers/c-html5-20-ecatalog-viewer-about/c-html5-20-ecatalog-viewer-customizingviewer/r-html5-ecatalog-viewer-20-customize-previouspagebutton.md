@@ -4,12 +4,12 @@ seo-description: Clicar ou tocar nesse botão leva o usuário para a página ant
 seo-title: Botão Página anterior
 solution: Experience Manager
 title: Botão Página anterior
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0e7dfa50-0af5-4af9-b57c-5a01e73c03a0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
