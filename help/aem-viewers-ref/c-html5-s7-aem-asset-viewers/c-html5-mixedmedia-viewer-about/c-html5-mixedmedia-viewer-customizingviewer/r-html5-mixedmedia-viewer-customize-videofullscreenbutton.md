@@ -4,12 +4,12 @@ seo-description: O botão de tela cheia faz com que o visualizador entre ou saia
 seo-title: Botão Vídeo em tela cheia
 solution: Experience Manager
 title: Botão Vídeo em tela cheia
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
