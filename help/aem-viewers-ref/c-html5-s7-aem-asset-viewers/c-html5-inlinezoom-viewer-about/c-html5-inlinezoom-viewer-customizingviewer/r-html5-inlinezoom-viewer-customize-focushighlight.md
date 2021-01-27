@@ -4,12 +4,12 @@ seo-description: O realce de foco de entrada exibido em torno do elemento de int
 seo-title: Destaque do foco
 solution: Experience Manager
 title: Destaque do foco
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ab7d3a24-46a9-4c74-a7ba-6e53ebf4cf1c
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
