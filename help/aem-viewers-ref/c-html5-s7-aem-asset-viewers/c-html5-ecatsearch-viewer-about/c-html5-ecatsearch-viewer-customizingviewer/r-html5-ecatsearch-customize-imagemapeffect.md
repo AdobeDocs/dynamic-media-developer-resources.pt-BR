@@ -1,15 +1,12 @@
 ---
-description: Dependendo do valor do parâmetro de modo, o visualizador exibe ícones de mapa de imagem sobre a visualização principal nos locais em que os mapas são criados originalmente no Scene7 Publishing System ou renderiza regiões exatas que correspondem à forma dos mapas de imagem originais.
-seo-description: Dependendo do valor do parâmetro de modo, o visualizador exibe ícones de mapa de imagem sobre a visualização principal nos locais em que os mapas são criados originalmente no Scene7 Publishing System ou renderiza regiões exatas que correspondem à forma dos mapas de imagem originais.
-seo-title: Efeito Mapa de imagem
+description: Dependendo do valor do parâmetro de modo, o visualizador exibe ícones de mapa de imagem sobre a visualização principal em locais onde os mapas são originalmente criados no Dynamic Media Classic ou renderiza regiões exatas que correspondem à forma dos mapas de imagem originais.
 solution: Experience Manager
 title: Efeito Mapa de imagem
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Efeito do mapa de imagem{#image-map-effect}
 
-Dependendo do valor do parâmetro de modo, o visualizador exibe ícones de mapa de imagem sobre a visualização principal nos locais em que os mapas são criados originalmente no Scene7 Publishing System ou renderiza regiões exatas que correspondem à forma dos mapas de imagem originais.
+Dependendo do valor do parâmetro de modo, o visualizador exibe ícones de mapa de imagem sobre a visualização principal em locais onde os mapas são originalmente criados no Dynamic Media Classic ou renderiza regiões exatas que correspondem à forma dos mapas de imagem originais.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
