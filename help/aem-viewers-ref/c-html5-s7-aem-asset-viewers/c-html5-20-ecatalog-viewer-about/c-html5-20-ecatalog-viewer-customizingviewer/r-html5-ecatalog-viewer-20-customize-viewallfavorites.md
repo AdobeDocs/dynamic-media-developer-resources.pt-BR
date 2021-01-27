@@ -4,12 +4,12 @@ seo-description: A posição do botão é totalmente gerenciada pelo menu Favori
 seo-title: Botão visualização de todos os favoritos
 solution: Experience Manager
 title: Botão visualização de todos os favoritos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
