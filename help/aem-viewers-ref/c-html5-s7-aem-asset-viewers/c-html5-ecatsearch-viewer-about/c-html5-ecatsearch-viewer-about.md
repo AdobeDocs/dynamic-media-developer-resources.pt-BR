@@ -1,16 +1,14 @@
 ---
 description: O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem aumentar o zoom em cada página para obter mais detalhes.
 keywords: responsive
-seo-description: O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem aumentar o zoom em cada página para obter mais detalhes.
-seo-title: Pesquisa do eCatalog
 solution: Experience Manager
 title: Pesquisa do eCatalog
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Scene7 e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Scene7 que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media com os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
