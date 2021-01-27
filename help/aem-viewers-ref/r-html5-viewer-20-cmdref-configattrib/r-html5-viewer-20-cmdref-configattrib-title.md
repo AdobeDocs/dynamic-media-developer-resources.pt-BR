@@ -1,13 +1,13 @@
 ---
-description: título
+description: comando título
 solution: Experience Manager
 title: título
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
 translation-type: tm+mt
-source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '39'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Opcional.
 
 ## Padrão {#section-79a827f7a3bb4f36b3d72c309155059e}
 
-`Adobe Dynamic Media Classic Video` ou  `Adobe Scene7 eCatalog`
+`Adobe Dynamic Media Video` ou  `Adobe Dynamic Media Classic eCatalog`
 
 ## Propriedades {#section-f8a0c032979047a38041abfce3f7a70b}
 
