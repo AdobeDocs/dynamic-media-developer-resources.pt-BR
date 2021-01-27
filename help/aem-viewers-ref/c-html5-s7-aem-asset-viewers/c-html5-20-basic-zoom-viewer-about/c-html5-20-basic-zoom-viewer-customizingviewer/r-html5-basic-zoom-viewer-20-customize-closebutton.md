@@ -4,12 +4,12 @@ seo-description: Clicar ou tocar nesse botão fecha a página da Web contêiner.
 seo-title: Botão Fechar
 solution: Experience Manager
 title: Botão Fechar
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a5280ec8-fbb5-42d4-9504-2f1141fe7c79
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
