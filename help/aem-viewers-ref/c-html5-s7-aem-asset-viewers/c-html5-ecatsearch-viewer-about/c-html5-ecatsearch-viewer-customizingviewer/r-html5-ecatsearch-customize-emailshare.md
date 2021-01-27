@@ -4,12 +4,12 @@ seo-description: A ferramenta de compartilhamento de email consiste em um botão
 seo-title: Compartilhamento de email
 solution: Experience Manager
 title: Compartilhamento de email
-topic: Dynamic media
+topic: Dynamic Media
 uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3073'
 ht-degree: 0%
 
 ---
