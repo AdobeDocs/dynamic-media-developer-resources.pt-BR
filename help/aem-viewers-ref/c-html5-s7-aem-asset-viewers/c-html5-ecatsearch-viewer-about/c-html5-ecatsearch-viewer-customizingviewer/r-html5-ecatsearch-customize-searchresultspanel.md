@@ -4,10 +4,10 @@ seo-description: O painel de resultados da pesquisa consiste na caixa de entrada
 seo-title: Painel de resultados da pesquisa
 solution: Experience Manager
 title: Painel de resultados da pesquisa
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 0%
