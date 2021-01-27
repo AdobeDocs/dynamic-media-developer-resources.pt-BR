@@ -4,12 +4,12 @@ seo-description: A visualização Favoritos consiste em uma coluna de imagens em
 seo-title: Visualização Favoritos
 solution: Experience Manager
 title: Visualização Favoritos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
