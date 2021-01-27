@@ -4,10 +4,10 @@ seo-description: A classe principal do eCatalog Search Viewer é eCatalogSearchV
 seo-title: Referência de API do Javascript para o eCatalog Search Viewer
 solution: Experience Manager
 title: Referência de API do Javascript para o eCatalog Search Viewer
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
