@@ -1,15 +1,12 @@
 ---
 description: As notas de versão mais recentes da versão Adobe Scene7 do último trimestre de 2016 fazem parte da solução Adobe Experience Manager no Adobe Marketing Cloud.
-seo-description: As notas de versão mais recentes da versão Adobe Scene7 do último trimestre de 2016 fazem parte da solução Adobe Experience Manager no Adobe Marketing Cloud.
-seo-title: Versão do último trimestre de 2016 da Scene7
 solution: Experience Manager
 title: Versão do último trimestre de 2016 da Scene7
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ As notas de versão mais recentes da versão Adobe Scene7 do último trimestre d
 As notas de versão mais recentes de [!DNL Adobe Scene7] versão do último trimestre de 2016 da solução [!DNL Adobe Experience Manager] no [!DNL Adobe Marketing Cloud].
 
 * [Geral](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visualizadores (Servidor de imagens 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visualizadores (Servidor de imagens 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visualizadores (Servidor de imagens 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Server 6.3.2 e Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Geral {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Para obter a documentação completa, consulte [https://docs.adobe.com/content/h
 * Recurso de recuperação de vídeo removido da interface do usuário [!DNL Adobe Scene7 Publishing System].
 * Autenticação adicionada a todos os servlets Scene7, quando necessário e possível.
 * Correção de erros envolvendo a Visualização da Lista na lata de lixo.
-* Remoção do recurso **Create SPSAdmin** do usuário do Gerenciamento de usuários devido a problemas de segurança.
+* Remoção do recurso **Criar administrador do Dynamic Media Classic (Scene7)** do usuário do Gerenciamento de usuários devido a problemas de segurança.
 * O FTP WebAdmin agora oferece suporte à autenticação OKTA.
 * Remoção do recurso da senha padrão que foi criada para novos usuários do Portal de mídia.
 * Correção de bug que envolve a senha temporária gerada quando um novo usuário foi adicionado. A senha não atendeu aos requisitos de senha necessários.
