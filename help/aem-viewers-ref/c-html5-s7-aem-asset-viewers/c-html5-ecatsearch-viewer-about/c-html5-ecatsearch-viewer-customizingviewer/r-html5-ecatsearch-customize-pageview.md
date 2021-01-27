@@ -4,12 +4,12 @@ seo-description: A visualização principal consiste na imagem do catálogo. Ele
 seo-title: Visualização da página
 solution: Experience Manager
 title: Visualização da página
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
