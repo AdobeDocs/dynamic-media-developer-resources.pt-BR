@@ -8,9 +8,9 @@ title: Zoom básico
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático para o visualizador declarando-o para `.s7basiczoomviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no SPS, ou transmitido explicitamente usando um comando de estilo.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando um comando de estilo.
 
    Consulte [Personalizando o visualizador de zoom básico](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -176,7 +176,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no SPS, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como o seguinte:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como a seguinte:
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");
