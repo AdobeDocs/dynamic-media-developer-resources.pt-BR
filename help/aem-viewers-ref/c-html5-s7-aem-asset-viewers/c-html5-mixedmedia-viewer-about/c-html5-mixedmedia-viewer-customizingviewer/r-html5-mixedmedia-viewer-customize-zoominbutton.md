@@ -4,10 +4,10 @@ seo-description: Clicar ou tocar nesse botão aplica mais zoom em uma imagem na 
 seo-title: Botão Mais zoom
 solution: Experience Manager
 title: Botão Mais zoom
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 19f8b5b1-5327-405e-a420-16da53b354ca
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
