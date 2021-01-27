@@ -6,7 +6,7 @@ title: Pesquisa do eCatalog
 topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2179'
 ht-degree: 0%
@@ -166,7 +166,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático para o visualizador declarando-o para `.s7ecatalogsearchviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System, ou transmitido explicitamente usando um comando de estilo.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando um comando de estilo.
 
    Consulte [Personalizando o visualizador do eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -179,7 +179,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Scene7 Publishing System, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de Comando, como a seguinte:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como a seguinte:
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
