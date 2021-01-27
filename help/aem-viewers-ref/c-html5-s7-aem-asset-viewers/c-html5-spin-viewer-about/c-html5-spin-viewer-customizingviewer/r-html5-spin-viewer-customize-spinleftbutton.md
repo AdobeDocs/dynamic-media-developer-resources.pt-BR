@@ -4,10 +4,10 @@ seo-description: Clicar ou tocar nesse botão gira a imagem para a esquerda na v
 seo-title: Botão Girar para a esquerda
 solution: Experience Manager
 title: Botão Girar para a esquerda
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
