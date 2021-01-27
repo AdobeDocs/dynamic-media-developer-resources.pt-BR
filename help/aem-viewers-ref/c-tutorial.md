@@ -2,9 +2,9 @@
 description: O Viewer SDK fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada fornecido pela Adobe Dynamic Media seja incorporado em páginas da Web.
 solution: Experience Manager
 title: Tutorial do SDK do visualizador
-topic: Dynamic media
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
