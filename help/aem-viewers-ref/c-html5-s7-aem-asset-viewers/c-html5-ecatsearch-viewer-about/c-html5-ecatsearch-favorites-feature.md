@@ -5,7 +5,7 @@ title: Recurso de pesquisa
 topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Recurso de pesquisa{#search-feature}
 
-O visualizador oferece suporte à pesquisa de texto sobre o conteúdo do catálogo. Para que o recurso de pesquisa funcione, o recurso &quot;Extrair palavras de pesquisa&quot; do catálogo deve estar ativado quando o arquivo PDF de origem for carregado no Scene7 Publishing System.
+O visualizador oferece suporte à pesquisa de texto sobre o conteúdo do catálogo. Para que o recurso de pesquisa funcione, o recurso &quot;Extrair palavras de pesquisa&quot; do catálogo deve estar ativado quando o arquivo PDF de origem for carregado no Dynamic Media Classic.
 
 O recurso Pesquisar é acionado por meio da ativação de um botão Pesquisar na barra de ferramentas principal. Essa ação ativa um painel de resultados de pesquisa com um campo de entrada de texto. Um usuário pode executar uma pesquisa usando palavras-chave separadas por espaços ou usando frases que estão cercadas por aspas de duplo.
 
