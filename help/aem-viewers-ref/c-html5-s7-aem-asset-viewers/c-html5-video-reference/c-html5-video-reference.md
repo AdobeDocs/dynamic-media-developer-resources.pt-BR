@@ -1,16 +1,13 @@
 ---
-description: O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pelo Scene7 Publishing System ou AEM Dynamic Media.
+description: O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido do Dynamic Media Classic ou AEM Dynamic Media.
 keywords: responsive
-seo-description: O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pelo Scene7 Publishing System ou AEM Dynamic Media.
-seo-title: Vídeo
 solution: Experience Manager
 title: Vídeo
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Vídeo{#video}
 
-O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pelo Scene7 Publishing System ou AEM Dynamic Media.
+O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido do Dynamic Media Classic ou AEM Dynamic Media.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ O caminho relativo é semelhante ao seguinte:
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7videoviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System ou transmitido explicitamente usando um comando de estilo.
+   O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando de estilo.
 
    Consulte [Personalizar o Visualizador de vídeo](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) para obter mais informações sobre como estilizar o visualizador usando CSS.
 
@@ -165,7 +162,7 @@ O caminho relativo é semelhante ao seguinte:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Scene7 Publishing System, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como a seguir:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como a seguir:
 
    ```
    videoViewer.setParam("stagesize", "640,480");
