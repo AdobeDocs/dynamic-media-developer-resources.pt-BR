@@ -1,16 +1,13 @@
 ---
 description: O Mixed Media Viewer é um visualizador de mídia. Suporta conjuntos de mídia que contêm imagens, conjuntos de amostras, conjuntos de rotação, vídeos e Conjuntos de vídeo adaptáveis.
 keywords: responsive
-seo-description: O Mixed Media Viewer é um visualizador de mídia. Suporta conjuntos de mídia que contêm imagens, conjuntos de amostras, conjuntos de rotação, vídeos e Conjuntos de vídeo adaptáveis.
-seo-title: Mídia mista
 solution: Experience Manager
 title: Mídia mista
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Scene7 e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Scene7 que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic com os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
@@ -175,7 +172,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens. Em sistemas desktop, as miniaturas são colocadas abaixo da visualização principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal durante o tempo de execução usando a API `setAsset()`. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e deixar a visualização principal aumentar sua altura e ocupar a área de miniaturas. Ou, você pode manter o tamanho da visualização principal estático e recolher a área do visualizador externo, permitindo que o conteúdo da página da Web se mova para cima e, em seguida, usar o espaço livre da página que fica das miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7mixedmediaviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System, ou transmitido explicitamente usando o comando style.
+   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7mixedmediaviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando o comando style.
 
    Consulte [Personalizando o visualizador de mídia mista](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -207,7 +204,7 @@ O caminho relativo tem a seguinte aparência:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Scene7 Publishing System, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de Comando desta Ajuda, como a seguir:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de Comando desta Ajuda, como a seguir:
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
