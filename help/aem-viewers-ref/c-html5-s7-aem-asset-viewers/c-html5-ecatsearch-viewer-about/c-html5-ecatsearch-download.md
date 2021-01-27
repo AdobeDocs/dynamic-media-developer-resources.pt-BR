@@ -3,11 +3,10 @@ description: Download
 solution: Experience Manager
 title: Download
 topic: Dynamic Media
-uuid: 5899d665-b0e8-4f02-915b-55dcd2563b83
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -21,5 +20,5 @@ O botão &quot;Download&quot; fica automaticamente disponível na interface do u
 
 * Um arquivo PDF real está presente na empresa do cliente.
 * O nome corresponde ao nome do ativo de catálogo eletrônico que é transmitido ao visualizador e inclui uma extensão `.pdf`.
-* O arquivo PDF é publicado no SPS (Scene7 Publishing System).
+* O arquivo PDF é publicado no Dynamic Media Classic.
 
