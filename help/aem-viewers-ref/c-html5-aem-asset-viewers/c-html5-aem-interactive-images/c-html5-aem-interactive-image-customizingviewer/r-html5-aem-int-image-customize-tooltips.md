@@ -4,12 +4,12 @@ seo-description: Em sistemas de desktop, alguns elementos da interface do usuár
 seo-title: Dicas de ferramentas
 solution: Experience Manager
 title: Dicas de ferramentas
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
