@@ -1,15 +1,12 @@
 ---
 description: O Serviço de imagens oferece suporte a conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
-seo-description: O Serviço de imagens oferece suporte a conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
-seo-title: Gerenciamento de cores do Serviço de imagens
 solution: Experience Manager
 title: Gerenciamento de cores do Serviço de imagens
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -43,7 +40,7 @@ Os valores de cor especificados com `color=`, `bgcolor=` ou o comando RTF `\isco
 
 ## Solicitações aninhadas e incorporadas {#section-bdda638c31504f26a77e51ebb1ea6e3b}
 
-O espaço de cor de saída para solicitações IS aninhadas e solicitações IR incorporadas é automaticamente definido para o espaço de cor de saída da solicitação mais externa, a menos que a solicitação aninhada especifique um espaço de cor de saída explícito com `icc=`. Além disso, as solicitações aninhadas/incorporadas também herdam os espaços de cores de saída padrão do catálogo principal da solicitação mais externa, para garantir o manuseio consistente dos valores de cores sólidas.
+O espaço de cor de saída para solicitações IS aninhadas e solicitações IR incorporadas é automaticamente definido para o espaço de cor de saída da solicitação mais externa, a menos que a solicitação aninhada especifique um espaço de cor de saída explícito com `icc=`. Além disso, as solicitações aninhadas/incorporadas também herdam os espaços de cores de saída padrão do catálogo principal da solicitação mais externa, para garantir o manuseio consistente dos valores de cor sólida.
 
 ## Conversão de espaço de cores {#section-ca87b80b8e364ea59d8a92d87121b0fb}
 
@@ -95,27 +92,27 @@ Perfis adicionais podem ser adicionados aos perfis padrão, tanto no catálogo p
 |`sRGB`|sRGB IEC61966-2.1|Perfil Rgb Color Space.icm|
 |`WideGamutRGB`|Gamut largo RGB|WideGamutRGB.icc|
 |**CMYK**||
-|`CoatedFogra27`|Revestido FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
+|`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
 |`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
-|`CoatedGraCol`|GRACoL revestido 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
-|`EuropeISOCoated`|Europe ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc|
+|`CoatedGraCol`|COated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
+|`EuropeISOCoated`|Europa ISO Revestido FOGRA27|EuropeISOCoatedFOGRA27.icc|
 |`EuroscaleCoated`|Revestimento Euroscale|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncovered v2|EuroscaleUncovered.icc|
 |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc|
 |`JapanColorNewspaper`|Jornal Japan Color 2002|JapanColor2002Newspaper.icc|
-|`JapanColorUncoated`|Japan Color 2001 Uncovered|JapanColor2001Uncovered.icc|
+|`JapanColorUncoated`|Japan Color 2001 UnRevestido|JapanColor2001Não Revestido.icc|
 |`JapanColorWebCoated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
 |`NewsprintSNAP2007`|Jornal dos EUA (SNAP 2007)|USNewsprintSNAP2007.icc|
-|`PS4Default`|Photoshop 4 Default CMYK|Photoshop 4DefaultCMYK.icc|
+|`PS4Default`|CMYK padrão Photoshop 4|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|EUA Revestido com Placa v2|USSheetfeedCoated.icc|
 |`SheetfedUncoated`|EUA Placa alimentada sem revestimento v2|USSheetfeedUncovered.icc|
-|`UncoatedFogra29`|FOGRA29 não revestido (ISO 12647-2:2004)|Não revestidoFOGRA29.icc|
+|`UncoatedFogra29`|FOGRA29 sem revestimento (ISO 12647-2:2004)|Não revestidoFOGRA29.icc|
 |`WebCoated`|EUA Revestido da Web (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`WebCoatedGrade3`|Papel SWOP 2006 Grau 3 revestido pela Web|WebCoatedSWOP2006Grau3.icc|
-|`WebCoatedGrade5`|Papel SWOP Revestido na Web 2006 Grade 5|WebCoatedSWOP2006Grade5.icc|
+|`WebCoatedGrade3`|Papel SWOP Revestido na Web 2006 Grau 3|Papel WebCoatedSWOP2006Grade3.icc|
+|`WebCoatedGrade5`|Papel SWOP Revestido na Web 2006 Grau 5|Papel WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|EUA Web sem revestimento v2|USWebUncovered.icc|
 
 A tabela a seguir se aplica a *Dynamic Media Classic (Scene7) Image Serving* e *Dynamic Media* (em execução em `dynamicmedia_scene7` modo de execução).
@@ -135,9 +132,9 @@ A tabela a seguir se aplica a *Dynamic Media Classic (Scene7) Image Serving* e *
 |`WideGamutRGB`|Gamut largo RGB|WideGamutRGB.icc|
 |**CMYK**||
 |`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
-|`CoatedFogra39`|Revestido FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
-|`Coated GRACoL 2006 (ISO 12647-2:2004)`|GRACoL revestido 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
-|`EuropeISOCoated`|Europe ISO Coated FOGRA27|EuropeISOCoatedFOGRA27.icc|
+|`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
+|`Coated GRACoL 2006 (ISO 12647-2:2004)`|COated GRACoL 2006 (ISO 12647-2:2004)|CoatedGRACoL2006.icc|
+|`EuropeISOCoated`|Europa ISO Revestido FOGRA27|EuropeISOCoatedFOGRA27.icc|
 |`Euroscale Coated v2`|Revestimento Euroscale v2|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncovered v2|EuroscaleUncovered.icc|
 |`JapanColorCoated`|Japan Color 2001 Coated|JapanColor2001Coated.icc|
@@ -145,18 +142,18 @@ A tabela a seguir se aplica a *Dynamic Media Classic (Scene7) Image Serving* e *
 |`JapanColorUncoated`|Japan Color 2001 UnRevestido|JapanColor2001Não Revestido.icc|
 |`Japan Color 2003 Web Coated`|Japan Color 2003 Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
-|`PS4Default`|Photoshop 4 Default CMYK|Photoshop 4DefaultCMYK.icc|
+|`PS4Default`|CMYK padrão Photoshop 4|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop 5 Default CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|EUA Revestido com Placa v2|USSheetfeedCoated.icc|
 |`SheetfedUncoated`|EUA Placa alimentada sem revestimento v2|USSheetfeedUncovered.icc|
-|`UncoatedFogra29`|FOGRA29 não revestida (ISO 12647-2:2004)|FOGRA29.icc não revestida|
+|`UncoatedFogra29`|FOGRA29 sem revestimento (ISO 12647-2:2004)|Não revestidoFOGRA29.icc|
 |`US Newsprint (SNAP 2007)`|Jornal dos EUA (SNAP 2007)|USNewsprintSNAP2007.icc|
 |`WebCoated`|EUA Revestido da Web (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
-|`Web Coated SWOP 2006 Grade 3 Paper`|Papel SWOP 2006 Grau 3 revestido pela Web|WebCoatedSWOP2006Grau3.icc|
-|`Web Coated SWOP Grade 5 Paper`|Papel SWOP com revestimento da Web 2006 Grau 5|WebCoatedSWOP2006Grade5.icc|
+|`Web Coated SWOP 2006 Grade 3 Paper`|Papel SWOP Revestido na Web 2006 Grau 3|Papel WebCoatedSWOP2006Grade3.icc|
+|`Web Coated SWOP Grade 5 Paper`|Papel SWOP Revestido na Web 2006 Grau 5|Papel WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|EUA Web sem revestimento v2|USWebUncovered.icc|
 
 ## Consulte também {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [atributo::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*, [atributo::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [atributo::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [atributo::IccBlackPointCompensação](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [atributo::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), Referência [ do mapa de Perfis ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)ICC,  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [atributo::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*,  [atributo::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [atributo::IccRenderIntentIntent, IcccAttribute::IccPointNegroCompensação](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)  [ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), Indicador:Icc OutraPerfil, Referência do Mapa de  do ICC,cor=, bgc=3000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
