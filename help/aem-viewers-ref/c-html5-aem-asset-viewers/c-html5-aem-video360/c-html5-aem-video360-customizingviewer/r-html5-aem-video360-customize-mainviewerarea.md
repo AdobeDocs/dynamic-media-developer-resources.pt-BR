@@ -4,12 +4,12 @@ seo-description: A área da visualização principal é a área ocupada pelo ví
 seo-title: Área do visualizador principal
 solution: Experience Manager
 title: Área do visualizador principal
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ec321901-f077-4f71-a48c-20cae11c41d1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
