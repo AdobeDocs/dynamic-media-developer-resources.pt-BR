@@ -7,9 +7,9 @@ title: Recurso Imprimir
 topic: Dynamic Media
 uuid: 4932042a-1421-4589-8bf5-88bbe38d774d
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ O visualizador permite que você imprima o conteúdo do catálogo para uma impre
 
 O recurso de impressão é acionado por um botão dedicado na barra de ferramentas. Clicar no botão permite que o usuário escolha um intervalo de impressão e o número de páginas por folha.
 
-A qualidade da impressão pode ser ajustada usando o parâmetro de configuração `printquality`. Observe que não é recomendado configurar `printquality` para valores significativamente superiores ao padrão. O motivo é que leva a um consumo de memória muito alto pelo navegador da Web no sistema do cliente. Além disso, verifique se o tamanho máximo de resposta da imagem definido para a sua empresa SPS é maior do que o valor `printquality` configurado.
+A qualidade da impressão pode ser ajustada usando o parâmetro de configuração `printquality`. Observe que não é recomendado configurar `printquality` para valores significativamente superiores ao padrão. O motivo é que leva a um consumo de memória muito alto pelo navegador da Web no sistema do cliente. Além disso, verifique se o tamanho máximo de resposta da imagem definido para a empresa do Dynamic Media Classic é maior do que o valor configurado `printquality`.
 
 >[!NOTE]
 >
