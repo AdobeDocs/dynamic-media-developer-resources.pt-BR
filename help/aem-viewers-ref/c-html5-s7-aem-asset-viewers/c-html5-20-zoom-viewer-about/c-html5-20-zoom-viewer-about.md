@@ -8,7 +8,7 @@ title: Zoom
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens, as miniaturas dos sistemas de desktop são colocadas abaixo da visualização principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal no tempo de execução usando a API `setAsset()`. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a visualização principal aumente sua altura e ocupe a área de miniaturas. Ou você pode manter o tamanho da visualização principal estático e recolher a área do visualizador externo, permitindo que o conteúdo da página da Web se mova para cima e usar o espaço livre em tela remanescente das miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para a classe CSS `.s7zoomviewer` de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System ou transmitido explicitamente usando um comando de estilo.
+   Para manter os limites do visualizador externo intactos, defina o tamanho para a classe CSS `.s7zoomviewer` de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando de estilo.
 
    Consulte [Personalizando o Visualizador de Zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -199,7 +199,7 @@ O caminho relativo tem a seguinte aparência:
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Scene7 Publishing System, ou pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de Comando desta Ajuda, como a seguir:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de Comando desta Ajuda, como a seguir:
 
    ```
     zoomViewer.setParam("stagesize", 
