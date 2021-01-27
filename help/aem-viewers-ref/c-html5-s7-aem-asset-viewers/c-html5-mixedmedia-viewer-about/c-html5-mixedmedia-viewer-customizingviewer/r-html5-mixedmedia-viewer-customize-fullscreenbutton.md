@@ -4,12 +4,12 @@ seo-description: Esse botão faz com que o visualizador entre ou saia do modo de
 seo-title: Botão de tela cheia
 solution: Experience Manager
 title: Botão de tela cheia
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
