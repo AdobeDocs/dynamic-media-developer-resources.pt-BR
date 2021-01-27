@@ -7,7 +7,7 @@ title: ativo
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -57,15 +57,15 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica um conjunto de imagens explícito, que consiste em uma sequência classificada de itens ou quadros, separados por vírgulas. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Especifica um conjunto de imagens explícito, que consiste em uma sequência classificada de itens ou quadros, separados por vírgulas. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica um conjunto de imagens explícito no qual cada quadro tem seus próprios modificadores do Serviço de imagens. Nesse caso, a lista de quadros é encapsulada entre parênteses. Certifique-se de aplicar a codificação HTTP do duplo a qualquer vírgula que esteja presente no modificador do Servidor de imagens específico do quadro. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Especifica um conjunto de imagens explícito no qual cada quadro tem seus próprios modificadores do Serviço de imagens. Nesse caso, a lista de quadros é encapsulada entre parênteses. Certifique-se de aplicar a codificação HTTP do duplo a qualquer vírgula que esteja presente no modificador do Servidor de imagens específico do quadro. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <span class="codeph"> (((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> em que <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devem ter o mesmo número de quadros. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <span class="codeph"> (((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> em que <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devem ter o mesmo número de quadros. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Vídeo único ou Conjunto de vídeos adaptáveis. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Vídeo único ou Conjunto de vídeos adaptáveis. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Imagem única. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Imagem única. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Conjunto de amostras. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Conjunto de amostras. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Imagem da amostra. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Imagem da amostra. </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ ou
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> rotação  </span> </p> <p>Para o conjunto de rotação. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Para um único vídeo. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Para Conjuntos De Vídeo Adaptáveis. </p> </li> 
-     </ul> </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Scene7 Publishing System; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+     </ul> </p> <p> <p>Observação:  Esse recurso é compatível com o Adobe Dynamic Media Classic; não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
