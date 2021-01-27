@@ -1,15 +1,12 @@
 ---
-description: O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade roll_key definida no Scene7 Publishing System e se o recurso do painel de informações está configurado corretamente para o visualizador.
-seo-description: O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade roll_key definida no Scene7 Publishing System e se o recurso do painel de informações está configurado corretamente para o visualizador.
-seo-title: Pop-up do painel Informações
+description: O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade roll_key definida no Dynamic Media Classic e se o recurso do painel de informações está configurado corretamente para o visualizador.
 solution: Experience Manager
 title: Pop-up do painel Informações
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Pop-up do painel Informações{#info-panel-popup}
 
-O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade roll_key definida no Scene7 Publishing System e se o recurso do painel de informações está configurado corretamente para o visualizador.
+O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade roll_key definida no Dynamic Media Classic e se o recurso do painel de informações está configurado corretamente para o visualizador.
 
 O plano de fundo do painel Informações cobre toda a área do visualizador e é controlado com o seguinte seletor de classe CSS:
 
