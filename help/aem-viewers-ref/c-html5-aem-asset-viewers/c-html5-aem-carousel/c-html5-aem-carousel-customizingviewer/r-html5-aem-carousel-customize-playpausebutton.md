@@ -4,10 +4,10 @@ seo-description: O botão Reproduzir/Pausar permite que o usuário pause ou reto
 seo-title: Botão PlayPause
 solution: Experience Manager
 title: Botão PlayPause
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
