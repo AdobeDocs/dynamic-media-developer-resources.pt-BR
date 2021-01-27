@@ -1,15 +1,12 @@
 ---
 description: O Serviço Web IPS é suportado por um conjunto de documentos WSDL (Web Services Description Language) acessados de qualquer instalação IPS em que o componente Serviço Web IPS esteja instalado. Cada versão da API IPS inclui um novo arquivo WSDL que faz referência a uma namespace XML de público alvo com versão. As versões anteriores da namespace WSDL também são compatíveis com os aplicativos existentes.
-seo-description: O Serviço Web IPS é suportado por um conjunto de documentos WSDL (Web Services Description Language) acessados de qualquer instalação IPS em que o componente Serviço Web IPS esteja instalado. Cada versão da API IPS inclui um novo arquivo WSDL que faz referência a uma namespace XML de público alvo com versão. As versões anteriores da namespace WSDL também são compatíveis com os aplicativos existentes.
-seo-title: Versões WSDL do Serviço Web IPS
 solution: Experience Manager
 title: Versões WSDL do Serviço Web IPS
 topic: Dynamic Media Image Production System API
-uuid: 3443bb91-1663-4686-b20a-94c372f0026e
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
