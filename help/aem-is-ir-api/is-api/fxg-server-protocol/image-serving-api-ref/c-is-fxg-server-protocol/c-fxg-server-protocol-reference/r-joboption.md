@@ -7,9 +7,9 @@ title: trabalho
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou predefi
  </tr> 
 </table>
 
-O arquivo de opções de trabalho pode ser carregado e publicado pelo IPS/SPS. As opções de PDF contidas no arquivo de opções de tarefa são usadas quando o PDF é gerado.
+O arquivo de opções de trabalho pode ser carregado e publicado pelo IPS/Dynamic Media Classic. As opções de PDF contidas no arquivo de opções de tarefa são usadas quando o PDF é gerado.
 
 Atualmente, as seguintes opções são suportadas:
 
