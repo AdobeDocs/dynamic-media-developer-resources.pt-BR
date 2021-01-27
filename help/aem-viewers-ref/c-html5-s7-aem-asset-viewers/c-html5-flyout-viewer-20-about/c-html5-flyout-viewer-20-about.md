@@ -1,16 +1,13 @@
 ---
 description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsive
-seo-description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem estática com a versão ampliada mostrada na visualização de flyout que um usuário ativa. Este visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-seo-title: Flyout
 solution: Experience Manager
 title: Flyout
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ Você adiciona o visualizador a uma página da Web, fazendo o seguinte:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Scene7 e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Scene7 que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e ele for disponibilizado a partir do mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media com os IS-Viewers instalados.
 
 Um caminho relativo tem a seguinte aparência:
 
