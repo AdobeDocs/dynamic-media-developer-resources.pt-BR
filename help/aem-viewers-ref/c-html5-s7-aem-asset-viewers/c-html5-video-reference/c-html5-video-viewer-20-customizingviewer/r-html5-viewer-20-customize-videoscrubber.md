@@ -4,12 +4,12 @@ seo-description: O depurador de vídeo é o controle deslizante horizontal que p
 seo-title: depurador de vídeo
 solution: Experience Manager
 title: depurador de vídeo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5e4abc8a-ee61-4528-a5de-66148aac3389
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
