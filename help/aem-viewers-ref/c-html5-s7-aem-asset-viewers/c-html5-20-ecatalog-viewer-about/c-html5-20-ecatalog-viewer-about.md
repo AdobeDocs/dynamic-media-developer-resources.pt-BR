@@ -1,16 +1,13 @@
 ---
 description: O eCatalog Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem aumentar o zoom em cada página para obter mais detalhes.
 keywords: responsive
-seo-description: O eCatalog Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem aumentar o zoom em cada página para obter mais detalhes.
-seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático para o visualizador declarando-o para `.s7ecatalogviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Scene7 Publishing System, ou transmitido explicitamente usando um comando de estilo.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando um comando de estilo.
 
    Consulte [Personalizando o visualizador do eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -186,7 +183,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Scene7 Publishing System, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de Comando, como a seguinte:
+   Você pode definir o modificador `stagesize` no registro predefinido do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API conforme descrito na seção Referência de comando, como a seguinte:
 
    ```
    eCatalogViewer.setParam("stagesize", 
