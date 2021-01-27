@@ -4,12 +4,12 @@ seo-description: Documentação de atributos de configuração para o Visualizad
 seo-title: Referência de comando - Atributos de configuração
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6a96ed89-5ef3-4efd-82ed-08f3ad8c73cf
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
