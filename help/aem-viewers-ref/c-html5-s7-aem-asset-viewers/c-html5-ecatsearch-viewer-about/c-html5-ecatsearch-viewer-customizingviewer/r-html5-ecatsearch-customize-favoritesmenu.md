@@ -4,10 +4,10 @@ seo-description: A lista suspensa do menu Favoritos é exibida na barra de contr
 seo-title: Menu Favoritos
 solution: Experience Manager
 title: Menu Favoritos
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
