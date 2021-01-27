@@ -1,10 +1,10 @@
 ---
-description: O upload de ativos no Scene7 Production System envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
+description: O upload de ativos no Dynamic Media Classic envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
 solution: Experience Manager
 title: Fazer upload de ativos por meio de HTTP POSTs para o UploadFile Servlet
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Fazer upload de ativos por meio de HTTP POSTs para o Servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-O upload de ativos no Scene7 Production System envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
+O upload de ativos no Dynamic Media Classic envolve uma ou mais solicitações de POST HTTP que configuram um trabalho para coordenar toda a atividade de log associada aos arquivos carregados.
 
 Use o seguinte URL para acessar o Servlet UploadFile:
 
