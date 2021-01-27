@@ -4,12 +4,12 @@ seo-description: O player de vídeo é a área retangular na qual o conteúdo do
 seo-title: Reprodutor de vídeo
 solution: Experience Manager
 title: Reprodutor de vídeo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 2748c3d3-b974-4e54-8218-a2ec9e31a668
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
