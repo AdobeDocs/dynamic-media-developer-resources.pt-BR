@@ -4,12 +4,12 @@ seo-description: Documentação de atributos de configuração para o eCatalog V
 seo-title: Referência de comando - Atributos de configuração
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 823ad411-653a-44de-97de-147e3b27a917
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
