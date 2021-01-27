@@ -1,15 +1,12 @@
 ---
-description: O visualizador suporta a reprodução de vídeo hospedado fora da SPS ou AEM Dynamic Media.
-seo-description: O visualizador suporta a reprodução de vídeo hospedado fora da SPS ou AEM Dynamic Media.
-seo-title: Suporte externo a vídeo
+description: O visualizador suporta a reprodução de vídeo hospedado fora do Dynamic Media Classic ou AEM Dynamic Media.
 solution: Experience Manager
 title: Suporte externo a vídeo
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Suporte externo a vídeo{#external-video-support}
 
-O visualizador suporta a reprodução de vídeo hospedado fora da SPS ou AEM Dynamic Media.
+O visualizador suporta a reprodução de vídeo hospedado fora do Dynamic Media Classic ou AEM Dynamic Media.
 
 Os formatos suportados para o vídeo externo são MP4 no formato H.264 ou manifesto M3U8 para fluxo HLS.
 
