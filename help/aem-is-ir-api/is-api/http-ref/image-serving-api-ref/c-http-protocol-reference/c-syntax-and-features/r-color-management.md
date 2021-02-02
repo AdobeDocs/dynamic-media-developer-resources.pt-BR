@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Gerenciamento de cores do Serviço de imagens
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Perfis adicionais podem ser adicionados aos perfis padrão, tanto no catálogo p
 |`WebCoatedGrade5`|Papel SWOP Revestido na Web 2006 Grau 5|Papel WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|EUA Web sem revestimento v2|USWebUncovered.icc|
 
-A tabela a seguir se aplica a *Dynamic Media Classic (Scene7) Image Serving* e *Dynamic Media* (em execução em `dynamicmedia_scene7` modo de execução).
+A tabela a seguir se aplica a *Dynamic Media Classic Image Serving* e *Dynamic Media* (em execução no modo de execução `dynamicmedia_scene7`).
 
 |Identificador|Nome comum|Nome do arquivo|
 |— |— |— |
