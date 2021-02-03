@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Versão do último trimestre de 2016 da Scene7
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ As notas de versão mais recentes de [!DNL Adobe Scene7] versão do último trim
 
 A Adobe está empolgada em anunciar a disponibilidade do delivery HTTP/2 de conteúdo com o benefício geral de um melhor desempenho.
 
-Consulte [Delivery HTTP2 de Perguntas frequentes sobre conteúdo](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Consulte [Delivery HTTP2 de Perguntas frequentes sobre conteúdo](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obter a documentação completa, consulte [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Para obter a documentação completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Novos recursos, melhorias e correções de erros**
 
@@ -58,7 +58,7 @@ Para obter a documentação completa, consulte [https://docs.adobe.com/content/h
 
 ## Visualizadores (Servidor de imagens 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Correções de erros para o Serviço de imagem 5.5.3**
 
@@ -68,7 +68,7 @@ Para obter a documentação completa, consulte [Guia de referência do visualiza
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Correções de erros para o Serviço de imagem 5.5.2**
 
@@ -77,7 +77,7 @@ Para obter a documentação completa, consulte [Guia de referência do visualiza
 
 ## Visualizadores (Servidor de imagens 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obter a documentação completa, consulte [Guia de referência do visualizador](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Para obter a documentação completa, consulte [Guia de referência do visualizador](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Novos recursos, melhorias e correções de erros para o Serviço de Imagens 5.5.1**
 
