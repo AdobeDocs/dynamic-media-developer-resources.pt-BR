@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: API do sistema de produção de imagem Dynamic Media
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # API do Dynamic Media Image Production System {#image-production-api}
 
-+ [Página inicial de recursos do desenvolvedor Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [Página inicial de recursos do desenvolvedor Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
 + [Sobre a API do Dynamic Media Image Production System](c-overview.md)
 + [Chamadas obsoletas](c-deprecated-calls.md)
 + [Versões WSDL do Serviço Web IPS](c-wsdl-versions.md)
