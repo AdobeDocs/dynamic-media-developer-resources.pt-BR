@@ -7,9 +7,9 @@ title: AtiveJob
 topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,7 @@ Especifique um valor de tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportar trabalho</a>. </td> 
+   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportar trabalho</a>. </td> 
   </tr> 
  </tbody> 
 </table>
