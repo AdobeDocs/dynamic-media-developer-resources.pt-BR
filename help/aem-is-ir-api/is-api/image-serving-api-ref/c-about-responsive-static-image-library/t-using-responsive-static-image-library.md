@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Uso da biblioteca de imagens responsivas
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para adicionar a biblioteca de imagens responsivas a uma página da Web e gerenc
 
 **Para usar a biblioteca de imagens responsivas**
 
-1. No Dynamic Media Classic, [crie uma predefinição de imagem](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) caso planeje usar a biblioteca de imagens responsivas com predefinições.
+1. No Dynamic Media Classic, [crie uma predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a biblioteca de imagens responsivas com predefinições.
 
    Ao definir predefinições de imagens usadas com a Biblioteca de imagens responsivas, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=` ou `scl=`. Não especifique campos de tamanho na predefinição de imagem. Em vez disso, deixe-os como valores em branco.
 1. Adicione o arquivo JavaScript da biblioteca à sua página da Web.
