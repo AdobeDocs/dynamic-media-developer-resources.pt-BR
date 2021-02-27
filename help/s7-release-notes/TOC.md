@@ -7,9 +7,9 @@ product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Notas de versão do Dynamic Media {#release-notes}
 
-+ [Página inicial de recursos do desenvolvedor Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
++ [Página inicial de recursos do desenvolvedor Dynamic Media](/help/landing/home.md)
 + [Notas de versão mais recentes](s7rn2017.md)
 + Arquivar {#archive-release-notes}
    + [Versão do último trimestre de 2016 da Scene7](s7rnfall2016.md)
