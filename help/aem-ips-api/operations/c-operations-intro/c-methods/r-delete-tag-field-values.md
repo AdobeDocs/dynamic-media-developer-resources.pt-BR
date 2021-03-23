@@ -1,15 +1,16 @@
 ---
-description: Remove os valores do campo de tag do dicionário de um campo de tag.
-seo-description: Remove os valores do campo de tag do dicionário de um campo de tag.
+description: Remove valores de campo de tag do dicionário de um campo de tag.
+seo-description: Remove valores de campo de tag do dicionário de um campo de tag.
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-Remove os valores do campo de tag do dicionário de um campo de tag.
+Remove valores de campo de tag do dicionário de um campo de tag.
 
 ## Tipos de usuário autorizados {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
@@ -37,7 +38,7 @@ Remove os valores do campo de tag do dicionário de um campo de tag.
 
 **Saída (deleteTagFieldValuesParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-92f9e575a6da491caa09e264b4d6ee55}
 
