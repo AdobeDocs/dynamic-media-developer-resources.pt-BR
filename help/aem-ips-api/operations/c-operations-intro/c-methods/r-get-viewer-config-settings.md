@@ -4,12 +4,13 @@ seo-description: Obtém todas as configurações do visualizador associadas ao a
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sim | Lidar com o ativo. |
 
 **Saída (getViewerCoinfigSettingsReturn)**
