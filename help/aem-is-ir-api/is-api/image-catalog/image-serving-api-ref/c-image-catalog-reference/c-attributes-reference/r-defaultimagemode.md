@@ -1,15 +1,16 @@
 ---
-description: Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando as imagens especificadas na solicitação não são encontradas.
-seo-description: Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando as imagens especificadas na solicitação não são encontradas.
+description: Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando imagens especificadas na solicitação não são encontradas.
+seo-description: Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando imagens especificadas na solicitação não são encontradas.
 seo-title: DefaultImageMode
 solution: Experience Manager
 title: DefaultImageMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5640f09-e1e3-473b-8fbc-84c6bfce2460
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # DefaultImageMode{#defaultimagemode}
 
-Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando as imagens especificadas na solicitação não são encontradas.
+Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando imagens especificadas na solicitação não são encontradas.
 
 ## Propriedades {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-Enum. &#39;0&#39; para substituir a imagem composta inteira, mesmo que a imagem ausente seja apenas uma de várias camadas; &#39;1&#39; para substituir cada imagem de origem de camada ausente pela imagem padrão e retornar a composição como de costume.
+Enum. &#39;0&#39; para substituir toda a imagem composta, mesmo que a imagem ausente seja apenas uma de várias camadas; &#39;1&#39; para substituir cada imagem de origem de camada ausente pela imagem padrão e retornar o composto como de costume.
 
 ## Restrições {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
