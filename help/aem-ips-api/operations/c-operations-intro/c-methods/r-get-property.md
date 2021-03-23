@@ -1,15 +1,16 @@
 ---
-description: Obtém valores de string das propriedades do sistema relacionadas ao Portal de imagens.
-seo-description: Obtém valores de string das propriedades do sistema relacionadas ao Portal de imagens.
+description: Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
+seo-description: Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # getProperty{#getproperty}
 
-Obtém valores de string das propriedades do sistema relacionadas ao Portal de imagens.
+Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
 
-As propriedades do sistema suportadas incluem:
+As propriedades do sistema compatíveis incluem:
 
-* `IpsVersion`: Número da versão IPS.
-* `IpsImageServerUrl`: Prefixo de URL completo e externo para o Servidor de Imagem IPS.
+* `IpsVersion`: Número de versão do IPS.
+* `IpsImageServerUrl`: Prefixo completo e externo de URL para o Servidor de Imagem do IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefixo de URL para renderização de ativos SVG.
+* `SvgRenderRootUrl`: Prefixo de URL para renderizar ativos SVG.
 * `SvgRenderEnabled`: True se os ativos SVG puderem ser renderizados por  `SvgRenderRootUrl`.
 
 * `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitidos em um upload  [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
