@@ -1,15 +1,16 @@
 ---
-description: Ative os cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Última modificação em respostas HTTP passíveis de cache emitidas pela Renderização de imagem.
-seo-description: Ative os cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Última modificação em respostas HTTP passíveis de cache emitidas pela Renderização de imagem.
+description: Habilite cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Last-Modified em respostas HTTP armazenáveis em cache emitidas pela Renderização de Imagem.
+seo-description: Habilite cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Last-Modified em respostas HTTP armazenáveis em cache emitidas pela Renderização de Imagem.
 seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -17,24 +18,24 @@ ht-degree: 0%
 
 # UseLastModified{#uselastmodified}
 
-Ative os cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Última modificação em respostas HTTP passíveis de cache emitidas pela Renderização de imagem.
+Habilite cabeçalhos de resposta da última modificação. Ativa ou desativa a inclusão do cabeçalho Last-Modified em respostas HTTP armazenáveis em cache emitidas pela Renderização de Imagem.
 
-O servidor usa os valores mais recentes `vignette::TimeStamp` e `catalog::TimeStamp` de todos os catálogos/catálogos de vinheta e material envolvidos em uma resposta como o valor do cabeçalho Última modificação.
+O servidor usa o valor mais recente `vignette::TimeStamp` e `catalog::TimeStamp` de todos os catálogos/registros de vinheta e material envolvidos em uma resposta como o valor de cabeçalho Última modificação .
 
-Deve ser ativada somente se uma rede de armazenamento em cache distribuída, como Akamai, for usada e não suportar cabeçalhos de tag.
+Deve ser ativado somente se uma rede de armazenamento em cache distribuída, como o Akamai, for usada e não oferecer suporte a cabeçalhos de tags.
 
 >[!NOTE]
 >
->É necessário ter cuidado ao usar cabeçalhos Última modificação em um ambiente com balanceamento de carga que envolva vários hosts de disponibilização/renderização de imagem. O cache do cliente pode ser derrotado e a carga do servidor pode aumentar se, por algum motivo, os servidores tiverem carimbos de data e hora diferentes para as mesmas entradas do catálogo. Tal situação pode ocorrer do seguinte modo:
+>Deve-se tomar cuidado ao usar cabeçalhos Last-Modified em um ambiente com balanceamento de carga envolvendo vários hosts de Exibição/Renderização de imagem. O armazenamento em cache do cliente pode ser derrotado e a carga do servidor aumentar se, por algum motivo, os servidores tiverem carimbos de data e hora diferentes para as mesmas entradas de catálogo. Tal situação pode ocorrer da seguinte forma:
 
-* Nem `catalog::TimeStamp`, `vignette::TimeStamp`, nem `attribute::TimeStamp` estão definidos, pelo que a hora de modificação do arquivo [!DNL catalog.ini] é usada como padrão para `catalog::TimeStamp`.
+* `catalog::TimeStamp`, `vignette::TimeStamp`, ou `attribute::TimeStamp` não estão definidas, portanto, a hora de modificação do arquivo [!DNL catalog.ini] é usada como padrão para `catalog::TimeStamp`.
 
-* Em vez de compartilhar os arquivos de catálogo de materiais por meio de uma montagem de rede, cada servidor tem sua própria instância dos arquivos de catálogo em um sistema de arquivos local.
-* Duas ou mais instâncias do mesmo arquivo [!DNL catalog.ini] têm datas de modificação de arquivo diferentes, possivelmente causadas pela cópia incorreta dos arquivos.
+* Em vez de compartilhar os arquivos de catálogo de material por meio de uma montagem de rede, cada servidor tem sua própria instância dos arquivos de catálogo em um sistema de arquivos local.
+* Duas ou mais instâncias do mesmo arquivo [!DNL catalog.ini] têm datas de modificação de arquivo diferentes, possivelmente causadas pela cópia imprópria dos arquivos.
 
 ## Propriedades {#section-453952244193452caccfaf7f601007c1}
 
-Sinalizar. 0 para desativar, 1 para ativar cabeçalhos HTTP modificados pela última vez.
+Sinalizador. 0 para desativar, 1 para ativar cabeçalhos HTTP Last-Modified.
 
 ## Padrão {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
