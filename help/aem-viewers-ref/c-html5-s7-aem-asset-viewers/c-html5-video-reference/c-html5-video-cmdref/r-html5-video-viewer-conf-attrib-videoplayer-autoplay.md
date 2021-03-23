@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica se os start do visualizador reproduzem o vídeo quando carregado. Alguns sistemas, como certos dispositivos móveis, não suportam a reprodução automática. </p> </td> 
+   <td colname="col2"> <p> Indica se o visualizador começa a reproduzir o vídeo quando carregado. Alguns sistemas, como certos dispositivos móveis, não suportam a Reprodução Automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
