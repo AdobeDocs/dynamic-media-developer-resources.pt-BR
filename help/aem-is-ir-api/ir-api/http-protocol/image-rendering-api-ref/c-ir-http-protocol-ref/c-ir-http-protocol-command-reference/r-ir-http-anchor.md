@@ -1,15 +1,16 @@
 ---
-description: Âncora de imagem (ponto de acesso). Especifica o ponto de ancoragem da textura (ponto de acesso) do material de textura repetível ou decal.
-seo-description: Âncora de imagem (ponto de acesso). Especifica o ponto de ancoragem da textura (ponto de acesso) do material de textura repetível ou decal.
+description: Âncora da imagem (ponto de acesso). Especifica o ponto de ancoragem de textura (ponto de conexão) da textura repetível ou do material de decalque.
+seo-description: Âncora da imagem (ponto de acesso). Especifica o ponto de ancoragem de textura (ponto de conexão) da textura repetível ou do material de decalque.
 seo-title: âncora
 solution: Experience Manager
 title: âncora
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # âncora{#anchor}
 
-Âncora de imagem (ponto de acesso). Especifica o ponto de ancoragem da textura (ponto de acesso) do material de textura repetível ou decal.
+Âncora da imagem (ponto de acesso). Especifica o ponto de ancoragem de textura (ponto de conexão) da textura repetível ou do material de decalque.
 
 `anchor= *``*, *`xy`*`
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 <table id="simpletable_1D8E91D8424A424787C4D20C9B040115"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> x</span>,  <span class="varname"> y</span> </p></td> 
-  <td class="stentry"> <p>Deslocamento de pixel no canto superior esquerdo da imagem de origem (int, int). </p></td> 
+  <td class="stentry"> <p>Deslocamento de pixels do canto superior esquerdo da imagem de origem (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> xn</span>,  <span class="varname"> yn</span> </p></td> 
@@ -42,12 +43,12 @@ Uma imagem decal é aplicada a um objeto de vinheta, de modo que o ponto de anco
 
 ## Propriedades {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Atributo** material. Ignorado se `align=2`, ou se o material não for uma textura repetível, um wallpaper ou uma decal.
+**Atributo** de material. Ignorado se `align=2`, ou se o material não for uma textura repetível, um papel de parede ou um decalque.
 
 ## Padrão {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, se o material for baseado em uma entrada de catálogo. Caso contrário, `anchor=0,0` (o canto superior esquerdo da imagem) para texturas e wallpapers repetíveis e `anchorN=0,0` (o centro da imagem) para decalques.
+`catalog::Anchor`, se o material for baseado em uma entrada de catálogo. Caso contrário, `anchor=0,0` (o canto superior esquerdo da imagem) para texturas e papéis de parede repetíveis e `anchorN=0,0` (o centro da imagem) para decalques.
 
 ## Consulte também {#section-b18bf0b035644ca5aedebbc64373718e}
 
-[catálogo::Âncora](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) ,  [alinhar=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
+[catálogo::Âncora](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md#reference-d9b1d49db1fc440686f64b84453297ab) ,  [align=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7)
