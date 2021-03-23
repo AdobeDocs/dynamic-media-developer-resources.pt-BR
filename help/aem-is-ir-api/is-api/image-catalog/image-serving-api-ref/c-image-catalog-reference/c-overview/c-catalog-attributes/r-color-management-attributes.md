@@ -1,21 +1,22 @@
 ---
 description: Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciamento de cores.
 seo-description: Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciamento de cores.
-seo-title: Atributos do gerenciamento de cores
+seo-title: Atributos de gerenciamento de cores
 solution: Experience Manager
-title: Atributos do gerenciamento de cores
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Atributos de gerenciamento de cores
 uuid: e136b1bd-650e-4f3d-90e8-df1df814ec48
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 
-# Atributos do gerenciamento de cores{#color-management-attributes}
+# Atributos de gerenciamento de cores{#color-management-attributes}
 
 Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciamento de cores.
 
@@ -26,7 +27,7 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md#reference-13822a1596e440eea0492e86d88dad35" type="reference" format="dita" scope="local"> IccProfileGray</a> </span> </p></td> 
-  <td class="stentry"> <p>Perfil de cor de saída em tons de cinza padrão. </p></td> 
+  <td class="stentry"> <p>Perfil de cor de saída de tons de cinza padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df" type="reference" format="dita" scope="local"> IccProfileRgb</a> </span> </p></td> 
@@ -34,7 +35,7 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md#reference-b57196dfe5db41fe88bd0828ed4ec728" type="reference" format="dita" scope="local"> IccProfileSrcCmyk</a> </span> </p></td> 
-  <td class="stentry"> <p>Perfil de cor de entrada CMYK padrão. </p></td> 
+  <td class="stentry"> <p>Perfil de cor de entrada padrão CMYK. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9" type="reference" format="dita" scope="local"> IccProfileSrcGray</a> </span> </p></td> 
@@ -46,15 +47,15 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f" type="reference" format="dita" scope="local"> IccRenderIntent</a> </span> </p> </td> 
-  <td class="stentry"> <p>Propósito de renderização padrão. </p></td> 
+  <td class="stentry"> <p>Intenção de renderização padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensação</a> </span> </p></td> 
-  <td class="stentry"> <p>Ativar/desativar compensação de ponto de interrupção. </p></td> 
+  <td class="stentry"> <p>Ativar/desativar compensação de ponto de bloqueio. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b" type="reference" format="dita" scope="local"> IccDither</a> </span> </p></td> 
-  <td class="stentry"> <p>Ativar/desativar o pontilhamento de conversão de cores. </p></td> 
+  <td class="stentry"> <p>Ative/desative o pontilhamento de conversão de cores. </p></td> 
  </tr> 
 </table>
 
