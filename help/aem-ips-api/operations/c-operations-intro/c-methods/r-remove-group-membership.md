@@ -1,21 +1,22 @@
 ---
 description: Remove usuários de uma matriz de grupos.
 seo-description: Remove usuários de uma matriz de grupos.
-seo-title: removeGroupMember
+seo-title: removeGroupMembership
 solution: Experience Manager
-title: removeGroupMember
-topic: Dynamic Media Image Production System API
+title: removeGroupMembership
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 
-# removeGroupMember{#removegroupmembership}
+# removeGroupMembership{#removegroupmembership}
 
 Remove usuários de uma matriz de grupos.
 
@@ -32,20 +33,20 @@ Remove usuários de uma matriz de grupos.
 
 ## Parâmetros {#section-d6a15fa70d3d4fc69da200cdaf59904e}
 
-**Entrada (removeGroupMembationParam)**
+**Entrada (removeGroupMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | Não | O identificador da empresa cuja associação de grupo você deseja remover. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos dos quais você deseja que a empresa seja removida. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de grupos a partir dos quais você deseja que a empresa seja removida. |
 
-**Saída (removeGroupMemberReturn)**
+**Saída (removeGroupMembershipReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-f8d4181170a243efb9faf5824ae96197}
 
-Esta amostra de código remove um usuário de um grupo.
+Essa amostra de código remove um usuário de um grupo.
 
 **Solicitação**
 
