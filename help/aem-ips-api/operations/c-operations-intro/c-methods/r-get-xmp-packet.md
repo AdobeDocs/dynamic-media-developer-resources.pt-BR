@@ -4,12 +4,13 @@ seo-description: Recupera um pacote de Metadados XMP para o ativo especificado.
 seo-title: getXMPPacket
 solution: Experience Manager
 title: getXMPPacket
-topic: Dynamic Media Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -33,12 +34,12 @@ Sintaxe
 
 ## Parâmetros {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrada (getXMPPacketParam)**
+**Entrada (getXMPPacketParam**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça de empresa com o pacote que você deseja retornar (por exemplo, `c|656`). |
-| `*`assetHandle`*` | `xsd:string` | Sim | O ativo para o qual o pacote XMP deve ser recuperado. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o pacote que você deseja retornar (por exemplo, `c|656`). |
+| `*`assetHandle`*` | `xsd:string` | Sim | O ativo para o qual o pacote de XMP deve ser recuperado. |
 
 **Saída (getXMPPacketReturn)**
 
