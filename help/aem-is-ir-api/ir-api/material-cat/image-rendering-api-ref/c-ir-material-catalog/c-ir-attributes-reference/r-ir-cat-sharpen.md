@@ -1,15 +1,16 @@
 ---
-description: Ajuste da nitidez da imagem de resposta padrão. Especifica se as imagens de resposta devem ser afiadas se forem dimensionadas antes da codificação.
-seo-description: Ajuste da nitidez da imagem de resposta padrão. Especifica se as imagens de resposta devem ser afiadas se forem dimensionadas antes da codificação.
+description: Aprimoramento padrão da imagem de resposta. Especifica se as imagens respondentes devem ser dimensionadas antes da codificação.
+seo-description: Aprimoramento padrão da imagem de resposta. Especifica se as imagens respondentes devem ser dimensionadas antes da codificação.
 seo-title: Nitidez
 solution: Experience Manager
 title: Nitidez
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Nitidez{#sharpen}
 
-Ajuste da nitidez da imagem de resposta padrão. Especifica se as imagens de resposta devem ser afiadas se forem dimensionadas antes da codificação.
+Aprimoramento padrão da imagem de resposta. Especifica se as imagens respondentes devem ser dimensionadas antes da codificação.
 
 ## Propriedades {#section-faf57183efa0456fb37a7803a9486248}
 
-Sinalizar.
+Sinalizador.
 
 ## Padrão {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
