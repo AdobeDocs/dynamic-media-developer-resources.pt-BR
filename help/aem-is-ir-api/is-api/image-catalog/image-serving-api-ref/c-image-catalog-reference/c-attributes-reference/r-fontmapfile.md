@@ -4,12 +4,13 @@ seo-description: Caminho do arquivo do mapa de fontes. Especifica o arquivo que 
 seo-title: FontMapFile
 solution: Experience Manager
 title: FontMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84774ae3-c038-444b-ba00-d8528e6d0de8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -21,11 +22,11 @@ Caminho do arquivo do mapa de fontes. Especifica o arquivo que contém o mapa de
 
 ## Propriedades {#section-e88a0caab57542c598f57fa0e88dd254}
 
-Valor da string de texto. Caminho ou caminho do arquivo absoluto relativo à pasta do catálogo.
+Valor da string de texto. Caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
 
 ## Padrão {#section-c57697856bc84d578e022ed3654fcd1c}
 
-Vazio, que indica que este catálogo de imagens não inclui fontes privadas.
+Vazio, o que indica que este catálogo de imagens não inclui fontes privadas.
 
 ## Consulte também {#section-5eb7f6131e134fa9932c99fa37284451}
 
