@@ -4,12 +4,13 @@ seo-description: Retorna uma matriz de todas as empresas.
 seo-title: getAllCompanies
 solution: Experience Manager
 title: getAllCompanies
-topic: Dynamic Media Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | Sim | Defina como true para retornar empresas expiradas e não expiradas. |
+| `*`includeExpirou`*` | `xsd:boolean` | Sim | Defina como true para retornar empresas expiradas e não expiradas. |
 
 **Saída (getAllCompaniesReturn)**
 
@@ -41,7 +42,7 @@ Sintaxe
 
 ## Exemplos {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Essa amostra de código retorna todas as empresas no IPS em um storage. Observe que a resposta de amostra é truncada para brevidade.
+Esta amostra de código retorna todas as empresas no IPS em um array. Observe que a resposta da amostra é truncada por motivos de brevidade.
 
 **Solicitação**
 
