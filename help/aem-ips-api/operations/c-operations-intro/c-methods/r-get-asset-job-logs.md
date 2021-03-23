@@ -1,15 +1,16 @@
 ---
-description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no registro de tarefas desse ativo. O campo de resposta logMessage está localizado com base no campo authHeader.
-seo-description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no registro de tarefas desse ativo. O campo de resposta logMessage está localizado com base no campo authHeader.
+description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
+seo-description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no registro de tarefas desse ativo. O campo de resposta logMessage está localizado com base no campo authHeader.
+Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 
 Sintaxe
 
@@ -46,11 +47,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sim | Matriz de log de trabalhos. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sim | Matriz de log da tarefa. |
 
 ## Exemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Essa amostra de código recupera os logs de trabalho de um ativo específico. A resposta retorna um storage de log de trabalhos com informações detalhadas sobre todos os trabalhos em que o ativo foi usado.
+Essa amostra de código recupera os logs de trabalho de um ativo específico. A resposta retorna uma matriz de log de trabalhos com informações detalhadas sobre todas as tarefas em que o ativo foi usado.
 
 **Solicitação**
 
