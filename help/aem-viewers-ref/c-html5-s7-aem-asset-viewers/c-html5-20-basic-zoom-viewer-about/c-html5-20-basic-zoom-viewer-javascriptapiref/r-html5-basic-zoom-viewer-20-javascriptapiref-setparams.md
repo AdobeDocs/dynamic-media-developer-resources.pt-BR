@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para Visualizador de zoom básico.
-seo-description: Referência da API JavaScript para Visualizador de zoom básico.
+description: Referência da API do JavaScript para o Visualizador básico de zoom.
+seo-description: Referência da API do JavaScript para o Visualizador básico de zoom.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 8c2a740f-deed-4f03-9405-36533ba1b0aa
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API JavaScript para Visualizador de zoom básico.
+Referência da API do JavaScript para o Visualizador básico de zoom.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento de método é idêntica a uma string de query de URL. Ou seja, ele representa pares name=value separados por `&`. Assim como em uma string de query, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Assim como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
-Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -31,7 +32,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-z
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parâmetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parâmetros pares separados por  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
