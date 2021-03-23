@@ -1,21 +1,22 @@
 ---
 description: Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plano ou ao primeiro plano de uma camada de efeito.
 seo-description: Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plano ou ao primeiro plano de uma camada de efeito.
-seo-title: op_noise
+seo-title: op_sound
 solution: Experience Manager
-title: op_noise
-topic: Dynamic Media Image Serving - Image Rendering API
+title: op_sound
 uuid: 531f7a94-149b-4090-a163-a1895156250b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 
-# op_noise{#op-noise}
+# op_sound{#op-noise}
 
 Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plano ou ao primeiro plano de uma camada de efeito.
 
@@ -33,7 +34,7 @@ Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plan
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> gaussiano</span> </p> </td> 
-   <td colname="col2"> <p>Selecione a distribuição de ruídos gaussianos. </p> </td> 
+   <td colname="col2"> <p>Selecione gaussisian sound distribution . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monocromático</span> </p> </td> 
@@ -42,7 +43,7 @@ Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plan
  </tbody> 
 </table>
 
-*`monochrome`* é ignorada para imagens em tons de cinza.
+*`monochrome`* é ignorado para imagens em tons de cinza.
 
 ## Propriedades {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
