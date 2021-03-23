@@ -4,12 +4,13 @@ seo-description: Define valores de metadados para um ativo específico usado com
 seo-title: MetadataUpdate
 solution: Experience Manager
 title: MetadataUpdate
-topic: Dynamic Media Image Production System API
 uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -46,28 +47,28 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> Valor de metadados booleanos (somente para campos digitados como booleanos). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Valor de metadados booleanos (somente para campos do tipo Booliano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor de metadados longos (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor de metadados longo (somente para campos sem tipo). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
-   <td colname="col3"> Valor dos metadados do duplo (somente para campos de tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor de metadados duplos (somente para campos de tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de metadados de data (somente para campos digitados por data). </td> 
+   <td colname="col3"> Valor dos metadados de data (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3"> <p>Adiciona à lista de valor de tag existente para o ativo. 
+   <td colname="col3"> <p>Adiciona à lista de valores de tag existente para o ativo. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Campos de tag de valor único armazenam somente o último valor. </li> 
       <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Um campo de tag de dicionário fixo retornará uma falha se o valor não estiver no dicionário. </li> 
@@ -76,7 +77,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3">Substitui a lista de valor de tag existente para o ativo. 
+   <td colname="col3">Substitui a lista de valores de tag existente para o ativo. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">Campos de tag de valor único armazenam somente o último valor. </li> 
      <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Um campo de tag de dicionário fixo retornará uma falha se o valor não estiver no dicionário. </li> 
@@ -85,7 +86,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3"> Exclui os valores especificados da lista de valor de tag do ativo, se houver. </td> 
+   <td colname="col3"> Exclui os valores especificados da lista de valores da tag do ativo, se houver. </td> 
   </tr> 
  </tbody> 
 </table>
