@@ -1,15 +1,16 @@
 ---
-description: Uma matriz de atualizações de campos de fonte.
-seo-description: Uma matriz de atualizações de campos de fonte.
+description: Uma matriz de atualizações de campo de fonte.
+seo-description: Uma matriz de atualizações de campo de fonte.
 seo-title: FontFieldUpdateArray
 solution: Experience Manager
 title: FontFieldUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: d2fbf891-ec1c-4465-a14e-c5ac1f5bef5a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # FontFieldUpdateArray{#fontfieldupdatearray}
 
-Uma matriz de atualizações de campos de fonte.
+Uma matriz de atualizações de campo de fonte.
 
 Sintaxe
 
