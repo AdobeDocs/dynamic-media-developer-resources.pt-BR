@@ -2,12 +2,13 @@
 description: SpinView.enableHD
 solution: Experience Manager
 title: SpinView.enableHD
-topic: Dynamic Media
 uuid: 3e7cdb44-4366-4e84-a6c7-c1cf1f5e6344
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '93'
 ht-degree: 1%
 
 ---
@@ -20,12 +21,12 @@ ht-degree: 1%
 <table id="table_8929B59833DE4E1C89FA4BCF07309809"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sempre|nunca|limite</span> </p> </td> 
-   <td colname="col2"> <p> Ative, limite ou desative a otimização para dispositivos em que <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>, ou seja, dispositivos com uma exibição de alta densidade como o iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse apenas uma proporção de pixels de <span class="codeph"> 1</span> e, portanto, reduzindo a largura de banda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
+   <td colname="col2"> <p> Ative, limite ou desative a otimização para dispositivos em que <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>, ou seja, dispositivos com uma exibição de alta densidade como o iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse apenas uma proporção de pixel de <span class="codeph"> 1</span> e, portanto, reduz a largura de banda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
-   <td colname="col2"> <p> Se estiver usando a configuração <span class="codeph"> limit</span>, o componente ativará a alta densidade de pixels apenas até o limite especificado. </p> </td> 
+   <td colname="col2"> <p> Se estiver usando a configuração <span class="codeph"> limit</span>, o componente ativará a alta densidade de pixels somente até o limite especificado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
