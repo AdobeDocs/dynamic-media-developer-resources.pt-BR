@@ -4,12 +4,13 @@ seo-description: Opções usadas ao cortar imagens automaticamente com base na t
 seo-title: AutoTransparentCropOptions
 solution: Experience Manager
 title: AutoTransparentCropOptions
-topic: Dynamic Media Image Production System API
 uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -34,11 +35,11 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> tolerância</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Remove o espaço em branco das bordas da imagem com base na transparência. Usa: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder as cores exatamente. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para ativar a maioria das diferenças de cor. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para permitir mais diferenças de cores. </li>
     </ul></td> 
   </tr> 
  </tbody> 
