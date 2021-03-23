@@ -1,15 +1,16 @@
 ---
-description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
-seo-description: Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
+description: Esta documentação discute problemas de administração do servidor e descreve as configurações da Renderização de imagem do Dynamic Media.
+seo-description: Esta documentação discute problemas de administração do servidor e descreve as configurações da Renderização de imagem do Dynamic Media.
 seo-title: Prefácio de administração do servidor
 solution: Experience Manager
 title: Prefácio de administração do servidor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,28 +18,28 @@ ht-degree: 0%
 
 # Prefácio de administração do servidor{#server-administration-preface}
 
-Esta documentação discute problemas de administração do servidor e descreve as configurações para a Renderização de imagem Dynamic Media.
+Esta documentação discute problemas de administração do servidor e descreve as configurações da Renderização de imagem do Dynamic Media.
 
-**Audiência pretendida**
+**Público-alvo pretendido**
 
-Esta documentação destina-se aos administradores de sistema e aos webmasters que precisam instalar, configurar e administrar a Renderização de imagem Dynamic Media.
+Esta documentação destina-se a administradores de sistema e web masters que precisam instalar, configurar e administrar a renderização de imagem do Dynamic Media.
 
-**convenções de documento**
+**Convenções de documento**
 
-Os itens descritos nesta documentação geralmente recebem o prefixo dos seguintes tipos de itens:
+Os itens descritos nesta documentação geralmente recebem o prefixo dos seguintes tipos de item:
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>atributo::Item </p></td> 
-  <td class="stentry"> <p>Um nome prefixado com 'attribute::' refere-se a um atributo de catálogo de imagens. </p></td> 
+  <td class="stentry"> <p>Um nome com prefixo 'attribute::' refere-se a um atributo de catálogo de imagens. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>catálogo::Item </p></td> 
-  <td class="stentry"> <p>Um nome prefixado com 'catálogo::' refere-se a um campo de dados de catálogo de materiais. </p></td> 
+  <td class="stentry"> <p>Um nome com prefixo 'catalog:::' refere-se a um campo de dados de catálogo de materiais. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>icc::Item </p></td> 
-  <td class="stentry"> <p>Um nome com prefixo 'icc::' refere-se a um campo no mapa de perfis de cor ICC. </p></td> 
+  <td class="stentry"> <p>icc:Item </p></td> 
+  <td class="stentry"> <p>Um nome com o prefixo 'icc::' refere-se a um campo no mapa de perfil de cores ICC. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>macro::Item </p></td> 
@@ -50,7 +51,7 @@ Os itens descritos nesta documentação geralmente recebem o prefixo dos seguint
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>padrão::Item </p></td> 
-  <td class="stentry"> <p>Um nome prefixado com 'default::' refere-se a um atributo do catálogo de imagens padrão. </p></td> 
+  <td class="stentry"> <p>Um nome com prefixo 'padrão::' refere-se a um atributo do catálogo de imagens padrão. </p></td> 
  </tr> 
 </table>
 
