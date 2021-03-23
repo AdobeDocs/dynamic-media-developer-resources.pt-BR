@@ -2,12 +2,13 @@
 description: Swatches.enabledragging
 solution: Experience Manager
 title: Swatches.enabledragging
-topic: Dynamic Media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funções dentro do intervalo <span class="codeph"> 0-1 </span>. É um valor <span class="codeph"> % </span> para movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, isso não permite que você se mova na direção errada. </p> </td> 
+   <td> <p> Funções dentro do intervalo <span class="codeph"> 0-1 </span>. É um valor <span class="codeph"> % </span> para o movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, isso não permitirá que você se mova na direção errada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
