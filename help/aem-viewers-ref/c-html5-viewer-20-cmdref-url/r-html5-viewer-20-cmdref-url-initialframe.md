@@ -4,12 +4,13 @@ seo-description: Parâmetro comum a todos os visualizadores.
 seo-title: initialFrame
 solution: Experience Manager
 title: initialFrame
-topic: Dynamic Media
 uuid: 5d1c3a8a-8598-47c9-a106-36e8c6fcafb0
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Parâmetro comum a todos os visualizadores.
 
 >[!NOTE]
 >
->Esse comando não se aplica ao Visualizador de imagens de vídeo.
+>Este comando não se aplica ao Visualizador de imagem de vídeo.
 
 ` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
 
@@ -29,11 +30,11 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica um índice de quadros com base em zero que o visualizador exibe ao carregar. </p> </td> 
+   <td colname="col2"> <p> Especifica um índice de quadros com base em zero que o visualizador exibe quando carregado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Um índice com base em zero da página espelhada quando o dispositivo está na orientação retrato. Em um ambiente "da esquerda para a direita" <span class="codeph"> 0</span> significa "página da esquerda" e <span class="codeph"> 1</span> significa "página da direita". Na "direita para a esquerda" é o oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não for especificado, <span class="codeph"> 0</span> será assumido por padrão. Ignorado quando o dispositivo está na orientação paisagem. </p> </td> 
+   <td colname="col2"> <p>Um índice com base em zero da página na página espelhada quando o dispositivo está na orientação retrato. Em um ambiente "da esquerda para a direita" <span class="codeph"> 0</span> significa "página da esquerda" e <span class="codeph"> 1</span> significa "página da direita". Na "direita para a esquerda", é o oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não especificado, <span class="codeph"> 0</span> é assumido por padrão. Ignorado quando o dispositivo está em orientação de paisagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
