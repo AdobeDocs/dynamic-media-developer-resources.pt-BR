@@ -1,15 +1,16 @@
 ---
-description: Usada por PermissionsUpdate/permissionsType, Permission/permissionsType.
-seo-description: Usada por PermissionsUpdate/permissionsType, Permission/permissionsType.
+description: Usada por PermissionsUpdate/permissionType, Permission/permissionType.
+seo-description: Usada por PermissionsUpdate/permissionType, Permission/permissionType.
 seo-title: Tipos de permissão
 solution: Experience Manager
 title: Tipos de permissão
-topic: Dynamic Media Image Production System API
 uuid: 08c24010-489f-452f-9fc0-c65d33816200
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Tipos de permissão{#permission-types}
 
-Usada por PermissionsUpdate/permissionsType, Permission/permissionsType.
+Usada por PermissionsUpdate/permissionType, Permission/permissionType.
 
 Sintaxe
 
