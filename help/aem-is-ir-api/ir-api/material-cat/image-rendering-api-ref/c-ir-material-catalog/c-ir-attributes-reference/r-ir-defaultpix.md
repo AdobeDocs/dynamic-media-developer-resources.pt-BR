@@ -1,15 +1,16 @@
 ---
-description: Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da visualização explicitamente usando wid= ou hei=.
-seo-description: Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da visualização explicitamente usando wid= ou hei=.
+description: Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da exibição explicitamente usando wid= ou hei=.
+seo-description: Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da exibição explicitamente usando wid= ou hei=.
 seo-title: DefaultPix
 solution: Experience Manager
 title: DefaultPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 27574811-a920-4e54-8635-5a643b8655ef
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # DefaultPix{#defaultpix}
 
-Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da visualização explicitamente usando wid= ou hei=.
+Tamanho padrão da imagem de renderização. O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se a solicitação não especificar o tamanho da exibição explicitamente usando wid= ou hei=.
 
 ## Propriedades {#section-9dc5474fc75842308796ab6440b29611}
 
-Dois números inteiros, 0 ou maior, separados por uma vírgula. Largura e altura em pixels. Um ou ambos os valores podem ser definidos como 0 para mantê-los sem restrições.
+Dois números inteiros, 0 ou maiores, separados por vírgula. Largura e altura em pixels. Qualquer um dos valores pode ser definido como 0 para mantê-los livres.
 
-Não se aplica a solicitações aninhadas/incorporadas.
+Não aplicável a solicitações aninhadas/incorporadas.
 
 ## Padrão {#section-1935781c561e4679aa87a5bcced8df90}
 
