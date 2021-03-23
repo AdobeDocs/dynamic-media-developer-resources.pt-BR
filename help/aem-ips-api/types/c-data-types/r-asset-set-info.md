@@ -4,12 +4,13 @@ seo-description: Propriedades de ativos do tipo AssetSet.
 seo-title: AssetSetInfo
 solution: Experience Manager
 title: AssetSetInfo
-topic: Dynamic Media Image Production System API
 uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | A definição do conjunto de ativos formatada de acordo com os requisitos do IS Viewer direcionado. Pode conter parâmetros de substituição IPS opcionais. |
+| `*`setDefinition`*` | `xsd:string` | Definição de conjunto de ativos formatada de acordo com os requisitos do Visualizador IS de destino. Pode conter parâmetros opcionais de substituição de IPS. |
 
