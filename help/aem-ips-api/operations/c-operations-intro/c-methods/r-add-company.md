@@ -2,11 +2,12 @@
 description: Adiciona uma empresa ao sistema.
 solution: Experience Manager
 title: addCompany
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 Adiciona uma empresa ao sistema.
 
-Envia o nome da empresa a ser adicionada ao sistema e, opcionalmente, envia se a empresa expira.
+Envia o nome da empresa a ser adicionada ao sistema e, como opção, envia se a empresa expira.
 
-Quando essa operação é invocada, o sistema recebe um tipo `*`companyInfo`*` que contém um identificador de empresa e campos descritivos. Se o nome de empresa solicitado já existir no sistema, ele emitirá um `ipsApiFault`.
+Quando esta operação é invocada, o sistema obtém um tipo `*`companyInfo`*` que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitado já existir no sistema, ele acionará um `ipsApiFault`.
 
 ## Tipos de usuário autorizados {#section-ae926c7672984be79f6102748accab72}
 
@@ -50,7 +51,7 @@ Quando essa operação é invocada, o sistema recebe um tipo `*`companyInfo`*` q
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>A data de expiração da empresa. Forneça o fuso horário com a solicitação para este campo. Os fusos horários são ajustados para Hora central. </p> </td> 
+   <td colname="col4"> <p>A data de expiração da empresa. Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para Hora central. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +79,7 @@ Quando essa operação é invocada, o sistema recebe um tipo `*`companyInfo`*` q
 
 ## Exemplos {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Este exemplo demonstra uma solicitação para adicionar uma empresa ao sistema IPS e a resposta detalhando as informações sobre a empresa adicionada que é necessária para executar outras operações.
+Este exemplo demonstra uma solicitação para adicionar uma empresa ao sistema IPS e a resposta detalhando as informações sobre a empresa adicionada, necessárias para executar outras operações.
 
 **Solicitação**
 
