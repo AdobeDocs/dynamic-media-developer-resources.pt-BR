@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o visualizador de rotação.
-seo-description: Referência da API JavaScript para o visualizador de rotação.
+description: Referência da API do JavaScript para o Visualizador de rotação.
+seo-description: Referência da API do JavaScript para o Visualizador de rotação.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o visualizador de rotação.
+Referência da API do JavaScript para o Visualizador de rotação.
 
 ` setAsset( *`ativo`*)`
 
@@ -25,12 +26,12 @@ Referência da API JavaScript para o visualizador de rotação.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID de ativo, conjunto de rotação unidirecional ou multidimensional com modificadores opcionais do Serviço de Imagens anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova id de ativo, conjunto de rotação único ou multidimensional com modificadores opcionais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador alternará o ativo em tempo de execução.
+Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -40,7 +41,7 @@ Nenhum.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Referência única para um conjunto de rotação definido em um catálogo:
+Referência única para um conjunto de rotação que é definido em um catálogo:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
