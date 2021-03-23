@@ -4,12 +4,13 @@ seo-description: Cria uma pasta.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -44,14 +45,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa |
-| `*`folderPath`*` | `xsd:string` | Sim | A pasta raiz usada para recuperar pastas e todas as subpastas para o nível de folha. Se excluído, a raiz da empresa será usada. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O Identificador para a empresa |
+| `*`folderPath`*` | `xsd:string` | Sim | A pasta raiz usada para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
 
 **Saída (createFolderParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sim | Manuseie a nova pasta. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Manipule a nova pasta. |
 
 ## Exemplos {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
