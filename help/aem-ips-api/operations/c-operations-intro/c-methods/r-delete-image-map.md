@@ -4,12 +4,13 @@ seo-description: Exclui um mapa de imagem.
 seo-title: deleteImageMap
 solution: Experience Manager
 title: deleteImageMap
-topic: Dynamic Media Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -45,11 +46,11 @@ Sintaxe
 
 **Saída (deleteImageMapParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Esta amostra de código exclui um mapa de imagem de uma empresa. É necessário obter o identificador do mapa de imagem de outra operação.
+Essa amostra de código exclui um mapa de imagem de uma empresa. Você deve obter o identificador do mapa de imagem de outra operação.
 
 **Solicitação**
 
