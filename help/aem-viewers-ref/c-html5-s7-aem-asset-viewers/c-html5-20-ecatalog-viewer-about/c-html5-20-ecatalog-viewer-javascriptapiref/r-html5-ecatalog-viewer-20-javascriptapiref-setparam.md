@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o eCatalog Viewer.
-seo-description: Referência da API JavaScript para o eCatalog Viewer.
+description: Referência da API do JavaScript para o Visualizador do eCatalog.
+seo-description: Referência da API do JavaScript para o Visualizador do eCatalog.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 16563f90-da93-404c-a54a-2409822685c9
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API JavaScript para o eCatalog Viewer.
+Referência da API do JavaScript para o Visualizador do eCatalog.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
