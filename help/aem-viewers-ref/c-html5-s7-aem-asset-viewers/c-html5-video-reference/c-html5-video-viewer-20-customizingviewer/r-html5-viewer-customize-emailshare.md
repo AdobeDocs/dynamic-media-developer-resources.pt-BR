@@ -1,15 +1,16 @@
 ---
-description: A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento do Social.
-seo-description: A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento do Social.
+description: A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
+seo-description: A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 seo-title: Compartilhamento de email
 solution: Experience Manager
 title: Compartilhamento de email
-topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3030'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Compartilhamento de email{#email-share}
 
-A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento do Social.
+A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -27,7 +28,7 @@ A aparência do botão de compartilhamento de email é controlada com o seguinte
 .s7videoviewer .s7emailshare
 ```
 
-**Propriedades de CSS da ferramenta de compartilhamento de email**
+**Propriedades CSS da ferramenta de compartilhamento de email**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -40,21 +41,21 @@ A aparência do botão de compartilhamento de email é controlada com o seguinte
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-É possível remover o botão do painel Compartilhamento em redes sociais definindo `display:none` a propriedade CSS em sua classe CSS.
+É possível remover o botão do painel Compartilhamento do Social definindo `display:none` propriedade CSS em sua classe CSS.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
 Exemplo - para configurar um botão de compartilhamento de email com 28 x 28 pixels e que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
@@ -77,13 +78,13 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo está ativa é controlada pelo seguinte seletor de classe CSS:
+A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7backoverlay
 ```
 
-**Propriedades de CSS da sobreposição traseira**
+**Propriedades CSS da sobreposição de back-end**
 
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
@@ -92,13 +93,13 @@ A sobreposição em segundo plano que abrange a página da Web quando a caixa de
    <td colname="col2"> <p> Opacidade da sobreposição em segundo plano. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição do plano de fundo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar a sobreposição de plano de fundo para ficar cinza com 70% de opacidade:
+Exemplo - para configurar a sobreposição em segundo plano para ficar cinza com 70% de opacidade:
 
 ```
 .s7videoviewer .s7emaildialog .s7backoverlay { 
@@ -107,36 +108,36 @@ Exemplo - para configurar a sobreposição de plano de fundo para ficar cinza co
 }
 ```
 
-Por padrão, a caixa de diálogo modal é exibida centralizada na tela nos sistemas de desktop e leva toda a área da página da Web para os dispositivos de toque. Em todos os casos, o posicionamento e o dimensionamento da caixa de diálogo são gerenciados pelo componente. A caixa de diálogo é controlada com o seguinte seletor de classe CSS:
+Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistemas de desktop e leva toda a área da página da Web em dispositivos de toque. Em todos os casos, o posicionamento e o dimensionamento da caixa de diálogo são gerenciados pelo componente . A caixa de diálogo é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialog
 ```
 
-**Propriedades de CSS da caixa de diálogo**
+**Propriedades CSS da caixa de diálogo**
 
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
-   <td colname="col2"> <p> Raio da borda da caixa de diálogo (caso a caixa de diálogo não use a janela inteira do navegador); </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col2"> <p> Raio da borda da caixa de diálogo (caso a caixa de diálogo não use toda a janela do navegador); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo da caixa de diálogo; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
-   <td colname="col2"> <p> Deve estar desdefinido ou definido como 100%, caso em que a caixa de diálogo pega a janela inteira do navegador (este modo é preferencial em dispositivos de toque); </p> </td> 
+   <td colname="col2"> <p> Deve ser desdefinido ou definido como 100%, nesse caso, a caixa de diálogo ocupa toda a janela do navegador (esse modo é preferido em dispositivos de toque); </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p> Deve estar desdefinido ou definido como 100%, caso em que a caixa de diálogo pega a janela inteira do navegador (este modo é preferencial em dispositivos de toque). </p> </td> 
+   <td colname="col2"> <p> Deve ser desativado ou definido como 100%, nesse caso, a caixa de diálogo ocupa toda a janela do navegador (esse modo é preferencial em dispositivos de toque). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar a caixa de diálogo para usar toda a janela do navegador e ter plano de fundo branco em dispositivos de toque:
+Exemplo - para configurar a caixa de diálogo para usar toda a janela do navegador e ter um plano de fundo branco em dispositivos de toque:
 
 ```
 .s7videoviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -146,47 +147,47 @@ background-color: #ffffff;
 }
 ```
 
-O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e um botão Fechar. O container header é controlado com o seguinte seletor de classe CSS
+O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e um botão Fechar. O contêiner de cabeçalho é controlado com o seguinte seletor de classe CSS
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader
 ```
 
-**Propriedades de CSS do cabeçalho da caixa de diálogo**
+**Propriedades CSS do cabeçalho da caixa de diálogo**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento interno para o conteúdo do cabeçalho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O ícone e o texto do título são vinculados em um container adicional controlado com
+O ícone e o texto do título são envolvidos em um contêiner adicional controlado com
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader .s7dialogline
 ```
 
-**Propriedades de CSS da linha de diálogo**
+**Propriedades CSS da linha de diálogo**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento interno para o ícone e o título do cabeçalho </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS
+O ícone Cabeçalho é controlado com o seguinte seletor de classe CSS
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheadericon
 ```
 
-**Propriedades de CSS do ícone de cabeçalho da caixa de diálogo**
+**Propriedades CSS do ícone de cabeçalho da caixa de diálogo**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -199,12 +200,12 @@ O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Imagem do ícone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -215,16 +216,16 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
 .s7videoviewer .s7emaildialog .s7dialogheadertext
 ```
 
-**Propriedades de CSS do texto do cabeçalho da caixa de diálogo**
+**Propriedades CSS do texto do cabeçalho da caixa de diálogo**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Altura da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -232,7 +233,7 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Família de fontes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento de texto interno. </p> </td> 
   </tr> 
  </tbody> 
@@ -250,11 +251,11 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> Posição vertical do botão em relação ao container do cabeçalho. </p> </td> 
+   <td colname="col2"> <p> Posição do botão vertical em relação ao contêiner de cabeçalho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p> Posição do botão horizontal em relação ao container do cabeçalho. </p> </td> 
+   <td colname="col2"> <p> Posição do botão horizontal em relação ao contêiner de cabeçalho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
@@ -265,27 +266,27 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar o cabeçalho da caixa de diálogo com preenchimento, ícone de 24 x 17 pixels, título de 16 pontos em negrito e botão de fechamento de 28 x 28 pixels posicionados 2 pixels da parte superior e 2 pixels da direita do container da caixa de diálogo:
+Exemplo - para configurar o cabeçalho da caixa de diálogo com o preenchimento, o ícone de 24 x 17 pixels, o título de 16 pontos em negrito e o botão de fechamento de 28 x 28 pixels posicionados 2 pixels da parte superior e 2 pixels da direita do contêiner da caixa de diálogo:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader { 
@@ -325,7 +326,7 @@ Exemplo - para configurar o cabeçalho da caixa de diálogo com preenchimento, �
 }
 ```
 
-O rodapé da caixa de diálogo consiste nos botões &quot;cancelar&quot; e &quot;enviar e-mail&quot;. O container de rodapé é controlado com o seguinte seletor de classe CSS:
+O rodapé da caixa de diálogo consiste nos botões &quot;cancelar&quot; e &quot;enviar email&quot;. O contêiner de rodapé é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter
@@ -336,24 +337,24 @@ O rodapé da caixa de diálogo consiste nos botões &quot;cancelar&quot; e &quot
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p> Borda que pode ser usada para separar visualmente o rodapé do restante da caixa de diálogo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O rodapé tem um container interno que mantém ambos os botões. É controlado com o seguinte seletor de classe CSS:
+O rodapé tem um contêiner interno que mantém ambos os botões. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbuttoncontainer
 ```
 
-**Propriedades de CSS do container do botão da caixa de diálogo**
+**Propriedades CSS do contêiner do botão da caixa de diálogo**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento interno entre o rodapé e os botões. </p> </td> 
   </tr> 
  </tbody> 
@@ -365,7 +366,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 .s7videoviewer .s7emaildialog .s7dialogcancelbutton
 ```
 
-**Propriedades de CSS do botão Cancelar da caixa de diálogo**
+**Propriedades CSS do botão Cancelar da caixa de diálogo**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -378,11 +379,11 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -390,15 +391,15 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-O botão Enviar e-mail é controlado com o seguinte seletor de classe CSS:
+O botão Enviar email é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogactionbutton
 ```
 
-**Propriedades de CSS do botão de ação da caixa de diálogo**
+**Propriedades CSS do botão de ação da caixa de diálogo**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
@@ -411,11 +412,11 @@ O botão Enviar e-mail é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -423,24 +424,24 @@ O botão Enviar e-mail é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
+Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter .s7button
 ```
 
-**Propriedades de CSS do botão**
+**Propriedades CSS do botão**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte do botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -462,9 +463,9 @@ Além disso, ambos os botões compartilham a mesma classe CSS comum que pode con
  </tbody> 
 </table>
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um rodapé de caixa de diálogo com o botão Cancelar 64 x 34 e um botão Enviar e-mail 82 x 34, com a cor do texto e a cor do plano de fundo diferentes para cada estado do botão:
+Exemplo - para configurar um rodapé de caixa de diálogo com o botão Cancelar 64 x 34 e um botão de e-mail de envio 82 x 34, com a cor do texto e a cor do plano de fundo diferentes para cada estado de botão:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogfooter { 
@@ -524,7 +525,7 @@ Exemplo - para configurar um rodapé de caixa de diálogo com o botão Cancelar 
 }
 ```
 
-A área de diálogo principal (entre o cabeçalho e o rodapé) contém o conteúdo da caixa de diálogo com rolagem e o painel de rolagem à direita. Em todos os casos, o componente gerencia a largura dessa área, não é possível defini-la em CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
+A área de diálogo principal (entre o cabeçalho e o rodapé) contém conteúdo da caixa de diálogo rolável e o painel de rolagem à direita. Em todos os casos, o componente gerencia a largura dessa área, não é possível defini-la em CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogviewarea
@@ -536,11 +537,11 @@ A área de diálogo principal (entre o cabeçalho e o rodapé) contém o conteú
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funciona no modo de área de trabalho. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar a janela inteira do navegador. </p> </td> 
+   <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funcionar no modo de desktop. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar toda a janela do navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>A cor de plano de fundo da área da caixa de diálogo principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A cor de fundo da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
@@ -551,7 +552,7 @@ A área de diálogo principal (entre o cabeçalho e o rodapé) contém o conteú
 
 >[!NOTE]
 >
->A área da caixa de diálogo principal suporta o seletor de atributos opcional `state`. Ele é definido como `sendsuccess` quando o formulário de email é enviado e a caixa de diálogo exibe uma mensagem de confirmação. Desde que a mensagem de confirmação seja pequena, este seletor de atributo pode ser usado para reduzir a altura da caixa de diálogo quando essa mensagem de confirmação for exibida.
+>A área da caixa de diálogo principal oferece suporte ao seletor de atributo `state` opcional. Ele é definido como `sendsuccess` quando o formulário de email é enviado e a caixa de diálogo mostra uma mensagem de confirmação. Contanto que a mensagem de confirmação seja pequena, esse seletor de atributo pode ser usado para reduzir a altura da caixa de diálogo quando essa mensagem de confirmação for exibida.
 
 Exemplo - para configurar a área da caixa de diálogo principal para ter 300 pixels de altura inicial e 100 pixels de altura quando a mensagem de confirmação for exibida, tenha uma margem de dez pixels e use um plano de fundo branco:
 
@@ -566,26 +567,26 @@ Exemplo - para configurar a área da caixa de diálogo principal para ter 300 pi
 }
 ```
 
-Todo o conteúdo do formulário (como rótulos e campos de entrada) reside em um container controlado com
+Todo o conteúdo do formulário (como rótulos e campos de entrada) reside em um contêiner controlado com
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody
 ```
 
-Se a altura desse container parecer maior que a área da caixa de diálogo principal, uma rolagem vertical é ativada automaticamente pelo componente.
+Se a altura desse contêiner parecer ser maior que a área da caixa de diálogo principal, uma rolagem vertical é ativada automaticamente pelo componente.
 
 **Propriedades CSS do corpo da caixa de diálogo **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar o conteúdo do formulário para ter dez pixels de preenchimento:
+Exemplo - para configurar o conteúdo do formulário para ter o preenchimento de dez pixels:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody { 
@@ -593,24 +594,24 @@ Exemplo - para configurar o conteúdo do formulário para ter dez pixels de pree
 }
 ```
 
-O formulário da caixa de diálogo é preenchido linha a linha, onde cada linha carrega uma parte do conteúdo do formulário (como um rótulo e um campo de entrada de texto). Uma única linha de formulário é controlada com o seguinte seletor de classe CSS:
+O formulário da caixa de diálogo é preenchido linha por linha, onde cada linha carrega uma parte do conteúdo do formulário (como um rótulo e um campo de entrada de texto). Uma única linha de formulário é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**Propriedades de CSS da linha da caixa de diálogo**
+**Propriedades CSS da linha da caixa de diálogo**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
-   <td colname="col2"> <p>Preenchimento interno de linha. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
+   <td colname="col2"> <p>Preenchimento de linha interna. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um formulário de caixa de diálogo para ter dez pixels de preenchimento para cada linha:
+Exemplo - para configurar um formulário de caixa de diálogo para ter um preenchimento de dez pixels para cada linha:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -624,34 +625,34 @@ Todos os rótulos estáticos no formulário da caixa de diálogo são controlado
 .s7videoviewer .s7emaildialog .s7dialoglabel
 ```
 
-Essa classe não é adequada para controlar o tamanho ou a posição dos rótulos, pois é possível aplicá-la a textos em vários locais da interface do usuário do formulário.
+Essa classe não é adequada para controlar o tamanho ou a posição dos rótulos, pois você pode aplicá-la aos textos em vários lugares da interface do usuário do formulário.
 
 **Propriedades CSS do rótulo da caixa de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte do rótulo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
-   <td colname="col2"> <p>Família de fontes de etiquetas. </p> </td> 
+   <td colname="col2"> <p>Rotular família de fontes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto do rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Os rótulos da caixa de diálogo podem ser localizados. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+Os rótulos da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar todos os rótulos como cinza, negrito com uma fonte de nove pixels:
+Exemplo - para configurar todos os rótulos para serem cinza, negrito com uma fonte de nove pixels:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoglabel { 
@@ -667,7 +668,7 @@ Todos os rótulos estáticos exibidos à esquerda dos campos de entrada do formu
 .s7videoviewer .s7emaildialog .s7dialoginputlabel
 ```
 
-**Propriedades de CSS do rótulo de entrada da caixa de diálogo**
+**Propriedades CSS do rótulo de entrada da caixa de diálogo**
 
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
@@ -677,20 +678,20 @@ Todos os rótulos estáticos exibidos à esquerda dos campos de entrada do formu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> alinhamento de texto  </span> </p> </td> 
-   <td colname="col2"> <p>O alinhamento do texto horizontal. </p> </td> 
+   <td colname="col2"> <p>O alinhamento de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
    <td colname="col2"> <p>Margem estática do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento estático do rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar rótulos de campo de entrada com largura de 50 pixels, alinhamento à direita, ter dez pixels de preenchimento e uma margem de dez pixels à direita:
+Exemplo - para configurar rótulos de campo de entrada para ter 50 pixels de largura, alinhamento à direita, tenha dez pixels de preenchimento e uma margem de dez pixels à direita:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputlabel { 
@@ -701,22 +702,22 @@ Exemplo - para configurar rótulos de campo de entrada com largura de 50 pixels,
 }
 ```
 
-Cada campo de entrada de formulário é vinculado ao container, permitindo que você aplique uma borda personalizada ao redor do campo de entrada. É controlado com o seguinte seletor de classe CSS:
+Cada campo de entrada de formulário é colocado no container que permite aplicar uma borda personalizada ao redor do campo de entrada. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputcontainer
 ```
 
-**Propriedades de CSS do container de entrada da caixa de diálogo**
+**Propriedades CSS do contêiner de entrada da caixa de diálogo**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
-   <td colname="col2"> <p>Borda em torno do container do campo de entrada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col2"> <p>Borda em torno do contêiner de campo de entrada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
@@ -724,15 +725,15 @@ Cada campo de entrada de formulário é vinculado ao container, permitindo que v
 
 >[!NOTE]
 >
->O container de campo de entrada oferece suporte ao seletor de atributo opcional `state`. Está definida como `verifyerror` quando o usuário comete um erro no formato de dados de entrada e a validação em linha falha. Esse seletor de atributos pode ser usado para realçar a entrada incorreta do usuário no formulário.
+>O contêiner de campo de entrada oferece suporte ao seletor de atributo `state` opcional. Ele é definido como `verifyerror` quando o usuário comete um erro no formato de dados de entrada e a validação em linha falha. Esse seletor de atributos pode ser usado para realçar a entrada de usuário incorreta no formulário.
 
-A maioria dos campos de entrada que se espalham do rótulo à esquerda até a borda direita do corpo da caixa de diálogo (que inclui o campo &quot;de&quot; e o campo &quot;mensagem&quot;) são controlados com:
+A maioria dos campos de entrada que se espalham do rótulo à esquerda até a borda direita do corpo da caixa de diálogo (que inclui os campos &quot;de&quot; e &quot;mensagem&quot;) é controlada com:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**Propriedades de CSS do campo de entrada da caixa de diálogo**
+**Propriedades CSS do campo de entrada da caixa de diálogo**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -743,13 +744,13 @@ A maioria dos campos de entrada que se espalham do rótulo à esquerda até a bo
  </tbody> 
 </table>
 
-O campo de entrada &quot;Para&quot; é mais estreito, pois atribui espaço para o botão &quot;remover e-mail&quot; à direita. É controlado com o seguinte seletor de classe CSS:
+O campo de entrada &quot;Para&quot; é mais estreito porque aloca espaço para o botão &quot;remover email&quot; à direita. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**Propriedades de CSS do campo curto de entrada da caixa de diálogo**
+**Propriedades CSS do campo curto de entrada da caixa de diálogo**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
@@ -760,7 +761,7 @@ O campo de entrada &quot;Para&quot; é mais estreito, pois atribui espaço para 
  </tbody> 
 </table>
 
-Exemplo - para configurar um formulário para ter uma borda cinza de um pixel com nove pixels de preenchimento ao redor de todos os campos de entrada; para ter a mesma borda em cor vermelha para campos que falham na validação, para ter o campo de entrada &quot;Para&quot; com 250 pixels de largura e o restante dos campos de entrada com 300 pixels de largura:
+Exemplo - para configurar um formulário para ter uma borda cinza de um pixel com nove pixels de preenchimento ao redor de todos os campos de entrada; para ter a mesma borda em cor vermelha para campos que falharam na validação, para ter o campo de entrada &quot;To&quot; de 250 pixels de largura e o restante dos campos de entrada de 300 pixels de largura:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -784,9 +785,9 @@ O campo de entrada de mensagem de email é controlado adicionalmente com:
 .s7videoviewer .s7emaildialog .s7dialogmessage
 ```
 
-Essa classe permite definir propriedades específicas para o elemento subjacente `TEXTAREA`.
+Essa classe permite definir propriedades específicas para o elemento `TEXTAREA` subjacente.
 
-**Propriedades de CSS da mensagem da caixa de diálogo**
+**Propriedades CSS da mensagem da caixa de diálogo**
 
 <table id="table_9E9D5A0C3CDB45739615C4C07F8DC046"> 
  <tbody> 
@@ -795,13 +796,13 @@ Essa classe permite definir propriedades específicas para o elemento subjacente
    <td colname="col2"> <p>Altura da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> quebra automática de texto  </span> </p> </td> 
-   <td colname="col2"> <p>Estilo de quebra automática de palavras. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> quebra automática  </span> </p> </td> 
+   <td colname="col2"> <p>Estilo de quebra automática de palavra. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma mensagem de email com 50 pixels de altura e usar `break-word` quebra automática de texto:
+Exemplo - para configurar uma mensagem de email com 50 pixels de altura e usar `break-word` quebra automática de palavra:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogmessage { 
@@ -810,13 +811,13 @@ Exemplo - para configurar uma mensagem de email com 50 pixels de altura e usar `
 }
 ```
 
-O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário adicione mais de um destinatário no formulário de email. É controlado com o seguinte seletor de classe CSS:
+O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário adicione mais de um endereço de email. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogaddemailbutton
 ```
 
-**Propriedades de CSS da caixa de diálogo adicionar botão de endereço de email**
+**Propriedades CSS da caixa de diálogo adicionar botão de endereço de email**
 
 <table id="table_8829DC0694684E8BA427DFB821F7433D"> 
  <tbody> 
@@ -825,11 +826,11 @@ O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -837,11 +838,11 @@ O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário 
    <td colname="col2"> <p>Posição da imagem do botão dentro da área do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte do botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -857,7 +858,7 @@ O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário 
    <td colname="col2"> <p>Alinhamento horizontal do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
@@ -865,11 +866,11 @@ O botão &quot;Adicionar outro endereço de email&quot; permite que um usuário 
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar o botão &quot;Adicionar outro endereço de email&quot; para ter 25 pixels de altura, use uma fonte em negrito de 12 pontos com alinhamento à direita e uma cor e imagem de texto diferentes para cada estado:
+Exemplo - para configurar o botão &quot;Adicionar Outro Endereço de Email&quot; com 25 pixels de altura, use a fonte de 12 pontos em negrito com alinhamento direito e uma cor de texto e imagem diferentes para cada estado:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogaddemailbutton { 
@@ -900,13 +901,13 @@ Exemplo - para configurar o botão &quot;Adicionar outro endereço de email&quot
 }
 ```
 
-O botão &quot;Remover&quot; permite que um usuário remova destinatários extras do formulário de email. É controlado com o seguinte seletor de classe CSS:
+O botão &quot;Remover&quot; permite que um usuário remova endereços extras do formulário de email. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogremoveemailbutton
 ```
 
-**Propriedades de CSS da caixa de diálogo remover botão de e-mail**
+**Propriedades CSS da caixa de diálogo remover botão de email**
 
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
@@ -919,21 +920,21 @@ O botão &quot;Remover&quot; permite que um usuário remova destinatários extra
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
 Exemplo - para configurar um botão &quot;Remover&quot; para ter 25 x 25 pixels e usar uma imagem diferente para cada estado:
 
@@ -956,7 +957,7 @@ Exemplo - para configurar um botão &quot;Remover&quot; para ter 25 x 25 pixels 
 }
 ```
 
-O conteúdo que está sendo compartilhado é exibido na parte inferior do corpo da caixa de diálogo e inclui uma miniatura, um título, um URL de origem e uma descrição. É envolvido em container controlado com:
+O conteúdo compartilhado é exibido na parte inferior do corpo da caixa de diálogo e inclui uma miniatura, título, URL de origem e descrição. É embrulhada em um contêiner controlado com:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
@@ -967,17 +968,17 @@ O conteúdo que está sendo compartilhado é exibido na parte inferior do corpo 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
-   <td colname="col2"> <p>Borda do container. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col2"> <p>Borda do contêiner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um container inferior para ter uma borda pontilhada de um pixel e sem preenchimento:
+Exemplo - para configurar um contêiner inferior para ter uma borda pontilhada de um pixel e sem preenchimento:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
@@ -986,7 +987,7 @@ Exemplo - para configurar um container inferior para ter uma borda pontilhada de
 }
 ```
 
-A imagem em miniatura é controlada pelo seguinte seletor de classe CSS:
+A imagem em miniatura é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogthumbnail
@@ -994,7 +995,7 @@ A imagem em miniatura é controlada pelo seguinte seletor de classe CSS:
 
 A propriedade `background-image` é definida pela lógica do componente.
 
-**Propriedades de CSS da imagem em miniatura da caixa de diálogo**
+**Propriedades CSS da imagem em miniatura da caixa de diálogo**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
@@ -1011,13 +1012,13 @@ A propriedade `background-image` é definida pela lógica do componente.
    <td colname="col2"> <p>Miniatura do alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar a miniatura como 90 x 60 pixels e superior alinhada com dez pixels de preenchimento:
+Exemplo - para configurar a miniatura para ter 90 x 60 pixels e alto alinhamento com dez pixels de preenchimento:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogthumbnail { 
@@ -1028,13 +1029,13 @@ Exemplo - para configurar a miniatura como 90 x 60 pixels e superior alinhada co
 }
 ```
 
-O título do conteúdo, a origem e a descrição são ainda agrupados em um painel à direita da miniatura do conteúdo. É controlado com o seguinte seletor de classe CSS:
+O título do conteúdo, a origem e a descrição são agrupados em um painel à direita da miniatura do conteúdo. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginfopanel
 ```
 
-**Propriedades de CSS do painel de informações da caixa de diálogo**
+**Propriedades CSS do painel de informações da caixa de diálogo**
 
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
@@ -1059,7 +1060,7 @@ O título do conteúdo é controlado com o seguinte seletor de classe CSS:
 .s7videoviewer .s7emaildialog .s7dialogtitle
 ```
 
-**Propriedades de CSS do título da caixa de diálogo**
+**Propriedades CSS do título da caixa de diálogo**
 
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
@@ -1068,11 +1069,11 @@ O título do conteúdo é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -1091,13 +1092,13 @@ Exemplo - para configurar um título de conteúdo para usar a fonte em negrito e
 }
 ```
 
-A origem de conteúdo é controlada pelo seguinte seletor de classe CSS:
+A origem do conteúdo é controlada pelo seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Propriedades CSS da origem de conteúdo da caixa de diálogo **
+**Propriedades CSS da origem do conteúdo da caixa de diálogo **
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
@@ -1106,11 +1107,11 @@ A origem de conteúdo é controlada pelo seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -1120,7 +1121,7 @@ A origem de conteúdo é controlada pelo seguinte seletor de classe CSS:
  </tbody> 
 </table>
 
-Exemplo - para configurar a origem de conteúdo para ter uma margem de dez pixels:
+Exemplo - para configurar a origem do conteúdo para ter uma margem de dez pixels:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogorigin { 
@@ -1134,7 +1135,7 @@ A descrição do conteúdo é controlada pelo seguinte seletor de classe CSS:
 .s7videoviewer .s7emaildialog .s7dialogdescription
 ```
 
-**Propriedades de CSS da descrição do conteúdo da caixa de diálogo**
+**Propriedades CSS da descrição do conteúdo da caixa de diálogo**
 
 <table id="table_F0F917ED3D1D4FCE974F48214D287E14"> 
  <tbody> 
@@ -1143,11 +1144,11 @@ A descrição do conteúdo é controlada pelo seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -1157,7 +1158,7 @@ A descrição do conteúdo é controlada pelo seguinte seletor de classe CSS:
  </tbody> 
 </table>
 
-Exemplo - para configurar uma descrição de conteúdo para ter uma margem de dez pixels e usar uma fonte de nove pontos:
+Exemplo - para configurar uma descrição do conteúdo para ter uma margem de dez pixels e usar uma fonte de nove pontos:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogdescription { 
@@ -1166,34 +1167,34 @@ Exemplo - para configurar uma descrição de conteúdo para ter uma margem de de
 }
 ```
 
-Quando um usuário digita dados de entrada incorretos e a validação em linha falha, ou quando a caixa de diálogo precisa renderizar um erro ou uma mensagem de confirmação quando o formulário é enviado, uma mensagem é exibida na parte superior do corpo da caixa de diálogo. É controlado com o seguinte seletor de classe CSS:
+Quando um usuário insere dados de entrada incorretos e a validação em linha falha, ou quando a caixa de diálogo precisa renderizar um erro ou uma mensagem de confirmação quando o formulário é enviado, uma mensagem é exibida na parte superior do corpo da caixa de diálogo. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogerrormessage
 ```
 
-**Propriedades de CSS da mensagem de erro da caixa de diálogo**
+**Propriedades CSS da mensagem de erro da caixa de diálogo**
 
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Ícone Erro. O padrão é um ponto de exclamação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Ícone Error . O padrão é um ponto de exclamação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição do ícone de erro na área da mensagem. </p> </td> 
+   <td colname="col2"> <p> Posição do ícone de erro dentro da área da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p>Peso de fonte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -1205,7 +1206,7 @@ Quando um usuário digita dados de entrada incorretos e a validação em linha f
    <td colname="col2"> <p> Altura do texto dentro da mensagem. Afeta o alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
@@ -1213,11 +1214,11 @@ Quando um usuário digita dados de entrada incorretos e a validação em linha f
 
 >[!NOTE]
 >
->Esta mensagem oferece suporte ao seletor de atributos `state` com os seguintes valores possíveis: `verifyerror`, `senderror` e `sendsuccess`. `verifyerror` é definida quando uma mensagem é exibida devido a uma falha de validação de entrada em linha;  `senderror` é definida quando um serviço de email de backend relata um erro;  `sendsuccess` é definida quando o email é enviado com êxito. Dessa forma, é possível criar um estilo diferente para a mensagem, dependendo do estado da caixa de diálogo.
+>Essa mensagem oferece suporte ao seletor de atributo `state` com os seguintes valores possíveis: `verifyerror`, `senderror` e `sendsuccess`. `verifyerror` é definida quando uma mensagem é exibida devido a uma falha na validação de entrada em linha;  `senderror` é definido quando um serviço de email de backend relata um erro;  `sendsuccess` é definido quando o email é enviado com êxito. Dessa forma, é possível criar um estilo diferente na mensagem, dependendo do estado da caixa de diálogo.
 
-A mensagem de erro pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A mensagem de erro pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar uma mensagem para usar uma fonte em negrito de dez pontos, ter 25 pixels de altura de linha, preenchimento de 20 pixels à esquerda, usar um ícone de ponto de exclamação, texto vermelho em caso de erro e nenhum ícone e texto verde em caso de sucesso:
+Exemplo - para configurar uma mensagem para usar uma fonte de dez pontos em negrito, ter 25 pixels de altura da linha, preenchimento de 20 pixels à esquerda, usar um ícone de ponto de exclamação, texto vermelho no caso de erro e nenhum ícone e texto verde no caso de sucesso:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 
@@ -1241,13 +1242,13 @@ Exemplo - para configurar uma mensagem para usar uma fonte em negrito de dez pon
 }
 ```
 
-Se a rolagem vertical for necessária, a barra de rolagem será renderizada no painel próximo à borda direita da caixa de diálogo, que é controlada pelo seguinte seletor de classe CSS:
+Se a rolagem vertical for necessária, a barra de rolagem será renderizada no painel próximo à borda direita da caixa de diálogo, que é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogscrollpanel
 ```
 
-**Propriedades de CSS do painel de rolagem da caixa de diálogo**
+**Propriedades CSS do painel de rolagem da caixa de diálogo**
 
 <table id="table_A0C3AC7E00544FFBB8E1364F4CDDB371"> 
  <tbody> 
@@ -1282,20 +1283,20 @@ A aparência da área da barra de rolagem é controlada com o seguinte seletor d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte superior do painel de rolagem. </p> </td> 
+   <td colname="col2"> <p> O deslocamento vertical da barra de rolagem na parte superior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte inferior do painel de rolagem. </p> </td> 
+   <td colname="col2"> <p> O deslocamento vertical da barra de rolagem na parte inferior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p> A barra de rolagem horizontal é deslocada da borda direita do painel de rolagem. </p> </td> 
+   <td colname="col2"> <p> O deslocamento da barra de rolagem horizontal a partir da borda direita do painel de rolagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma barra de rolagem com 28 pixels de largura, uma margem de oito pixels a partir da parte superior, direita e inferior do painel de rolagem:
+Exemplo - para configurar uma barra de rolagem com 28 pixels de largura, uma margem de oito pixels da parte superior, direita e inferior do painel de rolagem:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar { 
@@ -1306,7 +1307,7 @@ Exemplo - para configurar uma barra de rolagem com 28 pixels de largura, uma mar
 }
 ```
 
-A faixa da barra de rolagem é a área entre os botões de rolagem superior e inferior. O componente define automaticamente a posição e a altura da faixa. A faixa é controlada com o seguinte seletor de classe CSS:
+O rastreamento da barra de rolagem é a área entre os botões de rolagem superior e inferior. O componente define automaticamente a posição e a altura da faixa. A faixa é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrolltrack
@@ -1321,13 +1322,13 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
    <td colname="col2"> <p>A largura da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da faixa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um rastreamento de barra de rolagem com 28 pixels de largura e plano de fundo cinza:
+Exemplo - para configurar um rastreamento de barra de rolagem com 28 pixels de largura e um plano de fundo cinza:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrolltrack { 
@@ -1336,13 +1337,13 @@ background-color: #B2B2B2;
 }
 ```
 
-A barra de rolagem é movida verticalmente dentro de uma área de rolagem da faixa. Sua posição vertical é totalmente controlada pela lógica do componente, no entanto, a altura do polegar não muda dinamicamente dependendo da quantidade de conteúdo. Você pode configurar a altura do polegar e outros aspectos com o seguinte seletor de classe CSS:
+O polegar da barra de rolagem se move verticalmente em uma área de trilha de rolagem. Sua posição vertical é totalmente controlada pela lógica do componente, no entanto, a altura da miniatura não muda dinamicamente, dependendo da quantidade de conteúdo. Você pode configurar a altura do polegar e outros aspectos com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrollthumb
 ```
 
-**Propriedades de CSS da miniatura da barra de rolagem**
+**Propriedades de CSS da barra de rolagem**
 
 <table id="table_5A4A283A50044A51881D997885674BDF"> 
  <tbody> 
@@ -1355,20 +1356,20 @@ A barra de rolagem é movida verticalmente dentro de uma área de rolagem da fai
    <td colname="col2"> <p>A altura do polegar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tampa superior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parte superior do preenchimento  </span> </p> </td> 
    <td colname="col2"> <p> O preenchimento vertical entre a parte superior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> camada inferior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parte inferior do preenchimento  </span> </p> </td> 
    <td colname="col2"> <p> O preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de miniatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de polegar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1377,9 +1378,9 @@ A barra de rolagem é movida verticalmente dentro de uma área de rolagem da fai
 >
 >A miniatura suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniatura: `up`, `down`, `over` e `disabled`.
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar a miniatura da barra de rolagem com 28 x 45 pixels, uma margem de dez pixels na parte superior e inferior e uma arte-final diferente para cada estado:
+Exemplo - para configurar o polegar da barra de rolagem que seja 28 x 45 pixels, tenha uma margem de dez pixels na parte superior e inferior e tenha uma arte-final diferente para cada estado:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrollthumb { 
@@ -1413,7 +1414,7 @@ A aparência dos botões de rolagem superior e inferior é controlada pelos segu
   
 ```
 
-**Propriedades de CSS dos botões de rolagem superior e inferior**
+**Propriedades CSS dos botões de rolagem superior e inferior**
 
 <table id="table_EB853317E08941979B0E141C3C9B2C49"> 
  <tbody> 
@@ -1426,21 +1427,21 @@ A aparência dos botões de rolagem superior e inferior é controlada pelos segu
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esses botões oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão: `up`, `down`, `over` e `disabled`.
+>Esses botões suportam o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botões diferentes: `up`, `down`, `over` e `disabled`.
 
-Exemplo - para configurar botões de rolagem com 28 x 32 pixels e arte-final diferente para cada estado:
+Exemplo - para configurar botões de rolagem que são 28 x 32 pixels e têm arte-final diferente para cada estado:
 
 ```
 .s7videoviewer .s7emaildialog .s7scrollbar .s7scrollupbutton { 
