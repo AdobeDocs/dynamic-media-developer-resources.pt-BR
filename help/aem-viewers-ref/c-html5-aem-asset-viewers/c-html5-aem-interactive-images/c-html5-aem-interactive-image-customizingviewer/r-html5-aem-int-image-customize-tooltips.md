@@ -4,12 +4,13 @@ seo-description: Em sistemas de desktop, alguns elementos da interface do usuár
 seo-title: Dicas de ferramentas
 solution: Experience Manager
 title: Dicas de ferramentas
-topic: Dynamic Media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Em sistemas de desktop, alguns elementos da interface do usuário, como botões,
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
-A aparência das dicas de ferramentas é controlada com o seguinte seletor de classe CSS:
+A aparência das dicas de ferramenta é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7tooltip
@@ -38,7 +39,7 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
@@ -46,11 +47,11 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
    <td colname="col2"> <p> Cor da borda do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +59,7 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,9 +67,9 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
 
 >[!NOTE]
 >
->Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades devem conter a regra `!IMPORTANT`. Isso não é necessário se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
+>Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades precisam conter a regra `!IMPORTANT`. Isso não é necessário se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
 
-Exemplo - para configurar dicas de ferramentas com uma borda cinza com um raio de 3 pixels de canto, plano de fundo preto e texto branco em Arial, tamanho de 11 pixels:
+Exemplo - para configurar dicas de ferramentas com uma borda cinza com um raio de canto de 3 pixels, plano de fundo preto e texto branco em Arial, tamanho de 11 pixels:
 
 ```
 .s7tooltip { 
