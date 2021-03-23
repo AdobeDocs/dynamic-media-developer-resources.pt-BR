@@ -1,15 +1,16 @@
 ---
-description: A visualização principal consiste na imagem estática.
-seo-description: A visualização principal consiste na imagem estática.
-seo-title: Visualização de zoom
+description: A exibição principal consiste na imagem estática.
+seo-description: A exibição principal consiste na imagem estática.
+seo-title: Exibição de zoom
 solution: Experience Manager
-title: Visualização de zoom
-topic: Dynamic Media
+title: Exibição de zoom
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Visualização de zoom{#zoom-view}
 
-A visualização principal consiste na imagem estática.
+A exibição principal consiste na imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -38,13 +39,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a visualização principal transparente.
+Exemplo - para tornar a exibição principal transparente.
 
 ```
 .s7interactiveimage .s7zoomview { 
