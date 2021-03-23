@@ -1,23 +1,24 @@
 ---
-description: Aumenta a textura. Especifica a nitidez a ser aplicada ao renderizar este material.
-seo-description: Aumenta a textura. Especifica a nitidez a ser aplicada ao renderizar este material.
-seo-title: agudo
+description: Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
+seo-description: Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
+seo-title: nítido
 solution: Experience Manager
-title: agudo
-topic: Dynamic Media Image Serving - Image Rendering API
+title: nítido
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
 
 
-# afiado{#sharp}
+# nítido{#sharp}
 
-Aumenta a textura. Especifica a nitidez a ser aplicada ao renderizar este material.
+Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
 
 `sharp=0|1|2|3`
 
@@ -36,17 +37,17 @@ Aumenta a textura. Especifica a nitidez a ser aplicada ao renderizar este materi
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Mais nitidez (precoce e tardia). </p> </td> 
+  <td class="stentry"> <p>Mais nitidez (inicial e final). </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` aplica a nitidez após a transformação do material;  `sharp=2` aplica a nitidez após a escala inicial da textura, mas antes de a transformar em cena;  `sharp=3` aplica a nitidez antes e depois da transformação.
+`sharp=1` Aplica a nitidez após a transformação do material;  `sharp=2` Aplica a nitidez após a escala inicial da textura, mas antes de a transformar em cena;  `sharp=3` aplica a nitidez antes e depois da transformação.
 
-O algoritmo de nitidez e a quantidade de nitidez e outros parâmetros USM (máscara de nitidez) são controlados pelo modelo de material padrão fornecido pela vinheta ou com `rs=`.
+O algoritmo de nitidez e a quantidade de nitidez e outros parâmetros USM (máscara com nitidez) são controlados pelo modelo de material padrão fornecido pela vinheta ou com `rs=`.
 
 ## Propriedades {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Atributo material. Ignorados por materiais de cor sólida.
+Atributo de material. Ignorado por materiais de cor sólida.
 
 ## Padrão {#section-febfa16e65864987b4d328e2ff1df64d}
 
