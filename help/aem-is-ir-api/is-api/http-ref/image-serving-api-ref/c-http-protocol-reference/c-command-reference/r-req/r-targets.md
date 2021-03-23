@@ -1,23 +1,24 @@
 ---
-description: Zoom nos dados de públicos alvos do catálogo de imagens. Retorna os dados do público alvo de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
-seo-description: Zoom nos dados de públicos alvos do catálogo de imagens. Retorna os dados do público alvo de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
-seo-title: públicos alvos
+description: O zoom segmenta os dados do catálogo de imagens. Retorna dados de destino de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
+seo-description: O zoom segmenta os dados do catálogo de imagens. Retorna dados de destino de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
+seo-title: targets
 solution: Experience Manager
-title: públicos alvos
-topic: Dynamic Media Image Serving - Image Rendering API
+title: targets
 uuid: e20dcd2c-913a-4153-97c7-dfb190763e39
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
 
 
-# públicos alvos{#targets}
+# targets{#targets}
 
-Zoom nos dados de públicos alvos do catálogo de imagens. Retorna os dados do público alvo de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
+O zoom segmenta os dados do catálogo de imagens. Retorna dados de destino de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
 
 `req=targets[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
@@ -32,13 +33,13 @@ Zoom nos dados de públicos alvos do catálogo de imagens. Retorna os dados do p
  </tr> 
 </table>
 
-O conteúdo de `catalog::Targets` é retornado. Quando o formato &#39;text&#39; é solicitado, todas as instâncias de `??` em `catalog::Targets` são substituídas por terminadores de linha e um terminador de linha único ( `CR/LF`) é anexado ao final. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta será composta apenas por um terminador de linha. A formatação apropriada é aplicada quando o formato &#39;xml&#39; ou &#39;json&#39; é solicitado.
+O conteúdo de `catalog::Targets` é retornado. Quando o formato &#39;text&#39; é solicitado, todas as instâncias de `??` em `catalog::Targets` são substituídas por terminadores de linha e um terminador de linha único ( `CR/LF`) é anexado ao final. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta será composta apenas de um terminador de linha único. A formatação apropriada é aplicada quando o formato &#39;xml&#39; ou &#39;json&#39; é solicitado.
 
-Outros comandos na string de solicitação são ignorados.
+Outros comandos na cadeia de caracteres de solicitação são ignorados.
 
 A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::Expiration`.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
