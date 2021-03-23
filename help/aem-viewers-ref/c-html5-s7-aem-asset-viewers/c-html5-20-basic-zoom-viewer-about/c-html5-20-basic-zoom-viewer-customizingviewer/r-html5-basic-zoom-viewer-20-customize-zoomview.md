@@ -1,15 +1,16 @@
 ---
-description: A visualização principal consiste na imagem com zoom.
-seo-description: A visualização principal consiste na imagem com zoom.
-seo-title: Visualização de zoom
+description: A exibição principal consiste na imagem com zoom.
+seo-description: A exibição principal consiste na imagem com zoom.
+seo-title: Exibição de zoom
 solution: Experience Manager
-title: Visualização de zoom
-topic: Dynamic Media
+title: Exibição de zoom
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Visualização de zoom{#zoom-view}
 
-A visualização principal consiste na imagem com zoom.
+A exibição principal consiste na imagem com zoom.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -38,17 +39,17 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
-   <td colname="col2"> <p>O cursor é exibido sobre a visualização principal. </p> </td> 
+   <td colname="col2"> <p>O cursor é exibido sobre a exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a visualização principal transparente.
+Exemplo - para tornar a exibição principal transparente.
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -56,7 +57,7 @@ Exemplo - para tornar a visualização principal transparente.
 }
 ```
 
-Em sistemas desktop, o componente suporta o seletor de atributos `cursortype` que pode ser aplicado à classe `.s7zoomview` e controla o tipo de cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
+Em sistemas de desktop, o componente suporta o seletor de atributos `cursortype` que pode ser aplicado à classe `.s7zoomview` e controla o tipo de cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,19 +69,19 @@ Em sistemas desktop, o componente suporta o seletor de atributos `cursortype` qu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> default  </span> </p> </td> 
-   <td colname="col2"> <p>Exibido quando a imagem não tem zoom devido a uma pequena resolução de imagem, configurações de componente ou ambos. </p> </td> 
+   <td colname="col2"> <p>Exibida quando a imagem não é ampliável devido a uma pequena resolução de imagem, configurações de componente ou ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
-   <td colname="col2"> <p>Exibido quando a imagem pode ser ampliada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col2"> <p>Exibido quando a imagem puder ser ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reiniciar  </span> </p> </td> 
-   <td colname="col2"> <p>Exibida quando a imagem está no nível máximo de zoom e pode ser redefinida para seu estado inicial. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefinir  </span> </p> </td> 
+   <td colname="col2"> <p>Exibida quando a imagem está no nível máximo de zoom e pode ser redefinida para o estado inicial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrasto  </span> </p> </td> 
-   <td colname="col2"> <p>Exibido quando um usuário desloca a imagem que está no estado ampliado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrastar  </span> </p> </td> 
+   <td colname="col2"> <p>Exibido quando um usuário expande a imagem que está no estado ampliado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
