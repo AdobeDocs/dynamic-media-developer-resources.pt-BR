@@ -1,15 +1,16 @@
 ---
-description: Define campos específicos de imagem para um ou mais ativos de imagem.
-seo-description: Define campos específicos de imagem para um ou mais ativos de imagem.
+description: Define campos específicos da imagem para um ou mais ativos da imagem.
+seo-description: Define campos específicos da imagem para um ou mais ativos da imagem.
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # batchSetImageFields{#batchsetimagefields}
 
-Define campos específicos de imagem para um ou mais ativos de imagem.
+Define campos específicos da imagem para um ou mais ativos da imagem.
 
 Sintaxe
 
@@ -36,8 +37,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém os ativos de imagem. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sim | A matriz do campo de imagem é atualizada. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa que contém os ativos de imagem. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sim | A matriz de atualizações de campo de imagem. |
 
 **Saída (batchSetImageFields)**
 
@@ -51,7 +52,7 @@ Sintaxe
 
 ## Exemplos {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-Este exemplo define dados nos campos de duas imagens em um storage de atualizações. Na matriz, as imagens são especificadas pelas alças do ativo e contêm resolução em pixels, coordenadas de âncora de posição x e y e dados do usuário. A resposta indica que os campos de ambas as imagens foram definidos com êxito.
+Esse exemplo define dados nos campos de duas imagens em uma matriz de atualização. Na matriz, as imagens são especificadas pelas alças de ativos e contêm resolução em pixels, coordenadas de âncora de x e y posição e dados do usuário. A resposta indica que os campos de ambas as imagens foram definidos com êxito.
 
 **Solicitação**
 
