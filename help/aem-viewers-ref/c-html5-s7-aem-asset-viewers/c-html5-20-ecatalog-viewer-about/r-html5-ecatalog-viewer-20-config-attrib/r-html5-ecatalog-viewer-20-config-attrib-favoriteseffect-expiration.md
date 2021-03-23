@@ -2,13 +2,14 @@
 description: FavoritesEffect.expiration
 solution: Experience Manager
 title: FavoritesEffect.expiration
-topic: Dynamic Media
 uuid: 7d78a9b5-6daf-47cb-a220-aa2d8c1a5634
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dias</span></span> </p> </td> 
-   <td colname="col2"> <p> Número de dias em que a coleção de favoritos é mantida no sistema do cliente antes de expirarem. Toda vez que um usuário visita o catálogo e faz uma alteração nos favoritos, como adicionar ou remover, o timer de expiração é redefinido. </p> </td> 
+   <td colname="col2"> <p> Número de dias em que a coleção de favoritos é mantida no sistema do cliente antes de expirar. Toda vez que um usuário visita o catálogo e faz uma alteração nos favoritos, como adicionar ou remover, o cronômetro de expiração é redefinido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
