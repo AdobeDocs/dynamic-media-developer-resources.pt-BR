@@ -1,23 +1,24 @@
 ---
-description: Um evento MediaPortal.
-seo-description: Um evento MediaPortal.
-seo-title: EventoMPE
+description: Um evento do MediaPortal.
+seo-description: Um evento do MediaPortal.
+seo-title: Evento MPE
 solution: Experience Manager
-title: EventoMPE
-topic: Dynamic Media Image Production System API
+title: Evento MPE
 uuid: 0d15c07f-5545-42bb-a793-b6c77e7a1b7b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 10%
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
 
-# MPEEvent{#mpevent}
+# MPEevent{#mpevent}
 
-Um evento MediaPortal.
+Um evento do MediaPortal.
 
 Sintaxe
 
@@ -25,25 +26,25 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`eventType`*` | `xsd:string` | Tipo de evento do Portal de mídia. |
+| `*`eventType`*` | `xsd:string` | Tipo de evento do Media Portal. |
 | `*`createDate`*` | `xsd:dateTime` | Data de criação do evento. |
-| `*`ipsUser`*` | `xsd:string` | O sistema ou o usuário acionando o evento. |
+| `*`ipsUser`*` | `xsd:string` | Sistema ou usuário que aciona o evento. |
 | `*`companyId`*` | `xsd:int` | ID da empresa. |
 | `*`companyName`*` | `xsd:string` | Nome da empresa. |
 | `*`jobName`*` | `xsd:string` | Um nome de trabalho exclusivo. |
-| `*`jobDescription`*` | `xsd:string` | Uma descrição útil para o trabalho. |
-| `*`string1`*` | `xsd:string` | Detentor para informações de cadeia de caracteres (opcional). |
-| `*`string2`*` | `xsd:string` | Detentor para informações de cadeia de caracteres (opcional). |
-| `*`string3`*` | `xsd:string` | Detentor para informações de cadeia de caracteres (opcional). |
-| `*`string4`*` | `xsd:string` | Detentor para informações de cadeia de caracteres (opcional). |
-| `*`string5`*` | `xsd:string` | Detentor para informações de cadeia de caracteres (opcional). |
-| `*`int1`*` | `xsd:int` | Titular da informação sobre números inteiros (opcional). |
-| `*`int2`*` | `xsd:int` | Titular da informação sobre números inteiros (opcional). |
-| `*`int3`*` | `xsd:int` | Titular da informação sobre números inteiros (opcional). |
-| `*`int4`*` | `xsd:int` | Titular da informação sobre números inteiros (opcional). |
-| `*`int5`*` | `xsd:int` | Titular da informação sobre números inteiros (opcional). |
-| `*`float1`*` | `xsd:double` | Titular da informação sobre flutuação (opcional). |
-| `*`float2`*` | `xsd:double` | Titular da informação sobre flutuação (opcional). |
-| `*`float3`*` | `xsd:double` | Titular da informação sobre flutuação (opcional). |
-| `*`time1`*` | `xsd:dateTime` | Titular da informação sobre data/carimbo de data/hora (opcional). |
+| `*`jobDescription`*` | `xsd:string` | Uma descrição útil para a tarefa. |
+| `*`string1`*` | `xsd:string` | Detentor para informações de string (opcional). |
+| `*`string2`*` | `xsd:string` | Detentor para informações de string (opcional). |
+| `*`string3`*` | `xsd:string` | Detentor para informações de string (opcional). |
+| `*`string4`*` | `xsd:string` | Detentor para informações de string (opcional). |
+| `*`string5`*` | `xsd:string` | Detentor para informações de string (opcional). |
+| `*`int1`*` | `xsd:int` | Titular para informações de número inteiro (opcional). |
+| `*`int2`*` | `xsd:int` | Titular para informações de número inteiro (opcional). |
+| `*`int3`*` | `xsd:int` | Titular para informações de número inteiro (opcional). |
+| `*`int4`*` | `xsd:int` | Titular para informações de número inteiro (opcional). |
+| `*`int5`*` | `xsd:int` | Titular para informações de número inteiro (opcional). |
+| `*`float1`*` | `xsd:double` | Titular da informação flutuante (opcional). |
+| `*`float2`*` | `xsd:double` | Titular da informação flutuante (opcional). |
+| `*`float3`*` | `xsd:double` | Titular da informação flutuante (opcional). |
+| `*`time1`*` | `xsd:dateTime` | Titular das informações de data/carimbo de data e hora (opcional). |
 
