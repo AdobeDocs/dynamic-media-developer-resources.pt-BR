@@ -2,12 +2,13 @@
 description: PageView.maxloadradius
 solution: Experience Manager
 title: PageView.maxloadradius
-topic: Dynamic Media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '75'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, o componente pré-carrega todos os quadros do catálogo quando em um estado ocioso. </p> <p> Quando definido como <span class="codeph"> 0</span>, o componente carrega apenas o quadro que está visível no momento, o quadro anterior e o quadro seguinte. </p> <p>Defina <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantos quadros invisíveis ao redor do quadro exibido no momento são pré-carregados em um estado ocioso. </p> </td> 
+   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, o componente pré-carrega todos os quadros do catálogo quando em um estado inativo. </p> <p> Quando definido como <span class="codeph"> 0</span>, o componente carrega apenas o quadro que está visível no momento, o quadro anterior e o quadro seguinte. </p> <p>Defina <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantos quadros invisíveis ao redor do quadro exibido no momento são pré-carregados em um estado inativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
