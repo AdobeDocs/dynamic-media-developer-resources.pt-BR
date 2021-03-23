@@ -1,15 +1,16 @@
 ---
-description: Uma matriz de progresso tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
-seo-description: Uma matriz de progresso tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
+description: Uma matriz de progresso de tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
+seo-description: Uma matriz de progresso de tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
 seo-title: TaskProgressArray
 solution: Experience Manager
 title: TaskProgressArray
-topic: Dynamic Media Image Production System API
 uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # TaskProgressArray{#taskprogressarray}
 
-Uma matriz de progresso tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
+Uma matriz de progresso de tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`item`*` | `types:TaskProgress` | Itens de progresso da tarefa. A ocorrência mínima é zero. A ocorrência máxima não está limitada. |
+| `*`item`*` | `types:TaskProgress` | Itens de progresso da tarefa. A ocorrência mínima é zero. A ocorrência máxima não é limitada. |
 
