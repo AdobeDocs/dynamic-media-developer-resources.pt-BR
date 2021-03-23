@@ -4,18 +4,19 @@ seo-description: Máscara de imagem. Especifica uma imagem de máscara separada 
 seo-title: máscara
 solution: Experience Manager
 title: máscara
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
 
-# mask{#mask}
+# máscara{#mask}
 
 Máscara de imagem. Especifica uma imagem de máscara separada a ser usada como uma máscara não associada.
 
@@ -27,32 +28,32 @@ Máscara de imagem. Especifica uma imagem de máscara separada a ser usada como 
   <td class="stentry"> <p>Objeto de imagem a ser usado como imagem ou máscara de camada. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> nestedRequest</span> </p></td> 
-  <td class="stentry"> <p>Serviço de imagem aninhada, Renderização de imagem ou solicitação externa. </p></td> 
+  <td class="stentry"> <p><span class="varname"> anestedRequest</span> </p></td> 
+  <td class="stentry"> <p>Serviço de imagem aninhado, Renderização de imagem ou solicitação externa. </p></td> 
  </tr> 
 </table>
 
 *`object`* pode ser uma entrada de catálogo ou um arquivo image/SVG. Pode ser especificado para camadas de imagem e camadas de cor sólida.
 
-Se *`object`* for resolvido para uma entrada de catálogo de imagens, `catalog::MaskPath` será usado ou, se `catalog::MaskPath` não for definido, `catalog::Path` será usado. Se *`object`* não for resolvido para uma entrada de catálogo, então será interpretado como um caminho de arquivo.
+Se *`object`* for resolvido para uma entrada de catálogo de imagem, `catalog::MaskPath` será usado ou, se `catalog::MaskPath` não for definido, `catalog::Path` será usado. Se *`object`* não for resolvido para uma entrada de catálogo, então ele será interpretado como um caminho de arquivo.
 
 Em todos os casos, se a imagem de origem tiver um canal alfa, ela será usada. Caso contrário, a imagem será convertida em tons de cinza, se necessário, antes de usá-la como uma máscara de camada.
 
-Se uma máscara for anexada a uma camada de cor sólida, poderá ser recortada e dimensionada usando as mesmas regras usadas para imagens em camadas de imagem. `size=`,  `scale=`ou  `res=` pode ser usado para dimensionar a máscara.
+Se uma máscara for anexada a uma camada de cor sólida, ela poderá ser cortada e dimensionada usando as mesmas regras usadas para imagens em camadas de imagem. `size=`,  `scale=` ou  `res=` pode ser usada para dimensionar a máscara.
 
-As máscaras de camada também podem ser especificadas na forma de *`nestedRequest`*. As solicitações aninhadas ou incorporadas são fechadas por chaves. Prefixe uma solicitação incorporada de Serviço de imagem com `is` e uma solicitação incorporada de Renderização de imagem com `ir`. Uma solicitação para um servidor externo será assumida se nenhum prefixo for especificado. Consulte [Aninhamento e incorporação de solicitação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) para obter detalhes.
+Máscaras de camada também podem ser especificadas na forma de um *`nestedRequest`*. As solicitações aninhadas ou incorporadas são fechadas por chaves. Coloque o prefixo `is` em uma solicitação incorporada de Exibição de imagem com `ir`. Uma solicitação para um servidor externo é assumida se nenhum prefixo for especificado. Consulte [Solicitar aninhamento e incorporação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) para obter detalhes.
 
 ## Propriedades {#section-a093043dc249423b8ae322cefb0d545d}
 
-Imagem ou atributo de camada. Aplica-se à camada 0 se `layer=comp`. Ignorado pelas camadas de efeito.
+Imagem ou atributo de camada. Aplica-se à camada 0 se `layer=comp`. Ignorado por camadas de efeito.
 
-*`object`* não deve ser resolvido para um registro de catálogo que inclua um  `src=` ou  `mask=` comando em  `catalog::Modifier`.
+*`object`* não deve ser resolvido para um registro de catálogo que inclua um  `src=` comando  `mask=` ou no  `catalog::Modifier`.
 
 Os prefixos `is` e `ir` não diferenciam maiúsculas de minúsculas.
 
 ## Padrão {#section-10cf793c665f49deb1b248faa3b618a9}
 
-Se `mask=` não for especificado explicitamente e se a imagem da camada estiver associada a uma entrada de catálogo, `catalog::MaskPath` será usado. Caso contrário, o canal alfa da imagem da camada será usado, se houver. Se não houver um canal alfa, a camada não terá máscara e o retângulo da camada será renderizado totalmente opaco.
+Se `mask=` não for especificado explicitamente e se a imagem da camada estiver associada a uma entrada de catálogo, então `catalog::MaskPath` será usado. Caso contrário, o canal alfa da imagem da camada será usado, se presente. Se não houver um canal alfa, a camada não terá máscara e o retângulo da camada será renderizado completamente opaco.
 
 ## Exemplo {#section-1bbe623f7c744bdf97b596458d8e7ea3}
 
@@ -62,4 +63,4 @@ Use várias máscaras separadas para colorir diferentes áreas de uma imagem. As
 
 ## Consulte também {#section-7ed5201d91594e5f872438a92eaf1c89}
 
-[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) ,  [catálogo::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [objeto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) ,  [Solicitar aninhamento e incorporação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
+[maskUse=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464) ,  [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) ,  [Request Nested and Embeading](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)
