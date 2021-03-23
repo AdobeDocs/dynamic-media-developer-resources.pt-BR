@@ -4,12 +4,13 @@ seo-description: Os arquivos de atributos de catálogo reconhecem esses atributo
 seo-title: Gerenciamento de catálogo
 solution: Experience Manager
 title: Gerenciamento de catálogo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ef714ec5-8133-4d6f-bed0-29553fdb2af3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -42,11 +43,11 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> IccProfileMapFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Nome do arquivo do mapa de perfis ICC associado. </p></td> 
+  <td class="stentry"> <p>Nome do arquivo de mapa de perfil ICC associado. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rulesetfile.md#reference-b8513e76a0c947ea85515cdfa31193de" type="reference" format="dita" scope="local"> RuleSetFile</a> </span> </p></td> 
-  <td class="stentry"> <p>Nome do arquivo associado que define as regras de pré-processador de URL. </p></td> 
+  <td class="stentry"> <p>Nome do arquivo associado que define as regras de URL do pré-processador. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546" type="reference" format="dita" scope="local"> RootId</a> </span> </p></td> 
@@ -58,15 +59,15 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5" type="reference" format="dita" scope="local"> StaticContentRootPath</a> </span> </p></td> 
-  <td class="stentry"> <p>Caminho raiz para arquivos de dados de origem de conteúdo estático. </p></td> 
+  <td class="stentry"> <p>Caminho raiz para arquivos de dados de fonte de conteúdo estático. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath</a> </span> </p></td> 
-  <td class="stentry"> <p>Caminho raiz para imagens gravadas em um arquivo no servidor. </p></td> 
+  <td class="stentry"> <p>Caminho raiz das imagens gravadas em um arquivo no servidor. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
-  <td class="stentry"> <p>Opção de correspondência de catálogo. </p></td> 
+  <td class="stentry"> <p>Opção de correspondência do catálogo. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68" type="reference" format="dita" scope="local"> DigimarcId</a> </span> </p></td> 
@@ -82,11 +83,11 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
-  <td class="stentry"> <p>Ativar cabeçalhos de resposta HTTP modificados pela última vez. </p></td> 
+  <td class="stentry"> <p>Habilite cabeçalhos de resposta HTTP Last-Modified. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
-  <td class="stentry"> <p>Habilitar estilos sintéticos negrito/itálico. </p></td> 
+  <td class="stentry"> <p>Habilite estilos sintéticos em negrito/itálico. </p></td> 
  </tr> 
 </table>
 
