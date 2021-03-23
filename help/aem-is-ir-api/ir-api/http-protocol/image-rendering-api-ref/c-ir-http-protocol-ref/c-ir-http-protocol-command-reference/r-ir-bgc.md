@@ -4,12 +4,13 @@ seo-description: Cor do plano de fundo. Especifica a cor subtrativa para textura
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -23,24 +24,24 @@ Cor do plano de fundo. Especifica a cor subtrativa para texturas e decalques col
 
 <table id="simpletable_131302355CAB4900A7B45FED903A1AAD" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> cor</span> </p> </td> 
-  <td class="- topic/stentry stentry"> <p>Valor de cor RGB ou cinza. </p></td> 
+  <td class="- topic/stentry stentry"> <p><span class="+ topic/keyword sw-d/varname varname"> color</span> </p> </td> 
+  <td class="- topic/stentry stentry"> <p>Valor de cor cinza ou RGB. </p></td> 
  </tr> 
 </table>
 
-O algoritmo de colorização de textura da renderização de imagem é bastante simples - os valores de componente de `bgc=` são subtraídos dos pixels de textura, `color=` é adicionado e, por fim, o resultado é cortado para `0,0,0` e `255,255,255`.
+O algoritmo de colorização de textura da Renderização de imagem é bastante simples - os valores de componente de `bgc=` são subtraídos dos pixels de textura, `color=` é adicionado e, finalmente, o resultado é recortado para `0,0,0` e `255,255,255`.
 
-Para usos típicos de colorização de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. A Criação de imagens do Dynamic Media fornece ferramentas semiautomáticas que extraem valores de cor razoáveis `bgc=` de imagens de texturas.
+Para usos típicos da coloração de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. A Criação de imagens do Dynamic Media fornece ferramentas semiautomáticas que extraem valores de cores razoáveis `bgc=` das imagens de textura.
 
-Quando um material de textura é aplicado a um objeto de vinheta não texturizável, `bgc=` é aplicado como a cor do primeiro plano se `color=` não for especificado.
+Quando um material de textura é aplicado a um objeto de vinheta não texturizável, `bgc=` é aplicado como a cor de primeiro plano se `color=` não for especificado.
 
 ## Propriedades {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Atributo material. Ignorados por materiais de cor sólida e caixa.
+Atributo de material. Ignorado por materiais de cor sólida e caixa.
 
 ## Padrão {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` se o material for baseado em uma entrada de catálogo, caso contrário  `bgc=808080` (cinza neutro).
+`catalog::BaseColor` se o material for baseado em uma entrada do catálogo, caso contrário  `bgc=808080` (cinza neutro).
 
 ## Exemplo {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
@@ -50,4 +51,4 @@ Colorir um tecido de vestuário cuja textura tenha a cor RGB dominante 120,34,19
 
 ## Consulte também {#section-de9958dd63a742b4b5d780c59a57da33}
 
-[catálogo::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) ,  [cor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
+[catálogo::BaseColor](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8) ,  [color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa)
