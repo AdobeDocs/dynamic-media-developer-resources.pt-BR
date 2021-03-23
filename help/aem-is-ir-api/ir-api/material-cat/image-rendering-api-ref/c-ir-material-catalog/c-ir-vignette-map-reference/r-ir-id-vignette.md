@@ -1,15 +1,16 @@
 ---
-description: Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo do mapa de vinheta são pesquisados pelo servidor.
-seo-description: Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo do mapa de vinheta são pesquisados pelo servidor.
+description: Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo de mapa de vinheta são pesquisados pelo servidor.
+seo-description: Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo de mapa de vinheta são pesquisados pelo servidor.
 seo-title: Id
 solution: Experience Manager
 title: Id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Id{#id}
 
-Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo do mapa de vinheta são pesquisados pelo servidor.
+Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo de mapa de vinheta são pesquisados pelo servidor.
 
-Geralmente, um identificador curto e exclusivo, como um número SKU. Pode também ser uma sequência de caracteres mais complexa que pode parecer um caminho de arquivo.
+Normalmente, é um identificador curto e exclusivo, como um número de SKU. Também pode ser uma sequência de caracteres mais complexa, que pode parecer um caminho de arquivo.
 
 ## Propriedades {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Sequência de caracteres de texto. Obrigatório. Chave de índice primária para a tabela do mapa de vinheta. Cada valor `vignette::Id` deve ser exclusivo na tabela e não deve conter caracteres &#39;,&#39;.
+Sequência de texto. Obrigatório. Chave de índice primária para a tabela de mapa de vinheta. Cada valor `vignette::Id` deve ser exclusivo na tabela e não deve conter caracteres &#39;,&#39;.
 
 ## Padrão {#section-736d3419b19045efa00887cb595b0337}
 
