@@ -4,12 +4,13 @@ seo-description: Remove permissões de ativos selecionados.
 seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -33,16 +34,16 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo com permissões que você deseja remover. |
 
 **Saída (removeAssetPermissionsReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-Esta amostra de código remove permissões de um ativo.
+Esta amostra de código remove as permissões de um ativo.
 
 **Solicitação**
 
