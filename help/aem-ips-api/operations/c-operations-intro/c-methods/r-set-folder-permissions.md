@@ -4,12 +4,13 @@ seo-description: Define as permissões da pasta.
 seo-title: setFolderPermissions
 solution: Experience Manager
 title: setFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 3a33034e-df2c-48ab-8ade-b76bea444388
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -33,18 +34,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador da pasta. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
 | `*`setChildren`*` | `xsd:boolean` | Sim | Define permissões em filhos que pertencem à pasta. |
-| `*`permissionsArray`*` | `types:PermissionUpdateArray` | Sim | Matriz de permissões. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | Sim | Matriz de permissões. |
 
 **Saída (setFolderPermissionsReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-01730da4be874553ab44e3241cdf6357}
 
-Este exemplo de código especifica um identificador de empresa, um identificador de pasta e um storage de permissões com informações detalhadas sobre a pasta. Ela aplica as mesmas permissões aos filhos da pasta pai.
+Esta amostra de código especifica um identificador de empresa, um identificador de pasta e uma matriz de permissões com informações detalhadas sobre a pasta. Ela aplica as mesmas permissões para os filhos da pasta pai.
 
 **Solicitação**
 
