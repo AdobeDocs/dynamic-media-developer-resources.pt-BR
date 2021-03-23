@@ -1,15 +1,16 @@
 ---
-description: Arquivo de vinheta. Especifica a vinheta a ser usada para esta solicitação.
-seo-description: Arquivo de vinheta. Especifica a vinheta a ser usada para esta solicitação.
+description: Arquivo Vignette. Especifica a vinheta a ser usada para esta solicitação.
+seo-description: Arquivo Vignette. Especifica a vinheta a ser usada para esta solicitação.
 seo-title: vinheta
 solution: Experience Manager
 title: vinheta
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8bba4ad4-bd55-4c55-8ebf-585371cf33f1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 0%
 
 # vinheta{#vignette}
 
-Arquivo de vinheta. Especifica a vinheta a ser usada para esta solicitação.
+Arquivo Vignette. Especifica a vinheta a ser usada para esta solicitação.
 
-`vignette=[ *`arquivo `*/] *``*|[catId/] *`catIdentirecIdfile`*`
+`vignette=[ *``*/] *``*|[catId/] *`catIndexIdfile`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID do catálogo de material (correspondente ao atributo <span class="codeph">::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID do catálogo de materiais (correspondente ao atributo <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
@@ -32,13 +33,13 @@ Arquivo de vinheta. Especifica a vinheta a ser usada para esta solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> arquivo</span> </p></td> 
-  <td class="stentry"> <p>Nome e caminho do arquivo de vinheta relativos. </p></td> 
+  <td class="stentry"> <p>Caminho e nome do arquivo da vinheta relativa. </p></td> 
  </tr> 
 </table>
 
 Pode especificar uma entrada do mapa de vinheta ou um arquivo de vinheta. URLs remotos não são permitidos.
 
-`vignette=` pode ser usada como uma alternativa para especificar a vinheta no caminho do URL da solicitação. Usado principalmente para especificar vinhetas por meio de variáveis em modelos.
+`vignette=` pode ser usada como uma alternativa para especificar a vinheta no caminho do URL da solicitação. Usada principalmente para especificar vinhetas por meio de variáveis em modelos.
 
 Se *`catId`* não for especificado, o catálogo de sessão será usado.
 
