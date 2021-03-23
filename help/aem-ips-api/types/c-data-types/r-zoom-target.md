@@ -1,15 +1,16 @@
 ---
-description: Propriedades de um público alvo de zoom.
-seo-description: Propriedades de um público alvo de zoom.
+description: Propriedades de um direcionamento de Zoom.
+seo-description: Propriedades de um direcionamento de Zoom.
 seo-title: ZoomTarget
 solution: Experience Manager
 title: ZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # ZoomTarget{#zoomtarget}
 
-Propriedades de um público alvo de zoom.
+Propriedades de um direcionamento de Zoom.
 
 Sintaxe
 
@@ -25,13 +26,13 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Alça do público alvo de zoom. |
-| `*`name`*` | `xsd:string` | Nome do público alvo de zoom. |
-| `*`xPosition`*` | `xsd:int` | A posição X do público alvo de zoom. |
-| `*`yPosition`*` | `xsd:int` | A posição Y do público alvo de zoom. |
-| `*`width`*` | `xsd:int` | Zoom na largura do público alvo. |
-| `*`altura`*` | `xsd:int` | Aumenta o zoom da altura do público alvo. |
-| `*`userData`*` | `xsd:string` | Dados do usuário associados ao público alvo Zoom. |
-| `*`position`*` | `xsd:int` | Permite que públicos alvos de zoom associados a um ativo sejam ordenados com base na posição |
+| `*`zoomTargetHandle`*` | `xsd:string` | Alça de destino de zoom. |
+| `*`name`*` | `xsd:string` | Nome da meta de zoom. |
+| `*`xPosition`*` | `xsd:int` | A posição X do destino de zoom. |
+| `*`yPosition`*` | `xsd:int` | A posição Y do destino de zoom. |
+| `*`width`*` | `xsd:int` | Ampliação da largura de destino. |
+| `*`altura`*` | `xsd:int` | Altura da meta de zoom. |
+| `*`userData`*` | `xsd:string` | Dados do usuário associados ao direcionamento do Zoom. |
+| `*`position`*` | `xsd:int` | Permite que os destinos de Zoom associados a um ativo sejam ordenados com base na posição |
 | `*`lastModified`*` | `xsd:dateTime` | Data da última modificação. |
 
