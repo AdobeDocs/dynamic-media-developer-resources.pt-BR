@@ -1,25 +1,26 @@
 ---
-description: Um material é considerado uma borda de parede quando especificado em uma borda de parede MSS (introduzido com sub=3.5).
-seo-description: Um material é considerado uma borda de parede quando especificado em uma borda de parede MSS (introduzido com sub=3.5).
+description: Um material é considerado uma borda de parede quando especificado em um MSS de borda de parede (introduzido com sub=3.5.5).
+seo-description: Um material é considerado uma borda de parede quando especificado em um MSS de borda de parede (introduzido com sub=3.5.5).
 seo-title: Bordas de mural
 solution: Experience Manager
 title: Bordas de mural
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 40acd667-5e8b-4425-b44a-0681e608d189
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
 
-# Bordas do mural{#wall-borders}
+# Bordas de mural{#wall-borders}
 
-Um material é considerado uma borda de parede quando especificado em uma borda de parede MSS (introduzido com sub=3.5).
+Um material é considerado uma borda de parede quando especificado em um MSS de borda de parede (introduzido com sub=3.5.5).
 
-As imagens de textura da borda do mural podem incluir um canal alfa para definir a forma da borda. Bordas de mural só podem ser aplicadas a objetos de mural.
+As imagens de textura da borda da parede podem incluir um canal alfa para definir a forma da borda. Bordas de mural só podem ser aplicadas a objetos de mural.
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -32,7 +33,7 @@ As imagens de textura da borda do mural podem incluir um canal alfa para definir
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>Imagem de textura repetível; required </p> </td> 
+   <td colname="col2"> <p>Imagem de textura repetível; obrigatório </p> </td> 
    <td colname="col3"> <p>Nenhum </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ As imagens de textura da borda do mural podem incluir um canal alfa para definir
    <td colname="col3"> <p>0 (borda da imagem esquerda) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> afiado=  </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> shar=  </span> </a> </p> </td> 
    <td colname="col2"> <p>Nitidez </p> </td> 
    <td colname="col3"> <p>0 (sem nitidez) </p> </td> 
   </tr> 
