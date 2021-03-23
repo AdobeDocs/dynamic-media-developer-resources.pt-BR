@@ -2,13 +2,14 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-topic: Dynamic Media
 uuid: 67fb7f83-b7be-4f83-9bac-9772de39d35e
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Quando alternados, os botões de rolagem fazem com que as amostras pulem automaticamente em uma página inteira. </p> <p>O espaço em branco extra será exibido na última página se as amostras não couberem. Além disso, a última página tem o mesmo número de células que qualquer página anterior. </p> <p>A etapa de rolagem é ignorada e a rolagem do mouse é definida somente em páginas completas. </p> </td> 
+   <td colname="col2"> <p> Quando alternados, os botões de rolagem fazem com que as amostras pulem automaticamente em um tamanho de página completo. </p> <p>O espaço em branco extra é mostrado na última página se as amostras não couberem. Além disso, a última página tem o mesmo número de células que qualquer página anterior. </p> <p>A etapa de rolagem é ignorada e a rolagem do mouse é definida somente nas páginas completas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
