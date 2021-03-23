@@ -4,12 +4,13 @@ seo-description: Exclui um tipo de conjunto de propriedades e seu conjunto de pr
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,11 @@ Sintaxe
 
 **Saída (deletePropertySetTypeParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Esta amostra de código usa o identificador do tipo como um campo no `deletePropertySetTypeParam` enviado para o servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
+Este exemplo de código usa o identificador do tipo como um campo no `deletePropertySetTypeParam` enviado ao servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
 
 **Solicitação**
 
