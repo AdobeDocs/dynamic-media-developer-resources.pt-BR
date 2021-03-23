@@ -4,12 +4,13 @@ seo-description: Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0
 seo-title: op_growth
 solution: Experience Manager
 title: op_growth
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -19,18 +20,18 @@ ht-degree: 0%
 
 Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0) ou um erode (raio &lt; 0) aos dados da imagem.
 
-`op_grow= *`raio`*`
+`op_grow= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> raio</span></span> </p> </td> 
-  <td class="stentry"> <p>Raio dilato/erode em pixels (int -100..100). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
+  <td class="stentry"> <p>Raio de dilato/erode em pixels (int -100..100). </p></td> 
  </tr> 
 </table>
 
-`*``*` radius em pixels em relação à imagem composta. Se a imagem for colorida, cada componente será processado independentemente.
+`*``*` radiusis em pixels em relação à imagem composta. Se a imagem for de cor, cada componente será processado independentemente.
 
-Usada principalmente para modificar o tamanho dos efeitos de camada. Também é útil para obter efeitos especiais em camadas de texto ou camadas de cores sólidas com máscaras.
+Usada principalmente para modificar o tamanho dos efeitos da camada. Também útil para obter efeitos especiais nas camadas de texto ou nas camadas de cores sólidas com máscaras.
 
 ## Propriedades {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
