@@ -4,12 +4,13 @@ seo-description: Esta seção lista caracteres reservados para fins específicos
 seo-title: Caracteres reservados
 solution: Experience Manager
 title: Caracteres reservados
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b18da2e-5399-49d0-83c9-66dbf6e7807b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -19,10 +20,10 @@ ht-degree: 0%
 
 Esta seção lista caracteres reservados para fins específicos.
 
-O RTF usa chaves &#39; `{`&#39; e &#39; `}`&#39; como delimitadores de grupo. Devem ocorrer em pares e podem ser aninhados. Para exibir chaves nas strings de texto, use &#39; `\{`&#39; e &#39; `\}`&#39;, respectivamente.
+O RTF usa chaves &#39; `{`&#39; e &#39; `}`&#39; como delimitadores de grupo. Eles devem ocorrer em pares e podem ser aninhados. Para exibir chaves nas cadeias de texto, use &#39; `\{`&#39; e &#39; `\}`&#39;, respectivamente.
 
 >[!NOTE]
 >
->É necessário codificar por URL todas as chaves usadas em RTF.
+>Você deve codificar por URL todas as chaves usadas no RTF.
 
-As barras invertidas &#39;\&#39; são usadas para introduzir comandos RTF e palavras-chave. Para exibir uma barra invertida, use `'\\'`.
+Barras traseiras &#39;\&#39; são usadas para introduzir comandos RTF e palavras-chave. Para exibir uma barra invertida, use `'\\'`.
