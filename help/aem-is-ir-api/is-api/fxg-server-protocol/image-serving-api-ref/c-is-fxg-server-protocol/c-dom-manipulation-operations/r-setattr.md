@@ -1,15 +1,16 @@
 ---
-description: Defina qualquer atributo para uma determinada s7 elementID.
-seo-description: Defina qualquer atributo para uma determinada s7 elementID.
+description: Defina qualquer atributo para um determinado s7 elementID.
+seo-description: Defina qualquer atributo para um determinado s7 elementID.
 seo-title: setAttr
 solution: Experience Manager
 title: setAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 968f7496-3cd4-4670-96fc-53127bba9a83
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # setAttr{#setattr}
 
-Defina qualquer atributo para uma determinada s7:elementID.
+Defina qualquer atributo para um determinado s7:elementID.
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-Se um elemento de nó FXG tiver `s7:elementID` definido, você poderá manipular os atributos desse nó. Você pode definir quantos pares de atributo/valor desejar. Os atributos não precisam ser definidos no FXG, mas devem ser válidos para o elemento node. Todos os valores entre `{}` devem ser Escapados.
+Se um elemento de nó FXG tiver um `s7:elementID` definido, você poderá manipular os atributos desse nó. Você pode definir quantos pares de atributo/valor desejar. Os atributos não precisam ser definidos no FXG, mas devem ser válidos para o elemento do nó. Todos os valores entre `{}` devem ser Escapados.
 
 ## Exemplo {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
