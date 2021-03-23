@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: VideoScrubber.showchaptertime
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-topic: Dynamic Media
 uuid: 2a5e001d-14b6-41cd-938e-441ad0a789d2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '50'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa/desativa a hora do capítulo na barra de título do rótulo do capítulo. </p> </td> 
+   <td colname="col2"> <p> Ativa/desativa o tempo do capítulo na barra de título do rótulo do capítulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
