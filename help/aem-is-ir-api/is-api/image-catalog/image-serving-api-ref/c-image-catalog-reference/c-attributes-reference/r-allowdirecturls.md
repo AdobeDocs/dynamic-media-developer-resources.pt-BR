@@ -4,12 +4,13 @@ seo-description: Permitir URLs absolutos como fontes de imagem.
 seo-title: AllowDirectUrls
 solution: Experience Manager
 title: AllowDirectUrls
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Permitir URLs absolutos como fontes de imagem.
 
-Ativa ou desativa o suporte para URLs absolutos incorporados nos comandos `src=` e `mask=`. Quando desativado, somente URLs relativos a `attribute::RootUrl` são permitidos.
+Ativa ou desativa o suporte para URLs absolutos incorporados em comandos `src=` e `mask=`. Quando desativado, somente os URLs relativos a `attribute::RootUrl` são permitidos.
 
 ## Propriedades {#section-192825a6b02e4cc4a6aa102f93be89f0}
 
-Sinalizar.
+Sinalizador.
 
 ## Padrão {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
