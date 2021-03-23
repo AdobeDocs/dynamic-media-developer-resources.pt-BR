@@ -4,12 +4,13 @@ seo-description: Mova uma pasta para um novo local.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -36,15 +37,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador da pasta. |
-| `*`destFolderHandle`*` | `xsd:string` | Sim | Manipule a pasta de destino. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
+| `*`destFolderHandle`*` | `xsd:string` | Sim | Lide com a pasta de destino. |
 
 **Saída (moveFolderReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sim | Manipule a pasta movida. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Lide com a pasta movida. |
 
 ## Exemplos {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
