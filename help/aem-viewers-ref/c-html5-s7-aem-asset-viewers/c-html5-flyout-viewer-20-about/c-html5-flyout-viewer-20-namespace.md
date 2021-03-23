@@ -2,11 +2,12 @@
 description: Namespace do SDK do visualizador
 solution: Experience Manager
 title: Namespace do SDK do visualizador
-topic: Dynamic Media
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,15 +15,15 @@ ht-degree: 0%
 
 # Namespace do SDK do visualizador{#viewer-sdk-namespace}
 
-O visualizador foi criado com vários componentes do SDK do visualizador. Na maioria dos casos, a página da Web não precisa interagir diretamente com a API de componentes do SDK; todas as necessidades comuns são abordadas na própria API do visualizador.
+O visualizador é criado de vários componentes do SDK do visualizador. Na maioria dos casos, a página da Web não precisa interagir diretamente com a API de componentes do SDK; todas as necessidades comuns são abordadas na própria API do visualizador.
 
-No entanto, alguns casos de uso avançado exigem que a página da Web obtenha uma referência a um componente SDK interno usando a `getComponent()` API do visualizador e use toda a flexibilidade das APIs do próprio SDK.
+No entanto, alguns casos de uso avançados exigem que a página da Web obtenha uma referência a um componente interno do SDK usando a `getComponent()` API do visualizador e, em seguida, use toda a flexibilidade das APIs do próprio SDK.
 
-A namespace usada para carregar e inicializar componentes do SDK pelo visualizador depende do ambiente no qual o visualizador está operando. Se o visualizador estiver sendo executado no AEM (Adobe Experience Manager), o visualizador carregará os componentes do SDK na namespace `s7viewers.s7sdk`. Da mesma forma, o visualizador servido do Dynamic Media Classic carrega o SDK em `s7classic.s7sdk`.
+O namespace usado para carregar e inicializar componentes do SDK pelo visualizador depende do ambiente em que o visualizador está operando. Se o visualizador estiver em execução no AEM (Adobe Experience Manager), o visualizador carregará os componentes do SDK no namespace `s7viewers.s7sdk`. Da mesma forma, o visualizador servido do Dynamic Media Classic carrega o SDK em `s7classic.s7sdk`.
 
-Em ambos os casos, a namespace usada pelo SDK dentro do visualizador tem `s7viewers` ou `s7classic` como o prefixo. Além disso, é diferente da namespace simples `s7sdk` usada no Guia do usuário do SDK ou na documentação da API do SDK. Por esse motivo, é importante usar uma namespace SDK totalmente qualificada ao gravar um código de aplicativo personalizado que se comunica com componentes do visualizador interno.
+Em ambos os casos, o namespace usado pelo SDK dentro do visualizador tem `s7viewers` ou `s7classic` como o prefixo. E é diferente do namespace simples `s7sdk` usado no Guia do usuário do SDK ou na documentação da API do SDK. Por esse motivo, é importante usar um namespace de SDK totalmente qualificado ao gravar um código de aplicativo personalizado que se comunique com componentes do visualizador interno.
 
-Por exemplo, se você planeja ouvir o evento `StatusEvent.NOTF_VIEW_READY` e o visualizador for servido a partir do AEM, o tipo de evento totalmente qualificado será `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` e o código do ouvinte do evento será semelhante ao seguinte:
+Por exemplo, se você planeja ouvir o evento `StatusEvent.NOTF_VIEW_READY` e o visualizador for exibido a partir de AEM, o tipo de evento totalmente qualificado é `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`, e o código do ouvinte do evento é semelhante ao seguinte:
 
 ```
 <instance>.setHandlers({ 
