@@ -1,15 +1,16 @@
 ---
-description: Lista de script de geração de conjunto automática para trabalhos de upload. Pressupõe que cada script especificado para o upload seja aplicado a todos os ativos carregados.
-seo-description: Lista de script de geração de conjunto automática para trabalhos de upload. Pressupõe que cada script especificado para o upload seja aplicado a todos os ativos carregados.
+description: Lista de scripts de geração de conjunto automático para tarefas de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
+seo-description: Lista de scripts de geração de conjunto automático para tarefas de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
 seo-title: AutoSetCreationOptions
 solution: Experience Manager
 title: AutoSetCreationOptions
-topic: Dynamic Media Image Production System API
 uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # AutoSetCreationOptions{#autosetcreationoptions}
 
-Lista de script de geração de conjunto automática para trabalhos de upload. Pressupõe que cada script especificado para o upload seja aplicado a todos os ativos carregados.
+Lista de scripts de geração de conjunto automático para tarefas de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`autoSetsArray`*` | `types:HandleArray` | A matriz de [!DNL PropertySet] trata da definição dos scripts de geração de conjunto automático aplicados durante o upload. |
+| `*`autoSetsArray`*` | `types:HandleArray` | A matriz de [!DNL PropertySet] manipula a definição dos scripts de geração de conjunto automático aplicados durante o upload. |
 
