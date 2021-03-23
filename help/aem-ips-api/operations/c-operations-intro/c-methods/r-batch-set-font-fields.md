@@ -4,12 +4,13 @@ seo-description: Define campos de metadados de fonte.
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Define campos de metadados de fonte.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseie a empresa que contém as fontes. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa que contém as fontes. |
 | `*`updateArray`*` | `types:FontFieldUpdateArray` | Sim | Matriz de atualizações de campos de fonte. |
 
 **Saída (batchSetFontFieldsParam)**
