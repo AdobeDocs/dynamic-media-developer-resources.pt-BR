@@ -2,13 +2,14 @@
 description: Swatches.textpos
 solution: Experience Manager
 title: Swatches.textpos
-topic: Dynamic Media
 uuid: 1ad94058-4dca-40b9-a694-a6c1452880c1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 2%
+source-wordcount: '60'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. Quando <span class="codeph"> tooltip</span> é especificado, nenhum rótulo é desenhado. </p> </td> 
+   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. Quando <span class="codeph"> tooltip</span> é especificado, nenhum rótulo é desenhado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
