@@ -4,12 +4,13 @@ seo-description: Parâmetro comum a todos os visualizadores.
 seo-title: configuração
 solution: Experience Manager
 title: configuração
-topic: Dynamic Media
 uuid: 9e9bb580-a33a-4405-b05c-56962d702145
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catálogo/ID da configuração do visualizador. </p> <p> Especifica uma entrada de catálogo de imagens que contém as propriedades de configuração do visualizador no catálogo <span class="codeph">::UserData </span>. Quando esse comando está presente, o visualizador envia um comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> para o servidor e extrai as propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a string de URL especificar as mesmas propriedades, eles substituirão os valores do catálogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catálogo/ID para a configuração do visualizador. </p> <p> Especifica uma entrada de catálogo de imagem que contém as propriedades de configuração do visualizador no <span class="codeph"> catálogo::UserData </span>. Quando esse comando está presente, o visualizador envia um comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> para o servidor e extrai propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a cadeia de caracteres do URL especificar as mesmas propriedades, eles substituirão os valores do catálogo <span class="codeph">::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,7 +43,7 @@ Nenhum.
 
 ## Exemplo 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Um catálogo de imagens com o nome 2020 contém a entrada `preset-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens chamado 2020 contém a entrada `preset-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
 
 ```
 style=customStyle.css
@@ -62,7 +63,7 @@ style=customStyle.css
 
 ## Exemplo 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Um catálogo de imagens com o nome 2019 contém a entrada `spin-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens chamado 2019 contém a entrada `spin-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
 
 ```
 zoomStep=3 
