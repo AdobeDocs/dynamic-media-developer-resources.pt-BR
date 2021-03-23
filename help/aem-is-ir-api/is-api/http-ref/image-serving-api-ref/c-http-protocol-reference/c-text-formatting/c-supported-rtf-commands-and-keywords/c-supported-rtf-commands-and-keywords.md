@@ -1,23 +1,24 @@
 ---
-description: Veja a seguir a lista de palavras-chave e comandos suportados pelo mecanismo de texto Scene 7 Image Serving.
-seo-description: Veja a seguir a lista de palavras-chave e comandos suportados pelo mecanismo de texto Scene 7 Image Serving.
+description: Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
+seo-description: Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
 seo-title: Comandos e palavras-chave RTF suportados
 solution: Experience Manager
 title: Comandos e palavras-chave RTF suportados
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 
-# Comandos e palavras-chave RTF suportados{#supported-rtf-commands-and-keywords}
+# Comandos RTF e palavras-chave compatíveis{#supported-rtf-commands-and-keywords}
 
-Veja a seguir a lista de palavras-chave e comandos suportados pelo mecanismo de texto Scene 7 Image Serving.
+Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
 
 Consulte a [RTF 1.6 Specification](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obter detalhes sobre cada palavra-chave ou comando.
 
