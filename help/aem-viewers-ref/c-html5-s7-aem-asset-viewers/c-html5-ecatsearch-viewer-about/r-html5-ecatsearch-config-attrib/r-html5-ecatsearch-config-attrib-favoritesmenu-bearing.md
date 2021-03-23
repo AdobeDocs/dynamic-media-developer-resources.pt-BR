@@ -1,15 +1,16 @@
 ---
-description: Especifica a direção da animação do slide para o container de botões.
-seo-description: Especifica a direção da animação do slide para o container de botões.
+description: Especifica a direção da animação de slide para o contêiner de botões.
+seo-description: Especifica a direção da animação de slide para o contêiner de botões.
 seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-topic: Dynamic Media
 uuid: c3f415ad-f976-464a-9067-a5d526908352
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
-Especifica a direção da animação do slide para o container de botões.
+Especifica a direção da animação de slide para o contêiner de botões.
 
 [!DNL `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> para cima|para baixo|para a esquerda|para a direita|vertical|lateral em forma de encaixe</span> </p> </td> 
-   <td colname="col2"> <p> Quando definido para <span class="codeph"> para cima</span>, <span class="codeph"> para baixo</span>, <span class="codeph"> para a esquerda</span> ou <span class="codeph"> para a direita</span>, o painel é implantado na direção especificada sem uma verificação adicional de limites, o que resulta no recorte do painel por um container externo. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do menu Favoritos e tenta rolar o painel em uma das seguintes direções a partir desse local base: embaixo, direita, esquerda. A cada tentativa, o componente verifica se o painel está cortado por um container externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para a parte superior e repetir as tentativas de roll-out de uma direção superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante. A base é deslocada para a direita primeiro, tentando direita, para baixo, e para cima, em direções. Em seguida, ele desloca a base para a esquerda, tentando esquerda, para baixo e para cima rodando direções. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> para cima|para baixo|para a esquerda|para a direita|para-vertical|para-caber-lateral</span> </p> </td> 
+   <td colname="col2"> <p> Quando definido para <span class="codeph"> para cima</span>, <span class="codeph"> para baixo</span>, <span class="codeph"> para a esquerda</span> ou <span class="codeph"> para a direita</span>, o painel é implantado na direção especificada sem uma verificação adicional de limites, o que resulta no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do menu Favoritos e tenta implantar o painel em uma das seguintes direções a partir desse local base: de baixo, à direita, à esquerda. A cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação a partir de uma direção superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante. A base é deslocada para a direita primeiro, tentando para a direita, para baixo, e para cima, em direção à esquerda. Então, ele muda a base para a esquerda, tentando a esquerda, para baixo e para cima, rodando direções. </p> </td> 
   </tr> 
  </tbody> 
 </table>
