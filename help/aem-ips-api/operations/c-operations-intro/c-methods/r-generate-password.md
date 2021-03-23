@@ -4,12 +4,13 @@ seo-description: Gera uma nova senha.
 seo-title: generatePassword
 solution: Experience Manager
 title: generatePassword
-topic: Dynamic Media Image Production System API
 uuid: e3367bfc-d437-4a61-83e8-69830154dc61
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ Nenhum.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`password`*` | `xsd:string` | Sim | Uma nova senha. |
+| `*`senha`*` | `xsd:string` | Sim | Uma nova senha. |
 
 ## Exemplos {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Esta amostra de código gera uma senha. É incomum porque a solicitação é simplesmente um parâmetro sem quaisquer elementos ou valores delimitados. O IPS retorna uma senha forte.
+Essa amostra de código gera uma senha. Isso é incomum porque a solicitação é simplesmente um parâmetro sem elementos ou valores delimitados. O IPS retorna uma senha forte.
 
 **Solicitação**
 
