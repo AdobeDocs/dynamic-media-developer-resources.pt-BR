@@ -2,12 +2,13 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-topic: Dynamic Media
 uuid: 8ad882f9-5a7d-4a5c-a36b-98ad1f61e0b4
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '48'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Região de interesse inicial em coordenadas de pixel. Se esses valores não forem especificados, a imagem inteira será ajustada dentro do visor inicial. </p> </td> 
+   <td colname="col2"> <p> Região inicial de interesse em coordenadas de pixel. Se esse valor não for especificado, a imagem inteira será instalada dentro da janela de visualização inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>
