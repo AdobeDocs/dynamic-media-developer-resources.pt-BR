@@ -4,12 +4,13 @@ seo-description: Define a associação de grupo de usuários que pertencem a uma
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Define a associação de grupo de usuários que pertencem a uma empresa específica.
 
-A operação gera uma falha de autenticação se você não tiver privilégios para realizar essa operação. Isso também é verdadeiro se algum usuário na matriz de identificador do usuário não pertencer à empresa especificada no identificador de empresa,
+A operação gera uma falha de autenticação se você não tiver privilégios para realizar essa operação. Isso também é verdade se qualquer um dos usuários na matriz de identificador do usuário não pertencer à empresa especificada no identificador da empresa,
 
 ## Tipos de usuário autorizados {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -33,13 +34,13 @@ A operação gera uma falha de autenticação se você não tiver privilégios p
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
 | `*`groupHandle`*` | `xsd:string` | Sim | Identificador de grupo. |
 | `*`userHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para usuários cuja associação de grupo você deseja definir. |
 
 **Saída (setGroupMembesReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-9c528c3f44a141ce9eaddf634f26c487}
 
