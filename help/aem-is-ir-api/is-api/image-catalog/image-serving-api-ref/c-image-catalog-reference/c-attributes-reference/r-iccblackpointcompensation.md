@@ -1,15 +1,16 @@
 ---
-description: Compensação de ponto negro. Especifica se a compensação de ponto de negação deve ser aplicada às conversões de cores quando nenhuma seleção explícita for feita com icc=.
-seo-description: Compensação de ponto negro. Especifica se a compensação de ponto de negação deve ser aplicada às conversões de cores quando nenhuma seleção explícita for feita com icc=.
+description: Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
+seo-description: Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
 seo-title: IccBlackPointCompensação
 solution: Experience Manager
 title: IccBlackPointCompensação
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 58d92a02-778f-41cf-846a-3a25d4376ec6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # IccBlackPointCompensação{#iccblackpointcompensation}
 
-Compensação de ponto negro. Especifica se a compensação de ponto de negação deve ser aplicada às conversões de cores quando nenhuma seleção explícita for feita com icc=.
+Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
 
 ## Propriedades {#section-ea27b8089b89468bbc38e9e7154ea413}
 
-Sinalizar. Defina como 0 para desativar ou como 1 para ativar a compensação do ponto de interrupção.
+Sinalizador. Defina como 0 para desabilitar ou como 1 para habilitar a compensação do ponto de bloqueio.
 
 ## Padrão {#section-0d79b203be4c434f927b7c03c7a0062d}
 
