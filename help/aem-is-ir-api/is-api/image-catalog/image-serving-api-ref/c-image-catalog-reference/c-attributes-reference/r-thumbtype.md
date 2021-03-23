@@ -4,12 +4,13 @@ seo-description: Tipo de miniatura padrão. Fornece um padrão para o tipo de mi
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # ThumbType{#thumbtype}
 
-Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um registro de catálogo específico não contenha um valor de catálogo válido::ThumbType.
+Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura no caso de um registro de catálogo específico não conter um valor de catalog::ThumbType válido.
 
-Usado somente para solicitações de miniatura ( `req=tmb`).
+Usado apenas para solicitações de miniatura ( `req=tmb`).
 
 ## Propriedades {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enum. Os valores permitidos são 1, 2 e 3, para os tipos de miniaturas *`crop`*, *`fit`* e *`texture`*, respectivamente.
+Enum. Os valores permitidos são 1, 2 e 3, para os tipos de miniatura *`crop`*, *`fit`* e *`texture`*, respectivamente.
 
 ## Padrão {#section-0237fcae4f304c5b876fceaa839b6b05}
 
