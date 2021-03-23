@@ -2,13 +2,14 @@
 description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
 title: InfoPanelPopup.showhidetransition
-topic: Dynamic Media
 uuid: ddd78693-e8f3-473c-91b3-8038e99c8ff1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 3%
+source-wordcount: '40'
+ht-degree: 2%
 
 ---
 
@@ -20,12 +21,12 @@ ht-degree: 3%
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esmaecer|nenhum</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de animação de mostrar/ocultar no painel de informações. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> esmaecimento|nenhum</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de animação show/hide do painel de informações. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td> <p> Duração (em segundos) para mostrar ou ocultar a animação. </p> </td> 
+   <td> <p> Duração (em segundos) da animação show ou hide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
