@@ -4,12 +4,13 @@ seo-description: Cria um conjunto de imagens.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
+feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -40,17 +41,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa à qual o conjunto de imagens pertence. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o conjunto de imagens pertence. |
 | `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta. |
 | `*`name`*` | `xsd:string` | Sim | Nome do conjunto de imagens. |
 | `*`type`*` | `xsd:string` | Sim | Tipo de conjunto de imagens. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Não | Manuseie o ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Não | Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
 
 **Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sim | A alça do novo conjunto de imagens. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do novo conjunto de imagens. |
 
 ## Exemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 
