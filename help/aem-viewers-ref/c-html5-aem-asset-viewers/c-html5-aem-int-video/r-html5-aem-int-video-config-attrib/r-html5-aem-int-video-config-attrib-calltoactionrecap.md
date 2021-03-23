@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: callToActionRecap
 solution: Experience Manager
 title: callToActionRecap
-topic: Dynamic Media
 uuid: eda844e5-8ad2-4617-b38a-da0f7e981f68
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 5%
+source-wordcount: '51'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Indica se o visualizador mostra o painel "chamada para ação" na conclusão da reprodução do vídeo. </p> </td> 
+   <td colname="col2"> <p> Indica se o visualizador mostra o painel "chamar para ação" na conclusão da reprodução do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
