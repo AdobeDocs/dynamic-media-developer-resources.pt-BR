@@ -1,15 +1,16 @@
 ---
-description: Retorna 2 tipos diferentes de informações com base nos parâmetros passados. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
-seo-description: Retorna 2 tipos diferentes de informações com base nos parâmetros passados. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
+description: Retorna 2 tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
+seo-description: Retorna 2 tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getGenerationInfo{#getgenerationinfo}
 
-Retorna 2 tipos diferentes de informações com base nos parâmetros passados. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
+Retorna 2 tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
 
 Sintaxe
 
@@ -39,22 +40,22 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`Frase de código`*` | `xsd:string` | Sim | A alça da empresa. |
-| `*`Frase de código`*` | `xsd:string` | Não | O mecanismo que foi usado na geração. Consulte Estilos de fonte. |
-| `*`Frase de código`*` | `xsd:string` | Não | O identificador do ativo para query dos ativos gerados. |
-| `*`Frase de código`*` | `xsd:string` | Não | O identificador do ativo para query de ativos e mecanismos usados em sua geração. |
-| `*`Frase de código`*` | `xsd:StringArray` | Não | Propriedades incluídas na operação. |
-| `*`Frase de código`*` | `xsd:StringArray` | Não | Propriedades excluídas da operação. |
+| `*`Frase do código`*` | `xsd:string` | Sim | O nome da empresa. |
+| `*`Frase do código`*` | `xsd:string` | Não | O mecanismo usado na geração. Consulte Estilos de fonte. |
+| `*`Frase do código`*` | `xsd:string` | Não | O identificador do ativo que será consultado para os ativos gerados. |
+| `*`Frase do código`*` | `xsd:string` | Não | O identificador do ativo para consultar ativos e mecanismos usados em sua geração. |
+| `*`Frase do código`*` | `xsd:StringArray` | Não | Propriedades incluídas na operação. |
+| `*`Frase do código`*` | `xsd:StringArray` | Não | Propriedades excluídas da operação. |
 
 **Saída (getGenerationInfoReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`GenerationArray`*` | `types:GenerationInfoArray` | Sim | Matriz de informações de geração. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | Sim | Matriz de informações de geração. |
 
 ## Exemplos {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Este exemplo de código retorna informações sobre ativos gerados a partir de um ativo específico. Ele não recupera informações sobre as etapas usadas para gerar o ativo especificado. A resposta é truncada para brevidade.
+Essa amostra de código retorna informações sobre ativos gerados a partir de um ativo específico. Ele não recupera informações sobre as etapas usadas para gerar o ativo especificado. A resposta é truncada por brevidade.
 
 **Solicitação**
 
