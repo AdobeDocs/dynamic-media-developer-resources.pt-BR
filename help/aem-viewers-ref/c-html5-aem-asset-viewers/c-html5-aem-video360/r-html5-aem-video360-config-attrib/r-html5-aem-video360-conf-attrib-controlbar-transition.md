@@ -1,15 +1,16 @@
 ---
-description: Atributo de configuração para o visualizador Video360.
-seo-description: Atributo de configuração para o visualizador Video360.
+description: Atributo de configuração para o visualizador do Video360.
+seo-description: Atributo de configuração para o visualizador do Video360.
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic Media
 uuid: e8c1da96-3533-4d31-9ad3-569a87948ac6
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 0%
 
 # ControlBar.transition{#controlbar-transition}
 
-Atributo de configuração para o visualizador Video360.
+Atributo de configuração para o visualizador do Video360.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`retardo`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Use <span class="codeph"> none</span> para mostrar e ocultar instantaneamente. Use <span class="codeph"> fade</span> para fornecer um efeito gradual de aparecimento e desaparecimento gradual. </p> <p>O Fade não é suportado no Internet Explorer 8. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhum|desaparecer</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Use <span class="codeph"> none</span> para mostrar e ocultar instantaneamente. Use <span class="codeph"> fade</span> para fornecer um efeito de fade in e fade out gradual. </p> <p>O Fade não é compatível com o Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p> Se definido como <span class="codeph"> -1</span> o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
+   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque que a barra de controle registra e o tempo de controle barra oculta. </p> <p> Se definido como <span class="codeph"> -1</span> o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração</span> </span> </p> </td> 
-   <td colname="col2"> <p>Define a duração da animação de aparecimento e desaparecimento gradual, em segundos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
+   <td colname="col2"> <p>Define a duração do esmaecimento e do esmaecimento da animação, em segundos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
