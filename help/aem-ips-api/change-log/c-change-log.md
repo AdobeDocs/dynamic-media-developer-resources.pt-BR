@@ -2,17 +2,18 @@
 description: Log de alterações
 solution: Experience Manager
 title: Log de alterações
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
 
 
-# Log de alterações{#change-log}
+# Alterar log{#change-log}
 
 * [Versão 6.0](c-change-log/c-6/c-6.md)
 * [Versão 4.5](c-change-log/c-4-5/c-4-5.md)
