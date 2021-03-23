@@ -1,15 +1,16 @@
 ---
-description: O visualizador exibe regiões de resultados de pesquisa na visualização principal para realçar palavras ou frases encontradas no catálogo.
-seo-description: O visualizador exibe regiões de resultados de pesquisa na visualização principal para realçar palavras ou frases encontradas no catálogo.
+description: O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
+seo-description: O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
 seo-title: Efeito de pesquisa
 solution: Experience Manager
 title: Efeito de pesquisa
-topic: Dynamic Media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Efeito de pesquisa{#search-effect}
 
-O visualizador exibe regiões de resultados de pesquisa na visualização principal para realçar palavras ou frases encontradas no catálogo.
+O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
-A aparência das regiões de resultado da pesquisa é controlada com o seguinte seletor de classe CSS:
+A aparência das regiões de resultados de pesquisa é controlada com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -37,12 +38,12 @@ A aparência das regiões de resultado da pesquisa é controlada com o seguinte 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Plano de fundo da região de resultados da pesquisa. </p> </td> 
+   <td colname="col2"> <p>Plano de fundo da região do resultado da pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar regiões de resultado de pesquisa com um preenchimento amarelo semitransparente:
+Exemplo - para configurar regiões de resultados de pesquisa com um preenchimento amarelo semitransparente:
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
