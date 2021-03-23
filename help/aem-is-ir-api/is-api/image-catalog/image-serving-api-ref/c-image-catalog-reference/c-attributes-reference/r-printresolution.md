@@ -4,12 +4,13 @@ seo-description: Resolução de impressão padrão. Fornece uma resolução de i
 seo-title: PrintResolution
 solution: Experience Manager
 title: PrintResolution
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PrintResolution{#printresolution}
 
-Resolução de impressão padrão. Fornece uma resolução de impressão padrão no caso de um registro de catálogo específico não conter um valor de catálogo válido::PrintResolution.
+Resolução de impressão padrão. Fornece uma resolução de impressão padrão no caso de um registro de catálogo específico não conter um valor de catalog::PrintResolution válido.
 
 ## Propriedades {#section-8f3cffb0f3f3406b81bc967366b241d6}
 
