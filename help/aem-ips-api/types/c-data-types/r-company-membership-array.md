@@ -1,19 +1,20 @@
 ---
-description: CompanyMembshipArray
+description: CompanyMembershipArray
 solution: Experience Manager
-title: CompanyMembshipArray
-topic: Dynamic Media Image Production System API
+title: CompanyMembershipArray
 uuid: fa0a9171-d5bc-4a6f-a1c5-7b4f26531901
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '9'
+source-wordcount: '16'
 ht-degree: 0%
 
 ---
 
 
-# CompanyMembcingArray{#companymembershiparray}
+# CompanyMembershipArray{#companymembershiparray}
 
 Sintaxe
 
