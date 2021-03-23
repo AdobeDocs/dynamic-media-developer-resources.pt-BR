@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o Visualizador de imagens de vídeo.
-seo-description: Referência da API JavaScript para o Visualizador de imagens de vídeo.
+description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
+seo-description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 8cb10b2e-addb-4659-a93b-5a53d0f8a5bb
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de imagens de vídeo.
+Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 
 ` setAsset( *`ativo`*)`
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador alternará o ativo em tempo de execução.
+Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -29,7 +30,7 @@ Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interacti
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID de ativo. </p> <p>As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID de ativo. </p> <p>As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
