@@ -4,12 +4,13 @@ seo-description: Esta seção descreve os campos de dados do catálogo.
 seo-title: Campos de dados do catálogo
 solution: Experience Manager
 title: Campos de dados do catálogo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Esta seção descreve os campos de dados do catálogo.
 
-* [Dados Image_SVG](r-image-svg-data.md)
+* [Dados do Image_SVG](r-image-svg-data.md)
 * [Dados de conteúdo estático](r-static-contents-data.md)
 * [Definições de macro](r-macro-definitions.md)
 * [Mapas de fonte](r-font-maps.md)
