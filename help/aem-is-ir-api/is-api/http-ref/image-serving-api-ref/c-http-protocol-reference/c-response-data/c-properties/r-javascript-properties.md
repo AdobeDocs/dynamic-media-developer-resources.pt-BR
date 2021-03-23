@@ -1,15 +1,16 @@
 ---
-description: Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão JavaScript.
-seo-description: Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão JavaScript.
+description: Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão do JavaScript.
+seo-description: Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão do JavaScript.
 seo-title: Propriedades do JavaScript
 solution: Experience Manager
 title: Propriedades do JavaScript
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # Propriedades do JavaScript{#javascript-properties}
 
-Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão JavaScript.
+Se o javascript for especificado como o formato de resposta, os dados de resposta serão formatados para serem analisados como um arquivo de inclusão do JavaScript.
 
-Uma resposta típica às propriedades do JavaScript tem esta estrutura geral:
+Uma resposta típica das propriedades do JavaScript tem essa estrutura geral:
 
 ```
            
@@ -32,9 +33,9 @@ Uma resposta típica às propriedades do JavaScript tem esta estrutura geral:
 ...
 ```
 
-*`propertyValue`* pode estar vazio. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador =. Todos os valores são delimitados por aspas simples. Aspas simples em strings são escapadas com duas aspas simples consecutivas.
+*`propertyValue`* pode estar em branco. O espaço em branco é opcional no início e no fim de cada linha e antes e depois do separador =. Todos os valores são entre aspas simples. Aspas simples em strings são evitadas com duas aspas simples consecutivas.
 
-Para analisar uma resposta de propriedades JavaScript, qualquer objeto referenciado na resposta deve ser criado antes que o arquivo de propriedades seja carregado. A seguir, há um exemplo de uso de `req=props` para obter o tamanho da imagem de resposta no JavaScript:
+Para analisar uma resposta de propriedades do JavaScript, qualquer objeto referenciado na resposta deve ser criado antes que o arquivo de propriedades seja carregado. A seguir, um exemplo de uso de `req=props` para obter o tamanho da imagem de resposta em JavaScript:
 
 ```
 <script> image = new Object; </script> 
