@@ -1,15 +1,16 @@
 ---
-description: Uma matriz de falhas de operação de ativos.
-seo-description: Uma matriz de falhas de operação de ativos.
+description: Uma matriz de falhas na operação de ativos.
+seo-description: Uma matriz de falhas na operação de ativos.
 seo-title: AssetOperationFaultArray
 solution: Experience Manager
 title: AssetOperationFaultArray
-topic: Dynamic Media Image Production System API
 uuid: 78a77da2-2d0e-40d2-916f-28db0dd68154
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-Uma matriz de falhas de operação de ativos.
+Uma matriz de falhas na operação de ativos.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:AssetOperationFault` | Uma matriz de itens de falha da operação do ativo. |
+| `*`items`*` | `types:AssetOperationFault` | Uma matriz de itens de falha da operação de ativos. |
 
