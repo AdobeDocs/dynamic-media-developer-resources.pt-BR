@@ -1,15 +1,16 @@
 ---
-description: Indicador de definição é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
-seo-description: Indicador de definição é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
+description: O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
+seo-description: O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 seo-title: Definir indicador
 solution: Experience Manager
 title: Definir indicador
-topic: Dynamic Media
 uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Definir indicador{#set-indicator}
 
-Indicador de definição é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
+O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS do indicador de conjunto**
+**Propriedades CSS do indicador de conjunto**
 
-A aparência do container indicador definido é controlada com o seguinte seletor de classe CSS:
+A aparência do contêiner indicador definido é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7zoomviewer .s7setindicator
@@ -38,8 +39,8 @@ A aparência do container indicador definido é controlada com o seguinte seleto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>A cor do plano de fundo no formato hexadecimal do indicador de conjunto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador definido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,11 +90,11 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,9 +102,9 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
 
 >[!NOTE]
 >
->Definir ponto indicador suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Especificamente, `state="selected"` corresponde à página atual das miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
+>Definir ponto indicador suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à página atual das miniaturas, `state="unselected"` corresponde ao estado padrão do ponto.
 
-Exemplo - para configurar o ponto indicador definido como 15 x 15 pixels, com dois pixels de margem horizontal, cinco pixels de margem superior, uma margem inferior de pixel, doze pixels de raio, #D5D3D3 de cor padrão e #939393 de cor ativa:
+Exemplo - para configurar o ponto indicador de configuração como 15 x 15 pixels, com dois pixels de margem horizontal, cinco pixels de margem superior, uma margem inferior de pixel, doze pixels de raio, #D5D3D3 de cor padrão e #939393 de cor ativa:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 
