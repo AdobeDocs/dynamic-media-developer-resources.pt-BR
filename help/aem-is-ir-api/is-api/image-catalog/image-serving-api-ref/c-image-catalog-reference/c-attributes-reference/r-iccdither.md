@@ -1,15 +1,16 @@
 ---
-description: Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptual das conversões de cores quando nenhuma seleção explícita for feita com icc=.
-seo-description: Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptual das conversões de cores quando nenhuma seleção explícita for feita com icc=.
+description: Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptiva das conversões de cores quando nenhuma seleção explícita é feita com icc=.
+seo-description: Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptiva das conversões de cores quando nenhuma seleção explícita é feita com icc=.
 seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 93260809-8eab-40df-aff3-466ee391d654
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # IccDither{#iccdither}
 
-Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptual das conversões de cores quando nenhuma seleção explícita for feita com icc=.
+Pontilhamento de conversão de cores. Especifica se o pontilhamento deve ser usado para melhorar a qualidade perceptiva das conversões de cores quando nenhuma seleção explícita é feita com icc=.
 
 ## Propriedades {#section-b7ba44d2d5de43f5a0841fe4cac29d35}
 
-Sinalizar. Defina como 0 para desativar ou como 1 para ativar o pontilhamento.
+Sinalizador. Defina como 0 para desabilitar ou como 1 para habilitar o pontilhamento.
 
 ## Padrão {#section-86c4230a16454464880f64d4ab5ad533}
 
