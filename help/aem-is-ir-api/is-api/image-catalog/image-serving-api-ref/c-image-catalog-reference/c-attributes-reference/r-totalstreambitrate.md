@@ -1,15 +1,16 @@
 ---
-description: Taxa total de bits do fluxo. Valor longo que representa a taxa total de bits do fluxo para o ativo de vídeo.
-seo-description: Taxa total de bits do fluxo. Valor longo que representa a taxa total de bits do fluxo para o ativo de vídeo.
+description: Taxa total de bits do fluxo. Valor longo que representa a taxa de bits de fluxo total para o ativo de vídeo.
+seo-description: Taxa total de bits do fluxo. Valor longo que representa a taxa de bits de fluxo total para o ativo de vídeo.
 seo-title: TotalStreamBitRate
 solution: Experience Manager
 title: TotalStreamBitRate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fdb7189-cae6-4cf0-ae00-f46a7709fc46
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # TotalStreamBitRate{#totalstreambitrate}
 
-Taxa total de bits do fluxo. Valor longo que representa a taxa total de bits do fluxo para o ativo de vídeo.
+Taxa total de bits do fluxo. Valor longo que representa a taxa de bits de fluxo total para o ativo de vídeo.
 
-Usado pelas solicitações `req=set` e `req=mbrSet`para exportar dados de taxa de bits.
+Usado por `req=set` e `req=mbrSet`solicitações para exportar dados de taxa de bits.
 
 Aplica-se somente ao catálogo de conteúdo estático.
 
@@ -33,4 +34,4 @@ Nenhum.
 
 ## Consulte também {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) ,  [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73), Solicitações  [do Conjunto de Mídias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) ,  [req=mrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73), Solicitações de conjunto de  [mídia](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
