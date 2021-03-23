@@ -1,27 +1,28 @@
 ---
-description: Referência da API JavaScript para o visualizador do Video360.
-seo-description: Referência da API JavaScript para o visualizador do Video360.
-seo-title: Video360Viewer
+description: Referência da API do JavaScript para o visualizador do Video360.
+seo-description: Referência da API do JavaScript para o visualizador do Video360.
+seo-title: Visualizador de vídeo360
 solution: Experience Manager
-title: Video360Viewer
-topic: Dynamic Media
+title: Visualizador de vídeo360
 uuid: b5d5e270-687c-40aa-9de4-c5bc2a7806f7
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
 
 
-# Video360Viewer{#video-viewer}
+# Visualizador de vídeo360a{#video-viewer}
 
-Referência da API JavaScript para o visualizador do Video360.
+Referência da API do JavaScript para o visualizador do Video360.
 
 `Video360Viewer([config])`
 
-Construtor, cria uma nova instância do Visualizador HTML5 Video360.
+Construtor, cria uma nova instância do Visualizador de vídeo HTML5 360.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -29,12 +30,12 @@ Construtor, cria uma nova instância do Visualizador HTML5 Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configuração  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> O objeto de configuração JSON  </span> opcional {object} permite que todas as configurações do visualizador passem para o construtor para evitar chamar métodos setter individuais. Contém as seguintes propriedades: </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {object} objeto de configuração JSON  </span> opcional, permite que todas as configurações do visualizador sejam enviadas ao construtor para evitar chamar métodos de setter individuais. Contém as seguintes propriedades: </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID do container DOM (normalmente um  <span class="codeph"> DIV  </span>) no qual o visualizador é inserido. Quando esse método é chamado, não é necessário ter o elemento de container criado. No entanto, o container deve existir quando <span class="codeph"> init() </span> for executado. </p> <p>Obrigatório. </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> ID do contêiner DOM (normalmente um  <span class="codeph"> DIV  </span>) no qual o visualizador é inserido. Quando esse método é chamado, não é necessário criar o elemento container. No entanto, o contêiner deve existir quando <span class="codeph"> init() </span> é executado. </p> <p>Obrigatório. </p> </li> 
       <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params  </span> - objeto  <span class="codeph"> {Object}  </span> JSON com parâmetros de configuração do visualizador em que o nome da propriedade é a opção de configuração específica do visualizador ou o modificador SDK, e o valor dessa propriedade é um valor de configurações correspondente. </p> <p>Obrigatório. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> manipuladores  </span> - objeto  <span class="codeph"> {Object}  </span> JSON com retornos de chamada de evento do visualizador, onde o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para retorno de chamada apropriado. </p> <p>Opcional. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> retornos de chamada do Evento </a> para obter mais informações sobre eventos do visualizador. </p> </li> 
-      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts  </span> - objeto  <span class="codeph"> {Object}  </span> JSON com dados de localização. Opcional. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localização de elementos da interface do usuário </a> para obter mais informações. </p> <p>Consulte também o <i>Guia do usuário do Viewer SDK</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> manipuladores  </span> - objeto  <span class="codeph"> {Object}  </span> JSON com retornos de chamada do evento do visualizador, onde o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para o retorno de chamada apropriado. </p> <p>Opcional. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Retornos de chamada do evento </a> para obter mais informações sobre os eventos do visualizador. </p> </li> 
+      <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts  </span> - objeto  <span class="codeph"> {Object}  </span> JSON com dados de localização. Opcional. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> Localização dos elementos da interface do usuário </a> para obter mais informações. </p> <p>Consulte também o <i>Guia do usuário do SDK do visualizador</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
