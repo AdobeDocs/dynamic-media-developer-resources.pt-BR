@@ -1,15 +1,16 @@
 ---
-description: A string de comando do Servidor de imagens que é aplicada à imagem de zoom.
-seo-description: A string de comando do Servidor de imagens que é aplicada à imagem de zoom.
+description: A string de comando Exibição de imagem que é aplicada à imagem de zoom.
+seo-description: A string de comando Exibição de imagem que é aplicada à imagem de zoom.
 seo-title: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-topic: Dynamic Media
 uuid: 13dc11ed-52a4-45ae-bfae-ca034c8a3c87
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-A string de comando do Servidor de imagens que é aplicada à imagem de zoom.
+A string de comando Exibição de imagem que é aplicada à imagem de zoom.
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
