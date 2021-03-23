@@ -2,12 +2,13 @@
 description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
-topic: Dynamic Media
 uuid: b0cdc9ee-4399-4783-99ec-cd9d03f262b1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> esquerda|centro|direita</span> </p> </td> 
-   <td> <p> Especifica o alinhamento horizontal interno (âncora) do container de miniaturas dentro da área do componente. Em ThumbnailGridView, o container de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o container interno e os limites do componente externo. Esse modificador especifica como o container de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td> <p> Especifica o alinhamento horizontal interno (âncora) do contêiner de miniaturas na área do componente. Em ThumbnailGridView, o contêiner de miniatura interno é dimensionado para que somente um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
