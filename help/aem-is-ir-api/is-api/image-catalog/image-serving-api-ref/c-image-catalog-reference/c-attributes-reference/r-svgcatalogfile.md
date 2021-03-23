@@ -4,12 +4,13 @@ seo-description: Caminhos do arquivo de dados SVG. Especifica os arquivos que co
 seo-title: SvgCatalogFile
 solution: Experience Manager
 title: SvgCatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 Caminhos do arquivo de dados SVG. Especifica os arquivos que contêm os dados SVG para este catálogo.
 
-Os arquivos de dados SVG são carregados depois de todos os arquivos de dados de imagem, na ordem especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo SVG diferentes), a última instância prevalecerá.
+Os arquivos de dados SVG são carregados após todos os arquivos de dados de imagem, na ordem exata especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo SVG diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-fc2d549f76474792837b2b92ec2087ea}
 
-Um ou mais valores de string de texto, separados por vírgulas. Opcional. Cada valor deve ser um caminho ou caminho de arquivo absoluto relativo à pasta do catálogo.
+Um ou mais valores de string de texto, separados por vírgulas. Opcional. Cada valor deve ser um caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
 
 ## Padrão {#section-a4e58951f3c249599665b823566433c9}
 
-Vazio, que indica que este catálogo de imagens não inclui dados SVG.
+Vazio, o que indica que este catálogo de imagens não inclui dados SVG.
 
 ## Consulte também {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 
