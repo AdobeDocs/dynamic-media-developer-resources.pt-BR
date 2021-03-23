@@ -4,12 +4,13 @@ seo-description: Atribuir ou atualizar ativos em um projeto.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -36,9 +37,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`projectHandle`*` | `xsd:string` | Sim | Manuseio do projeto. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores de ativos que você deseja associar ao projeto. |
+| `*`companyName`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`projectHandle`*` | `xsd:string` | Sim | Manipulador do projeto. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de manipuladores de ativos que você deseja associar ao projeto. |
 
 **Saída (setProjectAssetsReturn)**
 
@@ -48,7 +49,7 @@ Sintaxe
 
 ## Exemplos {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Essa amostra de código atribui um ativo a um projeto. A solicitação retorna uma contagem de sucesso de um.
+Essa amostra de código atribui um ativo a um projeto. A solicitação retorna uma contagem de sucesso.
 
 **Solicitação**
 
