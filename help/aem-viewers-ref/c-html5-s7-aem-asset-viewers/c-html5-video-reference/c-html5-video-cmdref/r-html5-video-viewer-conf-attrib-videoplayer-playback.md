@@ -4,12 +4,13 @@ seo-description: Atributo de configuração para o Visualizador de vídeo.
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic Media
 uuid: 5ab7a322-9de0-4a26-95be-b9b2ff8e5a84
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. Quando <span class="codeph"> auto</span> estiver definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa vídeo de fluxo contínuo HTML5 no formato HLS. Ele volta para a reprodução HTML5 progressiva em determinados sistemas, como o Internet Explorer e Android mais antigos. </p> <p>Se <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá somente da reprodução HTML5, como nativamente é compatível com os navegadores, e reproduzirá vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do SDK do visualizador. </p> </td> 
+   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. Quando <span class="codeph"> auto</span> é definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa vídeo de transmissão HTML5 no formato HLS. Ele volta para a reprodução HTML5 progressiva em determinados sistemas, como o Internet Explorer e Android mais antigos. </p> <p>Se <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá apenas da reprodução HTML5, como nativamente compatível pelos navegadores, e reproduzirá vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do SDK do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -34,7 +35,7 @@ Atributo de configuração para o Visualizador de vídeo.
 
 Opcional.
 
-Ignorado quando o visualizador funciona com vídeo externo. Consulte [Suporte a vídeo externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+Ignorado quando o visualizador funciona com vídeo externo. Consulte [Suporte a Vídeo Externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}
 
