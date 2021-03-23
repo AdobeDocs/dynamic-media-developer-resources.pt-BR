@@ -2,11 +2,12 @@
 description: Cria uma conta de usuário e a adiciona a uma ou mais empresas.
 solution: Experience Manager
 title: addUser
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Cria uma conta de usuário e a adiciona a uma ou mais empresas.
 
-Ao adicionar um usuário a várias empresas, especifique essas empresas pelas alças de empresa em `companyHandleArray`. Esta operação retorna o identificador ao usuário que você acabou de adicionar.
+Ao adicionar um usuário a várias empresas, especifique essas empresas pelo controle da empresa em `companyHandleArray`. Essa operação retorna o identificador ao usuário que você acabou de adicionar.
 
 ## Tipos de usuário autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,11 +35,11 @@ Ao adicionar um usuário a várias empresas, especifique essas empresas pelas al
 | `*`firstName`*` | `xsd:string` | Sim | O nome do usuário. |
 | `*`lastName`*` | `xsd:string` | Sim | O sobrenome do usuário. |
 | `*`email`*` | `xsd:string` | Sim | O endereço de email do usuário. |
-| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Entretanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
-| `*`password`*` | `xsd:string` | Sim | Define a senha do usuário |
+| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, a função `IpsAdmin` substitui outras configurações por empresa. |
+| `*`senha`*` | `xsd:string` | Sim | Define a senha do usuário |
 | `*`passwordExpires`*` | `xsd:dateTime` | Não | Define o período de expiração da senha. Forneça o fuso horário ao transmitir a solicitação. Os fusos horários são ajustados para Hora central. |
 | `*`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é válido. |
-| `*`subscriptionArray`*` | `xsd:CompanyMembershipUpdateArray` | Sim | Uma matriz de alças de empresa. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
 
 **Saída (addUserParam)**
 
@@ -48,7 +49,7 @@ Ao adicionar um usuário a várias empresas, especifique essas empresas pelas al
 
 ## Exemplos {#section-2547cef622734b71919eef849960b5cb}
 
-A API IPS retorna um elemento de identificador de usuário que especifica o novo usuário.
+A API do IPS retorna um elemento de identificador de usuário que especifica o novo usuário.
 
 **Solicitação**
 
