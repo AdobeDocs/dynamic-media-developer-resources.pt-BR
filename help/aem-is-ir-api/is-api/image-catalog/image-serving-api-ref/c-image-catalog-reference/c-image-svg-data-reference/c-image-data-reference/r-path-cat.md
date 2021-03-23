@@ -2,12 +2,13 @@
 description: Caminho do arquivo de imagem.
 solution: Experience Manager
 title: Caminho
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -21,13 +22,13 @@ Caminho relativo ou absoluto e nome do arquivo de imagem de origem associado a e
 
 ## Propriedades {#path-properties}
 
-Sequência de caracteres de texto. Obrigatório para registros de imagem, pode estar vazio para registros de modelo. Se especificado, deve ser um caminho de arquivo válido relativo ou absoluto do Servidor de imagens. atributo::DefaultExt será anexado se nenhum sufixo de arquivo estiver presente.
+Sequência de texto. Necessário para registros de imagem, pode estar vazio para registros de modelo. Se especificado, deve ser um caminho de arquivo válido relativo ou absoluto do Servidor de Imagens. attribute::DefaultExt será anexado se nenhum sufixo de arquivo estiver presente.
 
 ## Formatos de arquivo de imagem suportados {#path-supported-image-file-formats}
 
-Consulte a descrição do utilitário Conversor de imagens (IC) para obter uma lista completa dos formatos de arquivo suportados.
+Consulte a descrição do utilitário Conversor de imagem (IC) para obter uma lista completa dos formatos de arquivo compatíveis.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O utilitário IC é usado para criar imagens PTIFF a partir de qualquer formato de imagem compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão o melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O utilitário IC é usado para criar imagens PTIFF de qualquer formato de imagem compatível.
 
 ## Padrão {#path-default}
 
