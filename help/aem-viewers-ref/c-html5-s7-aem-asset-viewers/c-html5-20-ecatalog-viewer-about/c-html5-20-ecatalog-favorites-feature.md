@@ -2,18 +2,19 @@
 description: Recurso Favoritos
 solution: Experience Manager
 title: Recurso Favoritos
-topic: Dynamic Media
 uuid: 764b0c5e-f131-4af8-a7a6-f60f22bcfeb7
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 
-# Recurso Favoritos{#favorites-feature}
+# Recurso favoritos{#favorites-feature}
 
 Um usuário final pode usar o recurso Favoritos para marcar produtos de interesse diretamente no catálogo eletrônico, adicionando ícones de &quot;coração&quot; às imagens do catálogo eletrônico. O visualizador armazena todos os favoritos no sistema do cliente e os exibe novamente quando o mesmo usuário visita o catálogo eletrônico novamente.
 
