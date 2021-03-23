@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: VideoScrubber.showchaptertitle
 solution: Experience Manager
 title: VideoScrubber.showchaptertitle
-topic: Dynamic Media
 uuid: abd9624d-b24d-491c-afe2-1aafbdf90ae1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 4%
+source-wordcount: '59'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa/desativa a barra de título do rótulo do capítulo. A hora de start do capítulo não é exibida quando a barra de título está desativada. </p> </td> 
+   <td colname="col2"> <p> Ativa/desativa a barra de título do rótulo do capítulo. A hora de início do capítulo não é exibida quando a barra de título está desativada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
