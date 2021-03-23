@@ -1,15 +1,16 @@
 ---
-description: Várias operações de manipulação DOM são suportadas.
-seo-description: Várias operações de manipulação DOM são suportadas.
-seo-title: Operações de manipulação DOM FXG
+description: Várias operações de manipulação de DOM são suportadas.
+seo-description: Várias operações de manipulação de DOM são suportadas.
+seo-title: Operações de manipulação de DOM FXG
 solution: Experience Manager
-title: Operações de manipulação DOM FXG
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Operações de manipulação de DOM FXG
 uuid: 0bb31fb5-4735-4e10-8f3d-38f2885e8da5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Operações de manipulação de DOM FXG{#fxg-dom-manipulation-operations}
 
-Várias operações de manipulação DOM são suportadas.
+Várias operações de manipulação de DOM são suportadas.
 
 * [appendElement](r-appendelement.md)
 * [deleteAttr](r-deleteattr.md)
