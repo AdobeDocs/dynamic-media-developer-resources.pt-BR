@@ -4,12 +4,13 @@ seo-description: Formato de codificação TIFF. Especifica o formato de compacta
 seo-title: TiffEncoding
 solution: Experience Manager
 title: TiffEncoding
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9f672f8-d759-4248-8588-9fe46db1645f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente o padrão para o terceiro valor do comando fmt=).
 
-Defina como 0 para nenhuma compactação, 1 para LZW, 2 para deflate (ZIP) e 3 para compactação JPEG.
+Defina como 0 para sem compactação, 1 para LZW, 2 para deflate (ZIP) e 3 para compactação JPEG.
 
 ## Propriedades {#section-469f5a1225464542866f5353edd92db3}
 
