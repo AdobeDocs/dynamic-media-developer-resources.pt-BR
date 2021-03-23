@@ -1,15 +1,16 @@
 ---
-description: A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
-seo-description: A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
+description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
+seo-description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
 seo-title: Configurações avançadas de renderização
 solution: Experience Manager
 title: Configurações avançadas de renderização
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '641'
 ht-degree: 17%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 17%
 
 # Configurações avançadas de renderização{#advanced-render-settings}
 
-A Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media) fornece mecanismos para controlar os aspectos de baixo nível do mecanismo de renderização de vinheta.
+A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
 
 >[!NOTE]
 >
->Configurações de renderização é um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte Técnico da Adobe ou seu representante de consultoria da Adobe para treinamento, consulta ou ambos sobre como usar as Configurações de renderização.
+>Configurações de renderização é um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte técnico do Adobe ou seu representante de consultoria do Adobe para treinamento, consulta ou ambos, sobre o uso das Configurações de renderização.
 
-Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o comando `rs=` (ou com o valor `catalog::RenderSettings`). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos realces ou do contraste das sombras.
+Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o comando `rs=` (ou com o valor `catalog::RenderSettings`). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos destaques ou o contraste nas sombras.
 
-## Valores de Configuração de Renderização Avançada (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
+## Valores de Configuração Avançada de Renderização (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
 <table id="table_1517FC39C7344EBB9F17BE20415DB057"> 
  <thead> 
@@ -40,21 +41,21 @@ Essas configurações são controladas interativamente na Criação de imagens. 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col2"> <p>Renderizar efeitos/sombreador alternativo substitui a configuração na vinheta. </p> </td> 
+   <td colname="col2"> <p>Renderizar efeitos/Sombreador alternativo substitui a configuração na vinheta. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>3 </p> </td> 
-   <td colname="col5"> <p>A0=Efeitos de renderização </p> <p>A1=Sombreador alternativo </p> </td> 
+   <td colname="col5"> <p>A0=Efeitos de renderização </p> <p>A1=Sombreador Alternativo </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>U </p> </td> 
-   <td colname="col2"> <p>USM (Máscara de Nitidez). </p> </td> 
+   <td colname="col2"> <p>USM (Tirar nitidez da máscara). </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>2 </p> </td> 
    <td colname="col5"> <p>Para usar o USM, U deve ser &gt; 0 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
-   <td colname="col2"> <p>Valor do USM (%). </p> </td> 
+   <td colname="col2"> <p>Valor de USM (%). </p> </td> 
    <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -62,13 +63,13 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Raio do USM (pixels). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>X </p> </td> 
-   <td colname="col2"> <p>Limite de USM (níveis). </p> </td> 
+   <td colname="col2"> <p>Limite do USM (níveis). </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -76,20 +77,20 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modo de redimensionamento. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
       <li id="li_E7711C3678ED4DE09E710F7C430CEF42">Vizinho mais próximo </li> 
       <li id="li_CAE975B91C604DA0AA493F700AEBE199">Bi-Linear </li> 
-      <li id="li_24E5A40B8A3F4C808A68686C27647CD5">Bi-Cubic </li> 
+      <li id="li_24E5A40B8A3F4C808A68686C27647CD5">Bi-Cúbico </li> 
       <li id="li_42ACFCE65B4843ACAFA6A52255364642">Superamostragem (valor padrão) </li> 
       <li id="li_34EC85C4D15145DF80F7D3DB7B6244D3">Janela Lanczos </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>R </p> </td> 
-   <td colname="col2"> <p>Modo de reamostragem. </p> </td> 
+   <td colname="col2"> <p>Modo de nova amostra. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
@@ -113,21 +114,21 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Superamostragem: Taxa aleatória. </p> </td> 
    <td colname="col3"> <p>3 </p> </td> 
-   <td colname="col4"> <p>20 </p> </td> 
+   <td colname="col4"> <p>20º </p> </td> 
    <td colname="col5"> <p>O padrão é 5. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
-   <td colname="col2"> <p>Redimensionamento adaptativo: Profundidade. </p> </td> 
+   <td colname="col2"> <p>Redimensionamento adaptável: Profundidade. </p> </td> 
    <td colname="col3"> <p>4 </p> </td> 
    <td colname="col4"> <p>8 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>N </p> </td> 
-   <td colname="col2"> <p>Redimensionamento adaptativo: Largura. </p> </td> 
+   <td colname="col2"> <p>Redimensionamento adaptável: Largura. </p> </td> 
    <td colname="col3"> <p>2 </p> </td> 
-   <td colname="col4"> <p>10 </p> </td> 
+   <td colname="col4"> <p>10º </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -167,15 +168,15 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>J </p> </td> 
-   <td colname="col2"> <p>Realça a saturação. </p> </td> 
+   <td colname="col2"> <p>Destaca a saturação. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>50 </p> </td> 
+   <td colname="col4"> <p>50º </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>H </p> </td> 
    <td colname="col2"> <p>Sombras para materiais brilhantes. </p> </td> 
-   <td colname="col3"> <p>50 </p> </td> 
+   <td colname="col3"> <p>50º </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -188,9 +189,9 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>Resistência da extrapolação com base em brilho. </p> </td> 
+   <td colname="col2"> <p>Resistência da extrapolação baseada em brilho. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>600 </p> </td> 
+   <td colname="col4"> <p>800 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -222,39 +223,39 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col5"> <p>O padrão é 50. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>a) </p> </td> 
+   <td colname="col1"> <p>a </p> </td> 
    <td colname="col2"> <p>Compensação de brilho. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: a36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: a36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>b </p> </td> 
    <td colname="col2"> <p>Ajuste de saturação. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: b36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: b36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>c </p> </td> 
    <td colname="col2"> <p>Ajuste de sombras. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: c36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: c36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d </p> </td> 
    <td colname="col2"> <p>Realça o ajuste. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: d36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: d36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>e </p> </td> 
    <td colname="col2"> <p>Destaques especulares. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: e36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: e36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
@@ -265,24 +266,24 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> <p>Ajustamento da iluminação. </p> </td> 
+   <td colname="col2"> <p>Ajuste da iluminação. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: k64.138.175.60.xx.133.242 </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: k64.138.175.60.xx.133.242 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>u &amp; s </p> </td> 
    <td colname="col2"> <p>Deslocamento de matiz de sombra. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
    <td colname="col2"> <p>Realce o deslocamento de matiz. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Formato diferente: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>Formatar diferentes: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>w </p> </td> 
@@ -293,7 +294,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>g </p> </td> 
-   <td colname="col2"> <p>Baixa saturação. </p> </td> 
+   <td colname="col2"> <p>Aumento da saturação baixa. </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p> </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -306,25 +307,25 @@ Essas configurações são controladas interativamente na Criação de imagens. 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Configuração da composição </p> </th> 
+   <th colname="col1" class="entry"> <p>Definição da composição </p> </th> 
    <th colname="col2" class="entry"> <p>Descrição </p> </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>H60I30J10K200L400U1V10W100X0 </p> </td> 
-   <td colname="col2"> <p>Valores padrão na Criação de imagens. 
+   <td colname="col2"> <p>Valores padrão na Criação de imagem. 
      <ul id="ul_AA7CF1A3E6984B318265BBE8FFFBB4EE">
       <li> USM1
       <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 = Sombras para materiais brilhantes (50-100). </li> 
-      <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 = Realces (0-100). </li> 
+      <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 = Destaques (0-100). </li> 
       <li id="li_376C275FDB3548958C09BD266C77318F">J10 = saturação de realce (0-50). </li> 
       <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 = saturação de sombra (0-400). </li> 
-      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 = Resistência da extrapolação com base em brilho (100-600). </li> 
-      <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM (Máscara de Nitidez) (0-2). </li> 
+      <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 = Intensidade de extrapolação baseada em perda (100-600). </li> 
+      <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM (Tirar nitidez da máscara) (0-2). </li> 
       <li id="li_7CD4E3662A6C48F9B5895D133D28BA2A">V10 = raio USM (1-100 pixels). </li> 
-      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = valor USM (1%-500%). </li> 
-      <li id="li_F39D3834D4A2478D993E5E9C9B434CFE">X0 = limite do USM (níveis de 0-255). </li> 
+      <li id="li_949B6DB4959B46A892787CD5B3AD7485">W100 = Quantidade USM (1%-500%). </li> 
+      <li id="li_F39D3834D4A2478D993E5E9C9B434CFE">X0 = limite USM (níveis de 0-255). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -332,7 +333,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col2"> <p> 
      <ul id="ul_C6E6DD90ECAB4D2B9284A25A29923DC6"> 
       <li id="li_7B7A8C43BCEB4CB58C7074974CAB0419">USM1 </li> 
-      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">Toda a compensação máxima e de brilho está ativada. </li> 
+      <li id="li_A003B68023424DCABBF3A2CAF98C39A4">Toda compensação máxima e de brilho está ativada. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -340,7 +341,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col2"> <p> 
      <ul id="ul_AAEC098CED1C436E933B1C1B88DFB659"> 
       <li id="li_0CC34CDD796E4DFD802824FF21DB021B">USM1 </li> 
-      <li id="li_E36886FB1D00444CBA19D7245E89B292">Toda a compensação máxima e de brilho está desativada. </li> 
+      <li id="li_E36886FB1D00444CBA19D7245E89B292">Toda compensação máxima e de brilho está desativada. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -348,7 +349,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col2"> <p> 
      <ul id="ul_6BB668C6C055493DAAA38F4D3B9C20A7"> 
       <li id="li_D8BAFB41CF4C4B3FAD6F89AF5D7F223A">USM2 </li> 
-      <li id="li_DA685F4DE4BA427BA7BE241A75C96152">Toda a compensação máxima e de brilho está desativada. </li> 
+      <li id="li_DA685F4DE4BA427BA7BE241A75C96152">Toda compensação máxima e de brilho está desativada. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -356,13 +357,13 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col2"> <p> 
      <ul id="ul_7C374842312E4AD0B62692BBCE6743A8"> 
       <li id="li_CC730580B54741FBBBFF507DE0FE1F15">H80 = valor USM </li> 
-      <li id="li_C2801B2C093444AC9401793BC571EC27">I70 = Realces </li> 
-      <li id="li_518C6A690EC34614B0806A0C6BC535FF">J40 = saturação de realce </li> 
-      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 = Resistência da extrapolação com base em brilho </li> 
+      <li id="li_C2801B2C093444AC9401793BC571EC27">I70 = Destaques </li> 
+      <li id="li_518C6A690EC34614B0806A0C6BC535FF">J40 = saturação de realces </li> 
+      <li id="li_F280CF29D1E341D9AC9C0C16C2DEA1E6">L300 = Intensidade da extrapolação com base em perda </li> 
       <li id="li_3F589F109AC94280911BD535C49E42E4">U1 = USM </li> 
       <li id="li_113FEC9B37D54511BAB3FEAC7C271858">V8 = raio USM </li> 
-      <li id="li_E1BA7406A76B476EB1A89D6EDD87930C">W80 = Sombras para materiais brilhantes </li> 
-      <li id="li_AAD479EF6A7F43B98A8C147FCD684ECA">X5 = limite de USM </li> 
+      <li id="li_E1BA7406A76B476EB1A89D6EDD87930C">W80 = sombras para materiais brilhantes </li> 
+      <li id="li_AAD479EF6A7F43B98A8C147FCD684ECA">X5 = Limite de USM </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -370,13 +371,13 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col2"> <p>Sombreador alternativo com nitidez: </p> <p> 
      <ul id="ul_93AD53BB37EA47F6A3CEE424D3AAE18C"> 
       <li id="li_9EF1DF4167164721882E4842C2E0B20C">USM1 </li> 
-      <li id="li_7B5D8B7BB5544E7FA4AD702EE281086B">Valor do USM (120) </li> 
-      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">Raio do USM (0,6) </li> 
-      <li id="li_793DAB145CE7469ABC1182BCBD324657">Limite do USM (5) </li> 
+      <li id="li_7B5D8B7BB5544E7FA4AD702EE281086B">Montante da USM (120) </li> 
+      <li id="li_B3BE096BB0654A2DBADDD6832E499F2A">Raio do USM (0.6) </li> 
+      <li id="li_793DAB145CE7469ABC1182BCBD324657">Limite de USM (5) </li> 
       <li id="li_B1954FEBE2084726828D64E8165DA4DA">Redimensionamento (Lanczos) </li> 
-      <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">Reamostragem (Superamostragem, aleatório=metade, taxa=metade) </li> 
+      <li id="li_E5ED76998C0543D8A3F9AD178CFD3C2C">Reamostragem (Supersamplificação, random=half, rate=half) </li> 
       <li id="li_CCEE53544E7D48858398BF3168F1E87D">Contraste (mais forte) </li> 
-      <li id="li_EB0D25C095FB4D5798AC031AB759849B">Ajuste de saturação (primeiro vértice no meio, segundo vértice ao longo da borda, terceiro vértice no meio inferior) </li> 
+      <li id="li_EB0D25C095FB4D5798AC031AB759849B">Ajuste de saturação (primeiro vértice no meio, segundo vértice ao longo do limite, terceiro ponto médio de vértice baixo) </li> 
       <li id="li_5C2304DA4A4D4799AE5DCCCB1E2ECBB3">Nitidez (3/4 para a direita) </li> 
      </ul> </p> </td> 
   </tr> 
