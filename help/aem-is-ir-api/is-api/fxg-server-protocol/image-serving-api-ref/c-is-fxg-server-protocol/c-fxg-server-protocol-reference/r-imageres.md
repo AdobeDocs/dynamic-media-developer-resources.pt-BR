@@ -1,15 +1,16 @@
 ---
-description: Define a resolução de bitmaps incorporados em uma solicitação para impressão da Web.
-seo-description: Define a resolução de bitmaps incorporados em uma solicitação para impressão da Web.
+description: Define a resolução de bitmaps incorporados em uma solicitação Web To Print.
+seo-description: Define a resolução de bitmaps incorporados em uma solicitação Web To Print.
 seo-title: imageRes
 solution: Experience Manager
 title: imageRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9fd252b8-2956-4618-85dd-a47fc836639c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # imageRes{#imageres}
 
-Define a resolução de bitmaps incorporados em uma solicitação para impressão da Web.
+Define a resolução de bitmaps incorporados em uma solicitação Web To Print.
 
 ` imageRes=< *`número`*>`
 
