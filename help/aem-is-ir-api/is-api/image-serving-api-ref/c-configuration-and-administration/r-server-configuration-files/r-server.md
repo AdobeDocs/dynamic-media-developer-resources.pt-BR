@@ -1,15 +1,16 @@
 ---
-description: Contém configurações do servidor da plataforma.
-seo-description: Contém configurações do servidor da plataforma.
+description: Contém as configurações do servidor da plataforma.
+seo-description: Contém as configurações do servidor da plataforma.
 seo-title: server.xml
 solution: Experience Manager
 title: server.xml
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f8b7047-6de6-4a56-96b7-58c481150e32
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # server.xml{#server-xml}
 
-Contém configurações do servidor da plataforma.
+Contém as configurações do servidor da plataforma.
 
-Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor de plataforma pode falhar no start.
+Ao modificar esse arquivo XML, é necessário tomar cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor da Plataforma poderá não conseguir iniciar.
 
-Para que as alterações entrem em vigor, o Servidor de plataforma deve ser reiniciado após a edição desse arquivo.
+Para que as alterações entrem em vigor, o Servidor de Plataforma deve ser reiniciado após a edição deste arquivo.
 
-O diagrama a seguir ilustra quais configurações podem ser alteradas neste arquivo. Consulte as seções correspondentes mais cedo neste documento para obter uma descrição dessas configurações. Observe que este diagrama não é uma representação completa de [!DNL server.xml].
+O diagrama a seguir ilustra quais configurações podem ser alteradas neste arquivo. Consulte as seções correspondentes anteriormente neste documento para obter uma descrição dessas configurações. Observe que este diagrama não é uma representação completa de [!DNL server.xml].
 
 ```
 <Server>
