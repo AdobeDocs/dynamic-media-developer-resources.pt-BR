@@ -1,15 +1,16 @@
 ---
-description: Resolução de impressão. Resolução de impressão para a imagem em tamanho real.
-seo-description: Resolução de impressão. Resolução de impressão para a imagem em tamanho real.
+description: Resolução de impressão. Resolução de impressão da imagem em tamanho real.
+seo-description: Resolução de impressão. Resolução de impressão da imagem em tamanho real.
 seo-title: PrintResolution
 solution: Experience Manager
 title: PrintResolution
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # PrintResolution{#printresolution}
 
-Resolução de impressão. Resolução de impressão para a imagem em tamanho real.
+Resolução de impressão. Resolução de impressão da imagem em tamanho real.
 
 Esse valor é incorporado no cabeçalho da imagem de resposta, a menos que seja substituído por `printRes=`.
 
