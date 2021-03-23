@@ -1,15 +1,16 @@
 ---
-description: Uma gama de permissões.
-seo-description: Uma gama de permissões.
+description: Uma matriz de permissões.
+seo-description: Uma matriz de permissões.
 seo-title: PermissionArray
 solution: Experience Manager
 title: PermissionArray
-topic: Dynamic Media Image Production System API
 uuid: 90c15863-8242-479b-9d90-666d26b8b10d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PermissionArray{#permissionarray}
 
-Uma gama de permissões.
+Uma matriz de permissões.
 
 Sintaxe
 
