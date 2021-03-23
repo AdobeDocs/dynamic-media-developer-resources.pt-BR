@@ -1,15 +1,16 @@
 ---
-description: URL raiz para URLs de imagem relativos. Especifica o URL raiz para URLs de imagem relativos.
-seo-description: URL raiz para URLs de imagem relativos. Especifica o URL raiz para URLs de imagem relativos.
+description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos.
+seo-description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos.
 seo-title: RootUrl
 solution: Experience Manager
 title: RootUrl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 173ce99a-f87e-4700-a28a-1a87b8c55b85
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # RootUrl{#rooturl}
 
-URL raiz para URLs de imagem relativos. Especifica o URL raiz para URLs de imagem relativos.
+URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos.
 
-`attribute::RootUrl` é usado em vez de  `attribute::RootPath` quando um  `src=` ou  `mask=` valor é delimitado por {chaves} ou (parênteses).
+`attribute::RootUrl` é usado em vez de  `attribute::RootPath` quando um  `src=` valor  `mask=` ou é delimitado por {chaves} ou (parênteses).
 
 ## Propriedades {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
-Valor da string de texto. Caminho raiz absoluto do URL, incluindo o identificador de protocolo à esquerda. Os seguintes protocolos são suportados: HTTP, HTTPS e FTP.
+Valor da string de texto. Caminho raiz do URL absoluto, incluindo o identificador de protocolo à esquerda. Os seguintes protocolos são compatíveis: HTTP, HTTPS e FTP.
 
 ## Padrão {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 
-Herdado de `default::RootUrl` se não estiver definido. Se definido, mas vazio, URLs relativos não são suportados por esse catálogo de imagens.
+Herdado de `default::RootUrl` se não estiver definido. Se definido, mas vazio, os URLs relativos não são compatíveis com esse catálogo de imagens.
 
 ## Consulte também {#section-ade4789086df4e76ae041cd4acfa2f85}
 
