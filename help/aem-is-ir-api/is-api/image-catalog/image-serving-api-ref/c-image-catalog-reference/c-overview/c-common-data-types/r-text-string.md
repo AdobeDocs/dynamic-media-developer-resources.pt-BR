@@ -1,22 +1,23 @@
 ---
 description: Tipo de dados da string de texto.
 seo-description: Tipo de dados da string de texto.
-seo-title: String de texto
+seo-title: Sequência de texto
 solution: Experience Manager
-title: String de texto
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Sequência de texto
 uuid: d37ff12d-5c7a-4bb5-af61-44de85a86aa0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
 
-# Sequência de caracteres de texto{#text-string}
+# Sequência de texto{#text-string}
 
 Tipo de dados da string de texto.
 
-Os delimitadores de string são opcionais, a menos que a string contenha qualquer caractere `<CR>`, `<LF>` ou `<TAB>`. As aspas simples ou duplos podem ser usadas como delimitadores. Se forem usadas aspas, qualquer aspas incorporadas dentro da string deve ser escapada usando duas aspas consecutivas (por exemplo: Especial deste mês).
+Os delimitadores de string são opcionais, a menos que a string contenha qualquer caractere `<CR>`, `<LF>` ou `<TAB>`. Aspas simples ou duplas podem ser usadas como delimitadores. Se aspas forem usadas, qualquer aspas incorporadas à string deverá ser evitada usando duas aspas consecutivas (por exemplo: Especial deste mês).
