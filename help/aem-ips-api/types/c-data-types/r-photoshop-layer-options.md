@@ -1,15 +1,16 @@
 ---
-description: Opções de camada de imagem do Photoshop.
-seo-description: Opções de camada de imagem do Photoshop.
+description: Opções de camada de imagem da Photoshop.
+seo-description: Opções de camada de imagem da Photoshop.
 seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-topic: Dynamic Media Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
-Opções de camada de imagem do Photoshop.
+Opções de camada de imagem da Photoshop.
 
 Sintaxe
 
@@ -25,9 +26,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`layerNaming`*` | `xsd:string` | Escolha dos modos de nomenclatura de camada Photoshop. |
-| `*`âncora`*` | `xsd:string` | Escolha dos modos de âncora Photoshop. |
-| `*`createTemplate`*` | `xsd:boolean` | Se deseja criar um modelo a partir de camadas do Photoshop. |
+| `*`layerNaming`*` | `xsd:string` | Escolha dos modos de nomenclatura da camada da Photoshop. |
+| `*`âncora`*` | `xsd:string` | Opção de modos de âncora Photoshop. |
+| `*`createTemplate`*` | `xsd:boolean` | Criar um modelo a partir de camadas do Photoshop. |
 | `*`extractText`*` | `xsd:boolean` | Se o texto deve ser extraído como camadas de texto. |
-| `*`largeLayers`*` | `xsd:boolean` | Se as camadas devem ser estendidas para o tamanho completo do plano de fundo. |
+| `*`estenderLayers`*` | `xsd:boolean` | Estender camadas ao tamanho total do plano de fundo. |
 
