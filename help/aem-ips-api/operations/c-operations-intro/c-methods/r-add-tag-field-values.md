@@ -2,11 +2,12 @@
 description: Adiciona novos valores de tag ao dicionário de um campo de tag existente.
 solution: Experience Manager
 title: addTagFieldValues
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Sintaxe
 
 **Saída (addTagFieldValuesParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-c4049392f1c548f883b8b1f8f167bada}
 
