@@ -1,25 +1,26 @@
 ---
-description: Há duas opções para iniciar ou parar o Serviço de imagem no Linux.
-seo-description: Há duas opções para iniciar ou parar o Serviço de imagem no Linux.
-seo-title: Iniciando ou parando no Linux
+description: Há duas opções para iniciar ou parar o Image Serving no Linux.
+seo-description: Há duas opções para iniciar ou parar o Image Serving no Linux.
+seo-title: Iniciar ou parar no Linux
 solution: Experience Manager
-title: Iniciando ou parando no Linux
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Iniciar ou parar no Linux
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
 
-# Iniciando ou parando no Linux{#starting-or-stopping-on-linux}
+# Iniciar ou parar no Linux{#starting-or-stopping-on-linux}
 
-Há duas opções para iniciar ou parar o Serviço de imagem no Linux.
+Há duas opções para iniciar ou parar o Image Serving no Linux.
 
-* O script para start, parada e verificação do status do Serviço de imagem está localizado na pasta [!DNL ImageServing/bin]:
+* O script para iniciar, parar e verificar o status do Image Serving está localizado na pasta [!DNL ImageServing/bin]:
 
    `ImageServing.sh {start|stop|restart|status}`
 * A seguinte alternativa deve ser familiar aos administradores do sistema:
