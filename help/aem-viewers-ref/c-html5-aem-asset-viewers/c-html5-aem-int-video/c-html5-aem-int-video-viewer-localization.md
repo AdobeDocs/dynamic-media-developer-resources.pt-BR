@@ -1,29 +1,30 @@
 ---
-description: Determinado conteúdo exibido pelo Visualizador de vídeo interativo está sujeito a localização. Isso inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
-seo-description: Determinado conteúdo exibido pelo Visualizador de vídeo interativo está sujeito a localização. Isso inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
+description: Determinado conteúdo que o Visualizador de vídeo interativo exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
+seo-description: Determinado conteúdo que o Visualizador de vídeo interativo exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
 seo-title: Localização dos elementos da interface do usuário
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-topic: Dynamic Media
 uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 
-# Localização de elementos da interface do usuário{#localization-of-user-interface-elements}
+# Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
-Determinado conteúdo exibido pelo Visualizador de vídeo interativo está sujeito a localização. Isso inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
+Determinado conteúdo que o Visualizador de vídeo interativo exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para uma localidade em inglês ( `"en"`) fornecida com o visualizador predefinido e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para uma localidade em inglês ( `"en"`) fornecida com o visualizador pronto para uso e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
-Quando o visualizador é start, ele verifica a localidade atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado para essa localidade. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão predefinido.
+Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível para esse local. Se houver, ele usará o valor definido pelo usuário; caso contrário, retorna ao texto padrão pronto para uso.
 
-Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades suportadas, valores de texto SYMBOL para cada localidade e a localidade padrão.
+Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades compatíveis, valores de texto SYMBOL para cada localidade e o local padrão.
 
 Um exemplo desse objeto de localização é o seguinte:
 
@@ -41,7 +42,7 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
+No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece a localização de dois elementos da interface do usuário em cada localidade.
 
 O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
@@ -56,8 +57,8 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo ARIA para elemento visualizador de nível superior. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
@@ -69,31 +70,31 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
-   <td colname="col2"> <p> Reproduzir o estado do botão de pausa. </p> </td> 
+   <td colname="col2"> <p> Reproduzir estado do botão de pausa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Vídeo depurador. </p> </td> 
+   <td colname="col2"> <p>Limpador de vídeo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Tempo de vídeo na barra de controle. </p> </td> 
+   <td colname="col2"> <p>Tempo do vídeo na barra de controle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> Volume silencioso selecionado. </p> </td> 
+   <td colname="col2"> <p> Volume mutável selecionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Volume mutable desmarcado. </p> </td> 
+   <td colname="col2"> <p>Volume mutável desmarcado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p> Rótulo do botão deslizante do volume exposto por meio do atributo ARIA <span class="codeph"> aria-valuetext </span>. </p> </td> 
+   <td colname="col2"> <p> Rótulo do botão deslizante do volume exposto por meio do atributo ARIA <span class="codeph"> aria-value </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de tela inteira em estado normal. </p> </td> 
+   <td colname="col2"> <p>Botão de tela cheia em estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -105,7 +106,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p> Estado desmarcado do botão de legenda fechada. </p> </td> 
+   <td colname="col2"> <p> Estado do botão de legenda fechada desmarcado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InterativeSwatches.BANNER  </span> </p> </td> 
@@ -113,11 +114,11 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de rolagem para cima. </p> </td> 
+   <td colname="col2"> <p>Botão Rolar para cima. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de rolagem para baixo. </p> </td> 
+   <td colname="col2"> <p>Botão Rolar para baixo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP  </span> </p> </td> 
@@ -133,7 +134,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo Link. </p> </td> 
+   <td colname="col2"> <p>Botão Fechar superior direito da caixa de diálogo Link. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
@@ -145,7 +146,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>botão Cancelar. </p> </td> 
+   <td colname="col2"> <p>Botão Cancelar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
@@ -153,11 +154,11 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p> Selecione o botão Todos. </p> </td> 
+   <td colname="col2"> <p> Selecione o botão All . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de compartilhamento do Facebook. </p> </td> 
+   <td colname="col2"> <p>Botão Compartilhar do Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
@@ -165,7 +166,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Chamar para o botão Fechar do painel de ação. </p> </td> 
+   <td colname="col2"> <p>Chame para o botão Fechar do painel de ação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
