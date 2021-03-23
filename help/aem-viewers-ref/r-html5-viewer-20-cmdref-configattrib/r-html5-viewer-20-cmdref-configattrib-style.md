@@ -2,20 +2,21 @@
 description: estilo
 solution: Experience Manager
 title: estilo
-topic: Dynamic Media
 uuid: 6320c8dd-4827-41dc-a621-6fdf22e55003
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 
 # style{#style}
 
-Você pode aplicar o seguinte comando da string do query URL e da configuração. O comando aplicado na string do query URL sempre tem precedência sobre o mesmo comando presente na configuração.
+Você pode aplicar o seguinte comando da string de consulta de URL e da configuração. O comando aplicado na sequência de consulta do URL sempre tem precedência sobre o mesmo comando presente na configuração.
 
 `style= *`cssPath`*`
 
@@ -23,12 +24,12 @@ Você pode aplicar o seguinte comando da string do query URL e da configuração
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Local CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, será resolvido em relação ao local da página HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Localização CSS relativa ou absoluta. </p> <p>Especifica o local do arquivo CSS personalizado. Se o <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, ele será resolvido em relação ao local da página HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todas as referências de ativos no arquivo CSS são resolvidas em relação ao local do arquivo CSS, não ao local da página HTML chamadora.
+Todas as referências de ativos no arquivo CSS são resolvidas no local do arquivo CSS, não no local da página HTML de chamada.
 
 ## Propriedades {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
