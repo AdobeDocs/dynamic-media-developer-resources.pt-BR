@@ -1,23 +1,24 @@
 ---
-description: Elemento de filtro de endereço. Opcional nos elementos <rule> e <pathrule>.
-seo-description: Elemento de filtro de endereço. Opcional nos elementos <rule> e <pathrule>.
-seo-title: enderesfilter
+description: Elemento de filtro de endereço. Opcional nos elementos <rule> e <pathrule> .
+seo-description: Elemento de filtro de endereço. Opcional nos elementos <rule> e <pathrule> .
+seo-title: addressFilter
 solution: Experience Manager
-title: enderesfilter
-topic: Dynamic Media Image Serving - Image Rendering API
+title: addressFilter
 uuid: 677eb19f-fd1a-4f74-8d55-6045baf01bf5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
 
 
-# enderesfilter{#addressfilter}
+# address_filter{#addressfilter}
 
-Elemento de filtro de endereço. Opcional nos elementos `<rule>` e `<pathrule>`.
+Elemento de filtro de endereço. Opcional em elementos `<rule>` e `<pathrule>`.
 
 Substitui `attribute::ClientAddressFilter` quando a regra é aplicada.
 
@@ -27,15 +28,15 @@ Nenhum.
 
 ## Dados {#section-c762bdfe425140d689ea5abf25e9a48a}
 
-Lista separada por vírgulas de endereços IP. Cada endereço individual pode incluir um sufixo opcional de máscara de rede para permitir a especificação de intervalos de endereço IP. Consulte `attribute::ClientAddressFilter` para obter detalhes.
+Lista de endereços IP separada por vírgulas. Cada endereço individual pode incluir um sufixo opcional de máscara de rede para permitir a especificação de intervalos de endereço IP. Consulte `attribute::ClientAddressFilter` para obter detalhes.
 
 ## Descrição {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-O acesso a este catálogo de imagens pode ser restrito a um ou mais endereços IP do cliente específicos ao especificá-los em um elemento `<addressfilter>`. Um erro de &quot;solicitação recusada&quot; será retornado ao cliente se o endereço IP do cliente não for correspondente.
+O acesso a esse catálogo de imagens pode ser restrito a um ou mais endereços IP do cliente específicos, especificando-os em um elemento `<addressfilter>`. Um erro &quot;solicitação recusada&quot; é retornado ao cliente se o endereço IP do cliente não corresponder.
 
 O acesso não é restrito se `<addressfilter>` estiver vazio ou não for especificado.
 
-Se `<expression>` no elemento `<rule>` estiver ausente ou vazio, `<addressfilter>` será aplicado a todas as solicitações.
+Se o `<expression>` no elemento `<rule>` estiver ausente ou vazio, o `<addressfilter>` será aplicado a todas as solicitações.
 
 ## Consulte também {#section-6f51ec2218d9450bb7642f9fdad1988a}
 
