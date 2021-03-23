@@ -4,12 +4,13 @@ seo-description: ID de localidade padrão. ID de localidade a ser usada para fin
 seo-title: DefaultLocale
 solution: Experience Manager
 title: DefaultLocale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ID de localidade padrão. ID de localidade a ser usada para fins de localizaçã
 
 ## Propriedades {#section-a101e9658d304e9caf032a99ecb80386}
 
-Sequência de caracteres de texto. Ignorado se `attribute::LocaleMap` e `attribute::LocaleStrMap` estiverem vazios ou quando `locale=` for especificado e não estiver vazio.
+Sequência de texto. Ignorado se `attribute::LocaleMap` e `attribute::LocaleStrMap` estiverem vazias ou quando `locale=` for especificado e não estiver vazio.
 
 ## Consulte também {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
