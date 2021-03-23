@@ -4,12 +4,13 @@ seo-description: Define a lista de ativos associados a um conjunto de imagens.
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Define a lista de ativos associados a um conjunto de imagens.
 
-Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e força o valor a ser verdadeiro.
+Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e força o valor a true.
 
 ## Tipos de usuário autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -32,7 +33,7 @@ Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e 
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura e gravação ao ativo do conjunto de imagens e acesso de leitura a cada ativo membro.
+>O usuário deve ter acesso de leitura e gravação ao ativo do conjunto de imagens e acesso de leitura a cada ativo do membro.
 
 ## Parâmetros {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -52,13 +53,13 @@ Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Alça da empresa. </p> </td> 
+   <td colname="col4"> <p>Manuseio da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Alça do conjunto de imagens. </td> 
+   <td colname="col4"> Identificador do conjunto de imagens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
@@ -71,7 +72,7 @@ Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e 
 
 **Saída (setImageSetMembersReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-7b87219034464aa98524178ccee27738}
 
