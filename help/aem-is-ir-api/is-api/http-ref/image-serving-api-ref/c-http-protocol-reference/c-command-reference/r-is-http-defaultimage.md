@@ -1,15 +1,16 @@
 ---
-description: Imagem de resposta padrão. Especifica a entrada de imagem ou catálogo a ser usada quando uma imagem não puder ser encontrada.
-seo-description: Imagem de resposta padrão. Especifica a entrada de imagem ou catálogo a ser usada quando uma imagem não puder ser encontrada.
+description: Imagem de resposta padrão. Especifica a imagem ou entrada de catálogo a ser usada quando uma imagem não puder ser encontrada.
+seo-description: Imagem de resposta padrão. Especifica a imagem ou entrada de catálogo a ser usada quando uma imagem não puder ser encontrada.
 seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # defaultImage{#defaultimage}
 
-Imagem de resposta padrão. Especifica a entrada de imagem ou catálogo a ser usada quando uma imagem não puder ser encontrada.
+Imagem de resposta padrão. Especifica a imagem ou entrada de catálogo a ser usada quando uma imagem não puder ser encontrada.
 
 ` defaultImage= *`objeto`*`
 
@@ -32,21 +33,21 @@ Imagem de resposta padrão. Especifica a entrada de imagem ou catálogo a ser us
 
 >[!NOTE]
 >
->O mecanismo de imagem padrão não se aplica a objetos SVG. Um erro será retornado se o objeto SVG especificado na solicitação não puder ser encontrado.
+>O mecanismo de imagem padrão não se aplica a objetos SVG. Um erro é retornado se o objeto SVG especificado na solicitação não puder ser encontrado.
 
-Se `attribute::DefaultImageMode=0`, *`object`* substituirá a solicitação original inteira, mesmo se apenas uma imagem em uma composição de várias imagens estiver ausente. Os únicos comandos retidos da solicitação original são: `wid=`, `hei=`, `fmt=`, `qlt=`.
+Se `attribute::DefaultImageMode=0`, *`object`* substitui toda a solicitação original, mesmo se apenas uma imagem em uma composição de várias imagens estiver ausente. Os únicos comandos retidos da solicitação original são: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-Se `attribute::DefaultImageMode=1`, o objeto substituirá apenas a imagem de camada ausente; os atributos para a camada ausente são aplicados e a composição é processada e retornada como de costume.
+Se `attribute::DefaultImageMode=1`, o objeto substitui apenas a imagem da camada ausente; os atributos para a camada ausente são aplicados e o composto é processado e retornado como de costume.
 
 ## Propriedades {#section-d30923d8dc4042eba10989212dd70887}
 
-Atributo de solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se `req=` for diferente de `img` ou `tmb`.
+Atributo da solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se `req=` for diferente de `img` ou `tmb`.
 
 ## Restrições {#section-30df31bc8cac41cd917f1e45196779c2}
 
 As fontes de imagem estrangeiras não são abrangidas pelo mecanismo de imagem predefinido; um erro será retornado se uma fonte de imagem estrangeira não for válida.
 
-O Serviço de imagem reverte para `DefaultImageMode=0` quando as solicitações de renderização de imagem aninhadas ou FXG falham.
+O Serviço de imagem reverte para `DefaultImageMode=0` quando a Renderização de imagem aninhada ou as solicitações de renderização FXG falham.
 
 ## Padrão {#section-0676c66b233c46a3a3a1517da4ace998}
 
