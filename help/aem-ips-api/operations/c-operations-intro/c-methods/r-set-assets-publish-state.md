@@ -4,12 +4,13 @@ seo-description: Determina se um lote de ativos está pronto para ser publicado.
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -40,16 +41,16 @@ Esta é a versão em lote de [setAssetState](../../../operations/c-operations-in
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
 | `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sim | Matriz de valores de estado de publicação para os ativos. |
 
 **Saída (setAssetsPublishStateParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de ativos atualizados com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de ativos que gerou um aviso quando a operação tentou atualizá-los. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de ativos que gerou um erro quando a operação tentou excluí-los. |
+| `*`successCount`*` | `xsd:int` | Sim | A quantidade de ativos atualizados com êxito. |
+| `*`warningCount`*` | `xsd:int` | Sim | O número de ativos que geraram um aviso quando a operação tentou atualizá-los. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de ativos que geraram um erro quando a operação tentou excluí-los. |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um aviso. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um erro. |
 
