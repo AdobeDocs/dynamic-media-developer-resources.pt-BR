@@ -4,12 +4,13 @@ seo-description: Resolução de impressão. Substitui o valor de resolução de 
 seo-title: printRes
 solution: Experience Manager
 title: printRes
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -28,13 +29,13 @@ Resolução de impressão. Substitui o valor de resolução de impressão incorp
  </tr> 
 </table>
 
-A resolução de impressão é normalmente definida por `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem de camada com o número de camada mais baixo.
+A resolução de impressão é normalmente definida por `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem da camada com o número de camada mais baixo.
 
-Definir a resolução da impressão não altera o tamanho do pixel da imagem de resposta.
+Definir a resolução de impressão não altera o tamanho do pixel da imagem de resposta.
 
 ## Propriedades {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-Atributo de solicitação. Aplica-se independentemente da configuração de camada atual.
+Atributo da solicitação. Aplica-se independentemente da configuração de camada atual.
 
 ## Padrão {#section-d7d89fd235cc418fb381014612530f00}
 
