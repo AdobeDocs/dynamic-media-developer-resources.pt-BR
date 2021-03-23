@@ -1,15 +1,16 @@
 ---
-description: Definição de público alvo para uma ação de clique no navegador.
-seo-description: Definição de público alvo para uma ação de clique no navegador.
+description: Definição de meta para uma ação de clique no navegador.
+seo-description: Definição de meta para uma ação de clique no navegador.
 seo-title: ImageMapDefinition
 solution: Experience Manager
 title: ImageMapDefinition
-topic: Dynamic Media Image Production System API
 uuid: e3b9a304-5c43-46ce-8e87-860b49006a37
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '89'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # ImageMapDefinition{#imagemapdefinition}
 
-Definição de público alvo para uma ação de clique no navegador.
+Definição de meta para uma ação de clique no navegador.
 
 Sintaxe
 
@@ -27,7 +28,7 @@ Sintaxe
 |---|---|---|
 | `*`name`*` | `xsd:string` | O nome da definição do mapa de imagem. |
 | `*`shapeType`*` | `xsd:string` | Um dos valores de forma de região. |
-| `*`região`*` | `xsd:string` | Coordenadas do mapa de imagens. O formato é baseado nos atributos da tag HTML `<area>`. |
-| `*`ação`*` | `xsd:string` | Outros atributos a serem incluídos na tag HTML `<area>`, incluindo o URL `href`. |
-| `*`enabled`*` | `xsd:boolean` | True se o mapa de imagem estiver ativado. |
+| `*`região`*` | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado nos atributos de tag HTML `<area>` . |
+| `*`ação`*` | `xsd:string` | Outros atributos a serem incluídos na tag HTML `<area>` , incluindo a URL `href`. |
+| `*`ativado`*` | `xsd:boolean` | Verdadeiro se o mapa de imagem estiver ativado. |
 
