@@ -1,15 +1,16 @@
 ---
-description: Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo da imagem de resposta especificado por wid= e hei= ou pelo atributo DefaultThumbPix.
-seo-description: Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo da imagem de resposta especificado por wid= e hei= ou pelo atributo DefaultThumbPix.
-seo-title: ThumbHorizAlign
+description: Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo de imagem de resposta especificado por wid= e hei= ou pelo atributo DefaultThumbPix.
+seo-description: Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo de imagem de resposta especificado por wid= e hei= ou pelo atributo DefaultThumbPix.
+seo-title: MiniaturaAlinhar
 solution: Experience Manager
-title: ThumbHorizAlign
-topic: Dynamic Media Image Serving - Image Rendering API
+title: MiniaturaAlinhar
 uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # ThumbHorizAlign{#thumbhorizalign}
 
-Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo da imagem de resposta especificado por wid= e hei= ou pelo atributo::DefaultThumbPix.
+Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo de imagem de resposta especificado por wid= e hei= ou pelo atributo::DefaultThumbPix.
 
-Usado somente para solicitações de miniatura ( `req=tmb`).
+Usado somente para solicitações de miniatura ( `req=tmb`) .
 
 ## Propriedades {#section-c98f793986cd4f98a3995615e3b68f76}
 
@@ -31,4 +32,4 @@ Herdado de `default::ThumbHorizAlign` se não estiver definido ou se estiver vaz
 
 ## Consulte também {#section-a74a13c3643140cf971d7a4275e0fdb3}
 
-[catálogo::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03) ,  [atributo::DefaultThumbPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141),  [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47),  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)
+[catalog::ThumbType](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03) ,  [attribute::DefaultThumbPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md#reference-cf52bb74bed2466e8bc8adb0cacd6141),  [wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47),  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96)
