@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para Flyout Viewer.
-seo-description: Referência da API JavaScript para Flyout Viewer.
+description: Referência da API do JavaScript para o Flyout Viewer.
+seo-description: Referência da API do JavaScript para o Flyout Viewer.
 seo-title: dispor
 solution: Experience Manager
 title: dispor
-topic: Dynamic Media
 uuid: 08720384-1520-4a5d-bd26-a043ba708774
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # dispor{#dispose}
 
-Referência da API JavaScript para Flyout Viewer.
+Referência da API do JavaScript para o Flyout Viewer.
 
 `dispose()`
 
-Descarta essa instância do visualizador, liberando todos os recursos usados pela lógica do visualizador e excluindo todos os objetos e componentes internos criados pelo visualizador em tempo de execução.
+Dispõe essa instância do visualizador, liberando todos os recursos usados pela lógica do visualizador e excluindo todos os objetos e componentes internos criados pelo visualizador em tempo de execução.
 
-O código da página da Web também deve excluir a variável de instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
+O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de evento diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente não registrados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
 
 Não acesse mais a API do visualizador depois que `dispose()` for chamado.
 
