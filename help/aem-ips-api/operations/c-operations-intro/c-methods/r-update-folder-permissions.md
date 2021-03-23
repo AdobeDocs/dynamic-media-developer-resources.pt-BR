@@ -4,12 +4,13 @@ seo-description: Atualize as permissões da pasta.
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -33,14 +34,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador da pasta. |
-| `*`updateChildren`*` | `xsd:boolean` | Sim | Determina se é necessário atualizar filhos com permissões definidas para a pasta de nível superior. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
+| `*`updateChildren`*` | `xsd:boolean` | Sim | Determina se deseja atualizar filhos com permissões definidas para a pasta de nível superior. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | Sim | A matriz de atualizações de permissão que você deseja aplicar à pasta. |
 
 **Saída (updateFolderPermissionsReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-c3fe4d4388674870a3856c35ef66b631}
 
