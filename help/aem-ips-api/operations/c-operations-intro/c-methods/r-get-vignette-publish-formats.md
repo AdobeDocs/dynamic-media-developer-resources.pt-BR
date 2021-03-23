@@ -2,12 +2,13 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-topic: Dynamic Media Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -30,17 +31,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
 
 **Saída (getVignettePublishFormatsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
+| `*`vinhetaFormatArray`*` | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
 
 ## Exemplos {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Essa amostra de código retorna dois formatos de publicação de vinheta associados a uma empresa específica. As informações são retornadas em um storage, que é truncado para brevidade.
+Essa amostra de código retorna dois formatos de publicação de vinheta associados a uma empresa específica. As informações são retornadas em uma matriz, que é truncada por motivos de brevidade.
 
 **Solicitação**
 
