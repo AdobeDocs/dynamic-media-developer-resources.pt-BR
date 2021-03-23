@@ -1,15 +1,16 @@
 ---
-description: Dados do usuário do catálogo de imagens. Retorna os dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
-seo-description: Dados do usuário do catálogo de imagens. Retorna os dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
+description: Dados do usuário do catálogo de imagens. Retorna dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
+seo-description: Dados do usuário do catálogo de imagens. Retorna dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
 seo-title: userdata
 solution: Experience Manager
 title: userdata
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # userdata{#userdata}
 
-Dados do usuário do catálogo de imagens. Retorna os dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
+Dados do usuário do catálogo de imagens. Retorna dados do usuário para a entrada do catálogo de imagens especificada no caminho do url.
 
 `req=userdata[,text|{xml[, *`codificação`*]}|json]`
 
@@ -28,17 +29,17 @@ Dados do usuário do catálogo de imagens. Retorna os dados do usuário para a e
  </tr> 
 </table>
 
-O conteúdo de `catalog::UserData` é retornado. Quando o formato &#39;text&#39; é especificado, todas as instâncias de `??` em `catalog::UserData`são substituídas por terminadores de linha e um terminador de linha único (CR/LF) é anexado ao final. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta será composta apenas por um terminador de linha. A formatação apropriada é aplicada quando o formato &#39;xml&#39; ou &#39;json&#39; é solicitado.
+O conteúdo de `catalog::UserData` é retornado. Quando o formato &#39;text&#39; é especificado, todas as instâncias de `??` em `catalog::UserData`são substituídas por terminadores de linha e um terminador de linha único (CR/LF) é anexado ao final. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta será composta apenas de um terminador de linha único. A formatação apropriada é aplicada quando o formato &#39;xml&#39; ou &#39;json&#39; é solicitado.
 
-Outros comandos na string de solicitação são ignorados.
+Outros comandos na cadeia de caracteres de solicitação são ignorados.
 
 A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::Expiration`.
 
 >[!NOTE]
 >
->O caractere de dois pontos não é permitido nos nomes das chaves da propriedade userdata.
+>O caractere de dois pontos não é permitido nos nomes de chave da propriedade userdata.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
