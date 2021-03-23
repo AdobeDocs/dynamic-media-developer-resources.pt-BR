@@ -4,12 +4,13 @@ seo-description: Renomeia uma pasta.
 seo-title: renameFolder
 solution: Experience Manager
 title: renameFolder
-topic: Dynamic Media Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -40,15 +41,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa com as pastas que deseja renomear. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Direcione para a pasta. |
-| `*`folderName`*` | `xsd:string` | Sim | Nome da nova pasta. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule para a empresa com as pastas que deseja renomear. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Lide com a pasta . |
+| `*`folderName`*` | `xsd:string` | Sim | Novo nome da pasta. |
 
 **Saída (renameFolderReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sim | Tratar a pasta renomeada. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Lida com a pasta renomeada. |
 
 ## Exemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 
