@@ -4,12 +4,13 @@ seo-description: Defina ou atualize o estado de publicação de um ou mais ativo
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-topic: Dynamic Media Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Defina ou atualize o estado de publicação de um ou mais ativos. Você pode def
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sim | Uma gama de ativos e seus novos estados de publicação. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
+| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sim | Uma matriz de ativos e seus novos estados de publicação. |
 
 **Saída (setAssetsContexStateReturn)**
 
@@ -55,7 +56,7 @@ Defina ou atualize o estado de publicação de um ou mais ativos. Você pode def
 
 ## Exemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Esta amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
+Este exemplo de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 
