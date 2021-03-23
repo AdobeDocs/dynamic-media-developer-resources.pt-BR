@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o visualizador do Video360
-seo-description: Referência da API JavaScript para o visualizador do Video360
+description: Referência da API do JavaScript para o visualizador do Video360
+seo-description: Referência da API do JavaScript para o visualizador do Video360
 seo-title: setVideo
 solution: Experience Manager
 title: setVideo
-topic: Dynamic Media
 uuid: 749aa32c-c27f-476c-954b-d4524528bccc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # setVideo{#setvideo}
 
-Referência da API JavaScript para o visualizador do Video360
+Referência da API do JavaScript para o visualizador do Video360
 
 `setVideo(videoUrl)`
 
-Define novo vídeo externo. Pode ser chamado a qualquer momento, antes e depois de `init()`. Se chamado depois de `init()`, o visualizador troca o vídeo em tempo de execução.
+Define o novo vídeo externo. Pode ser chamado a qualquer momento, antes e depois de `init()`. Se chamado depois de `init()`, o visualizador troca o vídeo em tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -31,7 +32,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-refe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} é um URL absoluto para o novo vídeo. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} é um URL absoluto para o novo vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
