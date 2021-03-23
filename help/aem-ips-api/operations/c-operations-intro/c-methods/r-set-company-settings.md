@@ -4,12 +4,13 @@ seo-description: Define vários valores de configuração específicos da empres
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -34,23 +35,23 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
 | `*`overwriteMode`*` | `xsd:string` | Não | Modo de substituição de ativo. |
 | `*`keepPublishState`*` | `xsd:boolean` | Não | Defina como `true` para preservar o estado de publicação quando um ativo for carregado novamente. |
 | `*`defaultSourceProfileHandle`*` | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de origem padrão. |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cores de exibição padrão. |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de exibição padrão. |
 | `*`iptcExifMappingXsltHandle`*` | `xsd:string` | Não | Ativo XSL usado para mapear metadados IPTC e EXIF para campos de metadados IPS. |
 | `*`xmpMappingXsltHandle`*` | `xsd:string` | Não | Ativo XSL usado para mapear metadados XMP para campos de metadados IPS. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | Não | Espaço em disco livre mínimo (em KB) disponível antes do envio de uma mensagem de aviso. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Não | Defina como `true` para enviar aos administradores de empresas uma notificação sempre que os ativos forem esvaziados do lixo. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | Não | Espaço mínimo em disco livre (em KB) disponível antes do envio de uma mensagem de aviso. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Não | Defina como `true` para enviar uma notificação aos administradores da empresa sempre que os ativos forem esvaziados da lixeira. |
 
 **Saída (setCompanySettingsReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-Esta amostra de código define uma configuração de empresa.
+Essa amostra de código define a configuração de uma empresa.
 
 **Solicitação**
 
