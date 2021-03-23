@@ -4,13 +4,14 @@ seo-description: Parâmetro comum a todos os visualizadores.
 seo-title: config2
 solution: Experience Manager
 title: config2
-topic: Dynamic Media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
+feature: Dynamic Media Classic,Visualizadores,SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 9%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ Parâmetro comum a todos os visualizadores.
 
 >[!NOTE]
 >
->Esse comando não se aplica ao Visualizador de imagens de vídeo.
+>Este comando não se aplica ao Visualizador de imagem de vídeo.
 
 ` config2= *`companypreset`*`
 
