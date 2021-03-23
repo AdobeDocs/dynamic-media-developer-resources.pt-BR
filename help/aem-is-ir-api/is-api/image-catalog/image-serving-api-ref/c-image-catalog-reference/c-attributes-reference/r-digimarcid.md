@@ -1,15 +1,16 @@
 ---
-description: Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação Digimarc.
-seo-description: Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação Digimarc.
+description: Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação do Digimarc.
+seo-description: Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação do Digimarc.
 seo-title: DigimarcId
 solution: Experience Manager
 title: DigimarcId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23f1952f-71b7-4b2a-917d-8161ea855ac9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # DigimarcId{#digimarcid}
 
-Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação Digimarc.
+Informações do usuário da Digimarc. Especifica as informações do usuário para incorporação do Digimarc.
 
 ## Propriedades {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
@@ -25,11 +26,11 @@ Cinco ou seis números inteiros separados por vírgulas. O terceiro e o quarto n
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Os `creator-id` e `creator-pin` são fornecidos pela Digimarc quando o serviço é adquirido. Os valores não utilizados devem ser deixados em branco.
+Os `creator-id` e `creator-pin` são fornecidos pela Digimarc quando o serviço é comprado. Os valores não utilizados devem ficar vazios.
 
-`durability` especifica a intensidade de incorporação da marca d&#39;água Digimarc. Pode ser 1, 2, 3 ou 4, com 1 indicador de menor durabilidade e 4 maior.
+`durability` especifica a força de incorporação da marca d&#39;água Digimarc. Pode ser 1, 2, 3 ou 4, com 1 indicador de durabilidade mais fraca e 4 maior.
 
-Defina `chroma` como 1 para codificar a marca d&#39;água nos dados de crominância da imagem ou como 0 (padrão) para codificá-la na luminância. Essa configuração é ignorada ao produzir imagens em tons de cinza.
+Defina `chroma` como 1 para codificar a marca d&#39;água nos dados de crominância da imagem ou como 0 (padrão) para codificá-la na luminância. Essa configuração é ignorada ao exibir imagens em tons de cinza.
 
 ## Padrão {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
