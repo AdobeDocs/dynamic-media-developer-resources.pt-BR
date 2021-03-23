@@ -1,21 +1,22 @@
 ---
 description: Usado por SystemFieldCondition/op.
 seo-description: Usado por SystemFieldCondition/op.
-seo-title: Operadores de comparação numéricos/de datas
+seo-title: Operadores de comparação numérica/de data
 solution: Experience Manager
-title: Operadores de comparação numéricos/de datas
-topic: Dynamic Media Image Production System API
+title: Operadores de comparação numérica/de data
 uuid: 95f923df-ba72-4926-a5a4-51cea6d39495
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
 
-# Operadores de comparação numéricos/de datas{#numeric-date-comparison-operators}
+# Operadores de comparação numérica/de data{#numeric-date-comparison-operators}
 
 Usado por SystemFieldCondition/op.
 
