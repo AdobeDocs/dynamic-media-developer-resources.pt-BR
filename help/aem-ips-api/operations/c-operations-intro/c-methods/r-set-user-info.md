@@ -4,12 +4,13 @@ seo-description: Define os atributos do usuário (por exemplo, nome, email, fun�
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -38,14 +39,14 @@ Sintaxe
 | `*`firstName`*` | `xsd:string` | Sim | Nome. |
 | `*`lastName`*` | `xsd:string` | Sim | Sobrenome. |
 | `*`email`*` | `xsd:string` | Sim | Email do usuário. |
-| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Entretanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Não | Definir a data de expiração da senha. |
+| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, a função `IpsAdmin` substitui outras configurações por empresa. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Não | Defina a data de expiração da senha. |
 | `*`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
-| `*`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de alças de empresa. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
 
 **Saída (setUserInfoReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-272c103076fb4de0a53729e2f6bfb895}
 
