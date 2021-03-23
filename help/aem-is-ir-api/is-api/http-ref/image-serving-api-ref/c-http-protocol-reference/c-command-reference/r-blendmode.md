@@ -1,15 +1,16 @@
 ---
-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
-seo-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
+description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
+seo-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # blendMode{#blendmode}
 
-Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula os modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação da Photoshop para obter detalhes.
+Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## Propriedades {#section-418aad5a417f49929d1953e226e5c8dd}
 
-Atributo da camada. Ignorado por `layer=0` e `layer=comp`.
+Atributo de camada. Ignorado por `layer=0` e `layer=comp`.
 
 ## Padrão {#section-69829acc6532448d8612a4a54e86f00e}
 
