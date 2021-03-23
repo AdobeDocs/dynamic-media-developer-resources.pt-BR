@@ -1,19 +1,20 @@
 ---
-description: close
+description: fechadura
 solution: Experience Manager
-title: close
-topic: Dynamic Media
+title: fechadura
 uuid: 2e3d3a50-6990-4ab1-831a-195465aea392
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 9%
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
-# close-button{#closebutton}
+# closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -21,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão de fechamento, ou defina como <span class="codeph"> 0</span> para ocultar o botão de fechamento. </p> </td> 
+   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão de fechamento ou defina como <span class="codeph"> 0</span> para ocultar o botão de fechamento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
