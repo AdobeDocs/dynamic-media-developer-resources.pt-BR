@@ -1,33 +1,34 @@
 ---
-description: Alinhamento de renderização de textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
-seo-description: Alinhamento de renderização de textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
+description: Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
+seo-description: Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 seo-title: alinhar
 solution: Experience Manager
 title: alinhar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 2%
+source-wordcount: '205'
+ht-degree: 1%
 
 ---
 
 
-# alinhar{#align}
+# align{#align}
 
-Alinhamento de renderização de textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
+Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 
 `align=0|1|2|3|4|5|6`
 
 <table id="simpletable_D15233999E35488EB2F933BD72798E2F"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>Origem padrão (correspondência central). </p></td> 
+  <td class="stentry"> <p>Origem padrão (centro-correspondência). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Origem de correspondência contínua. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,22 +36,22 @@ Alinhamento de renderização de textura. Especifica qual dos pontos de origem d
   <td class="stentry"> <p>Alinhamento aleatório. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3,6 </p></td> 
+  <td class="stentry"> <p>3.6. </p></td> 
   <td class="stentry"> <p>Origem definida pelo usuário. </p></td> 
  </tr> 
 </table>
 
 O renderizador aplica a textura ao objeto para que o ponto de ancoragem da textura ( `anchor=`) coincida com o ponto de origem especificado.
 
-Cada objeto pode definir até 6 pontos de origem (0,1, 3, 4, 5, 6). Se um valor `align` for especificado, mas o ponto de origem correspondente não for definido pelo objeto de vinheta, o ponto de origem padrão (correspondência central) será usado.
+Cada objeto pode definir até 6 pontos de origem (0,1, 3, 4, 5, 6). Se um valor `align` for especificado, mas o ponto de origem correspondente não for definido pelo objeto da vinheta, o ponto de origem padrão (correspondência central) será usado.
 
-`align=2` especifica o alinhamento aleatório de textura, caso em que  `anchor=` é efetivamente ignorado.
+`align=2` especifica o alinhamento de textura aleatória, nesse caso  `anchor=` é efetivamente ignorado.
 
 Usada principalmente para materiais estofados, possivelmente para tecidos de vestuário, para gerenciar o alinhamento da textura entre objetos adjacentes.
 
 ## Propriedades {#section-350fadc87dcf4812a8a02d1c3d6697a0}
 
-Atributo material. Ignorado se um objeto de quadro de revestimento de parede, gabinete, equipamento ou janela estiver selecionado ou se o material não for uma textura repetível.
+Atributo de material. Ignorado se for selecionado um objeto de estrutura de parede, armário, equipamento ou revestimento de janela, ou se o material não for uma textura repetível.
 
 ## Padrão {#section-3231c2854bae4477836b626ac208dd34}
 
