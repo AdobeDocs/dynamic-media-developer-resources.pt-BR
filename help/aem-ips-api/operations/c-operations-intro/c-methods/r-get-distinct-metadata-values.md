@@ -1,15 +1,16 @@
 ---
-description: Retorna todos os valores para um campo de metadados.
-seo-description: Retorna todos os valores para um campo de metadados.
+description: Retorna todos os valores de um campo de metadados.
+seo-description: Retorna todos os valores de um campo de metadados.
 seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-topic: Dynamic Media Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
-Retorna todos os valores para um campo de metadados.
+Retorna todos os valores de um campo de metadados.
 
 Sintaxe
 
