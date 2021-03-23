@@ -2,12 +2,13 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-topic: Dynamic Media
 uuid: 748adb73-bfb6-4fce-aa6a-4216184edabb
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,15 +16,15 @@ ht-degree: 0%
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`diviserWidthdividerColordivOpacityborderOnOffborderColorfillColor`*`]
+[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`divWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
 
-Controla a aparência do componente quando um [!DNL `PageView.frametransition`] está definido para [!DNL `turn`] ou para [!DNL `auto`] em sistemas de desktop.
+Controla a aparência do componente quando um [!DNL `PageView.frametransition`] está definido como [!DNL `turn`] ou como [!DNL `auto`] em sistemas de desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> divWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> A largura, em pixels, da sombra do divisor de página que separa as páginas esquerda e direita na página espelhada. Ele também controla a largura da sombra em execução exibida ao lado da página de viragem. </p> </td> 
+   <td colname="col2"> <p> A largura em pixels da sombra do divisor de página que separa as páginas esquerda e direita na página espelhada. Ele também controla a largura da sombra em execução exibida ao lado da página de viragem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> divOpacity</span></span> </p> </td> 
