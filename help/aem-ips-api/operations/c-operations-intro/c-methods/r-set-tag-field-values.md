@@ -4,12 +4,13 @@ seo-description: Define os valores do dicionário de tags para um campo de tag e
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -33,13 +34,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
 | `*`fieldHandle`*` | `xsd:string` | Sim | Identificador de campo de tag. |
 | `*`valueArray`*` | `types:StringArray` | Sim | Uma matriz de valores de tag que substitui o dicionário existente do campo. As associações de ativos são mantidas quando um novo valor corresponde a um valor existente. |
 
 **Saída (setTagFieldValuesReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-b11cafd9bed54ab5836c737cc075c918}
 
