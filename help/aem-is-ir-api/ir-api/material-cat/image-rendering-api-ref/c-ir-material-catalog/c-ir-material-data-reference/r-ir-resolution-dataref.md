@@ -1,15 +1,16 @@
 ---
-description: Resolução. Resolução de imagem "do mundo real", normalmente expressa como pixels por polegada, mas também pode estar em outras unidades, como pixels por metro.
-seo-description: Resolução. Resolução de imagem "do mundo real", normalmente expressa como pixels por polegada, mas também pode estar em outras unidades, como pixels por metro.
+description: Resolução. Resolução de imagem do "mundo real", normalmente expressa como pixels por polegada, mas também em outras unidades, como pixels por metro.
+seo-description: Resolução. Resolução de imagem do "mundo real", normalmente expressa como pixels por polegada, mas também em outras unidades, como pixels por metro.
 seo-title: Resolução
 solution: Experience Manager
 title: Resolução
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Resolução{#resolution}
 
-Resolução. Resolução de imagem &quot;do mundo real&quot;, normalmente expressa como pixels por polegada, mas também pode estar em outras unidades, como pixels por metro.
+Resolução. Resolução de imagem do &quot;mundo real&quot;, normalmente expressa como pixels por polegada, mas também em outras unidades, como pixels por metro.
 
 ## Propriedades {#section-985ca2ad858c4e9c9cbb303f55447553}
 
-Número real, maior que 0. Necessário para materiais de textura e decal, a menos que a resolução da imagem seja a mesma do atributo::Resolution. Ignorados por materiais de cor sólida e caixa.
+Número real, maior que 0. Necessário para materiais de textura e decalque, a menos que a resolução da imagem seja igual ao atributo::Resolution. Ignorado por materiais de cor sólida e caixa.
 
 ## Padrão {#section-b1d044e211194242a900aaef4a8c8e6f}
 
