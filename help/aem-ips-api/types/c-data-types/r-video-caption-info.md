@@ -1,13 +1,15 @@
 ---
-description: Propriedades da legenda de vídeo
-seo-description: Propriedades da legenda de vídeo
+description: Propriedades da legenda do vídeo
+seo-description: Propriedades da legenda do vídeo
 seo-title: VideoCaptionInfo
 title: VideoCaptionInfo
 uuid: affd5019-9916-421d-8c4b-676d48bf010c
+feature: Dynamic Media Classic, SDK/API, Vídeo
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # VideoCaptionInfo{#videocaptioninfo}
 
-Propriedades da legenda de vídeo
+Propriedades da legenda do vídeo
 
 ## Parâmetros {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
