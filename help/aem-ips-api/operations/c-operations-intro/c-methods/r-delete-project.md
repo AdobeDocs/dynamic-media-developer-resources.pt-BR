@@ -4,12 +4,13 @@ seo-description: Exclui um projeto de uma empresa. Os links entre os ativos e o 
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -41,11 +42,11 @@ Sintaxe
 
 **Saída (deleteProjectReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-e38507f1f7ec41b9a625f47390490254}
 
-Esta amostra de código usa o identificador de empresa e o identificador do projeto como campos no deleteProjectParam enviado ao servidor de serviços Web IPS para excluir o projeto.
+Esta amostra de código usa o identificador da empresa e o identificador do projeto como campos no deleteProjectParam enviados ao servidor de serviços Web IPS para excluir o projeto.
 
 **Solicitação**
 
