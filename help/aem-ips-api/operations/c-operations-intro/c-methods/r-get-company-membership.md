@@ -1,23 +1,24 @@
 ---
-description: Obtém as associações de um usuário em uma matriz de empresa.
-seo-description: Obtém as associações de um usuário em uma matriz de empresa.
-seo-title: getCompanyMember
+description: Obtém as associações de um usuário em um array de empresas.
+seo-description: Obtém as associações de um usuário em um array de empresas.
+seo-title: getCompanyMembership
 solution: Experience Manager
-title: getCompanyMember
-topic: Dynamic Media Image Production System API
+title: getCompanyMembership
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 
-# getCompanyMember{#getcompanymembership}
+# getCompanyMembership{#getcompanymembership}
 
-Obtém as associações de um usuário em uma matriz de empresa.
+Obtém as associações de um usuário em um array de empresas.
 
 Sintaxe
 
@@ -36,21 +37,21 @@ Sintaxe
 
 ## Parâmetros {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Entrada (getCompanyMembcingParam)**
+**Entrada (getCompanyMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | Não | O identificador do usuário cujas associações você deseja obter. |
 
-**Saída (getCompanyMemberReturn)**
+**Saída (getCompanyMembershipReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`subscriptionArray`*` | `types:CompanyMembershipArray` | Sim | Matriz de associações empresas. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Sim | Matriz de associações a empresas. |
 
 ## Exemplos {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Essa amostra de código obtém um identificador de usuário e obtém todas as associações de empresa do usuário em um storage. A resposta foi truncada para brevidade.
+Essa amostra de código obtém um identificador de usuário e todas as associações de empresa do usuário em uma matriz. A resposta foi truncada por brevidade.
 
 **Solicitação**
 
