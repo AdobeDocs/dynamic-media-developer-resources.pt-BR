@@ -1,36 +1,37 @@
 ---
-description: Esta página é vinculada a vários exemplos do Servidor de imagens.
-seo-description: Esta página é vinculada a vários exemplos do Servidor de imagens.
-seo-title: Exemplos do servidor de imagens
+description: Esta página vincula a vários exemplos de Servidor de imagem.
+seo-description: Esta página vincula a vários exemplos de Servidor de imagem.
+seo-title: Exemplos de servidor de imagem
 solution: Experience Manager
-title: Exemplos do servidor de imagens
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Exemplos de servidor de imagem
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 2%
 
 ---
 
 
-# Exemplos de servidor de imagens{#image-server-examples}
+# Exemplos de servidor de imagem{#image-server-examples}
 
-Esta página é vinculada a vários exemplos do Servidor de imagens.
+Esta página vincula a vários exemplos de Servidor de imagem.
 
 * [ajuste1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [ajuste2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
-* [advanced](http://crc.scene7.com/is-docs/examples/advanced.htm)
+* [avançado](http://crc.scene7.com/is-docs/examples/advanced.htm)
 * [âncoras](http://crc.scene7.com/is-docs/examples/anchors.htm)
-* [catálogo1](http://crc.scene7.com/is-docs/examples/catalog1.htm)
+* [catalog1](http://crc.scene7.com/is-docs/examples/catalog1.htm)
 * [colorir](http://crc.scene7.com/is-docs/examples/colorize.htm)
 * [camadas1](http://crc.scene7.com/is-docs/examples/layering1.htm)
-* [photofont](http://crc.scene7.com/is-docs/examples/photofont.htm)
+* [fotofonte](http://crc.scene7.com/is-docs/examples/photofont.htm)
 * [propriedades](http://crc.scene7.com/is-docs/examples/properties.htm)
 * [svg](http://crc.scene7.com/is-docs/examples/svg.htm)
 * [modelos](http://crc.scene7.com/is-docs/examples/templates.htm)
 * [texto](http://crc.scene7.com/is-docs/examples/text.htm)
-* [qualidade da visualização](http://crc.scene7.com/is-docs/examples/view-quality.htm)
-* [visualização](http://crc.scene7.com/is-docs/examples/view-size.htm)
+* [qualidade de exibição](http://crc.scene7.com/is-docs/examples/view-quality.htm)
+* [tamanho da exibição](http://crc.scene7.com/is-docs/examples/view-size.htm)
 
