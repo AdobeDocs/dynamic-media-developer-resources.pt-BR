@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: InteractiveSwatches.displaymode
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-topic: Dynamic Media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contínuo|segmento</span> </p> </td> 
-   <td colname="col2"> <p> Preenche amostras interativas continuamente com miniaturas independentemente dos limites do segmento ou permite que o espaço vazio observe os limites do segmento. </p> </td> 
+   <td colname="col2"> <p> Preenche amostras interativas continuamente com miniaturas, independentemente dos limites do segmento ou permite que o espaço vazio observe os limites do segmento. </p> </td> 
   </tr> 
  </tbody> 
 </table>
