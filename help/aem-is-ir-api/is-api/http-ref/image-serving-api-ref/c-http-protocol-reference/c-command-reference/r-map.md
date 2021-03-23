@@ -1,15 +1,16 @@
 ---
-description: Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do mapa de catálogo para essa camada.
-seo-description: Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do mapa de catálogo para essa camada.
+description: Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do Mapa de catálogo para esta camada.
+seo-description: Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do Mapa de catálogo para esta camada.
 seo-title: mapa
 solution: Experience Manager
 title: mapa
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # map{#map}
 
-Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do catálogo::Map para essa camada.
+Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Substitui todos os dados do catálogo::Map para esta camada.
 
-`map=[ *`string `*]mapA=[ *`A`*]`
+`map=[ *``*]mapA=[ *`stringstringA`*]`
 
 <table id="simpletable_2E32B25D5F6246A18A8AF817903877ED"> 
  <tr class="strow"> 
@@ -32,17 +33,17 @@ Dados do mapa de imagem. Fornece dados de mapa de imagem para esta camada. Subst
  </tr> 
 </table>
 
-Uma string vazia indica que essa camada não deve fornecer um mapa de imagem. A string deve ser corretamente codificada por HTTP para evitar problemas de análise.
+Uma string vazia indica que essa camada não deve fornecer um mapa de imagem. A sequência de caracteres deve ser corretamente codificada em HTTP para evitar problemas de análise.
 
-Todos os caracteres de E comercial (&amp;) que ocorrem em *`string`* devem ser codificados por http.
+Todos os caracteres de E comercial (&amp;) que ocorrem em *`string`* devem ser codificados em http.
 
-Enquanto `mapA=` e `catalog::Map` especificam os dados do mapa nas coordenadas da imagem de origem, `map=` assume as coordenadas da camada relativas à parte superior esquerda do retângulo da camada (após `rotate=` e `extend=` terem sido aplicados).
+Enquanto `mapA=` e `catalog::Map` especificam dados de mapa nas coordenadas de imagem de origem, `map=` assume coordenadas de camada em relação à parte superior e ao canto esquerdo do retângulo de camada (após `rotate=` e `extend=` terem sido aplicadas).
 
-O mapa de imagem de saída é sempre cortado no retângulo da camada. Se o atributo `shape` for omitido ou definido como `default`, todo o retângulo da camada será usado como área do mapa de imagem.
+O mapa de imagem de saída é sempre recortado no retângulo da camada. Se o atributo `shape` for omitido ou definido como `default`, o retângulo de camada inteiro será usado como a área do mapa de imagem.
 
 ## Propriedades {#section-a18d9ea95c71414a905a68b8839c0843}
 
-Atributo de camada. Quando aplicados a `layer=comp`, os dados do mapa especificados são dispostos em camadas atrás de todos os outros mapas de imagem. Ignorado a menos que `req=map`. Ignorado pelas camadas de efeito. `mapA=` é ignorada se também  `map=` for especificada.
+Atributo de camada. Quando aplicado a `layer=comp`, os dados do mapa especificados são colocados em camadas atrás de todos os outros mapas de imagem. Ignorado a menos que `req=map`. Ignorado por camadas de efeito. `mapA=` é ignorada se também  `map=` for especificada.
 
 ## Padrão {#section-620c19b3f3b84ba49706062de3f12f05}
 
@@ -54,7 +55,7 @@ Defina um mapa de imagem retangular para uma camada de texto simples:
 
 `…&layer=1&text=Scene7&map=<area%20alt=Scene7%20href=www.scene7.com>&…`
 
-Um elemento `AREA` com atributos padrão (principalmente) é usado para inserir a área do mapa para todo o retângulo da camada.
+Um elemento `AREA` com atributos padrão (em sua maioria) é usado para inserir a área de mapa do retângulo de camada inteiro.
 
 ## Consulte também {#section-bc1d946fdf4b47bf9742a986800aa9b5}
 
