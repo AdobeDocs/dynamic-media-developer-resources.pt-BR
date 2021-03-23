@@ -1,15 +1,16 @@
 ---
-description: Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo na próxima tarefa de publicação.
-seo-description: Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo na próxima tarefa de publicação.
+description: Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo no próximo trabalho de publicação.
+seo-description: Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo no próximo trabalho de publicação.
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-topic: Dynamic Media Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo na próxima tarefa de publicação.
+Redefine o status de publicação de um ou mais ativos para forçar a republicação do ativo no próximo trabalho de publicação.
 
 Sintaxe
 
@@ -48,25 +49,25 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Manuseie a empresa que contém os ativos para redefinir. </p> </td> 
+   <td colname="col4"> <p>Lide com a empresa que contém ativos para redefinir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Designa que os arquivos do ativo sejam republicados nos servidores do delivery. O padrão é <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Determina que os arquivos do ativo sejam republicados nos servidores de delivery. O padrão é <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Designa que os metadados do catálogo usados para servir o ativo são sincronizados para garantir que ele esteja atualizado. Esse parâmetro é usado para resolver condições de corrida que podem ocorrer em atualizações quase simultâneas para o mesmo registro. O padrão é <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Designa que os metadados de catálogo usados para veicular o ativo são sincronizados para garantir que estejam atuais. Esse parâmetro é usado para resolver condições de corrida que podem ocorrer em atualizações quase simultâneas para o mesmo registro. O padrão é <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Matriz de identificadores para ativos cujo status de publicação deve ser redefinido. </p> </td> 
+   <td colname="col4"> <p>Matriz de ativos que usam ativos cujo status de publicação deve ser redefinido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
