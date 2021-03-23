@@ -1,15 +1,16 @@
 ---
-description: Prefixo de URL do servidor de streaming da Apple. O prefixo de URL do Apple Streaming Server usado ao gerar respostas m3u8 de taxa de vários bits com req=mbrSet.
-seo-description: Prefixo de URL do servidor de streaming da Apple. O prefixo de URL do Apple Streaming Server usado ao gerar respostas m3u8 de taxa de vários bits com req=mbrSet.
+description: Prefixo do URL do servidor de transmissão da Apple. O prefixo de URL do Servidor de Transmissão da Apple usado ao gerar respostas de taxa de bits m3u8 com req=mbrSet.
+seo-description: Prefixo do URL do servidor de transmissão da Apple. O prefixo de URL do Servidor de Transmissão da Apple usado ao gerar respostas de taxa de bits m3u8 com req=mbrSet.
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Prefixo de URL do servidor de streaming da Apple. O prefixo de URL do Apple Streaming Server usado ao gerar respostas m3u8 de taxa de vários bits com req=mbrSet.
+Prefixo do URL do servidor de transmissão da Apple. O prefixo de URL do Servidor de Transmissão da Apple usado ao gerar respostas de taxa de bits m3u8 com req=mbrSet.
 
 ## Propriedades {#properties}
 
-String que representa o prefixo do URL. (por exemplo, `http://my.server.com/apple/streaming`)
+Sequência de caracteres que representa o prefixo do URL. (por exemplo, `http://my.server.com/apple/streaming`)
 
 ## Padrão {#section-bdd70081d50844c295f0de0154c1d738}
 
