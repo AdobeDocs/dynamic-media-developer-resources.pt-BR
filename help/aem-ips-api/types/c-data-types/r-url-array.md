@@ -4,12 +4,13 @@ seo-description: Uma matriz de URLS para invalidar o cache CDN.
 seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-topic: Dynamic Media Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -37,7 +38,7 @@ Uma matriz de URLS para invalidar o cache CDN.
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> A lista de URLs para invalidar. Limitado a no máximo 1000 URLs pela definição de WSDL. </p> </td> 
+   <td> <p> A lista de URLs a serem invalidadas. Limitado ao máximo de 1000 URLs pela definição de WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>
