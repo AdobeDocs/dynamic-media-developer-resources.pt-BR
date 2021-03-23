@@ -1,20 +1,21 @@
 ---
-description: Descreve constantes de sequência novas e alteradas para a API IPS versão 3.7.
+description: Descreve constantes de sequência de caracteres novas e alteradas para a API IPS versão 3.7.
 solution: Experience Manager
-title: Constantes de string novas e modificadas
-topic: Dynamic Media Image Production System API
+title: Constantes da cadeia de caracteres novas e modificadas
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
 
 
-# Constantes de string: Novo e Modificado{#string-constants-new-and-modified}
+# Constantes da string: Novo e Modificado{#string-constants-new-and-modified}
 
-Descreve constantes de sequência novas e alteradas para a API IPS versão 3.7.
+Descreve constantes de sequência de caracteres novas e alteradas para a API IPS versão 3.7.
 
 Sintaxe
 
@@ -38,5 +39,5 @@ Sintaxe
 
 **Tipos de ativos**
 
-* Adicionado `Zip`.
+* Adição de `Zip`.
 
