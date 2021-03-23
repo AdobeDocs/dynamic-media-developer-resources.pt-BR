@@ -1,15 +1,16 @@
 ---
-description: Incorporar dados de caminhos. Especifica se os caminhos Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
-seo-description: Incorporar dados de caminhos. Especifica se os caminhos Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
+description: Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
+seo-description: Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
 seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d40ea1b5-f2d3-4f81-b96f-abb4eb7eb2b3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # pathEmbed{#pathembed}
 
-Incorporar dados de caminhos. Especifica se os caminhos Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
+Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
 
 `pathEmbed=0|1`
 
 ## Propriedades {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Atributo de solicitação. Ignorado se a vinheta não contém dados de caminhos. Os dados de caminhos são dimensionados para `wid=` e/ou `hei=`, se necessário.
+Atributo da solicitação. Ignorado se a vinheta não contiver dados de caminhos. Os dados dos caminhos são dimensionados para `wid=` e/ou `hei=` se necessário.
 
-Ignorado se o formato de imagem de saída não oferecer suporte para incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída compatíveis com a incorporação de caminhos.
+Ignorado se o formato de imagem de saída não oferecer suporte para incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte para incorporação de caminho.
 
 ## Padrão {#section-3be88ed9053b48919ff33af9418078cc}
 
