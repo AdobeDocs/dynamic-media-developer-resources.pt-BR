@@ -2,22 +2,23 @@
 description: Botão Pesquisar
 solution: Experience Manager
 title: Botão Pesquisar
-topic: Dynamic Media
 uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 
-# Botão de pesquisa{#search-button}
+# Botão Pesquisar{#search-button}
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
@@ -45,28 +46,28 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
-   <td colname="col2"> <p> A distância até o botão seguinte à esquerda ou ao lado esquerdo da barra de controle, se este for o primeiro botão em uma linha. </p> </td> 
+   <td colname="col2"> <p> A distância até ao botão seguinte à esquerda ou à esquerda da barra de controle, se este for o primeiro botão de uma linha. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta os seletores de atributos `state` e `selected`, que podem ser usados para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta os seletores de atributos `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes.
 >
 >Especificamente, `selected='false'` corresponde ao estado inicial do botão de rolagem e `selected='true'` corresponde ao estado quando o painel de pesquisa está ativo.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de pesquisa com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Exemplo - para configurar um botão de Pesquisa com 28 x 28 pixels e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7ecatalogsearchviewer .s7searchbutton{ 
