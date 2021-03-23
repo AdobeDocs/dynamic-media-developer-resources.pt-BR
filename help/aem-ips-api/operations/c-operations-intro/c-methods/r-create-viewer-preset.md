@@ -4,12 +4,13 @@ seo-description: Cria uma visualização predefinida que determina o que um usu�
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -38,17 +39,17 @@ Sintaxe
 | `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta que contém os ativos. |
 | `*`name`*` | `xsd:string` | Sim | Nome do visualizador. |
 | `*`type`*` | `xsd:string` | Sim | Tipo de visualizador. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e alças de imagens às quais você está aplicando predefinições. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e identificadores de imagens às quais você está aplicando predefinições. |
 
 **Saída (createViewerPresetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sim | Manuseie a predefinição para o visualizador. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Sim | Manipule a predefinição para o visualizador. |
 
 ## Exemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-Essa amostra de código cria uma predefinição do player de vídeo. A resposta retorna um identificador para a predefinição.
+Esse exemplo de código cria uma predefinição do reprodutor de vídeo. A resposta retorna um identificador para a predefinição.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
