@@ -1,13 +1,15 @@
 ---
-description: Exclui o vídeo primário do conjunto de vídeos adaptáveis.
-seo-description: Exclui o vídeo primário do conjunto de vídeos adaptáveis.
-seo-title: ExcluirVídeoMestreDeAVS
-title: ExcluirVídeoMestreDeAVS
+description: Exclui o vídeo principal do conjunto de vídeos adaptáveis.
+seo-description: Exclui o vídeo principal do conjunto de vídeos adaptáveis.
+seo-title: ExcludeMasterVideoFromAVS
+title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -15,7 +17,7 @@ ht-degree: 0%
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-Exclui o vídeo primário do conjunto de vídeos adaptáveis.
+Exclui o vídeo principal do conjunto de vídeos adaptáveis.
 
 Sintaxe
 
@@ -32,7 +34,7 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Exclui o arquivo de vídeo principal do conjunto de vídeos adaptáveis. </p> <p>O padrão é true. </p> </td> 
   </tr> 
  </tbody> 
