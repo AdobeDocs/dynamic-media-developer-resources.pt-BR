@@ -1,15 +1,16 @@
 ---
-description: Contém configurações do Servidor de imagens.
-seo-description: Contém configurações do Servidor de imagens.
+description: Contém as configurações do Servidor de imagem.
+seo-description: Contém as configurações do Servidor de imagem.
 seo-title: ImageServerRegistry.xml
 solution: Experience Manager
 title: ImageServerRegistry.xml
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cc401f75-1eb1-40fe-8308-eaaf9e14f906
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-Contém configurações do Servidor de imagens.
+Contém as configurações do Servidor de imagem.
 
-Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor de imagens pode falhar no start.
+Ao modificar esse arquivo XML, é necessário tomar cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor de Imagem poderá não conseguir iniciar.
 
-Para que as alterações entrem em vigor, reinicie o Servidor de imagens após a edição deste arquivo. Somente os valores de elementos listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando solicitado pelo suporte técnico da Dynamic Media.
+Para que as alterações entrem em vigor, reinicie o Servidor de Imagens após editar este arquivo. Somente os valores de elemento listados abaixo são suportados para modificação. Edite qualquer outro conteúdo desse arquivo somente quando solicitado pelo suporte técnico da Dynamic Media.
 
 >[!NOTE]
 >
->Não altere a estrutura de `<imageserverregistry>`, incluindo a ordem dos elementos. Tenha cuidado ao editar esse arquivo; caso contrário, o Servidor de imagens poderá falhar no start.
+>Não altere a estrutura de `<imageserverregistry>`, incluindo a ordem dos elementos. Tenha cuidado ao editar esse arquivo; caso contrário, o Servidor de imagem poderá não ser iniciado.
 
-A seguir, são apresentados os elementos que podem ser alterados. Existem outros elementos que não podem ser alterados. A ordem dos elementos abaixo não reflete a ordem em que devem estar presentes no ficheiro.
+O exemplo a seguir ilustra quais elementos podem ser alterados. Existem outros elementos que não devem ser alterados. A ordem dos elementos abaixo não reflete a ordem em que devem estar presentes no processo.
 
 ```
 <imageserverregistry>
@@ -55,4 +56,4 @@ A seguir, são apresentados os elementos que podem ser alterados. Existem outros
 
 ## Notas {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Vários elementos `<RootPath>` podem estar presentes (um para cada pasta de arquivo de dados de origem). O Servidor de imagens pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.
+Vários elementos `<RootPath>` podem estar presentes (um para cada pasta do arquivo de dados de origem). O Image Server pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.
