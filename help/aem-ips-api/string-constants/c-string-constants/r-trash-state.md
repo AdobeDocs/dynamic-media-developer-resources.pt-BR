@@ -1,21 +1,22 @@
 ---
 description: Usado por searchAssetReturn/trashState.
 seo-description: Usado por searchAssetReturn/trashState.
-seo-title: Estado de lixo
+seo-title: Estado da lixeira
 solution: Experience Manager
-title: Estado de lixo
-topic: Dynamic Media Image Production System API
+title: Estado da lixeira
 uuid: 1fd56800-bf3e-4ecb-8329-5674c2b53a86
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
 
 
-# Estado da lixeira{#trash-state}
+# Estado da Lixeira{#trash-state}
 
 Usado por searchAssetReturn/trashState.
 
