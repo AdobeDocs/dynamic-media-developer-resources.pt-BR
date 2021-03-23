@@ -4,12 +4,13 @@ seo-description: Propriedades de um ativo de imagem.
 seo-title: ImageInfo
 solution: Experience Manager
 title: ImageInfo
-topic: Dynamic Media Image Production System API
 uuid: 89138f10-c80b-49b8-886f-45b0960038b8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -78,14 +79,14 @@ Sintaxe
    <td colname="col3"> <p>Tamanho da imagem em bytes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resolução</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> <p>Pixels por polegada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>ID do produto. </p> </td> 
+   <td colname="col3"> <p>Identificação do produto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
@@ -108,24 +109,24 @@ Sintaxe
    <td colname="col3"> <p>Ponto de ancoragem horizontal em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> anchorY</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> âncoraY</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> <p>Ponto de ancoragem vertical em pixels. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parâmetro de URL do servidor de imagens. </p> </td> 
+   <td colname="col3"> <p>Parâmetro de URL do servidor de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parâmetros concatenados ao final de <span class="codeph"> urlModifier</span>. A cadeia de caracteres de query formata a lista de parâmetros que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagens. </p> </td> 
+   <td colname="col3"> <p>Parâmetros concatenados ao final do <span class="codeph"> urlModifier</span>. Lista de parâmetros do formato da string de consulta que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Matriz de públicos alvos de zoom (5 máx.). </p> </td> 
+   <td colname="col3"> <p>Matriz de alvos de zoom (5 máx.). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> máscaras</span> </span> </td> 
