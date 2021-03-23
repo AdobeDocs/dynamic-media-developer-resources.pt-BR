@@ -4,12 +4,13 @@ seo-description: Salve a imagem no arquivo.
 seo-title: saveToFile
 solution: Experience Manager
 title: saveToFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ Salve a imagem no arquivo.
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> arquivo</span> </p> </td> 
-  <td class="stentry"> <p>Caminho relativo para o arquivo de imagem do público alvo. </p></td> 
+  <td class="stentry"> <p>Caminho relativo para o arquivo de imagem de destino. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
@@ -34,7 +35,7 @@ Salve a imagem no arquivo.
 
 Salva a imagem de resposta em um arquivo no servidor em vez de retorná-la ao cliente.
 
-Quando a solicitação de salvamento é concluída com êxito, a solicitação retorna várias propriedades formatadas em Java, incluindo as seguintes:
+Quando a solicitação de salvamento é concluída com sucesso, a solicitação retorna várias propriedades formatadas em Java, incluindo o seguinte:
 
 <table id="table_8BA8F75A0B7241BAB9B4359F97C21137"> 
  <thead> 
@@ -46,7 +47,7 @@ Quando a solicitação de salvamento é concluída com êxito, a solicitação r
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> lastUpdates</span> </p> </td> 
+   <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
    <td> <p> integer </p> </td> 
    <td> <p>Hora de criação do arquivo (número de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT ). </p> </td> 
   </tr> 
@@ -58,15 +59,15 @@ Quando a solicitação de salvamento é concluída com êxito, a solicitação r
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> se </span> for bem-sucedido. </p> </td> 
+   <td> <p> <span class="codeph"> </span> sem sucesso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Retorna o status de resposta HTTP 200 se bem-sucedido e 403 se a solicitação falhar ou expirar. A resposta tem o tipo MIME `text/plain` e não pode ser obtida em cache.
+Retorna o status de resposta HTTP 200 se bem-sucedido e 403 se a solicitação falhar ou expirar. A resposta tem o tipo MIME `text/plain` e não pode ser armazenada em cache.
 
-Importante Salvar em arquivos deve ser ativado especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se  `attribute::SavePath` estiver vazio.
+É necessário ativar a opção Salvar em arquivos importante especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se  `attribute::SavePath` estiver vazio.
 
-*`file`* é obrigatório e deve ser um caminho relativo combinado com  `attribute::SavePath`. O Serviço de Imagens não cria pastas. A pasta público alvo deve existir no servidor e ter as configurações de permissão apropriadas para que o Serviço de imagem crie arquivos.
+*`file`* é obrigatório e deve ser um caminho relativo combinado com  `attribute::SavePath`. A exibição de imagens não cria pastas. A pasta de destino deve existir no servidor e ter as configurações de permissão apropriadas para o Image Serving criar arquivos.
 
-`timeout=` é opcional. O tempo limite padrão é de 60.000 ms, ou qualquer valor configurado com `PS::SaveTimeout`.
+`timeout=` é opcional. O tempo limite padrão é de 60.000 ms ou qualquer valor configurado com `PS::SaveTimeout`.
