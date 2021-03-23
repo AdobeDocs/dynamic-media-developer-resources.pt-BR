@@ -1,15 +1,16 @@
 ---
-description: Largura da visualização. Especifica a largura da imagem de resposta (imagem de visualização).
-seo-description: Largura da visualização. Especifica a largura da imagem de resposta (imagem de visualização).
-seo-title: inteligência
+description: Largura da exibição. Especifica a largura da imagem da resposta (imagem de exibição).
+seo-description: Largura da exibição. Especifica a largura da imagem da resposta (imagem de exibição).
+seo-title: wid
 solution: Experience Manager
-title: inteligência
-topic: Dynamic Media Image Serving - Image Rendering API
+title: wid
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # wid{#wid}
 
-Largura da visualização. Especifica a largura da imagem de resposta (imagem de visualização).
+Largura da exibição. Especifica a largura da imagem da resposta (imagem de exibição).
 
 `wid= *`val`*`
 
@@ -30,17 +31,17 @@ Largura da visualização. Especifica a largura da imagem de resposta (imagem de
 
 ## Padrão {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-Se `wid=`, `hei=` ou `scale=` não forem especificados, a imagem de resposta será o tamanho de visualização padrão especificado no arquivo FXG.
+Se `wid=`, `hei=` ou `scale=` não forem especificadas, a imagem de resposta será o tamanho de exibição padrão especificado no arquivo FXG.
 
-Os formatos Rasterização são renderizados usando o Tamanho de Visualização padrão (ou a configuração DefaultPix). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e insira os valores de Largura e Altura. Tamanhos menores proporcionam melhor desempenho. É necessário salvar suas configurações e executar um Publicação de disponibilização de imagem para aplicar uma alteração.
+Os formatos raster são renderizados usando o Tamanho de exibição padrão (ou a configuração DefaultPix ). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e insira os valores de Largura e Altura. Tamanhos menores proporcionam melhor desempenho. Você deve salvar suas configurações e executar uma Publicação de disponibilização de imagens para aplicar uma alteração.
 
-Se você aplicar um comando `scale=1`, uma solicitação de formato rasterizado será renderizada no tamanho especificado no FXG.
+Se você aplicar um comando `scale=1`, uma solicitação de formato raster será renderizada no tamanho especificado no FXG.
 
 ## Exemplo {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
 [!DNL http://server/is/agm/myRootId/myImageId?wid=200]
 
-A menos que um formato seja especificado, a imagem é renderizada como um arquivo SWF. Nesse caso, a altura e a largura não têm significado, pois o SWF geralmente se expande para o tamanho da janela do navegador. Como resultado, hei e wid só se aplicam aos formatos raster ou PDF. Os formatos de rasterização incluem:
+A menos que um formato seja especificado, a imagem é renderizada como um arquivo SWF. Nesse caso, altura e largura não têm significado, porque o SWF geralmente se expande para o tamanho da janela do navegador. Como resultado, hei e wid se aplicam apenas aos formatos raster ou PDF. Os formatos de raster incluem:
 
 * GIF
 * TIF
