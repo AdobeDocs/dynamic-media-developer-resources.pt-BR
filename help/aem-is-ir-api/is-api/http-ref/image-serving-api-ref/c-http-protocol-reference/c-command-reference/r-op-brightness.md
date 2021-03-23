@@ -4,12 +4,13 @@ seo-description: Ajuste o brilho. Diminui ou aumenta o brilho da imagem.
 seo-title: op_brightness
 solution: Experience Manager
 title: op_brightness
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Ajuste o brilho. Diminui ou aumenta o brilho da imagem.
 
 ## Propriedades {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado pelas camadas de efeito. As imagens ou camadas CMYK são convertidas em RGB antes da operação ser aplicada.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado por camadas de efeito. Imagens ou camadas CMYK são convertidas em RGB antes da aplicação da operação.
 
 ## Padrão {#section-be56be0759634c79b4f264f194a94dbc}
 
@@ -38,6 +39,6 @@ comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`.
 
 ## Exemplo {#section-c25f952f1b77409abb9ccf885862d75c}
 
-Escureça levemente o plano de fundo de uma imagem para enfatizar o conteúdo do primeiro plano:
+Esmaecer o plano de fundo de uma imagem levemente para enfatizar o conteúdo do primeiro plano:
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_brightness=-10&layer=1&src=myRootId/myImageId`
