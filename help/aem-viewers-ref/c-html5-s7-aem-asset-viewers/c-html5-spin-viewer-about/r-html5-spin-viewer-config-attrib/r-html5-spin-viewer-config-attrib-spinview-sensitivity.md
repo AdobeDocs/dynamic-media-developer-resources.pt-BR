@@ -2,12 +2,13 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-topic: Dynamic Media
 uuid: 82cf1f26-3af0-494f-b918-fdc318959c75
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 0%
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
-` [SpinView.|<containerId>_spinView.]sensitivity= *`Sensibilidade`*[, *`x`*]`
+` [SpinView.|<containerId>_spinView.]sensitivity= *``*[, *`xSensibilidade`*]`
 
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Controla a sensibilidade da rotação horizontal e vertical executada com um arraste ou deslize do mouse. </p> <p> <span class="codeph"> O </span> xSensitivity define quantas rotações de produto horizontais completas são feitas se o usuário arrasta o mouse horizontalmente de um lado da visualização para o outro. Por exemplo, três significa que o usuário vê três rotações completas para um gesto de arrastar completo. </p> <p>Da mesma forma, <span class="codeph"> ySensitivity</span> controla a sensibilidade do spin vertical. Um valor de 1 significa que um arrastar ou deslizar verticalmente inteiro altera o ângulo de visualização do plano de rotação mais alto para o mais baixo (ou vice-versa). </p> <p>A definição de um valor negativo para <span class="codeph"> ySensitivity</span> inverte a direção da rotação vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensibilidade</span>[,  <span class="varname"> Sensibilidade</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Controla a sensibilidade da rotação horizontal e vertical executada com um arrastar ou deslizar o mouse. </p> <p> <span class="codeph"> </span> xSensibilidade define quantas rotações de produto horizontais completas são feitas se o usuário arrastar o mouse horizontalmente de um lado da exibição para o outro. Por exemplo, três significa que o usuário vê três rotação completa para um gesto de arrastar completo. </p> <p>Da mesma forma, <span class="codeph"> Sensibilidade</span> controla a sensibilidade do giro vertical. Um valor de 1 significa que um arrastar ou deslizar vertical total altera o ângulo de exibição do plano de rotação mais alto para o mais inferior (ou vice-versa). </p> <p>Definir um valor negativo para <span class="codeph"> Sensibilidade</span> inverte a direção do eixo vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
