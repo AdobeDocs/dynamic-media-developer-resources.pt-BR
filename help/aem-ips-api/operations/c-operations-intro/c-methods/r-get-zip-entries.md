@@ -1,15 +1,16 @@
 ---
-description: Retorna dados do arquivo Zip.
-seo-description: Retorna dados do arquivo Zip.
+description: Retorna os dados do arquivo Zip.
+seo-description: Retorna os dados do arquivo Zip.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getZipEntries{#getzipentries}
 
-Retorna dados do arquivo Zip.
+Retorna os dados do arquivo Zip.
 
 Sintaxe
 
@@ -39,7 +40,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o arquivo Zip. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa que contém o arquivo Zip. |
 | `*`assetHandle`*` | `xsd:string` | Sim | Manipule o arquivo Zip. |
 
 **Saída (getZipEntriesReturn)**
