@@ -1,15 +1,16 @@
 ---
-description: Versões específicas à localidade disponíveis. Retorna uma lista de versões específicas à localidade disponíveis da ID do catálogo especificada no caminho da solicitação.
-seo-description: Versões específicas à localidade disponíveis. Retorna uma lista de versões específicas à localidade disponíveis da ID do catálogo especificada no caminho da solicitação.
+description: Versões específicas do local disponíveis. Retorna uma lista de versões específicas do local disponíveis da ID do catálogo especificada no caminho da solicitação.
+seo-description: Versões específicas do local disponíveis. Retorna uma lista de versões específicas do local disponíveis da ID do catálogo especificada no caminho da solicitação.
 seo-title: xlate
 solution: Experience Manager
 title: xlate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 2%
 
 # xlate{#xlate}
 
-Versões específicas à localidade disponíveis. Retorna uma lista de versões específicas à localidade disponíveis da ID do catálogo especificada no caminho da solicitação.
+Versões específicas do local disponíveis. Retorna uma lista de versões específicas do local disponíveis da ID do catálogo especificada no caminho da solicitação.
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -28,7 +29,7 @@ Versões específicas à localidade disponíveis. Retorna uma lista de versões 
  </tr> 
 </table>
 
-Consulte [Tradução da Id do Objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Consulte [Tradução da ID do objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Por exemplo:
 
@@ -36,7 +37,7 @@ Por exemplo:
 
 A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::Expiration`.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
