@@ -2,12 +2,13 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-topic: Dynamic Media
 uuid: a9928350-d9a9-49b0-8990-1f8b67d82f10
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '71'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> A string de comando do Servidor de imagens que é aplicada a todas as amostras. Se for especificado no URL, certifique-se de que você codifica por HTTP todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação:  Comandos de manipulação de dimensionamento de imagem não são suportados. </p> </p> </td> 
+   <td colname="col2"> <p> A string de comando Image Serving que é aplicada a todas as amostras. Se estiver especificado no URL, certifique-se de codificar HTTP todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação:  Comandos de manipulação de dimensionamento de imagem não são suportados. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
