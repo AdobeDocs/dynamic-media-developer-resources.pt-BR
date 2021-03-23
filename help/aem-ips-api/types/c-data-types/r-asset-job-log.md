@@ -1,15 +1,16 @@
 ---
-description: Os detalhes de uma entrada de log de trabalhos associada a um ativo específico. Dados retornados por getAssetJobLogs.
-seo-description: Os detalhes de uma entrada de log de trabalhos associada a um ativo específico. Dados retornados por getAssetJobLogs.
+description: Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
+seo-description: Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # AssetJobLog{#assetjoblog}
 
-Os detalhes de uma entrada de log de trabalhos associada a um ativo específico. Dados retornados por getAssetJobLogs.
+Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
 
 Sintaxe
 
@@ -35,7 +36,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Trabalho. </td> 
+   <td colname="col3"> Identificador da tarefa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -45,12 +46,12 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensagem no registro de tarefas. <p><span class="codeph"> O campo </span> logMessageresponse está localizado com base no campo  <span class="codeph"> </span> authHeaderlocale. </p></td> 
+   <td colname="col3">Mensagem no log de trabalho. <p><span class="codeph"> </span> o campo logMessageresponse é localizado com base no campo  <span class="codeph"> </span> authHeaderlocale. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Tipo de tarefa na entrada do registro. </td> 
+   <td colname="col3"> Tipo de trabalho na entrada de log. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -60,7 +61,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data do trabalho. </td> 
+   <td colname="col3"> Data da tarefa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
