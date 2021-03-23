@@ -1,15 +1,16 @@
 ---
-description: Os comandos a seguir compreendem a API de processamento em lote exposta pelo PlatformServer.
-seo-description: Os comandos a seguir compreendem a API de processamento em lote exposta pelo PlatformServer.
+description: Os seguintes comandos compõem a API de processamento em lote exposta pelo PlatformServer.
+seo-description: Os seguintes comandos compõem a API de processamento em lote exposta pelo PlatformServer.
 seo-title: Comandos de processamento em lote
 solution: Experience Manager
 title: Comandos de processamento em lote
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Comandos de processamento em lote{#batch-processing-commands}
 
-Os comandos a seguir compreendem a API de processamento em lote exposta pelo PlatformServer.
+Os seguintes comandos compõem a API de processamento em lote exposta pelo PlatformServer.
 
 Eles são especificados no formato de solicitação especial como: `?req=<command>`
 
@@ -25,7 +26,7 @@ Os exemplos mostrados para esses comandos usam um URL fictício `PlatformServer`
 
 * [batchjobbrief](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetaledstatus](r-batchjobdetailedstatus.md)
+* [batchjobdetails status](r-batchjobdetailedstatus.md)
 * [batchjobgetoutput](r-batchjobgetoutput.md)
 * [batchjobsubmit](r-batchjobsubmit.md)
 * [jobdata](r-jobdata.md)
