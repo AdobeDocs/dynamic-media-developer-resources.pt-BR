@@ -4,12 +4,13 @@ seo-description: Formato de imagem de resposta.
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Formato de imagem de resposta.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Especifica o formato de codificação de imagem para dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP. </p> <p> <span class="codeph">  jpeg  </span>: JPEG com perda </p> <p> <span class="codeph"> png  </span>: PNG sem perda </p> <p> <span class="codeph"> png-alfa  </span>: PNG sem perda com canal alfa </p> <p> <span class="codeph">  tif  </span>: TIFF </p> <p> <span class="codeph"> tif-alfa  </span>: TIFF com canal alfa </p> <p> <span class="codeph">  swf  </span>: JPEG com perda incorporado em um arquivo Adobe swf </p> <p> <span class="codeph"> pdf  </span>: imagem incorporada no PDF </p> <p> <span class="codeph"> gif  </span>: GIF com 2 a 256 cores </p> <p> <span class="codeph"> gif-alfa  </span>: GIF com 2 a 255 cores mais transparência de cores chave </p> <p> <span class="codeph"> fxg  </span>: FXG com variáveis e manipulação DOM aplicada </p> <p> <span class="codeph">  fxgraw  </span>: FXG original armazenado no servidor </p> </td> 
+  <td class="stentry"> <p> Especifica o formato de codificação de imagem para os dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP. </p> <p> <span class="codeph">  jpeg  </span>: JPEG com perdas </p> <p> <span class="codeph"> png  </span>: PNG sem perda </p> <p> <span class="codeph"> png-alfa  </span>: PNG sem perda com canal alfa </p> <p> <span class="codeph">  tif  </span>: TIFF </p> <p> <span class="codeph"> tif-alpha  </span>: TIFF com canal alfa </p> <p> <span class="codeph">  swf  </span>: JPEG com perdas incorporado em um arquivo Adobe swf </p> <p> <span class="codeph"> pdf  </span>: imagem incorporada no PDF </p> <p> <span class="codeph"> gif  </span>: GIF com 2 a 256 cores </p> <p> <span class="codeph"> gif-alfa  </span>: GIF com 2 a 255 cores mais transparência de cores-chave </p> <p> <span class="codeph"> fxg  </span>: FXG com variáveis e manipulação de DOM aplicada </p> <p> <span class="codeph">  fxgraw  </span>: FXG original armazenado no servidor </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -36,13 +37,13 @@ Formato de imagem de resposta.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Pode ser usado para afetar o espaço de cores de saída. </p> <p> <span class="codeph">  rgb  </span>: retornar dados de imagem RGB </p> <p> <span class="codeph"> cinza  </span>: retornar dados de imagem em escala cinza </p> <p> <span class="codeph"> cmyk  </span>: retornar dados de imagem CMYK </p> </td> 
+  <td class="stentry"> <p> Pode ser usado para afetar o espaço de cores de saída. </p> <p> <span class="codeph">  rgb  </span>: retornar dados de imagem RGB </p> <p> <span class="codeph"> cinza  </span>: retornar dados de imagem em escala de cinza </p> <p> <span class="codeph"> cmyk  </span>: retornar dados de imagem CMYK </p> </td> 
  </tr> 
 </table>
 
-`tiffCompression` é permitido somente se tif, tif-alfa for especificado como o formato. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
+`tiffCompression` só é permitido se tif, tif-alpha for especificado como o formato. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
 
-`qlt=` pode ser usado para definir as opções de codificação JPEG para estes formatos: JPEG, TIFF com compactação JPEG. quantize= pode ser usado se fmt=gif ou fmt=gif-alfa. Consulte as descrições dos comandos para obter detalhes. Os outros formatos não têm opções configuráveis.
+`qlt=` O pode ser usado para definir as opções de codificação JPEG para estes formatos: JPEG, TIFF com compactação JPEG. quantize= pode ser usado se fmt=gif ou fmt=gif-alfa. Consulte as descrições dos comandos para obter detalhes. Os outros formatos não têm opções configuráveis.
 
 8 bits por componente de pixel são retornados para todos os formatos e `pixelTypes[7]`.
 
@@ -63,42 +64,42 @@ A tabela a seguir lista as combinações válidas de formato e `pixelType`, os t
    <td> <p>jpeg </p> </td> 
    <td> <p>rgb, cinza, cmyk </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>sim </p> </td> 
    <td> <p><span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>png, png-alfa </p> </td> 
    <td> <p>rgb, cinza </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>sim </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>tif, tif-alfa </p> </td> 
    <td> <p>rgb, cinza, cmyk </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>sim </p> </td> 
    <td> <p><span class="codeph"> <span class="varname"> tiffCompression</span> ( none | lzw | zip | jpeg), qlt=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>swf, swf-alfa </p> </td> 
+   <td> <p>swf, swf alfa </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p>&lt;application&gt; </p> </td> 
-   <td> <p>not </p> </td> 
+   <td> <p>não </p> </td> 
    <td> <p><span class="codeph"> qlt=  </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>pdf </p> </td> 
    <td> <p>rgb, cinza, cmyk </p> </td> 
    <td> <p>&lt;application&gt; </p> </td> 
-   <td> <p>yes </p> </td> 
+   <td> <p>sim </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>gif, gif-alfa </p> </td> 
    <td> <p>rgb, cinza </p> </td> 
    <td> <p>&lt;image&gt; </p> </td> 
-   <td> <p>not </p> </td> 
+   <td> <p>não </p> </td> 
    <td> <p><span class="codeph"> quantize=</span> </p> </td> 
   </tr> 
  </tbody> 
