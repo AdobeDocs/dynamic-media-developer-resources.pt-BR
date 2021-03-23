@@ -1,15 +1,16 @@
 ---
-description: Gera uma imagem em miniatura para seu vídeo.
-seo-description: Gera uma imagem em miniatura para seu vídeo.
+description: Gera a imagem em miniatura do vídeo.
+seo-description: Gera a imagem em miniatura do vídeo.
 seo-title: MediaOptions
 solution: Experience Manager
 title: MediaOptions
-topic: Dynamic Media Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # MediaOptions{#mediaoptions}
 
-Gera uma imagem em miniatura para seu vídeo.
+Gera a imagem em miniatura do vídeo.
 
 Sintaxe
 
@@ -35,17 +36,17 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Uma matriz de <span class="codeph"> PropertySet</span> trata das predefinições de codificação de vídeo para transcodificação de vídeos. </td> 
+   <td colname="col3">Uma matriz de <span class="codeph"> PropertySet</span> lida com as predefinições de codificação de vídeo para transcodificação de vídeos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Quando verdadeiro, o primeiro quadro do vídeo é extraído e usado como a imagem em miniatura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesMiniaturas</span> </td> 
-   <td colname="col3">Opcional. Permite escolher um quadro de vídeo específico para usar como imagem em miniatura. <p>Para especificar uma imagem em miniatura, passe o tempo (em milissegundos a partir do start de vídeo) para o quadro que deseja usar. Os valores variam de 0 ao final do vídeo. <p>Observação: Se você especificar o horário incorretamente, o padrão <span class="codeph"> generateThumbnail</span> será true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
+   <td colname="col2"> <span class="codeph"> tipos:Opções de miniatura</span> </td> 
+   <td colname="col3">Opcional. Permite que você escolha um quadro de vídeo específico para usar como imagem em miniatura. <p>Para especificar uma imagem em miniatura, passe o tempo (em milissegundos a partir do início do vídeo) do quadro que deseja usar. Os valores variam de 0 ao fim do vídeo. <p>Observação: Se você especificar a hora incorretamente, o padrão <span class="codeph"> generateThumbnail</span> será true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
