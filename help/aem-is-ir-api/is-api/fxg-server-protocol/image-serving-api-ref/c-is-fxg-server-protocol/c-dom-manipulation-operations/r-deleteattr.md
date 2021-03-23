@@ -1,15 +1,16 @@
 ---
-description: Exclua qualquer atributo de uma determinada s7 elementID.
-seo-description: Exclua qualquer atributo de uma determinada s7 elementID.
+description: Exclua qualquer atributo para uma determinada s7 elementID.
+seo-description: Exclua qualquer atributo para uma determinada s7 elementID.
 seo-title: deleteAttr
 solution: Experience Manager
 title: deleteAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b1176c1a-9ec3-4a95-9f91-97f9f168c252
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # deleteAttr{#deleteattr}
 
-Exclua qualquer atributo de uma determinada s7:elementID.
+Exclua qualquer atributo para um determinado s7:elementID.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-Se um elemento de nó FXG tiver `s7:elementID` definido, os atributos desse nó poderão ser excluídos com esse comando.
+Se um elemento de nó FXG tiver um `s7:elementID` definido, os atributos desse nó poderão ser excluídos com este comando.
 
 ## Exemplo {#section-dece7192384a412c9afdfbda6f08bc97}
 
