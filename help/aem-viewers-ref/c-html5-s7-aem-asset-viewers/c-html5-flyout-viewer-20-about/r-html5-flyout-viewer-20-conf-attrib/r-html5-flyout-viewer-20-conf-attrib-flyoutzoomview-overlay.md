@@ -2,12 +2,13 @@
 description: FlyoutZoomView.overlay
 solution: Experience Manager
 title: FlyoutZoomView.overlay
-topic: Dynamic Media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Controla a aparência do realce da visualização principal quando o flyout está ativo. Quando definida como <span class="codeph"> 0</span>, a área atualmente visível na janela do flyout é realçada usando os estilos fornecidos pelo <span class="codeph"> .s7destacar</span> ou <span class="codeph"> .s7cursor</span> nomes de classe CSS (dependendo do valor do modificador <span class="codeph"> Highlight mode</span>). Quando definido como <span class="codeph"> 1</span> o componente entra no modo "inverso", onde a área visualizada atualmente é totalmente transparente (caso <span class="codeph"> modo de realce</span> esteja definido como <span class="codeph"> realce</span>) ou tenha o estilo <span class="codeph"> .s7cursor</span> nome da classe CSS (no caso <span class="codeph"> modo de realce&lt;a&gt; está definida como <span class="codeph"> cursor</span>), mas a área circundante é preenchida usando estilos fornecidos pelo <span class="codeph"> .s7overlay</span> nome da classe CSS.</span> </p> </td> 
+   <td colname="col2"> <p> Controla a aparência do realce da exibição principal quando o flyout está ativo. Quando definido como <span class="codeph"> 0</span>, a área atualmente visível na janela do flyout é realçada usando os estilos fornecidos pelo <span class="codeph"> .s7highlight</span> ou <span class="codeph"> .s7cursor</span> nomes de classe CSS (dependendo do valor do <span class="codeph"> modificador do modo de realce</span>). Quando definido como <span class="codeph"> 1</span> componente entra no modo "inverso", onde a área visualizada atualmente é totalmente transparente (no caso de <span class="codeph"> realce mode</span> estar definido como <span class="codeph"> realce</span>) ou estilizado com <span class="codeph"> .s7cursor</span> CSS nome da classe (no caso <span class="codeph"> realce mode</span> está definido como <span class="codeph"> cursor</span>), mas a área ao redor é preenchida usando estilos fornecidos pelo <span class="codeph"> .s7overlay</span> nome da classe CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
