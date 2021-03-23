@@ -1,21 +1,22 @@
 ---
 description: Usado por searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
 seo-description: Usado por searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
-seo-title: Classificar direções
+seo-title: Ordenar direções
 solution: Experience Manager
-title: Classificar direções
-topic: Dynamic Media Image Production System API
+title: Ordenar direções
 uuid: 9ff9d2f6-d41e-466e-a208-a30de04d3433
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
 
-# Classificar direções{#sort-directions}
+# Ordenar direções{#sort-directions}
 
 Usado por searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
 
