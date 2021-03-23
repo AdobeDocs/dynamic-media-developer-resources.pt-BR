@@ -1,15 +1,16 @@
 ---
-description: Elemento de padrão de expressão regular. Opcional em elementos <rule>.
-seo-description: Elemento de padrão de expressão regular. Opcional em elementos <rule>.
+description: Elemento de padrão de expressão regular. Opcional em elementos <rule> .
+seo-description: Elemento de padrão de expressão regular. Opcional em elementos <rule> .
 seo-title: expressão
 solution: Experience Manager
 title: expressão
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # expressão{#expression}
 
-Elemento de padrão de expressão regular. Opcional nos elementos `<rule>`.
+Elemento de padrão de expressão regular. Opcional em elementos `<rule>`.
 
 ## Atributos {#section-fd0574eee1f9423cbb2ed709c0906800}
 
@@ -25,11 +26,11 @@ Nenhum.
 
 ## Dados {#section-4cd740c511a1432da0955e9acfbcf96f}
 
-Sequência de caracteres de padrão de expressão regular.
+Sequência de caracteres do padrão de expressão regular.
 
 ## Descrição {#section-3245c8a531bb455d8398449f6ea63b37}
 
-O elemento `<expression>` pode estar vazio ou conter uma sequência de caracteres de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a string de solicitação.
+O elemento `<expression>` pode estar vazio ou conter uma cadeia de caracteres de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a cadeia de caracteres de solicitação.
 
 Uma correspondência sempre ocorre quando `<expression>` está vazio ou não é especificado; isso equivale a especificar `<expression>.*</expression>`.
 
@@ -37,7 +38,7 @@ A implementação é baseada no pacote Java [java.util.regex](../../../../../ir-
 
 ## Observação {#section-6b41a900b0ce4a9590e5861e3c81599c}
 
-A cadeia de caracteres de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a sequência inteira pode ser anexada em uma seção XML `CDATA`:
+A sequência de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a sequência inteira pode ser incluída em uma seção XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
