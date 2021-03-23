@@ -4,12 +4,13 @@ seo-description: Obtém os caminhos de arquivo originais dos ativos de uma empre
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para ativos cujo caminho de arquivo original você deseja obter. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de ativos que usam o caminho de arquivo original que você deseja obter. |
 
 **Saída (getOriginalFilePathsReturn)**
 
@@ -52,7 +53,7 @@ Sintaxe
 
 ## Exemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Essa amostra de código retorna os caminhos de arquivo de ativos especificados com identificadores de ativos exclusivos em uma matriz de identificador de ativos.
+Essa amostra de código retorna os caminhos de arquivo dos ativos especificados com identificadores de ativos exclusivos em uma matriz de manipulador de ativos.
 
 **Solicitação**
 
