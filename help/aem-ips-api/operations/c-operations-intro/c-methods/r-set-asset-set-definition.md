@@ -1,15 +1,16 @@
 ---
-description: Atualiza a definição de conjunto para um Conjunto de ativos existente.
-seo-description: Atualiza a definição de conjunto para um Conjunto de ativos existente.
+description: Atualiza a definição do conjunto de ativos existente.
+seo-description: Atualiza a definição do conjunto de ativos existente.
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Atualiza a definição de conjunto para um Conjunto de ativos existente.
+Atualiza a definição do conjunto de ativos existente.
 
 Sintaxe
 
@@ -36,23 +37,23 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o conjunto de ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com o conjunto de ativos. |
 | `*`assetHandle`*` | `xsd:string` | Sim | Identificador de conjunto de ativos |
-| `*`setDefinition`*` | `xsd:string` | Sim | Sequência de caracteres de definição. Consulte abaixo. |
+| `*`setDefinition`*` | `xsd:string` | Sim | Sequência de definição. Veja abaixo. |
 
 **Saída (setAssetSetDefinitionReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## parâmetro setDefinition: Sobre {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**funções setDefinition**
+**Funções setDefinition**
 
-Especifique `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou durante a publicação. As strings de substituição têm o formato `${<substitution_func>}` e incluem o seguinte:
+Especifique `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}` e incluem o seguinte:
 
 >[!NOTE]
 >
->As literais de manuseio nas listas de parâmetro devem estar entre colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
+>Os literais de tratamento nas listas de parâmetros devem ser cercados por colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,27 +64,27 @@ Especifique `setDefinition` funções de substituição em linha. Eles são reso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> Caminho do arquivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalog([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> ID do catálogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_identificador  </span>],[  <span class="varname"> metadata_field_identificador  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Valor dos metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_identificador  </span>])  </span> </td> 
-   <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Visualização ajustada, Visualização de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de thumb (se houver). Se nenhum ativo thumb estiver associado ao ativo, a função retornará uma string vazia. </p> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Exibição ajustada, Exibição de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de ouro (se houver). Se nenhum ativo em miniatura estiver associado ao ativo, a função retornará uma string vazia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**exemplos de setDefinition**
+**Exemplos de setDefinition**
 
-Essa string de definição de conjunto de mídia:
+Esta string de definição de conjunto de mídia:
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
