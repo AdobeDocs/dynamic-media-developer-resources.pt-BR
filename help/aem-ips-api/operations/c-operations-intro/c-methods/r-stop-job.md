@@ -4,12 +4,13 @@ seo-description: Interrompe um trabalho em andamento.
 seo-title: stopJob
 solution: Experience Manager
 title: stopJob
-topic: Dynamic Media Image Production System API
 uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -38,12 +39,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`jobHandle`*` | `xsd:string` | Sim | Lida com o trabalho que você quer parar. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`jobHandle`*` | `xsd:string` | Sim | Lide com o trabalho que deseja parar. |
 
 **Saída (stopJobReturn0**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
