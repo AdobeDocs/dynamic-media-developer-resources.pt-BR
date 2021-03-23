@@ -1,15 +1,16 @@
 ---
-description: Os campos a seguir são reconhecidos nos arquivos do mapa de fontes.
-seo-description: Os campos a seguir são reconhecidos nos arquivos do mapa de fontes.
+description: Os campos a seguir são reconhecidos em arquivos de mapa de fontes.
+seo-description: Os campos a seguir são reconhecidos em arquivos de mapa de fontes.
 seo-title: Mapas de fonte
 solution: Experience Manager
 title: Mapas de fonte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Mapas de fonte{#font-maps}
 
-Os campos a seguir são reconhecidos nos arquivos do mapa de fontes.
+Os campos a seguir são reconhecidos em arquivos de mapa de fontes.
 
 <table id="simpletable_D04FFCE02C7140E38D58FB2C916EABF3"> 
  <tr class="strow"> 
@@ -26,11 +27,11 @@ Os campos a seguir são reconhecidos nos arquivos do mapa de fontes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md" type="reference" format="dita" scope="local"> Itálico</a></span> </p></td> 
-  <td class="stentry"> <p>Sinalizador itálico (chave do índice terciário). </p></td> 
+  <td class="stentry"> <p>Sinalizador Itálico (chave de índice terciário). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md" type="reference" format="dita" scope="local"> MetricsPath</a></span> </p></td> 
-  <td class="stentry"> <p>Caminho do arquivo de métricas de fonte. </p></td> 
+  <td class="stentry"> <p>Caminho do arquivo das métricas de fonte. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-name-font.md#reference-c55889877dc54aabb60734dcde86ee76" type="reference" format="dita" scope="local"> Nome</a></span> </td> 
@@ -38,7 +39,7 @@ Os campos a seguir são reconhecidos nos arquivos do mapa de fontes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-psname-font.md" type="reference" format="dita" scope="local"> PsName</a></span> </p></td> 
-  <td class="stentry"> <p>Nome da face da fonte Postscript (para renderização FXG). </p></td> 
+  <td class="stentry"> <p>Nome do rosto da fonte Postscript (para renderização FXG). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> FontPath</a></span> </p></td> 
