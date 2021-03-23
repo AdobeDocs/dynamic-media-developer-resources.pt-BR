@@ -1,27 +1,28 @@
 ---
-description: A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
-seo-description: A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
-seo-title: Visualização de rotação
+description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
+seo-description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
+seo-title: Exibição em rotação
 solution: Experience Manager
-title: Visualização de rotação
-topic: Dynamic Media
+title: Exibição em rotação
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
 
-# Visualização de rotação{#spin-view}
+# Exibição de rotação{#spin-view}
 
-A visualização principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
+A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -38,13 +39,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da visualização de rotação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da exibição de rotação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a visualização de rotação transparente.
+Exemplo - para tornar a exibição de rotação transparente.
 
 ```
 .s7mixedmediaviewer .s7spinview { 
