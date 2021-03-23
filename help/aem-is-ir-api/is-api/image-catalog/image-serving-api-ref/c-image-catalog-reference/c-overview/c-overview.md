@@ -4,12 +4,13 @@ seo-description: Os catálogos de imagens são usados para fornecer informaçõe
 seo-title: Visão geral
 solution: Experience Manager
 title: Visão geral
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -24,16 +25,16 @@ Os catálogos de imagens são usados para fornecer informações sobre imagens e
 Cada catálogo de imagens consiste em um arquivo de atributo de catálogo necessário e um conjunto de arquivos de dados de catálogo opcionais:
 
 * O arquivo de dados da imagem, que classifica imagens e modelos e seus metadados associados.
-* O arquivo de dados SVG, que classifica os arquivos SVG e seus metadados associados.
+* O arquivo de dados SVG, que classifica arquivos SVG e seus metadados associados.
 * O arquivo de definições de macro, que fornece definições para macros de solicitação.
-* O arquivo de mapa de fontes, que monitora as fontes de texto.
-* O arquivo de mapa de perfis, que simboliza perfis de cores ICC.
-* O arquivo de conjunto de regras, que define as regras de pré-processamento da solicitação HTTP.
+* O arquivo do mapa de fontes, que mantém o controle das fontes de texto.
+* O arquivo de mapa de perfil, que discrimina perfis de cores ICC.
+* O arquivo do conjunto de regras, que define as regras de pré-processamento da solicitação HTTP.
 
-Os arquivos de dados do catálogo são associados aos catálogos de imagens por referências de arquivo no arquivo de atributos do catálogo. O mesmo arquivo de dados do catálogo pode ser compartilhado por vários catálogos de imagens.
+Os arquivos de dados do catálogo são associados a catálogos de imagens por referências de arquivo no arquivo de atributo do catálogo. O mesmo arquivo de dados de catálogo pode ser compartilhado por vários catálogos de imagens.
 
-Os arquivos de atributos do catálogo devem ter um sufixo de arquivo [!DNL .ini] e devem estar localizados na pasta de catálogo do Servidor de plataforma ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor da plataforma.
+Os arquivos de atributos do catálogo devem ter um sufixo de arquivo [!DNL .ini] e devem estar localizados na pasta de catálogo do Servidor de Plataforma ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem ser localizados na mesma pasta ou em qualquer outra pasta acessível ao Servidor de plataforma.
 
-Este documento descreve o formato de arquivo do Catálogo de imagens para o sistema Dynamic Media Image Server. A audiência pretendida é programadores experientes e desenvolvedores de sites da Web que desejam utilizar o Dynamic Media Image Service para uma aplicação Web ou personalizada.
+Este documento descreve o formato de arquivo do Catálogo de Imagens para o sistema Dynamic Media Image Serving. O público-alvo é programadores experientes e desenvolvedores de sites que desejam utilizar o Dynamic Media Image Serving para um aplicativo da Web ou personalizado.
 
-Pressupõe-se que o leitor esteja familiarizado com o sistema Dynamic Media Image Service, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
+Pressupõe-se que o leitor esteja familiarizado com o sistema Dynamic Media Image Serving, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
