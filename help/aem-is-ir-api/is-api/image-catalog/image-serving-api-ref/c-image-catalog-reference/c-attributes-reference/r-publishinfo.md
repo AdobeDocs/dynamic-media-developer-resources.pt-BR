@@ -1,15 +1,16 @@
 ---
-description: Sequência de anotação do catálogo. Sequência de caracteres de texto que pode ser usada para identificar a versão do catálogo, a data de publicação etc.
-seo-description: Sequência de anotação do catálogo. Sequência de caracteres de texto que pode ser usada para identificar a versão do catálogo, a data de publicação etc.
+description: Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
+seo-description: Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
 seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # PublishInfo{#publishinfo}
 
-Sequência de anotação do catálogo. Sequência de caracteres de texto que pode ser usada para identificar a versão do catálogo, a data de publicação etc.
+Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
 
-O conteúdo deste campo é retornado com `req=catalogprops`. Caso contrário, esse atributo não será usado.
+O conteúdo deste campo é retornado com `req=catalogprops`. Caso contrário, este atributo não será utilizado.
 
 ## Propriedades {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
-Sequência de caracteres de texto.
+Sequência de texto.
 
 ## Padrão {#section-82e5a885e142414f996c609efbb962b1}
 
