@@ -1,15 +1,16 @@
 ---
-description: Representa o número máximo de quadros a serem pré-carregados em cada direção quando o SpinView estiver ocioso.
-seo-description: Representa o número máximo de quadros a serem pré-carregados em cada direção quando o SpinView estiver ocioso.
+description: Representa o número máximo de quadros para pré-carregar em cada direção quando o SpinView estiver inativo.
+seo-description: Representa o número máximo de quadros para pré-carregar em cada direção quando o SpinView estiver inativo.
 seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-topic: Dynamic Media
 uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -17,19 +18,19 @@ ht-degree: 0%
 
 # SpinView.maxloadradius{#spinview-maxloadradius}
 
-Representa o número máximo de quadros a serem pré-carregados em cada direção quando o SpinView estiver ocioso.
+Representa o número máximo de quadros para pré-carregar em cada direção quando o SpinView estiver inativo.
 
-` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valuehighRes`*]`
+` [SpinView.|<containerId>_spinView.]maxloadradius= *``*[, *`valueHighRes`*]`
 
 <table id="table_06BEA037FA82467CAA88D1CA62AE972E"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Um valor de <span class="codeph"> -1</span> pré-carrega todos os quadros no conjunto. Os quadros pré-carregados são sempre vistos na resolução original em que o SpinView foi carregado inicialmente. </p> </td> 
+   <td colname="col2"> <p> Um valor de <span class="codeph"> -1</span> pré-carrega todos os quadros no conjunto. Os quadros pré-carregados são sempre vistos na resolução original de que o SpinView foi inicialmente carregado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. </p> <p>Quando definido como <span class="codeph"> 1</span>, os quadros são carregados em alta qualidade, correspondendo ao tamanho do componente. </p> <p>Quando definido como <span class="codeph"> 0</span> apenas o bloco gráfico de pré-visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em um tempo de start mais lento e maior consumo de rede, portanto, deve ser usado com cuidado. Quando a pré-carga de alta resolução é usada, os quadros pré-carregados estão sempre na resolução original na qual o componente foi carregado inicialmente. </p> </td> 
+   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. </p> <p>Quando definido como <span class="codeph"> 1</span> os quadros são carregados em alta qualidade, correspondendo ao tamanho do componente. </p> <p>Quando definido como <span class="codeph"> 0</span> somente o bloco de visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em tempo de início mais lento e maior consumo de rede, portanto, deve ser usado com cuidado. Quando é usado o pré-carregamento de alta resolução, os quadros pré-carregados ficam sempre na resolução original na qual o componente foi inicialmente carregado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
