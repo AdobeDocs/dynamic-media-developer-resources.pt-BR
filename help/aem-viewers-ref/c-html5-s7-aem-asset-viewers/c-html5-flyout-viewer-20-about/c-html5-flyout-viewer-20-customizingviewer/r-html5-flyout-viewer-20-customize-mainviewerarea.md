@@ -1,15 +1,16 @@
 ---
-description: A área principal da visualização é a área ocupada pela visualização de flyout e pelas amostras.
-seo-description: A área principal da visualização é a área ocupada pela visualização de flyout e pelas amostras.
+description: A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
+seo-description: A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
 seo-title: Área do visualizador principal
 solution: Experience Manager
 title: Área do visualizador principal
-topic: Dynamic Media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Área do visualizador principal{#main-viewer-area}
 
-A área principal da visualização é a área ocupada pela visualização de flyout e pelas amostras.
+A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -46,13 +47,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador flyout com fundo branco ( `#FFFFFF`) e tornar seu tamanho 260 x 500 pixels.
+Exemplo - para configurar um visualizador de flyout com fundo branco ( `#FFFFFF`) e tornar seu tamanho 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 
