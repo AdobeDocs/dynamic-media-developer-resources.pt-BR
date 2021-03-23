@@ -1,15 +1,16 @@
 ---
-description: Crie ou edite um público alvo de zoom.
-seo-description: Crie ou edite um público alvo de zoom.
+description: Crie ou edite um direcionamento de zoom.
+seo-description: Crie ou edite um direcionamento de zoom.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # saveZoomTarget{#savezoomtarget}
 
-Crie ou edite um público alvo de zoom.
+Crie ou edite um direcionamento de zoom.
 
 Sintaxe
 
@@ -36,25 +37,25 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa com o público alvo de zoom que você deseja salvar. |
-| `*`assetHandle`*` | `xsd:string` | Sim | A alça do público alvo de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Não | Edita ou cria um público alvo de zoom. |
-| `*`name`*` | `xsd:string` | Sim | Nome do público alvo de zoom. |
-| `*`xPosition`*` | `xsd:int` | Sim | Localização do pixel esquerdo. |
-| `*`yPosition`*` | `xsd:int` | Sim | Localização do pixel superior. |
-| `*`width`*` | `xsd:int` | Sim | Zoom na largura do público alvo. |
-| `*`altura`*` | `xsd:int` | Sim | Aumenta o zoom da altura do público alvo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o direcionamento de zoom que você deseja salvar. |
+| `*`assetHandle`*` | `xsd:string` | Sim | A alça para o destino de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Não | Edita ou cria um direcionamento de zoom. |
+| `*`name`*` | `xsd:string` | Sim | Nome da meta de zoom. |
+| `*`xPosition`*` | `xsd:int` | Sim | Localização de pixel esquerdo. |
+| `*`yPosition`*` | `xsd:int` | Sim | Localização dos pixels principais. |
+| `*`width`*` | `xsd:int` | Sim | Ampliação da largura de destino. |
+| `*`altura`*` | `xsd:int` | Sim | Altura da meta de zoom. |
 | `*`userData`*` | `xsd:string` | Sim | Para obter informações específicas do cliente. Pode conter qualquer tipo de dados. |
 
 **Saída (saveZoomTargetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Sim | Manuseie o público alvo de zoom recém-criado. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Sim | Manipule o destino de zoom recém-criado. |
 
 ## Exemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Essa amostra de código salva um público alvo de zoom. A resposta retorna a alça do público alvo de zoom.
+Essa amostra de código salva um destino de zoom. A resposta retorna a alça de destino de zoom.
 
 **Solicitação**
 
