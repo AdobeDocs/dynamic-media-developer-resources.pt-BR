@@ -4,12 +4,13 @@ seo-description: Obtém todos os trabalhos ativos no momento.
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -38,7 +39,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | A alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Não | O nome da empresa. |
 | `*`jobHandle`*` | `xsd:string` | Não | O controle do trabalho. |
 | `*`originalName`*` | `xsd:string` | Não | Nome do trabalho original. |
 
@@ -50,7 +51,7 @@ Sintaxe
 
 ## Exemplos {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Esta amostra de código retorna todos os trabalhos ativos de uma empresa em execução no IPS. Nesse caso, a resposta é incomum porque o coordenador de agendamento do IPS está desabilitado sem trabalhos ativos em execução. Em circunstâncias normais, a resposta retornaria uma série de empregos ativos.
+Esta amostra de código retorna todos os trabalhos ativos de uma empresa em execução no IPS. Nesse caso, a resposta é incomum porque o coordenador de programação do IPS está desabilitado sem tarefas ativas em execução. Em circunstâncias normais, a resposta retornaria uma série de trabalhos ativos.
 
 **Solicitação**
 
