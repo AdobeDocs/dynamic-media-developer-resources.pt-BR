@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o Visualizador do carrossel.
-seo-description: Referência da API JavaScript para o Visualizador do carrossel.
+description: Referência da API do JavaScript para o Visualizador do carrossel.
+seo-description: Referência da API do JavaScript para o Visualizador do carrossel.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 87f16ea9-0267-4114-9aeb-a68fdb616a88
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API JavaScript para o Visualizador do carrossel.
+Referência da API do JavaScript para o Visualizador do carrossel.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` objeto JSON para o construtor.
 
 Consulte também [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md).
 
