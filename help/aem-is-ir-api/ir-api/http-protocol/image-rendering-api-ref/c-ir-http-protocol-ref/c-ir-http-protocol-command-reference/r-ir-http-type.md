@@ -4,12 +4,13 @@ seo-description: Tipo de superfície do material. Especifica o tipo de superfíc
 seo-title: type
 solution: Experience Manager
 title: type
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '175'
 ht-degree: 11%
 
 ---
@@ -28,15 +29,15 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Outros </p> </td> 
+  <td class="stentry"> <p>Outras </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
   <td class="stentry"> <p>Madeira natural </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Metal polido </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>Metais polidos </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p></td> 
@@ -44,7 +45,7 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
-  <td class="stentry"> <p>Metal Antiquado </p></td> 
+  <td class="stentry"> <p>Metais Antiquados </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
@@ -63,56 +64,56 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
   <td class="stentry"> <p>Plástico </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>10 </p></td> 
+  <td class="stentry"> <p>10º </p></td> 
   <td class="stentry"> <p>Superfície sólida </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>11 </p></td> 
+  <td class="stentry"> <p>11º </p></td> 
   <td class="stentry"> <p>Laminato </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>12 </p></td> 
+  <td class="stentry"> <p>12º </p></td> 
   <td class="stentry"> <p>Vinil </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>13 </p></td> 
+  <td class="stentry"> <p>13º </p></td> 
   <td class="stentry"> <p>Cerâmica </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>14 </p></td> 
+  <td class="stentry"> <p>14. </p></td> 
   <td class="stentry"> <p>Pedra natural </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>15 </p></td> 
+  <td class="stentry"> <p>15. </p></td> 
   <td class="stentry"> <p>Vidro </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>16 </p></td> 
+  <td class="stentry"> <p>16º </p></td> 
   <td class="stentry"> <p>Espelho </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>17 </p></td> 
+  <td class="stentry"> <p>17º </p></td> 
   <td class="stentry"> <p>Malha </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>18 </p></td> 
+  <td class="stentry"> <p>18º </p></td> 
   <td class="stentry"> <p>Sheer Fabric </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>19 </p></td> 
+  <td class="stentry"> <p>19º </p></td> 
   <td class="stentry"> <p>Carpete </p></td> 
  </tr> 
 </table>
 
-Usado em conjunto com `gloss=` e `rough=` para controlar os comportamentos de reflexo e efeito de brilho. Materiais diferentes produzirão efeitos diferentes, mesmo se `gloss=` e `rough=` forem os mesmos.
+Usado em conjunto com `gloss=` e `rough=` para controlar comportamentos de reflexo e efeito de brilho. Materiais diferentes produzirão efeitos diferentes, mesmo que `gloss=` e `rough=` sejam os mesmos.
 
 ## Propriedades {#section-2345b2508273426295ce8ac46182ea64}
 
-Atributo material. Ignorado se a vinheta não incluir dados de reflexão 3D ou se os efeitos de brilho estiverem desativados na vinheta.
+Atributo de material. Ignorado se a vinheta não incluir dados de reflexão 3D ou se os efeitos de brilho estiverem desativados na vinheta.
 
 ## Padrão {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` se o material for baseado em uma entrada de catálogo. Caso contrário, `type=0`. Se não for especificado, ou se `type=0`, o servidor selecionará um padrão adequado, dependendo do objeto do público alvo e dos outros atributos de material.
+`catalog::Type` se o material for baseado em uma entrada de catálogo. Caso contrário, `type=0`. Se não for especificado, ou se `type=0`, o servidor selecionará um padrão adequado, dependendo do objeto de destino e dos outros atributos de material.
 
 ## Consulte também {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
