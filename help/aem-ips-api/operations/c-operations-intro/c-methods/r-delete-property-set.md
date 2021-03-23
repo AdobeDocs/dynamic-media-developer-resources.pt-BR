@@ -4,12 +4,13 @@ seo-description: Exclui um conjunto de propriedades e todas as propriedades asso
 seo-title: deletePropertySet
 solution: Experience Manager
 title: deletePropertySet
-topic: Dynamic Media Image Production System API
 uuid: b4fdf51f-89ec-4a69-9179-078ee8e1937f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,11 @@ Sintaxe
 
 **Saída (deletePropertySetParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Esta amostra de código usa o identificador do conjunto como um campo no `deletePropertySetParam` enviado para o servidor de serviços Web IPS para excluir o conjunto de propriedades.
+Este exemplo de código usa o identificador do conjunto como um campo no `deletePropertySetParam` enviado ao servidor de serviços Web IPS para excluir o conjunto de propriedades.
 
 **Solicitação**
 
