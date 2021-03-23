@@ -4,12 +4,13 @@ seo-description: Exclui um formato de publicação de vinheta.
 seo-title: deleteVignettePublishFormat
 solution: Experience Manager
 title: deleteVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 3c8148d5-dec6-4ffa-8ab8-2cd70811ada6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -32,16 +33,16 @@ Exclui um formato de publicação de vinheta.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa à qual a vinheta pertence. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | Sim | O identificador do formato de publicação de vinheta a ser excluído. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual a vinheta pertence. |
+| `*`vinhetaFormatarIdentificador`*` | `xsd:string` | Sim | O identificador para o formato de publicação da vinheta a ser excluído. |
 
 **Saída (deleteVignettePublishFormatParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Esta amostra de código exclui um formato de publicação de vinheta especificado por seu identificador.
+Essa amostra de código exclui um formato de publicação de vinheta especificado por seu identificador.
 
 **Solicitação**
 
