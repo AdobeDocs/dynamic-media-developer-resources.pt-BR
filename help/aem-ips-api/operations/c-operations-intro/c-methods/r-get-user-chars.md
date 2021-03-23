@@ -4,12 +4,13 @@ seo-description: Obtém uma lista dos caracteres usados em um campo específico.
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -34,12 +35,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Sim | Determina o Estado de lixeira a ser pesquisado. |
-| `*`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários administradores não IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização será retornada se o usuário não tiver associações de empresa ativas. |
+| `*`charField`*` | `xsd:string` | Sim | Determina o Estado da lixeira a ser procurado. |
+| `*`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários de Administração não IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização será retornada se o usuário não tiver associações ativas à empresa. |
 | `*`includeInvalid`*` | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
 | `*`companyHandleArray`*` | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Não | Resultados de filtros com base em grupos. |
-| `*`userRoleArray`*` | `types:StringArray` | Não | Resultados de filtros com base na função do usuário. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Não | Filtra os resultados com base em grupos. |
+| `*`userRoleArray`*` | `types:StringArray` | Não | Filtra os resultados com base na função do usuário. |
 | `*`numChars`*` | `xsd:int` | Não | Habilitar > 1 caractere. |
 
 **Saída (getUserCharsReturn)**
@@ -52,11 +53,11 @@ Sintaxe
 
 Este exemplo de código retorna:
 
-* Os primeiros caracteres dos sobrenomes dos usuários de uma empresa específica.
+* Primeiros caracteres dos últimos nomes dos usuários de uma empresa específica.
 * Um conjunto de grupos.
 * Um conjunto de funções de usuário.
 
-A constante de string Campos de Filtro de Caracteres do Usuário determina o tipo de caracteres do usuário retornados.
+A constante de string Campos de filtro de caractere do usuário determina o tipo de caracteres do usuário retornados.
 
 **Solicitação**
 
