@@ -4,12 +4,13 @@ seo-description: Atualiza as permissões do ativo.
 seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -33,13 +34,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | Sim | Permissões que você deseja aplicar ao ativo. |
 
 **Saída (updateAssetPermissionsReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
