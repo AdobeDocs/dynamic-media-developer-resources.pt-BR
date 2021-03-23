@@ -1,33 +1,34 @@
 ---
-description: comando URL para o Visualizador de vídeo.
-seo-description: comando URL para o Visualizador de vídeo.
+description: comando URL para Visualizador de vídeo.
+seo-description: comando URL para Visualizador de vídeo.
 seo-title: navegação
 solution: Experience Manager
 title: navegação
-topic: Dynamic Media
 uuid: 5622633e-ea05-4afc-a2e3-e34db73019b0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
 
 
-# navigation{#navigation}
+# navegação{#navigation}
 
-comando URL para o Visualizador de vídeo.
+comando URL para Visualizador de vídeo.
 
 ` navigation= *`arquivo`*`
 
-O visualizador oferece suporte à navegação de capítulo de vídeo por meio de arquivos WebVTT hospedados. Os operadores de posicionamento de sinalização não são suportados.
+O visualizador oferece suporte à navegação de capítulo de vídeo por meio de arquivos WebVTT hospedados. Os operadores de posicionamento de sinalização não são compatíveis.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> arquivo</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo de navegação WebVTT. O serviço de imagem deve hospedar o arquivo WebVTT. </p> </td> 
+   <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo de navegação da WebVTT. O Image Serving deve hospedar o arquivo WebVTT. </p> </td> 
   </tr> 
  </tbody> 
 </table>
