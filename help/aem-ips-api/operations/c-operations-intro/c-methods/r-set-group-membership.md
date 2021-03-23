@@ -1,23 +1,24 @@
 ---
-description: Define a associação de grupo para um usuário.
-seo-description: Define a associação de grupo para um usuário.
-seo-title: setGroupMember
+description: Define a associação do grupo para um usuário.
+seo-description: Define a associação do grupo para um usuário.
+seo-title: setGroupMembership
 solution: Experience Manager
-title: setGroupMember
-topic: Dynamic Media Image Production System API
+title: setGroupMembership
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
 
-# setGroupMember{#setgroupmembership}
+# setGroupMembership{#setgroupmembership}
 
-Define a associação de grupo para um usuário.
+Define a associação do grupo para um usuário.
 
 Sintaxe
 
@@ -29,21 +30,21 @@ Sintaxe
 
 ## Parâmetros {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**Entrada (setGroupMembcingParam)**
+**Entrada (setGroupMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
-| `*`companyHandle`*` | `xsd:string` | Não | Alça da empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de identificadores para grupos aos quais o usuário deve pertencer. |
+| `*`companyHandle`*` | `xsd:string` | Não | Manuseio da empresa. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de grupos aos quais o usuário pertence. |
 
-**Saída (setGroupMemberReturn)**
+**Saída (setGroupMembershipReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-67b86d259df24938896fe19061845811}
 
-Essa amostra de código torna o usuário membro de um grupo. Adicione um usuário a vários grupos com a matriz de identificador de grupo.
+Essa amostra de código torna o usuário membro de um grupo. Adicione um usuário a vários grupos com a matriz de manipuladores de grupo.
 
 **Solicitação**
 
