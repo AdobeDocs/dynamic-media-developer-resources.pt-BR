@@ -1,23 +1,24 @@
 ---
-description: Esses comandos se aplicam às camadas de texto, além dos comandos comuns de camada.
-seo-description: Esses comandos se aplicam às camadas de texto, além dos comandos comuns de camada.
+description: Esses comandos se aplicam às camadas de texto, além dos comandos de camada comuns.
+seo-description: Esses comandos se aplicam às camadas de texto, além dos comandos de camada comuns.
 seo-title: Comandos de camada de texto
 solution: Experience Manager
 title: Comandos de camada de texto
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 
-# Comandos de camada de texto{#text-layer-commands}
+# Comandos da camada de texto{#text-layer-commands}
 
-Esses comandos se aplicam às camadas de texto, além dos comandos comuns de camada.
+Esses comandos se aplicam às camadas de texto, além dos comandos de camada comuns.
 
 <table id="simpletable_DBCF90E140684FD19098EA810369337B"> 
  <tr class="strow"> 
