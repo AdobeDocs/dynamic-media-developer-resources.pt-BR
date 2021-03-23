@@ -1,15 +1,16 @@
 ---
-description: Define o público alvo de zoom associado a uma imagem de ativo. Substitui os públicos alvos de zoom existentes.
-seo-description: Define o público alvo de zoom associado a uma imagem de ativo. Substitui os públicos alvos de zoom existentes.
+description: Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
+seo-description: Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setZoomTargets{#setzoomtargets}
 
-Define o público alvo de zoom associado a uma imagem de ativo. Substitui os públicos alvos de zoom existentes.
+Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
 
 Sintaxe
 
@@ -36,19 +37,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Ativo com o público alvo de zoom que você deseja definir. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sim | Matriz de definições de públicos alvos de zoom. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Ativo com o direcionamento de zoom que você deseja definir. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sim | Matriz de definições de direcionamento de zoom. |
 
 **Saída (setZoomTargetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sim | O conjunto de identificadores para os públicos alvos de zoom criados por esta operação. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sim | O conjunto de identificadores para os destinos de zoom criados por esta operação. |
 
 ## Exemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Essa amostra de código define uma matriz de públicos alvos de zoom por nome, posição (eixo x e y), largura, altura e atribui a matriz a um ativo. A resposta contém identificadores para os públicos alvos de zoom recém-criados.
+Essa amostra de código define uma matriz de destinos de zoom por nome, posição (eixo x e y), largura, altura e atribui a matriz a um ativo. A resposta contém identificadores para os destinos de zoom recém-criados.
 
 **Solicitação**
 
