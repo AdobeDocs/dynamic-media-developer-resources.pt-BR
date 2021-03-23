@@ -2,11 +2,12 @@
 description: Adiciona um ou mais ativos a um projeto.
 solution: Experience Manager
 title: addProjectAssets
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -33,8 +34,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Lidar com a empresa associada ao projeto atual. |
-| `*`projectHandle`*` | `xsd:string` | Sim | Manipule o projeto ao qual você está adicionando ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Lida com a empresa associada ao projeto atual. |
+| `*`projectHandle`*` | `xsd:string` | Sim | Lide com o projeto ao qual você está adicionando ativos. |
 | `*`projectHandleArray`*` | `xsd:HandleArray` | Sim | Matriz de ativos que você está adicionando ao projeto atual. |
 
 **Saída (addProjectAssetsParam)**
@@ -49,7 +50,7 @@ Sintaxe
 
 ## Exemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Este exemplo adiciona um único ativo (referenciado por seu identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` retorna `1`.
+Este exemplo adiciona um único ativo (referenciado pelo identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` retorna `1`.
 
 **Solicitação**
 
