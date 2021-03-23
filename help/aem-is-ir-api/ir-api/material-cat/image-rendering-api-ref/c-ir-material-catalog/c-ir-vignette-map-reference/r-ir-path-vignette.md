@@ -4,12 +4,13 @@ seo-description: Caminho do arquivo de vinheta. Caminho relativo e nome de um ar
 seo-title: Caminho
 solution: Experience Manager
 title: Caminho
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 470cee37-9840-402a-bde5-ace8988996d2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ O servidor combina esse valor com `attribute::RootPath` para criar o caminho do 
 
 ## Propriedades {#section-b3b295feac084b56bd8a153c04987153}
 
-Sequência de caracteres de texto. Opcional. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Se estiver vazio, `vignette::Modifier` deverá incluir o comando `vignette=`.
+Sequência de texto. Opcional. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Se estiver vazio, `vignette::Modifier` deverá incluir o comando `vignette=`.
 
 ## Padrão {#section-a1d2133856084eb79a5be8230a4b38fd}
 
