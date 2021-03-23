@@ -2,12 +2,13 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-topic: Dynamic Media
 uuid: e0aa04a8-069e-4499-8d06-7b800940dba3
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '49'
 ht-degree: 2%
 
 ---
@@ -15,13 +16,13 @@ ht-degree: 2%
 
 # ZoomView.rgn{#zoomview-rgn}
 
-` [ZoomView.|<containerId>_zoomView.]rgn= `&quot;`, ``, ``, `xywh&quot;
+` [ZoomView.|<containerId>_zoomView.]rgn= ``, ``, ``, `xywh&quot;
 
 <table id="table_A5BFF854E2064B048BF9AA8D576F7DA2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Região de interesse inicial em coordenadas de pixel. Se isso não for especificado, a imagem inteira será ajustada dentro do visor inicial. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>, <span class="codeph"> y</span>, <span class="codeph"> w</span>, <span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> Região inicial de interesse em coordenadas de pixel. Se isso não for especificado, a imagem inteira se encaixará no visor inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>
