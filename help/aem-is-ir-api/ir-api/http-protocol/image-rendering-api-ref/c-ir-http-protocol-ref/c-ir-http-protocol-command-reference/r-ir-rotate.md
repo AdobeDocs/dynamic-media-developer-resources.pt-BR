@@ -4,12 +4,13 @@ seo-description: Ângulo de rotação do material. Define o ângulo de rotação
 seo-title: girar
 solution: Experience Manager
 title: girar
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -28,17 +29,17 @@ ht-degree: 0%
  </tr> 
 </table>
 
-Gire materiais de textura repetíveis (exceto papéis de parede) em múltiplos de 45 graus quando aplicados a Objetos Simples ou Objetos Planos.
+Girar os materiais de textura repetível (excluindo papéis de parede) em múltiplos de 45 graus quando aplicados a objetos planos ou objetos planos.
 
-Gire materiais de textura repetíveis por ângulos arbitrários quando aplicados a objetos de linha flutuante e de rascunho.
+Girar materiais de textura repetíveis por ângulos arbitrários quando aplicados a Objetos Flowline e Sketch.
 
-Gire materiais de decalque por ângulos arbitrários.
+Girar materiais de decalque por ângulos arbitrários.
 
-Ângulos positivos giram no sentido horário. A textura ou o decal é girado em torno do ponto de ancoragem ( `anchor=`); o ponto de ancoragem permanece alinhado à origem do objeto de público alvo.
+Ângulos positivos giram no sentido horário. A textura ou decalque é girada em torno do ponto de ancoragem ( `anchor=`); o ponto de ancoragem permanece alinhado com a origem do objeto de destino.
 
 ## Propriedades {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Atributo material. Ignorados por materiais de tratamento de cor sólida, papel de parede, armário e janelas. *`angle`* deve ser um múltiplo de 45 para texturas repetíveis, a menos que seja aplicado a objetos de linha flutuante ou de rascunho.
+Atributo de material. Ignorado por materiais de tratamento de cor sólida, papel de parede, armário e janela. *`angle`* deve ser um múltiplo de 45 para texturas repetíveis, a menos que seja aplicado a objetos Flowline ou Sketch.
 
 ## Padrão {#section-14c991e71b74449db8ff18a775949b28}
 
