@@ -4,12 +4,13 @@ seo-description: Área de exclusão do fluxo de texto. Especifica uma ou mais re
 seo-title: textFlowXPath
 solution: Experience Manager
 title: textFlowXPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ce833ae7-e774-4954-a521-b6247e75f6eb
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 0%
 <table id="simpletable_7E0EA48AEBB5426CBE948FCA18882C66"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Dados de caminho. </p></td> 
+  <td class="stentry"> <p>Dados do caminho. </p></td> 
  </tr> 
 </table>
 
@@ -32,7 +33,7 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 ## Propriedades {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Atributo de camada de texto (somente `textPs=`). Ignorado por outras camadas ou quando especificado sem `textFlowPath=`. Aplica-se a `layer=0` se especificado para `layer=comp`.
+Atributo da camada de texto (somente `textPs=`). Ignorado por outras camadas ou quando especificado sem `textFlowPath=`. Aplica-se a `layer=0` se especificado para `layer=comp`.
 
 ## Padrão {#section-9405cda904684d829ed12a9e40a4dc46}
 
