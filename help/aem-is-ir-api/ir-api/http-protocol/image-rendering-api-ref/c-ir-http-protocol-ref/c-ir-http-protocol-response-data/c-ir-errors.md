@@ -1,15 +1,16 @@
 ---
-description: Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, juntamente com uma mensagem de erro.
-seo-description: Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, juntamente com uma mensagem de erro.
+description: Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, junto com uma mensagem de erro.
+seo-description: Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, junto com uma mensagem de erro.
 seo-title: Erros
 solution: Experience Manager
 title: Erros
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5984fa9e-63c8-426b-be5f-48f66fc918c3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # Erros{#errors}
 
-Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, juntamente com uma mensagem de erro.
+Se uma solicitação não puder ser concluída com êxito, o servidor retornará uma imagem de erro ou um status de resposta HTTP diferente de 200, junto com uma mensagem de erro.
 
-O valor do status da resposta depende do tipo de erro; para a maioria dos erros comuns é &quot;403&quot;. Respostas de erro para tipos de solicitação que não sejam de imagem estão em conformidade com o formato especificado com `req=`. (Pode não ser implementado consistentemente no momento.)
+O valor do status da resposta depende do tipo do erro; para a maioria dos erros comuns é &#39;403&#39;. As respostas de erro para tipos de solicitação que não são de imagem estão em conformidade com o formato especificado com `req=`. (Pode não ser implementado de forma consistente no momento.)
 
 A quantidade de detalhes incluída na mensagem de erro é configurável com `attribute::ErrorDetail`.
 
 **Imagens de erro**
 
-O Serviço de imagem pode ser configurado para retornar mensagens de erro renderizadas em uma imagem. Consulte `attribute::ErrorImage` na referência do catálogo de imagens para obter detalhes. Se a imagem de erro for gerada com êxito, o status da resposta HTTP será 200. Se ocorrer um erro ao processar a imagem de erro, a resposta de erro HTTP padrão e a mensagem de texto serão retornadas ao cliente.
+O Image Serving pode ser configurado para retornar mensagens de erro renderizadas em uma imagem. Consulte `attribute::ErrorImage` na referência do catálogo de imagens para obter detalhes. Se a imagem de erro for gerada com êxito, o status da resposta HTTP será 200. Se ocorrer um erro ao processar a imagem de erro, a resposta de erro HTTP padrão e a mensagem de texto serão retornadas ao cliente.
 
 **Consulte também**
 
