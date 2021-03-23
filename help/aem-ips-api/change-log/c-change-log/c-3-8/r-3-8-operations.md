@@ -1,15 +1,16 @@
 ---
-description: Descreve métodos de operações novos e alterados para a API IPS versão 3.8.
-seo-description: Descreve métodos de operações novos e alterados para a API IPS versão 3.8.
-seo-title: Operações Novas e Modificadas
+description: Descreve métodos de operações novos e alterados para a API do IPS versão 3.8.
+seo-description: Descreve métodos de operações novos e alterados para a API do IPS versão 3.8.
+seo-title: Operações novas e modificadas
 solution: Experience Manager
-title: Operações Novas e Modificadas
-topic: Dynamic Media Image Production System API
+title: Operações novas e modificadas
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Operações: Novo e Modificado{#operations-new-and-modified}
 
-Descreve métodos de operações novos e alterados para a API IPS versão 3.8.
+Descreve métodos de operações novos e alterados para a API do IPS versão 3.8.
 
 Sintaxe
 
-## Novas Operações {#section-64f0e4cd01154bb68c4e3e2dd8732ef5}
+## Novas operações {#section-64f0e4cd01154bb68c4e3e2dd8732ef5}
 
 * `setAssetPublishState`
 * `saveZoomTarget`
@@ -35,9 +36,9 @@ Sintaxe
 
 **searchAssets**
 
-* O parâmetro opcional `publishState` permite que você pesquise no estado `MarkedForPublish/NotMarkedForPublish` do ativo.
+* O parâmetro opcional `publishState` permite pesquisar no estado do ativo `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* O parâmetro opcional `userHandle` permite que você recupere logs de tarefas enviados por um usuário específico.
+* O parâmetro opcional `userHandle` permite recuperar registros de tarefas enviados por um usuário específico.
 
