@@ -1,23 +1,24 @@
 ---
-description: comando URL para o Visualizador de vídeo.
-seo-description: comando URL para o Visualizador de vídeo.
-seo-title: video
+description: comando URL para Visualizador de vídeo.
+seo-description: comando URL para Visualizador de vídeo.
+seo-title: vídeo
 solution: Experience Manager
-title: video
-topic: Dynamic Media
+title: vídeo
 uuid: c3304518-e1bb-43d6-801b-a4ce7c0d995d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
 
 
-# video{#video}
+# vídeo{#video}
 
-comando URL para o Visualizador de vídeo.
+comando URL para Visualizador de vídeo.
 
 ` video= *`videoURL`*`
 
@@ -25,7 +26,7 @@ comando URL para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> O URL absoluto para um vídeo externo. </p> </td> 
+   <td colname="col2"> <p> O URL absoluto de um vídeo externo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
