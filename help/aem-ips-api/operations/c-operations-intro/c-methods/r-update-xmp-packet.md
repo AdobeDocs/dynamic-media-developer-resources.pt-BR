@@ -4,12 +4,13 @@ seo-description: Define ou atualiza um pacote de metadados XMP para um ativo.
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -37,15 +38,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote que deseja definir ou atualizar. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote que você deseja definir ou atualizar. |
 
 **Saída (updateXMPPacketReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`sucesso`*` | `xsd:boolean` | Sim | Retorna `true` se o pacote foi atualizado. |
+| `*`success`*` | `xsd:boolean` | Sim | Retorna `true` se o pacote foi atualizado. |
 
 ## Exemplos {#section-38b556b94e5044bf97a954519ff6c212}
 
