@@ -1,15 +1,16 @@
 ---
-description: O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual dentro do conjunto.
-seo-description: O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual dentro do conjunto.
+description: O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual no conjunto.
+seo-description: O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual no conjunto.
 seo-title: Definir indicador
 solution: Experience Manager
 title: Definir indicador
-topic: Dynamic Media
 uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Definir indicador{#set-indicator}
 
-O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual dentro do conjunto.
+O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual no conjunto.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS do indicador de conjunto**
+**Propriedades CSS do indicador de conjunto**
 
-A aparência do container indicador definido é controlada com o seguinte seletor de classe CSS:
+A aparência do contêiner indicador definido é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7carouselviewer .s7setindicator
@@ -38,15 +39,15 @@ A aparência do container indicador definido é controlada com o seguinte seleto
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>A cor do plano de fundo no formato hexadecimal do indicador de conjunto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador definido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->O indicador Set suporta o seletor de atributos mode, que você pode usar para aplicar estilos diferentes para modos de operação pontilhados e numéricos. Em particular, `mode="numeric"` corresponde ao modo de operação numérico; `mode="dotted"` corresponde ao estado de ponto padrão.
+>O indicador Set suporta o seletor de atributo mode, que pode ser usado para aplicar estilos diferentes para modos de operação pontilhados e numéricos. Em particular, `mode="numeric"` corresponde ao modo de operação numérico; `mode="dotted"` corresponde ao estado de ponto padrão.
 
 Exemplo - para configurar o indicador de configuração com um fundo branco:
 
@@ -56,7 +57,7 @@ Exemplo - para configurar o indicador de configuração com um fundo branco:
 }
 ```
 
-A aparência de um ponto indicador de conjunto individual é controlada com o seletor de classe CSS. Aplica-se aos itens nos modos de operação pontilhado e numérico.
+A aparência de um ponto indicador de conjunto individual é controlada com o seletor de classe CSS. Aplica-se a itens em modos de operação pontilhados e numéricos.
 
 `.s7carouselviewer .s7setindicator .s7dot`
 
@@ -93,11 +94,11 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
@@ -105,11 +106,11 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -125,7 +126,7 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
 
 >[!NOTE]
 >
->Os itens do indicador definidos suportam o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Em particular, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado padrão do item.
+>Os itens do indicador definido oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em particular, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado padrão do item.
 
 Exemplo - para configurar o indicador de configuração no modo pontilhado para que os sistemas de desktop sejam posicionados 20 pixels a partir da parte inferior do visualizador. Os pontos não selecionados são pretos com 50% de transparência, 15 x 15 pixels com 7 pixels de cantos arredondados. Os pontos selecionados são pretos com 90% de transparência, 18 x 18 pixels com 9 pixels de cantos arredondados. O espaçamento entre pontos é de 5 pixels.
 
