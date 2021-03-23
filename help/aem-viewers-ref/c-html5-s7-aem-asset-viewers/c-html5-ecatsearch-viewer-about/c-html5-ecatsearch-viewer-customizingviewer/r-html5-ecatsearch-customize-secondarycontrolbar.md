@@ -1,15 +1,16 @@
 ---
-description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última página e um Indicador de página quando disponibilizado no CSS.
-seo-description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última página e um Indicador de página quando disponibilizado no CSS.
+description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
+seo-description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
 seo-title: Barra de controle secundária
 solution: Experience Manager
 title: Barra de controle secundária
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # Barra de controle secundária{#secondary-control-bar}
 
-A barra de controle secundária é a área retangular que contém os botões Primeira e Última página e um Indicador de página quando disponibilizado no CSS.
+A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
 
-Por padrão, ele é exibido somente em telefones celulares e está localizado na parte inferior do visualizador. Ele sempre leva a largura total do visualizador disponível. É possível alterar sua cor, altura e posição vertical por CSS, em relação ao container do visualizador.
+Por padrão, ele é exibido somente em telefones celulares e está localizado na parte inferior do visualizador. Sempre leva toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical por CSS, em relação ao contêiner do visualizador.
 
 A aparência da barra de controle secundária é controlada com o seguinte seletor de classe CSS:
 
@@ -39,20 +40,20 @@ A aparência da barra de controle secundária é controlada com o seguinte selet
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição na parte inferior do visualizador. </p> </td> 
+   <td colname="col2"> <p>Posicione a partir da parte inferior do visualizador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>A altura da barra de controle principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>A cor de plano de fundo da barra de controle secundária. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A cor de fundo da barra de controle secundária. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma barra de controle secundária cinza com 72 pixels de altura e posicionada na parte inferior do container do visualizador.
+Exemplo - para configurar uma barra de controle secundária cinza com 72 pixels de altura e que esteja posicionada na parte inferior do contêiner do visualizador.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  
