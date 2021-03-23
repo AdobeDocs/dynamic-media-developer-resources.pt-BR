@@ -1,15 +1,16 @@
 ---
-description: Um campo de metadados retornado por searchAssets.
-seo-description: Um campo de metadados retornado por searchAssets.
+description: Um campo de metadados retornado pelo searchAssets.
+seo-description: Um campo de metadados retornado pelo searchAssets.
 seo-title: Metadados
 solution: Experience Manager
 title: Metadados
-topic: Dynamic Media Image Production System API
 uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # Metadados{#metadata}
 
-Um campo de metadados retornado por searchAssets.
+Um campo de metadados retornado pelo searchAssets.
 
 Sintaxe
 
@@ -27,8 +28,8 @@ Sintaxe
 |---|---|---|
 | `*`name`*` | `xsd:string` | Nome dos metadados. |
 | `*`value`*` | `xsd:string` | Valor dos metadados. |
-| `*`boolVal`*` | `xsd:boolean` | Valor de metadados booleanos (somente para campos digitados como booleanos). |
-| `*`longVal`*` | `xsd:long` | Valor de metadados longos (somente para campos sem tipo). |
-| `*`doubleVal`*` | `xsd:double` | Valor dos metadados do duplo (somente para campos de tipo flutuante). |
-| `*`dateVal`*` | `xsd:dateTime` | Valor de metadados de data (somente para campos digitados por data). |
+| `*`boolVal`*` | `xsd:boolean` | Valor de metadados booleanos (somente para campos do tipo Booliano). |
+| `*`longVal`*` | `xsd:long` | Valor de metadados longo (somente para campos sem tipo). |
+| `*`doubleVal`*` | `xsd:double` | Valor de metadados duplos (somente para campos de tipo flutuante). |
+| `*`dateVal`*` | `xsd:dateTime` | Valor dos metadados de data (somente para campos do tipo data). |
 
