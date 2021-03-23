@@ -1,15 +1,16 @@
 ---
-description: A string de comando do Servidor de imagens que é aplicada a todas as miniaturas.
-seo-description: A string de comando do Servidor de imagens que é aplicada a todas as miniaturas.
+description: A string de comando Image Serving que é aplicada a todas as miniaturas.
+seo-description: A string de comando Image Serving que é aplicada a todas as miniaturas.
 seo-title: FavoritesView.iscommand
 solution: Experience Manager
 title: FavoritesView.iscommand
-topic: Dynamic Media
 uuid: be3d49d1-d5d2-4ecd-bc8f-fe5f80204c76
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '82'
 ht-degree: 1%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-A string de comando do Servidor de imagens que é aplicada a todas as miniaturas.
+A string de comando Image Serving que é aplicada a todas as miniaturas.
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`]
 
