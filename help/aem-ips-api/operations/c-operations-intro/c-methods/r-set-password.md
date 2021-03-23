@@ -1,15 +1,16 @@
 ---
-description: Define a senha de um usuário específico ou o usuário padrão para um valor específico, dependendo de você especificar um identificador de usuário.
-seo-description: Define a senha de um usuário específico ou o usuário padrão para um valor específico, dependendo de você especificar um identificador de usuário.
+description: Define a senha de um usuário específico ou padrão para um valor específico, dependendo de você especificar um identificador de usuário.
+seo-description: Define a senha de um usuário específico ou padrão para um valor específico, dependendo de você especificar um identificador de usuário.
 seo-title: setPassword
 solution: Experience Manager
 title: setPassword
-topic: Dynamic Media Image Production System API
 uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # setPassword{#setpassword}
 
-Define a senha de um usuário específico ou o usuário padrão para um valor específico, dependendo de você especificar um identificador de usuário.
+Define a senha de um usuário específico ou padrão para um valor específico, dependendo de você especificar um identificador de usuário.
 
-A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
+A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
 
 ## Tipos de usuário autorizados {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
 
@@ -58,7 +59,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
    <td colname="col4"> <p>Identificador do usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> senha  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>Senha. </p> <p>Os seguintes requisitos são aplicados na senha escolhida: </p> <p> 
@@ -70,7 +71,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres em inglês minúsculos. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres em inglês maiúsculos. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por exemplo, <span class="codeph"> 1 2 3 4 5 </span> e assim por diante. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer uma das seguintes opções: <span class="codeph"> " ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : "; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especial. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; " &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -78,14 +79,14 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expira.
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Determina a data de expiração da senha. <p>Observação:  Forneça o fuso horário com a solicitação para este campo. Os fusos horários são ajustados para Hora central. </p> </p> </td> 
+   <td colname="col4"> <p>Determina a data de expiração da senha. <p>Observação:  Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para Hora central. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Saída (setPasswordReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-23a6fbabdb3c4c3180076057e47ae567}
 
