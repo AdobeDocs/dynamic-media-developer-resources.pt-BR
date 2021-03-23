@@ -2,12 +2,13 @@
 description: Tipos de dados
 solution: Experience Manager
 title: Tipos de dados
-topic: Dynamic Media Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -33,13 +34,13 @@ ht-degree: 0%
 + [AssetMoveArray](r-asset-move-array.md)
 + [AssetOperationFault](r-asset-operation-fault.md)
 + [AssetOperationFaultArray](r-asset-operation-fault-array.md)
-+ [AssetPublishContext](r-asset-publish-context.md)
++ [AtivoPublicarContextos](r-asset-publish-context.md)
 + [AssetPublishContextArray](r-asset-publish-context-array.md)
 + [AssetSetInfo](r-asset-set-info.md)
 + [AssetSummary](r-asset-summary.md)
 + [AssetSummaryArray](r-asset-summary-array.md)
 + [AudioInfo](r-audio-info.md)
-+ [AutoColorCropOptions](r-auto-color-crop-options.md)
++ [Opções deCortarCorAutomática](r-auto-color-crop-options.md)
 + [AutomatedSetGenerationJob](r-automated-set-generation-job.md)
 + [AutoSetCreationOptions](r-auto-set-creation-options.md)
 + [AutoTransparentCropOptions](r-auto-transparent-crop-options.md)
@@ -51,10 +52,10 @@ ht-degree: 0%
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
-+ [EmpresaAssociação](r-company-membership.md)
-+ [CompanyMembshipArray](r-company-membership-array.md)
-+ [CompanyMembshipUpdate](r-company-membership-update.md)
-+ [EmpresaMembshipUpdateArray](r-company-membership-update-array.md)
++ [CompanyMembership](r-company-membership.md)
++ [CompanyMembershipArray](r-company-membership-array.md)
++ [CompanyMembershipUpdate](r-company-membership-update.md)
++ [CompanyMembershipUpdateArray](r-company-membership-update-array.md)
 + [CompanyMetadataInfo](r-company-metadata-info.md)
 + [CompanyMetadataInfoArray](r-company-metadata-info-array.md)
 + [CompanySettings](r-company-settings.md)
@@ -65,13 +66,13 @@ ht-degree: 0%
 + [CreateVideoSitemapJob](r-create-video-sitemap-job.md)
 + [CssInfo](r-cssinfo.md)
 + [CuePointInfo](r-cue-point-info.md)
-+ [DiskUsage](r-disk-usage.md)
++ [Uso de disco](r-disk-usage.md)
 + [DiskUsageArray](r-disk-usage-array.md)
 + [ConfirmaçãoDeEmail](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
 + [ExcludeByproductArray](r-exclude-byproduct-array.md)
 + [ExcludeByproductCondition](r-exclude-byproduct-condition.md)
-+ [ExcluirVídeoMestreDeAVS](r-exclude-master-video-from-avs.md)
++ [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
 + [FlashInfo](r-flash-info.md)
@@ -116,7 +117,7 @@ ht-degree: 0%
 + [JobLogDetailAux](r-job-log-detail-aux.md)
 + [JobLogDetailAuxArray](r-job-log-detail-aux-array.md)
 + [Palavras-chave](r-keywords.md)
-+ [Palavras-chaveMatriz](r-keywords-array.md)
++ [Palavras-chaveArray](r-keywords-array.md)
 + [OpçõesDePlanoDeFundoDeConhecimento](r-knockout-background-options.md)
 + [LayerViewInfo](r-layer-view-info.md)
 + [ManualCropOptions](r-manual-crop-options.md)
@@ -136,8 +137,8 @@ ht-degree: 0%
 + [MetadataPublishJobType](r-metadata-publish-job-type.md)
 + [MetadataUpdate](r-metadata-update.md)
 + [MetadataUpdateArray](r-metadata-update-array.md)
-+ [EventoMPE](r-mp-event.md)
-+ [MPEEventArray](r-mp-event-array.md)
++ [Evento MPE](r-mp-event.md)
++ [MPEeventArray](r-mp-event-array.md)
 + [OperationFault](r-operation-fault.md)
 + [OperationFaultArray](r-operation-fault-array.md)
 + [OtimizeImagesJob](r-optimize-images-job.md)
@@ -150,7 +151,7 @@ ht-degree: 0%
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
-+ [PerspectiveQuad](r-perspective-quad.md)
++ [PerspectivaQuad](r-perspective-quad.md)
 + [PhotoshopOptions](r-photoshop-options.md)
 + [PhotoshopLayerOptions](r-photoshop-layer-options.md)
 + [PostScriptInfo](r-post-script-info.md)
@@ -205,9 +206,9 @@ ht-degree: 0%
 + [TemplateInfo](r-template-info.md)
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
-+ [OpçõesMiniaturas](r-thumbnail-options.md)
++ [Opções de miniatura](r-thumbnail-options.md)
 + [DescompactarOpções](r-uncompress-options.md)
-+ [UnsharMaskOptions](r-unsharp-mask-options.md)
++ [Tirar nitidez deOpçõesDeMáscara](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
 + [UploadPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
