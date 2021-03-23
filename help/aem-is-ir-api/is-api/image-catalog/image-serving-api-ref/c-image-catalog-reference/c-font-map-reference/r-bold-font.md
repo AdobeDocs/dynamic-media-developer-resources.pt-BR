@@ -1,15 +1,16 @@
 ---
-description: Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de negrito RTF (\b).
-seo-description: Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de negrito RTF (\b).
+description: Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de rosto RTF (\b).
+seo-description: Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de rosto RTF (\b).
 seo-title: Negrito
 solution: Experience Manager
 title: Negrito
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Negrito{#bold}
 
-Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de negrito RTF (\b).
+Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de rosto RTF (\b).
 
 ## Propriedades {#section-f2727dd66f7c41ee9602872a104d25b1}
 
-Sinalizar. Chave de índice secundária opcional para o mapa de fontes.
+Sinalizador. Chave de índice secundária opcional para o mapa de fontes.
 
 ## Padrão {#section-ee7e72f864c5463b963b4b2b513bfad7}
 
@@ -29,5 +30,5 @@ Sinalizar. Chave de índice secundária opcional para o mapa de fontes.
 
 ## Consulte também {#section-1884263aa44641e19076a038f5c45f7c}
 
-* [fonte::Nome](r-name-font.md#reference_C55889877DC54AABB60734DCDE86EE76)
-* [fonte::Itálico](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md#reference-dc04a532b34a41af81b0b9644acfaad6)
+* [font:Name](r-name-font.md#reference_C55889877DC54AABB60734DCDE86EE76)
+* [fonte::Italic](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-italic-font.md#reference-dc04a532b34a41af81b0b9644acfaad6)
