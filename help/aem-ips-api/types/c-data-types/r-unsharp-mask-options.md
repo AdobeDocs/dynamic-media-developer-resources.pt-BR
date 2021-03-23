@@ -1,15 +1,16 @@
 ---
 description: Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
 seo-description: Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
-seo-title: UnsharMaskOptions
+seo-title: Tirar nitidez deOpçõesDeMáscara
 solution: Experience Manager
-title: UnsharMaskOptions
-topic: Dynamic Media Image Production System API
+title: Tirar nitidez deOpçõesDeMáscara
 uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
 
-`unsharpMaskOptions=[ *`quantidade, raio, limiar, monocromático`*]`
+`unsharpMaskOptions=[ *`quantidade, raio, limite, monocromático`*]`
 
 ## Parâmetros {#section-c3f0d03136ba4422819cb463bd393885}
 
-Especifique um valor para as opções `unsharpMaskOptions` com `minOccurs=" *`n`*".`
+Especifique um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -36,7 +37,7 @@ Especifique um valor para as opções `unsharpMaskOptions` com `minOccurs=" *`n`
  <tbody>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> quantia</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:duplo</span></td>
+   <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>Controla o contraste aplicado aos pixels da borda. 
      <ul id="ul_7AA17E354EE64BC4A5BEAE853FF17191">
       <li id="li_42FB21C7ED884E1DB03274130B8DCB10">Intervalo: 0.0 - 5.0 </li>
@@ -44,28 +45,28 @@ Especifique um valor para as opções `unsharpMaskOptions` com `minOccurs=" *`n`
      </ul></p></td>
   </tr>
   <tr>
-   <td colname="col1"><span class="codeph"><span class="varname"> raio</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:duplo</span></td>
+   <td colname="col1"><span class="codeph"><span class="varname"> radius</span></span></td>
+   <td colname="col2"><span class="codeph"> xsd:double</span></td>
    <td colname="col3"><p>Controla a nitidez definindo o número de pixels ao redor da borda de uma imagem. O valor correto depende do tamanho da imagem. 
      <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
-      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervalo: 0,0 - 250,0 </li>
-      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Valores baixos tornam nítidos apenas os pixels da borda. </li>
-      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Valores altos tornam nítida uma faixa mais ampla de pixels. </li>
+      <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervalo: 0.0 - 250.0 </li>
+      <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Valores baixos aumentam apenas os pixels da borda. </li>
+      <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Valores altos aumentam a nitidez de uma faixa maior de pixels. </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> limite</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Determina o quão diferentes pixels devem ser da área ao redor antes de serem considerados pixels de borda e poderem ser apontados. 
+   <td colname="col3"><p>Determina o quão diferentes pixels devem ser da área ao redor antes que sejam considerados pixels de borda e possam ser apontados com nitidez. 
      <ul id="ul_117E556E3ECF42CC878DD80D338D19CA">
-      <li id="li_CFEE76DB78BF437E8463C9089486F8A6">Intervalo: 0 - 255 (apenas números inteiros). </li>
+      <li id="li_CFEE76DB78BF437E8463C9089486F8A6">Intervalo: 0 - 255 (somente números inteiros). </li>
       <li id="li_77113DC2698A4D48B11288718766E6A2">Padrão: 6 </li>
      </ul></p></td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromático</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Os valores incluem apenas <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>. </p><p>Defina como <span class="codeph"> 0</span> para aplicar a cada componente de cor separadamente ou como <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara de camada ou a máscara composta também são afiadas. </p><p><span class="codeph"><span class="varname"> Os </span></span> monocromáticos são ignorados para imagens em tons de cinza. </p></td>
+   <td colname="col3"><p>Os valores incluem apenas <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>. </p><p>Defina como <span class="codeph"> 0</span> para aplicar a cada componente de cor separadamente ou a <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara de camada ou máscara composta também é afiada. </p><p><span class="codeph"><span class="varname"> </span></span> monocromáticos ignorados para imagens em tons de cinza. </p></td>
   </tr>
  </tbody>
 </table>
@@ -95,5 +96,5 @@ O tipo `unsharpMaskOptions` é usado por:
 
 >[!MORELIKETHIS]
 >
->* [Referência da API de disponibilização de imagem: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
+>* [Referência da API de disponibilização de imagens: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
 
