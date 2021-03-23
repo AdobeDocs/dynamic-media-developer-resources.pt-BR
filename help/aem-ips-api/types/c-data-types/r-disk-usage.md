@@ -1,15 +1,16 @@
 ---
 description: Estatísticas de espaço em disco para um ativo ou pasta.
 seo-description: Estatísticas de espaço em disco para um ativo ou pasta.
-seo-title: DiskUsage
+seo-title: Uso de disco
 solution: Experience Manager
-title: DiskUsage
-topic: Dynamic Media Image Production System API
+title: Uso de disco
 uuid: a63f0ed0-c689-43b0-9c3e-9500715d15a5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Manuseio da empresa. |
 | `*`companyName`*` | `xsd:string` | Nome da empresa. |
 | `*`imageCount`*` | `xsd:int` | Número de imagens armazenadas. |
-| `*`diskSpaceUsage`*` | `xsd:long` | Total do lado do arquivo em quilobytes. |
+| `*`diskSpaceUsage`*` | `xsd:long` | Lado total do arquivo em kilobytes. |
 | `*`lastModified`*` | `xsd:dateTime` | Data, hora e fuso horário em que o tipo `DiskUsage` foi modificado pela última vez. |
 
