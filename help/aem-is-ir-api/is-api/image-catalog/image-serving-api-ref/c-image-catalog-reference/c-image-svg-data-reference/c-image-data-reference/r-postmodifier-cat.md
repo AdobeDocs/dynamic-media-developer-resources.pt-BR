@@ -1,15 +1,16 @@
 ---
-description: Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Servidor de imagens separados por '&' caracteres.
-seo-description: Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Servidor de imagens separados por '&' caracteres.
+description: Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Image Serving separados por caracteres '&'.
+seo-description: Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Image Serving separados por caracteres '&'.
 seo-title: PostModifier
 solution: Experience Manager
 title: PostModifier
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # PostModifier{#postmodifier}
 
-Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Servidor de imagens separados por &#39;&amp;&#39; caracteres.
+Sequência do modificador da solicitação de sufixo. Nenhum ou mais comandos do Image Serving separados por caracteres &#39;&amp;&#39;.
 
-Os comandos nesse campo sempre substituem os comandos na solicitação HTTP e em `catalog::Modifier`.
+Os comandos neste campo sempre substituem comandos na solicitação HTTP e em `catalog::Modifier`.
 
-`catalog::PostModifier` é útil se determinadas imagens exigem configurações especiais que são normalmente controladas pelo URL, como  `qlt=` ou  `resmode=`. `catalog::Modifier` deve ser usado para definir a maioria dos comandos IS no catálogo de imagens.
+`catalog::PostModifier` é útil se determinadas imagens exigirem configurações especiais que são normalmente controladas pelo URL, como  `qlt=` ou  `resmode=`. `catalog::Modifier` deve ser usada para definir a maioria dos comandos IS no catálogo de imagens.
 
-As macros são permitidas em `catalog::PostModifier`, desde que estejam definidas no mesmo catálogo ou no catálogo padrão. As variáveis personalizadas também podem ser usadas.
+As macros são permitidas em `catalog::PostModifier`, desde que sejam definidas no mesmo catálogo ou no catálogo padrão. Variáveis personalizadas também podem ser usadas.
 
 >[!NOTE]
 >
@@ -31,7 +32,7 @@ As macros são permitidas em `catalog::PostModifier`, desde que estejam definida
 
 ## Propriedades {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 
-Sequência de caracteres de texto. Opcional.
+Sequência de texto. Opcional.
 
 ## Padrão {#section-8c83bce7f6c846d48fbe8fd30bedf5d5}
 
