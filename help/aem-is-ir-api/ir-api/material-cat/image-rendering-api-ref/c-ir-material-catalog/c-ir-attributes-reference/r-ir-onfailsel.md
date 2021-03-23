@@ -1,15 +1,16 @@
 ---
-description: Manuseio de erros de seleção de separação. Especifica a ação a ser tomada se o comando sel= falhar porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
-seo-description: Manuseio de erros de seleção de separação. Especifica a ação a ser tomada se o comando sel= falhar porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
+description: Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se o comando sel= falhar porque o local de pixel especificado não está dentro da área de máscara de um objeto selecionável.
+seo-description: Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se o comando sel= falhar porque o local de pixel especificado não está dentro da área de máscara de um objeto selecionável.
 seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 073b6651-970c-460c-b044-e3ef37cc677a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # OnFailSel{#onfailsel}
 
-Manuseio de erros de seleção de separação. Especifica a ação a ser tomada se o comando sel= falhar porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
+Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se o comando sel= falhar porque o local de pixel especificado não está dentro da área de máscara de um objeto selecionável.
 
 ## Propriedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -29,16 +30,16 @@ Enum.
   <td class="stentry"> <p>Herdar de <span class="codeph"> padrão::OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Manter a seleção anterior. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Desmarcar; quaisquer tentativas de aplicar um material ou mostrar/ocultar objetos serão ignoradas. </p> </td> 
+  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos será ignorada. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Retorna um erro. </p> </td> 
+  <td class="stentry"> <p>Retorne um erro. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
