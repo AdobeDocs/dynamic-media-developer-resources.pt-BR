@@ -2,12 +2,13 @@
 description: Caminho
 solution: Experience Manager
 title: Caminho
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -19,13 +20,13 @@ O servidor usa as regras de resolução de caminho descritas em [Gerenciando Dad
 
 ## Propriedades {#section-72d9edc532ad43349afcb4df22e1c692}
 
-Sequência de caracteres de texto. Obrigatório para registros de imagem e SVG, pode estar vazio para registros de modelo. Se especificado, deve ser um caminho de arquivo válido relativo ou absoluto do Servidor de imagens. atributo::DefaultExt será anexado se nenhum sufixo de arquivo estiver presente.
+Sequência de texto. Necessário para registros de imagem e SVG, pode estar vazio para registros de modelo. Se especificado, deve ser um caminho de arquivo válido relativo ou absoluto do Servidor de Imagens. attribute::DefaultExt será anexado se nenhum sufixo de arquivo estiver presente.
 
-## Formatos de arquivo de imagem suportados {#section-8d6443c883aa48aaa00316fe9661aaa8}
+## Formatos de arquivo de imagem compatíveis {#section-8d6443c883aa48aaa00316fe9661aaa8}
 
-Consulte a descrição do utilitário Conversor de imagens (IC) para obter uma lista completa dos formatos de arquivo de imagem suportados.
+Consulte a descrição do utilitário Conversor de imagem (IC) para obter uma lista completa dos formatos de arquivo de imagem suportados.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O utilitário IC é usado para criar imagens PTIFF a partir de qualquer formato de imagem compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão o melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O utilitário IC é usado para criar imagens PTIFF de qualquer formato de imagem compatível.
 
 ## Padrão {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
