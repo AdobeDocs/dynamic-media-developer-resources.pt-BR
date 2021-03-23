@@ -1,15 +1,16 @@
 ---
-description: Tratamento de erros de seleção de objetos. Especifica a ação a ser tomada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia de objetos de vinheta.
-seo-description: Tratamento de erros de seleção de objetos. Especifica a ação a ser tomada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia de objetos de vinheta.
+description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
+seo-description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
 seo-title: OnFailObj
 solution: Experience Manager
 title: OnFailObj
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9dcaf29-ffa5-47db-9c8c-d1809da73582
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 3%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 3%
 
 # OnFailObj{#onfailobj}
 
-Tratamento de erros de seleção de objetos. Especifica a ação a ser tomada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia de objetos de vinheta.
+Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
 
 ## Propriedades {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -29,16 +30,16 @@ Enum.
   <td class="stentry"> <p>Herdar de <span class="codeph"> padrão::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Manter a seleção anterior. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Desmarcar; quaisquer tentativas de aplicar um material ou mostrar/ocultar objetos serão ignoradas. </p> </td> 
+  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos será ignorada. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Retorna um erro. </p> </td> 
+  <td class="stentry"> <p>Retorne um erro. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
