@@ -4,12 +4,13 @@ seo-description: Política de validação do cache do servidor. Especifica quand
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 371dadbf-d58e-4214-8050-7e8907b436e3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Política de validação do cache do servidor. Especifica quando as entradas de cache do lado do servidor são validadas.
 
-Com a validação baseada em expiração, as imagens de origem são verificadas periodicamente se foram alteradas. Com a validação baseada em catálogo, as imagens de origem são verificadas somente depois que o valor `catalog::TimeStamp` é alterado.
+Com a validação baseada em expiração, as imagens de origem são verificadas periodicamente se foram alteradas. Com a validação baseada em catálogo, as imagens de origem são marcadas somente após o valor `catalog::TimeStamp` ser alterado.
 
 A validação baseada em catálogo é recomendada quando os catálogos de imagem são usados. A validação baseada em expiração deve ser usada quando as imagens são referenciadas diretamente, sem o uso de um catálogo de imagens.
 
