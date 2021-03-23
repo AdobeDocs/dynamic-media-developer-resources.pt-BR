@@ -1,15 +1,16 @@
 ---
-description: Obtém todos os valores do dicionário de tags definidos para um ou mais campos de tags.
-seo-description: Obtém todos os valores do dicionário de tags definidos para um ou mais campos de tags.
+description: Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
+seo-description: Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getTagFieldValues{#gettagfieldvalues}
 
-Obtém todos os valores do dicionário de tags definidos para um ou mais campos de tags.
+Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
 
 Sintaxe
 
@@ -40,13 +41,13 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Sim | Uma matriz de campos trata dos valores de tags que você deseja retornar. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | Sim | Uma matriz de campo trata os valores de tag que você deseja retornar. |
 
 **Saída (getTagFieldValuesReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores de tag no dicionário para cada campo solicitado. |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores da tag no dicionário para cada campo solicitado. |
 
 ## Exemplos {#section-4492742614e44bb191a7d397dc1a1407}
 
