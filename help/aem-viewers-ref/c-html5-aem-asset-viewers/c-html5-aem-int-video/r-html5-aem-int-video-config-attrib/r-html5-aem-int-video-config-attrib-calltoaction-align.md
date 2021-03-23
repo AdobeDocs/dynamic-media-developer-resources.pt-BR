@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: CallToAction.align
 solution: Experience Manager
 title: CallToAction.align
-topic: Dynamic Media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> esquerda|centro|direita</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou âncora) do container de miniaturas dentro da área do componente. </p> <p>Na ação de chamar, o container de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o container interno e os limites do componente externo. </p> <p>Esse modificador especifica como o container de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou âncora) do contêiner de miniaturas dentro da área do componente. </p> <p>Na chamada para a ação, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
