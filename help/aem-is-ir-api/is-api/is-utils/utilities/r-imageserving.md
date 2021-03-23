@@ -1,15 +1,16 @@
 ---
-description: Script de controle do Servidor de imagens. Esse script é usado para start, parada ou reinicialização do Supervisor do Servidor de Servidor de Imagem, que, por sua vez, start, para ou reinicia todos os outros componentes do Servidor de Imagem.
-seo-description: Script de controle do Servidor de imagens. Esse script é usado para start, parada ou reinicialização do Supervisor do Servidor de Servidor de Imagem, que, por sua vez, start, para ou reinicia todos os outros componentes do Servidor de Imagem.
+description: Script de controle do Servidor de imagem. Esse script é usado para iniciar, parar ou reiniciar o Supervisor do Servidor de Exibição de Imagens, que, por sua vez, inicia, interrompe ou reinicia todos os outros componentes do Servidor de Imagem.
+seo-description: Script de controle do Servidor de imagem. Esse script é usado para iniciar, parar ou reiniciar o Supervisor do Servidor de Exibição de Imagens, que, por sua vez, inicia, interrompe ou reinicia todos os outros componentes do Servidor de Imagem.
 seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # ImageServing{#imageserving}
 
-Script de controle do Servidor de imagens. Esse script é usado para start, parada ou reinicialização do Supervisor do Servidor de Servidor de Imagem, que, por sua vez, start, para ou reinicia todos os outros componentes do Servidor de Imagem.
+Script de controle do Servidor de imagem. Esse script é usado para iniciar, parar ou reiniciar o Supervisor do Servidor de Exibição de Imagens, que, por sua vez, inicia, interrompe ou reinicia todos os outros componentes do Servidor de Imagem.
 
 ## Uso {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -35,23 +36,23 @@ Script de controle do Servidor de imagens. Esse script é usado para start, para
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> start  </span> </p> </td> 
-   <td colname="col2"> <p> Start o Server Supervisor e todos os outros componentes do Serviço de imagem. </p> </td> 
+   <td colname="col2"> <p> Inicie o Server Supervisor e todos os outros componentes do Image Serving. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
-   <td colname="col2"> <p> Pare todos os componentes do Servidor de imagens, incluindo o Supervisor de Servidor. </p> </td> 
+   <td colname="col2"> <p> Pare todos os componentes do Image Serving, incluindo o Supervisor de Servidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> reiniciar  </span> </p> </td> 
-   <td colname="col2"> <p>Reinicie todos os componentes do Servidor de imagens, incluindo o Supervisor de Servidor. </p> </td> 
+   <td colname="col2"> <p>Reinicie todos os componentes do Image Serving, incluindo o Server Supervisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | is | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Reinicie o servidor Tomcat/Platform, o servidor de imagens ou SVG. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reiniciar { ps | é | svg }  </span> </p> </td> 
+   <td colname="col2"> <p> Reinicializa o servidor Tomcat/Platform, o servidor de imagem ou o SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Retorna informações de tempo de funcionamento e uso de memória atual para o Servidor de imagens, Tomcat/Platform Server e SVGserver, ou status apenas para o servidor especificado; uma mensagem informativa é retornada se o Supervisor de Servidor não estiver em execução. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | é | svg ]  </span> </p> </td> 
+   <td colname="col2"> <p>Retorna informações de tempo de atividade e uso de memória atual para o Servidor de Imagem, Tomcat/Platform Server e SVGserver, ou status somente para o servidor especificado; uma mensagem informativa é retornada se o Supervisor de Servidor não estiver em execução. </p> </td> 
   </tr> 
  </tbody> 
 </table>
