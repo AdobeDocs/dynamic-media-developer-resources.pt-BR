@@ -1,15 +1,16 @@
 ---
-description: Verifica conflitos de ID IPS comparando os nomes dos ativos com todos os nomes de uma namespace de catálogo de Serviço de imagem/Renderização de imagem da empresa.
-seo-description: Verifica conflitos de ID IPS comparando os nomes dos ativos com todos os nomes de uma namespace de catálogo de Serviço de imagem/Renderização de imagem da empresa.
+description: Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
+seo-description: Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # checkAssetNames{#checkassetnames}
 
-Verifica conflitos de ID IPS comparando os nomes dos ativos com todos os nomes de uma namespace de catálogo de Serviço de imagem/Renderização de imagem da empresa.
+Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
 
 Sintaxe
 
@@ -38,7 +39,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | O identificador da empresa que contém o usuário. |
+| `*`companyHandle`*` | `xsd:string` | Não | O identificador para a empresa que contém o usuário. |
 | `*`assetNamesArray`*` | `types:StringArray` | Sim | Uma matriz de nomes de ativos a serem verificados. |
 
 **Saída (checkAssetNamesReturn)**
@@ -49,7 +50,7 @@ Sintaxe
 
 ## Exemplos {#section-bc5d120d74614a63a425ca3acc337219}
 
-Este exemplo de código solicita os nomes de ativos em uso para uma empresa especificada. A resposta retorna uma matriz de nomes de ativos que estão em uso.
+Este código de exemplo solicita os nomes dos ativos em uso para uma empresa especificada. A resposta retorna uma matriz de nomes de ativos que estão em uso.
 
 **Solicitação**
 
