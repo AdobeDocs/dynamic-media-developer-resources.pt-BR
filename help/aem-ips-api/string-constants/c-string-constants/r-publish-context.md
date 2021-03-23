@@ -1,15 +1,16 @@
 ---
-description: Usado por getActivePublishContextReturn/publishContext.
-seo-description: Usado por getActivePublishContextReturn/publishContext.
-seo-title: Contexto de publicação
+description: Usado por getAtivePublishContextsReturn/publishContext.
+seo-description: Usado por getAtivePublishContextsReturn/publishContext.
+seo-title: Publicar contexto
 solution: Experience Manager
-title: Contexto de publicação
-topic: Dynamic Media Image Production System API
+title: Publicar contexto
 uuid: 50347cd3-ce36-46d7-9b88-9da02a571768
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Publicar contexto{#publish-context}
 
-Usado por getActivePublishContextReturn/publishContext.
+Usado por getAtivePublishContextsReturn/publishContext.
 
 Sintaxe
 
