@@ -1,15 +1,16 @@
 ---
-description: Habilitar variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
-seo-description: Habilitar variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
+description: Habilite variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico, se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
+seo-description: Habilite variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico, se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
 seo-title: SynthesizeFontStyles
 solution: Experience Manager
 title: SynthesizeFontStyles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # SynthesizeFontStyles{#synthesizefontstyles}
 
-Habilitar variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
+Habilite variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico, se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
 
 >[!NOTE]
 >
->A síntese de estilos de fonte geralmente resulta em renderizações de qualidade inferior à utilização de fontes reais para esses estilos.
+>A síntese de estilos de fonte geralmente resulta em renderizações de menor qualidade do que o uso de fontes reais para esses estilos.
 
 ## Propriedades {#section-3205560a74774ebf9c916b07bd15aca6}
 
-Sinalizar. Defina como 0 para desativar e como 1 para ativar estilos de fonte sintética.
+Sinalizador. Defina como 0 para desativar e como 1 para ativar estilos de fonte sintética.
 
 ## Padrão {#section-71f94aa65e404d14b441674c040b59e3}
 
