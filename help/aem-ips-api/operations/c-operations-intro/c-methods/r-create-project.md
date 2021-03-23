@@ -4,12 +4,13 @@ seo-description: Cria um novo projeto.
 seo-title: createProject
 solution: Experience Manager
 title: createProject
-topic: Dynamic Media Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ Sintaxe
 
 ## Exemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Essa amostra de código cria um projeto chamado `ApiTestProject` em uma empresa especificada por seu identificador. A resposta retorna o identificador para o projeto.
+Esta amostra de código cria um projeto chamado `ApiTestProject` em uma empresa especificada por seu identificador. A resposta retorna o identificador para o projeto.
 
 **Solicitação**
 
