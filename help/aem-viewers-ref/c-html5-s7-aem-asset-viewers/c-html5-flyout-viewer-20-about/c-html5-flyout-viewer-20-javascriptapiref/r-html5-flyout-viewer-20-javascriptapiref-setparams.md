@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para Flyout Viewer.
-seo-description: Referência da API JavaScript para Flyout Viewer.
+description: Referência da API do JavaScript para o Flyout Viewer.
+seo-description: Referência da API do JavaScript para o Flyout Viewer.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 12a513d3-32a9-411d-965f-f0eaf553d98d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API JavaScript para Flyout Viewer.
+Referência da API do JavaScript para o Flyout Viewer.
 
 ` setParams( *`params`*)`
 
@@ -25,12 +26,12 @@ Referência da API JavaScript para Flyout Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value pares de parâmetros separados por  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parâmetros pares separados por  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento de método é idêntica a uma string de query de URL. Ou seja, ele representa pares name=value separados por `&`. O mesmo que em uma sequência de caracteres de query, os nomes e os valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Da mesma forma que em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
