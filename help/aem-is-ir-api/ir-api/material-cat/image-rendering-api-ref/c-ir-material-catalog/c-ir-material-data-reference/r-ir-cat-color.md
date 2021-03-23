@@ -4,12 +4,13 @@ seo-description: Cor do material. A cor principal dos materiais de cor sólida e
 seo-title: Cor
 solution: Experience Manager
 title: Cor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Cor do material. A cor principal dos materiais de cor sólida e a cor aditiva do
 
 ## Propriedades {#section-073772b43b264b37bd96d1fb7404d10b}
 
-Cor. Necessário para materiais de cor sólida. Opcional para materiais de textura, gabinete e revestimento de janelas repetíveis, para especificar a cor de colorização. Este campo deve ficar vazio se a cor de uma textura repetível ou de um material da caixa não quiser ser modificada.
+Cor. Necessário para materiais de cor sólida. Opcional para materiais de cobertura de textura, armário e janela repetíveis, para especificar a cor de colorização. Este campo deve ficar vazio se a cor de uma textura repetível ou de materiais de gabinete não puder ser modificada.
 
 ## Padrão {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 
