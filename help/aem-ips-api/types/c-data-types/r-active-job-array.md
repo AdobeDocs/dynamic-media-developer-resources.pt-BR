@@ -1,15 +1,16 @@
 ---
-description: Uma gama de trabalhos ativos.
-seo-description: Uma gama de trabalhos ativos.
+description: Uma matriz de trabalhos ativos.
+seo-description: Uma matriz de trabalhos ativos.
 seo-title: AtiveJobArray
 solution: Experience Manager
 title: AtiveJobArray
-topic: Dynamic Media Image Production System API
 uuid: 05b01068-ba54-45f8-8c26-ec462df768e2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # AtiveJobArray{#activejobarray}
 
-Uma gama de trabalhos ativos.
+Uma matriz de trabalhos ativos.
 
 Sintaxe
 
