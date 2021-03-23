@@ -1,14 +1,15 @@
 ---
-description: Tecla
+description: Botão Fechar
 solution: Experience Manager
-title: Tecla
-topic: Dynamic Media
+title: Botão Fechar
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '52'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão Fechar. Ou defina para <span class="codeph"> 0 </span> para ocultar o botão Fechar. </p> <p>O botão Fechar é suportado apenas em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão fechar. Ou, defina como <span class="codeph"> 0 </span> para ocultar o botão fechar. </p> <p>O botão fechar é suportado apenas em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
