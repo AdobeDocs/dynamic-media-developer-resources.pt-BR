@@ -4,12 +4,13 @@ seo-description: Tamanho normalizado. Usado para especificar tamanhos de imagem 
 seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -30,4 +31,4 @@ Tamanho normalizado. Usado para especificar tamanhos de imagem ou tamanhos de re
  </tr> 
 </table>
 
-Ambos *nx* e *ny* têm de ser maiores que 0. 0,0 pode indicar que um tamanho padrão específico deve ser usado. 1,1 especifica um tamanho igual à imagem de referência.
+*nx* e *ny* devem ser maiores que 0. 0,0 pode indicar que deve ser usado um tamanho padrão específico. 1,1 especifica um tamanho igual à imagem de referência.
