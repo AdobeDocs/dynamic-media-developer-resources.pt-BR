@@ -1,15 +1,16 @@
 ---
-description: Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis, bem como qualquer outra aplicação em que as texturas não sejam necessárias.
-seo-description: Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis, bem como qualquer outra aplicação em que as texturas não sejam necessárias.
+description: Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
+seo-description: Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
 seo-title: Cores sólidas
 solution: Experience Manager
 title: Cores sólidas
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Cores sólidas{#solid-colors}
 
-Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis, bem como qualquer outra aplicação em que as texturas não sejam necessárias.
+Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
 
-Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias mudanças de textura ou para definir a cor para o aparador plástico e o carpete de um interior automotivo. Um material é considerado uma cor sólida se nenhum valor `src=` estiver presente no MSS.
+Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário em que não são necessárias mudanças de textura, ou para definir a cor para o acabamento plástico e a carpete de um interior automotivo. Um material é considerado uma cor sólida se nenhum valor `src=` estiver presente no MSS.
 
-As cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
+Cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
