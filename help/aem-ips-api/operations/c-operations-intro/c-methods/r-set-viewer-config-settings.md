@@ -1,15 +1,16 @@
 ---
-description: Anexa as configurações do visualizador a um ativo. Eles podem ser uma predefinição do visualizador ou o ativo de origem do visualizador.
-seo-description: Anexa as configurações do visualizador a um ativo. Eles podem ser uma predefinição do visualizador ou o ativo de origem do visualizador.
+description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
+seo-description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-Anexa as configurações do visualizador a um ativo. Eles podem ser uma predefinição do visualizador ou o ativo de origem do visualizador.
+Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 
 Sintaxe
 
@@ -34,12 +35,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
 | `*`name`*` | `xsd:string` | Sim | Nome do ativo. |
 | `*`type`*` | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
 | `*`configSettingArray`*` | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
 
 **Saída (setViewerConfigSettingsParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
