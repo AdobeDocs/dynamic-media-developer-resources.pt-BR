@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o Visualizador de vídeo.
-seo-description: Referência da API JavaScript para o Visualizador de vídeo.
+description: Referência da API do JavaScript para o Visualizador de vídeo.
+seo-description: Referência da API do JavaScript para o Visualizador de vídeo.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 7688134f-ab85-43ce-9ff8-9965bd33acd0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API JavaScript para o Visualizador de vídeo.
+Referência da API do JavaScript para o Visualizador de vídeo.
 
 ` setParam( *`nome, valor`*)`
 
@@ -34,9 +35,9 @@ Referência da API JavaScript para o Visualizador de vídeo.
  </tbody> 
 </table>
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
