@@ -1,15 +1,16 @@
 ---
-description: Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
-seo-description: Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
+description: Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
+seo-description: Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # cache{#cache}
 
-Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
+Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
 
 `&cache= *`cacheControl`*`
 
@@ -40,6 +41,6 @@ Controle de cache. Permite desativar seletivamente o cache do lado do cliente (n
 
 Se apenas um valor *`cacheControl`* for especificado, ele será aplicado aos caches do cliente e do servidor.
 
-Atributo de solicitação. Ignorado quando a solicitação não retorna uma imagem de resposta. *`clientControl`* é ignorada quando o cache do lado do cliente é desativado pelo catálogo de imagens (se  `catalog::Expiration` tiver um valor negativo).
+Atributo da solicitação. Ignorado quando a solicitação não retorna uma imagem de resposta. *`clientControl`* é ignorada quando o armazenamento em cache do lado do cliente é desativado pelo catálogo de imagem (se  `catalog::Expiration` tiver um valor negativo).
 
 O padrão é `cache=on,on`.
