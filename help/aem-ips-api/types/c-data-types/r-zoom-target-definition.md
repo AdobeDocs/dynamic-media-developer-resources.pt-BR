@@ -1,23 +1,24 @@
 ---
-description: Definição de público alvo de zoom.
-seo-description: Definição de público alvo de zoom.
+description: Definição de meta de zoom.
+seo-description: Definição de meta de zoom.
 seo-title: ZoomTargetDefinition
 solution: Experience Manager
 title: ZoomTargetDefinition
-topic: Dynamic Media Image Production System API
 uuid: 9180b87b-13f5-4c63-83ff-3eb20b12ec19
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 4%
+source-wordcount: '55'
+ht-degree: 3%
 
 ---
 
 
 # ZoomTargetDefinition{#zoomtargetdefinition}
 
-Definição de público alvo de zoom.
+Definição de meta de zoom.
 
 Sintaxe
 
@@ -25,10 +26,10 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nome do público alvo. |
-| `*`xPosition`*` | `xsd:int` | A posição X do público alvo de zoom. |
-| `*`yPosition`*` | `xsd:int` | A posição Y do público alvo de zoom. |
-| `*`width`*` | `xsd:int` | Zoom na largura do público alvo. |
-| `*`altura`*` | `xsd:int` | Aumenta o zoom da altura do público alvo. |
-| `*`userData`*` | `xsd:string` | Dados de usuário associados. |
+| `*`name`*` | `xsd:string` | Nome do destino. |
+| `*`xPosition`*` | `xsd:int` | A posição X do destino de zoom. |
+| `*`yPosition`*` | `xsd:int` | A posição Y do destino de zoom. |
+| `*`width`*` | `xsd:int` | Ampliação da largura de destino. |
+| `*`altura`*` | `xsd:int` | Altura da meta de zoom. |
+| `*`userData`*` | `xsd:string` | Dados do usuário associado. |
 
