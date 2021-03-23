@@ -1,21 +1,22 @@
 ---
 description: Retorna os membros de um grupo.
 seo-description: Retorna os membros de um grupo.
-seo-title: getGroupMembship
+seo-title: getGroupMembership
 solution: Experience Manager
-title: getGroupMembship
-topic: Dynamic Media Image Production System API
+title: getGroupMembership
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
 
-# getGroupMember{#getgroupmembership}
+# getGroupMembership{#getgroupmembership}
 
 Retorna os membros de um grupo.
 
@@ -33,14 +34,14 @@ Sintaxe
 
 ## Parâmetros {#section-2e92f850254e46e48403acaa215341a5}
 
-**Entrada (getGroupMembationParam)**
+**Entrada (getGroupMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | Não | O identificador para o usuário. |
-| `*`companyHandle`*` | `xsd:string` | Não | A alça da empresa. |
+| `*`companyHandle`*` | `xsd:string` | Não | O nome da empresa. |
 
-**Saída (getGroupMemberReturn)**
+**Saída (getGroupMembershipReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
@@ -48,7 +49,7 @@ Sintaxe
 
 ## Exemplos {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Essa amostra de código retorna todos os membros de um grupo. Como as alças de empresa e usuário são opcionais, a operação pode retornar todos os membros de todos os grupos.
+Essa amostra de código retorna todos os membros de um grupo. Como os identificadores de empresa e usuário são opcionais, a operação pode retornar todos os membros de todos os grupos.
 
 **Solicitação**
 
