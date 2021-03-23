@@ -2,25 +2,26 @@
 description: Print.printquality
 solution: Experience Manager
 title: Print.printquality
-topic: Dynamic Media
 uuid: fbecd11f-e7c6-4c70-9ff3-eef8e323d5f3
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '18'
-ht-degree: 5%
+source-wordcount: '28'
+ht-degree: 3%
 
 ---
 
 
 # Print.printquality{#print-printquality}
 
-` [Print.|<containerId>_print.]printquality= *`tamanho`*`
+` [Print.|<containerId>_print.]printquality= *`size`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> tamanho</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> size</span></span> </p> </td> 
    <td colname="col2"> <p> O tamanho máximo da imagem enviada para impressão. </p> </td> 
   </tr> 
  </tbody> 
