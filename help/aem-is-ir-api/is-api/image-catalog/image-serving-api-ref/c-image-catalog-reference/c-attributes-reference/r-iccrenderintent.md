@@ -1,15 +1,16 @@
 ---
-description: Propósito de renderização de conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando o propósito de renderização não é especificado com icc=.
-seo-description: Propósito de renderização de conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando o propósito de renderização não é especificado com icc=.
+description: Objetivo de renderização da conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando a intenção de renderização não é especificada com icc=.
+seo-description: Objetivo de renderização da conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando a intenção de renderização não é especificada com icc=.
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c7edd8d8-c513-48d9-b3f6-1c3ad39a67e3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # IccRenderIntent{#iccrenderintent}
 
-Propósito de renderização de conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando o propósito de renderização não é especificado com icc=.
+Objetivo de renderização da conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando a intenção de renderização não é especificada com icc=.
 
 ## Propriedades {#section-2540099fb2fc47d29b04642da4f5922a}
 
-Enum. Defina para 0 para a percepção, 1 para a colorimétrica relativa, 2 para a saturação, 3 para a colorimétrica absoluta.
+Enum. Defina como 0 para percepção, 1 para colorimétrica relativa, 2 para saturação, 3 para colorimétrica absoluta.
 
 ## Padrão {#section-61a05067905b44099c228e15de279dbd}
 
