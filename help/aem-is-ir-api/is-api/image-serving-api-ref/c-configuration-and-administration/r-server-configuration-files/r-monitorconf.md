@@ -4,12 +4,13 @@ seo-description: Contém configurações para o sistema de monitoramento/alerta.
 seo-title: monitor.conf
 solution: Experience Manager
 title: monitor.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31949797-df2c-4b7c-841b-4c623299a228
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -19,9 +20,9 @@ ht-degree: 0%
 
 Contém configurações para o sistema de monitoramento/alerta.
 
-Este arquivo é um arquivo de propriedades JAVA. Devem ser tomadas precauções para seguir as convenções adequadas; caso contrário, o Servidor da plataforma poderá falhar no start. Observe especialmente que uma barra invertida de duplo &#39;\\&#39; ou uma barra invertida &#39;/&#39; deve ser usada em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivos do Windows, já que a barra invertida é usada como um caractere de escape nesse tipo de arquivo.
+Esse arquivo é um arquivo de propriedades JAVA. Devem ser tomadas precauções para seguir as convenções adequadas; caso contrário, o servidor da plataforma poderá não ser iniciado. Observe, especialmente, que uma barra invertida dupla &#39;\&#39; ou uma barra invertida única &#39;/&#39; deve ser usada em vez de uma barra invertida &#39;\&#39; em caminhos de arquivo do Windows, já que a barra invertida é usada como um caractere de escape nesse tipo de arquivo.
 
-As alterações neste arquivo entrarão em vigor logo após o arquivo ser salvo.
+As alterações nesse arquivo entrarão em vigor logo após o arquivo ser salvo.
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 
