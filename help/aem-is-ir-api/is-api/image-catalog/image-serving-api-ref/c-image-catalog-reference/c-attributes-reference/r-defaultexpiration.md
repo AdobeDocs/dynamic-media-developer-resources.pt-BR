@@ -4,12 +4,13 @@ seo-description: TTL do cache do cliente para respostas de imagem padrão. Forne
 seo-title: DefaultExpiration
 solution: Experience Manager
 title: DefaultExpiration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -23,14 +24,14 @@ Aplicado somente quando a imagem padrão não está associada a um registro de c
 
 ## Propriedades {#section-e564512476604fd7b964f9f2903d6d33}
 
-Número real, 0 ou maior. Número de horas até a expiração desde que os dados de resposta foram gerados. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que efetivamente desativa o cache do cliente para respostas de imagem padrão. Defina como `-1` para marcar como `never expire`.
+Número real, 0 ou superior. Número de horas até a expiração desde que os dados de resposta foram gerados. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que efetivamente desativa o armazenamento em cache do cliente para respostas de imagem padrão. Defina como `-1` para marcar como `never expire`.
 
 ## Padrão {#section-131cd32c2e214391857dba5af321f8cd}
 
 Herdado de `default::DefaultExpiration` se não estiver definido ou se estiver vazio.
 
-TTL (Time-To-Live) é a duração antes da expiração do cache. O TTL padrão é de 1 hora.
+TTL (Time-To-Live) é a duração antes do cache expirar. O TTL padrão é de 1 hora.
 
 ## Consulte também {#section-d8642c22e3d947129367dd76366963d6}
 
-[catálogo::Expiração](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ,  [atributo::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)
+[catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) ,  [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433)
