@@ -1,15 +1,16 @@
 ---
-description: Domínios da Web do aplicativo de Flash. Os aplicativos de Flash Adobe podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo em que confia.
-seo-description: Domínios da Web do aplicativo de Flash. Os aplicativos de Flash Adobe podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo em que confia.
+description: Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente, registrando o nome do(s) domínio(s) do aplicativo em que confia.
+seo-description: Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente, registrando o nome do(s) domínio(s) do aplicativo em que confia.
 seo-title: TrustedDomains *
 solution: Experience Manager
 title: TrustedDomains *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # TrustedDomains *{#trusteddomains}
 
-Domínios da Web do aplicativo de Flash. Os aplicativos de Flash Adobe podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo em que confia.
+Domínios da Web do aplicativo Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades de imagens entregues no formato swf. O swf deve conceder acesso explicitamente, registrando o nome do(s) domínio(s) do aplicativo em que confia.
 
 ## Propriedades {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Sequência que contém uma lista separada por vírgulas de nomes de domínio da Web. Se estiverem vazios, os aplicativos devem ser fornecidos do mesmo domínio que a Renderização de imagem para que possam acessar as propriedades das imagens em respostas formatadas em [!DNL swf].
+Sequência de caracteres contendo uma lista separada por vírgulas de nomes de domínio da Web. Se estiverem vazios, os aplicativos devem ser veiculados a partir do mesmo domínio que a Renderização de imagem para que seja possível acessar as propriedades das imagens em respostas formatadas em [!DNL swf].
 
 ## Padrão {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
