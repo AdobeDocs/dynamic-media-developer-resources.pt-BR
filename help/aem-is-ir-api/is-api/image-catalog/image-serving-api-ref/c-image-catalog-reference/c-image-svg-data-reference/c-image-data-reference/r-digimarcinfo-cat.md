@@ -1,15 +1,16 @@
 ---
-description: Informações da imagem Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d'água e quaisquer dados específicos da imagem associados.
-seo-description: Informações da imagem Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d'água e quaisquer dados específicos da imagem associados.
+description: Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d'água e quaisquer dados específicos da imagem associados.
+seo-description: Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d'água e quaisquer dados específicos da imagem associados.
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 7%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 7%
 
 # DigimarcInfo{#digimarcinfo}
 
-Informações da imagem Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d&#39;água e quaisquer dados específicos da imagem associados.
+Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d&#39;água e quaisquer dados específicos da imagem associados.
 
 ## Propriedades {#section-62af219e8bac422b8541841221c9ce4f}
 
@@ -25,7 +26,7 @@ Quatro valores inteiros, separados por vírgulas.
 
 `*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-`*`O `*` tipo permite a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
+`*`O tipo `*` ativa a incorporação do Digimarc e especifica o tipo de marca d&#39;água:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -40,7 +41,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>Nenhum. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Básico. </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +49,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>ID da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +59,7 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-`*`sinaliza `*` um campo de bit com três valores. Defina o bit 0 para indicar o conteúdo protegido contra cópia, o bit 1 para indicar o conteúdo restrito e o bit 2 para indicar o conteúdo adulto:
+`*``*` sinaliza um campo de bits com três valores. Defina bit 0 para indicar conteúdo protegido por cópia, bit 1 para indicar conteúdo restrito e bit 2 para indicar conteúdo adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +74,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido por cópia. </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +95,7 @@ Quatro valores inteiros, separados por vírgulas.
   </tr> 
   <tr> 
    <td> <p><b>6</b> </p> </td> 
-   <td> <p>Conteúdo restrito, adulto. </p> </td> 
+   <td> <p>Conteúdo restrito de adultos. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>7</b> </p> </td> 
@@ -120,7 +121,7 @@ A interpretação de `*`val1`*` e `*`val2`*` depende de `*`type`*`:
    <td> <p>Não usado. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Não usado. </p> </td> 
    <td> <p>Não usado. </p> </td> 
   </tr> 
@@ -136,8 +137,8 @@ A interpretação de `*`val1`*` e `*`val2`*` depende de `*`type`*`:
   </tr> 
   <tr> 
    <td> <p><b>4</b> </p> </td> 
-   <td> <p>Primeiro ano de direitos autorais. </p> </td> 
-   <td> <p>Segundo ano de direitos autorais. </p> </td> 
+   <td> <p>Primeiro ano de copyright. </p> </td> 
+   <td> <p>Segundo ano de copyright. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -150,7 +151,7 @@ Herdado do atributo::DigimarcInfo se o campo não estiver presente ou se estiver
 
 &quot;0,0,0,0&quot; desativa a marca d&#39;água Digimarc para esta imagem.
 
-&quot;1,5,0,0&quot; especifica uma marca d&#39;água básica com o sinalizador de conteúdo protegido por cópia e adulto definido.
+&quot;1,5,0,0&quot; especifica uma marca d&#39;água básica com o sinalizador de conteúdo adulto e protegido por cópia definido.
 
 &quot;2,0,4567,0&quot; especifica uma marca d&#39;água com uma ID de imagem.
 
