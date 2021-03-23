@@ -4,12 +4,13 @@ seo-description: Atributos de codificação JPEG padrão. Especifica os atributo
 seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c256c44c-2807-4a0c-b6e4-3de0a828feda
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Atributos de codificação JPEG padrão. Especifica os atributos padrão para im
 
 ## Propriedades {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1.100 e define a qualidade. O segundo valor pode ser 0 para o comportamento normal ou 1 para desativar a redução da amostragem de cromaticidade RGB normalmente usada por codificadores JPEG.
+Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1.100 e define a qualidade. O segundo valor pode ser 0 para o comportamento normal ou 1 para desativar a amostragem regressiva de cromaticidade RGB normalmente usada por codificadores JPEG.
 
 ## Padrão {#section-0b25eddd59bc434abfe38eeea9d45df3}
 
