@@ -1,15 +1,16 @@
 ---
-description: Nitidez. O atributo de nitidez determina quando o material é afiado durante a renderização.
-seo-description: Nitidez. O atributo de nitidez determina quando o material é afiado durante a renderização.
-seo-title: Sharp
+description: Nitidez. O atributo de nitidez determina quando o material é aprimorado durante a renderização.
+seo-description: Nitidez. O atributo de nitidez determina quando o material é aprimorado durante a renderização.
+seo-title: Nitidez
 solution: Experience Manager
-title: Sharp
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Nitidez
 uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 3%
 
 # Sharp{#sharp}
 
-Nitidez. O atributo de nitidez determina quando o material é afiado durante a renderização.
+Nitidez. O atributo de nitidez determina quando o material é aprimorado durante a renderização.
 
-O tipo e a quantidade de nitidez são controlados pela vinheta através de um modelo de material padrão ou com `catalog::RenderSettings`.
+O tipo e a quantidade de nitidez são controlados pela vinheta por meio de um modelo de material padrão ou com `catalog::RenderSettings`.
 
 ## Propriedades {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -39,12 +40,12 @@ Enum.
   <td class="stentry"> <p>Nitidez alternativa (antes da transformação). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Mais nitidez (antes e depois da transformação). </p></td> 
  </tr> 
 </table>
 
-Ignorados por materiais de cor sólida, opcionais para todos os outros materiais.
+Ignorado por materiais de cor sólida, facultativo para todos os outros materiais.
 
 ## Padrão {#section-a6bc204d552b4cc3ae6a77ec232c26ff}
 
