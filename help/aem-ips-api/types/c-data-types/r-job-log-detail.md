@@ -1,15 +1,16 @@
 ---
-description: Informações do registro de tarefas.
-seo-description: Informações do registro de tarefas.
+description: Informações do log de trabalhos.
+seo-description: Informações do log de trabalhos.
 seo-title: JobLogDetail
 solution: Experience Manager
 title: JobLogDetail
-topic: Dynamic Media Image Production System API
 uuid: cb1879d7-a554-4ff0-bba0-0758c43f2a99
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # JobLogDetail{#joblogdetail}
 
-Informações do registro de tarefas.
+Informações do log de trabalhos.
 
 Sintaxe
 
@@ -25,10 +26,10 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`logMessage`*` | `xsd:string` | Mensagens no registro de tarefas. |
-| `*`logType`*` | `xsd:string` | Tipo de arquivo de log de trabalho. |
-| `*`assetName`*` | `xsd:string` | Nome do ativo no registro de tarefas (opcional). |
+| `*`logMessage`*` | `xsd:string` | Mensagens no log de tarefas. |
+| `*`logType`*` | `xsd:string` | Tipo de arquivo de log da tarefa. |
+| `*`assetName`*` | `xsd:string` | Nome do ativo no log de trabalho (opcional). |
 | `*`assetType`*` | `xsd:string` | Escolha do tipo de ativo. |
-| `*`assetHandle`*` | `xsd:string` | Identificador de ativos referenciado no registro de tarefas. |
+| `*`assetHandle`*` | `xsd:string` | Identificador de ativo referenciado no log de trabalho. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | Fornece informações adicionais detalhadas sobre o log de trabalhos além dos cinco tipos de log de trabalhos descritos acima. |
 
