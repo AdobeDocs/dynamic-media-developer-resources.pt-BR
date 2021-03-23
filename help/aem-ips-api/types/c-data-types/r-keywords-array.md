@@ -1,23 +1,24 @@
 ---
-description: Uma série de palavras-chave.
-seo-description: Uma série de palavras-chave.
-seo-title: Palavras-chaveMatriz
+description: Uma matriz de palavras-chave.
+seo-description: Uma matriz de palavras-chave.
+seo-title: Palavras-chaveArray
 solution: Experience Manager
-title: Palavras-chaveMatriz
-topic: Dynamic Media Image Production System API
+title: Palavras-chaveArray
 uuid: 78da064a-9906-4d79-93b4-4aa0f73358e2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '32'
 ht-degree: 0%
 
 ---
 
 
-# Palavras-chaveMatriz{#keywordsarray}
+# Palavras-chaveArray{#keywordsarray}
 
-Uma série de palavras-chave.
+Uma matriz de palavras-chave.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:Keywords` | Uma série de palavras-chave. |
+| `*`items`*` | `types:Keywords` | Uma matriz de palavras-chave. |
 
