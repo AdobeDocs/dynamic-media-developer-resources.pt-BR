@@ -1,23 +1,24 @@
 ---
-description: Usado por PostScriptOptions/color space.
-seo-description: Usado por PostScriptOptions/color space.
-seo-title: Modos PostScript Colorspace
+description: Usado por PostScriptOptions/colorspace.
+seo-description: Usado por PostScriptOptions/colorspace.
+seo-title: Modos do espaço de cores PostScript
 solution: Experience Manager
-title: Modos PostScript Colorspace
-topic: Dynamic Media Image Production System API
+title: Modos do espaço de cores PostScript
 uuid: 88fb9809-cff6-4a6b-8f45-dec528dce600
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
 
-# Modos PostScript Colorspace{#postscript-colorspace-modes}
+# Modos do espaço de cores PostScript{#postscript-colorspace-modes}
 
-Usado por PostScriptOptions/color space.
+Usado por PostScriptOptions/colorspace.
 
 Sintaxe
 
