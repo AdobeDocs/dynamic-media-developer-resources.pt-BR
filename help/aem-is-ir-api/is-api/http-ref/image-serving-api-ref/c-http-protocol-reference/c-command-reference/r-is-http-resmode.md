@@ -1,15 +1,16 @@
 ---
-description: Modo de reamostragem. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da visualização.
-seo-description: Modo de reamostragem. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da visualização.
+description: Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
+seo-description: Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # resMode{#resmode}
 
-Modo de reamostragem. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da visualização.
+Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
@@ -28,23 +29,23 @@ Modo de reamostragem. Escolhe o algoritmo de reamostragem e/ou interpolação a 
    <td colname="col2"> <p>Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing podem ser perceptíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensivo da CPU do que a interpolação bidirecional, mas produzirá imagens mais nítidas com artefatos de aliasing menos perceptíveis. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicubo  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensiva em CPU do que a interpolação bidirecional, mas produzirá imagens mais nítidas com artefatos de aliasing menos notáveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aguda2  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função Lanczos Window modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> O afiado  </span> foi substituído pelo  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasados (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> shark2  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função modificada da Janela Lanczos como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> afiado  </span> foi substituído por  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona o reamostrador padrão Photoshop para reduzir o tamanho da imagem, que é chamado de "divisor bicúbico" no Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharpe  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona o novo amplificador padrão Photoshop para reduzir o tamanho da imagem, que é chamado de "afiador bicúbico" no Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-a171bacf4ddf43c782e46b86a16d443e}
 
-Atributo de solicitação. Aplica-se a todas as operações de escala envolvidas na criação da imagem de resposta final, incluindo toda a escala de camadas.
+Atributo da solicitação. Aplica-se a todas as operações de dimensionamento envolvidas na criação da imagem de resposta final, incluindo toda a escala de camadas.
 
 ## Padrão {#section-d5e1b26f5703461395018a3a627f7283}
 
@@ -52,7 +53,7 @@ Atributo de solicitação. Aplica-se a todas as operações de escala envolvidas
 
 ## Exemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Recupere uma representação de melhor qualidade de uma imagem em camadas armazenada em um catálogo de imagens. A imagem pode incluir texto. Esperamos continuar a processar em um aplicativo de edição de imagem e, portanto, solicitar um canal alfa com a imagem.
+Recupere uma representação de melhor qualidade de uma imagem em camadas armazenada em um catálogo de imagens. A imagem pode incluir texto. Esperamos processar ainda mais em um aplicativo de edição de imagens e, portanto, solicitar um canal alfa com a imagem.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
