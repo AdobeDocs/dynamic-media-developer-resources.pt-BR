@@ -2,29 +2,30 @@
 description: Suporte para pontos de conexão
 solution: Experience Manager
 title: Suporte para pontos de conexão
-topic: Dynamic Media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
 
-# Suporte a hotspots{#hotspot-support}
+# Suporte a ponto de acesso{#hotspot-support}
 
-O visualizador suporta a renderização de ícones de ponto de acesso na parte superior da visualização principal. A aparência dos ícones de hotspot é controlada pelo CSS, conforme descrito na seção Hotspots.
+O visualizador suporta a renderização de ícones de ponto de acesso na parte superior da exibição principal. A aparência dos ícones de ponto de acesso é controlada pelo CSS, conforme descrito na seção Pontos de acesso .
 
-Consulte [Pontos de conexão](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+Consulte [Pontos de acesso](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
-Os pontos de acesso podem ativar um recurso de Visualização rápida na página da Web de hospedagem, acionando um retorno de chamada JavaScript ou redirecionar um usuário para uma página da Web externa.
+Os pontos de acesso podem ativar um recurso de Exibição rápida na página da Web de hospedagem, acionando um retorno de chamada do JavaScript ou redirecionando um usuário para uma página da Web externa.
 
-## Pontos de conexão de Visualização rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Pontos de acesso da Exibição rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Esses tipos de hotspots devem ser criados usando o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media, do AEM Assets - sob demanda. Quando um usuário ativa tal ponto de acesso, o visualizador executa o `quickViewActivate` retorno de chamada JavaScript e transmite os dados do ponto de acesso para ele. Espera-se que a página da Web de incorporação escute esse retorno de chamada. Quando aciona a página, ela abre sua própria implementação de Visualização Rápida.
+Esses tipos de pontos de acesso devem ser criados usando o tipo de ação &quot;Exibição rápida&quot; no Dynamic Media, do AEM Assets - sob demanda. Quando um usuário ativa esse ponto de acesso, o visualizador executa o retorno de chamada `quickViewActivate` do JavaScript e transmite os dados do ponto de acesso a ele. Espera-se que a página da Web de incorporação escute essa chamada de retorno. Quando aciona a página, ela abre sua própria implementação da Exibição rápida.
 
 ## Redirecionar para página da Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Pontos de conexão criados para o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media do AEM Assets - a pedido redireciona o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL será aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeado.
+Os pontos de acesso criados para a ação do tipo &quot;Exibição rápida&quot; no Dynamic Media do AEM Assets - por demanda redirecionam o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL é aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeado.
