@@ -2,12 +2,13 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-topic: Dynamic Media
 uuid: 3fcf8e75-988c-4e6b-a22b-4e5a68387f54
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -20,8 +21,8 @@ ht-degree: 1%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,superior|centro|inferior</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno - ou âncora - do container de miniaturas dentro da área do componente. </p> <p>Em FavoritosView, o container de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o container interno e os limites do componente externo. </p> <p>Esse modificador especifica como o container de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,cima|centro|inferior</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno - ou âncora - do contêiner de miniaturas dentro da área do componente. </p> <p>Em FavoritosView, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
