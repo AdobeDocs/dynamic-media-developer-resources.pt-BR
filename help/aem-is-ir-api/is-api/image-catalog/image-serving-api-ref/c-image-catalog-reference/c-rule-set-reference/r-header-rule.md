@@ -1,15 +1,16 @@
 ---
-description: elemento do cabeçalho da resposta HTTP. Opcional em elementos <rule>.
-seo-description: elemento do cabeçalho da resposta HTTP. Opcional em elementos <rule>.
+description: Elemento do cabeçalho de resposta HTTP. Opcional em elementos <rule> .
+seo-description: Elemento do cabeçalho de resposta HTTP. Opcional em elementos <rule> .
 seo-title: header
 solution: Experience Manager
 title: header
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # header{#header}
 
-elemento do cabeçalho da resposta HTTP. Opcional nos elementos `<rule>`.
+Elemento do cabeçalho de resposta HTTP. Opcional em elementos `<rule>`.
 
 ## Atributos {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*texto*&quot;** : Obrigatório. Especifica o nome do cabeçalho HTTP.
+**`Name`= &quot;*text*&quot;** : Obrigatório. Especifica o nome do cabeçalho HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: Opcional. O padrão é `"set"`, que substitui qualquer valor de cabeçalho atual. Especifique `"add"` para anexar o valor do cabeçalho, separado por uma vírgula.
+**`Action`= &quot;set&quot; |`"add"`**: Opcional. O padrão é `"set"`, que substitui qualquer valor de cabeçalho atual. Especifique `"add"` para anexar o valor do cabeçalho, separado por vírgula.
 
 ## Dados {#section-a387f541396c49d99c29692a38032914}
 
@@ -33,7 +34,7 @@ Valor do cabeçalho.
 
 Permite adicionar novos cabeçalhos de resposta HTTP, bem como adicionar ou substituir valores de cabeçalhos predefinidos. Nomes e valores devem estar em conformidade com os padrões HTTP. Nenhuma codificação adicional será aplicada.
 
-As variáveis de substituição do Servidor de imagens podem ser usadas no nome do cabeçalho e no valor do cabeçalho. Isso permite controlar ambas as strings da solicitação.
+As variáveis de substituição do Image Serving podem ser usadas no nome do cabeçalho e no valor do cabeçalho. Isso permite controlar ambas as cadeias de caracteres da solicitação.
 
 ## Exemplo {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
