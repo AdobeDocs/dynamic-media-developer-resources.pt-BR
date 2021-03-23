@@ -4,12 +4,13 @@ seo-description: Crie um novo mapa de imagem ou edite um mapa existente.
 seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-topic: Dynamic Media Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> A alça da empresa com o mapa de imagem que você deseja salvar. </td> 
+   <td colname="col4"> O identificador da empresa com o mapa de imagem que você deseja salvar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
@@ -64,19 +65,19 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> A alça do mapa de imagem. Cria um mapa de imagem se NULO. </td> 
+   <td colname="col4"> O identificador do mapa de imagem. Cria um mapa de imagem se for NULO. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O nome do mapa de imagem criado ou salvo. </td> 
+   <td colname="col4"> O nome do mapa de imagem que foi criado ou salvo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Escolha da forma da região. </td> 
+   <td colname="col4"> Escolha da Forma da Região. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> região  </span> </span> </td> 
@@ -88,17 +89,17 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> ação  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>O valor <span class="codeph"> href </span> associado ao mapa de imagem, conforme especificado na interface IPS. </p> <p>Para obter o valor <span class="codeph"> href </span>, clique na imagem na interface IPS, copie e cole o URL neste elemento e formate o URL IPS como um URL adequado. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>O valor <span class="codeph"> href </span> associado ao mapa de imagem conforme especificado na interface IPS. </p> <p>Para obter o valor <span class="codeph"> href </span>, clique na imagem na interface do IPS, copie e cole o URL neste elemento e formate o URL do IPS como um URL apropriado. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> posição  </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> A ordem na lista de mapas de imagem (o eixo Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ativado  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean  </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"></td> 
   </tr> 
