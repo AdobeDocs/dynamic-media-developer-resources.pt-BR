@@ -1,15 +1,16 @@
 ---
-description: Defina XML como s7 elementID.
-seo-description: Defina XML como s7 elementID.
+description: Defina XML para um s7 elementID.
+seo-description: Defina XML para um s7 elementID.
 seo-title: setElement
 solution: Experience Manager
 title: setElement
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 717c9c3c-a2e0-4179-8158-9913f4e09a96
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Defina XML como s7:elementID.
 
 `setElement.elementID=<XML>`
 
-Se um elemento de nó FXG tiver `s7:elementID` definido, o valor `<XML>` será substituído como um elemento filho. O `<XML>` deve ser codificado.
+Se um elemento de nó FXG tiver um `s7:elementID` definido, o valor `<XML>` será substituído como um elemento filho. O `<XML>` deve ser codificado.
 
 ## Exemplo {#section-f23a998b18994dd3b5d4e1965718db9f}
 
