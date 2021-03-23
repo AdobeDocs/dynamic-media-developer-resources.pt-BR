@@ -4,12 +4,13 @@ seo-description: Executa um trabalho específico.
 seo-title: executeJob
 solution: Experience Manager
 title: executeJob
-topic: Dynamic Media Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -63,11 +64,11 @@ Sintaxe
 
 **Saída (executeJobReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-96f71aa58a954293b9a98ff96d86f232}
 
-Esta amostra de código executa um trabalho programado para execução no IPS.
+Esta amostra de código executa uma tarefa agendada para execução no IPS.
 
 **Solicitação**
 
