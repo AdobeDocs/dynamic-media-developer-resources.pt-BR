@@ -2,12 +2,13 @@
 description: SpinView.transition
 solution: Experience Manager
 title: SpinView.transition
-topic: Dynamic Media
 uuid: d5cc319a-fb0b-41d3-a118-f00376a127e4
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -21,19 +22,19 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tempo, em segundos, que a animação de uma única ação de zoom leva. </p> </td> 
+   <td colname="col2"> <p> Especifica o tempo em segundos que a animação de uma única ação de zoom leva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> flexibilização</span></span> </p> </td> 
-   <td colname="col2"> <p> Cria uma ilusão de aceleração ou desaceleração que faz a transição parecer mais natural. É possível definir a atenuação para um dos seguintes: </p> <p> 
+   <td colname="col2"> <p> Cria uma ilusão de aceleração ou desaceleração que faz com que a transição pareça mais natural. Você pode definir o easing para um dos seguintes: </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (automático) </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1 (linear) </li> 
       <li id="li_7A0F9F1186604E75BAA19626A844236A"> 2 (quadrático) </li> 
       <li id="li_B8D4C40D795642AB835925582B707158"> 3 (cúbico) </li> 
-      <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (quarta) </li> 
+      <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (em quarto) </li> 
       <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (quinta) </li> 
-     </ul> </p> <p>O modo automático sempre usa transição linear quando o zoom elástico está desativado (padrão). Caso contrário, ele se ajusta a uma das outras funções de atenuação com base no tempo de transição. Ou seja, quanto mais curto for o tempo de transição, mais elevada será a função de atenuação utilizada para acelerar o efeito de aceleração ou desaceleração. </p> </td> 
+     </ul> </p> <p>O modo automático sempre usa transição linear quando o zoom elástico está desativado (padrão). Caso contrário, ele se encaixará em uma das outras funções de atenuação com base no tempo de transição. Ou seja, quanto mais curto for o tempo de transição, mais elevada será a função de atenuação utilizada para acelerar o efeito de aceleração ou desaceleração. </p> </td> 
   </tr> 
  </tbody> 
 </table>
