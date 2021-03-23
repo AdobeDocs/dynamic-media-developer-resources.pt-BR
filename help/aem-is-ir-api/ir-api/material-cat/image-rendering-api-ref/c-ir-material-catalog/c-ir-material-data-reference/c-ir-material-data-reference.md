@@ -1,21 +1,22 @@
 ---
-description: Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deverá ser especificado no atributo CatalogFile.
-seo-description: Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deverá ser especificado no atributo CatalogFile.
+description: Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deve ser especificado no atributo CatalogFile.
+seo-description: Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deve ser especificado no atributo CatalogFile.
 seo-title: Referência dos dados materiais
 solution: Experience Manager
 title: Referência dos dados materiais
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1f2dae40-0314-483a-a731-11889e166dee
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
 
-# Referência de dados de material{#material-data-reference}
+# Referência de dados de materiais{#material-data-reference}
 
 Se os dados de material forem necessários para um catálogo de material, o caminho relativo ou absoluto do arquivo de dados de material deve ser especificado no atributo::CatalogFile.
 
