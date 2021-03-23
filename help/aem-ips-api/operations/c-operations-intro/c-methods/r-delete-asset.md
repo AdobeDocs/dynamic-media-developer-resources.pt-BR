@@ -4,12 +4,13 @@ seo-description: Exclui um ativo.
 seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-topic: Dynamic Media Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -45,11 +46,11 @@ Sintaxe
 
 **Saída (deleteAssetParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-d5657289f5234bb0a613dcf691507958}
 
-Esse código de amostra exclui qualquer tipo de ativo de uma empresa específica. Ela requer um identificador de ativo, que você deve obter de outra operação.
+Esse código de amostra exclui qualquer tipo de ativo de uma empresa específica. Requer um identificador de ativo, que deve ser obtido de outra operação.
 
 **Solicitação**
 
