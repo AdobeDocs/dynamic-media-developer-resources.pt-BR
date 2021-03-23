@@ -2,30 +2,31 @@
 description: ZoomView.frametransition
 solution: Experience Manager
 title: ZoomView.frametransition
-topic: Dynamic Media
 uuid: 28e283ca-51d8-4d6c-9b8a-d16da21f4da1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *``*[, *`duração`*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *``*[, *`espaçamento entre durações`*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> nenhum|esmaecer|slide  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tipo de efeito aplicado na alteração de quadro. <span class="codeph"> nenhum  </span> significa sem transição; a mudança de quadro acontece instantaneamente. <span class="codeph"> desaparecimento gradual  </span> significa transição de desaparecimento gradual entre quadros antigos e novos. <span class="codeph"> o slide  </span> ativa a transição onde o quadro antigo desliza para fora da visualização e o novo quadro desliza para dentro. </p> </td> 
+   <td colname="col2"> <p>Especifica o tipo de efeito aplicado na alteração de quadro. <span class="codeph"> nenhuma  </span> significa sem transição; a mudança de quadro acontece instantaneamente. <span class="codeph"> desvanecer  </span> significa uma transição entre o desvanecimento dos quadros antigos e novos. <span class="codeph"> o slide  </span> ativa a transição, onde o quadro antigo desliza para fora da exibição e os novos slides do quadro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica a duração (em segundo) do efeito de transição <span class="codeph"> fade </span> ou <span class="codeph"> slide </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica a duração (em segundo) do <span class="codeph"> desvanecimento </span> ou <span class="codeph"> slide </span> efeito de transição. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espaçamento  </span> </span> </p> </td> 
