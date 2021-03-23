@@ -2,13 +2,14 @@
 description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
-topic: Dynamic Media
 uuid: 244a8485-a615-4155-a5a9-9d468ac3208f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '54'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Quando definido como <span class="codeph"> 1</span>, o componente preenche o painel suspenso com elementos para todas as páginas, mesmo para aquelas que não têm rótulo definido. </p> <p>Quando definido para <span class="codeph"> 0</span>, somente os itens com rótulos explícitos são exibidos no painel suspenso. </p> </td> 
+   <td> <p> Quando definido como <span class="codeph"> 1</span>, o componente preenche o painel suspenso com elementos para todas as páginas, mesmo para aquelas que não têm rótulo definido. </p> <p>Quando definido para <span class="codeph"> 0</span>, somente os itens com rótulos explícitos serão exibidos no painel suspenso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
