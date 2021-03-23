@@ -2,26 +2,27 @@
 description: Parâmetros de operação
 solution: Experience Manager
 title: Parâmetros de operação
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 
-# Parâmetros de operação{#operation-parameters}
+# Parâmetros da operação{#operation-parameters}
 
 * [addCompany](r-add-company.md)
-* [addCompanyMember](r-add-company-membership.md)
+* [addCompanyMembership](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [addGroupMember](r-add-group-membership.md)
+* [addGroupMembership](r-add-group-membership.md)
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batchGetAssetPublishContext](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -32,7 +33,7 @@ ht-degree: 0%
 * [checkLogin](r-check-login.md)
 * [copyImage](r-copy-image.md)
 * [createAssetSet](r-create-asset-set.md)
-* [createDeriveAsset](r-create-derived-asset.md)
+* [createDerivedAsset](r-create-derived-asset.md)
 * [createFolder](r-create-folder.md)
 * [createImageSet](r-create-image-set.md)
 * [createMetadataField](r-create-metadata-field.md)
@@ -62,10 +63,10 @@ ht-degree: 0%
 * [forceRepublishAssets](r-force-republish-assets.md)
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
-* [getActivePublishContext](r-get-active-publish-contexts.md)
+* [getAtivePublishContext](r-get-active-publish-contexts.md)
 * [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
-* [getAssetCount](r-get-asset-counts.md)
+* [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
 * [getAssetMetadataFields](r-get-asset-metadata-fields.md)
 * [getAssetPublishHistory](r-get-asset-publish-history.md)
@@ -75,7 +76,7 @@ ht-degree: 0%
 * [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
-* [getCompanyMember](r-get-company-membership.md)
+* [getCompanyMembership](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
 * [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
@@ -83,7 +84,7 @@ ht-degree: 0%
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
-* [getGroupMembship](r-get-group-membership.md)
+* [getGroupMembership](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
 * [getImageFormats](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
@@ -100,7 +101,7 @@ ht-degree: 0%
 * [getPropertySets](r-get-property-sets.md)
 * [getPropertySetType](r-get-property-set-type.md)
 * [getPropertySetTypes](r-get-property-set-types.md)
-* [getPublishContext](r-get-publish-contexts.md)
+* [getPublishContexts](r-get-publish-contexts.md)
 * [getScheduledJobs](r-get-scheduled-jobs.md)
 * [getSearchStrings](r-get-search-strings.md)
 * [getSystemProperties](r-get-system-properties.md)
@@ -118,10 +119,10 @@ ht-degree: 0%
 * [moveFolder](r-move-folder.md)
 * [pauseJob](r-pause-job.md)
 * [removeAssetPermissions](r-remove-asset-permissions.md)
-* [removeCompanyMember](r-remove-company-membership.md)
+* [removeCompanyMembership](r-remove-company-membership.md)
 * [removeFolderPermissions](r-remove-folder-permissions.md)
 * [removeGroupMembers](r-remove-group-members.md)
-* [removeGroupMember](r-remove-group-membership.md)
+* [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
 * [renameAsset](r-rename-asset.md)
 * [renameFolder](r-rename-folder.md)
@@ -142,11 +143,11 @@ ht-degree: 0%
 * [setAssetPublishState](r-set-asset-publish-state.md)
 * [setAssetsPublishState](r-set-assets-publish-state.md)
 * [setAssetSetDefinition](r-set-asset-set-definition.md)
-* [setCompanyMember](r-set-company-membership.md)
+* [setCompanyMembership](r-set-company-membership.md)
 * [setCompanySettings](r-set-company-settings.md)
 * [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
-* [setGroupMember](r-set-group-membership.md)
+* [setGroupMembership](r-set-group-membership.md)
 * [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
 * [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
