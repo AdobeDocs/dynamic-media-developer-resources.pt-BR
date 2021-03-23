@@ -1,31 +1,32 @@
 ---
-description: As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras coloridas só são visíveis na área de trabalho se todas as miniaturas não puderem se ajustar à largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do container, os botões de rolagem não serão exibidos.
-seo-description: As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras coloridas só são visíveis na área de trabalho se todas as miniaturas não puderem se ajustar à largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do container, os botões de rolagem não serão exibidos.
+description: As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras de cores só são visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
+seo-description: As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras de cores só são visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
 seo-title: Amostras de cores
 solution: Experience Manager
 title: Amostras de cores
-topic: Dynamic Media
 uuid: 868d938f-578a-4ecf-8a71-9569450492fb
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
 
-# Amostras de cor{#color-swatches}
+# Amostras de cores{#color-swatches}
 
-As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras coloridas só são visíveis na área de trabalho se todas as miniaturas não puderem se ajustar à largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do container, os botões de rolagem não serão exibidos.
+As amostras de cores consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Amostras de cores só são visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
 
-A aparência do container de amostras é controlada com o seletor de classe CSS:
+A aparência do contêiner de amostras é controlada com o seletor de classe CSS:
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches
 ```
 
-**Propriedades de CSS das amostras de cores**
+**Propriedades CSS das amostras de cores**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -39,7 +40,7 @@ A aparência do container de amostras é controlada com o seletor de classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>O deslocamento das amostras verticais em relação ao container do visualizador. </p> </td> 
+   <td colname="col2"> <p>O deslocamento das amostras verticais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,14 +69,14 @@ O espaçamento entre as miniaturas da amostra é controlado com o seguinte selet
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma da margem esquerda e direita definida para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemplo**
 
-Para definir o espaçamento como dez pixels, tanto na vertical quanto na horizontal.
+Para definir o espaçamento como dez pixels, vertical e horizontalmente.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumbcell { 
@@ -83,7 +84,7 @@ Para definir o espaçamento como dez pixels, tanto na vertical quanto na horizon
 }
 ```
 
-A aparência da miniatura individual é controlada pelo seguinte seletor de classe CSS:
+A aparência da miniatura individual é controlada com o seguinte seletor de classe CSS:
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumb`
 
@@ -104,7 +105,7 @@ A aparência da miniatura individual é controlada pelo seguinte seletor de clas
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -112,9 +113,9 @@ A aparência da miniatura individual é controlada pelo seguinte seletor de clas
 
 >[!NOTE]
 >
->A miniatura suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Especificamente, `state="selected"` corresponde à miniatura da imagem atualmente exibida na visualização principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura é compatível com o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
-Exemplo - para configurar miniaturas com 56 x 56 pixels, uma borda padrão cinza claro e uma borda cinza escura selecionada.
+Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumb { 
@@ -129,7 +130,7 @@ Exemplo - para configurar miniaturas com 56 x 56 pixels, uma borda padrão cinza
 }
 ```
 
-A aparência dos botões de rolagem à esquerda e à direita são controlados com os seguintes seletores de classe CSS:
+A aparência dos botões de rolagem esquerdo e direito é controlada pelos seguintes seletores de classe CSS:
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton`
 
@@ -154,21 +155,21 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS `top`
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão: `up`, `down`, `over` e `disabled`.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botões diferentes: `up`, `down`, `over` e `disabled`.
 
-Exemplo - para configurar botões de rolagem com 56 x 56 pixels e arte-final diferente para cada estado.
+Exemplo - para configurar botões de rolagem que tenham 56 x 56 pixels e tenham arte-final diferente para cada estado.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton { 
