@@ -1,15 +1,16 @@
 ---
-description: Retorna informações sobre uma estrutura de empresa (número de arquivos, etc.).
-seo-description: Retorna informações sobre uma estrutura de empresa (número de arquivos, etc.).
+description: Retorna informações sobre a estrutura de uma empresa (número de arquivos, etc.).
+seo-description: Retorna informações sobre a estrutura de uma empresa (número de arquivos, etc.).
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getDiskUsage{#getdiskusage}
 
-Retorna informações sobre uma estrutura de empresa (número de arquivos, etc.).
+Retorna informações sobre a estrutura de uma empresa (número de arquivos, etc.).
 
 ## Tipos de usuário autorizados {#authorized-user-types}
 
@@ -38,11 +39,11 @@ Retorna informações sobre uma estrutura de empresa (número de arquivos, etc.)
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Sim | Matriz de uso do disco de empresa. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Sim | Matriz de uso de disco da empresa. |
 
 ## Exemplos {#section-cb16a97badc94076ad5da277db5ed16a}
 
-O nome deste pedido é enganoso. Em vez de retornar apenas um valor escalar que reflete a quantidade de espaço em disco que uma empresa está usando, ele também recebe outras informações sobre a estrutura de uma empresa.
+O nome deste pedido é enganador. Em vez de retornar apenas um valor escalar que reflete quanto espaço em disco uma empresa está usando, ela também recebe outras informações sobre a estrutura de uma empresa.
 
 **Solicitação**
 
