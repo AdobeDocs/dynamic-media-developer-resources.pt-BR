@@ -4,12 +4,13 @@ seo-description: Retorna os usuários de uma empresa especificada por um identif
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Sintaxe
 
 ## Exemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Essa amostra de código retorna todos os membros de uma empresa em um storage de usuários. A resposta foi truncada para brevidade.
+Esta amostra de código retorna todos os membros de uma empresa em uma matriz de usuários. A resposta foi truncada por brevidade.
 
 **Solicitação**
 
