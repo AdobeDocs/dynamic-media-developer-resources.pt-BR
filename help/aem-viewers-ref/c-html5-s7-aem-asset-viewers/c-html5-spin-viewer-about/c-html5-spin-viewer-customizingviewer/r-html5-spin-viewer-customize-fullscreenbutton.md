@@ -1,15 +1,16 @@
 ---
-description: Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, exibir e posicionar esse botão usando o CSS.
-seo-description: Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, exibir e posicionar esse botão usando o CSS.
+description: Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
+seo-description: Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 seo-title: Botão de tela cheia
 solution: Experience Manager
 title: Botão de tela cheia
-topic: Dynamic Media
 uuid: 22d10ec1-83f3-4f86-a0a1-0fc2e43232b1
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Botão de tela cheia{#full-screen-button}
 
-Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, exibir e posicionar esse botão usando o CSS.
+Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
@@ -39,19 +40,19 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda direita, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -62,23 +63,23 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p>Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta os seletores de atributos `state` e `selected`, que podem ser usados para aplicar diferentes capas a diferentes estados de botão. Especificamente, `selected='true'` corresponde ao estado de &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
+>Esse botão suporta os seletores de atributos `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `selected='true'` corresponde ao estado de &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obter mais informações.
 
-Exemplo - para configurar um botão de tela cheia com 32 x 32 pixels, posicionado seis pixels da borda superior e direita do visualizador, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado:
+Exemplo - para configurar um botão de tela cheia com 32 x 32 pixels, posicionado seis pixels da borda superior e direita do visualizador e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 
