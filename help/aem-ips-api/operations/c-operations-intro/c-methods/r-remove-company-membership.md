@@ -1,21 +1,22 @@
 ---
 description: Remove um usuário de uma ou mais empresas.
 seo-description: Remove um usuário de uma ou mais empresas.
-seo-title: removeCompanyMember
+seo-title: removeCompanyMembership
 solution: Experience Manager
-title: removeCompanyMember
-topic: Dynamic Media Image Production System API
+title: removeCompanyMembership
 uuid: af57fde0-2297-41da-87bf-f063fc313264
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 
-# removeCompanyMember{#removecompanymembership}
+# removeCompanyMembership{#removecompanymembership}
 
 Remove um usuário de uma ou mais empresas.
 
@@ -30,20 +31,20 @@ Sintaxe
 
 ## Parâmetros {#section-6dfce5e44d8a4799afd0c231a0b10463}
 
-**Entrada (removeCompanyMembcingParam)**
+**Entrada (removeCompanyMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Não | O identificador do usuário com a associação que você deseja remover. |
+| `*`userHandle`*` | `xsd:string` | Não | O nome do usuário com a associação que você deseja remover. |
 | `*`companyHandleArray`*` | `types:HandleArray` | Sim | O identificador da empresa da qual você está removendo o usuário. |
 
-**Saída (removeCompanyMemberReturn)**
+**Saída (removeCompanyMembershipReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Esta amostra de código remove um usuário de uma empresa. Omita o identificador de usuário opcional para remover todos os usuários das empresas especificadas na matriz de identificador de empresa.
+Essa amostra de código remove um usuário de uma empresa. Omita o identificador de usuário opcional para remover todos os usuários das empresas especificadas na matriz de controle da empresa.
 
 **Solicitação**
 
