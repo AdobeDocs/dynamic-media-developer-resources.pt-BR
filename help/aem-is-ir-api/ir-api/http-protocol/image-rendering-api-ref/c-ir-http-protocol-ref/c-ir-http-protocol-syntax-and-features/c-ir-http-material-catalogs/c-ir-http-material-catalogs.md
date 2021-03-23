@@ -1,15 +1,16 @@
 ---
-description: Catálogos de materiais ofertas com vários recursos.
-seo-description: Catálogos de materiais ofertas com vários recursos.
+description: Os catálogos de materiais oferecem vários recursos.
+seo-description: Os catálogos de materiais oferecem vários recursos.
 seo-title: Catálogos de materiais *
 solution: Experience Manager
 title: Catálogos de materiais *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2a2f371e-0982-47c7-b3da-678a5ff6c7a7
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 0%
 
 # Catálogos de materiais *{#material-catalogs}
 
-Catálogos de materiais ofertas com vários recursos.
+Os catálogos de materiais oferecem vários recursos.
 
-* Permitir a definição persistente de materiais, incluindo todas as propriedades de materiais.
+* Permitir a definição persistente de materiais, incluindo todas as propriedades dos materiais.
 
    Os materiais definidos no catálogo de materiais podem ser referenciados usando uma ID simples, em vez de um conjunto de propriedades de material.
 * Forneça padrões para determinados atributos de solicitação, como a qualidade JPEG ou um tamanho de imagem de resposta padrão.
 * Gerencie vinhetas, perfis ICC e modelos de solicitação.
 
-Mesmo se nenhum catálogo de materiais específico for definido, todos os recursos de catálogos de materiais estarão disponíveis por meio do catálogo padrão ( [!DNL default.ini]).
+Mesmo que não sejam definidos catálogos de materiais específicos, todos os recursos de catálogos de materiais estão disponíveis através do catálogo padrão ( [!DNL default.ini]).
 
-Embora os materiais de renderização possam ser especificados explicitamente em solicitações usando atributos de material, em muitos casos é mais desejável ocultar os detalhes dos materiais do site usando catálogos de materiais. os comandos src= aceitam referências de catálogo em vez de caminhos de arquivo explícitos. Uma entrada de catálogo consiste em ` [ *[!DNL catId]*/] *[!DNL itemId]*`, onde ` *[!DNL catId]*` identifica um catálogo de materiais e ` *[!DNL itemId]*` identifica um registro no catálogo. Se ` *[!DNL catId]*` não for especificado, o catálogo de sessões será usado (consulte abaixo).
+Embora os materiais de renderização possam ser especificados explicitamente em solicitações usando atributos de material, em muitos casos, é mais desejável ocultar os detalhes dos materiais no site usando catálogos de material. os comandos src= aceitam referências de catálogo em vez de caminhos de arquivo explícitos. Uma entrada de catálogo consiste em ` [ *[!DNL catId]*/] *[!DNL itemId]*`, onde ` *[!DNL catId]*` identifica um catálogo de materiais e ` *[!DNL itemId]*` identifica um registro no catálogo. Se ` *[!DNL catId]*` não for especificado, o catálogo de sessão será usado (veja abaixo).
 
-Uma correspondência de registro de catálogo terá êxito se (a) ` *[!DNL catId]*` corresponder ao valor `attribute::RootId` de um catálogo de materiais e (b) ` *[!DNL recId]*` corresponder ao valor do catálogo::Id no mesmo catálogo. No caso de uma correspondência bem-sucedida, os atributos do material (incluindo `src=`) são definidos para os dados do registro do catálogo. Se o MSS incluir atributos adicionais para esse material além de src=, eles substituirão os valores do registro do catálogo.
+Um registro de catálogo é correspondido com êxito se (a) ` *[!DNL catId]*` corresponder ao valor `attribute::RootId` de um catálogo de materiais e (b) ` *[!DNL recId]*` corresponder ao valor catalog::Id no mesmo catálogo. No caso de uma correspondência bem-sucedida, os atributos do material (incluindo `src=`) são definidos para os dados do registro do catálogo. Se o MSS incluir atributos adicionais para esse material além de src=, eles substituirão os valores do registro do catálogo.
 
-Se ` *[!DNL recId]*` não puder ser correspondido a uma entrada de catálogo, ` *[!DNL catId]*` será substituído por `attribute::RootPath` do catálogo e o caminho resultante será considerado um caminho de arquivo simples. Outros atributos padrão (por exemplo, `attribute::Resolution`) também pode ser herdado do catálogo de materiais.
+Se ` *[!DNL recId]*` não puder ser correspondido a uma entrada de catálogo, ` *[!DNL catId]*` será substituído por `attribute::RootPath` do catálogo e o caminho resultante será considerado um caminho de arquivo simples. Outros atributos padrão (por exemplo, `attribute::Resolution`) também pode ser herdada do catálogo de materiais.
 
-As vinhetas e os perfis ICC podem ser discriminados em catálogos de materiais semelhantes aos próprios materiais e a determinadas propriedades. Além disso, o mapa de vinheta também fornece o container para modelos.
+Vinhetas e perfis ICC podem ser discriminados em catálogos de materiais semelhantes aos próprios materiais e propriedades específicas. Além disso, o mapa de vinheta também fornece o contêiner para modelos.
 
 **Consulte também**
 
