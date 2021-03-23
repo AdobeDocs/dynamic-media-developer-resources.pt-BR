@@ -1,15 +1,16 @@
 ---
-description: Informações de progresso da tarefa.
-seo-description: Informações de progresso da tarefa.
+description: Informações de andamento da tarefa.
+seo-description: Informações de andamento da tarefa.
 seo-title: TaskProgress
 solution: Experience Manager
 title: TaskProgress
-topic: Dynamic Media Image Production System API
 uuid: b3b67803-147a-48a3-acc3-d608e01e0800
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # TaskProgress{#taskprogress}
 
-Informações de progresso da tarefa.
+Informações de andamento da tarefa.
 
 Sintaxe
 
@@ -48,14 +49,14 @@ Sintaxe
    <td colname="col3"> Número de itens de tarefa em andamento. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> numCurrent</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> numPending</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Número de itens de tarefa pendentes (ainda não processados). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progresso</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
-   <td colname="col3"> % progresso (intervalo 0.0 - 1.0). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> % de progresso (intervalo 0.0 - 1.0). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -77,11 +78,11 @@ Sintaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Os valores incluem: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconhecido</span>: Quando o monitor de tarefa transição entre estados. </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Novo</span>: O monitor de tarefa foi criado, mas ainda não aceitou o tarefa. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Processando</span>: O monitor de tarefa está processando tarefas ativamente. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Interrompendo</span>: O monitor de tarefa está parando um trabalho devido a uma solicitação de parada de trabalho. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Feito</span>: As tarefas atribuídas aos trabalhos do monitor de tarefa foram concluídas. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconhecido</span>: Quando o monitor de tarefas transita entre estados. </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Novo</span>: O monitor de tarefas foi criado, mas ainda não aceitou tarefas. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Processamento</span>: O monitor de tarefas está processando tarefas ativamente. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Parando</span>: O monitor de tarefas está parando uma tarefa devido a uma solicitação de parada de trabalho. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Feito</span>: As tarefas atribuídas aos trabalhos do monitor de tarefas foram concluídas. </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Falha</span>: Indica um erro fatal. </li>
     </ul></td> 
   </tr> 
