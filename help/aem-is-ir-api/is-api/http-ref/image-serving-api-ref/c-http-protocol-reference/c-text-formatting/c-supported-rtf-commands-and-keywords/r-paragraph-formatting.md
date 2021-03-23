@@ -1,15 +1,16 @@
 ---
-description: Os seguintes comandos de formatação de parágrafo são suportados.
-seo-description: Os seguintes comandos de formatação de parágrafo são suportados.
+description: Os comandos de formatação de parágrafo a seguir são suportados.
+seo-description: Os comandos de formatação de parágrafo a seguir são suportados.
 seo-title: Formatação de parágrafo
 solution: Experience Manager
 title: Formatação de parágrafo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4f9255b2-3a74-4c9a-80c5-d85b4627027e
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Formatação de parágrafo{#paragraph-formatting}
 
-Os seguintes comandos de formatação de parágrafo são suportados.
+Os comandos de formatação de parágrafo a seguir são suportados.
 
 <table id="table_5DD044E1C0614A29A2413557DF57197D"> 
  <thead> 
@@ -30,8 +31,8 @@ Os seguintes comandos de formatação de parágrafo são suportados.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \pard  </span> </td> 
-   <td> <p>Redefina a formatação de parágrafo para o padrão. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> somente </p> </td> 
+   <td> <p>Redefinir formatação de parágrafo para padrão. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ql  </span> </td> 
@@ -50,13 +51,13 @@ Os seguintes comandos de formatação de parágrafo são suportados.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qj  </span> </td> 
-   <td> <p>Justificar o texto horizontalmente. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> somente </p> </td> 
+   <td> <p>Justifica o texto horizontalmente. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastql  </span> </td> 
-   <td> <p>Alinha a última linha de um parágrafo à esquerda. </p> </td> 
-   <td> <p>Padrão; <span class="codeph"> textPs= </span> apenas; ignorado se <span class="codeph"> \qj </span>não está ativo. </p> </td> 
+   <td> <p>Alinha à esquerda a última linha de um parágrafo. </p> </td> 
+   <td> <p>Padrão; <span class="codeph"> apenas textPs= </span>; ignorado se <span class="codeph"> \qj </span>não estiver ativo. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr  </span> </td> 
@@ -76,27 +77,27 @@ Os seguintes comandos de formatação de parágrafo são suportados.
   <tr> 
    <td> <span class="codeph"> \fi  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Recuo da primeira linha. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \li  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Recuo à esquerda. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ri  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Recuo à direita. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas. </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sl  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>Espaço entre as linhas. </p> </td> 
-   <td> <p>0 (padrão) para espaçamento automático de linha; valores positivos para usar apenas valor se maior que o espaçamento padrão entre linhas; valor negativo para forçar o espaçamento. </p> </td> 
+   <td> <p>Espaço entre linhas. </p> </td> 
+   <td> <p>0 (padrão) para espaçamento automático de linha; valores positivos para usar somente valor se maior que o espaçamento padrão da linha; valor negativo para forçar o espaçamento. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Espaçamento entre linhas com vários sinalizadores. </p> </td> 
-   <td> <p>Defina como 0 (padrão) se <span class="codeph"> \sl </span> estiver em toques, como 1 se <span class="codeph"> \sl </span> estiver em múltiplos do espaçamento padrão. </p> </td> 
+   <td> <p>Defina como 0 (padrão) se <span class="codeph"> \sl </span> estiver em toques, como 1 se <span class="codeph"> \sl </span> estiver em vários do espaçamento padrão. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sb  <span class="varname"> N  </span> </span> </td> 
