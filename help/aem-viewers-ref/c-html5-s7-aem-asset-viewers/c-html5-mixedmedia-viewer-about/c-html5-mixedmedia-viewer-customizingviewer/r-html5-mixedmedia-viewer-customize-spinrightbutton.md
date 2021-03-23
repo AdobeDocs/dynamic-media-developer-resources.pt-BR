@@ -1,29 +1,30 @@
 ---
-description: Clicar ou tocar nesse botão gira a imagem para a direita na visualização principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. Você pode dimensionar, exibir a capa e posicionar o botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão gira a imagem para a direita na visualização principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. Você pode dimensionar, exibir a capa e posicionar o botão usando o CSS.
+description: Clicar ou tocar nesse botão gira a imagem para a direita na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
+seo-description: Clicar ou tocar nesse botão gira a imagem para a direita na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
 seo-title: Botão girar para a direita
 solution: Experience Manager
 title: Botão girar para a direita
-topic: Dynamic Media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
 
-# Botão girar à direita{#spin-right-button}
+# Botão girar para a direita{#spin-right-button}
 
-Clicar ou tocar nesse botão gira a imagem para a direita na visualização principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. Você pode dimensionar, exibir a capa e posicionar o botão usando o CSS.
+Clicar ou tocar nesse botão gira a imagem para a direita na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS dos botões de giro**
+**Propriedades CSS dos botões giratórios**
 
-O botão é adicionado a um container interno controlado por DIV com o seletor de classe CSS:
+O botão é adicionado a um contêiner interno controlado por DIV com o seletor de classe CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons
@@ -39,19 +40,19 @@ O botão é adicionado a um container interno controlado por DIV com o seletor d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda direita, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -64,7 +65,7 @@ O botão é adicionado a um container interno controlado por DIV com o seletor d
  </tbody> 
 </table>
 
-A aparência desse botão dentro do container é controlada com o seletor de classe CSS:
+A aparência desse botão dentro do contêiner é controlada com o seletor de classe CSS:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panrightbutton
@@ -80,19 +81,19 @@ A aparência desse botão dentro do container é controlada com o seletor de cla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda direita, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
@@ -103,23 +104,23 @@ A aparência desse botão dentro do container é controlada com o seletor de cla
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-Exemplo - para configurar um botão girar à direita com 28 x 28 pixels, posicionado na borda direita do container interno, e que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes:
+Exemplo - para configurar um botão girar à direita com 28 x 28 pixels, que é posicionado na borda direita do contêiner interno e que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panrightbutton { 
