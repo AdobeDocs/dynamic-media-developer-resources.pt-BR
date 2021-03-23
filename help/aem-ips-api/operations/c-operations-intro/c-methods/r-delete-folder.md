@@ -4,12 +4,13 @@ seo-description: Exclui uma pasta.
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -45,11 +46,11 @@ Sintaxe
 
 **Saída (deleteFolderParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-9d4617b322e8442d80e59be0f8714841}
 
-Esse código de amostra exclui uma pasta da raiz da empresa. Ela requer um identificador de pasta, que você deve obter de outra operação.
+Esse código de amostra exclui uma pasta da raiz da empresa. Ele requer um identificador de pasta, que deve ser obtido de outra operação.
 
 **Solicitação**
 
