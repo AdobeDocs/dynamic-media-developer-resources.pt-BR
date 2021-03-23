@@ -1,23 +1,24 @@
 ---
-description: Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segmento de camada na sequência de solicitação, que está associada à camada atual.
-seo-description: Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segmento de camada na sequência de solicitação, que está associada à camada atual.
+description: Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segmento de camada na cadeia de caracteres de solicitação, que está associada à camada atual.
+seo-description: Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segmento de camada na cadeia de caracteres de solicitação, que está associada à camada atual.
 seo-title: efeito
 solution: Experience Manager
 title: efeito
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 
-# effect{#effect}
+# efeito{#effect}
 
-Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segmento de camada na sequência de solicitação, que está associada à camada atual.
+Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segmento de camada na cadeia de caracteres de solicitação, que está associada à camada atual.
 
 `effect= *`n`*`
 
@@ -30,9 +31,9 @@ Selecione Camada de efeito. Seleciona uma camada de efeito e start um novo segme
 
 Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é encerrado pelo próximo comando `layer=` ou `effect=` ou pelo final da solicitação.
 
-*`n`* deve ser menor que 0 para efeitos de camada externa (ou seja, efeitos atrás da camada pai) e maior que 0 para efeitos de camada interna (ou seja, efeitos dentro da camada pai). Os números de camada de efeito não precisam ser consecutivos.
+*`n`* deve ser inferior a 0 para efeitos da camada exterior (ou seja, efeitos por trás da camada principal) e superior a 0 para efeitos da camada interna (ou seja, efeitos dentro da camada principal). Os números de camada de efeito não precisam ser consecutivos.
 
-O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com numeração mais alta são colocadas sobre as camadas com numeração mais baixa.
+O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com número mais alto são colocadas sobre as camadas com número mais baixo.
 
 As camadas de efeito podem ser anexadas a `layer=comp`.
 
