@@ -1,25 +1,26 @@
 ---
-description: O catálogo de sessão é o catálogo de materiais que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vignette= e icc=.
-seo-description: O catálogo de sessão é o catálogo de materiais que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vignette= e icc=.
-seo-title: Catálogo de sessões
+description: O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
+seo-description: O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
+seo-title: Catálogo de sessão
 solution: Experience Manager
-title: Catálogo de sessões
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Catálogo de sessão
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
 
-# Catálogo de sessões{#session-catalog}
+# Catálogo de sessão{#session-catalog}
 
-O catálogo de sessão é o catálogo de materiais que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vignette= e icc=.
+O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
 
-O catálogo de sessão é especificado como o primeiro elemento de caminho do caminho de solicitação HTTP (imediatamente após o nome do servidor). Se o primeiro elemento de caminho não corresponder ao atributo::RootId de qualquer catálogo, o catálogo padrão será usado como catálogo de sessão.
+O catálogo de sessão é especificado como o primeiro elemento de caminho do caminho de solicitação HTTP (imediatamente após o nome do servidor). Se o primeiro elemento de caminho não corresponder ao atributo::RootId de qualquer catálogo, o catálogo padrão será usado como um catálogo de sessão.
 
 O catálogo de sessão fornece os seguintes valores padrão de sessão:
 
@@ -41,19 +42,19 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::IccProfileRgb</span> </p> </td> 
-   <td> <p> Espaço de cor de trabalho padrão se uma vinheta não incorporar um perfil ICC </p> </td> 
+   <td> <p> Espaço de cores de trabalho padrão se uma vinheta não incorporar um perfil ICC </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::RootUrl</span> </p> </td> 
-   <td> <p> URL raiz para caminhos de arquivos HTTP relativos nos comandos <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL raiz para caminhos de arquivo HTTP relativos nos comandos <span class="codeph"> src=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> atributo::ShowOverlapObjs</span> </p> </td> 
-   <td> <p> Estado inicial de mostrar/ocultar para objetos sobrepostos </p> </td> 
+   <td> <p> <span class="codeph"> atributo::ShowOvercomandoObjs</span> </p> </td> 
+   <td> <p> Estado inicial de mostrar/ocultar para objetos de sobreposição </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> atributo::Expiração</span> </p> </td> 
-   <td> <p> Valor de tempo de vida da imagem de resposta para o servidor proxy e caches do navegador </p> </td> 
+   <td> <p> <span class="codeph"> atributo::Expiration</span> </p> </td> 
+   <td> <p> Valor do tempo de vida da imagem de resposta para caches do servidor proxy e do navegador </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::MaxPix</span> </p> </td> 
@@ -64,7 +65,7 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
    <td> <p> Valores padrão para <span class="codeph"> wid=</span> e <span class="codeph"> hei=</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> atributo::Format</span> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::Formato</span> </p> </td> 
    <td> <p> Valor padrão para <span class="codeph"> fmt=</span> </p> </td> 
   </tr> 
   <tr> 
