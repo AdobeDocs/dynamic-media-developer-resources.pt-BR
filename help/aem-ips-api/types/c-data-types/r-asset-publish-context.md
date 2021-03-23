@@ -1,23 +1,24 @@
 ---
-description: Mapeia um ativo para o PublishContext no qual um ativo é marcado para publicação.
-seo-description: Mapeia um ativo para o PublishContext no qual um ativo é marcado para publicação.
-seo-title: AssetPublishContext
+description: Mapeia um ativo para o PublishContexts no qual ele é marcado para publicação.
+seo-description: Mapeia um ativo para o PublishContexts no qual ele é marcado para publicação.
+seo-title: AtivoPublicarContextos
 solution: Experience Manager
-title: AssetPublishContext
-topic: Dynamic Media Image Production System API
+title: AtivoPublicarContextos
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 
-# AssetPublishContext{#assetpublishcontexts}
+# AssetPublishContexts{#assetpublishcontexts}
 
-Mapeia um ativo para o PublishContext no qual um ativo é marcado para publicação.
+Mapeia um ativo para o PublishContexts no qual ele é marcado para publicação.
 
 Sintaxe
 
