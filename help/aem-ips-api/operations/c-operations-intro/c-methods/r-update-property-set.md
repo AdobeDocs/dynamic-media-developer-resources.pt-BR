@@ -4,12 +4,13 @@ seo-description: Usa uma matriz de propriedades para atualizar um conjunto de pr
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -39,13 +40,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Sim | Manipule o conjunto de propriedades. |
-| `*`replaceProperties`*` | `xsd:string` | Não | Defina como `true` para substituir as propriedades. |
+| `*`setHandle`*` | `xsd:string` | Sim | Manipule para o conjunto de propriedades. |
+| `*`replaceProperties`*` | `xsd:string` | Não | Defina como `true` para substituir propriedades. |
 | `*`propertyArray`*` | `types:PropertyArray` | Sim | Matriz de propriedades atualizadas para o conjunto de propriedades. |
 
 **Saída (updatePropertySetReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
