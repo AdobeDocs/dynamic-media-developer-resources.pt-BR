@@ -1,15 +1,16 @@
 ---
-description: Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
-seo-description: Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
+description: Modo de nova amostra. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
+seo-description: Modo de nova amostra. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
 seo-title: resMode
 solution: Experience Manager
 title: resMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # resMode{#resmode}
 
-Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
+Modo de nova amostra. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com wid=, hei= ou scl=.
 
 ` `resMode=bilin|bicub|shar2|bisharp&quot;
 
@@ -28,16 +29,16 @@ Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação 
    <td colname="col2"> <p>Seleciona a interpolação bilinear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing podem ser perceptíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensiva em CPU do que a interpolação bilinear, mas produzirá imagens mais nítidas com artefatos de aliasing menos perceptíveis. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicubo  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensiva em CPU do que a interpolação bilinear, mas produzirá imagens mais nítidas com artefatos de aliasing menos notáveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> aguda2  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função Lanczos Window modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bicúbicos a um custo de CPU mais alto. </p> <p> <span class="codeph"> O afiado  </span> foi substituído pelo  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasados, também conhecido como Moiré. </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> shark2  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função modificada da Janela Lanczos como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bicubic a um custo de CPU mais alto. </p> <p> <span class="codeph"> O afiado  </span> foi substituído por  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasing, também conhecido como Moiré. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona o resamplador padrão <span class="keyword"> Adobe Photoshop </span> para reduzir o tamanho da imagem, que é chamado de "divisor bicúbico" em <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharpe  </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona o reamplador padrão <span class="keyword"> Adobe Photoshop </span> para reduzir o tamanho da imagem, que é chamado de "nitidez bicúbica" em <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
