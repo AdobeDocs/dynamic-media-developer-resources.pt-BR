@@ -1,15 +1,16 @@
 ---
-description: A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso reais do servidor (por exemplo, poucas ou muitas vinhetas diferentes, tamanho e complexidade das vinhetas, etc).
-seo-description: A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso reais do servidor (por exemplo, poucas ou muitas vinhetas diferentes, tamanho e complexidade das vinhetas, etc).
+description: A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso real do servidor (por exemplo, poucas vs. muitas vinhetas diferentes, tamanho e complexidade das vinhetas e assim por diante).
+seo-description: A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso real do servidor (por exemplo, poucas vs. muitas vinhetas diferentes, tamanho e complexidade das vinhetas e assim por diante).
 seo-title: Considerações de memória
 solution: Experience Manager
 title: Considerações de memória
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 21247081-ff27-4237-93da-5fc996417dfd
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,10 +18,10 @@ ht-degree: 0%
 
 # Considerações de memória{#memory-considerations}
 
-A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso reais do servidor (por exemplo, poucas ou muitas vinhetas diferentes, tamanho e complexidade das vinhetas, etc).
+A quantidade de memória usada pela Renderização de imagem pode variar amplamente e depende muito da carga e do uso real do servidor (por exemplo, poucas vs. muitas vinhetas diferentes, tamanho e complexidade das vinhetas e assim por diante).
 
-Para obter o melhor desempenho, deve evitar-se a paginação da memória (troca).
+Para um melhor desempenho, deve ser evitado o paginação da memória (troca).
 
-A Renderização de imagem compartilha o gerenciamento de memória do Servidor de imagens. Ao usar a renderização de imagem, memória adicional deve ser alocada. 30 a 50% da memória física pode ser razoável.
+A Renderização de imagem compartilha a gestão de memória do Servidor de imagem. Ao usar a Renderização de imagem, a memória adicional deve ser alocada. 30 a 50% da memória física pode ser razoável.
 
-Consulte a documentação do Servidor de imagens para obter informações sobre como alterar a alocação de memória do Servidor de imagens (ImageServer::PhysicalMemory).
+Consulte a documentação do Image Serving para obter informações sobre como alterar a alocação de memória do Image Server (ImageServer::PhysicalMemory).
