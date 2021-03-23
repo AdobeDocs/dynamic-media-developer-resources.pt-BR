@@ -4,12 +4,13 @@ seo-description: Caminho do arquivo de definições de macro. Especifica o arqui
 seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a383b00a-47f8-4c1c-9fd0-0701d8f78b18
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -21,11 +22,11 @@ Caminho do arquivo de definições de macro. Especifica o arquivo que contém as
 
 ## Propriedades {#section-e55829aecc3a412f9121a73d70f83a1a}
 
-Valor da string de texto. Caminho ou caminho do arquivo absoluto relativo à pasta do catálogo.
+Valor da string de texto. Caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
 
 ## Padrão {#section-903de40cff734254aaf64c14258dc4a7}
 
-Vazio, que indica que este catálogo de imagens não tem definições de macro privadas.
+Vazio, o que indica que este catálogo de imagens não tem definições de macro privadas.
 
 ## Consulte também {#section-0d6179011b574922bc25e399fa73879d}
 
