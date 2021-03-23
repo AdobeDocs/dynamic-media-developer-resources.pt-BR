@@ -4,12 +4,13 @@ seo-description: Obtém informações sobre um usuário. Use o endereço de emai
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-topic: Dynamic Media Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -39,18 +40,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Não | Manipule o usuário cujas informações você deseja retornar. |
+| `*`userHandle`*` | `xsd:string` | Não | Manipule para o usuário cujas informações você deseja retornar. |
 | `*`email`*` | `xsd:string` | Não | Endereço de email do usuário. |
 
 **Saída (getUserInfoReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se o usuário é válido e quando a senha do usuário expira. |
+| `*`userInfo`*` | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se ele é válido e quando a senha do usuário expira. |
 
 ## Exemplos {#section-98d77a2e360a438dbe240099bea26a65}
 
-Este exemplo de código retorna informações para o usuário IPS padrão.
+Esta amostra de código retorna informações para o usuário padrão do IPS.
 
 **Solicitação**
 
