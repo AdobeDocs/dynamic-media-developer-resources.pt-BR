@@ -1,33 +1,34 @@
 ---
-description: comando URL para o Visualizador de vídeo interativo.
-seo-description: comando URL para o Visualizador de vídeo interativo.
+description: comando URL para Visualizador de vídeo interativo.
+seo-description: comando URL para Visualizador de vídeo interativo.
 seo-title: interativedata
 solution: Experience Manager
 title: interativedata
-topic: Dynamic Media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 
-# interativedata{#interactivedata}
+# dados interativados{#interactivedata}
 
-comando URL para o Visualizador de vídeo interativo.
+comando URL para Visualizador de vídeo interativo.
 
 `interactivedata= *`arquivo`*`
 
-Os dados interativos associam certas regiões do tempo no conteúdo de vídeo aos dados do produto que são exibidos posteriormente em amostras interativas ao lado do vídeo. Também está associado ao painel de chamada para ação mostrado na conclusão da reprodução do vídeo. Ele também fornece um título para o vídeo interativo exibido no painel de chamada para ação.
+Os dados interativos associam determinadas regiões de tempo no conteúdo do vídeo aos dados do produto que são exibidos posteriormente em amostras interativas ao lado do vídeo. Ele também é associado ao painel de chamada para ação mostrado na conclusão da reprodução do vídeo. Ele também fornece um título para o vídeo interativo exibido no painel de chamada para ação.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> arquivo</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo de dados interativos WebVTT. O arquivo WebVTT deve ser servido pelo Serviço de Imagens. </p> </td> 
+   <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo de dados interativos WebVTT. O arquivo WebVTT deve ser distribuído pelo Serviço de Imagens. </p> </td> 
   </tr> 
  </tbody> 
 </table>
