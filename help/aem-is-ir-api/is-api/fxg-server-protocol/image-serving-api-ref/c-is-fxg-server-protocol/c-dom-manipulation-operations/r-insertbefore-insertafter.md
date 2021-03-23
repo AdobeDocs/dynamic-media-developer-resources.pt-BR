@@ -4,12 +4,13 @@ seo-description: Defina XML antes ou depois de um nó.
 seo-title: insertBefore,insertAfter
 solution: Experience Manager
 title: insertBefore,insertAfter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Se um elemento de nó FXG tiver um `s7:elementID` definido, podemos adicionar fr
 
 ## Exemplo {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-Se tivermos uma tag do Grupo como esta:
+Se houver uma tag de Grupo como esta:
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
