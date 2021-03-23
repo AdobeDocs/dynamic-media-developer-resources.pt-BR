@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para o Visualizador de vídeo.
 seo-title: VideoPlayer.progressivebitrate
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-topic: Dynamic Media
 uuid: 2e911d35-155e-4afa-aede-52e9d00ae211
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 1%
+source-wordcount: '108'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Especifica (em kbits por segundos ou kbps) a taxa de bits de vídeo desejada para reprodução a partir de um Conjunto de vídeos adaptáveis, caso o sistema atual não suporte a reprodução de vídeo adaptável. </p> <p>O componente pega o fluxo de vídeo com a taxa de bits mais próxima (mas não superior) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptáveis tiverem qualidade superior ao valor especificado, a lógica escolherá a taxa de bits com a qualidade mais baixa. </p> </td> 
+   <td colname="col2"> <p> Especifica (em kbits por segundos ou kbps) a taxa de bits de vídeo desejada para ser reproduzido a partir de um Conjunto de Vídeo Adaptável, caso o sistema atual não ofereça suporte para reprodução de vídeo adaptável. </p> <p>O componente obtém o fluxo de vídeo com a taxa de bits mais próxima possível (mas não superior) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptativos tiverem qualidade superior ao valor especificado, a lógica escolherá a taxa de bits com a qualidade mais baixa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
