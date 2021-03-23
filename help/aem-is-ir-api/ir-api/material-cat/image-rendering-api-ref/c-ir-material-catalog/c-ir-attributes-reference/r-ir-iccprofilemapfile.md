@@ -1,15 +1,16 @@
 ---
-description: Caminho do arquivo do mapa de perfis ICC. Especifica o arquivo que contém o mapa de perfis ICC para este catálogo de imagens.
-seo-description: Caminho do arquivo do mapa de perfis ICC. Especifica o arquivo que contém o mapa de perfis ICC para este catálogo de imagens.
+description: Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
+seo-description: Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
 seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 24fda621-05ef-4c3f-aa93-56d439334602
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,16 +18,16 @@ ht-degree: 0%
 
 # IccProfileMapFile{#iccprofilemapfile}
 
-Caminho do arquivo do mapa de perfis ICC. Especifica o arquivo que contém o mapa de perfis ICC para este catálogo de imagens.
+Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
 
 ## Propriedades {#section-33d55b55e192441bb30ca5eaaf07d12a}
 
-Valor da string de texto. Caminho ou caminho do arquivo absoluto relativo à pasta do catálogo.
+Valor da string de texto. Caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
 
 ## Padrão {#section-191de4cf304544f0a4198ebd3b8ddfc2}
 
-Vazio, o que indica que esse catálogo de materiais não inclui perfis ICC privados.
+Vazio, o que indica que este catálogo de materiais não inclui perfis ICC privados.
 
 ## Consulte também {#section-972aa8d0fba74ee8b999ee3458320d4d}
 
-[Mapa de Perfis ICC](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md#concept-8c2a7d205b8544ccaa159f5b66710012)
+[Mapa de perfil ICC](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/c-ir-icc-profile-map-reference.md#concept-8c2a7d205b8544ccaa159f5b66710012)
