@@ -4,12 +4,13 @@ seo-description: Atualiza os valores do dicionário de tags para um campo de tag
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -45,7 +46,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Alça da empresa. </td> 
+   <td colname="col4"> Manuseio da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -57,7 +58,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4">Matriz de valores de campo de tag que você deseja atualizar. <p>Observação:  Atualiza somente os valores da string de tag. Não afeta as associações de ativos. </p> </td> 
+   <td colname="col4">Matriz de valores de campo de tag que você deseja atualizar. <p>Observação:  Atualiza somente os valores da string de tag. Não afeta associações de ativos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,9 +69,9 @@ Sintaxe
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sim | O número de campos de tag atualizados com êxito. |
 | `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou atualizar campos de tag. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou atualizar os campos da tag. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou atualizar os campos de tag. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou atualizar os campos de tag. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou atualizar campos de tag. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou atualizar campos de tag. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou atualizar campos de tag. |
 
 ## Exemplos {#section-bb4dcf97044c4675974c9b8d27674001}
 
