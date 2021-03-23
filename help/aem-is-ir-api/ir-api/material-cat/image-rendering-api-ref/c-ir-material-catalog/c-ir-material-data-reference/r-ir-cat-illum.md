@@ -1,15 +1,16 @@
 ---
-description: Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a ser utilizado na renderização deste material.
-seo-description: Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a ser utilizado na renderização deste material.
+description: Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a utilizar na renderização deste material.
+seo-description: Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a utilizar na renderização deste material.
 seo-title: Illum
 solution: Experience Manager
 title: Illum
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2df0abbb-0d54-41b7-80c4-b914c18cd1b1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Illum{#illum}
 
-Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a ser utilizado na renderização deste material.
+Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a utilizar na renderização deste material.
 
 ## Propriedades {#section-162bcf562ca844ccba9e81e267508cca}
 
-Enum. Defina como -1 para a seleção automática do mapa de iluminação com base no valor do catálogo::Gloss.
+Enum. Defina como -1 para a seleção automática do mapa de iluminação com base no valor de catalog::Gloss.
 
-Defina para 0, 1 ou 2 para selecionar o mapa de iluminação A, B ou C. O renderizador escolherá o mapa de iluminação mais próximo disponível na vinheta.
+Defina como 0, 1 ou 2 para selecionar o mapa de iluminação A, B ou C. O renderizador escolherá o mapa de iluminação mais próximo disponível na vinheta.
 
 ## Padrão {#section-ac386d31ef90423b8a367010a60bddc7}
 
