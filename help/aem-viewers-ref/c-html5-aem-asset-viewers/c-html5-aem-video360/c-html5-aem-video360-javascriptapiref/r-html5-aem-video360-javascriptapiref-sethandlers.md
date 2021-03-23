@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o visualizador do Video360
-seo-description: Referência da API JavaScript para o visualizador do Video360
+description: Referência da API do JavaScript para o visualizador do Video360
+seo-description: Referência da API do JavaScript para o visualizador do Video360
 seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-topic: Dynamic Media
 uuid: e6c8afb3-576a-4536-a7a0-416a21de85dc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setHandlers{#sethandlers}
 
-Referência da API JavaScript para o visualizador do Video360
+Referência da API do JavaScript para o visualizador do Video360
 
 `setHandlers(handlers)`
 
@@ -29,7 +30,7 @@ Especifica zero ou mais manipuladores de retorno de chamada. Uma chamada para es
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> manipuladores  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Objeto {Object}  </span> JSON com retornos de chamada de evento do visualizador, onde o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> retornos de chamada do Evento </a> para obter mais informações sobre eventos do visualizador. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> Objeto  </span> JSON {Object} com retornos de chamada do evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Retornos de chamada do evento </a> para obter mais informações sobre os eventos do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
