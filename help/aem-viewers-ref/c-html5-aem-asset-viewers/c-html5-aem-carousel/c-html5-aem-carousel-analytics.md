@@ -2,12 +2,13 @@
 description: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-topic: Dynamic Media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-## Acompanhamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
+## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações de versão.
+Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP para o Image Server configurado com o tipo de visualizador e as informações da versão.
 
-Para integrar sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processar o argumento `eventInfo` da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
