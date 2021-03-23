@@ -1,50 +1,51 @@
 ---
-description: A visualização Favoritos consiste em uma coluna de imagens em miniatura.
-seo-description: A visualização Favoritos consiste em uma coluna de imagens em miniatura.
-seo-title: Visualização Favoritos
+description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
+seo-description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
+seo-title: Exibição de favoritos
 solution: Experience Manager
-title: Visualização Favoritos
-topic: Dynamic Media
+title: Exibição de favoritos
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 
-# Visualização favorita{#favorites-view}
+# Exibição de favoritos{#favorites-view}
 
-A visualização Favoritos consiste em uma coluna de imagens em miniatura.
+A exibição Favoritos consiste em uma coluna de imagens em miniatura.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-A aparência da visualização favorita é controlada pelo seguinte seletor de classe CSS:
+A aparência do contêiner de exibição de favoritos é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-A posição e a altura da visualização Favoritos são geridas pela visualização; em CSS, é possível definir somente a largura.
+A posição e a altura da exibição Favoritos são gerenciadas pela exibição; em CSS, só é possível definir a largura.
 
-**Propriedades de CSS da visualização Favoritos**
+**Propriedades CSS da exibição Favoritos**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo da visualização Favoritos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo da exibição Favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura da visualização. </p> </td> 
+   <td colname="col2"> <p>Largura da exibição. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma visualização Favoritos com 100 pixels de largura com um plano de fundo cinza semitransparente.
+Exemplo - para configurar uma exibição Favoritos com 100 pixels de largura com um plano de fundo cinza semitransparente.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -59,18 +60,18 @@ O espaçamento entre miniaturas Favoritos é controlado com o seguinte seletor d
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell
 ```
 
-**Propriedades de CSS das miniaturas Favoritos**
+**Propriedades CSS das miniaturas Favoritas**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem vertical em torno de cada miniatura. O espaçamento real da miniatura é igual à soma da margem superior e inferior definida para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar o espaçamento de 10 pixels.
+Exemplo - para configurar um espaçamento de 10 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -84,7 +85,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
 ```
 
-**Propriedades de CSS das miniaturas Favoritos**
+**Propriedades CSS das miniaturas Favoritas**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
@@ -97,7 +98,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,9 +106,9 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de miniaturas. Especificamente, `state="selected"` corresponde à miniatura recentemente selecionada pelo usuário. `state="default"` corresponde ao resto das miniaturas. E `state="over"` é usado ao passar o mouse.
+>A miniatura é compatível com o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura recentemente selecionada pelo usuário. `state="default"` corresponde ao restante das miniaturas. E `state="over"` é usado no mouse.
 
-Exemplo - para configurar miniaturas com 75 x 75 pixels, uma borda padrão cinza claro e uma borda cinza escura selecionada.
+Exemplo - para configurar miniaturas com 75 x 75 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -122,13 +123,13 @@ Exemplo - para configurar miniaturas com 75 x 75 pixels, uma borda padrão cinza
 }
 ```
 
-A aparência da etiqueta em miniatura é controlada com o seguinte seletor de classe CSS:
+A aparência do rótulo de miniatura é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
 ```
 
-**Propriedades de CSS do rótulo Favoritos**
+**Propriedades CSS do rótulo Favoritos**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
@@ -137,7 +138,7 @@ A aparência da etiqueta em miniatura é controlada com o seguinte seletor de cl
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
