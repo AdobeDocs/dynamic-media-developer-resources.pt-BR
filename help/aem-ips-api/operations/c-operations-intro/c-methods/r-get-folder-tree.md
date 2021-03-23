@@ -1,15 +1,16 @@
 ---
-description: Retorna pastas e subpastas em uma estrutura hierárquica em árvore. A resposta getFolderTree está limitada a um máximo de 100.000 pastas
-seo-description: Retorna pastas e subpastas em uma estrutura hierárquica em árvore. A resposta getFolderTree está limitada a um máximo de 100.000 pastas
+description: Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
+seo-description: Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getFolderTree{#getfoldertree}
 
-Retorna pastas e subpastas em uma estrutura hierárquica em árvore. A resposta getFolderTree está limitada a um máximo de 100.000 pastas
+Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
 
 Sintaxe
 
@@ -33,7 +34,7 @@ Sintaxe
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura à pasta para retornar os dados nela contidos.
+>O usuário deve ter acesso de leitura à pasta para retornar os dados nela.
 
 ## Parâmetros {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -41,12 +42,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| `*`accessUserHandle`*` | `xsd:string` | Não | Usado somente pelos administradores para representar um usuário específico. |
-| `*`accessGroupHandle`*` | `xsd:string` | Não | Usada para filtrar por um grupo específico, incluindo qualquer um dos grupos aos quais a empresa pertence. |
-| `*`folderPath`*` | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas no nível da folha. Se excluído, a raiz da empresa será usada. |
-| `*`profundidade`*` | `xsd:int` | Sim | O valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descendente na árvore. |
-| `*`assetTypeArray`*` | `types:StringArray` | Não | Retorna pastas que contêm apenas tipos de ativos especificados. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
+| `*`accessUserHandle`*` | `xsd:string` | Não | Usado apenas por administradores para representar um usuário específico. |
+| `*`accessGroupHandle`*` | `xsd:string` | Não | Usado para filtrar por um grupo específico, incluindo qualquer um daqueles aos quais a empresa pertence. |
+| `*`folderPath`*` | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
+| `*`profundidade`*` | `xsd:int` | Sim | Um valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descendente na árvore. |
+| `*`assetTypeArray`*` | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
 | `*`responseFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
 | `*`excludeFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir na resposta. |
 
@@ -54,12 +55,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`pastas`*` | `types:folders` | Não | A hierarquia de pastas em uma estrutura em árvore. A resposta é limitada a no máximo 100.000 pastas. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`pastas`*` | `types:folders` | Não | A hierarquia de pastas em uma estrutura de árvore. A resposta é limitada a no máximo 100.000 pastas. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## Exemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Essa amostra de código usa um identificador de empresa e um parâmetro de profundidade para determinar o nível de profundidade que a resposta deve retornar. A resposta contém pastas e matrizes de subpastas com relacionadas. Defina o valor de profundidade como um número menor para pesquisar mais fundo na árvore de pastas.
+Essa amostra de código usa um identificador da empresa e um parâmetro de profundidade para determinar o nível de profundidade que a resposta deve retornar. A resposta contém pastas e matrizes de subpastas com relacionadas. Defina o valor de profundidade para um número menor para pesquisar mais fundo na árvore de pastas.
 
 **Solicitação**
 
