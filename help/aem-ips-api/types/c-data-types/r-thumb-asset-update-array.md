@@ -1,15 +1,16 @@
 ---
-description: Uma atualização de metadados para ativos miniatura.
-seo-description: Uma atualização de metadados para ativos miniatura.
+description: Uma atualização de metadados para ativos em miniatura.
+seo-description: Uma atualização de metadados para ativos em miniatura.
 seo-title: ThumbAssetUpdateArray
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 43b96b01-3a88-48cc-b653-262c9fb798a5
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # ThumbAssetUpdateArray{#thumbassetupdatearray}
 
-Uma atualização de metadados para ativos miniatura.
+Uma atualização de metadados para ativos em miniatura.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:ThumbAssetUpdates` | Uma matriz de atualizações de ativos miniatura. |
+| `*`items`*` | `types:ThumbAssetUpdates` | Uma matriz de atualizações de ativos essenciais. |
 
