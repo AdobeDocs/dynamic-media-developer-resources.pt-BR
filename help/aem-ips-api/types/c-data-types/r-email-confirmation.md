@@ -2,17 +2,18 @@
 description: Envia um email para um recipient designado em resposta a uma operação cdnCacheInvalidation.
 solution: Experience Manager
 title: ConfirmaçãoDeEmail
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
 
-# EmailConfirmation{#emailconfirmation}
+# Confirmação de Email{#emailconfirmation}
 
 Envia um email para um recipient designado em resposta a uma operação cdnCacheInvalidation.
 
@@ -22,6 +23,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`ccOriginator`*` | `xsd:boolean` | Se verdadeiro, inclui a conta de usuário do serviço da Web do usuário, que é uma lista de emails designados para receber uma confirmação por email da CDN da Dynamic Media. |
-| `*`ccOtherArray`*` | `types:EmailArray` | Uma matriz de endereços de email (no máximo 5) designados para receber a notificação de confirmação da CDN da Dynamic Media. |
+| `*`ccOriginator`*` | `xsd:boolean` | Se true, inclui a conta de usuário do serviço da Web do usuário, que é uma lista de emails designados para receber uma confirmação por email do Dynamic Media CDN. |
+| `*`ccOthersArray`*` | `types:EmailArray` | Uma matriz de endereços de email (no máximo 5) designada para receber a notificação de confirmação do Dynamic Media CDN. |
 
