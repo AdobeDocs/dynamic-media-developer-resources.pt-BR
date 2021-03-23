@@ -4,18 +4,19 @@ seo-description: Ajuste o equilíbrio de cores. Ajusta o valor de cada component
 seo-title: op_color_balance
 solution: Experience Manager
 title: op_color_balance
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 177aa6e3-1b32-4254-85f1-d7fe14116e3c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 
-# op_color balance{#op-colorbalance}
+# op_colorbalance{#op-colorbalance}
 
 Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB separadamente.
 
@@ -24,7 +25,7 @@ Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB sepa
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> redAdj</span> </p></td> 
-  <td class="stentry"> <p>Ajuste de componente vermelho (-100...+100 int). </p></td> 
+  <td class="stentry"> <p>Ajuste do componente vermelho (-100...+100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> greenAdj</span> </p></td> 
@@ -32,15 +33,15 @@ Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB sepa
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> blueAdj</span> </p></td> 
-  <td class="stentry"> <p>Ajuste de componente azul (-100...+100 int). </p></td> 
+  <td class="stentry"> <p>Ajuste do componente azul (-100...+100 int). </p></td> 
  </tr> 
 </table>
 
-Os dados de imagem de entrada de cinza e CMYK são convertidos em RGB usando conversão ingênua que não é precisa quando o gerenciamento de cores está ativado.
+Os dados de imagens de entrada de cinza e CMYK são convertidos em RGB usando conversão nativa que não é precisa quando o gerenciamento de cores está ativado.
 
 ## Propriedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado pelas camadas de efeito. As imagens e as camadas CMYK são convertidas em RGB antes da operação ser aplicada.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado por camadas de efeito. Imagens e camadas CMYK são convertidas em RGB antes da aplicação da operação.
 
 ## Padrão {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -48,6 +49,6 @@ comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`.
 
 ## Exemplo {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
-Empurre o equilíbrio de cores para vermelho:
+Empurre o equilíbrio de cores em direção ao vermelho:
 
 ... `&op_colorBalance=100,0,0&`...
