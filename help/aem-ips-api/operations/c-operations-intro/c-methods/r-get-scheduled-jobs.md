@@ -1,15 +1,16 @@
 ---
-description: Obtém trabalhos agendados para execução.
-seo-description: Obtém trabalhos agendados para execução.
+description: Obtém tarefas agendadas para execução.
+seo-description: Obtém tarefas agendadas para execução.
 seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-topic: Dynamic Media Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getScheduledJobs{#getscheduledjobs}
 
-Obtém trabalhos agendados para execução.
+Obtém tarefas agendadas para execução.
 
 Sintaxe
 
@@ -38,8 +39,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| `*`jobHandle`*` | `xsd:string` | Não | Trabalho. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
+| `*`jobHandle`*` | `xsd:string` | Não | Identificador da tarefa. |
 | `*`originalName`*` | `xsd:string` | Não | O nome especificado por `submitJob`. |
 
 **Saída (getScheduledJobsReturn)**
@@ -50,7 +51,7 @@ Sintaxe
 
 ## Exemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Esta amostra de código retorna todos os trabalhos agendados em uma matriz de trabalhos. O próprio storage contém informações detalhadas sobre os trabalhos.
+Esta amostra de código retorna todas as tarefas agendadas em uma matriz de tarefas. O próprio storage contém informações detalhadas sobre as tarefas.
 
 **Solicitação**
 
