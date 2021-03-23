@@ -4,12 +4,13 @@ seo-description: Move um ativo para uma pasta específica.
 seo-title: moveAsset
 solution: Experience Manager
 title: moveAsset
-topic: Dynamic Media Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -36,17 +37,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sim | Manipule o ativo que deseja mover. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Manipule a pasta de destino. |
+| `*`folderHandle`*` | `xsd:string` | Sim | Lide com a pasta de destino. |
 
 **Saída (moveAssetReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Esta amostra de código move um ativo para uma pasta.
+Essa amostra de código move um ativo para uma pasta.
 
 **Solicitação**
 
