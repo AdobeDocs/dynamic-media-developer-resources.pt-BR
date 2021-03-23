@@ -1,15 +1,16 @@
 ---
-description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais de coloração.
-seo-description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais de coloração.
-seo-title: cor
+description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais coloridos.
+seo-description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais coloridos.
+seo-title: color
 solution: Experience Manager
-title: cor
-topic: Dynamic Media Image Serving - Image Rendering API
+title: color
 uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -17,20 +18,20 @@ ht-degree: 0%
 
 # color{#color}
 
-Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais de coloração.
+Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais coloridos.
 
-`color= *`cor`*`
+`color= *`color`*`
 
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> cor</span> </p> </td> 
-  <td class="stentry"> <p>Valor de cor RGB ou cinza. </p></td> 
+  <td class="stentry"> <p><span class="varname"> color</span> </p> </td> 
+  <td class="stentry"> <p>Valor de cor cinza ou RGB. </p></td> 
  </tr> 
 </table>
 
 ## Propriedades {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-Atributo material. Obrigatório para materiais de cor sólida, facultativo para todos os outros materiais.
+Atributo de material. Obrigatório para materiais de cor sólida, facultativo para todos os outros materiais.
 
 ## Padrão {#section-ea8e1967674d426bb8f46abe365b6aca}
 
