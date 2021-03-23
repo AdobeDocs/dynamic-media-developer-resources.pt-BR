@@ -4,12 +4,13 @@ seo-description: Os arquivos de atributos de catálogo reconhecem esses atributo
 seo-title: Atributos de solicitação padrão
 solution: Experience Manager
 title: Atributos de solicitação padrão
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,11 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de solicitaçã
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md#reference-1b96c71a253049ddaeae09892d3484a0" format="dita" scope="local"> DefaultExt</a></span> </p> </td> 
-   <td colname="col2"> <p> Sufixo de arquivo de imagem padrão. </p> </td> 
+   <td colname="col2"> <p> Sufixo padrão do arquivo de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
-   <td colname="col2"> <p> Nome da face da fonte padrão. </p> </td> 
+   <td colname="col2"> <p> Nome padrão da face da fonte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
