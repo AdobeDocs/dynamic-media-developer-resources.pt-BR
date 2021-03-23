@@ -4,12 +4,13 @@ seo-description: As macros de comando fornecem atalhos nomeados para conjuntos d
 seo-title: Macros de comando *
 solution: Experience Manager
 title: Macros de comando *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -25,13 +26,13 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
 As macros são definidas em arquivos separados de definição de macro, que podem ser anexados a catálogos de materiais ou ao catálogo padrão.
 
-*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números, &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
+*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir de qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-Chame macros em qualquer lugar em uma solicitação depois de &#39;?&#39; ou em qualquer lugar dentro de um campo `vignette::Modifier`. As macros podem representar apenas um ou mais comandos completos de Renderização de imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
+Chame macros em qualquer lugar em uma solicitação depois de &#39;?&#39; ou em qualquer lugar dentro de um campo `vignette::Modifier`. As macros só podem representar um ou mais comandos completos de Renderização de Imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 
-As invocações de macro são substituídas por suas sequências de substituição precocemente durante a análise. Os comandos dentro de macros substituem os mesmos comandos na solicitação se ocorrerem antes da chamada de macro na solicitação. Isso é diferente de `vignette::Modifier`, onde os comandos na string de solicitação sempre substituirão os comandos na string `vignette::Modifier`, independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas sequências de substituição precocemente durante a análise. Os comandos em macros substituem os mesmos comandos na solicitação se ocorrerem antes da chamada de macro na solicitação. Isso é diferente de `vignette::Modifier`, onde os comandos na cadeia de caracteres de solicitação sempre substituirão os comandos na cadeia de caracteres `vignette::Modifier`, independentemente da posição na solicitação.
 
-As macros de comando não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para passar valores da solicitação para a macro.
+As macros de comando não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
 As macros podem não estar aninhadas.
 
@@ -41,15 +42,15 @@ As macros podem ser úteis se os mesmos comandos ou atributos forem aplicados a 
 
 `http://server/ir/render/cat/vig0?fmt=jpeg&qlt=80&sharpen=1&src=cat/matA&res=40 http://server/ir/render/cat/vig1?fmt=jpeg&qlt=80&sharpen=1&src=cat/matB&res=40 http://server/ir/render/cat/vig2?fmt=jpeg&qlt=95&sharpen=1&src=cat/matC&res=40`
 
-É possível definir uma macro para os atributos comuns:
+Você pode definir uma macro para os atributos comuns:
 
 `render vignette=cat/$vig$&fmt=jpg&qlt=80&sharpen=1&src=cat/$mat$&res=40`
 
-A macro seria usada da seguinte forma:
+A macro seria usada da seguinte maneira:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Como `qlt=` é diferente para a terceira solicitação, simplesmente substituímos o valor depois que a macro é chamada (especificar `qlt=`*before* `$render$`não teria nenhum efeito).
+Como `qlt=` é diferente para a terceira solicitação, simplesmente substituímos o valor após a macro ser chamada (especificar `qlt=`*before* `$render$`não teria efeito).
 
 **Consulte também**
 
