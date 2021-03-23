@@ -1,15 +1,16 @@
 ---
-description: Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
-seo-description: Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+description: Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Por sua vez, isso varia o tamanho do arquivo (quantidade dos dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+seo-description: Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Por sua vez, isso varia o tamanho do arquivo (quantidade dos dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # qlt{#qlt}
 
-Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nível de compactação. Por sua vez, isso varia o tamanho do arquivo (quantidade dos dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
 
-` qlt= *``*[, *`qualiticroma`*]`
+` qlt= *``*[, *`Qualicroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -28,19 +29,19 @@ Qualidade JPEG. Especifica atributos de codificação JPEG para controlar o nív
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> croma  </span> </p> </td> 
-  <td class="stentry"> <p>Redução da amostragem de cromaticidade JPEG (0=normal, 1=desativado); opcional, o padrão é 0. </p> </td> 
+  <td class="stentry"> <p>Amostragem regressiva da cromaticidade JPEG (0=normal, 1=desativado); opcional, o padrão é 0. </p> </td> 
  </tr> 
 </table>
 
-Valores mais altos *`quality`* aumentam o tamanho e a qualidade do arquivo, valores mais baixos diminuem os tamanhos de arquivo e reduzem a qualidade da imagem percebida. Valores acima de 90 geralmente geram imagens indistinguíveis da imagem não compactada.
+Valores mais altos *`quality`* aumentam o tamanho e a qualidade do arquivo, valores mais baixos diminuem os tamanhos dos arquivos e reduzem a qualidade da imagem percebida. Valores acima de 90 geralmente geram imagens indistinguíveis da imagem descompactada.
 
-Defina o sinalizador *`chroma`* para desativar a resolução reduzida de cromaticidade RGB empregada por codificadores JPEG típicos. Isso pode aumentar a nitidez perceptível das bordas em uma imagem quando a borda é definida por uma mudança de matiz em vez de brilho. A configuração desse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente indefinido.
+Defina o sinalizador *`chroma`* para desativar a amostragem suspensa de cromaticidade RGB usada por codificadores JPEG típicos. Isso pode aumentar a nitidez perceptível das bordas em uma imagem, quando a borda é definida por uma mudança de matiz em vez de brilho. Configurar esse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente borrado.
 
 ## Propriedades {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Atributo de solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se o formato de arquivo de imagem de saída não oferecer suporte à codificação JPEG. Consulte a descrição de `fmt=` para obter informações sobre quais formatos de imagem de saída são compatíveis com `qlt=`.
+Atributo da solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se o formato do arquivo de imagem de saída não oferecer suporte à codificação JPEG. Consulte a descrição de `fmt=` para obter informações sobre quais formatos de imagem de saída oferecem suporte para `qlt=`.
 
-*`chroma`* é ignorada se o tipo de pixel de saída for CMYK ou cinza.
+*`chroma`* é ignorado se o tipo de pixel de saída for CMYK ou cinza.
 
 ## Padrão {#section-0d8aa45d84df49e6b846596bbaf7f740}
 
@@ -48,7 +49,7 @@ Atributo de solicitação. Aplica-se independentemente da configuração de cama
 
 ## Exemplo {#section-d7d33871d401433aa51d028823eae7a9}
 
-Reduza a qualidade para uma transmissão mais rápida através de uma conexão de largura de banda baixa:
+Reduza a qualidade para transmissão mais rápida através de uma conexão de largura de banda baixa:
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300`
 
