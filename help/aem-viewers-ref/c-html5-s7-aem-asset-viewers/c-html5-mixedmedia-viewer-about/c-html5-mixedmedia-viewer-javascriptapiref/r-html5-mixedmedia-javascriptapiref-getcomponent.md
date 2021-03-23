@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para Visualizador de mídia mista
-seo-description: Referência da API JavaScript para Visualizador de mídia mista
+description: Referência da API do JavaScript para o Visualizador de mídia mista
+seo-description: Referência da API do JavaScript para o Visualizador de mídia mista
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -17,15 +18,15 @@ ht-degree: 0%
 
 # getComponent{#getcomponent}
 
-Referência da API JavaScript para Visualizador de mídia mista
+Referência da API do JavaScript para o Visualizador de mídia mista
 
 `getComponent(componentId)`
 
-Retorna uma referência ao componente do SDK do visualizador que é usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador predefinido. Chame esse método somente depois que a chamada de retorno do visualizador `initComplete` for executada, caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
+Retorna uma referência ao componente do SDK do visualizador usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador pronto para uso. Chame esse método somente depois que o retorno de chamada do visualizador `initComplete` for executado, caso contrário, o componente ainda não poderá ser criado pela lógica do visualizador.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  -  `{String}` uma ID do componente SDK do visualizador usado pelo visualizador. Este visualizador suporta as seguintes IDs de componente:
+`*`componentID`*`  -  `{String}` uma ID do componente do SDK do visualizador usado pelo visualizador. Esse visualizador é compatível com as seguintes IDs de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -126,13 +127,13 @@ Retorna uma referência ao componente do SDK do visualizador que é usado pelo v
  </tbody> 
 </table>
 
-Ao trabalhar com APIs do SDK, é importante usar a namespace do SDK correta e totalmente qualificada, conforme descrito em [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK correto e totalmente qualificado, conforme descrito em [Localization of user interface elements](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Consulte a documentação da API do SDK do visualizador para obter mais informações sobre um componente específico.
 
 ## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
+`{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
