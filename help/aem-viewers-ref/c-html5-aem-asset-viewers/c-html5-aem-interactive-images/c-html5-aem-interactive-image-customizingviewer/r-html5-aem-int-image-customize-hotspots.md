@@ -1,29 +1,30 @@
 ---
-description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
-seo-description: O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+description: O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+seo-description: O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 seo-title: Pontos de conexão
 solution: Experience Manager
 title: Pontos de conexão
-topic: Dynamic Media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
 
 
-# Pontos de conexão{#hotspots}
+# Pontos de acesso{#hotspots}
 
-O visualizador exibe ícones de pontos de conexão sobre a visualização principal em lugares onde os pontos de conexão foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
-A aparência do ícone do ponto de conexão é controlada com o seguinte seletor de classe CSS:
+A aparência do ícone de ponto de acesso é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon
@@ -38,12 +39,12 @@ A aparência do ícone do ponto de conexão é controlada com o seguinte seletor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>Arte-final do ícone de ponto de acesso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p>Arte do ícone de ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
+   <td colname="col2"> <p>Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Scripts CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
