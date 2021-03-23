@@ -1,15 +1,16 @@
 ---
-description: Mostrar objeto sobreposto. Torna visíveis todos os objetos sobrepostos anteriormente ocultos (incluindo objetos de quadro de revestimento de janela) na seleção atual.
-seo-description: Mostrar objeto sobreposto. Torna visíveis todos os objetos sobrepostos anteriormente ocultos (incluindo objetos de quadro de revestimento de janela) na seleção atual.
-seo-title: show
+description: Mostrar objeto de sobreposição. Torna visíveis todos os objetos de sobreposição ocultos anteriormente (incluindo objetos de quadro de cobertura de janela) na seleção atual.
+seo-description: Mostrar objeto de sobreposição. Torna visíveis todos os objetos de sobreposição ocultos anteriormente (incluindo objetos de quadro de cobertura de janela) na seleção atual.
+seo-title: mostrar
 solution: Experience Manager
-title: show
-topic: Dynamic Media Image Serving - Image Rendering API
+title: mostrar
 uuid: 31255529-9277-40d9-9c57-205d22479600
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # show{#show}
 
-Mostrar objeto sobreposto. Torna visíveis todos os objetos sobrepostos anteriormente ocultos (incluindo objetos de quadro de revestimento de janela) na seleção atual.
+Mostrar objeto de sobreposição. Torna visíveis todos os objetos de sobreposição ocultos anteriormente (incluindo objetos de quadro de cobertura de janela) na seleção atual.
 
 `Show[= *`val`*]`
 
@@ -30,11 +31,11 @@ Mostrar objeto sobreposto. Torna visíveis todos os objetos sobrepostos anterior
 
 ## Propriedades {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-Ignorado se a seleção atual não incluir objetos sobrepostos ou se nenhum objeto sobreposto estiver oculto.
+Ignorado se a seleção atual não incluir objetos de sobreposição ou se nenhum objeto de sobreposição estiver oculto.
 
 ## Padrão {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Nenhuma, para nenhuma alteração na visibilidade do objeto.
+Nenhum, sem alteração na visibilidade do objeto.
 
 ## Consulte também {#section-2a1a37a35dfb41758897164e14f0105f}
 
