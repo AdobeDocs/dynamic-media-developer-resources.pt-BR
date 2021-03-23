@@ -1,15 +1,16 @@
 ---
-description: O Visualizador de vídeo oferece suporte ao rastreamento Adobe Analytics pronto para uso.
-seo-description: O Visualizador de vídeo oferece suporte ao rastreamento Adobe Analytics pronto para uso.
+description: O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
+seo-description: O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 seo-title: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-topic: Dynamic Media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-O Visualizador de vídeo oferece suporte ao rastreamento Adobe Analytics pronto para uso.
+O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-## Rastreamento predefinido {#section-3b101fe30be943c1b679fd5c273569ca}
+## Rastreamento pronto para uso {#section-3b101fe30be943c1b679fd5c273569ca}
 
-O Visualizador de vídeo oferece suporte ao rastreamento Adobe Analytics pronto para uso.
+O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome predefinido de empresa como parâmetro `config2`.
+Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como parâmetro `config2`.
 
-O visualizador também envia uma solicitação HTTP de rastreamento único para o Servidor de imagens configurado com as informações de tipo e versão do visualizador.
+O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
 
-## Acompanhamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
+## Rastreamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
 Para integrar com sistemas de análise de terceiros, é necessário ouvir `trackEvent` o retorno de chamada do visualizador e processar `eventInfo` o argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
@@ -66,14 +67,14 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
-   <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
    <td colname="col2"> <p>um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> JOGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR  </span> </p> </td> 
    <td colname="col2"> <p>a reprodução é iniciada. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +83,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PARAR  </span> </p> </td> 
-   <td colname="col2"> <p>a reprodução é interrompida. </p> </td> 
+   <td colname="col2"> <p>a reprodução foi interrompida. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MARCO  </span> </p> </td> 
