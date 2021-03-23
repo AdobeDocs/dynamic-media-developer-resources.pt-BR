@@ -4,12 +4,13 @@ seo-description: Configurações avançadas de renderização. Especifica uma co
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -28,11 +29,11 @@ Configurações avançadas de renderização. Especifica uma configuração de r
  </tr> 
 </table>
 
-Usado para ajustar a aparência da renderização. Use o recurso de renderização da Ferramenta de criação de vinheta (parte do pacote de criação de imagem da Dynamic Media) para criar strings de configurações de renderização.
+Usado para ajustar a aparência da renderização. Use o recurso de renderização da Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) para criar cadeias de caracteres de configurações de renderização.
 
 ## Propriedades {#section-9a2b2228789046658cb80eddf343af75}
 
-Atributo material.
+Atributo de material.
 
 ## Padrão {#section-f4751476c3134f16ac6283d6f0c46e47}
 
@@ -40,7 +41,7 @@ Atributo material.
 
 ## Exemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Depois de algum experimento na Criação de imagens, determina-se que o máscara com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o comando `rs=` a ser usado com este material:
+Após algumas experiências na Criação de Imagens, determina-se que o mascaramento com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o comando `rs=` para usar com este material:
 
 `…&rs=U2V20W50X2&…`
 
