@@ -1,15 +1,16 @@
 ---
-description: Define o mapa de imagem para um ativo.
-seo-description: Define o mapa de imagem para um ativo.
+description: Define o mapa de imagem de um ativo.
+seo-description: Define o mapa de imagem de um ativo.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # setImageMaps{#setimagemaps}
 
-Define o mapa de imagem para um ativo.
+Define o mapa de imagem de um ativo.
 
-Você já deve ter criado os mapas de imagem. Os mapas de imagem são aplicados na ordem de recuperação da matriz. Isso significa que o segundo mapa de imagem sobrepõe o primeiro, o terceiro sobrepõe o segundo e assim por diante.
+Você já deve ter criado os mapas de imagem. Mapas de imagem são aplicados na ordem de recuperação da matriz. Isso significa que o segundo mapa de imagem se sobrepõe ao primeiro, o terceiro se sobrepõe ao segundo e assim por diante.
 
 ## Tipos de usuário autorizados {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -36,19 +37,19 @@ Você já deve ter criado os mapas de imagem. Os mapas de imagem são aplicados 
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativos. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
 | `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sim | Matriz de mapas de imagem predefinidos. |
 
 **Saída (setImageMapsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sim | Uma matriz com alças de mapa de imagem aplicadas ao ativo. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Sim | Uma matriz com identificadores de mapa de imagem aplicados ao ativo. |
 
 ## Exemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Esta amostra de código define 2 mapas de imagem para um ativo de imagem. O código especifica o tipo de forma, a região e a ação executada quando os mapas de imagem são chamados. A resposta contém uma matriz com alças para os mapas de imagem.
+Essa amostra de código define 2 mapas de imagem para um ativo de imagem. O código especifica o tipo de forma, a região e a ação executada quando os mapas de imagem são chamados. A resposta contém uma matriz com identificadores para os mapas de imagem.
 
 **Solicitação**
 
