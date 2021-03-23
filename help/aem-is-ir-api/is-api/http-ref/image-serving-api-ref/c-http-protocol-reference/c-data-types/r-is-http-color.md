@@ -1,15 +1,16 @@
 ---
 description: Valores de cor. Você pode especificar valores de cor usando notação hexadecimal, uma lista separada por vírgulas de valores de componentes ou decimais.
 seo-description: Valores de cor. Você pode especificar valores de cor usando notação hexadecimal, uma lista separada por vírgulas de valores de componentes ou decimais.
-seo-title: cor
+seo-title: color
 solution: Experience Manager
-title: cor
-topic: Dynamic Media Image Serving - Image Rendering API
+title: color
 uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 11%
 
 ---
@@ -21,8 +22,8 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
 
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cor</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> cinza</span>[,<span class="varname"> alfa</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> vermelho</span>,<span class="varname"> verde</span>,<span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>,  <span class="varname"> magenta</span>,  <span class="varname"> amarelo</span>,  <span class="varname"> preto</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}}[s]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
+  <td class="stentry"> <p> <span class="codeph">{{<span class="varname"> cinza</span>[, <span class="varname"> alfa</span>][g]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> vermelho</span>, <span class="varname"> verde</span>, <span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>,  <span class="varname"> magenta</span>,  <span class="varname"> amarelo</span>,  <span class="varname"> preto</span>[,alfa]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span> | <span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> vermelho</span>,  <span class="varname"> verde</span>,  <span class="varname"> azul</span>,  <span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -38,11 +39,11 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>valor de cor cinza hexadecimal (GG) de dois dígitos embalados </p></td> 
+  <td class="stentry"> <p>valor de cor cinza hexadecimal de dois dígitos embalado (GG) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
-  <td class="stentry"> <p>embalado em cinza hexadecimal de quatro dígitos com valor de cor alfa (GGAA) </p> </td> 
+  <td class="stentry"> <p>cinza hexadecimal de quatro dígitos embalado com valor de cor alfa (GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
@@ -50,29 +51,29 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>valor de cor RGBA hexadecimal de oito dígitos (RRGGBBAA) ou CMYK (CCMMYYKK) compactado (se especificado com sufixo 'k') </p></td> 
+  <td class="stentry"> <p>valor de cor RGBA hexadecimal de oito dígitos (RRGGBBAA) ou CMYK (CCMMMYKK) compactado (se especificado com o sufixo 'k') </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>CMYK hexadecimal de dez dígitos compactado com valor alfa (CCYYMMKKAA) </p> </td> 
+  <td class="stentry"> <p>CMYK hexadecimal de dez dígitos compactado com valor alfa (CCYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
 Os valores dos componentes decimais para cores RGB estão no intervalo 0...255. Os valores dos componentes decimais para CMYK e cinza estão no intervalo 0,100%. Todos os valores de componentes hexadecimais estão no intervalo 0...0xFF.
 
-Pressupõe-se que os valores dos componentes de cor sejam independentes do valor alfa (não pré-multiplicados).
+Pressupõe-se que os valores dos componentes de cor sejam independentes do valor alfa (não pré-multiplicado).
 
-Todos os valores de cor, prefixos e sufixos não fazem distinção entre maiúsculas e minúsculas.
+Todos os valores de cor, prefixos e sufixos não diferenciam maiúsculas de minúsculas.
 
-O sufixo de tipo &#39;k&#39; é necessário para valores de cor CMYK. Como opção, um sufixo de tipo pode ser especificado para valores de cores RGB e cinza.
+O sufixo de tipo &#39;k&#39; é necessário para valores de cores CMYK. Um sufixo de tipo pode ser especificado opcionalmente para valores de cores RGB e cinza.
 
-O prefixo &#39;0x&#39; é necessário para valores de cor cinza hexadecimais.
+O prefixo &#39;0x&#39; é necessário para valores de cores cinza hexadecimais.
 
-O sufixo &#39;s&#39; especifica que o valor de cor está associado ao espaço de cor de entrada (origem) correspondente ao tipo de pixel do valor de cor (definido com `attribute::IccProfileSrc*`). Se esse sufixo não estiver presente, o valor de cor será associado ao espaço de cor de saída (definido com `icc=` ou `attribute::IccProfile*`).
+O sufixo &#39;s&#39; especifica que o valor da cor está associado ao espaço de cores de entrada (fonte) correspondente ao tipo de pixel do valor da cor (definido com `attribute::IccProfileSrc*`). Se esse sufixo não estiver presente, o valor da cor será associado ao espaço de cores de saída (destino) (definido com `icc=` ou `attribute::IccProfile*`).
 
 ## Padrão {#section-737082a7da544acca8092a48d88480e7}
 
-Se um valor alfa não for especificado explicitamente, presume-se que seja 255, 0xFF ou 100% (totalmente opaco).
+Se um valor alfa não for especificado explicitamente, é considerado 255, 0xFF ou 100% (totalmente opaco).
 
 ## Exemplos {#section-4ac69026349949f8b595a6d4a9ce474d}
 
@@ -81,11 +82,11 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i>cor</i> </b> </th> 
+   <th class="entry"> <b> <i>color</i> </b> </th> 
    <th class="entry"> <b>Tipo de pixel</b> </th> 
    <th class="entry"> <b>Valor da cor</b> </th> 
    <th class="entry"> <b>Valor alfa</b> </th> 
-   <th class="entry"> <b>Espaço de cor padrão  </b> </th> 
+   <th class="entry"> <b>Espaço de cores padrão  </b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -114,18 +115,18 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
    <td> <p>a0b1c2d3R </p> </td> 
    <td> <p>RGB </p> </td> 
    <td> <p>160 177 194 </p> </td> 
-   <td> <p>211 </p> </td> 
+   <td> <p>211º </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>100 S </p> </td> 
+   <td> <p>100S </p> </td> 
    <td> <p>cinza </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p>100% </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>50 75 g </p> </td> 
+   <td> <p>50,75 g </p> </td> 
    <td> <p>cinza </p> </td> 
    <td> <p>50% </p> </td> 
    <td> <p>75% </p> </td> 
@@ -153,7 +154,7 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>22,23,24,25,26 KS </p> </td> 
+   <td> <p>22,23,24,25,26KS </p> </td> 
    <td> <p>CMYK </p> </td> 
    <td> <p>22-23-24-25% </p> </td> 
    <td> <p>26% </p> </td> 
@@ -176,4 +177,4 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
  </tbody> 
 </table>
 
-O espaço de cores de saída especificado com `icc=` se aplica em vez do espaço de cores padrão quando o tipo de pixel de uma cor de saída corresponde ao tipo de pixel da imagem de saída.
+O espaço de cores de saída especificado com `icc=` aplica-se em vez do espaço de cores padrão quando o tipo de pixel de uma cor de saída corresponde ao tipo de pixel da imagem de saída.
