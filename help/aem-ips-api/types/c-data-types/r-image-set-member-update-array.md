@@ -4,12 +4,13 @@ seo-description: Uma matriz de atualizações de membros do conjunto de imagens.
 seo-title: ImageSetMemberUpdateArray
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: 23d45181-1103-4e3a-89a4-984470c11728
+feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:ImageSetMemberUpdate` | A matriz do membro do conjunto de imagens é atualizada. |
+| `*`items`*` | `types:ImageSetMemberUpdate` | A matriz de atualizações de membros do conjunto de imagens. |
 
