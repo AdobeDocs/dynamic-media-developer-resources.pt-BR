@@ -4,12 +4,13 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-topic: Dynamic Media
 uuid: a403d44d-d5b5-4d09-876e-39146585704f
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '145'
 ht-degree: 1%
 
 ---
@@ -25,19 +26,19 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que IconEffect seja exibido na parte superior do vídeo quando o vídeo estiver em estado de pausa. Em alguns dispositivos, controles nativos são usados. Nesses casos, o modificador do ícone <span class="codeph"></span> é ignorado. </p> </td> 
+   <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior do vídeo quando ele estiver em pausa. Em alguns dispositivos são usados controles nativos. Nesses casos, o modificador <span class="codeph"> do ícone </span> é ignorado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o número máximo de vezes que IconEffect é exibido e reexibido. Um valor de <span class="codeph"> -1</span> indica que o ícone reaparece indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica o número máximo de vezes em que o IconEffect é exibido e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone reaparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> desvanecer</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica a duração de mostrar ou ocultar animação, em segundos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> desaparecer</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica a duração da animação show ou hide, em segundos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Define o número de segundos em que o IconEffect permanece totalmente visível antes de se ocultar automaticamente. Ou seja, o tempo após o desaparecimento gradual da animação é concluído e antes dos start de animação serem apagados. Defina como <span class="codeph"> 0</span> para desativar o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p> Define o número de segundos em que o IconEffect permanece totalmente visível antes de se ocultar automaticamente. Ou seja, o tempo após o esmaecimento da animação é concluído e antes do início da animação de esmaecimento. Defina como <span class="codeph"> 0</span> para desativar o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>
