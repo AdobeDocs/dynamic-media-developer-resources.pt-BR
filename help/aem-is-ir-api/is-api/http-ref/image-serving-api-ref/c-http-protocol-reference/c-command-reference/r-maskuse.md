@@ -4,12 +4,13 @@ seo-description: Uso da máscara de imagem. Especifica como a máscara ou o cana
 seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2c70da87-f869-495a-be50-226a4516e002
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -28,8 +29,8 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
   <tr> 
    <th class="entry"> <b> Valor</b> </th> 
    <th class="entry"> <b> Sem máscara</b> </th> 
-   <th class="entry"> <b> Alfa não associado (ou imagem de máscara separada)</b> </th> 
-   <th class="entry"> <b> Alfa associado (pré-multiplicado)</b> </th> 
+   <th class="entry"> <b> Alfa não associada (ou imagem de máscara separada)</b> </th> 
+   <th class="entry"> <b> Alfa associada (pré-multiplicada)</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -37,7 +38,7 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
    <td> <p> <span class="codeph"> off  </span> </p> </td> 
    <td> <p> Retângulo de imagem opaco </p> </td> 
    <td> <p> Retângulo de imagem opaco </p> </td> 
-   <td> <p> Área de primeiro plano da imagem sobre o retângulo preenchido com preto sólido </p> </td> 
+   <td> <p> Área de primeiro plano da imagem sobre um retângulo preenchido com preto sólido </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> norma  </span> </p> </td> 
@@ -48,8 +49,8 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
   <tr> 
    <td> <p> <span class="codeph"> inverter  </span> </p> </td> 
    <td> <p> Camada oculta </p> </td> 
-   <td> <p> Área de plano de fundo da imagem </p> </td> 
-   <td> <p> Área de plano de fundo da imagem ou camada preenchida com preto sólido </p> </td> 
+   <td> <p> Área do plano de fundo da imagem </p> </td> 
+   <td> <p> Área de fundo da imagem ou camada preenchida com preto sólido </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +59,7 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
 
 Imagem ou atributo de camada. Aplica-se à camada 0 se `layer=comp`. Se especificado em uma camada de efeito, o comando modifica a máscara herdada da camada pai.
 
-O comportamento de `maskUse=` não é definido e não é suportado quando especificado com camadas de texto ou cores sólidas quando nenhuma máscara de imagem é aplicável (especificado com `mask=` ou `catalog::Mask`).
+O comportamento de `maskUse=` é indefinido e não tem suporte quando especificado com camadas de texto ou cores sólidas quando nenhuma máscara de imagem é aplicável (especificado com `mask=` ou `catalog::Mask`).
 
 ## Padrão {#section-982dd8174641437786dcb3729ace6428}
 
