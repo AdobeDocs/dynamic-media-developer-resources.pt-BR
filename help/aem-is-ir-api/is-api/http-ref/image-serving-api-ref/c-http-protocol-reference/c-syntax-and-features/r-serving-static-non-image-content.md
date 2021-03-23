@@ -1,32 +1,33 @@
 ---
-description: Servindo conteúdo estático (não imagem)
+description: Veiculação de conteúdo estático (não imagem)
 solution: Experience Manager
-title: Servindo conteúdo estático (não imagem)
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Veiculação de conteúdo estático (não imagem)
 uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
 
 
-# Servindo conteúdo estático (não imagem){#serving-static-non-image-content}
+# Veiculação de conteúdo estático (não imagem){#serving-static-non-image-content}
 
-O Serviço de imagem fornece um mecanismo para gerenciar conteúdos que não sejam de imagem em catálogos e servi-los por meio de um `context /is/content` separado. O mecanismo permite configurar o TTL para cada item separadamente.
+O Serviço de imagem fornece um mecanismo para gerenciar conteúdo não-imagem em catálogos e disponibilizá-lo por meio de um `context /is/content` separado. O mecanismo permite configurar o TTL para cada item separadamente.
 
 ## Sintaxe básica {#section-a986baaca8644d04bcd0ddf781ae916e}
 
 <table id="simpletable_4A6249F0C40747339524323EB0831CE4"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> solicitação  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> http://  <span class="varname"> server  </span>/is/content[/  <span class="varname"> catálogo  </span>/  <span class="varname"> item  </span>][? <span class="varname"> modificadores  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> http://  <span class="varname"> server  </span>/is/content[/  <span class="varname"> catalog  </span>/  <span class="varname"> item  </span>][? <span class="varname"> modificadores  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[:  <span class="varname"> porto  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[:  <span class="varname"> porta  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catálogo  </span> </span> </p> </td> 
@@ -34,11 +35,11 @@ O Serviço de imagem fornece um mecanismo para gerenciar conteúdos que não sej
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item  </span> </span> </p> </td> 
-  <td class="stentry"> <p>ID do item de conteúdo estático. </p> </td> 
+  <td class="stentry"> <p>ID de item de conteúdo estático. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificadores  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command  </span>*[&amp;  <span class="varname"> command  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> comando  </span>*[&amp;  <span class="varname"> comando  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> comando  </span> </span> </p> </td> 
@@ -56,7 +57,7 @@ O Serviço de imagem fornece um mecanismo para gerenciar conteúdos que não sej
 
 ## Visão geral do comando {#section-61657a0141914053ab12038ad7e91500}
 
-O Serviço de imagem oferece suporte aos seguintes comandos em /is/content:
+O Image Serving suporta os seguintes comandos em /is/content:
 
 <table id="simpletable_1D96BA1AB5394B3C9B91D46617AFC0FA"> 
  <tr class="strow"> 
@@ -65,17 +66,17 @@ O Serviço de imagem oferece suporte aos seguintes comandos em /is/content:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req  </a> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata  </span>,  <span class="codeph"> req=props  </span>e  <span class="codeph"> req=existe  </span> somente. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata  </span>,  <span class="codeph"> req=props  </span>e  <span class="codeph"> req=exists  </span> somente. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache  </a> </td> 
-  <td class="stentry"> <p>Permite desativar o cache do cliente. </p> </td> 
+  <td class="stentry"> <p>Permite desativar o armazenamento em cache no lado do cliente. </p> </td> 
  </tr> 
 </table>
 
 ## Catálogos de conteúdo estático {#section-b2b8f4860fe84e528493ed704c7c5141}
 
-Os catálogos de conteúdo estático são semelhantes aos catálogos de imagens, mas oferecem suporte a menos campos de dados:
+Os catálogos de conteúdo estático são semelhantes aos catálogos de imagem, mas oferecem suporte a menos campos de dados:
 
 <table id="table_3B111EC3AA1044FB9B659FD54BADDC39"> 
  <thead> 
@@ -87,19 +88,19 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagens,
  <tbody> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catálogo::Id  </span> </p> </td> 
-   <td> <p> O identificador de registro do catálogo para este item de conteúdo estático </p> </td> 
+   <td> <p> O identificador de registro de catálogo para este item de conteúdo estático </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catálogo::Caminho  </span> </p> </td> 
    <td> <p> O caminho do arquivo para este item de conteúdo </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catálogo::Expiração  </span> </p> </td> 
-   <td> <p> O TTL para este item de conteúdo; atributo::Expiração é usado se não for especificado ou se estiver vazio </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Expiration  </span> </p> </td> 
+   <td> <p> O TTL para este item de conteúdo; attribute::Expiration é usado se não especificado ou se estiver vazio </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catálogo::TimeStamp  </span> </p> </td> 
-   <td> <p> Carimbo de data e hora de modificação do ficheiro; necessário quando a validação baseada em catálogo está ativada com o atributo::CacheValidationPolicy </p> </td> 
+   <td> <p> Carimbo de data/hora de modificação do ficheiro; necessário quando a validação baseada em catálogo é ativada com o atributo::CacheValidationPolicy </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catálogo::UserData  </span> </p> </td> 
@@ -114,8 +115,8 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagens,
 
 ## Filtrar conteúdo estático {#section-896c37cf68bc446eb0766fb378898262}
 
-Esse mecanismo pode ajudar a garantir que os clientes recebam somente o conteúdo apropriado para suas necessidades. Supondo que o conteúdo estático esteja marcado com os valores `catalog::UserType`apropriados, o cliente pode adicionar o comando `type=` à solicitação. O Serviço de imagem comparará o valor fornecido com o comando `type=` ao valor de `catalog::UserType` e, no caso de uma incompatibilidade, retornará um erro em vez de conteúdo potencialmente inadequado.
+Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supondo que o conteúdo estático seja marcado com valores `catalog::UserType`apropriados, o cliente pode adicionar o comando `type=` à solicitação. O Image Serving comparará o valor fornecido com o comando `type=` com o valor de `catalog::UserType` e, no caso de uma incompatibilidade, retornará um erro em vez de conteúdo potencialmente inadequado.
 
 ## Consulte também {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 
-[type=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Referência do catálogo  [de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
+[type=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) ,  [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Referência do catálogo de  [imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)
