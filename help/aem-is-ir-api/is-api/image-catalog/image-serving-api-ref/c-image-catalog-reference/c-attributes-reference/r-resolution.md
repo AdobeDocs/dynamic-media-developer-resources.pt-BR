@@ -1,15 +1,16 @@
 ---
-description: Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor válido de Resolução de catálogo.
-seo-description: Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor válido de Resolução de catálogo.
+description: Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor de Resolução de catálogo válido.
+seo-description: Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor de Resolução de catálogo válido.
 seo-title: Resolução
 solution: Experience Manager
 title: Resolução
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dbc594de-05b9-4efa-93a6-4fdcf1981d8d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Resolução{#resolution}
 
-Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor de catálogo válido::Resolution.
+Resolução de objeto padrão. Fornece uma resolução de objeto padrão no caso de um registro de catálogo específico não conter um valor de catálogo válido::Resolution .
 
 ## Propriedades {#section-1f65ea81c3324781af17d0321facbd19}
 
