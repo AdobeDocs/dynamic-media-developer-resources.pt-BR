@@ -1,15 +1,16 @@
 ---
-description: Pesquisa o repositório de índice de metadados para os termos de pesquisa especificados. Retorna dados do ativo como o método searchAssets.
-seo-description: Pesquisa o repositório de índice de metadados para os termos de pesquisa especificados. Retorna dados do ativo como o método searchAssets.
+description: Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
+seo-description: Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Pesquisa o repositório de índice de metadados para os termos de pesquisa especificados. Retorna dados do ativo como o método searchAssets.
+Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
 
-Embora `searchAssetsByMetadata` permita pesquisar por Campos de metadados definidos pelo usuário, esses campos não serão retornados se forem especificados em `responseMetadataArray`. Para ilustrar esse ponto, consulte o seguinte exemplo de código:
+Embora `searchAssetsByMetadata` permita pesquisar em Campos de Metadados Definidos pelo Usuário, esses campos não serão retornados se forem especificados em `responseMetadataArray`. Para ilustrar esse ponto, o seguinte exemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -36,7 +37,7 @@ retorna um valor nulo:
 </items>
 ```
 
-Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retornados da pesquisa para executar `getAssets` (consulte também [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Este método obtém os valores de Campos Definidos pelo Usuário para os ativos em questão. Use o exemplo de sintaxe a seguir para pesquisar em Campos de metadados definidos pelo usuário:
+Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retornados da pesquisa para executar `getAssets` (consulte também [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Esse método obtém os valores de Campos Definidos pelo Usuário para os ativos em questão. Use o exemplo de sintaxe a seguir para pesquisar em Campos de Metadados Definidos pelo Usuário:
 
 ```java
 <ns:metadataConditionArray>
@@ -76,25 +77,25 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>A alça da empresa. </p> </td> 
+   <td colname="col4"> <p>O nome da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipo:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Filtros que ajudam a definir critérios de pesquisa. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtros que ajudam você a definir critérios de pesquisa. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipo:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Condições que definem os critérios de pesquisa. Consulte abaixo para obter mais informações. </p> </td> 
+   <td colname="col4"> <p>Condições que definem critérios de pesquisa. Consulte abaixo para obter mais informações. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Campos adicionais que você deseja que sejam preenchidos na resposta no resumo do ativo. Os campos devem ser especificados no formato normalizado. </p> </td> 
+   <td colname="col4"> <p>Campos adicionais que você deseja que tenham preenchido na resposta no resumo do ativo. Os campos devem ser especificados no formato normalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -118,7 +119,7 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Escolha de uma direção. Crescente é padrão. </p> </td> 
+   <td colname="col4"> <p>Escolha de uma espécie de direção. Crescente é padrão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +131,7 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
 | `*`totalRows`*` | `xsd:int` | Não | Número de correspondências. |
 | `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos retornados pela pesquisa. |
 
-## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## Detalhes de metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Estrutura do item**
 
@@ -146,7 +147,7 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
 
 **Valores**
 
-`field_handle` é a chave de pesquisa de metadados. Pode conter notação de ponto. Os valores possíveis incluem:
+`field_handle` é a chave de pesquisa de metadados. Ele pode conter notação de pontos. Os valores possíveis incluem:
 
 * `asset_id` (sem prefixo)
 * `name`
@@ -159,7 +160,7 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (Igual a  `modified_at` (Data no formulário: 25 de jul de 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (Igual a  `modified_at` (Data no formulário: 08 de julho de 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
@@ -174,15 +175,15 @@ O [!DNL operator] define como comparar o valor e incluir:
 * `StartsWith`
 * `EndsWith`
 
-O termo `comparison_value` é o termo a ser procurado.
+O `comparison_value` é o termo a ser procurado.
 
 ## Exemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
-Esta amostra de código realiza uma pesquisa com os seguintes critérios de metadados:
+Essa amostra de código realiza uma pesquisa com os seguintes critérios de metadados:
 
 * `name` contém  `1000801`.
 
-* `dc.rights` campo é igual  `Per Jessen Schmidt`.
+* `dc.rights` campo é igual a  `Per Jessen Schmidt`.
 
 **Solicitação**
 
