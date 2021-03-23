@@ -1,15 +1,16 @@
 ---
-description: Recuperar o status resumido de uma ordem de produção enviada.
-seo-description: Recuperar o status resumido de uma ordem de produção enviada.
+description: Recuperar o status resumido de um job enviado.
+seo-description: Recuperar o status resumido de um job enviado.
 seo-title: batchjobbrief
 solution: Experience Manager
 title: batchjobbrief
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # batchjobbrief{#batchjobbriefstatus}
 
-Recuperar o status resumido de uma ordem de produção enviada.
+Recuperar o status resumido de um job enviado.
 
 Este parâmetro:
 
@@ -30,7 +31,7 @@ Este parâmetro:
 
 Retorna:
 
-Breve situação da tarefa no formato XML; erro se o trabalho for inválido ou se o trabalho tiver sido excluído.
+Breve status da tarefa no formato XML; erro se o jobid for inválido ou o trabalho tiver sido excluído.
 
 ## Exemplo {#section-806460949bb043438ad4dd4e7ab74145}
 
