@@ -4,12 +4,13 @@ seo-description: Retorna as coordenadas do quadrilateral que delimita o caminho 
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -38,15 +39,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseie a empresa com a imagem que deseja trabalhar. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Lidar com o ativo de imagem. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Lide com a empresa com a imagem que deseja trabalhar. |
+| `*`assetHandle`*` | `xsd:string` | Sim | Lide com o ativo de imagem. |
 | `*`pathName`*` | `xsd:string` | Sim | Nome do caminho do Photoshop que você deseja retornar. |
 
 **Saída (getPhotoshopPathReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Sim | Retorna coordenadas de imagem com base no caminho. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`perspectivaQuad`*` | `types:PerspectiveQuad` | Sim | Retorna as coordenadas da imagem com base no caminho. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exemplos {#section-1f0461cbdc184c8d8925336d5279db47}
 
@@ -79,5 +80,5 @@ Sintaxe
 
 >[!MORELIKETHIS]
 >
->* [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
+>* [PerspectivaQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
 
