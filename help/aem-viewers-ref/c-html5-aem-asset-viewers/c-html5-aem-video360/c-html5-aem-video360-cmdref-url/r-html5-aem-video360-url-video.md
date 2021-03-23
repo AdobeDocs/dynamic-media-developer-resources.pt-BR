@@ -1,21 +1,22 @@
 ---
 description: comando URL para o visualizador do Video360.
 seo-description: comando URL para o visualizador do Video360.
-seo-title: video
+seo-title: vídeo
 solution: Experience Manager
-title: video
-topic: Dynamic Media
+title: vídeo
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
 
-# video{#video}
+# vídeo{#video}
 
 comando URL para o visualizador do Video360.
 
@@ -25,7 +26,7 @@ comando URL para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> O URL absoluto para um vídeo externo. </p> </td> 
+   <td colname="col2"> <p> O URL absoluto de um vídeo externo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
