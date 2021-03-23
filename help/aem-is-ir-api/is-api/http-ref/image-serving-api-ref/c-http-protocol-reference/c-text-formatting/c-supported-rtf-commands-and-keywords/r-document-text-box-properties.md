@@ -4,12 +4,13 @@ seo-description: As seguintes propriedades de documento são suportadas em caixa
 seo-title: Propriedades do documento (caixa de texto)
 solution: Experience Manager
 title: Propriedades do documento (caixa de texto)
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -46,12 +47,12 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>Tabela de cores CMYK. </p> </td> 
-   <td> <p>Extensão Dynamic Media. </p> </td> 
+   <td> <p>Extensão do Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
-   <td> <p>Tabela de cores para cores do serviço de imagens. </p> </td> 
-   <td> <p>extensão Dynamic Media; <span class="codeph"> textPs= </span> apenas </p> </td> 
+   <td> <p>Tabela de cores para cores de exibição de imagens. </p> </td> 
+   <td> <p>Extensão Dynamic Media; <span class="codeph"> apenas textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -59,7 +60,7 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
    <td> <p>Pode aparecer somente em <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \green  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \verde  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de cor verde. </p> </td> 
    <td> <p>Pode aparecer somente em <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
@@ -69,48 +70,48 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
    <td> <p>Pode aparecer somente em <span class="codeph"> \colortbl </span>; 0...255 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \ciano  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de cor ciano. </p> </td> 
-   <td> <p>extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de cor magenta. </p> </td> 
-   <td> <p>extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \amarelo  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de cor amarela. </p> </td> 
-   <td> <p>extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Componente de cor preta. </p> </td> 
-   <td> <p>extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extensão Dynamic Media; pode aparecer somente em <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \marginal  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \margin  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Margem esquerda. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margr  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Margem direita. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margt  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \margin  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Margem superior. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \margb  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \margin  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Margem inferior. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> apenas </p> </td> 
+   <td> <p>Twips; <span class="codeph"> apenas textPs= </span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \vertalt  </span> </td> 
-   <td> <p>Alinha o texto acima na caixa de texto. </p> </td> 
+   <td> <p>Alinha o texto na caixa de texto. </p> </td> 
    <td> <p>Padrão </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
   <tr> 
    <td> <span class="codeph"> \stextflow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Orientação do fluxo de texto. </p> </td> 
-   <td> <p>Fluxo de texto específico da língua; <span class="codeph"> textPs= </span> apenas 0 (padrão) esquerda-direita, superior-inferior (europeu) 1 cima-inferior, direita-esquerda (Far Oriental) </p> </td> 
+   <td> <p>Fluxo de texto específico da língua; <span class="codeph"> textPs= </span> somente 0 (padrão) esquerda-direita, parte superior-inferior (Europeu) 1 parte superior-inferior, direita-esquerda (Extremo leste) </p> </td> 
   </tr> 
  </tbody> 
 </table>
