@@ -1,15 +1,16 @@
 ---
-description: Carregue a configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Descompactar).
-seo-description: Carregue a configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Descompactar).
+description: Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
+seo-description: Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
 seo-title: DescompactarOpções
 solution: Experience Manager
 title: DescompactarOpções
-topic: Dynamic Media Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # DescompactarOpções{#uncompressoptions}
 
-Carregue a configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Descompactar).
+Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
 
 >[!NOTE]
 >
@@ -39,9 +40,9 @@ Carregue a configuração para processar arquivos ZIP e TAR como ativos primári
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controla o processamento de arquivos ZIP e TAR. Fornece 2 opções: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> Processar como ativos principais. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> Extrair e processar conteúdo. </li>
-     </ul><p>Observação: As constantes de string fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> UnCompress</span>, não <span class="codeph"> uncompress</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> processar como ativos principais. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> extrair e processar conteúdo. </li>
+     </ul><p>Observação: As constantes de cadeia de caracteres fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> Descompacte</span>, não <span class="codeph"> descompacte</span> ou <span class="codeph"> descompacte</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
