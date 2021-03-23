@@ -4,12 +4,13 @@ seo-description: Os campos de catálogo usam esses padrões.
 seo-title: Padrões para campos de catálogo
 solution: Experience Manager
 title: Padrões para campos de catálogo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8902766c-c2d9-433a-9c49-3182b063269f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Os campos de catálogo usam esses padrões.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba" type="reference" format="dita" scope="local"> DigimarcInfo</a></span> </p> </td> 
-   <td colname="col2"> <p>Informações de imagem Digimarc padrão. </p> </td> 
+   <td colname="col2"> <p>Informações padrão da imagem Digimarc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Expiração</a></span> </p> </td> 
@@ -47,7 +48,7 @@ Os campos de catálogo usam esses padrões.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
-   <td colname="col2"> <p>Carimbo de hora de modificação de imagem padrão. </p> </td> 
+   <td colname="col2"> <p>Carimbo de data e hora padrão da modificação da imagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
