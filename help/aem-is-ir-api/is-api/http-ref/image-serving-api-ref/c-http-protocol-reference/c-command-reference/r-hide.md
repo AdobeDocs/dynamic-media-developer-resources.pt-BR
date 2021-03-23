@@ -1,23 +1,24 @@
 ---
-description: Ocultar camada. Permite ocultar uma camada sem removê-la da string de solicitação.
-seo-description: Ocultar camada. Permite ocultar uma camada sem removê-la da string de solicitação.
-seo-title: hide
+description: Ocultar camada. Permite ocultar uma camada sem removê-la da cadeia de caracteres de solicitação.
+seo-description: Ocultar camada. Permite ocultar uma camada sem removê-la da cadeia de caracteres de solicitação.
+seo-title: ocultar
 solution: Experience Manager
-title: hide
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ocultar
 uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
 
-# hide{#hide}
+# ocultar{#hide}
 
-Ocultar camada. Permite ocultar uma camada sem removê-la da string de solicitação.
+Ocultar camada. Permite ocultar uma camada sem removê-la da cadeia de caracteres de solicitação.
 
 `hide=0|1`
 
