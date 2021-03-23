@@ -4,12 +4,13 @@ seo-description: Tamanho Jpeg em KiloBytes. Especifica o tamanho máximo da resp
 seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -19,24 +20,24 @@ ht-degree: 0%
 
 Tamanho Jpeg em KiloBytes. Especifica o tamanho máximo da resposta JPEG em kilobytes.
 
-`jpegSize= *`tamanho`*`
+`jpegSize= *`size`*`
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> tamanho</span></span> </p> </td> 
-  <td class="stentry"> <p>Tamanho em quilobytes. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span></span> </p> </td> 
+  <td class="stentry"> <p>Tamanho em kilobytes. </p></td> 
  </tr> 
 </table>
 
-Se esse valor for definido como positivo e a resposta JPEG com a qualidade JPEG especificada não exceder esse valor, essa imagem será retornada como resposta. Caso contrário, a qualidade de JPEG diminui até que produza uma imagem que se ajuste ao tamanho especificado ou até que ela determine que não se ajusta. No último caso, a solicitação falha com um erro.
+Se isso for definido como um valor positivo e se a resposta JPEG com a qualidade JPEG especificada não exceder esse valor, essa imagem será retornada como resposta. Caso contrário, a qualidade do JPEG diminui até que ele produza uma imagem que se ajuste ao tamanho especificado ou até que determine que não é possível ajustar. No último caso, a solicitação falha com um erro.
 
-Um valor de 0 significa que a resposta não é limitada pelo tamanho.
+Um valor de 0 significa que a resposta não está restrita por tamanho.
 
 Valores negativos não são permitidos.
 
 ## Propriedades {#section-19e544e77d35478b98fe8666f27d6968}
 
-Atributo de solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se o formato de imagem de saída não for JPEG.
+Atributo da solicitação. Aplica-se independentemente da configuração de camada atual. Ignorado se o formato de imagem de saída não for JPEG.
 
 ## Padrão {#section-198b798ed187453197e0969c641d6fb5}
 
@@ -44,7 +45,7 @@ Atributo de solicitação. Aplica-se independentemente da configuração de cama
 
 ## Exemplo {#section-46bf806fd3ef4875b7726df32b6f834d}
 
-O tamanho da garantia não é muito grande para ser entregue a um dispositivo com memória limitada:
+O tamanho da garantia não é muito grande para ser fornecido a um dispositivo com memória limitada:
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300&jpegSize=10`
 
