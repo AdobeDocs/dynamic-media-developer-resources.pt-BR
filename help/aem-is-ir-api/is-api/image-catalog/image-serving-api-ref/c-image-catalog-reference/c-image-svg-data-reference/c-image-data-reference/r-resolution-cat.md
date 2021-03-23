@@ -4,12 +4,13 @@ seo-description: Resolução do objeto. Resolução do objeto para a imagem em t
 seo-title: Resolução
 solution: Experience Manager
 title: Resolução
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: caa199c8-d216-47b0-9eb6-fdff7124087c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '90'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 Resolução do objeto. Resolução do objeto para a imagem em tamanho real.
 
-Usado para dimensionamento com base em resolução usando o comando `res=`.
+Usado para dimensionamento baseado em resolução usando o comando `res=`.
 
 ## Propriedades {#section-861a86da50364e2181d62778338359ea}
 
