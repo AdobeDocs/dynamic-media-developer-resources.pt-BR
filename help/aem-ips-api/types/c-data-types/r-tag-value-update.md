@@ -1,15 +1,16 @@
 ---
-description: Define valores de campo de tag antigos e novos.
-seo-description: Define valores de campo de tag antigos e novos.
+description: Define valores de campo de tag novos e antigos.
+seo-description: Define valores de campo de tag novos e antigos.
 seo-title: TagValueUpdate
 solution: Experience Manager
 title: TagValueUpdate
-topic: Dynamic Media Image Production System API
 uuid: bcca6664-0406-4238-96cd-726a192c2d21
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # TagValueUpdate{#tagvalueupdate}
 
-Define valores de campo de tag antigos e novos.
+Define valores de campo de tag novos e antigos.
 
 Sintaxe
 
@@ -25,6 +26,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`oldValue`*` | `xsd:string` | Valor do campo de tag original. |
-| `*`newValue`*` | `xsd:string` | Novo valor do campo de tag. |
+| `*`oldValue`*` | `xsd:string` | Valor original do campo de tag. |
+| `*`newValue`*` | `xsd:string` | Novo valor do campo de tag . |
 
