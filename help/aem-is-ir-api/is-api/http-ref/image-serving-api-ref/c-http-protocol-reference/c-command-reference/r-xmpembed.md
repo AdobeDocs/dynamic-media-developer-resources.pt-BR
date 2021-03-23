@@ -1,15 +1,16 @@
 ---
-description: Incorporar metadados XMP. Especifica se os metadados XMP devem ser incluídos na imagem de resposta.
-seo-description: Incorporar metadados XMP. Especifica se os metadados XMP devem ser incluídos na imagem de resposta.
+description: Incorporar metadados de XMP. Especifica se XMP metadados devem ser incluídos na imagem de resposta.
+seo-description: Incorporar metadados de XMP. Especifica se XMP metadados devem ser incluídos na imagem de resposta.
 seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # xmpEmbed{#xmpembed}
 
-Incorporar metadados XMP. Especifica se os metadados XMP devem ser incluídos na imagem de resposta.
+Incorporar metadados de XMP. Especifica se XMP metadados devem ser incluídos na imagem de resposta.
 
 `xmpEmbed=0|1`
 
@@ -27,9 +28,9 @@ Incorporar metadados XMP. Especifica se os metadados XMP devem ser incluídos na
 
 ## Propriedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Atributo de solicitação. Ignorado se a imagem de origem não contiver dados XMP. Somente dados XMP da imagem de origem de `layer=0` são processados. XMP dados de outras imagens de camada são ignorados.
+Atributo da solicitação. Ignorado se a imagem de origem não contiver dados XMP. Somente dados XMP da imagem de origem de `layer=0` são processados. XMP dados de outras imagens de camada são ignorados.
 
-Ignorado se o formato de imagem de saída não suportar XMP incorporação. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída compatíveis com a incorporação XMP.
+Ignorado se o formato de imagem de saída não oferecer suporte à incorporação XMP. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação de XMP.
 
 ## Padrão {#section-aedbedd04d664ba184b2cfe35644b960}
 
