@@ -1,15 +1,16 @@
 ---
-description: Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
-seo-description: Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
+description: Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
+seo-description: Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8af89b67-39d5-43e5-a58d-2cd509a1e373
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # cache{#cache}
 
-Controle de cache. Permite desativar seletivamente o cache do lado do cliente (navegador, servidores proxy, sistemas de cache de rede) e o cache no cache interno do Servidor de plataforma.
+Controle de cache. Permite desativar seletivamente o armazenamento em cache no lado do cliente (navegador, servidores proxy, sistemas de armazenamento em cache de rede) e o armazenamento em cache no cache interno do Servidor de Plataforma.
 
 `cache= *`cacheControl`*`
 
@@ -40,13 +41,13 @@ Controle de cache. Permite desativar seletivamente o cache do lado do cliente (n
 
 Se apenas um valor *`cacheControl`* for especificado, ele será aplicado aos caches do cliente e do servidor.
 
-A palavra-chave &#39; `validate`&#39; permite a atualização das entradas do cache do servidor depois que os arquivos de textura ou vinheta forem alterados, sem precisar aguardar a entrada do cache expirar automaticamente. O cache do cliente não é afetado por este comando.
+A palavra-chave &#39; `validate`&#39; permite a atualização das entradas de cache do servidor após a alteração dos arquivos de textura ou vinheta, sem precisar aguardar a expiração automática da entrada de cache. O armazenamento em cache do cliente não é afetado por este comando.
 
-Se especificado em uma solicitação aninhada, `cache=on` habilita o armazenamento em cache persistente no lado do servidor da imagem gerada pela solicitação aninhada. Deve-se ter cuidado para ativar o armazenamento em cache para solicitações aninhadas somente quando se espera que a mesma solicitação aninhada seja chamada repetidamente com exatamente os mesmos parâmetros.
+Se especificado em uma solicitação aninhada, `cache=on` habilita o armazenamento em cache persistente no lado do servidor da imagem gerada pela solicitação aninhada. Deve-se tomar cuidado para permitir o armazenamento em cache de solicitações aninhadas somente quando se espera que a mesma solicitação aninhada seja chamada repetidamente com exatamente os mesmos parâmetros.
 
 ## Propriedades {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-Pode ocorrer em qualquer lugar na solicitação. Ignorado quando a solicitação não retorna uma imagem de resposta. *`clientControl`* é ignorada quando o cache do lado do cliente é desativado pelo catálogo de materiais (se  `attribute::Expiration` tiver um valor negativo). *`serverControl`* é ignorada se o armazenamento em cache do servidor estiver desativado (  `PlatformServer::cache.enable`).
+Pode ocorrer em qualquer lugar na solicitação. Ignorado quando a solicitação não retorna uma imagem de resposta. *`clientControl`* é ignorado quando o armazenamento em cache do lado do cliente é desativado pelo catálogo de materiais (se  `attribute::Expiration` tiver um valor negativo). *`serverControl`* é ignorado se o armazenamento em cache do servidor estiver desativado (  `PlatformServer::cache.enable`).
 
 ## Padrão {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 
