@@ -1,22 +1,23 @@
 ---
-description: Um alerta de prioridade é enviado quando o espaço livre do Java heap está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo Java.
-seo-description: Um alerta de prioridade é enviado quando o espaço livre do Java heap está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo Java.
-seo-title: Alerta de prioridade do espaço de pilha
+description: Um alerta de prioridade é enviado quando o espaço livre de heap do Java está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo do Java.
+seo-description: Um alerta de prioridade é enviado quando o espaço livre de heap do Java está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo do Java.
+seo-title: Alerta de prioridade de espaço de heap
 solution: Experience Manager
-title: Alerta de prioridade do espaço de pilha
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Alerta de prioridade de espaço de heap
 uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 
-# Alerta de prioridade do espaço de pilha{#heap-space-priority-alert}
+# Alerta de prioridade de espaço de heap{#heap-space-priority-alert}
 
-Um alerta de prioridade é enviado quando o espaço livre do Java heap está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo Java.
+Um alerta de prioridade é enviado quando o espaço livre de heap do Java está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo do Java.
 
-Alertas repetidos devem ser abordados aumentando o espaço do heap do Java. As ocorrências subsequentes desta condição não resultam em um alerta de email até que o período de atraso especificado com `AS::monitorAlertGenerator.heapSpaceResetInterval` tenha expirado.
+Alertas repetidos devem ser abordados com o aumento do espaço de heap do Java. As ocorrências subsequentes dessa condição não resultam em um alerta por email até que o período de atraso especificado com `AS::monitorAlertGenerator.heapSpaceResetInterval` tenha expirado.
