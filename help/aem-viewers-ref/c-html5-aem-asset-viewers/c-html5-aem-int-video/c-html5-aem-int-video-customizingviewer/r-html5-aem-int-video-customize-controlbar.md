@@ -1,15 +1,16 @@
 ---
-description: A barra de controle é a área retangular que contém e fica atrás de todos os controles de interface disponíveis para o visualizador de vídeo, como o botão reproduzir/pausar, controles de volume e assim por diante.
-seo-description: A barra de controle é a área retangular que contém e fica atrás de todos os controles de interface disponíveis para o visualizador de vídeo, como o botão reproduzir/pausar, controles de volume e assim por diante.
+description: A barra de controle é a área retangular que contém e fica atrás de todos os controles da interface do usuário disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar, controles de volume e assim por diante.
+seo-description: A barra de controle é a área retangular que contém e fica atrás de todos os controles da interface do usuário disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar, controles de volume e assim por diante.
 seo-title: Barra de controle
 solution: Experience Manager
 title: Barra de controle
-topic: Dynamic Media
 uuid: 1fa90f7d-6b26-499d-8e6c-1cd80405aec0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Barra de controle{#control-bar}
 
-A barra de controle é a área retangular que contém e fica atrás de todos os controles de interface disponíveis para o visualizador de vídeo, como o botão reproduzir/pausar, controles de volume e assim por diante.
+A barra de controle é a área retangular que contém e fica atrás de todos os controles da interface do usuário disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar, controles de volume e assim por diante.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-A barra de controle sempre obtém a largura total do visualizador disponível. É possível alterar sua cor, altura e posição vertical por CSS, em relação ao container do visualizador de vídeo.
+A barra de controle sempre obtém a largura total do visualizador disponível. É possível alterar a cor, a altura e a posição vertical por CSS, em relação ao contêiner do visualizador de vídeo.
 
-O seletor de classe CSS a seguir controla a aparência da barra de controle:
+O seguinte seletor de classe CSS controla a aparência da barra de controle:
 
 ```
 .s7interactivevideoviewer .s7controlbar
@@ -35,18 +36,18 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p> Posição a partir da borda inferior, incluindo preenchimento. </p> </td> 
+   <td colname="col2"> <p> Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 
@@ -54,7 +55,7 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um visualizador de vídeo com uma barra de controle cinza de 30 pixels de altura e na parte superior do container do visualizador de vídeo.
+Para configurar um visualizador de vídeo com uma barra de controle cinza com 30 pixels de altura e que fica na parte superior do contêiner do visualizador de vídeo.
 
 ```
 .s7interactivevideoviewer .s7controlbar {  
