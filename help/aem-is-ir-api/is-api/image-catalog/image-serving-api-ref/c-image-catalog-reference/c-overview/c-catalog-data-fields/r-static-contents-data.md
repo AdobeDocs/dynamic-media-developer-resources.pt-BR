@@ -1,36 +1,37 @@
 ---
-description: Os campos a seguir são compatíveis com catálogos de conteúdo estáticos (não imagens).
-seo-description: Os campos a seguir são compatíveis com catálogos de conteúdo estáticos (não imagens).
+description: Os seguintes campos são compatíveis com catálogos de conteúdo estático (não imagens).
+seo-description: Os seguintes campos são compatíveis com catálogos de conteúdo estático (não imagens).
 seo-title: Dados de conteúdo estático
 solution: Experience Manager
 title: Dados de conteúdo estático
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a890ffef-55b2-4880-afa5-ced8598642d1
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 
-# Dados de conteúdo estático{#static-contents-data}
+# Dados do conteúdo estático{#static-contents-data}
 
-Os campos a seguir são compatíveis com catálogos de conteúdo estáticos (não imagens).
+Os seguintes campos são compatíveis com catálogos de conteúdo estático (não imagens).
 
 <table id="simpletable_D1DEF6268BA744AD804B9BA3D9AEE800"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> Id</a></span> </p></td> 
-  <td class="stentry"> <p>Identificador de registro do catálogo (chave de índice). </p></td> 
+  <td class="stentry"> <p>Identificador de registro de catálogo (chave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Expiração</a> </span> </p></td> 
-  <td class="stentry"> <p>Expiração (tempo de vida) para respostas HTTP. </p></td> 
+  <td class="stentry"> <p>Expiração (tempo de vida útil) para respostas HTTP. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p></td> 
-  <td class="stentry"> <p>Carimbo de data e hora de modificação do arquivo. </p></td> 
+  <td class="stentry"> <p>Carimbo de data e hora da modificação do arquivo. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md" type="reference" format="dita" scope="local"> UserType</a></span> </p></td> 
