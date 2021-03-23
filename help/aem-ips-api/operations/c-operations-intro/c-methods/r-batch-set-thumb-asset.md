@@ -4,12 +4,13 @@ seo-description: Define a imagem em miniatura de um ou mais ativos.
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Sintaxe
 
 ## Tipos de ativos miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-Os tipos de ativos em miniatura permitidos consistem no seguinte:
+Os tipos de ativos de miniatura permitidos consistem no seguinte:
 
 * Imagem
 * AjustedView
@@ -42,7 +43,7 @@ Os tipos de ativos em miniatura permitidos consistem no seguinte:
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura/gravação ao ativo do público alvo e acesso de leitura ao ativo de thumb.
+>O usuário deve ter acesso de leitura/gravação ao ativo de destino e acesso de leitura ao ativo em miniatura.
 
 ## Parâmetros {#section-9c6efa000b384b3db6c013def20cf40b}
 
