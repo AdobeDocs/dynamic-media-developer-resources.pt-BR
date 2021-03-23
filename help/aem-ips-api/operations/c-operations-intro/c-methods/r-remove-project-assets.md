@@ -4,12 +4,13 @@ seo-description: Remove ativos de um projeto. Não destrói os ativos.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -35,9 +36,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com os ativos que você deseja mover. |
-| `*`projectHandle`*` | `xsd:string` | Sim | O identificador dos ativos do projeto que você deseja mover. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja mover. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O controle da empresa com os ativos que deseja mover. |
+| `*`projectHandle`*` | `xsd:string` | Sim | O identificador dos ativos do projeto que deseja mover. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de ativos que você deseja mover. |
 
 **Saída (removeProjectAssetsReturn)**
 
