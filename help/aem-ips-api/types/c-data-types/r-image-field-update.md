@@ -4,12 +4,13 @@ seo-description: Atualiza o campo de imagem associado a um ativo de imagem.
 seo-title: ImageFieldUpdate
 solution: Experience Manager
 title: ImageFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -25,9 +26,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Identificador de ativos. |
-| `*`resolução`*` | `xsd:double` | Resolução da imagem em pixels por polegada. |
+| `*`assetHandle`*` | `xsd:string` | Identificador de ativo. |
+| `*`resolution`*` | `xsd:double` | Resolução da imagem em pixels por polegada. |
 | `*`anchorX`*` | `xsd:int` | Âncora de imagem do eixo X. |
-| `*`anchorY`*` | `xsd:int` | Âncora de imagem do eixo Y. |
+| `*`âncoraY`*` | `xsd:int` | Âncora de imagem do eixo Y. |
 | `*`userData`*` | `xsd:string` | Valor do campo de metadados `userData`, que é publicado no campo de catálogo de dados do usuário que serve a imagem. |
 
