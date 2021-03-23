@@ -4,12 +4,13 @@ seo-description: Pausa um trabalho ativo.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-topic: Dynamic Media Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -38,12 +39,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
 | `*`jobHandle`*` | `xsd:string` | Sim | Manipule o trabalho que deseja pausar. |
 
 **Saída (PauseJobReturn)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-ee4914f9496f4bd88556728a48fb22c1}
 
