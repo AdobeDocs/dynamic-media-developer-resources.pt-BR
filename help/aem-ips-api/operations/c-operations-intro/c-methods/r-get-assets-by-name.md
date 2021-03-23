@@ -4,12 +4,13 @@ seo-description: Retorna ativos com base em uma matriz de nomes de ativos.
 seo-title: getAssetsByName
 solution: Experience Manager
 title: getAssetsByName
-topic: Dynamic Media Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Sintaxe
 
 >[!NOTE]
 >
->Somente retorna ativos aos quais o usuário tem acesso de leitura.
+>Retorna somente ativos aos quais o usuário tem acesso de leitura.
 
 ## Parâmetros {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
@@ -54,13 +55,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> A alça da empresa. </td> 
+   <td colname="col4"> O nome da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Fornece acesso como outro usuário. Disponível somente para administradores. </td> 
+   <td colname="col4"> Fornece acesso como outro usuário. Disponível somente para administradores do . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
@@ -94,9 +95,9 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> hardSubTypeCheck</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiverem vazios, apenas os ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> serão devolvidos. </p> <p>Se <span class="codeph"> false</span>, ativos sem subtipo definido serão incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiverem vazias, somente os ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> serão retornados. </p> <p>Se <span class="codeph"> false</span>, os ativos sem subtipo definido serão incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -117,11 +118,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtragem. |
+| `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtro. |
 
 ## Exemplos {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-Essa amostra de código retorna dois ativos de tipo de imagem.
+Essa amostra de código retorna dois ativos do tipo imagem.
 
 **Solicitação**
 
