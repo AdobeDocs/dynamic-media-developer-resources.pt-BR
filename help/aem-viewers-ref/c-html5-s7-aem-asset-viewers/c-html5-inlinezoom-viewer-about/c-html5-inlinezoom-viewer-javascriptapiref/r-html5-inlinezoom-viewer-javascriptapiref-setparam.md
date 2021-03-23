@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para Visualizador de zoom incorporado.
-seo-description: Referência da API JavaScript para Visualizador de zoom incorporado.
+description: Referência da API do JavaScript para o Visualizador de Zoom em Linha.
+seo-description: Referência da API do JavaScript para o Visualizador de Zoom em Linha.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 7bccf2c0-9f9a-47ac-8b53-385989e8267c
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API JavaScript para Visualizador de zoom incorporado.
+Referência da API do JavaScript para o Visualizador de Zoom em Linha.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`. Esse método é opcional se as informações de configuração do visualizador forem passadas com o objeto `config` JSON para o construtor.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Esse parâmetro é chamado antes de `init()`. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
