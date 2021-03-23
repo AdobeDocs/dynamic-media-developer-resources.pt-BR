@@ -4,12 +4,13 @@ seo-description: Limite de tamanho da imagem de resposta. Largura e altura máxi
 seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Limite de tamanho da imagem de resposta. Largura e altura máximas da imagem de resposta que podem ser retornadas ao cliente.
 
-O servidor retornará um erro se uma solicitação causar uma imagem de resposta cuja largura e/ou altura seja maior que `attribute::MaxSize`.
+O servidor retornará um erro se uma solicitação causar uma imagem de resposta cuja largura e/ou altura for maior que `attribute::MaxSize`.
 
 ## Propriedades {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
-Dois números inteiros, maiores que 0, separados por uma vírgula. Largura e altura em pixels. Também pode ser definido como 0,0 para permitir qualquer tamanho de imagem de resposta sem limitações.
+Dois números inteiros, maiores que 0, separados por vírgula. Largura e altura em pixels. Também pode ser definido como 0,0 para permitir qualquer tamanho de imagem de resposta sem limitações.
 
 ## Padrão {#section-45b38dc661854d11b97df5709f4f3434}
 
