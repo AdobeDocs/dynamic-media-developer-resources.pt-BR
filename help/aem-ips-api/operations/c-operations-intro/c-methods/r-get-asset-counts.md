@@ -1,21 +1,22 @@
 ---
 description: Obtém os ativos e o número de ativos associados a uma empresa específica.
 seo-description: Obtém os ativos e o número de ativos associados a uma empresa específica.
-seo-title: getAssetCount
+seo-title: getAssetCounts
 solution: Experience Manager
-title: getAssetCount
-topic: Dynamic Media Image Production System API
+title: getAssetCounts
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
 
-# getAssetCount{#getassetcounts}
+# getAssetCounts{#getassetcounts}
 
 Obtém os ativos e o número de ativos associados a uma empresa específica.
 
@@ -42,7 +43,7 @@ Sintaxe
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com ativos que você deseja contar. |
 
-**Saída (getAssetCountReturn)**
+**Saída (getAssetCountsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
@@ -50,7 +51,7 @@ Sintaxe
 
 ## Exemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Esta amostra de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado para o servidor de serviços Web IPS para obter as contagens de ativos.
+Este exemplo de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado ao servidor de serviços Web IPS para obter as contagens de ativos.
 
 **Solicitação**
 
