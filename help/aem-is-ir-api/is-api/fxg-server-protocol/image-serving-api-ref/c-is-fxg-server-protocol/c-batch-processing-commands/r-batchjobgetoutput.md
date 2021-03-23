@@ -1,15 +1,16 @@
 ---
-description: Recuperar a saída de uma tarefa submetida.
-seo-description: Recuperar a saída de uma tarefa submetida.
+description: Recupere a saída de um trabalho enviado.
+seo-description: Recupere a saída de um trabalho enviado.
 seo-title: batchjobgetoutput
 solution: Experience Manager
 title: batchjobgetoutput
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c2d49cc2-3223-4f0f-8ba7-4f74a5f76789
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # batchjobgetoutput{#batchjobgetoutput}
 
-Recuperar a saída de uma tarefa submetida.
+Recupere a saída de um trabalho enviado.
 
 Este parâmetro:
 
@@ -30,7 +31,7 @@ Este parâmetro:
 
 Retorna:
 
-A saída PDF da tarefa é transmitida em sequência; erro se `jobid` for inválido ou se o trabalho tiver sido excluído.
+A saída em PDF da tarefa é transmitida em resposta; erro se `jobid` for inválido ou se o trabalho tiver sido excluído.
 
 ## Exemplo {#section-0319e615fa254132a9dab59351b4c252}
 
