@@ -1,15 +1,16 @@
 ---
-description: Restaura ativos do lixo.
-seo-description: Restaura ativos do lixo.
+description: Restaura ativos da lixeira.
+seo-description: Restaura ativos da lixeira.
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-Restaura ativos do lixo.
+Restaura ativos da lixeira.
 
 Sintaxe
 
@@ -36,8 +37,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador de uma empresa com os ativos que você deseja restaurar. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja restaurar. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O controle de uma empresa com os ativos que você deseja restaurar. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de manipuladores para os ativos que você deseja restaurar. |
 
 **Saída (restoreAssetsFromTrashReturn)**
 
@@ -51,7 +52,7 @@ Sintaxe
 
 ## Exemplos {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Esta amostra de código restaura ativos do lixo. A resposta indica que a operação foi concluída com êxito.
+Essa amostra de código restaura ativos da lixeira. A resposta indica que a operação foi concluída com êxito.
 
 **Solicitação**
 
