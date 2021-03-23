@@ -1,15 +1,16 @@
 ---
-description: O player de vídeo é a área retangular na qual o conteúdo do vídeo é exibido no visualizador.
-seo-description: O player de vídeo é a área retangular na qual o conteúdo do vídeo é exibido no visualizador.
+description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
+seo-description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 seo-title: Reprodutor de vídeo
 solution: Experience Manager
 title: Reprodutor de vídeo
-topic: Dynamic Media
 uuid: 2748c3d3-b974-4e54-8218-a2ec9e31a668
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -17,32 +18,32 @@ ht-degree: 0%
 
 # Reprodutor de vídeo{#video-player}
 
-O player de vídeo é a área retangular na qual o conteúdo do vídeo é exibido no visualizador.
+O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Se as dimensões do vídeo que está sendo reproduzido não corresponderem às dimensões do player de vídeo, o conteúdo do vídeo será centralizado na área de exibição do retângulo do player de vídeo.
+Se as dimensões do vídeo que está sendo reproduzido não corresponderem às dimensões do reprodutor de vídeo, o conteúdo do vídeo será centralizado na área de exibição do retângulo do reprodutor de vídeo.
 
-O seletor de classe CSS a seguir controla a aparência do player de vídeo:
+O seguinte seletor de classe CSS controla a aparência do reprodutor de vídeo:
 
 ```
 .s7videoviewer .s7videoplayer
 ```
 
-**Propriedades de CSS do player de vídeo**
+**Propriedades CSS do reprodutor de vídeo**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Cor do plano de fundo da visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p>Cor do plano de fundo da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-A mensagem de erro que é exibida se o sistema não for capaz de reproduzir o vídeo pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A mensagem de erro que é exibida se o sistema não for capaz de reproduzir o vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - Para configurar um visualizador de vídeo com o tamanho do player de vídeo definido como 512 x 288 pixels.
+Exemplo - Para configurar um visualizador de vídeo com o tamanho do reprodutor de vídeo definido como 512 x 288 pixels.
 
 ```
 .s7videoviewer .s7videoplayer{ 
@@ -50,38 +51,38 @@ background-color: transparent;
 }
 ```
 
-As legendas ocultas são colocadas em um container interno dentro do player de vídeo. A posição desse container é controlada pelos operadores de posicionamento WebVTT suportados. O próprio texto da legenda está dentro desse container e seu estilo é controlado com o seguinte seletor de classe CSS:
+As legendas ocultas são colocadas em um contêiner interno no reprodutor de vídeo. A posição desse contêiner é controlada por operadores de posicionamento WebVTT compatíveis. O texto da legenda em si está dentro desse contêiner e seu estilo é controlado com o seguinte seletor de classe CSS:
 
 `. s7videoviewer .s7 videoplayer .s7caption`
 
-**Propriedades de CSS de legendas ocultas**
+**Propriedades CSS de legendas ocultas**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do texto da legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
-   <td colname="col2"> <p>Fechar a cor do texto da legenda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p>Fechar cor do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-peso  </span> </p> </td> 
-   <td colname="col2"> <p> Peso de fonte de legenda fechada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p> Peso da fonte da legenda fechada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Tamanho da fonte da legenda fechada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col2"> <p> Tamanho da fonte da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
-   <td colname="col2"> <p>Fonte da legenda fechada. </p> </td> 
+   <td colname="col2"> <p>Fonte da legenda oculta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - Para configurar o texto da legenda para 14 pixels, cinza claro, Arial, em um plano de fundo preto semitransparente:
+Exemplo - Para configurar o texto da legenda fechada para ter 14 pixels, cinza claro, Arial, em um plano de fundo preto semitransparente:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -119,20 +120,20 @@ A aparência da animação de buffering é controlada com o seguinte seletor de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
-   <td colname="col2"> <p> Margem esquerda do ícone Animação, normalmente menos metade da largura do ícone. </p> </td> 
+   <td colname="col2"> <p> Ícone de animação margem esquerda, normalmente menos metade da largura do ícone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
-   <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
+   <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos a metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> Nódulo de arte. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> Arte do botão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma animação de buffering para ter 101 pixels de largura, 29 pixels de altura:
+Exemplo - para configurar uma animação de buffer de 101 pixels de largura, 29 pixels de altura:
 
 ```
 .s7videoviewer .s7videoplayer .s7waiticon { 
