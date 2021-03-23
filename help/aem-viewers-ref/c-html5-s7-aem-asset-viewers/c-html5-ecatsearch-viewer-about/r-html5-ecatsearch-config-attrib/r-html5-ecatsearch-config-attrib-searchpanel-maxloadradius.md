@@ -2,12 +2,13 @@
 description: SearchPanel.maxloadradius
 solution: Experience Manager
 title: SearchPanel.maxloadradius
-topic: Dynamic Media
 uuid: 37d58c88-3d45-44d9-9f2c-d616d1077906
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo muda. </p> <p> Quando definido como <span class="codeph"> 0</span> apenas miniaturas visíveis são carregadas. </p> <p>Defina <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantas linhas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
+   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p> Quando definido como <span class="codeph"> 0</span>, somente as miniaturas visíveis são carregadas. </p> <p>Defina <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantas linhas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
