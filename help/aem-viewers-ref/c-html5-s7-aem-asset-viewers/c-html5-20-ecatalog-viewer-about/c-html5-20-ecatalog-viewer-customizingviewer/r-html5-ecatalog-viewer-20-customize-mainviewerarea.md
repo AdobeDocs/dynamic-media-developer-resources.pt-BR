@@ -1,15 +1,16 @@
 ---
-description: A área de visualização principal é a área ocupada pela imagem do catálogo. Geralmente, ele é definido para ajustar a tela do dispositivo disponível quando nenhum tamanho é especificado.
-seo-description: A área de visualização principal é a área ocupada pela imagem do catálogo. Geralmente, ele é definido para ajustar a tela do dispositivo disponível quando nenhum tamanho é especificado.
+description: A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+seo-description: A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 seo-title: Área do visualizador principal
 solution: Experience Manager
 title: Área do visualizador principal
-topic: Dynamic Media
 uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Área do visualizador principal{#main-viewer-area}
 
-A área de visualização principal é a área ocupada pela imagem do catálogo. Geralmente, ele é definido para ajustar a tela do dispositivo disponível quando nenhum tamanho é especificado.
+A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da área do visualizador principal**
+**Propriedades CSS da área principal do visualizador**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -46,13 +47,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador com um fundo branco ( `#FFFFFF`) e tornar seu tamanho 512 x 288 pixels.
+Exemplo - para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e tornar seu tamanho 512 x 288 pixels.
 
 ```
 .s7ecatalogviewer { 
