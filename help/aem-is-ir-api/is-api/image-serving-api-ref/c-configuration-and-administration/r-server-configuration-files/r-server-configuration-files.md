@@ -1,12 +1,13 @@
 ---
-description: Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
+description: Todos os arquivos de configuração estão localizados em install_folder/conf e podem ser editados com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
 solution: Experience Manager
 title: Arquivos de configuração do servidor
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -14,11 +15,11 @@ ht-degree: 0%
 
 # Arquivos de configuração do servidor{#server-configuration-files}
 
-Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
+Todos os arquivos de configuração estão localizados em install_folder/conf e podem ser editados com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam especificamente instruídas pelo suporte técnico da Dynamic Media.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam instruídas especificamente pelo suporte técnico da Dynamic Media.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 
@@ -32,7 +33,7 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>Configuração do Supervisor de Servidor. </p> </td> 
+   <td> <p>Configuração do Supervisor do Servidor. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -40,21 +41,21 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
-   <td> <p>Configuração do servidor da plataforma. </p> </td> 
+   <td> <p>Configuração do Platform Server. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="filepath"> Catalog-service.conf</span> </p> </td> 
+   <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
    <td> <p>Configuração do Serviço de Catálogo. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> monitor.conf</span> </p> </td> 
-   <td> <p>Configuração do Monitoramento do Servidor. </p> </td> 
+   <td> <p>Configuração de monitoramento do servidor. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
-   <td> <p>Configuração do servidor de imagens. </p> </td> 
+   <td> <p>Configuração do Servidor de imagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Os arquivos de configuração serão discutidos com mais detalhes posteriormente neste documento.
+Os arquivos de configuração são discutidos com mais detalhes posteriormente neste documento.
