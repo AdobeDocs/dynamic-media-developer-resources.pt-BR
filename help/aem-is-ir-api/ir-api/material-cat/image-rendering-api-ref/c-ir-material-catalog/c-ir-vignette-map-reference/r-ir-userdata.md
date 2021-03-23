@@ -4,12 +4,13 @@ seo-description: Dados do usuário. O servidor retorna o conteúdo desse campo p
 seo-title: UserData *
 solution: Experience Manager
 title: UserData *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ed4dfc19-8923-4e99-aa07-b6a9fab4eded
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 1%
 
 Dados do usuário. O servidor retorna o conteúdo desse campo para o cliente em resposta a req=userdata.
 
-É possível escapar novas linhas com &#39;??&#39;. O servidor substituirá &#39;??&#39; com `<cr><lf>` antes de retornar o conteúdo deste campo.
+Novas linhas podem ser evitadas com &#39;??&#39;. O servidor substituirá &#39;??&#39; com `<cr><lf>` antes de retornar o conteúdo deste campo.
 
 ## Propriedades {#section-4e3904e047a84cc790ce77c56d3e0b21}
 
-Sequência de caracteres de texto. Opcional.
+Sequência de texto. Opcional.
 
 ## Padrão {#section-a84b821918af41f5b84200f2edffacff}
 
