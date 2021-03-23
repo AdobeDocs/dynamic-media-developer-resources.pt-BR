@@ -1,23 +1,24 @@
 ---
-description: Ocultar objeto de sobreposição. Oculta todos os objetos sobrepostos ou revestimentos de janela aplicados aos quadros de revestimento de janela na seleção atual.
-seo-description: Ocultar objeto de sobreposição. Oculta todos os objetos sobrepostos ou revestimentos de janela aplicados aos quadros de revestimento de janela na seleção atual.
-seo-title: hide
+description: Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou revestimentos de janela aplicados aos quadros de cobertura de janela na seleção atual.
+seo-description: Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou revestimentos de janela aplicados aos quadros de cobertura de janela na seleção atual.
+seo-title: ocultar
 solution: Experience Manager
-title: hide
-topic: Dynamic Media Image Serving - Image Rendering API
+title: ocultar
 uuid: 15c01750-958a-497d-a999-cacf359bb985
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 
-# hide{#hide}
+# ocultar{#hide}
 
-Ocultar objeto de sobreposição. Oculta todos os objetos sobrepostos ou revestimentos de janela aplicados aos quadros de revestimento de janela na seleção atual.
+Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou revestimentos de janela aplicados aos quadros de cobertura de janela na seleção atual.
 
 `hide[= *`val`*]`
 
@@ -30,11 +31,11 @@ Ocultar objeto de sobreposição. Oculta todos os objetos sobrepostos ou revesti
 
 ## Propriedades {#section-2952fa43df0547b187b834c819c517ca}
 
-Aplica-se à seleção de grupo ou objeto atual. Ignorado se a seleção atual não incluir objetos sobrepostos ou quadros de revestimento de janela ou se nenhum objeto sobreposto estiver visível.
+Aplica-se à seleção de grupo ou objeto atual. Ignorado se a seleção atual não incluir objetos de sobreposição ou quadros de cobertura de janela ou se nenhum objeto de sobreposição estiver visível.
 
 ## Padrão {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
-Se não for especificado, a visibilidade atual dos objetos sobrepostos selecionados será mantida.
+Se não for especificado, a visibilidade atual dos objetos de sobreposição selecionados será mantida.
 
 ## Consulte também {#section-72c5e811b45347acacc64c6df85c7ef2}
 
