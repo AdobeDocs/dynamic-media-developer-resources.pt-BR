@@ -1,15 +1,16 @@
 ---
-description: Atualize as informações das propriedades do perfil ICC.
-seo-description: Atualize as informações das propriedades do perfil ICC.
+description: Atualize as informações das propriedades de perfil ICC.
+seo-description: Atualize as informações das propriedades de perfil ICC.
 seo-title: IccProfileFieldUpdate
 solution: Experience Manager
 title: IccProfileFieldUpdate
-topic: Dynamic Media Image Production System API
 uuid: 0a37e7d9-7ed9-4db2-afc7-eaee69f97d9b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
-Atualize as informações das propriedades do perfil ICC.
+Atualize as informações das propriedades de perfil ICC.
 
 Sintaxe
 
@@ -25,8 +26,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Manuseie o ativo do Perfil ICC a ser atualizado. |
-| `*`classe`*` | `xsd:string` | Classes de perfil (consulte &quot;Classes de Perfil&quot; para obter os valores). |
-| `*`colorSpace`*` | `xsd:string` | Espaço de cor do perfil (consulte &quot;Espaços de cores&quot; para obter os valores). |
-| `*`pcsType`*` | `xsd:string` | Espaço de conexão do perfil (consulte &quot;Espaços de cores&quot; para ver os valores). |
+| `*`assetHandle`*` | `xsd:string` | Manipule o ativo de Perfil ICC a ser atualizado. |
+| `*`classe`*` | `xsd:string` | Classes de perfil (consulte &quot;Classes de perfil&quot; para obter valores). |
+| `*`colorSpace`*` | `xsd:string` | Espaço de cores do perfil (consulte &quot;Espaços de cores&quot; para obter valores). |
+| `*`pcsType`*` | `xsd:string` | Espaço de conexão do perfil (consulte &quot;Espaços de cores&quot; para obter valores). |
 
