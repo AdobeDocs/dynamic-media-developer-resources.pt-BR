@@ -1,15 +1,16 @@
 ---
-description: Cor e espessura da argila do bloco. Simula argila para azulejos cerâmicos e naturais.
-seo-description: Cor e espessura da argila do bloco. Simula argila para azulejos cerâmicos e naturais.
-seo-title: argila
+description: Cor e espessura do caldo de mosaico. Simula o caldo para azulejos de pedra cerâmica e natural.
+seo-description: Cor e espessura do caldo de mosaico. Simula o caldo para azulejos de pedra cerâmica e natural.
+seo-title: caldo
 solution: Experience Manager
-title: argila
-topic: Dynamic Media Image Serving - Image Rendering API
+title: caldo
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 0%
 
 # grout{#grout}
 
-Cor e espessura da argila do bloco. Simula argila para azulejos cerâmicos e naturais.
+Cor e espessura do caldo de mosaico. Simula o caldo para azulejos de pedra cerâmica e natural.
 
 grout= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cor  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Cor do grupo (cinza ou RGB). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color  </span> </span> </p> </td> 
+  <td class="stentry"> <p>Cor de grupo (cinza ou RGB). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> largura  </span> </span> </p> </td> 
@@ -35,19 +36,19 @@ grout= *`color`*[,*`width`*]
 Para o controlo máximo da aparência do caldo de injeção, aplicam-se os seguintes requisitos:
 
 * O mosaico deve ser quadrado ou retangular; nenhuma outra forma é suportada neste momento.
-* A imagem deve conter apenas um bloco gráfico.
-* A argila padrão na imagem (se houver) deve ter exatamente a mesma espessura em todas as quatro bordas.
-* A espessura da argila padrão deve ser especificada no catálogo de materiais ( `catalog::GroutWidth`).
+* A imagem deve conter apenas um bloco.
+* O gráfico padrão na imagem (se houver) deve ter exatamente a mesma espessura em todas as quatro bordas.
+* A espessura da caldeira predefinida deve ser especificada no catálogo de materiais ( `catalog::GroutWidth`).
 
 ## Propriedades {#section-de78b678245b4ffda48097c345949e77}
 
-Atributo material. `*``*` color deve ser um valor de cor RGB. `*`A `*` largura deve ser um valor real 0 ou maior.
+Atributo de material. `*`A cor `*` deve ser um valor de cor RGB. `*``*` deve ser um valor real 0 ou maior.
 
-Ignorado se repetir = 4, 5, 7, 8, 9, 14 ou superior, ou quando especificado para materiais que não sejam texturas repetíveis.
+Ignorado se repetir = 4, 5, 7, 8, 9, 14 ou superior, ou quando especificado para materiais que não texturas repetíveis.
 
 ## Padrão {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Se `grout=` não for especificado, o gráfico na imagem não será modificado. Se ` grout= *`color`*` for especificado, `*`width`*` assumirá `catalog::GroutWidth` como padrão.
+Se `grout=` não for especificado, o grout na imagem não será modificado. Se ` grout= *`color`*` for especificado, `*`width`*` assumirá `catalog::GroutWidth` como padrão.
 
 ## Consulte também {#section-8d472906a44943f5a8557e98f2fbc71f}
 
