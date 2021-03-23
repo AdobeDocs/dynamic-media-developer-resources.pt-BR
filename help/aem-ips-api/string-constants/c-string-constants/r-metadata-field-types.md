@@ -4,12 +4,13 @@ seo-description: Usado por MetadataField/type, saveMetadataFieldParam/fieldType 
 seo-title: Tipos de campo de metadados
 solution: Experience Manager
 title: Tipos de campo de metadados
-topic: Dynamic Media Image Production System API
 uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Sintaxe
 * [!DNL `Float`]
 * [!DNL `Int`]
 * [!DNL `MultiFixedTag`]: Zero ou mais valores de string de um dicionário fechado. Somente usuários administradores podem modificar o dicionário.
-* [!DNL `MultiTag`]: Valores de string zero ou mais.
+* [!DNL `MultiTag`]: Zero ou mais valores de string.
 * [!DNL `SingleFixedTag`]: Um único valor de string de um dicionário fechado. Se `setAssetMetadata` ou `batchSetAssetMetadata` forem chamados com um valor que não esteja no dicionário, uma falha será retornada. Somente usuários administradores podem modificar o dicionário.
 
 * [!DNL `SingleTag`]: Qualquer valor de string único.
