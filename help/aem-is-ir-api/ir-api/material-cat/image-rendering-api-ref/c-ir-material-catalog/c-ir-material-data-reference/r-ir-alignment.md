@@ -1,15 +1,16 @@
 ---
-description: Alinhamento de textura. Alinhamento da textura quando aplicado a objetos de vinheta relacionados entre si, como as partes estriadas de um item de móveis. Usado principalmente para aplicativos de renderização estofados, possivelmente para aplicativos avançados de vestuário.
-seo-description: Alinhamento de textura. Alinhamento da textura quando aplicado a objetos de vinheta relacionados entre si, como as partes estriadas de um item de móveis. Usado principalmente para aplicativos de renderização estofados, possivelmente para aplicativos avançados de vestuário.
+description: Alinhamento da textura. Alinhamento da textura quando aplicada a objetos de vinheta relacionados entre si, como as partes estofadas de um item de móveis. Usado principalmente para aplicativos de renderização de estofo, possivelmente para aplicativos avançados de vestuário.
+seo-description: Alinhamento da textura. Alinhamento da textura quando aplicada a objetos de vinheta relacionados entre si, como as partes estofadas de um item de móveis. Usado principalmente para aplicativos de renderização de estofo, possivelmente para aplicativos avançados de vestuário.
 seo-title: Alinhamento
 solution: Experience Manager
 title: Alinhamento
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Alinhamento{#alignment}
 
-Alinhamento de textura. Alinhamento da textura quando aplicado a objetos de vinheta relacionados entre si, como as partes estriadas de um item de móveis. Usado principalmente para aplicativos de renderização estofados, possivelmente para aplicativos avançados de vestuário.
+Alinhamento da textura. Alinhamento da textura quando aplicada a objetos de vinheta relacionados entre si, como as partes estofadas de um item de móveis. Usado principalmente para aplicativos de renderização de estofo, possivelmente para aplicativos avançados de vestuário.
 
 ## Propriedades {#section-008158477f53457e9d812d313696cfb6}
 
