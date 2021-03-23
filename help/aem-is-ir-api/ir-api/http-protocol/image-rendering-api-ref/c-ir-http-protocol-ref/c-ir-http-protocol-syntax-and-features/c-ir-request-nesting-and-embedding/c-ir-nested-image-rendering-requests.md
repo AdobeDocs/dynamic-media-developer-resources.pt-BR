@@ -1,15 +1,16 @@
 ---
-description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem de material, assim como uma imagem obtida do Serviço de imagem.
-seo-description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem de material, assim como uma imagem obtida do Serviço de imagem.
+description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
+seo-description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
 seo-title: Solicitações de renderização de imagem aninhada
 solution: Experience Manager
 title: Solicitações de renderização de imagem aninhada
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # Solicitações de renderização de imagem aninhada{#nested-image-rendering-requests}
 
-Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem de material, assim como uma imagem obtida do Serviço de imagem.
+Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
 
 Uma solicitação de renderização pode ser usada como uma imagem de material, especificando-a no comando `src=` da seguinte maneira:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-O token `ir` faz distinção entre maiúsculas e minúsculas.
+O token `ir` diferencia maiúsculas de minúsculas.
 
-A solicitação aninhada não deve incluir o caminho raiz de Renderização de imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regras de pré-processamento.
+A solicitação aninhada não deve incluir o caminho raiz da Renderização de imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regras de pré-processamento.
 
-Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (no url de solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
+Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (no url da solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -37,6 +38,6 @@ Os seguintes comandos são ignorados quando especificados em solicitações anin
 * `req=`
 * `bgc=`
 
-Também são ignorados `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
+Também são ignoradas `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
 
-O resultado da imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando se espera que a imagem intermediária seja reutilizada em uma solicitação diferente dentro de um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
+O resultado da imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando se espera que a imagem intermediária seja reutilizada num pedido diferente dentro de um período de tempo razoável. O gerenciamento de cache padrão do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
