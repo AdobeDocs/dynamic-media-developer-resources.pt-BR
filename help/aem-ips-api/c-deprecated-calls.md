@@ -1,12 +1,13 @@
 ---
 title: Chamadas obsoletas
-description: Chamadas da API do sistema de produção de imagens e seus parâmetros associados que não são mais usados no Dynamic Media.
+description: Chamadas de API do sistema de produção de imagens e seus parâmetros associados que não são mais usados no Dynamic Media.
 solution: Experience Manager
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 # Chamadas obsoletas{#deprecated-calls}
 
-Chamadas da API do sistema de produção de imagens e seus parâmetros associados que não são mais usados.
+Chamadas de API do sistema de produção de imagens e seus parâmetros associados que não são mais usados.
 
 ## Chamadas obsoletas {#topic-654c0466e6434fe4a95953322255b08c}
 
-Chamadas da API do sistema de produção de imagens e seus parâmetros associados que não são mais usados no Dynamic Media.
+Chamadas de API do sistema de produção de imagens e seus parâmetros associados que não são mais usados no Dynamic Media.
 
-* `addMediaPortalEvent` - Obsoleto das operações. Esta chamada permite que você adicione um Evento do Portal de mídia ao IPS.
-* `getMediaPortalEvent` - Obsoleto das operações. Esta chamada permite obter eventos de portal de mídia que correspondem a critérios especificados.
+* `addMediaPortalEvent` - Obsoleto das operações. Essa chamada permite adicionar um Evento do Media Portal ao IPS.
+* `getMediaPortalEvent` - Obsoleto das operações. Essa chamada permite obter eventos do portal de mídia que correspondem a critérios especificados.
 * `getCdnCacheInvalidationStatus` - Obsoleto das operações. Essa API agora está obsoleta porque a API `cdnCacheInvalidation` invalida o cache quase imediatamente (~5 segundos). Dessa forma, a pesquisa para o status de invalidação não é mais necessária.
 
