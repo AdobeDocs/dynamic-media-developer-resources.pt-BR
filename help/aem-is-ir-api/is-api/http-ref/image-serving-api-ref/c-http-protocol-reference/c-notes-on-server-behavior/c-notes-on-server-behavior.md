@@ -4,12 +4,13 @@ seo-description: Há vários problemas de comportamento do servidor que devem se
 seo-title: Observações sobre o comportamento do servidor
 solution: Experience Manager
 title: Observações sobre o comportamento do servidor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -21,8 +22,8 @@ Há vários problemas de comportamento do servidor que devem ser considerados.
 
 * [A tela de composição](r-the-compositing-canvas.md)
 * [Transformações de camada](r-layer-transforms.md)
-* [Escala em miniatura](r-thumbnail-scaling.md)
+* [Escala de miniaturas](r-thumbnail-scaling.md)
 * [Regras de miniatura](r-thumbnail-rules.md)
-* [Posicionamento da camada](r-layer-placement.md)
-* [Transformação de visualização para imagens](r-view-transform-for-images.md)
-* [Transformação de visualização para miniaturas](r-view-transform-for-thumbnails.md)
+* [Inserção de camada](r-layer-placement.md)
+* [Exibir transformação de imagens](r-view-transform-for-images.md)
+* [Exibir transformação para miniaturas](r-view-transform-for-thumbnails.md)
