@@ -1,26 +1,27 @@
 ---
-description: O servidor pode ser configurado para enviar alertas por email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todos os aplicativos da Web implantados no servidor.
-seo-description: O servidor pode ser configurado para enviar alertas por email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todos os aplicativos da Web implantados no servidor.
+description: O servidor pode ser configurado para enviar alertas de email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todas as aplicações Web implantadas no servidor.
+seo-description: O servidor pode ser configurado para enviar alertas de email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todas as aplicações Web implantadas no servidor.
 seo-title: Monitoramento de servidor
 solution: Experience Manager
 title: Monitoramento de servidor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
 
-# Monitoramento do servidor{#server-monitoring}
+# Monitoramento de servidor{#server-monitoring}
 
-O servidor pode ser configurado para enviar alertas por email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todos os aplicativos da Web implantados no servidor.
+O servidor pode ser configurado para enviar alertas de email quando determinados limites de desempenho ou erro forem excedidos. O sistema monitora coletivamente todas as aplicações Web implantadas no servidor.
 
 * [Alertas padrão](r-standard-alerts.md)
-* [Alerta de prioridade do espaço de pilha](c-heap-space-priority-alert.md)
+* [Alerta de prioridade de espaço de heap](c-heap-space-priority-alert.md)
 
 ## Consulte também {#section-71ecb73e7cdd44f68aea67b64dc9c3ed}
 
