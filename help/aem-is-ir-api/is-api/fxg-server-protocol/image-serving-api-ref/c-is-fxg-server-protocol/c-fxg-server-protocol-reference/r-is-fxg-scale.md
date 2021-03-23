@@ -1,15 +1,16 @@
 ---
 description: Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de resolução completa.
 seo-description: Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de resolução completa.
-seo-title: escala
+seo-title: scale
 solution: Experience Manager
-title: escala
-topic: Dynamic Media Image Serving - Image Rendering API
+title: scale
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -30,7 +31,7 @@ Dimensionar imagem. Dimensiona uma imagem por fator em relação à imagem de re
 
 ## Padrão {#section-e9e53959b35844579f0f1d7721b71f8e}
 
-Se não for especificado, a imagem será usada sem dimensionamento.
+Se não for especificado, a imagem será usada sem escala.
 
 ## Exemplo {#section-d5526953d6434c58bb2388bd936c13b5}
 
