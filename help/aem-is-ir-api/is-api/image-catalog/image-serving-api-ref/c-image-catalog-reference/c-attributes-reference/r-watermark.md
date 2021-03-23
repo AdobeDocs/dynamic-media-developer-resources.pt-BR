@@ -4,12 +4,13 @@ seo-description: Seletor de marca d'água. Especifica a ID de catálogo do regis
 seo-title: Marca d'água
 solution: Experience Manager
 title: Marca d'água
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -23,11 +24,11 @@ Se especificado, o servidor aplica a marca d&#39;água aos dados de imagem solic
 
 ## Propriedades {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Sequência de caracteres de texto. Se especificado, deve ser um valor `Catalog::Id` válido neste catálogo de imagens (ou no catálogo padrão, se especificado em [!DNL default.ini]).
+Sequência de texto. Se especificado, deve ser um valor `Catalog::Id` válido neste catálogo de imagens (ou no catálogo padrão, se especificado em [!DNL default.ini]).
 
 ## Padrão {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Herdado de `default::Watermark` se não estiver definido. Se definido, mas vazio, nenhuma marca d&#39;água é aplicada a esse catálogo de imagens, mesmo se `default::Watermark` estiver definido.
+Herdado de `default::Watermark` se não estiver definido. Se definida, mas estiver vazia, nenhuma marca d&#39;água será aplicada para este catálogo de imagem, mesmo se `default::Watermark` estiver definido.
 
 ## Consulte também {#section-f15dbe31013849828d78588742dde58e}
 
