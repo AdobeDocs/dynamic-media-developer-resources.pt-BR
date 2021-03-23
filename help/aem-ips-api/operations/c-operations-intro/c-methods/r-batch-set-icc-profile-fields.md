@@ -4,12 +4,13 @@ seo-description: Define campos de metadados de perfil ICC.
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-topic: Dynamic Media Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -36,8 +37,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseie a empresa que contém os perfis ICC. |
-| `*`matriz de atualização`*` | `xsd:string` | Sim | Matriz de atualizações de perfis ICC. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule para a empresa que contém os perfis ICC. |
+| `*`atualizar matriz`*` | `xsd:string` | Sim | Matriz de atualizações de perfil ICC. |
 
 **Saída (batchSetIccProfileFields)**
 
@@ -45,7 +46,7 @@ Sintaxe
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Sim | O número de campos de perfil ICC definidos com êxito. |
 | `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de perfil ICC. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos do perfil ICC. |
+| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos de perfil ICC. |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
 
