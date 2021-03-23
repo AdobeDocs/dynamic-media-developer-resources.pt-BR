@@ -2,12 +2,13 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-topic: Dynamic Media
 uuid: 769ae5e4-23ee-435a-9a56-d84a32004b00
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '85'
 ht-degree: 1%
 
 ---
@@ -20,8 +21,8 @@ ht-degree: 1%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,superior|centro|inferior</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno - ou âncora - do container de miniaturas dentro da área do componente. </p> <p>No SearchPanel, o container de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o container interno e os limites do componente externo. </p> <p>Esse modificador especifica como o container de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,cima|centro|inferior</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno - ou âncora - do contêiner de miniaturas dentro da área do componente. </p> <p>No SearchPanel, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
