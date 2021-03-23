@@ -1,21 +1,22 @@
 ---
 description: Obtém uma lista de contextos de publicação ativos para a empresa especificada. Um contexto de publicação é considerado ativo se houver pelo menos um servidor ativo definido para o contexto.
 seo-description: Obtém uma lista de contextos de publicação ativos para a empresa especificada. Um contexto de publicação é considerado ativo se houver pelo menos um servidor ativo definido para o contexto.
-seo-title: getActivePublishContext
+seo-title: getAtivePublishContext
 solution: Experience Manager
-title: getActivePublishContext
-topic: Dynamic Media Image Production System API
+title: getAtivePublishContext
 uuid: 856704d1-e97b-4d2d-b80c-620450b78432
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
 
-# getActivePublishContext{#getactivepublishcontext}
+# getAtivePublishContext{#getactivepublishcontext}
 
 Obtém uma lista de contextos de publicação ativos para a empresa especificada. Um contexto de publicação é considerado ativo se houver pelo menos um servidor ativo definido para o contexto.
 
@@ -35,15 +36,15 @@ Sintaxe
 
 ## Parâmetros {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Entrada (getActivePublishContextParam)**
+**Entrada (getAtivePublishContextsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa para query para contextos de publicação ativos |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa para consultar contextos de publicação ativos |
 
-**Saída (getActivePublishContextReturn)**
+**Saída (getActivePublishContextsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | Sim | A matriz de contextos de publicação ativos, que podem incluir zero ou mais valores do Contexto de publicação. |
+| `*`contextArray`*` | `types:StringArray` | Sim | A matriz de contextos de publicação ativos, que pode incluir zero ou mais valores do Contexto de publicação. |
 
