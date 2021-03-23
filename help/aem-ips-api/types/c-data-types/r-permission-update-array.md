@@ -1,15 +1,16 @@
 ---
-description: Uma gama de atualizações de permissões.
-seo-description: Uma gama de atualizações de permissões.
+description: Uma matriz de atualizações de permissão.
+seo-description: Uma matriz de atualizações de permissão.
 seo-title: PermissionUpdateArray
 solution: Experience Manager
 title: PermissionUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: e5dd40a6-d9c0-4be0-930b-f85ca0067319
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PermissionUpdateArray{#permissionupdatearray}
 
-Uma gama de atualizações de permissões.
+Uma matriz de atualizações de permissão.
 
 Sintaxe
 
