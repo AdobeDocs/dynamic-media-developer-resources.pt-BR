@@ -1,15 +1,16 @@
 ---
-description: Obtém todos os usuários em um storage.
-seo-description: Obtém todos os usuários em um storage.
+description: Obtém todos os usuários em um array.
+seo-description: Obtém todos os usuários em um array.
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
-topic: Dynamic Media Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getAllUsers{#getallusers}
 
-Obtém todos os usuários em um storage.
+Obtém todos os usuários em um array.
 
 Sintaxe
 
@@ -44,12 +45,12 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4">Definir como: 
+   <td colname="col4">Defina como: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> verdadeiro </span> para incluir usuários inválidos. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falsidade para omitir usuários inválidos. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> para incluir usuários inválidos. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> falsa ao omitir usuários inválidos. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -60,11 +61,11 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userArray`*` | `types:UserArray` | Sim | Matriz de todos os usuários. |
-| `*`Frase de código`*` | `Code Phrase` |  |  |
+| `*`Frase do código`*` | `Code Phrase` |  |  |
 
 ## Exemplos {#section-9c9a2d335513478da20652c1b1443731}
 
-Essa amostra de código retorna todos os usuários. A resposta é truncada para brevidade.
+Essa amostra de código retorna todos os usuários. A resposta é truncada por brevidade.
 
 **Solicitação**
 
