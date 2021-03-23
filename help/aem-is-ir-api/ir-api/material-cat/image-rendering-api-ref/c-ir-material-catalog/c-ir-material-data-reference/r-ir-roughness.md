@@ -1,27 +1,28 @@
 ---
-description: Rugosidade da superfície. Especifica o brilho relativo da superfície do material. Usado em conjunto com Tipo de catálogo e Brilho de catálogo para controlar os efeitos de renderização de reflexo 3D.
-seo-description: Rugosidade da superfície. Especifica o brilho relativo da superfície do material. Usado em conjunto com Tipo de catálogo e Brilho de catálogo para controlar os efeitos de renderização de reflexo 3D.
-seo-title: Aspereza
+description: Agitação superficial. Especifica o brilho relativo da superfície do material. Usado em conjunto com Tipo de catálogo e Gráfico para controlar efeitos de renderização de reflexo 3D.
+seo-description: Agitação superficial. Especifica o brilho relativo da superfície do material. Usado em conjunto com Tipo de catálogo e Gráfico para controlar efeitos de renderização de reflexo 3D.
+seo-title: Rigidez
 solution: Experience Manager
-title: Aspereza
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Rigidez
 uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 
-# Aspereza{#roughness}
+# Rigidez{#roughness}
 
-Rugosidade da superfície. Especifica o brilho relativo da superfície do material. Usado em conjunto com catálogo::Tipo e catálogo::Brilho para controlar os efeitos de renderização de reflexo 3D.
+Agitação superficial. Especifica o brilho relativo da superfície do material. Usado em conjunto com catalog::Type e catalog::Glossário para controlar efeitos de renderização de reflexo 3D.
 
 ## Propriedades {#section-70c3f2394fd8477ca83a369448907971}
 
-Número inteiro. Valor percentual no intervalo 0...100. Opcional para todos os materiais. Usado apenas para vinhetas com vários mapas de reflexão ou vinhetas com capacidade de reflexão 3D. Deixe vazio ou defina como -1 se não for conhecido ou não for necessário.
+Número inteiro. Valor percentual no intervalo 0...100. Opcional para todos os materiais. Usado apenas para vinhetas com vários mapas de reflexão ou vinhetas com recurso de reflexão 3D. Deixe em branco ou defina como -1 se não for conhecido ou se não for necessário.
 
 ## Padrão {#section-c6d5c0613a8745ddbd9f43c8c90b1580}
 
