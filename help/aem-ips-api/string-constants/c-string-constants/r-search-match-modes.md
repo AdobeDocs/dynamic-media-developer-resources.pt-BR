@@ -4,18 +4,19 @@ seo-description: Usado por searchAssetsParam/conditionMatchMode, searchAssetsPar
 seo-title: Modos de correspondência de pesquisa
 solution: Experience Manager
 title: Modos de correspondência de pesquisa
-topic: Dynamic Media Image Production System API
 uuid: bbc90f83-3e7a-428f-b9c7-1defaaa3af72
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
 
-# Modos de correspondência de pesquisa{#search-match-modes}
+# Modos de Correspondência de Pesquisa{#search-match-modes}
 
 Usado por searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode e searchAssetsParam/metadataMatchMode.
 
