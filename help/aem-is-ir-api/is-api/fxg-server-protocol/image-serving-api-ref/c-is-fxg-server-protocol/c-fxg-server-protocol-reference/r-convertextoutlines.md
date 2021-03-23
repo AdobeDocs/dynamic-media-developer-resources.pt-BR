@@ -1,31 +1,32 @@
 ---
-description: Converta o texto em um arquivo PDF em contornos.
-seo-description: Converta o texto em um arquivo PDF em contornos.
-seo-title: convertTextToOutlines
+description: Converta o texto em um arquivo PDF em outlines.
+seo-description: Converta o texto em um arquivo PDF em outlines.
+seo-title: conversionTextToOutlines
 solution: Experience Manager
-title: convertTextToOutlines
-topic: Dynamic Media Image Serving - Image Rendering API
+title: conversionTextToOutlines
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
 
 
-# convertTextToOutlines{#converttexttooutlines}
+# conversionTextToOutlines{#converttexttooutlines}
 
-Converta o texto em um arquivo PDF em contornos.
+Converta o texto em um arquivo PDF em outlines.
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> convertTextToOutlines</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> conversionTextToOutlines</span> </p> </td> 
   <td class="stentry"> <p>0|1 </p></td> 
  </tr> 
 </table>
 
-Use o comando URL `convertTextToOutlines=1` para alterar todo o texto em um arquivo PDF para caminhos contornados.
+Use o comando de URL `convertTextToOutlines=1` para alterar todo o texto em um arquivo PDF para caminhos contornados.
 
-Quando qualquer efeito for aplicado ao texto em um arquivo PDF, como converter texto em contornos, a imagem renderizada final será reduzida ou &quot;nivelada&quot; no tamanho.
+Quando qualquer efeito é aplicado ao texto em um arquivo PDF, como converter texto em contornos, a imagem renderizada final é reduzida ou &quot;nivelada&quot; em tamanho.
