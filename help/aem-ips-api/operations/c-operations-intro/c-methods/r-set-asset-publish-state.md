@@ -4,12 +4,13 @@ seo-description: Determina se um ativo está pronto para ser publicado.
 seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-topic: Dynamic Media Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -51,13 +52,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> A alça da empresa. </td> 
+   <td colname="col4"> O nome da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Identificador de ativos. </td> 
+   <td colname="col4"> Identificador de ativo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -71,7 +72,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -80,11 +81,11 @@ Sintaxe
 
 **Saída**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-c31ead6d0e594317a12c120509527792}
 
-Esta amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
+Este exemplo de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 
