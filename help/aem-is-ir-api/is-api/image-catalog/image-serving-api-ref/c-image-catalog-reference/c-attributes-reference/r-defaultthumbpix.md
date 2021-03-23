@@ -4,12 +4,13 @@ seo-description: Tamanho padrão da miniatura. Usado em vez do atributo DefaultP
 seo-title: DefaultThumbPix
 solution: Experience Manager
 title: DefaultThumbPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Tamanho padrão da miniatura. Usado em vez do atributo::DefaultPix para solicitações de miniatura (req=tmb).
 
-O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se uma solicitação em miniatura ( `req=tmb`) não especificar o tamanho explicitamente não especificar o tamanho da visualização usando `wid=`, `hei=` ou `scl=`.
+O servidor restringe as imagens de resposta a não serem maiores que essa largura e altura, se uma solicitação de miniatura ( `req=tmb`) não especificar o tamanho explicitamente não especificar o tamanho da exibição usando `wid=`, `hei=` ou `scl=`.
 
 ## Propriedades {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-Dois números inteiros, 0 ou maior, separados por uma vírgula. Largura e altura em pixels. Um ou ambos os valores podem ser definidos como 0 para mantê-los sem restrições.
+Dois números inteiros, 0 ou maiores, separados por vírgula. Largura e altura em pixels. Qualquer um dos valores pode ser definido como 0 para mantê-los livres.
 
 Não se aplica a solicitações aninhadas/incorporadas.
 
