@@ -1,18 +1,19 @@
 ---
 description: Retorna os contextos de publicação para ativos marcados para publicação.
 solution: Experience Manager
-title: batchGetAssetPublishContext
-topic: Dynamic Media Image Production System API
+title: batchGetAssetPublishContexts
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 
-# batchGetAssetPublishContext{#batchgetassetpublishcontexts}
+# batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
 Retorna os contextos de publicação para ativos marcados para publicação.
 
@@ -41,18 +42,18 @@ Sintaxe
 
 ## Parâmetros {#section-1742fcb196224545b270eb8241f757a8}
 
-**Entrada (batchGetAssetPublishContextParam)**
+**Entrada (batchGetAssetPublishContextsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Segure a empresa. |
-| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja query para contextos ativos (marcados para publicação). |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
+| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja consultar para contextos ativos (marcados para publicação). |
 
-**Saída (batchGetAssetPublishContextReturn)**
+**Saída (batchGetAssetPublishContextsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetPublishContextArray`*` | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
 
 ## Exemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 
