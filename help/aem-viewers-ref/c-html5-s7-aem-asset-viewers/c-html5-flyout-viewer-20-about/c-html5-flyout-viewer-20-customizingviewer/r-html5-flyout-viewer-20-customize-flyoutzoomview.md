@@ -1,31 +1,32 @@
 ---
-description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout, na área de navegação de realce exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
-seo-description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout, na área de navegação de realce exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
-seo-title: Visualização de zoom do menu suspenso
+description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
+seo-description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
+seo-title: Visualização de zoom de menu suspenso
 solution: Experience Manager
-title: Visualização de zoom do menu suspenso
-topic: Dynamic Media
+title: Visualização de zoom de menu suspenso
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
 
 
-# Visualização de zoom do Flyout{#flyout-zoom-view}
+# Visualização de zoom de menu suspenso{#flyout-zoom-view}
 
-A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout, na área de navegação de realce exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
+A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Se as dimensões da imagem que está sendo visualizada não corresponderem às dimensões da visualização de zoom flyout, o conteúdo da imagem será centralizado na área de exibição do retângulo de zoom flyout visualização.
+Se as dimensões da imagem que está sendo visualizada não corresponderem às dimensões da exibição de zoom do flyout, o conteúdo da imagem será centralizado na área de exibição do retângulo da exibição de zoom do flyout.
 
-**Propriedades de CSS da visualização principal**
+**Propriedades CSS da exibição principal**
 
-A aparência da visualização principal é controlada com o seguinte seletor de classe CSS:
+A aparência da exibição principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -40,13 +41,13 @@ A aparência da visualização principal é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> A cor de fundo da visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> A cor de plano de fundo da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a visualização principal transparente:
+Exemplo - para tornar a exibição principal transparente:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -54,9 +55,9 @@ Exemplo - para tornar a visualização principal transparente:
 }
 ```
 
-**Propriedades de CSS da visualização flyout**
+**Propriedades de CSS da exibição de flyout**
 
-A aparência da visualização flyout é controlada com o seguinte seletor de classe CSS:
+A aparência da exibição do flyout é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom
@@ -72,28 +73,28 @@ A aparência da visualização flyout é controlada com o seguinte seletor de cl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p> A posição horizontal da visualização do flyout, em relação ao canto superior esquerdo da visualização principal. </p> </td> 
+   <td colname="col2"> <p> A posição horizontal da exibição do flyout, em relação ao canto superior esquerdo da exibição principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p> A posição vertical da visualização do flyout, em relação ao canto superior esquerdo da visualização principal. </p> </td> 
+   <td colname="col2"> <p> A posição vertical da exibição do flyout, em relação ao canto superior esquerdo da exibição principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> A largura da visualização flyout. </p> </td> 
+   <td colname="col2"> <p> A largura da exibição do flyout. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p>A altura da visualização voadora. </p> </td> 
+   <td colname="col2"> <p>A altura da exibição do flyout. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
-   <td colname="col2"> <p>A borda da visualização do flyout. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col2"> <p>A borda da exibição do flyout. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma visualização de flyout para 600 x 400 pixels, que aparece com 100 pixels de deslocamento à direita da visualização principal 512 x 288 mostrada no exemplo anterior:
+Exemplo - para configurar uma exibição de flyout para 600 x 400 pixels, que aparece com deslocamento de 100 pixels à direita da exibição principal de 512 x 288 mostrada no exemplo anterior:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -104,15 +105,15 @@ Exemplo - para configurar uma visualização de flyout para 600 x 400 pixels, qu
 }
 ```
 
-**Propriedades de CSS do destaque na visualização principal**
+**Propriedades CSS do destaque na exibição principal**
 
-A aparência do realce na visualização principal é controlada pelo seguinte seletor de classe CSS:
+A aparência do realce na exibição principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-É possível controlar o plano de fundo, a borda, a transparência e atributos semelhantes usando o CSS. No entanto, o tamanho e a posição do elemento DOM de realce são gerenciados pela lógica do visualizador. Não há suporte para substituí-lo pelo CSS.
+É possível controlar o plano de fundo, a borda, a transparência e atributos semelhantes usando CSS. No entanto, o tamanho e a posição do elemento DOM de destaque são gerenciados pela lógica do visualizador. Não há suporte para substituí-lo por CSS.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -123,21 +124,21 @@ A aparência do realce na visualização principal é controlada pelo seguinte s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> A cor do realce. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> A cor do destaque. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
    <td colname="col2"> <p> Realce a opacidade. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fronteira  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
    <td colname="col2"> <p>O realce da borda. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar o realce verde com 40% de transparência e uma borda vermelha de um pixel:
+Exemplo - para configurar um realce verde com transparência de 40% e uma borda vermelha de um pixel:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight { 
@@ -148,16 +149,16 @@ Exemplo - para configurar o realce verde com 40% de transparência e uma borda v
 }
 ```
 
-**Propriedades de CSS do cursor**
+**Propriedades CSS do cursor**
 
-Quando o parâmetro `highlightmode` está definido como `cursor`, os realces estão na visualização principal e são substituídos pela arte-final do cursor de tamanho fixo, que é controlada pelo seletor de classe CSS:
+Quando o parâmetro `highlightmode` é definido como `cursor`, os realces estão na exibição principal e são substituídos por uma arte-final de cursor de tamanho fixo, que é controlada pelo seletor de classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
 .s7cursor
 ```
 
-É possível controlar a imagem e o tamanho do plano de fundo usando o CSS.
+É possível controlar a imagem de fundo e o tamanho usando CSS.
 
 As propriedades CSS aplicáveis incluem:
 
@@ -170,7 +171,7 @@ As propriedades CSS aplicáveis incluem:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
    <td colname="col2"> <p>Arte do cursor. </p> </td> 
   </tr> 
   <tr> 
@@ -186,11 +187,11 @@ As propriedades CSS aplicáveis incluem:
 
 >[!NOTE]
 >
->O cursor oferece suporte ao seletor de atributos `input`, que pode ser usado para aplicar artes e tamanhos de cursor diferentes para dispositivos diferentes. Especificamente, `input="mouse"` corresponde aos sistemas de desktop e `input="touch"` corresponde aos dispositivos de toque.
+>O cursor suporta o seletor de atributo `input`, que pode ser usado para aplicar arte-final de cursor e tamanho diferentes para dispositivos diferentes. Especificamente, `input="mouse"` corresponde aos sistemas de desktop e `input="touch"` corresponde aos dispositivos de toque.
 
-**Propriedades de CSS da sobreposição**
+**Propriedades CSS da sobreposição**
 
-Quando o parâmetro `overlay` estiver definido como `1`, a área em torno do quadro de realce ou da imagem do cursor será controlada com o seletor de classe CSS:
+Quando o parâmetro `overlay` é definido como `1`, a área em torno do quadro de realce ou da imagem do cursor é controlada com o seletor de classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -206,17 +207,17 @@ Quando o parâmetro `overlay` estiver definido como `1`, a área em torno do qua
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
-   <td colname="col2"> <p>Opacidade da sobreposição. </p> </td> 
+   <td colname="col2"> <p>Opacidade de sobreposição. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Propriedades de CSS da mensagem de dica**
+**Propriedades CSS da mensagem de dica**
 
 A aparência da mensagem de dica é controlada com o seguinte seletor de classe CSS:
 
@@ -224,7 +225,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. Entretanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituir por CSS usando as propriedades `left` ou `right`.
+É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituí-lo por meio de CSS usando propriedades `left` ou `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -236,10 +237,10 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Deslocamento na parte inferior da visualização principal. </p> </td> 
+   <td colname="col2"> <p>Deslocamento na parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
@@ -247,19 +248,19 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento em torno do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
@@ -269,9 +270,9 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </tbody> 
 </table>
 
-A mensagem de dica pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
+A mensagem de dica pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 
-Exemplo - para configurar uma mensagem de ponta semitransparente com fonte Arial branca de 12 px, 50 pixels de deslocamento a partir da parte inferior da visualização principal, preenchimento e uma borda arredondada:
+Exemplo - para configurar uma mensagem de ponta semitransparente com fonte branca Arial 12px, 50 pixels deslocados da parte inferior da exibição principal, preenchimento e uma borda arredondada:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
