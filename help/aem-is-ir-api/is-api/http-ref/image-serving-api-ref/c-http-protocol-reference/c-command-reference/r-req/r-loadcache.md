@@ -1,15 +1,16 @@
 ---
-description: Pré-carregar o cache do servidor. Executa a solicitação da mesma forma que req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/simples do tipo MIME.
-seo-description: Pré-carregar o cache do servidor. Executa a solicitação da mesma forma que req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/simples do tipo MIME.
+description: Pré-carregar o cache do servidor. Executa a solicitação exatamente como req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/sem formatação do tipo MIME.
+seo-description: Pré-carregar o cache do servidor. Executa a solicitação exatamente como req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/sem formatação do tipo MIME.
 seo-title: loadcache
 solution: Experience Manager
 title: loadcache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44f0db05-2323-4aa2-853c-f78e656a4308
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # loadcache{#loadcache}
 
-Pré-carregar o cache do servidor. Executa a solicitação da mesma forma que req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/simples do tipo MIME.
+Pré-carregar o cache do servidor. Executa a solicitação exatamente como req=img, mas em vez de retornar a imagem, o servidor retorna o comprimento da imagem de resposta (image.length), formatada como dados de texto com texto/sem formatação do tipo MIME.
 
 `req=loadcache`
 
