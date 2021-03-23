@@ -4,12 +4,13 @@ seo-description: Qualidade Jpeg. Especifica atributos de codificação JPEG para
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Qualidade Jpeg. Especifica atributos de codificação JPEG para controlar o nível de compactação.
 
-` qlt= *``*[. *`qualiticroma`*]`
+` qlt= *``*[. *`Qualicroma`*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
@@ -28,21 +29,21 @@ Qualidade Jpeg. Especifica atributos de codificação JPEG para controlar o nív
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> croma  </span> </p> </td> 
-  <td class="stentry"> <p>Redução da amostragem de cromaticidade JPEG (0=normal, 1=desativado); opcional, o padrão é 0. </p> </td> 
+  <td class="stentry"> <p>Amostragem regressiva da cromaticidade JPEG (0=normal, 1=desativado); opcional, o padrão é 0. </p> </td> 
  </tr> 
 </table>
 
-Especifica atributos de codificação JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+Especifica atributos de codificação JPEG para controlar o nível de compactação. Por sua vez, isso varia o tamanho do arquivo (quantidade dos dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
 
-Valores mais altos *`quality`* aumentam o tamanho e a qualidade do arquivo, valores mais baixos diminuem os tamanhos de arquivo e reduzem a qualidade da imagem percebida. Valores acima de 90 geralmente geram imagens indistinguíveis da imagem não compactada.
+Valores mais altos *`quality`* aumentam o tamanho e a qualidade do arquivo, valores mais baixos diminuem os tamanhos dos arquivos e reduzem a qualidade da imagem percebida. Valores acima de 90 geralmente geram imagens indistinguíveis da imagem descompactada.
 
-Defina o sinalizador *`chroma`* para desativar a redução da amostragem de cromaticidade empregada pelos codificadores JPEG típicos. Isso pode aumentar a nitidez perceptível das bordas em uma imagem quando a borda é definida por uma mudança de matiz em vez de brilho. A configuração desse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente indefinido.
+Defina o sinalizador *`chroma`* para desativar a amostragem regressiva de cromaticidade empregada por codificadores JPEG típicos. Isso pode aumentar a nitidez perceptível das bordas em uma imagem, quando a borda é definida por uma mudança de matiz em vez de brilho. Configurar esse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente borrado.
 
 ## Propriedades {#section-897b61c786dd4230a2c5807f2f40e722}
 
 Pode ocorrer em qualquer lugar na solicitação.
 
-Ignorado se o formato de imagem de saída não oferecer suporte à compactação JPEG. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída compatíveis com a compactação JPEG.
+Ignorado se o formato de imagem de saída não oferecer suporte à compactação JPEG. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à compactação JPEG.
 
 ## Padrão {#section-1c1257df843c475bbac6aadaffcb6347}
 
