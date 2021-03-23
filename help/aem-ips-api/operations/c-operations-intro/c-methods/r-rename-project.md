@@ -4,12 +4,13 @@ seo-description: Renomeia um projeto.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sim | Manuseie a empresa com o projeto que deseja renomear. |
+| `*`companyName`*` | `xsd:string` | Sim | Lide com a empresa com o projeto que deseja renomear. |
 | `*`projectHandle`*` | `xsd:string` | Sim | Manipule o projeto. |
 | `*`projectName`*` | `xsd:string` | Sim | Novo nome do projeto. |
 
