@@ -4,12 +4,13 @@ seo-description: Os atributos e campos do catálogo podem conter dados de um dos
 seo-title: Tipos de dados comuns
 solution: Experience Manager
 title: Tipos de dados comuns
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 125a4044-7699-4c4f-9dea-a2934d919309
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -24,5 +25,5 @@ Os atributos e campos do catálogo podem conter dados de um dos seguintes tipos.
 * [Enum](r-enum.md)
 * [Número inteiro](r-integer-number.md)
 * [Número real](r-real-number.md)
-* [String de texto](r-text-string.md)
+* [Sequência de texto](r-text-string.md)
 * [Dados de propriedade](r-property-data.md)
