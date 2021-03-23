@@ -1,15 +1,16 @@
 ---
-description: Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objetos de imagem de uma solicitação.
-seo-description: Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objetos de imagem de uma solicitação.
+description: Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objeto de imagem de uma solicitação.
+seo-description: Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objeto de imagem de uma solicitação.
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # RootId{#rootid}
 
-Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objetos de imagem de uma solicitação.
+Identificador do catálogo. O elemento de caminho HTTP a ser usado para identificar esse catálogo no especificador de objeto de imagem de uma solicitação.
 
 ## Propriedades {#section-9a49da71de634378a06d2347790898a0}
 
@@ -25,7 +26,7 @@ Valor da string de texto. Pode incluir somente caracteres válidos em caminhos H
 
 ## Padrão {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Nenhum. Cada catálogo deve ter um valor `attribute::RootId` exclusivo. [!DNL default.ini] normalmente tem um vazio  `attribute::RootId`.
+Nenhum. Cada catálogo deve ter um valor `attribute::RootId` exclusivo. [!DNL default.ini] O geralmente tem um vazio  `attribute::RootId`.
 
 ## Consulte também {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 
