@@ -1,15 +1,16 @@
 ---
-description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ela é exibida na barra de controle principal em sistemas de desktop e tablet, em telefones celulares é adicionada à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado pelo CSS.
-seo-description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ela é exibida na barra de controle principal em sistemas de desktop e tablet, em telefones celulares é adicionada à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado pelo CSS.
+description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
+seo-description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
 seo-title: Indicador de página
 solution: Experience Manager
 title: Indicador de página
-topic: Dynamic Media
 uuid: 1be6021b-3026-48ef-b121-eeb8270d2bae
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Indicador de página{#page-indicator}
 
-O indicador de página exibe o índice de página atual e a contagem total de páginas. Ela é exibida na barra de controle principal em sistemas de desktop e tablet, em telefones celulares é adicionada à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado pelo CSS.
+O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
 
 O indicador de página de aparência é controlado com o seguinte seletor de classe CSS:
 
@@ -33,11 +34,11 @@ O indicador de página de aparência é controlado com o seguinte seletor de cla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda superior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição na borda direita da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda direita da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
@@ -45,18 +46,18 @@ O indicador de página de aparência é controlado com o seguinte seletor de cla
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição na borda inferior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
+   <td colname="col2"> <p>Posição a partir da borda inferior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do indicador de página. </p> </td> 
+   <td colname="col2"> <p>Largura do indicador da página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p>Altura do indicador de página. </p> </td> 
+   <td colname="col2"> <p>Altura do indicador da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -64,13 +65,13 @@ O indicador de página de aparência é controlado com o seguinte seletor de cla
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um indicador de página de 56 x 28 pixels, horizontalmente centralizado e posicionado 4 pixels a partir da parte inferior da barra de controle principal, e usar uma fonte Helvetica de 14 pixels.
+Exemplo - para configurar um indicador de página com 56 x 28 pixels, centrado horizontalmente e posicionado 4 pixels a partir da parte inferior da barra de controle principal, e usar uma fonte Helvetica de 14 pixels.
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 
