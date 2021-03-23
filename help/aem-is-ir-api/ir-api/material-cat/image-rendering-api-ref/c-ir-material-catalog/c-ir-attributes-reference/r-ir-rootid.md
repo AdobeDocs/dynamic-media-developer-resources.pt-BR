@@ -4,12 +4,13 @@ seo-description: Identificador do catálogo. O elemento de caminho HTTP a ser us
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd726466-6dca-4612-a342-50689ed1469f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Identificador do catálogo. O elemento de caminho HTTP a ser usado para identifi
 
 ## Propriedades {#section-c33266223d5b47029df756caa4e0df0c}
 
-Valor da string de texto. Pode incluir quaisquer caracteres válidos em caminhos http.
+Valor da string de texto. Pode incluir qualquer caractere válido em caminhos http.
 
 ## Padrão {#section-e0ed902557684345850b86672b5dbe5b}
 
