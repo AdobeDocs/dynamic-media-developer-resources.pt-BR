@@ -4,13 +4,14 @@ seo-description: Atributo de configuração para Visualizador de vídeo de mídi
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 5%
+source-wordcount: '49'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +26,7 @@ Atributo de configuração para Visualizador de vídeo de mídia mista.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a exibição da animação em buffer (ícone de espera). </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a exibição da animação de buffer (ícone de espera). </p> </td> 
   </tr> 
  </tbody> 
 </table>
