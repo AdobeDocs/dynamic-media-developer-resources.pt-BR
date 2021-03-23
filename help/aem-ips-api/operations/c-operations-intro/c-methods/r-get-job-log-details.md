@@ -1,15 +1,16 @@
 ---
-description: Obtém os detalhes de um registro de trabalho de empresa.
-seo-description: Obtém os detalhes de um registro de trabalho de empresa.
+description: Obtém os detalhes de um log de trabalho da empresa.
+seo-description: Obtém os detalhes de um log de trabalho da empresa.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtém os detalhes de um registro de trabalho de empresa.
+Obtém os detalhes de um log de trabalho da empresa.
 
-O campo de resposta `logMessage` está localizado com base no campo `authHeader` `locale`.
+O campo de resposta `logMessage` é localizado com base no campo `authHeader` `locale`.
 
 ## Tipos de usuário autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -50,7 +51,7 @@ O campo de resposta `logMessage` está localizado com base no campo `authHeader`
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O identificador da empresa à qual o registro de tarefas pertence. </td> 
+   <td colname="col4"> O identificador da empresa à qual o log de trabalho pertence. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -62,13 +63,13 @@ O campo de resposta `logMessage` está localizado com base no campo `authHeader`
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Nome original do log de trabalhos. </td> 
+   <td colname="col4"> Nome original do log de trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Uma ou mais constantes de Tipo de Log. Se presente, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
+   <td colname="col4"> Uma ou mais constantes de Tipo de Log. Se estiver presente, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
@@ -80,19 +81,19 @@ O campo de resposta `logMessage` está localizado com base no campo `authHeader`
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número de página dos resultados <span class="codeph"> recordsPerPage</span> a serem retornados. O valor padrão é 1. </td> 
+   <td colname="col4">Número de página de <span class="codeph"> registrosPerPage</span>-resultados a serem retornados. O valor padrão é 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Um dos valores constantes do Campo de Classificação de Detalhes da Ordem de Produção (Data ou LogType). O valor padrão é Data. </p> </td> 
+   <td colname="col4"> <p>Um dos valores constantes do Campo de Classificação Detalhado da Ordem de Produção (Data ou LogType). O valor padrão é Data. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Uma das constantes da string Direção de classificação. O valor padrão é crescente. </p> </td> 
+   <td colname="col4"> <p>Uma das constantes da string Direção da Classificação . O valor padrão é crescente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,11 +102,11 @@ O campo de resposta `logMessage` está localizado com base no campo `authHeader`
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| `*`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de tarefas. |
 
 ## Exemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Esta amostra de código retorna todos os detalhes do registro de trabalhos para uma empresa específica. O primeiro storage contém detalhes padrão do registro de tarefas. Um storage incorporado retorna informações adicionais sobre o trabalho.
+Esta amostra de código retorna todos os detalhes do log de tarefas de uma empresa específica. A primeira matriz contém detalhes padrão do log de trabalhos. Uma matriz incorporada retorna informações adicionais sobre a tarefa.
 
 **Solicitação**
 
