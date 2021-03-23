@@ -1,29 +1,30 @@
 ---
-description: Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botões de miniatura, botões de tela cheia, botões de fechamento e botões de barra de rolagem.
-seo-description: Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botões de miniatura, botões de tela cheia, botões de fechamento e botões de barra de rolagem.
+description: Determinado conteúdo que o Visualizador de catálogo eletrônico exibe está sujeito à localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões de barra de rolagem.
+seo-description: Determinado conteúdo que o Visualizador de catálogo eletrônico exibe está sujeito à localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões de barra de rolagem.
 seo-title: Localização dos elementos da interface do usuário
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-topic: Dynamic Media
 uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
 
 
-# Localização de elementos da interface do usuário{#localization-of-user-interface-elements}
+# Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
-Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botões de miniatura, botões de tela cheia, botões de fechamento e botões de barra de rolagem.
+Determinado conteúdo que o Visualizador de catálogo eletrônico exibe está sujeito à localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões de barra de rolagem.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para o idioma inglês ( `"en"`) fornecido com o visualizador predefinido e também pode ter valores definidos pelo usuário definidos para tantas localidades quantas forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para a localidade em inglês ( `"en"`) fornecida com o visualizador pronto para uso e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
-Quando o visualizador é start, ele verifica a localidade atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível na localidade. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão predefinido.
+Quando o visualizador é iniciado, ele verifica a localidade atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível na localidade. Se houver, ele usará o valor definido pelo usuário; caso contrário, retorna ao texto padrão pronto para uso.
 
-Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades suportadas, valores de texto SYMBOL para cada localidade e a localidade padrão.
+Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades compatíveis, valores de texto SYMBOL para cada localidade e o local padrão.
 
 Um exemplo desse objeto de localização:
 
@@ -41,11 +42,11 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
+No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece a localização de dois elementos da interface do usuário em cada localidade.
 
 O código da página da Web deve passar esse objeto de localização para o construtor do visualizador como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
-Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do container do visualizador):
+Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do contêiner do visualizador):
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -56,16 +57,16 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.RÓTULO  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo ARIA para o elemento visualizador de nível superior. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.ROLE_DESCRIPTION  </span> </p> </td> 
-   <td colname="col2"> <p>Descrição da função ARIA para o componente principal da visualização. </p> </td> 
+   <td colname="col2"> <p>Descrição da função ARIA para o componente de exibição principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT  </span> </p> </td> 
-   <td colname="col2"> <p>Dicas de uso ARIA para usuários de teclado. </p> </td> 
+   <td colname="col2"> <p>Dicas de uso de ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
@@ -73,19 +74,19 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão Mais zoom. </p> </td> 
+   <td colname="col2"> <p>Botão Ampliar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão Menos zoom. </p> </td> 
+   <td colname="col2"> <p>Botão Reduzir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de redefinição de zoom. </p> </td> 
+   <td colname="col2"> <p>Botão Redefinir zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de tela inteira em estado normal. </p> </td> 
+   <td colname="col2"> <p>Botão de tela cheia em estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -93,15 +94,15 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de rolagem para cima. </p> </td> 
+   <td colname="col2"> <p>Botão Rolar para cima. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de rolagem para baixo. </p> </td> 
+   <td colname="col2"> <p>Botão Rolar para baixo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão grande da próxima página. </p> </td> 
+   <td colname="col2"> <p>Botão Grande da próxima página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP  </span> </p> </td> 
@@ -112,7 +113,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
    <td colname="col2"> <p>Botão Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secundárioLastPageButton.PanRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão Última página. </p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +121,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
    <td colname="col2"> <p>Botão Primeira página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secundárioFirstPageButton.PanLeftButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão Primeira página. </p> </td> 
   </tr> 
   <tr> 
@@ -157,19 +158,19 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>cabeçalho da caixa de diálogo Email. </p> </td> 
+   <td colname="col2"> <p>Cabeçalho da caixa de diálogo de email. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo Email. </p> </td> 
+   <td colname="col2"> <p>Botão Fechar superior direito da caixa de diálogo Email. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS  </span> </p> </td> 
-   <td colname="col2"> <p>Mensagem de erro exibida no caso de o endereço de email estar malformado. </p> </td> 
+   <td colname="col2"> <p>Mensagem de erro exibida caso o endereço de email esteja malformado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo do campo de entrada "Para". </p> </td> 
+   <td colname="col2"> <p>Rótulo para o campo de entrada "To". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD  </span> </p> </td> 
@@ -197,7 +198,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>botão Cancelar. </p> </td> 
+   <td colname="col2"> <p>Botão Cancelar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION  </span> </p> </td> 
@@ -205,11 +206,11 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Selecione o botão Todos. </p> </td> 
+   <td colname="col2"> <p>Selecione o botão All . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Legenda do botão Fechar exibida na parte inferior da caixa de diálogo após o envio do formulário. </p> </td> 
+   <td colname="col2"> <p>Legenda do botão fechar exibida na parte inferior da caixa de diálogo após o envio do formulário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE  </span> </p> </td> 
@@ -221,7 +222,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de envio de formulário. </p> </td> 
+   <td colname="col2"> <p>Botão de envio do formulário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_SUCCESS  </span> </p> </td> 
@@ -237,7 +238,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER  </span> </p> </td> 
-   <td colname="col2"> <p>Incorporar cabeçalho da caixa de diálogo. </p> </td> 
+   <td colname="col2"> <p>Cabeçalho da caixa de diálogo Incorporar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
@@ -257,7 +258,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>botão Cancelar. </p> </td> 
+   <td colname="col2"> <p>Botão Cancelar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE  </span> </p> </td> 
@@ -273,7 +274,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo Link. </p> </td> 
+   <td colname="col2"> <p>Botão Fechar superior direito da caixa de diálogo Link. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION  </span> </p> </td> 
@@ -285,7 +286,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p>botão Cancelar. </p> </td> 
+   <td colname="col2"> <p>Botão Cancelar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION  </span> </p> </td> 
@@ -293,11 +294,11 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION  </span> </p> </td> 
-   <td colname="col2"> <p> Selecione o botão Todos. </p> </td> 
+   <td colname="col2"> <p> Selecione o botão All . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de compartilhamento do Facebook. </p> </td> 
+   <td colname="col2"> <p>Botão Compartilhar do Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
@@ -313,7 +314,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE  </span> </p> </td> 
-   <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo Imprimir. </p> </td> 
+   <td colname="col2"> <p>Botão Fechar superior direito da caixa de diálogo Imprimir. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE  </span> </p> </td> 
@@ -325,7 +326,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM  </span> </p> </td> 
-   <td colname="col2"> <p>Legenda do botão de opção "Expandir intervalo de". </p> </td> 
+   <td colname="col2"> <p>Legenda do botão de opção "Expandir intervalo a partir de". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_TO  </span> </p> </td> 
@@ -341,11 +342,11 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_ONE  </span> </p> </td> 
-   <td colname="col2"> <p>Legenda para o botão de opção "1 página por folha". </p> </td> 
+   <td colname="col2"> <p>Legenda do botão de opção "1 página por folha". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_TWO  </span> </p> </td> 
-   <td colname="col2"> <p>Legenda para o botão de opção "2 páginas por folha". </p> </td> 
+   <td colname="col2"> <p>Legenda do botão de opção "2 páginas por folha". </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.CANCEL  </span> </p> </td> 
@@ -353,7 +354,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL  </span> </p> </td> 
-   <td colname="col2"> <p> botão Cancelar. </p> </td> 
+   <td colname="col2"> <p> Botão Cancelar . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.ACTION  </span> </p> </td> 
@@ -364,12 +365,12 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
    <td colname="col2"> <p> Botão Enviar para impressão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritosMenu.TOOLTIP  </span> </p> </td> 
    <td colname="col2"> <p>Botão de menu Favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Botão "Adicionar favorito" no modo de edição de Favoritos. </p> </td> 
+   <td colname="col2"> <p>Botão "Adicionar favorito" no modo Editar Favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> AddFavoriteButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -377,7 +378,7 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>Botão "Remover favorito" no modo de edição de Favoritos. </p> </td> 
+   <td colname="col2"> <p>Botão "Remover favorito" no modo Editar Favoritos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
@@ -385,23 +386,23 @@ Os seguintes SYMBOLs são suportados (presumindo que containerId seja a ID do co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_SELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>botão "Visualização todos os favoritos" quando a visualização Favoritos estiver ativa. </p> </td> 
+   <td colname="col2"> <p>Botão "Exibir todos os favoritos" quando a exibição Favoritos estiver ativa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ViewAllFavoriteButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
-   <td colname="col2"> <p>botão "Visualização todos os favoritos" quando a visualização Favoritos estiver inativa. </p> </td> 
+   <td colname="col2"> <p>Botão "Exibir todos os favoritos" quando a exibição Favoritos estiver inativa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Ícone favorito único. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritosEffect.TOOLTIP  </span> </p> </td> 
+   <td colname="col2"> <p>Um único ícone favorito. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY]  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no tempo de carregamento. </p> <p>O nome desse símbolo é um modelo, em que <span class="codeph"> XX </span> é um índice de propagação com base em zero na orientação paisagem, e opcional <span class="codeph"> YY </span> é um índice de página com base em zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se apenas ao ativo inicialmente carregado; ignorado se um ativo for alterado usando a chamada de API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, em que <span class="codeph"> XX </span> é um índice de propagação com base em zero na orientação paisagem e <span class="codeph"> YY </span> opcional é um índice de página com base em zero dentro do spread direcionado por <span class="codeph"> XX </span>. </p> <p>Aplica-se apenas ao ativo inicialmente carregado; ignorado se um ativo for alterado usando a chamada da API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM  </span> </p> </td> 
-   <td colname="col2"> <p> Caractere usado como delimitador de rótulos de página caso os rótulos sejam definidos para as páginas esquerda e direita em uma página espelhada. </p> </td> 
+   <td colname="col2"> <p> Caractere usado como delimitador de rótulos de página caso os rótulos sejam definidos para páginas esquerda e direita em uma página espelhada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_SELECTED  </span> </p> </td> 
