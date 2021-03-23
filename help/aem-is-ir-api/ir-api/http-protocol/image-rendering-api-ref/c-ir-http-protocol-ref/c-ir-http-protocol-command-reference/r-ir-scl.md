@@ -1,15 +1,16 @@
 ---
-description: Dimensionar visualização. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução total.
-seo-description: Dimensionar visualização. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução total.
+description: Visualização de escala. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução completa.
+seo-description: Visualização de escala. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução completa.
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # scl{#scl}
 
-Dimensionar visualização. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução total.
+Visualização de escala. Dimensiona a imagem renderizada pelo fator de escala especificado, em relação à vinheta de resolução completa.
 
 `scl= *`renceFactor`*`
 
@@ -30,7 +31,7 @@ Dimensionar visualização. Dimensiona a imagem renderizada pelo fator de escala
 
 Se `scl=` vier depois de `wid=` ou `hei=` no URL, ele cancelará esses comandos e `scl=` definirá o tamanho da imagem retornada pelo servidor.
 
-No entanto, se `wid=` ou `hei=` vier depois de `scl=` no URL, eles cancelarão `scl=` e `wid=`/ `hei=` definirão o tamanho da imagem retornada pelo servidor.
+No entanto, se `wid=` ou `hei=` vier após `scl=` no URL, eles cancelarão `scl=` e `wid=`/ `hei=` definirão o tamanho da imagem retornada pelo servidor.
 
 >[!NOTE]
 >
@@ -38,13 +39,13 @@ No entanto, se `wid=` ou `hei=` vier depois de `scl=` no URL, eles cancelarão `
 
 ## Propriedades {#section-170458cbd6984bd59a3434431258b20f}
 
-Pode ocorrer em qualquer lugar dentro da solicitação. Ignorado se `wid=` ou `hei=` ocorrer depois de `scl=` na sequência de comandos.
+Pode ocorrer em qualquer lugar dentro da solicitação. Ignorado se `wid=` ou `hei=` ocorrer após `scl=` na sequência de comandos.
 
 Redimensionar a imagem com `scl=` não altera o valor de resolução de impressão incorporado na imagem de resposta.
 
 ## Padrão {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta será dimensionada para se ajustar ao tamanho definido por `attribute::DefaultPix`. Se `attribute::DefaultPix` estiver vazio, a imagem de resposta terá o mesmo tamanho que a imagem de visualização da vinheta.
+Se `wid=`, `hei=` ou `scl=` não forem especificadas, a imagem de resposta será dimensionada para se ajustar ao tamanho definido por `attribute::DefaultPix`. Se `attribute::DefaultPix` estiver vazio, a imagem de resposta terá o mesmo tamanho que a imagem de exibição da vinheta.
 
 ## Consulte também {#section-cc5002a1d49340bbb5c7a5864c297621}
 
