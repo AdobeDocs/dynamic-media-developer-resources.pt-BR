@@ -1,15 +1,16 @@
 ---
-description: Obtém registros de trabalhos especificados para a empresa selecionada. É possível classificar por caracteres, direção, datas de start e término e número de linhas.
-seo-description: Obtém registros de trabalhos especificados para a empresa selecionada. É possível classificar por caracteres, direção, datas de start e término e número de linhas.
+description: Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
+seo-description: Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getJobLogs{#getjoblogs}
 
-Obtém registros de trabalhos especificados para a empresa selecionada. É possível classificar por caracteres, direção, datas de start e término e número de linhas.
+Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 
 Sintaxe
 
@@ -39,23 +40,23 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | A alça da empresa. |
-| `*`userHandle`*` | `xsd:string` | Não | Obtém registros para trabalhos enviados por um usuário específico. |
+| `*`companyHandle`*` | `xsd:string` | Não | O responsável da empresa. |
+| `*`userHandle`*` | `xsd:string` | Não | Obtém registros para tarefas enviadas por um usuário específico. |
 | `*`sortBy`*` | `xsd:string` | Não | Permite selecionar campos de classificação. |
 | `*`sortDirection`*` | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
-| `*`startDate`*` | `xsd:dateTime` | Não | A data e a hora do start do registro de tarefas. Forneça o fuso horário com a solicitação para este campo. |
-| `*`endDate`*` | `xsd:dateTime` | Não | A data e a hora do término do log de trabalhos. Forneça o fuso horário com a solicitação para este campo. |
-| `*`numRows`*` | `xsd:int` | Não | Número máximo de linhas a retornar. |
+| `*`startDate`*` | `xsd:dateTime` | Não | A data e a hora do início do log de trabalhos. Forneça o fuso horário com a solicitação para esse campo. |
+| `*`endDate`*` | `xsd:dateTime` | Não | A data e a hora do fim do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
+| `*`numRows`*` | `xsd:int` | Não | Número máximo de linhas a serem retornadas. |
 
 **Saída (getJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Sim | Matriz de registros de tarefas. |
 
 ## Exemplos {#section-35871c94b4a44559912577efddbc46a6}
 
-Essa amostra de código retorna registros de trabalhos IPS para uma empresa específica. Você também pode usá-lo para retornar registros de trabalhos para um usuário ou empresa e usuário específicos.
+Esta amostra de código retorna registros de trabalhos do IPS para uma empresa específica. Também é possível usá-lo para retornar registros de trabalhos para um usuário ou empresa e usuário específicos.
 
 **Solicitação**
 
