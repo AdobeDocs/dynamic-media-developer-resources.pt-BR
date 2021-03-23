@@ -1,15 +1,16 @@
 ---
-description: A lista suspensa do menu Favoritos é exibida na barra de controle. Ele consiste em um botão e um painel que se expande quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
-seo-description: A lista suspensa do menu Favoritos é exibida na barra de controle. Ele consiste em um botão e um painel que se expande quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
+description: A lista suspensa do menu Favoritos aparece na barra de controle. Consiste em um botão e um painel que é expandido quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
+seo-description: A lista suspensa do menu Favoritos aparece na barra de controle. Consiste em um botão e um painel que é expandido quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
 seo-title: Menu Favoritos
 solution: Experience Manager
 title: Menu Favoritos
-topic: Dynamic Media
 uuid: 46de2a74-690e-4010-8a71-54206dd02fd0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Menu Favoritos{#favorites-menu}
 
-A lista suspensa do menu Favoritos é exibida na barra de controle. Ele consiste em um botão e um painel que se expande quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
+A lista suspensa do menu Favoritos aparece na barra de controle. Consiste em um botão e um painel que é expandido quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -27,7 +28,7 @@ A posição e o tamanho do menu Favoritos na interface do usuário do visualizad
 .s7ecatalogsearchviewer .s7favoritesmenu
 ```
 
-**Propriedades de CSS do botão de menu Favoritos**
+**Propriedades CSS do botão de menu Favoritos**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -37,7 +38,7 @@ A posição e o tamanho do menu Favoritos na interface do usuário do visualizad
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
-   <td colname="col2"> <p> A distância até o botão seguinte à esquerda ou ao lado esquerdo da barra de controle, se este for o primeiro botão em uma linha. </p> </td> 
+   <td colname="col2"> <p> A distância até ao botão seguinte à esquerda ou à esquerda da barra de controle, se este for o primeiro botão de uma linha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -50,7 +51,7 @@ A posição e o tamanho do menu Favoritos na interface do usuário do visualizad
  </tbody> 
 </table>
 
-Exemplo - configure um menu Favoritos que esteja posicionado em quatro pixels a partir da parte superior da barra de controle e em dez pixels a partir do botão mais próximo à esquerda e dimensionado em 28 x 28 pixels.
+Exemplo - configure um menu Favoritos que é posicionado em quatro pixels da parte superior da barra de controle e em dez pixels do botão mais próximo à esquerda e dimensionado em 28 x 28 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu { 
@@ -67,26 +68,26 @@ A aparência do botão de menu Favoritos é controlada com o seguinte seletor de
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**Propriedades de CSS do botão Favoritos**
+**Propriedades CSS do botão Favoritos**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> A imagem que é exibida para um determinado estado de botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da sprite de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Este botão suporta o seletor de atributos `state`, que pode ser usado para aplicar diferentes capas a diferentes estados de botão.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
 Exemplo - configure um botão de menu Favoritos que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
@@ -116,7 +117,7 @@ A aparência do painel que contém ícones Favoritos individuais é controlada p
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>A cor de plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 
