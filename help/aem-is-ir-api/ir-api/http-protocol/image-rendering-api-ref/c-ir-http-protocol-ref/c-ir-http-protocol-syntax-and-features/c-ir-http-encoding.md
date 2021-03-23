@@ -1,15 +1,16 @@
 ---
-description: Os valores de comando devem ser codificados por http usando %xx sequências de escape, de modo que as strings de valor não incluam os caracteres reservados '=', '&' e '%'.
-seo-description: Os valores de comando devem ser codificados por http usando %xx sequências de escape, de modo que as strings de valor não incluam os caracteres reservados '=', '&' e '%'.
+description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
+seo-description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
 seo-title: Codificação HTTP de renderização de imagem
 solution: Experience Manager
 title: Codificação HTTP de renderização de imagem
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # Codificação HTTP de renderização de imagem{#image-rendering-http-encoding}
 
-Os valores de comando devem ser codificados por http usando %xx sequências de escape, de modo que as strings de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
+Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, como &#39; &#39; (espaço), &#39;&quot;&#39;(citação-duplo), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
+Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, como &#39; (espaço), &#39;&quot;(aspas duplas), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
 
-**Cuidado: as chaves { }** usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se isso for um problema, a renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
+**Cuidado:** as chaves { } usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Certos clientes de email infelizmente codificam chaves em solicitações HTTP incorporadas. Caso isso seja um problema, a Renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
 
 ## Exemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 
 `…&$text=rate&weight=85% 27#&…`
 
-O fragmento de solicitação acima deve ser codificado da seguinte forma:
+O fragmento de solicitação acima deve ser codificado da seguinte maneira:
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
