@@ -1,15 +1,16 @@
 ---
-description: Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decal.
-seo-description: Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decal.
+description: Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decalque.
+seo-description: Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decalque.
 seo-title: Caminho *
 solution: Experience Manager
 title: Caminho *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -17,23 +18,23 @@ ht-degree: 0%
 
 # Caminho *{#path}
 
-Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decal.
+Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de textura ou decalque.
 
 O servidor combina esse valor com `attribute::RootPath` para criar o caminho do arquivo de imagem real. Pode também ser um caminho absoluto.
 
-Usado para especificar o arquivo de imagem de textura para materiais de textura, gabinete e revestimento de janela, e o arquivo de imagem RGB ou RGBA para materiais de borda de decal e parede. Nem todos os materiais de cobertura de gabinete e de janela exigem uma imagem de textura repetível separada.
+Usado para especificar o arquivo de imagem de textura para materiais de cobertura de textura, gabinete e janela, e o arquivo de imagem RGB ou RGBA para materiais de borda de decalque e parede. Nem todos os materiais de revestimento de armário e janela exigem uma imagem de textura repetível separada.
 
 ## Propriedades {#section-8c12ea24f21d4472be677581893e6681}
 
-Sequência de caracteres de texto. Obrigatório para materiais de textura e decalque, facultativo para materiais de revestimento de caixa e janela. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Deve estar vazio para materiais de cor sólida.
+Sequência de texto. Obrigatório para materiais de textura e decalque, facultativo para materiais de revestimento de armário e de janela. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Deve estar vazio para materiais de cor sólida.
 
-## Formatos de arquivo suportados {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
+## Formatos de arquivo compatíveis {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-A renderização de imagem suporta os mesmos formatos de imagem de origem que o Dynamic Media Image Server.
+A Renderização de imagem é compatível com os mesmos formatos de imagem de origem que o Dynamic Media Image Serving.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. O Serviço de imagens inclui o utilitário Conversor de imagens (IC) que cria imagens PTIFF de qualquer formato compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão o melhor desempenho ao usar o formato de multiresolução TIFF (PTIFF) da pirâmide Dynamic Media. A Exibição de imagens inclui o utilitário Conversor de imagens (IC) que cria imagens PTIFF de qualquer formato compatível.
 
-Consulte a descrição do utilitário IC na documentação do Servidor de imagens para obter uma lista completa dos formatos de arquivo suportados.
+Consulte a descrição do utilitário IC na documentação do Image Serving para obter uma lista completa dos formatos de arquivo compatíveis.
 
 ## Padrão {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
