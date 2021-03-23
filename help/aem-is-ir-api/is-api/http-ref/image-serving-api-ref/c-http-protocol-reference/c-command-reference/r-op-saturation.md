@@ -4,12 +4,13 @@ seo-description: Ajuste a saturação. Altera a saturação de cada pixel visív
 seo-title: op_saturation
 solution: Experience Manager
 title: op_saturation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -28,18 +29,18 @@ Ajuste a saturação. Altera a saturação de cada pixel visível da camada ou i
  </tr> 
 </table>
 
-`op_saturation=-100` dessatura total da imagem.
+`op_saturation=-100` dessatura totalmente a imagem.
 
 ## Propriedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado pelas camadas de efeito.
+comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado por camadas de efeito.
 
 ## Padrão {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, sem alteração na saturação. As imagens ou camadas CMYK são convertidas em RGB antes da operação ser aplicada.
+`op_saturation=0`, sem alteração na saturação. Imagens ou camadas CMYK são convertidas em RGB antes da aplicação da operação.
 
 ## Exemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipule uma fotografia colorida para obter uma aparência &quot;chave&quot;:
+Manipule uma fotografia colorida para obter uma aparência &quot;de alta definição&quot;:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`
