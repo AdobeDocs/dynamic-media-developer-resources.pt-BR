@@ -4,12 +4,13 @@ seo-description: Define os metadados do ativo usando o modo de lote.
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
+feature: Dynamic Media Classic, SDK/API, Metadata.Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -46,8 +47,8 @@ Sintaxe
 | `*`successCount`*` | `xsd:int` | Sim | O número de metadados definidos com êxito. |
 | `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir metadados. |
 | `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir metadados. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram avisos quando a operação tentou definir em lote metadados para os ativos. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram erros quando a operação tentava definir metadados em lote para os ativos. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram avisos quando a operação tentou fazer o conjunto de metadados em lote para os ativos. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geram erros quando a operação tentou colocar metadados em lote para os ativos. |
 
 ## Exemplos {#section-2de798ac920e4b47b971b1729a64395b}
 
