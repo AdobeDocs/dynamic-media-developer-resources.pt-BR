@@ -1,15 +1,16 @@
 ---
-description: Contém configurações do Servidor de plataforma.
-seo-description: Contém configurações do Servidor de plataforma.
+description: Contém as configurações do Servidor da Plataforma.
+seo-description: Contém as configurações do Servidor da Plataforma.
 seo-title: PlatformServer.conf
 solution: Experience Manager
 title: PlatformServer.conf
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d798762b-c9ff-4e1b-b2ac-c5e40476b375
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # PlatformServer.conf{#platformserver-conf}
 
-Contém configurações do Servidor de plataforma.
+Contém as configurações do Servidor da Plataforma.
 
-Este arquivo é um arquivo de propriedades JAVA. Devem ser tomadas precauções para seguir as convenções adequadas; caso contrário, o Servidor de plataforma poderá falhar no start. Use uma barra invertida de duplo &#39;\\&#39; ou uma barra invertida &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivos do Windows. A barra invertida é usada como um caractere de escape nesse tipo de arquivo.
+Esse arquivo é um arquivo de propriedades JAVA. Devem ser tomadas precauções para seguir as convenções adequadas; caso contrário, o Servidor de plataforma poderá não ser iniciado. Use uma barra invertida dupla &#39;\&#39; ou uma barra invertida &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows. A barra invertida é usada como um caractere de escape nesse tipo de arquivo.
 
-As alterações neste arquivo entrarão em vigor depois que o arquivo for salvo.
+As alterações nesse arquivo entrarão em vigor depois que o arquivo for salvo.
 
 Somente as configurações listadas abaixo podem ser alteradas em [!DNL PlatformServer.conf]. Se uma configuração específica estiver ausente, ela poderá ser adicionada em qualquer lugar do arquivo. Apenas uma instância de cada configuração pode estar presente.
 
