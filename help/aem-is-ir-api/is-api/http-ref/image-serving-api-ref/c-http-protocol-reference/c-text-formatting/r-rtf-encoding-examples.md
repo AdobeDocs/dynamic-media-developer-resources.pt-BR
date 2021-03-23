@@ -4,12 +4,13 @@ seo-description: Os exemplos a seguir mostram uma amostra de comandos de texto e
 seo-title: Exemplos de codificação RTF
 solution: Experience Manager
 title: Exemplos de codificação RTF
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -55,6 +56,6 @@ Os exemplos a seguir mostram uma amostra de comandos de texto e como eles afetam
 
 ![](assets/rtf09.png)
 
-## Consulte Também {#section-e702276fd0e847779cb75a6ccb92fbc8}
+## Consulte também {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
 [text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), Codificação [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)HTTP, Especificação  [RTF 1.6](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
