@@ -1,21 +1,22 @@
 ---
 description: Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
 seo-description: Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
-seo-title: PerspectiveQuad
+seo-title: PerspectivaQuad
 solution: Experience Manager
-title: PerspectiveQuad
-topic: Dynamic Media Image Production System API
+title: PerspectivaQuad
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 9%
 
 ---
 
 
-# PerspectiveQuad{#perspectivequad}
+# PerspectivaQuad{#perspectivequad}
 
 Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
 
@@ -26,17 +27,17 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `*`x0`*` | `xsd:double` | Coordenada superior esquerda do eixo x. |
-| `*`y0`*` | `xsd:double` | Coordenada superior do eixo y à esquerda. |
+| `*`y0`*` | `xsd:double` | Coordenada do eixo y superior esquerda. |
 | `*`x1`*` | `xsd:double` | Coordenada do eixo x superior direito. |
 | `*`y1`*` | `xsd:double` | Coordenada do eixo y superior direito. |
 | `*`x2`*` | `xsd:double` | Coordenada do eixo x inferior direito. |
 | `*`y2`*` | `xsd:double` | Coordenada do eixo y inferior direito. |
-| `*`x3`*` | `xsd:double` | Coordenação do eixo x esquerdo inferior. |
+| `*`x3`*` | `xsd:double` | Correspondência do eixo x esquerdo inferior. |
 | `*`y3`*` | `xsd:double` | Coordenada inferior do eixo y à esquerda. |
 
 ## Exemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-O tipo `PerspectiveQuad` retorna os dados nesta ordem:
+O tipo `PerspectiveQuad` retorna dados nesta ordem:
 
 ```
 <complexType name="PerspectiveQuad">
