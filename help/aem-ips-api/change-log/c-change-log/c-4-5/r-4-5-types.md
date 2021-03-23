@@ -1,12 +1,13 @@
 ---
 description: Descreve tipos de dados novos e alterados para a API IPS versão 4.5.
 solution: Experience Manager
-title: Tipos de dados novos e modificados
-topic: Dynamic Media Image Production System API
+title: Tipos de dados Novo e Modificado
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ Sintaxe
 ## Tipos modificados {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
 * O ativo inclui um novo campo `fileName` que retorna o nome do arquivo virtual.
-* `AssetSummary` retorna um  `type` e  `name` campo
+* `AssetSummary` retorna um  `type` campo  `name` e
 
 * `MetadataField` inclui  `isHidden`
 
