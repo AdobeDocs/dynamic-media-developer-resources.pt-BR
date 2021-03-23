@@ -1,15 +1,16 @@
 ---
-description: Algumas restrições se aplicam ao aninhamento e incorporação.
-seo-description: Algumas restrições se aplicam ao aninhamento e incorporação.
+description: Algumas restrições se aplicam ao aninhamento e à incorporação.
+seo-description: Algumas restrições se aplicam ao aninhamento e à incorporação.
 seo-title: Restrições
 solution: Experience Manager
 title: Restrições
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 05e97255-db4d-4587-94d2-a7ea608ff7d4
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # Restrições{#restrictions}
 
-Algumas restrições se aplicam ao aninhamento e incorporação.
+Algumas restrições se aplicam ao aninhamento e à incorporação.
 
-Para um bom desempenho do servidor, a resolução de imagens retornadas por solicitações aninhadas deve corresponder razoavelmente à resolução de textura dos objetos aos quais o material está sendo aplicado.
+Para um bom desempenho do servidor, a resolução de imagens retornadas por solicitações aninhadas deve corresponder razoavelmente à resolução de textura do(s) objeto(s) ao(s) qual(is) o material está sendo aplicado.
 
-As imagens estrangeiras são armazenadas em cache localmente. Quaisquer alterações nessas imagens serão detectadas somente depois que a entrada do cache local se tornar obsoleta (com base no cabeçalho HTTP expirado).
+Imagens estrangeiras são armazenadas em cache localmente. Quaisquer alterações nessas imagens serão detectadas somente após a entrada do cache local se tornar obsoleta (com base no cabeçalho HTTP expirado).
