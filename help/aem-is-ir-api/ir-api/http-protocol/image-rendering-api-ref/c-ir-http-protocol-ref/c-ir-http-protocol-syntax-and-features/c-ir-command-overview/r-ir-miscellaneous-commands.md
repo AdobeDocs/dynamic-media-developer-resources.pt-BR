@@ -4,12 +4,13 @@ seo-description: Esses comandos também estão disponíveis.
 seo-title: Comandos diversos
 solution: Experience Manager
 title: Comandos diversos
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
@@ -26,13 +27,13 @@ Esses comandos também estão disponíveis.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> hide</a></span> </p></td> 
-  <td class="stentry"> <p>Ocultar os objetos sobrepostos selecionados. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> ocultar</a></span> </p></td> 
+  <td class="stentry"> <p>Ocultar os objetos de sobreposição selecionados. </p></td> 
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
-  <td class="stentry"> <p>Torne visíveis os objetos sobrepostos selecionados. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> mostrar</a></span> </p> </td> 
+  <td class="stentry"> <p>Tornar visíveis os objetos de sobreposição selecionados. </p></td> 
   <td class="stentry"></td> 
  </tr> 
 </table>
