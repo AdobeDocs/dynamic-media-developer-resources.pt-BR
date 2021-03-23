@@ -1,15 +1,16 @@
 ---
-description: Verifica se um usuário com uma empresa específica (identificada pelo identificador), endereço de email e senha pode fazer logon.
-seo-description: Verifica se um usuário com uma empresa específica (identificada pelo identificador), endereço de email e senha pode fazer logon.
+description: Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
+seo-description: Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # checkLogin{#checklogin}
 
-Verifica se um usuário com uma empresa específica (identificada pelo identificador), endereço de email e senha pode fazer logon.
+Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
 
 >[!NOTE]
 >
->Se o identificador de empresa for omitido, esse método verificará o logon do usuário padrão.
+>Se o identificador da empresa for omitido, esse método verificará o logon do usuário padrão.
 
 ## Tipos de usuário autorizados {#section-df8b26b550854f899948276adaca083a}
 
@@ -41,9 +42,9 @@ Verifica se um usuário com uma empresa específica (identificada pelo identific
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | O identificador da empresa que contém o usuário. |
+| `*`companyHandle`*` | `xsd:string` | Não | O identificador para a empresa que contém o usuário. |
 | `*`email`*` | `xsd:string` | Sim | O endereço de email do usuário. |
-| `*`password`*` | `xsd:string` | Sim | A senha do usuário. |
+| `*`senha`*` | `xsd:string` | Sim | A senha do usuário. |
 
 **Saída (checkLoginParam)**
 
@@ -53,7 +54,7 @@ Verifica se um usuário com uma empresa específica (identificada pelo identific
 
 ## Exemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este exemplo de código usa um parâmetro de identificador de empresa, um endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *pode* efetuar logon, esse método retornará a string, `ValidLogin`. Se o usuário *não puder* fazer logon, esse método retornará a string, `InvalidLogin`.
+Este código de exemplo usa um parâmetro de identificador da empresa, um endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *pode* fazer logon, esse método retornará a string, `ValidLogin`. Se o usuário *não puder* fazer logon, esse método retornará a string, `InvalidLogin`.
 
 **Solicitação**
 
