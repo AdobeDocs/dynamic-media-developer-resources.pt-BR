@@ -2,13 +2,14 @@
 description: ZoomView.doubleclick
 solution: Experience Manager
 title: ZoomView.doubleclick
-topic: Dynamic Media
 uuid: 8dabc31c-ec7e-4dc0-b528-4f3f43f46721
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
@@ -20,8 +21,8 @@ ht-degree: 1%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoom|Reset  </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de ações de clicar/tocar em duplo para aplicar zoom. A configuração para <span class="codeph"> none </span> desativa o zoom de clique/toque em duplo. Se definido para <span class="codeph"> zoom </span> clicando no zoom da imagem em uma etapa de zoom; CTRL+Clique diminui o zoom em uma etapa. Definir para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível de zoom inicial. Para <span class="codeph"> zoomReset </span>, a redefinição será aplicada se o fator de zoom atual estiver dentro ou acima do limite especificado, caso contrário o zoom será aplicado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhum|zoom|reset|zoomReset  </span> </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de duplo clique/toque para aplicar zoom às ações. Definir para <span class="codeph"> nenhum </span> desativa o zoom de duplo clique/toque. Se definido como <span class="codeph"> zoom </span> clicando nos zoom da imagem em uma etapa de zoom; CTRL + Clique com o zoom para baixo em uma etapa de zoom. Configurar para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível de zoom inicial. Para <span class="codeph"> zoomReset </span>, a redefinição será aplicada se o fator de zoom atual estiver dentro ou além do limite especificado, caso contrário, o zoom será aplicado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,7 +33,7 @@ Opcional.
 
 ## Padrão {#section-71fb773f814649b2885aefee68073641}
 
-`reset` sobre computadores de secretária;  `zoomReset` em dispositivos de toque.
+`reset` em computadores de secretária;  `zoomReset` em dispositivos de toque.
 
 ## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
