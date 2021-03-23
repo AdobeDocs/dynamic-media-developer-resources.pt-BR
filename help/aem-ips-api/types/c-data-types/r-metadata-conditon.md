@@ -4,12 +4,13 @@ seo-description: Adiciona um termo de pesquisa para uso com searchAssets.
 seo-title: MetadataCondition
 solution: Experience Manager
 title: MetadataCondition
-topic: Dynamic Media Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -40,67 +41,67 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Escolha dos operadores de comparação de sequências de caracteres. </td> 
+   <td colname="col3"> Escolha de operadores de comparação de string. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Valor para testar. </td> 
+   <td colname="col3"> Valor a testar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> Valor de comparação booliano (somente para campos digitados como booleano). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Valor de comparação booleano (somente para campos do tipo booleano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor de comparação longo (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor de comparação longo (somente para campos do tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor mínimo longo na comparação do intervalo (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor mínimo longo na comparação do intervalo (somente para campos do tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor máximo longo na comparação do intervalo (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor longo máximo na comparação do intervalo (somente para campos sem tipo). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
-   <td colname="col3"> Valor de comparação de duplos (somente para campos de tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor de comparação duplo (somente para campos de tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
-   <td colname="col3"> Valor mínimo do duplo na comparação do intervalo (somente para campos com tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor duplo mínimo na comparação do intervalo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
-   <td colname="col3"> Valor máximo do duplo na comparação do intervalo (somente para campos de tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valor duplo máximo na comparação do intervalo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de comparação de data (somente para campos digitados por data). </td> 
+   <td colname="col3"> Valor de comparação de data (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de data mínimo na comparação do intervalo (somente para campos digitados por data). </td> 
+   <td colname="col3"> Valor mínimo de data na comparação do intervalo (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor máximo de data na comparação do intervalo (somente para campos digitados por data). </td> 
+   <td colname="col3"> Valor máximo de data na comparação do intervalo (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> diferencia maiúsculas de minúsculas</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Estabelece distinção entre maiúsculas e minúsculas no Servidor de Metadados. Usado na chamada <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Estabelece a diferenciação entre maiúsculas e minúsculas para o Servidor de metadados. Usado na chamada <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
