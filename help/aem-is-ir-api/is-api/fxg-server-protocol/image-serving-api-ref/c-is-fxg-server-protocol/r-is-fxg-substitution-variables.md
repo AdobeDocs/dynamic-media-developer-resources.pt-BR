@@ -1,23 +1,24 @@
 ---
-description: As variáveis de substituição são usadas para transferir valores do URL de solicitação para modelos FXG armazenados no servidor.
-seo-description: As variáveis de substituição são usadas para transferir valores do URL de solicitação para modelos FXG armazenados no servidor.
+description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
+seo-description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
 seo-title: Variáveis de substituição
 solution: Experience Manager
 title: Variáveis de substituição
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 
-# Variáveis de substituição{#substitution-variables}
+# Variáveis de Substituição{#substitution-variables}
 
-As variáveis de substituição são usadas para transferir valores do URL de solicitação para modelos FXG armazenados no servidor.
+As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
 
 ` $ *``*= *`varvalue`*`
 
@@ -32,8 +33,8 @@ As variáveis de substituição são usadas para transferir valores do URL de so
  </tr> 
 </table>
 
-* Definições e referências de variáveis podem ocorrer na parte do query do URL da solicitação.
+* Definições e referências de variáveis podem ocorrer na parte de consulta do URL da solicitação.
 * As variáveis são definidas como acima, semelhantes a outros comandos IS; o &#39;$&#39; à esquerda identifica o comando como uma definição de variável.
-* O nome da variável `*`var`*` faz distinção entre maiúsculas e minúsculas e pode consistir em qualquer combinação de letras, números, &#39;-&#39; e &#39;_&#39;.
-* O valor importante deve ser codificado em URL de passagem única para transmissão segura HTTP.
+* O nome da variável `*`var`*` diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras, números, &#39;-&#39; e &#39;_&#39;.
+* O valor importante deve ser codificado por URL de passagem única para transmissão HTTP segura.
 
