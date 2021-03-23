@@ -1,15 +1,16 @@
 ---
-description: Metadados a serem excluídos do ativo.
-seo-description: Metadados a serem excluídos do ativo.
+description: Metadados para excluir do ativo.
+seo-description: Metadados para excluir do ativo.
 seo-title: MetadataDelete
 solution: Experience Manager
 title: MetadataDelete
-topic: Dynamic Media Image Production System API
 uuid: 7bd80931-4b7a-4a70-a505-b351653549af
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # MetadataDelete{#metadatadelete}
 
-Metadados a serem excluídos do ativo.
+Metadados para excluir do ativo.
 
 Sintaxe
 
