@@ -4,12 +4,13 @@ seo-description: Retorna o histórico de publicação de um ativo.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -39,7 +40,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação do ativo. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação de ativos. |
 | `*`assetHandle`*` | `xsd:string` | Sim | O ativo com o histórico de publicação que você deseja examinar. |
 
 **Saída (getAssetPublishHistoryReturn)**
