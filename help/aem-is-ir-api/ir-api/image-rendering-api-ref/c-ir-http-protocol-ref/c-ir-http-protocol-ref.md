@@ -1,15 +1,16 @@
 ---
-description: Este documento descreve o protocolo HTTP para a renderização de imagem Dynamic Media.
-seo-description: Este documento descreve o protocolo HTTP para a renderização de imagem Dynamic Media.
-seo-title: Referência do protocolo HTTP
+description: Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
+seo-description: Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
+seo-title: Referência de protocolo HTTP
 solution: Experience Manager
-title: Referência do protocolo HTTP
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Referência de protocolo HTTP
 uuid: efa23fad-b232-4a5b-b594-a0b668279aad
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -17,5 +18,5 @@ ht-degree: 0%
 
 # Referência de protocolo HTTP{#http-protocol-reference}
 
-Este documento descreve o protocolo HTTP para a renderização de imagem Dynamic Media.
+Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
 
