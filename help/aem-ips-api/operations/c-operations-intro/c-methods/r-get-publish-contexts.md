@@ -1,19 +1,20 @@
 ---
-description: getPublishContext
+description: getPublishContexts
 solution: Experience Manager
-title: getPublishContext
-topic: Dynamic Media Image Production System API
+title: getPublishContexts
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
 
-# getPublishContext{#getpublishcontexts}
+# getPublishContexts{#getpublishcontexts}
 
 Sintaxe
 
@@ -40,7 +41,7 @@ Sintaxe
 
 ## Parâmetros {#section-d08e2175d3f84774b55b91bc590b8b3f}
 
-**Entrada (getPublishContextParam)**
+**Entrada (getPublishContextsParam)**
 
 <table id="table_4A505A067586464B99F8F68E3B1BE75E"> 
  <thead> 
@@ -56,7 +57,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Segure a empresa. </td> 
+   <td colname="col4"> Manipule a empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
@@ -73,11 +74,11 @@ Sintaxe
  </tbody> 
 </table>
 
-**Saída (getPublishContextReturn)**
+**Saída (getPublishContextsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`publishContextArray`*` | tipos:PublishContextArray | Sim | Uma matriz de contextos de publicação para uma empresa, filtrados por tipo de contexto, se necessário. |
+| `*`publishContextArray`*` | tipos:PublishContextArray | Sim | Uma matriz de contextos de publicação para uma empresa, filtrada por tipo de contexto, se necessário. |
 
 ## Exemplos {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
