@@ -1,15 +1,16 @@
 ---
-description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura de tipo com a alça para o tipo, bem como o tipo de propriedade.
-seo-description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura de tipo com a alça para o tipo, bem como o tipo de propriedade.
+description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
+seo-description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getPropertySetType{#getpropertysettype}
 
-Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura de tipo com a alça para o tipo, bem como o tipo de propriedade.
+Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
 
 Sintaxe
 
@@ -39,7 +40,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | A alça da empresa. Opcional, pois um tipo de conjunto de propriedades pode pertencer a várias empresas. |
+| `*`companyHandle`*` | `xsd:string` | Não | O nome da empresa. Opcional, pois um tipo de conjunto de propriedades pode pertencer a várias empresas. |
 | `*`name`*` | `xsd:string` | Sim | Nome do tipo de conjunto de propriedades. |
 
 **Saída (getPropertySetTypeReturn)**
