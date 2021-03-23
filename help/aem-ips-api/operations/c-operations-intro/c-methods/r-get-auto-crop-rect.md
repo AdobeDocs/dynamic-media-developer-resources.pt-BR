@@ -1,15 +1,16 @@
 ---
-description: Retorna uma região recortada para uma imagem com base na cor ou transparência do plano de fundo.
-seo-description: Retorna uma região recortada para uma imagem com base na cor ou transparência do plano de fundo.
+description: Retorna uma região cortada para uma imagem com base em sua cor de fundo ou transparência.
+seo-description: Retorna uma região cortada para uma imagem com base em sua cor de fundo ou transparência.
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getAutoCropRect{#getautocroprect}
 
-Retorna uma região recortada para uma imagem com base na cor ou transparência do plano de fundo.
+Retorna uma região cortada para uma imagem com base em sua cor de fundo ou transparência.
 
 Sintaxe
 
@@ -41,9 +42,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o ativo que você deseja trabalhar. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o ativo que deseja trabalhar. |
 | `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo com o qual você deseja trabalhar. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base em cores. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base na cor. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
 | `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Não | Calcule o retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Saída (getAutoCropRectReturn)**
@@ -83,6 +84,6 @@ Sintaxe
 
 >[!MORELIKETHIS]
 >
->* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+>* [Opções deCortarCorAutomática](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
