@@ -1,15 +1,16 @@
 ---
-description: As palavras-chave da plataforma de metadados extensíveis de um ativo.
-seo-description: As palavras-chave da plataforma de metadados extensíveis de um ativo.
+description: As palavras-chave da plataforma de metadados extensível de um ativo.
+seo-description: As palavras-chave da plataforma de metadados extensível de um ativo.
 seo-title: XmpKeywords
 solution: Experience Manager
 title: XmpKeywords
-topic: Dynamic Media Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # XmpKeywords{#xmpkeywords}
 
-As palavras-chave da plataforma de metadados extensíveis de um ativo.
+As palavras-chave da plataforma de metadados extensível de um ativo.
 
 Sintaxe
 
@@ -35,7 +36,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas no nó de propriedades <span class="codeph"> dc:subject=</span> XMP. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisa ser escapada por um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida normal do duplo (\\). </p> </td> 
+   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas no nó da propriedade XMP <span class="codeph"> dc:subject=</span>. Se uma vírgula for exibida em qualquer um dos valores individuais, ela precisará ser escapada por um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida dupla normal (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
