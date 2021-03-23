@@ -1,15 +1,16 @@
 ---
-description: Utilitário de validação de imagem. Este utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
-seo-description: Utilitário de validação de imagem. Este utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
+description: Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
+seo-description: Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
 seo-title: validate
 solution: Experience Manager
 title: validate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 0%
 
 # validate{#validate}
 
-Utilitário de validação de imagem. Este utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
+Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
 
-Todos os arquivos de imagem não PTIFF devem passar a validação antes que o arquivo seja disponibilizado para o Serviço de imagem como uma imagem de origem. As imagens PTIFF devem ser validadas após operações de cópia potencialmente não confiáveis.
+Todos os arquivos de imagem não PTIFF devem passar a validação antes que o arquivo seja disponibilizado para o Image Serving como uma imagem de origem. As imagens PTIFF devem ser validadas após operações de cópia potencialmente não fiáveis.
 
 ## Uso {#usage}
 
@@ -28,11 +29,11 @@ Todos os arquivos de imagem não PTIFF devem passar a validação antes que o ar
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualquer  </span> </p> <p>Tipo de arquivo de origem; pelo menos um deve ser especificado (-any permite os mesmos tipos de arquivos de imagem suportados pelo IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualquer  </span> </p> <p>Tipo de arquivo de origem; pelo menos um deve ser especificado (-any permite os mesmos tipos de arquivo de imagem compatíveis com IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> opções  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Outras opções de comando (consulte abaixo). </p> </td> 
+  <td class="stentry"> <p>Outras opções de comando (veja abaixo). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> sourceFile  </span> </span> </p> </td> 
@@ -42,14 +43,14 @@ Todos os arquivos de imagem não PTIFF devem passar a validação antes que o ar
 
 ## Retorna {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-0 se bem-sucedido. Se ocorrer um erro, um valor diferente de zero será retornado e os detalhes do erro serão enviados para `stderr`.
+0 se bem-sucedido. Se ocorrer um erro, um valor diferente de zero é retornado e os detalhes do erro são enviados para `stderr`.
 
 ## Opções {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList  <span class="varname"> listFile  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Especifica um arquivo de texto separado que contém a lista de arquivos de imagem. Um registro por arquivo. Se <span class="codeph"> -fileList </span> estiver incluído, <span class="varname"> sourceFile </span> não deverá ser especificado. </p> </td> 
+  <td class="stentry"> <p>Especifica um arquivo de texto separado contendo a lista de arquivos de imagem. Um registro por arquivo. Se <span class="codeph"> -fileList </span> for incluído, <span class="varname"> sourceFile </span> não deverá ser especificado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels  </span> </p> </td> 
@@ -57,18 +58,18 @@ Todos os arquivos de imagem não PTIFF devem passar a validação antes que o ar
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile  </span> </p> </td> 
-  <td class="stentry"> <p>Verifica a validade do perfil de cor incorporado. Por padrão, o corpo do perfil não está marcado. </p> </td> 
+  <td class="stentry"> <p>Verifica a validade do perfil de cores incorporado. Por padrão, o corpo do perfil não está marcado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -cancel16BitPerComponent  </span> </p> </td> 
-  <td class="stentry"> <p> Rejeita imagens com 16 bits por componente de imagem. Sempre especificado pelo Servidor de imagens quando ele valida imagens de origem remota. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent  </span> </p> </td> 
+  <td class="stentry"> <p> Rejeita imagens com 16 bits por componente de imagem. Sempre especificado pelo Servidor de Imagens quando ele valida imagens de origem remota. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -verbose  </span> </p> </td> 
   <td class="stentry"> <p> Imprime mais informações se a imagem for inválida. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -silent  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -silencioso  </span> </p> </td> 
   <td class="stentry"> <p>Desativa a saída <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Somente um status é retornado. </p> </td> 
  </tr> 
  <tr class="strow"> 
