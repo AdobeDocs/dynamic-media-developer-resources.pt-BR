@@ -1,15 +1,16 @@
 ---
-description: Referências $var$ que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
-seo-description: Referências $var$ que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
+description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
+seo-description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 seo-title: Processamento de variável em solicitações externas incorporadas
 solution: Experience Manager
 title: Processamento de variável em solicitações externas incorporadas
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # Processamento de variável em solicitações externas incorporadas{#variable-processing-in-embedded-foreign-requests}
 
-Referências $var$ que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
+As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 
-Isso permite que solicitações externas incorporadas sejam colocadas em um modelo em um catálogo de imagens.
+Isso permite que solicitações externas incorporadas sejam colocadas em um modelo em um catálogo de imagem.
 
-Normalmente, os valores de variáveis que devem ser substituídos em solicitações estrangeiras devem ser codificados em duplo, já que nenhuma recodificação é aplicada antes que o servidor tente transmitir o url externo final.
+Os valores de variáveis que devem ser substituídos em solicitações estrangeiras normalmente devem ser codificados duas vezes, já que nenhuma recodificação é aplicada antes que o servidor tente transmitir o url externo final.
