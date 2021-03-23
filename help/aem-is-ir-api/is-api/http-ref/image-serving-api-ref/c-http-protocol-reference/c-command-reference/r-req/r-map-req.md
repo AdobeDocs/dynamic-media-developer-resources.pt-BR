@@ -1,15 +1,16 @@
 ---
-description: Dados do mapa de imagens.
-seo-description: Dados do mapa de imagens.
+description: Dados do mapa de imagem.
+seo-description: Dados do mapa de imagem.
 seo-title: mapa
 solution: Experience Manager
 title: mapa
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 57cb0fcf-5a07-4109-bfd4-ef9aaf794b27
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # map{#map}
 
-Dados do mapa de imagens.
+Dados do mapa de imagem.
 
 `req=map[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
@@ -34,9 +35,9 @@ Dados do mapa de imagens.
 
 Retorna `catalog::Map` sem modificação ao consultar uma entrada de catálogo simples sem comandos adicionais especificados (não será dimensionado para `catalog::maxPix`).
 
-Se qualquer outro comando for especificado na solicitação, um mapa de imagem composta será retornado, o que é derivado do dimensionamento, recorte, giro e disposição em camadas de todos os comandos `catalog::Map` e/ou `map=` incluídos na solicitação, da mesma forma que os dados de imagem seriam com `req=img`.
+Se quaisquer outros comandos forem especificados na solicitação, um mapa de imagem composta será retornado, o que é derivado por dimensionamento, recorte, rotação e camadas de todos os comandos `catalog::Map` e/ou `map=` incluídos na solicitação, da mesma forma que os dados da imagem seriam com `req=img`.
 
-Especifique `text` ou omita o segundo parâmetro para retornar os dados do mapa de imagem em forma de uma string de elemento `HTML <AREA>` com tipo MIME de resposta `text/plain`.
+Especifique `text` ou omita o segundo parâmetro para retornar os dados do mapa de imagem no formato de uma sequência de elementos `HTML <AREA>` com o tipo MIME de resposta `text/plain`.
 
 Especifique `xml` para formatar a resposta como XML em vez de HTML. A codificação de texto pode ser especificada opcionalmente. O padrão é `UTF-8`.
 
@@ -44,7 +45,7 @@ Retorna uma string vazia (ou elemento `<AREA>` vazio) se nenhum dado de mapa foi
 
 A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::Expiration`.
 
-As solicitações compatíveis com o formato de resposta JSONP permitem que você especifique o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
