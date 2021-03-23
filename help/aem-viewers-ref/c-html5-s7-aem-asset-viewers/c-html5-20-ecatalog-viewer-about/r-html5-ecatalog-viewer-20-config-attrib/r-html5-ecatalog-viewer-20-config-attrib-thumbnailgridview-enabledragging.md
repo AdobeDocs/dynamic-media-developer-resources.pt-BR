@@ -2,12 +2,13 @@
 description: ThumbnailGridView.enabledragging
 solution: Experience Manager
 title: ThumbnailGridView.enabledragging
-topic: Dynamic Media
 uuid: d7a12c2e-b50e-473e-9406-8ef0541e38c4
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Funções dentro do intervalo <span class="codeph"> 0-1 </span>. É um valor <span class="codeph"> % </span> para movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, isso não permite que você se mova na direção errada. </p> </td> 
+   <td> <p> Funções dentro do intervalo <span class="codeph"> 0-1 </span>. É um valor <span class="codeph"> % </span> para o movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, isso não permitirá que você se mova na direção errada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
