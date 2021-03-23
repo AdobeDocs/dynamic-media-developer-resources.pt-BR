@@ -1,15 +1,16 @@
 ---
-description: Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
-seo-description: Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
+description: Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
+seo-description: Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
 seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setImageServingPublishSettings{#setimageservingpublishsettings}
 
-Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
+Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
 
 Sintaxe
 
@@ -27,7 +28,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`CompanyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene 7. |
+| `*`CompanyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene7. |
 | `*`contextHandle`*` | `xsd:string` | Não | Lidar com o contexto de publicação. |
 
