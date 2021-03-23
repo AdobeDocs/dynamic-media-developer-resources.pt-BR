@@ -1,15 +1,16 @@
 ---
-description: Matriz de tipos de conjunto de propriedades.
-seo-description: Matriz de tipos de conjunto de propriedades.
+description: Matriz de tipo de conjunto de propriedades.
+seo-description: Matriz de tipo de conjunto de propriedades.
 seo-title: PropertySetTypeArray
 solution: Experience Manager
 title: PropertySetTypeArray
-topic: Dynamic Media Image Production System API
 uuid: a35e55fe-7e61-4060-b0c2-93b551ad757d
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PropertySetTypeArray{#propertysettypearray}
 
-Matriz de tipos de conjunto de propriedades.
+Matriz de tipo de conjunto de propriedades.
 
 Sintaxe
 
@@ -25,5 +26,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:PropertySetType` | A matriz de tipo de conjunto de propriedades. |
+| `*`items`*` | `types:PropertySetType` | A matriz de tipo do conjunto de propriedades. |
 
