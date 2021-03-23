@@ -1,30 +1,31 @@
 ---
-description: Transformação de visualização para imagens
+description: Exibir transformação de imagens
 solution: Experience Manager
-title: Transformação de visualização para imagens
-topic: Dynamic Media Image Serving - Image Rendering API
+title: Exibir transformação de imagens
 uuid: 8594f746-0e58-4a59-933c-a44dc0b06c25
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 
-# Transformação de visualização para imagens{#view-transform-for-images}
+# Exibir transformação de imagens{#view-transform-for-images}
 
 A imagem retornada ao cliente em resposta a uma solicitação `req=img` é derivada da imagem composta considerando os seguintes valores: `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix` e o tamanho da imagem composta.
 
-Se `wid=` e `hei=` forem especificados e `scl=` não forem, a imagem composta será dimensionada de modo que se ajuste totalmente ao retângulo de visualização definido por `wid=` e `hei=`. Se a proporção do retângulo de visualização for diferente da imagem composta, a imagem composta dimensionada será alinhada dentro do retângulo de visualização usando o valor `align=`, se especificado, ou será centralizada de outra forma. Qualquer espaço não coberto por dados de imagem é preenchido com `bgc=` ou, se não for especificado, com `attribute::BkgColor`.
+Se `wid=` e `hei=` forem especificadas e `scl=` não forem, a imagem composta será dimensionada de forma que se ajuste totalmente à exibição correta definida por `wid=` e `hei=`. Se a proporção do aspecto do gráfico de exibição for diferente da imagem composta, a imagem composta dimensionada será alinhada no gráfico de exibição usando o valor `align=`, se especificado, ou será centralizada de outra forma. Qualquer espaço não coberto por dados de imagem é preenchido com `bgc=` ou, se não especificado, com `attribute::BkgColor`.
 
-Se `scl=` for especificado, a imagem composta será dimensionada pelo fator de escala. Se `wid=` e/ou `hei=` também for especificado, a imagem dimensionada será cortada em `wid=` e/ou `hei=` ou será adicionado espaço extra, conforme necessário. `align=` especifica onde a imagem é cortada ou onde um espaço extra é adicionado, e qualquer espaço extra é preenchido com  `bgc=` ou  `attribute::BkgColor`.
+Se `scl=` for especificado, a imagem composta será dimensionada pelo fator de escala. Se `wid=` e/ou `hei=` também for especificado, a imagem dimensionada será cortada em `wid=` e/ou `hei=` ou espaço extra será adicionado, conforme necessário. `align=` especifica onde a imagem é cortada ou o espaço extra é adicionado, e qualquer espaço extra é preenchido com  `bgc=` ou  `attribute::BkgColor`.
 
-Se `wid=`, `hei=` ou `scl=` não forem especificados e se a largura ou a altura da imagem composta excederem `attribute::DefaultPix`, a imagem composta será dimensionada para não exceder `attribute::DefaultPix`. Caso contrário, a imagem composta será usada sem dimensionamento.
+Se `wid=`, `hei=` ou `scl=` não forem especificadas e se a largura ou altura da imagem composta exceder `attribute::DefaultPix`, a imagem composta será dimensionada para não exceder `attribute::DefaultPix`. Caso contrário, a imagem composta será usada sem escala.
 
-Para garantir que a imagem de visualização seja retornada sem qualquer dimensionamento adicional, especifique `scl=1`.
+Para garantir que a imagem de exibição seja retornada sem qualquer outro dimensionamento, especifique `scl=1`.
 
-Se `rgn=` for especificado, a imagem de resposta será cortada adequadamente para chegar ao tamanho final da imagem de resposta. Esse tamanho é comparado com `attribute::MaxPix` (se definido), e um erro é gerado se a imagem de resposta for maior em ambas as dimensões.
+Se `rgn=` for especificado, a imagem de resposta será cortada adequadamente para chegar ao tamanho final da imagem de resposta. Esse tamanho é comparado com `attribute::MaxPix` (se definido) e um erro é gerado se a imagem de resposta for maior em qualquer dimensão.
 
-Se `fmt=` especificar dados sem alfa, quaisquer áreas transparentes na imagem de resposta serão preenchidas com `bgc=` ou `attribute::BkgColor`.
+Se `fmt=` especificar dados sem alfa, qualquer área transparente na imagem de resposta será preenchida com `bgc=` ou `attribute::BkgColor`.
