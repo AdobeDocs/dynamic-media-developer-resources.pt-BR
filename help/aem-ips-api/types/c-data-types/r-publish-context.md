@@ -1,15 +1,16 @@
 ---
-description: Define um público alvo de publicação para uma empresa.
-seo-description: Define um público alvo de publicação para uma empresa.
+description: Define um target de publicação para uma empresa.
+seo-description: Define um target de publicação para uma empresa.
 seo-title: PublicarContexto
 solution: Experience Manager
 title: PublicarContexto
-topic: Dynamic Media Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # PublishContext{#publishcontext}
 
-Define um público alvo de publicação para uma empresa.
+Define um target de publicação para uma empresa.
 
 Sintaxe
 
@@ -60,5 +61,5 @@ Os ativos mantêm um marcador separado para cada estado e contexto de publicaç�
 
 >[!MORELIKETHIS]
 >
->* [Contexto de publicação](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Publicar contexto](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
 
