@@ -1,15 +1,16 @@
 ---
-description: Obtém os tipos de conjunto de propriedades associados à empresa especificada, ou tipos de conjunto de propriedades globais se nenhuma empresa for especificada.
-seo-description: Obtém os tipos de conjunto de propriedades associados à empresa especificada, ou tipos de conjunto de propriedades globais se nenhuma empresa for especificada.
+description: Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
+seo-description: Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtém os tipos de conjunto de propriedades associados à empresa especificada, ou tipos de conjunto de propriedades globais se nenhuma empresa for especificada.
+Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
 
 Sintaxe
 
@@ -51,7 +52,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">O identificador da empresa à qual os tipos de conjunto de propriedades estão associados. <p>Omitir se desejar retornar tipos de conjunto de propriedades globais. </p> </td> 
+   <td colname="col4">O identificador da empresa à qual os tipos de conjunto de propriedades estão associados. <p>Omita se desejar retornar tipos de conjuntos de propriedades globais. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +61,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjunto de propriedades associados à empresa especificada ou os tipos de conjunto de propriedades globais se nenhuma empresa foi especificada. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjunto de propriedades associados à empresa especificada ou aos tipos de conjunto de propriedades global se nenhuma empresa foi especificada. |
 
 ## Exemplos {#section-280c406a90864409856aee44d4069a52}
 
