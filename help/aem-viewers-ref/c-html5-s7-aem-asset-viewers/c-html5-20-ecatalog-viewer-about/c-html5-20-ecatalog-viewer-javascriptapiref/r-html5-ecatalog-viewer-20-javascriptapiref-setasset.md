@@ -1,15 +1,16 @@
 ---
-description: Referência da API JavaScript para o Visualizador de vídeo.
-seo-description: Referência da API JavaScript para o Visualizador de vídeo.
+description: Referência da API do JavaScript para o Visualizador de vídeo.
+seo-description: Referência da API do JavaScript para o Visualizador de vídeo.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: b95cef30-41ad-47d5-b0f1-efc8831c7bdc
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de vídeo.
+Referência da API do JavaScript para o Visualizador de vídeo.
 
 ` setAsset( *`ativo`*)`
 
@@ -25,12 +26,12 @@ Referência da API JavaScript para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Cadeia </span>} nova ID de ativo ou conjunto de imagens explícito com modificadores opcionais do Serviço de Imagens anexados após <span class="codeph"> ? </span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por este visualizador. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Cadeia de caracteres </span>} nova id de ativo ou conjunto de imagens explícito com modificadores opcionais do Image Serving anexados após <span class="codeph"> ? </span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define um novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador alternará o ativo em tempo de execução.
+Define um novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -40,7 +41,7 @@ Nenhum.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Referência única para um conjunto de imagens definido em um catálogo:
+Referência única a um conjunto de imagens definido em um catálogo:
 
 ```
  <instance>.setAsset("Viewers/Pluralist")
