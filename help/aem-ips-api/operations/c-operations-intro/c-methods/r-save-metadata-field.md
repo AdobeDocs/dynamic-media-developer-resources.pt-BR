@@ -1,15 +1,16 @@
 ---
-description: Crie ou edite um campo de metadados. Omitir o identificador de campo opcional para criar um novo campo de metadados.
-seo-description: Crie ou edite um campo de metadados. Omitir o identificador de campo opcional para criar um novo campo de metadados.
+description: Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
+seo-description: Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # saveMetadataField{#savemetadatafield}
 
-Crie ou edite um campo de metadados. Omitir o identificador de campo opcional para criar um novo campo de metadados.
+Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
 
 >[!NOTE]
 >
->Este método está obsoleto.
+>Esse método está obsoleto.
 
 ## Tipos de usuário autorizados {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -48,7 +49,7 @@ Crie ou edite um campo de metadados. Omitir o identificador de campo opcional pa
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> A alça da empresa. </td> 
+   <td colname="col4"> O nome da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -82,15 +83,15 @@ Crie ou edite um campo de metadados. Omitir o identificador de campo opcional pa
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
+   <td colname="col4"> Ocultar ou expor os metadados específicos do sistema IPS. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será gerada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será lançada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,11 +100,11 @@ Crie ou edite um campo de metadados. Omitir o identificador de campo opcional pa
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Sim | Manuseie o novo campo de metadados. |
+| `*`fieldHandle`*` | `xsd:string` | Sim | Manipule o novo campo de metadados. |
 
 ## Exemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Essa amostra de código cria um novo campo de metadados restrito pelas constantes de cadeia de caracteres Tipo de ativo e Tipos de campo de metadados. Se o elemento `fieldHandle` tiver um valor válido de identificador de campo, ele alterará os valores de metadados e obterá o mesmo identificador de campo especificado na solicitação.
+Essa amostra de código cria um novo campo de metadados restrito pelas constantes de string Tipo de ativo e Tipos de campo de metadados . Se o elemento `fieldHandle` tiver um valor válido de identificador de campo, ele alterará os valores de metadados e obterá o mesmo identificador de campo especificado na solicitação.
 
 **Solicitação**
 
