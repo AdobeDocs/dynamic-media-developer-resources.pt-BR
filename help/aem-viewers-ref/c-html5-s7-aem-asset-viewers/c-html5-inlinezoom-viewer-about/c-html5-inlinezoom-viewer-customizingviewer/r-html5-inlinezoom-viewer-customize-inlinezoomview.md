@@ -1,29 +1,30 @@
 ---
-description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
-seo-description: A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
-seo-title: Visualização de zoom do menu suspenso
+description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
+seo-description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
+seo-title: Visualização de zoom de menu suspenso
 solution: Experience Manager
-title: Visualização de zoom do menu suspenso
-topic: Dynamic Media
+title: Visualização de zoom de menu suspenso
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# Visualização de zoom do Flyout{#flyout-zoom-view}
+# Visualização de zoom de menu suspenso{#flyout-zoom-view}
 
-A visualização principal consiste na imagem estática, na imagem ampliada mostrada na visualização de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
+A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS da visualização principal**
+**Propriedades CSS da exibição principal**
 
-A aparência da visualização principal é controlada com o seguinte seletor de classe CSS:
+A aparência da exibição principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -38,13 +39,13 @@ A aparência da visualização principal é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> A cor de fundo da visualização principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col2"> <p> A cor de plano de fundo da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a visualização principal transparente:
+Exemplo - para tornar a exibição principal transparente:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -52,7 +53,7 @@ Exemplo - para tornar a visualização principal transparente:
 }
 ```
 
-**Propriedades de CSS da mensagem de dica**
+**Propriedades CSS da mensagem de dica**
 
 A aparência da mensagem de dica é controlada com o seguinte seletor de classe CSS:
 
@@ -60,7 +61,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. Entretanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituir por CSS usando as propriedades `left` ou `right`.
+É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituí-lo por meio de CSS usando propriedades `left` ou `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -72,10 +73,10 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Deslocamento na parte inferior da visualização principal. </p> </td> 
+   <td colname="col2"> <p>Deslocamento na parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
@@ -83,19 +84,19 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> revestimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento em torno do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> raio da borda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
@@ -105,11 +106,11 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </tbody> 
 </table>
 
-A mensagem de dica pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
+A mensagem de dica pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 
 .
 
-Exemplo - para configurar uma mensagem de ponta semitransparente com fonte Arial branca de 12 px, 50 pixels de deslocamento a partir da parte inferior da visualização principal, preenchimento e uma borda arredondada:
+Exemplo - para configurar uma mensagem de ponta semitransparente com fonte branca Arial 12px, 50 pixels deslocados da parte inferior da exibição principal, preenchimento e uma borda arredondada:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
