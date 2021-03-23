@@ -4,12 +4,13 @@ seo-description: Caminho do arquivo de dados do catálogo. Especifica o arquivo 
 seo-title: CatalogFile
 solution: Experience Manager
 title: CatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c34e24e-4602-4dd6-b202-793d621a8995
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -21,8 +22,8 @@ Caminho do arquivo de dados do catálogo. Especifica o arquivo que contém os da
 
 ## Propriedades {#section-81eaf83ed4d3405f8ba95671bd303584}
 
-Valor da string de texto. Caminho ou caminho do arquivo absoluto relativo à pasta do catálogo.
+Valor da string de texto. Caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
 
 ## Padrão {#section-7a1f82b4188e41a3915a78744cada9fb}
 
-Vazio, que indica que esse catálogo de materiais não inclui nenhum dado de material.
+Vazio, o que indica que esse catálogo de materiais não inclui dados de material.
