@@ -1,15 +1,16 @@
 ---
-description: Atributo de configuração para o visualizador Video360.
-seo-description: Atributo de configuração para o visualizador Video360.
+description: Atributo de configuração para o visualizador do Video360.
+seo-description: Atributo de configuração para o visualizador do Video360.
 seo-title: Video360Player.progressivebitrate
 solution: Experience Manager
 title: Video360Player.progressivebitrate
-topic: Dynamic Media
 uuid: 438c18d7-e7ac-4834-8445-def590264448
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '114'
 ht-degree: 6%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 6%
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
-Atributo de configuração para o visualizador Video360.
+Atributo de configuração para o visualizador do Video360.
 
 ` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
 
@@ -25,7 +26,7 @@ Atributo de configuração para o visualizador Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Especifica em kbits por segundo (ou kbps) a taxa de bits de vídeo desejada para reproduzir de um Conjunto de vídeos adaptáveis, caso o sistema atual não suporte a reprodução de vídeo adaptável. </p> <p>O componente obtém o fluxo de vídeo com a taxa de bits mais próxima (mas não superior) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptáveis tiverem qualidade superior ao valor especificado, a lógica escolherá a taxa de bits com a qualidade mais baixa. </p> </td> 
+   <td colname="col2"> <p> Especifica em kbits por segundo (ou kbps), a taxa de bits de vídeo desejada para ser reproduzida a partir de um Conjunto de Vídeo Adaptável, caso o sistema atual não ofereça suporte para reprodução de vídeo adaptável. </p> <p>O componente obtém o fluxo de vídeo com a taxa de bits mais próxima possível (mas não superior) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptativos tiverem qualidade superior ao valor especificado, a lógica escolherá a taxa de bits com a qualidade mais baixa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
