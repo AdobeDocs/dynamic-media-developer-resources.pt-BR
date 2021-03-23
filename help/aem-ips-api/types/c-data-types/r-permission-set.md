@@ -2,12 +2,13 @@
 description: PermissonSet
 solution: Experience Manager
 title: PermissonSet
-topic: Dynamic Media Image Production System API
 uuid: d77d8fbd-ff41-4312-8c0d-f2d846149e3f
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -21,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`PermissionSetHandle`*` | `xsd:string` | Lidar com um conjunto de permissões. |
-| `*`permissionsArray`*` | `types:PermissionArray` | Uma gama de permissões. |
+| `*`PermissionSetHandle`*` | `xsd:string` | Manipule um conjunto de permissões. |
+| `*`permissionArray`*` | `types:PermissionArray` | Uma matriz de permissões. |
 
