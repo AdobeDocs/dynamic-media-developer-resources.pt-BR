@@ -1,21 +1,22 @@
 ---
 description: Define a associação de um usuário em uma ou mais empresas.
 seo-description: Define a associação de um usuário em uma ou mais empresas.
-seo-title: setCompanyMember
+seo-title: setCompanyMembership
 solution: Experience Manager
-title: setCompanyMember
-topic: Dynamic Media Image Production System API
+title: setCompanyMembership
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 
-# setCompanyMember{#setcompanymembership}
+# setCompanyMembership{#setcompanymembership}
 
 Define a associação de um usuário em uma ou mais empresas.
 
@@ -30,20 +31,20 @@ Sintaxe
 
 ## Parâmetros {#section-3930dc6a016140178631083563598104}
 
-**Entrada (setCompanyMembcingParam)**
+**Entrada (setCompanyMembershipParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:sting` | Não | Identificador do usuário. |
-| `*`subscriptionArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Matriz de empresas. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Matriz de empresas. |
 
-**Saída (setCompanyMemberParam)**
+**Saída (setCompanyMembershipParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-862c0cc32ce0407ab248028e690a8386}
 
-Essa amostra de código adiciona um usuário a uma empresa. Especifique várias empresas na matriz de empresa, se necessário.
+Essa amostra de código adiciona um usuário a uma empresa. Especifique várias empresas no conjunto de controle da empresa, se necessário.
 
 **Solicitação**
 
