@@ -1,15 +1,16 @@
 ---
-description: Exclui um campo de metadados de empresa.
-seo-description: Exclui um campo de metadados de empresa.
+description: Exclui o campo de metadados de uma empresa.
+seo-description: Exclui o campo de metadados de uma empresa.
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # deleteMetadataField{#deletemetadatafield}
 
-Exclui um campo de metadados de empresa.
+Exclui o campo de metadados de uma empresa.
 
 Sintaxe
 
@@ -34,15 +35,15 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o campo de metadados a ser excluído. |
-| `*`fieldHandle`*` | `xsd:string` | Sim | O identificador do campo de metadados a ser excluído. |
+| `*`fieldHandle`*` | `xsd:string` | Sim | O identificador do campo de metadados que será excluído. |
 
 **Saída (deleteMetadataFieldParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Essa amostra de código exclui um campo de metadados de empresa. Ele usa o identificador de empresa e o identificador de metadados como campos no `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar essa ação.
+Essa amostra de código exclui o campo de metadados de uma empresa. Ele usa o identificador da empresa e o identificador de metadados como campos no `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar essa ação.
 
 **Solicitação**
 
