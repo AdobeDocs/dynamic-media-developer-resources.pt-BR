@@ -4,12 +4,13 @@ seo-description: Definições de campo definidas pelo usuário para ativos espec
 seo-title: MetadataField
 solution: Experience Manager
 title: MetadataField
-topic: Dynamic Media Image Production System API
 uuid: 6156be6e-efa5-4e90-928d-2ab936668154
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 Definições de campo definidas pelo usuário para ativos específicos.
 
-Recuperar definições de campos de tags com as operações `getMetadataFields` ou `getAssetMetadataField`.
+Recupere as definições do campo de tag com as operações `getMetadataFields` ou `getAssetMetadataField`.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -40,7 +41,7 @@ Recuperar definições de campos de tags com as operações `getMetadataFields` 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nome do campo Metadados. </td> 
+   <td colname="col3"> Nome do campo de metadados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -54,23 +55,23 @@ Recuperar definições de campos de tags com as operações `getMetadataFields` 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> Define o status obrigatório. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Define o status necessário. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Determina se o campo de metadados é definido pelo usuário ou não. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3">Ocultar ou expor metadados específicos do sistema IPS. Retornado de <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> e <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3">Ocultar ou expor os metadados específicos do sistema IPS. Retornado de <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> e <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> <p>Um sinalizador booleano que indica se o tipo de campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será gerada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> <p>Um sinalizador booleano que indica se o tipo de campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será lançada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
