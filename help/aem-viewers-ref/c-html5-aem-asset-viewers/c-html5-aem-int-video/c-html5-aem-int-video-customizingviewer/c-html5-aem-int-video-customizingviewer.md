@@ -1,28 +1,29 @@
 ---
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo interativo são feitos com a criação de um CSS personalizado.
-keywords: responsive
+keywords: responsivo
 seo-description: Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo interativo são feitos com a criação de um CSS personalizado.
-seo-title: Personalização do Visualizador de vídeo interativo
+seo-title: Personalizar visualizador de vídeo interativo
 solution: Experience Manager
-title: Personalização do Visualizador de vídeo interativo
-topic: Dynamic Media
+title: Personalizar visualizador de vídeo interativo
 uuid: a24e7ada-c874-468b-ac44-a51d581d4479
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
 
 
-# Personalização do Visualizador de vídeo interativo{#customizing-interactive-video-viewer}
+# Personalizar visualizador de vídeo interativo{#customizing-interactive-video-viewer}
 
 Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo interativo são feitos com a criação de um CSS personalizado.
 
-O fluxo de trabalho sugerido é pegar o arquivo CSS padrão para o visualizador apropriado, copiá-lo para um local diferente, personalizá-lo e especificar o local do arquivo personalizado no comando `style=`.
+O fluxo de trabalho sugerido é pegar o arquivo CSS padrão do visualizador apropriado, copiá-lo para um local diferente, personalizá-lo e especificar o local do arquivo personalizado no comando `style=`.
 
-Os arquivos CSS padrão podem ser encontrados no seguinte local:
+Arquivos CSS padrão podem ser encontrados no seguinte local:
 
 `<s7_viewers_root>/html5/InteractiveVideoViewer_dark.css`
 
@@ -32,29 +33,29 @@ O visualizador é fornecido com dois arquivos CSS prontos para uso, para esquema
 
 O arquivo CSS personalizado deve conter as mesmas declarações de classe que a padrão. Se uma declaração de classe for omitida, o visualizador não funcionará corretamente porque não fornece estilos padrão incorporados para elementos da interface do usuário.
 
-Uma maneira alternativa de fornecer regras CSS personalizadas é usar estilos incorporados diretamente na página da Web ou em uma das regras CSS externas vinculadas.
+Uma maneira alternativa de fornecer regras de CSS personalizadas é usar estilos incorporados diretamente na página da Web ou em uma das regras de CSS externas vinculadas.
 
-Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s7interactivevideoviewer` ao elemento DOM do container. Se você estiver usando um arquivo CSS externo transmitido com o comando `style=`, use a classe `.s7interactivevideoviewer` como classe pai no seletor descendente para suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, qualifice adicionalmente este seletor com uma ID do elemento DOM do container da seguinte maneira:
+Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s7interactivevideoviewer` ao elemento DOM do contêiner. Se você estiver usando um arquivo CSS externo passado com o comando `style=`, use a classe `.s7interactivevideoviewer` como classe pai no seletor descendente para suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, qualifique também esse seletor com uma ID do elemento DOM do contêiner da seguinte maneira:
 
 `#<containerId>.s7interactivevideoviewer`
 
-## Criação de CSS {#section-0bb49aca42d242d9b01879d5ba59d33b} projetado responsivo
+## Criando CSS responsivo projetado {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-É possível público alvo de diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que seu conteúdo seja exibido de forma diferente dependendo do dispositivo do usuário ou de um layout de página da Web específico. Isso inclui, entre outros, diferentes layouts, tamanhos de elementos da interface do usuário e resolução da arte-final.
+É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Isso inclui, mas não está limitado a, diferentes layouts, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
 
-O visualizador suporta dois mecanismos de criação de CSS responsivo projetado: Marcadores CSS e query de mídia CSS padrão. Você pode usá-los independentemente ou juntos.
+O visualizador aceita dois mecanismos para criar CSS responsivo projetado: Marcadores CSS e consultas de mídia CSS padrão. Você pode usá-los independentemente ou juntos.
 
 **Marcadores CSS**
 
-Para auxiliar na criação de CSS responsivo projetado, o visualizador oferece suporte a marcadores CSS. São classes CSS especiais que são atribuídas dinamicamente ao elemento de container do visualizador de nível superior com base no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
+Para auxiliar na criação de CSS responsivo projetado, o visualizador aceita marcadores CSS. São classes CSS especiais que são atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior com base no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
 
-O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium` e `.s7size_small` classes. Elas são aplicadas com base na área de tempo de execução do container do visualizador. Se a área do visualizador for igual ou maior que o tamanho de um monitor de área de trabalho comum, `.s7size_large` será usado; se a área estiver próxima a um tablet comum, `.s7size_medium` será atribuído. Para áreas semelhantes a telas de telefones celulares, `.s7size_small` é definido. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para telas e tamanhos de visualizador diferentes.
+O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium` e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum, `.s7size_large` será usado; se a área estiver próxima de um tablet comum, `.s7size_medium` será atribuído. Para áreas semelhantes a telas de celular, `.s7size_small` é definido. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
 
-O segundo grupo de marcadores CSS contém `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` é definido se o dispositivo atual tiver capacidades de entrada de toque; caso contrário,  `.s7mouseinput` será usado. Esses marcadores são destinados principalmente a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada de toque requer elementos maiores.
+O segundo grupo de marcadores CSS contém `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada por toque; caso contrário,  `.s7mouseinput` será usado. Esses marcadores são destinados principalmente a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores.
 
-O terceiro grupo de marcadores CSS contém `.s7device_landscape` e `.s7device_portrait`. `.s7device_landscape` é definido se o dispositivo de toque estiver na orientação paisagem;  `.s7device_portrait` é usado quando o dispositivo de toque é girado para a orientação retrato. Esses marcadores CSS são destinados ao uso apenas em sistemas de desktop.
+O terceiro grupo de marcadores CSS contém `.s7device_landscape` e `.s7device_portrait`. `.s7device_landscape` é definido se o dispositivo de toque estiver na orientação paisagem;  `.s7device_portrait` é usado quando o dispositivo de toque é girado para a orientação retrato. Esses marcadores CSS são destinados ao uso somente em sistemas de desktop.
 
-A amostra de CSS a seguir define o tamanho do botão play/pause como 28x28 pixels em sistemas com entrada do mouse e 56x56 pixels em dispositivos de toque. Além disso, oculta completamente o botão se o tamanho do visualizador for reduzido significativamente:
+A amostra de CSS a seguir define o tamanho do botão reproduzir/pausar em 28x28 pixels em sistemas com entrada de mouse e 56x56 pixels em dispositivos de toque. Além disso, ele oculta completamente o botão se o tamanho do visualizador for reduzido significativamente:
 
 ```
 .s7interactivevideoviewer.s7mouseinput .s7playpausebutton { 
@@ -70,7 +71,7 @@ A amostra de CSS a seguir define o tamanho do botão play/pause como 28x28 pixel
 }
 ```
 
-Neste próximo exemplo, a barra de controle de vídeo posicionará 138 pixels acima da parte inferior do visualizador se o dispositivo de toque estiver na orientação retrato e movê-lo para a parte inferior do visualizador em todos os outros casos:
+Neste próximo exemplo, a barra de controle de vídeo fica 138 pixels acima da parte inferior do visualizador, se o dispositivo de toque estiver na orientação retrato, e mova-a para a parte inferior do visualizador em todos os outros casos:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7controlbar, 
@@ -82,7 +83,7 @@ Neste próximo exemplo, a barra de controle de vídeo posicionará 138 pixels ac
 }
 ```
 
-Para público alvo de dispositivos com densidade de pixel diferente, é necessário usar query de mídia CSS. O seguinte bloco de query de mídia contém CSS específico para telas de alta densidade:
+Para direcionar dispositivos com densidade de pixels diferente, você precisa usar consultas de mídia CSS. O seguinte bloco de consulta de mídia contém CSS específico para telas de alta densidade:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -90,15 +91,15 @@ Para público alvo de dispositivos com densidade de pixel diferente, é necessá
 }
 ```
 
-O uso de marcadores CSS é a maneira mais flexível de criar um CSS responsivo projetado, pois permite público alvo não apenas do tamanho da tela do dispositivo, mas do tamanho real do visualizador, que é útil para layouts de design responsivos.
+Usar marcadores CSS é a maneira mais flexível de criar CSS projetado responsivo, pois permite direcionar não apenas o tamanho da tela do dispositivo, mas o tamanho real do visualizador, o que é útil para layouts de design responsivos.
 
-Você pode usar o arquivo CSS do visualizador padrão como exemplo de uma abordagem de marcadores CSS.
+Você pode usar o arquivo CSS do visualizador padrão como exemplo de uma abordagem de Marcadores CSS.
 
-**Query de mídia CSS**
+**Consultas de mídia CSS**
 
-Você também pode realizar a detecção de dispositivos usando query de mídia CSS puros. Tudo o que está incluído em um determinado bloco de query de mídia é aplicado somente quando é executado em um dispositivo correspondente.
+Você também pode realizar a detecção de dispositivos usando consultas de mídia CSS puras. Tudo que é delimitado em um determinado bloco de consulta de mídia é aplicado somente quando é executado em um dispositivo correspondente.
 
-Quando aplicado aos Visualizadores móveis, use quatro query de mídia CSS, definidos em seu CSS, na ordem listada abaixo:
+Quando aplicado a visualizadores móveis, você usa quatro consultas de mídia CSS, definidas em seu CSS, na ordem listada abaixo:
 
 1. Contém apenas regras específicas para todos os dispositivos de toque.
 
@@ -138,18 +139,18 @@ Quando aplicado aos Visualizadores móveis, use quatro query de mídia CSS, defi
    }
    ```
 
-Usando uma abordagem de query de mídia, você deve organizar o CSS com detecção de dispositivos da seguinte maneira:
+Usando uma abordagem de consultas de mídia, você deve organizar o CSS com detecção de dispositivo da seguinte maneira:
 
-* Primeiro, a seção específica da área de trabalho define todas as propriedades que são específicas da área de trabalho ou comuns a todas as telas.
-* Em segundo lugar, os quatro query de mídia seguem a ordem definida acima e fornecem regras de CSS específicas para o tipo de dispositivo correspondente.
+* Primeiro, a seção específica do desktop define todas as propriedades que são específicas do desktop ou comuns a todas as telas.
+* E segundo, as quatro consultas de mídia seguem a ordem definida acima e fornecem regras de CSS específicas para o tipo de dispositivo correspondente.
 
-Não há necessidade de duplicado do CSS do visualizador inteiro em cada query de mídia. Somente as propriedades específicas a determinados dispositivos são redefinidas em um query de mídia.
+Não há necessidade de duplicar todo o CSS do visualizador em cada consulta de mídia. Somente as propriedades específicas de determinados dispositivos são redefinidas em uma consulta de mídia.
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Muitos elementos da interface do usuário do visualizador têm estilo usando arte-final bitmap e mais de um estado visual distinto. Um bom exemplo é um botão que normalmente tem pelo menos 3 estados diferentes: &quot;para cima&quot;, &quot;para cima&quot; e &quot;para baixo&quot;. Cada estado requer sua própria arte-final de bitmap atribuída.
+Muitos elementos da interface do usuário do visualizador são estilizados usando a arte-final de bitmap e têm mais de um estado visual distinto. Um bom exemplo é um botão que normalmente tem pelo menos 3 estados diferentes: &quot;para cima&quot;, &quot;para cima&quot; e &quot;para baixo&quot;. Cada estado requer sua própria arte bitmap atribuída.
 
-Com uma abordagem clássica ao estilo, o CSS teria uma referência separada ao arquivo de imagem individual no servidor para cada estado do elemento da interface do usuário. A seguir está um exemplo de CSS para estilizar um botão de tela cheia:
+Com uma abordagem clássica ao estilo, o CSS teria uma referência separada para o arquivo de imagem individual no servidor para cada estado do elemento da interface do usuário. Veja a seguir um exemplo de CSS para estilizar um botão de tela cheia:
 
 ```
 .s7interactivevideoviewer.s7mouseinput .s7playpausebutton[selected='true'][state='up'] {  
@@ -190,9 +191,9 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 }
 ```
 
-A desvantagem dessa abordagem é que o usuário final sofre oscilações ou retardamento da resposta da interface do usuário quando o elemento é interagido pela primeira vez. Essa ação ocorre porque a arte-final da imagem para o novo estado do elemento ainda não foi baixada. Além disso, essa abordagem pode ter um impacto negativo no desempenho devido ao aumento no número de chamadas HTTP para o servidor.
+A desvantagem dessa abordagem é que o usuário final apresenta cintilação ou resposta retardada da interface do usuário quando o elemento interagiu pela primeira vez. Essa ação ocorre porque a arte-final da imagem do novo estado do elemento ainda não foi baixada. Além disso, essa abordagem pode ter um impacto negativo no desempenho devido ao aumento do número de chamadas HTTP para o servidor.
 
-Os sprites CSS são uma abordagem diferente na qual a arte-final de imagem para todos os estados do elemento é combinada em um único arquivo PNG chamado de &quot;sprite&quot;. Tal &quot;sprite&quot; tem todos os estados visuais para um determinado elemento posicionado um após o outro. Ao estilizar um elemento da interface do usuário com sprites, a mesma imagem de sprite é referenciada para todos os estados diferentes no CSS. Além disso, a propriedade `background-position` é usada para cada estado para especificar qual parte da imagem &quot;sprite&quot; é usada. Você pode estruturar uma imagem &quot;sprite&quot; de qualquer maneira adequada. Os visualizadores normalmente o têm empilhado verticalmente. Abaixo está um exemplo baseado em &quot;sprite&quot; de como estilizar o mesmo botão de tela cheia anteriormente:
+Os sprites CSS são uma abordagem diferente, na qual a arte-final de imagem de todos os estados do elemento é combinada em um único arquivo PNG chamado de &quot;sprite&quot;. Esse &quot;sprite&quot; tem todos os estados visuais para o determinado elemento posicionado um após o outro. Ao estilizar um elemento da interface do usuário com sprites, a mesma imagem de sprite é referenciada para todos os estados diferentes no CSS. Além disso, a propriedade `background-position` é usada para cada estado para especificar qual parte da imagem &quot;sprite&quot; é usada. Você pode estruturar uma imagem &quot;sprite&quot; de qualquer maneira adequada. Os visualizadores normalmente o têm empilhado verticalmente. Abaixo está um exemplo baseado em &quot;sprite&quot; de colocar o mesmo botão de tela cheia anteriormente:
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -226,17 +227,17 @@ background-position: -0px -1120px;
 
 ## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento dos componentes apropriados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir as propriedades de CSS documentadas neste guia de referência.
+* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 
-* Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não ao local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize os caminhos no CSS personalizado.
-* O formato preferido para a arte-final bitmap é PNG.
-* A arte-final bitmap é atribuída aos elementos da interface do usuário usando a propriedade `background-image`.
-* As propriedades `width` e `height` de um elemento da interface do usuário definem seu tamanho lógico. O tamanho do bitmap passado para `background-image` não afeta o tamanho lógico.
+* Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
+* O formato preferido para a arte-final de bitmap é PNG.
+* A arte-final do bitmap é atribuída aos elementos da interface do usuário usando a propriedade `background-image` .
+* As propriedades `width` e `height` de um elemento da interface do usuário definem o tamanho lógico. O tamanho do bitmap passado para `background-image` não afeta o tamanho lógico.
 
-* Para usar a alta densidade de pixels de telas de alta resolução, como Retina, especifique a arte-final bitmap duas vezes maior que o tamanho do elemento lógico da interface do usuário. Em seguida, aplique a propriedade `-webkit-background-size:contain` para dimensionar o plano de fundo para baixo no tamanho do elemento da interface do usuário lógica.
-* Para remover um botão da interface do usuário, adicione `display:none` à sua classe CSS.
-* Você pode usar vários formatos para valores de cor compatíveis com CSS. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você pode usar o formato `#RRGGBB`.
+* Para usar a alta densidade de pixels de telas de alta resolução como Retina, especifique a arte-final de bitmap duas vezes maior que o tamanho do elemento da interface de usuário lógica. Em seguida, aplique a propriedade `-webkit-background-size:contain` para dimensionar o plano de fundo para baixo no tamanho do elemento da interface do usuário lógica.
+* Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
+* Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
-## Elementos Comuns da Interface do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
-A seguir estão os elementos da interface do usuário que fazem referência à documentação que se aplica ao Visualizador de vídeo interativo:
+Veja a seguir a documentação de referência dos elementos da interface do usuário que se aplica ao Visualizador de vídeo interativo:
