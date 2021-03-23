@@ -4,12 +4,13 @@ seo-description: Atributo de configuração para o Visualizador de vídeo intera
 seo-title: InteractiveSwatches.scrollstep
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-topic: Dynamic Media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
@@ -19,13 +20,13 @@ ht-degree: 1%
 
 Atributo de configuração para o Visualizador de vídeo interativo.
 
-` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`passo`*`
+` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`step`*`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> passo</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o número de amostras a serem roladas para cada toque do botão de rolagem correspondente. </p> <p>Se o valor especificado for maior que o número de amostras interativas visíveis, cada toque só rolará pelo número de amostras visíveis para evitar a omissão de qualquer amostra. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
+   <td colname="col2"> <p>Especifica o número de amostras a serem roladas para cada toque do botão de rolagem correspondente. </p> <p>Se o valor especificado for maior que o número de amostras interativas visíveis, cada toque só rola pelo número de amostras visíveis para evitar a omissão de qualquer amostra. </p> </td> 
   </tr> 
  </tbody> 
 </table>
