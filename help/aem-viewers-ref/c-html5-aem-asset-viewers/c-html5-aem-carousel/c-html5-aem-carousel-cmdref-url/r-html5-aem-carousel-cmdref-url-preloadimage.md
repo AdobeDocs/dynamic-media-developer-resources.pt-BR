@@ -1,23 +1,24 @@
 ---
-description: comando URL para o Visualizador do carrossel.
-seo-description: comando URL para o Visualizador do carrossel.
+description: comando URL do Visualizador do carrossel.
+seo-description: comando URL do Visualizador do carrossel.
 seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
-topic: Dynamic Media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '44'
+ht-degree: 4%
 
 ---
 
 
 # preloadimage**{#preloadimage}
 
-comando URL para o Visualizador do carrossel.
+comando URL do Visualizador do carrossel.
 
 `preloadImage=0|1`
 
@@ -25,7 +26,7 @@ comando URL para o Visualizador do carrossel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ative (<span class="codeph"> 1</span>) ou desative (<span class="codeph"> 0</span>) o recurso de imagem de pré-carregamento. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Pré-carregar imagem</a>. </p> </td> 
+   <td colname="col2"> <p> Ative (<span class="codeph"> 1</span>) ou desative (<span class="codeph"> 0</span>) o recurso de pré-carregamento de imagem. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Pré-carregar imagem</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
