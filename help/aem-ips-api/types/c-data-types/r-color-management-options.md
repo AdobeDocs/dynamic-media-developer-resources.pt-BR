@@ -1,15 +1,16 @@
 ---
-description: Opções especificadas durante o upload. Afeta como a cor é gerenciada para o upload.
-seo-description: Opções especificadas durante o upload. Afeta como a cor é gerenciada para o upload.
+description: Opções especificadas durante o upload. Afeta o modo como a cor é gerenciada para o upload.
+seo-description: Opções especificadas durante o upload. Afeta o modo como a cor é gerenciada para o upload.
 seo-title: ColorManagementOptions
 solution: Experience Manager
 title: ColorManagementOptions
-topic: Dynamic Media Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # ColorManagementOptions{#colormanagementoptions}
 
-Opções especificadas durante o upload. Afeta como a cor é gerenciada para o upload.
+Opções especificadas durante o upload. Afeta o modo como a cor é gerenciada para o upload.
 
 Sintaxe
 
@@ -26,6 +27,6 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `*`colorManagement`*` | `xsd:string` | Escolha do modo de gerenciamento de cores. |
-| `*`sourceProfileHandle`*` | `xsd:string` | Identificador do perfil de origem. |
-| `*`outputProfileHandle`*` | `xsd:string` | Alça do perfil de saída. |
+| `*`sourceProfileHandle`*` | `xsd:string` | Identificador de perfil de origem. |
+| `*`outputProfileHandle`*` | `xsd:string` | Identificador do perfil de saída. |
 
