@@ -4,12 +4,13 @@ seo-description: Obtém os campos de metadados definidos pelo usuário associado
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
+feature: Dynamic Media Classic, SDK/API, Metadados
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -37,14 +38,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa. |
-| `*`assetType`*` | `xsd:string` | Sim | Tipos de ativos dos quais obter metadados. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O responsável da empresa. |
+| `*`assetType`*` | `xsd:string` | Sim | Tipos de ativos a partir dos quais obter metadados. |
 
 **Saída (getMetadataFieldsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`Frase de código`*` | `Code Phrase` |  |  |
+| `*`Frase do código`*` | `Code Phrase` |  |  |
 
 ## Exemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 
