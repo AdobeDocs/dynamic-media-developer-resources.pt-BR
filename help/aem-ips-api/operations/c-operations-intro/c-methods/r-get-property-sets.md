@@ -4,12 +4,13 @@ seo-description: Obtém conjuntos de propriedades associados a um identificador 
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -40,18 +41,18 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | `*`typeHandle`*` | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades. |
-| `*`PrimaryOwnerHandle`*` | `xsd:string` | Sim | O proprietário principal dos dados vinculados ao objeto de banco de dados. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Sim | O proprietário principal dos dados vinculados ao objeto de banco de dados. |
 | `*`secondaryOwnerHandle`*` | `xsd:string` | Não | Um proprietário secundário opcional dos dados. |
 
 **Saída (getPropertySetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Sim | Série de conjuntos de propriedades. |
+| `*`setArray`*` | `types:PropertySetArray` | Sim | Matriz de conjuntos de propriedades. |
 
 ## Exemplos {#section-1358af974eab4259864910337a6f0bd2}
 
-Essa amostra de código retorna conjuntos de propriedades do proprietário primário, especificados por um identificador de tipo.
+Esta amostra de código retorna conjuntos de propriedades do proprietário principal, especificado por um identificador de tipo.
 
 **Solicitação**
 
