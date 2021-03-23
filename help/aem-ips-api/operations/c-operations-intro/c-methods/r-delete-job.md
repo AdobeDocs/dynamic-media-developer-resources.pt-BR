@@ -4,12 +4,13 @@ seo-description: Exclui um trabalho atual ou programado.
 seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-topic: Dynamic Media Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ Sintaxe
 
 **Saída**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Esta amostra de código exclui um trabalho que está em execução ou está programado para execução no IPS. Ela requer um identificador de trabalho, que você deve obter de outra operação.
+Esta amostra de código exclui um trabalho que está em execução ou está agendado para execução no IPS. Ele requer um identificador de trabalho, que deve ser obtido de outra operação.
 
 **Solicitação**
 
