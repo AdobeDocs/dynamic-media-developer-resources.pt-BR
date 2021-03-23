@@ -1,15 +1,16 @@
 ---
-description: Área de fluxo de texto. Especifica uma ou mais regiões nas quais o texto especificado com textPs= deve ser continuado.
-seo-description: Área de fluxo de texto. Especifica uma ou mais regiões nas quais o texto especificado com textPs= deve ser continuado.
+description: Área do fluxo de texto. Especifica uma ou mais regiões em que o texto especificado com textPs= deve ser continuado.
+seo-description: Área do fluxo de texto. Especifica uma ou mais regiões em que o texto especificado com textPs= deve ser continuado.
 seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -17,14 +18,14 @@ ht-degree: 0%
 
 # textFlowPath{#textflowpath}
 
-Área de fluxo de texto. Especifica uma ou mais regiões nas quais o texto especificado com textPs= deve ser continuado.
+Área do fluxo de texto. Especifica uma ou mais regiões em que o texto especificado com textPs= deve ser continuado.
 
 ` textFlowPath= *`pathDefinition`*`
 
 <table id="simpletable_52CEFF5C3CCB4642A9A320D01B1BF8E0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pathDefinition  </span> </p> </td> 
-  <td class="stentry"> <p>Dados de caminho. </p> </td> 
+  <td class="stentry"> <p>Dados do caminho. </p> </td> 
  </tr> 
 </table>
 
@@ -34,11 +35,11 @@ Os comandos de margem RTF `\margl`, `\margr`, `\margt` e `\margb` são ignorados
 
 ## Propriedades {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-Atributo de camada de texto (somente `textPs=`). Ignorado por outras camadas. Aplica-se a `layer=0` se especificado para `layer=comp`.
+Atributo da camada de texto (somente `textPs=`). Ignorado por outras camadas. Aplica-se a `layer=0` se especificado para `layer=comp`.
 
 ## Padrão {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Igual ao retângulo da camada; o texto preenche todo o retângulo da camada.
+Igual ao retângulo de camada; o texto preenche todo o retângulo de camada.
 
 ## Consulte também {#section-592b0039cf99471188db6a7df44b450a}
 
