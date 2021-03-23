@@ -4,12 +4,13 @@ seo-description: Obtém uma matriz de membros que estão em um conjunto de image
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
+feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ Sintaxe
 
 >[!NOTE]
 >
->Requer acesso de leitura à imagem e ao ativo do conjunto de membros.
+>Requer acesso de leitura à imagem e ao conjunto de membros.
 
 ## Parâmetros {#section-a67ba98095574533980997c83ceaa316}
 
@@ -42,8 +43,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A alça da empresa que contém o conjunto de imagens. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo do conjunto de imagens. |
+| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o conjunto de imagens. |
+| `*`assetHandle`*` | `xsd:string` | Sim | O identificador de ativo do conjunto de imagens. |
 
 **Saída (getImageSetMembersReturn)**
 
