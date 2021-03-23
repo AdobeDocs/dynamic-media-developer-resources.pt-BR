@@ -1,15 +1,16 @@
 ---
-description: Identificador de registro do catálogo. Valor-chave pelo qual os registros de material são pesquisados pelo Servidor de renderização. Geralmente, um identificador de material curto e exclusivo, como um número SKU.
-seo-description: Identificador de registro do catálogo. Valor-chave pelo qual os registros de material são pesquisados pelo Servidor de renderização. Geralmente, um identificador de material curto e exclusivo, como um número SKU.
+description: Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
+seo-description: Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
 seo-title: Id
 solution: Experience Manager
 title: Id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -17,11 +18,11 @@ ht-degree: 0%
 
 # Id{#id}
 
-Identificador de registro do catálogo. Valor-chave pelo qual os registros de material são pesquisados pelo Servidor de renderização. Geralmente, um identificador de material curto e exclusivo, como um número SKU.
+Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
 
 ## Propriedades {#section-9b20bf2545314620808b4210bce7afc9}
 
-Sequência de caracteres de texto. Obrigatório. Cada valor `catalog::Id` deve ser exclusivo neste catálogo de materiais e não deve conter caracteres &#39;,&#39;.
+Sequência de texto. Obrigatório. Cada valor `catalog::Id` deve ser exclusivo neste catálogo de materiais e não deve conter caracteres &#39;,&#39;.
 
 ## Padrão {#section-6a517046c43a40a7ba0af0212b5f31d2}
 
