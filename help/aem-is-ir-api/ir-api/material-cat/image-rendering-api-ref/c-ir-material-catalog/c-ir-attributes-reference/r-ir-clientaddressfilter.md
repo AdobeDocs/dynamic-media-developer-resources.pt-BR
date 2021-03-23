@@ -4,12 +4,13 @@ seo-description: Filtro de endereço IP do cliente. Permite a especificação de
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -19,11 +20,11 @@ ht-degree: 0%
 
 Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 
-Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado serão rejeitadas. `localhost` é sempre implicitamente parte da  `ClientAddressFilter` definição, mesmo que não seja explicitamente especificada. As solicitações originárias de `localhost` nunca são rejeitadas, independentemente da especificação `ClientAddressFilter`.
+Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado serão rejeitadas. `localhost` sempre faz parte implicitamente da  `ClientAddressFilter` definição, mesmo que não tenha sido especificado explicitamente. As solicitações originárias de `localhost` nunca são rejeitadas, independentemente da especificação `ClientAddressFilter`.
 
 ## Propriedades {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-Lista separada por vírgulas de endereços IP com máscaras de rede opcionais ([notação CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) é usada):
+Lista separada por vírgulas de endereços IP com máscaras de rede opcionais ([Notação CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) é usada):
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
@@ -31,7 +32,7 @@ Lista separada por vírgulas de endereços IP com máscaras de rede opcionais ([
 
 * *[!DNL netmask]* máscara de rede (0...32)
 
-Este atributo é ignorado quando uma regra de pré-processamento com um elemento `<addressfilter>` é aplicada.
+Esse atributo é ignorado quando uma regra de pré-processamento com um elemento `<addressfilter>` é aplicada.
 
 ## Padrão {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
@@ -47,4 +48,4 @@ Herdado de `default::AddressFilter` se não estiver definido ou se estiver vazio
 
 ## Consulte também {#section-6198780c7b3045aabd211eefb38bc565}
 
-[enderesfilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
+[addressFilter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f)
