@@ -1,18 +1,19 @@
 ---
 description: Adiciona um usuário a uma matriz de grupos.
 solution: Experience Manager
-title: addGroupMember
-topic: Dynamic Media Image Production System API
+title: addGroupMembership
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
 
-# addGroupMember{#addgroupmembership}
+# addGroupMembership{#addgroupmembership}
 
 Adiciona um usuário a uma matriz de grupos.
 
@@ -26,7 +27,7 @@ Sintaxe
 
 ## Parâmetros {#section-e250f6ddb13646808c6a8860b6442bc5}
 
-**Entrada (addGroupMembcingParam)**
+**Entrada (addGroupMembershipParam)**
 
 <table id="table_71AD8902E4854CA5A12379DBA4DF17C7"> 
  <thead> 
@@ -42,7 +43,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Manipule o usuário cuja associação de grupo você deseja adicionar. </p> </td> 
+   <td colname="col4"> <p>Lide com o usuário cuja associação de grupo você deseja adicionar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
@@ -53,9 +54,9 @@ Sintaxe
  </tbody> 
 </table>
 
-**Saída (addGroupMemberParam)**
+**Saída (addGroupMembershipParam)**
 
-A API IPS não retorna uma resposta para esta operação.
+A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
