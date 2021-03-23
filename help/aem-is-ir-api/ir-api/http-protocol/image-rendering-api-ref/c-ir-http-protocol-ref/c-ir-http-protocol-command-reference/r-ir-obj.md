@@ -1,15 +1,16 @@
 ---
-description: Selecione o objeto por nome. Seleciona o nome do grupo de vinhetas especificado e start um novo MSS.
-seo-description: Selecione o objeto por nome. Seleciona o nome do grupo de vinhetas especificado e start um novo MSS.
+description: Selecione o objeto por nome. Seleciona o grupo de vinheta especificado por nome e inicia um novo MSS.
+seo-description: Selecione o objeto por nome. Seleciona o grupo de vinheta especificado por nome e inicia um novo MSS.
 seo-title: obj
 solution: Experience Manager
 title: obj
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # obj{#obj}
 
-Selecione o objeto por nome. Seleciona o nome do grupo de vinhetas especificado e start um novo MSS.
+Selecione o objeto por nome. Seleciona o grupo de vinheta especificado por nome e inicia um novo MSS.
 
 ` obj= *`name`*`
 
@@ -28,15 +29,15 @@ Selecione o objeto por nome. Seleciona o nome do grupo de vinhetas especificado 
  </tr> 
 </table>
 
-Subgrupos ou objetos individuais podem ser selecionados usando um caminho de grupo totalmente qualificado (isto é, especificando o nome do grupo alvo ou objeto precedido por todos os grupos pai, separados por / (barras iniciais).
+Subgrupos ou objetos individuais podem ser selecionados usando um caminho de grupo totalmente qualificado (ou seja, especificando o nome do grupo de destino ou objeto precedido por todos os grupos pai, separado por / (barras).
 
 Se nenhum grupo/objeto com o nome especificado for encontrado, a ação especificada em `attribute::OnObjFail` será executada.
 
 ## Propriedades {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-comando Seleção; Delimitador MSS. A seleção de objetos é persistente até que outro objeto seja selecionado, com `obj=` ou `sel=`.
+comando Seleção; Delimitador MSS. A seleção de objeto é persistente até que outro objeto seja selecionado, com `obj=` ou `sel=`.
 
-Os caminhos e nomes de grupo/objeto não diferenciam maiúsculas de minúsculas.
+Os caminhos e nomes de grupo/objeto não distinguem maiúsculas de minúsculas.
 
 ## Padrão {#section-0c322850512c4896bb551856a549440e}
 
