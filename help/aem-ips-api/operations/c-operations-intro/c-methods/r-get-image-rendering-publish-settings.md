@@ -1,15 +1,16 @@
 ---
-description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagens.
-seo-description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagens.
+description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
+seo-description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
 seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagens.
+Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
 
 Sintaxe
 
@@ -41,5 +42,5 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Sim | Configurações de publicação de renderização de imagem. |
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Sim | Configurações de publicação da renderização da imagem. |
 
