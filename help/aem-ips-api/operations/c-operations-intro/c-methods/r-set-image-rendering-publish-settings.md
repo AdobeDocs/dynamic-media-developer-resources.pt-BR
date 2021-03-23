@@ -1,15 +1,16 @@
 ---
-description: Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
-seo-description: Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
+description: Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
+seo-description: Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-topic: Dynamic Media Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
+feature: Dynamic Media Classic, SDK/API
+role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
-Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do catálogo de referência do catálogo de materiais de renderização de imagem.
+Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
 
 Sintaxe
 
@@ -27,7 +28,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Alça da empresa. |
-| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene 7. |
+| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene7. |
 | `*`contextHandle`*` | `xsd:string` | Não | Lidar com o contexto de publicação. |
 
