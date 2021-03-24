@@ -1,16 +1,13 @@
 ---
 description: Se req=img, o tamanho da tela de composição é determinado inteiramente pelo tamanho da camada 0.
-seo-description: Se req=img, o tamanho da tela de composição é determinado inteiramente pelo tamanho da camada 0.
-seo-title: A tela de composição
 solution: Experience Manager
 title: A tela de composição
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
