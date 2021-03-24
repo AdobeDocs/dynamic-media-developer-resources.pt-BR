@@ -1,16 +1,13 @@
 ---
 description: Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
-seo-description: Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
