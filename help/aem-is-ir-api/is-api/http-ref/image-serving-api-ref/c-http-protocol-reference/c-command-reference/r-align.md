@@ -1,16 +1,13 @@
 ---
 description: Alinhe a imagem com a exibição. Alinha a imagem composta (possivelmente após o dimensionamento, se scl= também for especificado) dentro do retângulo de exibição definido por wid= e hei=.
-seo-description: Alinhe a imagem com a exibição. Alinha a imagem composta (possivelmente após o dimensionamento, se scl= também for especificado) dentro do retângulo de exibição definido por wid= e hei=.
-seo-title: alinhar
 solution: Experience Manager
 title: alinhar
-uuid: 91940bd4-8e2b-4949-a76d-31cd238783bc
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
