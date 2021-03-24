@@ -1,16 +1,13 @@
 ---
 description: Nitidez da imagem. Aplica um filtro básico de nitidez à camada ou à imagem de exibição final, após todo o dimensionamento, se layer=comp.
-seo-description: Nitidez da imagem. Aplica um filtro básico de nitidez à camada ou à imagem de exibição final, após todo o dimensionamento, se layer=comp.
-seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
-uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
