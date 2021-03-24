@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Opacidade. Especifica a opacidade do material.
 
 As seguintes combinações de material/objeto oferecem suporte para a opacidade da variável:
 
-* Cor sólida e texturas repetíveis aplicadas a objetos de sobreposição texturizáveis.
+* Cor sólida e texturas repetíveis aplicadas a objetos de sobreposição textural.
 * Materiais de revestimento de janelas aplicados a objetos de estrutura para revestimento de janelas.
-* Decalque aplicados a objetos texturizáveis ou objetos de parede.
+* Decalhes aplicados a objetos textuais ou objetos de parede.
 
 Se o material incluir uma imagem com um canal alfa, `opac=` poderá ser usado para tornar a imagem mais transparente, mas não mais opaca.
 
