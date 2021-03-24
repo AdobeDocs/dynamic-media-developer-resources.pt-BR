@@ -1,16 +1,13 @@
 ---
 description: Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
-seo-description: Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
-seo-title: Sintaxe e recursos
 solution: Experience Manager
 title: Sintaxe e recursos
-uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
