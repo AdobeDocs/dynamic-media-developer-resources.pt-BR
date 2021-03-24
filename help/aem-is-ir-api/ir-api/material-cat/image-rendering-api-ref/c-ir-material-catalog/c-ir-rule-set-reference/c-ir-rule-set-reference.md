@@ -1,16 +1,13 @@
 ---
 description: A Renderização de Imagens suporta um mecanismo de pré-processamento de solicitação simples, que se baseia em regras de substituição e correspondência de expressões regulares.
-seo-description: A Renderização de Imagens suporta um mecanismo de pré-processamento de solicitação simples, que se baseia em regras de substituição e correspondência de expressões regulares.
-seo-title: Referência do conjunto de regras
 solution: Experience Manager
 title: Referência do conjunto de regras
-uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
