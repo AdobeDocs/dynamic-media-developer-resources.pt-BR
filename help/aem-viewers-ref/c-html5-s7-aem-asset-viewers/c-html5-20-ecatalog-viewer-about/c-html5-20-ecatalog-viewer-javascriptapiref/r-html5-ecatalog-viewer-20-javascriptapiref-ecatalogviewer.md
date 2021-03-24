@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador do eCatalog.
-seo-description: Referência da API do JavaScript para o Visualizador do eCatalog.
-seo-title: eCatalogViewer
 solution: Experience Manager
 title: eCatalogViewer
-uuid: b87b6f6b-3e83-47b3-b867-30eca5eae56b
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
