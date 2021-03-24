@@ -1,16 +1,13 @@
 ---
 description: Sequência do modificador de solicitação. Nenhum ou mais comandos de Renderização de Imagem separados por caracteres '&'. Usado para armazenar modelos e modificadores que devem ser aplicados sempre que uma solicitação para essa entrada do mapa de vinheta é feita.
-seo-description: Sequência do modificador de solicitação. Nenhum ou mais comandos de Renderização de Imagem separados por caracteres '&'. Usado para armazenar modelos e modificadores que devem ser aplicados sempre que uma solicitação para essa entrada do mapa de vinheta é feita.
-seo-title: Modificador
 solution: Experience Manager
 title: Modificador
-uuid: 725724dd-b664-4d43-8072-a79ea7e7fcce
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
