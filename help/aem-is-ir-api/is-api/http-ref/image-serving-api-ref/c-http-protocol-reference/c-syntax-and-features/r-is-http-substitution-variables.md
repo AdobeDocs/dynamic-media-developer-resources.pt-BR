@@ -1,16 +1,13 @@
 ---
 description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos de composição armazenados em catálogos de imagem. As variáveis também podem ser usadas para transmitir o mesmo valor a locais diferentes em uma solicitação complexa.
-seo-description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos de composição armazenados em catálogos de imagem. As variáveis também podem ser usadas para transmitir o mesmo valor a locais diferentes em uma solicitação complexa.
-seo-title: Variáveis de substituição
 solution: Experience Manager
 title: Variáveis de substituição
-uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
