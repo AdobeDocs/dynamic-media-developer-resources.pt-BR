@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar nesse botão redefine o visualizador entre a visualização principal e as miniaturas. Esse botão aparece na barra de controle principal. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão redefine o visualizador entre a visualização principal e as miniaturas. Esse botão aparece na barra de controle principal. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-title: Botão Miniaturas
 solution: Experience Manager
 title: Botão Miniaturas
-uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
