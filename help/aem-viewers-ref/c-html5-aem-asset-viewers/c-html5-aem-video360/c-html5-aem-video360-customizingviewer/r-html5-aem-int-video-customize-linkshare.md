@@ -1,16 +1,13 @@
 ---
 description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
-seo-description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
-seo-title: Compartilhamento de link
 solution: Experience Manager
 title: Compartilhamento de link
-uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
