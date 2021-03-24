@@ -1,16 +1,13 @@
 ---
 description: Cor da camada. Especifica a cor de primeiro plano e a opacidade das camadas de cor sólida e efeito, e a cor de preenchimento da caixa de texto para as camadas de texto.
-seo-description: Cor da camada. Especifica a cor de primeiro plano e a opacidade das camadas de cor sólida e efeito, e a cor de preenchimento da caixa de texto para as camadas de texto.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
