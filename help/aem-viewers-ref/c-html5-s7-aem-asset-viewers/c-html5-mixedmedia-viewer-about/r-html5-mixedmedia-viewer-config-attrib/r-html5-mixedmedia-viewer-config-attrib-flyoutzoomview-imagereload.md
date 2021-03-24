@@ -1,16 +1,13 @@
 ---
 description: Configura como o componente busca novas imagens para a exibição principal e de flyout durante o redimensionamento.
-seo-description: Configura como o componente busca novas imagens para a exibição principal e de flyout durante o redimensionamento.
-seo-title: FlyoutZoomView.imagereload
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-uuid: 5cded4cb-7b02-47da-9e2d-b236548cc61d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '143'
 ht-degree: 1%
 
 ---
