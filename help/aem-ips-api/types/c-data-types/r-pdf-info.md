@@ -1,16 +1,13 @@
 ---
 description: Propriedades do arquivo PDF.
-seo-description: Propriedades do arquivo PDF.
-seo-title: PdfInfo
 solution: Experience Manager
 title: PdfInfo
-uuid: 6143e7bd-f0d1-4388-a5ae-f8d40ad34175
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
