@@ -1,16 +1,13 @@
 ---
 description: Os arquivos de dados da fonte de conteúdo estático são acessados somente pelo Servidor de plataforma.
-seo-description: Os arquivos de dados da fonte de conteúdo estático são acessados somente pelo Servidor de plataforma.
-seo-title: Dados da fonte de conteúdo estático
 solution: Experience Manager
 title: Dados da fonte de conteúdo estático
-uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
