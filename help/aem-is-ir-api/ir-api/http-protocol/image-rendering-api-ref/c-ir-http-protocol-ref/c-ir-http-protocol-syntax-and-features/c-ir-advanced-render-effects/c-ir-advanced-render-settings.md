@@ -1,16 +1,13 @@
 ---
 description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
-seo-description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
-seo-title: Configurações avançadas de renderização
 solution: Experience Manager
 title: Configurações avançadas de renderização
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '615'
 ht-degree: 17%
 
 ---
@@ -63,7 +60,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Raio do USM (pixels). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -77,7 +74,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modo de redimensionamento. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -113,7 +110,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Superamostragem: Taxa aleatória. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20º </p> </td> 
    <td colname="col5"> <p>O padrão é 5. </p> </td> 
   </tr> 
@@ -191,7 +188,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Resistência da extrapolação baseada em brilho. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>800 </p> </td> 
+   <td colname="col4"> <p>600 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
