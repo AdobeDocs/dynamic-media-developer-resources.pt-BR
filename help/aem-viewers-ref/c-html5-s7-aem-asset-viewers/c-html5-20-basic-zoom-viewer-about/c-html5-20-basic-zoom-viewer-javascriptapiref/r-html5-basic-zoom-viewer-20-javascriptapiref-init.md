@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador básico de zoom.
-seo-description: Referência da API do JavaScript para o Visualizador básico de zoom.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: a2a4fb97-89ec-41d2-ada7-8ff1775eaefa
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
