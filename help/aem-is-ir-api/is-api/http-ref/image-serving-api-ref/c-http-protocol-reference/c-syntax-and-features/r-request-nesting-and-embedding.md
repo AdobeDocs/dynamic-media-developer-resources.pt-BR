@@ -1,16 +1,13 @@
 ---
 description: O Serviço de Imagens oferece suporte ao aninhamento ilimitado de solicitações do Serviço de Imagens, incorporação de solicitações de Renderização de Imagens e incorporação de imagens recuperadas de servidores estrangeiros. Somente imagens de camada e máscaras de camada são compatíveis com esses mecanismos.
-seo-description: O Serviço de Imagens oferece suporte ao aninhamento ilimitado de solicitações do Serviço de Imagens, incorporação de solicitações de Renderização de Imagens e incorporação de imagens recuperadas de servidores estrangeiros. Somente imagens de camada e máscaras de camada são compatíveis com esses mecanismos.
-seo-title: Solicitar aninhamento e incorporação
 solution: Experience Manager
 title: Solicitar aninhamento e incorporação
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
