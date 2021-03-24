@@ -1,16 +1,13 @@
 ---
 description: textPs= implementa um algoritmo de ajuste de cópia proprietário que ajusta automaticamente os tamanhos de fonte para preencher de maneira ideal a área de texto com texto, minimizando o espaço extra na parte inferior e evitando sobrefluxo.
-seo-description: textPs= implementa um algoritmo de ajuste de cópia proprietário que ajusta automaticamente os tamanhos de fonte para preencher de maneira ideal a área de texto com texto, minimizando o espaço extra na parte inferior e evitando sobrefluxo.
-seo-title: Montagem de cópias
 solution: Experience Manager
 title: Montagem de cópias
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
