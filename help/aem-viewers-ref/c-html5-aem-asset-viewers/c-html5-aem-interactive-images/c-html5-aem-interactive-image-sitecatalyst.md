@@ -2,11 +2,10 @@
 description: Suporte para rastreamento de análises
 solution: Experience Manager
 title: Suporte para rastreamento de análises
-uuid: ae870d2e-2a09-4551-935a-916d0e657653
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
