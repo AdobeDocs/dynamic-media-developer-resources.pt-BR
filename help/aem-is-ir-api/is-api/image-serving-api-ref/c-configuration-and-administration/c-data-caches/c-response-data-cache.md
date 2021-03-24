@@ -1,16 +1,13 @@
 ---
 description: O Servidor da Plataforma armazena em cache todas as imagens de resposta e determinados dados de texto em disco, a menos que uma solicitação seja marcada como não armazenável em cache.
-seo-description: O Servidor da Plataforma armazena em cache todas as imagens de resposta e determinados dados de texto em disco, a menos que uma solicitação seja marcada como não armazenável em cache.
-seo-title: Cache de dados de resposta
 solution: Experience Manager
 title: Cache de dados de resposta
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
