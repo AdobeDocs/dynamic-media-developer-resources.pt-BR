@@ -1,16 +1,13 @@
 ---
 description: A sintaxe básica do protocolo HTTP é a seguinte.
-seo-description: A sintaxe básica do protocolo HTTP é a seguinte.
-seo-title: Sintaxe básica do protocolo HTTP Image Serving
 solution: Experience Manager
 title: Sintaxe básica do protocolo HTTP Image Serving
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Sintaxe básica do protocolo HTTP Image Serving{#image-serving-http-protocol-basic-syntax}
 
-A sintaxe básica do protocolo HTTP é a seguinte.
+A sintaxe básica do protocolo HTTP é a seguinte:
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ A sintaxe básica do protocolo HTTP é a seguinte.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome de uma macro de comando. </p></td> 
+  <td class="stentry"> <p>Nome de uma macro de comando.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> comentário</span> </span> </p></td> 
-  <td class="stentry"> <p>Sequência de comentários (ignorada pelo servidor). </p></td> 
+  <td class="stentry"> <p>Sequência de comentários (ignorada pelo servidor).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Um dos nomes de atributo ou comando suportados. </p></td> 
+  <td class="stentry"> <p>Um dos nomes de atributo ou comando suportados.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nome de uma variável personalizada. </p></td> 
+  <td class="stentry"> <p>Nome de uma variável personalizada.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -69,7 +66,7 @@ A sintaxe básica do protocolo HTTP é a seguinte.
 
 *`server_address`*,  *`cmdName`*,  *`macro`* e  *`var`* não diferenciam maiúsculas de minúsculas. O servidor preserva as letras maiúsculas e minúsculas de todos os outros valores da string.
 
-*`value`* é específico do comando e pode consistir em um ou mais valores separados por vírgulas. Consulte a descrição dos comandos individuais para obter detalhes.
+*`value`* é específica do comando e pode consistir em um ou mais valores separados por vírgulas. Consulte a descrição dos comandos individuais para obter detalhes.
 
 ## Identificador do servidor {#section-926ae55ddba14b8d952147a5fd701e14}
 
@@ -85,7 +82,7 @@ O Image Serving primeiro extrai *`object`* e *`modifiers`* da solicitação rece
 
 ## Comentários {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Os comentários podem ser incorporados às cadeias de caracteres de solicitação em qualquer lugar e são identificados por um ponto (.) imediatamente após o separador de comando(&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação, o que não é para uso do Serviço de imagem, como carimbos de data e hora, IDs do banco de dados etc.
+Os comentários podem ser incorporados às cadeias de caracteres de solicitação em qualquer lugar e são identificados por um ponto (.) imediatamente após o separador de comando(&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação, o que não é para uso do Serviço de imagem, como carimbos de data e hora e IDs do banco de dados.
 
 ## Consulte também {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
