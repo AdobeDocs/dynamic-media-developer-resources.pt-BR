@@ -1,16 +1,13 @@
 ---
 description: O Flyout Viewer é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-description: O Flyout Viewer é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-title: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-uuid: ac5a2de9-6275-434f-ae09-a588f4a71aa6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
