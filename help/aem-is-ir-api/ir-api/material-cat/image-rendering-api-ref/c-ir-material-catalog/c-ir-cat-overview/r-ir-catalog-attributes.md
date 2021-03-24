@@ -1,16 +1,13 @@
 ---
 description: Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
-seo-description: Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
-seo-title: Atributos do catálogo
 solution: Experience Manager
 title: Atributos do catálogo
-uuid: 91e1fbf8-cb0f-4509-814c-40f7bdbd74db
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
