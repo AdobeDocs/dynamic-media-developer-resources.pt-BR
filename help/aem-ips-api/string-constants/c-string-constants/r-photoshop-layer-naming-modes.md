@@ -1,16 +1,13 @@
 ---
 description: Usada por PhotoshopOptions/layerNaming.
-seo-description: Usada por PhotoshopOptions/layerNaming.
-seo-title: Modos de nomenclatura da camada Photoshop
 solution: Experience Manager
 title: Modos de nomenclatura da camada Photoshop
-uuid: bade8ee9-766f-4c03-88d4-4d54faecd40e
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
