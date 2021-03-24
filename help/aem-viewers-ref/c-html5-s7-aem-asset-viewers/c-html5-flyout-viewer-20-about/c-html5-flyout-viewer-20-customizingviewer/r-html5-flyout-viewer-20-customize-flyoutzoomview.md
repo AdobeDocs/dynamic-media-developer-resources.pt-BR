@@ -1,16 +1,13 @@
 ---
 description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
-seo-description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
-seo-title: Visualização de zoom de menu suspenso
 solution: Experience Manager
 title: Visualização de zoom de menu suspenso
-uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
