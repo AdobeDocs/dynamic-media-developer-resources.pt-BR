@@ -1,17 +1,14 @@
 ---
 description: Modo de repetição de textura. Especifica como as imagens de textura são unidas para preencher a superfície de destino.
-seo-description: Modo de repetição de textura. Especifica como as imagens de textura são unidas para preencher a superfície de destino.
-seo-title: Repetir
 solution: Experience Manager
 title: Repetir
-uuid: bd15a573-9902-4672-992d-90d171160a46
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 13%
+source-wordcount: '135'
+ht-degree: 14%
 
 ---
 
@@ -40,7 +37,7 @@ São permitidos os seguintes valores para os materiais de textura repetíveis:
   <td class="- topic/stentry stentry"> <p>Otimização aleatória de 8 vias. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>3 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1 </p></td> 
   <td class="- topic/stentry stentry"> <p>Lado a lado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
