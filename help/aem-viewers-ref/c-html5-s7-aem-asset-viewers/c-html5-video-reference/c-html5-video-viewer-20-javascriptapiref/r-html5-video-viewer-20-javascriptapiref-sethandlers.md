@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 02535997-521f-420f-af0b-5c8ec0fe0876
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
