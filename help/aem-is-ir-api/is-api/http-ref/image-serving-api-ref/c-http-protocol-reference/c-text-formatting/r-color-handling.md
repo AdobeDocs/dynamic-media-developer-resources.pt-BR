@@ -2,11 +2,10 @@
 description: A especificação RTF permite valores de cores RGB especificados com &bsol;colortbl. Cada componente é fornecido separadamente com os comandos &bsol;red, &bsol;green e &bsol;blue .
 solution: Experience Manager
 title: Tratamento de cores
-uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
