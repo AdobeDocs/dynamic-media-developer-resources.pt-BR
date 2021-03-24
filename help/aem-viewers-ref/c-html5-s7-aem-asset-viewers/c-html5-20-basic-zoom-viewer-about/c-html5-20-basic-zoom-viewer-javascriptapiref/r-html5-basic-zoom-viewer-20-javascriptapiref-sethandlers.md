@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador básico de zoom
-seo-description: Referência da API do JavaScript para o Visualizador básico de zoom
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 775e1561-3709-41e1-9146-dcc85f8a250d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
