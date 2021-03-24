@@ -1,16 +1,13 @@
 ---
 description: Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um registro de catálogo específico não contenha um valor ThumbType de catálogo válido.
-seo-description: Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um registro de catálogo específico não contenha um valor ThumbType de catálogo válido.
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
