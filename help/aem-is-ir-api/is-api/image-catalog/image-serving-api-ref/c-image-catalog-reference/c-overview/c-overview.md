@@ -1,16 +1,13 @@
 ---
 description: Os catálogos de imagens são usados para fornecer informações sobre imagens e dados de suporte (como fontes e perfis ICC) ao servidor.
-seo-description: Os catálogos de imagens são usados para fornecer informações sobre imagens e dados de suporte (como fontes e perfis ICC) ao servidor.
-seo-title: Visão geral
 solution: Experience Manager
 title: Visão geral
-uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
