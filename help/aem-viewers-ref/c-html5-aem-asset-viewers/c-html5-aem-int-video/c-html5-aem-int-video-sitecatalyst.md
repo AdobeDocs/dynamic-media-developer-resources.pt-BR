@@ -1,16 +1,13 @@
 ---
 description: O Visualizador de vídeo HTML5 360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
-seo-description: O Visualizador de vídeo HTML5 360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
-seo-title: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-uuid: b5ab903b-3365-45e3-9542-c290c6c42670
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
