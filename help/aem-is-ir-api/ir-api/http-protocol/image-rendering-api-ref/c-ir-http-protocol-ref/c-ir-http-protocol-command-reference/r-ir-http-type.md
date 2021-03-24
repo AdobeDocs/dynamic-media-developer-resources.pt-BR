@@ -1,17 +1,14 @@
 ---
 description: Tipo de superfície do material. Especifica o tipo de superfície do material.
-seo-description: Tipo de superfície do material. Especifica o tipo de superfície do material.
-seo-title: type
 solution: Experience Manager
 title: type
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 11%
+source-wordcount: '164'
+ht-degree: 12%
 
 ---
 
@@ -28,7 +25,7 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
   <td class="stentry"> <p>Desconhecido, o servidor usa o padrão </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Outras </p> </td> 
  </tr> 
  <tr class="strow"> 
