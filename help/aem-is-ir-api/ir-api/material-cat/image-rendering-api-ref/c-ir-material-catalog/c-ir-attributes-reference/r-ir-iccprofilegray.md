@@ -1,16 +1,13 @@
 ---
 description: Espaço de cores padrão de escala de cinza. Especifica o nome do perfil de cor ICC a ser usado para imagens de resposta em tons de cinza quando nenhum espaço de cor de saída for especificado com icc=.
-seo-description: Espaço de cores padrão de escala de cinza. Especifica o nome do perfil de cor ICC a ser usado para imagens de resposta em tons de cinza quando nenhum espaço de cor de saída for especificado com icc=.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
