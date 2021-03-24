@@ -1,16 +1,13 @@
 ---
 description: Este procedimento mostra como instalar o Image Serving pela primeira vez no Linux.
-seo-description: Este procedimento mostra como instalar o Image Serving pela primeira vez no Linux.
-seo-title: Instalação pela primeira vez
 solution: Experience Manager
 title: Instalação pela primeira vez
-uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
