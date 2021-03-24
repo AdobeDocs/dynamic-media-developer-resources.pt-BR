@@ -2,11 +2,10 @@
 description: Conversor de vinheta (vntc)
 solution: Experience Manager
 title: Conversor de vinheta (vntc)
-uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 0%
