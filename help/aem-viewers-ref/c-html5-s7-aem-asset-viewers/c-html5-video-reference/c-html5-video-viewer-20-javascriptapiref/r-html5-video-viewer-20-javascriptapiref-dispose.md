@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-title: dispor
 solution: Experience Manager
 title: dispor
-uuid: fbd85880-041a-4482-8897-1941bffa7955
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
