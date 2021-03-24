@@ -1,16 +1,13 @@
 ---
 description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
-seo-description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
-seo-title: Exibição em rotação
 solution: Experience Manager
 title: Exibição em rotação
-uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
