@@ -1,16 +1,13 @@
 ---
 description: Programadores experientes e desenvolvedores de sites que desejam utilizar o Dynamic Media Image Serving para um site ou aplicativo personalizado.
-seo-description: Programadores experientes e desenvolvedores de sites que desejam utilizar o Dynamic Media Image Serving para um site ou aplicativo personalizado.
-seo-title: Público-alvo pretendido
 solution: Experience Manager
 title: Público-alvo pretendido
-uuid: 610fe9a9-897d-4e20-8879-334587c54a5b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
