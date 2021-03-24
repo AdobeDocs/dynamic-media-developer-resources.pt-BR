@@ -1,16 +1,13 @@
 ---
 description: Os campos a seguir são reconhecidos na imagem e nos arquivos de dados SVG.
-seo-description: Os campos a seguir são reconhecidos na imagem e nos arquivos de dados SVG.
-seo-title: Dados do Image_SVG
 solution: Experience Manager
 title: Dados do Image_SVG
-uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
