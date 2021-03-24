@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar nesse botão amplia o zoom de uma imagem na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão amplia o zoom de uma imagem na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-title: Botão Ampliar
 solution: Experience Manager
 title: Botão Ampliar
-uuid: 35b7797c-e0d2-4ce4-bf69-0fe20ab4c8f1
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
