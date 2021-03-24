@@ -1,16 +1,13 @@
 ---
 description: As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de imagens ou ao catálogo padrão.
-seo-description: As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de imagens ou ao catálogo padrão.
-seo-title: Macros de comando
 solution: Experience Manager
 title: Macros de comando
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
