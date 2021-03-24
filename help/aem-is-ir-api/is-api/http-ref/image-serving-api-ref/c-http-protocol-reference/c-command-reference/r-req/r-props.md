@@ -1,16 +1,13 @@
 ---
 description: Propriedades dos dados de resposta. Avalia a solicitação atual como se fosse uma solicitação de imagem (req=img), mas em vez de retornar a imagem, o servidor retorna as propriedades selecionadas da imagem de resposta.
-seo-description: Propriedades dos dados de resposta. Avalia a solicitação atual como se fosse uma solicitação de imagem (req=img), mas em vez de retornar a imagem, o servidor retorna as propriedades selecionadas da imagem de resposta.
-seo-title: props
 solution: Experience Manager
 title: props
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
