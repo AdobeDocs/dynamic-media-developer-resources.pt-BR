@@ -1,16 +1,13 @@
 ---
 description: A exibição principal consiste na imagem estática.
-seo-description: A exibição principal consiste na imagem estática.
-seo-title: Exibição de zoom
 solution: Experience Manager
 title: Exibição de zoom
-uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
