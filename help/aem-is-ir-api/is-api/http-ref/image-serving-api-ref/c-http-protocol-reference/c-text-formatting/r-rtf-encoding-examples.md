@@ -1,16 +1,13 @@
 ---
 description: Os exemplos a seguir mostram uma amostra de comandos de texto e como eles afetam o texto.
-seo-description: Os exemplos a seguir mostram uma amostra de comandos de texto e como eles afetam o texto.
-seo-title: Exemplos de codificação RTF
 solution: Experience Manager
 title: Exemplos de codificação RTF
-uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
