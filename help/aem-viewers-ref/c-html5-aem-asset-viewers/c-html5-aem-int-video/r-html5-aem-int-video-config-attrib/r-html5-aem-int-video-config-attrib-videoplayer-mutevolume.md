@@ -1,16 +1,13 @@
 ---
 description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-uuid: 00a660f1-fa00-4821-aaec-7d370376c347
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '67'
 ht-degree: 2%
 
 ---
