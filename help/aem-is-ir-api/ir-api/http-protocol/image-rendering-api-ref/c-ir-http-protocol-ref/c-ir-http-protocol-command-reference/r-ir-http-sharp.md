@@ -1,17 +1,14 @@
 ---
 description: Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
-seo-description: Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
-seo-title: nítido
 solution: Experience Manager
 title: nítido
-uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '133'
+ht-degree: 3%
 
 ---
 
