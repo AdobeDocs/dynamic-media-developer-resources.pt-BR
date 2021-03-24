@@ -1,16 +1,13 @@
 ---
 description: Determinado conteúdo exibido pelo visualizador está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro é exibida quando o vídeo não pode ser reproduzido.
-seo-description: Determinado conteúdo exibido pelo visualizador está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro é exibida quando o vídeo não pode ser reproduzido.
-seo-title: Localização dos elementos da interface do usuário
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-uuid: d5e75af0-03d6-4357-a540-4094313ed026
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
