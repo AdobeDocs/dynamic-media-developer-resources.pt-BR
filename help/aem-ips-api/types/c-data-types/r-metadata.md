@@ -1,16 +1,13 @@
 ---
 description: Um campo de metadados retornado pelo searchAssets.
-seo-description: Um campo de metadados retornado pelo searchAssets.
-seo-title: Metadados
 solution: Experience Manager
 title: Metadados
-uuid: fb7a0ef8-a16c-41e3-84cf-160602cb284b
 feature: Dynamic Media Classic, SDK/API, Metadados
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
