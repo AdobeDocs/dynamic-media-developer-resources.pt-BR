@@ -1,16 +1,13 @@
 ---
 description: O depurador de vídeo é o controle deslizante horizontal que permite que um usuário procure dinamicamente qualquer posição de tempo no vídeo que está sendo reproduzido.
-seo-description: O depurador de vídeo é o controle deslizante horizontal que permite que um usuário procure dinamicamente qualquer posição de tempo no vídeo que está sendo reproduzido.
-seo-title: Vídeo de depuração
 solution: Experience Manager
 title: Vídeo de depuração
-uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
