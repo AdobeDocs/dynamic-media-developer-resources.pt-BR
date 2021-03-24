@@ -1,17 +1,14 @@
 ---
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de mídia mista são feitos com a criação de um CSS personalizado.
 keywords: responsivo
-seo-description: Toda personalização visual e a maioria dos comportamentos do Visualizador de mídia mista são feitos com a criação de um CSS personalizado.
-seo-title: Personalização do Visualizador de mídia mista
 solution: Experience Manager
 title: Personalização do Visualizador de mídia mista
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
