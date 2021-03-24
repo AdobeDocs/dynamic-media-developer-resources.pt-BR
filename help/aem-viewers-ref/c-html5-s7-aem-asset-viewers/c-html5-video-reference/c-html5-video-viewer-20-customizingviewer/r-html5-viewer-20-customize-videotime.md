@@ -1,16 +1,13 @@
 ---
 description: A hora do vídeo é a exibição numérica que mostra a hora e a duração atuais do vídeo que está sendo reproduzido.
-seo-description: A hora do vídeo é a exibição numérica que mostra a hora e a duração atuais do vídeo que está sendo reproduzido.
-seo-title: Tempo do vídeo
 solution: Experience Manager
 title: Tempo do vídeo
-uuid: a15b069a-18c8-428f-ac6f-ab5aeda65f4d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
