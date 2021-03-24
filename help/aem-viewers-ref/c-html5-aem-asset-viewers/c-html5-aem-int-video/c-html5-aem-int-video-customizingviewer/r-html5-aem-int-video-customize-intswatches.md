@@ -1,16 +1,13 @@
 ---
 description: O painel de amostras interativas é exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto como "Clique para exibir", uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas de desktop).
-seo-description: O painel de amostras interativas é exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto como "Clique para exibir", uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas de desktop).
-seo-title: Amostras interativas
 solution: Experience Manager
 title: Amostras interativas
-uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
