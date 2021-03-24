@@ -1,16 +1,13 @@
 ---
 description: Este documento usa as seguintes convenções.
-seo-description: Este documento usa as seguintes convenções.
-seo-title: Convenções de documento
 solution: Experience Manager
 title: Convenções de documento
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Este documento usa as seguintes convenções.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>literal </p> </td> 
-  <td class="stentry"> <p>Nas seções de sintaxe, o texto não itálico é literal; isso não se aplica ao espaço em branco e aos símbolos [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>Nas seções de sintaxe, o texto não itálico é literal. Esta regra não se aplica ao espaço em branco e aos símbolos [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -75,7 +72,7 @@ Este documento usa as seguintes convenções.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> rubrica 2  </span> </span> </p> </td> 
-  <td class="stentry"> <p>Uma barra vertical indica que o único item de sintaxe à esquerda ou o item à direita podem ser usados. Deve ser selecionado exatamente um item. </p> </td> 
+  <td class="stentry"> <p>Uma barra vertical indica que é possível usar o único item de sintaxe à esquerda ou o item à direita. Deve ser selecionado exatamente um item. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> {  <span class="varname"> group  </span>}  </span> </p> </td> 
