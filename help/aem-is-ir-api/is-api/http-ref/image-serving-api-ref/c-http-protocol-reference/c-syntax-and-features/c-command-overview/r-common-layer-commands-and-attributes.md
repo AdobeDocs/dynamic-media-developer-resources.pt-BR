@@ -1,16 +1,13 @@
 ---
 description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
-seo-description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
-seo-title: Comandos comuns de camada
 solution: Experience Manager
 title: Comandos comuns de camada
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
