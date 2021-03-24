@@ -2,11 +2,10 @@
 description: swatchoverlay
 solution: Experience Manager
 title: swatchoverlay
-uuid: 2226a368-5db5-42a1-94be-b219560e3891
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 2%
