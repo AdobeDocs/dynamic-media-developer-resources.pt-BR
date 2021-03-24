@@ -1,16 +1,13 @@
 ---
 description: Carimbo de data e hora da modificação. Especifica a data/hora em que a vinheta foi modificada pela última vez.
-seo-description: Carimbo de data e hora da modificação. Especifica a data/hora em que a vinheta foi modificada pela última vez.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
