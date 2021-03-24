@@ -1,16 +1,13 @@
 ---
 description: O indicador de zoom é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
-seo-description: O indicador de zoom é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
-seo-title: Efeito de ícone
 solution: Experience Manager
 title: Efeito de ícone
-uuid: 4995ac11-f591-4d1d-a292-be5d55aebf98
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
