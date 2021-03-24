@@ -1,16 +1,13 @@
 ---
 description: A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
-seo-description: A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
-seo-title: Área do visualizador principal
 solution: Experience Manager
 title: Área do visualizador principal
-uuid: e337058e-1b51-4bc8-bfdb-95c1500db16a
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
