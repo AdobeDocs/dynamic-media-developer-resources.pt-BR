@@ -1,16 +1,13 @@
 ---
 description: As texturas repetidas incluem materiais interiores e externos, como tecidos (vestuário e estofo), revestimentos de pavimentos de parede para parede, papéis de parede, materiais de contraplacagem, texturas de grãos de madeira, coberturas e materiais de apoio e qualquer outra textura genérica.
-seo-description: As texturas repetidas incluem materiais interiores e externos, como tecidos (vestuário e estofo), revestimentos de pavimentos de parede para parede, papéis de parede, materiais de contraplacagem, texturas de grãos de madeira, coberturas e materiais de apoio e qualquer outra textura genérica.
-seo-title: Texturas repetidas
 solution: Experience Manager
 title: Texturas repetidas
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
