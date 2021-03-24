@@ -1,16 +1,13 @@
 ---
 description: Uma matriz de atualizações de metadados em lote.
-seo-description: Uma matriz de atualizações de metadados em lote.
-seo-title: BatchMetadataUpdateArray
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-uuid: f095fd2a-025f-4a12-9637-d49d3324955c
 feature: Dynamic Media Classic, SDK/API, Metadados
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
