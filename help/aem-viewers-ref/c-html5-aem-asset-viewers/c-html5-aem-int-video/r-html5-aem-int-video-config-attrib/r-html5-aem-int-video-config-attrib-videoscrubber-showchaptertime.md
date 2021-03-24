@@ -1,16 +1,13 @@
 ---
 description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-title: VideoScrubber.showchaptertime
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-uuid: 2a5e001d-14b6-41cd-938e-441ad0a789d2
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '43'
 ht-degree: 4%
 
 ---
