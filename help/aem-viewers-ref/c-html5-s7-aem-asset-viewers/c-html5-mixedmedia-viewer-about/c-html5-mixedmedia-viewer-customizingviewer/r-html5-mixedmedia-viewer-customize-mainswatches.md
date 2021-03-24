@@ -1,16 +1,13 @@
 ---
 description: As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
-seo-description: As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
-seo-title: Amostras principais
 solution: Experience Manager
 title: Amostras principais
-uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
