@@ -1,16 +1,13 @@
 ---
 description: Catálogos de materiais fornecem informações sobre vinhetas, materiais e dados de suporte, como perfis ICC, para o servidor.
-seo-description: Catálogos de materiais fornecem informações sobre vinhetas, materiais e dados de suporte, como perfis ICC, para o servidor.
-seo-title: Visão geral do catálogo de materiais *
 solution: Experience Manager
 title: Visão geral do catálogo de materiais *
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
