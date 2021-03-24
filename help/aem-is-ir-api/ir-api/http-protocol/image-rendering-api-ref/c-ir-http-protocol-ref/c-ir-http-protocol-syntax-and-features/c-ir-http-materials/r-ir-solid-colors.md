@@ -1,16 +1,13 @@
 ---
 description: Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
-seo-description: Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
-seo-title: Cores sólidas
 solution: Experience Manager
 title: Cores sólidas
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
