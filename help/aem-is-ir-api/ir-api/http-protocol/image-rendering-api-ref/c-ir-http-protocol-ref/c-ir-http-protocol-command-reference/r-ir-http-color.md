@@ -1,16 +1,13 @@
 ---
 description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais coloridos.
-seo-description: Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor do aditivo para os materiais coloridos.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
