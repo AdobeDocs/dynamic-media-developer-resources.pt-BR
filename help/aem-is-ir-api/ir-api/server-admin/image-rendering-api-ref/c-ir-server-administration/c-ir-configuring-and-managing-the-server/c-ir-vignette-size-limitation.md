@@ -1,16 +1,13 @@
 ---
 description: A Renderização de imagem impõe uma limitação de tamanho de dois Megapixels para vinhetas não-pirâmides.
-seo-description: A Renderização de imagem impõe uma limitação de tamanho de dois Megapixels para vinhetas não-pirâmides.
-seo-title: Limitação do tamanho da vinheta
 solution: Experience Manager
 title: Limitação do tamanho da vinheta
-uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
