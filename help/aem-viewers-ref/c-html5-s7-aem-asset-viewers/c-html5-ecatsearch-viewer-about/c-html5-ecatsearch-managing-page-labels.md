@@ -2,11 +2,10 @@
 description: Gerenciamento de rótulos de página
 solution: Experience Manager
 title: Gerenciamento de rótulos de página
-uuid: 49444fe6-ef34-4e5b-a293-e23830a67b4d
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
