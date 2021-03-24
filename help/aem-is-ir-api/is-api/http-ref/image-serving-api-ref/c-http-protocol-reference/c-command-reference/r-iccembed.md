@@ -1,16 +1,13 @@
 ---
 description: Incorporar perfil de cor. Especifica se o perfil de cor ICC ou o perfil especificado com icc= deve ser incorporado na imagem de resposta.
-seo-description: Incorporar perfil de cor. Especifica se o perfil de cor ICC ou o perfil especificado com icc= deve ser incorporado na imagem de resposta.
-seo-title: iccEmbed
 solution: Experience Manager
 title: iccEmbed
-uuid: ccd3fd2f-6f73-4725-a51a-9daf643d71af
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
