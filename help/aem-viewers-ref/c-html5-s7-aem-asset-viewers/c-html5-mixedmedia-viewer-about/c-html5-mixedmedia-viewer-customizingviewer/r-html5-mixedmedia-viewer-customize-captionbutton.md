@@ -1,16 +1,13 @@
 ---
 description: Alterna entre ativar e desativar a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado. Você pode usar o CSS para dimensionar, usar a capa e posicionar esse botão em relação à barra de controle que o contém.
-seo-description: Alterna entre ativar e desativar a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado. Você pode usar o CSS para dimensionar, usar a capa e posicionar esse botão em relação à barra de controle que o contém.
-seo-title: Botão Legenda
 solution: Experience Manager
 title: Botão Legenda
-uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
