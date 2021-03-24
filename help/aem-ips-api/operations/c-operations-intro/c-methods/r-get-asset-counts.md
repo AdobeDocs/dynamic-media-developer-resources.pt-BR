@@ -1,16 +1,13 @@
 ---
 description: Obtém os ativos e o número de ativos associados a uma empresa específica.
-seo-description: Obtém os ativos e o número de ativos associados a uma empresa específica.
-seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
