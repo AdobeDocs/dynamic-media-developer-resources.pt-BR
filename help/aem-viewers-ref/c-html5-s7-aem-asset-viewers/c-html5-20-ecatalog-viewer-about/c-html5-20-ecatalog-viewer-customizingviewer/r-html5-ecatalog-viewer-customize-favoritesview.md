@@ -1,16 +1,13 @@
 ---
 description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
-seo-description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
-seo-title: Exibição de favoritos
 solution: Experience Manager
 title: Exibição de favoritos
-uuid: 6b954bec-0678-4970-b83a-c2d8fea06a25
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
