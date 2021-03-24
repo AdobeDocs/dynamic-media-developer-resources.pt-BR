@@ -1,16 +1,13 @@
 ---
 description: Usado por getJobLogsParam/sortBy
-seo-description: Usado por getJobLogsParam/sortBy
-seo-title: Campos de Classificação do Log de Trabalho
 solution: Experience Manager
 title: Campos de Classificação do Log de Trabalho
-uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
