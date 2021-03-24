@@ -1,16 +1,13 @@
 ---
 description: Usa uma matriz de propriedades para atualizar um conjunto de propriedades.
-seo-description: Usa uma matriz de propriedades para atualizar um conjunto de propriedades.
-seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
