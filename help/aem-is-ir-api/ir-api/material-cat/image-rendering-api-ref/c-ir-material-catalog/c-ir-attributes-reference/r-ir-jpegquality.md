@@ -1,16 +1,13 @@
 ---
 description: Qualidade de codificação JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas em JPEG.
-seo-description: Qualidade de codificação JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas em JPEG.
-seo-title: JpegQuality
 solution: Experience Manager
 title: JpegQuality
-uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
