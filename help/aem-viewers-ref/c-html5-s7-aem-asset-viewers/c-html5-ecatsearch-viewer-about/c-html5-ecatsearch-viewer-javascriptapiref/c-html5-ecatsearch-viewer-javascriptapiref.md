@@ -1,16 +1,13 @@
 ---
 description: A classe principal do Visualizador de Pesquisa do Catálogo Eletrônico é o eCatalogSearchViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
-seo-description: A classe principal do Visualizador de Pesquisa do Catálogo Eletrônico é o eCatalogSearchViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
-seo-title: Referência da API do Javascript para o Visualizador de pesquisa do catálogo eletrônico
 solution: Experience Manager
 title: Referência da API do Javascript para o Visualizador de pesquisa do catálogo eletrônico
-uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
