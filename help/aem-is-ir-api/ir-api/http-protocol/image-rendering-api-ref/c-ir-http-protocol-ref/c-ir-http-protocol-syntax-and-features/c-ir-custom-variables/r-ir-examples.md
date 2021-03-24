@@ -1,16 +1,13 @@
 ---
 description: Este exemplo usa o Serviço de imagem para colorir um objeto e aplicar um decalque contendo texto personalizado em uma de um conjunto de vinhetas.
-seo-description: Este exemplo usa o Serviço de imagem para colorir um objeto e aplicar um decalque contendo texto personalizado em uma de um conjunto de vinhetas.
-seo-title: Exemplos
 solution: Experience Manager
 title: Exemplos
-uuid: 9f8e4346-6efe-4f21-982d-613328bd708d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
