@@ -5,7 +5,7 @@ title: ErrorDetail
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Os seguintes valores são permitidos:
   <td class="stentry"> <p>Somente título. Retorna uma breve descrição geral do erro. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Breve mensagem. Reservado para uso futuro. Retorna atualmente as mesmas informações que 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +35,7 @@ Os seguintes valores são permitidos:
   <td class="stentry"> <p>Mensagem detalhada. Fornece detalhes no nível do usuário sobre o erro. Pode incluir informações confidenciais, como caminhos de arquivo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha de Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
