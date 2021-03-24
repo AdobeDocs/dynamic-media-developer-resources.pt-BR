@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar nesse botão traz o usuário para a primeira página no catálogo. Este botão aparece na barra de controle principal em sistemas de desktop e tablets; em telefones celulares é adicionado a uma barra de controle secundária. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão traz o usuário para a primeira página no catálogo. Este botão aparece na barra de controle principal em sistemas de desktop e tablets; em telefones celulares é adicionado a uma barra de controle secundária. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-title: Botão Primeira página
 solution: Experience Manager
 title: Botão Primeira página
-uuid: fd164899-505c-448b-8dba-7581d97d87b6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
