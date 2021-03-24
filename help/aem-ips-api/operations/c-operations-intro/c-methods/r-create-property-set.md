@@ -1,16 +1,13 @@
 ---
 description: Os conjuntos de propriedades são conjuntos específicos do aplicativo de pares de nome-valor que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
-seo-description: Os conjuntos de propriedades são conjuntos específicos do aplicativo de pares de nome-valor que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
