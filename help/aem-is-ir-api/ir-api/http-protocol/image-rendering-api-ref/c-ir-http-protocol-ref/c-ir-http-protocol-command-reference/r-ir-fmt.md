@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
 
 `qlt-` define as opções de codificação JPEG para estes formatos: JPEG, TIFF com compactação JPEG, PDF com compactação JPEG e arquivo SWF. Use `quantize=` se `fmt=gif` ou `fmt=gif-alpha`. Consulte as descrições dos comandos para obter detalhes. Os outros formatos não têm opções configuráveis.
 
-8 bits por componente de pixel são retornados para todos os formatos e tipos de pixel.
+Oito bits por componente de pixel são retornados para todos os formatos e tipos de pixel.
 
 A tabela a seguir lista as combinações válidas de *`format`* e *`pixelType`*, os tipos MIME de resposta HTTP correspondentes, se os perfis ICC podem ser incorporados (consulte [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) e quais comandos de opção específicos de formato podem ser aplicados.
 
@@ -199,7 +199,7 @@ A tabela a seguir lista as combinações válidas de *`format`* e *`pixelType`*,
 
 Especifica o formato de codificação para dados de imagem de resposta enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP.
 
-`png-alpha` retorna alfa não associado (ou seja, alfa não multiplica os valores de pixels), enquanto  `tif-alpha`e  `swf-alpha` retorna alfa associado (ou seja, os valores alfa são pré-multiplicados com os valores alfa). O canal alfa corresponde ao inverso da máscara de plano de fundo da vinheta para `req=img`, e ao grupo ou máscara de objeto no caso de `req=object`. Para aplicar alfa ao usar uma solicitação IR aninhada, adicione `fmt=` com o formato de arquivo alfa apropriado à solicitação IR incorporada e à solicitação principal. Nenhum dado alfa é retornado se um perfil CMYK ou ICC em tons de cinza for especificado com `icc=`.
+`png-alpha` retorna alfa não associado (ou seja, alfa não multiplica os valores de pixels), enquanto  `tif-alpha`e  `swf-alpha` retorna alfa associado (ou seja, os valores alfa são pré-multiplicados com os valores alfa). O canal alfa corresponde ao inverso da máscara de plano de fundo da vinheta para `req=img`, e ao grupo ou máscara de objeto se houver `req=object`. Para aplicar alfa ao usar uma solicitação IR aninhada, adicione `fmt=` com o formato de arquivo alfa apropriado à solicitação IR incorporada e à solicitação principal. Nenhum dado alfa é retornado se um perfil CMYK ou ICC em tons de cinza for especificado com `icc=`.
 
 ## Propriedades {#section-eb12a82c69d84622bcea153dd84d95b3}
 
