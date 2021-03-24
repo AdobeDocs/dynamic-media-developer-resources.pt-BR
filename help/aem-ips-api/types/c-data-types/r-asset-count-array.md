@@ -1,16 +1,13 @@
 ---
 description: Uma matriz de contagens de ativos.
-seo-description: Uma matriz de contagens de ativos.
-seo-title: AssetCountArray
 solution: Experience Manager
 title: AssetCountArray
-uuid: 1e93b8d7-5cd5-487d-84e6-69495221219a
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
