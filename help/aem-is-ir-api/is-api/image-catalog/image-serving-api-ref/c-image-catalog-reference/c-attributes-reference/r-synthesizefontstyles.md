@@ -1,16 +1,13 @@
 ---
 description: Habilite variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico, se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
-seo-description: Habilite variações de fonte sintetizadas. Controla se o servidor deve gerar uma resposta de erro ou sintetizar um estilo de fonte negrito, itálico ou negrito/itálico, se esse estilo for solicitado, mas não puder ser encontrado no mapa de fontes.
-seo-title: SynthesizeFontStyles
 solution: Experience Manager
 title: SynthesizeFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
