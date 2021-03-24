@@ -1,16 +1,13 @@
 ---
 description: Modelo de composição. Permite especificar um modelo de composição localizado em um catálogo diferente do principal.
-seo-description: Modelo de composição. Permite especificar um modelo de composição localizado em um catálogo diferente do principal.
-seo-title: modelo
 solution: Experience Manager
 title: modelo
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # modelo{#template}
 
-Modelo de composição. Permite especificar um modelo de composição localizado em um catálogo diferente do principal.
+Modelo de composição. Permite especificar um modelo de composição em um catálogo diferente do principal.
 
 `template= *`modelo`*`
 
@@ -31,7 +28,7 @@ Modelo de composição. Permite especificar um modelo de composição localizado
 
 *`template`* deve ser uma entrada do catálogo de imagens com o corpo do modelo contido em  `catalog::Modifier`.
 
-Quando `template=` estiver presente, o objeto especificado no caminho da solicitação não será aplicado como a origem da camada 0, mas poderá ser referenciado como `src=` ou `mask=` em qualquer lugar no modelo usando a variável de caminho predefinida `$object$` como um valor `src=`. `catalog::Modifier` do objeto especificado no caminho da solicitação só é aplicado em conexão com a substituição de  `$object$` dentro do modelo, enquanto  `catalog::PostModifier` é sempre aplicado.
+Quando `template=` estiver presente, o objeto especificado no caminho da solicitação não será aplicado como a origem da camada 0. No entanto, ele pode ser referenciado como `src=` ou `mask=` em qualquer lugar no modelo, usando a variável de caminho predefinida `$object$` como um valor `src=`. `catalog::Modifier` do objeto especificado no caminho da solicitação só é aplicado com a substituição de  `$object$` dentro do modelo, enquanto  `catalog::PostModifier` é sempre aplicado.
 
 A camada 0 é definida no corpo do modelo e pode ser uma imagem, cor sólida, texto ou camada de solicitação aninhada ou incorporada.
 
