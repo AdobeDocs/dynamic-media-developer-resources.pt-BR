@@ -1,16 +1,13 @@
 ---
 description: As referências $var$ podem ocorrer em qualquer lugar dentro das chaves de uma solicitação aninhada de Exibição de imagem ou Renderização de imagem, incluindo à esquerda de '?' separando o caminho da query.
-seo-description: As referências $var$ podem ocorrer em qualquer lugar dentro das chaves de uma solicitação aninhada de Exibição de imagem ou Renderização de imagem, incluindo à esquerda de '?' separando o caminho da query.
-seo-title: Processamento de variável em solicitações aninhadas
 solution: Experience Manager
 title: Processamento de variável em solicitações aninhadas
-uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
