@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 3e26c121-7493-49b5-af25-ebd76477a415
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
