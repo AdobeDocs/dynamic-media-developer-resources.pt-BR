@@ -1,16 +1,13 @@
 ---
 description: As entradas de cache são atualizadas automaticamente usando a validação de cache baseada em catálogo ou em expiração, conforme selecionado com o atributo CacheValidationPolicy (em default.ini ou o arquivo .ini de um catálogo de imagem específico).
-seo-description: As entradas de cache são atualizadas automaticamente usando a validação de cache baseada em catálogo ou em expiração, conforme selecionado com o atributo CacheValidationPolicy (em default.ini ou o arquivo .ini de um catálogo de imagem específico).
-seo-title: Validação do cache de resposta
 solution: Experience Manager
 title: Validação do cache de resposta
-uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
