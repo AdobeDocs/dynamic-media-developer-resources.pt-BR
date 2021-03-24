@@ -5,7 +5,7 @@ title: sub
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 3%
@@ -25,7 +25,7 @@ Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto
   <td class="stentry"> <p>Selecione a parede inteira. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Selecione a metade superior da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
