@@ -1,16 +1,13 @@
 ---
 description: Alinhamento da textura. Alinhamento da textura quando aplicada a objetos de vinheta relacionados entre si, como as partes estofadas de um item de móveis. Usado principalmente para aplicativos de renderização de estofo, possivelmente para aplicativos avançados de vestuário.
-seo-description: Alinhamento da textura. Alinhamento da textura quando aplicada a objetos de vinheta relacionados entre si, como as partes estofadas de um item de móveis. Usado principalmente para aplicativos de renderização de estofo, possivelmente para aplicativos avançados de vestuário.
-seo-title: Alinhamento
 solution: Experience Manager
 title: Alinhamento
-uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
