@@ -1,17 +1,14 @@
 ---
 description: Aprimoramento de material padrão. Define o modo padrão de nitidez do material caso um registro de catálogo específico não contenha um valor de Sharp de catálogo válido.
-seo-description: Aprimoramento de material padrão. Define o modo padrão de nitidez do material caso um registro de catálogo específico não contenha um valor de Sharp de catálogo válido.
-seo-title: Nitidez
 solution: Experience Manager
 title: Nitidez
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +27,7 @@ Enum.
   <td class="stentry"> <p>Sem nitidez. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Nitidez normal (após a transformação). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +35,7 @@ Enum.
   <td class="stentry"> <p>Nitidez alternativa (antes da transformação). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Mais nitidez (antes e depois da transformação). </p> </td> 
  </tr> 
 </table>
