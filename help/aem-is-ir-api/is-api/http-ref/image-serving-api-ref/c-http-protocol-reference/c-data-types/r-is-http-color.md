@@ -1,17 +1,14 @@
 ---
 description: Valores de cor. Você pode especificar valores de cor usando notação hexadecimal, uma lista separada por vírgulas de valores de componentes ou decimais.
-seo-description: Valores de cor. Você pode especificar valores de cor usando notação hexadecimal, uma lista separada por vírgulas de valores de componentes ou decimais.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 11%
+source-wordcount: '439'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +36,7 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>valor de cor cinza hexadecimal de dois dígitos embalado (GG) </p></td> 
+  <td class="stentry"> <p>valor de cor cinza hexadecimal (GG) de dois dígitos embalado </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
@@ -51,11 +48,11 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>valor de cor RGBA hexadecimal de oito dígitos (RRGGBBAA) ou CMYK (CCMMMYKK) compactado (se especificado com o sufixo 'k') </p></td> 
+  <td class="stentry"> <p>valor de cor hexadecimal RGBA (RRGGBBAA) ou CMYK (CCMMMYKK) compactado de oito dígitos (se especificado com o sufixo 'k') </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>CMYK hexadecimal de dez dígitos compactado com valor alfa (CCYMMKKAA) </p> </td> 
+  <td class="stentry"> <p>CMYK hexadecimal compactado de dez dígitos com valor alfa (CCYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
@@ -63,7 +60,7 @@ Os valores dos componentes decimais para cores RGB estão no intervalo 0...255. 
 
 Pressupõe-se que os valores dos componentes de cor sejam independentes do valor alfa (não pré-multiplicado).
 
-Todos os valores de cor, prefixos e sufixos não diferenciam maiúsculas de minúsculas.
+Todos os valores de cor, prefixos e sufixos não fazem distinção entre maiúsculas e minúsculas.
 
 O sufixo de tipo &#39;k&#39; é necessário para valores de cores CMYK. Um sufixo de tipo pode ser especificado opcionalmente para valores de cores RGB e cinza.
 
