@@ -1,16 +1,13 @@
 ---
 description: Esse botão ativa e desativa a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado.
-seo-description: Esse botão ativa e desativa a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado.
-seo-title: Botão Legenda
 solution: Experience Manager
 title: Botão Legenda
-uuid: a3895a9a-972a-4259-9418-b78f7c904bd4
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
