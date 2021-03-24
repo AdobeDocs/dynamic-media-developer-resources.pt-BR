@@ -1,16 +1,13 @@
 ---
 description: Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
-seo-description: Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
-seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-uuid: da7e6b02-8fe6-4045-b4c5-b46d7bdd6ee2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
