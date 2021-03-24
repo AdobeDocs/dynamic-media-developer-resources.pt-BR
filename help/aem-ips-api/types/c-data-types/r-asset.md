@@ -5,7 +5,7 @@ title: Ativo
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
