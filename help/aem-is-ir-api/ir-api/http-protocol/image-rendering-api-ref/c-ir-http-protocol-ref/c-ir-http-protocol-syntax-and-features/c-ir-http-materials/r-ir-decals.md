@@ -1,16 +1,13 @@
 ---
 description: Os materiais de decoração incluem construções de vestuário, como appliqués, estampas de camisetas e logotipos bordados ou impressos, bem como objetos planos não repetitivos usados em aplicações interiores ou exteriores, como tapetes de área, arte pendurada em parede, sinais e assim por diante.
-seo-description: Os materiais de decoração incluem construções de vestuário, como appliqués, estampas de camisetas e logotipos bordados ou impressos, bem como objetos planos não repetitivos usados em aplicações interiores ou exteriores, como tapetes de área, arte pendurada em parede, sinais e assim por diante.
-seo-title: Decretos
 solution: Experience Manager
 title: Decretos
-uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
