@@ -1,16 +1,13 @@
 ---
 description: Use essas configurações do servidor para depurar o log de rastreamento.
-seo-description: Use essas configurações do servidor para depurar o log de rastreamento.
-seo-title: Registro do Debug_trace
 solution: Experience Manager
 title: Registro do Debug_trace
-uuid: 33f1d093-007d-453b-965a-9d701a845954
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
