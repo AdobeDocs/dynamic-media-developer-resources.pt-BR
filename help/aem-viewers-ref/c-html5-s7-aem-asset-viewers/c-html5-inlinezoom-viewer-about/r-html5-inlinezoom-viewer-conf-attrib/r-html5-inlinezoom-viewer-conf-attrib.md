@@ -1,16 +1,13 @@
 ---
 description: Documentação de atributos de configuração para o Flyout Viewer
-seo-description: Documentação de atributos de configuração para o Flyout Viewer
-seo-title: Referência de comando - Atributos de configuração
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-uuid: 0813c334-37b7-43af-b39d-bec66658ad58
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
