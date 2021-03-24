@@ -1,16 +1,13 @@
 ---
 description: As camadas são posicionadas alinhando a origem da camada (origem=) com a origem da camada de fundo em um deslocamento especificado por pos=.
-seo-description: As camadas são posicionadas alinhando a origem da camada (origem=) com a origem da camada de fundo em um deslocamento especificado por pos=.
-seo-title: Inserção de camada
 solution: Experience Manager
 title: Inserção de camada
-uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
