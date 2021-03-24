@@ -1,16 +1,13 @@
 ---
 description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
-seo-description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
-seo-title: getImageRenderingPublishSettings
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-uuid: b1c253b5-febe-4dc7-95a1-a5f4789030e7
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
