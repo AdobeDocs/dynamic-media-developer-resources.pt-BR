@@ -1,16 +1,13 @@
 ---
 description: Um tipo de conjunto de propriedades especifica várias configurações usadas para ajudar a gerenciar conjuntos de propriedades.
-seo-description: Um tipo de conjunto de propriedades especifica várias configurações usadas para ajudar a gerenciar conjuntos de propriedades.
-seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
