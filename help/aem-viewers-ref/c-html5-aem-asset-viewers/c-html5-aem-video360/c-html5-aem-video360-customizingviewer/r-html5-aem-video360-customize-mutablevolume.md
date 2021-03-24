@@ -1,16 +1,13 @@
 ---
 description: O controle de volume mutável aparece inicialmente como um botão que permite que o usuário mude ou mude o som do player de vídeo.
-seo-description: O controle de volume mutável aparece inicialmente como um botão que permite que o usuário mude ou mude o som do player de vídeo.
-seo-title: Volume variável
 solution: Experience Manager
 title: Volume variável
-uuid: 6ac8f777-11d8-4a20-b7ed-23f947426cdf
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
