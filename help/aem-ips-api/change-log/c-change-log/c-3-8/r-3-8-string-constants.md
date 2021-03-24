@@ -1,16 +1,13 @@
 ---
 description: Descreve constantes de sequência de caracteres novas e alteradas para a API IPS versão 3.8.
-seo-description: Descreve constantes de sequência de caracteres novas e alteradas para a API IPS versão 3.8.
-seo-title: Constantes da cadeia de caracteres novas e modificadas
 solution: Experience Manager
 title: Constantes da cadeia de caracteres novas e modificadas
-uuid: 4cdfdff7-9cea-4ae1-925b-ce6cfc51c151
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
