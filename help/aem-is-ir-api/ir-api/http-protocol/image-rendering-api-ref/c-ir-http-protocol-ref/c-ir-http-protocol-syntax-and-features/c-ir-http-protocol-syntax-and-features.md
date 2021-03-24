@@ -1,16 +1,13 @@
 ---
 description: Esta seção descreve a sintaxe do protocolo HTTP e os recursos da Renderização de imagem do Dynamic Media.
-seo-description: Esta seção descreve a sintaxe do protocolo HTTP e os recursos da Renderização de imagem do Dynamic Media.
-seo-title: Sintaxe e recursos do protocolo HTTP
 solution: Experience Manager
 title: Sintaxe e recursos do protocolo HTTP
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
