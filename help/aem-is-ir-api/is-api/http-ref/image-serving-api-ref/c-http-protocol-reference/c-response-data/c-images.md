@@ -1,16 +1,13 @@
 ---
 description: Os dados da imagem são retornados se uma solicitação for concluída com êxito e se a solicitação não incluir um comando req= ou se req=img ou req=tmb.
-seo-description: Os dados da imagem são retornados se uma solicitação for concluída com êxito e se a solicitação não incluir um comando req= ou se req=img ou req=tmb.
-seo-title: Imagens
 solution: Experience Manager
 title: Imagens
-uuid: 715154b6-f9ac-459e-a566-f78a4ca4580d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
