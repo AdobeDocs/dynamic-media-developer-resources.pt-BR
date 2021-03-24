@@ -1,16 +1,13 @@
 ---
 description: A localização da string de texto permite que catálogos de imagens contenham várias representações específicas de localidade para o mesmo valor de string.
-seo-description: A localização da string de texto permite que catálogos de imagens contenham várias representações específicas de localidade para o mesmo valor de string.
-seo-title: Localização da string de texto
 solution: Experience Manager
 title: Localização da string de texto
-uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
