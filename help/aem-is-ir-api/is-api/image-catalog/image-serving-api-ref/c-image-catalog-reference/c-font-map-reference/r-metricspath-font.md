@@ -1,16 +1,13 @@
 ---
 description: Caminho do arquivo das métricas de fonte. Caminho e nome de um arquivo de métricas de fonte, incluindo o sufixo do arquivo.
-seo-description: Caminho do arquivo das métricas de fonte. Caminho e nome de um arquivo de métricas de fonte, incluindo o sufixo do arquivo.
-seo-title: MetricsPath
 solution: Experience Manager
 title: MetricsPath
-uuid: b59110bf-330f-4ca4-8b0a-219a61d383f7
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
