@@ -1,16 +1,13 @@
 ---
 description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
-seo-description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
-seo-title: Processamento de variável em solicitações externas incorporadas
 solution: Experience Manager
 title: Processamento de variável em solicitações externas incorporadas
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
