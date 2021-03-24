@@ -1,16 +1,13 @@
 ---
 description: As opções a seguir controlam o processamento de arquivos de estilo de gabinete. Eles serão ignorados se sourceFile não for um arquivo de estilo de gabinete ou se -info for especificado.
-seo-description: As opções a seguir controlam o processamento de arquivos de estilo de gabinete. Eles serão ignorados se sourceFile não for um arquivo de estilo de gabinete ou se -info for especificado.
-seo-title: Opções para arquivos de estilo de gabinete
 solution: Experience Manager
 title: Opções para arquivos de estilo de gabinete
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
