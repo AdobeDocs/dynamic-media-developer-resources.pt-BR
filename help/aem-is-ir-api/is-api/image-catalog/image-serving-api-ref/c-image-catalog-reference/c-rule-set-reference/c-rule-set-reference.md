@@ -1,16 +1,13 @@
 ---
 description: O Image Serving suporta um mecanismo de pré-processamento de solicitação simples, que se baseia em regras de substituição e correspondência de expressões regulares.
-seo-description: O Image Serving suporta um mecanismo de pré-processamento de solicitação simples, que se baseia em regras de substituição e correspondência de expressões regulares.
-seo-title: Referência do conjunto de regras
 solution: Experience Manager
 title: Referência do conjunto de regras
-uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
