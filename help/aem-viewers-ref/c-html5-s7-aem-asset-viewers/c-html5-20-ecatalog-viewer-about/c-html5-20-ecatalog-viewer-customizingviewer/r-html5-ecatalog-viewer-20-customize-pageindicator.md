@@ -1,16 +1,13 @@
 ---
 description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
-seo-description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
-seo-title: Indicador de página
 solution: Experience Manager
 title: Indicador de página
-uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
