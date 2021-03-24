@@ -1,16 +1,13 @@
 ---
 description: Altura da imagem de resposta. Especifica o dimensionamento da imagem renderizada para que a altura da imagem de resposta não seja maior do que o valor especificado, mantendo a proporção da imagem.
-seo-description: Altura da imagem de resposta. Especifica o dimensionamento da imagem renderizada para que a altura da imagem de resposta não seja maior do que o valor especificado, mantendo a proporção da imagem.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
