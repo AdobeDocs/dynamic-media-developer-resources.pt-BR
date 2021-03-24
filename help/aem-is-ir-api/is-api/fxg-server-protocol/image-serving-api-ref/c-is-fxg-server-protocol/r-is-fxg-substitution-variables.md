@@ -1,16 +1,13 @@
 ---
 description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
-seo-description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
-seo-title: Variáveis de substituição
 solution: Experience Manager
 title: Variáveis de substituição
-uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
