@@ -1,16 +1,13 @@
 ---
 description: Máscara de imagem. Solicita os dados da máscara (canal alfa).
-seo-description: Máscara de imagem. Solicita os dados da máscara (canal alfa).
-seo-title: máscara
 solution: Experience Manager
 title: máscara
-uuid: 9a8dc4bc-0757-45d2-adfe-d4bd69b4efa9
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
@@ -22,6 +19,6 @@ Máscara de imagem. Solicita os dados da máscara (canal alfa).
 
 `req=mask`
 
-Suporta os mesmos comandos que `req=img` e é processado da mesma forma pelo servidor, mas em vez de retornar os dados RGB ou RGBA, o servidor descarta as informações de cor e retorna somente os dados de máscara (canal alfa). O formato dos dados de resposta e o tipo MIME de resposta são determinados por `fmt=`.
+Suporta os mesmos comandos que `req=img`. Ele é processado da mesma forma pelo servidor, mas em vez de retornar os dados RGB ou RGBA, o servidor descarta as informações de cor e retorna somente os dados de máscara (canal alfa). O formato dos dados de resposta e o tipo MIME de resposta são determinados por `fmt=`.
 
 A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::Expiration`.
