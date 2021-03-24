@@ -1,16 +1,13 @@
 ---
 description: Você pode usar o Serviço de imagem para gerenciar conteúdo não-imagem em catálogos e servi-lo por meio de um contexto separado /is/content.
-seo-description: Você pode usar o Serviço de imagem para gerenciar conteúdo não-imagem em catálogos e servi-lo por meio de um contexto separado /is/content.
-seo-title: Fornecer conteúdo estático (não imagem)
 solution: Experience Manager
 title: Fornecer conteúdo estático (não imagem)
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
