@@ -1,17 +1,14 @@
 ---
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de Imagens Interativas são feitas criando um CSS personalizado.
 keywords: responsivo
-seo-description: Toda personalização visual e a maioria dos comportamentos do Visualizador de Imagens Interativas são feitas criando um CSS personalizado.
-seo-title: Personalização do visualizador de imagens interativas
 solution: Experience Manager
 title: Personalização do visualizador de imagens interativas
-uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
