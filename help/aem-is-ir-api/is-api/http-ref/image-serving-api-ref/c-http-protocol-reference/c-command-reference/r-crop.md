@@ -1,16 +1,13 @@
 ---
 description: Recortar imagem. Especifica uma região de corte retangular, expressa em pixels ou normalizada em relação à imagem de origem de resolução completa ou à imagem de máscara.
-seo-description: Recortar imagem. Especifica uma região de corte retangular, expressa em pixels ou normalizada em relação à imagem de origem de resolução completa ou à imagem de máscara.
-seo-title: cultura
 solution: Experience Manager
 title: cultura
-uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
