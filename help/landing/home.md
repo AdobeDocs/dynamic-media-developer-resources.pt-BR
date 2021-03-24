@@ -1,14 +1,12 @@
 ---
 title: Recursos do desenvolvedor do Adobe Dynamic Media
-seo-title: Guias de recursos do desenvolvedor do Adobe Dynamic Media para visualizadores, veiculação de imagens, renderização de imagens e produção de imagens
 description: Recursos do desenvolvedor do Adobe Dynamic Media
-seo-description: Guias de recursos do desenvolvedor do Adobe Dynamic Media para visualizadores, veiculação de imagens, renderização de imagens e produção de imagens
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
