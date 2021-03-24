@@ -1,16 +1,13 @@
 ---
 description: Usado por AtiveJobs/estado.
-seo-description: Usado por AtiveJobs/estado.
-seo-title: Estados de Trabalho Ativo
 solution: Experience Manager
 title: Estados de Trabalho Ativo
-uuid: 77020ada-cea6-4de2-bb90-8d5cf835c221
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '23'
 ht-degree: 0%
 
 ---
