@@ -1,16 +1,13 @@
 ---
 description: Um conjunto de máscaras.
-seo-description: Um conjunto de máscaras.
-seo-title: MaskArray
 solution: Experience Manager
 title: MaskArray
-uuid: c57fcdae-2cad-48ca-8ade-bb81efee142c
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
