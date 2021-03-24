@@ -1,17 +1,14 @@
 ---
 description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-title: CallToAction.scrollbar
 solution: Experience Manager
 title: CallToAction.scrollbar
-uuid: 20b14257-da2f-4557-a732-b14421b0eb7e
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '37'
+ht-degree: 5%
 
 ---
 
