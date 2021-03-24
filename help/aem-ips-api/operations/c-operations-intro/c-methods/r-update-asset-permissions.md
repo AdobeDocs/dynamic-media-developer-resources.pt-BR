@@ -1,16 +1,13 @@
 ---
 description: Atualiza as permissões do ativo.
-seo-description: Atualiza as permissões do ativo.
-seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-uuid: feb2faf3-81de-436e-82de-1e41df03508f
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
