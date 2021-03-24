@@ -1,16 +1,13 @@
 ---
 description: Utilitário de conversão de imagem.
-seo-description: Utilitário de conversão de imagem.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -292,7 +289,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzaA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> descompactado | comprimido </p> </td> 
    <td> <p> Somente imagem mesclada; camadas e canais extras são ignorados. </p> </td> 
   </tr> 
@@ -306,7 +303,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compactado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
