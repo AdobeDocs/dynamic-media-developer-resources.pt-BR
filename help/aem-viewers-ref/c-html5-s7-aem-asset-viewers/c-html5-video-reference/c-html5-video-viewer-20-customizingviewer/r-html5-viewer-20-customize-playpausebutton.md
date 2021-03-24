@@ -1,16 +1,13 @@
 ---
 description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
-seo-description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
-seo-title: Botão Reproduzir/Pausar
 solution: Experience Manager
 title: Botão Reproduzir/Pausar
-uuid: b910a837-07ba-4e06-aee8-c22619ed0a92
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
