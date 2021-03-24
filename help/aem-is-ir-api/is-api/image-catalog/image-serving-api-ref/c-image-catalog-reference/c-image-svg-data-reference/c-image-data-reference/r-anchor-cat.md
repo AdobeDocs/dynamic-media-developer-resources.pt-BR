@@ -1,16 +1,13 @@
 ---
 description: Âncora da imagem. Ponto de origem quando essa imagem é usada como uma camada em um modelo ou imagem composta.
-seo-description: Âncora da imagem. Ponto de origem quando essa imagem é usada como uma camada em um modelo ou imagem composta.
-seo-title: Âncora
 solution: Experience Manager
 title: Âncora
-uuid: 81069578-8470-4ec0-b755-47b0a8124024
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
