@@ -1,16 +1,13 @@
 ---
 description: O Servidor de Imagens grava registros neste arquivo de log para registrar avisos e erros e manter um registro de eventos de inicialização e desligamento.
-seo-description: O Servidor de Imagens grava registros neste arquivo de log para registrar avisos e erros e manter um registro de eventos de inicialização e desligamento.
-seo-title: Log do servidor de imagens
 solution: Experience Manager
 title: Log do servidor de imagens
-uuid: 5a1a54bd-5553-43a4-9cd6-182ba474c2d0
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
