@@ -1,16 +1,13 @@
 ---
 description: A renderização de imagem aplica materiais a grupos ou objetos em vinhetas.
-seo-description: A renderização de imagem aplica materiais a grupos ou objetos em vinhetas.
-seo-title: Materiais
 solution: Experience Manager
 title: Materiais
-uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
