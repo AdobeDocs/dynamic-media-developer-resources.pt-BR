@@ -1,16 +1,13 @@
 ---
 description: O Visualizador básico de zoom é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-description: O Visualizador básico de zoom é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-title: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
