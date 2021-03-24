@@ -1,16 +1,13 @@
 ---
 description: Tipo de dados de cor.
-seo-description: Tipo de dados de cor.
-seo-title: Cor
 solution: Experience Manager
 title: Cor
-uuid: ff431b92-7936-41df-9372-b97267cdffd2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
