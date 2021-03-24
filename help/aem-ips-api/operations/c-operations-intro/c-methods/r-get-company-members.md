@@ -1,16 +1,13 @@
 ---
 description: Retorna os usuários de uma empresa especificada por um identificador de empresa.
-seo-description: Retorna os usuários de uma empresa especificada por um identificador de empresa.
-seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
