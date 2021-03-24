@@ -1,16 +1,13 @@
 ---
 description: Use estas etapas para instalar o Image Serving pela primeira vez no Windows.
-seo-description: Use estas etapas para instalar o Image Serving pela primeira vez no Windows.
-seo-title: Instalação pela primeira vez
 solution: Experience Manager
 title: Instalação pela primeira vez
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
