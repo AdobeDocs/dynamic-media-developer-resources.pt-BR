@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: 87f16ea9-0267-4114-9aeb-a68fdb616a88
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
