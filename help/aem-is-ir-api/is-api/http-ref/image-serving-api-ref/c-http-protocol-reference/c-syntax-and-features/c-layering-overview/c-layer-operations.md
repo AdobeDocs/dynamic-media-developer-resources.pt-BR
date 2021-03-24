@@ -1,16 +1,13 @@
 ---
 description: Além de dimensionar (size=) e posicionar (pos=) camadas em relação à camada 0 e especificar a ordem de composição (a ordem z) com o comando layer=, as camadas podem ser giradas (rotate=) e viradas (flip=).
-seo-description: Além de dimensionar (size=) e posicionar (pos=) camadas em relação à camada 0 e especificar a ordem de composição (a ordem z) com o comando layer=, as camadas podem ser giradas (rotate=) e viradas (flip=).
-seo-title: Operações de camada
 solution: Experience Manager
 title: Operações de camada
-uuid: a9ef4199-cfa2-480e-a4de-8a0b9064a649
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
