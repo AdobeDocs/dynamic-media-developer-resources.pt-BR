@@ -1,17 +1,14 @@
 ---
 description: Esta página vincula a vários exemplos de Servidor de imagem.
-seo-description: Esta página vincula a vários exemplos de Servidor de imagem.
-seo-title: Exemplos de servidor de imagem
 solution: Experience Manager
 title: Exemplos de servidor de imagem
-uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
