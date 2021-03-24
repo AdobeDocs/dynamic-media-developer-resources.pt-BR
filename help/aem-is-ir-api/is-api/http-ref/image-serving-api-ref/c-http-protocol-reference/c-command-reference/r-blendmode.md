@@ -1,16 +1,13 @@
 ---
 description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
-seo-description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
-seo-title: blendMode
 solution: Experience Manager
 title: blendMode
-uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
