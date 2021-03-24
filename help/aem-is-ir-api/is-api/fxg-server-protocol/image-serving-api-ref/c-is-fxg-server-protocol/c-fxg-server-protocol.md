@@ -1,16 +1,13 @@
 ---
 description: Para manipular um gráfico, você pode usar pontos de referência semelhantes a pontos de bússola.
-seo-description: Para manipular um gráfico, você pode usar pontos de referência semelhantes a pontos de bússola.
-seo-title: Protocolo do servidor FXG
 solution: Experience Manager
 title: Protocolo do servidor FXG
-uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
