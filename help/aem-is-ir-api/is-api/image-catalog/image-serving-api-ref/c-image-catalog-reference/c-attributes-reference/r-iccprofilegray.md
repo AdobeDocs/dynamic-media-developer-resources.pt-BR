@@ -1,16 +1,13 @@
 ---
 description: Perfil de cor de saída padrão de escala de cinza. Especifica o nome do perfil de cor ICC a ser usado para imagens de resposta em tons de cinza quando nenhum espaço de cor de saída for especificado com icc= e para determinados valores de cor em escala de cinza especificados com vários comandos do Image Serving, como color=.
-seo-description: Perfil de cor de saída padrão de escala de cinza. Especifica o nome do perfil de cor ICC a ser usado para imagens de resposta em tons de cinza quando nenhum espaço de cor de saída for especificado com icc= e para determinados valores de cor em escala de cinza especificados com vários comandos do Image Serving, como color=.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: a7d40114-f91f-4637-bb49-5b06b9ce846d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
