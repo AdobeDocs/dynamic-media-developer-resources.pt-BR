@@ -1,16 +1,13 @@
 ---
 description: Caminhos do arquivo de dados SVG. Especifica os arquivos que contêm os dados SVG para este catálogo.
-seo-description: Caminhos do arquivo de dados SVG. Especifica os arquivos que contêm os dados SVG para este catálogo.
-seo-title: SvgCatalogFile
 solution: Experience Manager
 title: SvgCatalogFile
-uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
