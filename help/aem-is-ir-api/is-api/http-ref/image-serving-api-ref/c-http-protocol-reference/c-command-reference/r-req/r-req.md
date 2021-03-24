@@ -1,16 +1,13 @@
 ---
 description: Tipo de solicitação. Especifica o tipo de solicitação.
-seo-description: Tipo de solicitação. Especifica o tipo de solicitação.
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -43,7 +40,7 @@ Tipo de solicitação. Especifica o tipo de solicitação.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Salvo indicação em contrário nas descrições detalhadas, o servidor retornará `text` respostas com o tipo MIME `text/plain`. Muitos tipos de solicitação permitem especificar um tipo de resposta, como `text`, que normalmente é o padrão, `javascript`, `xml` ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml` e `text/javascript`, respectivamente.
+Salvo indicação em contrário nas descrições detalhadas, o servidor retorna `text` respostas com o tipo MIME `text/plain`. Muitos tipos de solicitação permitem especificar um tipo de resposta, como `text`, que normalmente é o padrão, `javascript`, `xml` ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml` e `text/javascript`, respectivamente.
 
 Salvo indicação em contrário, as respostas formatar a resposta como um conjunto de pares `name=value`.
 
