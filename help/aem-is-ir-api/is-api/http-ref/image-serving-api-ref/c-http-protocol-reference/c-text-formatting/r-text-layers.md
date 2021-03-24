@@ -1,16 +1,13 @@
 ---
 description: textPs= suporta vários modelos de uso diferentes descritos nesta seção.
-seo-description: textPs= suporta vários modelos de uso diferentes descritos nesta seção.
-seo-title: Camadas de texto
 solution: Experience Manager
 title: Camadas de texto
-uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
