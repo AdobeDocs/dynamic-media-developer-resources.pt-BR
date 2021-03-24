@@ -1,16 +1,13 @@
 ---
 description: O Visualizador de carrossel é um visualizador que exibe um carrossel de imagens de banner sem zoom com pontos de acesso ou regiões clicáveis. O objetivo desse visualizador é implementar uma experiência de "carrossel que pode ser comprado", onde os usuários podem selecionar um ponto de acesso ou uma região sobre a imagem do banner e ser redirecionado para uma página de detalhes do produto ou do Quickview no site do cliente. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-seo-description: O Visualizador de carrossel é um visualizador que exibe um carrossel de imagens de banner sem zoom com pontos de acesso ou regiões clicáveis. O objetivo desse visualizador é implementar uma experiência de "carrossel que pode ser comprado", onde os usuários podem selecionar um ponto de acesso ou uma região sobre a imagem do banner e ser redirecionado para uma página de detalhes do produto ou do Quickview no site do cliente. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-seo-title: Carrossel
 solution: Experience Manager
 title: Carrossel
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
