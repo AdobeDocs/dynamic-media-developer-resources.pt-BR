@@ -1,16 +1,13 @@
 ---
 description: A posição do botão é totalmente gerenciada pelo menu Favoritos.
-seo-description: A posição do botão é totalmente gerenciada pelo menu Favoritos.
-seo-title: Botão Exibir todos os favoritos
 solution: Experience Manager
 title: Botão Exibir todos os favoritos
-uuid: 8824deb5-3bdc-4681-85ac-7f86a76cf3b5
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
