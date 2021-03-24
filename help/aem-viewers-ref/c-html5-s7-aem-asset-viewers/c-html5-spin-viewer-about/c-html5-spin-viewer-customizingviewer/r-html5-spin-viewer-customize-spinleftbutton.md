@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar nesse botão gira a imagem para a esquerda na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão gira a imagem para a esquerda na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
-seo-title: Botão girar para a esquerda
 solution: Experience Manager
 title: Botão girar para a esquerda
-uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
