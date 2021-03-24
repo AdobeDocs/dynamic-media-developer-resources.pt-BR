@@ -1,16 +1,13 @@
 ---
 description: Destaque do foco de entrada exibido ao redor do elemento da interface do usuário do visualizador focado.
-seo-description: Destaque do foco de entrada exibido ao redor do elemento da interface do usuário do visualizador focado.
-seo-title: Destaque da focagem
 solution: Experience Manager
 title: Destaque da focagem
-uuid: 50411b68-8d01-4240-b548-a6c51374a8c6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
