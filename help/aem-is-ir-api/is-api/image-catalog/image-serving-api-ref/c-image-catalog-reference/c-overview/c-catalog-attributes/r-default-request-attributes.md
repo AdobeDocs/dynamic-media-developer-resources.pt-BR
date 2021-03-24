@@ -1,16 +1,13 @@
 ---
 description: Os arquivos de atributos de catálogo reconhecem esses atributos de solicitação padrão.
-seo-description: Os arquivos de atributos de catálogo reconhecem esses atributos de solicitação padrão.
-seo-title: Atributos de solicitação padrão
 solution: Experience Manager
 title: Atributos de solicitação padrão
-uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
