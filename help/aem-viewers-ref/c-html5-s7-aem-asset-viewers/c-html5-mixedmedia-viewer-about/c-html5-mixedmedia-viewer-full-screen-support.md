@@ -1,16 +1,13 @@
 ---
 description: O visualizador suporta o modo de operação de tela cheia.
-seo-description: O visualizador suporta o modo de operação de tela cheia.
-seo-title: Suporte para tela cheia
 solution: Experience Manager
 title: Suporte para tela cheia
-uuid: 5381f6ba-fcc4-44ad-9ade-782ece31c10f
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
