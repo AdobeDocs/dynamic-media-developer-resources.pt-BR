@@ -1,16 +1,13 @@
 ---
 description: Especifica a direção da animação de slide para o contêiner de botões.
-seo-description: Especifica a direção da animação de slide para o contêiner de botões.
-seo-title: FavoritesMenu.bearing
 solution: Experience Manager
 title: FavoritesMenu.bearing
-uuid: badc02ef-2724-41bb-9b00-c65966be8577
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
