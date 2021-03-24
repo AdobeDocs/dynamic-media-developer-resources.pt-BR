@@ -1,16 +1,13 @@
 ---
 description: Usado por MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
-seo-description: Usado por MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
-seo-title: Tipos de campo de metadados
 solution: Experience Manager
 title: Tipos de campo de metadados
-uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 feature: Dynamic Media Classic, SDK/API, Metadados
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
