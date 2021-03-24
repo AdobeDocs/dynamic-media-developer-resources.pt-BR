@@ -1,17 +1,14 @@
 ---
 description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
-seo-description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
-seo-title: Codificação HTTP do Image Serving
 solution: Experience Manager
 title: Codificação HTTP do Image Serving
-uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 19%
+source-wordcount: '235'
+ht-degree: 21%
 
 ---
 
