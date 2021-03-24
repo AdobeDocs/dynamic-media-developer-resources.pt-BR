@@ -1,16 +1,13 @@
 ---
 description: O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
-seo-description: O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
-seo-title: Definir indicador
 solution: Experience Manager
 title: Definir indicador
-uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
