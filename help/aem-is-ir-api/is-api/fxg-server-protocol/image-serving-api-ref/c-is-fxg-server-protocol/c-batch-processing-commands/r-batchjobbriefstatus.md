@@ -1,16 +1,13 @@
 ---
 description: Recuperar o status resumido de um job enviado.
-seo-description: Recuperar o status resumido de um job enviado.
-seo-title: batchjobbrief
 solution: Experience Manager
 title: batchjobbrief
-uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
