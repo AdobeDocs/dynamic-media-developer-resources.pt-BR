@@ -1,16 +1,13 @@
 ---
 description: Se o texto for especificado como o formato de resposta, os dados de resposta serão formatados para serem legíveis como propriedades Java.
-seo-description: Se o texto for especificado como o formato de resposta, os dados de resposta serão formatados para serem legíveis como propriedades Java.
-seo-title: Propriedades de texto (Java)
 solution: Experience Manager
 title: Propriedades de texto (Java)
-uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
