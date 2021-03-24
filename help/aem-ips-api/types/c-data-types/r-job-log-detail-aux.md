@@ -1,16 +1,13 @@
 ---
 description: Contém mensagens suplementares associadas à mensagem de registro de tarefas principal (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado no momento.
-seo-description: Contém mensagens suplementares associadas à mensagem de registro de tarefas principal (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado no momento.
-seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
