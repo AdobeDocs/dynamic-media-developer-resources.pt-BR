@@ -1,16 +1,13 @@
 ---
 description: A principal classe do Visualizador de Imagem Interativa é o InterativeVideoViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
-seo-description: A principal classe do Visualizador de Imagem Interativa é o InterativeVideoViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
-seo-title: Referência da API JavaScript para visualizador de vídeo interativo
 solution: Experience Manager
 title: Referência da API JavaScript para visualizador de vídeo interativo
-uuid: a389d884-1e16-4ba8-86e4-f00956be0465
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
