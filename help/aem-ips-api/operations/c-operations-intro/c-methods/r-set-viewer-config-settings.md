@@ -1,16 +1,13 @@
 ---
 description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
-seo-description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
-seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-uuid: d83d866e-9243-479f-9b33-727aad8158e5
 feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
