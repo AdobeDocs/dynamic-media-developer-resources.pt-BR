@@ -1,16 +1,13 @@
 ---
 description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas que são exibidas ao passar o mouse.
-seo-description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas que são exibidas ao passar o mouse.
-seo-title: Dicas de ferramentas
 solution: Experience Manager
 title: Dicas de ferramentas
-uuid: c720c896-e540-4c1e-a0dc-31cc0300fea8
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
