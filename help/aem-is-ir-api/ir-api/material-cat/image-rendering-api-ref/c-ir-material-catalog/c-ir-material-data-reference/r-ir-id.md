@@ -1,16 +1,13 @@
 ---
 description: Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
-seo-description: Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
-seo-title: Id
 solution: Experience Manager
 title: Id
-uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
