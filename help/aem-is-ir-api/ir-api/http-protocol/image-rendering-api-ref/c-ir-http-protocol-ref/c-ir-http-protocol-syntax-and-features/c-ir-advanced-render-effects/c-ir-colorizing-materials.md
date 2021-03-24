@@ -1,16 +1,13 @@
 ---
 description: A maioria dos materiais pode ser colorida dinamicamente.
-seo-description: A maioria dos materiais pode ser colorida dinamicamente.
-seo-title: Materiais de coloração
 solution: Experience Manager
 title: Materiais de coloração
-uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
