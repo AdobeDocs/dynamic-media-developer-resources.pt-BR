@@ -1,16 +1,13 @@
 ---
 description: Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cores ICC, incluindo o sufixo do arquivo.
-seo-description: Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cores ICC, incluindo o sufixo do arquivo.
-seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-uuid: 59e78bfb-bc5c-45e4-aa70-d18cab2f9e39
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
