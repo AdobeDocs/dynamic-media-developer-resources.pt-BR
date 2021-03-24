@@ -1,16 +1,13 @@
 ---
 description: O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-description: O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pronto para uso.
-seo-title: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
