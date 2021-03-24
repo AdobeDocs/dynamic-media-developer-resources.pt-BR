@@ -1,16 +1,13 @@
 ---
 description: Propriedades de ativos do tipo AssetSet.
-seo-description: Propriedades de ativos do tipo AssetSet.
-seo-title: AssetSetInfo
 solution: Experience Manager
 title: AssetSetInfo
-uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
