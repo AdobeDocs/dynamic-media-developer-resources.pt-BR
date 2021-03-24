@@ -1,16 +1,13 @@
 ---
 description: Publica todas as imagens, modelos e conjuntos de rotação que estão marcados prontos para publicação em um diretório de servidor.
-seo-description: Publica todas as imagens, modelos e conjuntos de rotação que estão marcados prontos para publicação em um diretório de servidor.
-seo-title: ServerDirectoryPublishJob
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-uuid: 779f2c13-f57c-4244-b8bd-debed2b0f9af
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
