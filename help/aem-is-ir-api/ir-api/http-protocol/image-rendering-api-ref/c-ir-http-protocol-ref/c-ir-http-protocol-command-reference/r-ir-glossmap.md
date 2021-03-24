@@ -1,16 +1,13 @@
 ---
 description: Imagem do mapa de brilho. Fornece controle pixel-por-pixel do brilho de uma textura repetível, papel de parede/borda ou decalque.
-seo-description: Imagem do mapa de brilho. Fornece controle pixel-por-pixel do brilho de uma textura repetível, papel de parede/borda ou decalque.
-seo-title: glossário
 solution: Experience Manager
 title: glossário
-uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
