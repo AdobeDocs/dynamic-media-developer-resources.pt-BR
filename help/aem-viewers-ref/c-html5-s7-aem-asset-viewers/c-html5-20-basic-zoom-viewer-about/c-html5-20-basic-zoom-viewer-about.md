@@ -1,17 +1,14 @@
 ---
 description: Visualizador básico de zoom é um visualizador de imagem que exibe uma única imagem com zoom. Ele tem ferramentas de zoom, suporte de tela cheia e um botão de fechamento opcional. Este visualizador é o mais leve. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsivo
-seo-description: Visualizador básico de zoom é um visualizador de imagem que exibe uma única imagem com zoom. Ele tem ferramentas de zoom, suporte de tela cheia e um botão de fechamento opcional. Este visualizador é o mais leve. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-seo-title: Zoom básico
 solution: Experience Manager
 title: Zoom básico
-uuid: 5466d647-af70-4503-9898-bb712ba6a007
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
