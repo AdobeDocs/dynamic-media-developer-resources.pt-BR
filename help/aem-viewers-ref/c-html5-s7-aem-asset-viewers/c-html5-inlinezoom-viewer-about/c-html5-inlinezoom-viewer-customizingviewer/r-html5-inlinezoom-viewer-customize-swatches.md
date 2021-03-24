@@ -1,16 +1,13 @@
 ---
 description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito.
-seo-description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito.
-seo-title: Amostras
 solution: Experience Manager
 title: Amostras
-uuid: 92360088-7199-49c3-80ee-e175d234a78e
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
