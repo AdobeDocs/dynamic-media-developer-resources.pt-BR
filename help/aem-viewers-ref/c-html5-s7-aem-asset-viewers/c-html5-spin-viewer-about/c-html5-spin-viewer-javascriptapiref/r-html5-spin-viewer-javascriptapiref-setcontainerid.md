@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador de rotação.
-seo-description: Referência da API do JavaScript para o Visualizador de rotação.
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 6ed57f8f-5a5e-4dfa-9ab5-0f724603a0bf
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
