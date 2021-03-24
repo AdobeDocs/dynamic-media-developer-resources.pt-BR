@@ -1,16 +1,13 @@
 ---
 description: Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
-seo-description: Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
-seo-title: IccBlackPointCompensação
 solution: Experience Manager
 title: IccBlackPointCompensação
-uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
