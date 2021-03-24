@@ -5,7 +5,7 @@ title: Repetir
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 14%
@@ -37,7 +37,7 @@ São permitidos os seguintes valores para os materiais de textura repetíveis:
   <td class="- topic/stentry stentry"> <p>Otimização aleatória de 8 vias. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>1 </p></td> 
+  <td class="- topic/stentry stentry"> <p>3 </p></td> 
   <td class="- topic/stentry stentry"> <p>Lado a lado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
