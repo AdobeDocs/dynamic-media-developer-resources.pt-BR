@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar nesse botão fecha a página da Web contêiner. Esse botão só aparecerá se o parâmetro closebutton estiver definido como 1. Este botão não está disponível em sistemas de desktop. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-description: Clicar ou tocar nesse botão fecha a página da Web contêiner. Esse botão só aparecerá se o parâmetro closebutton estiver definido como 1. Este botão não está disponível em sistemas de desktop. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-seo-title: Botão Fechar
 solution: Experience Manager
 title: Botão Fechar
-uuid: b0de1600-6b02-4b59-aac6-ade0ec6dc087
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
