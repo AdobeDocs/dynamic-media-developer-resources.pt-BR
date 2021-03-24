@@ -1,16 +1,13 @@
 ---
 description: Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
-seo-description: Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
-seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
