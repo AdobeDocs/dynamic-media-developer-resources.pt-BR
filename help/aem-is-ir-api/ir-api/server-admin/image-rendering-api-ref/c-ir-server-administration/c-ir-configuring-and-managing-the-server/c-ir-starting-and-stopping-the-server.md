@@ -1,16 +1,13 @@
 ---
 description: A Renderização de imagem é incorporada aos componentes Servidor de imagem e Servidor de plataforma do Servidor de imagem.
-seo-description: A Renderização de imagem é incorporada aos componentes Servidor de imagem e Servidor de plataforma do Servidor de imagem.
-seo-title: Iniciar e parar o servidor
 solution: Experience Manager
 title: Iniciar e parar o servidor
-uuid: edd588ce-fbc0-4003-b007-a5dc9a84ad8a
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
