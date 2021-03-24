@@ -1,16 +1,13 @@
 ---
 description: O servidor monitora continuamente a pasta de catálogo e recarrega automaticamente um catálogo de imagem, incluindo os arquivos de dados de catálogo associados, quando detecta que o arquivo de atributo do catálogo principal foi alterado.
-seo-description: O servidor monitora continuamente a pasta de catálogo e recarrega automaticamente um catálogo de imagem, incluindo os arquivos de dados de catálogo associados, quando detecta que o arquivo de atributo do catálogo principal foi alterado.
-seo-title: Atualização de catálogos de imagens
 solution: Experience Manager
 title: Atualização de catálogos de imagens
-uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
