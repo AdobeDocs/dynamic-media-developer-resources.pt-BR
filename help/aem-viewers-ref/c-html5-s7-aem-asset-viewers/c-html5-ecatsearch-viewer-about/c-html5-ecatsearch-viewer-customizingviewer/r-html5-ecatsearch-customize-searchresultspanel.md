@@ -1,16 +1,13 @@
 ---
 description: O painel de resultados da pesquisa consiste na caixa de entrada da pesquisa na parte superior e na área principal onde as mensagens informativas ou os resultados da pesquisa são exibidos.
-seo-description: O painel de resultados da pesquisa consiste na caixa de entrada da pesquisa na parte superior e na área principal onde as mensagens informativas ou os resultados da pesquisa são exibidos.
-seo-title: Painel de resultados da pesquisa
 solution: Experience Manager
 title: Painel de resultados da pesquisa
-uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
