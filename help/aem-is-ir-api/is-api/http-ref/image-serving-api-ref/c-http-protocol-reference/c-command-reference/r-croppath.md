@@ -1,16 +1,13 @@
 ---
 description: Permite cortar para a caixa delimitadora de um caminho nomeado incorporado. Esse corte, por sua vez, altera o tamanho da imagem.
-seo-description: Permite cortar para a caixa delimitadora de um caminho nomeado incorporado. Esse corte, por sua vez, altera o tamanho da imagem.
-seo-title: cropPathE
 solution: Experience Manager
 title: cropPathE
-uuid: 4689fd20-dfa0-47eb-8184-cd233f1ac088
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
