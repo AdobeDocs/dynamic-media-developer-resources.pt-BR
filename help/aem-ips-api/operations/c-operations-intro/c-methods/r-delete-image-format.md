@@ -1,16 +1,13 @@
 ---
 description: Exclui um formato de imagem. Obtenha o identificador de formato de imagem de saveImageFormat.
-seo-description: Exclui um formato de imagem. Obtenha o identificador de formato de imagem de saveImageFormat.
-seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
