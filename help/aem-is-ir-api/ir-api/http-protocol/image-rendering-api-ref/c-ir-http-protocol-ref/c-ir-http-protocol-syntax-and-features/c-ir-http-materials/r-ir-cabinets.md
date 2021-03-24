@@ -1,16 +1,13 @@
 ---
 description: Os materiais dos gabinetes especificam um arquivo de estilo de gabinete (extensão de arquivo .vnc), um arquivo de dados especial contendo representações fotográficas de gabinetes, juntamente com definições de layout paramétrico e outras informações necessárias para renderizar fronts de gabinete.
-seo-description: Os materiais dos gabinetes especificam um arquivo de estilo de gabinete (extensão de arquivo .vnc), um arquivo de dados especial contendo representações fotográficas de gabinetes, juntamente com definições de layout paramétrico e outras informações necessárias para renderizar fronts de gabinete.
-seo-title: Gabinetes
 solution: Experience Manager
 title: Gabinetes
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
