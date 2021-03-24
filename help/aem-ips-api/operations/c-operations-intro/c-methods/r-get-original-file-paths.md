@@ -1,16 +1,13 @@
 ---
 description: Obtém os caminhos de arquivo originais dos ativos de uma empresa.
-seo-description: Obtém os caminhos de arquivo originais dos ativos de uma empresa.
-seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-uuid: c4acf288-1a57-4295-806b-348f15a089cc
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
