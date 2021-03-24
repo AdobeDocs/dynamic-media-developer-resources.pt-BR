@@ -1,16 +1,13 @@
 ---
 description: Modo de ofuscação de solicitação. Especifica o tipo de ofuscação que deve ser aplicado a solicitações válidas.
-seo-description: Modo de ofuscação de solicitação. Especifica o tipo de ofuscação que deve ser aplicado a solicitações válidas.
-seo-title: RequestObfuscation
 solution: Experience Manager
 title: RequestObfuscation
-uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
