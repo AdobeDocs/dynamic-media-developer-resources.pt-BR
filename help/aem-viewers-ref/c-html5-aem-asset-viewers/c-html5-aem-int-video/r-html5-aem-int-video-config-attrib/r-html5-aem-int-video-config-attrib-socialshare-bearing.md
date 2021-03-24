@@ -1,16 +1,13 @@
 ---
 description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-description: Atributo de configuração para o Visualizador de vídeo interativo.
-seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-uuid: b3978280-7826-44c0-bd25-357e145121f8
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
