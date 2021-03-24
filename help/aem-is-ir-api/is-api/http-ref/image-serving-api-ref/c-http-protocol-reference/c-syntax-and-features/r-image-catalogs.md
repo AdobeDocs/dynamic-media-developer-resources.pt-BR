@@ -1,16 +1,13 @@
 ---
 description: Os recursos e a sintaxe dos catálogos de imagens estão descritos nesta seção.
-seo-description: Os recursos e a sintaxe dos catálogos de imagens estão descritos nesta seção.
-seo-title: Catálogos de imagens
 solution: Experience Manager
 title: Catálogos de imagens
-uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
