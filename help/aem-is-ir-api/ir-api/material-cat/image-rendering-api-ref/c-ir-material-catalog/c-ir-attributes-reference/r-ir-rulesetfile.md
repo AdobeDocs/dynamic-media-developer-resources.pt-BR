@@ -1,16 +1,13 @@
 ---
 description: Caminho do arquivo das definições do conjunto de regras. Especifica o arquivo que contém as definições do conjunto de regras para este catálogo de materiais.
-seo-description: Caminho do arquivo das definições do conjunto de regras. Especifica o arquivo que contém as definições do conjunto de regras para este catálogo de materiais.
-seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
-uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
