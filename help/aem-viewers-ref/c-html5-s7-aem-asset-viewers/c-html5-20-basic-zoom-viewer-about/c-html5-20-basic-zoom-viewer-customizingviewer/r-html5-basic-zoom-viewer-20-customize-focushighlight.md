@@ -1,16 +1,13 @@
 ---
 description: O realce do foco de entrada exibido em torno do elemento de interface de uso do visualizador focado é controlado com o seletor de classe CSS.
-seo-description: O realce do foco de entrada exibido em torno do elemento de interface de uso do visualizador focado é controlado com o seletor de classe CSS.
-seo-title: Destaque da focagem
 solution: Experience Manager
 title: Destaque da focagem
-uuid: 1b552aec-837a-4df4-91dc-615ceead92b3
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
