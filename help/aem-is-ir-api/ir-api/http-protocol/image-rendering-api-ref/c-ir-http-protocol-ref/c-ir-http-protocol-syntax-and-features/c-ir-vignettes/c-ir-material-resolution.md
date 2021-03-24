@@ -1,16 +1,13 @@
 ---
 description: O valor de resolução de uma textura repetível ou outro material define o tamanho da imagem do material no espaço de coordenadas da cena.
-seo-description: O valor de resolução de uma textura repetível ou outro material define o tamanho da imagem do material no espaço de coordenadas da cena.
-seo-title: Resolução de material
 solution: Experience Manager
 title: Resolução de material
-uuid: 2c37d217-8d49-478e-88d1-7121d0f0419b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
