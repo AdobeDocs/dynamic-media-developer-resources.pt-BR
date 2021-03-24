@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-description: Referência da API do JavaScript para o Visualizador de vídeo.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: c1bc5271-2444-4f6b-8bed-5df88ecd59f8
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
