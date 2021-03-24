@@ -1,16 +1,13 @@
 ---
 description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. Geralmente, também são úteis para imagens compostas e solicitações de imagens simples e não em camadas.
-seo-description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. Geralmente, também são úteis para imagens compostas e solicitações de imagens simples e não em camadas.
-seo-title: Operações comuns
 solution: Experience Manager
 title: Operações comuns
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
