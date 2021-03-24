@@ -1,16 +1,13 @@
 ---
 description: O IS fornece mecanismos para simplificar o uso de mapas de imagem HTML. Os visualizadores baseados em JAVA e em Flashes no IS também incluem suporte limitado para mapas de imagem.
-seo-description: O IS fornece mecanismos para simplificar o uso de mapas de imagem HTML. Os visualizadores baseados em JAVA e em Flashes no IS também incluem suporte limitado para mapas de imagem.
-seo-title: Mapas de imagens
 solution: Experience Manager
 title: Mapas de imagens
-uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
