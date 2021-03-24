@@ -1,16 +1,13 @@
 ---
 description: Os arquivos de dados de origem da Renderização de Imagem incluem arquivos de vinheta, arquivos de material (imagens para texturas e decalques repetíveis, bem como arquivos de estilo com cobertura de gabinete e janela) e perfis ICC.
-seo-description: Os arquivos de dados de origem da Renderização de Imagem incluem arquivos de vinheta, arquivos de material (imagens para texturas e decalques repetíveis, bem como arquivos de estilo com cobertura de gabinete e janela) e perfis ICC.
-seo-title: Dados de origem
 solution: Experience Manager
 title: Dados de origem
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
