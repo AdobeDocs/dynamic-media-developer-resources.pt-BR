@@ -1,16 +1,13 @@
 ---
 description: Crie um modelo de tamanho fixo com uma imagem de plano de fundo estática, uma imagem variável alinhada ao plano de fundo no centro esquerdo e dimensionada para não exceder 80% da largura e altura do plano de fundo e uma camada de texto com texto vertical centralizado na borda direita da tela.
-seo-description: Crie um modelo de tamanho fixo com uma imagem de plano de fundo estática, uma imagem variável alinhada ao plano de fundo no centro esquerdo e dimensionada para não exceder 80% da largura e altura do plano de fundo e uma camada de texto com texto vertical centralizado na borda direita da tela.
-seo-title: Exemplo A
 solution: Experience Manager
 title: Exemplo A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
