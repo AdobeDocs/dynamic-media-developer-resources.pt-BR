@@ -1,16 +1,13 @@
 ---
 description: Clicar ou tocar no botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
-seo-description: Clicar ou tocar no botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
-seo-title: Próximo slide
 solution: Experience Manager
 title: Próximo slide
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
