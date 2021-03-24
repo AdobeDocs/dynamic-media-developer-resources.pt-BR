@@ -5,7 +5,7 @@ title: Configurações avançadas de renderização
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 17%
@@ -60,7 +60,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>Raio do USM (pixels). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -139,7 +139,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>Poisson: Use alternar. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>O padrão é 1. </p> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Resistência da extrapolação baseada em brilho. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>600 </p> </td> 
+   <td colname="col4"> <p>800 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
