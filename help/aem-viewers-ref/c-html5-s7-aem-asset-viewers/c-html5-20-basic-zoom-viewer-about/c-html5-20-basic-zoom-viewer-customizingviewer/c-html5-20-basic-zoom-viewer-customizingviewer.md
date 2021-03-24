@@ -1,17 +1,14 @@
 ---
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador básico de zoom são feitas criando um CSS personalizado.
 keywords: responsivo
-seo-description: Toda personalização visual e a maioria dos comportamentos do Visualizador básico de zoom são feitas criando um CSS personalizado.
-seo-title: Personalização do visualizador básico de zoom
 solution: Experience Manager
 title: Personalização do visualizador básico de zoom
-uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
