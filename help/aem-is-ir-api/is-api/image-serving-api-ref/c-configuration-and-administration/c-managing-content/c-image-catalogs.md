@@ -1,16 +1,13 @@
 ---
 description: Os catálogos de imagens fornecem muitas configurações do servidor, assim como fontes, perfis ICC, macros de comando.
-seo-description: Os catálogos de imagens fornecem muitas configurações do servidor, assim como fontes, perfis ICC, macros de comando.
-seo-title: Catálogos de imagens
 solution: Experience Manager
 title: Catálogos de imagens
-uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
