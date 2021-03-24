@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
-seo-description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
-seo-title: InterativeImage
 solution: Experience Manager
 title: InterativeImage
-uuid: 19bd0603-3180-4913-b5a0-93699c5131bc
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
