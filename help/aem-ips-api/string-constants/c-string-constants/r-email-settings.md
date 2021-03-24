@@ -1,16 +1,13 @@
 ---
 description: Descreve os valores usados por vários parâmetros de entrada. Consulte a lista neste artigo para obter detalhes.
-seo-description: Descreve os valores usados por vários parâmetros de entrada. Consulte a lista neste artigo para obter detalhes.
-seo-title: Configurações de email
 solution: Experience Manager
 title: Configurações de email
-uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
