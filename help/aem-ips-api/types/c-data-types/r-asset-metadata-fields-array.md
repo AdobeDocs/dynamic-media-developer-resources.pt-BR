@@ -1,16 +1,13 @@
 ---
 description: Uma matriz de AssetMetadataFields. Usado por getAssetMetadataFields para retornar todos os campos de metadados de ativos em uma única chamada com resultados agrupados por tipo de ativo.
-seo-description: Uma matriz de AssetMetadataFields. Usado por getAssetMetadataFields para retornar todos os campos de metadados de ativos em uma única chamada com resultados agrupados por tipo de ativo.
-seo-title: AssetMetadataFieldsArray
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-uuid: a131b234-83f3-4e3c-afa9-14314e78367f
 feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
