@@ -1,16 +1,13 @@
 ---
 description: Este é o log principal que acompanha todas as solicitações HTTP feitas no Servidor de Plataforma. A Renderização de imagem, se ativada, grava seus dados de log de acesso no mesmo arquivo.
-seo-description: Este é o log principal que acompanha todas as solicitações HTTP feitas no Servidor de Plataforma. A Renderização de imagem, se ativada, grava seus dados de log de acesso no mesmo arquivo.
-seo-title: Log de acesso
 solution: Experience Manager
 title: Log de acesso
-uuid: 33cd4338-1fe7-46ac-83f5-200ea26f1e22
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
