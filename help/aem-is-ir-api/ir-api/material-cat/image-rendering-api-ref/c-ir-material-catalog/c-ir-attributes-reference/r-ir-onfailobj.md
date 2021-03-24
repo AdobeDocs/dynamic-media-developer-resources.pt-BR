@@ -1,17 +1,14 @@
 ---
 description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
-seo-description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
-seo-title: OnFailObj
 solution: Experience Manager
 title: OnFailObj
-uuid: b9dcaf29-ffa5-47db-9c8c-d1809da73582
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 3%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +27,7 @@ Enum.
   <td class="stentry"> <p>Herdar de <span class="codeph"> padrão::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Manter a seleção anterior. </p> </td> 
  </tr> 
  <tr class="strow"> 
