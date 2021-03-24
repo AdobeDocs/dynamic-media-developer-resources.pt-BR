@@ -1,16 +1,13 @@
 ---
 description: Flip Layer. Vira a camada horizontalmente, verticalmente ou em ambas, após aplicar cortar= e antes de girar= e estender=.
-seo-description: Flip Layer. Vira a camada horizontalmente, verticalmente ou em ambas, após aplicar cortar= e antes de girar= e estender=.
-seo-title: virar
 solution: Experience Manager
 title: virar
-uuid: d28631f3-2198-4ba3-ab4b-578832db926e
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
