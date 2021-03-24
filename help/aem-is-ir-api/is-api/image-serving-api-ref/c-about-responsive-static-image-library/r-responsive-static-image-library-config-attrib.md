@@ -1,16 +1,13 @@
 ---
 description: Os atributos de configuração são definidos como atributos diretamente em um elemento IMG que a biblioteca de Imagem responsiva gerencia. Cada imagem pode ter seu próprio conjunto de atributos.
-seo-description: Os atributos de configuração são definidos como atributos diretamente em um elemento IMG que a biblioteca de Imagem responsiva gerencia. Cada imagem pode ter seu próprio conjunto de atributos.
-seo-title: Referência de comando - Atributos de configuração
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
