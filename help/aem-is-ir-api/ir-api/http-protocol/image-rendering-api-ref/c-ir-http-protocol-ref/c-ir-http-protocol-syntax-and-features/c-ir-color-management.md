@@ -1,16 +1,13 @@
 ---
 description: A Renderização de imagem suporta conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
-seo-description: A Renderização de imagem suporta conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
-seo-title: Gestão de cores da renderização de imagens *
 solution: Experience Manager
 title: Gestão de cores da renderização de imagens *
-uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
