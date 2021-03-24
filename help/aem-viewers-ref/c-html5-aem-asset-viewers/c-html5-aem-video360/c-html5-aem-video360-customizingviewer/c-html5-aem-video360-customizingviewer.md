@@ -1,17 +1,14 @@
 ---
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo 360 são feitos com a criação de um CSS personalizado.
 keywords: responsivo
-seo-description: Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo 360 são feitos com a criação de um CSS personalizado.
-seo-title: Personalização do visualizador de vídeo 360
 solution: Experience Manager
 title: Personalização do visualizador de vídeo 360
-uuid: 1f021a11-856e-4bbc-a2ee-454ab0a60adb
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
