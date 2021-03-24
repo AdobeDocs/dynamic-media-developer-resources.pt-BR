@@ -1,16 +1,13 @@
 ---
 description: A ferramenta Imprimir consiste em um botão adicionado à barra de controle e à caixa de diálogo modal que é exibida quando a ferramenta é ativada.
-seo-description: A ferramenta Imprimir consiste em um botão adicionado à barra de controle e à caixa de diálogo modal que é exibida quando a ferramenta é ativada.
-seo-title: Imprimir
 solution: Experience Manager
 title: Imprimir
-uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1480'
 ht-degree: 0%
 
 ---
