@@ -1,16 +1,13 @@
 ---
 description: Siga estas instruções para desinstalar a Renderização de imagem em um sistema Linux ou Solaris.
-seo-description: Siga estas instruções para desinstalar a Renderização de imagem em um sistema Linux ou Solaris.
-seo-title: Desinstalação no Linux e no Solaris
 solution: Experience Manager
 title: Desinstalação no Linux e no Solaris
-uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
