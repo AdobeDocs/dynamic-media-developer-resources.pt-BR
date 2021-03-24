@@ -1,15 +1,12 @@
 ---
 description: Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom flyout no carregamento.
-seo-description: Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom flyout no carregamento.
-seo-title: Localização dos elementos da interface do usuário
 title: Localização dos elementos da interface do usuário
-uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
