@@ -1,16 +1,13 @@
 ---
 description: Ângulo de rotação do material. Define o ângulo de rotação dos materiais.
-seo-description: Ângulo de rotação do material. Define o ângulo de rotação dos materiais.
-seo-title: girar
 solution: Experience Manager
 title: girar
-uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
