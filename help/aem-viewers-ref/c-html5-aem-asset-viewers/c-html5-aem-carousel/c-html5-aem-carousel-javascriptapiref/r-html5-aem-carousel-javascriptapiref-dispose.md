@@ -1,16 +1,13 @@
 ---
 description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-description: Referência da API do JavaScript para o Visualizador do carrossel.
-seo-title: dispor
 solution: Experience Manager
 title: dispor
-uuid: 6b4e5bd0-5a32-4e4e-a9a1-c26e8e266aa6
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
