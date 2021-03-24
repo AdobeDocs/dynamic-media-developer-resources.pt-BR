@@ -1,16 +1,13 @@
 ---
 description: Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
-seo-description: Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
-seo-title: Vídeo interativo
 solution: Experience Manager
 title: Vídeo interativo
-uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
