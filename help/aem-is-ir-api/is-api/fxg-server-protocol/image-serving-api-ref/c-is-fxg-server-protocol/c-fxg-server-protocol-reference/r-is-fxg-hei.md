@@ -1,16 +1,13 @@
 ---
 description: Exibir altura. Especifica a altura da imagem de resposta.
-seo-description: Exibir altura. Especifica a altura da imagem de resposta.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 6f7e580b-6399-4661-b5d9-8044574ba124
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
