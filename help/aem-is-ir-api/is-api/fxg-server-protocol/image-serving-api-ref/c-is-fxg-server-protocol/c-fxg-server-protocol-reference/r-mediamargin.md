@@ -1,16 +1,13 @@
 ---
 description: Defina a margem da mídia. Define a margem de mídia que é definida no arquivo PDF.
-seo-description: Defina a margem da mídia. Define a margem de mídia que é definida no arquivo PDF.
-seo-title: mediaMargin
 solution: Experience Manager
 title: mediaMargin
-uuid: e72f4791-d5c7-4b4d-90dd-39b478640abd
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
