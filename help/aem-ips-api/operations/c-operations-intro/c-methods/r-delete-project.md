@@ -1,16 +1,13 @@
 ---
 description: Exclui um projeto de uma empresa. Os links entre os ativos e o projeto são quebrados, mas os ativos não são excluídos do IPS.
-seo-description: Exclui um projeto de uma empresa. Os links entre os ativos e o projeto são quebrados, mas os ativos não são excluídos do IPS.
-seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
