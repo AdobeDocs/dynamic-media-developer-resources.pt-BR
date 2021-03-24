@@ -1,16 +1,13 @@
 ---
 description: O Guia da API de disponibilização de imagens contém informações sobre a configuração e o uso da API de disponibilização de imagens.
-seo-description: O Guia da API de disponibilização de imagens contém informações sobre a configuração e o uso da API de disponibilização de imagens.
-seo-title: API de disponibilização de imagens
 solution: Experience Manager
 title: API de disponibilização de imagens
-uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
