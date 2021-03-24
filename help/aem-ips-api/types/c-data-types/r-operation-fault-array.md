@@ -1,16 +1,13 @@
 ---
 description: Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de invalidação CDN.
-seo-description: Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de invalidação CDN.
-seo-title: OperationFaultArray
 solution: Experience Manager
 title: OperationFaultArray
-uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
