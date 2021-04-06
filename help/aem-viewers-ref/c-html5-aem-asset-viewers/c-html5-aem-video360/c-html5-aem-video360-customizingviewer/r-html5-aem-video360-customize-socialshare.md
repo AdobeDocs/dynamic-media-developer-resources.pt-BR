@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Compartilhamento em redes sociais
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Desenvolvedor,Profissional de negócios
+exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Compartilhamento social{#social-share}
 
@@ -127,4 +127,3 @@ A aparência do painel que contém os ícones individuais de compartilhamento so
  background-color: transparent; 
 }
 ```
-
