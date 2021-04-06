@@ -4,9 +4,9 @@ user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1916'
 ht-degree: 1%
 
 ---
@@ -19,21 +19,22 @@ ht-degree: 1%
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalar vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
 + Notas de versão dos visualizadores {#viewers-release-notes}
+   + [Notas de versão dos visualizadores (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Notas de versão dos visualizadores (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Arquivar {#archive}
       + [Arquivo de notas de versão](c-release-notes/c-archive/c-archive.md)
-      + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-      + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-      + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-      + [Notas de versão dos visualizadores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Notas de versão do Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Notas de versão do iewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Notas de versão do Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Notas de versão do Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Notas de versão do Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Notas de versão do Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Notas de versão do Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Notas de versão do Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+         + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+         + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+         + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+         + [Notas de versão dos visualizadores (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+         + [Notas de versão dos visualizadores (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+         + [Notas de versão dos visualizadores (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+         + [Notas de versão dos visualizadores (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+         + [Notas de versão dos visualizadores (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+         + [Notas de versão dos visualizadores (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+         + [Notas de versão dos visualizadores (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+         + [Notas de versão dos visualizadores (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+         + [Notas de versão dos visualizadores (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notas de compatibilidade](c-compatibility-notes.md)
 + [Acessibilidade e navegação do teclado](c-keyboard-accessibility.md)
 + [Tutorial do SDK do visualizador](c-tutorial.md)
