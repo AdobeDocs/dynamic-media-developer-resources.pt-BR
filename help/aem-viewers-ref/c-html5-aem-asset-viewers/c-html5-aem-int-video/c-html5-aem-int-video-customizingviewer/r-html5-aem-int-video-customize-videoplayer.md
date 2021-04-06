@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Reprodutor de vídeo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
+exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # Reprodutor de vídeo{#video-player}
 
@@ -145,4 +145,3 @@ Exemplo - para configurar uma animação de buffer de 101 pixels de largura, 29 
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
