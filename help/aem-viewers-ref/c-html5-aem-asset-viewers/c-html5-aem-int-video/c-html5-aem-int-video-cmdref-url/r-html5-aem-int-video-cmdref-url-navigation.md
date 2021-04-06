@@ -4,14 +4,14 @@ solution: Experience Manager
 title: navegação
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
+exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 1%
 
 ---
-
 
 # navegação{#navigation}
 
@@ -43,4 +43,3 @@ Nenhum.
 ```
 navigation=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.navigation.vtt,1
 ```
-
