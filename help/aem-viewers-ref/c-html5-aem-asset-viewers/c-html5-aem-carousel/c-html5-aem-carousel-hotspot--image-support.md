@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Suporte a mapas de imagem e pontos de conexão
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
+exl-id: b441e241-809e-47cf-a309-57283bd0532b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
 
 # Suporte a mapas de hotspots e imagens{#hotspot-and-image-maps-support}
 
