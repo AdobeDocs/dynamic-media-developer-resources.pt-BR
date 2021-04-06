@@ -5,13 +5,12 @@ title: Acessibilidade e navegação do teclado
 feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Desenvolvedor,Profissional de negócios
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
-
 
 # Acessibilidade e navegação do teclado{#keyboard-accessibility-and-navigation}
 
@@ -25,7 +24,7 @@ Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, 
 
 Um usuário final pode navegar entre os elementos da interface do usuário do visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. Usar **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; usar **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta ao elemento anterior da interface do usuário. A travessia de foco segue a localização do elemento da interface de usuário natural na tela e se move de esquerda para direita e de cima para baixo.
 
-Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário que tem foco de entrada pode receber uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada em torno do elemento da interface do usuário.
+Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário que tem foco de entrada recebe uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada em torno do elemento da interface do usuário.
 
 É possível desativar ou personalizar esse realce de foco no CSS do visualizador. No índice deste sistema de Ajuda, em um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalizando *nome do visualizador*** >** Destaque do foco **.
 
@@ -133,4 +132,3 @@ Os pressionamentos de tecla suportados por elementos da interface do visualizado
   </tr> 
  </tbody> 
 </table>
-
