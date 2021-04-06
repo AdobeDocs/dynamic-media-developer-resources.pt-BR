@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Constantes da cadeia de caracteres novas e modificadas
 feature: Dynamic Media Classic, SDK/API
 role: Desenvolvedor,Administrador
+exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
 
 ---
-
 
 # Constantes da string: Novo e Modificado{#string-constants-new-and-modified}
 
@@ -39,4 +39,3 @@ Sintaxe
 
 * Usado por: `createImageSetParam/type`.
 * Valores: `InDesign` e `Flash`.
-
