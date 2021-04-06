@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Compartilhamento em redes sociais
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios
+exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
 
 ---
-
 
 # Compartilhamento social{#social-share}
 
@@ -133,4 +133,3 @@ Para configurar um painel para ter uma cor transparente:
  background-color: transparent; 
 }
 ```
-
