@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
+exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
@@ -84,4 +84,3 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
  </tbody> 
 </table>
-
