@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Slide anterior
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Desenvolvedor,Profissional de negócios
+exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # Slide anterior{#previous-slide}
 
@@ -101,4 +101,3 @@ Exemplo - para configurar um botão de slide anterior, com 60 x 60 pixels, posic
 .s7carouselviewer.s7mouseinput .s7panleftbutton[state='down'] { background-position: -0px -0px; } 
 .s7carouselviewer.s7mouseinput .s7panleftbutton[state='disabled'] { background-position: -0px -60px; }
 ```
-
