@@ -4,8 +4,9 @@ solution: Experience Manager
 title: Upload de ativos por meio de POSTs HTTP no UploadFile Servlet
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Desenvolvedor,Administrador
+exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
