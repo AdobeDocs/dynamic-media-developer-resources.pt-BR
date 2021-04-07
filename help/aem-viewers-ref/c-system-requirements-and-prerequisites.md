@@ -7,7 +7,7 @@ feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Desenvolvedor,Profissional de negócios
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -73,23 +73,24 @@ Requisitos de sistema para visualizadores HTML5 do Dynamic Media.
 
 >[!NOTE]
 >
->A partir de 30 de setembro de 2018, os Visualizadores do Adobe Dynamic Media Classic encerrarão o suporte ao Transport Layer Security 1.0 (TLS 1.0). Dessa forma, o Dynamic Media Classic não é mais compatível com visualizadores nos seguintes navegadores/plataformas que são compatíveis com TLS 1.0. (O Adobe recomenda usar TLS 1.2 ou posterior.)
+>A partir de 30 de setembro de 2018, os Visualizadores do Adobe Dynamic Media Classic encerrarão o suporte ao Transport Layer Security 1.0 (TLS 1.0). Dessa forma, o Dynamic Media Classic não é mais compatível com visualizadores nos seguintes navegadores/plataformas compatíveis com TLS 1.0 (o Adobe recomenda o uso de TLS 1.2 ou posterior):
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Internet Explorer 7 no Windows Vista®
+> * Internet Explorer 8 no Windows® XP
+> * Internet Explorer 8-10 no Windows® 7
+> * Internet Explorer 10 no Windows® Phone 8.0
+> * Safari 5.1.9 no Apple OS X 10.6.8
+> * Safari 6.0.4 no Apple OS X 10.8.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * Baidu Janeiro de 2015
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 no Windows Vista®
-* Internet Explorer 8 no Windows® XP
-* Internet Explorer 8-10 no Windows® 7
-* Internet Explorer 10 no Windows® Phone 8.0
-* Safari 5.1.9 no Apple OS X 10.6.8
-* Safari 6.0.4 no Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* Baidu Janeiro de 2015
 
 >[!NOTE]
 >
