@@ -2,8 +2,8 @@
 description: Esses comandos podem ser usados para definir efeitos de camada, como sombra ou efeitos de brilho. As camadas de efeito ignoram todos os outros comandos.
 solution: Experience Manager
 title: Comandos de efeito de camada
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Modo de imagem padrão. Seleciona como a imagem padrão é aplicada quando imagens especificadas na solicitação não são encontradas.
 solution: Experience Manager
 title: DefaultImageMode
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

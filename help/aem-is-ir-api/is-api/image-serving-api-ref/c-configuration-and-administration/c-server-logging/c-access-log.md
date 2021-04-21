@@ -2,8 +2,8 @@
 description: Este é o log principal que acompanha todas as solicitações HTTP feitas no Servidor de Plataforma. A Renderização de imagem, se ativada, grava seus dados de log de acesso no mesmo arquivo.
 solution: Experience Manager
 title: Log de acesso
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Embora os dados de imagem e SVG sejam muito semelhantes, eles são mantidos em tabelas separadas no catálogo de imagens.
 solution: Experience Manager
 title: Referência de dados de imagem/SVG
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Caminho do arquivo de fonte. Caminho e nome do arquivo de fonte principal, incluindo o sufixo do arquivo.
 solution: Experience Manager
 title: FontPath
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Se um mapa de perfil ICC for necessário para um catálogo de imagem, o caminho relativo ou absoluto do arquivo de mapa de perfil deverá ser especificado no atributo IccProfileMapFile.
 solution: Experience Manager
 title: Referência do mapa de perfis ICC
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito.
 solution: Experience Manager
 title: Amostras
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

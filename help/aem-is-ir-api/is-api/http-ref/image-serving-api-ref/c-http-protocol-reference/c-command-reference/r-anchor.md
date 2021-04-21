@@ -2,8 +2,8 @@
 description: Âncora de imagem. Define o ponto de ancoragem da imagem, cor sólida ou retângulo da caixa delimitadora de texto, antes de aplicar transformações (cortar=, escala=, girar=, flip=). Também serve como o centro de rotação para rotate=.
 solution: Experience Manager
 title: âncora
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

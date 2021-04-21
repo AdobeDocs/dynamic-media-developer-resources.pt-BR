@@ -2,8 +2,8 @@
 description: Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
 solution: Experience Manager
 title: Comandos e palavras-chave RTF suportados
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: O Servidor de Imagens grava registros neste arquivo de log para registrar avisos e erros e manter um registro de eventos de inicialização e desligamento.
 solution: Experience Manager
 title: Log do servidor de imagens
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

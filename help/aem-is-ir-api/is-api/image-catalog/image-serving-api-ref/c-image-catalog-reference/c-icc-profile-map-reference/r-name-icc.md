@@ -2,8 +2,8 @@
 description: Nome do atalho do perfil. Um nome de atalho para o perfil de cores.
 solution: Experience Manager
 title: Nome
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

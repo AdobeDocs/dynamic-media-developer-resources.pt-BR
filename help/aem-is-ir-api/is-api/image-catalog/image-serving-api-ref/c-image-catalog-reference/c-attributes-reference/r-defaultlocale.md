@@ -2,8 +2,8 @@
 description: ID de localidade padrão. ID de localidade a ser usada para fins de localização/tradução quando locale= não for especificado na solicitação.
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

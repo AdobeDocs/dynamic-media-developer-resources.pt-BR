@@ -2,8 +2,8 @@
 description: Versão de imagem/metadados. Ao trabalhar com conteúdo que muda com frequência, os servidores em redes de armazenamento em cache, como Akamai, caches de navegador e caches de servidor proxy corporativo, podem armazenar respostas de Exibição de imagem que podem estar desatualizadas por períodos de tempo.
 solution: Experience Manager
 title: id
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

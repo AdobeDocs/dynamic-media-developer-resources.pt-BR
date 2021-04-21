@@ -2,8 +2,8 @@
 description: Retorna informações sobre a empresa especificada, incluindo o identificador da empresa, o nome da empresa, o caminho raiz e a data de expiração. Você deve especificar companyHandle ou companyName cujas informações deseja recuperar.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

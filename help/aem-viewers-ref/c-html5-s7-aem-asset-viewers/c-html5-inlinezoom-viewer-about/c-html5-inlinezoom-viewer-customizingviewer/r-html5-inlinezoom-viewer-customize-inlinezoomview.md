@@ -2,8 +2,8 @@
 description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
 solution: Experience Manager
 title: Visualização de zoom de menu suspenso
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

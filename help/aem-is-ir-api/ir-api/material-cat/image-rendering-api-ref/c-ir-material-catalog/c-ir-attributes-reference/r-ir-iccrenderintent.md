@@ -2,8 +2,8 @@
 description: Objetivo de renderização da conversão de cores. Fornece o propósito de renderização padrão para conversões de cores quando a intenção de renderização não é especificada com icc=.
 solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

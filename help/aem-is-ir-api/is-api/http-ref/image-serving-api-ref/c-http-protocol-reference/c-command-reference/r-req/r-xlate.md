@@ -2,8 +2,8 @@
 description: Versões específicas do local disponíveis. Retorna uma lista de versões específicas do local disponíveis da ID do catálogo especificada no caminho da solicitação.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

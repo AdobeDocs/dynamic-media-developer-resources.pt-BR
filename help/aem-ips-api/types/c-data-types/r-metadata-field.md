@@ -2,8 +2,8 @@
 description: Definições de campo definidas pelo usuário para ativos específicos.
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic, SDK/API, Metadados
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

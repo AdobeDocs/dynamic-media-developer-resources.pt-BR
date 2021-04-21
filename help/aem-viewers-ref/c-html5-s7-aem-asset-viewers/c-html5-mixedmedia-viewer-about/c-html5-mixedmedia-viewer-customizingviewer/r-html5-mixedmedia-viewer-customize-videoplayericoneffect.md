@@ -2,8 +2,8 @@
 description: O ícone Reproduzir é sobreposto na área de visualização de vídeo. Ele é exibido quando o vídeo é pausado ou quando o fim do vídeo é atingido, e também depende do parâmetro de efeito de ícone .
 solution: Experience Manager
 title: Efeito do ícone do reprodutor de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

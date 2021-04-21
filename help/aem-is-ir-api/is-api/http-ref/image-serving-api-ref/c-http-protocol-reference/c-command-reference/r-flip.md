@@ -2,8 +2,8 @@
 description: Flip Layer. Vira a camada horizontalmente, verticalmente ou em ambas, após aplicar cortar= e antes de girar= e estender=.
 solution: Experience Manager
 title: virar
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

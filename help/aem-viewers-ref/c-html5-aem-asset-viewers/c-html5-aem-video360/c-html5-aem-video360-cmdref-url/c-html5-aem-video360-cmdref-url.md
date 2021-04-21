@@ -2,8 +2,8 @@
 description: Documentação de referência de comando para o visualizador do Video360.
 solution: Experience Manager
 title: Referência de comando - URL
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

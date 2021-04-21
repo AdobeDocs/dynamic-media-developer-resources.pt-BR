@@ -2,8 +2,8 @@
 description: Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
 solution: Experience Manager
 title: DescompactarOpções
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

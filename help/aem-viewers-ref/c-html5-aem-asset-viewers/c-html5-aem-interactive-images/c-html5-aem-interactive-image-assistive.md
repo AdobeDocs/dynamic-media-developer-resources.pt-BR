@@ -2,8 +2,8 @@
 description: Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 solution: Experience Manager
 title: Suporte à tecnologia assistiva
-feature: Dynamic Media Classic, Visualizadores, SDK/API, Imagens interativas, Acessibilidade
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images,Accessibility
+role: Developer,Business Practitioner
 exl-id: 39e64f35-543f-4977-a97a-0daa93786ff3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

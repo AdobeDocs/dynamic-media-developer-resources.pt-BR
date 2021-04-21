@@ -2,8 +2,8 @@
 description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

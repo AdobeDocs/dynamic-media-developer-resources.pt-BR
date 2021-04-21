@@ -3,8 +3,8 @@ description: O Visualizador de mídia mista é um visualizador de mídia. É com
 keywords: responsivo
 solution: Experience Manager
 title: Mídia mista
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

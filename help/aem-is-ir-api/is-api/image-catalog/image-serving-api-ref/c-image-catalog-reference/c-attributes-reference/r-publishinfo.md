@@ -2,8 +2,8 @@
 description: Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

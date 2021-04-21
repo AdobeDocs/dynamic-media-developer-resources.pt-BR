@@ -2,8 +2,8 @@
 description: Sufixo padrão do arquivo de imagem. Anexado ao valor de campo Caminho do catálogo (ou Caminho da máscara do catálogo) se o caminho não incluir um sufixo de arquivo
 solution: Experience Manager
 title: DefaultExt
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

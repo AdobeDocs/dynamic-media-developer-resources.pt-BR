@@ -2,8 +2,8 @@
 description: Nome padrão da face da fonte. Especifica qual fonte deve ser usada se nenhuma fonte for fornecida por uma solicitação text=.
 solution: Experience Manager
 title: DefaultFont
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

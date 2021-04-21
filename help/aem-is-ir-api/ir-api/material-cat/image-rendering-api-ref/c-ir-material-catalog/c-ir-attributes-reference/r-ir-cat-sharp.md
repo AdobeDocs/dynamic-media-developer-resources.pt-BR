@@ -2,8 +2,8 @@
 description: Aprimoramento de material padrão. Define o modo padrão de nitidez do material caso um registro de catálogo específico não contenha um valor de Sharp de catálogo válido.
 solution: Experience Manager
 title: Nitidez
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

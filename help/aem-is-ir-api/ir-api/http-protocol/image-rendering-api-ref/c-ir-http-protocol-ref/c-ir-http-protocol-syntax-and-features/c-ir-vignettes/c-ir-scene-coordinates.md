@@ -2,8 +2,8 @@
 description: O espaço de coordenadas da cena é usado para especificar tamanhos de e distâncias nas superfícies do objeto textualizável.
 solution: Experience Manager
 title: Coordenadas da cena
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

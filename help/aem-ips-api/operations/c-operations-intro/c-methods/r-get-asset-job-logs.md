@@ -2,8 +2,8 @@
 description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

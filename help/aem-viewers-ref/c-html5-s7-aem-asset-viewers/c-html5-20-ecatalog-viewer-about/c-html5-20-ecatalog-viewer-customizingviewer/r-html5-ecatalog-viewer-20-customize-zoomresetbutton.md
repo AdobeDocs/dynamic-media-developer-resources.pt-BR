@@ -2,8 +2,8 @@
 description: Clicar ou tocar nesse botão redefine uma imagem na exibição principal. Esse botão aparece na barra de controle principal em sistemas de desktop e tablets. Em telefones celulares, este botão é exibido no centro inferior sobre a imagem. No entanto, não é exibido quando a imagem está em um estado de redefinição. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Redefinir zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

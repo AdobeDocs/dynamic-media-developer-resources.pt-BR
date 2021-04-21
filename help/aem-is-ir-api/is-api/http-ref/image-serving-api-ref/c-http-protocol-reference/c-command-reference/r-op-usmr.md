@@ -2,8 +2,8 @@
 description: Tirar nitidez da máscara. Tirar nitidez mascara a camada ou a imagem de exibição final, após toda a escala, se layer=comp.
 solution: Experience Manager
 title: op_usmR
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

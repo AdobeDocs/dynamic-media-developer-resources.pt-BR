@@ -2,8 +2,8 @@
 description: Atributos de codificação JPEG padrão. Especifica os atributos padrão para imagens de resposta JPEG.
 solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

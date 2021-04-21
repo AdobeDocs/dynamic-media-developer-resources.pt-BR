@@ -2,8 +2,8 @@
 description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 solution: Experience Manager
 title: Reprodutor de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

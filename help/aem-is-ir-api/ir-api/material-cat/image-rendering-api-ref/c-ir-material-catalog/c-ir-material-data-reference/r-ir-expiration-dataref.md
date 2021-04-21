@@ -2,8 +2,8 @@
 description: Tempo de funcionamento do cache do cliente. Número de horas até a expiração. Usado para gerenciar o armazenamento em cache do cliente e do servidor proxy.
 solution: Experience Manager
 title: Expiração
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

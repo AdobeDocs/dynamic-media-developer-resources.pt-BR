@@ -2,8 +2,8 @@
 description: Dados do conjunto de imagens do catálogo de imagens. Retorna dados do conjunto de imagens para a entrada do catálogo de imagens especificado no caminho do URL.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

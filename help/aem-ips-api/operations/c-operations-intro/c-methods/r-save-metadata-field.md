@@ -2,8 +2,8 @@
 description: Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadados
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

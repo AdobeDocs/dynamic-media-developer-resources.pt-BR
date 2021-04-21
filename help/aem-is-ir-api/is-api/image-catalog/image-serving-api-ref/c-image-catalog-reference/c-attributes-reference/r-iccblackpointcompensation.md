@@ -2,8 +2,8 @@
 description: Compensação do ponto de referência. Especifica se a compensação de ponto de bloqueio deve ser aplicada a conversões de cores quando nenhuma seleção explícita é feita com icc=.
 solution: Experience Manager
 title: IccBlackPointCompensação
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

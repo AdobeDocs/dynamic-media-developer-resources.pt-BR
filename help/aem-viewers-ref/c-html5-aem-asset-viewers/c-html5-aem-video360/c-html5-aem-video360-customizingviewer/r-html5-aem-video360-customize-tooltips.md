@@ -2,8 +2,8 @@
 description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
 solution: Experience Manager
 title: Dicas de ferramentas
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Recortar imagem. Especifica uma região de corte retangular, expressa em pixels ou normalizada em relação à imagem de origem de resolução completa ou à imagem de máscara.
 solution: Experience Manager
 title: cultura
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

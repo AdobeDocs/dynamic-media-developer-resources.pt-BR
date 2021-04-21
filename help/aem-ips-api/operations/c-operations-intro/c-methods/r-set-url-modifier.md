@@ -2,8 +2,8 @@
 description: Define os comandos do protocolo Image Serving ou Image Rendering para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

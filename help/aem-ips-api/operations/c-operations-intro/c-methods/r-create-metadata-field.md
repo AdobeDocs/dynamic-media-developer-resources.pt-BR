@@ -2,8 +2,8 @@
 description: Permite que os administradores criem novos campos de metadados para coordenar com sistemas de gerenciamento de conteúdo ou para operações de modelo. Exemplos de campos de metadados criados incluem palavras-chave, informações sobre o autor da imagem ou informações do detentor dos direitos autorais.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadados
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

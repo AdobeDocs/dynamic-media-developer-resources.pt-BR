@@ -2,8 +2,8 @@
 description: Vinhetas são imagens criadas com o Dynamic Media Image Authoring para uso com o Image Rendering.
 solution: Experience Manager
 title: Vinhetas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

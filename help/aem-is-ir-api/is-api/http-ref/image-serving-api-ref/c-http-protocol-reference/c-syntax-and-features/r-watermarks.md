@@ -2,8 +2,8 @@
 description: O Serviço de Imagens implementa um recurso simples de marcas d'água visuais.
 solution: Experience Manager
 title: Marcas d'água
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

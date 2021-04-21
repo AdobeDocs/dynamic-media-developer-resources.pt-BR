@@ -2,8 +2,8 @@
 description: Especifica o formato de imagem que o componente usa para carregar imagens do Servidor de imagem.
 solution: Experience Manager
 title: ZoomView.fmt
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

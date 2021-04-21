@@ -2,8 +2,8 @@
 description: Caminho de recorte de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Todas as partes da camada que estão dentro da área definida por clipXPath= são renderizadas de forma transparente.
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

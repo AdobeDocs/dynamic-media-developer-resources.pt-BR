@@ -2,8 +2,8 @@
 description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
 solution: Experience Manager
 title: Botão Reproduzir/Pausar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

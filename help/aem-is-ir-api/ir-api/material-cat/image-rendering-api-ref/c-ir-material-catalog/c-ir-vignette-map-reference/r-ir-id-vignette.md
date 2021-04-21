@@ -2,8 +2,8 @@
 description: Identificador de vinheta. Valor da chave de índice pelo qual os registros no arquivo de mapa de vinheta são pesquisados pelo servidor.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

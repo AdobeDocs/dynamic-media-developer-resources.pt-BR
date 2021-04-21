@@ -2,8 +2,8 @@
 description: Determinado conteúdo que o Visualizador de catálogo eletrônico exibe está sujeito à localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões de barra de rolagem.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

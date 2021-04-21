@@ -2,8 +2,8 @@
 description: O Image Serving fornece um mecanismo para traduzir ids de objeto externas para IDs de objeto (catálogo) específicas da localidade. O aplicativo principal é fornecer conteúdo específico para localidades e conteúdo compartilhado entre várias localidades, sem que o aplicativo cliente precise conhecer as IDs de objeto específicas para localidades.
 solution: Experience Manager
 title: Tradução da ID do objeto
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

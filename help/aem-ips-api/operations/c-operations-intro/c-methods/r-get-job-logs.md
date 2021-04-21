@@ -2,8 +2,8 @@
 description: Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

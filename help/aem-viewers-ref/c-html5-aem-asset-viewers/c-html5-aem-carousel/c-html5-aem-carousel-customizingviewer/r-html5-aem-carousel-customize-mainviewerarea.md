@@ -2,8 +2,8 @@
 description: A área de visualização principal é a área ocupada pela imagem do banner do carrossel. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

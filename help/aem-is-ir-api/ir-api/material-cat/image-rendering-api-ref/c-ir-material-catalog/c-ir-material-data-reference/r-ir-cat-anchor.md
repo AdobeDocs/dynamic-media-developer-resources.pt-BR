@@ -2,8 +2,8 @@
 description: Âncora da imagem. Especifica o ponto de ancoragem (ponto de acesso) de uma textura repetível, borda de parede ou imagem de decalque.
 solution: Experience Manager
 title: Âncora
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

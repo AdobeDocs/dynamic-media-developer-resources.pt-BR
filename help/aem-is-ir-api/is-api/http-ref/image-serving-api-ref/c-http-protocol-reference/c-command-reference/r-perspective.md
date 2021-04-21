@@ -2,8 +2,8 @@
 description: Transformação de perspectiva. Aplique uma transformação de perspectiva à imagem de origem da camada para preencher a região especificada com o quadrilateral. Outras áreas da camada permanecem transparentes.
 solution: Experience Manager
 title: perspectiva
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

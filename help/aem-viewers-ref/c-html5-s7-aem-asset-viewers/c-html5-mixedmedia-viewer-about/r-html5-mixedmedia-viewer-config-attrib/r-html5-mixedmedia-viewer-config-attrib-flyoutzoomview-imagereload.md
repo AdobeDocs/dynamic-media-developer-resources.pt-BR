@@ -2,8 +2,8 @@
 description: Configura como o componente busca novas imagens para a exibição principal e de flyout durante o redimensionamento.
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

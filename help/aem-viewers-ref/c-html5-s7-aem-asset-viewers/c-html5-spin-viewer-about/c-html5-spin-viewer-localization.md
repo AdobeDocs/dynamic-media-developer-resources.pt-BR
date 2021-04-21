@@ -2,8 +2,8 @@
 description: Determinado conteúdo que o Visualizador de rotação exibe está sujeito à localização, incluindo botões de zoom e um botão de tela cheia.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

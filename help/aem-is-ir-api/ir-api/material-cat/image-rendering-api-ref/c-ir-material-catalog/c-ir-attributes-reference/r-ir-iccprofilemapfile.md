@@ -2,8 +2,8 @@
 description: Caminho do arquivo do mapa de perfil ICC. Especifica o arquivo que contém o mapa de perfil ICC para este catálogo de imagem.
 solution: Experience Manager
 title: IccProfileMapFile
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Os alertas padrão são enviados com uma mensagem de email consolidada no final do intervalo de média configurado.
 solution: Experience Manager
 title: Alertas padrão
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

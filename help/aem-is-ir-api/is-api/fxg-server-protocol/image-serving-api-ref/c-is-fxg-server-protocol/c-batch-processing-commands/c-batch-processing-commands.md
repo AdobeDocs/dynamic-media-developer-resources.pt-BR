@@ -2,8 +2,8 @@
 description: Os seguintes comandos compõem a API de processamento em lote exposta pelo PlatformServer.
 solution: Experience Manager
 title: Comandos de processamento em lote
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: A área de visualização principal é a área ocupada pelo vídeo 360. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

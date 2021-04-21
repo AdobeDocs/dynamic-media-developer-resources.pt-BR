@@ -2,8 +2,8 @@
 description: Há vários problemas de comportamento do servidor que devem ser considerados.
 solution: Experience Manager
 title: Observações sobre o comportamento do servidor
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

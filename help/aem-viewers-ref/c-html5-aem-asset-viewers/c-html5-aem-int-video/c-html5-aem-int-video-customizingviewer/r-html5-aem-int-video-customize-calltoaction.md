@@ -2,8 +2,8 @@
 description: O painel Chamar para ação é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo em particular.
 solution: Experience Manager
 title: Chamada à ação
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Esta categoria de materiais inclui tintas para paredes, madeira e acabamento, automóveis, bem como qualquer outra aplicação em que não sejam necessárias texturas.
 solution: Experience Manager
 title: Cores sólidas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

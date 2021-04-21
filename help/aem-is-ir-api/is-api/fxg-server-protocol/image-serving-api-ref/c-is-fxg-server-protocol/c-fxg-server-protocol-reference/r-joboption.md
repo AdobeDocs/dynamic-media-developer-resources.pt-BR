@@ -2,8 +2,8 @@
 description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou uma predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou nas predefinições de PDF no InDesign.
 solution: Experience Manager
 title: trabalho
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

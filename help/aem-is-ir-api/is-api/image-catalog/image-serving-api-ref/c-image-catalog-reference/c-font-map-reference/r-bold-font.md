@@ -2,8 +2,8 @@
 description: Bandeira de rosto. Especifica se o arquivo de fonte referenciado por esse registro de mapa de fonte deve ser usado quando solicitado pelo comando de rosto RTF (\b).
 solution: Experience Manager
 title: Negrito
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: A Biblioteca de imagens responsivas é um módulo JavaScript que ajusta dinamicamente a qualidade das imagens fornecidas pelo Dynamic Media e incorporadas a páginas responsivas da Web. Além disso, ele fornece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar resultados de forma responsiva do Recorte inteligente e da Amostra inteligente.
 solution: Experience Manager
 title: Sobre a biblioteca de imagens responsivas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

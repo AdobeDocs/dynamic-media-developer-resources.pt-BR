@@ -2,8 +2,8 @@
 description: Referência da API JavaScript para visualizador de vídeo interativo
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ece8d2ba-30ef-4616-81a6-6028e5f3c66f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

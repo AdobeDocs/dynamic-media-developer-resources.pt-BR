@@ -2,8 +2,8 @@
 description: Move um ativo para uma pasta específica.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

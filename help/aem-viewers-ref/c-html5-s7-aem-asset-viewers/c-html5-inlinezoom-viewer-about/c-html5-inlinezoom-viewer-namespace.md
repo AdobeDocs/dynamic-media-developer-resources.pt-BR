@@ -2,8 +2,8 @@
 description: Namespace do SDK do visualizador
 solution: Experience Manager
 title: Namespace do SDK do visualizador
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

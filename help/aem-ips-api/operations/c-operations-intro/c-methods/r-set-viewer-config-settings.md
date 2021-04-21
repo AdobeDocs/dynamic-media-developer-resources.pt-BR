@@ -2,8 +2,8 @@
 description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

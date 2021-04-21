@@ -2,8 +2,8 @@
 description: O botão de tela cheia faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Ele é usado quando o visualizador exibe vídeo e está localizado na barra de controle. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa.
 solution: Experience Manager
 title: Botão Vídeo de tela cheia
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

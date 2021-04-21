@@ -3,8 +3,8 @@ title: Requisitos de sistema para visualizadores HTML5 do Dynamic Media
 description: Requisitos de sistema para visualizadores HTML5 do Dynamic Media.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Visualizadores,SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
 source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743

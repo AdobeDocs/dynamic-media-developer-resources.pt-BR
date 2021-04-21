@@ -2,8 +2,8 @@
 description: Muitos aspectos do Serviço de imagem e Renderização de imagem podem ser configurados manualmente editando os arquivos de configuração apropriados.
 solution: Experience Manager
 title: Configuração do servidor
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

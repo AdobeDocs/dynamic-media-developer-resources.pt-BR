@@ -2,8 +2,8 @@
 description: Propriedades da imagem de origem. Retorna as propriedades selecionadas do arquivo de imagem ou entrada de catálogo especificado no caminho do URL.
 solution: Experience Manager
 title: imageprops
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

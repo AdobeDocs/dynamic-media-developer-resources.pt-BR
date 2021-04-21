@@ -2,8 +2,8 @@
 description: Prefixo do URL do servidor de transmissão da Apple. O prefixo de URL do Servidor de Transmissão da Apple usado ao gerar respostas de taxa de bits m3u8 com req=mbrSet.
 solution: Experience Manager
 title: HttpAppleStreamingContext
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

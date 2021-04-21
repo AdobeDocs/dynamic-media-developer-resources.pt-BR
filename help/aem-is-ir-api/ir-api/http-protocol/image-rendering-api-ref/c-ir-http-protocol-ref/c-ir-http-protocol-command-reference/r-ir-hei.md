@@ -2,8 +2,8 @@
 description: Altura da imagem de resposta. Especifica o dimensionamento da imagem renderizada para que a altura da imagem de resposta não seja maior do que o valor especificado, mantendo a proporção da imagem.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

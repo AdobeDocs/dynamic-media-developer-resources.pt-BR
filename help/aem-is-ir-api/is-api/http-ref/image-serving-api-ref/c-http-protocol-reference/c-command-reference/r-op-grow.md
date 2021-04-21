@@ -2,8 +2,8 @@
 description: Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0) ou um erode (raio < 0) aos dados da imagem.
 solution: Experience Manager
 title: op_growth
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

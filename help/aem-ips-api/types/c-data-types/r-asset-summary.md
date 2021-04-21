@@ -2,8 +2,8 @@
 description: Resultados da pesquisa de metadados que contêm informações resumidas sobre um ativo.
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

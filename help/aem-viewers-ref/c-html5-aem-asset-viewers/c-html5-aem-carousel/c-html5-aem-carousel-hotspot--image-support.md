@@ -2,8 +2,8 @@
 description: Suporte a mapas de imagem e pontos de conexão
 solution: Experience Manager
 title: Suporte a mapas de imagem e pontos de conexão
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

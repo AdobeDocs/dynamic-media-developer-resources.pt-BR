@@ -2,8 +2,8 @@
 description: Referência da API do JavaScript para o visualizador do Video360.
 solution: Experience Manager
 title: dispor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 4e6ad465-36df-49e2-8c9e-722e8aa9063e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

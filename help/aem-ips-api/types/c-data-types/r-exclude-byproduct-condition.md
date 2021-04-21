@@ -2,8 +2,8 @@
 description: Determina qual mecanismo de geração e tipo de ativo gerado serão excluídos dos resultados de pesquisa.
 solution: Experience Manager
 title: ExcludeByproductCondition
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

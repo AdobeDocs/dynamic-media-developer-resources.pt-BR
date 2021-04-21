@@ -2,8 +2,8 @@
 description: Incorporar perfil de cor. Especifica se o perfil de cor ICC ou o perfil especificado com icc= deve ser incorporado na imagem de resposta.
 solution: Experience Manager
 title: iccEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

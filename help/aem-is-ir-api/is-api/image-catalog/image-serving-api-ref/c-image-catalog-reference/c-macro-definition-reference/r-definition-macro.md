@@ -2,8 +2,8 @@
 description: Definição de macro. Um fragmento de protocolo Image Serving que consiste em um ou mais comandos completos, separados por caracteres '&'.
 solution: Experience Manager
 title: Definição
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

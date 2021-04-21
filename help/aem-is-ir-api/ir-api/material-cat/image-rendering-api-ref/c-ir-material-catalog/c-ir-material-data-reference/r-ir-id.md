@@ -2,8 +2,8 @@
 description: Identificador de registro do catálogo. Valor principal pelo qual os registros de material são pesquisados pelo Servidor de Renderização. Normalmente, é um identificador de material curto e exclusivo, como um número de SKU.
 solution: Experience Manager
 title: Id
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

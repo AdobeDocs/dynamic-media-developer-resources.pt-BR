@@ -2,8 +2,8 @@
 description: As configurações nesta seção se aplicam às respostas do conjunto de mídia obtidas pelo modificador req=set.
 solution: Experience Manager
 title: Respostas do conjunto de mídia
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

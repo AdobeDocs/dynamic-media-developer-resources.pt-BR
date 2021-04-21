@@ -2,8 +2,8 @@
 description: Os arquivos de atributos de catálogo reconhecem esses atributos de solicitação padrão.
 solution: Experience Manager
 title: Atributos de solicitação padrão
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

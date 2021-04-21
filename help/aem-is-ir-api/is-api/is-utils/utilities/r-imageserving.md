@@ -2,8 +2,8 @@
 description: Script de controle do Servidor de imagem. Esse script é usado para iniciar, parar ou reiniciar o Supervisor do Servidor de Exibição de Imagens, que, por sua vez, inicia, interrompe ou reinicia todos os outros componentes do Servidor de Imagem.
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

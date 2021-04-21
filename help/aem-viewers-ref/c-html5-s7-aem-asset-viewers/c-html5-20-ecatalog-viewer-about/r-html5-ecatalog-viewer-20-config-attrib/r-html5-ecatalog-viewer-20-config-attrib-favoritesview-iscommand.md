@@ -2,8 +2,8 @@
 description: A string de comando Image Serving que é aplicada a todas as miniaturas.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

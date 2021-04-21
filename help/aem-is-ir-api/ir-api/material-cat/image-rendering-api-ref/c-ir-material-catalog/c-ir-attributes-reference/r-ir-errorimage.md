@@ -2,8 +2,8 @@
 description: Imagem de resposta do erro. A renderização de imagem normalmente retorna um status de erro com uma mensagem de texto quando ocorre um erro. O atributo ErrorImage permite que a configuração de uma imagem seja retornada em caso de erro.
 solution: Experience Manager
 title: ErrorImage *
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

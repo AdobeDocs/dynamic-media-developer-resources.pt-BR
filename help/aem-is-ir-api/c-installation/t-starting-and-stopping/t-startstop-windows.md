@@ -2,8 +2,8 @@
 description: Existem vários mecanismos para iniciar/parar o Servidor de Imagem e o Servidor de Plataforma no Windows
 solution: Experience Manager
 title: Iniciar ou parar no Windows
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: O conteúdo de toda a parte dos modificadores da cadeia de caracteres de solicitação, incluindo o sufixo de bloqueio opcional, pode ser obscurecido ao aplicar a codificação padrão base64.
 solution: Experience Manager
 title: Ofuscação de solicitação
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

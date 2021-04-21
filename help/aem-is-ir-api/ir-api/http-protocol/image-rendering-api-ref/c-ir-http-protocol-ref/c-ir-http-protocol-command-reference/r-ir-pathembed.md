@@ -2,8 +2,8 @@
 description: Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

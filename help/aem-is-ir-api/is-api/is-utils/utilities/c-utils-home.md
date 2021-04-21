@@ -2,8 +2,8 @@
 description: O guia de utilitários de disponibilização de imagens contém informações sobre utilitários usados com o Dynamic Media Image Server e a Rendering de imagens.
 solution: Experience Manager
 title: Utilitários de disponibilização de imagens
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

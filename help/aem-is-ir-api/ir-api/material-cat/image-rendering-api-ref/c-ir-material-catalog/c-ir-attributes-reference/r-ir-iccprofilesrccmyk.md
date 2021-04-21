@@ -2,8 +2,8 @@
 description: Perfil de cores de entrada padrão CMYK. Especifica o nome do perfil de cor ICC a ser usado para imagens de material CMYK que não incorporam um perfil de cor.
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

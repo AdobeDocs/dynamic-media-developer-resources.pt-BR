@@ -2,8 +2,8 @@
 description: No modo de zoom em linha, a exibição principal consiste na imagem estática, imagem com zoom mostrada na exibição de flyout sobre a imagem estática e a mensagem de dica mostrada sobre a imagem estática.
 solution: Experience Manager
 title: Exibição de Zoom do Flyout
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

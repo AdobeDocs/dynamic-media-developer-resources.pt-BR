@@ -2,8 +2,8 @@
 description: A ferramenta de compartilhamento integrado consiste em um botão adicionado ao painel Compartilhamento social e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
 title: Compartilhamento incorporado
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

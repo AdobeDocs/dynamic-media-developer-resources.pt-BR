@@ -2,8 +2,8 @@
 description: A Exibição de imagem fornece um mecanismo para buscar uma resposta de texto hierárquica (xml ou json) que representa todos os recursos e metadados associados ao ImageSet de catálogo para um registro específico.
 solution: Experience Manager
 title: Solicitações de conjunto de mídia
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

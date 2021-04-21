@@ -2,8 +2,8 @@
 description: 'Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Agitação superficial. Especifica o brilho relativo da superfície do material. Usado em conjunto com Tipo de catálogo e Gráfico para controlar efeitos de renderização de reflexo 3D.
 solution: Experience Manager
 title: Rigidez
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

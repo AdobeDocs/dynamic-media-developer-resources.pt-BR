@@ -2,8 +2,8 @@
 description: Retornos de chamada do evento
 solution: Experience Manager
 title: Retornos de chamada do evento
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

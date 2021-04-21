@@ -2,8 +2,8 @@
 description: Esse botão faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão de tela cheia
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

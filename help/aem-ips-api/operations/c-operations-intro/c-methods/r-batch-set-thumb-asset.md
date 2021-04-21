@@ -2,8 +2,8 @@
 description: Define a imagem em miniatura de um ou mais ativos.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

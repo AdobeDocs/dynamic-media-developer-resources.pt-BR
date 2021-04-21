@@ -2,8 +2,8 @@
 description: Detalhes da mensagem de erro. Especifica o nível de detalhes para mensagens de erro retornadas via HTTP como o valor error.message .
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

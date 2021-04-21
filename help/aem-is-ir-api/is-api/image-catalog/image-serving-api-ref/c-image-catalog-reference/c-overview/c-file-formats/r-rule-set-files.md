@@ -2,8 +2,8 @@
 description: Os arquivos de conjunto de regras são arquivos de texto formatados em XML e devem seguir os padrões e convenções apropriados.
 solution: Experience Manager
 title: Arquivos de conjunto de regras
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Tipo de solicitação. Especifica o tipo de solicitação.
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

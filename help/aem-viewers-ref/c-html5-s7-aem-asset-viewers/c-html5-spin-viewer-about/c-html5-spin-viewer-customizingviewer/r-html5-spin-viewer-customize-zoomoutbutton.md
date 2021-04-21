@@ -2,8 +2,8 @@
 description: Clicar ou tocar nesse botão faz o zoom de uma imagem na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Menos zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

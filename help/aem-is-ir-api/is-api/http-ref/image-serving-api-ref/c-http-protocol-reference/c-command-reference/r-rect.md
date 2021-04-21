@@ -2,8 +2,8 @@
 description: Retângulo de exibição final. Permite que a imagem de exibição final seja desmontada em várias fitas ou blocos, que podem ser entregues separadamente e remontadas pelo cliente perfeitamente, sem artefatos ao longo das bordas.
 solution: Experience Manager
 title: rect
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

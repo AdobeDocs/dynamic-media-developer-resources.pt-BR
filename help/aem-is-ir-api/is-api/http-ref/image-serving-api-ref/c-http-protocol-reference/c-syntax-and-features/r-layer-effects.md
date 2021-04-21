@@ -2,8 +2,8 @@
 description: A sombra da camada de estilo Photoshop e os efeitos de brilho são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada pai), incluindo layer=0 e layer=comp.
 solution: Experience Manager
 title: Efeitos da camada
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

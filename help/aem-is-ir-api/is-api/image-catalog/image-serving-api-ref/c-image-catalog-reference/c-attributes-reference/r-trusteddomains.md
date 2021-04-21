@@ -2,8 +2,8 @@
 description: Domínios da Web do aplicativo Flash. Os aplicativos de Flash Adobe podem exigir acesso às propriedades de imagens fornecidas com fmt=swf ou fmt=swf3.
 solution: Experience Manager
 title: TrustedDomains
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Adiciona um termo de pesquisa para uso com searchAssets.
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic, SDK/API, Metadados
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

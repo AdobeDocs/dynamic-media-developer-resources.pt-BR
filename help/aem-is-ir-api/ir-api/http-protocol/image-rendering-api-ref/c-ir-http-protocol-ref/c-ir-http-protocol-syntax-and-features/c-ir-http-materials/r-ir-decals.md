@@ -2,8 +2,8 @@
 description: Os materiais de decoração incluem construções de vestuário, como appliqués, estampas de camisetas e logotipos bordados ou impressos, bem como objetos planos não repetitivos usados em aplicações interiores ou exteriores, como tapetes de área, arte pendurada em parede, sinais e assim por diante.
 solution: Experience Manager
 title: Decretos
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

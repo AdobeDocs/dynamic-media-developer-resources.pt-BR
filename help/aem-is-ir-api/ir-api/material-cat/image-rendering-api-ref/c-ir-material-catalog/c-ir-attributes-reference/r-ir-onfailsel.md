@@ -2,8 +2,8 @@
 description: Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se o comando sel= falhar porque o local de pixel especificado não está dentro da área de máscara de um objeto selecionável.
 solution: Experience Manager
 title: OnFailSel
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

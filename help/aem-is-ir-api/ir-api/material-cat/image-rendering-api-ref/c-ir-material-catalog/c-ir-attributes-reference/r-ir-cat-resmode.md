@@ -2,8 +2,8 @@
 description: Modo de nova amostra. Padrão para resMode=. Especifica a reamostragem e os atributos de interpolação usados para dimensionar a imagem renderizada para o tamanho final.
 solution: Experience Manager
 title: ResMode
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

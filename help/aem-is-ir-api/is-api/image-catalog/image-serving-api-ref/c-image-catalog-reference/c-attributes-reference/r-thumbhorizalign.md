@@ -2,8 +2,8 @@
 description: Alinhamento horizontal para miniaturas. Especifica o alinhamento horizontal da imagem em miniatura no retângulo de imagem de resposta especificado por wid= e hei= ou pelo atributo DefaultThumbPix.
 solution: Experience Manager
 title: MiniaturaAlinhar
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

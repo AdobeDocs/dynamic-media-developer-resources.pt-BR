@@ -2,8 +2,8 @@
 description: O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade rolover_key definida no Dynamic Media Classic e se o recurso do painel de informações está configurado corretamente para o visualizador.
 solution: Experience Manager
 title: Pop-up do painel Informações
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

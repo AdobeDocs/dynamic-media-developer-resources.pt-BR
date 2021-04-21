@@ -2,8 +2,8 @@
 description: Após a instalação, a hierarquia de pastas em install_root inclui os arquivos e pastas listados abaixo.
 solution: Experience Manager
 title: Conteúdo
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

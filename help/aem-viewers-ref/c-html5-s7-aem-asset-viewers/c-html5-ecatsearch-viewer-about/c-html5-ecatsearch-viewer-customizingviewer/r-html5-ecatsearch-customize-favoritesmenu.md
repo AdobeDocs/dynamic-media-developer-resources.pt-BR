@@ -2,8 +2,8 @@
 description: A lista suspensa do menu Favoritos aparece na barra de controle. Consiste em um botão e um painel que é expandido quando um usuário clica ou toca em um botão. O painel contém ferramentas Favoritos individuais.
 solution: Experience Manager
 title: Menu Favoritos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

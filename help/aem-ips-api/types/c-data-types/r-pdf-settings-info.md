@@ -2,8 +2,8 @@
 description: As propriedades de um ativo de arquivo de configurações do PDF.
 solution: Experience Manager
 title: PdfSettingsInfo
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

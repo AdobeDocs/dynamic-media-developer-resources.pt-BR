@@ -2,8 +2,8 @@
 description: Mapa de tradução de cadeia de caracteres. Refere-se a um locId que pode ser mapeado para qualquer número de internalLocId.
 solution: Experience Manager
 title: LocaleStrMap
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Publica todas as imagens, modelos e conjuntos de rotação que estão marcados prontos para publicação em um diretório de servidor.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

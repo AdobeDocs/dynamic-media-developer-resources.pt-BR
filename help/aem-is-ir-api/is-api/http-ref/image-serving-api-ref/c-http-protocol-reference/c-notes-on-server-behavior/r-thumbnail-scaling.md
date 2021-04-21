@@ -2,8 +2,8 @@
 description: A etapa 2 das transformações da camada de imagem é modificada da seguinte maneira para miniaturas (ou seja, if req=tmb).
 solution: Experience Manager
 title: Escala de miniaturas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

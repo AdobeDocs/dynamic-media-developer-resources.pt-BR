@@ -2,8 +2,8 @@
 description: Exibir quadros de texto com excesso de definição com sinal de adição. Um indicador de sobrefluxo de texto mostra quando o texto excede o espaço alocado para ele em um quadro de texto (ou no último quadro de texto no caso de texto encadeado). O indicador é uma caixa vermelha com um sinal de mais.
 solution: Experience Manager
 title: markOverflowTextFrames
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

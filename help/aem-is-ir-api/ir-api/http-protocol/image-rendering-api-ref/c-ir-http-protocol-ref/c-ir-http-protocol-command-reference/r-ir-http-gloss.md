@@ -2,8 +2,8 @@
 description: Brilho da superfície do material. Especifica o brilho relativo da superfície do material. Usada para selecionar o mapa de iluminação e controlar a renderização de efeitos de brilho e reflexos 3D.
 solution: Experience Manager
 title: brilho
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: O botão Reproduzir/Pausar permite que o usuário pause ou retome o comportamento de reprodução automática do carrossel.
 solution: Experience Manager
 title: Botão PlayPause
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

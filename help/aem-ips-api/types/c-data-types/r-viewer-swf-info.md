@@ -2,8 +2,8 @@
 description: Propriedades de um ativo de arquivo SWF do visualizador.
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic, SDK/API, Visualizadores
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API,Viewers
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

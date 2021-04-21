@@ -2,8 +2,8 @@
 description: Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

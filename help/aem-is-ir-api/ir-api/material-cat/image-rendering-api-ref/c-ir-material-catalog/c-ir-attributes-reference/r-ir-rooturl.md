@@ -2,8 +2,8 @@
 description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos. O atributo RootUrl é usado em vez do atributo RootPath quando um src= valor é incluído por { chaves chaves }.
 solution: Experience Manager
 title: RootUrl *
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

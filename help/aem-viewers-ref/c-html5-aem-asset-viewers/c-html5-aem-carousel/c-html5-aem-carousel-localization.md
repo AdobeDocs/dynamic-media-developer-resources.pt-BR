@@ -2,8 +2,8 @@
 description: Determinado conteúdo exibido pelo Visualizador de carrossel está sujeito à localização. Isso inclui botões de navegação de slides.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

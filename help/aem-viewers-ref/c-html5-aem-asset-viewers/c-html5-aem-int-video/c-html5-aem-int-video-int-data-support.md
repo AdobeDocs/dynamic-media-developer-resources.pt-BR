@@ -2,8 +2,8 @@
 description: O Visualizador de vídeo interativo suporta a renderização de amostras interativas com base em dados interativos passados ao visualizador como um parâmetro de configuração.
 solution: Experience Manager
 title: Suporte a dados interativos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

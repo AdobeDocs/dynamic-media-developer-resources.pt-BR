@@ -2,8 +2,8 @@
 description: Resolução de material. Especifica a resolução da textura repetível ou da imagem de decalque.
 solution: Experience Manager
 title: res
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

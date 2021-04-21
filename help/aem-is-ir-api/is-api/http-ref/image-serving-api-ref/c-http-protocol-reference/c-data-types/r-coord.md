@@ -2,8 +2,8 @@
 description: Coordenadas de pixels. Usado para especificar coordenadas de imagem, como deslocamentos de imagem ou parâmetros de corte, em forma de um deslocamento de pixel em relação ao canto superior esquerdo de uma imagem ou retângulo de camada.
 solution: Experience Manager
 title: cabo
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

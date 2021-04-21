@@ -2,8 +2,8 @@
 description: O catálogo padrão fornece valores padrão para todos os atributos do catálogo para todos os catálogos de imagens.
 solution: Experience Manager
 title: Catálogo padrão
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

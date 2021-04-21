@@ -2,8 +2,8 @@
 description: Caminho do texto. Especifica o caminho a ser usado como linha de base para o texto fornecido com textPs=.
 solution: Experience Manager
 title: textPath
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

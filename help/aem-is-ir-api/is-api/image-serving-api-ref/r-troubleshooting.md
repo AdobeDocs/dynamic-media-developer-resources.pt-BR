@@ -2,8 +2,8 @@
 description: Esta seção contém soluções para problemas que ocasionalmente ocorreram com o Serviço de imagem.
 solution: Experience Manager
 title: Solução de problemas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

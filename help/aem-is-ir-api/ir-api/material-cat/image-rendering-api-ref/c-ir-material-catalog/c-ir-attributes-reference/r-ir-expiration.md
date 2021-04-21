@@ -2,8 +2,8 @@
 description: Tempo de vida padrão do cache do cliente. Fornece um intervalo de expiração padrão no caso de um registro de catálogo específico não conter um valor válido de Expiração de catálogo ou de expiração de vinheta, ou se um arquivo de vinheta ou arquivo de material for acessado diretamente, em vez de por um registro de catálogo.
 solution: Experience Manager
 title: Expiração
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

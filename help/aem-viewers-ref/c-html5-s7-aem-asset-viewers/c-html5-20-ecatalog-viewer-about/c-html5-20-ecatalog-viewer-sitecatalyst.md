@@ -2,8 +2,8 @@
 description: O Visualizador de catálogo eletrônico é compatível com o rastreamento Adobe Analytics pronto para uso.
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Desenvolvedor,Profissional de negócios,Engenheiro de dados,Arquiteto de dados
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

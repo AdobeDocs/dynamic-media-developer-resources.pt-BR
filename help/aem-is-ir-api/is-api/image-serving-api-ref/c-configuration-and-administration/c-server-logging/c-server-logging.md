@@ -2,8 +2,8 @@
 description: Todos os arquivos de log são gravados na mesma pasta de log especificada com o diretório TC.
 solution: Experience Manager
 title: Registro do servidor
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

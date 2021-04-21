@@ -2,8 +2,8 @@
 description: Use as informações desta seção para configurar e administrar seu Servidor de Imagens.
 solution: Experience Manager
 title: Configuração e administração
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

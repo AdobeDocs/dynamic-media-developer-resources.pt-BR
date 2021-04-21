@@ -2,8 +2,8 @@
 description: Modo de ofuscação de solicitação. Especifica o tipo de ofuscação que deve ser aplicado a solicitações válidas.
 solution: Experience Manager
 title: RequestObfuscation
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

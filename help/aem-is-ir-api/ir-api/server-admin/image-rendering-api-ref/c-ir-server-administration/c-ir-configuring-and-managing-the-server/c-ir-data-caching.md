@@ -2,8 +2,8 @@
 description: A Renderização de imagem aproveita os recursos de armazenamento em cache do Image Serving para salvar dados de imagem de resposta, dados intermediários para solicitações aninhadas/incorporadas e dados de imagem de origem (como texturas) obtidos de uma fonte externa.
 solution: Experience Manager
 title: Armazenamento de dados em cache
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

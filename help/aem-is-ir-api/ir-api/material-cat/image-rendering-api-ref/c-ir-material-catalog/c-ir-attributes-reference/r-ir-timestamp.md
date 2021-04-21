@@ -2,8 +2,8 @@
 description: Carimbo de data e hora de modificação padrão. Fornece um valor padrão para o catálogo TimeStamp e a vinheta TimeStamp. Se não for especificado, o servidor usará a data/hora de modificação deste arquivo catalog.ini.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

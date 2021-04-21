@@ -2,8 +2,8 @@
 description: Caminho do arquivo de máscara. Caminho relativo ou absoluto e nome de um arquivo de imagem de máscara associado a este registro de catálogo.
 solution: Experience Manager
 title: MaskPath
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Descreve constantes de sequência de caracteres novas e alteradas para a API IPS versão 3.7.
 solution: Experience Manager
 title: Constantes da cadeia de caracteres novas e modificadas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Administrador
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

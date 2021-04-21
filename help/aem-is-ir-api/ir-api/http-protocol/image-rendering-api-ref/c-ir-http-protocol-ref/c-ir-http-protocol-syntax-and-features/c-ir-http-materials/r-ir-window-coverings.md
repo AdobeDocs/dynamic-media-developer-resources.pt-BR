@@ -2,8 +2,8 @@
 description: Os materiais de revestimento de janelas incluem coberturas de janelas suaves (cortinas, valanças, cortinas de café), bem como revestimentos de janelas duras (sombras e persianas).
 solution: Experience Manager
 title: Coberturas de janelas
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

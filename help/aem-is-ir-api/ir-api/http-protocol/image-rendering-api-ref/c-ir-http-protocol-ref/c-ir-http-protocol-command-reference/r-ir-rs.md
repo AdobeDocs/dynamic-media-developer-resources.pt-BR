@@ -2,8 +2,8 @@
 description: Configurações avançadas de renderização. Especifica uma configuração de renderização avançada, a ser aplicada ao renderizar a seleção atual.
 solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

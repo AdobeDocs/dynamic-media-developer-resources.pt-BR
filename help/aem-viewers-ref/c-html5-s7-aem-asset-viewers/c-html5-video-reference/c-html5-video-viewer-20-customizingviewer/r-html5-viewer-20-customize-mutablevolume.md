@@ -2,8 +2,8 @@
 description: O controle de volume mutável aparece inicialmente como um botão que permite que o usuário mude ou mude o som do player de vídeo.
 solution: Experience Manager
 title: Volume variável
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

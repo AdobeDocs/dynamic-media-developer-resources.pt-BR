@@ -2,8 +2,8 @@
 description: Imagem em miniatura. Solicita dados de imagem formatados e dimensionados usando critérios de miniatura de catálogo.
 solution: Experience Manager
 title: tmb
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

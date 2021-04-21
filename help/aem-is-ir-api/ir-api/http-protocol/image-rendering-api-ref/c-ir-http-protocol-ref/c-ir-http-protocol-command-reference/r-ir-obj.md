@@ -2,8 +2,8 @@
 description: Selecione o objeto por nome. Seleciona o grupo de vinheta especificado por nome e inicia um novo MSS.
 solution: Experience Manager
 title: obj
-feature: Dynamic Media Classic, SDK/API
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: Toda a personalização visual e a maioria dos comportamentos do Vi
 keywords: responsivo
 solution: Experience Manager
 title: Personalização do Visualizador de Zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

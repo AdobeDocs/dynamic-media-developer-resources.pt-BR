@@ -2,8 +2,8 @@
 description: Determinado conteúdo que o Visualizador de mídia mista exibe está sujeito a localização. Isso inclui botões de zoom, botões de giro, controles de vídeo, botão fechar botão de tela cheia e botões de rolagem de amostra.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

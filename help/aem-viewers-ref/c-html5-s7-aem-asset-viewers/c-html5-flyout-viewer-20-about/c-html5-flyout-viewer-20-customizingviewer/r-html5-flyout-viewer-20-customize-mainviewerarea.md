@@ -2,8 +2,8 @@
 description: A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
 solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
-role: Desenvolvedor,Profissional de negócios
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
