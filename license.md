@@ -1,14 +1,16 @@
 ---
-source-git-commit: 153532ccc0488eedc1ce7f67c3d990ae10087a55
-translation-type: tm+mt
+source-git-commit: e3ad3084fde2fcef8c18924b3f9abdad97882ce2
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 # Licença do MIT
 
-© Copyright 2018 Adobe. Todos os direitos reservados.
+© Copyright 2021 Adobe. all rights reserved.
 
-A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, intercalar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e para permitir às pessoas a quem o Software for fornecido fazê-lo, sob as seguintes condições:
+A permissão é, por este meio, concedida gratuitamente a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e para permitir às pessoas a quem o Software for fornecido fazê-lo, sob as seguintes condições:
 
-O aviso de copyright acima e este aviso de permissão serão incluídos em todas as cópias ou partes substanciais do Software.
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
 
-O SOFTWARE É FORNECIDO &quot;NO ESTADO EM QUE SE ENCONTRA&quot;, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADA, AS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO A UM FIM EM PARTICULAR E NÃO-INFRAÇÃO. EM NENHUM EVENTO, OS TITULARES DE DIREITOS AUTORAIS OU DE COPYRIGHT SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, QUER EM AÇÃO DE CONTRATO, TORTO OU DE OUTRA FORMA, RESULTANTE DE, DE OU EM RELAÇÃO AO SOFTWARE OU À UTILIZAÇÃO OU OUTROS TRATAMENTOS NO SOFTWARE.
+O SOFTWARE É FORNECIDO &quot;NO ESTADO EM QUE SE ENCONTRA&quot;, SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADA, AS GARANTIAS DE COMERCIABILIDADE, ADEQUAÇÃO PARA UM FIM ESPECÍFICO E NÃO-INFRAÇÃO. EM CASO ALGUM, OS AUTORES OU OS TITULARES DE DIREITOS DE AUTOR SERÃO RESPONSÁVEIS POR QUALQUER CRÉDITO, DANOS OU OUTRA RESPONSABILIDADE, QUER EM AÇÃO DE CONTRATO, TORTE OU DE OUTRA FORMA, RESULTANTE DE, DE OU EM LIGAÇÃO COM O SOFTWARE OU A UTILIZAÇÃO OU OUTRAS OPERAÇÕES DO SOFTWARE.
