@@ -3,16 +3,15 @@ description: Toda personalização visual e a maioria dos comportamentos do Visu
 keywords: responsivo
 solution: Experience Manager
 title: Personalizando o Visualizador de Pesquisa do Catálogo Eletrônico
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
+source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
-
 
 # Personalizando o Visualizador de Pesquisa do Catálogo Eletrônico{#customizing-ecatalog-search-viewer}
 
@@ -186,7 +185,7 @@ A seguir estão os elementos da interface do usuário que fazem referência à d
 * [Baixar](r-html5-ecatsearch-customize-download.md)
 * [Compartilhamento de email](r-html5-ecatsearch-customize-emailshare.md)
 * [Compartilhamento incorporado](r-html5-ecatsearch-customize-embedshare.md)
-* [Compartilhamento do Facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Compartilhamento facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Efeito Favoritos](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menu Favoritos](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Exibição de favoritos](r-html5-ecatsearch-customize-favoritesview.md)
@@ -206,7 +205,7 @@ A seguir estão os elementos da interface do usuário que fazem referência à d
 * [Indicador de página](r-html5-ecatsearch-customize-pageindicator.md)
 * [Exibição da página](r-html5-ecatsearch-customize-pageview.md)
 * [Botão Página anterior](r-html5-ecatsearch-customize-previouspagebutton.md)
-* [Imprimir](r-html5-ecatalog-viewer-20-customize-print.md)
+* [Imprimir](r-html5-ecatsearch-customize-print.md)
 * [Botão Remover favorito](r-html5-ecatsearch-customize-removefavorite.md)
 * [Botão Pesquisar](r-html5-ecatsearch-customize-searchbutton.md)
 * [Efeito de pesquisa](r-html5-ecatsearch-customize-searcheffect.md)
@@ -217,9 +216,8 @@ A seguir estão os elementos da interface do usuário que fazem referência à d
 * [Miniaturas](r-html5-ecatsearch-customize-thumbnails.md)
 * [Botão Miniaturas](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Dicas de ferramentas](r-html5-ecatsearch-customize-tooltips.md)
-* [Compartilhamento do Twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Compartilhamento twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Botão Exibir todos os favoritos](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Botão Ampliar](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Botão Menos zoom](r-html5-ecatsearch-customize-zoomoutbutton.md)
 * [Botão Redefinir zoom](r-html5-ecatsearch-customize-zoomresetbutton.md)
-
