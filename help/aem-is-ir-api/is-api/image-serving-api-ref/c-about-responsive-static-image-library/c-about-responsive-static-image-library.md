@@ -2,16 +2,15 @@
 description: A Biblioteca de imagens responsivas é um módulo JavaScript que ajusta dinamicamente a qualidade das imagens fornecidas pelo Dynamic Media e incorporadas a páginas responsivas da Web. Além disso, ele fornece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar resultados de forma responsiva do Recorte inteligente e da Amostra inteligente.
 solution: Experience Manager
 title: Sobre a biblioteca de imagens responsivas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
+source-git-commit: 417fd2540c15762356dfb60aa7eb635ee5f74d13
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
-
 
 # Sobre a biblioteca de imagens responsivas{#about-responsive-image-library}
 
@@ -31,7 +30,7 @@ O caso de uso mais simples da Biblioteca de imagens responsivas é definir uma l
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
    <td colname="col2"> <p>A seguir, um exemplo simples em que a imagem responsiva está em um contêiner que utiliza 50% da largura da página da Web. Toda vez que a janela do navegador é redimensionada, a largura do contêiner muda. Quando a largura da imagem atinge um dos pontos de interrupção configurados, que são definidos em 200, 400, 600 e 800 pixels para fins ilustrativos, uma nova renderização é baixada e exibida. O objetivo é evitar o carregamento de imagens grandes desnecessárias e economizar largura de banda da rede. </p> <p>Clique no URL para abrir a página da Web, redimensionar a janela do navegador e monitorar o tráfego da rede. </p> </td> 
@@ -40,13 +39,13 @@ O caso de uso mais simples da Biblioteca de imagens responsivas é definir uma l
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>O exemplo de Bootstrap a seguir ilustra o mesmo caso de uso em uma página da Web. De acordo com o CSS do Bootstrap, a célula de layout à qual a imagem responsiva é adicionada pode ter uma das seguintes larguras: 360, 720 e 940 pixels. Esses são os valores exatos que são passados como pontos de interrupção para a Biblioteca de imagens responsivas. Dessa forma, a Dynamic Media garante que a largura de banda da rede do cliente seja usada de forma eficaz. Além disso, garante que a imagem seja exibida no tamanho exato necessário, dado o layout atual da página da Web, sem que nenhum artefato visual dimensione o navegador do lado do cliente. </p> <p>Clique no URL para abrir a página da Web, redimensione a janela do navegador para acessar pontos de interrupção de layout diferentes e monitorar o tráfego da rede. </p> <p>Os casos de uso mais avançados incluem a associação de diferentes Predefinições de imagem ou comandos de Exibição de imagem, ou ambos, com valores de ponto de interrupção diferentes. </p> </td> 
+   <td colname="col2"> <p>O exemplo de Bootstrap a seguir ilustra o mesmo caso de uso em uma página da Web. De acordo com o CSS do Bootstrap, a célula de layout à qual a imagem responsiva é adicionada pode ter uma das seguintes larguras: 360, 720 e 940 pixels. Esses valores são exatamente o que é passado como pontos de interrupção para a Biblioteca de imagens responsivas. Dessa forma, a Dynamic Media garante que a largura de banda da rede do cliente seja usada de forma eficaz. Além disso, garante que a imagem seja exibida no tamanho exato necessário, dado o layout atual da página da Web, sem que nenhum artefato visual dimensione o navegador do lado do cliente. </p> <p>Clique no URL para abrir a página da Web, redimensionar a janela do navegador para atingir diferentes pontos de interrupção de layout e monitorar o tráfego da rede. </p> <p>Os casos de uso mais avançados incluem a associação de diferentes Predefinições de imagem ou comandos de Exibição de imagem, ou ambos, com valores de ponto de interrupção diferentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <p>3 </p> </td> 
+   <td colname="col01"> <p>1 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>Neste próximo exemplo, são usadas Predefinições de imagem de diferentes tamanhos de ponto de interrupção. Para um pequeno ponto de interrupção, uma predefinição de baixa qualidade é aplicada, o que força o Serviço de imagem a retornar a imagem GIF compactada apenas para seis cores. Um ponto de interrupção médio está usando uma Predefinição de imagem configurada para JPEG com alta compactação. O maior ponto de interrupção está associado a uma Predefinição de imagem de alta qualidade usando PNG sem perdas. Esse método garante que imagens de alta qualidade sejam fornecidas a esses dispositivos, com base no pressuposto de que os dispositivos com telas maiores têm maior largura de banda e poder de processamento. </p> <p>Clique no URL para abrir a página da Web, redimensione a janela do navegador da Web de maior para menor e observe como a qualidade da imagem degrada. </p> </td> 
+   <td colname="col2"> <p>Neste próximo exemplo, são usadas Predefinições de imagem de diferentes tamanhos de ponto de interrupção. Para um pequeno ponto de interrupção, uma predefinição de baixa qualidade é aplicada, o que força o Serviço de imagem a retornar a imagem GIF compactada apenas para seis cores. Um ponto de interrupção médio está usando uma Predefinição de imagem configurada para JPEG com alta compactação. O maior ponto de interrupção está associado a uma Predefinição de imagem de alta qualidade usando PNG sem perdas. Esse método garante que imagens de alta qualidade sejam fornecidas a esses dispositivos, com base no pressuposto de que os dispositivos com telas maiores têm maior largura de banda e poder de processamento. </p> <p>Clique no URL para abrir a página da Web, redimensionar a janela do navegador da Web de maior para menor e observar como a qualidade da imagem degrada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
@@ -71,10 +70,9 @@ O caso de uso mais simples da Biblioteca de imagens responsivas é definir uma l
 
 **Requisitos mínimos do navegador do cliente**
 
-* Microsoft® Windows® 7 ou posterior; Mac OS X 10.8 ou posterior.
+* Microsoft® Windows® 7 ou posterior; macOS X 10.8 ou posterior.
 * Firefox 23, Safari 6, Chrome 29, IE 9 ou posterior.
 * iOS 6 ou posterior.
 * Certificado no iPhone3GS ou posterior e no iPad2 ou posterior (somente navegadores nativos).
-* Android OS 2.3 ou posterior.
-* O Internet Explorer em dispositivos móveis não é compatível no momento.
-
+* Android™ OS 2.3 ou posterior.
+* No momento, o Internet Explorer em dispositivos móveis não é compatível.
