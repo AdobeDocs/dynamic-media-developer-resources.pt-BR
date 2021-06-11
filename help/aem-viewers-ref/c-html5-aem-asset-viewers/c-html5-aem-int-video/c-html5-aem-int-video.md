@@ -2,13 +2,12 @@
 description: Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
 solution: Experience Manager
 title: Vídeo interativo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ O tipo de visualizador é 510.
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
-e
+E
 
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
 
@@ -35,11 +34,11 @@ Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.m
 
 ## Usando o Visualizador de Vídeo Interativo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos e CSS) baixados pelo visualizador em tempo de execução.
+O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. Um único JavaScript é incluído com todos os componentes do SDK do visualizador usados por esse visualizador, ativos e CSS específicos.
 
 O Visualizador de vídeo interativo pode ser usado no modo pop-up usando uma página HTML pronta para produção fornecida com os Visualizadores de exibição de imagem. Ele também pode ser usado no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 
-A configuração e a definição são semelhantes às dos outros visualizadores descritos neste guia. Todo o esfolamento é obtido por meio de folhas de estilos em cascata personalizadas (CSS).
+A configuração e o ajuste do layout são semelhantes aos dos outros visualizadores descritos neste guia. Todo o esfolamento é obtido por meio de folhas de estilos em cascata personalizadas (CSS).
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -47,21 +46,21 @@ Consulte [Referência de comando comum a todos os visualizadores - Atributos de 
 
 O Visualizador de vídeo interativo fornece um conjunto de controles padrão da interface do usuário para a reprodução do vídeo, como um botão Reproduzir/Pausar, depurador de vídeo, bolha de tempo do vídeo, indicador de tempo de reprodução/tempo total, controle de volume, botão de tela cheia e alternância de legenda fechada. Todos esses controles são agrupados em uma barra de controle diretamente na exibição principal.
 
-Observe que, em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões de hardware do dispositivo.
+Em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões de hardware do dispositivo.
 
 Quando o visualizador opera no modo pop-up, um botão de tela cheia não está disponível na interface do usuário.
 
-O visualizador mostra um painel com amostras interativas à direita da área de visualização de vídeo. A lista de amostras avança automaticamente à medida que o vídeo é reproduzido, de modo que as amostras correspondentes à região do vídeo atual sejam exibidas. Clicar ou tocar em uma amostra aciona uma ação que foi associada a essa amostra durante o tempo de criação. Dependendo de como você o configurou, o acionador pode redirecionar para uma página diferente no site ou transmitir informações do produto de volta à lógica da página da Web, que, por sua vez, pode acionar a abertura de uma Exibição rápida que mostra o conteúdo relacionado do produto.
+O visualizador mostra um painel com amostras interativas à direita da área de visualização de vídeo. A lista de amostras avança automaticamente à medida que o vídeo é reproduzido, de modo que as amostras correspondentes à região do vídeo atual sejam exibidas. Clicar ou tocar em uma amostra aciona uma ação que foi associada a essa amostra durante o tempo de criação. Dependendo de como você o configurou, o acionador pode redirecionar para uma página diferente no site. Ou pode retornar as informações do produto à lógica da página da Web, que, por sua vez, pode acionar a abertura de uma Exibição rápida que mostra o conteúdo do produto relacionado.
 
-É possível navegar pelo conteúdo do vídeo rapidamente quando a filtragem de vídeo é ativada. Os capítulos de vídeo são exibidos como marcadores no rastreamento do depurador de vídeo e mostram o título e a descrição do capítulo ao passar o mouse (ou em um único toque nos sistemas de toque). O cliente pode &quot;procurar&quot; um capítulo específico clicando em um marcador de capítulo ou tocando em uma bolha de descrição do capítulo.
+É possível navegar pelo conteúdo do vídeo rapidamente quando a filtragem de vídeo é ativada. Os capítulos de vídeo são exibidos como marcadores no rastreamento do depurador de vídeo e mostram o título e a descrição do capítulo na sobreposição (ou em um único toque nos sistemas de toque). O cliente pode &quot;procurar&quot; um capítulo específico clicando em um marcador de capítulo ou tocando em uma bolha de descrição do capítulo.
 
-O visualizador também aceita diversas ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela. A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou o Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
+O visualizador também é compatível com várias ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela. A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
 O visualizador é totalmente acessível por teclado. Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporando visualizador de vídeo interativo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-O Visualizador de vídeo interativo foi projetado para ser incorporado à página de hospedagem. Essa página da Web pode ter um layout estático ou pode ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes.
+O Visualizador de vídeo interativo é incorporado à página de hospedagem. Essa página da Web pode ter um layout estático ou pode ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes.
 
 Para acomodar essas necessidades, o visualizador aceita dois modos de operação principais: incorporação de tamanho fixo e incorporação responsiva.
 
@@ -71,11 +70,11 @@ No modo incorporado, o visualizador é adicionado à página da Web existente, q
 
 Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, além de páginas projetadas responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
 
-A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa é a melhor opção para páginas da Web com layout estático.
+A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa funcionalidade é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design supõe que o visualizador talvez precise ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+A incorporação responsiva de design supõe que o visualizador precise ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de design da Web, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
 
 Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -104,7 +103,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Você só deve fazer referência ao arquivo JavaScript `include` do visualizador principal na sua página. Você não deve fazer referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
@@ -127,7 +126,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7interactivevideoviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AEM Assets - sob demanda ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocá-lo em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AEM Assets - sob demanda ou passado explicitamente usando o comando `style`.
 
    Consulte [Personalizando visualizador de vídeo interativo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -156,7 +155,7 @@ O caminho relativo tem a seguinte aparência:
 
    É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
 
-   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. O que acontece, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não faz necessariamente parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. O que acontece, o carregamento do visualizador é retomado automaticamente.
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume o seguinte:
 
@@ -285,7 +284,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 **Incorporação responsiva com definição de largura e altura**
 
-No caso de incorporação responsiva com largura e altura definidas, o estilo da página da Web é diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Se houver incorporação responsiva com largura e altura definidas, o estilo da página da Web será diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
 
 ```
 <!DOCTYPE html> 
