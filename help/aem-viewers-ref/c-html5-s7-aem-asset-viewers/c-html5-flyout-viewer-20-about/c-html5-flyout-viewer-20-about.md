@@ -3,16 +3,15 @@ description: O Flyout Viewer é um visualizador de imagens. Ele exibe uma imagem
 keywords: responsivo
 solution: Experience Manager
 title: Flyout
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9b60330f-5348-431d-9682-cf97aace3679
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
-
 
 # Flyout{#flyout}
 
@@ -150,7 +149,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    Você pode ver o comportamento com uma área fixa do visualizador externo na seguinte página de exemplo. Observe que, quando você alternar entre conjuntos, o tamanho do visualizador externo não é alterado:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
    Para tornar as dimensões de visualização principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente SDK interno `Container` usando o seletor de CSS `.s7flyoutviewer .s7container`. Além disso, você deve substituir o tamanho fixo definido para a classe CSS de nível superior `.s7flyoutviewer` no CSS do visualizador padrão, definindo-o como `auto`.
 
@@ -169,7 +168,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    A página de exemplo a seguir mostra o comportamento do visualizador com um tamanho de exibição principal fixo. Observe que, ao alternar entre conjuntos, a exibição principal permanece estática e o conteúdo da página da Web se move verticalmente:
 
-   [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Além disso, observe que o CSS do visualizador padrão fornece um tamanho fixo para sua área externa pronta para uso.
 
@@ -303,7 +302,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 ## Incorporação flexível de tamanho com largura e altura definidas {#section-0a329016f9414d199039776645c693de}
 
@@ -405,4 +404,3 @@ flyoutViewer.init();
 </body> 
 </html>
 ```
-
