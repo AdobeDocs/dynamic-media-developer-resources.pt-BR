@@ -3,16 +3,15 @@ description: O Visualizador de vídeo é um reprodutor de vídeo que reproduz st
 keywords: responsivo
 solution: Experience Manager
 title: Vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2383'
+source-wordcount: '2388'
 ht-degree: 0%
 
 ---
-
 
 # Vídeo{#video}
 
@@ -60,7 +59,7 @@ Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibilit
 
 O Visualizador de vídeo é compatível com ferramentas de compartilhamento de mídia social. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela.
 
-A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou o Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente.
+A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código incorporado e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente.
 
 O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
@@ -285,7 +284,7 @@ A página de exemplos a seguir ilustra o uso mais real da incorporação respons
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Incorporação de design responsivo com largura e altura definidas**
 
@@ -385,4 +384,3 @@ videoViewer.init();
 </body> 
 </html> 
 ```
-
