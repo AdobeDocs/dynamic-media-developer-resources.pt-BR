@@ -2,16 +2,15 @@
 description: O SDK do visualizador fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada servido pelo Adobe Dynamic Media seja incorporado em páginas da Web.
 solution: Experience Manager
 title: Tutorial do SDK do visualizador
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '974'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
-
 
 # Tutorial do SDK do visualizador{#viewer-sdk-tutorial}
 
@@ -35,7 +34,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 
 ## Baixe o SDK do visualizador mais recente do Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Baixe o SDK do visualizador mais recente do Adobe Developer Connection [aqui](https://marketing.adobe.com/developer/devcenter/scene7/show).
+1. Baixe o SDK do visualizador mais recente do Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -391,4 +390,3 @@ Agora, você adicionará botões de zoom, zoom e zoom de redefinição ao visual
    Seu visualizador básico de zoom foi concluído.
 
    Este tutorial do visualizador toca nos fundamentos do que o SDK do visualizador do Dynamic Media oferece. À medida que você trabalha com o SDK, pode usar os vários componentes padrão para criar e criar experiências de visualização avançadas com estilo facilmente para seus públicos-alvo.
-
