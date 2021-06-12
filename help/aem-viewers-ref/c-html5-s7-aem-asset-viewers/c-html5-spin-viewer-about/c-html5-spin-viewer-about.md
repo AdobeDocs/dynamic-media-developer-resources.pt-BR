@@ -3,16 +3,15 @@ description: Visualizador de rotação é um visualizador de imagem que fornece 
 keywords: responsivo
 solution: Experience Manager
 title: Rotação
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2135'
 ht-degree: 0%
 
 ---
-
 
 # Rotação{#spin}
 
@@ -296,7 +295,7 @@ A página de exemplos a seguir ilustra casos de uso mais reais da incorporação
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Incorporação flexível de tamanho com largura e altura definidas**
 
@@ -394,4 +393,3 @@ spinViewer.init();
 </body> 
 </html>
 ```
-
