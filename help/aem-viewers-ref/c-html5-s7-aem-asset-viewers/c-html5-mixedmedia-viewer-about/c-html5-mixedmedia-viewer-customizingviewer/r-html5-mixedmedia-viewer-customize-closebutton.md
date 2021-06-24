@@ -2,16 +2,15 @@
 description: Clicar ou tocar nesse botão fecha a página da Web contêiner. Esse botão só aparecerá se o parâmetro closebutton estiver definido como 1. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Fechar
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aaa74d26-7876-491c-96c9-1f9405f50a6e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Botão Fechar{#close-button}
 
@@ -98,4 +97,3 @@ background-image:url(images/v2/CloseButton_dark_down.png);
 background-image:url(images/v2/CloseButton_dark_disabled.png); 
 }
 ```
-
