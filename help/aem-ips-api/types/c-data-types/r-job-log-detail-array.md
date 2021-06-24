@@ -2,16 +2,15 @@
 description: Matriz de detalhes do registro de tarefas.
 solution: Experience Manager
 title: JobLogDetailArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
-
 
 # JobLogDetailArray{#joblogdetailarray}
 
@@ -24,4 +23,3 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | `*`items`*` | `types:JobLogDetail` | Uma matriz de detalhes do registro de tarefas. |
-
