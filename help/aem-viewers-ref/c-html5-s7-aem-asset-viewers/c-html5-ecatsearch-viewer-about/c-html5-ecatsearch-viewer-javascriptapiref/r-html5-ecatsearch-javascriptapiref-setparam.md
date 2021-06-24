@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador do eCatalog.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0dd57c7e-c20f-4e8f-a872-42e24305fc0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -38,7 +37,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalo
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -47,4 +46,3 @@ Nenhum.
 ```
 [!DNL <instance>.setParam("style", "customStyle.css")]
 ```
-
