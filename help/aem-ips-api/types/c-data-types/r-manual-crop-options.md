@@ -2,16 +2,15 @@
 description: Opções de recorte manual para imagens.
 solution: Experience Manager
 title: ManualCropOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
-
 
 # ManualCropOptions{#manualcropoptions}
 
@@ -27,4 +26,3 @@ Sintaxe
 | `*`right`*` | `xsd:int` | A posição correta do corte manual em pixels. |
 | `*`top`*` | `xsd:int` | A posição superior do corte manual em pixels. |
 | `*`bottom`*` | `xsd:int` | A posição inferior do corte manual em pixels. |
-
