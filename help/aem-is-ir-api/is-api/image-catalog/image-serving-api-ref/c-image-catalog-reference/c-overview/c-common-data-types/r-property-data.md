@@ -2,16 +2,15 @@
 description: Os dados de propriedade consistem em uma string de texto que representa uma ou mais propriedades.
 solution: Experience Manager
 title: Dados de propriedade
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Dados de propriedade{#property-data}
 
