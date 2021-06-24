@@ -2,16 +2,15 @@
 description: A área de exibição principal é a área ocupada pela imagem do catálogo. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # Área do visualizador principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Exemplo - para configurar um visualizador com um plano de fundo branco ( `#FFFFF
  height: 288px;  
 }
 ```
-
