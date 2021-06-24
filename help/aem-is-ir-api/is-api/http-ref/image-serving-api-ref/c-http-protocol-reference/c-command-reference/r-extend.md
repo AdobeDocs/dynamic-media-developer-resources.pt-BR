@@ -2,16 +2,15 @@
 description: Estender camada. Adiciona margens a uma camada ou corta o retângulo da camada.
 solution: Experience Manager
 title: estender
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
-
 
 # estender{#extend}
 
