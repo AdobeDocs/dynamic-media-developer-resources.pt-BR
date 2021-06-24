@@ -2,16 +2,15 @@
 description: Botão Pesquisar
 solution: Experience Manager
 title: Botão Pesquisar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ede7d887-526b-4e00-9885-166dc37627aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
-
 
 # Botão Pesquisar{#search-button}
 
@@ -103,4 +102,3 @@ Exemplo - para configurar um botão de Pesquisa com 28 x 28 pixels e exibe uma i
  background-image:url(images/v2/Search_dark_disabled.png);  
 }
 ```
-
