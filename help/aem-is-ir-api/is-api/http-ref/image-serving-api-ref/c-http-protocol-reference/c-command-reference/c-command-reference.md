@@ -2,16 +2,15 @@
 description: Esta seção descreve os comandos do protocolo HTTP.
 solution: Experience Manager
 title: Referência de comando
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # Referência de comando{#command-reference}
 
