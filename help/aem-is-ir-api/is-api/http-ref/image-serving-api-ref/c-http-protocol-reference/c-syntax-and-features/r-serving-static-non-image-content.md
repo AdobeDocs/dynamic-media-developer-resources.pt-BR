@@ -2,16 +2,15 @@
 description: Veiculação de conteúdo estático (não imagem)
 solution: Experience Manager
 title: Veiculação de conteúdo estático (não imagem)
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
-
 
 # Veiculação de conteúdo estático (não imagem){#serving-static-non-image-content}
 
@@ -112,7 +111,7 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagem, 
  </tbody> 
 </table>
 
-## Filtrar conteúdo estático {#section-896c37cf68bc446eb0766fb378898262}
+## Filtragem de conteúdo estático {#section-896c37cf68bc446eb0766fb378898262}
 
 Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supondo que o conteúdo estático seja marcado com valores `catalog::UserType`apropriados, o cliente pode adicionar o comando `type=` à solicitação. O Image Serving comparará o valor fornecido com o comando `type=` com o valor de `catalog::UserType` e, no caso de uma incompatibilidade, retornará um erro em vez de conteúdo potencialmente inadequado.
 
