@@ -2,16 +2,15 @@
 description: Clicar ou tocar nesse botão gira a imagem para a direita na exibição principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Além disso, o botão fica oculto quando um conjunto de rotação multidimensional é usado. É possível dimensionar, usar a capa e posicionar o botão usando o CSS.
 solution: Experience Manager
 title: Botão girar para a direita
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2e70ad27-9fce-4a18-b856-08aa6dbec3f2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
-
 
 # Botão girar para a direita{#spin-right-button}
 
@@ -140,4 +139,3 @@ background-image:url(images/v2/SpinRightButton_light_over.png);
  background-image:url(images/v2/SpinRightButton_light_disabled.png); 
 }
 ```
-
