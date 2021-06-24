@@ -2,18 +2,17 @@
 description: Descreve métodos de operações novos e alterados para a API IPS versão 6.
 solution: Experience Manager
 title: Operações novas e modificadas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
-
-# Operações: Novo e Modificado{#operations-new-and-modified}
+# Operações: Novo e modificado{#operations-new-and-modified}
 
 Descreve métodos de operações novos e alterados para a API IPS versão 6.
 
@@ -28,7 +27,7 @@ Sintaxe
 * `updateAssetSet`
 * `updateImageSet`
 
-## Operações Modificadas {#section-f4e8755527444266ae806e3f4c851ae6}
+## Operações modificadas {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **Adicionado**
 
@@ -88,4 +87,3 @@ Sintaxe
 
 * Remoção de `getXMPPanelViewDefinition`.
 * Remoção de `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
-
