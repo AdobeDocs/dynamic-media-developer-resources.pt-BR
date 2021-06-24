@@ -2,16 +2,15 @@
 description: Máscara de imagem. Solicita os dados da máscara (canal alfa).
 solution: Experience Manager
 title: máscara
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
-
 
 # máscara{#mask}
 
