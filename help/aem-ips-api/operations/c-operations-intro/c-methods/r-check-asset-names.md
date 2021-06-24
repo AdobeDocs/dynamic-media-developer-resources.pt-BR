@@ -2,16 +2,15 @@
 description: Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # checkAssetNames{#checkassetnames}
 
@@ -70,4 +69,3 @@ Este código de exemplo solicita os nomes dos ativos em uso para uma empresa esp
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
