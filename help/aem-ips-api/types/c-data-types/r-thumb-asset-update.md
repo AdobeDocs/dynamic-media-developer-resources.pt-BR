@@ -2,16 +2,15 @@
 description: Atualização da imagem em miniatura.
 solution: Experience Manager
 title: ThumbAssetUpdate
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ef51d01c-1434-40ac-a383-b07ef49c3bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---
-
 
 # ThumbAssetUpdate{#thumbassetupdate}
 
@@ -25,4 +24,3 @@ Sintaxe
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Identificador de ativo. |
 | `*`thumbAssetHandle`*` | `xsd:string` | Manuseio de ativo de miniatura. |
-
