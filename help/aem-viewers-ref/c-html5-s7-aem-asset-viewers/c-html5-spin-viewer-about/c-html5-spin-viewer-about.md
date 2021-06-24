@@ -39,7 +39,7 @@ A configuração e o esfolamento são semelhantes aos dos outros visualizadores.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagir com o Visualizador de rotação {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interação com o Visualizador de rotação {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 O Visualizador de rotação é compatível com os seguintes gestos de toque que são comuns em outros aplicativos móveis. Quando o visualizador não consegue processar o gesto de deslizamento de um usuário, ele encaminha o evento para o navegador da Web para executar uma rolagem de página nativa. Isso permite que o usuário navegue pela página mesmo se o visualizador ocupar a maior parte da área da tela do dispositivo.
 
