@@ -2,18 +2,17 @@
 description: Use essas configurações de servidor para caches de servidor.
 solution: Experience Manager
 title: Caches de servidores
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-
-# Caches do servidor{#server-caches}
+# Caches de servidores{#server-caches}
 
 Use essas configurações de servidor para caches de servidor.
 
@@ -33,7 +32,7 @@ O número de entradas alocadas para o índice de cache de resposta HTTP na memó
 >
 >No Linux, verifique se os i-nós suficientes estão alocados para a partição de cache para evitar a execução de i-nós.
 
-## IS::TempDirectory - Pasta de Arquivos Temporários do Servidor de Imagens {#section-42ea1e7a68c444878f7245c5bbcb1672}
+## IS::TempDirectory - Pasta de arquivos temporários do servidor de imagens {#section-42ea1e7a68c444878f7245c5bbcb1672}
 
 Ocasionalmente, o Servidor de Imagens precisa salvar dados intermediários em disco. O caminho pode ser absoluto ou relativo a *[!DNL install_folder]*.
 
@@ -48,4 +47,3 @@ Ocasionalmente, o Server Supervisor precisa salvar dados intermediários no disc
 >[!NOTE]
 >
 >A nova pasta deve ser criada antes de alterar essa configuração. Verifique se as permissões de acesso estão definidas para que o Server Supervisor tenha controle total da pasta.
-
