@@ -2,16 +2,15 @@
 description: Os seguintes campos de dados de catálogo estão disponíveis.
 solution: Experience Manager
 title: Campos de dados do catálogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
-
 
 # Campos de dados do catálogo{#catalog-data-fields}
 
@@ -167,4 +166,3 @@ Os seguintes campos são reconhecidos nos arquivos de mapa de perfil de cores IC
   <td class="stentry"> <p>Caminho do arquivo de perfil de cor ICC. </p></td> 
  </tr> 
 </table>
-
