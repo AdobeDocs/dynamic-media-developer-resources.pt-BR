@@ -2,16 +2,15 @@
 description: Este documento usa as seguintes convenções.
 solution: Experience Manager
 title: Convenções de documento
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Convenções de documento{#document-conventions}
 
@@ -87,4 +86,3 @@ Este documento usa as seguintes convenções.
   <td class="stentry"> <p>O espaço em branco (espaços ou tabulações) não é permitido em solicitações HTTP. Este documento usa ocasionalmente o espaço em branco entre elementos sintáticos apenas para maior clareza. </p> </td> 
  </tr> 
 </table>
-
