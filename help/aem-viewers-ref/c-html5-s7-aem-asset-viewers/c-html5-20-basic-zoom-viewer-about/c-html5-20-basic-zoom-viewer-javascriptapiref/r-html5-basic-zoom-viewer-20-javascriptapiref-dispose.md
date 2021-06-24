@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador básico de zoom.
 solution: Experience Manager
 title: dispor
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # dispor{#dispose}
 
@@ -31,7 +30,7 @@ Não acesse mais a API do visualizador depois que `dispose()` for chamado.
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -40,4 +39,3 @@ Nenhum.
 ```
 <instance>.dispose()
 ```
-
