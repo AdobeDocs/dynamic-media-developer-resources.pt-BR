@@ -2,16 +2,15 @@
 description: O IPS Web Service é suportado por um conjunto de documentos WSDL (Web Services Description Language) que são acessados a partir de qualquer instalação IPS em que o componente IPS Web Service está instalado. Cada versão da API do IPS inclui um novo arquivo WSDL que faz referência a um namespace XML de destino com versão. As versões anteriores do namespace WSDL também são compatíveis com versões anteriores dos aplicativos existentes.
 solution: Experience Manager
 title: Versões WSDL do Serviço Web IPS
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
-
 
 # Versões WSDL do Serviço Web IPS{#ips-web-service-wsdl-versions}
 
@@ -329,4 +328,3 @@ Connection: close
    </soapenv:Body> 
 </soapenv:Envelope>
 ```
-
