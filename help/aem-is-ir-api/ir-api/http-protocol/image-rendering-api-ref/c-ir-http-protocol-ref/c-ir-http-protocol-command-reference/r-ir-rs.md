@@ -2,16 +2,15 @@
 description: Configurações avançadas de renderização. Especifica uma configuração de renderização avançada, a ser aplicada ao renderizar a seleção atual.
 solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
-
 
 # rs{#rs}
 
