@@ -2,16 +2,15 @@
 description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
 solution: Experience Manager
 title: Solicitações de renderização de imagem aninhada
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 52c12786-bbe7-4410-87bb-6245d782a68c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
-
 
 # Solicitações de renderização de imagem aninhada{#nested-image-rendering-requests}
 
