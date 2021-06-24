@@ -2,22 +2,21 @@
 description: Um proxy do servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
 solution: Experience Manager
 title: Proxy do servidor de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
-
 
 # Proxy do servidor de imagens{#image-server-proxy}
 
 Um proxy do servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
 
-## Formato de URL {#section-2e8c40b0547c4f99874cdf502b338940}
+## Formato do URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
 O formato de url do proxy IS é muito semelhante a solicitações IS comuns. Qualquer modificador IS transmitido ao proxy é passado para o Servidor de Imagem. Você pode encontrar informações sobre os modificadores IS no [Referência do Protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
