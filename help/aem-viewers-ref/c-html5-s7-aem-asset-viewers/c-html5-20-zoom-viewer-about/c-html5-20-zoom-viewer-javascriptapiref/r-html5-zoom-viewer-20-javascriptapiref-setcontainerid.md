@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 87f01c5f-0d2a-46d6-8026-e75e879532df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -32,7 +31,7 @@ Esse método é opcional se as informações de configuração do visualizador f
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -41,4 +40,3 @@ Nenhum.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
