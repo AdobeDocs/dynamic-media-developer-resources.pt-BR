@@ -2,16 +2,15 @@
 description: Descreve os valores usados por vários parâmetros de entrada. Consulte a lista neste artigo para obter detalhes.
 solution: Experience Manager
 title: Tipos de ativos
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Tipos de ativos{#asset-types}
 
@@ -77,4 +76,3 @@ Sintaxe
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-
