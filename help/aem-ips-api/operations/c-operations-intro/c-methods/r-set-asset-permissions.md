@@ -2,16 +2,15 @@
 description: Define as permissões de um único ativo usando um ativo de permissão.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # setAssetPermissions{#setassetpermissions}
 
