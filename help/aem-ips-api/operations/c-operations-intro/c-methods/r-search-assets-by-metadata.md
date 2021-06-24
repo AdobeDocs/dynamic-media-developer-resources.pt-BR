@@ -2,16 +2,15 @@
 description: Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
@@ -157,7 +156,7 @@ Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retorn
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (Igual a  `modified_at` (Data no formulário: 08 de julho de 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (Igual a  `modified_at` (Data no formulário: Sex 25 de julho de 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
@@ -252,4 +251,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
