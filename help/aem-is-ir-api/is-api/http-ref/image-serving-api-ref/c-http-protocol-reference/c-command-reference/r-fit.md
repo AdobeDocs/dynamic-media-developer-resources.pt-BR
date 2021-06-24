@@ -2,18 +2,17 @@
 description: Modo de ajuste da imagem de resposta. Especifica como o fator de escala é calculado, que é usado para dimensionar a imagem composta para a imagem de resposta quando o tamanho de resposta é especificado com wid= e hei= e scl= não está presente.
 solution: Experience Manager
 title: ajuste
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-
-# fit{#fit}
+# ajuste{#fit}
 
 Modo de ajuste da imagem de resposta. Especifica como o fator de escala é calculado, que é usado para dimensionar a imagem composta para a imagem de resposta quando o tamanho de resposta é especificado com wid= e hei= e scl= não está presente.
 
