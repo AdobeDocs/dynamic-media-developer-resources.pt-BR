@@ -2,16 +2,15 @@
 description: Seletor de mapa de iluminação. Permite a seleção explícita do mapa de iluminação a utilizar na renderização deste material.
 solution: Experience Manager
 title: Illum
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5e74b3e8-6289-4114-aa11-a6f91671363e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # Illum{#illum}
 
