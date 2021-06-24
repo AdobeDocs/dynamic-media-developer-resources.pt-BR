@@ -2,16 +2,15 @@
 description: Clicar ou tocar nesse botão amplia o zoom de uma imagem na exibição principal. Esse botão aparece na barra de controle principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Ampliar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b9d037fd-7ae3-424e-b9c7-c46a7d219127
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
-
 
 # Botão Ampliar{#zoom-in-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ZoomInButton_dark_down.png);
 background-image:url(images/v2/ZoomInButton_dark_disabled.png); 
 }
 ```
-
