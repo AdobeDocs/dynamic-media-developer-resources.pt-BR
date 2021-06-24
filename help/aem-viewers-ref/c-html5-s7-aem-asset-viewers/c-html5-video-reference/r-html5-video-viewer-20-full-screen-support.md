@@ -2,18 +2,17 @@
 description: O visualizador suporta o modo de operação de tela cheia.
 solution: Experience Manager
 title: Suporte de tela cheia
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 049aca51-64ae-4244-be2b-78fb1cf84ebb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-
-# Suporte a tela cheia{#full-screen-support}
+# Suporte de tela cheia{#full-screen-support}
 
 O visualizador suporta o modo de operação de tela cheia.
 
