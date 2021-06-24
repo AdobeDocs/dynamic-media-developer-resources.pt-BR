@@ -2,16 +2,15 @@
 description: Obtém as associações de um usuário em um array de empresas.
 solution: Experience Manager
 title: getCompanyMembership
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -73,4 +72,3 @@ Essa amostra de código obtém um identificador de usuário e todas as associaç
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
