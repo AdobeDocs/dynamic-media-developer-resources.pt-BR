@@ -2,18 +2,17 @@
 description: A Renderização de Imagens permite a incorporação de solicitações de Exibição de Imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
 solution: Experience Manager
 title: Aninhamento e incorporação de solicitações *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2f95a35a-db00-4ee9-8ecc-d746293d485e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
-
-# Solicitar aninhamento e incorporação *{#request-nesting-and-embedding}
+# Aninhamento e incorporação de solicitações *{#request-nesting-and-embedding}
 
 A Renderização de Imagens permite a incorporação de solicitações de Exibição de Imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
 
