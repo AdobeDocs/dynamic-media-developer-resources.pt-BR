@@ -2,16 +2,15 @@
 description: O log de tarefas após a execução da tarefa.
 solution: Experience Manager
 title: JobLog
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
-
 
 # JobLog{#joblog}
 
@@ -45,4 +44,3 @@ Sintaxe
 | `*`fatalError`*` | `xsd:boolean` | Se o trabalho gerou um erro fatal. |
 | `*`detailTotalRows`*` | `xsd:int` | O número total de linhas correspondentes ao query, que pode ser maior que o tamanho de `detailArray` devido aos limites de tamanho da página. |
 | `*`detailArray`*` | `types:JobLogDetailArray` | A matriz de detalhes sobre o trabalho registrado. |
-
