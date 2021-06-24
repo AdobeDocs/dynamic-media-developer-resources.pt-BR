@@ -2,16 +2,15 @@
 description: Sequência do modificador da solicitação de prefixo. Nenhum ou mais comandos do Image Serving separados por caracteres '&'.
 solution: Experience Manager
 title: Modificador
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # Modificador{#modifier}
 
