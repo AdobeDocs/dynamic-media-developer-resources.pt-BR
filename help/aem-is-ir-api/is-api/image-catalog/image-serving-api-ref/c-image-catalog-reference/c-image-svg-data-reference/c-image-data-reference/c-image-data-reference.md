@@ -2,16 +2,15 @@
 description: Esta seção descreve os atributos de dados da imagem.
 solution: Experience Manager
 title: Referência de dados da imagem
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # Referência de dados da imagem{#image-data-reference}
 
