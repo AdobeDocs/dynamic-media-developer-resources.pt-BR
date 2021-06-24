@@ -2,23 +2,22 @@
 description: Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
 solution: Experience Manager
 title: Sintaxe e recursos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 44981754-017b-4293-9d44-7611b7a470c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # Sintaxe e recursos{#syntax-and-features}
 
 Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
 
 * [Sintaxe básica do protocolo HTTP Image Serving](r-basic-syntax.md)
-* [Visão geral do comando do protocolo HTTP de disponibilização de imagens](c-command-overview/c-command-overview.md)
+* [comando Image Serving HTTP protocol   visão geral](c-command-overview/c-command-overview.md)
 * [Visão geral da camada](c-layering-overview/c-layering-overview.md)
 * [Operações de camada](c-layering-overview/c-layer-operations.md)
 * [Efeitos da camada](r-layer-effects.md)
