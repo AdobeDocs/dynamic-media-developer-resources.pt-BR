@@ -2,16 +2,15 @@
 description: Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Serviço de imagem.
 solution: Experience Manager
 title: validate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # validate{#validate}
 
@@ -38,7 +37,7 @@ Todos os arquivos de imagem não PTIFF devem passar a validação antes que o ar
  </tr> 
 </table>
 
-## Retorna {#section-67a7cf7c53144fbb8f24b818f4a10901}
+## Devoluções {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
 0 se bem-sucedido. Se ocorrer um erro, um valor diferente de zero é retornado e os detalhes do erro são enviados para `stderr`.
 
@@ -78,4 +77,3 @@ Todos os arquivos de imagem não PTIFF devem passar a validação antes que o ar
   <td class="stentry"> <p>Retorna as informações de versão deste utilitário. Especifique sem outras opções. </p> </td> 
  </tr> 
 </table>
-
