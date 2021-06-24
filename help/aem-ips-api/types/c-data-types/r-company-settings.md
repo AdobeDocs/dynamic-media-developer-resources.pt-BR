@@ -2,16 +2,15 @@
 description: Configurações específicas da empresa.
 solution: Experience Manager
 title: CompanySettings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
-
 
 # CompanySettings{#companysettings}
 
@@ -32,4 +31,3 @@ Sintaxe
 | `*`diskSpaceWarningMin`*` | `xsd:int` | Quantidade mínima de espaço livre em disco do diretório de imagens antes do envio de um aviso. |
 | `*`emailTrashCleanupWarning`*` | `xsd:boolean` | Determina se os emails devem ser enviados antes que os itens colocados na lixeira possam ser excluídos automaticamente. |
 | `*`javascriptUploadEnabled`*` | `types:Asset` | Determina se os arquivos JavaScript devem ser carregados. Esse é um risco potencial para a segurança, portanto, use essa opção com cuidado. |
-
