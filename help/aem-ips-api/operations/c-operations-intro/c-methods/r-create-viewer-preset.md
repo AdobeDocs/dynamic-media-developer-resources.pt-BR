@@ -2,13 +2,12 @@
 description: Cria uma visualização predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A visualização predefinida é aplicada quando os ativos são publicados.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
 role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
