@@ -2,18 +2,17 @@
 description: comando título
 solution: Experience Manager
 title: título
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 2%
 
 ---
 
-
-# title{#title}
+# título{#title}
 
 ` title= *`windowTitle`*`
 
