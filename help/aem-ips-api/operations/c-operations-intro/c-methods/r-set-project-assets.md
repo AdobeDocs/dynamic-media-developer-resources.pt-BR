@@ -2,16 +2,15 @@
 description: Atribuir ou atualizar ativos em um projeto.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # setProjectAssets{#setprojectassets}
 
@@ -69,4 +68,3 @@ Essa amostra de código atribui um ativo a um projeto. A solicitação retorna u
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
