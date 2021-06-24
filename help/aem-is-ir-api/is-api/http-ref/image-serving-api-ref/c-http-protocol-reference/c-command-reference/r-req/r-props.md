@@ -2,16 +2,15 @@
 description: Propriedades dos dados de resposta. Avalia a solicitação atual como se fosse uma solicitação de imagem (req=img), mas em vez de retornar a imagem, o servidor retorna as propriedades selecionadas da imagem de resposta.
 solution: Experience Manager
 title: props
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
 
 # props{#props}
 
@@ -157,4 +156,3 @@ As seguintes propriedades são retornadas para solicitações `/is/content`:
   </tr> 
  </tbody> 
 </table>
-
