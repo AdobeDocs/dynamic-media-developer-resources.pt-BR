@@ -2,18 +2,17 @@
 description: A ferramenta de compartilhamento social aparece no canto superior esquerdo, por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 solution: Experience Manager
 title: Compartilhamento em redes sociais
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5cac6c86-08fb-46fd-bab0-ab77154eb770
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-
-# Compartilhamento social{#social-share}
+# Compartilhamento em redes sociais{#social-share}
 
 A ferramenta de compartilhamento social aparece no canto superior esquerdo, por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 
@@ -126,4 +125,3 @@ Exemplo - configure um painel para ter uma cor transparente:
  background-color: transparent; 
 }
 ```
-
