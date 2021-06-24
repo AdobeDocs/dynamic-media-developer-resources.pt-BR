@@ -2,16 +2,15 @@
 description: Siga estas instruções para desinstalar a Renderização de imagem em um sistema Linux ou Solaris.
 solution: Experience Manager
 title: Desinstalação no Linux e no Solaris
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c81feaba-18da-441a-bfd5-40275558a384
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
-
 
 # Desinstalação no Linux e no Solaris{#uninstalling-on-linux-and-solaris}
 
@@ -42,6 +41,5 @@ O comando para remover ImageRendering depende do sistema:
 >1. Exclua todos os diretórios ou arquivos que não foram removidos na Etapa 2.
 
 >
-
 
 
