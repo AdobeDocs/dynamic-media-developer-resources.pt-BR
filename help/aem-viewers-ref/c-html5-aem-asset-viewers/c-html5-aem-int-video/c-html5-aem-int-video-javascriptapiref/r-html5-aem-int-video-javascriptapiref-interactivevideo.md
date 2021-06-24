@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: InterativeVideoViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: efd0ffea-482c-4af4-ac77-ac1b7f326ce9
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -38,7 +37,7 @@ Construtor, cria uma nova instância do Visualizador de vídeo interativo.
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
