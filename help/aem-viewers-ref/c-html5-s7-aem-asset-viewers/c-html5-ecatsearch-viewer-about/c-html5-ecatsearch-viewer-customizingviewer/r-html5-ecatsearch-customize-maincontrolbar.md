@@ -2,16 +2,15 @@
 description: A barra de controle principal é a área retangular em sistemas de desktop e tablets que contêm todos os controles da interface do usuário (exceto botões Página grande) disponíveis para o visualizador de Pesquisa de catálogo eletrônico.
 solution: Experience Manager
 title: Barra de controle principal
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
-
 
 # Barra de controle principal{#main-control-bar}
 
@@ -184,4 +183,3 @@ A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos 
  background-image:url(images/v2/ControlBarRightButton_dark_disabled_touch.png); 
 }
 ```
-
