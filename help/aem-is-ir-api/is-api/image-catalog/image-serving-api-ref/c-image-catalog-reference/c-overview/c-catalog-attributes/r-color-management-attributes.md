@@ -2,16 +2,15 @@
 description: Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciamento de cores.
 solution: Experience Manager
 title: Atributos de gerenciamento de cores
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ded6bfe7-3e39-4e45-83f0-21e9bf92895f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
-
 
 # Atributos de gerenciamento de cores{#color-management-attributes}
 
@@ -55,4 +54,3 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de gerenciament
   <td class="stentry"> <p>Ative/desative o pontilhamento de conversão de cores. </p></td> 
  </tr> 
 </table>
-
