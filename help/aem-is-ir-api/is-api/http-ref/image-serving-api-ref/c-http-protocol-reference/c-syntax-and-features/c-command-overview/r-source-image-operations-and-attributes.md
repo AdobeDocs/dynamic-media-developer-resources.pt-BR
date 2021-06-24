@@ -2,18 +2,17 @@
 description: Esses comandos se aplicam às imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como às máscaras anexadas a camadas de cores sólidas.
 solution: Experience Manager
 title: Operações de imagem de origem
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
-
-# Operações da imagem de origem{#source-image-operations}
+# Operações de imagem de origem{#source-image-operations}
 
 Esses comandos se aplicam às imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como às máscaras anexadas a camadas de cores sólidas.
 
@@ -43,4 +42,3 @@ Esses comandos se aplicam às imagens de origem usadas em solicitações simples
   <td class="stentry"> <p>Dimensiona a imagem de origem usando o fator de escala. </p></td> 
  </tr> 
 </table>
-
