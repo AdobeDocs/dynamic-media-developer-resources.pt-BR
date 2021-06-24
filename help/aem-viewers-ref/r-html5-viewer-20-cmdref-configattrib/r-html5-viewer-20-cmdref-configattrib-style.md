@@ -2,18 +2,17 @@
 description: estilo
 solution: Experience Manager
 title: estilo
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-
-# style{#style}
+# estilo{#style}
 
 Você pode aplicar o seguinte comando da string de consulta de URL e da configuração. O comando aplicado na sequência de consulta do URL sempre tem precedência sobre o mesmo comando presente na configuração.
 
