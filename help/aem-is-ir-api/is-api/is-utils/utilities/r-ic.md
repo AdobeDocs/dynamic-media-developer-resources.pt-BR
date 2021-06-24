@@ -2,16 +2,15 @@
 description: Utilitário de conversão de imagem.
 solution: Experience Manager
 title: ic
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
-
 
 # ic {#ic}
 
@@ -56,7 +55,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
  </tbody> 
 </table>
 
-## Retorna {#section-36a2dcfa39824d29b69547c432366219}
+## Devoluções {#section-36a2dcfa39824d29b69547c432366219}
 
 0 se bem-sucedido. Se ocorrer um erro, um valor diferente de zero é retornado e os detalhes do erro são enviados para `stderr`.
 
@@ -254,7 +253,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> BMP</b> <p> (Bitmap do Windows) </p> </td> 
    <td> <p> RGB | indexado </p> </td> 
-   <td> <p> 3 | 5/6 | 8 </p> </td> 
+   <td> <p> 1 | 5/6 | 8 </p> </td> 
    <td> <p> descompactado | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indica suporte para RGB de 16 bits (5-5-5 e 5-6-5 bits/canal). </p> </td> 
   </tr> 
@@ -310,7 +309,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> descompactado | ZIP | LZW | JPEG | REGRA DE CRITÉRIO | CCITT G3 | CCITT G4 | Embalagens </p> </td> 
    <td> <p> Com exceção do primeiro canal alfa associado, canais extras são ignorados. </p> </td> 
   </tr> 
