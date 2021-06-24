@@ -1,21 +1,20 @@
 ---
-description: Documentação de referência de comando para o visualizador do Video360.
+description: Documentação de referência de comando do visualizador do Video360.
 solution: Experience Manager
 title: Referência de comando - URL
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 # Referência de comando - URL{#command-reference-url}
 
-Documentação de referência de comando para o visualizador do Video360.
+Documentação de referência de comando do visualizador do Video360.
 
 Você pode definir qualquer comando de configuração no URL. Ou você pode usar os métodos da API `setParam()`, ou `setParams()`, ou ambos para definir qualquer comando de configuração. Você também pode especificar qualquer atributo de configuração no registro de configuração do lado do servidor.
 
