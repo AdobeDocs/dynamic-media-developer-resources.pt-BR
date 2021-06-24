@@ -2,16 +2,15 @@
 description: O erro é lançado quando uma atualização de valor de tag falha.
 solution: Experience Manager
 title: TagValueUpdateFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
-
 
 # TagValueUpdateFault{#tagvalueupdatefault}
 
@@ -26,4 +25,3 @@ Sintaxe
 | `*`value`*` | `xsd:string` | Valor da tag para a qual a atualização falhou. |
 | `*`código`*` | `xsd:int` | Número do código de erro. |
 | `*`reason`*` | `xsd:string` | Mensagem de erro (texto simples). |
-
