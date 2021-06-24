@@ -2,16 +2,15 @@
 description: Contém as configurações do servidor da plataforma.
 solution: Experience Manager
 title: server.xml
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
-
 
 # server.xml{#server-xml}
 
@@ -41,4 +40,3 @@ O diagrama a seguir ilustra quais configurações podem ser alteradas neste arqu
    </Service>
 </Server>
 ```
-
