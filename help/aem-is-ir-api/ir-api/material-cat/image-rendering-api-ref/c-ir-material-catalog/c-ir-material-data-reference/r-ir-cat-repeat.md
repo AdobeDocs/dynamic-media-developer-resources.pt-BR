@@ -2,16 +2,15 @@
 description: Modo de repetição de textura. Especifica como as imagens de textura são unidas para preencher a superfície de destino.
 solution: Experience Manager
 title: Repetir
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 14%
+source-wordcount: '132'
+ht-degree: 15%
 
 ---
-
 
 # Repetir{#repeat}
 
@@ -29,7 +28,7 @@ São permitidos os seguintes valores para os materiais de textura repetíveis:
   <td class="- topic/stentry stentry"> <p>Repetição direta. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>3 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1 </p></td> 
   <td class="- topic/stentry stentry"> <p>Otimização aleatória de 4 vias. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
@@ -37,7 +36,7 @@ São permitidos os seguintes valores para os materiais de textura repetíveis:
   <td class="- topic/stentry stentry"> <p>Otimização aleatória de 8 vias. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>3 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1 </p></td> 
   <td class="- topic/stentry stentry"> <p>Lado a lado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
