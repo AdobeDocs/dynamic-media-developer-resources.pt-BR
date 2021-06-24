@@ -2,16 +2,15 @@
 description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 solution: Experience Manager
 title: Exibir comandos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
-
 
 # Exibir comandos{#view-commands}
 
@@ -51,4 +50,3 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Define a largura da exibição. </p></td> 
  </tr> 
 </table>
-
