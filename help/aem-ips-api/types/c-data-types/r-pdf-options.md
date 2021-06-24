@@ -2,16 +2,15 @@
 description: Opções de arquivo PDF.
 solution: Experience Manager
 title: PDFOoptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
-
 
 # PDFOoptions{#pdfoptions}
 
@@ -29,4 +28,3 @@ Sintaxe
 | `*`pdfCatalog`*` | `xsd:boolean` | Combinar um PDF de várias páginas em um eCatalog após a renderização (o padrão é verdadeiro). |
 | `*`extractSearchWords`*` | `xsd:boolean` | Se as palavras de pesquisa devem ser extraídas do arquivo PDF. |
 | `*`extractLinks`*` | `xsd:boolean` | Se os links PDF devem ser extraídos em mapas de imagem atribuídos às páginas rasterizadas no IPS. |
-
