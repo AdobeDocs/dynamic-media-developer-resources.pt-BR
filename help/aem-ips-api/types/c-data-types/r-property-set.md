@@ -2,16 +2,15 @@
 description: Tipo e valor de um conjunto de propriedades.
 solution: Experience Manager
 title: PropertySet
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8515d07b-354f-46c9-b528-fa1c380e66af
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 0%
 
 ---
-
 
 # PropertySet{#propertyset}
 
@@ -26,4 +25,3 @@ Sintaxe
 | `*`setHandle`*` | `xsd:string` | Identificador do conjunto de propriedades. |
 | `*`typeHandle`*` | `xsd:string` | Lide com o tipo de conjunto de propriedades. |
 | `*`propertyArray`*` | `types:PropertyArray` | Par nome-valor. Pode conter zero itens. |
-
