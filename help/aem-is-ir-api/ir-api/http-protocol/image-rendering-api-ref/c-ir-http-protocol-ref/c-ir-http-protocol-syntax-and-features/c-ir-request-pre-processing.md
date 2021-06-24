@@ -2,18 +2,17 @@
 description: A Renderização de Imagens fornece um pré-processador de solicitação simples com base nas regras de substituição e correspondência de expressões regulares.
 solution: Experience Manager
 title: Solicitação de pré-processamento *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-
-# Solicitar pré-processamento *{#request-pre-processing}
+# Solicitação de pré-processamento *{#request-pre-processing}
 
 A Renderização de Imagens fornece um pré-processador de solicitação simples com base nas regras de substituição e correspondência de expressões regulares.
 
