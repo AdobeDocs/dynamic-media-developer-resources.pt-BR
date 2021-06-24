@@ -2,16 +2,15 @@
 description: Recurso de pesquisa
 solution: Experience Manager
 title: Recurso de pesquisa
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d9bee7a6-332f-481b-b0aa-9caa0b6d982c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
-
 
 # Recurso de pesquisa{#search-feature}
 
