@@ -2,16 +2,15 @@
 description: Tipos de dados
 solution: Experience Manager
 title: Tipos de dados
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
-
 
 # Tipos de dados{#data-types}
 
