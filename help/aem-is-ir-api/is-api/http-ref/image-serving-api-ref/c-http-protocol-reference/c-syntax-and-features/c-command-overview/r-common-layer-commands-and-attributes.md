@@ -2,18 +2,17 @@
 description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
 solution: Experience Manager
 title: Comandos comuns de camada
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c95d198c-757f-405e-ba08-094cd402c929
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-
-# Comandos de camada comuns{#common-layer-commands}
+# Comandos comuns de camada{#common-layer-commands}
 
 Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
 
@@ -63,4 +62,3 @@ Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria n�
   <td class="stentry"> <p>Oculte a camada. </p></td> 
  </tr> 
 </table>
-
