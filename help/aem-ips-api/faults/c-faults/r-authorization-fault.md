@@ -2,16 +2,15 @@
 description: Acionado quando um usuário autenticado tem permissões insuficientes para realizar uma tarefa.
 solution: Experience Manager
 title: authorizationFault
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 76965735-92d8-46be-b589-67cad3b987dc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 16%
 
 ---
-
 
 # authorizationFault{#authorizationfault}
 
@@ -40,4 +39,3 @@ Sintaxe
 |---|---|---|
 | `code` | `xsd:int` | ID de falha |
 | `reason` | `xsd:string` | Uma mensagem informativa descrevendo a falha. |
-
