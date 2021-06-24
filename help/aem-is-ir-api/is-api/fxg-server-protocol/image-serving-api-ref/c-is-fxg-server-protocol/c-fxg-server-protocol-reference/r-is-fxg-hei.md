@@ -2,16 +2,15 @@
 description: Exibir altura. Especifica a altura da imagem de resposta.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # hei{#hei}
 
@@ -48,4 +47,3 @@ A menos que um formato seja especificado, a imagem é renderizada como um arquiv
 * GIF-alfa
 * TIF-alfa
 * PNG-alfa
-
