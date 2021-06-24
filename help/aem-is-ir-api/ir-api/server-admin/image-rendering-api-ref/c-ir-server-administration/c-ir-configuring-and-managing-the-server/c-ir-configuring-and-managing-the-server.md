@@ -2,16 +2,15 @@
 description: Esta seção contém informações para ajudar a configurar e gerenciar o Servidor de renderização de imagem.
 solution: Experience Manager
 title: Configuração e gerenciamento do servidor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
-
 
 # Configuração e gerenciamento do servidor{#configuring-and-managing-the-server}
 
