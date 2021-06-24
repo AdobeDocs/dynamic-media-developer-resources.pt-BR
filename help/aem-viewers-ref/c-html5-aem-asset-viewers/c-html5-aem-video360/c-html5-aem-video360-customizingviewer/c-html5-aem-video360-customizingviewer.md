@@ -3,18 +3,17 @@ description: Toda personalização visual e a maioria dos comportamentos do Visu
 keywords: responsivo
 solution: Experience Manager
 title: Personalização do visualizador de vídeo 360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
 
-# Personalizando o visualizador de vídeo360{#customizing-video-viewer}
+# Personalização do visualizador de vídeo 360{#customizing-video-viewer}
 
 Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo 360 são feitos com a criação de um CSS personalizado.
 
@@ -204,7 +203,7 @@ background-position: -0px -1120px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
 * O formato preferido para a arte-final de bitmap é PNG.
@@ -217,6 +216,6 @@ background-position: -0px -1120px;
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 
-## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Veja a seguir a documentação de referência dos elementos da interface do usuário que se aplica ao visualizador do Video360:
