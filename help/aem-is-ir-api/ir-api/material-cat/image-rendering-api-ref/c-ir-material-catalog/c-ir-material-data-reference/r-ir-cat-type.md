@@ -2,16 +2,15 @@
 description: Tipo de material. Tipo de superfície do material. Usado em conjunto com o glossário de catálogo e a Rigidez do catálogo para controlar os efeitos de renderização da reflexão 3D.
 solution: Experience Manager
 title: Tipo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 14%
 
 ---
-
 
 # Tipo{#type}
 
@@ -27,7 +26,7 @@ Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum 
   <td class="stentry"> <p>Desconhecido, o servidor usa o padrão . </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Outros. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +34,7 @@ Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum 
   <td class="stentry"> <p>Madeira natural. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Metais polidos. </p> </td> 
  </tr> 
  <tr class="strow"> 
