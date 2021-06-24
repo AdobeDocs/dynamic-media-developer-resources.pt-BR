@@ -39,7 +39,7 @@ A configuração e o esfolamento são semelhantes aos dos outros visualizadores.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagir com o Visualizador de Zoom {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interação com o Visualizador de Zoom {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 O Visualizador de zoom é compatível com os seguintes gestos de toque, comuns em outros aplicativos móveis. Quando o visualizador não consegue processar o gesto de deslizamento do usuário, ele encaminha o evento para o navegador da Web para executar a rolagem da página nativa. Esse tipo de funcionalidade permite que o usuário navegue pela página mesmo se o visualizador ocupar a maior parte da área da tela do dispositivo.
 
@@ -258,7 +258,7 @@ O caminho relativo tem a seguinte aparência:
    </html>
    ```
 
-## Incorporação de design responsivo com altura sem restrições {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
+## Incorporação de design responsivo com altura irrestrita {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código HTML da página da Web seria semelhante ao seguinte:
 
