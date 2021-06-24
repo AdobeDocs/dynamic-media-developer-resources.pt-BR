@@ -2,18 +2,17 @@
 description: Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou uma predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou nas predefinições de PDF no InDesign.
 solution: Experience Manager
 title: trabalho
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-
-# joboption{#joboption}
+# trabalho{#joboption}
 
 Aplicar opções de trabalho em PDF. Um arquivo de opções de tarefa ou uma predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou nas predefinições de PDF no InDesign.
 
@@ -81,4 +80,3 @@ Atualmente, as seguintes opções são compatíveis:
   <td class="stentry"> <p>Padrão de conformidade. </p></td> 
  </tr> 
 </table>
-
