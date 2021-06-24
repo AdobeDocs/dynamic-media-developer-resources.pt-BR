@@ -2,16 +2,15 @@
 description: As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 solution: Experience Manager
 title: Macros de comando *
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
-
 
 # Macros de comando *{#command-macros}
 
@@ -54,4 +53,3 @@ Como `qlt=` é diferente para a terceira solicitação, simplesmente substituím
 `catalog::MacroFile`,  `catalog::Modifier`, Referência de definição de macro
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->
-
