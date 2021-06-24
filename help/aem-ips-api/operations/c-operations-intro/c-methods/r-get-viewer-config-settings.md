@@ -2,16 +2,15 @@
 description: Obtém todas as configurações do visualizador associadas ao ativo especificado.
 solution: Experience Manager
 title: getViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c0438238-8aab-4478-926a-fc0e11732fc1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
@@ -41,4 +40,3 @@ Sintaxe
 |---|---|---|---|
 | `*`type`*` | `xsd:string` | Sim | Tipo de visualizador ao qual as configurações se aplicam. |
 | `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Sim | Matriz de configurações do visualizador. |
-
