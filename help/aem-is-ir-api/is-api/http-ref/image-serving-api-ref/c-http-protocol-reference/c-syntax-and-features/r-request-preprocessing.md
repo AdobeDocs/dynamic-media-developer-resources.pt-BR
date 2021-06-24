@@ -2,16 +2,15 @@
 description: O Image Serving fornece um pré-processador de solicitação simples com base nas regras de substituição e correspondência de expressões regulares.
 solution: Experience Manager
 title: Solicitar pré-processamento
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f855c36f-29f2-4ada-a103-1eb9b7b0c1a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # Solicitar pré-processamento{#request-preprocessing}
 
