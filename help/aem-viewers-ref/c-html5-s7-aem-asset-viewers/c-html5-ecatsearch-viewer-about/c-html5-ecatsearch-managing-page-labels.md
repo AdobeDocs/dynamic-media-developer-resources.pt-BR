@@ -2,18 +2,17 @@
 description: Gerenciamento de rótulos de página
 solution: Experience Manager
 title: Gerenciamento de rótulos de página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 73c3904f-678f-47c4-b895-86671402df79
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
-
-# Gerenciar rótulos de página{#managing-page-labels}
+# Gerenciamento de rótulos de página{#managing-page-labels}
 
 Há dois lugares na interface do usuário do visualizador em que os rótulos de página são mostrados: modo de miniaturas e o menu suspenso de índice.
 
