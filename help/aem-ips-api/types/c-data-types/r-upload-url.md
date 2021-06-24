@@ -2,16 +2,15 @@
 description: Para fazer upload de ativos por meio do URL.
 solution: Experience Manager
 title: UploadUrl
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 0%
 
 ---
-
 
 # UploadUrl{#uploadurl}
 
@@ -25,4 +24,3 @@ Sintaxe
 |---|---|---|
 | `*`sourceUrl`*` | `xsd:string` | O URL de origem do qual o ativo é carregado. |
 | `*`destPath`*` | `xsd:string` | O caminho do arquivo IPS e o nome do arquivo para o qual você deseja fazer upload. |
-
