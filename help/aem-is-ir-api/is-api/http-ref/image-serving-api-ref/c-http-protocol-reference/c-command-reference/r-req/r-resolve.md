@@ -2,16 +2,15 @@
 description: Solicitação de depuração. Este comando de depuração analisa e pré-processa a solicitação, executa pesquisas de catálogo de imagem, inclusões de modificador de catálogo, substituições de macro e variável, etc, exatamente como req=img.
 solution: Experience Manager
 title: resolve
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ef357c19-e725-4904-b635-102e75ff7518
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
-
 
 # resolve{#resolve}
 
