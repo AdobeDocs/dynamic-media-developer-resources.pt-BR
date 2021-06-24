@@ -2,18 +2,17 @@
 description: A sombra da camada de estilo Photoshop e os efeitos de brilho são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada pai), incluindo layer=0 e layer=comp.
 solution: Experience Manager
 title: Efeitos da camada
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
-
-# Efeitos de camada{#layer-effects}
+# Efeitos da camada{#layer-effects}
 
 A sombra da camada de estilo Photoshop e os efeitos de brilho são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada pai), incluindo layer=0 e layer=comp.
 
@@ -25,7 +24,7 @@ Qualquer número de efeitos de camada pode ser anexado a uma única camada pai.
 
 *Os* efeitos internos são renderizados na parte superior da camada pai e são visíveis apenas em áreas opacas da camada pai. *Os* efeitos externos são renderizados atrás da camada pai (dessa forma, eles nunca serão visíveis em áreas opacas da camada pai) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo um número de camada de efeito positivo ou negativo com o comando `effect=`. O comando `effect=` também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada pai.
 
-## Relação com a camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
+## Relação com camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
 As camadas de efeito são dimensionadas e posicionadas automaticamente para coincidir com a camada pai (ou seja, a camada de efeito herda os valores `size=` e `origin=` da camada pai). `pos=` pode ser usada para afastar a camada de efeito da camada pai, como é normalmente necessário para efeitos de sombra interna e de sombra. Enquanto para camadas padrão `pos=` especifica um deslocamento entre as origens dessa camada e da camada 0, para camadas de efeito `pos=` especifica o deslocamento entre as origens da camada de efeito e da camada pai.
 
