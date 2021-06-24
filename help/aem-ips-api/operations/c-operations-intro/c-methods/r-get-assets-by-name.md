@@ -2,16 +2,15 @@
 description: Retorna ativos com base em uma matriz de nomes de ativos.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
-
 
 # getAssetsByName{#getassetsbyname}
 
@@ -155,4 +154,3 @@ Essa amostra de código retorna dois ativos do tipo imagem.
    </assetArray>
 </getAssetsByNameReturn>
 ```
-
