@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: 5fcc7dcd-a9a8-4a87-9c8d-42717ced8ae9
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chama
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Uma referência para a instância do visualizador.
 
