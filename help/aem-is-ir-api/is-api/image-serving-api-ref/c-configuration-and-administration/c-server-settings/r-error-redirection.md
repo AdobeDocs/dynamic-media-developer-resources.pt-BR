@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para redirecionar erros.
 solution: Experience Manager
 title: Redirecionamento de erro
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a184e113-9708-412f-9b71-d75a35629adf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # Redirecionamento de erro{#error-redirection}
 
@@ -25,10 +24,10 @@ Use essas configurações do servidor para redirecionar erros.
 
 O URL raiz ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) para a implantação secundária do Image Serving, à qual as solicitações que falharem localmente devem ser redirecionadas. O redirecionamento de erro é desativado (padrão) quando essa configuração está vazia ou não está definida.
 
-## PS::errorRedirect.connectTimeout - Tempo Limite da Conexão de Redirecionamento {#section-3971be8f720d4b32a2cc7860b4085971}
+## PS::errorRedirect.connectTimeout - Tempo limite da conexão de redirecionamento {#section-3971be8f720d4b32a2cc7860b4085971}
 
 Tempo máximo (em ms) que o servidor aguardará para que uma conexão com o servidor secundário seja estabelecida antes de retornar um erro ao cliente.
 
-## PS::errorRedirect.socketTimeout - Tempo Limite de Resposta de Redirecionamento {#section-69d8579f748d4044bca99dfb64dd523c}
+## PS::errorRedirect.socketTimeout - Tempo limite de resposta de redirecionamento {#section-69d8579f748d4044bca99dfb64dd523c}
 
 Tempo máximo (em ms) que o servidor aguardará o servidor secundário retornar os dados antes de abandonar a solicitação de redirecionamento e retornar um erro ao cliente.
