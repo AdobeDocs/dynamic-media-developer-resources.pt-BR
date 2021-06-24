@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # init{#init}
 
@@ -29,7 +28,7 @@ Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chama
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Uma referência para a instância do visualizador.
 
@@ -38,4 +37,3 @@ Nenhum.
 ```
 <instance>.init()
 ```
-
