@@ -2,22 +2,21 @@
 description: Use essas configurações do servidor para configurar o sistema de monitoramento e alerta.
 solution: Experience Manager
 title: Sistema de acompanhamento e alerta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-
-# Sistema de monitoramento e alerta{#monitoring-and-alerting-system}
+# Sistema de acompanhamento e alerta{#monitoring-and-alerting-system}
 
 Use essas configurações do servidor para configurar o sistema de monitoramento e alerta.
 
-## AS::monitorAlertGenerator.enableGlobalAlerting - Sistema de Alertas Ativar {#section-612f8ea61794426ab205e22e5f665fa9}
+## AS::monitorAlertGenerator.enableGlobalAlerting - Ativação do Sistema de Alertas {#section-612f8ea61794426ab205e22e5f665fa9}
 
 Ative a notificação por email definindo como &quot;true&quot; e definindo as configurações de notificação por email. Configurar como `false` desativa todos os alertas de email; isso pode ser útil quando um servidor é off-line para manutenção. Booleano.
 
