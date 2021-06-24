@@ -2,16 +2,15 @@
 description: Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
-
 
 # checkLogin{#checklogin}
 
@@ -70,4 +69,3 @@ Este código de exemplo usa um parâmetro de identificador da empresa, um endere
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-
