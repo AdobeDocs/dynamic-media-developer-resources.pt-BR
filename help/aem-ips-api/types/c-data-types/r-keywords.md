@@ -2,16 +2,15 @@
 description: Palavras-chave
 solution: Experience Manager
 title: Palavras-chave
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
-
 
 # Palavras-chave{#keywords}
 
@@ -27,4 +26,3 @@ Sintaxe
 | `*`y`*` | `xsd:int` | Posição da palavra-chave no eixo y (em pixels). |
 | `*`width`*` | `xsd:int` | Largura da palavra-chave em pixels. |
 | `*`altura`*` | `xsd:int` | Altura da palavra-chave em pixels. |
-
