@@ -2,16 +2,15 @@
 description: O visualizador exibe ícones Favoritos sobre a exibição principal nos locais em que ele foi adicionado originalmente pelo usuário.
 solution: Experience Manager
 title: Efeito Favoritos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
-
 
 # Efeito Favoritos{#favorites-effect}
 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
