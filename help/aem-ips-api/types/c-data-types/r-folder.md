@@ -2,16 +2,15 @@
 description: Arquivo hierárquico ou objeto de armazenamento de ativos. As pastas podem conter uma (ou mais) subpastas.
 solution: Experience Manager
 title: Pasta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Pasta{#folder}
 
@@ -30,4 +29,3 @@ Sintaxe
 | `*`permissionsSetHandle`*` | `xsd:string` | Identificador de permissões de pasta. |
 | `*`hasSubfolder`*` | `types:Boolean` | Determina se uma pasta tem subpastas. |
 | `*`subfolderArray`*` | `types:FolderArray` | Uma matriz de subpastas em uma pasta. |
-
