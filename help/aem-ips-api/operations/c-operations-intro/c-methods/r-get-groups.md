@@ -2,16 +2,15 @@
 description: Retorna grupos de empresas.
 solution: Experience Manager
 title: getGroups
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # getGroups{#getgroups}
 
@@ -63,4 +62,3 @@ Esse código retorna uma matriz que contém todos os grupos que pertencem a uma 
    </groupArray>
 </getGroupsReturn>
 ```
-
