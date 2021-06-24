@@ -2,16 +2,15 @@
 description: O servidor monitora continuamente a pasta de catálogo e recarrega automaticamente um catálogo de imagem, incluindo os arquivos de dados de catálogo associados, quando detecta que o arquivo de atributo do catálogo principal foi alterado.
 solution: Experience Manager
 title: Atualização de catálogos de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b520b4f3-6717-4768-99e2-78a76d1ede24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
-
 
 # Atualização de catálogos de imagens{#updating-image-catalogs}
 
