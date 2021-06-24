@@ -2,16 +2,15 @@
 description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
-
 
 # getAssetJobLogs{#getassetjoblogs}
 
@@ -83,4 +82,3 @@ Essa amostra de código recupera os logs de trabalho de um ativo específico. A 
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-
