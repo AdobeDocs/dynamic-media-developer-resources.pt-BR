@@ -2,16 +2,15 @@
 description: Para manipular um gráfico, você pode usar pontos de referência semelhantes a pontos de bússola.
 solution: Experience Manager
 title: Protocolo do servidor FXG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
-
 
 # Protocolo do servidor FXG{#fxg-server-protocol}
 
@@ -37,4 +36,3 @@ O valor padrão é nenhum. O valor `inherit` passa o valor `s7:referencePoint`, 
 >Para usar um ponto de referência e não ter nenhum deslocamento no objeto após ele ser manipulado, atualize os valores x e y do objeto depois de manipulá-lo.
 
 Quando um valor de `s7:referencePoint` é usado com grupos (ou caminhos, elementos de linha ou qualquer elemento que não tenha definições explícitas de largura e altura), o valor se aplica à caixa delimitadora cumulativa do grupo. Por exemplo, o ponto superior esquerdo da caixa delimitadora de todos os objetos do grupo serve como o ponto de referência `northWest` para o grupo; o ponto inferior direito serve como o ponto de referência `southEast`.
-
