@@ -2,16 +2,15 @@
 description: Máscara de imagem. Especifica uma imagem de máscara separada a ser usada como uma máscara não associada.
 solution: Experience Manager
 title: máscara
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5785844b-945b-4dd0-ac59-efbf1360b7cd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
-
 
 # máscara{#mask}
 
