@@ -2,18 +2,17 @@
 description: O visualizador de vídeo HTML5 Video360 é um reprodutor de vídeo de 360 graus que reproduz streaming e vídeo 360 progressivo codificado no formato H.264, fornecido pelo Dynamic Media Classic ou AEM Dynamic Media.
 solution: Experience Manager
 title: Vídeo360
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2593'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
 
-
-# Video360{#video}
+# Vídeo360{#video}
 
 O visualizador de vídeo HTML5 Video360 é um reprodutor de vídeo de 360 graus que reproduz streaming e vídeo 360 progressivo codificado no formato H.264, fornecido pelo Dynamic Media Classic ou AEM Dynamic Media.
 
@@ -61,7 +60,7 @@ Observe que, em dispositivos de toque, o controle de volume fica oculto na inter
 
 Quando o visualizador opera no modo pop-up, um botão de tela cheia não está disponível na interface do usuário.
 
-O visualizador também aceita diversas ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela. A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou o Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
+O visualizador também aceita diversas ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela. A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
 O visualizador suporta 360 vídeos de reprodução em fones VR (como Oculus Go e Oculus Rift), montagens VR HMD (monitor montado na cabeça) (como o Google Cardboard) e dispositivos não habilitados para VR (como navegadores para desktop, tablets e telefones celulares não conectados a montagens VR HMD).
 
@@ -77,7 +76,7 @@ O visualizador aceita entrada de toque e entrada de mouse em dispositivos Window
 
 O visualizador é totalmente acessível por teclado. Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporando o visualizador Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Como incorporar o visualizador Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. Neste último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
@@ -400,4 +399,3 @@ video360Viewer.init();
 </body> 
 </html>
 ```
-
