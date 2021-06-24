@@ -2,16 +2,15 @@
 description: Nome do rosto da fonte. O nome da face da fonte, exatamente como especificado no comando RTF \fonttbl.
 solution: Experience Manager
 title: Nome
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cf3bc6ca-ffe2-4417-8ce8-ec68c7039365
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Nome{#name}
 
