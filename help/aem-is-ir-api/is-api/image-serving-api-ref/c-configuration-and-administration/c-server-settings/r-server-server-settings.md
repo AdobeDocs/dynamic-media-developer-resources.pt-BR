@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para configurar seu servidor.
 solution: Experience Manager
 title: Servidor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
-
 
 # Servidor{#server}
 
@@ -29,11 +28,11 @@ As versões 32 e 64 bits do Servidor de imagem estão disponíveis para Linux. E
 >
 >O modo de 64 bits não é compatível com o Windows. Somente `ImageServer32` pode ser especificado. Caso contrário, a Exibição de imagem não será iniciada.
 
-## SV::PsHeapSize - Tamanho do Heap do Servidor de Plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV: PsHeapSize - Tamanho do Heap do Servidor de Plataforma {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
 O tamanho do heap Java para o servidor da plataforma. O padrão é &quot; `512m`&quot; (512 Mbytes).
 
-## IS::TcpPort, PS::isConnection.port - Porta de Acompanhamento do Servidor de Imagem {#section-5421bfd2ca2a4a979faf812b6fdb2887}
+## IS::TcpPort, PS::isConnection.port - Porta de escuta do servidor de imagens {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
 Especifica a porta usada para comunicação entre o Servidor de plataforma e o Servidor de imagem. Certifique-se de especificar um número de porta que não seja usado de outra forma no sistema host.
 
