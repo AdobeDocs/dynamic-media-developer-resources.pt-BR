@@ -3,16 +3,15 @@ description: O eCatalog Search Viewer é um visualizador de catálogo que exibe 
 keywords: responsivo
 solution: Experience Manager
 title: Pesquisa no catálogo eletrônico
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
-
 
 # Pesquisa no catálogo eletrônico{#ecatalog-search}
 
@@ -83,15 +82,15 @@ O eCatalog Search Viewer oferece suporte aos seguintes gestos de toque que são 
 
 Este visualizador também suporta entrada de toque e entrada de mouse em dispositivos Windows com uma tela sensível ao toque e mouse. No entanto, esse suporte é limitado somente aos navegadores da Web Chrome, Internet Explorer 11 e Edge.
 
-## Ferramentas de compartilhamento de redes sociais com o Visualizador de pesquisa do catálogo eletrônico {#section-eb575084a99647c3a9591f439f40b412}
+## Ferramentas de compartilhamento em redes sociais com o Visualizador de pesquisa do catálogo eletrônico {#section-eb575084a99647c3a9591f439f40b412}
 
 O eCatalog Search Viewer oferece suporte a ferramentas de compartilhamento em redes sociais Eles estão disponíveis como um botão na barra de controle principal, que se expande em uma barra de ferramentas de compartilhamento quando um usuário clica ou toca nela.
 
-A barra de ferramentas de compartilhamento contém ícones para cada tipo de canal de compartilhamento compatível, que inclui Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou o Twitter é chamado, o visualizador redireciona o usuário para um diálogo de compartilhamento padrão a partir de um serviço social. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
+A barra de ferramentas de compartilhamento contém ícones para cada tipo de canal de compartilhamento compatível, que inclui Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter é chamado, o visualizador redireciona o usuário para um diálogo de compartilhamento padrão a partir de um serviço social. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
 O recurso Pesquisa do visualizador está disponível como um ícone de vidro na barra de ferramentas principal. Clicar ou tocar no ícone ativa o painel Pesquisar com um campo de entrada. Depois de inserir uma palavra-chave ou frase e pressionar Enter, o visualizador renderiza os resultados da pesquisa no painel e realça as palavras encontradas na exibição principal.
 
-## Incorporando o Visualizador de Pesquisa do Catálogo Eletrônico {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporando o visualizador de pesquisa do catálogo eletrônico {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
@@ -398,4 +397,3 @@ eCatalogSearchViewer.init();
 </body> 
 </html>
 ```
-
