@@ -2,18 +2,17 @@
 description: Opções para cortar imagens automaticamente com base na cor.
 solution: Experience Manager
 title: Opções deCortarCorAutomática
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-
-# AutoColorCropOptions{#autocolorcropoptions}
+# Opções deCortarCorAutomática{#autocolorcropoptions}
 
 Opções para cortar imagens automaticamente com base na cor.
 
@@ -46,4 +45,3 @@ Sintaxe
   </tr> 
  </tbody> 
 </table>
-
