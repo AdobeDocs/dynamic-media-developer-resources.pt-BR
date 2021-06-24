@@ -2,16 +2,15 @@
 description: Documentação dos atributos de configuração do Visualizador de mídia mista.
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aa750941-0a2e-4591-bdff-5e71ecc342aa
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Referência de comando - Atributos de configuração{#command-reference-configuration-attributes}
 
