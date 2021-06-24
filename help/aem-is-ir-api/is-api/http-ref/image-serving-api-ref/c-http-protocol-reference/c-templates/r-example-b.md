@@ -2,16 +2,15 @@
 description: Requisitos semelhantes como o Exemplo A, mas usam um fundo de cor sólida e permitem que a altura do composto varie, para acomodar imagens com proporções diferentes.
 solution: Experience Manager
 title: Exemplo B
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
-
 
 # Exemplo B{#example-b}
 
@@ -37,4 +36,3 @@ As origens da camada 0 e da camada 1 são colocadas no centro direito da área d
 A ilustração a seguir mostra o resultado composto para diferentes proporções da imagem e diferentes sequências de texto.
 
 ![](assets/exampleb.png)
-
