@@ -2,16 +2,15 @@
 description: Define o mapa de imagem de um ativo.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
-
 
 # setImageMaps{#setimagemaps}
 
@@ -72,4 +71,3 @@ Essa amostra de código define 2 mapas de imagem para um ativo de imagem. O cód
    </imageMapArray>
 </setImageMapsParam>
 ```
-
