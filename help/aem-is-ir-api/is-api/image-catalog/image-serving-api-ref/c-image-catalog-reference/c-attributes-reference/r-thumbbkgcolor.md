@@ -2,16 +2,15 @@
 description: Cor de plano de fundo padrão para miniaturas. Valor RGB usado para preencher a área de uma imagem em miniatura de saída que não contém dados de imagem reais.
 solution: Experience Manager
 title: ThumbBkgColor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 88acf5ad-2973-42f9-9aaa-901e66b07f53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
-
 
 # ThumbBkgColor{#thumbbkgcolor}
 
