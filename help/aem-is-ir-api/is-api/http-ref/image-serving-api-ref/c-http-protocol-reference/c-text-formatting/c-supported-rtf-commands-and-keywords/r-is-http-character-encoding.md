@@ -2,18 +2,17 @@
 description: Use os seguintes comandos para codificação de caracteres.
 solution: Experience Manager
 title: Codificação de caracteres
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-
-# Codificação de caractere{#character-encoding}
+# Codificação de caracteres{#character-encoding}
 
 Use os seguintes comandos para codificação de caracteres.
 
@@ -58,4 +57,3 @@ Use os seguintes comandos para codificação de caracteres.
   </tr> 
  </tbody> 
 </table>
-
