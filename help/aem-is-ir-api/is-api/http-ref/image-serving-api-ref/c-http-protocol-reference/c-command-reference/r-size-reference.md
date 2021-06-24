@@ -2,16 +2,15 @@
 description: Tamanho da camada. Especifica o tamanho ou o tamanho máximo da camada para uma camada, antes de rotate=, perspectiva= e estender= serem aplicadas à camada.
 solution: Experience Manager
 title: size
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
-
 
 # size{#size}
 
