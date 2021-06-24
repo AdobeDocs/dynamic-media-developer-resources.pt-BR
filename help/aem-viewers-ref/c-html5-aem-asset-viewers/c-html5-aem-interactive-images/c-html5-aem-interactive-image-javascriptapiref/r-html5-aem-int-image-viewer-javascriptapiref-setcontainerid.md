@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Developer,Business Practitioner
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -34,7 +33,7 @@ Esse método é opcional se as informações de configuração do visualizador f
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
