@@ -2,16 +2,15 @@
 description: Propriedades de um arquivo Adobe Illustrator.
 solution: Experience Manager
 title: IllustratorInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4ff75141-4de4-4280-9f7a-901bdfc060fb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '33'
 ht-degree: 0%
 
 ---
-
 
 # IllustratorInfo{#illustratorinfo}
 
@@ -26,4 +25,3 @@ Sintaxe
 | `*`originalPath`*` | `xsd:string` | Caminho do arquivo. |
 | `*`originalFile`*` | `xsd:string` | Nome do arquivo. |
 | `*`fileSize`*` | `xsd:int` | Tamanho do arquivo. |
-
