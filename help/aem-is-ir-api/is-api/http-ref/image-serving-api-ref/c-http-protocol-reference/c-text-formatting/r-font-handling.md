@@ -2,18 +2,17 @@
 description: Todas as fontes referenciadas na string RTF devem estar disponíveis no arquivo de mapa de fontes do catálogo padrão ou no catálogo de imagens atual; caso contrário, um erro será retornado.
 solution: Experience Manager
 title: Tratamento de fontes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-
-# Manipulação de fonte{#font-handling}
+# Tratamento de fontes{#font-handling}
 
 Todas as fontes referenciadas na string RTF devem estar disponíveis no arquivo de mapa de fontes do catálogo padrão ou no catálogo de imagens atual; caso contrário, um erro será retornado.
 
@@ -23,7 +22,7 @@ A fonte especificada com `attribute::DefaultFont` é usada quando nenhuma é esp
 
 O Image Serving suporta fontes TrueType, OpenType, Adobe Type 1 (somente Windows).
 
-## Suporte a fontes do Photofont® {#section-74560ae898cf4708aba4c8b4093f5f00}
+## Suporte a fontes Photofont® {#section-74560ae898cf4708aba4c8b4093f5f00}
 
 `textPs=` suporta fontes Photofont®, com as seguintes restrições:
 
