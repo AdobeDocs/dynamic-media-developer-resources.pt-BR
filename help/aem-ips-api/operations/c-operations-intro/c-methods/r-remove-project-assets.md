@@ -2,16 +2,15 @@
 description: Remove ativos de um projeto. Não destrói os ativos.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # removeProjectAssets{#removeprojectassets}
 
@@ -63,4 +62,3 @@ Esta amostra de código remove 2 ativos de um projeto (especificado pelo identif
    </assetHandleArray>
 </removeProjectAssetsParam>
 ```
-
