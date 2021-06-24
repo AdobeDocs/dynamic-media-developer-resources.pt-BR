@@ -2,16 +2,15 @@
 description: Esses atributos definem materiais a serem aplicados ao objeto selecionado.
 solution: Experience Manager
 title: Atributos de material
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
-
 
 # Atributos de material{#material-attributes}
 
@@ -99,4 +98,3 @@ Esses atributos definem materiais a serem aplicados ao objeto selecionado.
   <td class="stentry"> <p>Configurações avançadas de renderização. </p></td> 
  </tr> 
 </table>
-
