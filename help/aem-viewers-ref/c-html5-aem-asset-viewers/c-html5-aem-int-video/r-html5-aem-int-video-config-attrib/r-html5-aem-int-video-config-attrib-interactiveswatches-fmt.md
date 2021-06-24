@@ -2,13 +2,12 @@
 description: Atributo de configuração para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: InteractiveSwatches.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: 9a751b91-aeff-4ee1-b2fe-9bec416884ab
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
