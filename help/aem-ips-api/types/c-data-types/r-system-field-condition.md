@@ -2,16 +2,15 @@
 description: Uma condição de pesquisa de campo do sistema para a operação searchAssets.
 solution: Experience Manager
 title: CondiçãoCampoSistema
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ebd12727-dbb3-40dc-b631-945415331be6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
-
 
 # CondiçãoCampoSistema{#systemfieldcondition}
 
@@ -49,4 +48,3 @@ Para comparações unárias, passe exatamente um valor ( `boolVal`, `longVal`, `
    </items>
 </systemFieldConditionArray>
 ```
-
