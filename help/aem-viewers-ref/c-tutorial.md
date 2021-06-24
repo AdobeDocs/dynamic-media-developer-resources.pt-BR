@@ -32,7 +32,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 * [Adição de botões ao visualizador](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuração vertical das amostras](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Baixe o SDK do visualizador mais recente do Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Baixar o SDK do visualizador mais recente do Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Baixe o SDK do visualizador mais recente do Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -144,7 +144,7 @@ Agora, você adicionará estilo ao seu visualizador.
 
 Agora você incluirá os componentes `Container` e `ZoomView`.
 
-## Incluindo Contêiner e ZoomView {#section-1a01730663154a508b88cc40c6f35539}
+## Inclusão de Contêiner e ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
 1. Crie um visualizador real incluindo os componentes `Container` e `ZoomView`.
 
@@ -211,7 +211,7 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
 
 Agora, você adicionará os componentes `MediaSet` e `Swatches` ao seu visualizador.
 
-## Adicionar componentes MediaSet e Amostras ao seu visualizador {#section-02b8c21dd842400e83eae2a48ec265b7}
+## Adicionar componentes MediaSet e Swatches ao visualizador {#section-02b8c21dd842400e83eae2a48ec265b7}
 
 1. Para dar aos usuários a capacidade de selecionar imagens de um conjunto, você pode adicionar os componentes `MediaSet` e `Swatches`.
 
@@ -356,7 +356,7 @@ Agora, você adicionará botões de zoom, zoom e zoom de redefinição ao visual
 
    Agora você configurará as Amostras para que elas estejam alinhadas verticalmente à direita.
 
-## Configurar as amostras verticalmente {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## Configuração vertical das amostras {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Você pode configurar modificadores diretamente na instância `ParameterManager`.
 
