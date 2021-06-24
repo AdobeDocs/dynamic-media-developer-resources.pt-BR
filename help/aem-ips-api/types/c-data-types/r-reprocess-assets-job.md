@@ -2,16 +2,15 @@
 description: Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a repetição de PDFs e a reotimização de imagens.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
-
 
 # ReprocessAssetsJob{#reprocessassetsjob}
 
@@ -171,4 +170,3 @@ As opções para `*PublishJob` incluem:
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-
