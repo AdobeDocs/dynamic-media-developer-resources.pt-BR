@@ -2,18 +2,17 @@
 description: Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
 solution: Experience Manager
 title: Tirar nitidez deOpçõesDeMáscara
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-
-# UnsharkMaskOptions{#unsharpmaskoptions}
+# Tirar nitidez deOpçõesDeMáscara{#unsharpmaskoptions}
 
 Configurações que ajudam a melhorar a nitidez da imagem para arquivos TIF de pirâmide otimizados.
 
