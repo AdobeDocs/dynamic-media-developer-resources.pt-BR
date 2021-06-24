@@ -2,18 +2,17 @@
 description: O Image Serving suporta conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
 solution: Experience Manager
 title: Gerenciamento de cores do fornecimento de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
 
-
-# Gestão de cores do fornecimento de imagens{#image-serving-color-management}
+# Gerenciamento de cores do fornecimento de imagens{#image-serving-color-management}
 
 O Image Serving suporta conversões de espaço de cores com base em perfis de espaço de cores que estão em conformidade com a especificação ICC (International Color Consortium).
 
