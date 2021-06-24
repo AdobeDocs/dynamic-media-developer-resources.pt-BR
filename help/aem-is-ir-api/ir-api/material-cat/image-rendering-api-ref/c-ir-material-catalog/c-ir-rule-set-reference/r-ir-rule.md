@@ -2,18 +2,17 @@
 description: Solicitar elemento de regra. Um ou mais são opcionais no elemento <ruleset> .
 solution: Experience Manager
 title: regra
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
 
-
-# rule{#rule}
+# regra{#rule}
 
 Solicitar elemento de regra. Um ou mais são opcionais no elemento `<ruleset>`.
 
