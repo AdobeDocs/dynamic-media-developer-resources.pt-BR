@@ -2,16 +2,15 @@
 description: Carimbo de data e hora padrão da modificação da imagem. Fornece um valor padrão para o catálogo TimeStamp.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
