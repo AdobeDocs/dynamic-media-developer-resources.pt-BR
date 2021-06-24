@@ -2,16 +2,15 @@
 description: Os componentes do Image Serving são gerenciados pelo Server Supervisor, que é um daemon Linux ou Windows Service (S7Supervisor.exe, listado como "Dynamic Media Image Serving" no Painel de Controle de Serviços).
 solution: Experience Manager
 title: Supervisor do servidor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
-
 
 # Supervisor do servidor{#server-supervisor}
 
