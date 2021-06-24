@@ -2,16 +2,15 @@
 description: Encaminha a lista de URLs fornecida para o provedor CDN (Content Distribution Network) da Dynamic Media para invalidar seu cache existente de respostas HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
-
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
@@ -126,4 +125,3 @@ Este exemplo solicita que quatro URLs sejam invalidadas no cache CDN. A resposta
    <errorCount>0</errorCount>
 </cdnCacheInvalidationReturn>
 ```
-
