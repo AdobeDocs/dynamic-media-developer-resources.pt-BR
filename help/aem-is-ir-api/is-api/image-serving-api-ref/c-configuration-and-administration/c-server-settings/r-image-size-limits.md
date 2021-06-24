@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para definir limites de tamanho de imagem.
 solution: Experience Manager
 title: Limites de tamanho de imagem
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
-
 
 # Limites de tamanho de imagem{#image-size-limits}
 
@@ -25,7 +24,7 @@ Limita o tamanho dos dados que o Servidor de Imagem pode enviar para o Servidor 
 
 Limita o tamanho das imagens que o Servidor de imagem pode produzir (excluindo imagens salvas no arquivo). Valor inteiro maior que 0 em milhões de pixels. Um erro é retornado se uma operação de renderização exceder o limite de tamanho. O padrão é 16.
 
-## IS::MaxSavePixels - Limite de Tamanho para Salvar em Arquivos {#section-d1547c4afa88467080ab08356f775e06}
+## IS::MaxSavePixels - Limite de tamanho para salvar em arquivos {#section-d1547c4afa88467080ab08356f775e06}
 
 Limita o tamanho das imagens que o Servidor de Imagens gravará nos arquivos com o comando `req=saveToFile`. Valor inteiro maior que 0 em milhões de pixels. Um erro é retornado se a operação de salvamento de arquivo exceder esse limite. O padrão é 100 milhões de pixels.
 
@@ -36,4 +35,3 @@ O tamanho máximo (em Mpixels) de imagens que não são PTIFFs que o Servidor de
 >[!NOTE]
 >
 >Definir esse valor como muito alto pode fazer com que o servidor de imagem fique sem memória e resultar em falhas, incluindo falhas.
-
