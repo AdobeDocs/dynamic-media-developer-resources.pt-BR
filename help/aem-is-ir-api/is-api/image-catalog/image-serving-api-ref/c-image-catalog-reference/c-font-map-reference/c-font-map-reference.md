@@ -2,16 +2,15 @@
 description: Se um mapa de fontes for necessário para um catálogo de imagens, o caminho relativo ou absoluto do arquivo do mapa de fontes deverá ser especificado no atributo FontMapFile.
 solution: Experience Manager
 title: Referência do mapa de fontes
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
-
 
 # Referência do mapa de fontes{#font-map-reference}
 
