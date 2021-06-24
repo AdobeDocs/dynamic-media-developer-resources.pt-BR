@@ -2,13 +2,12 @@
 description: Todos os recursos expostos na interface do visualizador Zoom básico, eCatalog, eCatalog Search, Flyout, Zoom em linha, Mídia mista, Rotação, Vídeo, Zoom, Dimensional (3D), Carrossel, Imagem interativa, Vídeo interativo e Vídeo360 são acessíveis pelo teclado.
 solution: Experience Manager
 title: Acessibilidade e navegação do teclado
-feature: Dynamic Media Classic,Viewers,SDK/API
+feature: Dynamic Media Classic,Visualizadores,SDK/API
 role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
