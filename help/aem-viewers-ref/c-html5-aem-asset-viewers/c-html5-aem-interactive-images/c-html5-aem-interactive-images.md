@@ -30,7 +30,7 @@ O tipo de visualizador é 508.
 
 Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Usando o Visualizador de Imagem Interativa {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Uso do Visualizador de Imagem Interativa {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 O Visualizador de Imagens Interativas representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
