@@ -2,13 +2,12 @@
 description: Namespace do SDK do visualizador
 solution: Experience Manager
 title: Namespace do SDK do visualizador
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Developer,Business Practitioner
 exl-id: 8e37bb60-c875-48d6-8c86-93aba7f50f74
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
