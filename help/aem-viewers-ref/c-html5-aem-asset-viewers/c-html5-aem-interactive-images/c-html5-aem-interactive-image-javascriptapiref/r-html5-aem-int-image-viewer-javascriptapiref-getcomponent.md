@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Developer,Business Practitioner
 exl-id: 5f2514a9-bbd0-436d-ad96-b89778604f8a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -60,7 +59,7 @@ Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente q
 
 Consulte a documentação da API do SDK do visualizador para obter mais informações sobre um componente específico.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
