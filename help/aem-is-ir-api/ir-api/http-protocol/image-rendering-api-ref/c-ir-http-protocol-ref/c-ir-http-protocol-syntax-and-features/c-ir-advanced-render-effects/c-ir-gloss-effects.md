@@ -2,18 +2,17 @@
 description: Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 solution: Experience Manager
 title: Efeitos de perda
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e8fb5966-ed77-47af-a500-b9bd1604e7d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-
-# Efeitos de brilho{#gloss-effects}
+# Efeitos de perda{#gloss-effects}
 
 Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 
