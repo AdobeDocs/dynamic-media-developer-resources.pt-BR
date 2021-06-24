@@ -2,16 +2,15 @@
 description: Agrupe arquivos em conjuntos usando uma matriz de lista do identificador de ativos.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
-
 
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
@@ -83,4 +82,3 @@ O parâmetro `emailSetting` inclui as seguintes opções:
   </sequence>
 </complexType>
 ```
-
