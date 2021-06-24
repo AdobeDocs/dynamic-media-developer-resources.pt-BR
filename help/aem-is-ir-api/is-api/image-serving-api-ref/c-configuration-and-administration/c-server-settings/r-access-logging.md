@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para acessar o log.
 solution: Experience Manager
 title: Registro de acesso
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
-
 
 # Registro de acesso{#access-logging}
 
@@ -27,7 +26,7 @@ A pasta para a qual o Servidor da Plataforma grava arquivos de log. Pode ser um 
 >
 >A nova pasta deve ser criada antes de alterar essa configuração. Certifique-se de que a pasta tenha os privilégios de acesso corretos de leitura/gravação se o Image Serving estiver instalado para ser executado em uma conta de usuário diferente da raiz.
 
-## TC::maxDays - Número de Dias para Manter Arquivos de Log {#section-45cbecffc5694c87b7d5c176a44a4885}
+## TC::maxDays - Número de dias para manter arquivos de log {#section-45cbecffc5694c87b7d5c176a44a4885}
 
 O número de dias de arquivos de log deve ser preservado. Novos arquivos de log são criados todos os dias à meia-noite. No momento, o servidor excluirá todos os arquivos na pasta do arquivo de log que tenham mais de um número especificado de dias, incluindo os gravados pelo Servidor de Imagem ou pelo Servidor de Renderização. O padrão é 10.
 
