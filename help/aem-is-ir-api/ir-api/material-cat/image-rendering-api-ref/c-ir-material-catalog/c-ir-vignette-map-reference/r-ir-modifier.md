@@ -2,16 +2,15 @@
 description: Sequência do modificador de solicitação. Nenhum ou mais comandos de Renderização de Imagem separados por caracteres '&'. Usado para armazenar modelos e modificadores que devem ser aplicados sempre que uma solicitação para essa entrada do mapa de vinheta é feita.
 solution: Experience Manager
 title: Modificador
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 19b6dd5d-847d-46a2-8138-2b35d2e9b930
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # Modificador{#modifier}
 
