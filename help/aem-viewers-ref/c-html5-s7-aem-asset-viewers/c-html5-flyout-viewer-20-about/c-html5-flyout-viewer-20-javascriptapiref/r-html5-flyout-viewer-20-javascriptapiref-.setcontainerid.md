@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Flyout Viewer.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5e07cbba-c1c1-4c85-af2b-ab2d84fbb709
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -30,7 +29,7 @@ Define a ID do contêiner DOM (normalmente um `DIV`) no qual o visualizador é i
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -39,4 +38,3 @@ Nenhum.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
