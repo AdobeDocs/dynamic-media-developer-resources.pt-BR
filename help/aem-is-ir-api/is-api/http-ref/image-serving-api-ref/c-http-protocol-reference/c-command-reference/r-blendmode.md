@@ -2,16 +2,15 @@
 description: Modo de mesclagem. Especifica o tipo de mesclagem usado quando a camada é composta. Simula modos de mesclagem usados com frequência, disponíveis no Photoshop. Consulte a documentação do Photoshop para obter detalhes.
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-
 
 # blendMode{#blendmode}
 
