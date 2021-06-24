@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: setLocalizedTexts
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: 2fd557ad-088a-4ddc-8c00-b3cf3d2d9a2f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -32,7 +31,7 @@ Define valores SYMBOL de localização para uma ou mais localidades. Esse parâm
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
