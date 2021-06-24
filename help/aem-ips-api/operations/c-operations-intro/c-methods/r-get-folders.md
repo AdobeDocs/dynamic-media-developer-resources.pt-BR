@@ -2,22 +2,21 @@
 description: Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # getFolders{#getfolders}
 
 Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
 
-## Propósito das pastas {#section-66e344d5333f42f1b060a0cba25935c3}
+## Finalidade das pastas {#section-66e344d5333f42f1b060a0cba25935c3}
 
 Uma pasta permite organizar subpastas e ativos. Todos os nomes de pasta e ativo devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causarão um conflito de namespace, mesmo se estiverem em hierarquias de pastas diferentes.
 Sintaxe
@@ -94,4 +93,3 @@ Essa amostra de código retorna uma matriz que contém todas as pastas de uma em
    </folderArray>
 </getFoldersReturn>
 ```
-
