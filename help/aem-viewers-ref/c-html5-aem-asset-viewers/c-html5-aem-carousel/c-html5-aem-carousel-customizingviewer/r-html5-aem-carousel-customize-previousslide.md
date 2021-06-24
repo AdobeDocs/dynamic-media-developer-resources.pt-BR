@@ -2,13 +2,12 @@
 description: Clicar ou tocar nesse botão retorna o usuário ao slide anterior no conjunto de carrossel. Esse botão não é exibido em dispositivos de toque. Você pode dimensionar, usar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Slide anterior
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
