@@ -2,16 +2,15 @@
 description: Baixar
 solution: Experience Manager
 title: Baixar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 661b19fb-5d18-46e9-8658-a5df567a3eff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Baixar{#download}
 
@@ -22,4 +21,3 @@ O botão &quot;Download&quot; fica disponível automaticamente na interface do u
 * Um arquivo PDF real está presente na empresa do cliente.
 * O nome corresponde ao nome do ativo de catálogo eletrônico que é passado para o visualizador e inclui uma extensão `.pdf`.
 * O arquivo PDF é publicado no Dynamic Media Classic.
-
