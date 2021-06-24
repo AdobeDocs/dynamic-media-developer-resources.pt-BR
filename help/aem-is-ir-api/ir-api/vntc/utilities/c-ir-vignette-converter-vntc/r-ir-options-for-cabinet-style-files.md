@@ -2,16 +2,15 @@
 description: As opções a seguir controlam o processamento de arquivos de estilo de gabinete. Eles serão ignorados se sourceFile não for um arquivo de estilo de gabinete ou se -info for especificado.
 solution: Experience Manager
 title: Opções para arquivos de estilo de gabinete
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f1b72d65-fd91-4a83-8314-eab90fe64301
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
-
 
 # Opções para arquivos de estilo de gabinete{#options-for-cabinet-style-files}
 
@@ -23,4 +22,3 @@ As opções a seguir controlam o processamento de arquivos de estilo de gabinete
   <td class="stentry"> <p>Especifica a resolução de destino para arquivos de estilo de gabinete. Valor real em pixels por polegada. Se não for especificado, o arquivo de estilo do gabinete de produção terá a mesma resolução do arquivo de origem. </p></td> 
  </tr> 
 </table>
-
