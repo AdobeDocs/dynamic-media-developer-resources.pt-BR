@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de mídia mista.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b6e191dc-3172-45ba-b6f6-258cfbd5855d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -30,7 +29,7 @@ Define a ID do contêiner DOM (normalmente um DIV) no qual o visualizador é ins
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -39,4 +38,3 @@ Nenhum.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
