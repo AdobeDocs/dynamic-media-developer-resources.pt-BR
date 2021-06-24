@@ -2,18 +2,17 @@
 description: Descreve tipos de dados novos e alterados para a API do IPS versão 3.8.
 solution: Experience Manager
 title: Tipos de dados Novo e Modificado
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-# Tipos de dados: Novo e Modificado{#data-types-new-and-modified}
+# Tipos de dados: Novo e modificado{#data-types-new-and-modified}
 
 Descreve tipos de dados novos e alterados para a API do IPS versão 3.8.
 
