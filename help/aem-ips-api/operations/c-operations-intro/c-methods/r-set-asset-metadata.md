@@ -2,16 +2,15 @@
 description: Define valores de metadados para um ativo. Funciona com uma matriz de atualizações de metadados para definir valores em um lote.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # setAssetMetadata{#setassetmetadata}
 
