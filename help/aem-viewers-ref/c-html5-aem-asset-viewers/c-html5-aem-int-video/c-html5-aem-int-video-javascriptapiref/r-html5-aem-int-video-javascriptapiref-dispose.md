@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: dispor
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ Não acesse mais a API do visualizador depois que `dispose()` for chamado.
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
