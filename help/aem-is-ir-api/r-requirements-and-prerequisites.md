@@ -2,22 +2,21 @@
 description: Antes de usar o Dynamic Media Image Serving, verifique se seu sistema atende aos requisitos do sistema.
 solution: Experience Manager
 title: Requisitos e pré-requisitos do sistema
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # Requisitos e pré-requisitos do sistema{#system-requirements-and-prerequisites}
 
 Antes de usar o Dynamic Media Image Serving, verifique se seu sistema atende aos requisitos do sistema.
 
-## Hardware do servidor {#section-f3c14a7bc1b745118602659628df779f}
+## Hardware de servidor {#section-f3c14a7bc1b745118602659628df779f}
 
 O servidor deve atender aos seguintes requisitos de hardware.
 
@@ -70,4 +69,3 @@ O Dynamic Media Image Serving requer o seguinte software de servidor.
 **Observação:** para usar o Serviço de imagem no Windows, você deve instalar o Microsoft Visual Studio 2010 redistribuível. O redistribuível está disponível no seguinte local:
 
 [http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
-
