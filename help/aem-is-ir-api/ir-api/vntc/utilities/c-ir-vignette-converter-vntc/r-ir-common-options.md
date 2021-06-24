@@ -2,16 +2,15 @@
 description: As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile.
 solution: Experience Manager
 title: Opções comuns
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
-
 
 # Opções comuns{#common-options}
 
@@ -75,4 +74,3 @@ As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile
   <td class="stentry"> <p>Retorna as informações de versão deste utilitário. Especifique sem nome de arquivo e outras opções. </p> </td> 
  </tr> 
 </table>
-
