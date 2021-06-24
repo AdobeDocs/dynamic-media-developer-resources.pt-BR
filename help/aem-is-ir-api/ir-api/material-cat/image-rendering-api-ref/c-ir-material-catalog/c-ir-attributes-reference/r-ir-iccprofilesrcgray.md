@@ -2,16 +2,15 @@
 description: Perfil de cor de entrada padrão de escala de cinza. Especifica o nome do perfil de cor ICC a ser usado para imagens de materiais em tons de cinza que não incorporam um perfil de cor.
 solution: Experience Manager
 title: IccProfileSrcGray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
-
 
 # IccProfileSrcGray{#iccprofilesrcgray}
 
