@@ -2,18 +2,17 @@
 description: O Image Serving suporta arquivos SVG (Scalable Vetor Graphics) como dados de origem. É necessária a conformidade com o SVG 1.1.
 solution: Experience Manager
 title: Suporte SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
-
-# Suporte a SVG{#svg-support}
+# Suporte SVG{#svg-support}
 
 O Image Serving suporta arquivos SVG (Scalable Vetor Graphics) como dados de origem. É necessária a conformidade com o SVG 1.1.
 
@@ -31,7 +30,7 @@ Variáveis importantes na parte de consulta de solicitações incorporadas do Im
 
 Consulte [Variáveis de substituição](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) para obter mais informações.
 
-## Referência de imagem {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Referências de imagem {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
 As imagens podem ser inseridas no SVG usando o elemento `<image>` . As imagens referenciadas pelo atributo `xlink::href` do elemento `<image>` devem ser solicitações válidas de veiculação de imagens. URLs estrangeiros não são permitidos.
 
@@ -45,7 +44,7 @@ Especifique uma solicitação completa de Exibição de imagem, começando com `
 >
 >As imagens incorporadas no SVG não são redimensionadas automaticamente no momento. Certifique-se de que todos os hrefs de imagem incluam os comandos necessários do Image Serving para definir o tamanho de imagem desejado (por exemplo, `wid=`). Se o tamanho da imagem não for definido explicitamente, `attribute::DefaultPix` será aplicado.
 
-## Gestão de cores {#section-ea76e2bc4e1842638aa97a2d470c8a68}
+## Gerenciamento de cores {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
 Pressupõe-se que todos os valores de cor incorporados em arquivos SVG e passados para modelos SVG por meio de variáveis de substituição existam no espaço de cores `sRgb`.
 
