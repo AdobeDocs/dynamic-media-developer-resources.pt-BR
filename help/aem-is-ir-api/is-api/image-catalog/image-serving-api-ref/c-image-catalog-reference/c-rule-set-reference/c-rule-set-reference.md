@@ -2,16 +2,15 @@
 description: O Image Serving suporta um mecanismo de pré-processamento de solicitação simples, que se baseia em regras de substituição e correspondência de expressões regulares.
 solution: Experience Manager
 title: Referência do conjunto de regras
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
-
 
 # Referência do conjunto de regras{#rule-set-reference}
 
@@ -96,7 +95,7 @@ O comportamento padrão pode ser modificado com o atributo `OnMatch` do elemento
  </tbody> 
 </table>
 
-## Substituição de atributos de catálogo {#section-3f1e33a65c5346d1b4a69958c61432f3}
+## Substituição de atributos do catálogo {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
 `<rule>` os elementos podem, opcionalmente, definir atributos que substituem os atributos de catálogo correspondentes quando a regra for correspondida com êxito. Se várias regras correspondentes definirem o mesmo atributo, o último prevalecerá. Consulte a descrição do elemento ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` para obter uma lista de atributos que podem ser controlados com regras.
 
@@ -110,7 +109,7 @@ A correspondência de strings simples funciona para aplicativos muito básicos, 
 
 Para facilitar modificações complexas de URL, as subsequências de caracteres podem ser capturadas na expressão ao delimitar a subsequência de caracteres com parênteses (...). As subsequências capturadas são numeradas sequencialmente, começando por 1, de acordo com a posição dos parênteses à esquerda. As subsequências capturadas podem ser inseridas na substituição usando ` $ *`n`*`, onde *`n`* é o número de sequência da subsequência capturada.
 
-## Gerenciar arquivos de conjunto de regras {#section-0598a608e4044bb4805fe93ceebe10a9}
+## Gerenciamento de arquivos de conjunto de regras {#section-0598a608e4044bb4805fe93ceebe10a9}
 
 Um arquivo de conjunto de regras pode ser anexado a cada catálogo de imagem com o atributo de catálogo `attribute::RuleSetFile`. Embora você possa editar o arquivo do conjunto de regras a qualquer momento, o servidor de imagem reconhece as alterações somente quando o catálogo de imagem associado é recarregado. Esse recarregamento ocorre quando o servidor da plataforma é iniciado ou reiniciado e sempre que o arquivo do catálogo principal, que tem um sufixo de arquivo [!DNL .ini], é modificado ou &quot;tocado&quot; para alterar a data do arquivo.
 
