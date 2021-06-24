@@ -2,22 +2,21 @@
 description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Dynamic Media Image Serving.
 solution: Experience Manager
 title: Restrições e problemas conhecidos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1235'
 ht-degree: 0%
 
 ---
-
 
 # Restrições e problemas conhecidos{#restrictions-and-known-issues}
 
 Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Dynamic Media Image Serving.
 
-## Erro de documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
+## Erata da documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
 * O número de linhas não excederá o máximo da configuração `\copyfitmaxlines` e o número de linhas explícitas na entrada de texto.
 * São necessários parênteses e colchetes correspondentes em conjuntos de imagens. Se as chaves e os parênteses não corresponderem, eles precisarão ser codificados no URL.
@@ -56,7 +55,7 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 
 A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma imagem se ela já tiver sido detectada. Se uma edição suficiente for feita em uma imagem primária, a biblioteca Digimarc ainda poderá reconhecer que a marca d&#39;água foi aplicada. No entanto, pode não conseguir ler essas informações. Isso resulta em uma nova imagem na qual as informações originais da Digimarc que foram aplicadas à imagem original não podem ser obtidas. O Image Serving agora pode aplicar a marca d&#39;água Digimarc definida no catálogo da empresa.
 
-## Restrições aplicáveis ao Serviço de imagem e à Renderização de imagem {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
+## Restrições aplicáveis ao fornecimento de imagens e à renderização de imagens {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
 * O fornecimento de imagens e a renderização de imagens podem não aproveitar ao máximo todas as CPUs quando há mais de 4 CPUs disponíveis. Simule seu tráfego nessas máquinas para ver a sua vantagem com mais de 4 CPUs.
 * URLs remotos que retornam um redirecionamento (status HTTP 301, 302 ou 303) são rejeitados.
@@ -109,7 +108,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 * &quot; ..&quot; não é permitido em nenhum elemento de caminho em solicitações HTTP.
 * A desinstalação pode remover o arquivo criado ou modificado pelo usuário de *[!DNL install_root]* ou qualquer subpasta. Copie esses arquivos para um local diferente antes de desinstalar.
 
-## Restrições aplicáveis somente ao Serviço de imagem {#section-b08ad535e4454265b8157dec244c4faf}
+## Restrições aplicáveis somente ao fornecimento de imagens {#section-b08ad535e4454265b8157dec244c4faf}
 
 * As cores do primeiro plano no comando RTF ( `\cf`) não são compatíveis com o texto PhotoFont.
 * A sintetização de negrito, itálico e negrito/itálico será rejeitada como um erro para o texto do PhotoFont.
@@ -140,7 +139,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 * A conversão de cores pode não estar correta quando `bgColor=` não corresponde ao espaço de cores base que envolve perfis de cores.
 * Os efeitos da camada externa não são renderizados se a camada não tiver uma máscara ou dados alfa.
 
-## Restrições aplicáveis somente à Renderização de imagem {#section-4c6949e797174607a3d1ab4d3d4a725a}
+## Restrições aplicáveis somente à renderização de imagens {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Os decalques e materiais de parede não podem ser removidos.
 * O tamanho das texturas é limitado em relação ao tamanho da exibição da vinheta. Em raras circunstâncias, o limite padrão de 425% do tamanho de exibição pode interferir em um aplicativo usando texturas não repetitivas muito grandes. Se não for possível alterar o aplicativo ou o conteúdo para funcionar dentro das limitações predefinidas, a porcentagem pode ser aumentada da seguinte maneira. Usando um editor de texto, abra [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], localize `IrMaxTextureSizeFactor` e insira um novo valor de porcentagem. A alteração entrará em vigor imediatamente sem reiniciar o Servidor de imagem.
@@ -151,6 +150,6 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    Anexe um carimbo de data e hora ou outro identificador exclusivo à cadeia de caracteres da solicitação, como `"&.ts=currentTime`.
 
-## Restrições aplicáveis somente a utilitários {#section-906a6b2378154b3da122b2332983f7a5}
+## Restrições aplicáveis apenas a serviços de utilidade pública {#section-906a6b2378154b3da122b2332983f7a5}
 
 `ImageConvert`às vezes falha com uma falha de segmentação quando parada com um  `control-c`.
