@@ -2,18 +2,17 @@
 description: As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
 solution: Experience Manager
 title: Variáveis de substituição
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
-
-# Variáveis de Substituição{#substitution-variables}
+# Variáveis de substituição{#substitution-variables}
 
 As variáveis de substituição são usadas para transferir valores do URL da solicitação para modelos FXG armazenados no servidor.
 
@@ -34,4 +33,3 @@ As variáveis de substituição são usadas para transferir valores do URL da so
 * As variáveis são definidas como acima, semelhantes a outros comandos IS; o &#39;$&#39; à esquerda identifica o comando como uma definição de variável.
 * O nome da variável `*`var`*` diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras, números, &#39;-&#39; e &#39;_&#39;.
 * O valor importante deve ser codificado por URL de passagem única para transmissão HTTP segura.
-
