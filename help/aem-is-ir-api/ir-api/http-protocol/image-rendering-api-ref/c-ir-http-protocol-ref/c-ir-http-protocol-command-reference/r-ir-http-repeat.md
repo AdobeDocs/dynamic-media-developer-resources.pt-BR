@@ -2,18 +2,17 @@
 description: Modo de repetição de textura. Especifica o modo de repetição para materiais de textura repetíveis.
 solution: Experience Manager
 title: repetição
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 12%
 
 ---
 
-
-# repetir{#repeat}
+# repetição{#repeat}
 
 Modo de repetição de textura. Especifica o modo de repetição para materiais de textura repetíveis.
 
@@ -25,7 +24,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
   <td class="stentry"> <p>Repetição direta. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Otimização aleatória de 4 vias. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +32,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
   <td class="stentry"> <p>Otimização aleatória de 8 vias. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Lado a lado. </p> </td> 
  </tr> 
  <tr class="strow"> 
