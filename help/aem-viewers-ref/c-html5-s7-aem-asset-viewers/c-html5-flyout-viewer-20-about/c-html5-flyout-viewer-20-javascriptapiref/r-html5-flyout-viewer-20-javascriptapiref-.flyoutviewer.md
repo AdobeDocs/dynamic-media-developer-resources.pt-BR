@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Flyout Viewer.
 solution: Experience Manager
 title: FlyoutViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b64f16c8-03bf-4603-972f-845a4c1e2b02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # FlyoutViewer{#flyoutviewer}
 
@@ -38,7 +37,7 @@ Construtor; cria uma nova instância do Flyout Viewer.
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -67,4 +66,3 @@ defaultLocale:"en"
 } 
 });
 ```
-
