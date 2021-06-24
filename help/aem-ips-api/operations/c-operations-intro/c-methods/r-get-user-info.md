@@ -2,16 +2,15 @@
 description: Obtém informações sobre um usuário. Use o endereço de email e a senha de um usuário do sistema como credenciais para autorizar a solicitação. Caso contrário, a operação obterá informações sobre o usuário padrão.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # getUserInfo{#getuserinfo}
 
@@ -71,4 +70,3 @@ Esta amostra de código retorna informações para o usuário padrão do IPS.
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
