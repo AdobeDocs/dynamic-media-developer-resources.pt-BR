@@ -2,16 +2,15 @@
 description: Os dados da propriedade são retornados em resposta a vários tipos req=.
 solution: Experience Manager
 title: Propriedades
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # Propriedades{#properties}
 
