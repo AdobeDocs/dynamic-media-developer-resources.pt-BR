@@ -2,16 +2,15 @@
 description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. Geralmente, também são úteis para imagens compostas e solicitações de imagens simples e não em camadas.
 solution: Experience Manager
 title: Operações comuns
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f30a9653-7aed-4233-8361-18ca6561d420
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
-
 
 # Operações comuns{#common-operations}
 
@@ -83,4 +82,3 @@ Esses comandos se aplicam a camadas de imagem, texto e cor sólida. Geralmente, 
   <td class="stentry"> <p>Especifica a(s) forma(ões) de clipe invertido(s) para a camada. </p></td> 
  </tr> 
 </table>
-
