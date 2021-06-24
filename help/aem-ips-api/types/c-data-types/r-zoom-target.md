@@ -2,16 +2,15 @@
 description: Propriedades de um direcionamento de Zoom.
 solution: Experience Manager
 title: ZoomTarget
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 3%
 
 ---
-
 
 # ZoomTarget{#zoomtarget}
 
@@ -32,4 +31,3 @@ Sintaxe
 | `*`userData`*` | `xsd:string` | Dados do usuário associados ao direcionamento do Zoom. |
 | `*`position`*` | `xsd:int` | Permite que os destinos de Zoom associados a um ativo sejam ordenados com base na posição |
 | `*`lastModified`*` | `xsd:dateTime` | Data da última modificação. |
-
