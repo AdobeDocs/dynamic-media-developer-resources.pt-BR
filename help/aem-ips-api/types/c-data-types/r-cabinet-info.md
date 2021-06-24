@@ -2,16 +2,15 @@
 description: Propriedades de um ativo de gabinete.
 solution: Experience Manager
 title: CabinetInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 78ec00cd-c410-412c-970f-96226563a45a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
-
 
 # CabinetInfo{#cabinetinfo}
 
@@ -30,4 +29,3 @@ Sintaxe
 | `*`imageFile`*` | `xsd:string` | Nome do arquivo do gabinete associado à vinheta. |
 | `*`otimizedPath`*` | `xsd:string` | Caminho para o gabinete otimizado para IPS. |
 | `*`otimizedFile`*` | `xsd:string` | Arquivo de gabinete otimizado para IPS. |
-
