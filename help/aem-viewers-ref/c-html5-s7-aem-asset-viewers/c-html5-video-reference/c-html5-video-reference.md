@@ -55,7 +55,7 @@ Esse visualizador é totalmente acessível por teclado.
 
 Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Ferramentas de compartilhamento de redes sociais com o Visualizador de vídeo {#section-907d316fe1da4b87abb9775f02464704}
+## Ferramentas de compartilhamento em redes sociais com o Visualizador de vídeo {#section-907d316fe1da4b87abb9775f02464704}
 
 O Visualizador de vídeo é compatível com ferramentas de compartilhamento de mídia social. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela.
 
@@ -63,7 +63,7 @@ A barra de ferramentas de compartilhamento contém um ícone para cada tipo de c
 
 O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
-## Incorporando visualizador de vídeo {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Como incorporar visualizador de vídeo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. Neste último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
