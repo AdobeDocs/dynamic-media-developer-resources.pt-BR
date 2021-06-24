@@ -2,16 +2,15 @@
 description: Move vários ativos independentemente um do outro. Isso é feito usando o tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
-
 
 # moveAssets{#moveassets}
 
@@ -123,4 +122,3 @@ Essa amostra de código move ativos para um local específico especificado pelo 
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
