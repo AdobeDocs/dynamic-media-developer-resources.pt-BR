@@ -2,18 +2,17 @@
 description: Define um target de publicação para uma empresa.
 solution: Experience Manager
 title: PublicarContexto
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
-# PublishContext{#publishcontext}
+# PublicarContexto{#publishcontext}
 
 Define um target de publicação para uma empresa.
 
