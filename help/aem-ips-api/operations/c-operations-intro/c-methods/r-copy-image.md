@@ -2,16 +2,15 @@
 description: Cria uma cópia de um ativo de imagem existente. Os comandos de protocolo do Servidor de Imagens especificados são aplicados para gerar a nova cópia
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # copyImage{#copyimage}
 
@@ -119,4 +118,3 @@ O código de amostra copia uma imagem especificada por empresa, ativo, identific
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
