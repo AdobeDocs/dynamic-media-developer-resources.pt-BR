@@ -2,16 +2,15 @@
 description: Cor do Plano de Fundo da Camada. Especifica a cor de plano de fundo e a opacidade da camada atual.
 solution: Experience Manager
 title: bgColor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 22c957e6-1a82-43a7-8467-871a150e7453
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
-
 
 # bgColor{#bgcolor}
 
