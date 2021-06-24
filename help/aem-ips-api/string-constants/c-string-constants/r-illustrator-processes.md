@@ -2,18 +2,17 @@
 description: Usado pelo Illustrator/processes.
 solution: Experience Manager
 title: Processos do Illustrator
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 42520442-07cc-4a26-9e93-a22337cbcb4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
 
-
-# Processos Illustrator{#illustrator-processes}
+# Processos do Illustrator{#illustrator-processes}
 
 Usado pelo Illustrator/processes.
 
@@ -23,4 +22,3 @@ Sintaxe
 
 * [!DNL `None`]
 * [!DNL `Rasterize`]
-
