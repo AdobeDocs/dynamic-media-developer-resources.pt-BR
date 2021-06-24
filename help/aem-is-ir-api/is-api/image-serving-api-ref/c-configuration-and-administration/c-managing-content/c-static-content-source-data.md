@@ -2,16 +2,15 @@
 description: Os arquivos de dados da fonte de conteúdo estático são acessados somente pelo Servidor de plataforma.
 solution: Experience Manager
 title: Dados da fonte de conteúdo estático
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # Dados da fonte de conteúdo estático{#static-content-source-data}
 
