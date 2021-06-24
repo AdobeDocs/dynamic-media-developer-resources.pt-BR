@@ -2,18 +2,17 @@
 description: Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB separadamente.
 solution: Experience Manager
 title: op_color_balance
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-
-# op_colorbalance{#op-colorbalance}
+# op_color_balance{#op-colorbalance}
 
 Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor RGB separadamente.
 
