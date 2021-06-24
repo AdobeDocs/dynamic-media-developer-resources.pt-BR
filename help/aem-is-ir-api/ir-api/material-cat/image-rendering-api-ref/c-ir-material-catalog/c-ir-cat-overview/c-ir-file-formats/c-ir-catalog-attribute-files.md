@@ -2,16 +2,15 @@
 description: Os arquivos de atributos do catálogo podem ter qualquer nome, mas devem ter um sufixo de arquivo .ini. Eles podem ser prontamente mantidos usando qualquer editor de texto.
 solution: Experience Manager
 title: Arquivos de atributo do catálogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
 
 # Arquivos de atributo do catálogo{#catalog-attribute-files}
 
@@ -37,4 +36,3 @@ Os arquivos de atributos do catálogo consistem em um conjunto de registros de t
 * Os nomes de atributos podem consistir em qualquer combinação de letras, números ASCII, assim como &quot;-&quot;, &quot;_&quot; e &quot;.&quot;
 * Se o mesmo nome de atributo ocorrer mais de uma vez no mesmo arquivo de atributo, prevalecerá o último encontrado.
 * Use &#39;#&#39; como o primeiro caractere para marcar qualquer registro como um comentário que o analisador ignora.
-
