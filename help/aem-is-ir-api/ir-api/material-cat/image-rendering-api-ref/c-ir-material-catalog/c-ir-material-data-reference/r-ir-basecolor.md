@@ -2,16 +2,15 @@
 description: Cor da imagem dominante. Cor subtrativa, usada para colorir textura. Deve ser a cor dominante média na imagem de textura.
 solution: Experience Manager
 title: BaseColor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
-
 
 # BaseColor{#basecolor}
 
