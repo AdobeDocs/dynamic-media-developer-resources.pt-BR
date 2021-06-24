@@ -2,18 +2,17 @@
 description: O visualizador permite que você faça a saída do conteúdo do catálogo para uma impressora.
 solution: Experience Manager
 title: Recurso Imprimir
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
-
-# Imprimir recurso{#print-feature}
+# Recurso Imprimir{#print-feature}
 
 O visualizador permite que você faça a saída do conteúdo do catálogo para uma impressora.
 
@@ -24,4 +23,3 @@ A qualidade da impressão pode ser ajustada usando o parâmetro de configuraçã
 >[!NOTE]
 >
 >O recurso Imprimir só está disponível em sistemas de desktop, exceto no Internet Explorer 9.
-
