@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador do eCatalog.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32e75d36-cc9a-42df-95e8-5b48456296e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -32,7 +31,7 @@ Esse método é opcional se as informações de configuração do visualizador f
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -41,4 +40,3 @@ Nenhum.
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
