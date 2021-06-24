@@ -3,18 +3,17 @@ description: Visualizador básico de zoom é um visualizador de imagem que exibe
 keywords: responsivo
 solution: Experience Manager
 title: Zoom básico
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ee15ce21-20c4-428b-9512-050115e4c322
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '2041'
 ht-degree: 0%
 
 ---
 
-
-# Zoom Básico{#basic-zoom}
+# Zoom básico{#basic-zoom}
 
 Visualizador básico de zoom é um visualizador de imagem que exibe uma única imagem com zoom. Ele tem ferramentas de zoom, suporte de tela cheia e um botão de fechamento opcional. Este visualizador é o mais leve. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
@@ -30,7 +29,7 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 [https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B](https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset=Scene7SharedAssets/Backpack_B)
 
-## Usando o Visualizador de Zoom Básico {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Uso do Visualizador de Zoom Básico {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 O Visualizador de Zoom Básico representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) que os visualizadores baixam no tempo de execução.
 
@@ -40,7 +39,7 @@ A configuração e o esfolamento são semelhantes aos dos outros visualizadores.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagir com o Visualizador de Zoom Básico {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interação com o Visualizador de Zoom Básico {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 O Visualizador de Zoom Básico é compatível com os seguintes gestos de toque, comuns em outros aplicativos móveis.
 
@@ -79,7 +78,7 @@ Esse visualizador é totalmente acessível por teclado.
 
 Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporando Visualizador de Zoom Básico {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Como incorporar o visualizador de zoom básico {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
@@ -389,4 +388,3 @@ basicZoomViewer.init();
 </body> 
 </html>
 ```
-
