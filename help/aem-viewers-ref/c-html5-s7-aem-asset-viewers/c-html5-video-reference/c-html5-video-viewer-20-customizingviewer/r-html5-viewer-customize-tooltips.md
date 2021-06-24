@@ -2,16 +2,15 @@
 description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
 solution: Experience Manager
 title: Dicas de ferramentas
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
-
 
 # Dicas de ferramentas{#tooltips}
 
@@ -78,4 +77,3 @@ Exemplo - para configurar dicas de ferramentas com uma borda cinza com raio de c
  font-size: 11px; 
 }
 ```
-
