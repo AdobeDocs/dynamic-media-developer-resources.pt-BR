@@ -2,16 +2,15 @@
 description: O Servidor da Plataforma armazena em cache todas as imagens de resposta e determinados dados de texto em disco, a menos que uma solicitação seja marcada como não armazenável em cache.
 solution: Experience Manager
 title: Cache de dados de resposta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f09e596d-2b85-4950-8515-d54a2c2e86ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
-
 
 # Cache de dados de resposta{#response-data-cache}
 
