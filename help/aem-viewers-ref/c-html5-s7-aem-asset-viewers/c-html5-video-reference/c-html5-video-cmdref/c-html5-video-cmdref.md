@@ -2,16 +2,15 @@
 description: Documentação dos atributos de configuração para o visualizador de vídeo.
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5992e5cd-7783-408e-a23f-fdcc3a3d6b69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Referência de comando - Atributos de configuração{#command-reference-configuration-attributes}
 
