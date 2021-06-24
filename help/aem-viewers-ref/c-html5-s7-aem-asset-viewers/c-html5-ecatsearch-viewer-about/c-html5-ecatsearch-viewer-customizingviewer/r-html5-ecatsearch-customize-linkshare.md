@@ -2,18 +2,17 @@
 description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
 title: Compartilhamento de link
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
 
-
-# Compartilhar link{#link-share}
+# Compartilhamento de link{#link-share}
 
 A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 
@@ -713,4 +712,3 @@ Exemplo - para definir o link de compartilhamento como 450 pixels de largura:
     width: 450px; 
 }
 ```
-
