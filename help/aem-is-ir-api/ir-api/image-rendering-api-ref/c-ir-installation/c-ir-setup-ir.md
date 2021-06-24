@@ -2,18 +2,17 @@
 description: A Renderização da imagem é configurada com o fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 title: Configurar e configurar a renderização de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 126833bf-16db-40f1-8179-7775e9063081
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-
-# Configurar e configurar a Renderização de Imagem{#setup-and-configure-image-rendering}
+# Configurar e configurar a renderização de imagens{#setup-and-configure-image-rendering}
 
 A Renderização da imagem é configurada com o fileinstall_folder/conf/ImageRendering.conf.
 
