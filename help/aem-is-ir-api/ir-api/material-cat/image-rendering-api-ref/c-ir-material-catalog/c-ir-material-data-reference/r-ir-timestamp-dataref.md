@@ -2,16 +2,15 @@
 description: Carimbo de data e hora da modificação do arquivo. Especifica a data/hora em que a imagem e/ou os arquivos de dados anexados a este registro de catálogo foram modificados pela última vez.
 solution: Experience Manager
 title: TimeStamp
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ecc7617c-c390-4f82-905d-45b825d0176d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
-
 
 # TimeStamp{#timestamp}
 
