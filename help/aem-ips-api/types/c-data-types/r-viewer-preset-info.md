@@ -2,16 +2,15 @@
 description: Propriedades de um ativo predefinido do visualizador.
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
-
 
 # ViewerPresetInfo{#viewerpresetinfo}
 
@@ -25,4 +24,3 @@ Sintaxe
 |---|---|---|
 | `*`type`*` | `xsd:string` | Escolha do tipo de visualizador. |
 | `*`configSettingArray`*` | `types:ConfigSettingArray` | Matriz de configurações do visualizador. |
-
