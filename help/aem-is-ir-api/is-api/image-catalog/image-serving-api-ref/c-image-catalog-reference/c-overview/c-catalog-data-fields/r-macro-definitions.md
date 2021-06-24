@@ -2,16 +2,15 @@
 description: Os campos a seguir são reconhecidos nos arquivos de definição de macro.
 solution: Experience Manager
 title: Definições de macro
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0d95d288-8bd5-4ba8-a673-2a84f39a5dc6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Definições de macro{#macro-definitions}
 
@@ -27,4 +26,3 @@ Os campos a seguir são reconhecidos nos arquivos de definição de macro.
   <td class="stentry"> <p>Definição de macro. </p></td> 
  </tr> 
 </table>
-
