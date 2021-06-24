@@ -2,16 +2,15 @@
 description: O indicador de rotação é sobreposto na área de visualização de rotação. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
 solution: Experience Manager
 title: Efeito do ícone de exibição em rotação
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
-
 
 # Efeito do ícone de exibição em rotação{#spin-view-icon-effect}
 
@@ -70,4 +69,3 @@ background-image: url(images/spinIcon_1D.png);
 background-image: url(images/spinIcon_2D.png); 
 }
 ```
-
