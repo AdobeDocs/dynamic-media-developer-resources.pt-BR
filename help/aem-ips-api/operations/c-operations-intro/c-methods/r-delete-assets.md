@@ -2,16 +2,15 @@
 description: Exclui vários ativos.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -127,4 +126,3 @@ Esta amostra de código envia um identificador para uma empresa e uma matriz de 
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
