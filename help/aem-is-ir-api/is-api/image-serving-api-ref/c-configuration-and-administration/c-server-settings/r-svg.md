@@ -2,16 +2,15 @@
 description: As configurações nesta seção só precisam ser consideradas se a renderização de SVG for necessária.
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
-
 
 # SVG{#svg}
 
@@ -33,7 +32,7 @@ Tamanho máximo do arquivo de origem SVG em kBytes. O servidor retorna um erro q
 
 Limita o tamanho das imagens que o SVGRender pode produzir. Valor inteiro maior que 0 em milhões de pixels. Um erro é retornado se uma operação de renderização exceder o limite de tamanho. O padrão é 4.
 
-## PS::svgProvider.port - Porta de escuta do servidor de plataforma {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - Porta de escuta do Servidor de Plataforma {#section-f7e42a96c2dd4523b46f0557c239e659}
 
 A porta usada para o SvgRender obter imagens do Servidor de plataforma para serem incorporadas em renderizações de SVG.
 
@@ -50,4 +49,3 @@ Configura a porta na qual o Servidor de Imagem e o componente SVGRender se comun
 >[!NOTE]
 >
 >Para o funcionamento correto do componente SVGRender, o mesmo número de porta deve ser especificado para `SVG::SVGRender.port` e `IS::SVGTcpPort`.
-
