@@ -2,16 +2,15 @@
 description: Detalhes da mensagem de erro. Especifica o nível de detalhes para mensagens de erro retornadas via HTTP como o valor error.message .
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
-
 
 # ErrorDetail{#errordetail}
 
@@ -25,7 +24,7 @@ Os seguintes valores são permitidos:
   <td class="stentry"> <p>Somente título. Retorna uma breve descrição geral do erro. Recomendado para servidores ativos que podem ser acessados publicamente. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Breve mensagem. Reservado para uso futuro. Retorna atualmente as mesmas informações que 0. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +32,7 @@ Os seguintes valores são permitidos:
   <td class="stentry"> <p>Mensagem detalhada. Fornece detalhes no nível do usuário sobre o erro. Pode incluir informações confidenciais, como caminhos de arquivo. Recomendado para armazenamento temporário, garantia de qualidade e servidores de desenvolvimento de aplicativos. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha de Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis ao relatar problemas ao suporte técnico da Dynamic Media. </p></td> 
  </tr> 
 </table>
