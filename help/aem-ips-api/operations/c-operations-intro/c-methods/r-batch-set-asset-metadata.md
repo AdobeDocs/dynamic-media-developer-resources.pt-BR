@@ -2,10 +2,9 @@
 description: Define os metadados do ativo usando o modo de lote.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-translation-type: tm+mt
 source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
 source-wordcount: '153'
