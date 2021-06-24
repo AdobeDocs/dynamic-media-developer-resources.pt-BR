@@ -2,16 +2,15 @@
 description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 solution: Experience Manager
 title: Processamento de variável em solicitações externas incorporadas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a87bb2a0-0554-4978-982d-b6617925cd53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # Processamento de variável em solicitações externas incorporadas{#variable-processing-in-embedded-foreign-requests}
 
