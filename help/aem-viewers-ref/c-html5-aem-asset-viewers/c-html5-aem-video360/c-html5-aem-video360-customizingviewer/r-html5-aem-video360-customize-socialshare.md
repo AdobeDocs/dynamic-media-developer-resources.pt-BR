@@ -2,18 +2,17 @@
 description: A ferramenta de compartilhamento social aparece no canto superior direito por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 solution: Experience Manager
 title: Compartilhamento em redes sociais
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
 
-# Compartilhamento social{#social-share}
+# Compartilhamento em redes sociais{#social-share}
 
 A ferramenta de compartilhamento social aparece no canto superior direito por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 
