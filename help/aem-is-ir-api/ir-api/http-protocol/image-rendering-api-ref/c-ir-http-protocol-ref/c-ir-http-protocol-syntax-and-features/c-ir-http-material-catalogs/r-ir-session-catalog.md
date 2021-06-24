@@ -2,16 +2,15 @@
 description: O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
 solution: Experience Manager
 title: Catálogo de sessão
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 36e0571e-7451-423f-a1df-540680381902
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # Catálogo de sessão{#session-catalog}
 
@@ -87,4 +86,3 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
  </tbody> 
 </table>
-
