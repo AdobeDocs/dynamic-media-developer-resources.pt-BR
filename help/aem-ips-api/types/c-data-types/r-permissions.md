@@ -2,16 +2,15 @@
 description: Gerencia direitos para acessar, modificar, criar ou excluir ativos por grupo.
 solution: Experience Manager
 title: Permissão
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # Permissão{#permission}
 
@@ -28,4 +27,3 @@ Sintaxe
 | `*`permissionType`*` | `xsd:string` | Escolha do tipo de permissão. |
 | `*`isAllowed`*` | `xsd:boolean` | Determina se a permissão é permitida. |
 | `*`isOverride`*` | `xsd:boolean` | Determina se a permissão substitui outra. |
-
