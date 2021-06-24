@@ -2,16 +2,15 @@
 description: Atualiza o campo de imagem associado a um ativo de imagem.
 solution: Experience Manager
 title: ImageFieldUpdate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # ImageFieldUpdate{#imagefieldupdate}
 
@@ -28,4 +27,3 @@ Sintaxe
 | `*`anchorX`*` | `xsd:int` | Âncora de imagem do eixo X. |
 | `*`âncoraY`*` | `xsd:int` | Âncora de imagem do eixo Y. |
 | `*`userData`*` | `xsd:string` | Valor do campo de metadados `userData`, que é publicado no campo de catálogo de dados do usuário que serve a imagem. |
-
