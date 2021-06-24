@@ -2,18 +2,17 @@
 description: O realce do foco de entrada exibido em torno do elemento de interface de uso do visualizador focado é controlado com o seletor de classe CSS.
 solution: Experience Manager
 title: Destaque da focagem
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 74ff9669-d56b-4731-9d4a-dda7c831e162
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-
-# Destaque do foco{#focus-highlight}
+# Destaque da focagem{#focus-highlight}
 
 O realce do foco de entrada exibido em torno do elemento de interface de uso do visualizador focado é controlado com o seletor de classe CSS.
 
@@ -47,4 +46,3 @@ Exemplo - para desativar o realce de foco padrão do navegador para todos os ele
  outline: none; 
 }
 ```
-
