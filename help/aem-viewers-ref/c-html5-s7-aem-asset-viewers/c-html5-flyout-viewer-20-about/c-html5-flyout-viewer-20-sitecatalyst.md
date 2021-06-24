@@ -2,16 +2,15 @@
 description: O Flyout Viewer é compatível com o rastreamento Adobe Analytics pronto para uso.
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
@@ -81,4 +80,3 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
  </tbody> 
 </table>
-
