@@ -1,31 +1,30 @@
 ---
-description: A ferramenta de compartilhamento do Facebook consiste em um botão adicionado ao painel Compartilhamento do Social . Quando o botão é clicado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
+description: A ferramenta de compartilhamento facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais . Quando o botão é clicado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento do Facebook
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: Compartilhamento facebook
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: 343cde8b-796a-420f-abb7-268b3791a684
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Compartilhamento do Facebook{#facebook-share}
+# Compartilhamento facebook{#facebook-share}
 
-A ferramenta de compartilhamento do Facebook consiste em um botão adicionado ao painel Compartilhamento do Social . Quando o botão é clicado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
+A ferramenta de compartilhamento facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais . Quando o botão é clicado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-A aparência do botão de compartilhamento do Facebook é controlada com o seguinte seletor de classe CSS:
+A aparência do botão Compartilhar do Facebook é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7facebookshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento do Facebook**
+**Propriedades de CSS da ferramenta de compartilhamento Facebook**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
