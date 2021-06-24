@@ -2,18 +2,17 @@
 description: Usado por AtiveJob/type e ScheduledJob/type.
 solution: Experience Manager
 title: Tipos de Trabalho
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c833c6f7-0f72-485d-8ad1-3620db7c320a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
 
-
-# Tipos de trabalho{#job-types}
+# Tipos de Trabalho{#job-types}
 
 Usado por AtiveJob/type e ScheduledJob/type.
 
@@ -31,4 +30,3 @@ Sintaxe
 * `MetadataUpload`
 * `ImageOptimization`
 * `Cleanup`
-
