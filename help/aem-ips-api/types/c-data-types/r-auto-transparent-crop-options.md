@@ -2,16 +2,15 @@
 description: Opções usadas ao cortar imagens automaticamente com base na transparência.
 solution: Experience Manager
 title: AutoTransparentCropOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # AutoTransparentCropOptions{#autotransparentcropoptions}
 
@@ -41,4 +40,3 @@ Sintaxe
   </tr> 
  </tbody> 
 </table>
-
