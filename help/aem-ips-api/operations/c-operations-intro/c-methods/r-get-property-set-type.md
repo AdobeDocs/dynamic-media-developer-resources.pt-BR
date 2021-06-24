@@ -2,16 +2,15 @@
 description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # getPropertySetType{#getpropertysettype}
 
@@ -90,4 +89,3 @@ Essa amostra de código retorna um tipo de conjunto de propriedades por nome.
       <allowMultiple>false</allowMultiple></type>
 </getPropertySetTypeReturn>
 ```
-
