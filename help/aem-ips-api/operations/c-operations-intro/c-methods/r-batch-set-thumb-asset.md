@@ -2,16 +2,15 @@
 description: Define a imagem em miniatura de um ou mais ativos.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
-
 
 # batchSetThumbAsset{#batchsetthumbasset}
 
@@ -19,7 +18,7 @@ Define a imagem em miniatura de um ou mais ativos.
 
 Sintaxe
 
-## Tipos de ativos miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Tipos de ativos de miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
 Os tipos de ativos de miniatura permitidos consistem no seguinte:
 
@@ -85,4 +84,3 @@ Os tipos de ativos de miniatura permitidos consistem no seguinte:
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-
