@@ -2,16 +2,15 @@
 description: Defina ou atualize o estado de publicação de um ou mais ativos. Você pode definir estados de publicação separados para cada contexto de publicação em uma empresa.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # setAssetsContextState{#setassetscontextstate}
 
@@ -116,4 +115,3 @@ Este exemplo de código define o estado da publicação de um ativo usando `NotM
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
