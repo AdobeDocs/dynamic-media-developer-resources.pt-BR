@@ -2,16 +2,15 @@
 description: Embora a adição de novos arquivos de dados seja simples e direta, é necessário ter cuidado especial ao substituir arquivos de dados existentes que são usados ativamente pelo servidor. Em vez de simplesmente substituir esses arquivos, é recomendável dar um novo nome ao arquivo de substituição (por exemplo, anexar um sufixo de versão ao nome do arquivo). Depois que o novo arquivo for ativado, a versão antiga poderá ser excluída.
 solution: Experience Manager
 title: Exclusão ou substituição de arquivos de dados
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
-
 
 # Exclusão ou substituição de arquivos de dados{#deleting-or-replacing-data-files}
 
