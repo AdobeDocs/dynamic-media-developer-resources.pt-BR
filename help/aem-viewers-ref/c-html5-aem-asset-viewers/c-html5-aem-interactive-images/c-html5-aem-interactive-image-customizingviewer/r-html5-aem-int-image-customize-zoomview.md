@@ -2,18 +2,17 @@
 description: A exibição principal consiste na imagem estática.
 solution: Experience Manager
 title: Exibição de zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Developer,Business Practitioner
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Visualização de zoom{#zoom-view}
+# Exibição de zoom{#zoom-view}
 
 A exibição principal consiste na imagem estática.
 
