@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador de imagem interativa.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
 role: Developer,Business Practitioner
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chama
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Uma referência para a instância do visualizador.
 
