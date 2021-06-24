@@ -2,16 +2,15 @@
 description: Um campo de metadados retornado pelo searchAssets.
 solution: Experience Manager
 title: Metadados
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic, SDK/API, Metadados
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
-
 
 # Metadados{#metadata}
 
@@ -29,4 +28,3 @@ Sintaxe
 | `*`longVal`*` | `xsd:long` | Valor de metadados longo (somente para campos sem tipo). |
 | `*`doubleVal`*` | `xsd:double` | Valor de metadados duplos (somente para campos de tipo flutuante). |
 | `*`dateVal`*` | `xsd:dateTime` | Valor dos metadados de data (somente para campos do tipo data). |
-
