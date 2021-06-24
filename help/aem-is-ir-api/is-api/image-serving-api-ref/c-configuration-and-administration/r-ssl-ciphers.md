@@ -2,18 +2,17 @@
 description: A tag Connector em server.xml oferece suporte a um atributo ciphers para limitar as cifras que podem ser escolhidas para uma conexão SSL.
 solution: Experience Manager
 title: Definição de cifras SSL
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-
-# Definindo cifras SSL{#defining-ssl-ciphers}
+# Definição de cifras SSL{#defining-ssl-ciphers}
 
 A tag Connector em server.xml oferece suporte a um atributo ciphers para limitar as cifras que podem ser escolhidas para uma conexão SSL.
 
