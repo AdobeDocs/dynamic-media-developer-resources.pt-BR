@@ -2,16 +2,15 @@
 description: O painel de resultados da pesquisa consiste na caixa de entrada da pesquisa na parte superior e na área principal onde as mensagens informativas ou os resultados da pesquisa são exibidos.
 solution: Experience Manager
 title: Painel de resultados da pesquisa
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
-
 
 # Painel de resultados da pesquisa{#search-results-panel}
 
@@ -396,4 +395,3 @@ Exemplo - para configurar um botão de rolagem para cima que tenha 125 x 35 pixe
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton[state='disabled'] { 
  background-image:url(images/sdk/searchpanel_scroll_down_disabled.png);
 ```
-
