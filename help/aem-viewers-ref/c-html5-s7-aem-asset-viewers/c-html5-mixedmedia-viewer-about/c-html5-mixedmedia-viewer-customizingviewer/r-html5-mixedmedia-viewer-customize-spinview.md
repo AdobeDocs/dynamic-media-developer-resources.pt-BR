@@ -2,18 +2,17 @@
 description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 solution: Experience Manager
 title: Exibição em rotação
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
-
-# Exibição de rotação{#spin-view}
+# Exibição em rotação{#spin-view}
 
 A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 
@@ -49,4 +48,3 @@ Exemplo - para tornar a exibição de rotação transparente.
  background-color: transparent; 
 }
 ```
-
