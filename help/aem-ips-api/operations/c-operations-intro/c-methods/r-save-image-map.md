@@ -2,16 +2,15 @@
 description: Crie um novo mapa de imagem ou edite um mapa existente.
 solution: Experience Manager
 title: saveImageMap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
-
 
 # saveImageMap{#saveimagemap}
 
@@ -135,4 +134,3 @@ Essa amostra de código cria um novo mapa de imagem para um ativo. Ele usa um ti
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-
