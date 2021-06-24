@@ -30,7 +30,7 @@ O tipo de visualizador é 511.
 
 Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Usando o Visualizador de carrossel {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Uso do Visualizador de carrossel {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 O Visualizador de carrossel representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
@@ -52,7 +52,7 @@ O visualizador é totalmente acessível por teclado.
 
 Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporando o Visualizador de carrossel {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Como incorporar o visualizador de carrossel {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **Sobre o modo pop-up**
 
