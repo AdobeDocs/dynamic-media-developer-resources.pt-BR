@@ -2,13 +2,12 @@
 description: Documentação de atributos de configuração para o Visualizador de carrossel.
 solution: Experience Manager
 title: Referência de comando - Atributos de configuração
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
