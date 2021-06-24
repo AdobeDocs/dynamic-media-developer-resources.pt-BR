@@ -2,16 +2,15 @@
 description: Análise JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que ele inicialmente mostre uma foto borrada/de baixa qualidade em sua totalidade. À medida que a digitalização continua, ela fica mais clara à medida que os dados da imagem são baixados com mais facilidade. Esse parâmetro permite definir o número de verificações necessárias (3, 4 ou 5) para que a imagem inteira seja exibida.
 solution: Experience Manager
 title: scan
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
-
 
 # scan{#pscan}
 
