@@ -2,16 +2,15 @@
 description: O eCatalog Search Viewer oferece suporte à renderização de ícones de mapa de imagem acima da exibição principal.
 solution: Experience Manager
 title: Suporte ao mapa de imagem
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
-
 
 # Suporte ao mapa de imagem{#image-map-support}
 
