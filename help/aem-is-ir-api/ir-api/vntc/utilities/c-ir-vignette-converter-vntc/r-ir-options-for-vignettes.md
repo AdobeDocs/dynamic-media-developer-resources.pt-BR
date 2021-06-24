@@ -2,16 +2,15 @@
 description: As opções a seguir controlam o processamento de arquivos de vinheta. Eles serão ignorados se sourceFile não for uma vinheta.
 solution: Experience Manager
 title: Opções de vinhetas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # Opções de vinhetas{#options-for-vignettes}
 
@@ -59,4 +58,3 @@ As opções a seguir controlam o processamento de arquivos de vinheta. Eles ser�
   <td class="stentry"> <p>Uma ou mais larguras de vinheta de saída em pixels. Ignorado se <span class="codeph"> -info</span> for especificado. <span class="varname"> </span> pode ser 0, o que indica a altura da vinheta de entrada. Consulte <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Escalonamento de vinheta</a> para obter informações detalhadas. </p></td> 
  </tr> 
 </table>
-
