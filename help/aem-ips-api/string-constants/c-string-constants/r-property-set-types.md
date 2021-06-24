@@ -2,18 +2,17 @@
 description: Usado por PropertySetType
 solution: Experience Manager
 title: Tipos de conjunto de propriedades
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 48c6a6fa-9d30-4318-bc7a-339a3f895006
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
 
-
-# Tipos de Conjunto de Propriedades{#property-set-types}
+# Tipos de conjunto de propriedades{#property-set-types}
 
 Usado por PropertySetType
 
@@ -24,4 +23,3 @@ Sintaxe
 * [!DNL `UserProperty`]
 * [!DNL `CompanyProperty`]
 * [!DNL `UserCompanyProperty`]
-
