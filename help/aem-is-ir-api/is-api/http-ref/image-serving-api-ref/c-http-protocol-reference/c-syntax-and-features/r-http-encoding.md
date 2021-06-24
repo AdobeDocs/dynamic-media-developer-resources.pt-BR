@@ -2,18 +2,17 @@
 description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
 solution: Experience Manager
 title: Codificação HTTP do Image Serving
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '234'
 ht-degree: 21%
 
 ---
 
-
-# Codificação HTTP de disponibilização de imagens{#image-serving-http-encoding}
+# Codificação HTTP do Image Serving{#image-serving-http-encoding}
 
 Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
@@ -99,7 +98,7 @@ Caso contrário, as regras de codificação HTTP padrão se aplicam. A especific
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>` </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60º </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -145,7 +144,7 @@ Caracteres reservados também devem ser codificados.
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>78º </p> </td> 
+   <td colname="col3"> <p>58º </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
