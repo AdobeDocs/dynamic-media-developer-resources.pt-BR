@@ -2,18 +2,17 @@
 description: Usado por PDFOoptions/type.
 solution: Experience Manager
 title: Processos em PDF
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4b389448-8611-4306-921a-bb1dd9361932
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '19'
 ht-degree: 0%
 
 ---
 
-
-# Processos PDF{#pdf-processes}
+# Processos em PDF{#pdf-processes}
 
 Usado por PDFOoptions/type.
 
@@ -24,4 +23,3 @@ Sintaxe
 * [!DNL `None`]
 * [!DNL `Rasterize`]
 * [!DNL `Thumbnail`]
-
