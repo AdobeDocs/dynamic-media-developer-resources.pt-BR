@@ -2,18 +2,17 @@
 description: Você pode usar o Serviço de imagem para gerenciar conteúdo não-imagem em catálogos e servi-lo por meio de um contexto separado /is/content.
 solution: Experience Manager
 title: Fornecer conteúdo estático (não imagem)
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-
-# Servindo conteúdo estático (não imagem){#serving-static-non-image-contents}
+# Fornecer conteúdo estático (não imagem){#serving-static-non-image-contents}
 
 Você pode usar o Serviço de imagem para gerenciar conteúdo não-imagem em catálogos e servi-lo por meio de um contexto separado /is/content.
 
@@ -112,7 +111,7 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagem, 
  </tbody> 
 </table>
 
-## Filtrar conteúdo estático {#section-4c41bf41ff994910840c1352683d1f37}
+## Filtragem de conteúdo estático {#section-4c41bf41ff994910840c1352683d1f37}
 
 Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supondo que o conteúdo estático seja marcado com valores `catalog::UserType` apropriados, o cliente pode adicionar o comando `type=` à solicitação. O Image Serving compara o valor fornecido com o comando `type=` com o valor de `catalog::UserType` e, no caso de uma incompatibilidade, retorna um erro em vez de conteúdo potencialmente inadequado.
 
