@@ -2,16 +2,15 @@
 description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
 solution: Experience Manager
 title: Barra de controle secundária
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
-
 
 # Barra de controle secundária{#secondary-control-bar}
 
@@ -58,4 +57,3 @@ Exemplo - para configurar uma barra de controle secundária cinza com 72 pixels 
  height: 72px; 
 }
 ```
-
