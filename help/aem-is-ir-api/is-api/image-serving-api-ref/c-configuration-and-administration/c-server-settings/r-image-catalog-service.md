@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para o serviço de catálogo de imagens.
 solution: Experience Manager
 title: Serviço de catálogo de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
 
 # Serviço de catálogo de imagens{#image-catalog-service}
 
@@ -29,6 +28,6 @@ A pasta raiz do cache do sistema de catálogo. Pode ser definido como o mesmo de
 
 Tempo em ms, o serviço de catálogo aguarda depois que um arquivo [!DNL catalog.ini] é alterado até que carregue os arquivos de catálogo secundário. Esse atraso ajuda a garantir que todos os arquivos de catálogo secundário estejam atualizados antes que o serviço de catálogo tente carregá-los. Valor inteiro em ms.
 
-## CS::catalog.refreshInterval - Frequência de verificação de arquivo do catálogo {#section-517fefc1d8784777a1026abec8630d58}
+## CS::catalog.refreshInterval - Frequência de verificação do arquivo de catálogo {#section-517fefc1d8784777a1026abec8630d58}
 
 Frequência na qual o serviço de catálogo verificará se ocorreram alterações nos catálogos de imagens. Valor inteiro em ms.
