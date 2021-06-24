@@ -2,16 +2,15 @@
 description: Opções de imagens do Photoshop.
 solution: Experience Manager
 title: PhotoshopOptions
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
-
 
 # PhotoshopOptions{#photoshopoptions}
 
@@ -46,4 +45,3 @@ Sintaxe
   </tr> 
  </tbody> 
 </table>
-
