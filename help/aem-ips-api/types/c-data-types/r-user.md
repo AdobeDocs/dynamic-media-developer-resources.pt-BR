@@ -2,16 +2,15 @@
 description: Um usuário de recursos e tipos no sistema.
 solution: Experience Manager
 title: Usuário
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5747f5bf-0175-4707-bfcb-1a9b97d7a24a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Usuário{#user}
 
@@ -30,4 +29,3 @@ Sintaxe
 | `*`defaultRole`*` | `xsd:string` | Define a função de um usuário em cada empresa à qual ele pertence. No entanto, a função de usuário `IpsAmin` substitui outras funções de usuário. |
 | `*`isValid`*` | `xsd:boolean` | Determina se o usuário é válido. |
 | `*`passwordExpires`*` | `xsd:dateTime` | Define a data de expiração da senha. |
-
