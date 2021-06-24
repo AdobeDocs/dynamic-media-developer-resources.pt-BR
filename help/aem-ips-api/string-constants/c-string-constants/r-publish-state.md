@@ -2,18 +2,17 @@
 description: Usado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
 solution: Experience Manager
 title: Estado de publicação
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '29'
 ht-degree: 0%
 
 ---
 
-
-# Publicar Estado{#publish-state}
+# Estado de publicação{#publish-state}
 
 Usado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
 
@@ -23,4 +22,3 @@ Sintaxe
 
 * [!DNL `MarkedForPublish`]
 * [!DNL `NotMarkedForPublish`]
-
