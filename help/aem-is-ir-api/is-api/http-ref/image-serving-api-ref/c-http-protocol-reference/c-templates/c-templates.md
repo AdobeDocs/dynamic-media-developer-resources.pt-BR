@@ -2,16 +2,15 @@
 description: Modelos podem ser usados para reduzir o comprimento e a complexidade das solicitações que compõe várias camadas de imagem ou que incluem texto formatado em rtf.
 solution: Experience Manager
 title: Modelos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
-
 
 # Modelos{#templates}
 
