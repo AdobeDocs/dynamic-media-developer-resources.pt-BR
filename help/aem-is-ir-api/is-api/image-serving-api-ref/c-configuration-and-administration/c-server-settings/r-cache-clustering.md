@@ -2,16 +2,15 @@
 description: Use essas configurações de servidor para clustering de cache.
 solution: Experience Manager
 title: Cluster do cache
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
-
 
 # Cluster do cache{#cache-clustering}
 
@@ -29,6 +28,6 @@ Defina como &#39;Sim&#39; se uma entrada de cache fornecida por um servidor de m
 
 Ao solicitar uma entrada de cache de servidores de mesmo nível, o servidor aguardará até que um servidor responda que tem esse item de dados específico, ou até que todos os servidores de mesmo nível tenham respondido que não têm o item de dados ou até que o tempo especificado com essa configuração (em ms) tenha expirado.
 
-## PS::cacheCluster.fetchTimeout - Tempo Limite de Busca {#section-41c42a29a26f43dc9cff50ad9fae1f14}
+## PS::cacheCluster.fetchTimeout - Tempo limite de busca {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
 Especifica o número máximo de ms que o servidor aguardará para que os dados do cache real sejam entregues a partir do servidor peer. Se os dados completos não tiverem sido entregues antes do tempo limite expirar, o servidor presumirá que o peer está indisponível. A entrada do cache é então gerada localmente.
