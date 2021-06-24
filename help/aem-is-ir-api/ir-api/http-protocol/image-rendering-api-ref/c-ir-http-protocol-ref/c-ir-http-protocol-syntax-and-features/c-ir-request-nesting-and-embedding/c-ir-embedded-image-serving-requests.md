@@ -2,16 +2,15 @@
 description: Uma solicitação do Servidor de imagem (IS) pode ser usada como uma imagem material.
 solution: Experience Manager
 title: Solicitações do servidor de imagem incorporado
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4ece9738-45e0-43c0-ba1c-2a05ef1f39be
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
-
 
 # Solicitações do servidor de imagem incorporado{#embedded-image-server-requests}
 
