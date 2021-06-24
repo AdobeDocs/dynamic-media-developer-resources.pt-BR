@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
+source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -22,8 +22,8 @@ Formato de imagem de resposta.
 
 | *`format`* | Descrição |
 |---|---|
-| `avif-alpha` | AVIF sem perdas e com perdas com o canal alfa <br><br>*Linha do tempo da versão para esse formato:* <br><b>América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 28 de junho de 2021<br><b>Ásia-Pacífico</b> - 29 de junho de 2021 |
-| `avif` | Linha do tempo de lançamento sem perdas e perdas do AVIF <br><br>*para este formato:*<br><b> América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 28 de junho de 2021<br><b>Ásia-Pacífico</b> - 29 de junho de 2021 |
+| `avif-alpha` | AVIF sem perdas e com perdas com o canal alfa <br><br>*Linha do tempo da versão para esse formato:* <br><b>América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 13 de agosto de 2021<br><b>Ásia-Pacífico</b> - 29 de junho de 2021 |
+| `avif` | Linha do tempo de lançamento sem perdas e perdas do AVIF <br><br>*para este formato:*<br><b> América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 13 de agosto de 2021<br><b>Ásia-Pacífico</b> - 29 de junho de 2021 |
 | `eps` | PostScript Encapsulado binário descompactado |
 | `f4m` | Formato de manifesto do servidor de transmissão do Flash |
 | `gif-alpha` | GIF com 2 a 255 cores mais transparência de cores-chave |
