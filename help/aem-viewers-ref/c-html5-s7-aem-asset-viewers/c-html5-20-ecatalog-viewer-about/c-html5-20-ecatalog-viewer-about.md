@@ -3,16 +3,15 @@ description: O eCatalog Viewer é um visualizador de catálogo que exibe folheto
 keywords: responsivo
 solution: Experience Manager
 title: Catálogo eletrônico
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
-
 
 # Catálogo eletrônico{#ecatalog}
 
@@ -83,13 +82,13 @@ Este visualizador também suporta entrada de toque e entrada de mouse em disposi
 
 Esse visualizador é totalmente acessível por teclado, conforme descrito em [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Ferramentas de compartilhamento de redes sociais com o Visualizador de catálogo eletrônico {#section-eb575084a99647c3a9591f439f40b412}
+## Ferramentas de compartilhamento em redes sociais com o Visualizador de catálogo eletrônico {#section-eb575084a99647c3a9591f439f40b412}
 
 O eCatalog Viewer oferece suporte a ferramentas de compartilhamento em redes sociais. Eles estão disponíveis como um botão na barra de controle principal, que se expande em uma barra de ferramentas de compartilhamento quando um usuário clica ou toca nela.
 
-A barra de ferramentas de compartilhamento contém ícones para cada tipo de canal de compartilhamento compatível, que inclui Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou o Twitter é chamado, o visualizador redireciona o usuário para um diálogo de compartilhamento padrão a partir de um serviço social. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
+A barra de ferramentas de compartilhamento contém ícones para cada tipo de canal de compartilhamento compatível, que inclui Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter é chamado, o visualizador redireciona o usuário para um diálogo de compartilhamento padrão a partir de um serviço social. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
-## Incorporando o Visualizador de Catálogo Eletrônico {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporando o visualizador de catálogo eletrônico {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
@@ -398,4 +397,3 @@ eCatalogViewer.init();
 </body> 
 </html>
 ```
-
