@@ -2,16 +2,15 @@
 description: Informações do log de trabalhos.
 solution: Experience Manager
 title: JobLogDetail
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
-
 
 # JobLogDetail{#joblogdetail}
 
@@ -29,4 +28,3 @@ Sintaxe
 | `*`assetType`*` | `xsd:string` | Escolha do tipo de ativo. |
 | `*`assetHandle`*` | `xsd:string` | Identificador de ativo referenciado no log de trabalho. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | Fornece informações adicionais detalhadas sobre o log de trabalhos além dos cinco tipos de log de trabalhos descritos acima. |
-
