@@ -2,16 +2,15 @@
 description: Um alerta de prioridade é enviado quando o espaço livre de heap do Java está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo do Java.
 solution: Experience Manager
 title: Alerta de prioridade de espaço de heap
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
-
 
 # Alerta de prioridade de espaço de heap{#heap-space-priority-alert}
 
