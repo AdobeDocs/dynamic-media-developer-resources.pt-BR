@@ -2,16 +2,15 @@
 description: Determinado conteúdo que o Visualizador de vídeo exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando não é possível reproduzir o vídeo.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
-
 
 # Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
@@ -255,11 +254,11 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar do Facebook. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP  </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar do Twitter. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
@@ -267,4 +266,3 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
  </tbody> 
 </table>
-
