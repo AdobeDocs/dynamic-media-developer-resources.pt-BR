@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
 title: getComponent**
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -76,7 +75,7 @@ Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente q
 
 Consulte a documentação da API do SDK do visualizador para obter mais informações sobre um componente específico.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
