@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador básico de zoom.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f142dd72-5e45-44f6-a79b-3eaf6a310bde
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -34,7 +33,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-z
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -43,4 +42,3 @@ Nenhum.
 ```
 <instance>.setParams("ZoomView.zoomfactor=2,3&ZoomView.iscommand=op_sharpen%3d1")
 ```
-
