@@ -2,16 +2,15 @@
 description: As seguintes propriedades de documento são suportadas em caixas de texto.
 solution: Experience Manager
 title: Propriedades do documento (caixa de texto)
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e9d21a39-4d98-4115-8179-ab5acf713c80
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # Propriedades do documento (caixa de texto){#document-text-box-properties}
 
@@ -128,4 +127,3 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
   </tr> 
  </tbody> 
 </table>
-
