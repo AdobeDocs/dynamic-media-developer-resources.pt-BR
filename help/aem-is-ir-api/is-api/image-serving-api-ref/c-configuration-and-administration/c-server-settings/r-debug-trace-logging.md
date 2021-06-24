@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para depurar o log de rastreamento.
 solution: Experience Manager
 title: Registro do Debug_trace
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
-
 
 # Registro do Debug_trace{#debug-trace-logging}
 
@@ -21,7 +20,7 @@ Use essas configurações do servidor para depurar o log de rastreamento.
 >
 >É recomendável configurar todos os arquivos de log a serem gravados na mesma pasta de `TC::directory`. Isso garante que todos os arquivos de log do Servidor de Imagens participem da rotação automática do arquivo de log configurada com `TC::maxDays`, o que impedirá uma possível instabilidade do servidor devido a condições de espaço insuficiente em disco.
 
-## SV::log - Caminho do Arquivo de Log do Supervisor Trace do Servidor {#section-3697bc480ff646e79cacc2812c55ef26}
+## SV::log - Caminho do Arquivo de Log de Rastreamento do Supervisor do Servidor {#section-3697bc480ff646e79cacc2812c55ef26}
 
 Nome da pasta e do arquivo base para arquivos de log do Server Supervisor. O caminho pode ser absoluto ou relativo a *[!DNL install_folder]*. O Supervisor de Servidor anexará um hífen e a data atual ( *[!DNL -yyyy-mm-dd]*) ao nome do arquivo (antes do sufixo do arquivo, se houver). É recomendável enviar todos os arquivos de log para a mesma pasta que os arquivos de log do Servidor de Plataforma ( `PS::LogFolder`) para aproveitar o gerenciamento de arquivos de log implementado pelo Servidor de Plataforma ( `PS::LogDays`). O padrão é [!DNL logs/Supervisor.log].
 
@@ -29,7 +28,7 @@ Nome da pasta e do arquivo base para arquivos de log do Server Supervisor. O cam
 >
 >A nova pasta deve ser criada antes de alterar essa configuração. Verifique se as permissões de acesso estão definidas para que o Supervisor de Servidor tenha os privilégios de criação, leitura e gravação necessários.
 
-## SV::tracelevel - Nível de Log de Rastreamento do Supervisor de Servidor {#section-36f8634741da4c618d67aa628b5fe474}
+## SV::tracelevel - Nível de Log de Rastreamento de Supervisor de Servidor {#section-36f8634741da4c618d67aa628b5fe474}
 
 O nível de log pode ser 1, 2, 3 ou 4. O padrão é 2.
 
