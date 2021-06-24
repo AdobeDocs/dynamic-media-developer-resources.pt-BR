@@ -2,16 +2,15 @@
 description: Retorna todos os campos de metadados, agrupados por tipo de ativo.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -68,4 +67,3 @@ Sintaxe
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
