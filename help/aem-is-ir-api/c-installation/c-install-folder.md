@@ -2,16 +2,15 @@
 description: A pasta de instalação do Image Serving (install_folder) é install_root/ImageServing.
 solution: Experience Manager
 title: Instalar pasta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
-
 
 # Instalar pasta{#install-folder}
 
