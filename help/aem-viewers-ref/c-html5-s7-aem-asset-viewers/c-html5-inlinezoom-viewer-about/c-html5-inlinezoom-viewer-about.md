@@ -29,7 +29,7 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 [http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400](http://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&amp;config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline&amp;stagesize=500,400)
 
-## Usando o Visualizador de Zoom em Linha {#section-f21ac23d3f6449ad9765588d69584772}
+## Uso do Visualizador de Zoom em Linha {#section-f21ac23d3f6449ad9765588d69584772}
 
 O Visualizador de Zoom em Linha representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador no tempo de execução.
 
@@ -250,7 +250,7 @@ Um caminho relativo é semelhante ao seguinte:
    </html>
    ```
 
-## Incorporação de design responsivo com altura sem restrições {#section-056cb574713c4d07be6d07cf3c598839}
+## Incorporação de design responsivo com altura irrestrita {#section-056cb574713c4d07be6d07cf3c598839}
 
 Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código HTML da página da Web seria semelhante ao seguinte:
 
