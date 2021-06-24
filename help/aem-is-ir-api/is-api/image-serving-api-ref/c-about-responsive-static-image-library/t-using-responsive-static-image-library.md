@@ -2,16 +2,15 @@
 description: Para adicionar a biblioteca de Imagem responsiva a uma página da Web e gerenciar imagens existentes com a biblioteca, conclua as etapas a seguir.
 solution: Experience Manager
 title: Uso da biblioteca de imagens responsivas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
-
 
 # Uso da biblioteca de imagens responsivas{#using-responsive-image-library}
 
