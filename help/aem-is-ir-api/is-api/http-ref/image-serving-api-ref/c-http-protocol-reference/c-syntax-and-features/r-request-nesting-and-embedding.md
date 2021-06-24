@@ -2,16 +2,15 @@
 description: O Serviço de Imagens oferece suporte ao aninhamento ilimitado de solicitações do Serviço de Imagens, incorporação de solicitações de Renderização de Imagens e incorporação de imagens recuperadas de servidores estrangeiros. Somente imagens de camada e máscaras de camada são compatíveis com esses mecanismos.
 solution: Experience Manager
 title: Solicitar aninhamento e incorporação
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
-
 
 # Solicitar aninhamento e incorporação{#request-nesting-and-embedding}
 
@@ -21,7 +20,7 @@ O Serviço de Imagens oferece suporte ao aninhamento ilimitado de solicitações
 >
 >Determinados clientes de email e servidores proxy podem codificar as chaves usadas para a sintaxe de aninhamento e incorporação. Os aplicativos para os quais isso é um problema devem usar parênteses em vez de chaves.
 
-## Solicitações de exibição de imagem aninhada {#section-6954202119e0466f8ff27c79f4f039c8}
+## Solicitações de disponibilização de imagens aninhadas {#section-6954202119e0466f8ff27c79f4f039c8}
 
 Uma solicitação de Exibição de imagem inteira pode ser usada como uma fonte de camada ao especificá-la no comando `src=` (ou `mask=`) usando a seguinte sintaxe:
 
@@ -53,7 +52,7 @@ Também são ignoradas `attribute::MaxPix`e `attribute::DefaultPix` do catálogo
 
 O resultado da imagem de uma solicitação IS aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando se espera que a imagem intermediária seja reutilizada num pedido diferente dentro de um período de tempo razoável. O gerenciamento de cache padrão do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
 
-## Solicitações de renderização de imagem incorporadas {#section-69c5548db930412b9b90d9b2951a6969}
+## Solicitações de Renderização de Imagem Incorporada {#section-69c5548db930412b9b90d9b2951a6969}
 
 Quando a Renderização de imagem do Dynamic Media está ativada no servidor, as solicitações de renderização podem ser usadas como fontes de camada, especificando-as no comando src= (ou mask=). Use a seguinte sintaxe:
 
