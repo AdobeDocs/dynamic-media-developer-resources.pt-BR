@@ -2,16 +2,15 @@
 description: As miniaturas consistem em uma grade de imagens em miniatura com uma barra de rolagem opcional no lado direito para permitir a rolagem vertical.
 solution: Experience Manager
 title: Miniaturas
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
-
 
 # Miniaturas{#thumbnails}
 
@@ -399,4 +398,3 @@ Exemplo - para configurar botões de rolagem que são 28 x 32 pixels e têm arte
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
