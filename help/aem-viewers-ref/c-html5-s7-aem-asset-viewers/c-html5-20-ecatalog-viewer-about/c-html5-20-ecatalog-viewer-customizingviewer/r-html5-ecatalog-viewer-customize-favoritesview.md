@@ -2,16 +2,15 @@
 description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
 solution: Experience Manager
 title: Exibição de favoritos
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
-
 
 # Exibição de favoritos{#favorites-view}
 
@@ -149,4 +148,3 @@ Exemplo - para configurar rótulos com uma fonte Helvetica de 14 pixels.
  font-size: 14px; 
 }
 ```
-
