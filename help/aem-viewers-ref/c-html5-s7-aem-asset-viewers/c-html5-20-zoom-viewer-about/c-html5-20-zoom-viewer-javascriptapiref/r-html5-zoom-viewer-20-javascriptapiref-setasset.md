@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4fc94f30-e330-4c8a-b6da-d870e4f8e4ab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
-
 
 # setAsset{#setasset}
 
@@ -32,7 +31,7 @@ Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -67,4 +66,3 @@ Modificador de nitidez adicionado a todas as imagens no conjunto:
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample?op_sharpen=1")
 ```
-
