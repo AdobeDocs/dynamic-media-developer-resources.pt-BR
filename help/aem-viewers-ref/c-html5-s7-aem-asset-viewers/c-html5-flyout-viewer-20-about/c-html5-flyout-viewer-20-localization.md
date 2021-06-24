@@ -2,16 +2,15 @@
 description: Determinado conteúdo que o Visualizador de Flyout exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e mensagens de informações exibidas pela visualização de zoom de flyout durante o carregamento.
 solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
-
 
 # Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
@@ -91,4 +90,3 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
  </tbody> 
 </table>
-
