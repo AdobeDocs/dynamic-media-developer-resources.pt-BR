@@ -2,18 +2,17 @@
 description: A posição do botão Adicionar favorito é totalmente gerenciada pelo menu Favoritos.
 solution: Experience Manager
 title: Botão Adicionar favorito
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 703b57c0-b764-44c0-a1c1-37f7dd8836f3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
 
-
-# Botão Adicionar Favorito{#add-favorite-button}
+# Botão Adicionar favorito{#add-favorite-button}
 
 A posição do botão Adicionar favorito é totalmente gerenciada pelo menu Favoritos.
 
@@ -86,4 +85,3 @@ background-image:url(images/v2/AddFavoriteButton_dark_over.png);
 background-image:url(images/v2/AddFavoriteButton_dark_disabled.png); 
 }
 ```
-
