@@ -2,16 +2,15 @@
 description: O zoom segmenta os dados do catálogo de imagens. Retorna dados de destino de zoom para a entrada do catálogo de imagens especificada no caminho do URL.
 solution: Experience Manager
 title: targets
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
-
 
 # targets{#targets}
 
