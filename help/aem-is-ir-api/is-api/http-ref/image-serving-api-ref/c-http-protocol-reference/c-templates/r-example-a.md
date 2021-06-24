@@ -2,16 +2,15 @@
 description: Crie um modelo de tamanho fixo com uma imagem de plano de fundo estática, uma imagem variável alinhada ao plano de fundo no centro esquerdo e dimensionada para não exceder 80% da largura e altura do plano de fundo e uma camada de texto com texto vertical centralizado na borda direita da tela.
 solution: Experience Manager
 title: Exemplo A
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
-
 
 # Exemplo A{#example-a}
 
@@ -46,11 +45,10 @@ O texto de exibição real será fornecido em tempo de execução, de modo que u
 
 Qualquer imagem pode ser usada para a imagem de plano de fundo e a imagem da camada 1. Se a imagem de plano de fundo tiver uma máscara, as áreas não mascaradas serão preenchidas com a cor de plano de fundo padrão ( `attribute::BkgColor`) ou deixadas transparentes quando `fmt=png-alpha` ou `fmt=tif-alpha`. Se a imagem de plano de fundo tiver uma proporção não quadrada, ela será centralizada na imagem de resposta e o espaço extra será preenchido com `attribute::BkgColor`. Se a imagem da camada 1 tiver dados alfa ou uma máscara, a imagem do plano de fundo (ou cor do plano de fundo) permanecerá visível nas áreas transparentes. Se a imagem não tiver máscara, ela preencherá o retângulo alocado inteiro.
 
-## Uso do modelo {#section-3e04eedc268c482db5a8cfc662c0f327}
+## Uso do template {#section-3e04eedc268c482db5a8cfc662c0f327}
 
 ` http:// *`server`*/myRootId/anotherImage?template=myTemplate1&$text=about+the+image`
 
 A ilustração a seguir mostra o resultado composto para diferentes proporções da imagem da camada 1 e diferentes sequências de texto.
 
 ![](assets/exampleausing.png)
-
