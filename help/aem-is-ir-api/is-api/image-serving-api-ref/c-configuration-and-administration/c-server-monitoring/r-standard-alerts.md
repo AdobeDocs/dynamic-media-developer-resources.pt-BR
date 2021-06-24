@@ -2,16 +2,15 @@
 description: Os alertas padrão são enviados com uma mensagem de email consolidada no final do intervalo de média configurado.
 solution: Experience Manager
 title: Alertas padrão
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: eb691988-9f03-463f-bed5-2c230431f537
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
-
 
 # Alertas padrão{#standard-alerts}
 
@@ -55,4 +54,3 @@ A tabela a seguir descreve cada tipo de alerta padrão.
   </tr> 
  </tbody> 
 </table>
-
