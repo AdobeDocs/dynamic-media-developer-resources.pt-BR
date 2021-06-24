@@ -2,18 +2,17 @@
 description: Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não pode ser aberta ou lida com êxito.
 solution: Experience Manager
 title: Redirecionar para erro
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-
-# Redirecionar no erro{#redirect-on-error}
+# Redirecionar para erro{#redirect-on-error}
 
 Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não pode ser aberta ou lida com êxito.
 
