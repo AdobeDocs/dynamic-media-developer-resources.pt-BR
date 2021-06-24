@@ -2,16 +2,15 @@
 description: Determina se um lote de ativos está pronto para ser publicado.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
-
 
 # setAssetsPublishState{#setassetspublishstate}
 
@@ -83,4 +82,3 @@ Essa amostra de código define o estado da publicação de um ativo.
    </complexType>
 </element>
 ```
-
