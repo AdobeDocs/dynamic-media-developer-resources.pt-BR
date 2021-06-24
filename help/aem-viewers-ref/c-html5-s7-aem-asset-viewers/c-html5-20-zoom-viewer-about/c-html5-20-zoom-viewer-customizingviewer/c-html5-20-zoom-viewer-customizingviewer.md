@@ -3,18 +3,17 @@ description: Toda a personalização visual e a maioria dos comportamentos do Vi
 keywords: responsivo
 solution: Experience Manager
 title: Personalização do Visualizador de Zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 336bf68c-6110-4ce8-85b4-28d7397044c2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
 
-
-# Personalizar Visualizador de Zoom{#customizing-zoom-viewer}
+# Personalização do Visualizador de Zoom{#customizing-zoom-viewer}
 
 Toda a personalização visual e a maioria dos comportamentos do Visualizador de Zoom é feita criando um CSS personalizado.
 
@@ -172,7 +171,7 @@ background-position: -0px -560px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 * Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
@@ -183,6 +182,6 @@ background-position: -0px -560px;
 * Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
 * Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
-## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Veja a seguir a documentação de referência dos elementos da interface do usuário que se aplica ao Visualizador de vídeo:
