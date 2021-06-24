@@ -2,13 +2,12 @@
 description: Atributo de configuração para o Visualizador de vídeo interativo.
 solution: Experience Manager
 title: callToActionRecap
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: a91c957f-5ad2-4022-afde-de129b060576
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '41'
 ht-degree: 4%
 
 ---
