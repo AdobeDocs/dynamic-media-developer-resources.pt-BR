@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -36,7 +35,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-vi
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
