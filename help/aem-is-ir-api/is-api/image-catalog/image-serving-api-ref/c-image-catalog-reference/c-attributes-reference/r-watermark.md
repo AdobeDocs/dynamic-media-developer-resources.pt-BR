@@ -2,16 +2,15 @@
 description: Seletor de marca d'água. Especifica a ID de catálogo do registro de catálogo a ser usado como imagem de marca d'água ou modelo.
 solution: Experience Manager
 title: Marca d'água
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 54c27ea0-e87f-41ce-ae8d-71c9fabe412e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
-
 
 # Marca d&#39;água{#watermark}
 
