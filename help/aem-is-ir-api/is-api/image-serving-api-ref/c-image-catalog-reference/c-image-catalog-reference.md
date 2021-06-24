@@ -2,16 +2,15 @@
 description: Os catálogos de imagens fornecem informações sobre imagens e dados de suporte, como fontes e perfis ICC, ao servidor.
 solution: Experience Manager
 title: Referência do catálogo de imagens
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
-
 
 # Referência do catálogo de imagens{#image-catalog-reference}
 
