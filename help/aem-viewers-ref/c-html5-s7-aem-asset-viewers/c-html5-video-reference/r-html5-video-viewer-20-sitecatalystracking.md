@@ -2,16 +2,15 @@
 description: O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
@@ -88,4 +87,3 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
  </tbody> 
 </table>
-
