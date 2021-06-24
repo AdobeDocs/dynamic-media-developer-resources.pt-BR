@@ -2,16 +2,15 @@
 description: Registro da string de pesquisa extraído de um arquivo PDF.
 solution: Experience Manager
 title: SearchStrings
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 1%
 
 ---
-
 
 # SearchStrings{#searchstrings}
 
@@ -32,4 +31,3 @@ Sintaxe
 | `*`altura`*` | `xsd:int` | Altura da string de pesquisa. |
 | `*`fontName`*` | `xsd:string` | Nome da fonte usada na string de pesquisa. |
 | `*`pointSize`*` | `xsd:string` | Tamanho da fonte. |
-
