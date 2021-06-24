@@ -3,13 +3,12 @@ description: Toda personalização visual e a maioria dos comportamentos do Visu
 keywords: responsivo
 solution: Experience Manager
 title: Personalizar o Visualizador de carrossel
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1344'
 ht-degree: 0%
 
 ---
@@ -134,7 +133,7 @@ Usando uma abordagem de consultas de mídia, você deve organizar o CSS com dete
 
 Não há necessidade de duplicar todo o CSS do visualizador em cada consulta de mídia. Somente as propriedades específicas de determinados dispositivos são redefinidas em uma consulta de mídia.
 
-## Primatas CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
+## Modelos CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
 Muitos elementos da interface do usuário do visualizador são estilizados usando a arte-final de bitmap e têm mais de um estado visual distinto. Um bom exemplo é um botão que normalmente tem pelo menos três estados diferentes: `up`, `over` e `down`. Cada estado requer sua própria arte bitmap atribuída.
 
@@ -165,7 +164,7 @@ background-position: -0px -0px; width: 56px; height: 56px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. O motivo para isso é que pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia Referência de visualizadores .
 * Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize todos os caminhos no CSS personalizado.
