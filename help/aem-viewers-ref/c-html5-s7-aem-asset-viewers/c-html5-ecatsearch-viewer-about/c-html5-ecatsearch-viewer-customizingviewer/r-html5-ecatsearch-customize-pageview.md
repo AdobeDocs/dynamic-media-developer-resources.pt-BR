@@ -2,18 +2,17 @@
 description: A exibição principal consiste na imagem do catálogo. Ele pode ser deslizado para chegar a outra página ou ampliado.
 solution: Experience Manager
 title: Exibição da página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-
-# Exibição de página{#page-view}
+# Exibição da página{#page-view}
 
 A exibição principal consiste na imagem do catálogo. Ele pode ser deslizado para chegar a outra página ou ampliado.
 
@@ -175,4 +174,3 @@ cursor:url(images/slide_cursor.cur), auto;
 cursor:url(images/drag_cursor.cur), auto; 
 }
 ```
-
