@@ -2,16 +2,15 @@
 description: Exclui um tipo de conjunto de propriedades e seu conjunto de propriedades e propriedades associados.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # deletePropertySetType{#deletepropertysettype}
 
