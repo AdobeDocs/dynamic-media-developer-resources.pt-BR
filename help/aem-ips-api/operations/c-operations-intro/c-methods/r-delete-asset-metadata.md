@@ -2,16 +2,15 @@
 description: Exclui valores de metadados para um ativo. Funciona com uma matriz de exclusão de metadados para definir valores em um lote.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
-
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
@@ -104,4 +103,3 @@ Exemplo de chamada
  </deleteAssetMetadataParam>
 </ac:Request>
 ```
-
