@@ -2,16 +2,15 @@
 description: O indicador Set é uma série de pontos renderizados sobre as amostras principais quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 solution: Experience Manager
 title: Definir indicador
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
-
 
 # Definir indicador{#set-indicator}
 
@@ -118,4 +117,3 @@ Exemplo - para configurar o ponto indicador de configuração como 15 x 15 pixel
  background-color:#939393;  
 }
 ```
-
