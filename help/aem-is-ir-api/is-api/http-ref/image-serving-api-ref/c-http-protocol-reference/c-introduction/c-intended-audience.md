@@ -2,16 +2,15 @@
 description: Programadores experientes e desenvolvedores de sites que desejam utilizar o Dynamic Media Image Serving para um site ou aplicativo personalizado.
 solution: Experience Manager
 title: Público-alvo pretendido
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7fea6da0-2cb4-4d49-9b1d-60d2cf56a3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # Público-alvo pretendido{#intended-audience}
 
