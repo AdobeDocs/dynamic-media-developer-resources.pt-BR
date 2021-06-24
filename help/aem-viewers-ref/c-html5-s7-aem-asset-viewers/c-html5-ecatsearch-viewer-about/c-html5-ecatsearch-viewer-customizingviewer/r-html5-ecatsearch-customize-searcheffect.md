@@ -2,16 +2,15 @@
 description: O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
 solution: Experience Manager
 title: Efeito de pesquisa
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3591edb0-4b0a-4761-af87-c372132c5138
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
-
 
 # Efeito de pesquisa{#search-effect}
 
@@ -47,4 +46,3 @@ Exemplo - para configurar regiões de resultados de pesquisa com um preenchiment
  background: rgba(255,255,0, 0.5); 
 }
 ```
-
