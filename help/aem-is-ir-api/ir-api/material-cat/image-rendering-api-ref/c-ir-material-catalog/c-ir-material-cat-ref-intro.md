@@ -2,16 +2,15 @@
 description: Este documento descreve o catálogo de materiais para a Renderização de Imagens do Dynamic Media.
 solution: Experience Manager
 title: Introdução
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introdução{#introduction}
 
@@ -91,4 +90,3 @@ Pressupõe-se que o leitor esteja familiarizado com a Criação e renderização
   <td class="stentry"> <p>O espaço em branco (espaços ou tabulações) não é permitido em solicitações HTTP. Este documento usa ocasionalmente o espaço em branco entre elementos sintáticos apenas para maior clareza. </p> </td> 
  </tr> 
 </table>
-
