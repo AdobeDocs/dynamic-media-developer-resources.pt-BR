@@ -2,16 +2,15 @@
 description: Um trabalho que é executado em um servidor. Além disso, é uma instância de um trabalho agendado.
 solution: Experience Manager
 title: AtiveJob
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
-
 
 # AtiveJob{#activejob}
 
@@ -175,4 +174,3 @@ Especifique um valor do tipo de trabalho para retornar o tipo de trabalho. Você
   </tr> 
  </tbody> 
 </table>
-
