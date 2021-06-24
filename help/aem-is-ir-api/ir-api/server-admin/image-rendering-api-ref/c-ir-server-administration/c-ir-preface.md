@@ -2,16 +2,15 @@
 description: Esta documentação discute problemas de administração do servidor e descreve as configurações da Renderização de imagem do Dynamic Media.
 solution: Experience Manager
 title: Prefácio de administração do servidor
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
-
 
 # Prefácio de administração do servidor{#server-administration-preface}
 
@@ -51,4 +50,3 @@ Os itens descritos nesta documentação geralmente recebem o prefixo dos seguint
   <td class="stentry"> <p>Um nome com prefixo 'padrão::' refere-se a um atributo do catálogo de imagens padrão. </p></td> 
  </tr> 
 </table>
-
