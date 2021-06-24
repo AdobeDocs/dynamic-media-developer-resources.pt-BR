@@ -2,16 +2,15 @@
 description: Clicar ou tocar nesse botão traz o usuário para a próxima página no catálogo. Esse botão aparece na barra de controle principal. Este botão não é exibido em telefones celulares para salvar propriedades de tela. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Próxima página
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6b94e583-fb2a-4010-bfc6-4fa901252e4e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
-
 
 # Botão Próxima página{#next-page-button}
 
@@ -96,4 +95,3 @@ background-image:url(images/v2/ToolBarRightButton_dark_down.png);
 background-image:url(images/v2/ToolBarRightButton_dark_disabled.png); 
 }
 ```
-
