@@ -2,16 +2,15 @@
 description: textPs= suporta vários modelos de uso diferentes descritos nesta seção.
 solution: Experience Manager
 title: Camadas de texto
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
-
 
 # Camadas de texto{#text-layers}
 
@@ -50,7 +49,7 @@ Se `size=` for especificado além de `textPs=` (sem `textPath=` e `textFlowPath=
 
 Todos os comandos RTF são aplicados conforme esperado.
 
-## Caixa de texto de altura variável {#section-e1233d1c9f8e43218667361dc0c4fd06}
+## Caixa de texto Altura da variável {#section-e1233d1c9f8e43218667361dc0c4fd06}
 
 Especificar `size=` com altura 0 permite que a caixa de texto seja dimensionada verticalmente para acomodar todo o conteúdo. A largura da camada é definida pela largura de `size=` e a altura da camada pela altura do texto renderizado real. A camada é posicionada como de costume. Os glifos de caracteres próximos às bordas esquerda e direita da caixa de texto podem ser renderizados parcialmente fora da caixa de texto.
 
