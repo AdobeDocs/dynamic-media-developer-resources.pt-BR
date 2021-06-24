@@ -2,18 +2,17 @@
 description: Nitidez. O atributo de nitidez determina quando o material é aprimorado durante a renderização.
 solution: Experience Manager
 title: Nitidez
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
 
-
-# Sharp{#sharp}
+# Nitidez{#sharp}
 
 Nitidez. O atributo de nitidez determina quando o material é aprimorado durante a renderização.
 
@@ -29,7 +28,7 @@ Enum.
   <td class="stentry"> <p>Sem nitidez. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Nitidez normal (após a transformação). </p></td> 
  </tr> 
  <tr class="strow"> 
