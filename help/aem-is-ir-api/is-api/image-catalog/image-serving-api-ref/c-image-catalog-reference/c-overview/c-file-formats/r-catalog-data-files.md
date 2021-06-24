@@ -2,18 +2,17 @@
 description: Os arquivos de dados do catálogo podem ter qualquer nome e sufixo de arquivo (exceto .ini). Eles podem ser mantidos prontamente usando aplicativos que suportam arquivos de dados de texto delimitados por tabulação, como Microsoft Excel e Access.
 solution: Experience Manager
 title: Arquivos de dados do catálogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
-
-# Arquivos de dados de catálogo{#catalog-data-files}
+# Arquivos de dados do catálogo{#catalog-data-files}
 
 Os arquivos de dados do catálogo podem ter qualquer nome e sufixo de arquivo (exceto .ini). Eles podem ser mantidos prontamente usando aplicativos que suportam arquivos de dados de texto delimitados por tabulação, como Microsoft Excel e Access.
 
