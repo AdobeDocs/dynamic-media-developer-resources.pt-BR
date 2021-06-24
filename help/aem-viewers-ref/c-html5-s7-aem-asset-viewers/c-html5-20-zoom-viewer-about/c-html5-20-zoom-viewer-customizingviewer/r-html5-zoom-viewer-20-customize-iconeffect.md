@@ -2,16 +2,15 @@
 description: O indicador de zoom é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
 solution: Experience Manager
 title: Efeito de ícone
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
 
 # Efeito de ícone{#icon-effect}
 
@@ -72,4 +71,3 @@ Exemplo - para configurar um indicador de zoom de 100 x 100 pixels com arte dife
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-
