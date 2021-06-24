@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
-
 
 # setParams{#setparams}
 
@@ -34,7 +33,7 @@ Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-refe
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
@@ -43,4 +42,3 @@ Nenhum.
 ```
 <instance>.setParams("style=customStyle.css&VideoPlayer.playback=progressive")
 ```
-
