@@ -2,16 +2,15 @@
 description: Use essas configurações do servidor para definir limites de alerta.
 solution: Experience Manager
 title: Limites de alerta
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
-
 
 # Limites de alerta{#alert-thresholds}
 
@@ -35,7 +34,7 @@ Valor real entre 0.0 e 1.0. Normalmente, é definido como entre 0.005 e 0.1. Def
 
 Um alerta de tráfego mínimo é enviado quando o número médio de solicitações por segundo recebidas durante o intervalo de amostragem atual cair abaixo desse limite. Desative o alerta definindo esse valor como 0. Expresso em solicitações por segundo. Valor real 0 ou maior.
 
-## AS::monitorAlertGenerator.minFreeHeapSpace -Limite de espaço livre do heap {#section-ce6705045f6842769030ccb1894594cc}
+## AS::monitorAlertGenerator.minFreeHeapSpace -Limite de espaço livre no heap {#section-ce6705045f6842769030ccb1894594cc}
 
 Especifica o espaço mínimo gratuito de heap Java. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre de heap estiver abaixo desse limite. Recomenda-se 50 MB para a operação segura do Servidor da Plataforma. Manter o espaço livre de heap acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
 
@@ -45,7 +44,7 @@ Um alerta de sobreposição é acionado quando o número médio de solicitaçõe
 
 Valor inteiro 1 ou maior. O intervalo típico é de 20 a 50, dependendo da taxa de ocorrência do cache e da complexidade da solicitação.
 
-## AS::monitorAlertGenerator.lockedThreshold - Limite de Solicitação Bloqueada {#section-012a1c9937d445708380339279c62d80}
+## AS::monitorAlertGenerator.lockedThreshold - Limite de solicitação bloqueada {#section-012a1c9937d445708380339279c62d80}
 
 Especifica o número de segundos que uma solicitação deve estar pendente antes de ser considerada bloqueada ou suspensa. Um alerta de solicitação bloqueada é emitido se, no final de um intervalo de média, pelo menos uma solicitação estiver pendente por mais do que o período especificado. Valor inteiro positivo em ms.
 
