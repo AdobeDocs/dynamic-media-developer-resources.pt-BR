@@ -2,18 +2,17 @@
 description: Destaque do foco de entrada exibido ao redor do elemento da interface do usuário do visualizador focado.
 solution: Experience Manager
 title: Destaque da focagem
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3d5737d7-1295-46a9-9b84-c43269e5a914
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-
-# Destaque do foco{#focus-highlight}
+# Destaque da focagem{#focus-highlight}
 
 Destaque do foco de entrada exibido ao redor do elemento da interface do usuário do visualizador focado.
 
@@ -43,4 +42,3 @@ Exemplo - para desativar o realce de foco padrão do navegador para todos os ele
  outline: none; 
 }
 ```
-
