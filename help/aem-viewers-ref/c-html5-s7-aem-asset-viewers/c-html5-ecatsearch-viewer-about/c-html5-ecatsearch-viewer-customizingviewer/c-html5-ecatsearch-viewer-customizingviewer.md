@@ -165,7 +165,7 @@ background-position: -0px -560px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 * Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
 * Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
-## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 A seguir estão os elementos da interface do usuário que fazem referência à documentação que se aplica ao eCatalog Search Viewer:
 
