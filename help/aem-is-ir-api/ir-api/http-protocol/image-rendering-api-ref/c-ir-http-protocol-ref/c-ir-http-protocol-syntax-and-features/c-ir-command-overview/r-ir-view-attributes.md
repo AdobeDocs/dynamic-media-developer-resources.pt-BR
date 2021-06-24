@@ -2,16 +2,15 @@
 description: Esses comandos são independentes de posição e podem ocorrer em qualquer lugar de uma solicitação.
 solution: Experience Manager
 title: Exibir atributos
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
-
 
 # Exibir atributos{#view-attributes}
 
@@ -71,4 +70,3 @@ Esses comandos são independentes de posição e podem ocorrer em qualquer lugar
   <td class="stentry"> <p>Substitua o comportamento padrão de armazenamento em cache de resposta. </p></td> 
  </tr> 
 </table>
-
