@@ -2,16 +2,15 @@
 description: Na sequência de comando do Modificador de URL ou catálogo, uma sequência de definição de camada começa com o comando layer= e termina com outro comando layer=, um comando event= ou o final do URL.
 solution: Experience Manager
 title: Especificação de camadas
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
-
 
 # Especificação de camadas{#specifying-layers}
 
