@@ -2,16 +2,15 @@
 description: Caminho do arquivo de dados do catálogo. Especifica o arquivo que contém os dados de material para este catálogo.
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # CatalogFile{#catalogfile}
 
