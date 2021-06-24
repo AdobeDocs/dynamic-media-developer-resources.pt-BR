@@ -2,16 +2,15 @@
 description: Os arquivos de atributos de catálogo reconhecem esses atributos de vídeo.
 solution: Experience Manager
 title: Atributos de vídeo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c6bf2736-df10-41a2-b3ec-c930d6881f20
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Atributos de vídeo{#video-attributes}
 
@@ -27,4 +26,3 @@ Os arquivos de atributos de catálogo reconhecem esses atributos de vídeo.
   <td class="stentry"> <p>Prefixo do URL do servidor de transmissão do Flash. </p></td> 
  </tr> 
 </table>
-
