@@ -2,16 +2,15 @@
 description: Definição de meta para uma ação de clique no navegador.
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 1%
 
 ---
-
 
 # ImageMapDefinition{#imagemapdefinition}
 
@@ -28,4 +27,3 @@ Sintaxe
 | `*`região`*` | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado nos atributos de tag HTML `<area>` . |
 | `*`ação`*` | `xsd:string` | Outros atributos a serem incluídos na tag HTML `<area>` , incluindo a URL `href`. |
 | `*`ativado`*` | `xsd:boolean` | Verdadeiro se o mapa de imagem estiver ativado. |
-
