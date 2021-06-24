@@ -2,14 +2,13 @@
 description: Referência da API do JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
 title: CarouselViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +37,7 @@ Construtor, cria uma nova instância do Visualizador de carrossel HTML 5.
  </tbody> 
 </table>
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Nenhum.
 
