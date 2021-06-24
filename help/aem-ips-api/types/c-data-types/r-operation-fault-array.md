@@ -2,16 +2,15 @@
 description: Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de invalidação CDN.
 solution: Experience Manager
 title: OperationFaultArray
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
-
 
 # OperationFaultArray{#operationfaultarray}
 
@@ -39,4 +38,3 @@ Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de inva
   </tr> 
  </tbody> 
 </table>
-
