@@ -29,7 +29,7 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 [https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## Usando o Flyout Viewer {#section-f21ac23d3f6449ad9765588d69584772}
+## Uso do Flyout Viewer {#section-f21ac23d3f6449ad9765588d69584772}
 
 O Flyout Viewer representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução
 
@@ -39,7 +39,7 @@ A configuração e o esfolamento são semelhantes aos dos outros visualizadores.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagir com o Visualizador de Flyout {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interação com o Flyout Viewer {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 O Flyout Viewer suporta gestos de toque único e multitoque comuns em outros aplicativos móveis.
 
@@ -223,7 +223,7 @@ Um caminho relativo é semelhante ao seguinte:
    </html>
    ```
 
-## Incorporação de design responsivo com altura sem restrições {#section-056cb574713c4d07be6d07cf3c598839}
+## Incorporação de design responsivo com altura irrestrita {#section-056cb574713c4d07be6d07cf3c598839}
 
 Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código HTML da página da Web seria semelhante ao seguinte:
 
