@@ -2,16 +2,15 @@
 description: A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
 solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
-
 
 # Área do visualizador principal{#main-viewer-area}
 
@@ -59,4 +58,3 @@ Exemplo - para configurar um visualizador de flyout com fundo branco ( `#FFFFFF`
  height: 500px;  
 }
 ```
-
