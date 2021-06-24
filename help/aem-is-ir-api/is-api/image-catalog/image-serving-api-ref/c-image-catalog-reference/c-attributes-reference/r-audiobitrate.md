@@ -2,16 +2,15 @@
 description: Taxa de bits de áudio. Valor longo que representa a taxa de bits de áudio do ativo de vídeo.
 solution: Experience Manager
 title: AudioBitRate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
-
 
 # AudioBitRate{#audiobitrate}
 
