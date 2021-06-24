@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de Zoom em Linha
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -60,7 +59,7 @@ Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente q
 
 Consulte a documentação do SDK do visualizador para obter mais informações sobre um componente específico.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
@@ -73,4 +72,3 @@ Consulte a documentação do SDK do visualizador para obter mais informações s
 } 
 })
 ```
-
