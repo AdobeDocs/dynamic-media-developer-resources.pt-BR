@@ -2,16 +2,15 @@
 description: O Visualizador de catálogo eletrônico oferece suporte à renderização de ícones de mapa de imagem acima da exibição principal.
 solution: Experience Manager
 title: Suporte ao mapa de imagem
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7a2a58f9-852e-4205-96bc-08332507b6cd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
-
 
 # Suporte ao mapa de imagem{#image-map-support}
 
