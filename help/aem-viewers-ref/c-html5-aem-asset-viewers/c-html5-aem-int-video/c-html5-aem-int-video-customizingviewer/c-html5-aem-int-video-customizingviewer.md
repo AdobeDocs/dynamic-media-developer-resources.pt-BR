@@ -3,13 +3,12 @@ description: Toda personalização visual e a maioria dos comportamentos do Visu
 keywords: responsivo
 solution: Experience Manager
 title: Personalizar visualizador de vídeo interativo
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,Business Practitioner
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -222,7 +221,7 @@ background-position: -0px -1120px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 
@@ -235,6 +234,6 @@ background-position: -0px -1120px;
 * Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
 * Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
-## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Veja a seguir a documentação de referência dos elementos da interface do usuário que se aplica ao Visualizador de vídeo interativo:
