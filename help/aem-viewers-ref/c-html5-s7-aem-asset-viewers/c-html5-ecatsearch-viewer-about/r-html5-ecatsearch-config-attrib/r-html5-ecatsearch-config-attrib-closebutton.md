@@ -2,18 +2,17 @@
 description: Botão Fechar
 solution: Experience Manager
 title: Botão Fechar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 3%
+source-wordcount: '49'
+ht-degree: 4%
 
 ---
 
-
-# Closebutton{#closebutton}
+# Botão Fechar{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
@@ -39,4 +38,3 @@ Opcional.
 ```
 closebutton=1
 ```
-
