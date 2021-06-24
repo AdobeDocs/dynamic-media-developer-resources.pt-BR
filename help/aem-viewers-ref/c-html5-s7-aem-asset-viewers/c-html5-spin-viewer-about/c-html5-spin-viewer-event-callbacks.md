@@ -2,16 +2,15 @@
 description: Retornos de chamada do evento
 solution: Experience Manager
 title: Retornos de chamada do evento
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 26f1dd99-fee9-4a71-9ec1-cfd1e29cb886
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # Retornos de chamada do evento{#event-callbacks}
 
