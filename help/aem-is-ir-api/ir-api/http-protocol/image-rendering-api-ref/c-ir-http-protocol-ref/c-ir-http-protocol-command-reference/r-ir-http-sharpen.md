@@ -2,18 +2,17 @@
 description: Imagem de resposta nítida. A nitidez opcional pode ser aplicada depois que a imagem renderizada é dimensionada com base em wid= ou hei=.
 solution: Experience Manager
 title: afiador
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
 
-
-# nitidez{#sharpen}
+# afiador{#sharpen}
 
 Imagem de resposta nítida. A nitidez opcional pode ser aplicada depois que a imagem renderizada é dimensionada com base em wid= ou hei=.
 
@@ -25,7 +24,7 @@ Imagem de resposta nítida. A nitidez opcional pode ser aplicada depois que a im
   <td class="stentry"> <p>Sem nitidez. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Nitidez. </p></td> 
  </tr> 
 </table>
