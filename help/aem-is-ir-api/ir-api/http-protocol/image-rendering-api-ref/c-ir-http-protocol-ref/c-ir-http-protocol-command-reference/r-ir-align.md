@@ -2,18 +2,17 @@
 description: Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 solution: Experience Manager
 title: alinhar
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '182'
 ht-degree: 2%
 
 ---
 
-
-# align{#align}
+# alinhar{#align}
 
 Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 
@@ -25,7 +24,7 @@ Alinhamento da renderização da textura. Especifica qual dos pontos de origem d
   <td class="stentry"> <p>Origem padrão (centro-correspondência). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Origem de correspondência contínua. </p></td> 
  </tr> 
  <tr class="strow"> 
