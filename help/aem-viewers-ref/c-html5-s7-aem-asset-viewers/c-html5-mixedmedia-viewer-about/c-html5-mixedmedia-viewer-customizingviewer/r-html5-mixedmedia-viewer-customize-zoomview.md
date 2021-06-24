@@ -2,18 +2,17 @@
 description: No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
 solution: Experience Manager
 title: Exibição de zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
-
-# Visualização de zoom{#zoom-view}
+# Exibição de zoom{#zoom-view}
 
 No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
 
@@ -75,4 +74,3 @@ Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos q
 * `slide`
 
    Exibido quando o usuário realiza a troca de imagem fazendo um deslizamento horizontal ou um clique.
-
