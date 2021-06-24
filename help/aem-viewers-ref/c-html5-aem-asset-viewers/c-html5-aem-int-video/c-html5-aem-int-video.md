@@ -32,7 +32,7 @@ E
 
 Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Usando o Visualizador de Vídeo Interativo {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Uso do visualizador de vídeo interativo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. Um único JavaScript é incluído com todos os componentes do SDK do visualizador usados por esse visualizador, ativos e CSS específicos.
 
@@ -42,7 +42,7 @@ A configuração e o ajuste do layout são semelhantes aos dos outros visualizad
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interagir com o Visualizador de vídeo interativo {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interação com o visualizador de vídeo interativo {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 O Visualizador de vídeo interativo fornece um conjunto de controles padrão da interface do usuário para a reprodução do vídeo, como um botão Reproduzir/Pausar, depurador de vídeo, bolha de tempo do vídeo, indicador de tempo de reprodução/tempo total, controle de volume, botão de tela cheia e alternância de legenda fechada. Todos esses controles são agrupados em uma barra de controle diretamente na exibição principal.
 
