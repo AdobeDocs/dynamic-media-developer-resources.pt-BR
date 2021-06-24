@@ -2,16 +2,15 @@
 description: Taxa de bits do vídeo. Permite a especificação de uma taxa de bits associada a cada registro de vídeo.
 solution: Experience Manager
 title: VideoBitRate
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e94d7338-5831-476b-b905-5c9419849c3f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
-
 
 # VideoBitRate{#videobitrate}
 
