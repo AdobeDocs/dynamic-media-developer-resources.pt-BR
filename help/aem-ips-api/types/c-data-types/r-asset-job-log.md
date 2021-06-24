@@ -2,16 +2,15 @@
 description: Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # AssetJobLog{#assetjoblog}
 
@@ -67,4 +66,3 @@ Sintaxe
   </tr> 
  </tbody> 
 </table>
-
