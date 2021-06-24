@@ -2,16 +2,15 @@
 description: Namespace do SDK do visualizador
 solution: Experience Manager
 title: Namespace do SDK do visualizador
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
-
 
 # Namespace do SDK do visualizador{#viewer-sdk-namespace}
 
@@ -44,4 +43,3 @@ The same code for the viewer served from Dynamic Media Classic looks like the fo
 } 
 });
 ```
-
