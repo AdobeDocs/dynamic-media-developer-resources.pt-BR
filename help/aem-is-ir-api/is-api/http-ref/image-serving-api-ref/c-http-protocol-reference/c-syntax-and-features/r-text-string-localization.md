@@ -2,16 +2,15 @@
 description: A localização da string de texto permite que catálogos de imagens contenham várias representações específicas de localidade para o mesmo valor de string.
 solution: Experience Manager
 title: Localização da string de texto
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
-
 
 # Localização da string de texto{#text-string-localization}
 
@@ -27,7 +26,7 @@ A localização da string de texto é aplicada a todos os elementos da string qu
  <thead> 
   <tr> 
    <th class="entry"> <b>Campo Catálogo</b> </th> 
-   <th class="entry"> <b>Elemento de string no campo</b> </th> 
+   <th class="entry"> <b>Elemento de cadeia de caracteres no campo</b> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -156,4 +155,3 @@ A tabela a seguir descreve a saída de algumas combinações representativas *`s
   </tr> 
  </tbody> 
 </table>
-
