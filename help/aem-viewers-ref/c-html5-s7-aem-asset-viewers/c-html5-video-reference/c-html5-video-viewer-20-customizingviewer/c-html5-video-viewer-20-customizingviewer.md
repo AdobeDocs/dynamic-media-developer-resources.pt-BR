@@ -3,16 +3,15 @@ description: Personalizar visualizador de vídeo
 keywords: responsivo
 solution: Experience Manager
 title: Personalizar visualizador de vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
-
 
 # Personalizar visualizador de vídeo{#customizing-video-viewer}
 
@@ -202,7 +201,7 @@ background-position: -0px -1120px;
 }
 ```
 
-## Notas e conselhos gerais sobre estilo {#section-097418bd618740bba36352629e4d88e1}
+## Notas e conselhos gerais sobre estilos {#section-097418bd618740bba36352629e4d88e1}
 
 * Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Lembre-se de levar essa regra em conta ao copiar o CSS padrão para um local diferente. Copie os ativos padrão ou atualize caminhos no CSS personalizado.
 * O formato preferido para a arte-final de bitmap é PNG.
@@ -215,6 +214,6 @@ background-position: -0px -1120px;
 
 * Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 
-## Elementos Comuns Da Interface Do Usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Veja a seguir a documentação de referência dos elementos da interface do usuário que se aplica ao Visualizador de vídeo:
