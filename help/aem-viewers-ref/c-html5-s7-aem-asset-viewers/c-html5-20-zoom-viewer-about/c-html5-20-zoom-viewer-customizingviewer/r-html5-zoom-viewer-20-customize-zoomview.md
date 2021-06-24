@@ -2,18 +2,17 @@
 description: A exibição principal consiste na imagem com zoom.
 solution: Experience Manager
 title: Exibição de zoom
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-
-# Visualização de zoom{#zoom-view}
+# Exibição de zoom{#zoom-view}
 
 A exibição principal consiste na imagem com zoom.
 
@@ -75,4 +74,3 @@ Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos q
 * `slide`
 
    Exibido quando o usuário realiza a troca de imagem fazendo um deslizamento horizontal ou um clique.
-
