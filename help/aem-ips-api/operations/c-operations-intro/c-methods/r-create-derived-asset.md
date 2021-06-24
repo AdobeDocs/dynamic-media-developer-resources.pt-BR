@@ -2,16 +2,15 @@
 description: Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # createDerivedAsset{#createderivedasset}
 
@@ -79,4 +78,3 @@ O código de amostra cria um ativo derivado com uma exibição ajustada e `urlMo
    <assetHandle>a|944|10|2</assetHandle>
 </createDerivedAssetReturn>
 ```
-
