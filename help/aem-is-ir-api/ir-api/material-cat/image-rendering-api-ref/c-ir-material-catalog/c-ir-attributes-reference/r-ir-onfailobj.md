@@ -2,16 +2,15 @@
 description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 4%
 
 ---
-
 
 # OnFailObj{#onfailobj}
 
@@ -27,7 +26,7 @@ Enum.
   <td class="stentry"> <p>Herdar de <span class="codeph"> padrão::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Manter a seleção anterior. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -35,7 +34,7 @@ Enum.
   <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos será ignorada. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Retorne um erro. </p> </td> 
  </tr> 
  <tr class="strow"> 
