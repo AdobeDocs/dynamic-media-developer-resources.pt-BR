@@ -2,16 +2,15 @@
 description: Adiciona um ou mais ativos a um projeto.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
-
 
 # addProjectAssets{#addprojectassets}
 
@@ -73,4 +72,3 @@ Este exemplo adiciona um único ativo (referenciado pelo identificador) em uma m
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-
