@@ -2,18 +2,17 @@
 description: Suporte a mapas de imagem e pontos de conexão
 solution: Experience Manager
 title: Suporte a mapas de imagem e pontos de conexão
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
 role: Developer,Business Practitioner
 exl-id: b441e241-809e-47cf-a309-57283bd0532b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Suporte a mapas de hotspots e imagens{#hotspot-and-image-maps-support}
+# Suporte a mapas de imagem e pontos de conexão{#hotspot-and-image-maps-support}
 
 O visualizador suporta a renderização de ícones de ponto de acesso e regiões de mapa de imagem na parte superior da exibição principal. A aparência de ícones de pontos de acesso e regiões é controlada pelo CSS, conforme descrito na seção personalizar pontos de acesso e mapas de imagem .
 
@@ -21,7 +20,7 @@ Consulte [Pontos de acesso e mapas de imagem](../../c-html5-aem-asset-viewers/c-
 
 Os pontos de conexão e as regiões podem ativar um recurso de Exibição rápida na página da Web de hospedagem, acionando um retorno de chamada do JavaScript ou redirecionando um usuário para uma página da Web externa.
 
-## Pontos de acesso da Exibição rápida {#section-cda48fc9730142d0bb3326bac7df3271}
+## Pontos de conexão da Exibição rápida {#section-cda48fc9730142d0bb3326bac7df3271}
 
 Esses tipos de pontos de acesso ou mapas de imagem devem ser criados usando o tipo de ação &quot;Exibição rápida&quot; no Dynamic Media, de AEM. Quando um usuário ativa um ponto de acesso ou mapa de imagem, o visualizador executa o retorno de chamada JavaScript `quickViewActivate` e transmite os dados do ponto de acesso ou mapa de imagem para ele. Espera-se que a página da Web de incorporação escute essa chamada de retorno. Quando aciona a página, ela abre sua própria implementação da Exibição rápida.
 
