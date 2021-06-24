@@ -2,16 +2,15 @@
 description: Conjunto nomeado não estruturado de configurações de saída de imagem.
 solution: Experience Manager
 title: ImageFormat
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 2%
 
 ---
-
 
 # ImageFormat{#imageformat}
 
@@ -26,4 +25,3 @@ Não é um tipo de ativo.
 | `*`imageFormatHandle`*` | `xsd:string` | Identificador do formato da imagem. |
 | `*`name`*` | `xsd:string` | Nome do formato da imagem. |
 | `*`urlModifier`*` | `xsd:string` | URL do servidor de imagem que representa o formato de imagem. |
-
