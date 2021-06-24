@@ -2,16 +2,15 @@
 description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 solution: Experience Manager
 title: Reprodutor de vídeo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Reprodutor de vídeo{#video-player}
 
@@ -141,4 +140,3 @@ Exemplo - para configurar uma animação de buffer de 101 pixels de largura, 29 
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
