@@ -2,13 +2,12 @@
 description: Referência da API do JavaScript para o visualizador do Video360.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: cb543620-e774-407b-bf33-bfd2261511c4
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -29,7 +28,7 @@ Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chama
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Uma referência para a instância do visualizador.
 
