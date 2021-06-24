@@ -2,16 +2,15 @@
 description: Resolução padrão. Fornece uma resolução padrão no caso de um registro de catálogo específico não conter um valor de Resolução de catálogo válido.
 solution: Experience Manager
 title: Resolução
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: cd47f41a-b527-4c78-afb5-b9e9af0868cc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
-
 
 # Resolução{#resolution}
 
