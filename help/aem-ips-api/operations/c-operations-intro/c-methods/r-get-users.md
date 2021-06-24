@@ -2,16 +2,15 @@
 description: Obtém uma matriz de usuários, conforme especificado por manipuladores de função de empresa, grupo e usuário. Essa operação permite classificar usuários retornados e filtrar por caractere.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
-
 
 # getUsers{#getusers}
 
@@ -81,4 +80,3 @@ Essa amostra de código retorna a matriz de usuários para vários parâmetros o
    </userArray>
 </getUsersReturn>
 ```
-
