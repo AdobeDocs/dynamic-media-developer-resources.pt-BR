@@ -2,13 +2,12 @@
 description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
 title: Video360Player.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
 role: Developer,Business Practitioner
 exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 3%
 
 ---
