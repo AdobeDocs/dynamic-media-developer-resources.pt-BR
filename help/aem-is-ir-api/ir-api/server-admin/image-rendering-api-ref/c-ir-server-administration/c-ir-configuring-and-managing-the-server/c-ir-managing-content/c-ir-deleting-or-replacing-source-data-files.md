@@ -2,18 +2,17 @@
 description: Os arquivos de vinheta podem ser substituídos ou excluídos enquanto o servidor está ativo usando o comando req=release logo antes de o arquivo ser substituído.
 solution: Experience Manager
 title: Exclusão ou substituição de arquivos de dados de origem
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 9daf8534-a844-4f4a-8e99-8dc751acd550
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-
-# Excluir ou substituir arquivos de dados de origem{#deleting-or-replacing-source-data-files}
+# Exclusão ou substituição de arquivos de dados de origem{#deleting-or-replacing-source-data-files}
 
 Os arquivos de vinheta podem ser substituídos ou excluídos enquanto o servidor está ativo usando o comando req=release logo antes de o arquivo ser substituído.
 
