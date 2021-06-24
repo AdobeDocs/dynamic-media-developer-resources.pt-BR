@@ -2,16 +2,15 @@
 description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
 solution: Experience Manager
 title: Configurações avançadas de renderização
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 17%
 
 ---
-
 
 # Configurações avançadas de renderização{#advanced-render-settings}
 
@@ -40,7 +39,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>Renderizar efeitos/Sombreador alternativo substitui a configuração na vinheta. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>A0=Efeitos de renderização </p> <p>A1=Sombreador Alternativo </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +73,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Modo de redimensionamento. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -299,7 +298,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
  </tbody> 
 </table>
 
-## Exemplo de configurações avançadas de renderização {#section-56528569eae44ecd997a289b211ff256}
+## Exemplo de configurações avançadas de Renderização {#section-56528569eae44ecd997a289b211ff256}
 
 <table id="table_062DCF66ACCC4A6997E3CA951C0A12B8"> 
  <thead> 
