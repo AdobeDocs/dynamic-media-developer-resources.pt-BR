@@ -2,16 +2,15 @@
 description: Propriedades de um ativo ACO.
 solution: Experience Manager
 title: AcoInfo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dfec2e24-05a2-4a9c-bd78-9ee35dd8b1b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
-
 
 # AcoInfo{#acoinfo}
 
@@ -26,4 +25,3 @@ Sintaxe
 | `originalPath` | `xsd:string` | Caminho do arquivo ACO. |
 | `originalFile` | `xsd:string` | Nome do arquivo ACO. |
 | `fileSize` | `xsd:int` | Tamanho do arquivo ACO. |
-
