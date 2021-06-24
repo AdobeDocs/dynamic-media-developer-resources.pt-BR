@@ -2,16 +2,15 @@
 description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
-
 
 # init{#init}
 
@@ -29,7 +28,7 @@ Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chama
 
 Nenhum.
 
-## Retorna {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Uma referência para a instância do visualizador.
 
@@ -38,4 +37,3 @@ Nenhum.
 ```
 <instance>.init()
 ```
-
