@@ -2,16 +2,15 @@
 description: Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
 solution: Experience Manager
 title: Atributos do catálogo
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
-
 
 # Atributos do catálogo{#catalog-attributes}
 
@@ -207,4 +206,3 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
   <td class="stentry"> Ative/desative o pontilhamento de conversão de cores.</td> 
  </tr> 
 </table>
-
