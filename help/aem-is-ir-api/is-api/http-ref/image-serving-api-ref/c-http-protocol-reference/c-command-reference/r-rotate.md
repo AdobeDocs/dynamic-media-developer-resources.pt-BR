@@ -2,18 +2,17 @@
 description: Girar imagem. Gira a imagem, o texto ou a camada de cor sólida de acordo com o ângulo especificado.
 solution: Experience Manager
 title: girar
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-
-# rotate{#rotate}
+# girar{#rotate}
 
 Girar imagem. Gira a imagem, o texto ou a camada de cor sólida de acordo com o ângulo especificado.
 
