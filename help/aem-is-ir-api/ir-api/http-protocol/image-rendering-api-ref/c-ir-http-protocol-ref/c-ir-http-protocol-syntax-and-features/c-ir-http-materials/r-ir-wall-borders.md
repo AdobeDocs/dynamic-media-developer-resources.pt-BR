@@ -2,16 +2,15 @@
 description: Um material é considerado uma borda de parede quando especificado em um MSS de borda de parede (introduzido com sub=3.5.5).
 solution: Experience Manager
 title: Bordas de mural
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
-
 
 # Bordas de mural{#wall-borders}
 
@@ -50,4 +49,3 @@ As imagens de textura da borda da parede podem incluir um canal alfa para defini
   </tr> 
  </tbody> 
 </table>
-
