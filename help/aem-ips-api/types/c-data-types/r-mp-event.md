@@ -2,18 +2,17 @@
 description: Um evento do MediaPortal.
 solution: Experience Manager
 title: Evento MPE
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
 
-
-# MPEevent{#mpevent}
+# Evento MPE{#mpevent}
 
 Um evento do MediaPortal.
 
@@ -44,4 +43,3 @@ Sintaxe
 | `*`float2`*` | `xsd:double` | Titular da informação flutuante (opcional). |
 | `*`float3`*` | `xsd:double` | Titular da informação flutuante (opcional). |
 | `*`time1`*` | `xsd:dateTime` | Titular das informações de data/carimbo de data e hora (opcional). |
-
