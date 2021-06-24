@@ -2,16 +2,15 @@
 description: Ativos que pertencem a um conjunto de imagens.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
-
 
 # ImageSetMember{#imagesetmember}
 
@@ -25,4 +24,3 @@ Redefinição de página significa que um [!DNL eCatalog] deve iniciar uma nova 
 |---|---|---|
 | `*`ativo`*` | `type:Asset` | Ativos na matriz do conjunto de imagens. |
 | `*`pageReset`*` | `xsd:boolean` | Inicia uma nova página. A configuração é ignorada e o valor é forçado a `true` para os conjuntos `eCatalog` e `RenderSet`. |
-
