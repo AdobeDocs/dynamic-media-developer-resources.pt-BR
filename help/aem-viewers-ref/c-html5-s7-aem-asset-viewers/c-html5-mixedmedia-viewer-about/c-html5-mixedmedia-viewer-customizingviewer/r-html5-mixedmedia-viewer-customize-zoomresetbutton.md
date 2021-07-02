@@ -2,10 +2,10 @@
 description: Clicar ou tocar nesse botão redefine uma imagem na exibição principal. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
 title: Botão Redefinir zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
 role: Developer,Business Practitioner
 exl-id: 2ec91f8f-d1e7-454a-8792-9525895527af
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
