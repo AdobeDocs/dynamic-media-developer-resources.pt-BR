@@ -2,10 +2,10 @@
 description: O Visualizador de mídia mista é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
 role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
