@@ -2,10 +2,10 @@
 description: No modo de zoom contínuo, a visualização principal consiste na imagem com zoom quando o ativo atual é uma única imagem.
 solution: Experience Manager
 title: Exibição de zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídias mistas
+feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
 role: Developer,Business Practitioner
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
