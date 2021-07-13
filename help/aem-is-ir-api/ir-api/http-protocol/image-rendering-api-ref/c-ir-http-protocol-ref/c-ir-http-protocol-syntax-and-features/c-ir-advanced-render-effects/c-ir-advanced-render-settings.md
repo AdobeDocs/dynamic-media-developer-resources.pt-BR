@@ -3,9 +3,9 @@ description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Medi
 solution: Experience Manager
 title: Configurações avançadas de renderização
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 17%
@@ -52,7 +52,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Valor de USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson: Amostras/Pixel. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>O padrão é 1. </p> </td> 
   </tr> 
@@ -187,7 +187,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>Resistência da extrapolação baseada em brilho. </p> </td> 
    <td colname="col3"> <p>100 </p> </td> 
-   <td colname="col4"> <p>800 </p> </td> 
+   <td colname="col4"> <p>600 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
