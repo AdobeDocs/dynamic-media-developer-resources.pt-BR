@@ -3,9 +3,9 @@ description: O painel de amostras interativas é exibido ao lado do conteúdo do
 solution: Experience Manager
 title: Amostras interativas
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 0%
