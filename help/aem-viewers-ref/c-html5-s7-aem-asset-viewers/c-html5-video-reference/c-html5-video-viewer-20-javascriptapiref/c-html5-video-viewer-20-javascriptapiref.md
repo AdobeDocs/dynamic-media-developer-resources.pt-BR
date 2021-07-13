@@ -3,9 +3,9 @@ description: A principal classe do Visualizador de vídeo é o VideoViewer. Ela 
 solution: Experience Manager
 title: Referência da API JavaScript para visualizador de vídeo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9e61b962-cfbe-4c8e-9938-77a197c5f127
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
