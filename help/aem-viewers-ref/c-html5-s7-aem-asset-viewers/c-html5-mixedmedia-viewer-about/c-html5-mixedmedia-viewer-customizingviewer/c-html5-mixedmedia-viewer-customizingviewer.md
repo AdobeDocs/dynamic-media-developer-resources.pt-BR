@@ -4,9 +4,9 @@ keywords: responsivo
 solution: Experience Manager
 title: Personalização do Visualizador de mídia mista
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3bea8efb-faf8-4909-b51a-0b9964fcd735
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 0%
