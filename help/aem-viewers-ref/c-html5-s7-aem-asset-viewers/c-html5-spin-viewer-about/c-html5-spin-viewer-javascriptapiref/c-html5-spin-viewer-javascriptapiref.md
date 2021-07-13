@@ -3,9 +3,9 @@ description: A classe principal do Visualizador de rotação é o SpinViewer. El
 solution: Experience Manager
 title: Referência da API do Javascript para Visualizador de rotação
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c32cccf8-fbaa-4fed-a95f-0f052141f312
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
