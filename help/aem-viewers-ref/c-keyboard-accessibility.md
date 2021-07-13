@@ -3,9 +3,9 @@ description: Todos os recursos expostos na interface do visualizador Zoom básic
 solution: Experience Manager
 title: Acessibilidade e navegação do teclado
 feature: Dynamic Media Classic,Visualizadores,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
