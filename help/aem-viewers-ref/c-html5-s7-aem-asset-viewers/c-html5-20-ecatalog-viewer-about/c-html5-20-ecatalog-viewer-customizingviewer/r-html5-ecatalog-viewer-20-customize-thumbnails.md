@@ -3,9 +3,9 @@ description: As miniaturas consistem em uma grade de imagens em miniatura com um
 solution: Experience Manager
 title: Miniaturas
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
