@@ -3,9 +3,9 @@ description: Faz com que o visualizador entre ou saia do modo de tela cheia quan
 solution: Experience Manager
 title: Botão de tela cheia
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
