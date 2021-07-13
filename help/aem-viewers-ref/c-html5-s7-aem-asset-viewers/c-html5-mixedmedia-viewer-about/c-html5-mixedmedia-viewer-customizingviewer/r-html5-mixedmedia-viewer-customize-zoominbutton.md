@@ -3,9 +3,9 @@ description: Clicar ou tocar nesse botão amplia o zoom de uma imagem na exibiç
 solution: Experience Manager
 title: Botão Ampliar
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 663f9bb5-c432-4b34-ac76-a62826994a81
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
