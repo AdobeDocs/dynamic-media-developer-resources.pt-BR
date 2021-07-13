@@ -3,9 +3,9 @@ description: Utilitário de conversão de imagem.
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 0%
@@ -302,7 +302,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | cinza | cinzaA | indexado </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compactado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
