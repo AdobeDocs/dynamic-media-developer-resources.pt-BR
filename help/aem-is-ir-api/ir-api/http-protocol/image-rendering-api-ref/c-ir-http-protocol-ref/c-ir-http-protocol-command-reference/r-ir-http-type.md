@@ -3,9 +3,9 @@ description: Tipo de superfície do material. Especifica o tipo de superfície d
 solution: Experience Manager
 title: type
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 12%
@@ -32,7 +32,7 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
   <td class="stentry"> <p>Madeira natural </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p></td> 
+  <td class="stentry"> <p>1 </p></td> 
   <td class="stentry"> <p>Metais polidos </p></td> 
  </tr> 
  <tr class="strow"> 
