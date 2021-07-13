@@ -2,9 +2,9 @@
 description: Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom flyout no carregamento.
 title: Localização dos elementos da interface do usuário
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
