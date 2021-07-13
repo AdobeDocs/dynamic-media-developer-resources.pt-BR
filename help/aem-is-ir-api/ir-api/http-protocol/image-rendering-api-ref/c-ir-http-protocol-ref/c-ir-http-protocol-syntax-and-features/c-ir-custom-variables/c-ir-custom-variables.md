@@ -3,9 +3,9 @@ description: A parte de consulta de solicitações e cadeias de caracteres do mo
 solution: Experience Manager
 title: Variáveis personalizadas
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -28,7 +28,7 @@ As variáveis são definidas de forma semelhante a outros comandos do servidor, 
 >
 >*[!DNL value]* deve ser codificado por URL de passagem única para transmissão HTTP segura. É necessária codificação dupla se *[!DNL value]* for retransmitido via HTTP. Esse é o caso quando *[!DNL value]* é substituído em uma solicitação externa aninhada.
 
-As variáveis são referenciadas incorporando o nome da variável (delimitado por um $ à esquerda e um $ à direita) em qualquer lugar nos valores do comando. Por exemplo, entre o &#39;=&#39; após o nome do comando e o &#39;&amp;&#39; subsequente ou o fim da solicitação. O servidor substitui cada ocorrência de $ *[!DNL name]*$ por *[!DNL string]*. Nenhuma substituição ocorrerá em qualquer ocorrência de $ *[!DNL name]*$ em nomes de comando (antes do sinal de igual de um comando) e na parte do caminho da solicitação.
+As variáveis são referenciadas incorporando o nome da variável (delimitado por um $ à esquerda e um $ à direita) em qualquer lugar nos valores do comando. Por exemplo, entre &#39;=&#39; após o nome do comando e o &#39;&amp;&#39; subsequente ou o fim da solicitação. O servidor substitui cada ocorrência de $ *[!DNL name]*$ por *[!DNL string]*. Nenhuma substituição ocorrerá em qualquer ocorrência de $ *[!DNL name]*$ em nomes de comando (antes do sinal de igual de um comando) e na parte do caminho da solicitação.
 
 As variáveis personalizadas podem não estar aninhadas. Quaisquer ocorrências de $ *[!DNL name]*$ em *[!DNL string]* não são substituídas. Por exemplo, o fragmento de solicitação `$var2=apple&$var1=my$var2$tree&text=$var1$` resolve para `text=my$var2$tree`.
 
