@@ -3,9 +3,9 @@ description: A ferramenta de compartilhamento twitter consiste em um botão adic
 solution: Experience Manager
 title: Compartilhamento twitter
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
