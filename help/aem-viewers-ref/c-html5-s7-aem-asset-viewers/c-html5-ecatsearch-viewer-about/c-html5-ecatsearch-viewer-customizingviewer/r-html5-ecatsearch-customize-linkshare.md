@@ -3,9 +3,9 @@ description: A ferramenta Compartilhamento de links consiste em um botão adicio
 solution: Experience Manager
 title: Compartilhamento de link
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 0%
