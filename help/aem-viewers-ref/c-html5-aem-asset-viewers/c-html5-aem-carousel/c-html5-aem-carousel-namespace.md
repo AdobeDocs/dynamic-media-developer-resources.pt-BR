@@ -3,9 +3,9 @@ description: Namespace do SDK do visualizador
 solution: Experience Manager
 title: Namespace do SDK do visualizador
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
