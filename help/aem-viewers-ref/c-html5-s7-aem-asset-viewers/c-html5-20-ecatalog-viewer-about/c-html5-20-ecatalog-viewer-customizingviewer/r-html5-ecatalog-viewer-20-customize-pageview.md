@@ -3,9 +3,9 @@ description: A exibição principal consiste na imagem do catálogo. Ele pode se
 solution: Experience Manager
 title: Exibição da página
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
