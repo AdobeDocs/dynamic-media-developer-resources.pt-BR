@@ -3,8 +3,8 @@ description: A ferramenta Imprimir consiste em um botão adicionado à barra de 
 solution: Experience Manager
 title: Imprimir
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
-role: Developer,Business Practitioner
-source-git-commit: 8b9b87328c26e0d316c9ee09c8f4407d40efab69
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
