@@ -3,9 +3,9 @@ description: Clicar ou tocar nesse botão traz o usuário para a página anterio
 solution: Experience Manager
 title: Botão Página anterior grande
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 51c2fe1a-c14e-4a87-887b-f97546a517a4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
