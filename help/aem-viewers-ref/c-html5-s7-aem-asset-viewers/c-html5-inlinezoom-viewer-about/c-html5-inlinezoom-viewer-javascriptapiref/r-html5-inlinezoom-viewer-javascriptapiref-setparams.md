@@ -3,9 +3,9 @@ description: Referência da API do JavaScript para o Visualizador de Zoom em Lin
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: eb3298da-f19d-4013-8192-c51144d8b866
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
