@@ -3,9 +3,9 @@ description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
 title: SocialShare.bearing
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f00b2539-3159-487a-b0fa-9589b694c2e6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
