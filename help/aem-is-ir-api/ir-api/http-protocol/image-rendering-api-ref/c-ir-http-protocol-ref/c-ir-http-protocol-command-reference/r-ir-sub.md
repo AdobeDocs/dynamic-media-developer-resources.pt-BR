@@ -3,9 +3,9 @@ description: Subseleção. Permite aplicar materiais diferentes a áreas diferen
 solution: Experience Manager
 title: sub
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto
   <td class="stentry"> <p>Selecione a metade inferior da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>1 </p> </td> 
   <td class="stentry"> <p>Selecione a área superior da borda da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
