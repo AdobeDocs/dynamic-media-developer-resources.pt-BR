@@ -3,9 +3,9 @@ description: O upload de ativos no Dynamic Media Classic envolve uma ou mais sol
 solution: Experience Manager
 title: Upload de ativos por meio de POSTs HTTP no UploadFile Servlet
 feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -92,7 +92,7 @@ A solicitação POST final para um trabalho de upload deve definir o parâmetro 
 
 ## Resposta de UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Para uma solicitação de POST bem-sucedida, o corpo da resposta será um documento XML `uploadPostReturn`, conforme o XSD especifica no seguinte:
+Para uma solicitação POST bem-sucedida, o corpo da resposta será um documento XML `uploadPostReturn`, conforme o XSD especifica no seguinte:
 
 ```
 <element name="uploadPostReturn"> 
