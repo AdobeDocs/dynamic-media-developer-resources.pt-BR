@@ -3,9 +3,9 @@ description: Um campo de metadados retornado pelo searchAssets.
 solution: Experience Manager
 title: Metadados
 feature: Dynamic Media Classic, SDK/API, Metadados
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 1%
