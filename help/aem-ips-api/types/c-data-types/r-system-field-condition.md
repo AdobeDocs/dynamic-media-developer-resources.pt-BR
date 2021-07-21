@@ -3,9 +3,9 @@ description: Uma condição de pesquisa de campo do sistema para a operação se
 solution: Experience Manager
 title: CondiçãoCampoSistema
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
