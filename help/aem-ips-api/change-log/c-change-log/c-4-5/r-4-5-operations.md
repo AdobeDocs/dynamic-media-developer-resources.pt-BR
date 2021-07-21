@@ -3,9 +3,9 @@ description: Descreve métodos de operações novos e alterados para a API do IP
 solution: Experience Manager
 title: Operações novas e modificadas
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
