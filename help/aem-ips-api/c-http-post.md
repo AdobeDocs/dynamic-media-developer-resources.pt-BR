@@ -92,7 +92,7 @@ A solicitação POST final para um trabalho de upload deve definir o parâmetro 
 
 ## Resposta de UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Para uma solicitação POST bem-sucedida, o corpo da resposta será um documento XML `uploadPostReturn`, conforme o XSD especifica no seguinte:
+Para uma solicitação de POST bem-sucedida, o corpo da resposta será um documento XML `uploadPostReturn`, conforme o XSD especifica no seguinte:
 
 ```
 <element name="uploadPostReturn"> 
