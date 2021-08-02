@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -22,33 +22,33 @@ Formato de imagem de resposta.
 
 | *`format`* | Descrição |
 |---|---|
-| `avif-alpha` | AVIF sem perdas e com perdas com o canal alfa <br><br>*Linha do tempo da versão para esse formato:* <br><b>América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 13 de agosto de 2021<br><b>Ásia-Pacífico</b> - Disponível agora |
-| `avif` | Linha do tempo de lançamento sem perdas e perdas do AVIF <br><br>*para este formato:*<br><b> América do Norte</b> - Disponível agora<br><b>Europa, Oriente Médio, África</b> - 13 de agosto de 2021<br><b>Ásia-Pacífico</b> - Disponível agora |
-| `eps` | PostScript Encapsulado binário descompactado |
-| `f4m` | Formato de manifesto do servidor de transmissão do Flash |
-| `gif-alpha` | GIF com 2 a 255 cores mais transparência de cores-chave |
-| `gif` | GIF com 2 a 256 cores |
-| `jpeg` | JPEG com perdas |
-| `jpeg2000-alpha` | JPEG 2000 com canal alfa sem perdas |
-| `jpeg2000` | JPEG 2000 sem perdas |
-| `jpegxr-alpha` | JPEG XR sem perdas e com perdas com canal alfa |
-| `jpegxr` | JPEG XR sem perdas e com perdas |
-| `jpg` | JPG com perdas |
-| `m3u8` | Formato de manifesto do servidor de transmissão da Apple |
-| `pdf` | Imagem incorporada no PDF |
-| `pjpeg` | JPEG progressivo |
-| `png-alpha` | PNG sem perdas de 24 bits com canal alfa |
-| `png` | PNG sem perdas de 24 bits |
-| `png8-alpha` | PNG sem perdas de 8 bits com canal alfa |
-| `png8` | PNG sem perdas de 8 bits |
-| `swf-alpha` | JPEG com perdas e uma máscara compactada deflacionada incorporada em um arquivo swf Adobe AS2 |
-| `swf` | JPEG com perdas incorporado em um arquivo swf Adobe AS2 |
-| `swf3-alpha` | JPEG com perdas e uma máscara compactada em deflate incorporada a um arquivo swf Adobe AS3. **Observação:** os formatos swf e swf-alpha são mais adequados para aplicativos do ActionScript 2 (Flash Player 8 e anterior). Os formatos swf3 e swf3-alpha são recomendados para uso em aplicativos ActionScript3 (Flash Player 9 e posterior) |
-| `swf3` | JPEG com perdas incorporado em um arquivo swf do Adobe AS3 |
-| `tif-alpha` | TIFF com canal alfa |
-| `tif` | TIFF |
-| `webp-alpha` | WebP sem perdas e com perdas com canal alfa |
-| `webp` | WebP sem perdas e com perdas |
+| `avif-alpha` | AVIF com perdas e perda com canal alfa. |
+| `avif` | AVIF com perdas e perdas. |
+| `eps` | PostScript binário encapsulado descompactado. |
+| `f4m` | Formato de manifesto do Servidor de transmissão do Flash. |
+| `gif-alpha` | GIF com 2 a 255 cores mais transparência de cores principais. |
+| `gif` | GIF com 2 a 256 cores. |
+| `jpeg` | JPEG sinistro. |
+| `jpeg2000-alpha` | JPEG 2000 sem perdas e com canal alfa. |
+| `jpeg2000` | JPEG 2000 sem perdas e com perdas. |
+| `jpegxr-alpha` | JPEG XR sem perdas e com perdas com canal alfa. |
+| `jpegxr` | JPEG XR sem perdas e com perdas. |
+| `jpg` | JPG com perdas. |
+| `m3u8` | Formato de manifesto do servidor de transmissão da Apple. |
+| `pdf` | Imagem incorporada no PDF. |
+| `pjpeg` | JPEG progressivo. |
+| `png-alpha` | PNG sem perdas de 24 bits com canal alfa. |
+| `png` | PNG sem perdas de 24 bits. |
+| `png8-alpha` | PNG sem perdas de 8 bits com canal alfa. |
+| `png8` | PNG sem perdas de 8 bits. |
+| `swf-alpha` | JPEG com perdas e uma máscara compactada em deflate incorporada a um arquivo swf Adobe AS2. |
+| `swf` | JPEG com perdas incorporado em um arquivo swf Adobe AS2. |
+| `swf3-alpha` | JPEG com perdas e uma máscara compactada em deflate incorporada a um arquivo swf Adobe AS3. **Observação:** os formatos swf e swf-alpha são mais adequados para aplicativos do ActionScript 2 (Flash Player 8 e anterior). Os formatos swf3 e swf3-alfa são recomendados para uso em aplicativos ActionScript3 (Flash Player 9 e posterior). |
+| `swf3` | JPEG com perdas incorporado em um arquivo swf Adobe AS3. |
+| `tif-alpha` | TIFF com canal alfa. |
+| `tif` | TIFF. |
+| `webp-alpha` | WebP sem perdas e com perdas com canal alfa. |
+| `webp` | WebP sem perdas e com perdas. |
 
 | *`pixelType`* - rgb | cinza | cmyk |
 | *`pixelType`* | Descrição |
@@ -60,12 +60,12 @@ Formato de imagem de resposta.
 | *`compression`* - nenhum | lzw | zip | jpeg | perda | sem perdas |
 | *`compression`* | Descrição |
 |---|---|
-| `jpeg` | Compactação JPEG (com perdas) |
-| `lossy` | Compactação WebP, JPEG 2000 e JPEG XR (com perdas) |
-| `lossless` | Compactação WebP, JPEG 2000 e JPEG XR (sem perdas) |
-| `lzw` | Compactação LZW (Lempel-Ziv-Welch) (sem perdas) |
-| `none` | Descompactado |
-| `zip` | Compactação &quot;Padrão&quot; (sem perdas) |
+| `jpeg` | Compactação JPEG (com perdas). |
+| `lossy` | Compactação WebP, JPEG 2000 e JPEG XR (com perdas). |
+| `lossless` | Compactação WebP, JPEG 2000 e JPEG XR (sem perdas). |
+| `lzw` | Compactação LZW (Lempel-Ziv-Welch) (sem perdas). |
+| `none` | Descompactado. |
+| `zip` | Compactação &quot;Padrão&quot; (sem perdas). |
 
 * *`format`* especifica o formato de codificação de imagem para os dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP.
 * *`pixelType`* pode ser usada para efetivar a conversão do espaço de cores de saída quando não  `icc=` for especificada.
