@@ -6,9 +6,9 @@ title: Zoom em linha
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
@@ -102,11 +102,11 @@ Os casos de uso principais são páginas da Web orientadas para desktops ou tabl
 
 O modo de incorporação de tamanho fixo é usado quando o visualizador não altera seu tamanho após a carga inicial. Essa opção é mais adequada para páginas da Web com layout de página estático.
 
-O modo de incorporação de design responsivo supõe que o visualizador talvez precise ser redimensionado durante o tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+O modo de incorporação de design responsivo supõe que o visualizador deve ser redimensionado durante o tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
 Ao usar o modo de incorporação de design responsivo com o Visualizador de Zoom em Linha, especifique pontos de interrupção explícitos para a imagem de exibição principal usando o parâmetro `imagereload`. Idealmente, associe seus pontos de interrupção aos pontos de interrupção da largura do visualizador, conforme determinado pelo CSS da página da Web.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo de como uma página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir apenas a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção do aspecto do ativo usado. Isso significa que o ativo se encaixa perfeitamente na exibição sem qualquer preenchimento nas laterais. Esse caso de uso específico é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como um contêiner de página da Web `DIV` é dimensionado. Se a página da Web definir apenas a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção do aspecto do ativo usado. Essa funcionalidade significa que o ativo se encaixa perfeitamente na exibição sem nenhum preenchimento nas laterais. Esse caso de uso específico é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap ou Foundation.
 
 Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo de caso de uso é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -121,7 +121,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no cabeçalho HTML. Antes de usar a API do visualizador, inclua `FlyoutViewer.js`. `FlyoutViewer.js` está localizada na seguinte  [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador requer a adição de uma tag de script no cabeçalho HTML. Antes de usar a API do visualizador, inclua `FlyoutViewer.js`. `FlyoutViewer.js` está na seguinte  [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -135,7 +135,7 @@ Um caminho relativo é semelhante ao seguinte:
 
 >[!NOTE]
 >
->Você só deve fazer referência ao arquivo JavaScript `include` do visualizador principal na sua página. Você não deve fazer referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
@@ -156,9 +156,9 @@ Um caminho relativo é semelhante ao seguinte:
 
 1. Definição do tamanho do visualizador.
 
-   Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens. Em sistemas de desktop, as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal durante o tempo de execução usando `setAsset()` API. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na área inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou, você pode manter o tamanho da exibição principal estático e recolher a área do visualizador externo, permitindo assim que o conteúdo da página da Web se mova para cima e, em seguida, use o espaço real da página livre deixado nas miniaturas.
+   Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens. Em sistemas de desktop, as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal durante o tempo de execução usando `setAsset()` API. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na área inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou você pode manter o tamanho da exibição principal estático e recolher a área do visualizador externo, permitindo que o conteúdo da página da Web se mova para cima e, em seguida, usar o espaço real da página livre deixado nas miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7flyoutviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando o comando style.
+   Para manter os limites do visualizador externo intactos, defina o tamanho para `.s7flyoutviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML, em um arquivo CSS do visualizador personalizado e, posteriormente, atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando o comando style.
 
    Consulte [Personalizando o Visualizador de Zoom em Linha](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -194,15 +194,15 @@ Um caminho relativo é semelhante ao seguinte:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/inlinezoom/InlineZoom-fixed-main-view.html)
 
-   Além disso, observe que o CSS do visualizador padrão fornece um tamanho fixo para sua área externa pronta para uso.
+   Além disso, o CSS do visualizador padrão fornece um tamanho fixo para sua área externa pronta para uso.
 
 1. Criação e inicialização do visualizador.
 
-   Após concluir as etapas acima, crie uma instância de `s7viewers.FlyoutViewer` classe, passe todas as informações de configuração para seu construtor e chame o método `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId` que contém o nome da ID do contêiner do visualizador e o objeto JSON aninhado `params` com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o objeto `params` deve ter pelo menos o URL de Exibição de Imagem passado como propriedade `serverUrl`, o ativo inicial como parâmetro `asset`, o caminho base para carregar o CSS como parâmetro `contentUrl` e o nome predefinido como parâmetro `config`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Após concluir as etapas acima, crie uma instância de `s7viewers.FlyoutViewer` classe, passe todas as informações de configuração para seu construtor e chame o método `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId` que contém o nome da ID do contêiner do visualizador e o objeto JSON aninhado `params` com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o objeto `params` deve ter pelo menos o URL de Exibição de Imagem passado como propriedade `serverUrl`; o ativo inicial como parâmetro `asset`, caminho base para carregar o CSS como parâmetro `contentUrl` e nome predefinido como parâmetro `config`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
    É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
 
-   Ao mesmo tempo, o elemento do contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `inlineZoomViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `http://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens; e `Scene7SharedAssets/ImageSet-Views-Sample` é o ativo:
 
@@ -270,7 +270,7 @@ Com a incorporação responsiva do design, a página da Web normalmente tem algu
 </html>
 ```
 
-Adicionar o visualizador a essa página é semelhante às etapas para incorporação de tamanho fixo. A única diferença é que você precisa substituir o dimensionamento fixo do CSS do visualizador padrão pelo tamanho definido em unidades relativas.
+Adicionar o visualizador a essa página é semelhante às etapas para incorporação de tamanho fixo. A única diferença é que você deve substituir o dimensionamento fixo do CSS do visualizador padrão pelo tamanho definido em unidades relativas.
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definindo o contêiner `DIV`.
@@ -331,11 +331,11 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Incorporação flexível de tamanho com largura e altura definidas {#section-0a329016f9414d199039776645c693de}
 
-No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
 
 ```
 <!DOCTYPE html> 
