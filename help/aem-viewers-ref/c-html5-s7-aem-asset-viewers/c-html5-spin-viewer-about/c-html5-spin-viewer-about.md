@@ -6,9 +6,9 @@ title: Rotação
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Consulte [Referência de comando comum a todos os visualizadores - Atributos de 
 
 ## Interação com o Visualizador de rotação {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-O Visualizador de rotação é compatível com os seguintes gestos de toque que são comuns em outros aplicativos móveis. Quando o visualizador não consegue processar o gesto de deslizamento de um usuário, ele encaminha o evento para o navegador da Web para executar uma rolagem de página nativa. Isso permite que o usuário navegue pela página mesmo se o visualizador ocupar a maior parte da área da tela do dispositivo.
+O Visualizador de rotação é compatível com os seguintes gestos de toque que são comuns em outros aplicativos móveis. Quando o visualizador não consegue processar o gesto de deslizamento de um usuário, ele encaminha o evento para o navegador da Web para executar uma rolagem de página nativa. Essa funcionalidade permite que o usuário navegue pela página mesmo se o visualizador ocupar a maior parte da área da tela do dispositivo.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -65,7 +65,7 @@ O Visualizador de rotação é compatível com os seguintes gestos de toque que 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passar ou piscar na vertical </p> </td> 
-   <td colname="col2"> <p> Se a imagem estiver em um estado de redefinição, ela alterará o ângulo de exibição vertical caso um conjunto de rotação multidimensional seja usado. Em um conjunto de rotação unidimensional, ou quando um conjunto de rotação multidimensional está no último ou no primeiro eixo, para que o deslizamento vertical não resulte em uma alteração no ângulo de exibição vertical, o gesto executa uma rolagem de página nativa. </p> <p> Se a imagem estiver ampliada, ela moverá a imagem verticalmente. Se a imagem for movida para a borda da exibição e um deslizamento ainda for feito nessa direção, o gesto executará uma rolagem de página nativa. </p> </td> 
+   <td colname="col2"> <p> Se a imagem estiver em um estado de redefinição, ela alterará o ângulo de exibição vertical caso um conjunto de rotação multidimensional seja usado. Em um conjunto de rotação unidimensional, o gesto executa uma rolagem de página nativa. Ou, quando um conjunto de rotação multidimensional está no último ou no primeiro eixo para que o deslizamento vertical não resulte em uma alteração no ângulo de exibição vertical, o gesto também executa uma rolagem de página nativa. </p> <p> Se a imagem estiver ampliada, ela moverá a imagem verticalmente. Se a imagem for movida para a borda da exibição e um deslizamento ainda for feito nessa direção, o gesto executará uma rolagem de página nativa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ No modo incorporado, o visualizador é adicionado à página da Web existente, q
 
 Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, e também páginas de design responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
 
-A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa é a melhor opção para páginas da Web com layout estático.
+A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa ação é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design supõe que o visualizador talvez precise ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+A incorporação responsiva de design supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout de design responsivas, como Bootstrap ou Foundation.
 
 Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo pode ser a incorporação do visualizador em uma sobreposição modal, na qual a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -141,7 +141,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
    >[!NOTE]
    >
-   >Você só deve fazer referência ao arquivo JavaScript `include` do visualizador principal na sua página. Você não deve fazer referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+   >Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
    >
    >
    >Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
@@ -162,7 +162,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7spinviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando um comando style.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado. Posteriormente, ele é atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando style.
 
    Consulte [Personalizando o Visualizador de rotação](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -175,7 +175,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API conforme descrito na seção Referência de comandos, como o seguinte:
+   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no Dynamic Media Classic. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos , como o seguinte:
 
    ```
     spinViewer.setParam("stagesize", 
@@ -295,11 +295,11 @@ A página de exemplos a seguir ilustra casos de uso mais reais da incorporação
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação flexível de tamanho com largura e altura definidas**
 
-No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ou seja, ele fornece ambos os tamanhos ao &quot; holder&quot; `DIV` e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%:
+Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ou seja, ele fornece ambos os tamanhos ao &quot; holder&quot; `DIV` e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%:
 
 ```
 <!DOCTYPE html> 
