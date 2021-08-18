@@ -5,9 +5,9 @@ title: Vídeo interativo
 feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
 
-O visualizador também mostra amostras interativas de produtos ao lado do conteúdo do vídeo. Vídeo único e Conjuntos de vídeo adaptativo são suportados. Ele foi projetado para funcionar em navegadores da Web móveis e desktop que suportam vídeo HTML5. O visualizador aceita legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento social. O objetivo desse visualizador é ajudar você a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região específica do tempo do vídeo e ser redirecionados para uma Exibição rápida ou para uma página de detalhes do produto no site do cliente.
+O visualizador também mostra amostras interativas de produtos ao lado do conteúdo do vídeo. Vídeo único e Conjuntos de vídeo adaptativo são suportados. Ele foi projetado para funcionar em navegadores da Web móveis e desktop que suportam vídeo HTML5. O visualizador aceita legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento social. O objetivo desse visualizador é ajudar você a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região específica do tempo do vídeo e ser redirecionados para uma página do Quickview ou de detalhes do produto no site do cliente.
 
 O tipo de visualizador é 510.
 
@@ -50,9 +50,9 @@ Em dispositivos de toque, o controle de volume fica oculto na interface do usuá
 
 Quando o visualizador opera no modo pop-up, um botão de tela cheia não está disponível na interface do usuário.
 
-O visualizador mostra um painel com amostras interativas à direita da área de visualização de vídeo. A lista de amostras avança automaticamente à medida que o vídeo é reproduzido, de modo que as amostras correspondentes à região do vídeo atual sejam exibidas. Clicar ou tocar em uma amostra aciona uma ação que foi associada a essa amostra durante o tempo de criação. Dependendo de como você o configurou, o acionador pode redirecionar para uma página diferente no site. Ou pode retornar as informações do produto à lógica da página da Web, que, por sua vez, pode acionar a abertura de uma Exibição rápida que mostra o conteúdo do produto relacionado.
+O visualizador mostra um painel com amostras interativas à direita da área de visualização de vídeo. A lista de amostras avança automaticamente à medida que o vídeo é reproduzido, de modo que as amostras correspondentes à região do vídeo atual sejam exibidas. Clicar ou tocar em uma amostra aciona uma ação que foi associada a essa amostra durante o tempo de criação. Dependendo de como você o configurou, o acionador pode redirecionar para uma página diferente no site. Ou pode retornar as informações do produto à lógica da página da Web, que, por sua vez, pode acionar a abertura de uma exibição rápida que mostra o conteúdo do produto relacionado.
 
-É possível navegar pelo conteúdo do vídeo rapidamente quando a filtragem de vídeo é ativada. Os capítulos de vídeo são exibidos como marcadores no rastreamento do depurador de vídeo e mostram o título e a descrição do capítulo na sobreposição (ou em um único toque nos sistemas de toque). O cliente pode &quot;procurar&quot; um capítulo específico clicando em um marcador de capítulo ou tocando em uma bolha de descrição do capítulo.
+É possível navegar pelo conteúdo do vídeo rapidamente quando o capítulo do vídeo é ativado. Os capítulos de vídeo são exibidos como marcadores no rastreamento do depurador de vídeo e mostram o título e a descrição do capítulo na sobreposição (ou em um único toque nos sistemas de toque). O cliente pode &quot;procurar&quot; um capítulo específico clicando em um marcador de capítulo ou tocando em uma bolha de descrição do capítulo.
 
 O visualizador também é compatível com várias ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela. A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código de incorporação e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente. O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
@@ -280,7 +280,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação responsiva com definição de largura e altura**
 
