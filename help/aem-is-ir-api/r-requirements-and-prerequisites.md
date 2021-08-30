@@ -2,12 +2,12 @@
 description: Antes de usar o Dynamic Media Image Serving, verifique se seu sistema atende aos requisitos do sistema.
 solution: Experience Manager
 title: Requisitos e pré-requisitos do sistema
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ O Dynamic Media Image Serving requer o seguinte software de servidor.
 * Red Hat® Enterprise 5 ou CentOS 5.5 e posterior, com os patches de correção mais recentes.
 * Sistema operacional de 64 bits.
 
-**Observação:** para usar o Serviço de imagem no Windows, você deve instalar o Microsoft Visual Studio 2010 redistribuível. O redistribuível está disponível no seguinte local:
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**Observação:** para usar o Serviço de imagem no Windows, você deve instalar o Microsoft Visual Studio 2010 redistribuível.

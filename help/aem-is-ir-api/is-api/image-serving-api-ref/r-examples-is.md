@@ -2,19 +2,20 @@
 description: Esta página vincula a vários exemplos de Servidor de imagem.
 solution: Experience Manager
 title: Exemplos de servidor de imagem
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Exemplos de servidor de imagem{#image-server-examples}
 
 Esta página vincula a vários exemplos de Servidor de imagem.
+<!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 * [ajuste1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [ajuste2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
