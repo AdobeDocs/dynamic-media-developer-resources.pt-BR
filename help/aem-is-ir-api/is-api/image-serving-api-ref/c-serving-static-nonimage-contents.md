@@ -2,12 +2,12 @@
 description: Você pode usar o Serviço de imagem para gerenciar conteúdo não-imagem em catálogos e servi-lo por meio de um contexto separado /is/content.
 solution: Experience Manager
 title: Fornecer conteúdo estático (não imagem)
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ Você pode encapsular arquivos de legenda de vídeo (WebVTT), CSS ou qualquer ar
 
 Também é possível usar rastreamentos para outros tipos de metadados cronometrados. Os dados de origem de cada elemento de rastreamento são um arquivo de texto composto de uma lista de dicas cronometradas. As causas podem incluir dados em formatos como JSON ou CSV.
 
-Consulte [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) para obter mais informações sobre o formato JSONP.
+Consulte [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) para obter mais informações sobre o formato JSONP.
 
-Consulte [www.json.org](http://www.json.org) para obter mais informações sobre o formato JSON.
+Consulte [www.json.org](https://www.json.org) para obter mais informações sobre o formato JSON.
 
 ## Consulte também {#section-7b28631016044a22a3a6762fd64771e9}
 

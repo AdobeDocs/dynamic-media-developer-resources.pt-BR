@@ -3,12 +3,12 @@ description: O eCatalog Search Viewer é um visualizador de catálogo que exibe 
 keywords: responsivo
 solution: Experience Manager
 title: Pesquisa no catálogo eletrônico
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ O caminho relativo tem a seguinte aparência:
 
    Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `eCatalogSearchViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `http://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Viewers/Pluralist` é o ativo:
+   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `eCatalogSearchViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Viewers/Pluralist` é o ativo:
 
    ```
    <script type="text/javascript"> 
@@ -201,8 +201,8 @@ O caminho relativo tem a seguinte aparência:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script>
@@ -214,7 +214,7 @@ O caminho relativo tem a seguinte aparência:
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
@@ -229,8 +229,8 @@ O caminho relativo tem a seguinte aparência:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script> 
@@ -270,7 +270,7 @@ Todas as etapas acima são as mesmas que com incorporação de tamanho fixo. Adi
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -286,8 +286,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -333,7 +333,7 @@ As etapas de incorporação restantes são idênticas à incorporação responsi
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -357,8 +357,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -376,7 +376,7 @@ O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em 
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogsearchviewer { 
  width: 640px; 
@@ -389,8 +389,8 @@ O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em 
 <script type="text/javascript"> 
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer(); 
 eCatalogSearchViewer.setContainerId("s7viewer"); 
-eCatalogSearchViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
-eCatalogSearchViewer.setParam("searchserverurl", "http://s7search1.scene7.com/s7search/"); 
+eCatalogSearchViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
+eCatalogSearchViewer.setParam("searchserverurl", "https://s7search1.scene7.com/s7search/"); 
 eCatalogSearchViewer.setAsset("Viewers/Pluralist"); 
 eCatalogSearchViewer.init(); 
 </script> 

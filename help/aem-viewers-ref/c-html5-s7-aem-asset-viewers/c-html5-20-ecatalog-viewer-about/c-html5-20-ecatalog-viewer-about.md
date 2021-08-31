@@ -3,12 +3,12 @@ description: O eCatalog Viewer é um visualizador de catálogo que exibe folheto
 keywords: responsivo
 solution: Experience Manager
 title: Catálogo eletrônico
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Este visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opc
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+[https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
 ## Usando o Visualizador de Catálogo Eletrônico {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -107,7 +107,7 @@ Você pode obter personalização visual aplicando CSS personalizado.
 Este é um exemplo de código HTML que abre o visualizador em uma nova janela:
 
 ```
-<a href="http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
+<a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
 **Sobre o modo de incorporação de tamanho fixo e o modo de incorporação de design responsivo**
@@ -198,7 +198,7 @@ O caminho relativo tem a seguinte aparência:
 
    Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `eCatalogViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `http://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Viewers/Pluralist` é o ativo:
+   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `eCatalogViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Viewers/Pluralist` é o ativo:
 
    ```
    <script type="text/javascript"> 
@@ -206,7 +206,7 @@ O caminho relativo tem a seguinte aparência:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script>
@@ -218,7 +218,7 @@ O caminho relativo tem a seguinte aparência:
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
@@ -233,7 +233,7 @@ O caminho relativo tem a seguinte aparência:
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script> 
@@ -273,7 +273,7 @@ Todas as etapas acima são as mesmas que com incorporação de tamanho fixo. Adi
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -289,7 +289,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -335,7 +335,7 @@ As etapas de incorporação restantes são idênticas à incorporação responsi
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -359,7 +359,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -377,7 +377,7 @@ O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em 
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogviewer { 
  width: 640px; 
@@ -390,7 +390,7 @@ O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em 
 <script type="text/javascript"> 
 var eCatalogViewer = new s7viewers.eCatalogViewer(); 
 eCatalogViewer.setContainerId("s7viewer"); 
-eCatalogViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
+eCatalogViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
 eCatalogViewer.setAsset("Viewers/Pluralist"); 
 eCatalogViewer.init(); 
 </script> 

@@ -2,12 +2,12 @@
 description: O IPS Web Service é suportado por um conjunto de documentos WSDL (Web Services Description Language) que são acessados a partir de qualquer instalação IPS em que o componente IPS Web Service está instalado. Cada versão da API do IPS inclui um novo arquivo WSDL que faz referência a um namespace XML de destino com versão. As versões anteriores do namespace WSDL também são compatíveis com versões anteriores dos aplicativos existentes.
 solution: Experience Manager
 title: Versões WSDL do Serviço Web IPS
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Para processar uma solicitação, defina o cabeçalho HTTP SOAPAction como o nom
 
 **Formato de mensagem**
 
-O estilo document/literal é usado para todas as mensagens de entrada e saída com tipos com base na linguagem de definição do Esquema XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) e especificado no arquivo WSDL. Todos os tipos exigem nomes qualificados usando o valor de namespace de destino especificado no arquivo WSDL.
+O estilo document/literal é usado para todas as mensagens de entrada e saída com tipos com base na linguagem de definição do Esquema XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) e especificado no arquivo WSDL. Todos os tipos exigem nomes qualificados usando o valor de namespace de destino especificado no arquivo WSDL.
 
 **Autenticação da solicitação**
 
