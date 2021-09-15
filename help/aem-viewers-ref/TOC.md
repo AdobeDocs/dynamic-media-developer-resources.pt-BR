@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 # Guia de referência de visualizadores do Dynamic Media {#library}
 
-+ [Guia de referência de visualizadores do Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
++ [Guia de referência de visualizadores do Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
 + [Exemplos de biblioteca do visualizador](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalar vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
