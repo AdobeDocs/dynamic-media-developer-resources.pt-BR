@@ -1,13 +1,13 @@
 ---
+title: dispor
 description: Referência da API do JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
-title: dispor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 64e9f83f-e17e-4544-825a-fd458e15fdb5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dispõe essa instância do visualizador, liberando todos os recursos usados pela
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador, ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web. E essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
 
 Não acesse mais a API do visualizador depois que `dispose()` for chamado.
 

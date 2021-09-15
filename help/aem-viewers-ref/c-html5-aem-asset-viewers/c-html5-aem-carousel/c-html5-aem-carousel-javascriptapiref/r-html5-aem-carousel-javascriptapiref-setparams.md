@@ -1,13 +1,13 @@
 ---
+title: setParams
 description: Referência da API do JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Referência da API do JavaScript para o Visualizador do carrossel.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Assim como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
 Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` objeto JSON para o construtor.
 
