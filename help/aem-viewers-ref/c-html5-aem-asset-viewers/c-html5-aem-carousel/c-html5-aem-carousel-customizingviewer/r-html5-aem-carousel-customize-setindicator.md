@@ -1,13 +1,13 @@
 ---
+title: Definir indicador
 description: O indicador Set é uma série de pontos renderizados na parte inferior do visualizador. Mostra a posição atual no conjunto.
 solution: Experience Manager
-title: Definir indicador
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ A aparência do contêiner indicador definido é controlada com o seguinte selet
 >
 >O indicador Set suporta o seletor de atributo mode, que pode ser usado para aplicar estilos diferentes para modos de operação pontilhados e numéricos. Em particular, `mode="numeric"` corresponde ao modo de operação numérico; `mode="dotted"` corresponde ao estado de ponto padrão.
 
-Exemplo - para configurar o indicador de configuração com um fundo branco:
+Por exemplo, suponha que você deseja configurar um indicador de conjunto com um fundo branco:
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
 >
 >Os itens do indicador definido oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em particular, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado padrão do item.
 
-Exemplo - para configurar o indicador de configuração no modo pontilhado para que os sistemas de desktop sejam posicionados 20 pixels a partir da parte inferior do visualizador. Os pontos não selecionados são pretos com 50% de transparência, 15 x 15 pixels com 7 pixels de cantos arredondados. Os pontos selecionados são pretos com 90% de transparência, 18 x 18 pixels com 9 pixels de cantos arredondados. O espaçamento entre pontos é de 5 pixels.
+Por exemplo, suponha que você queira configurar um indicador de configuração no modo pontilhado para os sistemas de desktop. Você quer que ele seja posicionado 20 pixels da parte inferior do visualizador. E você quer que os pontos não selecionados sejam pretos com 50% de transparência, 15 x 15 pixels com sete pixels de cantos arredondados. Os pontos selecionados são pretos com 90% de transparência, 18 x 18 pixels com nove pixels de cantos arredondados. O espaçamento entre pontos é de cinco pixels.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

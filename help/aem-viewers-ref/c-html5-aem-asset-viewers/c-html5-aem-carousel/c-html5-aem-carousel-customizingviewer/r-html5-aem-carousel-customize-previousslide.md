@@ -1,20 +1,20 @@
 ---
+title: Slide anterior
 description: Clicar ou tocar nesse botão retorna o usuário ao slide anterior no conjunto de carrossel. Esse botão não é exibido em dispositivos de toque. Você pode dimensionar, usar a capa e posicionar esse botão usando o CSS.
 solution: Experience Manager
-title: Slide anterior
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # Slide anterior{#previous-slide}
 
-Clicar ou tocar nesse botão retorna o usuário ao slide anterior no conjunto de carrossel. Esse botão não é exibido em dispositivos de toque. Você pode dimensionar, usar a capa e posicionar esse botão usando o CSS.
+Selecionar essa tecla retorna um usuário ao slide anterior no conjunto de carrossel. Esse botão não é exibido em dispositivos de toque. Você pode dimensionar, usar a capa e posicionar esse botão usando o CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obter mais informações.
 
-Exemplo - para configurar um botão de slide anterior, com 60 x 60 pixels, posicionado 10 pixels da borda esquerda do visualizador e centralizado verticalmente, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
+Por exemplo, suponha que você deseja configurar um botão de slide anterior com 60 x 60 pixels. Você quer que ele seja posicionado dez pixels da borda esquerda do visualizador e verticalmente centralizado. E você quer que ele exiba uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

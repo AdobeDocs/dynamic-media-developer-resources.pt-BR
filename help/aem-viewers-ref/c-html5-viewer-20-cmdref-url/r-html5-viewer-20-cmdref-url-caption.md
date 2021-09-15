@@ -1,13 +1,13 @@
 ---
+title: caption
 description: Parâmetro comum a todos os visualizadores.
 solution: Experience Manager
-title: caption
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Este visualizador oferece suporte a legendas ocultas por meio de arquivos WebVTT
  </tbody> 
 </table>
 
-Esteja ciente de que, se houver outros recursos WebVTT presentes no arquivo WebVTT, eles não são suportados; no entanto, elas não interromperão as legendas.
+Se houver outros recursos WebVTT presentes no arquivo WebVTT, eles não serão suportados; no entanto, elas não interrompem as legendas.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

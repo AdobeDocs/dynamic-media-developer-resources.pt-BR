@@ -3,12 +3,12 @@ title: Requisitos de sistema para visualizadores HTML5 do Dynamic Media
 description: Requisitos de sistema para visualizadores HTML5 do Dynamic Media.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Requisitos de sistema para visualizadores HTML5 do Dynamic Media.
 ## Hardware e software para servidor {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 ou posterior.
-* Os visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript™ do SDK 3.11.1 ou posterior.
+* Os visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.11.1 ou posterior.
 * Os recursos sociais &quot;Enviar e-mail para um amigo&quot; exigem o s7ondemand 5.0.9 ou posterior.
 * Visualizador de catálogo eletrônico - O suporte ao painel Informações requer o servidor de informações 2.1.8 ou posterior.
 * Os componentes do recurso de pesquisa exigem o s7search 2.3.0 ou posterior.

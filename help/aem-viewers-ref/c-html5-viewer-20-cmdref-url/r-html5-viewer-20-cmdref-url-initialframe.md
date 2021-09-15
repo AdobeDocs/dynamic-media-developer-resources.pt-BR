@@ -1,14 +1,14 @@
 ---
+title: initialFrame
 description: Parâmetro comum a todos os visualizadores.
 solution: Experience Manager
-title: initialFrame
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: '97'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Parâmetro comum a todos os visualizadores.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Um índice com base em zero da página na página espelhada quando o dispositivo está na orientação retrato. Em um ambiente "da esquerda para a direita" <span class="codeph"> 0</span> significa "página da esquerda" e <span class="codeph"> 1</span> significa "página da direita". Na "direita para a esquerda", é o oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não especificado, <span class="codeph"> 0</span> é assumido por padrão. Ignorado quando o dispositivo está em orientação de paisagem. </p> </td> 
+   <td colname="col2"> <p>Um índice com base em zero da página na página espelhada quando o dispositivo está na orientação retrato. Para um ambiente "da esquerda para a direita", <span class="codeph"> 0</span> significa "página da esquerda" e <span class="codeph"> 1</span> significa "página da direita". Para um ambiente de "direita para a esquerda", é o oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não especificado, <span class="codeph"> 0</span> é assumido por padrão. Ignorado quando o dispositivo está em orientação de paisagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>

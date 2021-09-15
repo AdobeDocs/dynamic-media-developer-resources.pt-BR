@@ -1,20 +1,20 @@
 ---
-description: Clicar ou tocar no botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
-solution: Experience Manager
 title: Próximo slide
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+description: Selecionar o botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Próximo slide{#next-slide}
 
-Clicar ou tocar no botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
+Selecionar o botão Próximo slide move um usuário para o próximo slide no conjunto de carrossel.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obter mais informações.
 
-Exemplo - para configurar um botão de slide anterior, com 60 x 60 pixels, posicionado 10 pixels da borda direita do visualizador e centrado verticalmente, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
+Por exemplo, suponha que você deseja configurar um botão de slide anterior com 60 x 60 pixels. O botão deve ser posicionado em dez pixels a partir da borda direita do visualizador e centralizado verticalmente. E você quer que ele exiba uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 
