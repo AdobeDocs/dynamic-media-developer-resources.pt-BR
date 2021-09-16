@@ -1,14 +1,14 @@
 ---
+title: CarouselView.iscommand
 description: CarouselView.iscommand
 solution: Experience Manager
-title: CarouselView.iscommand
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand  </span></span> </p> </td> 
    <td colname="col2"> <p> A string de comando Exibição de imagem que é aplicada à imagem do banner. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas por HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 

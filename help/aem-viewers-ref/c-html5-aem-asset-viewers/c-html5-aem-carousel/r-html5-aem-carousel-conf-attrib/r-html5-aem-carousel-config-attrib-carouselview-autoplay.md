@@ -1,14 +1,14 @@
 ---
+title: CarouselView.autoplay
 description: Atributo de configuração para o Visualizador de carrossel.
 solution: Experience Manager
-title: CarouselView.autoplay
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
