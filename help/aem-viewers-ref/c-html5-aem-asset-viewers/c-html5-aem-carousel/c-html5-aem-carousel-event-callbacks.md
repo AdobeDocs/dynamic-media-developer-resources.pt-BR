@@ -1,13 +1,13 @@
 ---
+title: Retornos de chamada do evento
 description: Retornos de chamada do evento
 solution: Experience Manager
-title: Retornos de chamada do evento
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Os eventos compatíveis do visualizador incluem:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> Aciona quando o usuário ativa um ponto de acesso com dados do Quick View associados a ele. O manipulador de retorno de chamada usa o seguinte argumento: </p> <p> 
+   <td colname="col2"> <p> Aciona quando o usuário ativa um ponto de acesso com dados do Quickview associados a ele. O manipulador de retorno de chamada usa o seguinte argumento: </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> - um objeto JSON contendo dados da definição de ponto de acesso. O campo <span class="codeph"> sku </span> é obrigatório, enquanto outros campos são opcionais e dependem da definição do ponto de acesso de origem. </p> </li> 
      </ul> </p> </td> 

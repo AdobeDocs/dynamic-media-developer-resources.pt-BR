@@ -1,13 +1,13 @@
 ---
+title: Suporte à tecnologia assistiva
 description: Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 solution: Experience Manager
-title: Suporte à tecnologia assistiva
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Banners em carrossel,Acessibilidade
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners,Accessibility
 role: Developer,User
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O elemento do visualizador de nível superior tem o atributo de função `region
 
 Os botões têm a função `button` e o texto descritivo definido com o atributo `aria-label`. O valor do atributo `aria-label` é preenchido a partir do valor do símbolo de localização do botão. Quando um botão é desativado, o atributo `aria-disabled` é definido adequadamente.
 
-Os botões que permitem navegar pelos slides do carrossel têm rótulos que são atualizados em tempo de execução, dependendo do slide selecionado no momento. O modelo para o rótulo desse botão é definido com o símbolo de localização `CAROUSELVIEWER_TOOLTIP_GOTO`.
+Os botões que permitem navegar pelos slides do carrossel têm rótulos que são atualizados em tempo de execução, dependendo do slide selecionado no momento. O modelo para o rótulo desses botões é definido com o símbolo de localização `CAROUSELVIEWER_TOOLTIP_GOTO`.
 
 A exibição principal tem a função `application`. Uma breve descrição da exibição principal é fornecida em `aria-roledescription`, com o valor definido pelo símbolo de localização `ROLE_DESCRIPTION` do componente de exibição principal correspondente. As dicas de navegação para usuários de teclado são fornecidas usando `aria-describedby`, o texto para a dica de uso vem do símbolo de localização `USAGE_HINT`. Se um ativo tiver um rótulo definido no campo UserData , o atributo `aria-label` será definido com o valor desse rótulo.
 
