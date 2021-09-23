@@ -1,13 +1,13 @@
 ---
+title: Botão Reproduzir/Pausar
 description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
 solution: Experience Manager
-title: Botão Reproduzir/Pausar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -69,13 +69,13 @@ O seguinte seletor de classe CSS controla a aparência do botão:
 >
 >Esse botão suporta os seletores de atributos `state`, `selected` e `replay`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em particular, `selected='true'` corresponde ao estado &quot;reproduzir&quot; e `selected='false'` corresponde ao estado &quot;pausar&quot;;
 >
->`replay='true'` é definido quando o vídeo atinge o fim, e clicar no botão reinicia a reprodução a partir do início.
+>O atributo `replay='true'` é definido quando o vídeo chega ao fim e a seleção do botão reinicia a reprodução a partir do início.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um botão reproduzir/pausar com 32 x 32 pixels; é posicionado seis pixels da borda superior e esquerda da barra de controle e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Para configurar um botão reproduzir/pausar com 32 x 32 pixels e é posicionado com seis pixels da borda superior e esquerda da barra de controle. E, por fim, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

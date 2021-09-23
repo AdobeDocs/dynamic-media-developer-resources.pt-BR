@@ -1,13 +1,13 @@
 ---
+title: Amostras interativas
 description: O painel de amostras interativas é exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto como "Clique para exibir", uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas de desktop).
 solution: Experience Manager
-title: Amostras interativas
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ O local e a orientação do tempo de execução do painel de amostras interativa
 * Para renderizar amostras interativas horizontalmente na parte inferior do visualizador, defina a altura para um valor de pixel absoluto; esquerda e inferior a 0px; largura, direita e superior para auto.
 * Para renderizar amostras interativas verticalmente à direita do conteúdo do vídeo, defina a largura para um pixel absoluto; direito e superior a 0px; altura, esquerda e inferior para auto.
 
-É possível usar marcadores CSS em conjunto com esse estilo para obter o posicionamento adaptável do painel de amostras interativas.
+É possível usar marcadores CSS com esse estilo para obter o posicionamento adaptável do painel de amostras interativas.
 
 ## Exemplo {#example}
 
-Para configurar um painel de amostras interativas para renderizar horizontalmente na parte inferior do visualizador em dispositivos de toque na orientação paisagem e mostrar verticalmente à direita do conteúdo de vídeo em todos os outros casos:
+Para configurar um painel de amostras interativas para renderizar horizontalmente na parte inferior do visualizador em dispositivos de toque na orientação paisagem. E, para exibi-lo verticalmente à direita do conteúdo de vídeo em todos os outros casos:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ O seguinte seletor de classe CSS controla o espaçamento entre miniaturas de amo
 
 ## Exemplo {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Para configurar o espaçamento vertical para ter 10 pixels:
+Para configurar o espaçamento vertical para ter dez pixels:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ O seguinte seletor de classe CSS controla a aparência do rótulo de miniatura:
 
 ## Exemplo {#section-eb141eb6c1154183baa69796edb90536}
 
-Para configurar rótulos para usar o alinhamento à esquerda, o branco, 12 pixels, em fonte Helvetica e uma borda inferior:
+Para configurar rótulos para usar um alinhamento à esquerda, branco, 12 pixels, em fonte Helvetica® e uma borda inferior:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

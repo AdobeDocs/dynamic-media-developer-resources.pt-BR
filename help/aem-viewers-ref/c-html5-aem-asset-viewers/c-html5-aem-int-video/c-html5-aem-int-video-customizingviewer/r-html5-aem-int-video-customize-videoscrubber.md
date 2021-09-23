@@ -1,13 +1,13 @@
 ---
+title: Vídeo de depuração
 description: O depurador de vídeo é o controle deslizante horizontal que permite que um usuário procure dinamicamente qualquer posição de tempo no vídeo que está sendo reproduzido.
 solution: Experience Manager
-title: Vídeo de depuração
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O depurador de vídeo é o controle deslizante horizontal que permite que um usu
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível usar a capa do depurador de vídeo. altere sua altura e posição vertical, por CSS.
+O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível aplicar a capa do depurador de vídeo e alterar sua altura e posição vertical por CSS.
 
 A aparência geral do depurador de vídeo é controlada pelo seguinte seletor de classe CSS:
 
@@ -158,7 +158,7 @@ O seguinte seletor de classe CSS controla a bolha de tempo reproduzido:
 
 A dica de ferramenta do depurador de vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-**Exemplo**  - Para configurar um visualizador de vídeo com um depurador de vídeo com cores de rastreamento personalizadas com 10 pixels de altura e posicionado 10 pixels e 35 pixels das bordas superior e esquerda da barra de controle.
+**Exemplo**  - Para configurar um visualizador de vídeo com um depurador de vídeo e com cores de rastreamento personalizadas com dez pixels de altura. Posicione-o a dez pixels e 35 pixels das bordas superior e esquerda da barra de controle.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Quando o capítulo do vídeo é ativado com o parâmetro `navigation` , os locais do capítulo são exibidos como marcadores na parte superior da faixa do depurador de vídeo.
+Quando o marcador de capítulo de vídeo é ativado com o parâmetro `navigation` , os locais do capítulo são exibidos como marcadores na parte superior da faixa do depurador de vídeo.
 
 O marcador de capítulo de vídeo é controlado pelo seguinte seletor de classe CSS:
 
@@ -430,7 +430,7 @@ A descrição do capítulo do vídeo é controlada pelo seguinte seletor de clas
  </tbody> 
 </table>
 
-**Exemplo**  - Para configurar a descrição do capítulo do vídeo usando uma fonte cinza escuro, Verdana de 11 pixels, com um fundo cinza claro; Altura da linha de 5 pixels, preenchimento horizontal de 12 pixels, preenchimento superior de 12 pixels e preenchimento inferior de 9 pixels.
+**Exemplo**  - Para configurar a descrição do capítulo do vídeo usando uma fonte cinza escuro, Verdana de 11 pixels, com um fundo cinza claro. Uma altura de linha de cinco pixels, preenchimento horizontal de 12 pixels, preenchimento superior de 12 pixels e preenchimento inferior de nove pixels.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 

@@ -1,13 +1,13 @@
 ---
+title: Compartilhamento de link
 description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento de link
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
+A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo ativa é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -162,7 +162,7 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  </tbody> 
 </table>
 
-O ícone e o texto do título são envolvidos em um contêiner adicional controlado com o seguinte seletor de classe CSS:
+O ícone e o texto do título são envolvidos em um contêiner extra controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemplo**  - para configurar um cabeçalho de caixa de diálogo com preenchimento, ícone de 22 x 12 pixels, título de 16 pontos em negrito e botão Fechar de 28 x 28 pixels, que é posicionado dois pixels da parte superior e dois pixels à direita do contêiner da caixa de diálogo:
+**Exemplo**  - para configurar um cabeçalho de caixa de diálogo com preenchimento, ícone de 22 x 12 pixels, com um título de 16 pontos em negrito. E finalmente, um botão Fechar de 28 x 28 pixels que é posicionado em dois pixels da parte superior e em dois pixels à direita do contêiner da caixa de diálogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 >
 >Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ A área de diálogo principal (entre o cabeçalho e o rodapé) contém conteúdo
 }
 ```
 
-Todo o conteúdo do formulário, como rótulos e campos de entrada, reside dentro de um contêiner controlado com o seguinte seletor de classe CSS:
+Todo o conteúdo do formulário - como rótulos e campos de entrada - reside dentro de um contêiner controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Todo o conteúdo do formulário, como rótulos e campos de entrada, reside dentr
  </tbody> 
 </table>
 
-**Exemplo**  - para configurar o conteúdo do formulário para ter o preenchimento de 10 pixels:
+**Exemplo**  - para configurar o conteúdo do formulário para ter um preenchimento de dez pixels:
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 

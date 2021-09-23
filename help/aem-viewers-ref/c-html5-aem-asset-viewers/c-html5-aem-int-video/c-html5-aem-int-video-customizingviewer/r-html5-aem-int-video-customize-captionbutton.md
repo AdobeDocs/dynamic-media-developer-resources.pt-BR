@@ -1,13 +1,13 @@
 ---
+title: Botão Legenda
 description: Esse botão ativa e desativa a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado.
 solution: Experience Manager
-title: Botão Legenda
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos 
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um botão de legenda fechada com 28 x 28 pixels, posicionado quatro pixels da parte superior e 68 pixels da borda direita da barra de controle, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Para configurar um botão de legenda fechada com 28 x 28 pixels. O botão deve ser posicionado em quatro pixels da parte superior e em 68 pixels da borda direita da barra de controle. E deve exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

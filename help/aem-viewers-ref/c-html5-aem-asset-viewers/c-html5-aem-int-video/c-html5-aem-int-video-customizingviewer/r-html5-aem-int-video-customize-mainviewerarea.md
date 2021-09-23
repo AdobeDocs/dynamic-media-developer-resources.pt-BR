@@ -1,20 +1,20 @@
 ---
-description: A área de visualização principal é a área ocupada pelas amostras interativas. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
-solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+description: A área de visualização principal é a área ocupada pelas amostras interativas. Ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # Área do visualizador principal{#main-viewer-area}
 
-A área de visualização principal é a área ocupada pelas amostras interativas. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+A área de visualização principal é a área ocupada pelas amostras interativas. Ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

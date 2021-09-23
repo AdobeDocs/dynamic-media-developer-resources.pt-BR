@@ -1,11 +1,11 @@
 ---
+title: Chamada à ação
 description: O painel Chamar para ação é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo em particular.
 solution: Experience Manager
-title: Chamada à ação
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 0%
@@ -187,11 +187,11 @@ O seguinte seletor de classe CSS controla a aparência do botão fechar no paine
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
 ## Exemplo {#example-3}
 
-Para configurar um botão de repetição com 28 x 28 pixels; posicionados 20 pixels a partir da parte superior e da extremidade direita do cabeçalho; exibe uma imagem diferente para cada um dos quatro estados de botão diferentes; obtém a arte-final da imagem do componente:
+Para configurar um botão de repetição com 28 x 28 pixels. O botão deve ser posicionado 20 pixels da parte superior e da borda direita do cabeçalho. E deve exibir uma imagem diferente para cada um dos quatro estados de botão diferentes; obtém a arte-final da imagem do componente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ O seguinte seletor de classe CSS controla a aparência da célula de polegar no 
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propriedades de CSS da célula de miniatura no painel de ação da chamada para : {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propriedades CSS da célula de polegar no painel de ação: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ O seguinte seletor de classe CSS controla a aparência do rótulo de miniatura n
 
 ## Exemplo {#example-7}
 
-Para configurar rótulos que usam uma cor branca, seja alinhado no centro a 15 pixels e use uma fonte Arial:
+Para configurar rótulos que usam uma cor branca, seja alinhado no centro a 15 pixels e use uma fonte Arial®:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 
