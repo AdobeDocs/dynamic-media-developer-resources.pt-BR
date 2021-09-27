@@ -1,13 +1,13 @@
 ---
+title: Entrega de vídeo HTTPS
 description: Entrega de vídeo HTTPS
 solution: Experience Manager
-title: Entrega de vídeo HTTPS
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Desde que o visualizador funcione na configuração conforme descrito no início desta seção, a entrega de vídeo publicado pode ocorrer nos modos HTTPS (seguro) e HTTP (inseguro). Em uma configuração padrão, o protocolo de entrega de vídeo segue estritamente o protocolo de entrega da página da Web de incorporação. No entanto, é possível forçar a entrega de vídeo HTTPS independentemente do protocolo usado ao incorporar a página da Web usando o atributo de configuração [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771). (Observe que a visualização de vídeo no modo Autor é sempre fornecida com segurança por HTTPS.)
+Se o visualizador funcionar na configuração conforme descrito no início desta seção, a entrega de vídeo publicado pode ocorrer nos modos HTTPS (seguro) e HTTP (inseguro). Em uma configuração padrão, o protocolo de entrega de vídeo segue estritamente o protocolo de entrega da página da Web de incorporação. No entanto, é possível forçar a entrega de vídeo HTTPS independentemente do protocolo usado ao incorporar a página da Web usando o atributo de configuração [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771). (A visualização de vídeo no modo Autor é sempre fornecida com segurança por HTTPS.)
 
-Dependendo do método de publicação de vídeo do Dynamic Media usado no AEM, o atributo de configuração `VideoPlayer.ssl` é aplicado de forma diferente, conforme demonstrado no seguinte:
+Dependendo do método de publicação de vídeo do Dynamic Media usado no Adobe Experience Manager, o atributo de configuração `VideoPlayer.ssl` é aplicado de forma diferente, conforme demonstrado no seguinte:
 
 * Se você publicar um vídeo do Dynamic Media com um URL, anexe `VideoPlayer.ssl` ao URL. Por exemplo, para forçar a entrega segura de vídeo, você anexa `&VideoPlayer.ssl=on` ao final do seguinte exemplo de URL do visualizador:
 

@@ -1,13 +1,13 @@
 ---
+title: Suporte à tecnologia assistiva
 description: Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 solution: Experience Manager
-title: Suporte à tecnologia assistiva
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos,Acessibilidade
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Os componentes do controle deslizante têm a função `slider` com atributos `ar
 
 As miniaturas têm a função `dialog` com o atributo `aria-label` controlado pelo símbolo de localização `ThumbnailGridView.LABEL`. As miniaturas individuais têm a função `button`. Se uma miniatura for selecionada, ela obterá o atributo `aria-selected` definido como `true`.
 
-Os componentes que exibem amostras têm a função `listbox` com o atributo `aria-label` definido com o valor do símbolo de localização `LABEL` desse componente. Amostras individuais têm a função `option` com atributos `aria-setsize` e `aria-posinset` para descrever a posição da amostra no conjunto. Se uma amostra for selecionada, ele obterá o atributo `aria-selected` definido como `true`.
+Os componentes que exibem amostras têm a função `listbox` com o atributo `aria-label` definido com o valor do símbolo de localização `LABEL` desse componente. Amostras individuais têm a função `option` com atributos `aria-setsize` e `aria-posinset` para descrever a posição da amostra no conjunto. Se uma amostra for selecionada, ela obterá o atributo `aria-selected` definido como `true`.
 
 As listas suspensas são ativadas por botões com atributo `aria-haspopup` adicional definido como `true` e atributo `aria-controls` referenciando o elemento real do painel suspenso. O próprio painel suspenso tem a função `menu` com subelementos com a função `menuitem`. Cada item de menu tem o atributo `aria-label` especificado.
 

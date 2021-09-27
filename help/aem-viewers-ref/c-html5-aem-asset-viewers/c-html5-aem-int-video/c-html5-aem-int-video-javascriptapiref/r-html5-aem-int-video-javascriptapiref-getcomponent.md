@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referência da API do JavaScript para o Visualizador de vídeo interativo.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -103,13 +103,13 @@ Retorna uma referência ao componente do SDK do visualizador usado pelo visualiz
  </tbody> 
 </table>
 
-Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente qualificado conforme descrito em [Namespace do SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Ao trabalhar com APIs do SDK, é importante usar um namespace de SDK correto e totalmente qualificado, conforme descrito em [Namespace do SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
 Consulte a documentação da *API do SDK do visualizador* para obter mais informações sobre um componente específico.
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
+`{Object}` Uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

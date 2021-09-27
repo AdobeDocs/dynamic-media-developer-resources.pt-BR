@@ -1,13 +1,13 @@
 ---
+title: Vídeo interativo
 description: Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
 solution: Experience Manager
-title: Vídeo interativo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7interactivevideoviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocá-lo em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AEM Assets - sob demanda ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocá-lo em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand, ou passado explicitamente usando o comando `style`.
 
    Consulte [Personalizando visualizador de vídeo interativo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
@@ -139,7 +139,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no AEM Assets - sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
+   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador em Ativos do Experience Manager - Sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

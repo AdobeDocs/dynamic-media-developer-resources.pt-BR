@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.mutevolume
 description: Atributo de configuração para o Visualizador de vídeo interativo.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span> o volume está mudo; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, a reprodução de vídeo com mutação ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span> o volume está mudo; caso contrário, o vídeo será reproduzido com som. Em certos dispositivos, o reprodutor de vídeo com o recurso mutar ao carregar também permite a reprodução automática do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

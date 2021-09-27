@@ -1,13 +1,13 @@
 ---
+title: SocialShare.bearing
 description: Atributo de configuração para o Visualizador de vídeo interativo.
 solution: Experience Manager
-title: SocialShare.bearing
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeos interativos
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: f34d6954-01c5-49e0-94d4-fd577c57956e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> para cima|para baixo|para a esquerda|para a direita|para-vertical|para-caber-lateral</span> </p> </td> 
-   <td colname="col2"> <p> Especifica a direção da animação de slide para o contêiner de botões. Quando definido para <span class="codeph"> para cima</span>, <span class="codeph"> para baixo</span>, <span class="codeph"> para a esquerda</span> ou <span class="codeph"> para a direita</span>, o painel é implantado na direção especificada sem qualquer verificação de limites adicional, o que pode resultar no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do SocialShare e tenta implantar o painel em uma das seguintes direções a partir de um local base como esse: de baixo, à direita, à esquerda. A cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetirá as tentativas de implantação de uma direção superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante, mas alterna a base para a direita primeiro, tentando as direções de distribuição para a direita, para baixo e para cima. Em seguida, ele muda a base para a esquerda, tentando a esquerda, para baixo e para cima em direções de implantação. </p> </td> 
+   <td colname="col2"> <p> Especifica a direção da animação de slide para o contêiner de botões. Quando definido para <span class="codeph"> para cima</span>, <span class="codeph"> para baixo</span>, <span class="codeph"> para a esquerda</span> ou <span class="codeph"> para a direita</span>, o painel é implantado na direção especificada sem qualquer verificação de limites adicional, o que pode resultar no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do SocialShare. Em seguida, ele tenta implantar o painel em uma das seguintes direções a partir de um local tão básico: de baixo, à direita, à esquerda. Com cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetirá as tentativas de distribuição de uma direção superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante, mas alterna a base para a direita primeiro, tentando as direções de distribuição para a direita, para baixo e para cima. Em seguida, ele muda a base para a esquerda, tentando a esquerda, para baixo e para cima em direções de implantação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
