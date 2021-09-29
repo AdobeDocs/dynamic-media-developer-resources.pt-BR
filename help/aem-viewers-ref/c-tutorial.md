@@ -1,13 +1,13 @@
 ---
+title: Tutorial do SDK do visualizador
 description: O SDK do visualizador fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento personalizado do visualizador. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada servido pelo Adobe Dynamic Media seja incorporado em páginas da Web.
 solution: Experience Manager
-title: Tutorial do SDK do visualizador
-feature: Dynamic Media Classic,Visualizadores,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O SDK do visualizador fornece um conjunto de componentes baseados em JavaScript 
 
 Por exemplo, o SDK fornece zoom interativo e panorâmica. Ele também fornece visualização de 360° e reprodução de vídeo de ativos que foram carregados no Adobe Dynamic Media por meio do aplicativo de back-end chamado Dynamic Media Classic.
 
-Embora os componentes dependam da funcionalidade HTML5, eles foram projetados para funcionar em dispositivos e desktops Android e Apple iOS, incluindo o Internet Explorer e posterior. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas compatíveis.
+Embora os componentes dependam da funcionalidade HTML5, eles foram projetados para funcionar em dispositivos e desktops Android™ e Apple iOS, incluindo o Internet Explorer e posterior. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas compatíveis.
 
 O SDK consiste em Componentes da interface do usuário que compõem o conteúdo do visualizador. Você pode criar estilos para esses componentes por meio de CSS e componentes que não sejam de interface do usuário que têm algum tipo de função de suporte, como buscar e analisar ou rastrear a definição do conjunto. Todos os comportamentos de componente são personalizáveis por meio de modificadores que podem ser especificados de várias maneiras, por exemplo, como pares `name=value` no URL.
 
@@ -38,13 +38,13 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 
    >[!NOTE]
    >
-   >Você pode concluir este tutorial sem a necessidade de baixar o pacote do SDK do visualizador porque o SDK é realmente carregado remotamente. No entanto, o pacote Visualizador inclui exemplos adicionais e um guia de referência de API que você achará útil ao criar seus próprios visualizadores.
+   >Você pode concluir este tutorial sem precisar baixar o pacote do SDK do visualizador porque o SDK foi carregado remotamente. No entanto, o pacote Visualizador inclui mais exemplos e um guia de referência de API que pode ajudar você a criar seus próprios visualizadores.
 
 ## Carregar o SDK do visualizador {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Comece configurando uma nova página para desenvolver o visualizador básico de zoom que você criará.
 
-   Considere isso o código de inicialização - ou carregador - para configurar um aplicativo SDK vazio. Abra o editor de texto favorito e cole a seguinte marcação HTML nele:
+   Considere essa nova página o código do Bootstrap - ou loader - usado para configurar um aplicativo SDK vazio. Abra o editor de texto favorito e cole a seguinte marcação HTML nele:
 
    ```
    <!DOCTYPE html> 
@@ -115,9 +115,9 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 
 1. Salve o arquivo como um template vazio. Você pode usar qualquer nome de arquivo desejado.
 
-   Você usará esse arquivo de modelo vazio como referência ao criar novos visualizadores no futuro. Este modelo funciona localmente e quando é disponibilizado de um servidor da Web.
+   Você usará esse arquivo de modelo vazio como uma referência ao criar qualquer visualizador no futuro. Este modelo funciona localmente e quando é disponibilizado de um servidor da Web.
 
-Agora, você adicionará estilo ao seu visualizador.
+Agora, adicione estilo ao visualizador.
 
 ## Adicionar estilo ao visualizador {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ Agora, você adicionará estilo ao seu visualizador.
    </style>
    ```
 
-Agora você incluirá os componentes `Container` e `ZoomView`.
+Agora inclua os componentes `Container` e `ZoomView`.
 
 ## Inclusão de Contêiner e ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
    var container, zoomView;
    ```
 
-1. Insira o seguinte dentro da função `initViewer` para definir alguns modificadores e instanciar os respectivos componentes:
+1. Insira o seguinte dentro da função `initViewer` para poder definir alguns modificadores e instanciar os respectivos componentes:
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ Agora você incluirá os componentes `Container` e `ZoomView`.
    }
    ```
 
-1. Visualize a página para visualizar o que você criou. A página terá a seguinte aparência:
+1. Visualize a página para visualizar o que você criou. Sua página deve ser semelhante ao seguinte:
 
-   ![](assets/viewer-1.jpg)
+   ![Exemplo de visualizador de uma imagem](assets/viewer-1.jpg)
 
-Agora, você adicionará os componentes `MediaSet` e `Swatches` ao seu visualizador.
+Agora, adicione os componentes `MediaSet` e `Swatches` ao visualizador.
 
 ## Adicionar componentes MediaSet e Swatches ao visualizador {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ Agora, você adicionará os componentes `MediaSet` e `Swatches` ao seu visualiza
 
    Seu visualizador agora se parece com a seguinte imagem. Tente redimensionar a janela do navegador do visualizador e observe o comportamento resultante.
 
-   ![](assets/viewer-2.jpg)
+   ![Exemplo de visualizador de imagem dupla](assets/viewer-2.jpg)
 
-Agora, você adicionará botões de zoom, zoom e zoom de redefinição ao visualizador.
+Agora, adicione os botões Ampliar, Ampliar e Ampliar para o visualizador.
 
 ## Adição de botões ao visualizador {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,11 +350,11 @@ Agora, você adicionará botões de zoom, zoom e zoom de redefinição ao visual
     }
    ```
 
-1. Visualize seu visualizador. Será semelhante ao seguinte:
+1. Visualize seu visualizador. Deve ser semelhante ao seguinte:
 
-   ![](assets/viewer-3.jpg)
+   ![Exemplo de visualizador de três imagens](assets/viewer-3.jpg)
 
-   Agora você configurará as Amostras para que elas estejam alinhadas verticalmente à direita.
+   Agora, configure as Amostras para que elas estejam alinhadas verticalmente à direita.
 
 ## Configuração vertical das amostras {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
@@ -383,10 +383,10 @@ Agora, você adicionará botões de zoom, zoom e zoom de redefinição ao visual
    }
    ```
 
-1. Visualize seu visualizador. Será semelhante ao seguinte:
+1. Visualize seu visualizador. Ele tem a seguinte aparência:
 
-   ![](assets/viewer-4.jpg)
+   ![Exemplo de visualizador de imagem quatro](assets/viewer-4.jpg)
 
    Seu visualizador básico de zoom foi concluído.
 
-   Este tutorial do visualizador toca nos fundamentos do que o SDK do visualizador do Dynamic Media oferece. À medida que você trabalha com o SDK, pode usar os vários componentes padrão para criar e criar experiências de visualização avançadas com estilo facilmente para seus públicos-alvo.
+   Este tutorial do visualizador toca nos fundamentos do que o SDK do visualizador do Dynamic Media oferece. À medida que você trabalha com o SDK, pode usar os vários componentes padrão para criar e criar experiências de visualização avançadas com estilo fácil para seus públicos-alvo.

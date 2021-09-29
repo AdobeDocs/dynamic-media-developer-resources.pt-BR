@@ -1,13 +1,13 @@
 ---
-description: As camadas são posicionadas alinhando a origem da camada (origem=) com a origem da camada de fundo em um deslocamento especificado por pos=.
-solution: Experience Manager
 title: Inserção de camada
-feature: Dynamic Media Classic, SDK/API
+escription: Layers are positioned by aligning the layer origin (origin=) with the background layer origin at an offset specified by pos=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Se a origem da camada não for especificada explicitamente para uma camada de im
 1. Se a âncora da imagem estiver definida, aplique as transformações de camada e `extend=` para convertê-la em um valor origin=.
 1. Se nenhuma âncora de imagem for definida, a origem da camada será colocada no centro do retângulo da camada (após a aplicação de `extend=`).
 
-![](assets/layerplacement.png)
+![Imagem de posicionamento de camada](assets/layerplacement.png)

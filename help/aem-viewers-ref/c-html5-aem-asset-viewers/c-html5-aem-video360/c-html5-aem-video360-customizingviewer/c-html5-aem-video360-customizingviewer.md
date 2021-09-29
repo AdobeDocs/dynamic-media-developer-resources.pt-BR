@@ -1,14 +1,14 @@
 ---
+title: Personalização do visualizador de vídeo 360
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de vídeo 360 são feitos com a criação de um CSS personalizado.
 keywords: responsivo
 solution: Experience Manager
-title: Personalização do visualizador de vídeo 360
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -27,23 +27,23 @@ O arquivo CSS personalizado deve conter as mesmas declarações de classe que a 
 
 Uma maneira alternativa de fornecer regras de CSS personalizadas é usar estilos incorporados diretamente na página da Web ou em uma das regras de CSS externas vinculadas.
 
-Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s7video360viewer` ao elemento DOM do contêiner. Se você estiver usando um arquivo CSS externo passado com o comando `style=`, use a classe `.s7video360viewer` como classe pai no seletor descendente para suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, qualifique também esse seletor com uma ID do elemento DOM do contêiner da seguinte maneira:
+Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s7video360viewer` ao elemento DOM do contêiner. Se você estiver usando um arquivo CSS externo passado com o comando `style=`, use a classe `.s7video360viewer` como classe pai no seletor descendente para suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, também qualifique esse seletor com uma ID do elemento DOM do contêiner da seguinte maneira:
 
 `#<containerId>.s7video360viewer`
 
 ## Criando CSS responsivo projetado {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Isso inclui, mas não está limitado a, diferentes layouts, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
+É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Esse método inclui, entre outros, diferentes layouts, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
 
-O visualizador aceita dois mecanismos para criar CSS responsivo projetado: Marcadores CSS e consultas de mídia CSS padrão. Você pode usá-los independentemente ou juntos.
+O visualizador aceita dois mecanismos para criar CSS responsivo projetado: Marcadores CSS e consultas de mídia CSS padrão. Você pode usar marcadores ou consultas independentemente ou em conjunto.
 
 **Marcadores CSS**
 
-Para auxiliar na criação de CSS responsivo projetado, o visualizador aceita marcadores CSS. São classes CSS especiais que são atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior com base no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
+Para ajudar a criar CSS responsivo projetado, o visualizador aceita marcadores CSS. Esses marcadores são classes CSS especiais atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior. Elas se baseiam no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
 
 O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium` e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum, `.s7size_large` será usado; se a área estiver próxima de um tablet comum, `.s7size_medium` será atribuído. Para áreas semelhantes a telas de celular, `.s7size_small` é definido. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
 
-O segundo grupo de marcadores CSS contém `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada por toque; caso contrário,  `.s7mouseinput` será usado. Esses marcadores são destinados principalmente a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores. Observe que, caso o dispositivo tenha recursos de entrada e toque do mouse, `.s7touchinput` será definido e o visualizador renderizará uma interface do usuário compatível com toque.
+O segundo grupo de marcadores CSS contém `.s7mouseinput` e `.s7touchinput`. O marcador `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada de toque; caso contrário, `.s7mouseinput` será usado. Esses marcadores são destinados principalmente a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores. Caso o dispositivo tenha recursos de entrada e toque do mouse, `.s7touchinput` é definido e o visualizador renderiza uma interface de usuário fácil de tocar.
 
 A amostra de CSS a seguir define o tamanho do botão reproduzir/pausar em 28x28 pixels em sistemas com entrada de mouse e 56x56 pixels em dispositivos de toque. Além disso, ele oculta completamente o botão se o tamanho do visualizador for reduzido significativamente:
 
@@ -61,7 +61,7 @@ A amostra de CSS a seguir define o tamanho do botão reproduzir/pausar em 28x28 
 }
 ```
 
-Para direcionar dispositivos com densidade de pixels diferente, você precisa usar consultas de mídia CSS. O seguinte bloco de consulta de mídia contém CSS específico para telas de alta densidade:
+Para direcionar dispositivos com densidade de pixels diferente, você deve usar consultas de mídia CSS. O seguinte bloco de consulta de mídia contém CSS específico para telas de alta densidade:
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -126,7 +126,7 @@ Não há necessidade de duplicar todo o CSS do visualizador em cada consulta de 
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-Muitos elementos da interface do usuário do visualizador são estilizados usando a arte-final de bitmap e têm mais de um estado visual distinto. Um bom exemplo é um botão que normalmente tem pelo menos 3 estados diferentes: &quot;para cima&quot;, &quot;para cima&quot; e &quot;para baixo&quot;. Cada estado requer sua própria arte bitmap atribuída.
+Muitos elementos da interface do usuário do visualizador são estilizados usando a arte-final de bitmap e têm mais de um estado visual distinto. Um bom exemplo é um botão que normalmente tem pelo menos três estados diferentes: &quot;para cima&quot;, &quot;para cima&quot; e &quot;para baixo&quot;. Cada estado requer sua própria arte bitmap atribuída.
 
 Com uma abordagem clássica ao estilo, o CSS teria uma referência separada para o arquivo de imagem individual no servidor para cada estado do elemento da interface do usuário. Veja a seguir um exemplo de CSS para estilizar um botão de tela cheia:
 
@@ -214,7 +214,7 @@ background-position: -0px -1120px;
 * Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
 * Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
-* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
+* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
 
 ## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 

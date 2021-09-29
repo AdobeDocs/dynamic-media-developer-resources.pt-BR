@@ -1,20 +1,20 @@
 ---
-description: A área de visualização principal é a área ocupada pela imagem de zoom. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
-solution: Experience Manager
 title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+description: A área de visualização principal é a área ocupada pela imagem de zoom. Ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # Área do visualizador principal{#main-viewer-area}
 
-A área de visualização principal é a área ocupada pela imagem de zoom. Geralmente, ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+A área de visualização principal é a área ocupada pela imagem de zoom. Ele é definido para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

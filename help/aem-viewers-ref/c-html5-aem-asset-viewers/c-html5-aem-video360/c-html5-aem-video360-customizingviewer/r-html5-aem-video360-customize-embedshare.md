@@ -1,13 +1,13 @@
 ---
+title: Compartilhamento incorporado
 description: A ferramenta de compartilhamento integrado consiste em um botão adicionado ao painel Compartilhamento social e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento incorporado
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ A aparência do botão de compartilhamento incorporado é controlada pelo seguin
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo**  - para configurar um botão de compartilhamento incorporado com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
+**Exemplo**  - Para configurar um botão de compartilhamento incorporado com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -162,7 +162,7 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  </tbody> 
 </table>
 
-O ícone e o texto do título são envolvidos em um contêiner adicional controlado com o seguinte:
+O ícone e o texto do título são envolvidos em um contêiner extra controlado com o seguinte:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo**  - para configurar o cabeçalho da caixa de diálogo com o preenchimento, o ícone de 24 x 14 pixels, o título de 16 pontos em negrito e o botão de fechamento de 28 x 28 pixels, posicionados dois pixels da parte superior e dois pixels da direita do contêiner da caixa de diálogo:
+**Exemplo**  - Para configurar o cabeçalho da caixa de diálogo com o preenchimento, um ícone de 24 x 14 pixels e um título de 16 pontos em negrito. E finalmente, um botão Fechar de 28 x 28 pixels, posicionado dois pixels da parte superior e dois pixels da direita do contêiner de diálogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 >
 >Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -712,7 +712,7 @@ O texto real do código incorporado é controlado com o seguinte seletor de clas
  </tbody> 
 </table>
 
-**Exemplo**  - para configurar o código incorporado para usar a vinculação de  `break-word` palavras:
+**Exemplo**  - Para configurar o código incorporado para usar o encapsulamento de  `break-word` palavras:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ O texto real do código incorporado é controlado com o seguinte seletor de clas
 }
 ```
 
-Incorporar rótulo de tamanho e lista suspensa estão localizados na parte inferior da caixa de diálogo e colocados em um contêiner controlado com o seguinte seletor de classe CSS:
+Incorporar o rótulo de tamanho e o menu suspenso estão na parte inferior da caixa de diálogo e são colocados em um contêiner controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ A largura da caixa de combinação de tamanho incorporado é controlada pelo seg
 
 >[!NOTE]
 >
->A caixa combo suporta o seletor de atributos `expanded` com possíveis valores de `true` e `false`. `true` é usada quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto, deve ter toda a largura disponível. `false` é usada quando a opção de tamanho personalizado está selecionada na caixa de combinação; portanto, deve ser reduzida para permitir espaço para campos de entrada de largura e altura personalizados.
+>A caixa combo suporta o seletor de atributos `expanded` com possíveis valores de `true` e `false`. O valor `true` é usado quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto, deve ter toda a largura disponível. O valor `false` é usado quando a opção de tamanho personalizado é selecionada na caixa de combinação, portanto, deve ser reduzido para permitir espaço para campos de entrada de largura e altura personalizados.
 
 **Exemplo**  - para definir a caixa de combinação de tamanho de incorporação como 300 pixels de largura ao mostrar um item predefinido e 110 pixels de largura ao mostrar um tamanho personalizado:
 
@@ -894,7 +894,7 @@ A caixa de combinação tem um botão &quot;suspenso&quot; à direita e é contr
 }
 ```
 
-O painel com a lista de tamanhos incorporados exibidos quando a caixa de combinação é aberta é controlado com o seguinte seletor de classe CSS:
+O painel com a lista de tamanhos incorporados exibida quando a caixa de combinação é aberta é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown
@@ -1039,7 +1039,7 @@ Cada campo de entrada de tamanho personalizado é colocado em um contêiner que 
  </tbody> 
 </table>
 
-**Exemplo**  - para definir os campos de entrada de tamanho personalizado com borda cinza, margem, preenchimento de um pixel e largura de 70 pixels:
+**Exemplo**  - Para definir os campos de entrada de tamanho personalizado com borda cinza, margem, preenchimento e 70 pixels de largura de um pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 

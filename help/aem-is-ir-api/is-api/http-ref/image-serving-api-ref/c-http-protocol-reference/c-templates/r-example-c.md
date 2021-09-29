@@ -1,13 +1,13 @@
 ---
+title: Exemplo C
 description: Crie um aplicativo de camadas de "boneca de papel".
 solution: Experience Manager
-title: Exemplo C
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Uma imagem de plano de fundo contém a foto de um modelo ou manequim. Registros 
 
 Cada foto de vestuário/acessório é mascarada e cortada na caixa delimitadora de máscara para minimizar os tamanhos de imagem. As âncoras e resoluções de imagem são cuidadosamente controladas para manter o alinhamento entre as camadas e a imagem de plano de fundo, e todas as imagens são adicionadas a um catálogo de imagens, com os valores apropriados armazenados em `catalog::Resolution` e `catalog::Anchor`.
 
-Além do layout, também queremos alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de forma adequada ao comando de colorização. Esse pré-processamento pode ser feito off-line, usando uma ferramenta de edição de imagem, como o Photoshop, ou, em casos simples, pode ser feito trivialmente adicionando `op_brightness=` e `op_contrast=` ao campo `catalog::Modifier`.
+Além da disposição em camadas, você também deseja alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de forma adequada ao comando de colorização. Esse pré-processamento pode ser feito off-line, usando uma ferramenta de edição de imagem, como o Adobe Photoshop, ou, em casos simples, pode ser feito trivialmente adicionando `op_brightness=` e `op_contrast=` ao campo `catalog::Modifier`.
 
-Este aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente por suas âncoras de imagem ( `catalog::Anchor`) e dimensionados ( `catalog::Resolution`). Deixamos a responsabilidade do cliente garantir a ordem de camada apropriada.
+Este aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente por suas âncoras de imagem ( `catalog::Anchor`) e dimensionados ( `catalog::Resolution`). Fica a cargo do cliente garantir a ordem de camada apropriada.
 
 Uma solicitação típica pode ser semelhante a:
 

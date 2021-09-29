@@ -1,21 +1,21 @@
 ---
-description: Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom flyout no carregamento.
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+description: Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom de menu suspenso durante o carregamento.
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
-Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Isso inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom flyout no carregamento.
+Determinado conteúdo que o Visualizador de Imagem Interativa exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e uma mensagem de informação que é exibida pela exibição de zoom de menu suspenso durante o carregamento.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para uma localidade em inglês ( `"en"`) fornecida com o visualizador pronto para uso e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para uma localidade em inglês ( `"en"`) fornecida com o visualizador pronto para uso e pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível para esse local. Se houver, ele usará o valor definido pelo usuário; caso contrário, retorna ao texto padrão pronto para uso.
 

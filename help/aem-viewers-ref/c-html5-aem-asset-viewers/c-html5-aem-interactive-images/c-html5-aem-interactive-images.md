@@ -1,20 +1,20 @@
 ---
-description: O Visualizador de Imagens Interativas é um visualizador que exibe uma única imagem sem zoom com pontos de acesso clicáveis. O objetivo desse visualizador é implementar uma experiência de "banner que pode ser comprado". Ou seja, o usuário pode selecionar um ponto de acesso sobre a imagem do banner e ser redirecionado para uma Exibição rápida ou página de detalhes do produto em seu site. Ele foi projetado para funcionar em desktops e dispositivos móveis.
-solution: Experience Manager
 title: Imagem interativa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+description: O Visualizador de Imagens Interativas é um visualizador que exibe uma única imagem sem zoom com pontos de acesso clicáveis. O objetivo desse visualizador é implementar uma experiência de "banner que pode ser comprado". Ou seja, o usuário pode selecionar um ponto de acesso sobre a imagem do banner e ser redirecionado para uma página do Quickview ou de detalhes do produto em seu site. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
 
 # Imagem interativa{#interactive-image}
 
-O Visualizador de Imagens Interativas é um visualizador que exibe uma única imagem sem zoom com pontos de acesso clicáveis. O objetivo desse visualizador é implementar uma experiência de &quot;banner que pode ser comprado&quot;. Ou seja, o usuário pode selecionar um ponto de acesso sobre a imagem do banner e ser redirecionado para uma Exibição rápida ou página de detalhes do produto em seu site. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+O Visualizador de Imagens Interativas é um visualizador que exibe uma única imagem sem zoom com pontos de acesso clicáveis. O objetivo desse visualizador é implementar uma experiência de &quot;banner que pode ser comprado&quot;. Ou seja, o usuário pode selecionar um ponto de acesso sobre a imagem do banner e ser redirecionado para uma página do Quickview ou de detalhes do produto em seu site. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibilit
 
 ## Incorporando Visualizador de Imagem Interativa {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-O Visualizador de Imagens Interativas foi projetado para ser incorporado à página de hospedagem. Essa página da Web pode ter um layout estático ou pode ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes.
+O Visualizador de imagem interativa é incorporado à página de hospedagem. Essa página da Web pode ter um layout estático ou pode ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes.
 
 Para acomodar essas necessidades, o visualizador aceita dois modos de operação principais: incorporação de tamanho fixo e incorporação responsiva.
 
@@ -60,11 +60,11 @@ No modo incorporado, o visualizador é adicionado à página da Web existente. E
 
 Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, e páginas projetadas responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
 
-A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa é a melhor opção para páginas da Web com layout estático.
+A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Esse método é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design supõe que o visualizador talvez precise ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+A incorporação responsiva de design supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de design da Web, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
 
 Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área. Ele também segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -93,7 +93,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Você só deve fazer referência ao arquivo JavaScript `include` do visualizador principal na sua página. Você não deve fazer referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
@@ -114,7 +114,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7interactiveimage` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AEM Assets - sob demanda ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocar o dimensionamento em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand ou passado explicitamente usando o comando `style`.
 
    Consulte [Vídeo](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
 
@@ -141,7 +141,7 @@ O caminho relativo tem a seguinte aparência:
 
    É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
 
-   Ao mesmo tempo, o elemento do contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando esse evento ocorre, o carregamento do visualizador é retomado automaticamente.
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `interactiveImage` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` é o URL de disponibilização de imagens e `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` é o ativo:
 
@@ -248,7 +248,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 **Incorporação de tamanho flexível com definição de largura e altura**
 
-No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
 
 ```
 <!DOCTYPE html> 

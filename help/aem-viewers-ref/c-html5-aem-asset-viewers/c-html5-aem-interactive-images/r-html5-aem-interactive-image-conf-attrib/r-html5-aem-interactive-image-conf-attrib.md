@@ -1,13 +1,13 @@
 ---
+title: Referência de comando - Atributos de configuração
 description: Documentação de atributos de configuração para o Visualizador de imagens interativas.
 solution: Experience Manager
-title: Referência de comando - Atributos de configuração
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Imagens interativas
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Alguns comandos de configuração podem ter o prefixo com o nome da classe ou o 
 
 `[ZoomView.|<containerId>_zoomView].fmt`
 
-o que significa que você pode usar este comando como:
+Isso significa que você pode usar este comando como:
 
 * `fmt` (sintaxe curta)
 * `ZoomView.fmt` (qualificado com o nome da classe do componente)

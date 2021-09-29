@@ -2,12 +2,12 @@
 description: Requisitos semelhantes como o Exemplo A, mas usam um fundo de cor sólida e permitem que a altura do composto varie, para acomodar imagens com proporções diferentes.
 solution: Experience Manager
 title: Exemplo B
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ Requisitos semelhantes como o Exemplo A, mas usam um fundo de cor sólida e perm
  </tr> 
 </table>
 
-A imagem é colocada na camada 0, e o valor de altura `size=` é definido como 0, o que faz com que a altura real seja determinada pela altura da imagem depois de dimensioná-la para 800 pixels de largura.
+A imagem é colocada na camada 0 e o valor de altura `size=` é definido como 0. Essa configuração faz com que a altura real seja determinada pela altura da imagem após dimensioná-la para 800 pixels de largura.
 
-`extend=` adiciona 100 pixels à parte superior e inferior e 200 pixels à direita.
+A variável `extend=` adiciona 100 pixels à parte superior e inferior e 200 pixels à direita.
 
 As origens da camada 0 e da camada 1 são colocadas no centro direito da área de composição, para alcançar a posição de texto desejada.
 
-A ilustração a seguir mostra o resultado composto para diferentes proporções da imagem e diferentes sequências de texto.
+A imagem a seguir mostra o resultado composto para diferentes proporções da imagem e diferentes sequências de texto.
 
-![](assets/exampleb.png)
+![Exemplo de imagem B](assets/exampleb.png)
