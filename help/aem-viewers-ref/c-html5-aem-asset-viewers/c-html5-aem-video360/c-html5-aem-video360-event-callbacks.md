@@ -1,13 +1,13 @@
 ---
+title: Retornos de chamada do evento
 description: Retornos de chamada do evento
 solution: Experience Manager
-title: Retornos de chamada do evento
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 24ea35c0-a0b1-4768-9336-94eb5e2d4fb2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Os eventos compatíveis do visualizador incluem:
 
    * `objID {String}` não usado no momento.
    * `compClass {String}` não usado no momento.
-   * `instName {String}` um nome de instância do componente do SDK do Visualizador de HTML5 que acionou o evento.
+   * `instName {String}` um nome de instância do componente HTML5 Viewer SDK que acionou o evento.
    * `timeStamp {Number}` carimbo de data e hora do evento.
    * `eventInfo {String}` carga do evento.
 

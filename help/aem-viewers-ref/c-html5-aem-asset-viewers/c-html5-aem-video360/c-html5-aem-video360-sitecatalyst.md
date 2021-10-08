@@ -1,13 +1,13 @@
 ---
+title: Suporte para rastreamento do Adobe Analytics
 description: Suporte para rastreamento do Adobe Analytics
 solution: Experience Manager
-title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---

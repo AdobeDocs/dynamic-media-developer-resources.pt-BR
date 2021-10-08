@@ -1,13 +1,13 @@
 ---
+title: Botão Reproduzir/Pausar
 description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
 solution: Experience Manager
-title: Botão Reproduzir/Pausar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ O seguinte seletor de classe CSS controla a aparência do botão:
 >
 >Esse botão suporta os seletores de atributos `state`, `selected` e `replay`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em particular, `selected='true'` corresponde ao estado &quot;reproduzir&quot; e `selected='false'` corresponde ao estado &quot;pausar&quot;;
 >
->`replay='true'` é definido quando o vídeo atinge o fim, e clicar no botão reinicia a reprodução a partir do início.
+>O seletor de atributo `replay='true'` é definido quando o vídeo atinge o fim e selecionar o botão reinicia a reprodução a partir do início.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo**  - Para configurar um botão reproduzir/pausar com 32 x 32 pixels; é posicionado seis pixels da borda superior e esquerda da barra de controle e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+**Exemplo**  - Para configurar um botão reproduzir/pausar com 32 x 32 pixels. Ter posicionado seis pixels da borda superior e esquerda da barra de controle. E, por fim, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7video360viewer .s7playpausebutton { 

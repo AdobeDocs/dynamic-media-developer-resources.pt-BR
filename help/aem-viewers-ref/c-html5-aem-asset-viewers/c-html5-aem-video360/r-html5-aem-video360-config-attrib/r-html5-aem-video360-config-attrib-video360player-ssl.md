@@ -1,14 +1,14 @@
 ---
+title: Video360Player.ssl
 description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
-title: Video360Player.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> auto</span> o protocolo de entrega de vídeo é herdado do protocolo da página da Web de incorporação. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS, e vice-versa. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> em</span>, a entrega de vídeo sempre ocorre por uma conexão segura independentemente do protocolo da página da Web. </p> <p>Afeta apenas a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
+   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> auto</span> o protocolo de entrega de vídeo é herdado do protocolo da página da Web de incorporação. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS e, inversamente. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> em</span>, a entrega de vídeo sempre ocorre por uma conexão segura independentemente do protocolo da página da Web. </p> <p>Afeta apenas a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

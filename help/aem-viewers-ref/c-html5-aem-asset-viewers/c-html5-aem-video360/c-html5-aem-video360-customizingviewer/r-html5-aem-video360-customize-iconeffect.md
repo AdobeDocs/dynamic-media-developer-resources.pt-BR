@@ -1,13 +1,13 @@
 ---
+title: Efeito de ícone
 description: O ícone Reproduzir é sobreposto na área de visualização principal. Ele é exibido quando o vídeo é pausado ou quando o fim do vídeo é atingido, e também depende do parâmetro de efeito de ícone .
 solution: Experience Manager
-title: Efeito de ícone
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ A aparência do ícone de reprodução é controlada com o seguinte seletor de c
  </tbody> 
 </table>
 
-O efeito de ícone suporta o seletor de atributo `state`. `state="play"` é usado quando o vídeo é pausado no meio da reprodução e  `state="replay"` é usado quando o indicador de reprodução está no final do fluxo.
+O efeito de ícone suporta o seletor de atributo `state`. O seletor de atributo `state="play"` é usado quando o vídeo é pausado no meio da reprodução e `state="replay"` é usado quando o indicador de reprodução está no final do fluxo.
 
 **Exemplo**  - Configure um ícone de reprodução de 100 x 100 pixels.
 

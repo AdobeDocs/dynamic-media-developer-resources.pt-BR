@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Referência da API do JavaScript para o visualizador do Video360.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -95,13 +95,13 @@ Retorna uma referência ao componente do SDK do visualizador usado pelo visualiz
  </tbody> 
 </table>
 
-Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente qualificado conforme descrito em [Namespace do SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente qualificado, conforme descrito em [Namespace do SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
 Consulte a documentação do *HTML5 Viewer SDK API* para obter mais informações sobre um componente específico.
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
+O `{Object}` é uma referência ao componente do SDK do visualizador. O método retornará `null` se `componentId` não for um componente do visualizador suportado ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -1,14 +1,14 @@
 ---
+title: Video360Player.mutevolume
 description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
-title: Video360Player.mutevolume
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span> o volume está mudo; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, a reprodução de vídeo com mutação ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span> o volume está mudo; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, a reprodução automática de vídeo ao carregar também permite a reprodução automática do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

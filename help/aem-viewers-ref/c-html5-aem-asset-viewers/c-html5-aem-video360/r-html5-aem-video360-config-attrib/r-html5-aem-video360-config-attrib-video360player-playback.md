@@ -1,14 +1,14 @@
 ---
+title: Video360Player.playback
 description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
-title: Video360Player.playback
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e5a56195-c3ca-4748-aef6-e1f143ac254d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. </p> <p>Quando <span class="codeph"> auto</span> é definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa vídeo de transmissão HTML5 no formato HLS e volta para a reprodução HTML5 progressiva em determinados sistemas como o Internet Explorer e o Android mais antigos. </p> <p>Quando <span class="codeph"> progressivo</span> é definido, o visualizador depende apenas da reprodução HTML5, como nativamente compatível pelos navegadores, e reproduz vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos nativos <span class="codeph"> auto</span> e <span class="codeph"> progressivo</span>, consulte o Guia do Usuário do SDK de Visualizadores HTML5. </p> </td> 
+   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. </p> <p>Quando <span class="codeph"> auto</span> é definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa o vídeo de transmissão HTML5 no formato HLS. Além disso, ela volta para a reprodução progressiva de HTML5 em determinados sistemas, como o Internet Explorer e Android™ mais antigos. </p> <p>Quando <span class="codeph"> progressivo</span> é definido, o visualizador depende apenas da reprodução do HTML5, como nativamente suportado pelos navegadores, e reproduz vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos nativos <span class="codeph"> auto</span> e <span class="codeph"> progressivo</span>, consulte o Guia do usuário do SDK de visualizadores do HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>

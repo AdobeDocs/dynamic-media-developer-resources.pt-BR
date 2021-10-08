@@ -1,14 +1,14 @@
 ---
+title: Video360Player.preload
 description: Indica se o visualizador começa a carregar conteúdo de vídeo antes do início da reprodução.
 solution: Experience Manager
-title: Video360Player.preload
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Indica se o visualizador começa a carregar conteúdo de vídeo antes do início
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Se definido como <span class="codeph"> 1 </span> o vídeo começa a ser baixado logo após a definição do ativo; caso contrário, o pré-carregamento só será iniciado depois que a reprodução for iniciada pelo usuário final ou por uma chamada de API. </p> <p>Se definido como <span class="codeph"> 0 </span> certos recursos podem não funcionar até que a reprodução seja iniciada; especificamente, a operação de busca não atualizará o quadro de vídeo. Se a imagem de pôster estiver desativada, o visualizador será exibido como uma área vazia em vez do primeiro quadro de vídeo. </p> <p>Observe que a desativação do pré-carregamento de vídeo pode ser ignorada em determinadas versões do Internet Explorer 11 e dos navegadores Edge. </p> </td> 
+   <td colname="col2"> <p> Se definido como <span class="codeph"> 1 </span>, o vídeo começa a ser baixado logo após a definição do ativo. Caso contrário, o pré-carregamento só será iniciado depois que a reprodução for iniciada pelo usuário final ou por uma chamada de API. </p> <p>Se definido como <span class="codeph"> 0 </span>, alguns recursos podem não funcionar até que a reprodução seja iniciada. Especificamente, a operação de busca não atualiza o quadro de vídeo. Se a imagem de pôster estiver desativada, o visualizador será exibido como uma área vazia em vez do primeiro quadro de vídeo. </p> <p>A desativação do pré-carregamento de vídeo pode ser ignorada em determinadas versões do Internet Explorer 11 e dos navegadores Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

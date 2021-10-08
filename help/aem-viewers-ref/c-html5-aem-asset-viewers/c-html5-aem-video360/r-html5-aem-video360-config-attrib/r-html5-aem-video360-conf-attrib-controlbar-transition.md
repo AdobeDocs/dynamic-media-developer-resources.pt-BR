@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Atributo de configuração para o visualizador do Video360.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Atributo de configuração para o visualizador do Video360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque que a barra de controle registra e o tempo de controle barra oculta. </p> <p> Se definido como <span class="codeph"> -1</span> o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
+   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo de ocultação da barra de controle. </p> <p> Se definido como <span class="codeph"> -1</span>, o componente nunca acionará seu efeito de ocultação automática e sempre permanecerá visível na tela. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 

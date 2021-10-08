@@ -1,13 +1,13 @@
 ---
+title: Reprodutor Video360
 description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 solution: Experience Manager
-title: Reprodutor Video360
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---

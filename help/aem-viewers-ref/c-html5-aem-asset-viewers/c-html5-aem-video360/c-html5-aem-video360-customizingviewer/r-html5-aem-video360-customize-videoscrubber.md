@@ -1,13 +1,13 @@
 ---
+title: Vídeo de depuração
 description: O depurador de vídeo é o controle deslizante horizontal que permite que um usuário procure dinamicamente qualquer posição de tempo no vídeo que está sendo reproduzido.
 solution: Experience Manager
-title: Vídeo de depuração
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O depurador de vídeo é o controle deslizante horizontal que permite que um usu
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível usar a capa do depurador de vídeo. altere sua altura e posição vertical, por CSS.
+O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível usar a capa do depurador de vídeo. Altere sua altura e posição vertical, por CSS.
 
 A aparência geral do depurador de vídeo é controlada pelo seguinte seletor de classe CSS:
 
@@ -158,7 +158,7 @@ O seguinte seletor de classe CSS controla a bolha de tempo reproduzido:
 
 A dica de ferramenta do depurador de vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo**  - Para configurar um visualizador de vídeo com um depurador de vídeo com cores de rastreamento personalizadas com 10 pixels de altura e posicionado 10 pixels e 35 pixels das bordas superior e esquerda da barra de controle.
+**Exemplo**  - Para configurar um visualizador de vídeo com um depurador de vídeo com cores de rastreamento personalizadas com dez pixels de altura. E posicione-o em dez pixels e 35 pixels das bordas superior e esquerda da barra de controle.
 
 ```
 .s7video360viewer .s7videoscrubber  { 
