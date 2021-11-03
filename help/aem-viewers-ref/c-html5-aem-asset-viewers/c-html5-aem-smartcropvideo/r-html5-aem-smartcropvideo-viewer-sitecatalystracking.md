@@ -1,11 +1,11 @@
 ---
+title: Suporte para rastreamento do Adobe Analytics
 description: O Visualizador de vídeo de recorte inteligente oferece suporte ao rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
-title: Suporte para rastreamento do Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
@@ -26,7 +26,7 @@ O visualizador também envia uma única solicitação HTTP de rastreamento para 
 
 ## Rastreamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrar com sistemas de análise de terceiros, é necessário acompanhar `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 

@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoViewer
 description: Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoViewer
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4ba152e6-b5a9-4e81-b9f8-aa987a1c31f9
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Referência da API do JavaScript para o visualizador de vídeo de recorte inteli
 
 `SmartCropVideoViewer([config])`
 
-Construtor; cria uma nova instância do Smart Crop Video Viewer.
+Construtor; cria uma instância do Visualizador de vídeo de recorte inteligente.
 
 ## Parâmetros {#section-8bc3d1424c8444f193716fc8d9975765}
 

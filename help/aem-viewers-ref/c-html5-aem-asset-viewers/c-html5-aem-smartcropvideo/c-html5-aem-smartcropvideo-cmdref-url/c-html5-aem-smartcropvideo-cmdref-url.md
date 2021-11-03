@@ -1,11 +1,11 @@
 ---
+title: Referência de comando - URL
 description: Documentação de referência de comando para o visualizador de vídeo de recorte inteligente.
 solution: Experience Manager
-title: Referência de comando - URL
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1ed78e0d-9b93-4c66-b558-fac15c51e944
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Você pode prefixar alguns comandos de configuração com o nome da classe ou o 
 [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer].playback
 ```
 
-o que significa que esse comando é usado da seguinte maneira:
+O que significa que esse comando é usado da seguinte maneira:
 
 * `playback` (sintaxe curta)
 * `SmartCropVideoPlayer.playback` (qualificado com o nome da classe do componente)

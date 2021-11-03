@@ -1,11 +1,11 @@
 ---
+title: Reprodutor de vídeo
 description: O reprodutor de vídeo de recorte inteligente é a área retangular na qual o conteúdo do vídeo é exibido no visualizador.
 solution: Experience Manager
-title: Reprodutor de vídeo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -78,7 +78,7 @@ As legendas ocultas são colocadas em um contêiner interno dentro do reprodutor
  </tbody> 
 </table>
 
-Exemplo - Para configurar o texto da legenda fechada para ter 14 pixels, cinza claro, Arial, em um plano de fundo preto semitransparente:
+Exemplo - Para configurar o texto da legenda fechada para ter 14 pixels, cinza claro, Arial®, em um plano de fundo preto semitransparente:
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

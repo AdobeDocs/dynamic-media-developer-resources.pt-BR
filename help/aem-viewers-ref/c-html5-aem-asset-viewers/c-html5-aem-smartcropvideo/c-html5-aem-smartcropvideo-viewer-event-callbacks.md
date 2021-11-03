@@ -1,13 +1,13 @@
 ---
+title: Retornos de chamada do evento
 description: Retornos de chamada do evento
 solution: Experience Manager
-title: Retornos de chamada do evento
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Os eventos compatíveis do visualizador incluem:
    * `objID {String}` não usado no momento.
    * `compClass {String}` não usado no momento.
    * `instName {String}` um nome de instância do componente do SDK do visualizador que acionou o evento.
-   * `timeStamp {Number}` carimbo de data e hora do evento.
    * `eventInfo {String}` carga do evento.
 
 Consulte também [SmartCropVideoViewer]

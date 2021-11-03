@@ -1,13 +1,13 @@
 ---
+title: Entrega de vídeo HTTP
 description: Entrega de vídeo HTTP
 solution: Experience Manager
-title: Entrega de vídeo HTTP
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Desde que o visualizador funcione na configuração conforme descrito no início desta seção, a entrega de vídeo publicado pode ocorrer nos modos HTTPS (seguro) e HTTP (inseguro). Em uma configuração padrão, o protocolo de entrega de vídeo segue estritamente o protocolo de entrega da página da Web de incorporação. No entanto, é possível forçar a entrega de vídeo HTTPS independentemente do protocolo usado ao incorporar a página da Web usando o [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) atributo de configuração. (Observe que a visualização de vídeo no modo Autor é sempre fornecida com segurança por HTTPS.)
+Se o visualizador funcionar na configuração conforme descrito no início desta seção, a entrega de vídeo publicado pode ocorrer nos modos HTTPS (seguro) e HTTP (inseguro). Em uma configuração padrão, o protocolo de entrega de vídeo segue estritamente o protocolo de entrega da página da Web de incorporação. No entanto, é possível forçar a entrega de vídeo HTTPS independentemente do protocolo usado ao incorporar a página da Web usando o [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) atributo de configuração. (A visualização de vídeo no modo Autor é sempre fornecida com segurança por HTTPS.)
 
-Dependendo do método de publicação de vídeo do Dynamic Media usado no AEM, a variável `SmartCropVideoPlayer.ssl` o atributo de configuração é aplicado de forma diferente, conforme demonstrado no seguinte:
+Dependendo do método de publicação de vídeo do Dynamic Media usado no Adobe Experience Manager, a variável `SmartCropVideoPlayer.ssl` o atributo de configuração é aplicado de forma diferente, conforme demonstrado no seguinte:
 
 * Se você publicar um vídeo do Dynamic Media com um URL, anexe `SmartCropVideoPlayer.ssl` ao URL. Por exemplo, para forçar a entrega segura de vídeos, você anexa `&SmartCropVideoPlayer.ssl=on` ao final do seguinte exemplo de URL do visualizador:
 

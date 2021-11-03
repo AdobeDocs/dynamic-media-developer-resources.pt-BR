@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. When <span class="codeph"> auto</span> for definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usará vídeo de transmissão HTML5 no formato HLS. Ele volta para a reprodução HTML5 progressiva em determinados sistemas, como o Internet Explorer e Android mais antigos. </p> <p>If <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá apenas da reprodução do HTML5, conforme nativamente suportado pelos navegadores, e reproduzirá vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do SDK do visualizador. </p> </td> 
+   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. When <span class="codeph"> auto</span> for definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usará vídeo de transmissão HTML5 no formato HLS. Ele volta para a reprodução HTML5 progressiva em determinados sistemas, como o Internet Explorer e Android™ mais antigos. </p> <p>If <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá apenas da reprodução do HTML5, conforme nativamente suportado pelos navegadores, e reproduzirá vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do SDK do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

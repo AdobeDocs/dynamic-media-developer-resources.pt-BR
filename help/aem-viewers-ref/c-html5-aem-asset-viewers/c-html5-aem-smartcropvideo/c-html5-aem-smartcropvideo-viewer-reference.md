@@ -1,12 +1,12 @@
 ---
+title: Vídeo de recorte inteligente
 description: O Smart Crop Video Viewer é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264 com a adição de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
 keywords: responsivo
 solution: Experience Manager
-title: Vídeo de recorte inteligente
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Consulte [Referência de comando comum a todos os visualizadores - Atributos de 
 
 ## Interação com o visualizador de vídeo de recorte inteligente {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-O Smart Crop Video Viewer fornece um conjunto de controles padrão da interface do usuário para a reprodução do vídeo, como um botão Reproduzir/Pausar, bolha de tempo do vídeo do depurador de vídeo, indicador de tempo de reprodução/total, controle de volume, botão de tela cheia e alternância de legenda fechada. Todos esses controles são agrupados em uma barra de controle na parte inferior da interface do usuário do visualizador.
+O Smart Crop Video Viewer fornece um conjunto de controles padrão da interface do usuário para a reprodução do vídeo, como:
+
+* Um botão Reproduzir/Pausar.
+* Bolha de tempo do vídeo do depurador de vídeo.
+* Indicador de tempo/tempo total reproduzido.
+* Controle de volume.
+* Botão de tela cheia.
+* Alternância de legenda fechada.
+
+Todos esses controles são agrupados em uma barra de controle na parte inferior da interface do usuário do visualizador.
 
 Em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões de hardware.
 

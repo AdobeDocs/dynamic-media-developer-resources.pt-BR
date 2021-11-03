@@ -1,13 +1,13 @@
 ---
+title: Compartilhamento de email
 description: A ferramenta de compartilhamento de email consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento de email
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
+A sobreposição em segundo plano que abrange uma página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -160,7 +160,7 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  </tbody> 
 </table>
 
-O ícone e o texto do título são envolvidos em um contêiner adicional controlado com
+O ícone e o texto do título são vinculados em um contêiner extra controlado com
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader .s7dialogline
@@ -282,7 +282,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar o cabeçalho da caixa de diálogo com o preenchimento, o ícone de 24 x 17 pixels, o título de 16 pontos em negrito e o botão de fechamento de 28 x 28 pixels posicionados 2 pixels da parte superior e 2 pixels da direita do contêiner da caixa de diálogo:
+Exemplo - Para configurar o cabeçalho da caixa de diálogo com o preenchimento, um ícone de 24 x 17 pixels e um título de 16 pontos em negrito. E finalmente, um botão Fechar de 28 x 28 pixels, posicionado dois pixels da parte superior e dois pixels da direita do contêiner de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ O botão Enviar email é controlado com o seguinte seletor de classe CSS:
 >
 >Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ Além disso, ambos os botões compartilham a mesma classe CSS comum que pode con
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um rodapé de caixa de diálogo com o botão Cancelar 64 x 34 e um botão de e-mail de envio 82 x 34, com a cor do texto e a cor do plano de fundo diferentes para cada estado de botão:
+Exemplo - Para configurar um rodapé de caixa de diálogo com o botão Cancelar 64 x 34 e um botão Enviar email 82 x 34. E, por fim, a cor do texto e a cor do plano de fundo são diferentes para cada estado de botão:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -757,7 +757,7 @@ O campo de entrada &quot;Para&quot; é mais estreito porque aloca espaço para o
  </tbody> 
 </table>
 
-Exemplo - para configurar um formulário para ter uma borda cinza de um pixel com nove pixels de preenchimento ao redor de todos os campos de entrada; para ter a mesma borda em cor vermelha para campos que falharam na validação, para ter o campo de entrada &quot;To&quot; de 250 pixels de largura e o restante dos campos de entrada de 300 pixels de largura:
+Exemplo - Para configurar um formulário para ter uma borda cinza de um pixel com nove pixels de preenchimento ao redor de todos os campos de entrada. Para ter a mesma borda em cor vermelha para campos que falharam na validação, para ter o campo de entrada &quot;To&quot; de 250 pixels de largura e o restante dos campos de entrada de 300 pixels de largura:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Exemplo - para configurar um formulário para ter uma borda cinza de um pixel co
 }
 ```
 
-O campo de entrada de mensagem de email é controlado adicionalmente com:
+O campo de entrada de mensagem de email também é controlado com:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1163,7 +1163,7 @@ Exemplo - para configurar uma descrição do conteúdo para ter uma margem de de
 }
 ```
 
-Quando um usuário insere dados de entrada incorretos e a validação em linha falha, ou quando a caixa de diálogo precisa renderizar um erro ou uma mensagem de confirmação quando o formulário é enviado, uma mensagem é exibida na parte superior do corpo da caixa de diálogo. É controlado com o seguinte seletor de classe CSS:
+Quando um usuário insere dados de entrada incorretos e a validação em linha falha, ou quando a caixa de diálogo deve renderizar um erro ou uma mensagem de confirmação quando o formulário é enviado, uma mensagem é exibida na parte superior do corpo da caixa de diálogo. É controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage
@@ -1210,11 +1210,11 @@ Quando um usuário insere dados de entrada incorretos e a validação em linha f
 
 >[!NOTE]
 >
->Essa mensagem oferece suporte para `state` seletor de atributos com os seguintes valores possíveis: `verifyerror`, `senderror`e `sendsuccess`. `verifyerror` é definida quando uma mensagem é exibida devido a uma falha na validação de entrada em linha; `senderror` é definido quando um serviço de email de backend relata um erro; `sendsuccess` é definido quando o email é enviado com êxito. Dessa forma, é possível criar um estilo diferente na mensagem, dependendo do estado da caixa de diálogo.
+>Essa mensagem oferece suporte para `state` seletor de atributos com os seguintes valores possíveis: `verifyerror`, `senderror`e `sendsuccess`. O valor `verifyerror` é definida quando uma mensagem é exibida devido a uma falha na validação de entrada em linha. O valor `senderror` é definida quando um serviço de email de backend relata um erro. O `sendsuccess` é definido quando o email é enviado com êxito. Dessa forma, é possível criar um estilo diferente na mensagem, dependendo do estado da caixa de diálogo.
 
 A mensagem de erro pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar uma mensagem para usar uma fonte de dez pontos em negrito, ter 25 pixels de altura da linha, preenchimento de 20 pixels à esquerda, usar um ícone de ponto de exclamação, texto vermelho no caso de erro e nenhum ícone e texto verde no caso de sucesso:
+Exemplo - Para configurar uma mensagem para usar uma fonte em negrito de dez pontos, tenha uma altura de linha de 25 pixels e um preenchimento de 20 pixels à esquerda. Além disso, use um ícone de ponto de exclamação, texto vermelho se houver um erro e nenhum ícone e texto verde se houver sucesso:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

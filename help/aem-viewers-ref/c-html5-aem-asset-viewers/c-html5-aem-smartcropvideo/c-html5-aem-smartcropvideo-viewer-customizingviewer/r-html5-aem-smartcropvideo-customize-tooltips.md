@@ -1,13 +1,13 @@
 ---
+title: Dicas de ferramentas
 description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
 solution: Experience Manager
-title: Dicas de ferramentas
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -63,9 +63,9 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
 
 >[!NOTE]
 >
->Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades precisam conter `!IMPORTANT` regra. Isso não é necessário se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
+>Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades precisam conter uma `!IMPORTANT` regra. Essa regra não é necessária se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
 
-Exemplo - para configurar dicas de ferramentas com uma borda cinza com raio de canto de 3px, plano de fundo preto e texto branco gravado com Arial, tamanho de 11 pixels:
+Exemplo - para configurar dicas de ferramentas com uma borda cinza com raio de canto de 3 px, plano de fundo preto e texto branco gravado com Arial®, tamanho de 11 pixels:
 
 ```
 .s7tooltip { 

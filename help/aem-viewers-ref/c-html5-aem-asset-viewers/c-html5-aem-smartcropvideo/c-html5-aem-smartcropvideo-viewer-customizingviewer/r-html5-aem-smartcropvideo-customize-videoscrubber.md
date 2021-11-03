@@ -1,13 +1,13 @@
 ---
+title: Vídeo de depuração
 description: O depurador de vídeo é o controle deslizante horizontal que permite que um usuário procure dinamicamente qualquer posição de tempo no vídeo que está sendo reproduzido.
 solution: Experience Manager
-title: Vídeo de depuração
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O depurador de vídeo é o controle deslizante horizontal que permite que um usu
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível usar a capa do depurador de vídeo. altere sua altura e posição vertical, por CSS.
+O &quot;botão&quot; do depurador também se move à medida que o vídeo é reproduzido para indicar a posição de tempo atual do vídeo durante a reprodução. O depurador de vídeo sempre pega a largura total da barra de controle. É possível aplicar a capa do depurador de vídeo, alterar sua altura e a posição vertical por CSS.
 
 A aparência geral do depurador de vídeo é controlada pelo seguinte seletor de classe CSS:
 
@@ -158,7 +158,7 @@ O seguinte seletor de classe CSS controla a bolha de tempo reproduzido:
 
 A dica de ferramenta do depurador de vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-**Exemplo** - Para configurar um visualizador de vídeo com um depurador de vídeo com cores de rastreamento personalizadas com 10 pixels de altura e posicionado 10 pixels e 35 pixels das bordas superior e esquerda da barra de controle.
+**Exemplo** - Para configurar um visualizador de vídeo com um depurador de vídeo com cores de rastreamento personalizadas com dez pixels de altura. E finalmente, posicioná-lo a 10 pixels e 35 pixels das bordas superior e esquerda da barra de controle.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

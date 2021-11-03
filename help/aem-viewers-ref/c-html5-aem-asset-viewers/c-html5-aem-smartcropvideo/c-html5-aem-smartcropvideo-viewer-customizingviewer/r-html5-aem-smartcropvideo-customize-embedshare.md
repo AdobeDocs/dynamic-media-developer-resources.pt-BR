@@ -1,13 +1,13 @@
 ---
+title: Compartilhamento incorporado
 description: A ferramenta de compartilhamento integrado consiste em um botão adicionado ao painel Compartilhamento social e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento incorporado
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ A aparência do botão de compartilhamento incorporado é controlada pelo seguin
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um botão de compartilhamento incorporado com 28 x 28 pixels e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes:
+Exemplo - Para configurar um botão Incorporar compartilhamento com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -162,7 +162,7 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  </tbody> 
 </table>
 
-O ícone e o texto do título são envolvidos em um contêiner adicional controlado com
+O ícone e o texto do título são vinculados em um contêiner extra controlado com
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar o cabeçalho da caixa de diálogo com o preenchimento, o ícone de 24 x 14 pixels, o título de 16 pontos em negrito e o botão de fechamento de 28 x 28 pixels, posicionados dois pixels da parte superior e dois pixels da direita do contêiner da caixa de diálogo:
+Exemplo - Para configurar um cabeçalho de caixa de diálogo com preenchimento, ícone de 24 x 14 pixels, título de 16 pontos em negrito e botão Fechar de 28 x 28 pixels. Finalmente, coloque-o posicionado dois pixels da parte superior e dois pixels da direita do contêiner da caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 >
 >O botão Cancelar é compatível com o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Se a altura desse contêiner parecer ser maior que a área da caixa de diálogo 
  </tbody> 
 </table>
 
-Exemplo - para configurar o conteúdo do formulário para ter o preenchimento de dez pixels:
+Exemplo - Para configurar o conteúdo do formulário para ter o preenchimento de dez pixels:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -712,7 +712,7 @@ O texto real do código incorporado é controlado com o seguinte seletor de clas
  </tbody> 
 </table>
 
-Exemplo - para configurar o código incorporado a ser usado `break-word` quebra automática de palavra:
+Exemplo - Para configurar o código incorporado a ser usado `break-word` quebra automática de palavra:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Exemplo - para configurar o código incorporado a ser usado `break-word` quebra 
 }
 ```
 
-Incorporar rótulo de tamanho e lista suspensa estão localizados na parte inferior da caixa de diálogo e colocados em um contêiner controlado com o seguinte seletor de classe CSS:
+Incorporar rótulo de tamanho e lista suspensa estão na parte inferior da caixa de diálogo e são colocados em um contêiner controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ A largura da caixa de combinação de tamanho incorporado é controlada pelo seg
 
 >[!NOTE]
 >
->A caixa de combinação suporta o `expanded` seletor de atributos com possíveis valores de `true` e `false`. `true` é usada quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto, deve ter toda a largura disponível. `false` é usada quando a opção de tamanho personalizado está selecionada na caixa de combinação; portanto, deve ser reduzida para permitir espaço para campos de entrada de largura e altura personalizados.
+>A caixa de combinação suporta o `expanded` seletor de atributos com possíveis valores de `true` e `false`. O `true` é usado quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto, deve ter toda a largura disponível. O `false` é usado quando a opção de tamanho personalizado está selecionada na caixa de combinação; portanto, deve ser reduzido para permitir espaço para campos de entrada de largura e altura personalizados.
 
 Exemplo - para definir a caixa de combinação de tamanho incorporado com largura de 300 pixels ao mostrar um item predefinido e 110 pixels de largura ao mostrar um tamanho personalizado:
 
@@ -892,7 +892,7 @@ Exemplo - para definir um botão &quot;suspenso&quot; para 28 x 28 pixels e ter 
 }
 ```
 
-O painel com a lista de tamanhos incorporados exibidos quando a caixa de combinação é aberta é controlado com o seguinte seletor de classe CSS:
+O painel com a lista de tamanhos incorporados exibida quando a caixa de combinação é aberta é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -1037,7 +1037,7 @@ Cada campo de entrada de tamanho personalizado é colocado em um contêiner que 
  </tbody> 
 </table>
 
-Exemplo - para definir os campos de entrada de tamanho personalizado para ter uma borda cinza, margem, preenchimento de um pixel e ter 70 pixels de largura:
+Exemplo - para definir os campos de entrada de tamanho personalizado para terem uma borda cinza, margem, preenchimento de um pixel e 70 pixels de largura:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

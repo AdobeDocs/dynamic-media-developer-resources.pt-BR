@@ -1,13 +1,13 @@
 ---
+title: Compartilhamento de link
 description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento de link
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  </tbody> 
 </table>
 
-O ícone e o texto do título são envolvidos em um contêiner adicional controlado com
+O ícone e o texto do título são vinculados em um contêiner extra controlado com
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -284,7 +284,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um cabeçalho de caixa de diálogo com preenchimento, ícone de 22 x 12 pixels, título de 16 pontos em negrito e um botão Fechar de 28 x 28 pixels que é posicionado dois pixels da parte superior e dois pixels à direita do contêiner da caixa de diálogo:
+Exemplo - Para configurar um cabeçalho de caixa de diálogo com o preenchimento, um ícone de 22 x 12 pixels e um título de 16 pontos em negrito. Finalmente, um botão Fechar de 28 x 28 pixels que é posicionado em dois pixels da parte superior e em dois pixels à direita do contêiner da caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 >
 >Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham a mesma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button

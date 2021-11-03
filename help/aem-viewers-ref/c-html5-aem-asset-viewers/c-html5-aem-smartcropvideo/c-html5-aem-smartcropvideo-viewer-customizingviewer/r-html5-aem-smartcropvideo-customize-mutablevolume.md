@@ -1,11 +1,11 @@
 ---
+title: Volume variável
 description: O controle de volume mutável aparece inicialmente como um botão que permite que o usuário emudece ou mude o som do player de vídeo de recorte inteligente.
 solution: Experience Manager
-title: Volume variável
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%

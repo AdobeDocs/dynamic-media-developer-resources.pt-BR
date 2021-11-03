@@ -1,11 +1,11 @@
 ---
+title: getComponent
 description: Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getComponent{#getcomponent}
 
-Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente
+Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
 
 `getComponent(componentId)`
 
@@ -110,7 +110,7 @@ Consulte a documentação da API do SDK do visualizador para obter mais informa�
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` uma referência ao componente do SDK do visualizador. O método retorna `null` se a variável `componentId` não é um componente do visualizador compatível ou se o componente ainda não foi criado pela lógica do visualizador.
+`{Object}` Uma referência ao componente do SDK do visualizador. O método retorna `null` se a variável `componentId` não é um componente do visualizador compatível ou se o componente ainda não foi criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

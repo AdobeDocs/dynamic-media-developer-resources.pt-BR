@@ -1,13 +1,13 @@
 ---
+title: Botão Legenda
 description: Esse botão ativa e desativa a exibição da legenda fechada. Não é visível se o parâmetro da legenda não for especificado.
 solution: Experience Manager
-title: Botão Legenda
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos 
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um botão de legenda fechada com 28 x 28 pixels, posicionado quatro pixels da parte superior e 68 pixels da borda direita da barra de controle, e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Para configurar um botão de legenda fechada com 28 x 28 pixels. Ele é posicionado em quatro pixels da parte superior e em 68 pixels da borda direita da barra de controle. E, por fim, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 
