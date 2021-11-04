@@ -2,12 +2,12 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Especifica quando exibir o painel de informações. </p> <p>Se definido como <span class="codeph"> 1</span>, o painel de informações é exibido quando o mouse entra na área do mapa de imagem (caso o mapa de imagem tenha atributo <span class="codeph"> rolover_key</span> não vazio). </p> <p>Se definido como <span class="codeph"> 0</span> painel de informações for acionado ao clicar no mapa de imagem (se o mapa de imagem tiver um <span class="codeph"> rolover_key</span> não vazio e <span class="codeph"> href</span> atributos vazios). </p> <p> Ignorado em dispositivos de toque, incluindo sistemas de desktop habilitados para toque, e é automaticamente definido como <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Especifica quando exibir o painel de informações. </p> <p>Se estiver definido como <span class="codeph"> 1</span>, o painel de informações é exibido quando o mouse entra na área do mapa de imagem (caso o mapa de imagem não esteja vazio), <span class="codeph"> rolover_key</span> ). </p> <p>Se estiver definido como <span class="codeph"> 0</span> o painel de informações é acionado quando o mapa de imagem é selecionado (se o mapa de imagem tiver um <span class="codeph"> rolover_key</span> e vazio <span class="codeph"> href</span> atributos). </p> <p> Ignorado em dispositivos de toque, incluindo sistemas de desktop habilitados para toque, e configurado automaticamente como <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

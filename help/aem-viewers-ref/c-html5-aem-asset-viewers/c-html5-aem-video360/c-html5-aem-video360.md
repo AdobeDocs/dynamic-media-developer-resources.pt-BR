@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -70,7 +70,7 @@ O visualizador oferece suporte para a reprodução de vídeo 360 no seguinte:
 
 Nenhuma configuração adicional é necessária para exibir o conteúdo de vídeo 360 no fone de ouvido VR. O visualizador detecta automaticamente a presença de fone de ouvido VR e mostra o botão &quot;VR&quot; sobre o conteúdo de vídeo. A ativação desse botão &quot;VR&quot; altera a renderização do vídeo para o modo VR. O visualizador suporta renderização VR somente em navegadores com suporte para WebVR.
 
-Para usar montagens VR HMD, o modificador `Video360Player.vrrender` deve ser definido como `1` na configuração do visualizador, o que força a renderização estereoscópica.
+Para usar montagens VR HMD, a variável `Video360Player.vrrender` modificador deve ser definido como `1` na configuração do visualizador, que força a renderização estereoscópica.
 
 Em fones de VR e montagens VR HMD, ocorre uma alteração de ponto de vista em resposta ao movimento do fone de ouvido, e nenhum outro controle de reprodução é fornecido no modo VR.
 
@@ -82,7 +82,7 @@ O visualizador é totalmente acessível por teclado. Consulte [Acessibilidade e 
 
 ## Como incorporar o visualizador Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando clicado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
+Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando selecionado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
 A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção desta regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
 
@@ -90,9 +90,9 @@ A incorporação de vários vídeos na mesma página é compatível com tablets 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Pega toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada `window.open()` do JavaScript, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` HTML ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. Ele é chamado [!DNL Video360Viewer.html] e está localizado na subpasta [!DNL html5/] da implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. É chamado de [!DNL Video360Viewer.html] e está localizado sob a [!DNL html5/] subpasta da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
@@ -112,24 +112,24 @@ Os casos de uso principais são páginas da Web orientadas para desktops ou tabl
 
 A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Esse método é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+A incorporação de design responsivo supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
 
-Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preenche apenas essa área e segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 1. Definição do tamanho do visualizador.
 1. Criação e inicialização do visualizador.
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, inclua [!DNL Video360Viewer.js]. O arquivo [!DNL Video360Viewer.js] está localizado na subpasta [!DNL html5/js/] da implantação padrão do IS-Viewers:
+   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, verifique se você incluiu [!DNL Video360Viewer.js]. O [!DNL Video360Viewer.js] O arquivo está localizado sob a variável [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,20 +143,20 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` do HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
+>Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 
-   Adicione um elemento `DIV` vazio à página onde você deseja que o visualizador apareça. O elemento `DIV` deve ter sua ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
+   Adicionar um vazio `DIV` para a página onde você deseja que o visualizador apareça. O `DIV` deve ter a ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
 
-   O espaço reservado `DIV` é um elemento posicionado, o que significa que a propriedade CSS `position` está definida como `relative` ou `absolute`.
+   O espaço reservado `DIV` é um elemento posicionado, o que significa que a variável `position` A propriedade CSS está definida como `relative` ou `absolute`.
 
-   Para que o recurso de tela cheia funcione corretamente no Internet Explorer, verifique se não há outros elementos no DOM que tenham uma ordem de empilhamento mais alta do que seu espaço reservado `DIV`.
+   Para que o recurso de tela cheia funcione corretamente no Internet Explorer, verifique se não há outros elementos no DOM que tenham uma ordem de empilhamento maior do que o espaço reservado `DIV`.
 
-   A seguir, um exemplo de um elemento `DIV` de espaço reservado definido:
+   Este é um exemplo de um espaço reservado definido `DIV` elemento:
 
    ```
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
@@ -164,11 +164,11 @@ O caminho relativo tem a seguinte aparência:
 
 1. Definição do tamanho do visualizador
 
-   Você pode definir o tamanho estático do visualizador declarando-o para `.s7video360viewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
+   Você pode definir o tamanho estático do visualizador declarando-o para `.s7video360viewer` classe CSS de nível superior em unidades absolutas ou usando `stagesize` modificador.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento no CSS diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand ou passado explicitamente usando `style` comando.
 
-   Consulte [Personalização do visualizador de vídeo360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
+   Consulte [Personalização do visualizador de vídeo 360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
 
@@ -179,7 +179,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no AEM Assets - sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
+   É possível definir a variável `stagesize` modificador no registro predefinido do visualizador no AEM Assets - sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com `params` ou como uma chamada de API conforme descrito na seção Referência de comando , desta forma:
 
    ```
    video360viewer.setParam("stagesize", "640,640");
@@ -189,15 +189,15 @@ O caminho relativo tem a seguinte aparência:
 
 1. Criação e inicialização do visualizador.
 
-   Após concluir as etapas acima, crie uma instância de `s7viewers.Video360Viewer` classe, passe todas as informações de configuração para seu construtor e chame o método `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId` que contém o nome da ID do contêiner do visualizador e o objeto JSON aninhado `params` com parâmetros de configuração compatíveis com o visualizador.
+   Depois de concluir as etapas acima, crie uma instância de `s7viewers.Video360Viewer` classe , transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner do visualizador e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador.
 
-   Nesse caso, o objeto `params` deve ter pelo menos o URL de Exibição de Imagem passado como propriedade `serverUrl` e o ativo inicial como parâmetro `asset`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código, URL do servidor de vídeo passado como propriedade `videoserverurl`, ativo inicial como parâmetro `asset` e dados interativos como propriedade `interactivedata`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Nesse caso, a variável `params` O objeto deve ter pelo menos o URL de disponibilização de imagens passado como `serverUrl` e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código, URL do servidor de vídeo passado como `videoserverurl` propriedade, ativo inicial como `asset` e dados interativos como `interactivedata` propriedade. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
+   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso acontece, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso acontece, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume o seguinte:
+   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . O exemplo assume o seguinte:
 
    * A instância do visualizador é `video360Viewer`.
    * O nome do espaço reservado `DIV` é `s7viewer`.
@@ -250,7 +250,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação de design responsivo com altura irrestrita**
 
-Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
 
 ```
 <!DOCTYPE html> 
@@ -274,7 +274,7 @@ Adicionar o visualizador a essa página é semelhante às etapas para incorpora�
 1. Definição do DIV do contêiner.
 1. Criação e inicialização do visualizador.
 
-Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicione o DIV do contêiner ao DIV `"holder"` existente. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicione o DIV do contêiner ao `"holder"` DIV. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
 ```
 <!DOCTYPE html> 
@@ -307,7 +307,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Incorporação responsiva com definição de largura e altura**
 
-Se houver incorporação responsiva com largura e altura definidas, o estilo da página da Web será diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Se houver incorporação responsiva com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para a variável `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
 
 ```
 <!DOCTYPE html> 
@@ -374,7 +374,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 **Como incorporar usando a API baseada em setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()` e `setAsset()` métodos de API com chamadas JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`e `setAsset()` Métodos de API com chamadas JavaScript separadas.
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 

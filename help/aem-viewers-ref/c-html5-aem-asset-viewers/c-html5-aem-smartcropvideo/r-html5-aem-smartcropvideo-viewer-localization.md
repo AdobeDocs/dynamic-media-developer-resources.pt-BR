@@ -2,10 +2,10 @@
 title: Localização dos elementos da interface do usuário
 description: Determinado conteúdo exibido pelo Visualizador de vídeo de recorte inteligente está sujeito à localização. Esse conteúdo inclui dicas de ferramenta de elemento da interface do usuário e uma mensagem de erro que é exibida quando não é possível reproduzir o vídeo.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
