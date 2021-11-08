@@ -1,19 +1,19 @@
 ---
-title: Vídeo de recorte inteligente
+title: Visualizador de vídeo de recorte inteligente
 description: O Smart Crop Video Viewer é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264 com a adição de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
 keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
 
-# Vídeo{#video}
+# Vídeo de recorte inteligente{#smart-crop-video}
 
 O Smart Crop Video Viewer é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264 com a adição de suporte para recorte inteligente. Ele é fornecido pelo Dynamic Media Classic ou Experience Manager com o Dynamic Media.
 
