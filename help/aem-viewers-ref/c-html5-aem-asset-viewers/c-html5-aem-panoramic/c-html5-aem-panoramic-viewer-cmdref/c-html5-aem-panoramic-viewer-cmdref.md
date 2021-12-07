@@ -4,10 +4,9 @@ description: Documentação dos atributos de configuração para o Visualizador 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-exl-id: null
-source-git-commit: 6118fac8a41abaf5db150820b982bec5bc45f0ff
+source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
