@@ -4,8 +4,7 @@ description: O realce do foco de entrada exibido em torno do elemento da interfa
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
@@ -41,7 +40,7 @@ A aparência é controlada com o seguinte seletor de classe CSS:
  </tbody> 
 </table>
 
-Exemplo - para desativar o realce de foco padrão do navegador para todos os elementos da interface do usuário do visualizador, adicione o seguinte seletor de CSS à folha de estilos do visualizador:
+Exemplo - para desativar o destaque de foco padrão do navegador para todos os elementos da interface do usuário do visualizador, adicione o seguinte seletor de CSS à folha de estilos do visualizador:
 
 ```
 .s7smartcropvideoviewer *:focus { 

@@ -5,8 +5,7 @@ keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -76,7 +75,7 @@ O compartilhamento de ferramentas não está disponível no modo de tela cheia d
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando selecionado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
-A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção desta regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
+A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção dessa regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
 
 **Sobre o modo pop-up**
 
