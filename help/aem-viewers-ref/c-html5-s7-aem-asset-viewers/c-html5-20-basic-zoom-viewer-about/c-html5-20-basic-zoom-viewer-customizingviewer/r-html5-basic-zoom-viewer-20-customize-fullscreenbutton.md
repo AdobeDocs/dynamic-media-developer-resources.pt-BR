@@ -1,13 +1,13 @@
 ---
-description: Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
-solution: Experience Manager
 title: Botão de tela cheia
+description: Faz com que o visualizador entre ou saia do modo de tela cheia quando clicado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. Você pode dimensionar, aplicar a capa e posicionar esse botão usando o CSS.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de tela cheia com 32 x 32 pixels, posicionado seis pixels da borda superior e direita do visualizador e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado:
+Exemplo - para configurar um botão de tela cheia com 32 x 32 pixels e posicionado seis pixels da borda superior e direita do visualizador. Ele deve exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado:
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 

@@ -1,14 +1,14 @@
 ---
-description: fechadura
-solution: Experience Manager
 title: fechadura
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+description: Botão Fechar.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c9524089-4797-4555-8e31-44fe2cfd97ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão de fechamento ou defina como <span class="codeph"> 0</span> para ocultar o botão de fechamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão Fechar ou defina como <span class="codeph"> 0</span> para ocultar o botão fechar. </p> </td> 
   </tr> 
  </tbody> 
 </table>

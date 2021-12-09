@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6744aa987cd3d29ffd2e6959c0694c3561100fcf
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Ao criar CSS personalizado, lembre-se de que o visualizador atribui `.s7ecatalog
 
 ## Criando CSS responsivo projetado {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Esse direcionamento inclui, entre outros, diferentes layouts de página da Web, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
+É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Esse target inclui, entre outros, diferentes layouts de página da Web, tamanhos de elementos da interface do usuário e resolução de arte-final.
 
 O visualizador aceita dois métodos para criar CSS responsivo projetado: Marcadores CSS e consultas de mídia CSS padrão. Você pode usar esses métodos separadamente ou juntos.
 
 **Marcadores CSS**
 
-Para ajudar a criar CSS responsivo projetado, o visualizador aceita marcadores CSS que possuem classes CSS especiais atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior. O contêiner do visualizador é baseado no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
+Para ajudar na criação de CSS responsivo projetado, o visualizador aceita marcadores CSS. Classes CSS especiais são atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior com base no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
 
-O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium`e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Ou seja, se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum `.s7size_large` é utilizado; se a área estiver próxima do tamanho de um tablet comum `.s7size_medium` é atribuído. Para áreas semelhantes a telas de celular, o marcador `.s7size_small` está definida. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
+O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium`e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Ou seja, se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum `.s7size_large` é utilizado; se a área estiver próxima do tamanho de um tablet comum `.s7size_medium` é atribuído. Para áreas semelhantes a telas de telefones celulares, `.s7size_small` está definida. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
 
 O segundo grupo de marcadores CSS inclui `.s7mouseinput` e `.s7touchinput`. O marcador `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada por toque; caso contrário, `.s7mouseinput` é usada. Esses marcadores são destinados a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores. Caso o dispositivo tenha recursos de entrada e toque do mouse, `.s7touchinput` é definida e o visualizador renderiza uma interface de usuário fácil de tocar.
 
@@ -69,7 +69,7 @@ Para direcionar dispositivos com uma densidade de pixels diferente, use consulta
 }
 ```
 
-O uso de marcadores de CSS é a maneira mais flexível de criar CSS projetado e responsivo. Isso ocorre porque permite direcionar não apenas o tamanho da tela do dispositivo, mas o tamanho real do visualizador, o que pode ser útil para layouts de página projetados e responsivos.
+O uso de marcadores de CSS é a maneira mais flexível de criar CSS responsivo projetado. Ele permite direcionar não apenas o tamanho da tela do dispositivo, mas o tamanho real do visualizador, o que pode ser útil para layouts de página projetados e responsivos.
 
 Use o arquivo CSS do visualizador padrão como exemplo de uma abordagem de marcadores CSS.
 

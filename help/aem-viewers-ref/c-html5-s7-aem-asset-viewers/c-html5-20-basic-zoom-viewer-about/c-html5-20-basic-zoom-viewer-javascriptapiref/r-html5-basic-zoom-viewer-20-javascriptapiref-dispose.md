@@ -1,13 +1,13 @@
 ---
+title: dispor
 description: Referência da API do JavaScript para o Visualizador básico de zoom.
 solution: Experience Manager
-title: dispor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Dispõe essa instância do visualizador, liberando todos os recursos usados pela
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador, ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web. E essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
 
-Não acesse mais a API do visualizador depois que `dispose()` for chamado.
+Não acesse mais a API do visualizador depois de `dispose()` é chamado.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
