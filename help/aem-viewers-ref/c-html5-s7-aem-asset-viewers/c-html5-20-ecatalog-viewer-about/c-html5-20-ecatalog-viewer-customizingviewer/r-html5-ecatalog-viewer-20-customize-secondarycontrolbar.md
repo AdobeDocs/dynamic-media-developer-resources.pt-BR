@@ -1,13 +1,13 @@
 ---
+title: Barra de controle secundária
 description: A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
 solution: Experience Manager
-title: Barra de controle secundária
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A barra de controle secundária é a área retangular que contém os botões Primeira e Última Página e um Indicador de Página quando disponibilizado em CSS.
 
-Por padrão, ele é exibido somente em telefones celulares e está localizado na parte inferior do visualizador. Sempre leva toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical por CSS, em relação ao contêiner do visualizador.
+Por padrão, ele é exibido somente em telefones celulares e é posicionado na parte inferior do visualizador. Sempre leva toda a largura disponível do visualizador. É possível alterar a cor, a altura e a posição vertical por CSS, em relação ao contêiner do visualizador.
 
 A aparência da barra de controle secundária é controlada com o seguinte seletor de classe CSS:
 
@@ -31,19 +31,19 @@ A aparência da barra de controle secundária é controlada com o seguinte selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posição na parte superior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posicione a partir da parte inferior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura da barra de controle principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor de fundo da barra de controle secundária. </p> </td> 
   </tr> 
  </tbody> 

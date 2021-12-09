@@ -1,13 +1,13 @@
 ---
+title: Baixar
 description: Baixar
 solution: Experience Manager
-title: Baixar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4cfdfc28-20db-41bc-a423-01d696ea6eed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ ht-degree: 0%
 O botão &quot;Download&quot; fica disponível automaticamente na interface do usuário do visualizador quando o seguinte ocorre:
 
 * Um arquivo PDF real está presente na empresa do cliente.
-* O nome corresponde ao nome do ativo de catálogo eletrônico que é passado para o visualizador e inclui uma extensão `.pdf`.
+* O nome corresponde ao nome do ativo de catálogo eletrônico que é transmitido ao visualizador e inclui um `.pdf` extensão.
 * O arquivo PDF é publicado no Dynamic Media Classic.

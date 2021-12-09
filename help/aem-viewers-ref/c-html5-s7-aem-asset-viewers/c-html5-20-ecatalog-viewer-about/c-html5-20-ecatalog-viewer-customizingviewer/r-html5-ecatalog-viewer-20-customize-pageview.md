@@ -1,13 +1,13 @@
 ---
+title: Exibição da página
 description: A exibição principal consiste na imagem do catálogo. Ele pode ser deslizado para chegar a outra página ou ampliado.
 solution: Experience Manager
-title: Exibição da página
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3368115-15e7-4d9d-a417-a3c82c9a8a64
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo da exibição principal em formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Cursor que é exibido sobre a exibição principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Exemplo - para tornar a exibição principal transparente.
 }
 ```
 
-Em sistemas de desktop, o componente suporta o seletor de atributos `cursortype` que pode ser aplicado à classe `.s7pageview` e controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
+Em sistemas de desktop, o componente suporta o `cursortype` seletor de atributos que pode ser aplicado a `.s7pageview` e controla o tipo do cursor com base no estado do componente e na ação do usuário. O seguinte `cursortype` são compatíveis:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,23 +64,23 @@ Em sistemas de desktop, o componente suporta o seletor de atributos `cursortype`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
    <td colname="col2"> <p>Exibida quando a imagem não é ampliável devido a uma pequena resolução de imagem, configurações de componente ou ambos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
    <td colname="col2"> <p>Exibido quando a imagem puder ser ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redefinir  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefinir </span> </p> </td> 
    <td colname="col2"> <p>Exibida quando a imagem está no nível máximo de zoom e pode ser redefinida para o estado inicial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrastar  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrastar </span> </p> </td> 
    <td colname="col2"> <p>Exibido quando o usuário expande a imagem que está no estado com zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slide </span> </p> </td> 
    <td colname="col2"> <p>Exibido quando o usuário realiza uma troca de imagem ao deslizar ou piscar na horizontal. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +100,10 @@ O divisor de página que separa visualmente as páginas esquerda e direita do sp
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> A largura do divisor de página. Defina para <span class="codeph"> 0 </span> px para ocultar o divisor completamente. </p> </td> 
+   <td colname="col2"> <p> A largura do divisor de página. Defina como <span class="codeph"> 0 </span> px para ocultar completamente o divisor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem que você deseja usar como o divisor de página. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +120,9 @@ Exemplo - para ter divisor de página de 40 pixels de largura com imagem semitra
 
 >[!NOTE]
 >
->Quando o modificador `frametransition` está definido como `turn` ou `auto` (em sistemas de desktop), a aparência do divisor de página é controlada com o modificador `pageturnstyle` e a classe CSS `.s7pagedivider` é ignorada.
+>Quando a variável `frametransition` modificador está definido como `turn` ou `auto` (em sistemas de desktop), a aparência do divisor de página é controlada com o `pageturnstyle` modificador e o `.s7pagedivider` A classe CSS é ignorada.
 
-É possível configurar a exibição do cursor do mouse personalizado sobre a área principal do visualizador. Isso é controlado com seletores de atributos adicionais aplicados à classe `.s7ecatalogviewer .s7pageview` CSS:
+É possível configurar a exibição do cursor do mouse personalizado sobre a área principal do visualizador. Essa funcionalidade é controlada com os seletores de atributos adicionais aplicados ao `.s7ecatalogviewer .s7pageview` Classe CSS:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,23 +133,23 @@ Exemplo - para ter divisor de página de 40 pixels de largura com imagem semitra
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> default  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
    <td colname="col2"> <p> Normalmente, uma seta é exibida para imagens sem zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomina  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomina </span> </p> </td> 
    <td colname="col2"> <p> Mostra quando uma imagem pode ser ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redefinir  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefinir </span> </p> </td> 
    <td colname="col2"> <p>Mostra quando uma imagem está no zoom máximo e pode ser redefinida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrastar  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrastar </span> </p> </td> 
    <td colname="col2"> <p>Mostra quando o usuário executa a operação de arrastar com zoom na imagem </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> slide </span> </p> </td> 
    <td colname="col2"> <p>Mostra quando o usuário realiza a troca de imagem usando gesto de slide </p> </td> 
   </tr> 
  </tbody> 

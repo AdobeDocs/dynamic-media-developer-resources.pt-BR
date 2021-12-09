@@ -1,14 +1,14 @@
 ---
+title: Personalizar o visualizador de catálogo eletrônico
 description: Toda personalização visual e a maioria dos comportamentos do Visualizador de catálogo eletrônico são feitos com a criação de um CSS personalizado.
 keywords: responsivo
 solution: Experience Manager
-title: Personalizar o visualizador de catálogo eletrônico
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Toda personalização visual e a maioria dos comportamentos do Visualizador de catálogo eletrônico são feitos com a criação de um CSS personalizado.
 
-O fluxo de trabalho sugerido é pegar o arquivo CSS padrão do visualizador apropriado, copiá-lo para um local diferente, personalizá-lo e especificar o local do arquivo personalizado no comando `style=`.
+O fluxo de trabalho sugerido é pegar o arquivo CSS padrão para o visualizador apropriado, copiá-lo para um local diferente, personalizá-lo e especificar o local do arquivo personalizado no `style=` comando.
 
 Arquivos CSS padrão podem ser encontrados no seguinte local:
 
@@ -27,25 +27,25 @@ O arquivo CSS personalizado deve conter as mesmas declarações de classe que a 
 
 Uma maneira alternativa de fornecer regras de CSS personalizadas é usar estilos incorporados diretamente na página da Web ou em uma das regras de CSS externas vinculadas.
 
-Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s7ecatalogviewer` ao elemento DOM do contêiner. Se você estiver usando um arquivo CSS externo passado com o comando `style=`, use a classe `.s7ecatalogviewer` como classe pai no seletor descendente para suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, qualifique também esse seletor com uma ID do elemento DOM do contêiner da seguinte maneira:
+Ao criar CSS personalizado, lembre-se de que o visualizador atribui `.s7ecatalogviewer` à classe do elemento DOM do contêiner. Se você estiver usando um arquivo CSS externo passado com a variável `style=` , use `.s7ecatalogviewer` classe como classe pai no seletor descendente de suas regras CSS. Se você estiver fazendo estilos incorporados na página da Web, também qualifique esse seletor com uma ID do elemento DOM do contêiner da seguinte maneira:
 
 `#<containerId>.s7ecatalogviewer`
 
 ## Criando CSS responsivo projetado {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Isso inclui, entre outros, diferentes layouts de página da Web, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
+É possível direcionar diferentes dispositivos e tamanhos de incorporação no CSS para fazer com que o conteúdo seja exibido de forma diferente, dependendo do dispositivo de um usuário ou de um layout de página da Web específico. Esse direcionamento inclui, entre outros, diferentes layouts de página da Web, tamanhos de elementos da interface do usuário e resolução do trabalho artístico.
 
 O visualizador aceita dois métodos para criar CSS responsivo projetado: Marcadores CSS e consultas de mídia CSS padrão. Você pode usar esses métodos separadamente ou juntos.
 
 **Marcadores CSS**
 
-Para auxiliar na criação de CSS responsivo projetado, o visualizador aceita marcadores CSS que possuem classes CSS especiais atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior com base no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
+Para ajudar a criar CSS responsivo projetado, o visualizador aceita marcadores CSS que possuem classes CSS especiais atribuídas dinamicamente ao elemento do contêiner do visualizador de nível superior. O contêiner do visualizador é baseado no tamanho do visualizador de tempo de execução e no tipo de entrada usado no dispositivo atual.
 
-O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium` e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Ou seja, se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum `.s7size_large` for usado; se a área estiver próxima em tamanho de um tablet comum, `.s7size_medium` será atribuído. Para áreas semelhantes a telas de celular, `.s7size_small` está definido. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
+O primeiro grupo de marcadores CSS inclui `.s7size_large`, `.s7size_medium`e `.s7size_small` classes. Eles são aplicados com base na área de tempo de execução do contêiner do visualizador. Ou seja, se a área do visualizador for igual ou maior que o tamanho de um monitor de desktop comum `.s7size_large` é utilizado; se a área estiver próxima do tamanho de um tablet comum `.s7size_medium` é atribuído. Para áreas semelhantes a telas de celular, o marcador `.s7size_small` está definida. O objetivo principal desses marcadores CSS é criar diferentes layouts de interface do usuário para diferentes telas e tamanhos de visualizador.
 
-O segundo grupo de marcadores CSS inclui `.s7mouseinput` e `.s7touchinput`. `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada por toque; caso contrário,  `.s7mouseinput` será usado. Esses marcadores são destinados a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores. Caso o dispositivo tenha recursos de entrada e toque do mouse, `.s7touchinput` é definido e o visualizador renderiza uma interface de usuário fácil de tocar.
+O segundo grupo de marcadores CSS inclui `.s7mouseinput` e `.s7touchinput`. O marcador `.s7touchinput` é definido se o dispositivo atual tiver recursos de entrada por toque; caso contrário, `.s7mouseinput` é usada. Esses marcadores são destinados a criar elementos de entrada da interface do usuário com tamanhos de tela diferentes para tipos de entrada diferentes, pois normalmente a entrada por toque requer elementos maiores. Caso o dispositivo tenha recursos de entrada e toque do mouse, `.s7touchinput` é definida e o visualizador renderiza uma interface de usuário fácil de tocar.
 
-A amostra de CSS a seguir define o tamanho do botão de zoom em 28 x 28 pixels em sistemas com entrada de mouse e 56 x 56 pixels em dispositivos de toque. Além disso, ele oculta completamente o botão se o tamanho do visualizador se tornar realmente pequeno:
+A amostra de CSS a seguir define o tamanho do botão de zoom em 28 x 28 pixels em sistemas com entrada de mouse e 56 x 56 pixels em dispositivos de toque. Além disso, ele oculta completamente o botão se o tamanho do visualizador se tornar pequeno:
 
 ```
 .s7ecatalogviewer.s7mouseinput .s7zoominbutton { 
@@ -69,7 +69,7 @@ Para direcionar dispositivos com uma densidade de pixels diferente, use consulta
 }
 ```
 
-Usar marcadores CSS é a maneira mais flexível de criar CSS projetado responsivo, pois permite direcionar não apenas o tamanho da tela do dispositivo, mas o tamanho real do visualizador, o que pode ser útil para layouts de página projetados responsivos.
+O uso de marcadores de CSS é a maneira mais flexível de criar CSS projetado e responsivo. Isso ocorre porque permite direcionar não apenas o tamanho da tela do dispositivo, mas o tamanho real do visualizador, o que pode ser útil para layouts de página projetados e responsivos.
 
 Use o arquivo CSS do visualizador padrão como exemplo de uma abordagem de marcadores CSS.
 
@@ -145,7 +145,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 
 A desvantagem dessa abordagem é que o usuário final apresenta cintilação ou resposta retardada da interface do usuário quando o elemento interagiu pela primeira vez. Essa ação ocorre porque a arte-final da imagem do novo estado do elemento ainda não foi baixada. Além disso, essa abordagem pode ter um impacto negativo no desempenho devido ao aumento do número de chamadas HTTP para o servidor.
 
-Os sprites CSS são uma abordagem diferente, na qual a arte-final de imagem de todos os estados do elemento é combinada em um único arquivo PNG chamado de &quot;sprite&quot;. Esse &quot;sprite&quot; tem todos os estados visuais para o determinado elemento posicionado um após o outro. Ao estilizar um elemento da interface do usuário com sprites, a mesma imagem de sprite é referenciada para todos os estados diferentes no CSS. Além disso, a propriedade `background-position` é usada para cada estado para especificar qual parte da imagem &quot;sprite&quot; é usada. Você pode estruturar uma imagem &quot;sprite&quot; de qualquer maneira adequada. Os visualizadores normalmente o têm empilhado verticalmente. Abaixo está um exemplo baseado em &quot;sprite&quot; de como colocar o mesmo botão de zoom acima:
+Os sprites CSS são uma abordagem diferente, na qual a arte-final de imagem de todos os estados do elemento é combinada em um único arquivo PNG chamado de &quot;sprite&quot;. Esse &quot;sprite&quot; tem todos os estados visuais para o determinado elemento posicionado um após o outro. Ao estilizar um elemento da interface do usuário com sprites, a mesma imagem de sprite é referenciada para todos os estados diferentes no CSS. Além disso, a variável `background-position` é usada para cada estado para especificar qual parte da imagem &quot;sprite&quot; é usada. Você pode estruturar uma imagem &quot;sprite&quot; de qualquer maneira adequada. Os visualizadores normalmente o têm empilhado verticalmente. Abaixo está um exemplo baseado em &quot;sprite&quot; de como colocar o mesmo botão de zoom acima:
 
 ```
 .s7ecatalogviewer .s7zoominbutton[state]  { 
@@ -167,13 +167,13 @@ background-position: -0px -560px;
 
 ## Notas e conselhos gerais sobre estilos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não é compatível com os elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
-* Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da página HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
+* Ao personalizar a interface do usuário do visualizador com CSS, o uso da variável `!IMPORTANT` não há suporte para a regra nos elementos do visualizador de estilo. Em especial, `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. Isso pode afetar o comportamento de componentes adequados. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir propriedades de CSS documentadas neste guia de referência.
+* Todos os caminhos para ativos externos dentro do CSS são resolvidos em relação ao local do CSS, não no local da HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie também os ativos padrão ou atualize caminhos no CSS personalizado.
 * O formato preferido para a arte-final de bitmap é PNG.
-* A arte-final do bitmap é atribuída aos elementos da interface do usuário usando a propriedade `background-image` .
-* As propriedades `width` e `height` de um elemento da interface do usuário definem o tamanho lógico. O tamanho do bitmap passado para `background-image` não afeta o tamanho lógico.
-* Para usar a alta densidade de pixels de telas de alta resolução como Retina, especifique a arte-final de bitmap duas vezes maior que o tamanho do elemento da interface de usuário lógica. Em seguida, aplique a propriedade `-webkit-background-size:contain` para dimensionar o plano de fundo para baixo no tamanho do elemento da interface do usuário lógica.
-* Para remover um botão da interface do usuário, adicione `display:none` a sua classe CSS.
+* A arte-final do bitmap é atribuída aos elementos da interface do usuário usando o `background-image` propriedade.
+* O `width` e `height` as propriedades de um elemento da interface do usuário definem o tamanho lógico. O tamanho do bitmap passado para `background-image` não afeta o tamanho lógico.
+* Para usar a alta densidade de pixels de telas de alta resolução como Retina, especifique a arte-final de bitmap duas vezes maior que o tamanho do elemento da interface de usuário lógica. Em seguida, aplique a variável `-webkit-background-size:contain` para dimensionar o plano de fundo para baixo até o tamanho do elemento da interface do usuário lógica.
+* Para remover um botão da interface do usuário, adicione `display:none` à classe CSS.
 * Você pode usar vários formatos para o valor de cor que o CSS suporta. Se precisar de transparência, use o formato `rgba(R,G,B,A)`. Caso contrário, você poderá usar o formato `#RRGGBB`.
 
 ## Elementos comuns da interface do usuário {#section-d6330c9be8c444aa9b2a07886e3dbc2a}

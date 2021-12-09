@@ -1,13 +1,13 @@
 ---
-description: Botão Fechar
-solution: Experience Manager
 title: Botão Fechar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+description: O botão Fechar
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '43'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão fechar. Ou, defina como <span class="codeph"> 0 </span> para ocultar o botão fechar. </p> <p>O botão fechar é suportado apenas em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão Fechar. Ou, defina como <span class="codeph"> 0 </span> para ocultar o botão Fechar. </p> <p>O botão Fechar é compatível somente em dispositivos de toque; ele não pode ser exibido em sistemas de desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>

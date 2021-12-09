@@ -1,13 +1,13 @@
 ---
+title: Indicador de página
 description: O indicador de página exibe o índice de página atual e a contagem total de páginas. Ele aparece na barra de controle principal em sistemas de desktop e tablet, em celulares é adicionado à barra de controle secundária. O indicador de página pode ser dimensionado, esfolado e posicionado por CSS.
 solution: Experience Manager
-title: Indicador de página
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c63af583-274c-4052-8186-604119a368af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,19 @@ A aparência do indicador de página é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda superior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda direita da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posição da borda esquerda da barra de controle principal (em sistemas de desktop e tablets) ou da barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior da barra de controle principal (em sistemas de desktop e tablets) ou na barra de controle secundária (em telefones celulares), incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -49,25 +49,25 @@ A aparência do indicador de página é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Largura do indicador da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do indicador da página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um indicador de página com 56 x 28 pixels, centrado horizontalmente e posicionado 4 pixels a partir da parte inferior da barra de controle principal, e usar uma fonte Helvetica de 14 pixels.
+Exemplo - para configurar um indicador de página com 56 x 28 pixels, centrado horizontalmente e posicionado 4 pixels a partir da parte inferior da barra de controle principal, e usar uma fonte Helvetica® de 14 pixels.
 
 ```
 .s7ecatalogviewer  .s7pageindicator { 

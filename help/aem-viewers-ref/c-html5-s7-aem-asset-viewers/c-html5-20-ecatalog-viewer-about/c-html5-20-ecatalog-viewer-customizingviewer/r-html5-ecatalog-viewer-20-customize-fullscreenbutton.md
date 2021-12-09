@@ -1,24 +1,24 @@
 ---
-description: Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão aparece na barra de controle principal. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. É possível dimensionar, usar a capa e posicionar o botão por CSS.
-solution: Experience Manager
 title: Botão de tela cheia
+description: Causes the viewer to enter or exit full screen mode when selected by the user. Esse botão aparece na barra de controle principal. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. É possível dimensionar, usar a capa e posicionar o botão por CSS.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3f56fbd2-4d2e-4cfa-bc97-350bc2bb708e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
 # Botão de tela cheia{#full-screen-button}
 
-Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão aparece na barra de controle principal. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. É possível dimensionar, usar a capa e posicionar o botão por CSS.
+Causes the viewer to enter or exit full screen mode when selected by the user. Esse botão aparece na barra de controle principal. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. You can size, skin, and positioned the button by CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**CSS properties of the main viewer area**
 
 A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
@@ -28,7 +28,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p> Propriedade CSS </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrição </p> </th> 
+   <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -50,14 +50,14 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do botão. </p> </td> 
+   <td colname="col2"> <p>Width of the button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
-   <td colname="col2"> <p>Altura do botão. </p> </td> 
+   <td colname="col2"> <p>Height of the button. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -69,11 +69,11 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão suporta `state` e `selected` seletores de atributos, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
+>This button supports both the `state` and `selected` attribute selectors, which can be used to apply different skins to different button states. Em especial, `selected='true'` corresponde ao estado &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. See [Localization of user interface elements](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) for more information.
 
-Exemplo - para configurar um botão de tela cheia com 28 x 28 pixels, posicionado 4 pixels da parte inferior e 5 pixels da borda direita da barra de controle principal, e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Exemplo - Para configurar um botão de tela cheia com 28 x 28 pixels e é posicionado 4 pixels da parte inferior e 5 pixels da borda direita da barra de controle principal. E, por fim, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7ecatalogviewer .s7fullscreenbutton { 

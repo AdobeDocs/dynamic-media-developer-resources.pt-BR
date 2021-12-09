@@ -2,10 +2,10 @@
 description: O Pop-up do painel Informações é exibido no meio da área do visualizador quando um usuário ativa um mapa de imagem que tem uma propriedade rolover_key definida no Dynamic Media Classic e se o recurso do painel de informações está configurado corretamente para o visualizador.
 solution: Experience Manager
 title: Pop-up do painel Informações
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -29,11 +29,11 @@ O plano de fundo do painel Informações cobre toda a área do visualizador e é
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Preenchimento de plano de fundo do painel Informações. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col2"> <p>Plano de fundo de preenchimento do painel Informações. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -60,11 +60,11 @@ A caixa de diálogo do painel de informações é exibida por padrão no meio da
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posição horizontal da caixa de diálogo do painel de informações no preenchimento do plano de fundo do painel da área do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posição vertical da caixa de diálogo do painel de informações na área do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -72,37 +72,37 @@ A caixa de diálogo do painel de informações é exibida por padrão no meio da
    <td colname="col2"> <p>Largura da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
    <td colname="col2"> <p>A margem esquerda da caixa de diálogo do painel de informações pode ser usada para fins de centralização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
    <td colname="col2"> <p>A margem superior da caixa de diálogo do painel de informações pode ser usada para fins de centralização. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento da caixa de diálogo interna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sombra de caixa  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra de caixa </span> </p> </td> 
    <td colname="col2"> <p>Sombra da caixa de diálogo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configure a caixa de diálogo do painel de informações de 300 x 200 pixels centralizada na área do visualizador; tem 40 pixels de preenchimento na parte superior e 10 pixels de preenchimento em todos os outros lados, um plano de fundo cinza claro e um raio de borda de 10 pixels e sombra de queda.
+Exemplo - Para configurar a caixa de diálogo do painel de informações de 300 x 200 pixels que está centralizada na área do visualizador. Ele tem 40 pixels de preenchimento na parte superior e 10 pixels de preenchimento em todos os outros lados, um plano de fundo cinza claro e um raio de borda de 10 pixels e sombra de queda.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7overlay { 
@@ -137,35 +137,35 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda superior da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda direita da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posição da borda esquerda da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -173,11 +173,11 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de fechamento da caixa de diálogo com 28 x 28 pixels, 5 pixels posicionados da borda superior e direita da caixa de diálogo do painel de informações e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes.
+Exemplo - Para configurar uma caixa de diálogo Botão Fechar que tem 28 x 28 pixels e é posicionado 5 pixels da borda superior e direita da caixa de diálogo do painel de informações. E finalmente, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7ecatalogviewer .s7infopanelpopup .s7closebutton { 

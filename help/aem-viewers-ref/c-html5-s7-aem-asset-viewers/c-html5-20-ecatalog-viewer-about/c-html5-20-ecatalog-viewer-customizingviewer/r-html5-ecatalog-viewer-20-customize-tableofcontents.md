@@ -1,20 +1,20 @@
 ---
-description: Índice é um botão localizado na barra de controle principal. Quando ativado, um painel suspenso é exibido com uma lista de índices e rótulos de página.
-solution: Experience Manager
 title: Índice
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+description: O índice é um botão posicionado na barra de controle principal. Quando ativado, um painel suspenso é exibido com uma lista de índices e rótulos de página.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Índice{#table-of-contents}
 
-Índice é um botão localizado na barra de controle principal. Quando ativado, um painel suspenso é exibido com uma lista de índices e rótulos de página.
+O índice é um botão posicionado na barra de controle principal. Quando ativado, um painel suspenso é exibido com uma lista de índices e rótulos de página.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -31,27 +31,27 @@ A posição e o tamanho do botão do índice na interface do usuário do visuali
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
    <td colname="col2"> <p> O deslocamento da parte superior da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
-   <td colname="col2"> <p> A distância até ao botão seguinte à esquerda ou à esquerda da barra de controle, se este for o primeiro botão de uma linha. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
+   <td colname="col2"> <p> A distância até ao botão seguinte à esquerda ou ao lado esquerdo da barra de controle, se este for o primeiro botão em uma linha. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> A largura do botão do índice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p> A altura do botão do índice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,11 +59,11 @@ A posição e o tamanho do botão do índice na interface do usuário do visuali
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
+>Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - configure um botão de índice posicionado 4 pixels da parte inferior e 43 pixels da esquerda da barra de controle principal; O tamanho é 28 x 28 pixels e uma imagem diferente é exibida para cada um dos quatro estados de botão diferentes:
+Exemplo - Para configurar um botão de índice posicionado 4 pixels da parte inferior e 43 pixels da esquerda da barra de controle principal. O tamanho é de 28 x 28 pixels, e uma imagem diferente é exibida para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -96,15 +96,15 @@ A aparência do painel suspenso é controlada com o seguinte seletor de classe C
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do painel suspenso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
    <td colname="col2"> <p> Deslocamento interno entre os limites do painel e o conteúdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sombra de caixa  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra de caixa </span> </p> </td> 
    <td colname="col2"> <p> Sombra ao redor do painel. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ Exemplo - configure um painel suspenso que tenha um plano de fundo preto semitra
 }
 ```
 
-A aparência e comportamento individual do item é controlada com o seguinte seletor de classe CSS:
+A aparência do item individual é controlada com o seguinte seletor de classe CSS:
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
@@ -135,19 +135,19 @@ A aparência e comportamento individual do item é controlada com o seguinte sel
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do item. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento interno. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,9 +155,9 @@ A aparência e comportamento individual do item é controlada com o seguinte sel
 
 >[!NOTE]
 >
->O item de lista suspensa é compatível com o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de passar o mouse e itens selecionados.
+>O item de lista suspensa é compatível com o `state` seletor de atributos, que pode ser usado para aplicar diferentes capas aos estados de passar o mouse e item selecionado.
 
-Exemplo - configure um item suspenso com uma fonte Helvetica de 14 pixels e 19 pixels de altura. Um item tem um plano de fundo cinza escuro ao passar o mouse e um plano de fundo cinza claro quando selecionado:
+Exemplo - configure um item suspenso com uma fonte Helvetica® de 14 pixels e 19 pixels de altura. Um item tem um plano de fundo cinza escuro ao passar o mouse e um plano de fundo cinza claro quando selecionado:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -184,15 +184,15 @@ Um elemento que mostra o índice de página é controlado com o seguinte seletor
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura mínima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura mínima </span> </p> </td> 
    <td colname="col2"> <p> Largura mínima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura máxima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura máxima </span> </p> </td> 
    <td colname="col2"> <p> Largura máxima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento à direita  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento à direita </span> </p> </td> 
    <td colname="col2"> <p> Distância entre o índice de página e o rótulo da página. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Um elemento que mostra o índice de página é controlado com o seguinte seletor
 
 >[!NOTE]
 >
->É possível ocultar o índice de página completamente definindo `display:none` para a classe CSS `s7index`.
+>É possível ocultar o índice de página totalmente ao configurar `display:none` para `s7index` Classe CSS.
 
 Exemplo 1 - configure um índice de página com uma largura mínima de 40 pixels, uma largura máxima de 70 pixels e uma margem de 5 pixels no lado direito:
 
@@ -231,11 +231,11 @@ O rótulo da página é controlado com o seguinte seletor de classe CSS:
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura mínima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura mínima </span> </p> </td> 
    <td colname="col2"> <p> Largura mínima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura máxima  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura máxima </span> </p> </td> 
    <td colname="col2"> <p> Largura máxima do elemento. </p> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Caso haja mais itens que possam caber verticalmente no painel suspenso e o sistema seja uma área de trabalho, o componente renderiza uma barra de rolagem vertical no lado direito do painel. A aparência da área da barra de rolagem é controlada com o seguinte seletor de classe CSS:
+Se houver mais itens que possam caber verticalmente no painel suspenso e o sistema for uma área de trabalho, o componente renderizará uma barra de rolagem vertical no lado direito do painel. A aparência da área da barra de rolagem é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -261,19 +261,19 @@ Caso haja mais itens que possam caber verticalmente no painel suspenso e o siste
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p> A largura da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical a partir da parte superior da área do painel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical a partir da parte inferior da área do painel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem horizontal da borda direita da área do painel. </p> </td> 
   </tr> 
  </tbody> 
@@ -301,11 +301,11 @@ O rastreamento da barra de rolagem é a área entre os botões de rolagem superi
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>A largura da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da faixa. </p> </td> 
   </tr> 
  </tbody> 
@@ -331,27 +331,27 @@ O polegar da barra de rolagem se move verticalmente na área de trilha de rolage
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>A largura do polegar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura do polegar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior do preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parte superior do preenchimento </span> </p> </td> 
    <td colname="col2"> <p> O preenchimento vertical entre a parte superior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte inferior do preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parte inferior do preenchimento </span> </p> </td> 
    <td colname="col2"> <p>O preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de polegar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -359,7 +359,7 @@ O polegar da barra de rolagem se move verticalmente na área de trilha de rolage
 
 >[!NOTE]
 >
->O botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes aos estados de miniatura `up`, `down`, `over` e `disabled`.
+>O polegar suporta o `state` seletor de atributos, que pode ser usado para aplicar diferentes capas ao `up`, `down`, `over`e `disabled` estados do polegar.
 
 Exemplo - configure um polegar da barra de rolagem que seja 28 x 45 pixels, tenha margens de 10 pixels na parte superior e inferior e tenha uma arte-final diferente para cada estado:
 
@@ -396,26 +396,26 @@ A aparência dos botões de rolagem superior e inferior é controlada pelos segu
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Não é possível posicionar os botões de rolagem usando as propriedades CSS `top`, `left`, `bottom` e `right`; em vez disso, a lógica do visualizador os posiciona automaticamente.
+Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`e `right` propriedades; em vez disso, a lógica do visualizador os posiciona automaticamente.
 
 **Propriedades CSS do botão de rolagem para cima e rolagem para baixo**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>A largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ Não é possível posicionar os botões de rolagem usando as propriedades CSS `t
 
 >[!NOTE]
 >
->O botão suporta o seletor de atributo `state`, que pode ser usado para aplicar capas diferentes aos estados dos botões `up`, `down`, `over` e `disabled`.
+>O botão suporta o `state` seletor de atributos, que pode ser usado para aplicar diferentes capas ao `up`, `down`, `over`e `disabled` estados do botão.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

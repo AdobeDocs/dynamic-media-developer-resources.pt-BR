@@ -1,11 +1,11 @@
 ---
+title: Compartilhamento twitter
 description: A ferramenta de compartilhamento twitter consiste em um botão adicionado ao painel Compartilhamento em redes sociais . Quando o botão é selecionado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
 solution: Experience Manager
-title: Compartilhamento twitter
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 31b6f36d-e4bc-44e9-88a1-6aff6f2254ef
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -55,7 +55,7 @@ A aparência do botão Compartilhar do Twitter é controlada com o seguinte sele
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de compartilhamento Twitter com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
+Exemplo - Para configurar um botão de compartilhamento Twitter com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7ecatalogviewer .s7twittershare { 
