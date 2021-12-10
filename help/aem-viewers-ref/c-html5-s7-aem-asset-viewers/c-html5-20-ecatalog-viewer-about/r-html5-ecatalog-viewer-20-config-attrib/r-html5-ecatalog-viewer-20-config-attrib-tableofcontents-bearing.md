@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.bearing
 description: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.bearing
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do botão e tenta implantar o painel à direita ou à esquerda a partir do local base. A cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação no sentido direito e esquerdo. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante, mas alterna a base para a direita primeiro, tentando para baixo e para cima em direções de implantação. Então, ele muda a base para a esquerda, tentando descer e subir direções. </p> </td> 
+   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do botão e tenta implantar o painel à direita ou à esquerda do local base. Com cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de distribuição no sentido direito e esquerdo. </p> <p>Quando definido como <span class="codeph"> elementos de apoio</span>, o componente usa uma lógica semelhante, mas alterna a base para a direita primeiro, tentando para baixo e para cima nas direções de implantação. Então, ele muda a base para a esquerda, tentando descer e subir direções de implantação. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

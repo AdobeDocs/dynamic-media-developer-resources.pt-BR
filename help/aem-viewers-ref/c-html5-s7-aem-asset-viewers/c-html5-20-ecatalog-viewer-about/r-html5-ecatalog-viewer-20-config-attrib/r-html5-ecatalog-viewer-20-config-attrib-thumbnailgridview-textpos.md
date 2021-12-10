@@ -1,13 +1,13 @@
 ---
+title: ThumbnailGridView.textpos
 description: ThumbnailGridView.textpos
 solution: Experience Manager
-title: ThumbnailGridView.textpos
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> é especificado, o texto do rótulo é exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. Defina como <span class="codeph"> none</span> para desativar o rótulo. </p> </td> 
+   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem em miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>When <span class="codeph"> tooltip</span> for especificado, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. Defina como <span class="codeph"> nenhum</span> para desativar o rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Exibição de zoom
 description: A exibição principal consiste na imagem com zoom.
 solution: Experience Manager
-title: Exibição de zoom
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Cursor exibido sobre a exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a exibição principal transparente.
+Exemplo - Para tornar a exibição principal transparente.
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ Exemplo - para tornar a exibição principal transparente.
 }
 ```
 
-Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos que pode ser aplicado à classe `.s7zoomview`. Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` são suportados:
+Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos que pode ser aplicado ao `.s7zoomview` classe . Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. O seguinte `cursortype` são compatíveis:
 
 * `default`
 

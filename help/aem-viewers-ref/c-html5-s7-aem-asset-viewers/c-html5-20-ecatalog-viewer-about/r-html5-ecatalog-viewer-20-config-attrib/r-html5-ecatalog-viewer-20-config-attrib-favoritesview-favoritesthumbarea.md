@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.favoritesThumbView
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica a área de corte para a miniatura de Favoritos. Expressa como um valor relativo ao tamanho total do quadro, com um intervalo de <span class="codeph"> 0</span> a <span class="codeph"> 1.0</span>. </p> <p>Um valor <span class="codeph"> 1</span> significa que a imagem do quadro inteiro é usada para a miniatura. </p> <p>Um valor <span class="codeph"> 0.1</span> significa que apenas 10% do tamanho do quadro é usado. </p> </td> 
+   <td colname="col2"> <p> Especifica a área de corte para a miniatura de Favoritos. Expressa como um valor relativo ao tamanho total do quadro, com um intervalo de <span class="codeph"> 0</span> para <span class="codeph"> 1,0</span>. </p> <p>Um valor de <span class="codeph"> 1</span> significa que a imagem do quadro inteiro é usada para a miniatura. </p> <p>Um valor de <span class="codeph"> 0,1</span> significa que apenas 10% do tamanho do quadro é usado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: ThumbnailGridView.maxloadradius
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
-title: ThumbnailGridView.maxloadradius
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '54'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p>Quando definido como <span class="codeph"> 0</span> somente as miniaturas visíveis são carregadas. </p> <p>Definir <span class="codeph"><span class="varname"> pré-carregamento</span></span> define quantas linhas/colunas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
+   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo muda. </p> <p>Quando definido como <span class="codeph"> 0</span> somente as miniaturas visíveis são carregadas. </p> <p>Definir <span class="codeph"><span class="varname"> preloadnbr</span></span> define quantas linhas/colunas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

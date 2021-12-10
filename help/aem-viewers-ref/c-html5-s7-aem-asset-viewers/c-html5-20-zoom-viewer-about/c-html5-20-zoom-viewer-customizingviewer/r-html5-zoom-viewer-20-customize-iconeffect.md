@@ -1,13 +1,13 @@
 ---
+title: Efeito de ícone
 description: O indicador de zoom é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
 solution: Experience Manager
-title: Efeito de ícone
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 5f50cb66-e5b4-42c6-8917-a954d8d80154
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Arte do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>Largura do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do indicador de zoom. </p> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 >[!NOTE]
 >
->O efeito de ícone suporta o seletor de atributos `media-type`, que pode ser usado para aplicar efeitos de ícones diferentes em dispositivos diferentes. Em particular, `media-type='standard'` corresponde a sistemas de desktop onde a entrada do mouse é normalmente usada e `media-type='multitouch'` corresponde a dispositivos com entrada por toque.
+>O efeito de ícone suporta `media-type` seletor de atributos, que pode ser usado para aplicar efeitos de ícones diferentes em dispositivos diferentes. Em especial, `media-type='standard'` corresponde a sistemas de desktop em que a entrada do mouse é normalmente utilizada e `media-type='multitouch'` corresponde a dispositivos com entrada por toque.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels com arte diferente para sistemas de desktop e dispositivos de toque.
 

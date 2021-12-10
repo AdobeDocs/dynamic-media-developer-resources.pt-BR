@@ -1,22 +1,22 @@
 ---
+title: PageView.pageturnstyle
 description: PageView.pageturnstyle
 solution: Experience Manager
-title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 00706c64-c051-4b62-8194-61d0a1c565e9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`divWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`divWidth`*, *`divColor`*, *`divOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Controla a aparência do componente quando um `PageView.frametransition` está definido como `turn` ou como `auto` em sistemas de desktop.
+Controla a aparência do componente quando um `PageView.frametransition` está definida como `turn` ou `auto` em sistemas desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +30,11 @@ Controla a aparência do componente quando um `PageView.frametransition` está d
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> divOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>A opacidade de sombra no intervalo de <span class="codeph"> 0</span> a <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>A opacidade da sombra no intervalo de <span class="codeph"> 0</span> para <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> O sinalizador (<span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda em torno da página de viragem. </p> </td> 
+   <td colname="col2"> <p> O sinalizador (ou <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda em torno da página de viragem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

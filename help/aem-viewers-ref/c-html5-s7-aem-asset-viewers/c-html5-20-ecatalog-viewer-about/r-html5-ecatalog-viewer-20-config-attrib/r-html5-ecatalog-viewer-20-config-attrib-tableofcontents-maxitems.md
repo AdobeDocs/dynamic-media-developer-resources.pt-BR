@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>O número máximo de itens no índice suspenso. </p> <p>Além disso, é possível diminuir o número de itens visíveis na lista suspensa caso ele seja cortado pelo contêiner externo. </p> <p>Quando definido como <span class="codeph"> 0</span> esse componente mostra o maior número possível de itens, dado o contêiner ao qual ele é adicionado. </p> </td> 
+   <td> <p>O número máximo de itens no índice suspenso. </p> <p>Além disso, é possível diminuir o número de itens visíveis no menu suspenso caso ele seja cortado pelo contêiner externo. </p> <p>Quando definido como <span class="codeph"> 0</span> esse componente mostra o maior número possível de itens, dado o contêiner ao qual ele é adicionado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

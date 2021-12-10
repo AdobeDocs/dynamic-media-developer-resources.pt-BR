@@ -1,20 +1,20 @@
 ---
-description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só são visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não serão exibidos.
-solution: Experience Manager
 title: Amostras
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só são visíveis na área de trabalho se todas as miniaturas não couberem na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não serão exibidos.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
 
 # Amostras{#swatches}
 
-As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só são visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não serão exibidos.
+As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só são visíveis na área de trabalho se todas as miniaturas não couberem na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não serão exibidos.
 
 `.s7zoomviewer .s7swatches`
 
@@ -41,11 +41,11 @@ A aparência do contêiner de amostras é controlada com o seguinte seletor de c
    <td colname="col2"> <p>Largura das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Deslocamento das amostras verticais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
  </tbody> 
@@ -73,8 +73,8 @@ O espaçamento entre as miniaturas da amostra é controlado com o seguinte selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma da margem esquerda e direita definida para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,15 +102,15 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura é compatível com o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura é compatível com o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao resto das miniaturas, e `state="over"` é usada ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada.
 
@@ -152,19 +152,19 @@ Não é possível posicionar botões de rolagem usando propriedades CSS superior
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -172,7 +172,7 @@ Não é possível posicionar botões de rolagem usando propriedades CSS superior
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botões diferentes: `up`, `down`, `over` e `disabled`.
+>Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de botão: `up`, `down`, `over`e `disabled`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

@@ -1,30 +1,30 @@
 ---
+title: PageView.zoomstep
 description: PageView.zoomstep
 solution: Experience Manager
-title: PageView.zoomstep
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 64cce312-c13b-49c7-af85-3349ff5c4322
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-` [PageView.|<containerId>_pageView.]zoomstep= *``*[, *`steplimit`*]`
+` [PageView.|<containerId>_pageView.]zoomstep= *`step`*[, *`limite`*]`
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
-   <td colname="col2"> <p> Configura o número de ações de zoom e zoom necessárias para aumentar ou diminuir a resolução em um fator de dois. A alteração da resolução para cada ação de zoom é de 2^1 por etapa. Defina como <span class="codeph"> 0</span> para aplicar zoom a resolução completa com uma única ação de zoom. </p> </td> 
+   <td colname="col2"> <p> Configura o número de ações de zoom e zoom necessárias para aumentar ou diminuir a resolução em um fator de dois. A alteração da resolução para cada ação de zoom é de 2^1 por etapa. Defina como <span class="codeph"> 0</span> para ampliar para resolução total com uma única ação de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> limite</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica a resolução máxima de zoom, relativa à imagem de resolução completa. O padrão é <span class="codeph"> 1.0</span>, o que não permite zoom além da resolução completa. </p> </td> 
+   <td colname="col2"> <p> Especifica a resolução máxima de zoom, relativa à imagem de resolução completa. O padrão é <span class="codeph"> 1,0</span>, que não permite o zoom além da resolução completa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Suporte à tecnologia assistiva
 description: Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 solution: Experience Manager
-title: Suporte à tecnologia assistiva
-feature: Dynamic Media Classic,Visualizadores,SDK/API,eCatalog,Acessibilidade
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog,Accessibility
 role: Developer,User
 exl-id: 46ccea4e-4314-453e-a987-68644467ab12
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 
-O elemento do visualizador de nível superior tem o atributo de função `region` e `aria-label` definido por padrão para o nome do visualizador. Você pode controlar o rótulo com o símbolo de localização `Container.LABEL`.
+O elemento do visualizador de nível superior tem função `region` e `aria-label` por padrão, para o nome do visualizador. Você pode controlar o rótulo com a variável `Container.LABEL` símbolo de localização.
 
-Os botões têm a função `button` e o texto descritivo definido com o atributo `aria-label`. O valor do atributo `aria-label` é preenchido a partir do valor do símbolo de localização do botão. Quando um botão é desativado, o atributo `aria-disabled` é definido adequadamente.
+Os botões têm a função `button` e texto descritivo definido com a variável `aria-label` atributo. O valor de `aria-label` é preenchido a partir do valor do símbolo de localização do botão. Quando um botão é desativado, a variável `aria-disabled` é definido de acordo.
 
-A exibição principal tem a função `application`. Uma breve descrição da exibição principal é fornecida em `aria-roledescription`, com o valor definido pelo símbolo de localização `ROLE_DESCRIPTION` do componente de exibição principal correspondente. As dicas de navegação para usuários de teclado são fornecidas usando `aria-describedby`, o texto para a dica de uso vem do símbolo de localização `USAGE_HINT`. Se um ativo tiver um rótulo definido no campo UserData , o atributo `aria-label` será definido com o valor desse rótulo.
+A exibição principal tem função `application`. Uma breve descrição da exibição principal é fornecida em `aria-roledescription`, com o valor definido pela variável `ROLE_DESCRIPTION` símbolo de localização do componente de exibição principal correspondente. Dicas de navegação para usuários de teclado são fornecidas usando `aria-describedby`, o texto da dica de uso vem da variável `USAGE_HINT` símbolo de localização. Se um ativo tiver um rótulo definido no campo UserData , a variável `aria-label` é definido com o valor desse rótulo.
 
-Os pontos ativos, as regiões e os mapas de imagem têm a função `button` e o texto descritivo definido com o atributo `aria-label`, com o valor do ponto ativo ou rótulo do mapa de imagem. Quando o usuário coloca um foco em pontos ativos ou mapas de imagem, as dicas de navegação para usuários de teclado são fornecidas usando `aria-describedby`, com o texto para a dica de uso proveniente do símbolo de localização `USAGE_HINT`.
+Pontos críticos, regiões e mapas de imagens têm o papel `button` e texto descritivo definido com `aria-label` , com o valor do ponto ativo ou rótulo do mapa de imagem. Quando o usuário coloca um foco em pontos ativos ou mapas de imagem, as dicas de navegação para usuários de teclado são fornecidas usando `aria-describedby`, com o texto da dica de uso proveniente do `USAGE_HINT` símbolo de localização.
 
-As miniaturas têm a função `dialog` com o atributo `aria-label` controlado pelo símbolo de localização `ThumbnailGridView.LABEL`. As miniaturas individuais têm a função `button`. Se uma miniatura for selecionada, ela obterá o atributo `aria-selected` definido como `true`.
+As miniaturas têm a função `dialog` com `aria-label` do atributo controlado pela `ThumbnailGridView.LABEL` símbolo de localização. As miniaturas individuais têm função `button`. Se uma miniatura for selecionada, ela receberá `aria-selected` conjunto de atributos para `true`.
 
-Os componentes que exibem amostras têm a função `listbox` com o atributo `aria-label` definido com o valor do símbolo de localização `LABEL` desse componente. Amostras individuais têm a função `option` com atributos `aria-setsize` e `aria-posinset` para descrever a posição da amostra no conjunto. Se uma amostra for selecionada, ele obterá o atributo `aria-selected` definido como `true`.
+Os componentes que exibem amostras têm a função `listbox` com `aria-label` conjunto de atributos para o valor da variável `LABEL` símbolo de localização desse componente. Amostras individuais têm a função `option` com `aria-setsize` e `aria-posinset` atributos para descrever a posição da amostra no conjunto. Se uma amostra for selecionada, ela receberá a variável `aria-selected` conjunto de atributos para `true`.
 
-As listas suspensas são ativadas por botões com o atributo `aria-haspopup` adicional definido como `true` e o atributo `aria-controls` referenciando o elemento real do painel suspenso. O próprio painel suspenso tem a função `menu` com subelementos com a função `menuitem`. Cada item de menu tem o atributo `aria-label` especificado.
+As listas suspensas são ativadas por botões com outros `aria-haspopup` conjunto de atributos para `true` e `aria-controls` que faz referência ao elemento real do painel suspenso. O próprio painel suspenso tem a função `menu` com subelementos que têm a função `menuitem`. Cada item de menu tem a variável `aria-label` atributo especificado.
 
-As caixas de diálogo modais têm a função `dialog`. O elemento de cabeçalho da caixa de diálogo é referenciado pelo atributo `aria-labelledby`.
+As caixas de diálogo modais têm a função `dialog`. O elemento de cabeçalho da caixa de diálogo é referenciado pela variável `aria-labelledby` atributo.
