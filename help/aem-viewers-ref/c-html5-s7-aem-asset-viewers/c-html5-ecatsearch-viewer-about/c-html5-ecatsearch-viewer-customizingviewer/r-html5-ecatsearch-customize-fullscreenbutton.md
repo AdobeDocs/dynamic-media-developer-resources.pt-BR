@@ -1,13 +1,13 @@
 ---
+title: Botão de tela cheia
 description: Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão aparece na barra de controle principal. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa. É possível dimensionar, usar a capa e posicionar o botão por CSS.
 solution: Experience Manager
-title: Botão de tela cheia
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de tela cheia com 28 x 28 pixels, posicionado 4 pixels da parte inferior e 5 pixels da borda direita da barra de controle principal, e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Exemplo - Para configurar um botão de tela cheia com 28 x 28 pixels e posicionado 4 pixels da parte inferior e 5 pixels da borda direita da barra de controle principal. E, por fim, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

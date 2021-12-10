@@ -1,13 +1,13 @@
 ---
+title: Painel de resultados da pesquisa
 description: O painel de resultados da pesquisa consiste na caixa de entrada da pesquisa na parte superior e na área principal onde as mensagens informativas ou os resultados da pesquisa são exibidos.
 solution: Experience Manager
-title: Painel de resultados da pesquisa
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ Quando o painel está ativo, a interface do usuário do visualizador é coberta 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
    <td colname="col2"> <p>Opacidade da cor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O painel de resultados da pesquisa sempre ocupa toda a altura disponível do visualizador. No entanto, é possível configurar a largura. É possível definir a largura como um valor absoluto de pixel, que é uma configuração padrão para pontos de interrupção de tamanho médio e grande. Ou você pode definir a largura como 100% para fazer com que o painel de resultados de pesquisa ocupe toda a área do visualizador. A largura do painel é controlada pelo seguinte seletor de classe CSS:
+O painel de resultados da pesquisa sempre ocupa toda a altura disponível do visualizador. No entanto, é possível configurar a largura. É possível definir a largura como um valor absoluto de pixel, que é uma configuração padrão para pontos de interrupção de médio e grande porte. Ou você pode definir a largura como 100% para fazer com que o painel de resultados de pesquisa ocupe toda a área do visualizador. A largura do painel é controlada pelo seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -62,7 +62,7 @@ O painel de resultados da pesquisa sempre ocupa toda a altura disponível do vis
  </tbody> 
 </table>
 
-Exemplo - para configurar um painel de resultados de pesquisa com largura de 250 pixels em pontos de interrupção de tamanho grande e médio e usar um painel de tamanho completo em um ponto de interrupção de tamanho pequeno:
+Exemplo - para configurar um painel de resultados de pesquisa de 250 pixels em pontos de interrupção de tamanho grande e médio e usar um painel de tamanho completo em um ponto de interrupção de tamanho pequeno:
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -84,7 +84,7 @@ A parte superior do painel de resultados da pesquisa é dedicada à caixa de ent
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento em torno da caixa de entrada. </p> </td> 
   </tr> 
  </tbody> 
@@ -101,23 +101,23 @@ O campo de entrada de pesquisa é controlado pelo seguinte seletor de classe CSS
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do campo de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento à esquerda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento à esquerda </span> </p> </td> 
    <td colname="col2"> <p> O preenchimento interno entre os limites do campo de entrada e o texto de entrada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Borda do campo de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
    <td colname="col2"> <p>Margem do campo de entrada de pesquisa </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -144,33 +144,33 @@ O botão de pesquisa à esquerda do campo de entrada de pesquisa no formulário 
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>O URL para a imagem do ícone de "vidro de aparência". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho do plano de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho do plano de fundo </span> </p> </td> 
    <td colname="col2"> <p>O tamanho do ícone de "vidro de aparência". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Borda do botão de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
    <td colname="col2"> <p>Margem do botão de entrada de pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um botão de pesquisa com ícone de &quot;vidro de aparência&quot; de 26 x 26 pixels; 30 pixels de tamanho com uma borda de 1 pixel:
+Exemplo - Para configurar um botão de pesquisa com ícone de &quot;vidro de aparência&quot; de 26 x 26 pixels; 30 pixels de tamanho com uma borda de 1 pixel:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ Exemplo - para configurar um botão de pesquisa com ícone de &quot;vidro de apa
 }
 ```
 
-O painel de resultados da pesquisa pode exibir um prompt textual quando o recurso é chamado pela primeira vez. Também mostra ao usuário uma mensagem quando a pesquisa não retornou nenhum resultado. Em todos os casos, o texto aparece na parte principal do painel de resultados da pesquisa e é controlado pelo seguinte seletor de classe CSS:
+O painel de resultados da pesquisa pode exibir um prompt textual quando o recurso é chamado pela primeira vez. E também mostra uma mensagem quando a pesquisa de um usuário não retornou nenhum resultado. Em todos os casos, o texto aparece na parte principal do painel de resultados da pesquisa e é controlado pelo seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -194,19 +194,19 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
 <table id="table_1DF5A12A21584FCC8C25F170078FEFE6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alinhamento de fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinhamento de fonte </span> </p> </td> 
    <td colname="col2"> <p>Alinhamento horizontal do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho do texto da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,11 +214,11 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
 
 >[!NOTE]
 >
->Esse painel de texto oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Em particular, `state='prompt'` corresponde ao prompt de texto mostrado quando o painel é chamado pela primeira vez; `state='results'` corresponde ao texto com informações sobre ocorrências de pesquisa; e `state='no_results'` corresponde ao texto mostrado quando a consulta de pesquisa não retornou nenhum resultado.
+>Esse painel de texto é compatível com o `state` seletor de atributos, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Em especial, `state='prompt'` corresponde ao prompt de texto exibido quando o painel é chamado pela primeira vez. O `state='results'` corresponde ao texto com informações sobre ocorrências de pesquisa. E finalmente, o `state='no_results'` corresponde ao texto mostrado quando a consulta de pesquisa não retornou nenhum resultado.
 
 O texto da mensagem pode ser localizado. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um painel de texto que use uma fonte cinza de 18 pixels:
+Exemplo - Para configurar um painel de texto que use uma fonte cinza de 18 pixels:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo { 
@@ -238,13 +238,13 @@ Os resultados da pesquisa são renderizados como uma única coluna ou linha de m
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem vertical em torno de cada miniatura. O espaçamento real da miniatura é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem vertical em torno de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um espaçamento de 10 pixels:
+Exemplo - Para configurar um espaçamento de dez pixels:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -263,21 +263,21 @@ A aparência de miniaturas individuais é controlada com o seguinte seletor de c
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar miniaturas com 215 x 129 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada:
+Exemplo - Para configurar miniaturas com 215 x 129 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -298,21 +298,21 @@ A aparência do rótulo de miniatura é controlada com o seguinte seletor de cla
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar rótulos que usam fonte Helvetica, cinza e 12 pixels:
+Exemplo - Para configurar rótulos que usam fontes Helvetica® de 12 pixels, cinza:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -336,19 +336,19 @@ Não é possível posicionar botões de rolagem usando propriedades CSS superior
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,11 +356,11 @@ Não é possível posicionar botões de rolagem usando propriedades CSS superior
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes aos estados dos botões `"up"`, `"down"`, `"over"` e `"disabled"`.
+>Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar diferentes capas a `"up"`, `"down"`, `"over"`e `"disabled"` estados do botão.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar um botão de rolagem para cima que tenha 125 x 35 pixels e uma arte-final diferente para cada estado:
+Exemplo - Para configurar um botão de rolagem que tenha 125 x 35 pixels e tenha uma arte-final diferente para cada estado:
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

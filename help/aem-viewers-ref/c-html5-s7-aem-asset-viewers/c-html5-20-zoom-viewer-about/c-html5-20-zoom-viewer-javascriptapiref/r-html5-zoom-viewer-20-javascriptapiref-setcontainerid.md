@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: Referência da API do JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 87f01c5f-0d2a-46d6-8026-e75e879532df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Referência da API do JavaScript para o Visualizador de vídeo.
 
 Define a ID do contêiner DOM (normalmente um DIV) no qual o visualizador é inserido. Não é necessário ter o elemento container criado pelo momento em que esse método é chamado. No entanto, o contêiner deve existir quando `init()` é executado. Ele deve ser chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` objeto JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador tiverem sido passadas com `config` Objeto JSON para construtor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}  </span> ID do contêiner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID do contêiner. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: Zoom
 description: Visualizador de zoom é um visualizador de imagem que exibe uma imagem com zoom. Esse visualizador funciona com conjuntos de imagens e a navegação é feita usando amostras. Ele tem ferramentas de zoom, suporte de tela cheia, amostras e um botão de fechamento opcional. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsivo
 solution: Experience Manager
-title: Zoom
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ O Visualizador de zoom é compatível com os seguintes gestos de toque, comuns e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toque ou cintilação horizontal </p> </td> 
-   <td colname="col2"> <p> Percorre a lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado de redefinição e a variável <span class="codeph"> transição de estrutura </span> for definido como slide, o ativo será alterado com a animação de slide. Para outros <span class="codeph"> transição de estrutura </span> Os modos do gesto executam a rolagem de página nativa. </p> <p> Se a imagem estiver ampliada, ela move a imagem na horizontal. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem da página nativa. </p> </td> 
+   <td colname="col2"> <p> Percorre a lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado de redefinição e a variável <span class="codeph"> transição de estrutura </span> for definido como slide, o ativo será alterado com a animação de slide. Para outros <span class="codeph"> transição de estrutura </span> , o gesto executa a rolagem de página nativa. </p> <p> Se a imagem estiver ampliada, ela move a imagem na horizontal. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem da página nativa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passagem vertical </p> </td> 
@@ -114,7 +114,7 @@ A incorporação de tamanho fixo é usada quando o visualizador não altera seu 
 
 O modo de incorporação de design responsivo assume que o redimensionamento do visualizador é necessário durante o tempo de execução devido à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa lógica garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa lógica garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap e Foundation.
 
 Se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preenche essa área e segue o tamanho fornecido pela página da Web. Por exemplo, incorporar o visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
@@ -143,7 +143,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Você só deve fazer referência ao JavaScript do visualizador principal `include` na sua página. Você não deve fazer referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -164,7 +164,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens, em sistemas de desktop as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal em tempo de execução usando `setAsset()` API. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior, quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou, você pode manter o tamanho da exibição principal estático e recolher a área do visualizador externo, permitindo que o conteúdo da página da Web se mova para cima e usar o espaço real de tela livre remanescente das miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para a variável `.s7zoomviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página HTML ou em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando style.
+   Para manter os limites do visualizador externo intactos, defina o tamanho para a variável `.s7zoomviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na HTML page. Ou pode ser colocado em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando style.
 
    Consulte [Personalização do Visualizador de Zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
 
@@ -196,7 +196,7 @@ O caminho relativo tem a seguinte aparência:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   É possível definir a variável `stagesize` modificador no registro da predefinição do visualizador no Dynamic Media Classic, ou você pode passá-lo explicitamente com o código de inicialização do visualizador com o `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos desta Ajuda, como em:
+   É possível definir a variável `stagesize` modificador no registro predefinido do visualizador no Dynamic Media Classic. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com o `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos desta Ajuda, como em:
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ O caminho relativo tem a seguinte aparência:
 
    É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento do contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . Este exemplo supõe `zoomViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado DIV, `http://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Scene7SharedAssets/ImageSet-Views-Sample` é o ativo.
 
@@ -320,7 +320,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 ## Incorporação de tamanho flexível com largura e altura definidas {#section-3674e6c032594441a6576b7fb1de6e64}
 
-No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ele fornece ambos os tamanhos para a variável `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
+Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para a variável `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
 
 ```
 <!DOCTYPE html> 

@@ -1,13 +1,13 @@
 ---
+title: Destaque da focagem
 description: Destaque do foco de entrada exibido ao redor do elemento da interface do usuário do visualizador focado.
 solution: Experience Manager
-title: Destaque da focagem
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ A aparência do realce de foco é controlada com o seguinte seletor de classe CS
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> outline  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> outline </span> </p> </td> 
    <td colname="col2"> <p> Estilo do destaque de foco. </p> </td> 
   </tr> 
  </tbody> 

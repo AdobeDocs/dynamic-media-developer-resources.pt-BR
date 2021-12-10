@@ -1,13 +1,13 @@
 ---
+title: Barra de controle principal
 description: A barra de controle principal é a área retangular em sistemas de desktop e tablets que contêm todos os controles da interface do usuário (exceto botões Página grande) disponíveis para o visualizador de Pesquisa de catálogo eletrônico.
 solution: Experience Manager
-title: Barra de controle principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A barra de controle principal é a área retangular em sistemas de desktop e tablets que contêm todos os controles da interface do usuário (exceto botões Página grande) disponíveis para o visualizador de Pesquisa de catálogo eletrônico.
 
-Em telefones celulares, ainda mantém miniaturas, Índice, Download, Imprimir, Favoritos, Compartilhamento em redes sociais, Tela cheia e Fechar botões. No entanto, os botões Primeira e Última página e Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas de desktop e telefones celulares e movida para a parte inferior da área do visualizador em tablets. Ele sempre utiliza a largura total do visualizador disponível. É possível alterar a cor, a altura e a posição vertical no CSS, em relação ao contêiner do visualizador.
+Em telefones celulares, ainda mantém miniaturas, Índice, Download, Imprimir, Favoritos, Compartilhamento em redes sociais, Tela cheia e Fechar botões. No entanto, os botões Primeira e Última página e Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas de desktop e telefones celulares e movida para a parte inferior da área do visualizador em tablets. Ele sempre utiliza toda a largura disponível do visualizador. É possível alterar a cor, a altura e a posição vertical no CSS, em relação ao contêiner do visualizador.
 
 A aparência da barra de controle principal é controlada com o seguinte seletor de classe CSS:
 
@@ -31,25 +31,25 @@ A aparência da barra de controle principal é controlada com o seguinte seletor
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Posição na parte superior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Posicione a partir da parte inferior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura da barra de controle principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor de plano de fundo da barra de controle principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo**  - para configurar uma barra de controle principal cinza com 36 pixels de altura e que esteja posicionada na parte superior do contêiner do visualizador.
+**Exemplo** - para configurar uma barra de controle principal cinza com 36 pixels de altura e posicionada na parte superior do contêiner do visualizador.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -59,7 +59,7 @@ A aparência da barra de controle principal é controlada com o seguinte seletor
 }
 ```
 
-A barra de controle principal suporta um recurso de rolagem opcional. Ela será ativada se a largura do visualizador for muito pequena e não houver espaço suficiente para ajustar todos os botões predefinidos na barra de controle. Nesse caso, um botão de seta de dois estados é exibido no lado direito da barra de controle. Clicar ou tocar nesse botão rola todos os elementos da barra de controle para a esquerda ou para a direita, dependendo do estado do botão de rolagem. Os principais casos de uso desse recurso são dispositivos móveis com telas pequenas na orientação retrato.
+A barra de controle principal suporta um recurso de rolagem opcional. Ela será ativada se a largura do visualizador for muito pequena e não houver espaço suficiente para ajustar todos os botões predefinidos na barra de controle. Nesse caso, um botão de seta de dois estados é exibido no lado direito da barra de controle. Clicar ou tocar nesse botão rola todos os elementos da barra de controle para a esquerda ou para a direita, dependendo do estado do botão de rolagem. O principal caso de uso desse recurso são dispositivos móveis com telas pequenas na orientação retrato.
 
 O recurso de rolagem é ativado para a barra de controle principal e está desativado para a barra de controle secundária. O recurso é ativado e desativado usando o seguinte seletor de classe CSS:
 
@@ -75,12 +75,12 @@ O recurso de rolagem é ativado para a barra de controle principal e está desat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Quando definido como <span class="codeph"> estático </span>, o recurso de rolagem é desativado. </p> <p>Defina essa propriedade como <span class="codeph"> absoluto </span> para ativar o recurso de rolagem. </p> </td> 
+   <td colname="col2"> <p>Quando definido como <span class="codeph"> estático </span> o recurso de rolagem está desativado. </p> <p>Defina essa propriedade como <span class="codeph"> absoluto </span> para ativar o recurso de rolagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O botão de rolagem é adicionado a um elemento de contêiner especial que posiciona o botão corretamente e permite estilizar a área ao redor do botão de forma diferente do restante do plano de fundo da barra de controle, caso a altura do botão de rolagem seja menor que a altura da barra de controle.
+O botão de rolagem é adicionado a um elemento de contêiner especial que posiciona o botão corretamente. Ele permite estilizar a área em torno do botão de forma diferente do restante do plano de fundo da barra de controle, caso a altura do botão de rolagem seja menor que a altura da barra de controle.
 
 A aparência desse contêiner do botão de rolagem é controlada com o seguinte seletor de classe CSS:
 
@@ -99,7 +99,7 @@ A aparência desse contêiner do botão de rolagem é controlada com o seguinte 
    <td colname="col2"> <p>Normalmente deve ser igual ou maior que a largura do próprio botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo do contêiner. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,19 +120,19 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
    <td colname="col2"> <p>Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,11 +140,11 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão suporta os seletores de atributos `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em particular, `state="selected"` corresponde ao estado inicial do botão de rolagem quando é possível rolar o conteúdo da barra de controle para a esquerda; `state="default"` corresponde ao estado em que o conteúdo é rolado até a esquerda e o botão de rolagem sugere retorná-lo ao estado inicial.
+>Esse botão suporta `state` e `selected` seletores de atributos, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `state="selected"` corresponde ao estado inicial do botão de rolagem quando é possível rolar o conteúdo da barra de controle para a esquerda. O `state="default"` corresponde ao estado em que o conteúdo é rolado até a esquerda e o botão de rolagem sugere retorná-lo ao estado inicial.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-**Exemplo**  - para ativar o recurso de rolagem na barra de controle principal de telefones celulares e configurar um botão de rolagem com 64 x 64 pixels que exibe uma imagem diferente para cada um dos 4 estados de botão diferentes quando selecionado ou não selecionado:
+**Exemplo** - Para ativar o recurso de rolagem na barra de controle principal para telefones celulares. E, configure um botão de rolagem que tenha 64 x 64 pixels e exiba uma imagem diferente para cada um dos 4 estados de botão diferentes quando selecionado ou não selecionado:
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 
