@@ -1,20 +1,20 @@
 ---
 title: Visualizador panorâmico
-description: HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos.  Ele foi projetado para funcionar em desktops e dispositivos móveis.  O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
+description: HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
 keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panorâmica{#panoramic}
 
-HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos.  Ele foi projetado para funcionar em desktops e dispositivos móveis.  O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
+HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Tipo de visualizador 514.
 
 ## Uso do Visualizador panorâmico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Visualizador panorâmico representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão JavaScript com todos os componentes do SDK do visualizador HTML5 usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
+HTML5 Panorâmica Viewer representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. O conjunto de arquivos auxiliares é uma única inclusão do JavaScript com todos os componentes do SDK do visualizador do HTML5 usados por esse visualizador, ativos, CSS específico.
 HTML5 O Visualizador panorâmico pode ser usado no modo pop-up usando a página HTML pronta para produção fornecida com os IS-Viewers ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 A configuração e o esfolamento são semelhantes aos dos outros visualizadores do HTML5. Toda a definição de skins pode ser alcançada por meio de CSS personalizado.
 
@@ -58,17 +58,17 @@ HTML5 O Visualizador panorâmico é compatível com o deslocamento automático e
 </table>
 
 O visualizador aceita entrada de toque e entrada de mouse em dispositivos Windows com tela sensível ao toque e mouse. No entanto, esse suporte é limitado somente aos navegadores da Web Chrome, Internet Explorer 11 e Edge.
-O Visualizador panorâmico tem a capacidade de renderizar imagens panorâmicas no modo de Realidade Virtual (VR) especificando o modificador de renderização.  Quando a renderização estiver ativada, uma imagem panorâmica será exibida em telas divididas.  Um caso de uso comum seria servir a imagem em um celular montado em um fone de ouvido de realidade virtual, fornecendo imagens separadas para cada olho.  O visualizador responderá ao movimento giroscópico da cabeça e navegará pela imagem.
+O Visualizador panorâmico pode renderizar imagens panorâmicas no modo de Realidade Virtual (VR) especificando o modificador de renderização. Quando a renderização está ativada, uma imagem panorâmica é exibida em telas divididas. Um caso de uso comum seria servir a imagem em um celular montado em um fone de ouvido de realidade virtual, fornecendo imagens separadas para cada olho. O visualizador responde ao movimento giroscópico da cabeça e navega pela imagem.
 
 ## Incorporando o Visualizador Panorâmico do HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornecerá um link e, ao clicar nesse link, o visualizador será aberto em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o visualizador diretamente na página de hospedagem. Neste último caso, a página da Web pode ter layout estático ou ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva.
+Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link. Selecionar esse link abre o visualizador em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o visualizador na página de hospedagem. No último caso, a página da Web pode ter layout estático ou ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva.
 
 **Sobre o modo pop-up**
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Pega toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada window.open() do JavaScript, um elemento HTML corretamente configurado ou qualquer outra maneira adequada.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, um elemento HTML corretamente configurado ou qualquer outra maneira adequada.
 
 É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. É chamado de [!DNL PanoramicViewer.html] e está localizado sob a [!DNL html5/] subpasta da sua implantação padrão do IS-Viewers:
 
@@ -88,14 +88,13 @@ No modo incorporado, o visualizador é adicionado à página da Web existente, q
 
 Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, e também páginas da Web responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
 
-A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa é a melhor opção para páginas da Web com layout estático.
+A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Esse método é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva supõe que o visualizador talvez precise ser redimensionado em tempo de execução em resposta à alteração de tamanho do DIV do contêiner. O caso de uso mais comum é adicionar visualizador a uma página da Web que use um layout flexível.
+A incorporação responsiva supõe que o visualizador deve redimensionar no tempo de execução em resposta à alteração de tamanho do DIV do contêiner. O caso de uso mais comum é adicionar visualizador a uma página da Web que use um layout flexível.
 
-No modo responsivo, o visualizador se comportará de forma diferente dependendo da maneira como a página da Web dimensiona o DIV do contêiner. Se a página da Web definir apenas a largura do DIV do contêiner, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo que está sendo usado; isso garantirá que o ativo esteja perfeitamente encaixado na exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas como Bootstrap, Foundation e assim por diante.
+No modo responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona o DIV do contêiner. Se a página da Web definir apenas a largura do DIV do contêiner, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Esse método garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas como Bootstrap, Foundation e assim por diante.
 
-Caso contrário, se a página da Web definir a largura e a altura do DIV do contêiner do visualizador, o visualizador apenas preencherá essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo pode ser a incorporação do visualizador em uma sobreposição modal, na qual a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
-
+Caso contrário, se a página da Web definir a largura e a altura do DIV do contêiner do visualizador, o visualizador preencherá essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
@@ -159,8 +158,7 @@ O caminho relativo é semelhante ao seguinte:
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   A abordagem baseada em CSS é recomendada e será usada neste exemplo.
-
+   A abordagem baseada em CSS é recomendada e é usada neste exemplo.
 
 1. Criação e inicialização do visualizador.
 
@@ -233,7 +231,7 @@ Com a incorporação responsiva, a página da Web normalmente tem algum tipo de 
 </html> 
 ```
 
-Adicionar o visualizador a essa página é muito semelhante à incorporação de tamanho fixo, com a única diferença de que você não precisa definir explicitamente o tamanho do visualizador:
+Adicionar o visualizador a essa página é semelhante à incorporação de tamanho fixo, com a única diferença de que você não precisa definir explicitamente o tamanho do visualizador:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definição do DIV do contêiner.

@@ -1,20 +1,20 @@
 ---
-description: A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
-solution: Experience Manager
 title: Visualização de zoom de menu suspenso
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+description: A exibição principal consiste na imagem estática e na imagem com zoom mostrada na exibição de flyout. Também consiste na área de navegação de destaque exibida sobre a imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Visualização de zoom de menu suspenso{#flyout-zoom-view}
 
-A exibição principal consiste na imagem estática, na imagem com zoom mostrada na exibição do flyout, na área de navegação do destaque exibida sobre a imagem estática e na mensagem de dica mostrada sobre a imagem estática.
+A exibição principal consiste na imagem estática e na imagem com zoom mostrada na exibição de flyout. Também consiste na área de navegação de destaque exibida sobre a imagem estática e na mensagem de dica mostrada na parte superior da imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ A aparência da exibição principal é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor de plano de fundo da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,11 +68,11 @@ A aparência da exibição do flyout é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> A posição horizontal da exibição do flyout, em relação ao canto superior esquerdo da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> A posição vertical da exibição do flyout, em relação ao canto superior esquerdo da exibição principal. </p> </td> 
   </tr> 
   <tr> 
@@ -80,11 +80,11 @@ A aparência da exibição do flyout é controlada com o seguinte seletor de cla
    <td colname="col2"> <p> A largura da exibição do flyout. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura da exibição do flyout. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>A borda da exibição do flyout. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,15 +120,15 @@ A aparência do realce na exibição principal é controlada com o seguinte sele
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do destaque. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
-   <td colname="col2"> <p> Realce a opacidade. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
+   <td colname="col2"> <p> Realce a opacidade. </p> <p>No Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-..) ); </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
    <td colname="col2"> <p>O realce da borda. </p> </td> 
   </tr> 
  </tbody> 
@@ -147,7 +147,7 @@ Exemplo - para configurar um realce verde com transparência de 40% e uma borda 
 
 **Propriedades CSS do cursor**
 
-Quando o parâmetro `highlightmode` é definido como `cursor`, os realces estão na exibição principal e são substituídos por uma arte-final de cursor de tamanho fixo, que é controlada pelo seletor de classe CSS:
+When `highlightmode` é definido como `cursor`, os realces estão na exibição principal e são substituídos por uma arte-final de cursor de tamanho fixo, que é controlada pelo seletor de classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ As propriedades CSS aplicáveis incluem:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Arte do cursor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do cursor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ As propriedades CSS aplicáveis incluem:
 
 >[!NOTE]
 >
->O cursor suporta o seletor de atributo `input`, que pode ser usado para aplicar arte-final de cursor e tamanho diferentes para dispositivos diferentes. Especificamente, `input="mouse"` corresponde aos sistemas de desktop e `input="touch"` corresponde aos dispositivos de toque.
+>O cursor é compatível com o `input` seletor de atributos, que pode ser usado para aplicar arte-final de cursor e tamanho diferentes para dispositivos diferentes. Em especial, `input="mouse"` corresponde aos sistemas de desktop e `input="touch"` corresponde aos dispositivos de toque.
 
 **Propriedades CSS da sobreposição**
 
-Quando o parâmetro `overlay` é definido como `1`, a área em torno do quadro de realce ou da imagem do cursor é controlada com o seletor de classe CSS:
+Quando a variável `overlay` é definido como `1`, a área em torno do quadro de realce ou da imagem do cursor é controlada com o seletor de classe CSS:
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ Quando o parâmetro `overlay` é definido como `1`, a área em torno do quadro d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
    <td colname="col2"> <p>Opacidade de sobreposição. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para substituí-lo por meio de CSS usando propriedades `left` ou `right`.
+É possível configurar o estilo, o tamanho, a aparência e o deslocamento vertical da fonte por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Substituição por CSS usando `left` ou `right` não há suporte para propriedades do .
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,43 +232,43 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Deslocamento na parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento em torno do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do plano de fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacidade  </span> </p> </td> 
-   <td colname="col2"> <p>Opacidade do texto da mensagem em segundo plano. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
+   <td colname="col2"> <p>Opacidade do texto da mensagem em segundo plano. </p> <p>No Internet Explorer 8, use <span class="codeph"> filtro:alpha(opacity-..) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 A mensagem de dica pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 
-Exemplo - para configurar uma mensagem de ponta semitransparente com fonte branca Arial 12px, 50 pixels deslocados da parte inferior da exibição principal, preenchimento e uma borda arredondada:
+Exemplo - para configurar uma mensagem de ponta semitransparente com fonte branca Arial® de 12 px, 50 pixels deslocados da parte inferior da exibição principal, preenchimento e uma borda arredondada:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

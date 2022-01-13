@@ -1,13 +1,13 @@
 ---
+title: Referência de comando - Atributos de configuração
 description: Documentação de atributos de configuração para o Flyout Viewer
 solution: Experience Manager
-title: Referência de comando - Atributos de configuração
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 2ac199ce-5dd5-4d2f-80c2-9bc370500cc4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Documentação de atributos de configuração para o Flyout Viewer
 
-Você pode definir qualquer comando de configuração no URL. Ou você pode usar `setParam()`, `setParams()` ou ambos os métodos de API. Você também pode especificar qualquer atributo de configuração no registro de configuração do lado do servidor.
+Você pode definir qualquer comando de configuração no URL. Ou, você pode usar `setParam()`, `setParams()`ou ambos os métodos da API. Você também pode especificar qualquer atributo de configuração no registro de configuração do lado do servidor.
 
-Alguns comandos de configuração recebem o prefixo com o nome da classe ou o nome da instância do componente SDK do Visualizador correspondente. Um nome de instância do componente é dinâmico e depende da ID do elemento DOM do contêiner do visualizador passado para o método de API `setContainerId()` . A documentação inclui um prefixo opcional para esses comandos. Por exemplo, o comando `zoomfactor` é documentado da seguinte maneira:
+Alguns comandos de configuração recebem o prefixo com o nome da classe ou o nome da instância do componente SDK do Visualizador correspondente. Um nome de instância do componente é dinâmico e depende da ID do elemento DOM do contêiner do visualizador passado para `setContainerId()` Método da API. A documentação inclui um prefixo opcional para esses comandos. Por exemplo, a variável `zoomfactor` O comando é documentado da seguinte maneira:
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 
@@ -26,6 +26,6 @@ O comando é usado da seguinte maneira:
 
 * `zoomfactor` (sintaxe curta)
 * `FlyoutZoomView.zoomfactor` (qualificado com um nome de classe de componente)
-* `cont_flyout.zoomfactor` (qualificado com a ID do componente, supondo que  `cont` seja a ID do elemento do contêiner)
+* `cont_flyout.zoomfactor` (qualificado com a ID do componente, supondo que `cont` é a ID do elemento do contêiner)
 
-Consulte também [Referência de comando comum para todos os visualizadores - Atributos de configuração](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
+Consulte também [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

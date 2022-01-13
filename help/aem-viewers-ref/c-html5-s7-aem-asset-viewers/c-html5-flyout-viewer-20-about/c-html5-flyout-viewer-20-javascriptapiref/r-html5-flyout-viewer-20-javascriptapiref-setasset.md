@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Referência da API do JavaScript para o Flyout Viewer.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: cd66267e-7b25-4af4-b83c-f7b7f768ea8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Referência da API do JavaScript para o Flyout Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, conjunto de imagens explícito ou conjunto de imagens explícito com modificadores de Exibição de imagem específicos de quadro, com modificadores de Exibição de imagem globais opcionais anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, conjunto de imagens explícito ou conjunto de imagens explícito com modificadores de Exibição de imagem específicos de quadro, com modificadores opcionais globais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ Referência única a um conjunto de imagens definido em um catálogo:
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Conjunto de imagens explícito:
+Imagem explícita definida da seguinte maneira:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")

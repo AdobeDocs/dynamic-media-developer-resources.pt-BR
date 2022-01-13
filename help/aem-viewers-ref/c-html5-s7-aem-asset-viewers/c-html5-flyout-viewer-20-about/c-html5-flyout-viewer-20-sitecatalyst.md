@@ -1,13 +1,13 @@
 ---
+title: Suporte para rastreamento do Adobe Analytics
 description: O Flyout Viewer é compatível com o rastreamento Adobe Analytics pronto para uso.
 solution: Experience Manager
-title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 6b6216f4-34dc-496f-a0c3-e97d48da14c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ O Flyout Viewer é compatível com o rastreamento Adobe Analytics pronto para us
 
 ## Rastreamento pronto para uso {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-O Flyout Viewer suporta [!DNL Adobe Analytics] rastreamento pronto para uso. Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como parâmetro `config2`.
+O Flyout Viewer é compatível com [!DNL Adobe Analytics] rastreamento pronto para uso. Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
@@ -59,23 +59,23 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOM  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p>o flyout é ativado ou o nível de zoom é alterado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p> uma imagem é ativada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWATCH  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
    <td colname="col2"> <p> uma imagem é alterada ao clicar ou tocar em uma amostra. </p> </td> 
   </tr> 
  </tbody> 

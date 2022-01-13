@@ -1,13 +1,13 @@
 ---
+title: dispor
 description: Referência da API do JavaScript para o Flyout Viewer.
 solution: Experience Manager
-title: dispor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: bf38d481-d8cc-400c-9017-bcb3471f2a10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Dispõe essa instância do visualizador, liberando todos os recursos usados pela
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador, ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web. E essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
 
-Não acesse mais a API do visualizador depois que `dispose()` for chamado.
+Não acesse mais a API do visualizador depois de `dispose()` é chamado.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

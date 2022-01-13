@@ -1,41 +1,41 @@
 ---
+title: FlyoutZoomView.flyouttransition
 description: FlyoutZoomView.flyouttransition
 solution: Experience Manager
-title: FlyoutZoomView.flyouttransition
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *``*[, *``*[, *``*[, *`showtimeshowdelayhidetimehidedelay`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`horário`*[, *`oculto`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|desvanecer  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição do menu suspenso é mostrada ou oculta. Com <span class="codeph"> nenhum </span>, a imagem de flyout aparece instantaneamente quando ativada e pronta; <span class="codeph"> o slide </span> faz com que a animação de slides seja reproduzida na direção esquerda para a direita; <span class="codeph"> o esmaecimento </span> aplica uma transição alfa à imagem do flyout. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|desvanecer </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição do menu suspenso é mostrada ou oculta. Com <span class="codeph"> nenhum </span>, a imagem flyout aparece instantaneamente quando ativada e pronta; <span class="codeph"> slide </span> faz com que a animação de slides seja reproduzida na direção esquerda para a direita; <span class="codeph"> desaparecer </span> aplica uma transição alfa à imagem do flyout. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
    <td colname="col2"> <p> Número de segundos que a animação de exibição leva para ser concluída. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
    <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação show e o início da própria animação show. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> horário  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> horário </span> </span> </p> </td> 
    <td colname="col2"> <p> Número de segundos que a animação de ocultação leva para ser concluída. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> oculto  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> oculto </span> </span> </p> </td> 
    <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação de ocultação e o início da própria animação de ocultação. </p> </td> 
   </tr> 
  </tbody> 

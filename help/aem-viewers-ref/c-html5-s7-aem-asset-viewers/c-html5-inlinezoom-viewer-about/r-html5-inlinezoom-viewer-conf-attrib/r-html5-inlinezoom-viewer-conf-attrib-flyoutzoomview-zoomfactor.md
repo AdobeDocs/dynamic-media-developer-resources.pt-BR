@@ -1,26 +1,26 @@
 ---
+title: FlyoutZoomView.zoomfactor
 description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
-title: FlyoutZoomView.zoomfactor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 2a9d4450-a1a0-471c-86bf-105d516b0bd7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
 # FlyoutZoomView.zoomfactor{#flyoutzoomview-zoomfactor}
 
-` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *``*[,[ *``*][, *`primaryFactorsecondaryFactorupscale`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]zoomfactor= *`primaryFactor`*[,[ *`secundárioFactor`*][, *`expansão`*]]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica a ampliação de imagem para a exibição do flyout, em relação à exibição principal. Deve ser um valor inteiro ou de ponto flutuante <span class="codeph"> 1.0</span> ou maior. </p> </td> 
+   <td colname="col2"> <p> Especifica a ampliação de imagem para a exibição do flyout, em relação à exibição principal. Deve ser um valor inteiro ou de ponto flutuante <span class="codeph"> 1,0</span> ou maior. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secundárioFactor</span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> expansão</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica como o componente trata imagens pequenas. </p> <p>Se definido como <span class="codeph"> 1</span> o componente atualiza a imagem principal de modo a ajustá-la à exibição principal. Além disso, ele atualiza a imagem de zoom para que ela preencha completamente a área da janela do flyout configurada. </p> <p>Se definido como <span class="codeph"> 0</span> imagens pequenas são exibidas na resolução original e são exibidas centradas na área de exibição principal e dentro da janela de flyout. Você pode configurar um espaço em branco extra ao redor da imagem com uma propriedade CSS de plano de fundo ou similar das classes CSS <span class="codeph"> s7flyoutzoomview</span> e <span class="codeph"> s7flyoutzoom</span> na janela de exibição principal e flyout, respectivamente. </p> </td> 
+   <td colname="col2"> <p>Especifica como o componente trata imagens pequenas. </p> <p>Se estiver definido como <span class="codeph"> 1</span> o componente dimensiona a imagem principal de forma que se ajuste à exibição principal. Além disso, ele atualiza a imagem de zoom para que ela preencha completamente a área da janela do flyout configurada. </p> <p>Se estiver definido como <span class="codeph"> 0</span>, imagens pequenas são exibidas na resolução original e são exibidas centralizadas na área de visualização principal e dentro da janela do flyout. Você pode configurar um espaço em branco extra ao redor da imagem com um plano de fundo ou uma propriedade CSS semelhante do <span class="codeph"> s7flyoutzoomview</span> e <span class="codeph"> s7flyoutzoom</span> Classes CSS na exibição principal e na janela de flyout, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

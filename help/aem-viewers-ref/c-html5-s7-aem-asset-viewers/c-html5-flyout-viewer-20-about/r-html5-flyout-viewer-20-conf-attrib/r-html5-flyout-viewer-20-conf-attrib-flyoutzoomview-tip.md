@@ -1,26 +1,26 @@
 ---
+title: FlyoutZoomView.tip
 description: FlyoutZoomView.tip
 solution: Experience Manager
-title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 122c6406-6fd7-4e45-bff2-11022a3f2cf7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`desaparecer`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o número de segundos em que o texto da dica é exibido antes de ser ocultado. Quando definida como <span class="codeph"> -1</span>, a mensagem será sempre exibida, mesmo que o usuário ative o flyout. </p> </td> 
+   <td colname="col2"> <p>Especifica o número de segundos em que o texto da dica é exibido antes de ser ocultado. Quando definido como <span class="codeph"> -1</span>, a mensagem é sempre exibida, mesmo se o usuário ativar o flyout. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> desaparecer</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica a duração de uma animação de esmaecimento que ocorre quando o texto aparece ou desaparece. Um valor <span class="codeph"> 0</span> significa que não há transição de esmaecimento. </p> </td> 
+   <td colname="col2"> <p>Especifica a duração de uma animação de esmaecimento que ocorre quando o texto aparece ou desaparece. Um valor de <span class="codeph"> 0</span> significa que não há transição de esmaecimento. </p> </td> 
   </tr> 
  </tbody> 
 </table>

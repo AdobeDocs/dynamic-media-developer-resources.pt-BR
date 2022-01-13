@@ -1,14 +1,14 @@
 ---
+title: Swatches.maxloadradius
 description: Swatches.maxloadradius
 solution: Experience Manager
-title: Swatches.maxloadradius
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom em linha
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 574cb37c-009a-43c7-ae55-8b26c0c096c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 1%
+source-wordcount: '50'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o comportamento de pré-carregamento do componente. Quando definido como <span class="codeph"> -1</span> todas as amostras serão carregadas simultaneamente quando o componente for inicializado ou o ativo for alterado. Quando definido como <span class="codeph"> 0</span>, apenas as amostras visíveis são carregadas. </p> <p><span class="codeph"> <span class="varname"> </span></span> pré-carregamento define quantas linhas/colunas invisíveis em torno da área visível serão pré-carregadas. </p> </td> 
+   <td colname="col2"> <p> Especifica o comportamento de pré-carregamento do componente. Quando definido como <span class="codeph"> -1</span> todas as amostras são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. Quando definido como <span class="codeph"> 0</span> somente amostras visíveis são carregadas. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> define quantas linhas/colunas invisíveis ao redor da área visível são pré-carregadas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

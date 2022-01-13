@@ -1,13 +1,13 @@
 ---
-description: A área de exibição principal é a área ocupada pela exibição de flyout e amostras.
+title: Main viewer area
+description: The main view area is the area occupied by the flyout view and swatches.
 solution: Experience Manager
-title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -39,17 +39,17 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A largura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p>A altura do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col2"> <p>The height of the viewer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Background color in hexadecimal format. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador de flyout com fundo branco ( `#FFFFFF`) e tornar seu tamanho 260 x 500 pixels.
+Exemplo - para configurar um visualizador de flyout com fundo branco ( `#FFFFFF`) e torne seu tamanho de 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 
