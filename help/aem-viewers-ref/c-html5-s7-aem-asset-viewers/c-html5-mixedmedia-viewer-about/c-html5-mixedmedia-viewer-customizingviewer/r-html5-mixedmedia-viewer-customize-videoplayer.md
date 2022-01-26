@@ -1,13 +1,13 @@
 ---
+title: Reprodutor de vídeo
 description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
 solution: Experience Manager
-title: Reprodutor de vídeo
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O seguinte seletor de classe CSS controla a aparência do reprodutor de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor de fundo do reprodutor de vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,29 +64,29 @@ As legendas são colocadas no contêiner interno no reprodutor de vídeo. A posi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>Espessura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - Para configurar o texto da legenda para ter 14 pixels de Arial cinza claro em um plano de fundo preto semitransparente:
+Exemplo - Para configurar o texto da legenda para ter 14 pixels de cor cinza claro Arial® em um plano de fundo preto semitransparente:
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -119,19 +119,19 @@ A aparência da animação de buffering é controlada com o seguinte seletor de 
    <td colname="col2"> <p> Largura do ícone de animação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p> Altura do ícone de animação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
    <td colname="col2"> <p> Ícone de animação margem esquerda, normalmente menos metade da largura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
    <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos a metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Arte do botão. </p> </td> 
   </tr> 
  </tbody> 

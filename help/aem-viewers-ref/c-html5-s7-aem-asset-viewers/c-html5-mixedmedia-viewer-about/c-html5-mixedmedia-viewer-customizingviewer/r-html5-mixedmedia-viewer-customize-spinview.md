@@ -1,13 +1,13 @@
 ---
+title: Exibição em rotação
 description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
 solution: Experience Manager
-title: Exibição em rotação
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da exibição de rotação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a exibição de rotação transparente.
+Exemplo - Para tornar a exibição de rotação transparente.
 
 ```
 .s7mixedmediaviewer .s7spinview { 

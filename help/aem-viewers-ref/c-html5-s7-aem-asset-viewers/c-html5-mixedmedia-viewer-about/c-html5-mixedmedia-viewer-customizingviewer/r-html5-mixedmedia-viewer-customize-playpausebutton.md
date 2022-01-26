@@ -1,26 +1,26 @@
 ---
-description: O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
-solution: Experience Manager
 title: Botão Reproduzir/Pausar
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+description: The play/pause button causes the video player to play or pause the video content when a user selects it.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Botão Reproduzir/Pausar{#play-pause-button}
+# Play/Pause button{#play-pause-button}
 
-O botão Reproduzir/pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário clicar nele.
+O botão Reproduzir/Pausar faz com que o reprodutor de vídeo reproduza ou pause o conteúdo do vídeo quando um usuário o selecionar.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 É possível dimensionar, usar a capa e posicionar o botão, em relação à barra de controle que o contém, por CSS.
 
-O seguinte seletor de classe CSS controla a aparência do botão:
+The following CSS class selector controls the appearance of the button:
 
 ```
 .s7mixedmediaviewer .s7playpausebutton
@@ -31,19 +31,19 @@ O seguinte seletor de classe CSS controla a aparência do botão:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position from the top border, including padding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col2"> <p>Position from the right border, including padding. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -51,31 +51,31 @@ O seguinte seletor de classe CSS controla a aparência do botão:
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
+   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>See <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta os seletores de atributos `state`, `selected` e `replay`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em particular, `selected='true'` corresponde ao estado &quot;reproduzir&quot; e `selected='false'` corresponde ao estado &quot;pausar&quot;;
+>Esse botão suporta `state`, `selected`e `replay` seletores de atributos, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado &quot;reproduzir&quot; e `selected='false'` corresponde ao estado &quot;pause&quot;;
 >
->`replay='true'` é definido quando o vídeo atinge o fim, e clicar no botão reinicia a reprodução a partir do início.
+>`replay='true'` Esse atributo é definido quando o vídeo atinge o fim e ao selecionar o botão, a reprodução é reiniciada a partir do início.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
+A dica de ferramenta do botão pode ser localizada. See [Localization of user interface elements](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) for more information.
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um botão reproduzir/pausar com 32 x 32 pixels; é posicionado seis pixels da borda superior e esquerda da barra de controle e exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+To set up a Play/Pause button that is 32 x 32 pixels and positioned six pixels from the top and left edge of the control bar. And finally, displays a different image for each of the four different button states when selected or not selected.
 
 ```
 .s7mixedmediaviewer .s7playpausebutton { 

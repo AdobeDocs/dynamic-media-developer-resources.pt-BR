@@ -1,13 +1,13 @@
 ---
+title: Definir indicador
 description: O indicador Set é uma série de pontos renderizados sobre as amostras principais quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 solution: Experience Manager
-title: Definir indicador
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ A aparência do contêiner indicador definido é controlada com o seguinte selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador definido. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar o indicador de configuração com um fundo branco:
+Exemplo - Para criar um indicador de conjunto com um fundo branco:
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -66,31 +66,31 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Largura do ponto indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do ponto indicador definido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem esquerda  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
    <td colname="col2"> <p>Margem esquerda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem superior  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
    <td colname="col2"> <p>Margem superior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem direita  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem direita </span> </p> </td> 
    <td colname="col2"> <p>Margem direita em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
 
 >[!NOTE]
 >
->Definir ponto indicador suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à página atual das miniaturas, `state="unselected"` corresponde ao estado padrão do ponto.
+>Definir ponto indicador suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à página atual de miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
 
-Exemplo - para configurar o ponto indicador de configuração como 15 x 15 pixels, com dois pixels de margem horizontal, cinco pixels de margem superior, uma margem inferior de pixel, doze pixels de raio, #D5D3D3 de cor padrão e #939393 de cor ativa:
+Exemplo - Para criar um ponto indicador definido com 15 x 15 pixels, com uma margem horizontal de dois pixels, uma margem superior de cinco pixels, uma margem inferior de pixel, um raio de 12 pixels, #D5D3D3 cor padrão e #939393 cor ativa:
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

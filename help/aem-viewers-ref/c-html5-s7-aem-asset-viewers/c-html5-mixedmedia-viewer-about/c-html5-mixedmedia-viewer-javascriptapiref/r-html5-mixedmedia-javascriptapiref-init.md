@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referência da API do JavaScript para o Visualizador de mídia mista.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4fb40cec-172a-41b3-98fc-927da88c7cb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Referência da API do JavaScript para o Visualizador de mídia mista.
 
 Inicia a inicialização do Visualizador de mídia mista. Nesse momento, o elemento DOM do contêiner deve ser criado para que o código do visualizador possa encontrá-lo por sua ID.
 
-Se o elemento do contêiner ainda não fizer parte do layout da página da Web (por exemplo, pode ser oculto usando o estilo `display:none` atribuído a ele), o visualizador suspende o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+Se o elemento do contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode estar oculto usando `display:none` style - o visualizador suspende seu processo de inicialização. É suspenso até o momento em que a página da Web traz o elemento do contêiner de volta ao layout, no qual o carregamento do visualizador é retomado automaticamente.
 
 Chamar esse método apenas uma vez durante o ciclo de vida do visualizador; chamadas subsequentes são ignoradas.
 
