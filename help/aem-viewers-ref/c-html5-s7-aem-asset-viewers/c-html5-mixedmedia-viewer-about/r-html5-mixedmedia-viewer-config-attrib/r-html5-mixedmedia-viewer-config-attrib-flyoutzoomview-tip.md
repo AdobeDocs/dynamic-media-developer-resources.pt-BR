@@ -1,26 +1,26 @@
 ---
+title: FlyoutZoomView.tip
 description: FlyoutZoomView.tip
 solution: Experience Manager
-title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 0%
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`desaparecer`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o número de segundos em que o texto da dica é exibido antes de ser ocultado. Quando definida como <span class="codeph"> -1</span>, a mensagem será sempre exibida, mesmo que o usuário ative o flyout. </p> </td> 
+   <td colname="col2"> <p> Especifica o número de segundos em que o texto da dica é exibido antes de ser ocultado. Quando definido como <span class="codeph"> -1</span>, a mensagem é sempre exibida, mesmo se o usuário ativar o flyout. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 

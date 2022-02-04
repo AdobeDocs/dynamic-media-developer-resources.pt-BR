@@ -1,14 +1,14 @@
 ---
+title: caption
 description: comando URL para Visualizador de vídeo.
 solution: Experience Manager
-title: caption
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ O visualizador oferece suporte para legendas ocultas por meio de arquivos WebVTT
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alinhamento de texto </p> </td> 
    <td colname="col3"> <p><span class="codeph"> esquerda|direita|meio|início|fim</span> </p> </td> 
-   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> intermediário</span>. </p> </td> 
+   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ Outros recursos WebVTT presentes no arquivo WebVTT não são compatíveis, mas n
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado da legenda padrão (ativado é <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Especifica o estado da legenda padrão (ativado está <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

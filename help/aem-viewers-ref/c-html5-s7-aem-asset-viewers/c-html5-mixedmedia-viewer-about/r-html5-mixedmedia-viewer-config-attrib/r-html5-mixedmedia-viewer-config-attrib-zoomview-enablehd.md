@@ -1,13 +1,13 @@
 ---
+title: ZoomView.enableHD
 description: ZoomView.enableHD
 solution: Experience Manager
-title: ZoomView.enableHD
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f6b25105-7b70-48f7-b3d6-e53110fd628b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Ative, limite ou desative a otimização para dispositivos em que <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>, ou seja, dispositivos com exibição de alta densidade como iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse apenas uma proporção de pixel de <span class="codeph"> 1</span> e, dessa forma, reduz a largura de banda. </p> <p>Consulte o Exemplo 2 abaixo. </p> </td> 
+   <td colname="col2"> <p> Ativar, limitar ou desativar a otimização para dispositivos em que <span class="codeph"> devicePixelRatio</span> é maior que <span class="codeph"> 1</span>, ou seja, dispositivos com exibição de alta densidade como iPhone4 e dispositivos semelhantes. Se estiver ativo, o componente limita o tamanho da solicitação de imagem IS como se o dispositivo tivesse apenas uma proporção de pixel de <span class="codeph"> 1</span> e dessa forma reduzindo a largura de banda. </p> <p>Consulte o Exemplo 2 abaixo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> número</span></span> </p> </td> 
@@ -51,7 +51,7 @@ Os resultados a seguir são esperados quando você usa esse atributo de configur
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> always</span> </p> </td> 
-   <td colname="col2"> <p>A densidade de pixels da tela/dispositivo é sempre levada em conta. </p> <p> 
+   <td colname="col2"> <p>A densidade de pixels da tela/dispositivo é sempre contabilizada. </p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
       <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Se a densidade de pixels da tela for = 1, a imagem solicitada será 1000 x 1000. </p> </li> 
       <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>Se a densidade de pixels da tela for = 1,5, a imagem solicitada será 1500 x 1500. </p> </li> 
@@ -68,7 +68,7 @@ Os resultados a seguir são esperados quando você usa esse atributo de configur
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Se o número limite for 1600 e a densidade de pixels for 1,5, a imagem 1500 x 1500 será veiculada. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Se o número limite for 1600 e a densidade de pixels for 2, a imagem 1000 x 1000 será veiculada porque a imagem 2000 x 2000 excede o limite. </p> </li> 
-     </ul> </p> <p><b>Prática</b> recomendada: O número limite precisa funcionar em conjunto com a configuração da empresa para imagem de tamanho máximo. Portanto, defina o número limite como igual à configuração de tamanho máximo da imagem da empresa. </p> </td> 
+     </ul> </p> <p><b>Prática recomendada</b>: O número limite deve funcionar com a configuração da empresa para imagem de tamanho máximo. Portanto, defina o número limite como igual à configuração de tamanho máximo da imagem da empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

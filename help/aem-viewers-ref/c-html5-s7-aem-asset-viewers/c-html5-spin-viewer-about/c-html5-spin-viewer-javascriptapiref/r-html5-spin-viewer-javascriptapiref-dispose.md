@@ -1,13 +1,13 @@
 ---
+title: dispor
 description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
-title: dispor
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c19466a8-9fc5-440c-8bb1-c4528937a522
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Dispõe essa instância do visualizador, liberando todos os recursos usados pela
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web, e essas referências de componentes externos deverão ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador, ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web. E essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
 
-Não acesse mais a API do visualizador depois que `dispose()` for chamado.
+Não acesse mais a API do visualizador depois de `dispose()` é chamado.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

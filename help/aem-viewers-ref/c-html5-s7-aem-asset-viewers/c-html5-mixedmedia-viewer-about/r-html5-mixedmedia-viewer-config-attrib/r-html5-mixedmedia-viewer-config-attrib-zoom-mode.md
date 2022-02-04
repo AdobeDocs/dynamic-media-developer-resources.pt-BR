@@ -1,13 +1,13 @@
 ---
+title: zoomMode
 description: Define o tipo de interação de zoom.
 solution: Experience Manager
-title: zoomMode
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: a399ed5e-acc3-4c45-9c84-9fa572667489
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ Define o tipo de interação de zoom.
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contínuo|inline|auto  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> o contínuo  </span> permite o zoom clássico, onde a imagem é gradualmente ampliada à medida que você clica, toca duas vezes ou pinça na exibição principal. Você precisa diminuir o zoom explicitamente ou redefinir o estado do zoom para voltar à visualização inicial. </p> <p> <span class="codeph"> em linha  </span> permite o zoom instantâneo, onde a imagem com zoom aparece instantaneamente ao passar o mouse sobre a exibição principal no desktop ou tocar e segurar em um dispositivo de toque; A imagem é revertida automaticamente para o estado inicial assim que você move o mouse da exibição ou solta o dedo. Observe que no modo <span class="codeph"> em linha </span> os conjuntos de imagens aninhados são nivelados e exibidos como miniaturas individuais. <span class="codeph"> O  </span> ativa o modo em linha no desktop e o modo contínuo em dispositivos de toque. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contínuo|inline|auto </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> contínuo </span> ativa o zoom clássico, onde a imagem é ampliada gradualmente à medida que você clica, toca duas vezes ou pinça para fora na exibição principal. Para voltar à visualização inicial, diminua o zoom ou redefina o estado do zoom. A classe </p> <p> <span class="codeph"> inline </span> ativa o zoom instantâneo, onde a imagem com zoom aparece instantaneamente ao passar o mouse sobre a exibição principal no desktop ou para tocar e segurar em um dispositivo de toque. A imagem é revertida automaticamente para o estado inicial depois que você move o mouse da exibição ou solta o dedo. Em <span class="codeph"> inline </span> , os conjuntos de imagens aninhados são nivelados e exibidos como miniaturas individuais. A classe <span class="codeph"> auto </span> ativa o modo em linha no desktop e o modo contínuo em dispositivos de toque. </p> </td> 
   </tr> 
  </tbody> 
 </table>

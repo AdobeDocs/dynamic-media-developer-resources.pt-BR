@@ -1,22 +1,22 @@
 ---
-description: Determinado conteúdo que o Visualizador de mídia mista exibe está sujeito a localização. Isso inclui botões de zoom, botões de giro, controles de vídeo, botão fechar botão de tela cheia e botões de rolagem de amostra.
-solution: Experience Manager
 title: Localização dos elementos da interface do usuário
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+description: Determinado conteúdo que o Visualizador de mídia mista exibe está sujeito a localização. Essa diretriz inclui botões de zoom, botões de giro, controles de vídeo, botão fechar, botão de tela cheia e botões de rolagem de amostra.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
 # Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
-Determinado conteúdo que o Visualizador de mídia mista exibe está sujeito a localização. Isso inclui botões de zoom, botões de giro, controles de vídeo, botão fechar botão de tela cheia e botões de rolagem de amostra.
+Determinado conteúdo que o Visualizador de mídia mista exibe está sujeito a localização. Essa diretriz inclui botões de zoom, botões de giro, controles de vídeo, botão fechar, botão de tela cheia e botões de rolagem de amostra.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para a localidade inglesa ( `"en"`) fornecida com o visualizador pronto para uso. Também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para a localidade inglesa ( `"en"`) fornecido com o visualizador pronto para uso. Também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica a localidade atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível com a localidade. Se houver, ele usará o valor definido pelo usuário; caso contrário, retorna ao texto padrão pronto para uso.
 
@@ -40,7 +40,7 @@ defaultLocale:"en"
 
 No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece a localização de dois elementos da interface do usuário em cada localidade.
 
-O código da página da Web deve passar o objeto de localização para o construtor do visualizador como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
+O código da página da Web deve passar o objeto de localização para o construtor do visualizador como um valor da variável `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando a função `setLocalizedTexts(localizationInfo)` método .
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,131 +53,131 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>Descrição da função ARIA para o componente de exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Dicas de uso de ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SpinView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>Descrição da função ARIA para o componente de exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SpinView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Dicas de uso de ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>Descrição da função ARIA para o componente de exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Dicas de uso de ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Fechar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Ampliar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Reduzir. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Redefinir zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER  </span> </p> </td> 
-   <td colname="col2"> <p>Sistemas de desktop em <span class="codeph"> modo de zoom em linha </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
+   <td colname="col2"> <p>Sistemas de desktop em <span class="codeph"> inline </span> modo de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP  </span> </p> </td> 
-   <td colname="col2"> <p>Toque nos dispositivos em <span class="codeph"> modo de zoom em linha </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
+   <td colname="col2"> <p>Toque em dispositivos em <span class="codeph"> inline </span> modo de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Botão de tela cheia em estado normal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Botão de tela cheia no estado de tela cheia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão Fechar legenda selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de legenda fechada não selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Rolar para a esquerda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Rolar para a direita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Rolar para cima. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Rolar para baixo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão girar para a esquerda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão girar para a direita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de pausa de reprodução selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Estado do botão de pausa de reprodução desmarcado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
    <td colname="col2"> <p>Reproduzir estado do botão de pausa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Limpador de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Tempo do vídeo na barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Estado do volume mutável selecionado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Volume mutável desmarcado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME  </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo do botão deslizante do volume exposto por meio do atributo ARIA <span class="codeph"> aria-value </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
+   <td colname="col2"> <p>Rótulo do botão deslizante do volume exposto por meio de ARIA <span class="codeph"> aria-value-ext </span> atributo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de erro que é exibida quando nenhuma reprodução de vídeo é possível. </p> </td> 
   </tr> 
  </tbody> 

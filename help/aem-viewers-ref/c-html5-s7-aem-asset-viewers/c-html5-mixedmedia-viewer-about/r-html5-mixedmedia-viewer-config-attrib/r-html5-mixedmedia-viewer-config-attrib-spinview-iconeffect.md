@@ -1,30 +1,30 @@
 ---
+title: SpinView.iconeffect
 description: SpinView.iconeffect
 solution: Experience Manager
-title: SpinView.iconeffect
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 473207d2-7e26-4ea3-940e-5a21f29a2b91
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '117'
 ht-degree: 1%
 
 ---
 
 # SpinView.iconeffect{#spinview-iconeffect}
 
-` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [SpinView.|<containerId>_spinView.]iconeffect=0|1[, *`count`*][, *`desaparecer`*][, *`autoHide`*]`
 
 <table id="table_DF2137DF9C7441B381D2B03CEE4B880A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que o ícone <span class="codeph"></span> seja exibido na parte superior da imagem quando ela está em um estado de redefinição e é sugestivo de uma ação disponível para interagir com a imagem. </p> </td> 
+   <td colname="col2"> <p> Habilita o <span class="codeph"> iconefeito</span> para exibir na parte superior da imagem quando ela estiver em um estado de redefinição e for sugestivo de uma ação disponível para interagir com a imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o número máximo de vezes em que o ícone <span class="codeph"></span> aparece e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone sempre aparece indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica o número máximo de vezes que a variável <span class="codeph"> iconefeito</span> for exibido e reaparecerá. Um valor de <span class="codeph"> -1</span> indica que o ícone sempre aparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> desaparecer</span></span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Define o número de segundos em que o ícone <span class="codeph"></span> permanece totalmente visível antes de se ocultar automaticamente. Ou seja, o tempo depois que a animação de esmaecimento é concluída, mas antes do início da animação de esmaecimento. Uma configuração de <span class="codeph"> 0</span> desativa o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p>Define o número de segundos em que a variável <span class="codeph"> iconefeito</span> fica totalmente visível antes de se ocultar automaticamente. Ou seja, o tempo depois que a animação de esmaecimento é concluída, mas antes do início da animação de esmaecimento. Uma configuração de <span class="codeph"> 0</span> desativa o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

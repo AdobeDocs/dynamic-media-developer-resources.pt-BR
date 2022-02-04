@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.iconeffect
 description: Atributo de configuração para o Visualizador de vídeo.
 solution: Experience Manager
-title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`desaparecer`*][, *`autoHide`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior do vídeo quando o vídeo é pausado. Em alguns dispositivos são usados controles nativos. Nesse caso, o modificador do ícone <span class="codeph"></span> é ignorado. </p> </td> 
+   <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior do vídeo quando o vídeo é pausado. Em alguns dispositivos, os controles nativos são usados. Nesse caso, o <span class="codeph"> iconefeito</span> modificador é ignorado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 

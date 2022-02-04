@@ -1,13 +1,13 @@
 ---
+title: EmbedShare.embedsizes
 description: Atributo de configuração para o Visualizador de vídeo.
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '57'
 ht-degree: 3%
 
 ---
@@ -16,22 +16,22 @@ ht-degree: 3%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`largura`*, *`altura`*[,0|1][; *`largura`*, *`altura`*[,0|1]]`
 
 Especifica uma lista de tamanhos incorporados para a caixa de combinação de tamanho na caixa de diálogo modal de compartilhamento incorporado.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura </span> </span> </p> </td> 
    <td colname="col2"> <p> Incorporar largura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura </span> </span> </p> </td> 
    <td colname="col2"> <p>Incorporar altura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Especifica se esse item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
   </tr> 
  </tbody> 

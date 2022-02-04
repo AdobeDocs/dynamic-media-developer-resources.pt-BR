@@ -1,13 +1,13 @@
 ---
+title: SpinView.doubleclick
 description: SpinView.doubleclick
 solution: Experience Manager
-title: SpinView.doubleclick
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 2e9b8f8e-aa36-4b47-a36d-7b7036e8722f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de duplo clique/toque para girar ações. Configurar para <span class="codeph"> nenhum </span> desativa o duplo clique/toque em rotação. Se definido como <span class="codeph"> zoom </span>, clicar na imagem gira em uma etapa de rotação; CTRL+Clique gira uma etapa de rotação. Configurar para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o giro para o nível inicial de rotação. Para <span class="codeph"> zoomReset </span>, a redefinição é aplicada se o fator de rotação atual estiver no limite especificado ou além dele, caso contrário a rotação é aplicada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhum|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de duplo clique/toque para girar ações. Configurar como <span class="codeph"> nenhum </span> desativa o duplo clique/toque em rotação. Se estiver definido como <span class="codeph"> zoom </span>, clicar na imagem gira em uma etapa de rotação; CTRL+Clique gira uma etapa de rotação. Configurar como <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o giro para o nível inicial de rotação. Para <span class="codeph"> zoomReset </span>, a redefinição será aplicada se o fator de rotação atual estiver dentro ou além do limite especificado, caso contrário, a rotação será aplicada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Opcional.
 
 ## Padrão {#section-7a2128fd488941948aff18421f533ccf}
 
-`reset` em computadores de secretária;  `zoomReset` em dispositivos de toque.
+`reset` em computadores de secretária; `zoomReset` em dispositivos de toque.
 
 ## Exemplo {#section-622348a84fbe4ff4b5dd7eb53b044d83}
 

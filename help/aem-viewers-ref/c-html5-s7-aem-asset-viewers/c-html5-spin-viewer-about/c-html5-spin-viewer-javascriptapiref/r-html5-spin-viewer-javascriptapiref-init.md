@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Referência da API do JavaScript para o Visualizador de rotação.
 
 `init()`
 
-Inicia a inicialização do Visualizador de rotação. Nesse momento, o elemento do contêiner `DOM` deve ser criado para que o código do visualizador possa encontrá-lo por sua ID.
+Inicia a inicialização do Visualizador de rotação. Nesse momento, o contêiner `DOM` deve ser criado para que o código do visualizador possa encontrá-lo por sua ID.
 
-Se o elemento do contêiner ainda não fizer parte do layout da página da Web (por exemplo, pode ser oculto usando o estilo `display:none` atribuído a ele), o visualizador suspende o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+Se o elemento do contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode estar oculto usando `display:none` style - o visualizador suspende seu processo de inicialização. É suspenso até o momento em que a página da Web traz o elemento do contêiner de volta ao layout, no qual o carregamento do visualizador é retomado automaticamente.
 
 Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chamadas subsequentes são ignoradas.
 

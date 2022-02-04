@@ -1,14 +1,14 @@
 ---
+title: swatchoverlay
 description: swatchoverlay
 solution: Experience Manager
-title: swatchoverlay
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o layout do visualizador em dispositivos habilitados para toque. Quando o parâmetro é definido como <span class="codeph"> 1 </span>, o visualizador mostra amostras abaixo da exibição principal na área de trabalho; em dispositivos habilitados para toque, as amostras são sobrepostas na parte superior da exibição principal. </p> <p>Quando o parâmetro é definido como <span class="codeph"> 0 </span>, as amostras são renderizadas abaixo da exibição principal em todos os tipos de dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
+   <td colname="col2"> <p>Especifica o layout do visualizador em dispositivos habilitados para toque. Quando o parâmetro é definido como <span class="codeph"> 1 </span>, o visualizador mostra amostras abaixo da exibição principal na área de trabalho; em dispositivos habilitados para toque, as amostras são sobrepostas na parte superior da exibição principal. </p> <p>Quando o parâmetro é definido como <span class="codeph"> 0 </span>, as amostras são renderizadas abaixo da exibição principal em todos os tipos de dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

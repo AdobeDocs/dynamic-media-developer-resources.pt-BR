@@ -1,13 +1,13 @@
 ---
+title: Exibição em rotação
 description: A exibição principal consiste na imagem de rotação.
 solution: Experience Manager
-title: Exibição em rotação
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para tornar a exibição principal transparente.
+Exemplo - Para tornar a exibição principal transparente.
 
 ```
 .s7spinviewer .s7spinview { 

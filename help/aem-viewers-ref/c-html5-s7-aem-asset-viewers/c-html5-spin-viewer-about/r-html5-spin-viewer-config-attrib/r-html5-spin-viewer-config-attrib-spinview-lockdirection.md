@@ -1,13 +1,13 @@
 ---
+title: SpinView.lockdirection
 description: SpinView.lockdirection
 solution: Experience Manager
-title: SpinView.lockdirection
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Especifica se é permitido uma alteração na direção de rotação no caso de um conjunto de rotação 2D. </p> <p>Quando definido como <span class="codeph"> 1 </span>, o componente identifica a direção primária de arrastar ou deslizar (horizontal versus vertical) no início do gesto. Depois disso, mantém essa direção até o final do gesto. Por exemplo, se o usuário iniciar um giro horizontal e, em seguida, decidir continuar seu gesto de arrastar em uma direção vertical, o componente não executará um giro vertical; em vez disso, considera apenas o movimento horizontal do mouse ou do deslizamento. </p> <p>Um valor <span class="codeph"> 0 </span> permite que um usuário altere a direção do giro a qualquer momento durante o progresso do gesto. A configuração não afeta se o conjunto de rotação for 1D. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Especifica se é permitido uma alteração na direção de rotação se houver um conjunto de rotação 2D. </p> <p>Quando definido como <span class="codeph"> 1 </span>, o componente identifica a direção de arrastar ou deslizar principal (horizontal versus vertical) no início do gesto. Depois disso, mantém essa direção até o final do gesto. Por exemplo, se o usuário iniciar um giro horizontal e decidir continuar seu gesto de arrastar em uma direção vertical, o componente não executará um giro vertical. Em vez disso, considera apenas o movimento horizontal do mouse ou do deslizamento. </p> <p>Um valor de <span class="codeph"> 0 </span> permite que um usuário altere a direção da rotação a qualquer momento durante o progresso do gesto. A configuração não terá efeito se o conjunto de rotação for 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>

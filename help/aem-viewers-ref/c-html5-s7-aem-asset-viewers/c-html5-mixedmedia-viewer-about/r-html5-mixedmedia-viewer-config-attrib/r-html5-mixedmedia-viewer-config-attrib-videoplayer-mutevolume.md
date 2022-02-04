@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: Atributo de configuração para Visualizador de vídeo de mídia mista.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de mídia mista
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
 
@@ -21,8 +21,8 @@ Atributo de configuração para Visualizador de vídeo de mídia mista.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span> o volume está mudo; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, a reprodução de vídeo com mutação ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se estiver definido como <span class="codeph"> 1 </span> O volume é absorvido; caso contrário, o vídeo será reproduzido com som. Em certos dispositivos, o reprodutor de vídeo com o recurso mutar ao carregar também permite a reprodução automática do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

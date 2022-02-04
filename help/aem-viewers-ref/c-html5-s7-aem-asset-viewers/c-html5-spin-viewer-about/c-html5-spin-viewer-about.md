@@ -1,12 +1,12 @@
 ---
+title: Rotação
 description: Visualizador de rotação é um visualizador de imagem que fornece uma visualização de 360 graus da imagem ou até mesmo uma visualização multidimensional se um conjunto de rotação apropriado estiver sendo usado. Ele tem ferramentas de zoom e rotação, suporte de tela cheia e um botão de fechamento opcional. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 keywords: responsivo
 solution: Experience Manager
-title: Rotação
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

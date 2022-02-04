@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Referência da API do JavaScript para o Visualizador de rotação.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova id de ativo, conjunto de rotação único ou multidimensional com modificadores opcionais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, conjunto de rotação único ou multidimensional com modificadores opcionais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

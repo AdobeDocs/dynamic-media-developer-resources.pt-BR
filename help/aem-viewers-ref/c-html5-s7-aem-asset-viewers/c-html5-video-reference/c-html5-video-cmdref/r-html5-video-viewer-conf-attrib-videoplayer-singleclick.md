@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.singleclick
 description: Atributo de configuração para o Visualizador de vídeo.
 solution: Experience Manager
-title: VideoPlayer.singleclick
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2fd83645-16d4-45ce-8fa8-d97dc254691f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '68'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de clique/toque único para alternar entre reproduzir e pausar. Configurar para <span class="codeph"> nenhum</span> desativa o clique/toque único para reproduzir/pausar. Se definido como <span class="codeph"> playPause</span>, clicar no vídeo alterna entre a reprodução e a pausa do vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, o comportamento <span class="codeph"> singleclick</span> é desativado. </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de clique/toque único para alternar entre reproduzir e pausar. Configurar como <span class="codeph"> nenhum</span> desativa o clique/toque único para reproduzir/pausar. Se estiver definido como <span class="codeph"> playPause</span>, clicar no vídeo alterna entre reproduzir e pausar o vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, <span class="codeph"> singleclick</span> o comportamento está desativado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

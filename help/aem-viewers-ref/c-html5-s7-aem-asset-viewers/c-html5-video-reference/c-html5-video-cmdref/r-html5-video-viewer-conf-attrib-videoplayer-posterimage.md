@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.posterimage
 description: Atributo de configuração para o Visualizador de vídeo.
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c09884e2-60a1-4fce-997a-29747b4ccb7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisCommands`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_id`*][? *`isCommands`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> nenhum|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> A imagem a ser exibida no primeiro quadro antes que o vídeo comece a ser reproduzido, resolvida em <span class="codeph"> serverurl</span>. Se especificado no URL, codifique o seguinte por HTTP: </p> <p> 
+   <td colname="col2"> <p> A imagem a ser exibida no primeiro quadro antes da reprodução do vídeo, resolvida em relação a <span class="codeph"> serverurl</span>. Se especificado no URL, codifique o seguinte por HTTP: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> como  <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> como  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> como  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Se o valor <span class="codeph"><span class="varname"> image_id</span></span> for omitido, o componente tentará usar a imagem de pôster padrão para esse ativo. </p> <p>Quando o vídeo é especificado como um caminho, a id de catálogo de imagens de pôster padrão é derivada do caminho do vídeo como o par <span class="codeph"> catalog_id/image_id</span> onde <span class="codeph"> catalog_id</span> corresponde ao primeiro token no caminho e <span class="codeph"> image_id</span> é o nome do vídeo com a extensão removida. Se a imagem com essa ID não existir, a imagem de pôster não será exibida. </p> <p>Para evitar a exibição da imagem de pôster padrão, especifique <span class="codeph"> none</span> como o valor da imagem de pôster. Se apenas <span class="codeph"><span class="varname"> isCommands</span></span> forem especificados, os comandos serão aplicados à imagem de pôster padrão antes que a imagem seja exibida. </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>Se a variável <span class="codeph"><span class="varname"> image_id</span></span> for omitido, o componente tentará usar a imagem de pôster padrão para esse ativo. </p> <p>Quando o vídeo é especificado como um caminho, a ID de catálogo de imagens de pôster padrão é derivada do caminho do vídeo como <span class="codeph"> catalog_id/image_id</span> emparelhar onde <span class="codeph"> catalog_id</span> corresponde ao primeiro token no caminho. E, <span class="codeph"> image_id</span> é o nome do vídeo com a extensão removida. Se a imagem com essa ID não existir, a imagem de pôster não será exibida. </p> <p>Para evitar a exibição da imagem de pôster padrão, especifique <span class="codeph"> nenhum</span> como o valor da imagem de pôster. Se somente a variável <span class="codeph"><span class="varname"> isCommands</span></span> forem especificados, os comandos serão aplicados à imagem de pôster padrão antes que a imagem seja exibida. </p> </td> 
   </tr> 
  </tbody> 
 </table>

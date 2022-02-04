@@ -1,13 +1,13 @@
 ---
+title: Suporte para rastreamento do Adobe Analytics
 description: O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pronto para uso.
 solution: Experience Manager
-title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Conjuntos de rotação
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pr
 
 O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como parâmetro `config2`.
+Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
 
 ## Rastreamento personalizado {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -61,23 +61,23 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando o <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZOOM  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p> uma imagem é ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
    <td colname="col2"> <p>uma imagem é ativada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
    <td colname="col2"> <p> um spin é executado. </p> </td> 
   </tr> 
  </tbody> 
