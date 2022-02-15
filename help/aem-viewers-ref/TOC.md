@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 3%
@@ -19,8 +19,8 @@ ht-degree: 3%
 + [Instalar vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
 + Notas de versão dos visualizadores {#viewers-release-notes}
    + [Notas de versão dos visualizadores (5.16.1)](c-release-notes/c-rn-04-06-21.md)
-   + [Notas de versão dos visualizadores (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Arquivar {#archive}
+      + [Notas de versão dos visualizadores (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notas de versão dos visualizadores (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
@@ -594,7 +594,7 @@ ht-degree: 3%
          + [vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
       + Referência da API do JavaScript para o Visualizador de vídeo {#jsapi-video}
-         + [Referência da API JavaScript para visualizador de vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
+         + [Referência da API do JavaScript para visualizador de vídeo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [dispor](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md)
@@ -660,8 +660,8 @@ ht-degree: 3%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + Referência da API do Javascript para Visualizador de Zoom {#jsapi-zoom}
-         + [Referência da API do Javascript para Visualizador de Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
+      + Referência da API do JavaScript para Visualizador de Zoom {#jsapi-zoom}
+         + [Referência da API do JavaScript para Visualizador de Zoom](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [dispor](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md)

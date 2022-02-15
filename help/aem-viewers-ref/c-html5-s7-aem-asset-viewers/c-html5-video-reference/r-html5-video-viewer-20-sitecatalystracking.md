@@ -1,13 +1,13 @@
 ---
+title: Suporte para rastreamento do Adobe Analytics
 description: O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
-title: Suporte para rastreamento do Adobe Analytics
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pr
 
 O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como parâmetro `config2`.
+Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
 
 ## Rastreamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir `trackEvent` o retorno de chamada do visualizador e processar `eventInfo` o argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -62,27 +62,27 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR </span> </p> </td> 
    <td colname="col2"> <p>a reprodução é iniciada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSA </span> </p> </td> 
    <td colname="col2"> <p>a reprodução está pausada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
    <td colname="col2"> <p>a reprodução foi interrompida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MARCO  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MARCO </span> </p> </td> 
    <td colname="col2"> <p>a reprodução atinge um dos seguintes marcos: 0%, 25%, 50%, 75% e 100%. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,12 +1,12 @@
 ---
+title: Vídeo
 description: O Visualizador de vídeo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
 keywords: responsivo
 solution: Experience Manager
-title: Vídeo
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -67,7 +67,7 @@ O compartilhamento de ferramentas não está disponível no modo de tela cheia d
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando selecionado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
 
-A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção desta regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
+A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção dessa regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
 
 **Sobre o modo pop-up**
 

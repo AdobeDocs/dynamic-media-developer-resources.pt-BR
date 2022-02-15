@@ -1,11 +1,11 @@
 ---
+title: Notas de compatibilidade
 description: Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos móveis.
 solution: Experience Manager
-title: Notas de compatibilidade
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
@@ -48,10 +48,10 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Dispositivos móveis HTC {#section-dc42c80414c842e488738fc157c55b01}
 
-* A incapacidade de desativar o pinch-zoom nativo é um &quot;recurso&quot; do HTC UI wrapper (Sensor HTC). Esse recurso pode fazer com que uma página inteira diminua o zoom ao usar o gesto de &quot;apertar para ampliar&quot; no visualizador. Em vez disso, toque duas vezes em gesto.
+* A incapacidade de desativar o pinch-zoom nativo é um &quot;recurso&quot; do HTC UI wrapper (HTC Sense). Esse recurso pode fazer com que uma página inteira diminua o zoom ao usar o gesto de &quot;apertar para zoom&quot; no visualizador. Em vez disso, toque duas vezes em gesto.
 * Os ícones do mapa de imagem se sobrepõem se os mapas de imagem forem pequenos e próximos.
 
-## Visualizador de vídeo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` O modificador só é compatível com a reprodução HLS de software e HDS de Flash. Ele não funciona quando a reprodução está usando o reprodutor nativo.
 * Não há suporte para reprodução progressiva de OGG e WebM.

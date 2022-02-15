@@ -1,13 +1,13 @@
 ---
+title: Suporte à tecnologia assistiva
 description: Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 solution: Experience Manager
-title: Suporte à tecnologia assistiva
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Vídeo,Acessibilidade
+feature: Dynamic Media Classic,Viewers,SDK/API,Video,Accessibility
 role: Developer,User
 exl-id: e0652730-60ee-41db-890b-e223b279e47d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Todos os componentes do visualizador suportam funções e atributos ARIA (Accessible Rich Internet Applications) para melhorar a integração com tecnologias de assistência, como leitores de tela.
 
-O elemento do visualizador de nível superior tem o atributo de função `region` e `aria-label` definido por padrão para o nome do visualizador. Você pode controlar o rótulo com o símbolo de localização `Container.LABEL`.
+O elemento do visualizador de nível superior tem função `region` e `aria-label` por padrão, para o nome do visualizador. Você pode controlar o rótulo com a variável `Container.LABEL` símbolo de localização.
 
-Os botões têm a função `button` e o texto descritivo definido com o atributo `aria-label`. O valor do atributo `aria-label` é preenchido a partir do valor do símbolo de localização do botão. Quando um botão é desativado, o atributo `aria-disabled` é definido adequadamente.
+Os botões têm a função `button` e texto descritivo definido com `aria-label` atributo. O valor de `aria-label` é preenchido a partir do valor do símbolo de localização do botão. Quando um botão é desativado, `aria-disabled` é definido de acordo.
 
-Os componentes do controle deslizante têm a função `slider` com atributos `aria-valuenow`, `aria-valuemin` e `aria-valuemax` para descrever a posição do controle deslizante atual.
+Os componentes do controle deslizante têm a função `slider` com atributos `aria-valuenow`, `aria-valuemin`e `aria-valuemax` para descrever a posição do controle deslizante atual.
 
-As listas suspensas são ativadas por botões com atributo `aria-haspopup` adicional definido como `true` e atributo `aria-controls` referenciando o elemento real do painel suspenso. O próprio painel suspenso tem a função `menu` com subelementos com a função `menuitem`. Cada item de menu tem o atributo `aria-label` especificado.
+As listas suspensas são ativadas por botões com outros `aria-haspopup` conjunto de atributos para `true` e `aria-controls` que faz referência ao elemento real do painel suspenso. O próprio painel suspenso tem a função `menu` com subelementos que têm a função `menuitem`. Cada item de menu tem a variável `aria-label` atributo especificado.
 
-As caixas de diálogo modais têm a função `dialog`. O elemento de cabeçalho da caixa de diálogo é referenciado pelo atributo `aria-labelledby`.
+As caixas de diálogo modais têm a função `dialog`. O elemento de cabeçalho da caixa de diálogo é referenciado pela variável `aria-labelledby` atributo.
