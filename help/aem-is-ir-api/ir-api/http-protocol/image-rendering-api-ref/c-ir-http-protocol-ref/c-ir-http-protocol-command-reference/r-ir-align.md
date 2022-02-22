@@ -2,17 +2,17 @@
 description: Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 solution: Experience Manager
 title: alinhar
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
 
-# alinhar{#align}
+# alinhar {#align}
 
 Alinhamento da renderização da textura. Especifica qual dos pontos de origem definidos pelo objeto de vinheta selecionado deve ser usado.
 
@@ -37,11 +37,11 @@ Alinhamento da renderização da textura. Especifica qual dos pontos de origem d
  </tr> 
 </table>
 
-O renderizador aplica a textura ao objeto para que o ponto de ancoragem da textura ( `anchor=`) coincida com o ponto de origem especificado.
+O renderizador aplica a textura ao objeto para que o ponto de ancoragem da textura ( `anchor=`) coincide com o ponto de origem especificado.
 
-Cada objeto pode definir até 6 pontos de origem (0,1, 3, 4, 5, 6). Se um valor `align` for especificado, mas o ponto de origem correspondente não for definido pelo objeto da vinheta, o ponto de origem padrão (correspondência central) será usado.
+Cada objeto pode definir até seis pontos de origem (0, 1, 3, 4, 5, 6). Se uma `align` é especificado, mas o ponto de origem correspondente não é definido pelo objeto da vinheta, o ponto de origem padrão (correspondência central) é usado.
 
-`align=2` especifica o alinhamento de textura aleatória, nesse caso  `anchor=` é efetivamente ignorado.
+`align=2` Especifica alinhamento de textura aleatório, nesse caso `anchor=` é efetivamente ignorada.
 
 Usada principalmente para materiais estofados, possivelmente para tecidos de vestuário, para gerenciar o alinhamento da textura entre objetos adjacentes.
 
@@ -55,4 +55,4 @@ Atributo de material. Ignorado se for selecionado um objeto de estrutura de pare
 
 ## Consulte também {#section-945d1ce275df487d9d564d4043156c79}
 
-[catálogo::Alinhamento](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) ,  [âncora=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[catálogo::Alinhamento](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md#reference-e52152e8dc244d0aa13b40c615d0f399) , [âncora=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

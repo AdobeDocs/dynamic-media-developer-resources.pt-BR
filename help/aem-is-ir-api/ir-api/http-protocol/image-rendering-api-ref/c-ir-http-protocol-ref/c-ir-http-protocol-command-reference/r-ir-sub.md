@@ -1,20 +1,20 @@
 ---
-description: Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado, bem como remover materiais anteriormente aplicados.
-solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic, SDK/API
+description: Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado e remover materiais anteriormente aplicados.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # sub{#sub}
 
-Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado, bem como remover materiais anteriormente aplicados.
+Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado e remover materiais anteriormente aplicados.
 
 `sub=0|1|2|3|4|5`
 
@@ -32,7 +32,7 @@ Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto
   <td class="stentry"> <p>Selecione a metade inferior da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Selecione a área superior da borda da parede. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -47,7 +47,7 @@ Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto
 
 Atualmente, há suporte somente para objetos de parede. Encerra um MSS anterior e inicia um novo MSS para o material a ser aplicado à subseleção especificada.
 
-Um material especificado para a parede superior ou inferior será aplicado a toda a parede, a menos que também tenha sido especificado outro material para a outra metade da parede.
+Um material especificado para a parede superior ou inferior aplica-se a toda a parede, a menos que também tenha sido especificado um material diferente para a outra metade da parede.
 
 ## Propriedades {#section-b202139d6d0847cc8d520a154104ab9d}
 

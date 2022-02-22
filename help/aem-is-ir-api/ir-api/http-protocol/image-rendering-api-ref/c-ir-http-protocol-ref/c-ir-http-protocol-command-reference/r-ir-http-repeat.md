@@ -1,13 +1,13 @@
 ---
+title: repetição
 description: Modo de repetição de textura. Especifica o modo de repetição para materiais de textura repetíveis.
 solution: Experience Manager
-title: repetição
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 12%
 
 ---
@@ -32,7 +32,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
   <td class="stentry"> <p>Otimização aleatória de 8 vias. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Lado a lado. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -73,7 +73,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13º </p> </td> 
-  <td class="stentry"> <p>Espelho (correspondência de marcadores). </p> </td> 
+  <td class="stentry"> <p>Espelho (correspondência de livros). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14. </p> </td> 
@@ -101,7 +101,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
  </tr> 
 </table>
 
-Os modos de colcha aleatória (14...18) podem ser utilizados para sintetizar texturas de imagens que não são facilmente repetíveis; o algoritmo criará texturas totalmente aleatórias ou parcialmente aleatórias com base na imagem original.
+Os modos de colcha aleatória (14...18) podem ser utilizados para sintetizar texturas de imagens que não são facilmente repetíveis; o algoritmo cria texturas totalmente aleatórias ou parcialmente aleatórias com base na imagem original.
 
 ## Propriedades {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ Atributo de material. Ignorado por materiais de cor sólida, decalque e armário
 
 ## Padrão {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, se o material for baseado em uma entrada de catálogo, caso contrário  `0` (repetição direta).
+`catalog::Repeat`, se o material for baseado em uma entrada de catálogo, caso contrário `0` (repetição direta).
 
 ## Consulte também {#section-ac99113b64654d75a3a86e41db546269}
 

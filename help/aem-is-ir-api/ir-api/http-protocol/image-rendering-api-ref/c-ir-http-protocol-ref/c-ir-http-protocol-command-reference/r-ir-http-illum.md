@@ -1,13 +1,13 @@
 ---
+title: íleo
 description: Seletor de mapa de iluminação. Especifica o mapa de iluminação com o qual este material prefere ser renderizado.
 solution: Experience Manager
-title: íleo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Seletor de mapa de iluminação. Especifica o mapa de iluminação com o qual es
 
 Se o mapa de iluminação especificado não estiver disponível na vinheta-alvo, é utilizado o mapa disponível mais próximo.
 
-`illum=-1` especifica que o mapa de iluminação é selecionado automaticamente com base no  `gloss=` valor.
+`illum=-1` Especifica que o mapa de iluminação é selecionado automaticamente com base na variável `gloss=` valor.
 
 ## Propriedades {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

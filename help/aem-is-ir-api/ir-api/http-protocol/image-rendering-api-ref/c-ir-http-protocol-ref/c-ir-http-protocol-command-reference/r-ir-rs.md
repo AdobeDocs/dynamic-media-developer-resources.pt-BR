@@ -1,20 +1,20 @@
 ---
-description: Configurações avançadas de renderização. Especifica uma configuração de renderização avançada, a ser aplicada ao renderizar a seleção atual.
-solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic, SDK/API
+description: Configurações avançadas de renderização. Especifica as configurações avançadas de renderização a serem aplicadas ao renderizar a seleção atual.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
 # rs{#rs}
 
-Configurações avançadas de renderização. Especifica uma configuração de renderização avançada, a ser aplicada ao renderizar a seleção atual.
+Configurações avançadas de renderização. Especifica as configurações avançadas de renderização a serem aplicadas ao renderizar a seleção atual.
 
 `rs= *`val`*`
 
@@ -25,7 +25,7 @@ Configurações avançadas de renderização. Especifica uma configuração de r
  </tr> 
 </table>
 
-Usado para ajustar a aparência da renderização. Use o recurso de renderização da Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) para criar cadeias de caracteres de configurações de renderização.
+Usado para ajustar a aparência da renderização. Para criar cadeias de caracteres de configurações de renderização, use o recurso de renderização da Ferramenta de criação de vinhetas (parte do pacote Criação de imagem do Dynamic Media).
 
 ## Propriedades {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Atributo de material.
 
 ## Exemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Após algumas experiências na Criação de Imagens, determina-se que o mascaramento com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o comando `rs=` para usar com este material:
+Após algumas experiências na Criação de Imagens, determina-se que o mascaramento com nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o `rs=` comando a ser usado com este material:
 
 `…&rs=U2V20W50X2&…`
 

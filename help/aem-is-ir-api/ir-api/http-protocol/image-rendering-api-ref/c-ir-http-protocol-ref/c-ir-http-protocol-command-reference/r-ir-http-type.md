@@ -1,14 +1,14 @@
 ---
+title: type
 description: Tipo de superfície do material. Especifica o tipo de superfície do material.
 solution: Experience Manager
-title: type
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 12%
+source-wordcount: '152'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
   <td class="stentry"> <p>Madeira natural </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p></td> 
+  <td class="stentry"> <p>3 </p></td> 
   <td class="stentry"> <p>Metais polidos </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -101,7 +101,7 @@ Tipo de superfície do material. Especifica o tipo de superfície do material.
  </tr> 
 </table>
 
-Usado em conjunto com `gloss=` e `rough=` para controlar comportamentos de reflexo e efeito de brilho. Materiais diferentes produzirão efeitos diferentes, mesmo que `gloss=` e `rough=` sejam os mesmos.
+Usado com `gloss=` e `rough=` para controlar os comportamentos de reflexo e efeito de brilho. Materiais diferentes produzem efeitos diferentes, mesmo que `gloss=` e `rough=` são iguais.
 
 ## Propriedades {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Atributo de material. Ignorado se a vinheta não incluir dados de reflexão 3D o
 
 ## Padrão {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` se o material for baseado em uma entrada de catálogo. Caso contrário, `type=0`. Se não for especificado, ou se `type=0`, o servidor selecionará um padrão adequado, dependendo do objeto de destino e dos outros atributos de material.
+`catalog::Type` Se o material for baseado em uma entrada de catálogo. Caso contrário `type=0`. Se não especificado, ou se `type=0`, o servidor seleciona um padrão adequado dependendo do objeto de destino e dos outros atributos de material.
 
 ## Consulte também {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[brilho=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [bruto=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[brilho=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [bruxo=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

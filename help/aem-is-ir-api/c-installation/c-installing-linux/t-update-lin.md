@@ -1,38 +1,38 @@
 ---
-description: Use esse procedimento ao atualizar o Dynamic Media Image Serving no Linux.
-solution: Experience Manager
 title: Atualização do IS 4.7.4 ou posterior
-feature: Dynamic Media Classic, SDK/API
+description: Use este procedimento ao atualizar o Dynamic Media Image Serving no Linux®.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54733fcc-c4e3-4501-8a3d-000778678bdb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Atualização do IS 4.7.4 ou posterior{#updating-from-is-or-later}
 
-Use esse procedimento ao atualizar o Dynamic Media Image Serving no Linux.
+Use este procedimento ao atualizar o Dynamic Media Image Serving no Linux®.
 
 Se estiver atualizando de uma versão mais antiga do Image Serving, entre em contato com o suporte para obter o processo correto.
 
-A pasta [!DNL webapps] pode ser excluída na atualização. Faça backup da pasta [!DNL webapps] antes de atualizar.
+O [!DNL webapps] pode ser excluída na atualização. Faça backup do [!DNL webapps] pasta antes da atualização.
 
 1. Faça logon no host do servidor com privilégios de raiz.
 1. Descompacte e descompacte o arquivo tar de distribuição do Image Serving.
-1. Execute [!DNL ./install-is] para iniciar o assistente de instalação localizado na pasta [!DNL setup].
+1. No [!DNL setup] pasta, executar [!DNL `./install-is`] para iniciar o assistente de instalação.
 
    O instalador de atualização verifica a integridade e a versão do pacote instalado. Se o contrato de licença de usuário final (&quot;EULA&quot;) for bem-sucedido, será exibido.
-1. Leia o contrato de licença e digite &quot;**[!UICONTROL y]**&quot; para prosseguir com a instalação.
+1. Leia o contrato de licença e insira **[!UICONTROL y]** para continuar com a instalação.
 
-   O instalador faz o backup dos arquivos de configuração do servidor antigos na pasta [!DNL BACKUP/].
+   O instalador faz o backup dos arquivos de configuração do servidor antigos no [!DNL BACKUP/] pasta.
 
-   Quando a instalação estiver concluída, a seguinte mensagem será mostrada:
+   Quando a instalação estiver concluída, a seguinte mensagem será exibida:
 
    `Image Server was started successfully`
 
-Durante uma atualização, o arquivo [!DNL ImageServing/conf/server.xml] é atualizado para as configurações mais recentes. Se você alterou ou adicionou algum valor, deve salvar seu [!DNL server.xml] existente e reimplementar as alterações após a atualização.
+Durante uma atualização, a variável [!DNL ImageServing/conf/server.xml] O arquivo é atualizado para as configurações mais recentes. Se você alterou ou adicionou valores, salve os valores existentes [!DNL server.xml] e reimplemente suas alterações após a atualização.
 
-Após uma instalação de atualização, considere o aquecimento do cache de resposta HTTP antes de colocar o servidor em funcionamento. Consulte a descrição do utilitário [!DNL playlog] para obter detalhes.
+Após uma instalação de atualização, considere o aquecimento do cache de resposta HTTP antes de colocar o servidor ativo. Consulte a descrição do [!DNL playlog] para obter detalhes.

@@ -1,13 +1,13 @@
 ---
+title: opac
 description: Opacidade. Especifica a opacidade do material.
 solution: Experience Manager
-title: opac
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Opacidade. Especifica a opacidade do material.
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>Opacidade do material (percentagem); 0...100 </p> </td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ As seguintes combinações de material/objeto oferecem suporte para a opacidade 
 * Materiais de revestimento de janelas aplicados a objetos de estrutura para revestimento de janelas.
 * Decalhes aplicados a objetos textuais ou objetos de parede.
 
-Se o material incluir uma imagem com um canal alfa, `opac=` poderá ser usado para tornar a imagem mais transparente, mas não mais opaca.
+Se o material incluir uma imagem com um canal alfa, `opac=` pode ser usada para tornar a imagem mais transparente, mas não mais opaca.
 
 ## Propriedades {#section-352f7b82ede54159b6afb90ae4b559ec}
 
