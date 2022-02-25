@@ -1,13 +1,13 @@
 ---
+title: Área do visualizador principal
 description: A área de visualização principal é a área ocupada pela imagem de zoom. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
 solution: Experience Manager
-title: Área do visualizador principal
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -39,17 +39,17 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A largura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador com fundo branco ( `#FFFFFF`) e tornar seu tamanho 512 x 288 pixels.
+Exemplo - para configurar um visualizador com fundo branco ( `#FFFFFF`) e torne seu tamanho de 512 x 288 pixels.
 
 ```
 .s7basiczoomviewer{ 

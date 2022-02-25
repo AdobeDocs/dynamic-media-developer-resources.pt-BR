@@ -1,20 +1,20 @@
 ---
+title: ZoomView.iconeffect
 description: ZoomView.iconeffect
 solution: Experience Manager
-title: ZoomView.iconeffect
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: faec00b3-b981-4831-bc97-dff442389133
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`desaparecer`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
