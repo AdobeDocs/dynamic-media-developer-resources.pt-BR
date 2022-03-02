@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 3%
 + [Requisitos do sistema](c-system-requirements-and-prerequisites.md)
 + [Instalar vários visualizadores no mesmo servidor](t-installing-the-viewers.md)
 + Notas de versão dos visualizadores {#viewers-release-notes}
-   + [Notas de versão dos visualizadores (5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [Notas de versão dos visualizadores (5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + Arquivar {#archive}
+      + [Notas de versão dos visualizadores (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Notas de versão dos visualizadores (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Notas de versão dos visualizadores (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Notas de versão dos visualizadores (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
