@@ -2,12 +2,12 @@
 description: Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 
-Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado serão rejeitadas. `localhost` sempre faz parte implicitamente da  `ClientAddressFilter` definição, mesmo que não tenha sido especificado explicitamente. As solicitações originárias de `localhost` nunca são rejeitadas, independentemente da especificação `ClientAddressFilter`.
+Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado são rejeitadas. `localhost` é sempre implicitamente parte do `ClientAddressFilter` definição, mesmo que não especificada explicitamente. Pedidos originários de `localhost` nunca são rejeitadas, independentemente do `ClientAddressFilter` especificação.
 
 ## Propriedades {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-Lista separada por vírgulas de endereços IP com máscaras de rede opcionais ([Notação CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) é usada):
+Lista de endereços IP separados por vírgulas com máscaras de rede opcionais ([Notação CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) é utilizado):
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* Endereço IP no  *[!DNL ddd.ddd.ddd.ddd]* formato
+* *[!DNL ipAddress]* Endereço IP em *[!DNL ddd.ddd.ddd.ddd]* format
 
 * *[!DNL netmask]* máscara de rede (0...32)
 
-Esse atributo é ignorado quando uma regra de pré-processamento com um elemento `<addressfilter>` é aplicada.
+Esse atributo é ignorado quando uma regra de pré-processamento com um `<addressfilter>` é aplicado.
 
 ## Padrão {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 

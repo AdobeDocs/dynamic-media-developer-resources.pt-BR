@@ -1,20 +1,20 @@
 ---
-description: O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
-solution: Experience Manager
 title: Catálogo de sessão
-feature: Dynamic Media Classic, SDK/API
+description: O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação e um valor catId padrão para todos os comandos src=, vinheta= e icc=.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # Catálogo de sessão{#session-catalog}
 
-O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação, bem como um valor catId padrão para todos os comandos src=, vinheta= e icc=.
+O catálogo de sessão é o catálogo de material que fornece atributos de sessão para a solicitação e um valor catId padrão para todos `src=`, `vignette=`e `icc=` comandos.
 
 O catálogo de sessão é especificado como o primeiro elemento de caminho do caminho de solicitação HTTP (imediatamente após o nome do servidor). Se o primeiro elemento de caminho não corresponder ao atributo::RootId de qualquer catálogo, o catálogo padrão será usado como um catálogo de sessão.
 
@@ -42,7 +42,7 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::RootUrl</span> </p> </td> 
-   <td> <p> URL raiz para caminhos de arquivo HTTP relativos nos comandos <span class="codeph"> src=</span> </p> </td> 
+   <td> <p> URL raiz para caminhos de arquivo HTTP relativos em <span class="codeph"> src=</span> comandos </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::ShowOvercomandoObjs</span> </p> </td> 
@@ -78,11 +78,11 @@ O catálogo de sessão fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailSel</span> </p> </td> 
-   <td> <p> Especifica o comportamento quando um comando <span class="codeph"> sel=</span> falha </p> </td> 
+   <td> <p> Especifica o comportamento quando um <span class="codeph"> sel=</span> comando falha </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::OnFailObj</span> </p> </td> 
-   <td> <p> Especifica o comportamento quando um comando <span class="codeph"> obj=</span> falha </p> </td> 
+   <td> <p> Especifica o comportamento quando um <span class="codeph"> obj=</span> comando falha </p> </td> 
   </tr> 
  </tbody> 
 </table>

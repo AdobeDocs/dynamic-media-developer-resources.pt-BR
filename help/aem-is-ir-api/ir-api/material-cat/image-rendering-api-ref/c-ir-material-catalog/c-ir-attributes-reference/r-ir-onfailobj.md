@@ -2,12 +2,12 @@
 description: Tratamento de erros na seleção de objetos. Especifica a ação a ser executada se o comando obj= falhar porque o caminho especificado não pode ser correspondido na hierarquia do objeto de vinheta.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
@@ -31,10 +31,10 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos será ignorada. </p> </td> 
+  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos é ignorada. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
   <td class="stentry"> <p>Retorne um erro. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -49,4 +49,4 @@ Herdado de `default::OnFailObj` se não estiver definido.
 
 ## Consulte também {#section-806dc2c5973c41f683af085b3315043c}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) ,  [atributo::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)
+[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) , [atributo::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)

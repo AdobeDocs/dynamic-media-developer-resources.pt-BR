@@ -2,12 +2,12 @@
 description: Uma tarefa agendada para execução.
 solution: Experience Manager
 title: ScheduledJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,10 @@ Sintaxe
 | `*`originalName`*` | `xsd:string` | Nome original do trabalho agendado. |
 | `*`type`*` | `xsd:string` | Tipo de tarefa. |
 | `*`submitUserEmail`*` | `xsd:string` | O endereço de email do usuário que agendou o trabalho. |
-| `*`locale`*` | `xsd:string` | A localidade a ser usada para detalhes do log de tarefas e localização de email. As localidades são especificadas como `<language_code>[- <country_code>]`, onde o código de idioma é um código de duas letras em minúsculas, conforme especificado pela ISO-639, e o código de país opcional é um código de duas letras em maiúsculas, conforme especificado pela ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: `en-US`. |
+| `*`locale`*` | `xsd:string` | A localidade a ser usada para detalhes do log de tarefas e localização de email. As localidades são especificadas como `<language_code>[- <country_code>]`, em que o código linguístico é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional do país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: `en-US`. |
 | `*`descrição`*` | `xsd:string` | Uma descrição da tarefa conforme especificado originalmente em `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | Quando a tarefa estiver agendada para execução. |
-| `*`nextFireTime`*` | `xsd:dateTime` | A data, a hora e o fuso horário em que a tarefa será acionada. |
+| `*`nextFireTime`*` | `xsd:dateTime` | A data, a hora e o fuso horário em que a tarefa é acionada. |
 | `*`timeZone`*` | `xsd:dateTime` | O fuso horário do trabalho agendado. |
 | `*`triggerState`*` | `xsd:int` | Estado do gatilho de escolha de trabalho. |
 | `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | Detalhes do trabalho para um trabalho de publicação de fornecimento de imagem. |
@@ -43,11 +43,11 @@ Sintaxe
 | `*`otimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar Trabalho](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| `*`exportJob`*` | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar trabalho](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Quando você especifica um valor de tipo de trabalho em `submitJob`, o sistema retorna uma tarefa com base nesse tipo. As seguintes tarefas podem ser retornadas:
+Ao especificar um valor do tipo de tarefa em `submitJob`, o sistema retorna uma tarefa com base nesse tipo. As seguintes tarefas podem ser retornadas:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

@@ -2,12 +2,12 @@
 description: Obtém os detalhes de um log de trabalho da empresa.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Obtém os detalhes de um log de trabalho da empresa.
 
-O campo de resposta `logMessage` é localizado com base no campo `authHeader` `locale`.
+O `logMessage` O campo de resposta é localizado com base na variável `authHeader` `locale` campo.
 
 ## Tipos de usuário autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -65,19 +65,19 @@ O campo de resposta `logMessage` é localizado com base no campo `authHeader` `l
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Uma ou mais constantes de Tipo de Log. Se estiver presente, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
+   <td colname="col4"> Uma ou mais constantes de Tipo de Log. Se houver, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número máximo de itens <span class="codeph"> detailArray</span> a retornar. O valor máximo e padrão é 1000. </td> 
+   <td colname="col4">Número máximo de <span class="codeph"> detailArray</span> itens para retornar. O valor máximo e padrão é 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número de página de <span class="codeph"> registrosPerPage</span>-resultados a serem retornados. O valor padrão é 1. </td> 
+   <td colname="col4">Número da página de <span class="codeph"> recordsPerPage</span>-resulta para retornar. O valor padrão é 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -98,7 +98,7 @@ O campo de resposta `logMessage` é localizado com base no campo `authHeader` `l
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de tarefas. |
+| `*`jobLogArray`*` | `types:JobLogArray` | Sim | Matriz de registros de trabalhos. |
 
 ## Exemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 

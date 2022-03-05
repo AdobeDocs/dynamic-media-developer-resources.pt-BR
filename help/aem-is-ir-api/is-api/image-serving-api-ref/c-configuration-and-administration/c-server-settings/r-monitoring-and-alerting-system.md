@@ -2,12 +2,12 @@
 description: Use essas configurações do servidor para configurar o sistema de monitoramento e alerta.
 solution: Experience Manager
 title: Sistema de acompanhamento e alerta
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Um ou mais endereços de email para os quais os alertas devem ser enviados. Use 
 
 ## AS::monitorAlertGenerator.messageFrom - Remetente de mensagem {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-O endereço de email que deve ser usado no campo de email **[!UICONTROL From]**.
+O endereço de email que deve ser usado na variável **[!UICONTROL From]** campo de email.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervalo de monitoramento {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -46,4 +46,4 @@ Tempo mínimo após um alerta de espaço de heap antes da emissão de outro. Tem
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - Tráfego mínimo para ativar a geração de alertas {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Solicitações por segundo. Nenhum tempo de resposta e alertas de erro serão emitidos se o tráfego cair abaixo desse limite. Defina como 0 para enviar alertas de tempo de resposta e de erro, independentemente do volume de tráfego. Valor real 0 ou maior.
+Solicitações por segundo. Nenhum alerta de erro e de tempo de resposta é emitido se o tráfego cair abaixo desse limite. Defina como 0 para enviar alertas de tempo de resposta e de erro, independentemente do volume de tráfego. Valor real 0 ou maior.

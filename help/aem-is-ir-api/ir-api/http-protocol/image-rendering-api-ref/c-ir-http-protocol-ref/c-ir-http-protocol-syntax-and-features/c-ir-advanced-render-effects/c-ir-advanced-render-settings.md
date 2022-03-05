@@ -1,13 +1,13 @@
 ---
+title: Configurações avançadas de renderização
 description: A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Authoring) fornece mecanismos para controlar aspectos de baixo nível do mecanismo de renderização de vinheta.
 solution: Experience Manager
-title: Configurações avançadas de renderização
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 17%
 
 ---
@@ -20,7 +20,7 @@ A Ferramenta de criação de vinhetas (parte do pacote Dynamic Media Image Autho
 >
 >Configurações de renderização é um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte técnico do Adobe ou seu representante de consultoria do Adobe para treinamento, consulta ou ambos, sobre o uso das Configurações de renderização.
 
-Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o comando `rs=` (ou com o valor `catalog::RenderSettings`). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos destaques ou o contraste nas sombras.
+Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o `rs=` (ou com o `catalog::RenderSettings` valor). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização da iluminação, como a variação da saturação dos destaques ou o contraste nas sombras.
 
 ## Valores de Configuração Avançada de Renderização (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

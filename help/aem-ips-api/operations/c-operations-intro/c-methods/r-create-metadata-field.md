@@ -2,12 +2,12 @@
 description: Permite que os administradores criem novos campos de metadados para coordenar com sistemas de gerenciamento de conteúdo ou para operações de modelo. Exemplos de campos de metadados criados incluem palavras-chave, informações sobre o autor da imagem ou informações do detentor dos direitos autorais.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic, SDK/API, Metadados
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>O valor padrão do campo de metadados a ser criado (por exemplo, <span class="codeph"> Scene7</span>). </p> <p>Valores padrão não são suportados para tipos de campos de tag e devem ser omitidos. Se um padrão que não esteja vazio for especificado para um tipo de campo de tag, uma falha será retornada. </p> </td> 
+   <td colname="col4"> <p>O valor padrão do campo de metadados a ser criado (por exemplo, <span class="codeph"> Cena 7</span>). </p> <p>Valores padrão não são suportados para tipos de campos de tag e devem ser omitidos. Se um padrão que não esteja vazio for especificado para um tipo de campo de tag , uma falha será retornada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 

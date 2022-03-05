@@ -1,18 +1,18 @@
 ---
+title: Macros de comando
 description: As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 solution: Experience Manager
-title: Macros de comando *
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
-# Macros de comando *{#command-macros}
+# Macros de comando{#command-macros}
 
 As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
@@ -24,9 +24,9 @@ As macros são definidas em arquivos separados de definição de macro, que pode
 
 *[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir de qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-Chame macros em qualquer lugar em uma solicitação depois de &#39;?&#39; ou em qualquer lugar dentro de um campo `vignette::Modifier`. As macros só podem representar um ou mais comandos completos de Renderização de Imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
+Chame macros em qualquer lugar em uma solicitação após o &#39;?&#39; ou em qualquer lugar dentro de uma `vignette::Modifier` campo. As macros só podem representar um ou mais comandos de Renderização de Imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 
-As invocações de macro são substituídas por suas sequências de substituição precocemente durante a análise. Os comandos em macros substituem os mesmos comandos na solicitação se ocorrerem antes da chamada de macro na solicitação. Isso é diferente de `vignette::Modifier`, onde os comandos na cadeia de caracteres de solicitação sempre substituirão os comandos na cadeia de caracteres `vignette::Modifier`, independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas sequências de substituição precocemente durante a análise. Os comandos em macros substituem os mesmos comandos na solicitação se ocorrerem antes da chamada de macro na solicitação. Esse workflow é diferente de `vignette::Modifier`, em que os comandos na cadeia de caracteres de solicitação substituem os comandos no `vignette::Modifier` , independentemente da posição na solicitação.
 
 As macros de comando não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
@@ -46,10 +46,10 @@ A macro seria usada da seguinte maneira:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Como `qlt=` é diferente para a terceira solicitação, simplesmente substituímos o valor após a macro ser chamada (especificar `qlt=`*before* `$render$`não teria efeito).
+Porque `qlt=` for diferente para a terceira solicitação, o software substituirá o valor depois que a macro for chamada (especificando `qlt=` *before* `$render$`é ineficaz).
 
 **Consulte também**
 
-`catalog::MacroFile`,  `catalog::Modifier`, Referência de definição de macro
+`catalog::MacroFile`, `catalog::Modifier`, Referência de definição de macro
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->

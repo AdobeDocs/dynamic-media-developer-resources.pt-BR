@@ -1,20 +1,20 @@
 ---
-description: Cria um conjunto de ativos genéricos com uma cadeia de caracteres de definição de conjunto bruto a ser publicado em um Servidor de imagens.
+description: Cria um conjunto de ativos genéricos com uma string de definição de conjunto bruto a ser publicado em um Servidor de imagens.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 # createAssetSet{#createassetset}
 
-Cria um conjunto de ativos genéricos com uma cadeia de caracteres de definição de conjunto bruto a ser publicado em um Servidor de imagens.
+Cria um conjunto de ativos genéricos com uma string de definição de conjunto bruto a ser publicado em um Servidor de imagens.
 
 Sintaxe
 
@@ -42,38 +42,38 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O identificador da empresa que conterá o conjunto de ativos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O identificador da pasta na qual o novo conjunto de ativos será criado. </td> 
+   <td colname="col4"> O identificador da pasta em que o novo conjunto de ativos é criado. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do ativo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Um identificador exclusivo criado pelo cliente para o tipo de conjunto de ativos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Os parâmetros na string de definição do conjunto. <p>Eles devem resolver para o formato especificado pelo visualizador de destino. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. </td> 
   </tr> 

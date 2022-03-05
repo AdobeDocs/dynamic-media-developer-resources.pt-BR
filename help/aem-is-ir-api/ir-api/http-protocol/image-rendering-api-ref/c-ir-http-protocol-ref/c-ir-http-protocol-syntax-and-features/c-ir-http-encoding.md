@@ -1,13 +1,13 @@
 ---
+title: Codificação HTTP de renderização de imagem
 description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
 solution: Experience Manager
-title: Codificação HTTP de renderização de imagem
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Os valores de comando devem ser codificados em http usando %xx sequências de es
 
 Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, como &#39; (espaço), &#39;&quot;(aspas duplas), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
 
-**Cuidado:** as chaves { } usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Certos clientes de email infelizmente codificam chaves em solicitações HTTP incorporadas. Caso isso seja um problema, a Renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
+**Cuidado:** As chaves { } usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Certos clientes de email infelizmente codificam chaves em solicitações HTTP incorporadas. Caso esse problema seja um problema, a Renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
 
 ## Exemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 

@@ -2,12 +2,12 @@
 description: Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 
-Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado serão rejeitadas.
+Quando especificado, as solicitações para este catálogo de imagem que se originam de um cliente em um endereço IP não listado são rejeitadas.
 
 ## Propriedades {#section-d785265988324af68835410c9ba54147}
 
 Lista separada por vírgulas de endereços IP com máscaras de rede opcionais (a notação CIDR é usada):
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Endereço IP no formato <span class="varname"> ddd.ddd.ddd.ddd</span>. </p></td> 
+  <td class="stentry"> <p>Endereço IP em <span class="varname"> ddd.ddd.ddd.ddd</span> formato. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> máscara de rede</span> </p></td> 
@@ -35,7 +35,7 @@ Lista separada por vírgulas de endereços IP com máscaras de rede opcionais (a
  </tr> 
 </table>
 
-Esse atributo é ignorado quando uma regra de pré-processamento com um elemento `<addressfilter>` é aplicada.
+Esse atributo é ignorado quando uma regra de pré-processamento com um `<addressfilter>` é aplicado.
 
 ## Padrão {#section-de26e8c9225745e985e4beac1f03f4f6}
 

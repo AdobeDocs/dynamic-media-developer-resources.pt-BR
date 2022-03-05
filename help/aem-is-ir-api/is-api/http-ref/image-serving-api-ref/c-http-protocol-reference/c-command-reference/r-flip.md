@@ -2,12 +2,12 @@
 description: Flip Layer. Vira a camada horizontalmente, verticalmente ou em ambas, após aplicar cortar= e antes de girar= e estender=.
 solution: Experience Manager
 title: virar
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,22 @@ Flip Layer. Vira a camada horizontalmente, verticalmente ou em ambas, após apli
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lr  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
   <td class="stentry"> <p>Virar a camada horizontalmente (à esquerda e à direita). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ud  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
   <td class="stentry"> <p>Virar camada verticalmente (para cima). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lrud  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
   <td class="stentry"> <p>Inverter horizontalmente e verticalmente. </p> </td> 
  </tr> 
 </table>
 
 Pode também ser aplicado às camadas de texto.
 
-Alguns comandos, incluindo `extend=`, aplicam-se implicitamente à camada 0 em vez da camada composta quando `layer=comp` é selecionado. Nesses cenários, todos os comandos que são atribuídos automaticamente à camada 0 serão aplicados antes dos comandos que se aplicam a `layer=comp`. Assim, quando `layer=comp`, `extend=` é aplicado antes de `flip=`.
+Alguns comandos, incluindo `extend=`, aplique implicitamente à camada 0 em vez da camada composta quando `layer=comp` está selecionada. Nesses cenários, todos os comandos atribuídos automaticamente à camada 0 são aplicados antes dos comandos que se aplicam a `layer=comp`. Assim, quando `layer=comp`, `extend=` for aplicada antes de `flip=`.
 
 >[!NOTE]
 >
@@ -51,4 +51,4 @@ Nenhum.
 
 ## Consulte também {#section-47f6484deccd420983df15ec163b4a83}
 
-[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) ,  [âncora=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) , [âncora=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

@@ -2,12 +2,12 @@
 description: Configurações gerais do servidor
 solution: Experience Manager
 title: Geral
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Especifica a porta de escuta principal do Servidor de Plataforma. Essa porta tam
 
 ## IS::CacheServerUrl - Url Raiz do Serviço de Cache {#section-bcca227a1f91453b834db4ea050968e2}
 
-Especifica o caminho raiz HTTP para permitir o acesso do Servidor de Imagens ao serviço de cache. Deve ser definido como [!DNL http://localhost:TC::PsPort /is/cache/secondary], com o número da porta correspondente a `TC::PsPort`.
+Especifica o caminho raiz HTTP para permitir o acesso do Servidor de Imagens ao serviço de cache. Deve ser definido como [!DNL http://localhost:TC::PsPort /is/cache/secondary], com o número da porta correspondente `TC::PsPort`.
 
 ## IS::RemoteUrlDefaultExpiration - TTL Padrão do Image Source Remoto {#section-e4c31228b459492cacd2f482d9575f71}
 
-O TTL para imagens em cache obtidas via HTTP de uma fonte remota usando a construção `src={…}`. Usado apenas quando o servidor remoto não inclui um cabeçalho Expiration na resposta HTTP. Valor inteiro em segundos.
+O TTL para imagens em cache obtidas via HTTP de uma fonte remota usando o `src={…}` construir. Usado apenas quando o servidor remoto não inclui um cabeçalho Expiration na resposta HTTP. Valor inteiro em segundos.
 
 ## IS::RemoteUrlTimeout - Tempo limite remoto do Image Source {#section-437646c479cc4bea81dae42100a3c50a}
 
@@ -42,4 +42,4 @@ Defina como falso para não permitir solicitações que não incluam uma ID de c
 
 ## PS::saveToFile.saveTimeout - Tempo limite de gravação de arquivo {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Valor de tempo limite padrão para `req=saveToFile` quando `timeout=`não é especificado. `msec`. Um erro será retornado se a operação de salvamento não for concluída dentro do período especificado.
+Valor de tempo limite padrão para `req=saveToFile` when `timeout=`não especificado. `msec`. Um erro é retornado se a operação de salvamento não for concluída dentro do período especificado.

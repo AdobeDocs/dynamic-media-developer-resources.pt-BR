@@ -2,12 +2,12 @@
 description: Tamanho Decal. Largura, altura e espessura de um objeto de material de decalque.
 solution: Experience Manager
 title: Tamanho
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Forneça um valor de espessura para adicionar uma sombra ao objeto decal. Facult
 
 ## Padrão {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0.0.0. Isso indica que o tamanho da decalque deve ser determinado com base em catalog::Resolution e que o objeto não tem uma espessura (portanto, nenhuma sombra será renderizada).
+0.0.0. Isso indica que o tamanho da decalque deve ser determinado com base em catalog::Resolution e que o objeto não tem uma espessura (portanto, nenhuma sombra é renderizada).
 
 ## Exemplos {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

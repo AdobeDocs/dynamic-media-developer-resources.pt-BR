@@ -2,12 +2,12 @@
 description: Define os comandos do protocolo Image Serving ou Image Rendering para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 solution: Experience Manager
 title: setUrlModifier
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define os comandos do protocolo Image Serving ou Image Rendering para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 
-Para o Image Serving, os comandos no parâmetro `urlModifier` são publicados no campo Modificador do catálogo e aplicados antes de qualquer comando especificado no URL da solicitação. Os comandos em `urlPostApplyModifier` serão publicados no campo de catálogo `PostModifier` e substituirão quaisquer comandos no URL da solicitação ou em `urlModifier`. Para Renderização de imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenados e publicados no campo de catálogo Modificador.
+Para o Image Serving, os comandos no `urlModifier` são publicados no campo Modificador catálogo e aplicados antes de qualquer comando especificado na URL da solicitação. Comandos em `urlPostApplyModifier` são publicadas para `PostModifier` campo de catálogo e substitua quaisquer comandos no URL da solicitação ou em `urlModifier`. Para renderização de imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenadas e publicadas no campo Modifier catalog .
 
 ## Tipos de usuário autorizados {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,7 +35,7 @@ Para o Image Serving, os comandos no parâmetro `urlModifier` são publicados no
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
 | `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
-| `*`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar antes dos comandos request ou `urlPostApplyModifier` . |
+| `*`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar antes da solicitação ou `urlPostApplyModifier` comandos. |
 | `*`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar depois de `urlModifier` e solicitar comandos. |
 
 **Saída (setUrlModifierReturn)**

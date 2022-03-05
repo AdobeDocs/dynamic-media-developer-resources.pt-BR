@@ -2,12 +2,12 @@
 description: Um tipo de conjunto de propriedades especifica várias configurações usadas para ajudar a gerenciar conjuntos de propriedades.
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se `companyHandle` não for passado e o chamador for `IpsAdmin`, um tipo de conjunto de propriedades global será criado. |
+| `*`companyHandle`*` | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. If `companyHandle` não é transmitido e o chamador é um `IpsAdmin`, um tipo de conjunto de propriedades global é criado. |
 | `*`name`*` | `xsd:string` | Sim | O nome do tipo de conjunto de propriedades. |
 | `*`propertyType`*` | `xsd:string` | Sim | Escolha dos tipos de conjunto de propriedades. |
 | `*`allowMultiple`*` | `xsd:boolean` | Sim | Determina se o programa pode ter vários conjuntos de propriedades. |
@@ -44,7 +44,7 @@ Sintaxe
 
 ## Exemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Essa amostra de código cria um conjunto de propriedades com um nome e tipo especificados pela constante `PropertySet Types`. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades global será criado.
+Essa amostra de código cria um conjunto de propriedades com um nome e um tipo especificados pela função `PropertySet Types` constante. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades global será criado.
 
 **Solicitação**
 

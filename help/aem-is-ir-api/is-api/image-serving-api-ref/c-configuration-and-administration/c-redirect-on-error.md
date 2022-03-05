@@ -2,12 +2,12 @@
 description: Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não pode ser aberta ou lida com êxito.
 solution: Experience Manager
 title: Redirecionar para erro
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Os seguintes tipos de solicitações são redirecionadas:
 
 O redirecionamento de erros não ocorrerá em nenhum outro caso.
 
-Quando ativado e esse erro ocorrer durante o processamento da solicitação, o servidor primário enviará a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente para o cliente. O servidor primário marca as entradas de log dessas solicitações encaminhadas com o uso de cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
+Quando ativado e esse erro ocorrer durante o processamento da solicitação, o servidor primário enviará a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente para o cliente. O servidor principal marca as entradas de log dessas solicitações encaminhadas com o uso do cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
 
-O redirecionamento de erro é ativado ao configurar `PS::errorRedirect.rootUrl` para o nome de domínio HTTP e o número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário esperará por uma resposta do servidor secundário antes de retornar um erro ao cliente é configurado com `PS::errorRedirect.socketTimeout`.
+O redirecionamento de erro é ativado ao configurar `PS::errorRedirect.rootUrl` ao nome de domínio HTTP e número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário esperará por uma resposta do servidor secundário antes de retornar um erro para o cliente ser configurado com `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

@@ -2,12 +2,12 @@
 description: Embora a adição de novos arquivos de dados seja simples e direta, é necessário ter cuidado especial ao substituir arquivos de dados existentes que são usados ativamente pelo servidor. Em vez de simplesmente substituir esses arquivos, é recomendável dar um novo nome ao arquivo de substituição (por exemplo, anexar um sufixo de versão ao nome do arquivo). Depois que o novo arquivo for ativado, a versão antiga poderá ser excluída.
 solution: Experience Manager
 title: Exclusão ou substituição de arquivos de dados
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Embora a adição de novos arquivos de dados seja simples e direta, é necessár
 >
 >Os arquivos de dados nunca devem ser substituídos ou excluídos enquanto estiverem em uso ativo pelo Serviço de imagem. Caso contrário, podem ocorrer erros ou mesmo falhas no servidor.
 
-Em todos os casos, lembre-se de que o cache do Platform Server e as entradas do cache do cliente devem se tornar obsoletos antes que os dados atualizados sejam vistos pelo cliente. Entradas específicas do cache podem ser atualizadas imediatamente usando o comando `cache=validate`.
+Em todos os casos, lembre-se de que o cache do Platform Server e as entradas do cache do cliente devem se tornar obsoletos antes que os dados atualizados sejam vistos pelo cliente. Entradas específicas do cache podem ser atualizadas imediatamente usando o `cache=validate` comando.
 
 As alterações nos arquivos de fonte e nos arquivos de perfil ICC não são rastreadas diretamente pelo gerenciador de cache. Se esse recurso for modificado sem alterar sua id, o cache do servidor não saberá sobre a alteração e `cache=validate` não fará com que a entrada do cache seja atualizada. `cache=update` pode ser usada para forçar a regeneração dessas entradas de cache.
 

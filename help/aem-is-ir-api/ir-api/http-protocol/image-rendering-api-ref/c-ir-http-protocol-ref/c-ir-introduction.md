@@ -1,13 +1,13 @@
 ---
+title: Introdução
 description: Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
 solution: Experience Manager
-title: Introdução
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Apenas são descritos os aspectos do protocolo que se encontram à disposição 
 
 **Público-alvo pretendido**
 
-Esse documento é destinado a programadores experientes e desenvolvedores de sites que desejam utilizar a Renderização de imagem do Dynamic Media para um site ou aplicativo personalizado.
+Este documento destina-se a programadores experientes e desenvolvedores de sites que desejam usar a Renderização de imagem do Dynamic Media para um site ou aplicativo personalizado.
 
 Pressupõe-se que o leitor esteja familiarizado com a Criação e renderização de imagens do Dynamic Media, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
 
@@ -29,42 +29,42 @@ Pressupõe-se que o leitor esteja familiarizado com a Criação e renderização
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>literal </p> </td> 
-  <td class="stentry"> <p>Nas seções de sintaxe, o texto não itálico é literal; isso não se aplica ao espaço em branco e aos símbolos [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>Nas seções de sintaxe, o texto não itálico é literal; não se aplica ao espaço em branco e aos símbolos [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
   <td class="stentry"> <p>Nas seções descritivas, o texto não itálico entre aspas simples é literal. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> parâmetro  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> parâmetro </span> </p> </td> 
   <td class="stentry"> <p>Itálico indica uma variável ou parâmetro que deve ser substituído por um valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> atributo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com prefixo 'attribute::' refere-se a um atributo de catálogo de imagens. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catálogo::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catálogo::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com prefixo 'catalog:::' refere-se a um campo de dados de catálogo de materiais. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc:Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc:Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com o prefixo 'icc::' refere-se a um campo no mapa de perfil de cores ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com o prefixo 'macro::' refere-se a um campo na tabela de definição de macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> conjunto de regras::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> conjunto de regras::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com o prefixo "conjunto de regras::" refere-se a um elemento em um conjunto de regras de pré-processamento de URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> padrão::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> padrão::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com prefixo 'padrão::' refere-se a um atributo do catálogo de imagens padrão. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <span class="codeph"> vinheta::Item  </span> </td> 
+  <td class="stentry"> <span class="codeph"> vinheta::Item </span> </td> 
   <td class="stentry"> <p>Um nome com prefixo 'vinheta::' refere-se a um campo no mapa de vinheta. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -76,7 +76,7 @@ Pressupõe-se que o leitor esteja familiarizado com a Criação e renderização
   <td class="stentry"> <p>O elemento opcional de sintaxe pode ser repetido nenhuma ou mais vezes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> item1  </span>|  <span class="varname"> rubrica 2  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </p> </td> 
   <td class="stentry"> <p>Uma barra vertical indica que o único item de sintaxe à esquerda ou o item à direita podem ser usados. Deve ser selecionado exatamente um item. </p> </td> 
  </tr> 
  <tr class="strow"> 

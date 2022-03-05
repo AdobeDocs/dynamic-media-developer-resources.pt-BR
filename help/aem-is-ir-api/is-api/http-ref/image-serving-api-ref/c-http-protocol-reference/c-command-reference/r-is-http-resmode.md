@@ -2,12 +2,12 @@
 description: Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar dados de imagem. Também se aplica à rotação de camadas de texto e ao redimensionamento de imagens compostas durante a transformação da exibição.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilhão  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilhão </span> </p> </td> 
    <td colname="col2"> <p>Seleciona a interpolação bi-linear padrão. Método de reamostragem mais rápido; alguns artefatos de aliasing são perceptíveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicubo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicubo </span> </p> </td> 
    <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensiva em CPU do que a interpolação bidirecional, mas produz imagens mais nítidas com artefatos de aliasing menos notáveis. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> shark2  </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função modificada da Janela Lanczos como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> afiado  </span> foi substituído por  <span class="codeph"> afiado2  </span>, que tem uma probabilidade menor de causar artefatos aliasing (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> shark2 </span> </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função modificada da Janela Lanczos como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> nítido </span> foi substituída por <span class="codeph"> shark2 </span>, que tem menor probabilidade de causar artefatos aliasing (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharpe  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharpe </span> </p> </td> 
    <td colname="col2"> <p>Seleciona o novo amplificador padrão Photoshop para reduzir o tamanho da imagem, que é chamado de "afiador bicúbico" no Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Modo de nova amostra. Escolhe o algoritmo de reamostragem e/ou interpolação a 
 
 >[!IMPORTANT]
 >
->Para manter a proporção de aspecto de uma imagem ao usar `resMode=bisharp` e `fit=stretch`, é uma prática recomendada usar o parâmetro largura ou o parâmetro altura . Se ambos os parâmetros tiverem de ser definidos, você poderá vinculá-los em uma camada diferente, como mostrado no exemplo a seguir:
+>Para manter a proporção de aspecto de uma imagem quando você usa ambos `resMode=bisharp` e `fit=stretch`, é uma prática recomendada usar o parâmetro largura ou o parâmetro altura . Se ambos os parâmetros tiverem de ser definidos, você poderá vinculá-los em uma camada diferente, como mostrado no exemplo a seguir:
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -55,7 +55,7 @@ Atributo da solicitação. Aplica-se a todas as operações de dimensionamento e
 
 ## Exemplo {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Recupere uma representação de melhor qualidade de uma imagem em camadas armazenada em um catálogo de imagens. A imagem pode incluir texto. A imagem será processada posteriormente em um aplicativo de edição de imagem e, portanto, solicitará um canal alfa com a imagem.
+Recupere uma representação de melhor qualidade de uma imagem em camadas armazenada em um catálogo de imagens. A imagem pode incluir texto. A imagem é processada posteriormente em um aplicativo de edição de imagem e, portanto, solicita um canal alfa com a imagem.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

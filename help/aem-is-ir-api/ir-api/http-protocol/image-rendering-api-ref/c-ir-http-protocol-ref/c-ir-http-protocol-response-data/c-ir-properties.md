@@ -1,13 +1,13 @@
 ---
+title: Propriedades
 description: Os dados da propriedade são retornados em resposta ao seguinte req= types imageprops e props.
 solution: Experience Manager
-title: Propriedades
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Os dados da propriedade são retornados em resposta aos seguintes tipos req= : imageprops e props.
 
-Os dados de resposta são formatados para serem legíveis como propriedades Java. Uma resposta de propriedades de texto típica tem esta estrutura geral:
+Os dados de resposta são formatados para serem legíveis como propriedades do Java™. Uma resposta de propriedades de texto típica tem esta estrutura geral:
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ Os dados de resposta são formatados para serem legíveis como propriedades Java
 
 ...
 
-` *[!DNL propertyValue]*` pode estar em branco. O espaço em branco é opcional no início e no fim de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de string, mas não são obrigatórias.
+` *[!DNL propertyValue]*` Pode estar em branco. O espaço em branco é opcional no início e no fim de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de string, mas não são obrigatórias.
 
-Os valores de string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`. ou `\\`.
+Os valores da string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`ou `\\`.
 
 **Consulte também**
 
