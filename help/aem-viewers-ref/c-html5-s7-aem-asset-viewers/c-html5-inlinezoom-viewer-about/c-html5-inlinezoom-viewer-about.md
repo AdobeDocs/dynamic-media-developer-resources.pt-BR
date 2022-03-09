@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Também é necessário ter o componente FlyoutZoomView configurado para funciona
 
 Este é um exemplo de HTML code que abre o visualizador em uma nova janela:
 
-```
+```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ Você pode usar um caminho relativo se o visualizador for implantado em um dos s
 
 Um caminho relativo é semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de um elemento DIV de espaço reservado definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -164,7 +164,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de definição do tamanho estático do visualizador externo em uma página de HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -179,7 +179,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de definição do tamanho do visualizador para o interior `Container` Componente do SDK para que a área de visualização principal não altere seu tamanho ao alternar o ativo:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -206,7 +206,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . O exemplo assume `inlineZoomViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `http://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens; e `Scene7SharedAssets/ImageSet-Views-Sample` é o ativo:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -222,7 +222,7 @@ Um caminho relativo é semelhante ao seguinte:
 
    O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de Zoom em Linha com um tamanho fixo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -254,7 +254,7 @@ Um caminho relativo é semelhante ao seguinte:
 
 Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -283,7 +283,7 @@ Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo co
 * adicionado `imagereload` parâmetro com pontos de interrupção explícitos;
 * em vez de definir um tamanho de visualizador fixo usando unidades absolutas, use CSS que define o visualizador `width` e `height` a 100%, como no seguinte:
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -292,7 +292,7 @@ Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo co
 
 O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -337,7 +337,7 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para a variável `"holder"` O DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -363,7 +363,7 @@ height: 60%;
 
 O restante das etapas de incorporação são idênticas às etapas usadas para incorporação de design responsivo com altura irrestrita. O exemplo resultante é o seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -412,7 +412,7 @@ Em vez de usar a inicialização baseada em JSON, é possível usar a API basead
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

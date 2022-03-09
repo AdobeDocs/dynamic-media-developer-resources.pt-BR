@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP para o Image Server configurado com o tipo de visualizador e as informações da versão.
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
-```
+```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
  "containerId":"s7viewer", 
  "params":{ 
@@ -53,11 +53,11 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> HREF  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
    <td colname="col2"> <p>o usuário ativa o hotspot. </p> </td> 
   </tr> 
  </tbody> 

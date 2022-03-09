@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP para o Image Server configurado com o tipo de visualizador e as informações da versão.
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
-```
+```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -53,15 +53,15 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNER  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNER </span> </p> </td> 
    <td colname="col2"> <p>a imagem do banner do carrossel é alterada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> HREF  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
    <td colname="col2"> <p>o usuário ativa o ponto de acesso. </p> </td> 
   </tr> 
  </tbody> 

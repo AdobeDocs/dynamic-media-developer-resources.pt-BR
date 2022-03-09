@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1888'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.m
 
 O Visualizador de carrossel representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única inclusão do JavaScript com todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
-O Visualizador de carrossel pode ser usado no modo pop-up usando uma página HTML pronta para produção fornecida com visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+O Visualizador de carrossel pode ser usado no modo pop-up usando uma página de HTML pronta para produção fornecida com visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 
 A configuração e o skinning são semelhantes aos dos outros visualizadores descritos nesta Ajuda. Todo o esfolamento é obtido por meio de CSS personalizado.
 
@@ -58,9 +58,9 @@ Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibilit
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Pega toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação de um dispositivo móvel seja alterada.
 
-O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada `window.open()` do JavaScript, o elemento HTML `A` configurado corretamente ou qualquer outro método adequado.
+O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` HTML ou qualquer outro método adequado.
 
-É recomendável usar uma página HTML pronta para uso no modo de operação pop-up. Nesse caso, ele é chamado `CarouselViewer.html` e está localizado na subpasta `html5/` da implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. Nesse caso, é chamado de `CarouselViewer.html` e está localizado dentro do `html5/` subpasta da sua implantação padrão do IS-Viewers:
 
 `<s7viewers_root>/html5/CarouselViewer.html`
 
@@ -68,7 +68,7 @@ Você pode obter personalização visual aplicando CSS personalizado.
 
 Este é um exemplo de código HTML que abre o visualizador em uma nova janela:
 
-```
+```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
 
@@ -80,74 +80,74 @@ Os casos de uso principais são páginas da Web orientadas para desktops ou tabl
 
 A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Esse método é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
+A incorporação de design responsivo supõe que o visualizador deve ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
 
-Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área. Ele também segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preenche apenas essa área. Ele também segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 1. Definição do tamanho do visualizador.
 1. Criação e inicialização do visualizador.
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no cabeçalho HTML. Antes de usar a API do visualizador, inclua [!DNL CarouselViewer.js]. O arquivo [!DNL CarouselViewer.js] está localizado na subpasta [!DNL html5/js/] da implantação padrão do IS-Viewers:
+   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, verifique se você incluiu [!DNL CarouselViewer.js]. O [!DNL CarouselViewer.js] O arquivo está localizado sob a variável [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores da Adobe Dynamic Media Classic que têm os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/CarouselViewer.js"></script>
 ```
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
+>Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 
-   Adicione um elemento `DIV` vazio à página onde você deseja que o visualizador apareça. O elemento `DIV` deve ter sua ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
+   Adicionar um vazio `DIV` para a página onde você deseja que o visualizador apareça. O `DIV` deve ter a ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
 
-   O espaço reservado `DIV` é um elemento posicionado, o que significa que a propriedade CSS `position` está definida como `relative` ou `absolute`.
+   O espaço reservado `DIV` é um elemento posicionado, o que significa que a variável `position` A propriedade CSS está definida como `relative` ou `absolute`.
 
-   A seguir, um exemplo de um elemento `DIV` de espaço reservado definido:
+   Este é um exemplo de um espaço reservado definido `DIV` elemento:
 
-   ```
+   ```CSS {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
 1. Definição do tamanho do visualizador
 
-   Você pode definir o tamanho estático do visualizador declarando-o para `.s7carouselviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
+   Você pode definir o tamanho estático do visualizador declarando-o para `.s7carouselviewer` classe CSS de nível superior em unidades absolutas ou usando `stagesize` modificador.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocar o dimensionamento em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AEM Assets - sob demanda ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento no CSS diretamente na página do HTML. Ou você pode colocar o dimensionamento em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro de predefinição do visualizador no AEM Assets - sob demanda ou passado explicitamente usando a variável `style` comando.
 
-   Consulte [Personalizando o Visualizador de Carrossel](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
+   Consulte [Personalizar o Visualizador de carrossel](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
 
-   ```
+   ```CSS {.line-numbers}
    #s7viewer.s7carouselviewer { 
     width: 1174px; 
     height: 500px; 
    }
    ```
 
-   Você pode passar explicitamente o modificador `stagesize` com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos, desta forma:
+   Você pode transmitir explicitamente a variável `stagesize` modificador com o código de inicialização do visualizador com `params` ou como uma chamada de API, conforme descrito na seção Referência de comando , assim:
 
-   ```
+   ```CSS {.line-numbers}
    carouselViewer.setParam("stagesize", "1174,500");
    ```
 
@@ -155,15 +155,15 @@ O caminho relativo tem a seguinte aparência:
 
 1. Criação e inicialização do visualizador.
 
-   Após concluir as etapas acima, crie uma instância de `s7viewers.CarouselViewer` classe, passe todas as informações de configuração para seu construtor e chame o método `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId` que contém o nome da ID do contêiner do visualizador e o objeto JSON aninhado `params` com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o objeto `params` deve ter pelo menos o URL de Exibição de Imagem passado como propriedade `serverUrl` e o ativo inicial como parâmetro `asset`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Depois de concluir as etapas acima, crie uma instância de `s7viewers.CarouselViewer` classe , transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner do visualizador e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador. Nesse caso, a variável `params` O objeto deve ter pelo menos o URL de disponibilização de imagens passado como `serverUrl` e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
+   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa funcionalidade ocorrer, o carregamento do visualizador será retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa funcionalidade ocorrer, o carregamento do visualizador será retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume que `carouselViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` é o URL de disponibilização de imagens e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` é o ativo:
+   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . O exemplo assume `carouselViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` é o URL de disponibilização de imagens e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` é o ativo:
 
-   ```
+   ```javascript {.line-numbers}
    <script type="text/javascript"> 
    var carouselViewer = new s7viewers.CarouselViewer ({ 
     "containerId":"s7viewer", 
@@ -177,7 +177,7 @@ O caminho relativo tem a seguinte aparência:
 
    O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de carrossel com um tamanho fixo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -206,9 +206,9 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação de design responsivo com altura irrestrita**
 
-Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web. E sua altura é deixada sem restrições. O código HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web. E sua altura é deixada sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -227,12 +227,12 @@ Com a incorporação responsiva do design, a página da Web normalmente tem algu
 Adicionar o visualizador a essa página é semelhante às etapas para incorporação de tamanho fixo. A única diferença é que você não precisa definir explicitamente o tamanho do visualizador.
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 1. Criação e inicialização do visualizador.
 
-Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicione o contêiner `DIV` ao `"holder"` `DIV` existente. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicionar o contêiner `DIV` aos `"holder"` `DIV`. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,9 +266,9 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 **Incorporação de tamanho flexível com definição de largura e altura**
 
-Na incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Na incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ele fornece ambos os tamanhos para a variável `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -294,7 +294,7 @@ height: 60%;
 
 O restante das etapas de incorporação são idênticas às etapas usadas para incorporação responsiva com altura irrestrita. O exemplo resultante é o seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -332,11 +332,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 **Como incorporar usando a API baseada em setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()` e `setAsset()` métodos de API com chamadas JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`e `setAsset()` Métodos de API com chamadas JavaScript separadas.
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

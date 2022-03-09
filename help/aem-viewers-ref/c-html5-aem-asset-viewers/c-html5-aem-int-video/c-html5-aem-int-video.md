@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2211'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Visualizador de vídeo interativo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
 
-O visualizador também mostra amostras interativas de produtos ao lado do conteúdo do vídeo. Vídeo único e Conjuntos de vídeo adaptativo são suportados. Ele foi projetado para funcionar em navegadores da Web móveis e desktop que suportam vídeo HTML5. O visualizador aceita legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento social. O objetivo desse visualizador é ajudar você a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região específica do tempo do vídeo e ser redirecionados para uma página do Quickview ou de detalhes do produto no site do cliente.
+O visualizador também mostra amostras interativas de produtos ao lado do conteúdo do vídeo. Vídeo único e Conjuntos de vídeo adaptativo são suportados. Ele foi projetado para funcionar em navegadores para desktop e dispositivos móveis da Web que suportam vídeo HTML5. O visualizador aceita legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento social. O objetivo desse visualizador é ajudar você a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região específica do tempo do vídeo e ser redirecionados para uma página do Quickview ou de detalhes do produto no site do cliente.
 
 O tipo de visualizador é 510.
 
@@ -36,7 +36,7 @@ Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.m
 
 O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. Um único JavaScript é incluído com todos os componentes do SDK do visualizador usados por esse visualizador, ativos e CSS específicos.
 
-O Visualizador de vídeo interativo pode ser usado no modo pop-up usando uma página HTML pronta para produção fornecida com os Visualizadores de exibição de imagem. Ele também pode ser usado no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+O Visualizador de vídeo interativo pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores de veiculação de imagens. Ele também pode ser usado no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 
 A configuração e o ajuste do layout são semelhantes aos dos outros visualizadores descritos neste guia. Todo o esfolamento é obtido por meio de folhas de estilos em cascata personalizadas (CSS).
 
@@ -74,74 +74,74 @@ A incorporação de tamanho fixo é usada quando o visualizador não altera seu 
 
 A incorporação responsiva de design supõe que o visualizador precise ser redimensionado no tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que use um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolherá automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas responsivas de layout de web design, como Bootstrap e Foundation.
 
-Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preenche apenas essa área e segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 1. Definição do tamanho do visualizador.
 1. Criação e inicialização do visualizador.
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no cabeçalho HTML. Antes de usar a API do visualizador, inclua [!DNL InterativeVideoViewer.js]. O arquivo [!DNL InteractiveVideoViewer.js] está localizado na subpasta [!DNL html5/js/] da implantação padrão do IS-Viewers:
+   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, verifique se você incluiu [!DNL InterativeVideoViewer.js]. O [!DNL InteractiveVideoViewer.js] O arquivo está localizado sob a variável [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores Adobe Dynamic Media Classic que tenham os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores da Adobe Dynamic Media Classic que têm os IS-Viewers instalados.
 
 O caminho relativo tem a seguinte aparência:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente à biblioteca de SDK `Utils.js` HTML5 carregada pelo visualizador do `/s7viewers` caminho de contexto (o chamado SDK consolidado `include`). O motivo é que o local de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução é totalmente gerenciado pela lógica do visualizador e o local muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão de produto for implantada.
+>Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
-1. Definindo o contêiner `DIV`.
+1. Definição do contêiner `DIV`.
 
-   Adicione um elemento `DIV` vazio à página onde você deseja que o visualizador apareça. O elemento `DIV` deve ter sua ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
+   Adicionar um vazio `DIV` para a página onde você deseja que o visualizador apareça. O `DIV` deve ter a ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
 
-   O espaço reservado `DIV` é um elemento posicionado, o que significa que a propriedade CSS `position` está definida como `relative` ou `absolute`.
+   O espaço reservado `DIV` é um elemento posicionado, o que significa que a variável `position` A propriedade CSS está definida como `relative` ou `absolute`.
 
-   Para que o recurso de tela cheia funcione corretamente no Internet Explorer, verifique se não há outros elementos no DOM que tenham uma ordem de empilhamento mais alta do que seu espaço reservado `DIV`.
+   Para que o recurso de tela cheia funcione corretamente no Internet Explorer, verifique se não há outros elementos no DOM que tenham uma ordem de empilhamento maior do que o espaço reservado `DIV`.
 
-   A seguir, um exemplo de um elemento `DIV` de espaço reservado definido:
+   Este é um exemplo de um espaço reservado definido `DIV` elemento:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
 1. Definição do tamanho do visualizador
 
-   Você pode definir o tamanho estático do visualizador declarando-o para `.s7interactivevideoviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
+   Você pode definir o tamanho estático do visualizador declarando-o para `.s7interactivevideoviewer` classe CSS de nível superior em unidades absolutas ou usando `stagesize` modificador.
 
-   Você pode colocar o dimensionamento em CSS diretamente na página HTML. Ou você pode colocá-lo em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand, ou passado explicitamente usando o comando `style`.
+   Você pode colocar o dimensionamento no CSS diretamente na página do HTML. Ou você pode colocá-lo em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Adobe Experience Manager Assets - On-demand ou passado explicitamente usando `style` comando.
 
-   Consulte [Personalizando visualizador de vídeo interativo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
+   Consulte [Personalizar visualizador de vídeo interativo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre o estilo do visualizador com CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7interactivevideoviewer { 
     width: 640px; 
     height: 640px; 
    }
    ```
 
-   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador em Ativos do Experience Manager - Sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
+   É possível definir a variável `stagesize` modificador no registro predefinido do visualizador no Experience Manager Assets - Sob demanda. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com `params` ou como uma chamada de API conforme descrito na seção Referência de comando , desta forma:
 
-   ```
+   ```html {.line-numbers}
    interactivevideoviewer.setParam("stagesize", "640,640");
    ```
 
@@ -149,15 +149,15 @@ O caminho relativo tem a seguinte aparência:
 
 1. Criação e inicialização do visualizador.
 
-   Após concluir as etapas acima, crie uma instância de `s7viewers.InteractiveVideoViewer` classe, passe todas as informações de configuração para seu construtor e chame o método `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId` que contém o nome da ID do contêiner do visualizador e o objeto JSON aninhado `params` com parâmetros de configuração compatíveis com o visualizador.
+   Depois de concluir as etapas acima, crie uma instância de `s7viewers.InteractiveVideoViewer` classe , transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner do visualizador e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador.
 
-   Nesse caso, o objeto `params` deve ter pelo menos o URL de Exibição de Imagem passado como propriedade `serverUrl` e o ativo inicial como parâmetro `asset`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código, URL do servidor de vídeo passado como propriedade `videoserverurl`, ativo inicial como parâmetro `asset` e dados interativos como propriedade `interactivedata`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Nesse caso, a variável `params` O objeto deve ter pelo menos o URL de disponibilização de imagens passado como `serverUrl` e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código, URL do servidor de vídeo passado como `videoserverurl` propriedade, ativo inicial como `asset` e dados interativos como `interactivedata` propriedade. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame o método `init()` antes de fechar a tag `BODY` ou no evento body `onload()` .
+   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento de contêiner ainda não faz necessariamente parte do layout da página da Web. Por exemplo, ele pode estar oculto usando o estilo `display:none` atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. O que acontece, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner ainda não faz necessariamente parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. O que acontece, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando o método `init()`. O exemplo assume o seguinte:
+   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . O exemplo assume o seguinte:
 
    * A instância do visualizador é `interactiveVideoViewer`.
    * O nome do espaço reservado `DIV` é `s7viewer`.
@@ -167,7 +167,7 @@ O caminho relativo tem a seguinte aparência:
    * O ativo é `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
    * Os dados interativos são `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
     "containerId":"s7viewer", 
@@ -185,7 +185,7 @@ O caminho relativo tem a seguinte aparência:
 
    O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de Vídeo Interativo com um tamanho fixo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -218,9 +218,9 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação de design responsivo com altura irrestrita**
 
-Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita que o contêiner do visualizador `DIV` pegue 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. No exemplo a seguir, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -242,9 +242,9 @@ Adicionar o visualizador a essa página é semelhante às etapas para incorpora�
 1. Definição do DIV do contêiner.
 1. Criação e inicialização do visualizador.
 
-Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicione o DIV do contêiner ao DIV `"holder"` existente. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicione o DIV do contêiner ao `"holder"` DIV. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -284,9 +284,9 @@ A página de exemplos a seguir ilustra os usos mais reais da incorporação resp
 
 **Incorporação responsiva com definição de largura e altura**
 
-Se houver incorporação responsiva com largura e altura definidas, o estilo da página da Web será diferente. Ela fornece ambos os tamanhos para o `"holder"` DIV e o centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` para 100%.
+Se houver incorporação responsiva com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para a variável `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -312,7 +312,7 @@ height: 60%;
 
 O restante das etapas de incorporação são idênticas às etapas usadas para incorporação responsiva com altura irrestrita. O exemplo resultante é o seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -354,11 +354,11 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 **Como incorporar usando a API baseada em setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()` e `setAsset()` métodos de API com chamadas JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. O uso desse construtor de API não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`e `setAsset()` Métodos de API com chamadas JavaScript separadas.
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP 
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
-```
+```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -60,31 +60,31 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CARREGAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
    <td colname="col2"> <p>quando o visualizador for carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP  </span> </p> </td> 
-   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando a API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução começar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSA  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSA </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução é pausada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução é interrompida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MARCO  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> MARCO </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução atinge um dos seguintes marcos: 0%, 25%, 50%, 75% ou 100%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERATIVE_SWATCH  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERATIVE_SWATCH </span> </p> </td> 
    <td colname="col2"> <p>cada vez que o usuário clica em uma amostra interativa. </p> </td> 
   </tr> 
  </tbody> 

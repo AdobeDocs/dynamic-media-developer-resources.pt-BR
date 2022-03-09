@@ -5,7 +5,7 @@ keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ A personalização visual pode ser alcançada com a aplicação de CSS personali
 
 Este é um exemplo de HTML code que abre o visualizador na nova janela:
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ Você pode usar um caminho relativo se o visualizador for implantado em um dos s
 
 O caminho relativo é semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ O caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de um elemento DIV de espaço reservado definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ O caminho relativo é semelhante ao seguinte:
 
    O dimensionamento no CSS pode ser colocado diretamente na página HTML ou no arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AOD ou passado explicitamente usando o comando style. Consulte Personalização da seção Visualizador para obter mais informações sobre como estilizar o visualizador com CSS. Veja abaixo um exemplo de definição do tamanho estático do visualizador em HTML page:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ O caminho relativo é semelhante ao seguinte:
 
    `stagesize` O modificador pode ser transmitido explicitamente com o código de inicialização do visualizador com a coleção de parâmetros ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ O caminho relativo é semelhante ao seguinte:
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . Este exemplo supõe `panoramicViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado `DIV`, [!DNL http://s7d1.scene7.com/is/image/] é o URL de disponibilização de imagens e [!DNL Scene7SharedAssets/PanoramicImage-Sample] é o ativo.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ O caminho relativo é semelhante ao seguinte:
 
    O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de panorâmica com um tamanho fixo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ O caminho relativo é semelhante ao seguinte:
 
 Com a incorporação responsiva, a página da Web normalmente tem algum tipo de layout flexível em vigor, que determina o tamanho do tempo de execução do DIV do contêiner do visualizador. Para as finalidades deste exemplo, vamos supor que a página da Web permite que o DIV do contêiner do visualizador pegue 80% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web pode ser semelhante a:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ Adicionar o visualizador a essa página é semelhante à incorporação de taman
 
 Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. O DIV do contentor deve ser adicionado ao DIV do &quot;titular&quot; existente. O código a seguir é um exemplo completo, você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ A página de exemplos a seguir ilustra o uso mais real da incorporação respons
 
 Se houver incorporação de design responsivo com largura e altura definidas, o estilo da página da Web será diferente; fornece ambos os tamanhos ao &quot; detentor&quot; `DIV` e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 O restante das etapas de incorporação são idênticas à incorporação responsiva com altura irrestrita. O exemplo resultante é
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ Em vez de usar a inicialização baseada em JSON, é possível usar a API basead
 
 O exemplo a seguir ilustra a incorporação de tamanho fixo com a API baseada em setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

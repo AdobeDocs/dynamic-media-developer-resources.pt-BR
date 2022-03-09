@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2160'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Você pode obter personalização visual aplicando CSS personalizado.
 
 Este é um exemplo de código HTML que abre o visualizador em uma nova janela:
 
-```
+```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ Você pode usar um caminho relativo se o visualizador for implantado em um dos s
 
 O caminho relativo tem a seguinte aparência:
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
 ```
 
@@ -162,7 +162,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este é um exemplo de um elemento DIV de espaço reservado definido:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -176,7 +176,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este é um exemplo de definição de um tamanho de visualizador estático em HTML page:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +185,7 @@ O caminho relativo tem a seguinte aparência:
 
    É possível definir a variável `stagesize` modificador no registro predefinido do visualizador no Dynamic Media Classic. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com `params` ou como uma chamada de API, conforme descrito na seção Referência de comando , como o seguinte:
 
-   ```
+   ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -200,7 +200,7 @@ O caminho relativo tem a seguinte aparência:
 
    Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . O exemplo assume `eCatalogViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://s7d1.scene7.com/is/image/` é o URL de disponibilização de imagens e `Viewers/Pluralist` é o ativo:
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogViewer = new s7viewers.eCatalogViewer({ 
     "containerId":"s7viewer", 
@@ -214,7 +214,7 @@ O caminho relativo tem a seguinte aparência:
 
    O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de catálogo eletrônico com um tamanho fixo:
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -245,7 +245,7 @@ O caminho relativo tem a seguinte aparência:
 
 Com a incorporação responsiva do design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho de tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web resultante é semelhante ao seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -269,7 +269,7 @@ Adicionar o visualizador a essa página é semelhante à incorporação de taman
 
 Todas as etapas acima são as mesmas que com incorporação de tamanho fixo. Adicionar o contêiner `DIV` ao atual &quot;detentor&quot; `DIV`. O código a seguir é um exemplo completo. Você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -305,7 +305,7 @@ A página de exemplos a seguir ilustra casos de uso mais reais da incorporação
 
 Na incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ou seja, fornece ambos os tamanhos ao &quot;detentor&quot; `DIV` e centraliza na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -331,7 +331,7 @@ height: 60%;
 
 As etapas de incorporação restantes são idênticas à incorporação responsiva de design com altura irrestrita. O exemplo resultante é o seguinte:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -373,7 +373,7 @@ Em vez de usar a inicialização baseada em JSON, é possível usar a API basead
 
 O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em setter:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
