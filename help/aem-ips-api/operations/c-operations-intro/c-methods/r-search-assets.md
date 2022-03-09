@@ -2,12 +2,12 @@
 description: Pesquise ativos com base nos critérios especificados.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Sintaxe
 
 **Tamanho da resposta**
 
-`searchAssets` retorna até 1000 ativos em uma única chamada. Para retornar até 10.000 ativos por chamada, limite os dados de resposta a um subconjunto dos campos `totalRows`, `name`, `handle`, `type` e `subType`. Para retornar conjuntos maiores, configure a paginação com o parâmetro `resultPage`.
+`searchAssets` retorna até 1000 ativos em uma única chamada. Para retornar até 10.000 ativos por chamada, limite os dados de resposta a um subconjunto do `totalRows`, `name`, `handle`, `type`e `subType` campos. Para retornar conjuntos maiores, configure a paginação com o `resultPage` parâmetro.
 
 **Limitar tamanho do arquivo de resultado com responseFieldArray ou excludeFieldArray**
 
-Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray` ou `excludFieldArray`. Esses parâmetros ajudam a reduzir o uso de memória e a largura de banda e podem melhorar os tempos de resposta do servidor.
+Limite o tamanho do seu conjunto de dados com a variável `responseFieldArray` ou `excludFieldArray` parâmetros. Esses parâmetros ajudam a reduzir o uso de memória e a largura de banda e podem melhorar os tempos de resposta do servidor.
 
 ## Tipos de usuário autorizados {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -108,19 +108,19 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Escolha dos modos de correspondência de pesquisa para combinar resultados de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> e  <span class="codeph"> metadataConditionArray</span>. O padrão é <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Escolha dos modos de correspondência de pesquisa para combinar resultados de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span>. O padrão é <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p> <p>Observação:  Parâmetro obsoleto. Recomenda-se que não o utilize. </p> </p> <p>Uma matriz de sequências de palavras-chave para corresponder. </p> </td> 
+   <td colname="col4"> <p> <p>Observação: Parâmetro obsoleto. Recomenda-se que não o utilize. </p> </p> <p>Uma matriz de sequências de palavras-chave para corresponder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Escolha dos Modos de Correspondência de Pesquisa para combinar as correspondências <span class="codeph"> systemFieldCondition</span>. O padrão é <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Escolha dos modos de correspondência de pesquisa para combinar <span class="codeph"> systemFieldCondition</span> corresponde. O padrão é <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -138,13 +138,13 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:TagConditionArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Uma matriz de predicados de pesquisa de campo de tag. </p> <p>Os predicados são combinados de acordo com a configuração <span class="codeph"> tagMatchMode</span> e depois combinados com qualquer termo em <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> e <span class="codeph"> metadataConditionArray</span> de acordo com <span class="codeph"> conditionMatch Configuração de modo</span>. </p> </td> 
+   <td colname="col4"> <p>Uma matriz de predicados de pesquisa de campo de tag. </p> <p>Os predicados são combinados de acordo com a variável <span class="codeph"> tagMatchMode</span> e, em seguida, combinadas com qualquer termo em <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>e <span class="codeph"> metadataConditionArray</span> de acordo com a <span class="codeph"> conditionMatchMode</span> configuração. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Modos de correspondência de pesquisa para combinar <span class="codeph"> metadataCondition</span> correspondências. O padrão é <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Modos de correspondência de pesquisa para combinação <span class="codeph"> metadataCondition</span> corresponde. O padrão é <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> hardSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiverem vazias, somente os ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> serão retornados. Se <span class="codeph"> false</span> (padrão), os ativos sem subtipo definido serão retornados. </td> 
+   <td colname="col4">If <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não está vazio, somente ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> são retornadas. If <span class="codeph"> false</span> (padrão), os ativos sem subtipo definido são retornados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Se for verdadeiro, os ativos de subproduto gerados durante a assimilação de um ativo principal, como imagens de página em PDF rasgadas, serão excluídos dos resultados da pesquisa. O padrão é false. </td> 
+   <td colname="col4"> Se verdadeiro, os ativos de subproduto gerados durante a assimilação de um ativo principal, como imagens de PDF rasgadas, são excluídos dos resultados da pesquisa. O padrão é false. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
@@ -204,7 +204,7 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Especifica a página de resultados a ser retornada, com base no tamanho da página <span class="codeph"> recordsPerPage</span>. </td> 
+   <td colname="col4">Especifica a página de resultados a ser retornada, com base em <span class="codeph"> recordsPerPage</span> tamanho da página. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Não | Número de linhas que uma pesquisa retorna quando os registros por página não são limitados. |
-| `*`assetArray`*` | `types:AssetArray` | Não | Ativos que a pesquisa retorna. |
+| totalRows | `xsd:int` | Não | Número de linhas que uma pesquisa retorna quando os registros por página não são limitados. |
+| assetArray | `types:AssetArray` | Não | Ativos que a pesquisa retorna. |
 
 ## Exemplos {#section-725484cc09b54772a838ad2cc930b94b}
 

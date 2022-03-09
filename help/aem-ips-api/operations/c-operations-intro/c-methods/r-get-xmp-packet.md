@@ -2,12 +2,12 @@
 description: Recupera um pacote de Metadados XMP para o ativo especificado.
 solution: Experience Manager
 title: getXMPPacket
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o pacote que você deseja retornar (por exemplo, `c|656`). |
-| `*`assetHandle`*` | `xsd:string` | Sim | O ativo para o qual o pacote de XMP deve ser recuperado. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o pacote que você deseja retornar (por exemplo, `c|656`). |
+| assetHandle | `xsd:string` | Sim | O ativo para o qual o pacote de XMP deve ser recuperado. |
 
 **Saída (getXMPPacketReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote. |
 
 ## Exemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

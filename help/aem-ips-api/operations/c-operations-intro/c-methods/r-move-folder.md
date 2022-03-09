@@ -2,12 +2,12 @@
 description: Mova uma pasta para um novo local.
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
-| `*`destFolderHandle`*` | `xsd:string` | Sim | Lide com a pasta de destino. |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| folderHandle | `xsd:string` | Sim | Identificador de pasta. |
+| destFolderHandle | `xsd:string` | Sim | Lide com a pasta de destino. |
 
 **Saída (moveFolderReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sim | Lide com a pasta movida. |
+| folderHandle | `xsd:string` | Sim | Lide com a pasta movida. |
 
 ## Exemplos {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

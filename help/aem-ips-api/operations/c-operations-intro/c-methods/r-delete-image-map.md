@@ -2,12 +2,12 @@
 description: Exclui um mapa de imagem.
 solution: Experience Manager
 title: deleteImageMap
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o mapa de imagem a ser excluído. |
-| `*`imageMapHandle`*` | `xsd:string` | Sim | O identificador do mapa de imagem a ser excluído. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o mapa de imagem a ser excluído. |
+| imageMapHandle | `xsd:string` | Sim | O identificador do mapa de imagem a ser excluído. |
 
 **Saída (deleteImageMapParam)**
 

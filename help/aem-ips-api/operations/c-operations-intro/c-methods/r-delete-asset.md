@@ -2,12 +2,12 @@
 description: Exclui um ativo.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual a pasta pertence. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo a ser excluído. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa à qual a pasta pertence. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo a ser excluído. |
 
 **Saída (deleteAssetParam)**
 

@@ -2,13 +2,13 @@
 description: Propriedades de um direcionamento de Zoom.
 solution: Experience Manager
 title: ZoomTarget
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 3%
+source-wordcount: '76'
+ht-degree: 2%
 
 ---
 
@@ -22,12 +22,12 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Alça de destino de zoom. |
-| `*`name`*` | `xsd:string` | Nome da meta de zoom. |
-| `*`xPosition`*` | `xsd:int` | A posição X do destino de zoom. |
-| `*`yPosition`*` | `xsd:int` | A posição Y do destino de zoom. |
-| `*`width`*` | `xsd:int` | Ampliação da largura de destino. |
-| `*`altura`*` | `xsd:int` | Altura da meta de zoom. |
-| `*`userData`*` | `xsd:string` | Dados do usuário associados ao direcionamento do Zoom. |
-| `*`position`*` | `xsd:int` | Permite que os destinos de Zoom associados a um ativo sejam ordenados com base na posição |
-| `*`lastModified`*` | `xsd:dateTime` | Data da última modificação. |
+| zoomTargetHandle | `xsd:string` | Alça de destino de zoom. |
+| name | `xsd:string` | Nome da meta de zoom. |
+| xPosition | `xsd:int` | A posição X do destino de zoom. |
+| yPosition | `xsd:int` | A posição Y do destino de zoom. |
+| largura | `xsd:int` | Ampliação da largura de destino. |
+| altura | `xsd:int` | Altura da meta de zoom. |
+| userData | `xsd:string` | Dados do usuário associados ao direcionamento do Zoom. |
+| position | `xsd:int` | Permite que os destinos de Zoom associados a um ativo sejam ordenados com base na posição |
+| lastModified | `xsd:dateTime` | Data da última modificação. |

@@ -2,12 +2,12 @@
 description: Uma matriz de alças.
 solution: Experience Manager
 title: HandleArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7dd58b31-8337-4ffc-9f58-ca7a8d16abb9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '32'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,4 @@ Uma matriz de alças.
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `xsd:string` | Uma matriz de alças. |
+| items | `xsd:string` | Uma matriz de alças. |

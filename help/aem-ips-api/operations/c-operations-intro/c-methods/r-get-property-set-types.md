@@ -2,12 +2,12 @@
 description: Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjunto de propriedades associados à empresa especificada ou aos tipos de conjunto de propriedades global se nenhuma empresa foi especificada. |
+| typeArray | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjunto de propriedades associados à empresa especificada ou aos tipos de conjunto de propriedades global se nenhuma empresa foi especificada. |
 
 ## Exemplos {#section-280c406a90864409856aee44d4069a52}
 

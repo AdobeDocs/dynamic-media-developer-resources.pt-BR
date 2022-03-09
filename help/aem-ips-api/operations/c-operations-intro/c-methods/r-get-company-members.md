@@ -2,12 +2,12 @@
 description: Retorna os usuários de uma empresa especificada por um identificador de empresa.
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa cujos membros você deseja obter. |
-| `*`includeInvalid`*` | `xsd:boolean` | Sim | Incluir empresas inválidas. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa cujos membros você deseja obter. |
+| includeInvalid | `xsd:boolean` | Sim | Incluir empresas inválidas. |
 
 **Saída (getCompanyMembersReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | Sim | Matriz de associações de usuários. |
+| memberArray | `types:CompanyMemberArray` | Sim | Matriz de associações de usuários. |
 
 ## Exemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

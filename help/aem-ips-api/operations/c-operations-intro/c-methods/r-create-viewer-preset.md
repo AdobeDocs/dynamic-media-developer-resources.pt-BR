@@ -2,12 +2,12 @@
 description: Cria uma visualização predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A visualização predefinida é aplicada quando os ativos são publicados.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -31,17 +31,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém as predefinições e os ativos do visualizador. |
-| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta que contém os ativos. |
-| `*`name`*` | `xsd:string` | Sim | Nome do visualizador. |
-| `*`type`*` | `xsd:string` | Sim | Tipo de visualizador. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e identificadores de imagens às quais você está aplicando predefinições. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém as predefinições e os ativos do visualizador. |
+| folderHandle | `xsd:string` | Sim | O identificador da pasta que contém os ativos. |
+| name | `xsd:string` | Sim | Nome do visualizador. |
+| type | `xsd:string` | Sim | Tipo de visualizador. |
+| configSettingArray | `types:ConfigSettingArray` | Não | Uma matriz que contém nomes, valores e identificadores de imagens às quais você está aplicando predefinições. |
 
 **Saída (createViewerPresetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | Sim | Manipule a predefinição para o visualizador. |
+| viewerPresetHandle | `xsd:string` | Sim | Manipule a predefinição para o visualizador. |
 
 ## Exemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 

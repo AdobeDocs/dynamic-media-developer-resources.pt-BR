@@ -2,12 +2,12 @@
 description: Propriedades de um ativo de perfil ICC.
 solution: Experience Manager
 title: IccProfileInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10e04ec2-14af-4d15-9970-f47a2407d077
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Caminho do perfil ICC. |
-| `*`originalFile`*` | `xsd:string` | Nome do perfil ICC original. |
-| `*`fileSize`*` | `xsd:int` | Tamanho do perfil ICC. |
+| originalPath | `xsd:string` | Caminho do perfil ICC. |
+| originalFile | `xsd:string` | Nome do perfil ICC original. |
+| fileSize | `xsd:int` | Tamanho do perfil ICC. |

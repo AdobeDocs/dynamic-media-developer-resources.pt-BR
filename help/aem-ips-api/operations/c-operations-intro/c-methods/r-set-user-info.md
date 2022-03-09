@@ -2,12 +2,12 @@
 description: Define os atributos do usuário (por exemplo, nome, email, função etc.)
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Não | Identificador do usuário. |
-| `*`firstName`*` | `xsd:string` | Sim | Nome. |
-| `*`lastName`*` | `xsd:string` | Sim | Sobrenome. |
-| `*`email`*` | `xsd:string` | Sim | Email do usuário. |
-| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, a função `IpsAdmin` substitui outras configurações por empresa. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Não | Defina a data de expiração da senha. |
-| `*`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
+| userHandle | `xsd:string` | Não | Identificador do usuário. |
+| firstName | `xsd:string` | Sim | Nome. |
+| lastName | `xsd:string` | Sim | Sobrenome. |
+| email | `xsd:string` | Sim | Email do usuário. |
+| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que a variável `IpsAdmin` substitui outras configurações por empresa. |
+| passwordExpires | `xsd:dateTime` | Não | Defina a data de expiração da senha. |
+| isValid | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
 
 **Saída (setUserInfoReturn)**
 

@@ -2,12 +2,12 @@
 description: Define campos específicos da imagem para um ou mais ativos da imagem.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa que contém os ativos de imagem. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Sim | A matriz de atualizações de campo de imagem. |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa que contém os ativos de imagem. |
+| updateArray | `types:ImageFieldUpdateArray` | Sim | A matriz de atualizações de campo de imagem. |
 
 **Saída (batchSetImageFields)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de campos de imagem definidos com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de imagem. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos de imagem. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
+| successCount | `xsd:int` | Sim | O número de campos de imagem definidos com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de imagem. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos de imagem. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
 
 ## Exemplos {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

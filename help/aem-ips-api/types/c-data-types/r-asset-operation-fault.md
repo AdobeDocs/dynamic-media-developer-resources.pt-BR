@@ -1,13 +1,13 @@
 ---
+title: AssetOperationFault
 description: Contém informações sobre condições de aviso ou erro geradas durante uma operação de ativo em lote. Os campos de código e motivo correspondem aos campos de mensagem de falha que teriam sido lançados para a operação equivalente não em lote.
 solution: Experience Manager
-title: AssetOperationFault
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Identificador de ativo para a operação com falha. |
-| `*`código`*` | `xsd:int` | Código de falha da operação. |
-| `*`reason`*` | `xsd:string` | Descrição ou motivo da falha. |
+| assetHandle | `xsd:string` | Identificador de ativo para a operação com falha. |
+| código | `xsd:int` | Código de falha da operação. |
+| reason | `xsd:string` | Descrição ou motivo da falha. |

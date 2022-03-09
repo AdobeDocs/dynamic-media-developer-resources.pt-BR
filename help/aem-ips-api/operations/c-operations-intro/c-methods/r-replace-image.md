@@ -2,12 +2,12 @@
 description: Substitui os dados da imagem de um ativo de imagem.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sim | O identificador da empresa com a imagem que você deseja substituir. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo que deseja substituir. |
-| `*`urlModifier`*` | `xsd:string` | Sim | Comandos do Servidor de imagem que geram novos dados de imagem. |
+| companyName | `xsd:string` | Sim | O identificador da empresa com a imagem que você deseja substituir. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo que deseja substituir. |
+| urlModifier | `xsd:string` | Sim | Comandos do Servidor de imagem que geram novos dados de imagem. |
 
 **Saída (replaceImageReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sim | Gerenciar para o novo ativo. |
+| assetHandle | `xsd:string` | Sim | Gerenciar para o novo ativo. |
 
 ## Exemplos {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Esta amostra de código substitui uma imagem e aplica um `urlModifier` com um comando que especifica que o Servidor de Imagem não executará nenhuma ação após a substituição.
+Essa amostra de código substitui uma imagem e aplica um `urlModifier` com um comando que especifica que o Servidor de imagem não executará nenhuma ação após a substituição.
 
 **Solicitação**
 

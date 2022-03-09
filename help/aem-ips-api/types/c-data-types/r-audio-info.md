@@ -2,12 +2,12 @@
 description: Propriedades de um ativo de arquivo de áudio.
 solution: Experience Manager
 title: AudioInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 51d09533-2964-4b46-b45b-cc65e178ee0a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Caminho para o arquivo de áudio. |
-| `*`originalFile`*` | `xsd:string` | Nome do arquivo. |
-| `*`fileSize`*` | `xsd:int` | Tamanho do arquivo. |
+| originalPath | `xsd:string` | Caminho para o arquivo de áudio. |
+| originalFile | `xsd:string` | Nome do arquivo. |
+| fileSize | `xsd:int` | Tamanho do arquivo. |

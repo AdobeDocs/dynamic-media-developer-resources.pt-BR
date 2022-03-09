@@ -2,12 +2,12 @@
 description: Define valores de metadados para um ativo. Funciona com uma matriz de atualizações de metadados para definir valores em um lote.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o ativo que deseja atualizar. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Sim | Atualizações em uma matriz de atualização de metadados. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo que deseja atualizar. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo. |
+| updateArray | `types:MetadataUpdateArray` | Sim | Atualizações em uma matriz de atualização de metadados. |
 
 **Saída (setAssetMetadataReturn)**
 

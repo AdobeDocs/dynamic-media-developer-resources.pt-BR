@@ -2,12 +2,12 @@
 description: Uma matriz de atualizações de campo de imagem.
 solution: Experience Manager
 title: ImageFieldUpdateArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:ImageFieldUpdate` | Matriz de atualizações de campo de imagem. |
+| items | `types:ImageFieldUpdate` | Matriz de atualizações de campo de imagem. |

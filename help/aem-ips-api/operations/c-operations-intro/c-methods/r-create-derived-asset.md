@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -39,19 +39,19 @@ Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa que contém o ativo do qual você vai derivar o novo ativo. |
-| `*`ownerHandle`*` | `xsd:string` | Sim | O identificador para o ativo de Imagem principal do qual a nova imagem é derivada. |
-| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta em que o novo ativo derivado é criado. |
-| `*`name`*` | `xsd:string` | Sim | O nome do ativo derivado. |
-| `*`type`*` | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *before* o pedido ou `urlPostApplyModifier` comandos. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *after* ao pedido ou `urlPostApplyModifier` comandos. |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa que contém o ativo do qual você vai derivar o novo ativo. |
+| ownerHandle | `xsd:string` | Sim | O identificador para o ativo de Imagem principal do qual a nova imagem é derivada. |
+| folderHandle | `xsd:string` | Sim | O identificador da pasta em que o novo ativo derivado é criado. |
+| name | `xsd:string` | Sim | O nome do ativo derivado. |
+| type | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
+| urlModifier | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *before* o pedido ou `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *after* ao pedido ou `urlPostApplyModifier` comandos. |
 
 **Saída (createDerivedAssetParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do ativo derivado. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo derivado. |
 
 ## Exemplos {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

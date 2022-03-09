@@ -2,12 +2,12 @@
 description: Cria um novo formato de publicação para uma vinheta.
 solution: Experience Manager
 title: createVignettePublishFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -49,67 +49,67 @@ As versões mais recentes do servidor de Renderização de imagem podem oferecer
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome para identificar o formato de publicação da vinheta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> <p>Especifica a largura de destino da exibição de vinheta resultante em pixels. </p> <p>Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta primária. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Cria uma vinheta pirâmide otimizada para aumentar o zoom no servidor de Renderização de imagem. Começando pelo tamanho máximo, definido pelos campos Tamanho da vinheta do Target, isso cria visualizações de vários tamanhos em um único arquivo de saída da vinheta. Cada tamanho de exibição subsequente é dividido até que a largura e a altura estejam dentro de 128x128 pixels. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Especifica a largura de cada miniatura resultante em pixels. Essa configuração é opcional. Deixe como zero para nenhum arquivo de miniatura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Especifica o formato de arquivo para as vinhetas publicadas. Dada uma nova versão da Criação de Imagens e uma versão mais antiga do Servidor de Renderização de Imagens, você deve especificar uma versão de vinheta que seu Servidor de Renderização de Imagens possa ler. Se você especificar uma versão superior, o servidor de Renderização de imagem não poderá ler as vinhetas publicadas. Defina como zero para publicar vinhetas na versão mais recente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Especifica o caractere que separa o nome da vinheta e o sufixo que indica sua largura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Especifica o caractere que separa o nome da vinheta e o sufixo que indica sua largura. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> afiador</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Aplica nitidez à imagem de exibição principal para cada vinheta de publicação A nitidez pode compensar o desfoque quando as vinhetas são dimensionadas. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O mascaramento com nitidez digital é uma maneira flexível e poderosa de aumentar a nitidez, especialmente em imagens digitalizadas. Isso controla a magnitude de cada superação (quanto mais escuro e claro as bordas se tornam). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Afeta o tamanho das bordas a serem melhoradas ou a largura das bordas, de modo que um raio menor melhora detalhes em escala menor. Valores de raio mais altos podem causar halos nas bordas. Os detalhes finos precisam de um raio menor, pois detalhes minúsculos do mesmo tamanho ou menores que o raio é perdido. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Controla a alteração mínima do brilho para ser nitidamente definida ou a distância que os valores de tons adjacentes devem estar entre si antes que o filtro funcione. Essa configuração pode tornar as bordas mais pronunciadas mais nítidas, deixando as bordas mais sutis intocadas. O intervalo permitido de 0 a 255. </td> 
   </tr> 
@@ -120,7 +120,7 @@ As versões mais recentes do servidor de Renderização de imagem podem oferecer
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`vinhetaFormatarIdentificador`*` | `xsd:string` | Sim | O identificador para o formato de vinheta criado. |
+| vinhetaFormatarIdentificador | `xsd:string` | Sim | O identificador para o formato de vinheta criado. |
 
 ## Exemplos {#section-0564752d439642b9bb8de2903db6de1e}
 

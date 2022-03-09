@@ -2,13 +2,13 @@
 description: Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
 solution: Experience Manager
 title: PerspectivaQuad
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,18 +22,18 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Coordenada superior esquerda do eixo x. |
-| `*`y0`*` | `xsd:double` | Coordenada do eixo y superior esquerda. |
-| `*`x1`*` | `xsd:double` | Coordenada do eixo x superior direito. |
-| `*`y1`*` | `xsd:double` | Coordenada do eixo y superior direito. |
-| `*`x2`*` | `xsd:double` | Coordenada do eixo x inferior direito. |
-| `*`y2`*` | `xsd:double` | Coordenada do eixo y inferior direito. |
-| `*`x3`*` | `xsd:double` | Correspondência do eixo x esquerdo inferior. |
-| `*`y3`*` | `xsd:double` | Coordenada inferior do eixo y à esquerda. |
+| x0 | `xsd:double` | Coordenada superior esquerda do eixo x. |
+| y0 | `xsd:double` | Coordenada do eixo y superior esquerda. |
+| x1 | `xsd:double` | Coordenada do eixo x superior direito. |
+| y1 | `xsd:double` | Coordenada do eixo y superior direito. |
+| x2 | `xsd:double` | Coordenada do eixo x inferior direito. |
+| y2 | `xsd:double` | Coordenada do eixo y inferior direito. |
+| x3 | `xsd:double` | Correspondência do eixo x esquerdo inferior. |
+| y3 | `xsd:double` | Coordenada inferior do eixo y à esquerda. |
 
 ## Exemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-O tipo `PerspectiveQuad` retorna dados nesta ordem:
+O `PerspectiveQuad` tipo retorna dados nesta ordem:
 
 ```
 <complexType name="PerspectiveQuad">

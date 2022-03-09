@@ -2,12 +2,12 @@
 description: Adiciona um ou mais ativos a um projeto.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -33,23 +33,23 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Lida com a empresa associada ao projeto atual. |
-| `*`projectHandle`*` | `xsd:string` | Sim | Lide com o projeto ao qual você está adicionando ativos. |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | Sim | Matriz de ativos que você está adicionando ao projeto atual. |
+| companyHandle | `xsd:string` | Sim | Lida com a empresa associada ao projeto atual. |
+| projectHandle | `xsd:string` | Sim | Lide com o projeto ao qual você está adicionando ativos. |
+| projectHandleArray | `xsd:HandleArray` | Sim | Matriz de ativos que você está adicionando ao projeto atual. |
 
 **Saída (addProjectAssetsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou adicionar ativos a um projeto. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou adicionar ativos a um projeto. |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Não | Matriz de avisos gerados por ativos quando a operação tentou adicioná-los a um projeto. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou adicioná-los a um projeto. |
+| successCount | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou adicionar ativos a um projeto. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou adicionar ativos a um projeto. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | Não | Matriz de avisos gerados por ativos quando a operação tentou adicioná-los a um projeto. |
+| companyHandle | `xsd:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou adicioná-los a um projeto. |
 
 ## Exemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Este exemplo adiciona um único ativo (referenciado pelo identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` retorna `1`.
+Este exemplo adiciona um único ativo (referenciado pelo identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` devoluções `1`.
 
 **Solicitação**
 

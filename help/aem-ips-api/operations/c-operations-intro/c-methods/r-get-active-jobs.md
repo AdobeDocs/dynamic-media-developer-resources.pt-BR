@@ -2,12 +2,12 @@
 description: Obtém todos os trabalhos ativos no momento.
 solution: Experience Manager
 title: getActiveJobs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | O nome da empresa. |
-| `*`jobHandle`*` | `xsd:string` | Não | O controle do trabalho. |
-| `*`originalName`*` | `xsd:string` | Não | Nome do trabalho original. |
+| companyHandle | `xsd:string` | Não | O nome da empresa. |
+| jobHandle | `xsd:string` | Não | O controle do trabalho. |
+| originalName | `xsd:string` | Não | Nome do trabalho original. |
 
 **Saída (getActiveJobsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | Sim | Matriz de trabalhos ativos. |
+| jobArray | `xsd:string` | Sim | Matriz de trabalhos ativos. |
 
 ## Exemplos {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 

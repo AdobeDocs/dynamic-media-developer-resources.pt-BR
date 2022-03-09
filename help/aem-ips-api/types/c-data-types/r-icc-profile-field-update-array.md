@@ -2,12 +2,12 @@
 description: Uma matriz de itens de atualização do campo de perfil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 665280fe-ec76-48ce-b104-d65440c0f1ac
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:IccProfileUpdate` | `IccProfileFieldUpdate` item de matriz. |
+| items | `types:IccProfileUpdate` | `IccProfileFieldUpdate` item de matriz. |

@@ -2,12 +2,12 @@
 description: Propriedades de um arquivo de Flash.
 solution: Experience Manager
 title: FlashInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Caminho do arquivo. |
-| `*`originalFile`*` | `xsd:string` | Nome do arquivo. |
-| `*`fileSize`*` | `xsd:int` | Tamanho do arquivo. |
+| originalPath | `xsd:string` | Caminho do arquivo. |
+| originalFile | `xsd:string` | Nome do arquivo. |
+| fileSize | `xsd:int` | Tamanho do arquivo. |

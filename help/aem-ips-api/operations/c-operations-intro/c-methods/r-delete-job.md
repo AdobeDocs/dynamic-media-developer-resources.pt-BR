@@ -2,12 +2,12 @@
 description: Exclui um trabalho atual ou programado.
 solution: Experience Manager
 title: deleteJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o trabalho pertence. |
-| `*`jobHandle`*` | `xsd:string` | Sim | O identificador do trabalho a ser excluído. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o trabalho pertence. |
+| jobHandle | `xsd:string` | Sim | O identificador do trabalho a ser excluído. |
 
 **Saída**
 

@@ -2,12 +2,12 @@
 description: Define a imagem em miniatura de um ou mais ativos.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -47,18 +47,18 @@ Os tipos de ativos de miniatura permitidos consistem no seguinte:
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém os ativos. |
-| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | Sim | A matriz de atualizações. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém os ativos. |
+| updateArray | `types:ThumbAssetUpdateArray` | Sim | A matriz de atualizações. |
 
 **Saída (batchSetThumbAssetParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de miniaturas definidas com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir as miniaturas. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir as miniaturas. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
+| successCount | `xsd:int` | Sim | O número de miniaturas definidas com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir as miniaturas. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir as miniaturas. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
 
 ## Exemplos {#section-6de69a8680c24c1486c5f01488393381}
 

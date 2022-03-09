@@ -2,12 +2,12 @@
 description: Define a associação de grupo de usuários que pertencem a uma empresa específica.
 solution: Experience Manager
 title: setGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ A operação gera uma falha de autenticação se você não tiver privilégios p
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`groupHandle`*` | `xsd:string` | Sim | Identificador de grupo. |
-| `*`userHandleArray`*` | `types:HandleArray` | Sim | Matriz de identificadores para usuários cuja associação de grupo você deseja definir. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| groupHandle | `xsd:string` | Sim | Identificador de grupo. |
+| userHandleArray | `types:HandleArray` | Sim | Matriz de identificadores para usuários cuja associação de grupo você deseja definir. |
 
 **Saída (setGroupMembesReturn)**
 

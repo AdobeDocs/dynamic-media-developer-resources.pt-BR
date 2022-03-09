@@ -2,12 +2,12 @@
 description: Cria um formato de imagem.
 solution: Experience Manager
 title: saveImageFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: cafbd715-237b-4454-920e-643f0c84e208
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Cria um formato de imagem.
 
 >[!NOTE]
 >
->O valor do campo `urlModifier` deve consistir em XML válido. Por exemplo, altere `&` para `&`. Obtenha o valor `urlModfier` da interface do usuário do IPS.
+>O `urlModifier` o valor do campo deve consistir em XML válido. Por exemplo, alterar `&` para `&`. Obtenha o `urlModfier` na interface do usuário do IPS.
 
 ## Tipos de usuário autorizados {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,20 +33,20 @@ Cria um formato de imagem.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com o formato de imagem com o qual você deseja trabalhar. |
-| `*`imageFormatHandle`*` | `xsd:string` | Não | Identificador do formato da imagem que deseja salvar. |
-| `*`name`*` | `xsd:string` | Sim | Nome do formato da imagem. |
-| `*`urlModifier`*` | `xsd:string` | Sim | Pode ser qualquer sequência de consulta de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário do IPS e, em seguida, recortar e colar a string de consulta. |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa com o formato de imagem com o qual você deseja trabalhar. |
+| imageFormatHandle | `xsd:string` | Não | Identificador do formato da imagem que deseja salvar. |
+| name | `xsd:string` | Sim | Nome do formato da imagem. |
+| urlModifier | `xsd:string` | Sim | Pode ser qualquer sequência de consulta de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário do IPS e, em seguida, recortar e colar a string de consulta. |
 
 **Saída (saveImageFormatReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | Sim | Manipule o formato da imagem. |
+| imageFormatHandle | `xsd:string` | Sim | Manipule o formato da imagem. |
 
 ## Exemplos {#section-c7bd733212ef494297a97093f3af193f}
 
-Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface do usuário do IPS com um formato HTML válido.
+Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinada pelo seu valor na interface do usuário do IPS com um formato HTML válido.
 
 **Solicitação**
 

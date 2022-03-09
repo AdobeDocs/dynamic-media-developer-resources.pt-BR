@@ -2,12 +2,12 @@
 description: Cria uma pasta.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Cria uma pasta.
 
 >[!NOTE]
 >
->A nova pasta é secundária para a pasta Imagens, mesmo se você especificar um `/` para indicar a raiz da empresa.
+>A nova pasta é secundária para a pasta Imagens, mesmo que você especifique um `/` para indicar a raiz da empresa.
 
 Sintaxe
 
@@ -41,14 +41,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O Identificador para a empresa |
-| `*`folderPath`*` | `xsd:string` | Sim | A pasta raiz usada para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
+| companyHandle | `xsd:string` | Sim | O Identificador para a empresa |
+| folderPath | `xsd:string` | Sim | A pasta raiz usada para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
 
 **Saída (createFolderParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Sim | Manipule a nova pasta. |
+| folderHandle | `xsd:string` | Sim | Manipule a nova pasta. |
 
 ## Exemplos {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

@@ -2,12 +2,12 @@
 description: Retorna o histórico de publicação de um ativo.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação de ativos. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O ativo com o histórico de publicação que você deseja examinar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação de ativos. |
+| assetHandle | `xsd:string` | Sim | O ativo com o histórico de publicação que você deseja examinar. |
 
 **Saída (getAssetPublishHistoryReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Sim | O histórico de publicação do ativo. |
+| pubHistoryArray | `types:PublishHistoryArray` | Sim | O histórico de publicação do ativo. |
 
 ## Exemplos {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

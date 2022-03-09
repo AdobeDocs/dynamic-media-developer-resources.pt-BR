@@ -2,12 +2,12 @@
 description: Obtém as sequências de pesquisa, palavras-chave e outras informações sobre um ativo. A resposta contém informações adicionais sobre o ativo.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Lidar com o ativo. |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| assetHandle | `xsd:string` | Sim | Lidar com o ativo. |
 
 **Saída (getSearchStringsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | Sim | Uma matriz de cadeias de caracteres de pesquisa de ativos. |
+| searchStringArray | `types:SearchStrings` | Sim | Uma matriz de cadeias de caracteres de pesquisa de ativos. |
 
 ## Exemplos {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 

@@ -2,12 +2,12 @@
 description: Define o mapa de imagem de um ativo.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Você já deve ter criado os mapas de imagem. Mapas de imagem são aplicados na 
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Sim | Matriz de mapas de imagem predefinidos. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| assetHandle | `xsd:string` | Sim | Identificador de ativo. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Sim | Matriz de mapas de imagem predefinidos. |
 
 **Saída (setImageMapsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Sim | Uma matriz com identificadores de mapa de imagem aplicados ao ativo. |
+| imageMapHandleArray | `types:HandleArray` | Sim | Uma matriz com identificadores de mapa de imagem aplicados ao ativo. |
 
 ## Exemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

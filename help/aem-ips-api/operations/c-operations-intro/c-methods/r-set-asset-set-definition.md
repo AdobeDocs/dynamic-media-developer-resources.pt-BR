@@ -2,12 +2,12 @@
 description: Atualiza a definição do conjunto de ativos existente.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com o conjunto de ativos. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de conjunto de ativos |
-| `*`setDefinition`*` | `xsd:string` | Sim | Sequência de definição. Veja abaixo. |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa com o conjunto de ativos. |
+| assetHandle | `xsd:string` | Sim | Identificador de conjunto de ativos |
+| setDefinition | `xsd:string` | Sim | Sequência de definição. Veja abaixo. |
 
 **Saída (setAssetSetDefinitionReturn)**
 
@@ -45,11 +45,11 @@ A API do IPS não retorna uma resposta para esta operação.
 
 **Funções setDefinition**
 
-Especifique `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}` e incluem o seguinte:
+Especificar `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}`e incluir o seguinte:
 
 >[!NOTE]
 >
->Os literais de tratamento nas listas de parâmetros devem ser cercados por colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
+>Tratar literais nas listas de parâmetros deve ser cercado por colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -60,19 +60,19 @@ Especifique `setDefinition` funções de substituição em linha. Eles são reso
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> Caminho do arquivo principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID do catálogo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
    <td colname="col2"> Valor dos metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
    <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Exibição ajustada, Exibição de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de ouro (se houver). Se nenhum ativo em miniatura estiver associado ao ativo, a função retornará uma string vazia. </p> </td> 
   </tr> 
  </tbody> 

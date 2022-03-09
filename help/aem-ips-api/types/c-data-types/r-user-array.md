@@ -2,12 +2,12 @@
 description: Uma matriz de usuários.
 solution: Experience Manager
 title: UserArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:User` | Uma matriz de usuários. |
+| items | `types:User` | Uma matriz de usuários. |

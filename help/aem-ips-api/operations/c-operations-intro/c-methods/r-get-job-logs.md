@@ -2,12 +2,12 @@
 description: Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -36,19 +36,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Não | O responsável da empresa. |
-| `*`userHandle`*` | `xsd:string` | Não | Obtém registros para tarefas enviadas por um usuário específico. |
-| `*`sortBy`*` | `xsd:string` | Não | Permite selecionar campos de classificação. |
-| `*`sortDirection`*` | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
-| `*`startDate`*` | `xsd:dateTime` | Não | A data e a hora do início do log de trabalhos. Forneça o fuso horário com a solicitação para esse campo. |
-| `*`endDate`*` | `xsd:dateTime` | Não | A data e a hora do fim do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
-| `*`numRows`*` | `xsd:int` | Não | Número máximo de linhas a serem retornadas. |
+| companyHandle | `xsd:string` | Não | O responsável da empresa. |
+| userHandle | `xsd:string` | Não | Obtém registros para tarefas enviadas por um usuário específico. |
+| sortBy | `xsd:string` | Não | Permite selecionar campos de classificação. |
+| sortDirection | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
+| startDate | `xsd:dateTime` | Não | A data e a hora do início do log de trabalhos. Forneça o fuso horário com a solicitação para esse campo. |
+| endDate | `xsd:dateTime` | Não | A data e a hora do fim do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
+| numRows | `xsd:int` | Não | Número máximo de linhas a serem retornadas. |
 
 **Saída (getJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Sim | Matriz de registros de tarefas. |
+| jobLogArray | `types: JobLogArray` | Sim | Matriz de registros de trabalhos. |
 
 ## Exemplos {#section-35871c94b4a44559912577efddbc46a6}
 

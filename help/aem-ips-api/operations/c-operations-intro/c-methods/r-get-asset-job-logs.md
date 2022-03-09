@@ -2,12 +2,12 @@
 description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador para o ativo com os logs de trabalho a serem recuperados. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
+| assetHandle | `xsd:string` | Sim | O identificador para o ativo com os logs de trabalho a serem recuperados. |
 
 **Saída (getAssetJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Sim | Matriz de log da tarefa. |
+| jobLogArray | `types:AssetJobLogArray` | Sim | Matriz de log da tarefa. |
 
 ## Exemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

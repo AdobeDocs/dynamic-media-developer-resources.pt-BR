@@ -2,12 +2,12 @@
 description: Cria um conjunto de imagens.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -37,17 +37,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa à qual o conjunto de imagens pertence. |
-| `*`folderHandle`*` | `xsd:string` | Sim | O identificador da pasta. |
-| `*`name`*` | `xsd:string` | Sim | Nome do conjunto de imagens. |
-| `*`type`*` | `xsd:string` | Sim | Tipo de conjunto de imagens. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Não | Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o conjunto de imagens pertence. |
+| folderHandle | `xsd:string` | Sim | O identificador da pasta. |
+| name | `xsd:string` | Sim | Nome do conjunto de imagens. |
+| type | `xsd:string` | Sim | Tipo de conjunto de imagens. |
+| thumbAssetHandle | `xsd:string` | Não | Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
 
 **Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do novo conjunto de imagens. |
+| assetHandle | `xsd:string` | Sim | O identificador do novo conjunto de imagens. |
 
 ## Exemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 

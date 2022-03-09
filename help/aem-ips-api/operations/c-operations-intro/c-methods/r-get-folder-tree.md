@@ -2,12 +2,12 @@
 description: Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
 solution: Experience Manager
 title: getFolderTree
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -38,21 +38,21 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
-| `*`accessUserHandle`*` | `xsd:string` | Não | Usado apenas por administradores para representar um usuário específico. |
-| `*`accessGroupHandle`*` | `xsd:string` | Não | Usado para filtrar por um grupo específico, incluindo qualquer um daqueles aos quais a empresa pertence. |
-| `*`folderPath`*` | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
-| `*`profundidade`*` | `xsd:int` | Sim | Um valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descendente na árvore. |
-| `*`assetTypeArray`*` | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
-| `*`responseFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir na resposta. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| accessUserHandle | `xsd:string` | Não | Usado apenas por administradores para representar um usuário específico. |
+| accessGroupHandle | `xsd:string` | Não | Usado para filtrar por um grupo específico, incluindo qualquer um daqueles aos quais a empresa pertence. |
+| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
+| profundidade | `xsd:int` | Sim | Um valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descendente na árvore. |
+| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
+| responseFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
+| excludeFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir na resposta. |
 
 **Saída (getFolderTreeReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`pastas`*` | `types:folders` | Não | A hierarquia de pastas em uma estrutura de árvore. A resposta é limitada a no máximo 100.000 pastas. |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| pastas | `types:folders` | Não | A hierarquia de pastas em uma estrutura de árvore. A resposta é limitada a no máximo 100.000 pastas. |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 

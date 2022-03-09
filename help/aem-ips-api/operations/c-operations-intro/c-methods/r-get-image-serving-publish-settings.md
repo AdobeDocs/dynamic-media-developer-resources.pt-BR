@@ -2,12 +2,12 @@
 description: Apenas para uso interno. Os usuários devem consultar a seção Referência do catálogo de imagem do fornecimento de imagens - Referência de atributos.
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador para a empresa com as configurações de publicação da veiculação de imagens. |
-| `*`contextHandle`*` | `xsd:string` | Sim | Lidar com o contexto de publicação. |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa com as configurações de publicação da veiculação de imagens. |
+| contextHandle | `xsd:string` | Sim | Lidar com o contexto de publicação. |
 
 **Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | Sim | Matriz de configurações de publicação do servidor de imagem. |
+| publishSettingArray | `xsd:string` | Sim | Matriz de configurações de publicação do servidor de imagem. |

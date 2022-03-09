@@ -2,12 +2,12 @@
 description: Atribuir ou atualizar ativos em um projeto.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`projectHandle`*` | `xsd:string` | Sim | Manipulador do projeto. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | A matriz de manipuladores de ativos que você deseja associar ao projeto. |
+| companyName | `xsd:string` | Sim | Manuseio da empresa. |
+| projectHandle | `xsd:string` | Sim | Manipulador do projeto. |
+| assetHandleArray | `types:HandleArray` | Sim | A matriz de manipuladores de ativos que você deseja associar ao projeto. |
 
 **Saída (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
+| successCount | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
 
 ## Exemplos {#section-33c1a909c3dc4aa98da474c23a036596}
 

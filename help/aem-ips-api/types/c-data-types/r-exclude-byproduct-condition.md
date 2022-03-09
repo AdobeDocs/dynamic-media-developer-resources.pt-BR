@@ -2,12 +2,12 @@
 description: Determina qual mecanismo de geração e tipo de ativo gerado serão excluídos dos resultados de pesquisa.
 solution: Experience Manager
 title: ExcludeByproductCondition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`motor`*` | `xsd:string` | O mecanismo de geração que criou os ativos que deseja excluir. Consulte Informações de geração para obter valores. |
-| `*`generatedAssetType`*` | `xsd:string` | Tipo de ativo excluído. Consulte Tipos de ativos para obter valores. |
+| motor | `xsd:string` | O mecanismo de geração que criou os ativos que deseja excluir. Consulte Informações de geração para obter valores. |
+| generatedAssetType | `xsd:string` | Tipo de ativo excluído. Consulte Tipos de ativos para obter valores. |

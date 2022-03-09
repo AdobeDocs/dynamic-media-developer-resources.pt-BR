@@ -2,12 +2,12 @@
 description: Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ As propriedades do sistema compatíveis incluem:
 * `IpsImageServerUrl`: Prefixo completo e externo de URL para o Servidor de Imagem do IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefixo de URL para renderizar ativos SVG.
-* `SvgRenderEnabled`: True se os ativos SVG puderem ser renderizados por  `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: Prefixo de URL para renderizar ativos de SVG.
+* `SvgRenderEnabled`: Verdadeiro se os ativos de SVG puderem ser renderizados por `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitidos em um upload  [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
+* `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitidos em um upload [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
 
 ## Tipos de usuário autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ As propriedades do sistema compatíveis incluem:
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Sim | O nome da propriedade a ser obtida. |
+| name | `xsd:string` | Sim | O nome da propriedade a ser obtida. |
 
 **Saída (getPropertyReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | Sim | O valor da propriedade. |
+| value | `xsd:string` | Sim | O valor da propriedade. |
 
 ## Exemplos {#section-3f80a78dd60c404181b34d3a912d7a36}
 

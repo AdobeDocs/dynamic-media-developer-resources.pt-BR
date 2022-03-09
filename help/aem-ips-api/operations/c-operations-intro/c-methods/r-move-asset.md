@@ -2,12 +2,12 @@
 description: Move um ativo para uma pasta específica.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Manipule o ativo que deseja mover. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Lide com a pasta de destino. |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| assetHandle | `xsd:string` | Sim | Manipule o ativo que deseja mover. |
+| folderHandle | `xsd:string` | Sim | Lide com a pasta de destino. |
 
 **Saída (moveAssetReturn)**
 

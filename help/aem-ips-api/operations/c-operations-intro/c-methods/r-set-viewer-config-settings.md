@@ -2,12 +2,12 @@
 description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic, SDK/API, Predefinições do visualizador
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
-| `*`name`*` | `xsd:string` | Sim | Nome do ativo. |
-| `*`type`*` | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| assetHandle | `xsd:string` | Sim | Identificador de ativo. |
+| name | `xsd:string` | Sim | Nome do ativo. |
+| type | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
+| configSettingArray | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
 
 **Saída (setViewerConfigSettingsParam)**
 

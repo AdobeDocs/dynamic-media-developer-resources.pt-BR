@@ -2,12 +2,12 @@
 description: Retorna todos os campos de metadados, agrupados por tipo de ativo.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa cujos metadados você deseja recuperar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa cujos metadados você deseja recuperar. |
 
 **Saída (getAssetMetadataFieldsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Sim | Matriz de campos de metadados, por tipo de ativo. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | Sim | Matriz de campos de metadados, por tipo de ativo. |
 
 ## Exemplos {#section-d79ab85f29144635b0b61416e52f4f3f}
 

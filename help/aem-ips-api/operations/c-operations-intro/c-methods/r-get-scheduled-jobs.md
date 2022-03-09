@@ -2,12 +2,12 @@
 description: Obtém tarefas agendadas para execução.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
-| `*`jobHandle`*` | `xsd:string` | Não | Identificador da tarefa. |
-| `*`originalName`*` | `xsd:string` | Não | O nome especificado por `submitJob`. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| jobHandle | `xsd:string` | Não | Identificador da tarefa. |
+| originalName | `xsd:string` | Não | O nome especificado por `submitJob`. |
 
 **Saída (getScheduledJobsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | Sim | Matriz de trabalhos agendados. |
+| jobArray | `types:ScheduledJobArray` | Sim | Matriz de trabalhos agendados. |
 
 ## Exemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 

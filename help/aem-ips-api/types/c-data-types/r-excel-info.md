@@ -1,20 +1,20 @@
 ---
-description: Propriedades de um arquivo do Microsoft Excel.
+description: Propriedades de um arquivo Excel do Microsoft.
 solution: Experience Manager
 title: ExcelInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
 # ExcelInfo{#excelinfo}
 
-Propriedades de um arquivo do Microsoft Excel.
+Propriedades de um arquivo Excel do Microsoft.
 
 Sintaxe
 
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Caminho para o arquivo. |
-| `*`originalFile`*` | `xsd:string` | Nome do arquivo. |
-| `*`fileSize`*` | `xsd:int` | Tamanho do arquivo. |
+| originalPath | `xsd:string` | Caminho para o arquivo. |
+| originalFile | `xsd:string` | Nome do arquivo. |
+| fileSize | `xsd:int` | Tamanho do arquivo. |

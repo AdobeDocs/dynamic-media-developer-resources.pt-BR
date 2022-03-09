@@ -2,12 +2,12 @@
 description: Uma matriz de progresso de tarefa. Contém informações sobre tarefas de transcodificação de vídeo.
 solution: Experience Manager
 title: TaskProgressArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`item`*` | `types:TaskProgress` | Itens de progresso da tarefa. A ocorrência mínima é zero. A ocorrência máxima não é limitada. |
+| item | `types:TaskProgress` | Itens de progresso da tarefa. A ocorrência mínima é zero. A ocorrência máxima não é limitada. |

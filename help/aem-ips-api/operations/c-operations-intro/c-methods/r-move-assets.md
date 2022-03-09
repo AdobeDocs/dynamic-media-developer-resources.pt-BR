@@ -2,12 +2,12 @@
 description: Move vários ativos independentemente um do outro. Isso é feito usando o tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com ativos a serem movidos. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativos. Ele contém um ativo e uma pasta de destino de ativo. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com ativos a serem movidos. |
+| assetMoveArray | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativos. Ele contém um ativo e uma pasta de destino de ativo. |
 
 **Saída (moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults que contêm: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ativos que exibiram os avisos. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Códigos de aviso. </li> 
@@ -81,7 +81,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaults que contêm: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ativos que exibiram os erros. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Códigos de erro. </li> 
@@ -93,7 +93,7 @@ Sintaxe
 
 ## Exemplos {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Essa amostra de código move ativos para um local específico especificado pelo `assetMoveArray`. A matriz inclui o identificador de ativo e seu identificador de pasta. A resposta indica que os ativos foram movidos com êxito.
+Essa amostra de código move ativos para um local específico especificado pela variável `assetMoveArray`. A matriz inclui o identificador de ativo e seu identificador de pasta. A resposta indica que os ativos foram movidos com êxito.
 
 **Solicitação**
 

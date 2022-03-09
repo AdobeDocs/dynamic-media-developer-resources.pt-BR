@@ -2,12 +2,12 @@
 description: Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -43,20 +43,20 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
-| `*`accessUserHandle`*` | `xsd:string` | Não | Usado pelos administradores para representar um usuário específico. |
-| `*`accessGroupHandle`*` | `xsd:string` | Não | Filtrar por um grupo específico. |
-| `*`folderPath`*` | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
-| `*`assetTypeArray`*` | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
-| `*`responseFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir da resposta. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| accessUserHandle | `xsd:string` | Não | Usado pelos administradores para representar um usuário específico. |
+| accessGroupHandle | `xsd:string` | Não | Filtrar por um grupo específico. |
+| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
+| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
+| responseFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
+| excludeFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir da resposta. |
 
 **Saída (getFoldersReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | Não | Uma matriz de pastas que correspondem aos critérios de filtro. A resposta é limitada a 100.000 pastas no máximo. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | Não | Uma matriz de pastas que correspondem aos critérios de filtro. A resposta é limitada a 100.000 pastas no máximo. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exemplos {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

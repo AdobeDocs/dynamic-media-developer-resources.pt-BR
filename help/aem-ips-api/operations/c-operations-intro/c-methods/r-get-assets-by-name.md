@@ -2,12 +2,12 @@
 description: Retorna ativos com base em uma matriz de nomes de ativos.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> hardSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiverem vazias, somente os ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> serão retornados. </p> <p>Se <span class="codeph"> false</span>, os ativos sem subtipo definido serão incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>If <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não está vazio, somente ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> são retornadas. </p> <p>If <span class="codeph"> false</span>, ativos sem subtipo definido são incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,7 +114,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtro. |
+| assetArray | `types:AssetArray` | Não | Matriz de ativos que correspondem aos critérios de filtro. |
 
 ## Exemplos {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

@@ -2,12 +2,12 @@
 description: Atualiza as permissões do ativo.
 solution: Experience Manager
 title: updateAssetPermissions
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Sim | Permissões que você deseja aplicar ao ativo. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| assetHandle | `xsd:string` | Sim | Identificador de ativo. |
+| updateArray | `types:PermissionUpdateArray` | Sim | Permissões que você deseja aplicar ao ativo. |
 
 **Saída (updateAssetPermissionsReturn)**
 

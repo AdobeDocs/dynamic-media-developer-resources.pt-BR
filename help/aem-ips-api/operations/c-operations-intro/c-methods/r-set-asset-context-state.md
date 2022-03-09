@@ -2,12 +2,12 @@
 description: Defina ou atualize o estado de publicação de um ou mais ativos. Você pode definir estados de publicação separados para cada contexto de publicação em uma empresa.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -38,21 +38,21 @@ Defina ou atualize o estado de publicação de um ou mais ativos. Você pode def
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Sim | Uma matriz de ativos e seus novos estados de publicação. |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sim | Uma matriz de ativos e seus novos estados de publicação. |
 
 **Saída (setAssetsContexStateReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de ativos alterados com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou modificar ativos. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou modificar ativos. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou modificá-los. |
+| successCount | `xsd:int` | Sim | O número de ativos alterados com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou modificar ativos. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou modificar ativos. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou modificá-los. |
 
 ## Exemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Este exemplo de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
+Essa amostra de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 

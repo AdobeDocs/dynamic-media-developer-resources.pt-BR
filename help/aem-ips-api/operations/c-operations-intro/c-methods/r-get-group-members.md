@@ -2,12 +2,12 @@
 description: Obtém os usuários que pertencem a uma empresa e grupo específico.
 solution: Experience Manager
 title: getGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
-| `*`groupHandle`*` | `xsd:string` |  | O identificador do grupo. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| groupHandle | `xsd:string` |  | O identificador do grupo. |
 
 **Saída (getGroupMembersReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Sim | Uma matriz de identificadores de usuários. |
+| userHandleArray | `type:HandleArray` | Sim | Uma matriz de identificadores de usuários. |
 
 ## Exemplos {#section-aaa340dba6b64cce9bcd8303cf999166}
 

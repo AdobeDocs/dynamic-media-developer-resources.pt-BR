@@ -2,12 +2,12 @@
 description: Define campos de metadados de perfil ICC.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule para a empresa que contém os perfis ICC. |
-| `*`atualizar matriz`*` | `xsd:string` | Sim | Matriz de atualizações de perfil ICC. |
+| companyHandle | `xsd:string` | Sim | Manipule para a empresa que contém os perfis ICC. |
+| atualizar matriz | `xsd:string` | Sim | Matriz de atualizações de perfil ICC. |
 
 **Saída (batchSetIccProfileFields)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | O número de campos de perfil ICC definidos com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de perfil ICC. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos de perfil ICC. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
+| successCount | `xsd:int` | Sim | O número de campos de perfil ICC definidos com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou definir os campos de perfil ICC. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou definir os campos de perfil ICC. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou aplicar as atualizações. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou aplicar as atualizações. |
 
 ## Exemplos {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

@@ -2,12 +2,12 @@
 description: Uma matriz de atualizações de valores de tag.
 solution: Experience Manager
 title: TagValueUpdateArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:TagValueUpdate` | Uma matriz de atualizações de valores de tag. |
+| items | `types:TagValueUpdate` | Uma matriz de atualizações de valores de tag. |

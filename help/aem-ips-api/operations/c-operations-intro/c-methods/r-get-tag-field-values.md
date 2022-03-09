@@ -2,12 +2,12 @@
 description: Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -36,14 +36,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Sim | Uma matriz de campo trata os valores de tag que você deseja retornar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
+| fieldHandleArray | `types:HandleArray` | Sim | Uma matriz de campo trata os valores de tag que você deseja retornar. |
 
 **Saída (getTagFieldValuesReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores da tag no dicionário para cada campo solicitado. |
+| fieldArray | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores da tag no dicionário para cada campo solicitado. |
 
 ## Exemplos {#section-4492742614e44bb191a7d397dc1a1407}
 

@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -31,19 +31,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Sim | Determina o Estado da lixeira a ser procurado. |
-| `*`includeInative`*` | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários não administrativos do IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização é retornada se o usuário não tiver associações ativas à empresa. |
-| `*`includeInvalid`*` | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Não | Filtra os resultados com base em grupos. |
-| `*`userRoleArray`*` | `types:StringArray` | Não | Filtra os resultados com base na função do usuário. |
-| `*`numChars`*` | `xsd:int` | Não | Habilitar > 1 caractere. |
+| charField | `xsd:string` | Sim | Determina o Estado da lixeira a ser procurado. |
+| includeInative | `xsd:boolean` | Sim | Incluir ou excluir usuários inativos. Usuários não administrativos do IPS devem ser membros ativos de pelo menos uma empresa para serem autorizados a fazer chamadas de API. Uma falha de autorização é retornada se o usuário não tiver associações ativas à empresa. |
+| includeInvalid | `xsd:boolean` | Não | Incluir ou excluir usuários inválidos. |
+| companyHandleArray | `types:HandleArray` | Não | Filtre os resultados com base na empresa. |
+| groupHandleArray | `types:HandleArray` | Não | Filtra os resultados com base em grupos. |
+| userRoleArray | `types:StringArray` | Não | Filtra os resultados com base na função do usuário. |
+| numChars | `xsd:int` | Não | Habilitar > 1 caractere. |
 
 **Saída (getUserCharsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Sim | Uma matriz de prefixos de caracteres. |
+| userCharsArray | `types:StringArray` | Sim | Uma matriz de prefixos de caracteres. |
 
 ## Exemplos {#section-3702f165e8b041139a6144f4a76ca25f}
 

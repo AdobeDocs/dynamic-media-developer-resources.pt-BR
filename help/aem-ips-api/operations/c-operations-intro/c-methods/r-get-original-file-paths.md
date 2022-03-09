@@ -2,12 +2,12 @@
 description: Obtém os caminhos de arquivo originais dos ativos de uma empresa.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de ativos que usam o caminho de arquivo original que você deseja obter. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| assetHandleArray | `types:HandleArray` | Sim | Matriz de ativos que usam o caminho de arquivo original que você deseja obter. |
 
 **Saída (getOriginalFilePathsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Sim | A matriz de sequências de caracteres que representam os caminhos de arquivo originais. |
+| originalFileArray | `types:StringArray` | Sim | A matriz de sequências de caracteres que representam os caminhos de arquivo originais. |
 
 ## Exemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

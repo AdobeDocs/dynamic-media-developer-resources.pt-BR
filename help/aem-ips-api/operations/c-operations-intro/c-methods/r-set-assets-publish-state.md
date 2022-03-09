@@ -2,12 +2,12 @@
 description: Determina se um lote de ativos está pronto para ser publicado.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -37,18 +37,18 @@ Esta é a versão em lote de [setAssetState](../../../operations/c-operations-in
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Sim | Matriz de valores de estado de publicação para os ativos. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Sim | Matriz de valores de estado de publicação para os ativos. |
 
 **Saída (setAssetsPublishStateParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | A quantidade de ativos atualizados com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de ativos que geraram um aviso quando a operação tentou atualizá-los. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de ativos que geraram um erro quando a operação tentou excluí-los. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um aviso. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um erro. |
+| successCount | `xsd:int` | Sim | A quantidade de ativos atualizados com êxito. |
+| warningCount | `xsd:int` | Sim | O número de ativos que geraram um aviso quando a operação tentou atualizá-los. |
+| errorCount | `xsd:int` | Sim | O número de ativos que geraram um erro quando a operação tentou excluí-los. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um aviso. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um erro. |
 
 ## Exemplos {#section-38cfdd3436214a06a1bae16875501d51}
 

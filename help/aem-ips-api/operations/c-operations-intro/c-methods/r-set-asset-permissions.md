@@ -2,12 +2,12 @@
 description: Define as permissões de um único ativo usando um ativo de permissão.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Por padrão, os ativos herdam as permissões da pasta pai. Depois de definir per
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém a pasta com a qual deseja trabalhar. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Sim | Matriz de permissões. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém a pasta com a qual deseja trabalhar. |
+| assetHandle | `xsd:string` | Sim | Identificador de pasta. |
+| permissionArray | `types:PermissionsUpdateArray` | Sim | Matriz de permissões. |
 
 **Saída (setAssetPermissionsReturn)**
 

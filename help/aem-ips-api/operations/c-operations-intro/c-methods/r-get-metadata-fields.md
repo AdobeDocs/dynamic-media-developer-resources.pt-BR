@@ -2,12 +2,12 @@
 description: Obtém os campos de metadados definidos pelo usuário associados a um ativo.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic, SDK/API, Metadados
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -34,14 +34,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O responsável da empresa. |
-| `*`assetType`*` | `xsd:string` | Sim | Tipos de ativos a partir dos quais obter metadados. |
+| companyHandle | `xsd:string` | Sim | O responsável da empresa. |
+| assetType | `xsd:string` | Sim | Tipos de ativos a partir dos quais obter metadados. |
 
 **Saída (getMetadataFieldsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`Frase do código`*` | `Code Phrase` |  |  |
+| Frase do código | `Code Phrase` |  |  |
 
 ## Exemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 

@@ -2,12 +2,12 @@
 description: Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 solution: Experience Manager
 title: createTemplate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 
-O parâmetro `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armazenados no catálogo do Servidor de Imagens aplicado antes de qualquer comando fornecido pelo usuário no URL. O parâmetro `urlPostApplyModifier` especifica comandos de protocolo aplicados após qualquer comando de URL, o que substituirá quaisquer configurações conflitantes fornecidas pelo usuário.
+O `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armazenados no catálogo do Servidor de Imagens aplicado antes de qualquer comando fornecido pelo usuário no URL. O `urlPostApplyModifier` especifica comandos de protocolo aplicados após qualquer comando de URL, o que substituirá quaisquer configurações conflitantes fornecidas pelo usuário.
 
 ## Tipos de usuário autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,22 +32,22 @@ O parâmetro `urlModifier` especifica os comandos de protocolo do Servidor de Im
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | A empresa à qual o modelo pertence. |
-| `*`folderHandle`*` | `xsd:string` | Sim | O identificador de pasta que representa a pasta onde o modelo reside. |
-| `*`name`*` | `xsd:string` | Sim | Nome do modelo. |
-| `*`type`*` | `xsd:string` | Sim | Tipo de modelo. |
-| `*`urlModifier`*` | `xsd:string` | Sim | Especifica os comandos do Servidor de Imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirá quaisquer configurações conflitantes fornecidas pelo usuário. |
+| companyHandle | `xsd:string` | Sim | A empresa à qual o modelo pertence. |
+| folderHandle | `xsd:string` | Sim | O identificador de pasta que representa a pasta onde o modelo reside. |
+| name | `xsd:string` | Sim | Nome do modelo. |
+| type | `xsd:string` | Sim | Tipo de modelo. |
+| urlModifier | `xsd:string` | Sim | Especifica os comandos do Servidor de Imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
+| urlPostApplyModifier | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirá quaisquer configurações conflitantes fornecidas pelo usuário. |
 
 **Saída (createTemplateParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do modelo. |
+| assetHandle | `xsd:string` | Sim | O identificador do modelo. |
 
 ## Exemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Essa amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome `APIcreateTemplate`, um `urlModifier` e um `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
+Essa amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, a `urlModifier`e um `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
 
 **Solicitação**
 

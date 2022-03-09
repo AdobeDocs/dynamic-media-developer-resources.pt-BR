@@ -2,12 +2,12 @@
 description: Obtém os ativos e o número de ativos associados a uma empresa específica.
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Obtém os ativos e o número de ativos associados a uma empresa específica.
 
-O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
+O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados) `xsd:string`), cada um com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
 Sintaxe
 
 ## Tipos de usuário autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -37,17 +37,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa com ativos que você deseja contar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com ativos que você deseja contar. |
 
 **Saída (getAssetCountsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | Não | Uma matriz de tipos de ativos, cada um com seu próprio campo de contagem, permitindo a representação de vários tipos de ativos por elemento da matriz. |
+| countArray | `types:AssetCountArray` | Não | Uma matriz de tipos de ativos, cada um com seu próprio campo de contagem, permitindo a representação de vários tipos de ativos por elemento da matriz. |
 
 ## Exemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Este exemplo de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado ao servidor de serviços Web IPS para obter as contagens de ativos.
+Essa amostra de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado ao servidor de serviços Web IPS para obter as contagens de ativos.
 
 **Solicitação**
 

@@ -2,12 +2,12 @@
 description: Atualiza um conjunto de ativos.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,10 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o conjunto de imagens que você deseja modificar. |
-| `*`assetHandle`*` | `xsd:string` | Sim | O identificador do conjunto de imagens que você deseja modificar. |
-| `*`setDefinition`*` | `xsd:string` | Não | Redefine os membros do conjunto de imagens. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Não | O identificador do ativo que atua como a miniatura do conjunto de imagens. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o conjunto de imagens que você deseja modificar. |
+| assetHandle | `xsd:string` | Sim | O identificador do conjunto de imagens que você deseja modificar. |
+| setDefinition | `xsd:string` | Não | Redefine os membros do conjunto de imagens. |
+| thumbAssetHandle | `xsd:string` | Não | O identificador do ativo que atua como a miniatura do conjunto de imagens. |
 
 **Saída (updateAssetSetReturn)**
 

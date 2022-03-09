@@ -2,12 +2,12 @@
 description: Atualize as permissões da pasta.
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
-| `*`updateChildren`*` | `xsd:boolean` | Sim | Determina se deseja atualizar filhos com permissões definidas para a pasta de nível superior. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Sim | A matriz de atualizações de permissão que você deseja aplicar à pasta. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| folderHandle | `xsd:string` | Sim | Identificador de pasta. |
+| updateChildren | `xsd:boolean` | Sim | Determina se deseja atualizar filhos com permissões definidas para a pasta de nível superior. |
+| updateArray | `types:PermissionUpdateArray` | Sim | A matriz de atualizações de permissão que você deseja aplicar à pasta. |
 
 **Saída (updateFolderPermissionsReturn)**
 

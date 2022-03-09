@@ -2,12 +2,12 @@
 description: Cria um novo projeto.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
@@ -33,18 +33,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa associada ao novo projeto. |
-| `*`projectName`*` | `xsd:string` | Sim | Novo nome do projeto. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa associada ao novo projeto. |
+| projectName | `xsd:string` | Sim | Novo nome do projeto. |
 
 **Saída (createProjectParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Sim | O identificador do novo projeto. |
+| projectHandle | `xsd:string` | Sim | O identificador do novo projeto. |
 
 ## Exemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Esta amostra de código cria um projeto chamado `ApiTestProject` em uma empresa especificada por seu identificador. A resposta retorna o identificador para o projeto.
+Essa amostra de código cria um projeto chamado `ApiTestProject` numa empresa especificada pelo seu identificador. A resposta retorna o identificador para o projeto.
 
 **Solicitação**
 

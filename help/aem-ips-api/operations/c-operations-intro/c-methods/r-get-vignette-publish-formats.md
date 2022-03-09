@@ -2,12 +2,12 @@
 description: getVignettePublishFormats
 solution: Experience Manager
 title: getVignettePublishFormats
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O nome da empresa. |
+| companyHandle | `xsd:string` | Sim | O nome da empresa. |
 
 **Saída (getVignettePublishFormatsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`vinhetaFormatArray`*` | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
+| vinhetaFormatArray | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
 
 ## Exemplos {#section-2cc32b27cc6243b7b3e273cc05996226}
 

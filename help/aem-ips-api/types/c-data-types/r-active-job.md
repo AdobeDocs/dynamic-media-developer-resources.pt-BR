@@ -1,13 +1,13 @@
 ---
+title: AtiveJob
 description: Um trabalho que é executado em um servidor. Além disso, é uma instância de um trabalho agendado.
 solution: Experience Manager
-title: AtiveJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Um trabalho que é executado em um servidor. Além disso, é uma instância de um trabalho agendado.
 
-Existem empregos em 3 estados:
+Existem empregos em três estados:
 
 * Agendado para execução.
 * Em execução no momento.
 * Concluída a execução (e já foram gravadas informações em um registro de tarefas).
 
-Especifique um valor do tipo de trabalho para retornar o tipo de trabalho. Você pode retornar os seguintes trabalhos:
+Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Você pode retornar os seguintes trabalhos:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ Especifique um valor do tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nome original do tipo <span class="codeph"> AtiveJob</span> enviado com o trabalho. </td> 
+   <td colname="col3">Nome original do <span class="codeph"> AtiveJob</span> tipo enviado com a tarefa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,12 +80,12 @@ Especifique um valor do tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">A localidade para detalhes do log de tarefas e localização de email. <p>Especifique localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, onde o código de idioma é um código de duas letras minúsculas, conforme especificado pela ISO-639, e o código de país opcional é um código de duas letras maiúsculas, conforme especificado pela ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">A localidade para detalhes do log de tarefas e localização de email. <p>Especificar localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, em que o código linguístico é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional do país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Descrição do trabalho especificada originalmente em <span class="codeph"> submitJob</span>. </td> 
+   <td colname="col3">Descrição da tarefa especificada originalmente em <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -165,12 +165,12 @@ Especifique um valor do tipo de trabalho para retornar o tipo de trabalho. Você
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadPostJob</span> </td> 
-   <td colname="col3"> Upload da área de trabalho de rastreamento de detalhes da tarefa. </td> 
+   <td colname="col3"> Detalhes da tarefa, rastreamento do upload da área de trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportar Trabalho</a>. </td> 
+   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportar trabalho</a>. </td> 
   </tr> 
  </tbody> 
 </table>

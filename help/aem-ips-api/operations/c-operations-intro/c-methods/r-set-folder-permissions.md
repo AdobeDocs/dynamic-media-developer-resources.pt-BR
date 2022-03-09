@@ -2,12 +2,12 @@
 description: Define as permissões da pasta.
 solution: Experience Manager
 title: setFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`folderHandle`*` | `xsd:string` | Sim | Identificador de pasta. |
-| `*`setChildren`*` | `xsd:boolean` | Sim | Define permissões em filhos que pertencem à pasta. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Sim | Matriz de permissões. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| folderHandle | `xsd:string` | Sim | Identificador de pasta. |
+| setChildren | `xsd:boolean` | Sim | Define permissões em filhos que pertencem à pasta. |
+| permissionArray | `types:PermissionUpdateArray` | Sim | Matriz de permissões. |
 
 **Saída (setFolderPermissionsReturn)**
 

@@ -2,12 +2,12 @@
 description: Retorna os contextos de publicação para ativos marcados para publicação.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Sintaxe
 >
 >* O usuário deve ter acesso de leitura para retornar os ativos.
 >* Todos os usuários têm acesso à empresa compartilhada.
-
 >
-
 
 
 ## Parâmetros {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manipule a empresa. |
-| `*`assetHandleArray`*` | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja consultar para contextos ativos (marcados para publicação). |
+| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| assetHandleArray | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja consultar para contextos ativos (marcados para publicação). |
 
 **Saída (batchGetAssetPublishContextsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Sim | Uma matriz de contextos de publicação em que cada ativo é marcado para publicação. |
 
 ## Exemplos {#section-457f6809ccfa425b9a0976313d613f4e}
 

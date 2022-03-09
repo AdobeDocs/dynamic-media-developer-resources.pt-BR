@@ -2,12 +2,12 @@
 description: Define a associação do grupo para um usuário.
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
-| `*`companyHandle`*` | `xsd:string` | Não | Manuseio da empresa. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Sim | A matriz de grupos aos quais o usuário pertence. |
+| userHandle | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
+| companyHandle | `xsd:string` | Não | Manuseio da empresa. |
+| groupHandleArray | `types:HandleArray` | Sim | A matriz de grupos aos quais o usuário pertence. |
 
 **Saída (setGroupMembershipReturn)**
 

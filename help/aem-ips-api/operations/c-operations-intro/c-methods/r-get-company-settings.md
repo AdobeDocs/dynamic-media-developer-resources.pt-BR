@@ -2,12 +2,12 @@
 description: Retorna as configurações de IPS para uma empresa específica.
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa cujas configurações você deseja recuperar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa cujas configurações você deseja recuperar. |
 
 **Saída (getCompanySettingsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`configurações`*` | `types:CompanySettings` | Sim | Configurações da empresa. |
+| configurações | `types:CompanySettings` | Sim | Configurações da empresa. |
 
 ## Exemplos {#section-191f78995ecf473a95eadf7296204fd7}
 

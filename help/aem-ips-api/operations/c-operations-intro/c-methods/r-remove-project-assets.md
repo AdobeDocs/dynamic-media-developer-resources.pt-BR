@@ -2,12 +2,12 @@
 description: Remove ativos de um projeto. Não destrói os ativos.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -32,19 +32,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O controle da empresa com os ativos que deseja mover. |
-| `*`projectHandle`*` | `xsd:string` | Sim | O identificador dos ativos do projeto que deseja mover. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Sim | Matriz de ativos que você deseja mover. |
+| companyHandle | `xsd:string` | Sim | O controle da empresa com os ativos que deseja mover. |
+| projectHandle | `xsd:string` | Sim | O identificador dos ativos do projeto que deseja mover. |
+| assetHandleArray | `types:HandleArray` | Sim | Matriz de ativos que você deseja mover. |
 
 **Saída (removeProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Sim | Contagem de ativos removida com êxito. |
-| `*`warningCount`*` | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou remover ativos do projeto. |
-| `*`errorCount`*` | `xsd:int` | Sim | O número de erros gerados quando a operação tentou remover ativos do projeto. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou removê-los do projeto. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou removê-los do projeto. |
+| successCount | `xsd:int` | Sim | Contagem de ativos removida com êxito. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou remover ativos do projeto. |
+| errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou remover ativos do projeto. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou removê-los do projeto. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou removê-los do projeto. |
 
 ## Exemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 

@@ -2,12 +2,12 @@
 description: Definição de meta para uma ação de clique no navegador.
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
@@ -22,8 +22,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`name`*` | `xsd:string` | O nome da definição do mapa de imagem. |
-| `*`shapeType`*` | `xsd:string` | Um dos valores de forma de região. |
-| `*`região`*` | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado nos atributos de tag HTML `<area>` . |
-| `*`ação`*` | `xsd:string` | Outros atributos a serem incluídos na tag HTML `<area>` , incluindo a URL `href`. |
-| `*`ativado`*` | `xsd:boolean` | Verdadeiro se o mapa de imagem estiver ativado. |
+| name | `xsd:string` | O nome da definição do mapa de imagem. |
+| shapeType | `xsd:string` | Um dos valores de forma de região. |
+| região | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado no HTML `<area>` atributos de tag. |
+| ação | `xsd:string` | Outros atributos a serem incluídos no HTML `<area>` , incluindo a `href` URL. |
+| ativado | `xsd:boolean` | Verdadeiro se o mapa de imagem estiver ativado. |

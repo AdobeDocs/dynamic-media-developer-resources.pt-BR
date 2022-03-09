@@ -2,12 +2,12 @@
 description: Publica arquivos nos servidores de imagem.
 solution: Experience Manager
 title: ImageServingPublishJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`publishType`*` | `xsd:string` | Um dos tipos de publicação disponíveis. |
-| `*`emailSetting`*` | `xsd:string` | Escolha das configurações de email. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL para enviar um aviso de conclusão. |
+| publishType | `xsd:string` | Um dos tipos de publicação disponíveis. |
+| emailSetting | `xsd:string` | Escolha das configurações de email. |
+| httpCompletionUrl | `xsd:string` | URL para enviar um aviso de conclusão. |

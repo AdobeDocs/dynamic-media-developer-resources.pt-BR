@@ -2,12 +2,12 @@
 description: Usa uma matriz de propriedades para atualizar um conjunto de propriedades.
 solution: Experience Manager
 title: updatePropertySet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Sim | Manipule para o conjunto de propriedades. |
-| `*`replaceProperties`*` | `xsd:string` | Não | Defina como `true` para substituir propriedades. |
-| `*`propertyArray`*` | `types:PropertyArray` | Sim | Matriz de propriedades atualizadas para o conjunto de propriedades. |
+| setHandle | `xsd:string` | Sim | Manipule para o conjunto de propriedades. |
+| replaceProperties | `xsd:string` | Não | Defina como `true` para substituir propriedades. |
+| propertyArray | `types:PropertyArray` | Sim | Matriz de propriedades atualizadas para o conjunto de propriedades. |
 
 **Saída (updatePropertySetReturn)**
 

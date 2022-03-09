@@ -2,12 +2,12 @@
 description: Matriz de tipos de detalhes de log de trabalhos auxiliares.
 solution: Experience Manager
 title: JobLogDetailAuxArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 69662118-8dbc-47ce-a6e3-0f2edf0109ac
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `*`items`*` | `types:JobLogDetailAux` | Uma matriz de tipos de detalhes de log de trabalhos auxiliares. |
+| items | `types:JobLogDetailAux` | Uma matriz de tipos de detalhes de log de trabalhos auxiliares. |

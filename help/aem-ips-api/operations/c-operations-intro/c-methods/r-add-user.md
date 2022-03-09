@@ -2,12 +2,12 @@
 description: Cria uma conta de usuário e a adiciona a uma ou mais empresas.
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -31,20 +31,20 @@ Ao adicionar um usuário a várias empresas, especifique essas empresas pelo con
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`firstName`*` | `xsd:string` | Sim | O nome do usuário. |
-| `*`lastName`*` | `xsd:string` | Sim | O sobrenome do usuário. |
-| `*`email`*` | `xsd:string` | Sim | O endereço de email do usuário. |
-| `*`defaultRole`*` | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, a função `IpsAdmin` substitui outras configurações por empresa. |
-| `*`senha`*` | `xsd:string` | Sim | Define a senha do usuário |
-| `*`passwordExpires`*` | `xsd:dateTime` | Não | Define o período de expiração da senha. Forneça o fuso horário ao transmitir a solicitação. Os fusos horários são ajustados para Hora central. |
-| `*`isValid`*` | `xsd:boolean` | Sim | Determina se o usuário é válido. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
+| firstName | `xsd:string` | Sim | O nome do usuário. |
+| lastName | `xsd:string` | Sim | O sobrenome do usuário. |
+| email | `xsd:string` | Sim | O endereço de email do usuário. |
+| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que a variável `IpsAdmin` substitui outras configurações por empresa. |
+| senha | `xsd:string` | Sim | Define a senha do usuário |
+| passwordExpires | `xsd:dateTime` | Não | Define o período de expiração da senha. Forneça o fuso horário ao transmitir a solicitação. Os fusos horários são ajustados para Hora central. |
+| isValid | `xsd:boolean` | Sim | Determina se o usuário é válido. |
+| membershipArray | `xsd:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
 
 **Saída (addUserParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Sim | O identificador para o usuário. |
+| userHandle | `xsd:string` | Sim | O identificador para o usuário. |
 
 ## Exemplos {#section-2547cef622734b71919eef849960b5cb}
 

@@ -5,7 +5,7 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -33,10 +33,10 @@ Para o Image Serving, os comandos no `urlModifier` são publicados no campo Modi
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Identificador de ativo. |
-| `*`urlModifier`*` | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar antes da solicitação ou `urlPostApplyModifier` comandos. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar depois de `urlModifier` e solicitar comandos. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| assetHandle | `xsd:string` | Sim | Identificador de ativo. |
+| urlModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar antes da solicitação ou `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar depois de `urlModifier` e solicitar comandos. |
 
 **Saída (setUrlModifierReturn)**
 

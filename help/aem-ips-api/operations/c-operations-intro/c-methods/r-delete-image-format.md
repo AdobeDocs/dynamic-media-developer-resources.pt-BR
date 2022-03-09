@@ -2,12 +2,12 @@
 description: Exclui um formato de imagem. Obtenha o identificador de formato de imagem de saveImageFormat.
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | O identificador da empresa que contém o formato de imagem que você deseja excluir. |
-| `*`imageFormatHandle`*` | `xsd:string` | Sim | O identificador para o formato de imagem que você deseja excluir. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o formato de imagem que você deseja excluir. |
+| imageFormatHandle | `xsd:string` | Sim | O identificador para o formato de imagem que você deseja excluir. |
 
 **Saída (deleteImageFormatParam)**
 

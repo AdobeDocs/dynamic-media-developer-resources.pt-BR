@@ -2,12 +2,12 @@
 description: Define o direcionamento de zoom associado a uma imagem de ativo. Substitui os destinos de zoom existentes.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Sim | Manuseio da empresa. |
-| `*`assetHandle`*` | `xsd:string` | Sim | Ativo com o direcionamento de zoom que você deseja definir. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Sim | Matriz de definições de direcionamento de zoom. |
+| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| assetHandle | `xsd:string` | Sim | Ativo com o direcionamento de zoom que você deseja definir. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Sim | Matriz de definições de direcionamento de zoom. |
 
 **Saída (setZoomTargetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Sim | O conjunto de identificadores para os destinos de zoom criados por esta operação. |
+| zoomTargetHandleArray | `types:HandleArray` | Sim | O conjunto de identificadores para os destinos de zoom criados por esta operação. |
 
 ## Exemplos {#section-a2f14c7a1499443e96d099ea8a76c182}
 
