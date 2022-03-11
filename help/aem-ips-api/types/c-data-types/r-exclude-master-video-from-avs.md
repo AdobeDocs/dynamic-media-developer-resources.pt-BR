@@ -4,9 +4,9 @@ description: Exclui o vídeo principal do conjunto de vídeos adaptáveis.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O Adobe está descontinuando o suporte para o `ExcludeMasterVideoFromAVS` parâmetro setembro de 2022.
+>O Adobe está descontinuando o suporte para o `ExcludeMasterVideoFromAVS` parâmetro 1º de setembro de 2022. Consulte também [Chamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
 
 Exclui o vídeo principal do conjunto de vídeos adaptáveis.
 
