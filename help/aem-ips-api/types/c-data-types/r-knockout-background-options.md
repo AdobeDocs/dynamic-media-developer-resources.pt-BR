@@ -1,24 +1,35 @@
 ---
-description: Mascarar (recortar) o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Um parâmetro opcional que está desativado por padrão.
-solution: Experience Manager
 title: OpçõesDePlanoDeFundoDeConhecimento
-feature: Dynamic Media Classic, SDK/API
+description: Mascarar (recortar) o plano de fundo das imagens selecionadas. Esse tipo de dados permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Um parâmetro opcional que está desativado por padrão.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
 # OpçõesDePlanoDeFundoDeConhecimento{#knockoutbackgroundoptions}
 
-Mascarar (recortar) o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Um parâmetro opcional que está desativado por padrão.
+Mascarar (recortar) o plano de fundo das imagens selecionadas. Esse tipo de dados permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto.
+
+Esse tipo de dados é opcional e desativado por padrão.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
 ## Parâmetros {#section-3149b49ccb714e6eafa6655354816819}
+
+>[!IMPORTANT]
+>
+>Se você estiver configurando `KnockoutBackgroundOptions` no Adobe Experience Manager, use os seguintes parâmetros em vez disso:
+>* `kbCorner`
+>* `kbTolerance`
+>* `kbFillMethod`
+>
+>Por exemplo: `KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -32,7 +43,7 @@ Mascarar (recortar) o plano de fundo das imagens selecionadas. Isso permite que 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Seleciona o canto com o qual deseja trabalhar. <span class="codeph"> A </span> corneraceita estes valores: 
+   <td colname="col3">Seleciona o canto com o qual você deseja trabalhar. <span class="codeph"> corner</span> aceita estes valores: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -52,7 +63,7 @@ Mascarar (recortar) o plano de fundo das imagens selecionadas. Isso permite que 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controle a transparência de pixels no local especificado pela variável <span class="codeph"><span class="varname"> corner</span></span>. O <span class="codeph"> fillMethod</span> aceita estes valores: </p> 
+   <td colname="col3"> <p>Controlar a transparência de pixels no local especificado pela variável <span class="codeph"><span class="varname"> corner</span></span> variável. O <span class="codeph"> fillMethod</span> aceita estes valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
      <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Torna transparente todos os pixels no canto especificado. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Torna transparente todos os pixels correspondentes, independentemente da localização. </li> 
@@ -78,7 +89,7 @@ Mascarar (recortar) o plano de fundo das imagens selecionadas. Isso permite que 
 
 ## Usado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-O tipo `KnockoutBackgroundOptions` é usado por:
+O `KnockoutBackgroundOptions` O tipo é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
