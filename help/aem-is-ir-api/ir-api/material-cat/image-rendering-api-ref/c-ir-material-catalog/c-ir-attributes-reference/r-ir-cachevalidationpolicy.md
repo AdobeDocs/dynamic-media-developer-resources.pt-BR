@@ -1,13 +1,13 @@
 ---
+title: CacheValidationPolicy
 description: Política de validação do cache do servidor. Especifica quando as entradas de cache do lado do servidor são validadas.
 solution: Experience Manager
-title: CacheValidationPolicy
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Política de validação do cache do servidor. Especifica quando as entradas de cache do lado do servidor são validadas.
 
-Com a validação baseada em expiração, os materiais de origem e as vinhetas são periodicamente verificados para ver se foram alterados. Com a validação baseada em catálogo, as imagens de origem são marcadas somente após o valor `catalog::TimeStamp` ser alterado.
+Com a validação baseada em expiração, os materiais de origem e as vinhetas são periodicamente verificados para ver se foram alterados. Com validação baseada em catálogo, as imagens de origem são marcadas somente após a variável `catalog::TimeStamp` valor alterado.
 
 A validação baseada em catálogo é recomendada quando os catálogos de material e de vinheta são usados. A validação baseada em expiração deve ser usada quando as vinhetas são referenciadas nas solicitações de Renderização de imagem diretamente pelo caminho.
 

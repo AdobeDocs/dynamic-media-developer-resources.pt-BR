@@ -1,13 +1,13 @@
 ---
+title: Expiração
 description: Tempo de funcionamento do cache do cliente. Número de horas até a expiração. Usado para gerenciar o armazenamento em cache do cliente e do servidor proxy.
 solution: Experience Manager
-title: Expiração
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ A expiração é definida principalmente para as respostas dos dados da imagem. 
 
 ## Propriedades {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-Número real, -2, -1, 0 ou maior. Número de horas até a expiração desde que a imagem de resposta foi gerada. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que efetivamente desativa o armazenamento em cache do cliente. Defina como -1 para marcar como `never expire`. Nesse caso, o servidor sempre retorna o status 304 (não modificado) em resposta a solicitações condicionais `GET` sem verificar se o arquivo foi realmente alterado. Defina como -2 para usar o padrão fornecido por `attribute::Expiration`.
+Número real, -2, -1, 0 ou maior. Número de horas até a expiração desde que a imagem de resposta foi gerada. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que efetivamente desativa o armazenamento em cache do cliente. Defina como -1 para marcar como `never expire`. Nesse caso, o servidor sempre retorna o status 304 (não modificado) em resposta ao condicional `GET` sem verificar se o arquivo foi realmente alterado. Defina como -2 para usar o padrão fornecido por `attribute::Expiration`.
 
 ## Padrão {#section-79d71706e12a4493a69d7febc3a1f271}
 
@@ -34,4 +34,4 @@ Número real, -2, -1, 0 ou maior. Número de horas até a expiração desde que 
 
 ## Consulte também {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[atributo::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) ,  [vinheta::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c),  [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[atributo::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [vinheta::Expiração](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

@@ -1,49 +1,49 @@
 ---
-description: Quantificação de cores. Especifica atributos de quantificação de cores para conversão de saída GIF.
-solution: Experience Manager
 title: quantizar
-feature: Dynamic Media Classic, SDK/API
+description: Quantificação de cores. Especifica atributos de quantificação de cores para conversão de saída de GIF.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # quantizar{#quantize}
 
-Quantificação de cores. Especifica atributos de quantificação de cores para conversão de saída GIF.
+Quantificação de cores. Especifica atributos de quantificação de cores para conversão de saída de GIF.
 
-` quantize= *``*[, *``*[, *``*[, *`typedithernumColorscolorList`*]]]`
+` quantize= *`type`*[, *`tonalidade`*[, *`numColors`*[, *`colorList`*]]]`
 
 <table id="table_A669A9058C8043A5BAE80B03A13B015B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac}  </span> </p> <p>Especifica o tipo de paleta. </p> <p>Defina como <span class="codeph"> adaptável </span> para calcular uma paleta ideal para a imagem. </p> <p>Defina como <span class="codeph"> web </span> ou <span class="codeph"> mac </span> para escolher uma paleta predefinida. </p> <p> <p>Observação:  O tipo de palete <span class="codeph"> mac </span> só é suportado para formatos GIF e PNG8, mas não para formatos GIF-Alpha e PNG8-Alpha. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Especifica o tipo de paleta. </p> <p>Defina como <span class="codeph"> adaptável </span> para calcular uma paleta ideal para a imagem. </p> <p>Defina como <span class="codeph"> web </span> ou <span class="codeph"> mac </span> para escolher uma paleta predefinida. </p> <p> <p>Observação: O <span class="codeph"> mac </span> O tipo de palete só é suportado para formatos GIF e PNG8, mas não para formatos GIF-Alpha e PNG8-Alpha. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tonalidade  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuse|off}  </span> </p> <p>Especifica as opções de pontilhamento. </p> <p>Defina como <span class="codeph"> difuso </span> para a difusão de erros Floyd-Steinberg </p> <p>Defina para <span class="codeph"> desligado </span> para desativar a ligação à ranhura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> tonalidade </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>Especifica as opções de pontilhamento. </p> <p>Defina como <span class="codeph"> difusor </span> para a difusão de erros Floyd-Steinberg </p> <p>Defina como <span class="codeph"> off </span> para desativar a adição. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Número de cores de saída (2-256) </p> <p>Especifica quantas cores estão incluídas na paleta <span class="codeph"> adaptável </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
+   <td colname="col2"> <p>Número de cores de saída (2-256) </p> <p>Especifica quantas cores estão incluídas no <span class="codeph"> adaptável </span> paleta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Uma lista separada por vírgulas de cores RGB forçadas no formato hex6 </p> <p>Permite que você especifique as cores a serem incluídas em uma paleta <span class="codeph"> adaptável </span>. Se o número de cores especificado for menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, as cores adicionais serão calculadas com base no conteúdo da imagem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
+   <td colname="col2"> <p>Uma lista separada por vírgulas de cores RGB forçadas no formato hex6 </p> <p>Permite que você especifique as cores a serem incluídas em uma <span class="codeph"> adaptável </span> paleta. Se o número de cores especificado for inferior a <span class="codeph"> <span class="varname"> numColors </span> </span>, cores adicionais são calculadas com base no conteúdo da imagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-8ab5035055b24b858270d260912a7f3d}
 
-Atributo da solicitação. Aplica-se independentemente da configuração de camada atual. Usado somente se `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` ou `fmt=png8-alpha`. Caso contrário, ignorado.
+Atributo da solicitação. Aplica-se independentemente da configuração de camada atual. Usado somente se `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`ou `fmt=png8-alpha`. Caso contrário, ignorado.
 
-As cores especificadas com `*`colorList`*` devem consistir em valores RGB no formato hexadecimal (consulte ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sem o prefixo &#39; `0x`&#39;. Não são permitidos outros especificadores de cores. *`numColors`* deve estar entre 2 e 256.
+As cores especificadas com *`colorList`* deve consistir em valores RGB no formato hex6 (consulte [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) without `0x` prefixo. Não são permitidos outros especificadores de cores. *`numColors`* deve estar entre 2 e 256.
 
 ## Padrão {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -51,7 +51,7 @@ As cores especificadas com `*`colorList`*` devem consistir em valores RGB no for
 
 ## Exemplo {#section-e34aca7587d548a7ae9d4266b80c9451}
 
-Gere uma miniatura GIF usando a paleta `web` e sem pontilhamento:
+Gere uma miniatura de GIF usando o `web` paleta e sem pontilhamento:
 
 ` http:// *`server`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
@@ -61,4 +61,4 @@ Converta a imagem em um GIF bi-tonal com transparência de cores chave e force a
 
 ## Consulte também {#section-ea5e8de6084540cf86010370a4d0f01f}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [cor](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

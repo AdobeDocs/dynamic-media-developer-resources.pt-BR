@@ -1,13 +1,13 @@
 ---
+title: textPath
 description: Caminho do texto. Especifica o caminho a ser usado como linha de base para o texto fornecido com textPs=.
 solution: Experience Manager
-title: textPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1c515786-bbba-44d3-837e-b474af293b7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,21 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para obter informações adicionais, incluindo uma descrição de *`pathDefinition`*.
+Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para informações adicionais, incluindo uma descrição de *`pathDefinition`*.
 
 >[!NOTE]
 >
->Diferente de `clipPath=`, os caminhos de texto não são fechados automaticamente quando &#39;z&#39; ou &#39;Z&#39; não é especificado no final de um subcaminho.
+>Diferente de `clipPath=`, os caminhos de texto não são fechados automaticamente quando &#39;z&#39; ou &#39;Z&#39; não for especificado no final de um subcaminho.
 
 *`pathDefinition`* pode incluir vários subcaminhos. O texto é renderizado nos subcaminhos na ordem especificada.
 
-Os comandos RTF `\ql`, `\qc`, `\qr`, `\li` e `\ri` podem ser usados para posicionar o texto renderizado ao longo do caminho.
+Os comandos RTF `\ql`, `\qc`, `\qr`, `\li`e `\ri` pode ser usada para posicionar o texto renderizado ao longo do caminho.
 
 ## Propriedades {#section-068137df436c46b9b55d271eb60e7285}
 
-Atributo da camada de texto (somente `textPs=`). Ignorado por outras camadas. Aplica-se a `layer=0` se especificado para `layer=comp`. Ignorado se `textPs=` estiver presente.
+Atributo de camada de texto ( `textPs=` somente). Ignorado por outras camadas. Aplica-se a `layer=0` se especificado para `layer=comp`. Ignorado se `textPs=` estão presentes.
 
-Um erro é retornado se uma camada incluir `textPath=` e `textFlowPath=`.
+Um erro é retornado se uma camada incluir ambos `textPath=` e `textFlowPath=`.
 
 ## Padrão {#section-697b1f2cfc43498080a31327e6eb173d}
 
@@ -47,4 +47,4 @@ Nenhum, para renderização de texto padrão.
 
 ## Consulte também {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) ,  [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d),  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), Camadas  [de texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [Camadas de texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

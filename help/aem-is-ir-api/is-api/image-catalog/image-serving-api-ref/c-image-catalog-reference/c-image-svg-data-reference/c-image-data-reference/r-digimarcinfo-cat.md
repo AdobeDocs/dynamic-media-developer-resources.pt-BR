@@ -1,13 +1,13 @@
 ---
+title: DigimarcInfo
 description: Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e especifica o tipo de marca d'água e quaisquer dados específicos da imagem associados.
 solution: Experience Manager
-title: DigimarcInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '230'
 ht-degree: 7%
 
 ---
@@ -20,9 +20,9 @@ Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e esp
 
 Quatro valores inteiros, separados por vírgulas.
 
-`*``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*`type`*, *`sinalizadores`*, *`val1`*, *`val2`*`
 
-`*`O tipo `*` ativa a incorporação do Digimarc e especifica o tipo de marca d&#39;água:
+`*`type`*` habilita a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -45,7 +45,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>ID da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-`*``*` sinaliza um campo de bits com três valores. Defina bit 0 para indicar conteúdo protegido por cópia, bit 1 para indicar conteúdo restrito e bit 2 para indicar conteúdo adulto:
+`*`sinalizadores`*` é um campo de bits com três valores. Defina bit 0 para indicar conteúdo protegido por cópia, bit 1 para indicar conteúdo restrito e bit 2 para indicar conteúdo adulto:
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -78,7 +78,7 @@ Quatro valores inteiros, separados por vírgulas.
    <td> <p>Restrito. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protegido por cópia, restrito. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +100,14 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-A interpretação de `*`val1`*` e `*`val2`*` depende de `*`type`*`:
+A interpretação do `*`val1`*` e `*`val2`*` dependa de `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -127,7 +127,7 @@ A interpretação de `*`val1`*` e `*`val2`*` depende de `*`type`*`:
    <td> <p>Não usado. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID da transação. </p> </td> 
    <td> <p>Não usado. </p> </td> 
   </tr> 
@@ -157,4 +157,4 @@ Herdado do atributo::DigimarcInfo se o campo não estiver presente ou se estiver
 
 ## Consulte também {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[atributo::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [atributo::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

@@ -1,13 +1,13 @@
 ---
+title: efeito
 description: Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segmento de camada na cadeia de caracteres de solicitação, que está associada à camada atual.
 solution: Experience Manager
-title: efeito
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segm
  </tr> 
 </table>
 
-Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é encerrado pelo próximo comando `layer=` ou `effect=` ou pelo final da solicitação.
+Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é finalizado pelo próximo `layer=` ou `effect=` ou até o fim da solicitação.
 
 *`n`* deve ser inferior a 0 para efeitos da camada exterior (ou seja, efeitos por trás da camada principal) e superior a 0 para efeitos da camada interna (ou seja, efeitos dentro da camada principal). Os números de camada de efeito não precisam ser consecutivos.
 
 O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com número mais alto são colocadas sobre as camadas com número mais baixo.
 
-As camadas de efeito podem ser anexadas a `layer=comp`.
+As camadas de efeito podem ser fixadas a `layer=comp`.
 
 ## Propriedades {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -47,4 +47,4 @@ Nenhum.
 
 ## Consulte também {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

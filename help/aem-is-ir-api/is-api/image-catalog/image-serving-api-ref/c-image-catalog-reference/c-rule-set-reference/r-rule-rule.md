@@ -1,20 +1,20 @@
 ---
-description: Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento <ruleset> .
-solution: Experience Manager
 title: regra
-feature: Dynamic Media Classic, SDK/API
+description: Solicitar elemento de regra. Uma ou mais regras são opcionais na variável <ruleset> elemento.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
 
 # regra{#rule}
 
-Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento `<ruleset>` .
+Solicitar elemento de regra. Uma ou mais regras são opcionais na variável `<ruleset>` elemento.
 
 ## Atributos {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +22,7 @@ Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento `<rul
 
 `Replace = "first" | "all"`: Opcional. O padrão é &quot;primeiro&quot;.
 
-`RequestType` =  *&quot;`types`&quot;*: Opcional. Especifica a qual contexto de entrada a regra se aplica. *`types`* é uma lista separada por vírgulas, que pode incluir um ou mais tokens listados na tabela a seguir. Se `RequestType` não for especificado, a regra se aplica às solicitações recebidas em todos os contextos compatíveis.
+`RequestType` = *&quot;`types`&quot;*: Opcional. Especifica a qual contexto de entrada a regra se aplica. *`types`* é uma lista separada por vírgulas, que pode incluir um ou mais tokens listados na tabela a seguir. If `RequestType` não for especificada, a regra se aplica às solicitações recebidas em todos os contextos compatíveis.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -51,14 +51,14 @@ Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento `<rul
  </tbody> 
 </table>
 
-**`Name = "text"`**: Opcional. Usado para identificar o elemento `<rule>` em logs de depuração e mensagens de erro.
+**`Name = "text"`**: Opcional. Usado para identificar a variável `<rule>` em logs de depuração e mensagens de erro.
 
 `  *`Atributo`* ="value"`: Opcional. `<rule>` Os elementos podem definir qualquer um dos atributos a seguir em qualquer combinação. Se especificado, e a regra for correspondida com êxito, eles substituirão os atributos de catálogo correspondentes para esta solicitação. O padrão é `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <span class="varname"> Atributo  </span> </b> </th> 
+   <th class="entry"> <b> <span class="varname"> Atributo </span> </b> </th> 
    <th class="entry"> <p>Atributo de catálogo de imagem correspondente </p> </th> 
   </tr> 
  </thead>
@@ -77,7 +77,7 @@ Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento `<rul
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> MaxPix</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix  </a> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-maxpix.md#reference-e167d396ac794079ba8b5e6eb16eeda5" type="reference" format="dita" scope="local"> atributo::MaxPix </a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
@@ -104,7 +104,7 @@ Solicitar elemento de regra. Uma ou mais regras são opcionais no elemento `<rul
 
 Consulte a descrição do atributo do catálogo de imagens correspondente para obter detalhes.
 
-Os atributos Expiration substituem apenas os valores de atributo padrão. A substituição será ignorada se um valor `catalog::Expiration` específico se aplicar à solicitação.
+Os atributos Expiration substituem apenas os valores de atributo padrão. A substituição será ignorada se um `catalog::Expiration` se aplica à solicitação.
 
 ## Dados {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -129,10 +129,10 @@ Os atributos Expiration substituem apenas os valores de atributo padrão. A subs
 
 ## Notas {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Se `<expression>` e `<substitution>` forem especificadas e as subsequências capturadas não forem usadas, a primeira subsequência correspondente será substituída por `<substitution>`.
+Se ambos `<expression>` e `<substitution>` são especificadas e as subsequências capturadas não são usadas, a primeira subsequência correspondente é substituída por `<substitution>`.
 
-Se `<expression>` não for especificado, qualquer caminho corresponderá e `<substitution>` será anexado ao final do caminho.
+If `<expression>` não for especificado, qualquer caminho corresponde a e `<substitution>` é anexada ao final do caminho.
 
-Se `<substitution>` não for especificado, nenhuma transformação de caminho ou consulta ocorrerá, mas todos os atributos de catálogo especificados serão substituídos. Se `<substitution>` estiver vazio, a substring correspondente será removida.
+If `<substitution>` não for especificado, nenhuma transformação de caminho ou consulta ocorrerá, mas todos os atributos de catálogo especificados serão substituídos. If `<substitution>` estiver vazia, a substring correspondente será removida.
 
-O `<addressfilter>` é aplicado somente quando ocorre uma correspondência e antes da aplicação das regras de consulta.
+O `<addressfilter>` é aplicada somente quando ocorre uma correspondência e antes da aplicação das regras de consulta.

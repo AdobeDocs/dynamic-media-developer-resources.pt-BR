@@ -1,13 +1,13 @@
 ---
+title: camada
 description: Selecione Camada. Seleciona uma camada e inicia um novo segmento de definição de camada na sequência de comandos.
 solution: Experience Manager
-title: camada
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Selecione Camada. Seleciona uma camada e inicia um novo segmento de definição de camada na sequência de comandos.
 
-`layer= *``*|comp[, *`name`*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Selecione Camada. Seleciona uma camada e inicia um novo segmento de definição 
  </tr> 
 </table>
 
-Todos os comandos no segmento de camada são aplicados à camada especificada. Um segmento de camada é encerrado pelo próximo comando `layer=` ou `effect=` ou pelo final da solicitação.
+Todos os comandos no segmento de camada são aplicados à camada especificada. Um segmento de camada é finalizado pelo próximo `layer=` ou `effect=` ou o fim da solicitação.
 
-Especifique `layer=comp` para selecionar a imagem composta (ou exibir, para alguns comandos).
+Especificar `layer=comp` para selecionar a imagem composta (ou exibir, para alguns comandos).
 
 O número da camada especifica efetivamente a ordem z da camada. As camadas com número mais alto são colocadas sobre as camadas com número mais baixo.
 
 Os números de camada não precisam ser consecutivos. A camada 0 é necessária.
 
-Um nome pode ser atribuído a uma camada com a variante de comando `layer= *`n`*, *`name`*`. Depois que uma camada nomeada é definida, ela pode ser referenciada com ` layer= *`name`*`, sem precisar saber o número da camada. Vários nomes podem ser atribuídos à mesma camada, usando vários comandos `layer= *`n`*, *`name`*`.
+Um nome pode ser atribuído a uma camada com a `layer= *`n`*, *`name`*` variante de comando. Depois que uma camada nomeada é definida, ela pode ser referenciada com ` layer= *`name`*`, sem precisar saber o número da camada. Vários nomes podem ser atribuídos à mesma camada, usando vários `layer= *`n`*, *`name`*` comandos.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Um nome pode ser atribuído a uma camada com a variante de comando `layer= *`n`*
 
 comando Camada. As referências da variável de substituição não são suportadas em `layer=`.
 
-`comp` não é permitido como uma  *`name`* string. Um erro é retornado se o mesmo *`name`* for atribuído a mais de uma camada, ou se uma camada for referenciada por *`name`* que não tenha sido definida anteriormente.
+`comp` não é permitido como *`name`* string. Um erro é retornado se o mesmo *`name`* for atribuída a mais de uma camada ou se uma camada for referenciada por *`name`* que não foi definido anteriormente.
 
 ## Padrão {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -75,4 +75,4 @@ comando Camada. As referências da variável de substituição não são suporta
 
 ## Exemplo {#section-cc40de6a0a754178aa752601539c815b}
 
-Veja os exemplos em [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Veja os exemplos em [Modelos](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).

@@ -1,13 +1,13 @@
 ---
+title: color
 description: Cor da camada. Especifica a cor de primeiro plano e a opacidade das camadas de cor sólida e efeito, e a cor de preenchimento da caixa de texto para as camadas de texto.
 solution: Experience Manager
-title: color
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ Cor da camada. Especifica a cor de primeiro plano e a opacidade das camadas de c
 
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color </span> </span> </p> </td> 
   <td class="stentry"> <p>Valor de cor cinza, RGB ou CMYK, com ou sem alfa. </p> </td> 
  </tr> 
 </table>
 
-No caso de camadas de imagem e texto, `color=` preenche as áreas transparentes e semiopacas dentro do retângulo delimitador da camada com a cor especificada* antes de* `rotate=` e `extend=` serem aplicadas.
+No caso de camadas de imagem e texto, `color=` preenche áreas transparentes e semiopacas dentro do retângulo delimitador da camada com a cor especificada* before* `rotate=` e `extend=` são aplicadas.
 
 ## Propriedades {#section-d6e74c36a49547849212e4db8927e678}
 
 Atributo de camada. Aplica-se à camada atual ou à camada 0 se `layer=comp`.
 
-*`color`* presume-se que existe no espaço de cores de trabalho correspondente ao tipo de pixel de  *`color`*. *`color`* é convertida com precisão se a imagem da camada tiver um tipo de pixel diferente no momento da mesclagem.
+*`color`* presume-se que existe no espaço de cores de trabalho correspondente ao tipo de pixel de *`color`*. *`color`* é convertida com precisão se a imagem da camada tiver um tipo de pixel diferente no momento da mesclagem.
 
 ## Padrão {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +45,4 @@ No fragmento de modelo a seguir, definimos o plano de fundo do texto para uma co
 
 ## Consulte também {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[cor](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), Gerenciamento de  [cores](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Gerenciamento de cores](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
