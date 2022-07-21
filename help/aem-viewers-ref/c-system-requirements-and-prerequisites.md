@@ -6,9 +6,9 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+source-git-commit: 8e09f8168987788f7d55849b4a275c488cfcc0b9
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -74,27 +74,42 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
    * iOS 10
    * Safari 11
 
->[!NOTE]
->
->A partir de 30 de setembro de 2018, os Visualizadores da Adobe Dynamic Media Classic encerraram o suporte do Transport Layer Security 1.0 (TLS 1.0). Dessa forma, o Dynamic Media Classic não oferece mais suporte a visualizadores nos seguintes navegadores/plataformas que sejam compatíveis com TLS 1.0 (o Adobe recomenda o uso de TLS 1.2 ou posterior):
->
-> * Android™ 2.3.7
-> * Android™ 4.0.4
-> * Android™ 4.1.1
-> * Android™ 4.2.2
-> * Android™ 4.3
-> * Internet Explorer 7 no Windows Vista®
-> * Internet Explorer 8 no Windows® XP
-> * Internet Explorer 8-10 no Windows® 7
-> * Internet Explorer 10 no Windows® Phone 8.0
-> * Safari 5.1.9 no Apple OS X 10.6.8
-> * Safari 6.0.4 no Apple OS X 10.8.4
-> * Java™ 6u45
-> * Java™ 7u25
-> * OpenSSL 0.9.8y
-> * Baidu Janeiro de 2015
+**IMPORTANTE**
+A partir de 30 de setembro de 2022, os visualizadores do Adobe Dynamic Media encerrarão o suporte para o seguinte:
 
+* TLS (Transport Layer Security) 1.0 e 1.1
+* As seguintes cifras fracas no TLS 1.2:
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
+   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_256_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
+   * `TLS_RSA_WITH_AES_128_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
+   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
+   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
+   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
 
->[!NOTE]
->
->FIM DA VIDA ÚTIL DOS VISUALIZADORES DO FLASH — A partir de 31 de janeiro de 2017, a Adobe Dynamic Media Classic encerrou oficialmente o suporte para a plataforma do visualizador de Flashes.
+<!-- Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
+
+* Android™ 2.3.7
+* Android™ 4.0.4
+* Android™ 4.1.1
+* Android™ 4.2.2
+* Android™ 4.3
+* Internet Explorer 7 on Window Vista®
+* Internet Explorer 8 on Windows® XP
+* Internet Explorer 8-10 on Windows® 7
+* Internet Explorer 10 on Windows® Phone 8.0
+* Safari 5.1.9 on Apple OS X 10.6.8
+* Safari 6.0.4 on Apple OS X 10.8.4
+* Java™ 6u45
+* Java™ 7u25
+* OpenSSL 0.9.8y
+* Baidu January 2015 -->
+
+<!-- FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
