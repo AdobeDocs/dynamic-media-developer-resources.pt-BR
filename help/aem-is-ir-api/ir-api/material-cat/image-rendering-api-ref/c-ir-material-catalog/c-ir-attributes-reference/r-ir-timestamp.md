@@ -1,36 +1,36 @@
 ---
-description: Carimbo de data e hora de modificação padrão. Fornece um valor padrão para o catálogo TimeStamp e a vinheta TimeStamp. Se não for especificado, o servidor usará a data/hora de modificação deste arquivo catalog.ini.
-solution: Experience Manager
 title: TimeStamp
+description: Carimbo de data e hora de modificação padrão. Fornece um valor padrão para o catálogo TimeStamp e a vinheta TimeStamp. Se não especificado, o servidor usa a data/hora de modificação deste arquivo catalog.ini.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Carimbo de data e hora de modificação padrão. Fornece um valor padrão para catalog::TimeStamp e vinheta::TimeStamp. Se não for especificado, o servidor usará a data/hora de modificação deste arquivo catalog.ini.
+Carimbo de data e hora de modificação padrão. Fornece um valor padrão para `catalog::TimeStamp` e `vignette::TimeStamp`. Se não especificado, o servidor usa a data/hora de modificação deste arquivo catalog.ini.
 
 ## Propriedades {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Valor de data/hora no formato Java. Pode ser o número inteiro de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT ou um valor de string de data/hora com um dos seguintes formatos:
+Valor de data/hora no formato Java™. Pode ser o número inteiro de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT, ou um valor de string de data/hora com um dos seguintes formatos:
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* GMT *[!DNL offset]*
 
-*[!DNL hh]* está no intervalo de 0 a 23.
+*[!DNL hh]* está no intervalo 0 - 23.
 
-*[!DNL zzz]* é um código de fuso horário de 3 ou 4 caracteres, como &#39;GMT&#39; ou &#39;PST&#39;. O horário de verão deve ser contabilizado no código do fuso horário (por exemplo, &#39;PST&#39; para o horário padrão do Pacífico, versus &#39;PDT&#39; para o horário de verão do Pacífico).
+*[!DNL zzz]* é um código de fuso horário de três ou quatro caracteres, como &#39;GMT&#39; ou &#39;PST&#39;. O horário de verão deve ser contabilizado no código do fuso horário (por exemplo, &#39;PST&#39; para o horário padrão do Pacífico, versus &#39;PDT&#39; para o horário de verão do Pacífico).
 
 *[!DNL offset]* é um deslocamento de fuso horário em horas ou horas:minutos, em relação ao GMT. Por exemplo, &#39;PDT&#39; é equivalente a &#39;GMT -7&#39;.
 
-Todos os elementos de valores de data/hora formatados na string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do [!DNL *[!DNL catalog]*.ini] arquivo é usado em vez disso.
+Todos os elementos de valores de data/hora formatados em string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do [!DNL *[!DNL catalog]*.ini] arquivo é usado em vez disso.
 
 ## Padrão {#section-65fb29a9ea2044df8cb9fe295eb14872}
 

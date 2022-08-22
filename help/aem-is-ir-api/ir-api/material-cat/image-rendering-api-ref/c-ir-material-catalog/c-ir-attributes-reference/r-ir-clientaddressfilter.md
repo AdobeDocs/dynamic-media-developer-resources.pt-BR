@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Filtro de endereço IP do cliente. Permite a especificação de um ou mais endereços IP ou intervalos de endereços.
 
-Quando especificado, as solicitações para este catálogo de imagens que se originam de um cliente em um endereço IP não listado são rejeitadas. `localhost` é sempre implicitamente parte do `ClientAddressFilter` definição, mesmo que não especificada explicitamente. Pedidos originários de `localhost` nunca são rejeitadas, independentemente do `ClientAddressFilter` especificação.
+Quando especificado, as solicitações para este catálogo de imagem que se origina de um cliente em um endereço IP não listado são rejeitadas. `localhost` é sempre implicitamente parte do `ClientAddressFilter` definição, mesmo que não especificada explicitamente. Pedidos originários de `localhost` nunca são rejeitadas, independentemente do `ClientAddressFilter` especificação.
 
 ## Propriedades {#section-21a2992f108d42fb8660c0d65aa61e13}
 

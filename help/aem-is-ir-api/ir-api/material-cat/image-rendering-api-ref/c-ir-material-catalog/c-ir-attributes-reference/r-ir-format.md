@@ -1,13 +1,13 @@
 ---
+title: Formato
 description: Formato de imagem de resposta padrão. Especifica o formato padrão para imagens de resposta.
 solution: Experience Manager
-title: Formato
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Formato de imagem de resposta padrão. Especifica o formato padrão para imagens
 
 ## Propriedades {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Sequência de texto. Deve ser um dos tokens de formato compatíveis com o comando `fmt=`:
+Sequência de texto. Deve ser um dos tokens de formato suportados pelo `fmt=` comando:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 

@@ -1,24 +1,24 @@
 ---
-description: Qualidade de codificação JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas em JPEG.
-solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic, SDK/API
+description: Qualidade de codificação de JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas por JPEG.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # JpegQuality{#jpegquality}
 
-Qualidade de codificação JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas em JPEG.
+Qualidade de codificação de JPEG padrão. Especifica a configuração de qualidade padrão para imagens de resposta codificadas por JPEG.
 
 ## Propriedades {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1.100 e define a qualidade. O segundo valor pode ser 0 para o comportamento normal ou 1 para desativar a redução da amostragem de cromaticidade normalmente empregada por codificadores JPEG.
+Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1.100 e define a qualidade. O segundo valor pode ser `0` para um comportamento normal, ou `1` Desativar a desamostragem por cromaticidade utilizada pelos codificadores de JPEG.
 
 ## Padrão {#section-60900c0fb8c54444b2361513232514db}
 

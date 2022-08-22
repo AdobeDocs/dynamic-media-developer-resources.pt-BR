@@ -1,20 +1,20 @@
 ---
-description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos. O atributo RootUrl é usado em vez do atributo RootPath quando um src= valor é incluído por { chaves chaves }.
+title: RootUrl
+description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos.
 solution: Experience Manager
-title: RootUrl *
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-# RootUrl *{#rooturl}
+# RootUrl{#rooturl}
 
-URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos. attribute::RootUrl é usado em vez do atributo::RootPath quando um src= valor é incluído por { chaves }.
+URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos. O`attribute::RootUrl` é usado em vez de `attribute::RootPath` quando um `src=` é incluído por { chaves chaves }.
 
 ## Propriedades {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -26,4 +26,4 @@ Herdado de `default::RootUrl` se não estiver definido. Se definido, mas vazio, 
 
 ## Consulte também {#section-e33bbe7034b24367b68f9142718a8be1}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`,  [attribute:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , `mask=`, [atributo:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
