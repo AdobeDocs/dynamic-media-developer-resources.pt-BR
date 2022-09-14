@@ -1,30 +1,30 @@
 ---
-description: Coordenadas de pixels. Usado para especificar coordenadas de imagem, como deslocamentos de imagem ou parâmetros de corte, em forma de um deslocamento de pixel em relação ao canto superior esquerdo de uma imagem ou retângulo de camada.
-solution: Experience Manager
 title: cabo
-feature: Dynamic Media Classic, SDK/API
+description: Coordenadas de pixels. Usado para especificar coordenadas de imagem na forma de um deslocamento de pixel em relação ao canto superior esquerdo de uma imagem ou retângulo de camada. Geralmente, eles são usados em deslocamentos de imagem ou parâmetros de corte.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
 # cabo{#coord}
 
-Coordenadas de pixels. Usado para especificar coordenadas de imagem, como deslocamentos de imagem ou parâmetros de corte, na forma de um deslocamento de pixel em relação ao canto superior esquerdo de uma imagem ou retângulo de camada.
+Coordenadas de pixels. Usado para especificar coordenadas de imagem na forma de um deslocamento de pixel em relação ao canto superior esquerdo de uma imagem ou retângulo de camada. Geralmente, eles são usados em deslocamentos de imagem ou parâmetros de corte.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cabo</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>,  <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>,  <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>,  <span class="varname"> </span> yvalues em pixels (int) </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> px</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> valores em pixels (int) </p></td> 
  </tr> 
 </table>
 
-0,0 refere-se ao canto superior esquerdo da imagem ou do retângulo. Aumentar os valores se move em direção à parte inferior direita.
+A coordenada `0,0` refere-se ao canto superior esquerdo da imagem ou do retângulo. Aumentar os valores se move em direção à parte inferior direita.
