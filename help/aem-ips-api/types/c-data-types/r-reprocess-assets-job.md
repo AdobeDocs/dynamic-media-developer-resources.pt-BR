@@ -1,20 +1,20 @@
 ---
-description: Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a repetição de PDFs e a reotimização de imagens.
+description: Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a repetição de PDF e a reotimização de imagens.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a repetição de PDFs e a reotimização de imagens.
+Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a repetição de PDF e a reotimização de imagens.
 
 Sintaxe
 
@@ -52,7 +52,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>not</i> fornecer o parâmetro manualCropOptions , o valor de preserveCrop será mantido. E, em caso de true, os valores preserveCrop existentes são mantidos; no caso de false, os valores preserveCrop serão removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>not</i> fornece o parâmetro manualCropOptions , o valor de preserveCrop é mantido. E, em caso de true, os valores preserveCrop existentes são mantidos; no caso de false, os valores preserveCrop serão removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190º&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120º&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -82,7 +82,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:PDFOoptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções para fazer upload de arquivos PDF no Servidor de imagem. </p> </td> 
+   <td colname="col3"> <p>Opções para fazer upload de arquivos PDF para o Servidor de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -147,25 +147,25 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> nockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> OpçõesDePlanoDeFundoDeConhecimento</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:UnsharkMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharkMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> Tirar nitidez deOpçõesDeMáscara</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Notas**
 
-As opções para `*CropOptions` incluem:
+Opções para `*CropOptions` incluem:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-As opções para `*PublishJob` incluem:
+Opções para `*PublishJob` incluem:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

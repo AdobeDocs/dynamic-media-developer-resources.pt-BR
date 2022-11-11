@@ -2,17 +2,17 @@
 description: Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
 solution: Experience Manager
 title: DescompactarOpções
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-# DescompactarOpções{#uncompressoptions}
+# [!DNL UnCompressOptions]{#uncompressoptions}
 
 Faça upload da configuração para processar arquivos ZIP e TAR como ativos primários (Nenhum) ou para extrair e carregar seu conteúdo (Uncompactar).
 
@@ -36,9 +36,9 @@ Faça upload da configuração para processar arquivos ZIP e TAR como ativos pri
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Controla o processamento de arquivos ZIP e TAR. Fornece 2 opções: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> processar como ativos principais. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> extrair e processar conteúdo. </li>
-     </ul><p>Observação: As constantes de cadeia de caracteres fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> Descompacte</span>, não <span class="codeph"> descompacte</span> ou <span class="codeph"> descompacte</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> Processar como ativos principais. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> Extrair e processar conteúdo. </li>
+     </ul><p>Observação: As constantes de cadeia de caracteres fazem distinção entre maiúsculas e minúsculas. Use <span class="codeph"> Descompactar</span>, não <span class="codeph"> descompactar</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Faça upload da configuração para processar arquivos ZIP e TAR como ativos pri
 
 ## Usado por {#section-b2a829cf5511412e968bb2000f85cc31}
 
-O tipo `unCompressionOptions` é usado por:
+O `unCompressionOptions` O tipo é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

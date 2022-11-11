@@ -1,24 +1,24 @@
 ---
-description: 'Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog '
+description: Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog:
 
-* Para `RenderSet`, `pageReset` indica o início de um novo grupo de exibição/amostra de renderização.
+* Para `RenderSet`, `pageReset` indica o início de um novo grupo de visualização/amostra de renderização.
 
-* Para Catálogo, `pageReset` indica o início de uma nova exibição de página. Normalmente, há 2 imagens de página por visualização de página, mas você pode ter mais ou menos.
+* Para Catálogo, `pageReset` indica o início de uma nova visualização de página. Normalmente, há 2 imagens de página por visualização de página, mas você pode ter mais ou menos.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

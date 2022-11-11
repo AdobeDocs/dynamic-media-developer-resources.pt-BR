@@ -5,14 +5,14 @@ title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-# IllustratorOptions{#illustratoroptions}
+# [!DNL IllustratorOptions]{#illustratoroptions}
 
 Opções para um arquivo Adobe Illustrator.
 
@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| processo | `xsd:string` | Escolha de processos do Illustrator. |
-| resolution | `xsd:string` | Resolução de arquivo. |
+| [!DNL process] | `xsd:string` | Escolha de processos do Illustrator. |
+| [!DNL resolution] | `xsd:string` | Resolução de arquivo. |
 | colorSpace | `xsd:string` | Espaço de cores de destino. |
-| alfa | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Em caso positivo, crie um fundo transparente se o arquivo original estiver definido dessa forma para a criação de logotipos sobrepostos. |
+| [!DNL alpha] | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Em caso positivo, crie um fundo transparente se o arquivo original estiver definido dessa forma para a criação de logotipos sobrepostos. |

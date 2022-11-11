@@ -5,14 +5,14 @@ title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
 
-# GenerationInfo{#generationinfo}
+# [!DNL GenerationInfo]{#generationinfo}
 
 Propriedades do arquivo PostScript.
 
@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| motor | `xsd:string` | Mecanismo de geração usado (consulte &quot;Informações de geração&quot; para valores). |
-| originador | `types:Asset` | Registro de ativo do ativo principal usado na geração. |
-| gerado | `types:Asset` | Registro de ativo do ativo gerado. |
+| [!DNL engine] | `xsd:string` | Mecanismo de geração usado (consulte &quot;Informações de geração&quot; para valores). |
+| [!DNL originator] | `types:Asset` | Registro de ativo do ativo principal usado na geração. |
+| [!DNL generated] | `types:Asset` | Registro de ativo do ativo gerado. |
 | attributeArray | `types:GenerationAttributeArray` | Matriz de atributos associados ao processo de geração. |

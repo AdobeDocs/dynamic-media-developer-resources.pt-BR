@@ -2,17 +2,17 @@
 description: Publica metadados no servidor de metadados.
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic, SDK/API, Metadados
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
-# MetadataPublishJobType{#metadatapublishjobtype}
+# [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
 Publica metadados no servidor de metadados.
 
@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Defina como <span class="codeph"> True</span> para publicar <i>todos</i> dados novamente no servidor de metadados. <p>Observação:  Dependendo da quantidade de dados, isso pode levar de vários minutos a algumas horas. </p><p>Não defina esse parâmetro se quiser publicar somente metadados novos ou alterados. </p></td> 
+   <td colname="col3">Defina como <span class="codeph"> Verdadeiro</span> para publicar <i>all</i> dados para o servidor de metadados novamente. <p>Observação: Dependendo da quantidade de dados, isso pode levar de vários minutos a algumas horas. </p><p>Não defina esse parâmetro se quiser publicar somente metadados novos ou alterados. </p></td> 
   </tr> 
  </tbody> 
 </table>

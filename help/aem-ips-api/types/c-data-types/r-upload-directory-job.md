@@ -2,17 +2,17 @@
 description: Carrega arquivos de diretórios de servidor especificados de forma recorrente.
 solution: Experience Manager
 title: UploadDirectoryJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# UploadDirectoryJob{#uploaddirectoryjob}
+# [!DNL UploadDirectoryJob]{#uploaddirectoryjob}
 
 Carrega arquivos de diretórios de servidor especificados de forma recorrente.
 
@@ -82,7 +82,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> OpçõesDePlanoDeFundoDeConhecimento</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -115,7 +115,7 @@ Sintaxe
    <td colname="col3"> <p>O URL do destino de upload do arquivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Tarefa </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Detalhes de um trabalho de publicação de renderização de imagem executado após a conclusão do upload. </p> </td> 
   </tr> 
@@ -177,7 +177,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UnsharkMaskOptions</span> </td> 
-   <td colname="col3"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharkMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> Tirar nitidez deOpçõesDeMáscara</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 
@@ -189,13 +189,13 @@ Sintaxe
 
 ## Notas {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Para `CropOptions`, você pode escolher somente um dos seguintes:
+Para `CropOptions`, é possível escolher apenas um dos seguintes:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Para `PublishJob`, você pode escolher somente um dos seguintes:
+Para `PublishJob`, é possível escolher apenas um dos seguintes:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

@@ -5,14 +5,14 @@ title: Pasta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
 
-# Pasta{#folder}
+# [!DNL Folder]{#folder}
 
 Arquivo hierárquico ou objeto de armazenamento de ativos. As pastas podem conter uma (ou mais) subpastas.
 
@@ -23,7 +23,7 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | folderHandle | `xsd:string` | Identificador de pasta. |
-| caminho | `xsd:string` | Caminho da pasta. |
+| [!DNL path] | `xsd:string` | Caminho da pasta. |
 | lastModified | `xsd:dateTime` | Data da última modificação. |
 | childLastModified | `xsd:dateTime` | Última data de modificação para subpastas e ativos filho da pasta. |
 | permissionsSetHandle | `xsd:string` | Identificador de permissões de pasta. |

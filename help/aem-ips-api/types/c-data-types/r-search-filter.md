@@ -2,17 +2,17 @@
 description: Filtros que ajudam você a definir critérios de pesquisa para tornar as pesquisas mais eficientes.
 solution: Experience Manager
 title: SearchFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# SearchFilter{#searchfilter}
+# [!DNL SearchFilter]{#searchfilter}
 
 Filtros que ajudam você a definir critérios de pesquisa para tornar as pesquisas mais eficientes.
 
@@ -46,7 +46,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Uma lista de tipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, <span class="codeph"> image</span>. </td> 
+   <td colname="col3">Uma lista de tipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, <span class="codeph"> imagem</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
@@ -56,7 +56,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">Uma lista de subtipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, para um <span class="codeph"> AssetSet</span>, você pode pesquisar pelo subtipo <span class="codeph"> MediaType</span>. </td> 
+   <td colname="col3">Uma lista de subtipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, para um <span class="codeph"> AssetSet</span>, você pode pesquisar a variável <span class="codeph"> MediaType</span> subtipo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> hardSubTypeCheck</span></span> </td> 
@@ -82,18 +82,18 @@ Sintaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Especifique: 
     <ul id="ul_96FFEE28F7624C1FB0356776B4C7CD53"> 
-     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> </span> MarkedForPublishing para retornar somente os ativos publicados. </li> 
-     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> </span> NotMarkedForPublishing para retornar somente ativos não publicados. </li> 
-    </ul> <p>Observação: Deixe em branco para procurar <i>todos</i> os tipos de estado publicados. </p> </td> 
+     <li id="li_DCB07288E5F44E05A4D83D3F34B0E08E"><span class="codeph"> MarkedForPublish</span> para retornar somente os ativos publicados. </li> 
+     <li id="li_9A9A852248DB490DB958AE986DF02672"><span class="codeph"> NotMarkedForPublish</span> para retornar somente ativos não publicados. </li> 
+    </ul> <p>Observação: Deixe em branco para procurar <i>all</i> tipos de estado publicados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Especifique: 
     <ul id="ul_D31B903FA8DA4CFFABAFABA3D8DA91EC"> 
-     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> </span> Qualquer pessoa pode retornar ativos independentemente do estado da lixeira. </li> 
-     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> </span> NotInTrashto retorna ativos "normais". </li> 
-     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> </span> NoTrashto para retornar ativos da lixeira. </li> 
+     <li id="li_E4386C8260E64F0BAFE5BA57FF788E48"><span class="codeph"> Qualquer</span> para retornar ativos, independentemente do estado da lixeira. </li> 
+     <li id="li_0B8933FE18C643828075EC8CE8C0223C"><span class="codeph"> NotInTrash</span> para retornar ativos "normais". </li> 
+     <li id="li_A1F46A0762FA4D4BA9F7247338238DC6"><span class="codeph"> InTrash</span> para retornar ativos da lixeira. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

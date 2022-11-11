@@ -2,17 +2,17 @@
 description: Um processo que recria um ativo PDF existente.
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
 Um processo que recria um ativo PDF existente.
 
@@ -34,7 +34,7 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Lide com a matriz de arquivos PDF a serem rasgados. </p> </td> 
+   <td colname="col3"> <p>Lide com a matriz de arquivos PDF a serem removidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -114,20 +114,20 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> nockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> OpçõesDePlanoDeFundoDeConhecimento</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Notas {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-As opções para `*CropOptions` incluem:
+Opções para `*CropOptions` incluem:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-As opções para `*PublishJob` incluem:
+Opções para `*PublishJob` incluem:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

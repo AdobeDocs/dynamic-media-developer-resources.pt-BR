@@ -2,17 +2,17 @@
 description: Informações de andamento da tarefa.
 solution: Experience Manager
 title: TaskProgress
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# TaskProgress{#taskprogress}
+# [!DNL TaskProgress]{#taskprogress}
 
 Informações de andamento da tarefa.
 
@@ -78,7 +78,7 @@ Sintaxe
      <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Novo</span>: O monitor de tarefas foi criado, mas ainda não aceitou tarefas. </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Processamento</span>: O monitor de tarefas está processando tarefas ativamente. </li>
      <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Parando</span>: O monitor de tarefas está parando uma tarefa devido a uma solicitação de parada de trabalho. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Feito</span>: As tarefas atribuídas aos trabalhos do monitor de tarefas foram concluídas. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Concluído</span>: As tarefas atribuídas aos trabalhos do monitor de tarefas foram concluídas. </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Falha</span>: Indica um erro fatal. </li>
     </ul></td> 
   </tr> 

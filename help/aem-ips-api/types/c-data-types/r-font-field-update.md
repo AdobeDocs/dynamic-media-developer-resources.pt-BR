@@ -5,14 +5,14 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
-# FontFieldUpdate{#fontfieldupdate}
+# [!DNL FontFieldUpdate]{#fontfieldupdate}
 
 Atualize as informações das propriedades da fonte.
 
@@ -26,7 +26,7 @@ Sintaxe
 | fontName | `xsd:string` | Nome da fonte. |
 | postscriptName | `xsd:string` | Nome da fonte PostScript. |
 | rtfName | `xsd:string` | Nome da fonte Rich Text. |
-| fontFamily | `xsd:string` | Nome da família da fonte. |
-| estilo | `xsd:string` | Estilo da fonte (consulte Estilos de fonte para valores). |
+| [!DNL fontFamily] | `xsd:string` | Nome da família da fonte. |
+| [!DNL style] | `xsd:string` | Estilo da fonte (consulte Estilos de fonte para valores). |
 | typeName | `xsd:string` | Nome do tipo de fonte. |
-| type | `xsd:string` | Tipo de fonte (consulte Tipos de fonte para valores). |
+| [!DNL type] | `xsd:string` | Tipo de fonte (consulte Tipos de fonte para valores). |

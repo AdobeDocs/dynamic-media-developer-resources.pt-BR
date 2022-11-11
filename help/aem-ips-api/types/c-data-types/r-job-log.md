@@ -5,14 +5,14 @@ title: JobLog
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
-# JobLog{#joblog}
+# [!DNL JobLog]{#joblog}
 
 O log de tarefas após a execução da tarefa.
 
@@ -31,7 +31,7 @@ Sintaxe
 | jobSubType | `xsd:string` | Informações adicionais sobre o trabalho. |
 | startDate | `xsd:dateTime` | A data de início, a hora e o fuso horário da tarefa. |
 | endDate | `xsd:dateTime` | A data final, a hora e o fuso horário da tarefa. |
-| descrição | `xsd:string` | Uma descrição da tarefa conforme especificado originalmente em `submitJob`. |
+| [!DNL description] | `xsd:string` | Uma descrição da tarefa conforme especificado originalmente em `submitJob`. |
 | fileSuccessCount | `xsd:int` | Número de arquivos processados com êxito. |
 | fileErrorCount | `xsd:int` | Número de arquivos que causaram um erro. |
 | fileWarningCount | `xsd:int` | Número de arquivos que geraram um aviso. |

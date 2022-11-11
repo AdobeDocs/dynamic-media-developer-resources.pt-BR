@@ -2,21 +2,21 @@
 description: Usa getActiveJobs para rastrear uploads de desktop.
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# UploadPostJob{#uploadpostjob}
+# [!DNL UploadPostJob]{#uploadpostjob}
 
 Usa getActiveJobs para rastrear uploads de desktop.
 
-Consulte também [Fazer upload de ativos por meio de POSTs HTTP para o upload...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Consulte também [Fazer upload de ativos por meio de HTTP POSTs para o Upload..](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Consulte também [Fazer upload de ativos por meio de POSTs HTTP para o upload...
    <td colname="col1"> <span class="codeph"> <span class="varname"> nockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:KnockoutBackgroundOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> OpçõesDePlanoDeFundoDeConhecimento</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -110,7 +110,7 @@ Consulte também [Fazer upload de ativos por meio de POSTs HTTP para o upload...
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PDFOoptions</span> </td> 
    <td colname="col3"> <p>Não</p> </td> 
-   <td colname="col4"> <p>Opções para fazer upload de arquivos PDF no Servidor de imagem. </p> </td> 
+   <td colname="col4"> <p>Opções para fazer upload de arquivos PDF para o Servidor de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -134,7 +134,7 @@ Consulte também [Fazer upload de ativos por meio de POSTs HTTP para o upload...
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>not</i> fornecer o parâmetro manualCropOptions , o valor de preserveCrop será mantido. E, em caso de true, os valores preserveCrop existentes são mantidos; no caso de false, os valores preserveCrop serão removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>not</i> fornece o parâmetro manualCropOptions , o valor de preserveCrop é mantido. E, em caso de true, os valores preserveCrop existentes são mantidos; no caso de false, os valores preserveCrop serão removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190º&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120º&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -164,7 +164,7 @@ Consulte também [Fazer upload de ativos por meio de POSTs HTTP para o upload...
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UnsharkMaskOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharkMaskOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Opções que permitem controlar as configurações de máscara de nitidez ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> Tirar nitidez deOpçõesDeMáscara</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 

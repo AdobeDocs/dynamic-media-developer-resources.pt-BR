@@ -5,14 +5,14 @@ title: Grupo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 2%
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
-# Grupo{#group}
+# [!DNL Group]{#group}
 
 Conjunto nomeado de usuários usado para atribuir permissões.
 
@@ -24,5 +24,5 @@ Sintaxe
 |---|---|---|
 | groupHandle | `xsd:string` | Identificador de grupo. |
 | companyHandle | `xsd:string` | Manuseio da empresa. |
-| name | `xsd:string` | Nome do grupo. |
-| é SystemDefined | `xsd:string` | Se o grupo é definido pelo sistema. |
+| [!DNL name] | `xsd:string` | Nome do grupo. |
+| [!DNL is SystemDefined] | `xsd:string` | Se o grupo é definido pelo sistema. |

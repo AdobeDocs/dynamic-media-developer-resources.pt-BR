@@ -2,17 +2,17 @@
 description: Define condições de pesquisa para campos de tag.
 solution: Experience Manager
 title: TagCondition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# TagCondition{#tagcondition}
+# [!DNL TagCondition]{#tagcondition}
 
 Define condições de pesquisa para campos de tag.
 
@@ -39,9 +39,9 @@ Sintaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Depende do tipo de campo de tag e se o valor ou o campo valueArray é usado. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se <span class="codeph"> valor</span> for passado, <span class="codeph"> op</span> deverá ser a constante de cadeia Correspondências. A condição corresponde a qualquer ativo associado ao valor da tag. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> valueArray</span> for transmitido, o campo superior poderá ser a constante <span class="codeph"> MatchesAny</span> para campos de tag simples ou com vários valores. Uma condição <span class="codeph"> MatchesAny</span> corresponde a qualquer ativo que esteja associado a pelo menos um dos valores da tag em <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Para campos de tags de vários valores, o campo superior pode ser definido como a constante <span class="codeph"> MatchesAll</span> com o campo <span class="codeph"> valueArray</span>. Nesse caso, a condição só corresponde ativos que estão associados a todos os valores de tag em <span class="codeph"> valueArray</span> (possivelmente além de outros valores de tag). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">If <span class="codeph"> value</span> for aprovado, <span class="codeph"> op</span> deve ser a constante de string Correspondências. A condição corresponde a qualquer ativo associado ao valor da tag. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">If <span class="codeph"> valueArray</span> for transmitido, o campo op poderá ser a constante <span class="codeph"> MatchesAny</span> para campos de tags individuais ou com vários valores. A <span class="codeph"> MatchesAny</span> corresponde a qualquer ativo associado a pelo menos um dos valores de tag em <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Para campos de tags de vários valores, o campo superior pode ser definido como a constante <span class="codeph"> MatchesAll</span> com o <span class="codeph"> valueArray</span> campo. Nesse caso, a condição só corresponde aos ativos que estão associados a todos os valores de tag em <span class="codeph"> valueArray</span> (possivelmente além de outros valores de tag). </li>
     </ul></td> 
   </tr> 
   <tr> 

@@ -2,17 +2,17 @@
 description: Cria um mapa do site de vídeo.
 solution: Experience Manager
 title: CreateVideoSitemapJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# CreateVideoSitemapJob{#createvideositemapjob}
+# [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
 Cria um mapa do site de vídeo.
 
