@@ -1,13 +1,13 @@
 ---
-description: 'O Scene 7 Image Serving consiste nos seguintes componentes '
+description: O Scene 7 Image Serving consiste nos seguintes componentes
 solution: Experience Manager
 title: Componentes do Image Serving
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,12 @@ O Scene 7 Image Serving consiste nos seguintes componentes:
    <td colname="col2"> <p>Aplicativo J2EE. Fornece monitoramento de servidor e alertas de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Servidor da plataforma </p> </td> 
+   <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
    <td colname="col2"> <p>Aplicativo J2EE. Gerencia conexões de clientes, registro, comunicações com outros componentes. Acesso HTTP em <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serviço de cache </p> </td> 
-   <td colname="col2"> <p>Aplicativo J2EE. Gerencia os caches de dados do Servidor de Plataforma. Acesso HTTP em /is/cache. </p> </td> 
+   <td colname="col2"> <p>Aplicativo J2EE. Gerencia o [!DNL Platform Server]Os caches de dados do . Acesso HTTP em /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidor de imagem </p> </td> 
@@ -50,17 +50,17 @@ O Scene 7 Image Serving consiste nos seguintes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Componente de renderização de texto ATE </p> </td> 
-   <td colname="col2"> <p>Uma ou mais instâncias do serviço de renderização de texto podem estar ativas quando operações <span class="codeph"> textPs=</span> são executadas. </p> </td> 
+   <td colname="col2"> <p>Uma ou mais instâncias do serviço de renderização de texto podem estar ativas quando <span class="codeph"> textPs=</span> são executadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Componente de renderização SVG </p> </td> 
+   <td colname="col1"> <p>Componente SVG Render </p> </td> 
    <td colname="col2"> <p>Aplicativo Java independente (não hospedado pelo Tomcat). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renderização de imagem do Dynamic Media (também conhecido como Servidor de renderização) </p> </td> 
-   <td colname="col2"> <p>Requer uma licença separada para ativar. Acesso HTTP em <span class="filepath"> /ir/render</span>. Toda a funcionalidade Renderização de imagem é integrada ao Servidor de plataforma e ao Servidor de imagem, sem componentes executáveis separados. </p> </td> 
+   <td colname="col2"> <p>Requer uma licença separada para ativar. Acesso HTTP em <span class="filepath"> /ir/renderizar</span>. Toda a funcionalidade Renderização de imagem é integrada ao [!DNL Platform Server] e o Servidor de imagem, sem componentes executáveis separados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou catálogos de imagem específicos (consulte [Catálogos de imagem](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes).
+Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou catálogos de imagens específicos (consulte [Catálogos de imagem](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes).

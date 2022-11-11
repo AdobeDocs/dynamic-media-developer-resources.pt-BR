@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> PsLayers (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>Extração de variáveis de camada de texto do Photoshop. </p> </td> 
+   <td colname="col4"> <p>[!DNL Photoshop] extração de variáveis de camada de texto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 

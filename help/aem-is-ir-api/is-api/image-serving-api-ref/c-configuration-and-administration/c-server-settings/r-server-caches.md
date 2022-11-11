@@ -5,9 +5,9 @@ title: Caches de servidores
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Use essas configurações de servidor para caches de servidor.
 
 ## PS::cache.rootPaths - Pastas de Dados de Cache {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-As pastas raiz do cache de disco do Servidor de plataforma. Um ou mais caminhos de arquivo absolutos ou relativos a *[!DNL install_folder]*, separados por ponto e vírgula (;). Os dados para o cache de resposta HTTP são distribuídos uniformemente em todas as pastas especificadas. Os caches para os caches auxiliares (catálogos de imagens compilados e dados de imagens estrangeiras) estão localizados na pasta de cache principal (a primeira pasta na lista).
+As pastas raiz da [!DNL Platform Server]Cache de disco do. Um ou mais caminhos de arquivo absolutos ou relativos a *[!DNL install_folder]*, separados por ponto e vírgula (;). Os dados para o cache de resposta HTTP são distribuídos uniformemente em todas as pastas especificadas. Os caches para os caches auxiliares (catálogos de imagens compilados e dados de imagens estrangeiras) estão localizados na pasta de cache principal (a primeira pasta na lista).
 
 ## PS::cache.maxSize - Response Data Cache Size {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

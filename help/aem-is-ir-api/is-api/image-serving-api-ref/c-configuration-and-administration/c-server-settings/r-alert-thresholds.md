@@ -2,12 +2,12 @@
 description: Use essas configurações do servidor para definir limites de alerta.
 solution: Experience Manager
 title: Limites de alerta
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Um alerta de tráfego mínimo é enviado quando o número médio de solicitaçõ
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace -Limite de espaço livre no heap {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica o espaço mínimo gratuito de heap Java. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre de heap estiver abaixo desse limite. Recomenda-se 50 MB para a operação segura do Servidor da Plataforma. Manter o espaço livre de heap acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
+Especifica o espaço mínimo gratuito de heap Java. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre de heap estiver abaixo desse limite. Recomenda-se 50 MB para uma operação segura do [!DNL Platform Server]. Manter o espaço livre de heap acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
 
 ## AS::monitorAlertGenerator.maxOverlap - Número máximo de solicitações simultâneas {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

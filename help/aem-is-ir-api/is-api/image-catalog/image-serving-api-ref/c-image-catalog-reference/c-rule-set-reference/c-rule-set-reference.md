@@ -5,9 +5,9 @@ title: Referência do conjunto de regras
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O Image Serving suporta um mecanismo de pré-processamento de solicitação simp
 
 Coleções de regras de pré-processamento (*conjuntos de regras*) pode ser anexado a catálogos de imagens ou ao catálogo padrão. As regras no catálogo padrão se aplicam somente se a solicitação não identificar um catálogo de imagem principal específico.
 
-As regras de pré-processamento de solicitação podem modificar o caminho e as partes de consulta de solicitações antes de serem processadas pelo analisador do Servidor de Plataforma, incluindo manipular o caminho, adicionar comandos, alterar valores de comando e aplicar modelos ou macros. As regras também podem ser usadas para configurar e substituir determinados recursos de segurança que normalmente são controlados apenas com atributos de catálogo, como ofuscação de solicitação, marcação de água, bem como limitar o serviço a endereços IP de cliente específicos.
+As regras de pré-processamento de solicitação podem modificar o caminho e as partes de consulta das solicitações antes que elas sejam processadas pelo [!DNL Platform Server]O analisador do , incluindo manipular o caminho, adicionar comandos, alterar valores de comando e aplicar modelos ou macros. As regras também podem ser usadas para configurar e substituir determinados recursos de segurança que normalmente são controlados apenas com atributos de catálogo, como ofuscação de solicitação, marcação de água, bem como limitar o serviço a endereços IP de cliente específicos.
 
 Os conjuntos de regras são armazenados como arquivos de documento XML. O caminho relativo ou absoluto do arquivo do conjunto de regras deve ser especificado em `attribute::RuleSetFile`.
 

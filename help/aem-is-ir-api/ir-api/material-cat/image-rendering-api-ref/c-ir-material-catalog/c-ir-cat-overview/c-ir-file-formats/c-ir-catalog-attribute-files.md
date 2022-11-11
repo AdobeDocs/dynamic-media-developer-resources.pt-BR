@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Os arquivos de atributos do catálogo consistem em um conjunto de registros de t
 </table>
 
 * O espaço em branco entre tokens é opcional.
-* Os registros com nomes de atributos desconhecidos são ignorados pelo Servidor de Plataforma.
+* Os registros com nomes de atributos desconhecidos são ignorados pelo [!DNL Platform Server].
 * Os nomes de atributos podem consistir em qualquer combinação de letras ASCII, números e &quot;-&quot;, &quot;_&quot; e &quot;.&quot;
 * Se o mesmo nome de atributo ocorrer mais de uma vez no mesmo arquivo de atributo, prevalecerá o último encontrado.
 * Use &#39;#&#39; como o primeiro caractere para marcar qualquer registro como um comentário que o analisador ignora.

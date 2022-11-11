@@ -2,12 +2,12 @@
 description: As configurações nesta seção só precisam ser consideradas se a renderização de SVG for necessária.
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,31 @@ As configurações nesta seção só precisam ser consideradas se a renderizaç�
 
 ## SV::SvgHeapSize - SVG Heap Size {#section-59ab17681daa4be8b5d794713e1a504e}
 
-O tamanho do heap Java do renderizador SVG. O padrão é &quot;200m&quot; (200 Mbytes).
+O tamanho do heap Java para o Renderizador de SVG. O padrão é &quot;200m&quot; (200 Mbytes).
 
-## PS::svgProvider.rootPaths - Pastas raiz de dados SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
+## PS::svgProvider.rootPaths - SVG Data Root Folders {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-O local dos arquivos de dados de origem SVG. Pode ser um ou mais caminhos de arquivo absolutos ou caminhos relativos a *[!DNL install_folder]*, separados por ponto e vírgula. Normalmente, é definido com o mesmo valor de `IS::RootPath`.
+O local dos arquivos de dados de origem do SVG. Pode ser um ou mais caminhos de arquivo absolutos ou relativos a *[!DNL install_folder]*, separados por ponto e vírgula. Normalmente definida como o mesmo valor que `IS::RootPath`.
 
-## PS::svgProvider.SVGFileSizeLimit - Tamanho máximo do arquivo SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
+## PS::svgProvider.SVGFileSizeLimit - Tamanho máximo do arquivo de SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
-Tamanho máximo do arquivo de origem SVG em kBytes. O servidor retorna um erro quando é feita uma tentativa de renderizar um arquivo SVG maior que esse limite. O padrão é 1024 kbytes.
+Tamanho máximo do arquivo de origem de SVG em kBytes. O servidor retorna um erro quando é feita uma tentativa de renderizar um arquivo SVG maior que esse limite. O padrão é 1024 kbytes.
 
-## IS::SvgMAxRenderRgnPixels - Limite de Tamanho da Imagem de Saída SVG {#section-5be1fd9639424d878a5ffd11736d3920}
+## IS::SvgMAxRenderRgnPixels - Limite de Tamanho da Imagem de Saída do SVG {#section-5be1fd9639424d878a5ffd11736d3920}
 
 Limita o tamanho das imagens que o SVGRender pode produzir. Valor inteiro maior que 0 em milhões de pixels. Um erro é retornado se uma operação de renderização exceder o limite de tamanho. O padrão é 4.
 
-## PS::svgProvider.port - Porta de escuta do Servidor de Plataforma {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - [!DNL Platform Server] Porta de escuta {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-A porta usada para o SvgRender obter imagens do Servidor de plataforma para serem incorporadas em renderizações de SVG.
+A porta usada para o SvgRender obter imagens do [!DNL Platform Server] a ser incorporado em renderizações de SVG.
 
 Importante Para o funcionamento correto do componente SVGRender, essa opção de configuração deve ser definida com o mesmo valor que `TC::PsPort`.
 
-## PS::svgProvider.fontRoot - Pasta de arquivos de fonte SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
+## PS::svgProvider.fontRoot - SVG Font Files Folder {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Especifica onde o SvgRender encontrará os arquivos de fonte necessários para renderizar o texto SVG; normalmente um dos caminhos especificados em `IS::RootPaths`. O padrão é [!DNL *[!DNL install_folder]*/images].
+Especifica onde o SvgRender encontrará os arquivos de fonte necessários para renderizar texto SVG; normalmente um dos caminhos especificados em `IS::RootPaths`. O padrão é [!DNL  *[!DNL install_folder]*/imagens].
 
-## SVG::SVGRender.port, IS::SVGTcpPort - Porta de Comunicações SVG {#section-608687123aa644b7b58fe42385d71b79}
+## SVG::SVGRender.port, IS::SVGTcpPort - Porta de comunicações SVG {#section-608687123aa644b7b58fe42385d71b79}
 
 Configura a porta na qual o Servidor de Imagem e o componente SVGRender se comunicam.
 

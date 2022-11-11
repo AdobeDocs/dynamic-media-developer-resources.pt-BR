@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ O Servidor de imagem é instalado como um daemon Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Nas respostas, verifique a presença de itens começando com `imageServer`, que indicam que o servidor da plataforma conseguiu se comunicar com o servidor de imagem.
+Nas respostas, verifique a presença de itens começando com `imageServer`, que indicam que [!DNL Platform Server] O pôde se comunicar com êxito com o Servidor de imagem.
 
 >A verificação adicional pode ser realizada usando as páginas de exemplo dos pacotes Documentação e Demonstração, se instaladas.

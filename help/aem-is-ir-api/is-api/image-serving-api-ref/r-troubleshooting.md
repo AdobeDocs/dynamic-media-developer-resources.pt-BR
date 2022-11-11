@@ -5,9 +5,9 @@ title: Solução de problemas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ O motivo para esta mensagem de erro é que o Servidor de Imagens não conseguiu 
 
 **O espaço em disco real usado pela pasta de cache excede ` *[!DNL cache.maxSize]*`definido em[!DNL PlatformServer.conf]**
 
-Isso não indica um problema. A sobrecarga do sistema de arquivos não está incluída na configuração de cache de disco do Servidor de Plataforma. O montante total reportado pelo sistema pode ser substancialmente superior ao valor fixado. Recomenda-se reservar duas vezes mais espaço em disco do que o especificado em ` *[!DNL cache.maxSize]*`.
+Isso não indica um problema. A sobrecarga do sistema de arquivos não está incluída no [!DNL Platform Server]Configuração do cache de disco do. O montante total reportado pelo sistema pode ser substancialmente superior ao valor fixado. Recomenda-se reservar duas vezes mais espaço em disco do que o especificado em ` *[!DNL cache.maxSize]*`.
 
 **Imagens quebradas nos exemplos de is-docs**
 
@@ -43,11 +43,11 @@ Os exemplos também presumem que determinadas configurações em [!DNL default.i
 
 **Demasiadas falhas de cache após um tempo de atividade substancial**
 
-Dependendo do uso do servidor, o desempenho pode ser aprimorado aumentando o tamanho do cache de disco do Platform Server se houver espaço em disco disponível. As configurações podem ser alteradas editando manualmente os arquivos de configuração. Consulte a documentação.
+Dependendo do uso do servidor, o desempenho pode ser melhorado com o aumento [!DNL Platform Server] tamanho do cache de disco se houver espaço disponível. As configurações podem ser alteradas editando manualmente os arquivos de configuração. Consulte a documentação.
 
 **Os arquivos de log estão ocupando muito espaço em disco**
 
-O Servidor de imagem e o Servidor de plataforma iniciam um novo arquivo de log todos os dias. Por padrão, eles são colocados no [!DNL *[!DNL install_root]*/ImageServing/logs]. Tamanho do arquivo de log, número de logs mantidos e o conteúdo do log pode ser configurado. Consulte a documentação.
+O servidor de imagem e [!DNL Platform Server] inicie um novo arquivo de log todos os dias. Por padrão, eles são colocados no [!DNL *[!DNL install_root]*/ImageServing/logs]. Tamanho do arquivo de log, número de logs mantidos e o conteúdo do log pode ser configurado. Consulte a documentação.
 
 **Se tiver software antivírus instalado no servidor**
 

@@ -5,9 +5,9 @@ title: Restrições e problemas conhecidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 * Se a última linha de texto não se ajustar, a linha inteira será solta em vez de aparecer como recorte.
 * `\slmult` e `\sl` comportar-se de forma diferente do MS Word e `text=`, apenas produzirão efeitos para os parágrafos atuais e subsequentes.
 
-* `\sb` aplica-se ao primeiro parágrafo tanto para o MS Word como para o `text=`, Adobe InDesign e Photoshop não fazem isso.
+* `\sb` aplica-se ao primeiro parágrafo tanto para o MS Word como para o `text=`, Adobe InDesign e [!DNL Photoshop] não faça isso.
 
-* `\sa` aplica-se ao último parágrafo para o MS Word e `text=`, Adobe InDesign e Photoshop não fazem isso.
+* `\sa` aplica-se ao último parágrafo para o MS Word e `text=`, Adobe InDesign e [!DNL Photoshop] não faça isso.
 
 ## Compatibilidade com versões anteriores {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 
    Para TIFF não-pirâmide do Image Serving, aumente o valor da propriedade de `MaxNonDsfSize` no [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] arquivo de configuração.
 
-* O Adobe Photoshop CS3 não salva arquivos PSD em camadas por padrão em uma imagem composta.
+* Adobe [!DNL Photoshop] O CS3 não salva arquivos PSD em camadas por padrão em uma imagem composta.
 
    *Sintomas*:
 
-   O arquivo de PSD em camadas do Adobe Photoshop CS3 é exibido em preto com o texto informando: &quot;Esse arquivo Photoshop em camadas não foi salvo com uma imagem composta&quot;. para a imagem de resposta do Image Serving ou no IPS.
+   O Adobe [!DNL Photoshop] O arquivo de PSD em camadas CS3 é exibido em preto com texto informando: &quot;Este arquivo em camadas [!DNL Photoshop] não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Image Serving ou no IPS.
 
    *Solução alternativa*:
 
-   Salve o arquivo Adobe Photoshop CS3 com o máximo de compatibilidade ativado.
+   Salve o Adobe [!DNL Photoshop] Arquivo CS3 com compatibilidade máxima ativada.
 
 * Atribuir o perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução alternativa*:
 
@@ -116,7 +116,7 @@ A biblioteca Digimarc se recusa a aplicar uma marca d&#39;água Digimarc a uma i
 * Imagens PNG de 16bpc não são compatíveis com texto PhotoFont.
 * As correções de cores para imagens PNG com perfis de cores incorporados usam opções codificadas. A intenção de renderização é colorimétrica relativa e a compensação de ponto preto está ativada para o texto da fonte de foto.
 * A pesquisa baseada em arquivo não é suportada quando a tradução local está ativada na empresa [!DNL ini] arquivo.
-* O Serviço de imagem não grava caminhos Photoshop não fechados corretamente.
+* O Serviço de Imagens não grava não fechado [!DNL Photoshop] caminhos corretamente.
 * No momento, a exibição de imagens não suporta o processamento de arquivos TIFF exportados usando o Adobe Media Encoder 4.0.1 ou anterior. O Adobe Media Encoder está incluído no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
 * Usando `text=` com camadas de dimensionamento automático não suporta cadeias de caracteres RTF que usam mais de uma configuração para justificação de linha.
 

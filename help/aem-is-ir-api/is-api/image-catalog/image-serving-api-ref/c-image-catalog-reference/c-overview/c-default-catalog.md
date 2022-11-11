@@ -2,12 +2,12 @@
 description: O catálogo padrão fornece valores padrão para todos os atributos do catálogo para todos os catálogos de imagens.
 solution: Experience Manager
 title: Catálogo padrão
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Se um atributo específico não puder ser encontrado em um catálogo de imagem e
 
 Além disso, o catálogo padrão fornece todos os atributos e registros de dados (macros, fontes, perfis ICC, regras de pré-processamento de solicitação) quando nenhum catálogo de imagem específico está envolvido em uma operação.
 
-Para o funcionamento correto do Servidor de Plataforma, o arquivo de atributos do catálogo para o catálogo padrão deve ser chamado [!DNL default.ini], sempre deve existir na pasta de catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências para os vários arquivos de dados do catálogo, que são todos opcionais.
+Para o funcionamento correto do [!DNL Platform Server] o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], deve sempre existir na pasta de catálogo e deve ser totalmente preenchida com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
 
 >[!NOTE]
 >
->Todos os arquivos de atributos do catálogo, exceto [!DNL default.ini], devem conter um valor `attribute::RootId` exclusivo. `attribute::RootId` em  [!DNL default.ini] deve estar vazio.
+>Todos os arquivos de atributos do catálogo exceto [!DNL default.ini] deve conter um `attribute::RootId` valor. `attribute::RootId` em [!DNL default.ini] deve estar vazio.

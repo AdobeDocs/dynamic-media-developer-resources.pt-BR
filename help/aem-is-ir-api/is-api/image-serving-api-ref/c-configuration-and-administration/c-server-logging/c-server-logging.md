@@ -2,12 +2,12 @@
 description: Todos os arquivos de log são gravados na mesma pasta de log especificada com o diretório TC.
 solution: Experience Manager
 title: Registro do servidor
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Os arquivos de log normalmente são criados e rodados diariamente. Arquivos de l
 
 Importante Uma quantidade suficiente de espaço em disco deve ser reservada para arquivos de log para evitar a falta de espaço em disco. Pode ser necessário de 1 a 2 GB/dia para um servidor de uso intenso e configurações de log padrão.
 
-O Servidor de plataforma e o Servidor de imagem criam os três tipos de arquivos de log descritos abaixo.
+O [!DNL Platform Server] e o Servidor de imagem cria os três tipos de arquivos de log descritos abaixo.
 
 Outros componentes do Image Serving e alguns outros pacotes do Dynamic Media, como os Visualizadores do Dynamic Media, também podem criar arquivos de log na mesma pasta. Esses arquivos de log são para uso interno da Dynamic Media e podem ser solicitados pelo suporte técnico da Dynamic Media para fins de solução de problemas.
 
@@ -30,4 +30,4 @@ Outros componentes do Image Serving e alguns outros pacotes do Dynamic Media, co
 
 ## Consulte também {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Registro de acesso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), Registro de  [depuração/rastreamento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Registro de acesso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Registro de depuração/rastreamento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

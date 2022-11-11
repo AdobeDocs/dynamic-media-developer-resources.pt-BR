@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Use estas etapas para instalar o Image Serving pela primeira vez no Windows.
    **Importante:** A licença é baseada no endereço MAC de uma das placas de interface de rede instaladas nesse host. Se você desativar, remover ou substituir esse cartão, a licença não será mais reconhecida como válida. Certifique-se de obter uma licença para a configuração de hardware usada para o Serviço de Imagens.
 
    Pode continuar a instalar o IS sem uma licença válida e instalar a licença mais tarde. Para continuar, selecione **[!UICONTROL Back]** para retornar ao [!DNL Authentication] e selecione **[!UICONTROL Next]**.
-1. Vá para a página &quot;Configurações do administrador do servidor da plataforma&quot;. Insira novos valores conforme necessário ou aceite os padrões.
+1. Prossiga para o[!DNL Platform Server] Página &quot;Configurações do administrador&quot;. Insira novos valores conforme necessário ou aceite os padrões.
 
    Você pode configurar os seguintes itens:
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> Porta de Conexão HTTP do Servidor da Plataforma </p> </td>
+      <td> <p> [!DNL Platform Server] Porta de conexão HTTP </p> </td>
       <td> <p>Porta de escuta HTTP principal para disponibilização de imagens e processamento de imagens </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ Use estas etapas para instalar o Image Serving pela primeira vez no Windows.
       <td> <p>Porta de escuta do administrador </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Tamanho do Cache do Servidor da Plataforma em MB </p> </td>
+      <td> <p> [!DNL Platform Server] Tamanho do Cache em MB </p> </td>
       <td> <p>Tamanho inicial do cache de resposta principal </p> </td>
    </tr>
    <tr> 
-      <td> <p> Localização do Cache do Servidor de Plataforma </p> </td>
+      <td> <p> [!DNL Platform Server] Localização do Cache </p> </td>
       <td> <p>Pasta de cache PS </p> </td>
    </tr>
    </tbody>

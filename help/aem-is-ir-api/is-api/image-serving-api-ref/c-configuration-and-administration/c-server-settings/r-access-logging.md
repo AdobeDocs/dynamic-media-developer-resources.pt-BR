@@ -2,12 +2,12 @@
 description: Use essas configurações do servidor para acessar o log.
 solution: Experience Manager
 title: Registro de acesso
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Sintaxe
 
 ## TC::diretory - Pasta de Arquivo de Log {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-A pasta para a qual o Servidor da Plataforma grava arquivos de log. Pode ser um caminho absoluto ou um caminho relativo a *`install_folder`*. O padrão é [!DNL  *`install_folder`*/logs].
+A pasta para a qual a função [!DNL Platform Server] grava arquivos de log. Pode ser um caminho absoluto ou relativo a *`install_folder`*. O padrão é [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ O número de dias de arquivos de log deve ser preservado. Novos arquivos de log 
 
 ## TC::prefixo - Nome do Arquivo de Log de Acesso {#section-1003856323b844049632710a5a056aa7}
 
-Prefixo de nome do arquivo no qual os dados de log de acesso são gravados. A data e o sufixo do arquivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) são anexados à string especificada. O nome do arquivo de log de acesso deve ser diferente do arquivo de log de rastreamento. O padrão é &quot; `access-`&quot;.
+Prefixo de nome do arquivo no qual os dados de log de acesso são gravados. A data e o sufixo do arquivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) são anexadas à string especificada. O nome do arquivo de log de acesso deve ser diferente do arquivo de log de rastreamento. O padrão é &quot; `access-`&quot;.
 
 ## TC::padrão - Padrão de Log de Acesso {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Especifica o padrão de dados para registros de log de acesso do Platform Server. A string de padrão especifica variáveis que são substituídas por seus valores correspondentes. Todos os outros caracteres na cadeia de caracteres do padrão são transferidos literalmente para o registro de log.
+Especifica o padrão de dados para [!DNL Platform Server] acessar registros de log. A string de padrão especifica variáveis que são substituídas por seus valores correspondentes. Todos os outros caracteres na cadeia de caracteres do padrão são transferidos literalmente para o registro de log.
 
-Para usar o utilitário de aquecimento de cache, os espaços devem ser usados como separadores de campo. O Servidor de Plataforma substitui todos os espaços e caracteres &#39;%&#39; em valores de campo por `%20` e `%25`, respectivamente.
+Para usar o utilitário de aquecimento de cache, os espaços devem ser usados como separadores de campo. O [!DNL Platform Server] substitui todos os espaços e caracteres &#39;%&#39; em valores de campo por `%20` e `%25`, respectivamente.
 
 As seguintes variáveis de padrão são suportadas:
 
@@ -51,95 +51,95 @@ As seguintes variáveis de padrão são suportadas:
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> %a  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %a </span> </p> </td> 
    <td> <p>Endereço IP remoto. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %A  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %A </span> </p> </td> 
    <td> <p>Endereço IP local. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %b  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %b </span> </p> </td> 
    <td> <p>Contagem de bytes de resposta excluindo cabeçalhos HTTP ou ' ' se zero. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %B  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %B </span> </p> </td> 
    <td> <p>Contagem de bytes de resposta excluindo cabeçalhos HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %D  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %D </span> </p> </td> 
    <td> <p>Tempo de processamento da solicitação em milissegundos. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %I  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %I </span> </p> </td> 
    <td> <p>id de thread (para referências cruzadas entre entradas de log de depuração/erro). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %G  </span> </p> </td> 
-   <td> <p>data e hora, formatadas como <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> Deslocamento  </span> do SSS  </span> </p> <p> ( <span class="varname"> SSS </span> são msec, <span class="varname"> deslocamento </span> é o deslocamento de tempo GMT); o valor de hora é capturado quando a resposta é enviada ao cliente. </p> </td> 
+   <td> <p> <span class="codeph"> %G </span> </p> </td> 
+   <td> <p>data e hora, formatada como <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> são msec, <span class="varname"> offset </span> é o desvio de tempo GMT); o valor de hora é capturado quando a resposta é enviada ao cliente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %m  </span> </p> </td> 
-   <td> <p>Método de solicitação ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>, e assim por diante). </p> </td> 
+   <td> <p> <span class="codeph"> %m </span> </p> </td> 
+   <td> <p>Método de solicitação ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>e assim por diante). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %O  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %O </span> </p> </td> 
    <td> <p>Sobreposição de solicitação (número de solicitações processadas simultaneamente). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %p  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %p </span> </p> </td> 
    <td> <p>Porta local na qual esta solicitação foi recebida. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %q  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %q </span> </p> </td> 
    <td> <p>Sequência de consulta (com prefixo '?' se existir). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %r </span> </p> </td> 
    <td> <p>Primeira linha da solicitação (método de solicitação, URI, versão HTTP). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %R  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %R </span> </p> </td> 
    <td> <p>Igual a <span class="codeph"> %r </span>, mas aplica codificação HTTP limitada ao URI para evitar problemas de análise de log. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %s  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %s </span> </p> </td> 
    <td> <p>Código de status da resposta HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %S  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %S </span> </p> </td> 
    <td> <p>ID da sessão do usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %t  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %t </span> </p> </td> 
    <td> <p>Data e hora, em Formato de log comum. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %u  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %u </span> </p> </td> 
    <td> <p>Usuário remoto que foi autenticado (se houver), senão ''. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %U  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %U </span> </p> </td> 
    <td> <p>Caminho do URI. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %v  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %v </span> </p> </td> 
    <td> <p>Nome do servidor local. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %T  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %T </span> </p> </td> 
    <td> <p>Solicite tempo de processamento em segundos. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheKey}r  </span> </p> </td> 
-   <td> <p>Chave de cache do Platform Server (pasta/nome do arquivo de cache). </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] chave de cache (pasta/nome do arquivo de cache). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
-   <td> <p>Palavra-chave de gerenciamento de cache do Platform Server: <span class="codeph"> { REUSED | CRIADO | ATUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATE | REMOTE_CACHE | VALIDADO | IGNORADO | UNDEFINED } </span>. </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] palavra-chave do gerenciamento de cache: <span class="codeph"> { REUSED | CRIADO | ATUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATE | REMOTE_CACHE | VALIDADO | IGNORADO | NÃO DEFINIDO } </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
    <td> <p>O tipo MIME de resposta. </p> </td> 
   </tr> 
   <tr> 
@@ -147,31 +147,31 @@ As seguintes variáveis de padrão são suportadas:
    <td> <p>O contexto de destino se ocorrer um encaminhamento de contexto. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Digest}r  </span> </p> </td> 
-   <td> <p>O valor do cabeçalho de resposta <span class="codeph"> da tag </span> (assinatura MD5 dos dados de resposta). </p> </td> 
+   <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
+   <td> <p>O <span class="codeph"> tag </span> valor do cabeçalho de resposta (assinatura MD5 dos dados de resposta). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Exception}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
    <td> <p>Mensagem de erro. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{FetchTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
    <td> <p>Tempo necessário para recuperar a entrada ou os dados do cache do Servidor de Imagens. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ParseTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
    <td> <p>Tempo gasto para a análise de solicitação e pesquisa de catálogo de imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PathBasedAccess}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
    <td> <p>Indica se essa solicitação tentou ou não qualquer acesso baseado em caminho fora do sistema de catálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PeerServer}r  </span> </p> </td> 
-   <td> <p>Endereço IP do servidor peer no cluster de cache que forneceu a entrada do cache ou '-' se <span class="codeph"> CacheUse </span> não for <span class="codeph"> REMOTE_CREATED </span> nem <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
+   <td> <p>Endereço IP do servidor peer no cluster de cache que forneceu a entrada do cache ou '-' se <span class="codeph"> CacheUse </span> não é <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ProcessingStatus}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
    <td> <p>Categoria de erro: </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0=sem erro. </p> </li> 
@@ -182,31 +182,31 @@ As seguintes variáveis de padrão são suportadas:
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ReqType}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
    <td> <p>O valor em maiúsculas de <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{RootId}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
    <td> <p>O ID raiz do catálogo principal da solicitação. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{SendTime}r  </span> </p> </td> 
-   <td> <p>O tempo que o Platform Server leva para enviar a resposta após gravar dados no fluxo de saída. </p> </td> 
+   <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
+   <td> <p>O tempo que leva [!DNL Platform Server] para enviar resposta após gravar dados no fluxo de saída. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Size}r  </span> </p> </td> 
-   <td> <p>Como <span class="codeph"> %B </span>, mas inclui valores para respostas 304 (não modificadas). </p> </td> 
+   <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
+   <td> <p>Like <span class="codeph"> %B </span>, mas inclui valores para respostas 304 (não modificadas). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformationUrl}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformationUrl}r </span> </p> </td> 
    <td> <p>O URL final após todas as transformações do conjunto de regras. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpRequestHeader  </span>}i  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
    <td> <p>O valor do cabeçalho de solicitação HTTP especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpResponseHeader  </span>}  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
    <td> <p>O valor do cabeçalho de resposta HTTP especificado. </p> </td> 
   </tr> 
  </tbody> 
