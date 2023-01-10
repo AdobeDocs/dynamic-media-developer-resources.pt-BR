@@ -932,7 +932,7 @@ ht-degree: 3%
       + [Suporte a vídeo externo](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md)
       + [Namespace do SDK do visualizador](c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md)
    + Vídeo360 {#video360}
-      + [Vídeo360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
+      + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-video360}
          + [Referência de comando - Atributos de configuração](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
@@ -969,7 +969,7 @@ ht-degree: 3%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
-         + [Visualizador de vídeo360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
+         + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Retornos de chamada do evento](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
       + Personalizar o visualizador do Video360 {#customizing-video360}
          + [Personalizar o visualizador do Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
