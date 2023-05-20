@@ -8,7 +8,7 @@ exl-id: a1bdea01-ca59-4922-a20f-862ca387d1b5
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Desativa ou ativa a barra de título do rótulo do capítulo do vídeo. A hora de início do capítulo não é exibida quando a barra de título está desativada. </p> </td> 
+   <td colname="col2"> <p> Desativa ou ativa a barra de título do rótulo do capítulo de vídeo. A hora de início do capítulo não é exibida quando a barra de título está desativada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

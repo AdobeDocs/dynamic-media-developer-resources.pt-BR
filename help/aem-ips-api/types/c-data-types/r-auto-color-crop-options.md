@@ -1,7 +1,7 @@
 ---
-description: Opções para cortar imagens automaticamente com base na cor.
+description: Opções de corte automático de imagens com base na cor.
 solution: Experience Manager
-title: Opções deCortarCorAutomática
+title: AutoColorCropOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AutoColorCropOptions]{#autocolorcropoptions}
 
-Opções para cortar imagens automaticamente com base na cor.
+Opções de corte automático de imagens com base na cor.
 
 Sintaxe
 
@@ -30,17 +30,17 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> canto</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Escolha de Canto de Corte Automático. </td> 
+   <td colname="col3"> Escolha do Canto de Corte Automático. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerância</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">Especificação de correspondência de cor. Usa: 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col3">Especificação de correspondência de cores. Usa: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder as cores exatamente. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para permitir mais diferenças de cores. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder exatamente às cores. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para ativar a maioria das diferenças de cores. </li>
     </ul></td> 
   </tr> 
  </tbody> 

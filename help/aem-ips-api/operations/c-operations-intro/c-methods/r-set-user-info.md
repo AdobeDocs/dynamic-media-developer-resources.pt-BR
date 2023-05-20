@@ -1,5 +1,5 @@
 ---
-description: Define os atributos do usuário (por exemplo, nome, email, função etc.)
+description: Define atributos do usuário (por exemplo, nome, email, função etc.)
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setUserInfo{#setuserinfo}
 
-Define os atributos do usuário (por exemplo, nome, email, função etc.)
+Define atributos do usuário (por exemplo, nome, email, função etc.)
 
 Sintaxe
 
@@ -31,14 +31,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| userHandle | `xsd:string` | Não | Identificador do usuário. |
+| userHandle | `xsd:string` | Não | Identificador de usuário. |
 | firstName | `xsd:string` | Sim | Nome. |
 | lastName | `xsd:string` | Sim | Sobrenome. |
 | email | `xsd:string` | Sim | Email do usuário. |
-| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que a variável `IpsAdmin` substitui outras configurações por empresa. |
-| passwordExpires | `xsd:dateTime` | Não | Defina a data de expiração da senha. |
-| isValid | `xsd:boolean` | Sim | Determina se o usuário é um usuário IPS válido. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas lida com isso. |
+| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que `IpsAdmin` a função substitui outras configurações por empresa. |
+| passwordExpires | `xsd:dateTime` | Não | Defina a data de expiração da senha do. |
+| isValid | `xsd:boolean` | Sim | Determina se o usuário é um usuário de IPS válido. |
+| memberArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de manipuladores de empresa. |
 
 **Saída (setUserInfoReturn)**
 

@@ -1,7 +1,7 @@
 ---
-description: Atualize as informações das propriedades da fonte.
+description: Atualizar informações para propriedades de fonte.
 solution: Experience Manager
-title: FontFieldUpdate
+title: AtualizarCampoFonte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL FontFieldUpdate]{#fontfieldupdate}
 
-Atualize as informações das propriedades da fonte.
+Atualizar informações para propriedades de fonte.
 
 Sintaxe
 
@@ -25,8 +25,8 @@ Sintaxe
 | assetHandle | `xsd:string` | Identificador de ativo de fonte. |
 | fontName | `xsd:string` | Nome da fonte. |
 | postscriptName | `xsd:string` | Nome da fonte PostScript. |
-| rtfName | `xsd:string` | Nome da fonte Rich Text. |
-| [!DNL fontFamily] | `xsd:string` | Nome da família da fonte. |
+| rtfName | `xsd:string` | Nome da fonte de Rich Text. |
+| [!DNL fontFamily] | `xsd:string` | Nome da família de fontes. |
 | [!DNL style] | `xsd:string` | Estilo da fonte (consulte Estilos de fonte para valores). |
 | typeName | `xsd:string` | Nome do tipo de fonte. |
 | [!DNL type] | `xsd:string` | Tipo de fonte (consulte Tipos de fonte para valores). |

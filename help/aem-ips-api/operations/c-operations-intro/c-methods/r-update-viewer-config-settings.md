@@ -31,9 +31,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| configSettingArray | `types:ConfigSettingArray` | Sim | Matriz de configurações que você deseja aplicar ao visualizador. |
+| configSettingArray | `types:ConfigSettingArray` | Sim | Matriz de definições de configuração que você deseja aplicar ao visualizador. |
 
 **Saída (updateViewerConfigSettingsReturn)**
 

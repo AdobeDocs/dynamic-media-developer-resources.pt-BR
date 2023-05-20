@@ -1,5 +1,5 @@
 ---
-description: Obtém informações sobre um usuário. Use o endereço de email e a senha de um usuário do sistema como credenciais para autorizar a solicitação. Caso contrário, a operação obterá informações sobre o usuário padrão.
+description: Obtém informações sobre um usuário. Use o endereço de email e a senha de um usuário do sistema como credenciais para autorizar a solicitação. Caso contrário, a operação obtém informações sobre o usuário padrão.
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getUserInfo{#getuserinfo}
 
-Obtém informações sobre um usuário. Use o endereço de email e a senha de um usuário do sistema como credenciais para autorizar a solicitação. Caso contrário, a operação obterá informações sobre o usuário padrão.
+Obtém informações sobre um usuário. Use o endereço de email e a senha de um usuário do sistema como credenciais para autorizar a solicitação. Caso contrário, a operação obtém informações sobre o usuário padrão.
 
 Sintaxe
 
@@ -36,18 +36,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| userHandle | `xsd:string` | Não | Manipule para o usuário cujas informações você deseja retornar. |
+| userHandle | `xsd:string` | Não | Processe o usuário cujas informações você deseja retornar. |
 | email | `xsd:string` | Não | Endereço de email do usuário. |
 
 **Saída (getUserInfoReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| userInfo | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se ele é válido e quando a senha do usuário expira. |
+| userInfo | `types:User` | Sim | O nome, sobrenome, endereço de email e função de um usuário, bem como se o usuário é válido e quando a senha do usuário expira. |
 
 ## Exemplos {#section-98d77a2e360a438dbe240099bea26a65}
 
-Esta amostra de código retorna informações para o usuário padrão do IPS.
+Esta amostra de código retorna informações para o usuário do IPS padrão.
 
 **Solicitação**
 

@@ -1,5 +1,5 @@
 ---
-description: As propriedades de um ativo de arquivo de configurações do PDF.
+description: As propriedades de um ativo de arquivo de configurações PDF.
 solution: Experience Manager
 title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
-As propriedades de um ativo de arquivo de configurações do PDF.
+As propriedades de um ativo de arquivo de configurações PDF.
 
 Sintaxe
 

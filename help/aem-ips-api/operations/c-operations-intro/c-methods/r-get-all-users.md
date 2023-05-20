@@ -1,5 +1,5 @@
 ---
-description: Obtém todos os usuários em um array.
+description: Obtém todos os usuários em uma matriz.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getAllUsers{#getallusers}
 
-Obtém todos os usuários em um array.
+Obtém todos os usuários em uma matriz.
 
 Sintaxe
 
@@ -41,7 +41,7 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4">Defina como: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
@@ -57,11 +57,11 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | userArray | `types:UserArray` | Sim | Matriz de todos os usuários. |
-| Frase do código | `Code Phrase` |  |  |
+| Frase de código | `Code Phrase` |  |  |
 
 ## Exemplos {#section-9c9a2d335513478da20652c1b1443731}
 
-Essa amostra de código retorna todos os usuários. A resposta é truncada por brevidade.
+Esta amostra de código retorna todos os usuários. A resposta é truncada por brevidade.
 
 **Solicitação**
 

@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o Visualizador de Zoom em Linha
-description: A classe principal do Visualizador de Zoom em Linha é FlyoutViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o Visualizador de zoom em linha
+description: A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o Visualizador de Zoom em Linha{#javascript-api-reference-for-inline-zoom-viewer}
+# Referência da API JavaScript para o Visualizador de zoom em linha{#javascript-api-reference-for-inline-zoom-viewer}
 
-A classe principal do Visualizador de Zoom em Linha é FlyoutViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado do `s7viewers.FlyoutViewer` classe .
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.FlyoutViewer` classe.
 
-* [dispor](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
+* [descartar](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
 * [getComponent](r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
 * [init](r-html5-inlinezoom-viewer-javascriptapiref-init.md)

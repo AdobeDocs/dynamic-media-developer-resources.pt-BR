@@ -1,5 +1,5 @@
 ---
-description: Para fazer upload de ativos por meio do URL.
+description: Para fazer upload de ativos via URL.
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-Para fazer upload de ativos por meio do URL.
+Para fazer upload de ativos via URL.
 
 Sintaxe
 
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| sourceUrl | `xsd:string` | O URL de origem do qual o ativo é carregado. |
+| sourceUrl | `xsd:string` | O URL de origem do qual o ativo foi carregado. |
 | destPath | `xsd:string` | O caminho do arquivo IPS e o nome do arquivo para o qual você deseja fazer upload. |

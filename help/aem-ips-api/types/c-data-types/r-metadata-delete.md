@@ -1,7 +1,7 @@
 ---
-description: Metadados para excluir do ativo.
+description: Metadados a serem excluídos do ativo.
 solution: Experience Manager
-title: MetadataDelete
+title: ExclusãoDeMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-Metadados para excluir do ativo.
+Metadados a serem excluídos do ativo.
 
 Sintaxe
 

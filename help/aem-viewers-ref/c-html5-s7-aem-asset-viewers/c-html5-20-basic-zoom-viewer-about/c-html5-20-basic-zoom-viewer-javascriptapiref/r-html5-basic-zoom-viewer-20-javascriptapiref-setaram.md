@@ -1,26 +1,26 @@
 ---
 title: setParam
-description: Referência da API do JavaScript para o Visualizador básico de zoom.
+description: Referência da API JavaScript para o Visualizador de zoom básico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 5a34ad67-3a4c-408c-8e20-bbab87bbd470
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
 # setParam{#setparam}
 
-Referência da API do JavaScript para o Visualizador básico de zoom.
+Referência da API JavaScript para o Visualizador de zoom básico.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador tiverem sido passadas com `config` Objeto JSON para construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` Objeto JSON para construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

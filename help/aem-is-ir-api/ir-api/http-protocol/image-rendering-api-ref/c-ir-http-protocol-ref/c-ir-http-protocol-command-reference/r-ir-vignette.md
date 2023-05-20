@@ -1,6 +1,6 @@
 ---
 title: vinheta
-description: Arquivo Vignette. Especifica a vinheta a ser usada para a solicitação.
+description: Arquivo de vinheta. Especifica a vinheta a ser usada para a solicitação.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 # vinheta{#vignette}
 
-Arquivo Vignette. Especifica a vinheta a ser usada para a solicitação.
+Arquivo de vinheta. Especifica a vinheta a ser usada para a solicitação.
 
 `vignette=[ *`catId`*/] *`recId`*|[catId/] *`arquivo`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>ID do catálogo de materiais (correspondente a <span class="codeph"> atributo::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID do catálogo de materiais (correspondente a <span class="codeph"> attribute::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>ID da vinheta (correspondente a <span class="codeph"> vinheta::Id</span>). </p></td> 
+  <td class="stentry"> <p>ID de Vinheta (correspondente a <span class="codeph"> vinheta::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> arquivo</span> </p></td> 
-  <td class="stentry"> <p>Caminho e nome do arquivo da vinheta relativa. </p></td> 
+  <td class="stentry"> <p>Caminho e nome do arquivo de vinheta relativos. </p></td> 
  </tr> 
 </table>
 
-Pode especificar uma entrada do mapa de vinheta ou um arquivo de vinheta. URLs remotos não são permitidos.
+Pode especificar uma entrada de mapa de vinheta ou um arquivo de vinheta. URLs remotos não são permitidos.
 
-`vignette=` Pode ser usada como uma alternativa para especificar a vinheta no caminho do URL da solicitação. Usado para especificar vinhetas por meio de variáveis em modelos.
+`vignette=` Pode ser usado como uma alternativa para especificar a vinheta no caminho do URL da solicitação. Usado para especificar vinhetas por meio de variáveis em modelos.
 
-If *`catId`* não especificado, o catálogo de sessão é usado.
+Se *`catId`* não for especificado, o catálogo de sessões será usado.
 
 ## Propriedades {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 
-Pode ocorrer em qualquer lugar dentro da solicitação. Substitui a vinheta especificada pelo caminho do URL da solicitação.
+Pode ocorrer em qualquer lugar na solicitação. Substitui a vinheta especificada pelo caminho do URL da solicitação.
 
 ## Padrão {#section-db0618d48bc84dc8abcc989550349ccc}
 

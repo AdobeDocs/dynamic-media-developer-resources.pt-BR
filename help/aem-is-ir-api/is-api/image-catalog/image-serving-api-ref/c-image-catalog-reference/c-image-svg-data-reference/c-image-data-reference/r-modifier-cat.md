@@ -1,30 +1,30 @@
 ---
-description: Sequência do modificador da solicitação de prefixo. Nenhum ou mais comandos do Image Serving separados por caracteres '&'.
+description: Cadeia modificadora de solicitação de prefixo. Nenhum ou mais comandos do Servidor de imagens separados por caracteres '&'.
 solution: Experience Manager
 title: Modificador
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 # Modificador{#modifier}
 
-Sequência do modificador da solicitação de prefixo. Nenhum ou mais comandos do Image Serving separados por caracteres &#39;&amp;&#39;.
+Cadeia modificadora de solicitação de prefixo. Nenhum ou mais comandos do Servidor de imagens separados por caracteres &#39;&amp;&#39;.
 
-Usado para modificar imagens de forma persistente e armazenar o corpo dos modelos.
+Usado para modificar persistentemente imagens e armazenar o corpo de modelos.
 
-Os comandos neste campo são substituídos pelos mesmos comandos na solicitação ou no modelo a partir do qual este registro é referenciado e pelos comandos em `catalog::PostModifier`
+Os comandos neste campo são substituídos pelos mesmos comandos na solicitação ou no modelo a partir do qual esse registro é referenciado, e pelos comandos em `catalog::PostModifier`
 
-As macros são permitidas em `catalog::Modifier`, desde que sejam definidas no mesmo catálogo ou no catálogo padrão. Variáveis personalizadas também podem ser usadas.
+As macros são permitidas em `catalog::Modifier`, desde que estejam definidos no mesmo catálogo ou no catálogo padrão. Variáveis personalizadas também podem ser usadas.
 
 ## Propriedades {#section-6674388f77d644469371a17e8809c45f}
 
-Sequência de texto. Opcional.
+String de texto. Opcional.
 
 ## Padrão {#section-f4ffe8b75792435c8b1040e75c5fb8a1}
 

@@ -18,7 +18,7 @@ A Referência da API de renderização de imagem contém informações sobre a c
 
 * [Configuração](c-ir-installation/c-ir-installation.md)
 * [Licenciamento](c-ir-installation/c-ir-licensing.md)
-* [Configurar e configurar o módulo de compatibilidade IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
-* [Configurar e configurar a renderização de imagens](c-ir-installation/c-ir-setup-ir.md)
-* [Desinstalação da renderização de imagem](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
+* [Definir e configurar o módulo de compatibilidade do IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
+* [Definir e configurar a Renderização de imagem](c-ir-installation/c-ir-setup-ir.md)
+* [Desinstalando a renderização de imagem](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
 * [Administração do servidor](c-ir-server-administration/c-ir-server-administration.md)

@@ -34,9 +34,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote que você deseja definir ou atualizar. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote de XMP que você deseja definir ou atualizar. |
 
 **Saída (updateXMPPacketReturn)**
 

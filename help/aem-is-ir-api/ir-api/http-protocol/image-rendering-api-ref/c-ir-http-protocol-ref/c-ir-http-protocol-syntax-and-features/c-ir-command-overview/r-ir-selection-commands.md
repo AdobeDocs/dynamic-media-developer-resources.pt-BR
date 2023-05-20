@@ -1,6 +1,6 @@
 ---
 title: Comandos de seleção
-description: Esses comandos são usados para selecionar grupos de vinhetas, objetos, subáreas de grupos ou objetos.
+description: Esses comandos são usados para selecionar grupos de vinheta, objetos, subáreas de grupos ou objetos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Comandos de seleção{#selection-commands}
 
-Esses comandos são usados para selecionar grupos de vinhetas, objetos, subáreas de grupos ou objetos.
+Esses comandos são usados para selecionar grupos de vinheta, objetos, subáreas de grupos ou objetos.
 
-O comando ou o material, ou ambos, são especificados após este comando de seleção e antes do próximo comando de seleção (ou do final da solicitação) ser aplicado ao item selecionado. Os comandos de seleção delimitam segmentos de especificação de material (MSS).
+O comando, ou o material, ou ambos, são especificados após esse comando de seleção e antes do próximo comando de seleção (ou o fim da solicitação) ser aplicado ao item selecionado. Os comandos de seleção delimitam os segmentos de especificação de material (MSS).
 
 <table id="simpletable_028957E516644FE8A7B1BC056A32FCD1"> 
  <tr class="strow"> 
@@ -25,7 +25,7 @@ O comando ou o material, ou ambos, são especificados após este comando de sele
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b" type="reference" format="dita" scope="local"> sel</a></span> </p></td> 
-  <td class="stentry"> <p>Selecione um grupo de vinheta ou objeto por localização de pixel. </p></td> 
+  <td class="stentry"> <p>Selecione um grupo de vinhetas ou objeto por localização em pixels. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-decal.md#reference-3a5f1adc7fe24c91aa5655d64038e857" type="reference" format="dita" scope="local"> decalque</a></span> </p></td> 

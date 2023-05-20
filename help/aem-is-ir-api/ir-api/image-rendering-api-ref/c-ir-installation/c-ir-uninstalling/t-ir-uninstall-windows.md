@@ -1,5 +1,5 @@
 ---
-title: Desinstalação no Windows
+title: Desinstalando no Windows
 description: Siga estas instruções para desinstalar a Renderização de imagem em um sistema Windows.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Desinstalação no Windows{#uninstalling-on-windows}
+# Desinstalando no Windows{#uninstalling-on-windows}
 
 Siga estas instruções para desinstalar a Renderização de imagem em um sistema Windows.
 
-1. Inicie o desinstalador executando ` *[!DNL install_folder]*\_uninst\uninstaller.exe`ou, no menu Iniciar, selecione **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
+1. Inicie o desinstalador executando ` *[!DNL install_folder]*\_uninst\uninstaller.exe`, ou no Menu Iniciar, selecione **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.

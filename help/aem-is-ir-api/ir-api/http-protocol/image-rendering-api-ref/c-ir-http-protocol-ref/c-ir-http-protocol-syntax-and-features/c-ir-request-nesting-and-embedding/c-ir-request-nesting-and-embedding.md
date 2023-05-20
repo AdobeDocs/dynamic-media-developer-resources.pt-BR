@@ -1,6 +1,6 @@
 ---
-title: Solicitar aninhamento e incorporação
-description: A Renderização de Imagens permite a incorporação de solicitações de Exibição de Imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
+title: Aninhamento e incorporação de solicitações
+description: A Renderização de imagem permite a incorporação de solicitações do Servidor de imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Solicitar aninhamento e incorporação{#request-nesting-and-embedding}
+# Aninhamento e incorporação de solicitações{#request-nesting-and-embedding}
 
-A Renderização de Imagens permite a incorporação de solicitações de Exibição de Imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
+A Renderização de imagem permite a incorporação de solicitações do Servidor de imagens e solicitações HTTP em servidores estrangeiros para recuperar imagens de material usadas para texturas e decalques repetíveis.
 
-Esses mecanismos não são compatíveis com materiais de Gabinete e Cobertura de Janela.
+Esses mecanismos não são compatíveis com materiais de gabinete e de revestimento de janelas.
 
-Consulte também [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Referência de disponibilização de imagens.
+Consulte também [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Referência do servidor de imagens.

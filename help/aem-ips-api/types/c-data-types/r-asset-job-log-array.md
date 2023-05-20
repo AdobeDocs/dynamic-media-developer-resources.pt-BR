@@ -1,6 +1,6 @@
 ---
 title: AssetJobLogArray
-description: Matriz de registros de trabalhos de ativos.
+description: Matriz de logs de trabalho de ativos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-Matriz de registros de trabalhos de ativos.
+Matriz de logs de trabalho de ativos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:AssetJobLog` | Matriz de registros de trabalhos de ativos. |
+| itens | `types:AssetJobLog` | Matriz de logs de trabalho de ativos. |

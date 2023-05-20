@@ -1,5 +1,5 @@
 ---
-description: Os catálogos de imagens fornecem muitas configurações do servidor, assim como fontes, perfis ICC, macros de comando.
+description: Os catálogos de imagens fornecem muitas definições de configuração do servidor, assim como fontes, perfis ICC e macros de comandos.
 solution: Experience Manager
 title: Catálogos de imagens
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Catálogos de imagens{#image-catalogs}
 
-Os catálogos de imagens fornecem muitas configurações do servidor, assim como fontes, perfis ICC, macros de comando.
+Os catálogos de imagens fornecem muitas definições de configuração do servidor, assim como fontes, perfis ICC e macros de comandos.
 
-Eles mapeiam ids de imagem e conteúdo estático usadas em solicitações para caminhos de arquivo reais, armazenam vários metadados de imagem, como mapas de imagem, e fornecem contêineres para modelos e conjuntos de imagens.
+Eles mapeiam ids de imagem e conteúdo estático usadas em solicitações para caminhos de arquivos reais, armazenam vários metadados de imagem, como mapas de imagem, e fornecem containers para modelos e conjuntos de imagens.
 
-Os catálogos de imagens são acessados somente pelo [!DNL Platform Server], nunca pelo Servidor de imagem. Os arquivos de atributo do catálogo devem ter um sufixo .ini e ser colocados no [!DNL Platform Server]pasta do catálogo do ( `PS::CatalogFolder`). Pelo menos o catálogo de imagem padrão é necessário e deve ser preenchido com todos os atributos para o funcionamento correto da variável [!DNL Platform Server].
+Os catálogos de imagens são acessados somente pelo [!DNL Platform Server], nunca pelo Servidor de imagens. Os arquivos de atributo do catálogo devem ter um sufixo .ini e ser colocados na variável [!DNL Platform Server]Pasta de catálogo do ( `PS::CatalogFolder`). Pelo menos o catálogo de imagens padrão é necessário e deve ser preenchido com todos os atributos para o funcionamento correto do [!DNL Platform Server].

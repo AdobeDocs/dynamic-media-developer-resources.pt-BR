@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `type:AssetMove` | Matriz de movimentações de ativos. |
+| itens | `type:AssetMove` | Matriz de movimentações de ativos. |

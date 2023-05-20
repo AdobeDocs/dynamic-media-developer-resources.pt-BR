@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de informações sobre um item de tarefa.
 solution: Experience Manager
-title: TaskItemProgressArray
+title: MatrizProgressoDoItemDaTarefa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:TaskItemProgress` | Matriz de progresso do item de tarefa. A ocorrência mínima é zero. O máximo está ilimitado. |
+| itens | `types:TaskItemProgress` | Matriz de progresso do item de tarefa. A ocorrência mínima é zero. O máximo não está vinculado. |

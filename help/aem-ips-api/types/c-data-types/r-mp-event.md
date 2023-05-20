@@ -1,7 +1,7 @@
 ---
 description: Um evento do MediaPortal.
 solution: Experience Manager
-title: Evento MPE
+title: MPEvent
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
@@ -22,24 +22,24 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| eventType | `xsd:string` | Tipo de evento do Media Portal. |
+| eventType | `xsd:string` | Tipo de evento do Portal de mídia. |
 | createDate | `xsd:dateTime` | Data de criação do evento. |
 | ipsUser | `xsd:string` | Sistema ou usuário que aciona o evento. |
 | companyId | `xsd:int` | ID da empresa. |
 | companyName | `xsd:string` | Nome da empresa. |
 | jobName | `xsd:string` | Um nome de trabalho exclusivo. |
 | jobDescription | `xsd:string` | Uma descrição útil para a tarefa. |
-| string1 | `xsd:string` | Detentor para informações de string (opcional). |
-| string2 | `xsd:string` | Detentor para informações de string (opcional). |
-| string3 | `xsd:string` | Detentor para informações de string (opcional). |
-| string4 | `xsd:string` | Detentor para informações de string (opcional). |
-| string5 | `xsd:string` | Detentor para informações de string (opcional). |
-| int1 | `xsd:int` | Titular para informações de número inteiro (opcional). |
-| int2 | `xsd:int` | Titular para informações de número inteiro (opcional). |
-| int3 | `xsd:int` | Titular para informações de número inteiro (opcional). |
-| int4 | `xsd:int` | Titular para informações de número inteiro (opcional). |
-| int5 | `xsd:int` | Titular para informações de número inteiro (opcional). |
-| float1 | `xsd:double` | Titular da informação flutuante (opcional). |
-| float2 | `xsd:double` | Titular da informação flutuante (opcional). |
-| float3 | `xsd:double` | Titular da informação flutuante (opcional). |
-| time1 | `xsd:dateTime` | Titular das informações de data/carimbo de data e hora (opcional). |
+| string1 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| string2 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| string3 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| string4 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| string5 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| int1 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
+| int2 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
+| int3 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
+| int4 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
+| int5 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
+| float1 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
+| float2 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
+| float3 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
+| time1 | `xsd:dateTime` | Titular das informações de data/hora (opcional). |

@@ -1,7 +1,7 @@
 ---
-description: Uma matriz de sequências de pesquisa.
+description: Uma matriz de cadeias de caracteres de pesquisa.
 solution: Experience Manager
-title: SearchStringsArray
+title: MatrizDeCadeiasDePesquisa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL SearchStringsArray]{#searchstringsarray}
 
-Uma matriz de sequências de pesquisa.
+Uma matriz de cadeias de caracteres de pesquisa.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:SearchStrings` | Uma matriz de sequências de pesquisa. |
+| itens | `types:SearchStrings` | Uma matriz de cadeias de caracteres de pesquisa. |

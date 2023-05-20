@@ -21,8 +21,8 @@ Atributo de configuração para o Visualizador de vídeo.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|progressivo</span> </p> </td> 
-   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. When <span class="codeph"> auto</span> for definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usará vídeo de transmissão HTML5 no formato HLS. Ele volta para a reprodução HTML5 progressiva em determinados sistemas, como o Internet Explorer e Android™ mais antigos. </p> <p>If <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá apenas da reprodução do HTML5, conforme nativamente suportado pelos navegadores, e reproduzirá vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do SDK do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
+   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. Quando <span class="codeph"> automático</span> estiver definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa o vídeo de transmissão HTML5 no formato HLS. Ele retorna à reprodução de HTML5 progressiva em determinados sistemas, como Internet Explorer e Android™ mais antigos. </p> <p>Se <span class="codeph"> progressivo</span> for especificado, o visualizador dependerá apenas da reprodução do HTML5 como suportado nativamente pelos navegadores e reproduzirá o vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

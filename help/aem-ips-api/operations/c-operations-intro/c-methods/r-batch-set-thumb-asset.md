@@ -18,12 +18,12 @@ Define a imagem em miniatura de um ou mais ativos.
 
 Sintaxe
 
-## Tipos de ativos de miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
+## Tipos de ativos em miniatura {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
 Os tipos de ativos de miniatura permitidos consistem no seguinte:
 
 * Imagem
-* AjustedView
+* ModoDeExibiçãoAjustado
 * Máscara
 * Modelo
 * PsdTemplate
@@ -39,7 +39,7 @@ Os tipos de ativos de miniatura permitidos consistem no seguinte:
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura/gravação ao ativo de destino e acesso de leitura ao ativo em miniatura.
+>O usuário deve ter acesso de leitura/gravação ao ativo de destino e acesso de leitura ao ativo thumb.
 
 ## Parâmetros {#section-9c6efa000b384b3db6c013def20cf40b}
 

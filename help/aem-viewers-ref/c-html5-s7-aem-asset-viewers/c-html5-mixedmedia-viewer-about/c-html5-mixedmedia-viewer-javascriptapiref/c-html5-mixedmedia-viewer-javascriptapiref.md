@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o Visualizador de mídia mista
-description: A classe principal do Visualizador de mídia mista é MixedMediaViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o Visualizador de mix de mídia
+description: A classe principal do Visualizador de mídia mista é MixedMediaViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o Visualizador de mídia mista{#javascript-api-reference-for-mixed-media-viewer}
+# Referência da API JavaScript para o Visualizador de mix de mídia{#javascript-api-reference-for-mixed-media-viewer}
 
-A classe principal do Visualizador de mídia mista é MixedMediaViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Visualizador de mídia mista é MixedMediaViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado do `s7viewers.MixedMediaViewer` classe .
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.MixedMediaViewer` classe.

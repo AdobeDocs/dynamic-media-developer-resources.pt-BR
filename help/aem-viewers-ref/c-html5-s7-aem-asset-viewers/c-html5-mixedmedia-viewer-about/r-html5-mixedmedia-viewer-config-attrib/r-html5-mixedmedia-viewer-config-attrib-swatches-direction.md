@@ -8,7 +8,7 @@ exl-id: bd01ff03-fea7-42ad-aa99-72273f55bda0
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|esquerda|direita </span> </p> </td> 
-   <td> <p> Especifica a maneira como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; </p> <p> <span class="codeph"> right </span> inverte a ordem para que a exibição seja preenchida da direita para a esquerda e de cima para baixo. </p> <p>When <span class="codeph"> auto </span> estiver definido, o componente se aplica <span class="codeph"> right </span> modo quando a localidade está definida como <span class="codeph"> ja </span>; caso contrário, left é usado. </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td> <p> Especifica como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; </p> <p> <span class="codeph"> direita </span> inverte a ordem para que a exibição seja preenchida da direita para a esquerda e de cima para baixo. </p> <p>Quando <span class="codeph"> automático </span> estiver definido, o componente aplicará <span class="codeph"> direita </span> quando localidade estiver definida como <span class="codeph"> ja </span>; caso contrário, left será usado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

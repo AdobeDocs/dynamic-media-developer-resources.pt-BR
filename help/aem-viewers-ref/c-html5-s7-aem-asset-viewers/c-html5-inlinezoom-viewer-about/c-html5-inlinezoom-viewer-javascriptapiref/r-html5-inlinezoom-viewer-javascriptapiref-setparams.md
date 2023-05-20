@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o Visualizador de Zoom em Linha.
+description: Referência da API JavaScript para o Visualizador de zoom em linha.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o Visualizador de Zoom em Linha.
+Referência da API JavaScript para o Visualizador de zoom em linha.
 
 ` setParams( *`params`*)`
 
@@ -27,7 +27,7 @@ Referência da API do JavaScript para o Visualizador de Zoom em Linha.
  </tbody> 
 </table>
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores é codificado por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

@@ -1,20 +1,20 @@
 ---
-description: Resolução de miniatura padrão. Fornece um padrão para a resolução de objeto de miniatura caso um registro de catálogo específico não contenha um valor de ThumbRes de catálogo válido.
+description: Resolução de miniatura padrão. Fornece um padrão para a resolução do objeto de miniatura caso um determinado registro de catálogo não contenha um valor ThumbRes de catálogo válido.
 solution: Experience Manager
 title: ThumbRes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 # ThumbRes{#thumbres}
 
-Resolução de miniatura padrão. Fornece um padrão para a resolução de objeto de miniatura no caso de um registro de catálogo específico não conter um valor de catalog::ThumbRes válido.
+Resolução de miniatura padrão. Fornece um padrão para a resolução do objeto de miniatura caso um determinado registro de catálogo não contenha um valor catalog::ThumbRes válido.
 
 Usado apenas para solicitações de miniatura ( `req=tmb`) e quando `catalog::ThumbType=3`.
 

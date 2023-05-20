@@ -1,18 +1,18 @@
 ---
 description: Usado por searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode e searchAssetsParam/metadataMatchMode.
 solution: Experience Manager
-title: Modos de correspondência de pesquisa
-feature: Dynamic Media Classic, SDK/API
+title: Modos de Correspondência de Pesquisa
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 67f3b0a9-2e4b-428d-bceb-28a0599da5ce
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
-# Modos de correspondência de pesquisa{#search-match-modes}
+# Modos de Correspondência de Pesquisa{#search-match-modes}
 
 Usado por searchAssetsParam/conditionMatchMode, searchAssetsParam/systemFieldMatchMode e searchAssetsParam/metadataMatchMode.
 

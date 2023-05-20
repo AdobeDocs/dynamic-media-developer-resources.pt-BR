@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de URLS para invalidar o cache CDN.
+description: Uma matriz de URLS para invalidar o cache do CDN.
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # [!DNL UrlArray]{#urlarray}
 
-Uma matriz de URLS para invalidar o cache CDN.
+Uma matriz de URLS para invalidar o cache do CDN.
 
-**Suportado desde**
+**Compatível desde**
 
 4.5.0, patch 2011-02
 
@@ -32,9 +32,9 @@ Uma matriz de URLS para invalidar o cache CDN.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> itens</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> A lista de URLs a serem invalidadas. Limitado ao máximo de 1000 URLs pela definição de WSDL. </p> </td> 
+   <td> <p> A lista de URLs a serem invalidados. Limitado ao máximo de 1000 URLs pela definição WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>

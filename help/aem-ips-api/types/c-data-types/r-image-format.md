@@ -8,7 +8,7 @@ exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,6 @@ Não é um tipo de ativo.
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| imageFormatHandle | `xsd:string` | Identificador do formato da imagem. |
-| name | `xsd:string` | Nome do formato da imagem. |
-| urlModifier | `xsd:string` | URL do servidor de imagem que representa o formato de imagem. |
+| imageFormatHandle | `xsd:string` | Identificador de formato de imagem. |
+| name | `xsd:string` | Nome do formato de imagem. |
+| urlModifier | `xsd:string` | URL do servidor de imagens que representa o formato da imagem. |

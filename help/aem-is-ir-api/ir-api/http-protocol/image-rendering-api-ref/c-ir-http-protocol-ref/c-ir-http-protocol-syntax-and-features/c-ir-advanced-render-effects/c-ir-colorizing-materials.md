@@ -1,6 +1,6 @@
 ---
-title: Materiais de coloração
-description: A maioria dos materiais pode ser colorida dinamicamente.
+title: Materiais para colorir
+description: A maioria dos materiais pode ser colorizada dinamicamente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Materiais de coloração{#colorizing-materials}
+# Materiais para colorir{#colorizing-materials}
 
-A maioria dos materiais pode ser colorida dinamicamente.
+A maioria dos materiais pode ser colorizada dinamicamente.
 
-O algoritmo de colorização é simplista e funciona melhor para imagens materiais que têm um intervalo de matiz limitado. Para colorir um material, o renderizador simplesmente subtrai o `bgc=` e adiciona a variável `color=` para cada valor de pixel.
+O algoritmo de colorização é simplista e funciona melhor para imagens de material com uma gama limitada de matizes. Para colorir um material, o renderizador simplesmente subtrai o `bgc=` e adiciona o `color=` para cada valor de pixel.
 
-A colorização estará desativada se `color=` não especificado. O `bgc=` for ignorado pelos materiais do gabinete; o valor de cor base incorporado na [!DNL vnc] em vez disso, o arquivo é usado.
+A coloração é desativada se `color=` não foi especificado. A variável `bgc=` atributo é ignorado pelos materiais do gabinete; o valor da cor base incorporado no [!DNL vnc] arquivo é usado em seu lugar.

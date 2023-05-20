@@ -25,9 +25,9 @@ Resolução de impressão. Substitui o valor de resolução de impressão incorp
  </tr> 
 </table>
 
-A resolução de impressão é normalmente definida pelo valor de resolução de impressão incorporado na vinheta.
+A resolução de impressão é normalmente definida pelo valor da resolução de impressão incorporado na vinheta.
 
-Definir a resolução de impressão não altera o tamanho do pixel da imagem de resposta.
+A definição da resolução de impressão não altera o tamanho do pixel da imagem de resposta.
 
 ## Propriedades {#section-7ac3e01334bc4f218a2c69bcd4e8d5fb}
 

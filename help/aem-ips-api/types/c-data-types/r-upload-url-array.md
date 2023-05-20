@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de URL para fazer upload de ativos.
+description: Uma matriz de URL para carregar ativos.
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL UploadUrlArray]{#uploadurlarray}
 
-Uma matriz de URL para fazer upload de ativos.
+Uma matriz de URL para carregar ativos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:UploadUrl` | Uma matriz de URLs para fazer upload de ativos. |
+| itens | `types:UploadUrl` | Uma matriz de URLs para fazer upload de ativos. |

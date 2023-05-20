@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de atualizações de membros do conjunto de imagens.
+description: Uma matriz de atualizações de membro do conjunto de imagens.
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ImageSetMemberUpdateArray]{#imagesetmemberupdatearray}
 
-Uma matriz de atualizações de membros do conjunto de imagens.
+Uma matriz de atualizações de membro do conjunto de imagens.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ImageSetMemberUpdate` | A matriz de atualizações de membros do conjunto de imagens. |
+| itens | `types:ImageSetMemberUpdate` | A matriz de atualizações do membro do conjunto de imagens. |

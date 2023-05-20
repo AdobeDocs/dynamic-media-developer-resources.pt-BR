@@ -1,5 +1,5 @@
 ---
-description: Um proxy do servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
+description: Um proxy de servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
 solution: Experience Manager
 title: Proxy do servidor de imagens
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Proxy do servidor de imagens{#image-server-proxy}
 
-Um proxy do servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
+Um proxy de servidor de imagens pode ser usado para redimensionar imagens para telefones japoneses.
 
-## Formato do URL {#section-2e8c40b0547c4f99874cdf502b338940}
+## Formato de URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-O formato de url do proxy IS é muito semelhante a solicitações IS comuns. Qualquer modificador IS transmitido ao proxy é passado para o Servidor de Imagem. Você pode encontrar informações sobre os modificadores IS no [Referência do protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+O formato do URL para o proxy IS é muito semelhante às solicitações IS comuns. Qualquer modificador IS transmitido ao proxy é transmitido ao Servidor de imagens. Você pode encontrar informações sobre os modificadores IS na [Referência de protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -29,22 +29,22 @@ O formato de url do proxy IS é muito semelhante a solicitações IS comuns. Qua
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>Especifica a porcentagem da largura utilizável do dispositivo a ser usada como a largura da imagem. </p></td> 
+  <td class="stentry"> <p>Especifica a porcentagem da largura utilizável do dispositivo a ser usada como largura da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>Especifica a porcentagem da altura utilizável do dispositivo a ser usada como a altura da imagem. </p></td> 
+  <td class="stentry"> <p>Especifica a porcentagem da altura utilizável do dispositivo a ser usada como altura da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>Especifica a porcentagem da propriedade de Mídia incorporada de limite de memória do dispositivo para limitar o tamanho da resposta. Isso só será aplicado às respostas jpg. A qualidade da imagem é reduzida até que o tamanho da resposta esteja dentro da porcentagem especificada. </p></td> 
+  <td class="stentry"> <p>Especifica a porcentagem da propriedade de Limite de Memória de Mídia Incorporada do dispositivo à qual limitar o tamanho da resposta. Isso se aplica somente a respostas jpg. A qualidade da imagem é reduzida até que o tamanho da resposta esteja dentro da porcentagem especificada. </p></td> 
  </tr> 
 </table>
 
 ## Limite de memória de imagem incorporada {#section-52f7c69ed8a341ceabf92ceee19b0f36}
 
-Se o dispositivo tiver um limite sobre o tamanho das imagens que podem ser incorporadas em uma página da Web, o tamanho da imagem será restrito a esse tamanho, desde que o formato de resposta seja jpg. O proxy limita as respostas a 500 MB se o dispositivo não tiver limite.
+Se o dispositivo tiver um limite no tamanho das imagens que podem ser incorporadas em uma página da Web, o tamanho da imagem será restrito a esse tamanho, desde que o formato de resposta seja jpg. O proxy limita as respostas a 500 MB se o dispositivo não tiver limite.
 
 ## Processamento de backend {#section-bdf7c294b6824de9969c97fc1f8aa6d3}
 
-O proxy baixa, verifica e carrega o arquivo de dados do Device Atlas uma vez por dia. A verificação extrai propriedades diferentes para dispositivos diferentes e as compara com valores esperados antes de aceitar os novos dados.
+O proxy baixa, verifica e carrega o arquivo de dados do Device Atlas uma vez por dia. A verificação extrai diferentes propriedades para diferentes dispositivos e as compara com os valores esperados antes de aceitar os novos dados.

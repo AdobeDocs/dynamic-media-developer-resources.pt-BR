@@ -42,7 +42,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Manuseio da empresa. </td> 
+   <td colname="col4"> Identificador da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -54,7 +54,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4">Matriz de valores de campo de tag que você deseja atualizar. <p>Observação: Atualiza somente os valores da string de tag. Não afeta associações de ativos. </p> </td> 
+   <td colname="col4">Matriz de valores de campo de tag que você deseja atualizar. <p>Observação: atualiza somente os valores da string da tag. Não afeta associações de ativos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +63,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | O número de campos de tag atualizados com êxito. |
-| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou atualizar campos de tag. |
+| successCount | `xsd:int` | Sim | O número de campos de tag atualizados com sucesso. |
+| warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou atualizar campos de marca. |
 | errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou atualizar campos de tag. |
 | warningDetailArray | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou atualizar campos de tag. |
 | errorDetailArray | `types:TagValueUpdateFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou atualizar campos de tag. |

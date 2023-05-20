@@ -1,20 +1,20 @@
 ---
-description: Descreve os valores usados por vários parâmetros. Consulte a lista neste artigo para obter detalhes
+description: Descreve os valores usados por vários parâmetros. Consulte a lista neste artigo para obter mais detalhes
 solution: Experience Manager
 title: Funções do usuário
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
 # Funções do usuário{#user-roles}
 
-Descreve os valores usados por vários parâmetros. Consulte a lista neste artigo para obter detalhes
+Descreve os valores usados por vários parâmetros. Consulte a lista neste artigo para obter mais detalhes
 
 Sintaxe
 

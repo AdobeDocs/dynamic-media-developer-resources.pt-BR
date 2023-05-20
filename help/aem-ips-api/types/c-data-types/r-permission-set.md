@@ -1,7 +1,7 @@
 ---
-description: PermissonSet
+description: PermissionSet
 solution: Experience Manager
-title: PermissonSet
+title: PermissionSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
@@ -20,5 +20,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | Manipule um conjunto de permissões. |
+| PermissionSetHandle | `xsd:string` | Processe um conjunto de permissões. |
 | permissionArray | `types:PermissionArray` | Uma matriz de permissões. |

@@ -42,7 +42,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Lide com o usuário cuja associação de grupo você deseja adicionar. </p> </td> 
+   <td colname="col4"> <p>Processe o usuário cuja associação de grupo você deseja adicionar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 

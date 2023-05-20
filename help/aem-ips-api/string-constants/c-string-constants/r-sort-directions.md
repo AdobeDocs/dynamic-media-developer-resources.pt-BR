@@ -1,18 +1,18 @@
 ---
 description: Usado por searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
 solution: Experience Manager
-title: Ordenar direções
-feature: Dynamic Media Classic, SDK/API
+title: Classificar direções
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---
 
-# Ordenar direções{#sort-directions}
+# Classificar direções{#sort-directions}
 
 Usado por searchAssetsParam/sortDirection e getJobLogsParam/sortDirection.
 

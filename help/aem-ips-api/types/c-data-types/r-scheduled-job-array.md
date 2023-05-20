@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de trabalhos agendados.
+description: Uma série de tarefas agendadas.
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-Uma matriz de trabalhos agendados.
+Uma série de tarefas agendadas.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ScheduledJobs` | Um array de tarefas agendadas. |
+| itens | `types:ScheduledJobs` | Uma matriz de trabalhos agendados. |

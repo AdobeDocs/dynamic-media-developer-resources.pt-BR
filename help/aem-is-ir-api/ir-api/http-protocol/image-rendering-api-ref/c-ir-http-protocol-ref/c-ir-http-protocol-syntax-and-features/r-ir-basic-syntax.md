@@ -1,6 +1,6 @@
 ---
 title: Sintaxe básica do protocolo HTTP de renderização de imagem
-description: Esta seção descreve a sintaxe básica do protocolo HTTP Dynamic Media Image Rendering.
+description: Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de imagem do Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sintaxe básica do protocolo HTTP de renderização de imagem{#image-rendering-http-protocol-basic-syntax}
 
-Esta seção descreve a sintaxe básica do protocolo HTTP Dynamic Media Image Rendering.
+Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de imagem do Dynamic Media.
 
 <table id="table_0A7D7207EE6D4B08B62BE8620EBE0B25"> 
  <thead> 
@@ -38,10 +38,10 @@ Esta seção descreve a sintaxe básica do protocolo HTTP Dynamic Media Image Re
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificadores </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp; <span class="varname"> modifier</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modificador</span> *[ &amp; <span class="varname"> modificador</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> modifier </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> modificador </span> </p> </td> 
    <td colname="col2"> <p><span class="varname"> comando</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comentário</span> } </p> </td> 
   </tr> 
   <tr> 
@@ -71,16 +71,16 @@ Esta seção descreve a sintaxe básica do protocolo HTTP Dynamic Media Image Re
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`* e *`var`* não diferenciam maiúsculas de minúsculas. O servidor preserva as letras maiúsculas e minúsculas de todos os outros valores da string.
+*`server`*, *`cmdName`*, *`macro`*, e *`var`* não diferenciam maiúsculas de minúsculas. O servidor preserva as letras maiúsculas e minúsculas de todos os outros valores de string.
 
 **Identificador do servidor**
 
-O &quot; `/ir/render`O contexto raiz &#39; é necessário para todas as solicitações HTTP para Renderização de imagem.
+O &#39; `/ir/render`O contexto raiz &#39;&#39; é necessário para todas as solicitações HTTP para a Renderização de imagem.
 
 **Comentários**
 
-Os comentários podem ser incorporados às cadeias de caracteres de solicitação em qualquer lugar e são identificados por um período (.) imediatamente após o separador de comando (&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação, o que não é para uso do Serviço de imagem, como carimbos de data e hora e IDs do banco de dados.
+Os comentários podem ser incorporados nas sequências de solicitação em qualquer lugar e são identificados por um ponto final (.) logo após o separador de comandos (&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação do que não são para uso do Servidor de imagens, como carimbos de data e hora e IDs de banco de dados.
 
 **Decodificação HTTP**
 
-Primeiras extrações da renderização de imagem *`object`* e *`modifiers`* da solicitação recebida. O *`object`* é então separado em elementos de caminho que são decodificados individualmente por HTTP. O *`modifiers`* é separada em *`command`*= *`value`* pares e *`value`* é decodificado por HTTP antes do processamento específico do comando.
+Primeiras extrações de renderização de imagem *`object`* e *`modifiers`* da solicitação recebida. A variável *`object`* O é separado em elementos de caminho que são decodificados individualmente por HTTP. A variável *`modifiers`* a sequência de caracteres é separada em *`command`*= *`value`* pares e *`value`* é então decodificado por HTTP antes do processamento específico do comando.

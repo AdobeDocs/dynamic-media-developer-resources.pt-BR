@@ -1,7 +1,7 @@
 ---
-description: Uma matriz de cadeias de caracteres.
+description: Uma matriz de sequências de caracteres.
 solution: Experience Manager
-title: StringArray
+title: MatrizCadeiaDeCaracteres
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL StringArray]{#stringarray}
 
-Uma matriz de cadeias de caracteres.
+Uma matriz de sequências de caracteres.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `xsd:string` | Uma matriz de cadeias de caracteres. |
+| itens | `xsd:string` | Uma matriz de sequências de caracteres. |

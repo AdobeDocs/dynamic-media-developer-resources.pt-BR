@@ -18,9 +18,9 @@ O botão Reproduzir/Pausar permite que o usuário pause ou retome o comportament
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-O botão é visível somente se o parâmetro `CarouselViewer.autoplay` estiver definido como `1`; caso contrário, estará oculto. É possível dimensionar, usar a capa e posicionar esse botão em relação à barra de controle que o contém, usando o CSS.
+O botão estará visível somente se a variável `CarouselViewer.autoplay` está definido como `1`; caso contrário, ela ficará oculta. Você pode dimensionar, capa e posicionar esse botão, em relação à barra de controle que o contém, usando CSS.
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
@@ -35,39 +35,39 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posicione a partir da parte superior da borda do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Posição na parte superior da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição à direita da borda do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> direita </span> </p> </td> 
+   <td colname="col2"> <p>Posição a partir da direita da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Posição à esquerda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição a partir da parte inferior da borda do visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col2"> <p>Posição na parte inferior da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Tipo de cursor. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,11 +75,11 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar skins diferentes a estados de botão diferentes.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obter mais informações.
 
-Por exemplo, suponha que você deseja configurar um botão de pausa de reprodução com 28 x 28 pixels. Você deseja que o botão seja posicionado 17 pixels da parte inferior e 12 pixels da borda esquerda do visualizador. E você quer que ele exiba uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Por exemplo, suponha que você queira configurar um botão de pausa de reprodução com 28 x 28 pixels. Você deseja que o botão seja posicionado a 17 pixels da parte inferior e a 12 pixels da borda esquerda do visualizador. E deseja exibir uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

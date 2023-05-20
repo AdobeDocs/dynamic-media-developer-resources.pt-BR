@@ -1,5 +1,5 @@
 ---
-description: Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
+description: Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta de getFolderTree é limitada a no máximo 100.000 pastas
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getFolderTree{#getfoldertree}
 
-Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta getFolderTree é limitada a no máximo 100.000 pastas
+Retorna pastas e subpastas em uma estrutura de árvore hierárquica. A resposta de getFolderTree é limitada a no máximo 100.000 pastas
 
 Sintaxe
 
@@ -30,7 +30,7 @@ Sintaxe
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura à pasta para retornar os dados nela.
+>O usuário deve ter acesso de leitura à pasta para retornar dados nela.
 
 ## Parâmetros {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -38,12 +38,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
 | accessUserHandle | `xsd:string` | Não | Usado apenas por administradores para representar um usuário específico. |
 | accessGroupHandle | `xsd:string` | Não | Usado para filtrar por um grupo específico, incluindo qualquer um daqueles aos quais a empresa pertence. |
-| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
-| profundidade | `xsd:int` | Sim | Um valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descendente na árvore. |
-| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
+| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível folha. Se excluída, a raiz da empresa é usada. |
+| profundidade | `xsd:int` | Sim | Um valor zero obtém a pasta de nível superior. Qualquer outro valor especifica a profundidade a ser descida na árvore. |
+| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas tipos de ativos especificados. |
 | responseFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
 | excludeFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir na resposta. |
 
@@ -56,7 +56,7 @@ Sintaxe
 
 ## Exemplos {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Essa amostra de código usa um identificador da empresa e um parâmetro de profundidade para determinar o nível de profundidade que a resposta deve retornar. A resposta contém pastas e matrizes de subpastas com relacionadas. Defina o valor de profundidade para um número menor para pesquisar mais fundo na árvore de pastas.
+Esta amostra de código usa um identificador de empresa e um parâmetro de profundidade para determinar o nível de profundidade que a resposta deve retornar. A resposta contém pastas e matrizes de subpastas com relacionados. Defina o valor de profundidade como um número menor para pesquisar mais fundo na árvore de pastas.
 
 **Solicitação**
 

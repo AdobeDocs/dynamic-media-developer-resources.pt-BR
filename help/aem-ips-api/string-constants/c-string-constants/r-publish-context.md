@@ -1,20 +1,20 @@
 ---
-description: Usado por getAtivePublishContextsReturn/publishContext.
+description: Usado por getActivePublishContextsReturn/publishContext.
 solution: Experience Manager
-title: Publicar contexto
-feature: Dynamic Media Classic, SDK/API
+title: Contexto de publicação
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---
 
-# Publicar contexto{#publish-context}
+# Contexto de publicação{#publish-context}
 
-Usado por getAtivePublishContextsReturn/publishContext.
+Usado por getActivePublishContextsReturn/publishContext.
 
 Sintaxe
 

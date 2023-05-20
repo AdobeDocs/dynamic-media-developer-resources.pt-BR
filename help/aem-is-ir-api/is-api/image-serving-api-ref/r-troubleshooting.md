@@ -1,5 +1,5 @@
 ---
-description: Esta seção contém soluções para problemas que ocasionalmente ocorreram com o Serviço de imagem.
+description: Esta seção contém soluções para problemas que ocorreram ocasionalmente no Servidor de imagens.
 solution: Experience Manager
 title: Solução de problemas
 feature: Dynamic Media Classic,SDK/API
@@ -14,45 +14,45 @@ ht-degree: 0%
 
 # Solução de problemas{#troubleshooting}
 
-Esta seção contém soluções para problemas que ocasionalmente ocorreram com o Serviço de imagem.
+Esta seção contém soluções para problemas que ocorreram ocasionalmente no Servidor de imagens.
 
 **Geral**
 
-O ImageServer agora mantém um registro de instalação e uma pasta de backup de todos os arquivos alterados durante uma instalação de atualização. Esse arquivo e a pasta podem ser encontrados na raiz do diretório de instalação do Image Serving.
+O ImageServer agora mantém um log de instalação e uma pasta de backup de todos os arquivos alterados durante uma instalação de atualização. Esse arquivo e pasta podem ser encontrados na raiz do diretório de instalação do Servidor de imagens.
 
-**Ao iniciar o Servidor de imagem, o script de inicialização é interrompido com a mensagem &quot;iniciar pendente&quot; (somente LINUX)**
+**Ao iniciar o Servidor de imagens, o script de inicialização é interrompido com a mensagem &quot;start pending&quot; (somente LINUX)**
 
-Isso pode indicar um problema com a Licença de Exibição de Imagens, como um arquivo de licença ausente ou uma licença temporária expirada. Um arquivo de licença válido deve estar localizado em [!DNL /usr/local/scene7/licenses].
+Isso pode indicar um problema com a licença do Servidor de imagens, como um arquivo de licença ausente ou uma licença temporária expirada. Um arquivo de licença válido deve estar localizado em [!DNL /usr/local/scene7/licenses].
 
-**O Servidor de Imagens interrompe ou falha e o arquivo de log do Servidor de Imagens indica não espaço suficiente ou &quot;recurso temporariamente indisponível no arquivo&quot; [!DNL IgcVirtualMemory.cpp]&quot;**
+**O servidor de imagens pára ou trava e o arquivo de registro do servidor de imagens indica que não há espaço suficiente ou que o recurso está temporariamente indisponível no arquivo [!DNL IgcVirtualMemory.cpp]&quot;**
 
-O motivo para esta mensagem de erro é que o Servidor de Imagens não conseguiu alocar a quantidade de memória que foi configurada para utilizar.
+O motivo para essa mensagem de erro é que o Servidor de imagens falhou ao alocar a quantidade de memória configurada para uso.
 
-* Verifique a configuração da memória física em [!DNL ImageServerRegistry.xml]. Não deve ser mais do que 50%, menos se outros aplicativos com uso intenso de memória estiverem sendo executados no mesmo sistema. O padrão é 20%.
-* Certifique-se de que o espaço de troca no servidor seja pelo menos o dobro do tamanho da RAM física. Configurações de espaço de troca baixo podem causar esse problema.
+* Verifique a configuração de memória física no [!DNL ImageServerRegistry.xml]. Ele não deve ser superior a 50%, a menos se outros aplicativos de uso intensivo de memória estiverem em execução no mesmo sistema. O padrão é 20%.
+* Verifique se o espaço de troca no servidor tem pelo menos o dobro do tamanho da RAM física. Configurações de pouco espaço de troca podem causar este problema.
 
-**O espaço em disco real usado pela pasta de cache excede ` *[!DNL cache.maxSize]*`definido em[!DNL PlatformServer.conf]**
+**O espaço real em disco usado pela pasta de cache excede ` *[!DNL cache.maxSize]*`definido em[!DNL PlatformServer.conf]**
 
-Isso não indica um problema. A sobrecarga do sistema de arquivos não está incluída no [!DNL Platform Server]Configuração do cache de disco do. O montante total reportado pelo sistema pode ser substancialmente superior ao valor fixado. Recomenda-se reservar duas vezes mais espaço em disco do que o especificado em ` *[!DNL cache.maxSize]*`.
+Isso não indica um problema. A sobrecarga do sistema de arquivos não está incluída no [!DNL Platform Server]Configuração do cache de disco do. O valor total relatado pelo sistema pode ser substancialmente maior do que o valor definido. É recomendável reservar o dobro do espaço em disco especificado em ` *[!DNL cache.maxSize]*`.
 
-**Imagens quebradas nos exemplos de is-docs**
+**Imagens quebradas nos exemplos is-docs**
 
-Isso ocorre se o Servidor de imagem não estiver em execução. Também ocorre se o caminho raiz do catálogo ou o caminho raiz da imagem tiverem sido alterados do padrão de instalação, mas as imagens e catálogos de exemplo não foram movidos para os novos locais. Verifique o valor do Caminho Raiz do Servidor de Imagens nos arquivos de configuração. Se necessário, mova a pasta de demonstração que contém as imagens de exemplo para a raiz da imagem atual e mova [!DNL sample*.*] à raiz de catálogo atual.
+Isso ocorre se o Servidor de imagens não estiver em execução. Também ocorre se o caminho raiz do catálogo ou o caminho raiz da imagem tiver sido alterado em relação ao padrão de instalação, mas as imagens e os catálogos de exemplo não tiverem sido movidos para os novos locais. Verifique o valor do Caminho raiz do servidor de imagens nos arquivos de configuração. Se necessário, mova a pasta de demonstração que contém as imagens de exemplo para a raiz da imagem atual e mova [!DNL sample*.*] à raiz do catálogo atual.
 
-Os exemplos também presumem que determinadas configurações em [!DNL default.ini] são padrão (por exemplo, a ofuscação ou o bloqueio não devem ser ativados).
+Os exemplos também pressupõem que determinadas configurações em [!DNL default.ini] são padrão (por exemplo, ofuscação ou bloqueio não devem estar ativados).
 
-**Demasiadas falhas de cache após um tempo de atividade substancial**
+**Muitos erros de cache após um tempo de atividade substancial**
 
-Dependendo do uso do servidor, o desempenho pode ser melhorado com o aumento [!DNL Platform Server] tamanho do cache de disco se houver espaço disponível. As configurações podem ser alteradas editando manualmente os arquivos de configuração. Consulte a documentação.
+Dependendo do uso do servidor, o desempenho pode ser melhorado aumentando [!DNL Platform Server] tamanho do cache de disco se houver espaço disponível em disco. As configurações podem ser alteradas ao editar manualmente os arquivos de configuração. Consulte a documentação.
 
 **Os arquivos de log estão ocupando muito espaço em disco**
 
-O servidor de imagem e [!DNL Platform Server] inicie um novo arquivo de log todos os dias. Por padrão, eles são colocados no [!DNL *[!DNL install_root]*/ImageServing/logs]. Tamanho do arquivo de log, número de logs mantidos e o conteúdo do log pode ser configurado. Consulte a documentação.
+O Servidor de imagens e [!DNL Platform Server] iniciar um novo arquivo de log todos os dias. Por padrão, eles são colocados em [!DNL *[!DNL install_root]*/ImageServing/logs]. O tamanho do arquivo de log, o número de logs mantidos e o conteúdo do log podem ser configurados. Consulte a documentação.
 
-**Se tiver software antivírus instalado no servidor**
+**Se você tiver um software antivírus instalado no servidor**
 
-É recomendável desativar a verificação para diretórios do Image Serving. Caso contrário, a varredura de diretórios de leitura/gravação de alto volume (como cache, imagens, fontes, perfis e diretórios de catálogo) causará problemas.
+É recomendável desativar a verificação de diretórios do Servidor de imagens. Caso contrário, a varredura de diretórios de leitura/gravação de alto volume (como cache, imagens, fontes, perfis e diretórios de catálogo) causará problemas.
 
-**Digimarc causa problemas de desempenho para imagens de zoom**
+**A Digimarc causa problemas de desempenho para imagens com zoom**
 
-Não use Digimarc em imagens com zoom. O desempenho não será aceitável. Se necessário, crie um catálogo separado para as imagens a serem usadas no zoom e desative o Digimarc para este catálogo.
+Não use a Digimarc em imagens com zoom. O desempenho não será aceitável. Se necessário, crie um catálogo separado para imagens a serem usadas para aplicar zoom e desative a Digimarc para esse catálogo.

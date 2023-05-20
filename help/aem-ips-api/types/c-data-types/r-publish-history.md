@@ -1,7 +1,7 @@
 ---
 description: Histórico de publicação de um ativo.
 solution: Experience Manager
-title: PublicarHistórico
+title: PublishHistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -25,4 +25,4 @@ Sintaxe
 | serverName | `xsd:string` | Nome do servidor que possui o histórico de publicação. |
 | contextName | `xsd:string` | Nome do contexto do histórico de publicação. |
 | publishFormat | `xsd:string` | Formato de publicação. |
-| lastPublished | `xsd:dateTime` | Data e hora em que o ativo foi publicado pela última vez. |
+| lastPublished | `xsd:dateTime` | Data e hora da última publicação do ativo. |

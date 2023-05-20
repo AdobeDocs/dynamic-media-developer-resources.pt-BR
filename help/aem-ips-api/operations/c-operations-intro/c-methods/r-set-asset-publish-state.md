@@ -2,12 +2,12 @@
 description: Determina se um ativo está pronto para ser publicado.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O nome da empresa. </td> 
+   <td colname="col4"> O identificador da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -68,20 +68,20 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Saída**
+**Output**
 
 A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-c31ead6d0e594317a12c120509527792}
 
-Este exemplo de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
+Essa amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 

@@ -2,12 +2,12 @@
 description: Usado por getGenerationInfo/engine.
 solution: Experience Manager
 title: Informações de geração
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---

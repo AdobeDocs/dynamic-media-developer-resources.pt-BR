@@ -35,8 +35,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O nome da empresa. |
-| jobHandle | `xsd:string` | Não | O controle do trabalho. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa. |
+| jobHandle | `xsd:string` | Não | O identificador do trabalho. |
 | originalName | `xsd:string` | Não | Nome do trabalho original. |
 
 **Saída (getActiveJobsReturn)**
@@ -47,7 +47,7 @@ Sintaxe
 
 ## Exemplos {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Esta amostra de código retorna todos os trabalhos ativos de uma empresa em execução no IPS. Nesse caso, a resposta é incomum porque o coordenador de programação do IPS está desabilitado sem tarefas ativas em execução. Em circunstâncias normais, a resposta retornaria uma série de trabalhos ativos.
+Esta amostra de código retorna todos os trabalhos ativos de uma empresa em execução no IPS. Nesse caso, a resposta é incomum porque o coordenador de agendamento do IPS está desativado sem tarefas ativas em execução. Em circunstâncias normais, a resposta retornaria uma série de trabalhos ativos.
 
 **Solicitação**
 

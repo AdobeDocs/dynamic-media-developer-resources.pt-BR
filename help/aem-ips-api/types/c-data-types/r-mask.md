@@ -1,5 +1,5 @@
 ---
-description: Mascara parte de uma imagem. A máscara é sempre associada à imagem. Obtenha uma máscara de ImageInfo.
+description: Mascara parte de uma imagem. A máscara é sempre associada à imagem. Obtenha uma máscara do ImageInfo.
 solution: Experience Manager
 title: Máscara
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # [!DNL Mask]{#mask}
 
-Mascara parte de uma imagem. A máscara é sempre associada à imagem. Obtenha uma máscara de ImageInfo.
+Mascara parte de uma imagem. A máscara é sempre associada à imagem. Obtenha uma máscara do ImageInfo.
 
 Sintaxe
 
@@ -22,8 +22,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| maskHandle | `xsd:string` | Máscara. |
+| maskHandle | `xsd:string` | Alça da máscara. |
 | name | `xsd:string` | Nome da máscara. |
-| maskPath | `xsd:string` | Caminho relativo para a máscara. |
+| maskPath | `xsd:string` | Caminho relativo da máscara. |
 | maskFile | `xsd:string` | Arquivo de máscara. |
-| lastModified | `types:dateTime` | A data, a hora e o fuso horário em que a máscara foi modificada pela última vez. |
+| lastModified | `types:dateTime` | A data, hora e fuso horário em que a máscara foi modificada pela última vez. |

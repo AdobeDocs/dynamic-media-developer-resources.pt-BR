@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFaultArray
-description: Uma matriz de falhas na operação de ativos.
+description: Uma série de falhas de operação de ativos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetOperationFaultArray]{#assetoperationfaultarray}
 
-Uma matriz de falhas na operação de ativos.
+Uma série de falhas de operação de ativos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:AssetOperationFault` | Uma matriz de itens de falha da operação de ativos. |
+| itens | `types:AssetOperationFault` | Uma matriz de itens de falha de operação de ativos. |

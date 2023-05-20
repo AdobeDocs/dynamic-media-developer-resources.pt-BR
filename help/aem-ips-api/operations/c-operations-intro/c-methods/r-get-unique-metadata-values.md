@@ -1,5 +1,5 @@
 ---
-description: Obtém valores de campo de metadados exclusivos.
+description: Obtém valores exclusivos de campos de metadados.
 solution: Experience Manager
 title: getUniqueMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -8,13 +8,13 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
-Obtém valores de campo de metadados exclusivos.
+Obtém valores exclusivos de campos de metadados.
 
 Sintaxe
 
@@ -34,14 +34,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
-| fieldHandle | `xsd:string` | Não | Lida com o campo de metadados. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
+| fieldHandle | `xsd:string` | Não | Identificador para o campo de metadados. |
 
 **Saída (getUniqueMetadataValuesReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| values | `type:StringArray` |  |  |
+| valores | `type:StringArray` |  |  |
 
 ## Exemplos {#section-440f3bc3e5be436cb6ec26117d05f476}
 

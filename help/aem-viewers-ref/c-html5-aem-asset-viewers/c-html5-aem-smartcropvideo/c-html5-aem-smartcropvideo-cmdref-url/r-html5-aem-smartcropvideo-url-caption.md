@@ -1,23 +1,24 @@
 ---
-title: caption
-description: comando URL para o Visualizador de vídeo de recorte inteligente.
+title: legenda
+description: Comando de URL para o Visualizador de Corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# caption{#caption}
+# legenda{#caption}
 
-comando URL para o Visualizador de vídeo de recorte inteligente.
+Comando de URL para o Visualizador de Corte inteligente de vídeo.
 
 ` caption= *`arquivo`*[,0|1]`
 
-O visualizador oferece suporte para legendas ocultas por meio de arquivos WebVTT hospedados. As dicas e regiões sobrepostas não são suportadas. Os operadores de posicionamento de sinalização compatíveis incluem o seguinte:
+O visualizador é compatível com legendas ocultas por meio de arquivos WebVTT hospedados. Não há suporte para dicas e regiões sobrepostas. Os operadores de posicionamento de sinalização compatíveis incluem o seguinte:
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -33,40 +34,40 @@ O visualizador oferece suporte para legendas ocultas por meio de arquivos WebVTT
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alinhamento de texto </p> </td> 
    <td colname="col3"> <p><span class="codeph"> esquerda|direita|meio|início|fim</span> </p> </td> 
-   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> middle</span>. </p> </td> 
+   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> meio</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>posição do texto </p> </td> 
-   <td colname="col3"> <p> 0% a 100% </p> </td> 
-   <td colname="col4"> <p> Porcentagem de inserção no componente VideoPlayer no início do texto da legenda. </p> <p>O padrão é 0%. </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col4"> <p> Porcentagem de margem interna no componente VideoPlayer para o início do texto da legenda. </p> <p>O padrão é 0%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>tamanho da linha </p> </td> 
-   <td colname="col3"> <p> 0% a 100% </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentagem da largura do vídeo usada para legendas. </p> <p>O padrão é 100%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
    <td colname="col2"> <p>posição da linha </p> </td> 
    <td colname="col3"> <p> 0%-100%|inteiro </p> </td> 
-   <td colname="col4"> <p> Determina a posição da linha na página. </p> <p>Se for expresso como um número inteiro (sem sinal de porcentagem), então é o número de linhas da parte superior onde o texto é exibido. </p> <p>Se for uma porcentagem (o sinal de porcentagem é o último caractere), o texto da legenda será exibido e essa porcentagem será reduzida na área de exibição. </p> <p>O padrão é 100%. </p> </td> 
+   <td colname="col4"> <p> Determina a posição da linha na página. </p> <p>Se for expresso como um número inteiro (sem sinal de porcentagem), será o número de linhas da parte superior onde o texto será exibido. </p> <p>Se for uma porcentagem (o sinal de porcentagem é o último caractere), o texto da legenda será exibido nessa porcentagem abaixo da área de exibição. </p> <p>O padrão é 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Outros recursos WebVTT presentes no arquivo WebVTT não são compatíveis, mas não devem interromper as legendas.
+Outros recursos de WebVTT presentes no arquivo WebVTT não são compatíveis, mas não devem interromper as legendas.
 
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> arquivo</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica um URL ou caminho para o conteúdo da legenda WebVTT. Forneça o arquivo WebVTT pelo ImageServing. </p> </td> 
+   <td colname="col2"> <p> Especifica um URL ou um caminho para o conteúdo de legenda WebVTT. Disponibilize o arquivo WebVTT pelo ImageServing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado da legenda padrão (ativado está <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Especifica o estado de legenda padrão (ativado é <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

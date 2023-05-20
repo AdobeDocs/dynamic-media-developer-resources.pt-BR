@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP para o Image Server configurado com informações de tipo e versão do visualizador.
+Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com informações de tipo de visualizador e versão.
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
@@ -54,7 +54,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
-   <td colname="col2"> <p>quando o visualizador for carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>quando o visualizador é carregado primeiro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

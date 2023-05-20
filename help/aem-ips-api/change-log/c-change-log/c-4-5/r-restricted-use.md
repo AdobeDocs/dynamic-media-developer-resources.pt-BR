@@ -2,12 +2,12 @@
 description: Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pela Dynamic Media.
 solution: Experience Manager
 title: Uso restrito
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pela Dynamic Media.
 
-Essas operações e tipos estão sujeitas à desativação, alteração ou descontinuação de atualizações subsequentes do sistema.
+Essas operações e tipos estão sujeitos a desativação, alteração ou desativação com atualizações de sistema subsequentes.
 
 **Novos tipos**
 
-* AtivoPublicarContextos
+* AssetPublishContexts
 * AssetPublishContextsArray
-* CompanyMetadataInfo
-* CompanyMetadataInfoArray
+* InformaçõesDeMetadadosDaEmpresa
+* MatrizInfoMetadadosEmpresa
 * CreateVideoSitemapJob
-* PublicarContexto
+* PublishContext
 * PublishContextArray
 * SearchFilter
 * LongArray
@@ -41,7 +41,7 @@ Essas operações e tipos estão sujeitas à desativação, alteração ou desco
 * listCompanyMetadata
 * removeMask
 * removePropertySetPermissions
-* searchAssetsBySimilaridade
+* searchAssetsBySimilarity
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
@@ -52,57 +52,57 @@ Essas operações e tipos estão sujeitas à desativação, alteração ou desco
 
 **Tipos modificados**
 
-* Alteração `ActiveJob` para incluir um tipo `createVideoSitemapJob`
+* Alterado `ActiveJob` para incluir um `createVideoSitemapJob` type
 
-* Alteração `ScheduledJob` para incluir um tipo `createVideoSitemapJob`
+* Alterado `ScheduledJob` para incluir um `createVideoSitemapJob` type
 
-* `ImageServingPublishJob` alterado para incluir um `contextHandle` opcional
+* Alterado `ImageServingPublishJob` para incluir uma `contextHandle`
 
-* `ImageRenderingPublishJob` alterado para incluir um `contextHandle` opcional
+* Alterado `ImageRenderingPublishJob` para incluir uma `contextHandle`
 
-* `MetadataField` alterado para incluir um `initialTagField` opcional
+* Alterado `MetadataField` para incluir uma `initialTagField`
 
-* Alteração `MetadataCondition` para incluir e `caseSensitive` parâmetro opcional
+* Alterado `MetadataCondition` para incluir e opcional `caseSensitive` parâmetro
 
-* `PropertySet` alterado para incluir um `PermissionArray` opcional como `permissions`
+* Alterado `PropertySet` para incluir uma `PermissionArray` as `permissions`
 
-* Alteração `UploadDirectoryJob` para incluir parâmetros opcionais `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride`
+* Alterado `UploadDirectoryJob` para incluir opcionais `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride` parâmetros
 
-* `VideoPublishJob` alterado para incluir um `contextHandle` opcional
+* Alterado `VideoPublishJob` para incluir uma `contextHandle`
 
-**Operações modificadas**
+**Operações Modificadas**
 
-* `createAssetSet` alterado para incluir um `thumbAssetHandle` opcional
+* Alterado `createAssetSet` para incluir uma `thumbAssetHandle`
 
-* `createImageSet` alterado para incluir um `thumbAssetHandle` opcional
+* Alterado `createImageSet` para incluir uma `thumbAssetHandle`
 
-* `createMetadataField` alterado para incluir um parâmetro `initialTagValue` opcional
+* Alterado `createMetadataField` para incluir uma `initialTagValue` parâmetro
 
-* `createPropertySet` alterado para incluir um `PermissionUpdateArray` opcional como `permissionArray`
+* Alterado `createPropertySet` para incluir uma `PermissionUpdateArray` as `permissionArray`
 
-* `getImageServingPublishSettings` alterado para incluir um parâmetro `contextHandle` opcional
+* Alterado `getImageServingPublishSettings` para incluir uma `contextHandle` parâmetro
 
-* `getImageRenderingPublishSettings` alterado para incluir um parâmetro `contextHandle` opcional
+* Alterado `getImageRenderingPublishSettings` para incluir uma `contextHandle` parâmetro
 
-* `searchAssetsByFullText` alterado para incluir uma série de parâmetros opcionais:
+* Alterado `searchAssetsByFullText` para incluir uma série de parâmetros opcionais:
 
-   * `SearchFilter` como  `filters` parâmetro
+   * `SearchFilter` as `filters` parâmetro
 
    * `sortBy`
    * `sortDirection`
 
-* `searchAssetsByMetadata` alterado para incluir uma série de parâmetros opcionais:
+* Alterado `searchAssetsByMetadata` para incluir uma série de parâmetros opcionais:
 
-   * `SearchFilter` como  `filters` parâmetro
+   * `SearchFilter` as `filters` parâmetro
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` sequência de sete parâmetros
 
-* `setAssetPublishState` alterado para incluir um `HandleArray` opcional como `contextHandleArray`
+* Alterado `setAssetPublishState` para incluir uma `HandleArray` as `contextHandleArray`
 
-* `setImageServingPublishSettings` alterado para incluir um parâmetro `contextHandle` opcional
+* Alterado `setImageServingPublishSettings` para incluir uma `contextHandle` parâmetro
 
-* `setImageRenderingPublishSettings` alterado para incluir um parâmetro `contextHandle`opcional
+* Alterado `setImageRenderingPublishSettings` para incluir uma `contextHandle`parâmetro
 
-* `submitJob` alterado para incluir um tipo de trabalho `createVideoSitemap` opcional
+* Alterado `submitJob` para incluir uma `createVideoSitemap` tipo de tarefa

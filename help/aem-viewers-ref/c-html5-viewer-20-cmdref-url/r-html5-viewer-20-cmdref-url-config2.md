@@ -8,7 +8,7 @@ exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 8%
+ht-degree: 5%
 
 ---
 
@@ -18,15 +18,15 @@ Parâmetro comum a todos os visualizadores.
 
 >[!NOTE]
 >
->Este comando não se aplica ao Visualizador de imagem de vídeo.
+>Esse comando não se aplica ao Visualizador de imagem de vídeo.
 
-` config2= *`companypreset`*`
+` config2= *`predefinição da empresa`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Nome da predefinição de configuração <span class="keyword"> Adobe Analytics</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> predefinição da empresa</span> </span> </p> </td> 
+   <td colname="col2"> <p> Nome do <span class="keyword"> Adobe Analytics</span> predefinição de configuração. </p> </td> 
   </tr> 
  </tbody> 
 </table>

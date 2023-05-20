@@ -1,6 +1,6 @@
 ---
 title: vídeo
-description: comando URL para Visualizador de vídeo.
+description: Comando do URL para o Visualizador de Vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # vídeo{#video}
 
-comando URL para Visualizador de vídeo.
+Comando do URL para o Visualizador de vídeo.
 
 ` video= *`videoURL`*`
 
@@ -22,14 +22,14 @@ comando URL para Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> O URL absoluto de um vídeo externo. </p> </td> 
+   <td colname="col2"> <p> O URL absoluto para um vídeo externo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obrigatório. (Exceto `asset` é usado. Consulte [Suporte a vídeo externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Obrigatório. (a menos que `asset` é usado. Consulte [Suporte a vídeo externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}
 

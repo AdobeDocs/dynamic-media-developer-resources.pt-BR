@@ -1,6 +1,6 @@
 ---
 title: Localização dos elementos da interface do usuário
-description: Determinado conteúdo que o Visualizador de Flyout exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e mensagens de informações exibidas pela visualização de zoom de flyout durante o carregamento.
+description: Determinado conteúdo que o Visualizador de imagem suspensa exibe está sujeito a localização. Esse conteúdo inclui dicas de ferramentas do elemento da interface do usuário e mensagens de informações exibidas pela exibição de zoom de imagem suspensa ao carregar.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Localização dos elementos da interface do usuário{#localization-of-user-interface-elements}
 
-Determinado conteúdo que o Visualizador de Flyout exibe está sujeito à localização. Esse conteúdo inclui dicas de ferramentas de elementos da interface do usuário e mensagens de informações exibidas pela visualização de zoom de flyout durante o carregamento.
+Determinado conteúdo que o Visualizador de imagem suspensa exibe está sujeito a localização. Esse conteúdo inclui dicas de ferramentas do elemento da interface do usuário e mensagens de informações exibidas pela exibição de zoom de imagem suspensa ao carregar.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado padrão para uma localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado padrão para um local em inglês ( `"en"`) fornecidos com o visualizador pronto para uso e também podem ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
-Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível para esse local. Se houver, ele usará o valor definido pelo usuário; caso contrário, retorna ao texto padrão pronto para uso.
+Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível para esse local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
-Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades compatíveis, valores de texto SYMBOL para cada localidade e o local padrão.
+Os dados de localização definidos pelo usuário podem ser passados para o visualizador como um objeto JSON de localização. Esse objeto contém a lista de localidades suportadas, valores de texto SYMBOL para cada localidade e a localidade padrão.
 
 Um exemplo desse objeto de localização é o seguinte:
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece a localização de dois elementos da interface do usuário em cada localidade.
+No exemplo acima, o objeto de localização define dois locais ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada local.
 
-O código da página da Web deve passar esse objeto de localização para o construtor do visualizador, como um valor da variável `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando a função `setLocalizedTexts(localizationInfo)` método .
+O código da página da Web deve passar esse objeto de localização para o construtor do visualizador, como um valor de `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,7 +53,7 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RÓTULO.Contêiner </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
@@ -62,31 +62,31 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>Dicas de uso de ARIA para usuários de teclado. </p> </td> 
+   <td colname="col2"> <p>Dicas de uso ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Mensagem de informações para sistemas de desktop. </p> </td> 
+   <td colname="col2"> <p>Mensagem de informação para sistemas desktop. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Mensagem de informação para dispositivos de toque. </p> </td> 
+   <td colname="col2"> <p>Mensagem de informação para dispositivos sensíveis ao toque. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem à esquerda. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta do botão de rolagem para a esquerda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para a direita. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta do botão de rolagem para a direita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BotãoDeRolagemParaCima.DICADEFERRAMENTA </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para cima. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para baixo. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta do botão de rolagem para baixo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

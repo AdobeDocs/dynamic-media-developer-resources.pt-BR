@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Group` | Matriz de grupos. |
+| itens | `types:Group` | Matriz de grupos. |

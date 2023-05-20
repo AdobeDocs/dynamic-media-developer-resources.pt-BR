@@ -1,20 +1,20 @@
 ---
-description: Descreve tipos novos e alterados para a API IPS versão 6.
+description: Descreve tipos novos e alterados para a API do IPS versão 6.
 solution: Experience Manager
-title: Tipos de dados Novo e Modificado
-feature: Dynamic Media Classic, SDK/API
+title: Tipos de dados novos e modificados
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-# Tipos de dados: Novo e modificado{#data-types-new-and-modified}
+# Tipos de dados: novos e modificados{#data-types-new-and-modified}
 
-Descreve tipos novos e alterados para a API IPS versão 6.
+Descreve tipos novos e alterados para a API do IPS versão 6.
 
 Sintaxe
 
@@ -40,24 +40,24 @@ Sintaxe
 
 **Adicionado**
 
-* Adição de `numUrls` a `UploadUrlsJob`.
+* Adicionado `numUrls` para `UploadUrlsJob`.
 
-* Adição de `fileName` a `Asset.`
+* Adicionado `fileName` para `Asset.`
 
-* Adição de `isHidden` a `MetadataField`.
+* Adicionado `isHidden` para `MetadataField`.
 
-* Adição de `taskState` a `TaskProgress`.
+* Adicionado `taskState` para `TaskProgress`.
 
-* Adição de `exportJob` a `ActiveJob` e `ScheduledJob`.
+* Adicionado `exportJob` para `ActiveJob` e `ScheduledJob`.
 
-* Adição de `optmizedPath` e `optimizedFile` a `PsdInfo`.
+* Adicionado `optmizedPath` e `optimizedFile` para `PsdInfo`.
 
-* Adição de `contextHandle` a:
+* Adicionado `contextHandle` para:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Os seguintes parâmetros foram adicionados a `Asset`:
+* Adição dos seguintes parâmetros a `Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -66,8 +66,8 @@ Sintaxe
 
 **Alterado**
 
-* Em `User`, alterado `role` para `defaultRole`.
+* Entrada `User`, alterado `role` para `defaultRole`.
 
-* Em `Folder`, alterado `permissions` para `permissionsSetHandle`.
+* Entrada `Folder`, alterado `permissions` para `permissionsSetHandle`.
 
-* Em `AssetSummary`, `type` e `name` agora são opcionais.
+* Entrada `AssetSummary`, `type` e `name` agora são opcionais.

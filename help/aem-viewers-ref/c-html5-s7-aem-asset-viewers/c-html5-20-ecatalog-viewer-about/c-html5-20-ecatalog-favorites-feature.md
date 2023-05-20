@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Um usuário final pode usar o recurso Favoritos para marcar produtos de interesse diretamente no catálogo eletrônico, adicionando ícones de &quot;coração&quot; às imagens do catálogo eletrônico. O visualizador armazena todos os favoritos no sistema do cliente e os exibe novamente quando o mesmo usuário visita o catálogo eletrônico novamente.
 
-Além disso, o visualizador permite que você analise todos os favoritos adicionados ao catálogo eletrônico como uma grade de imagens em miniatura.
+Além disso, o visualizador permite revisar todos os favoritos adicionados ao catálogo eletrônico como uma grade de imagens em miniatura.
 
-Todas as ferramentas Favoritos são agrupadas em uma lista suspensa na barra de controle.
+Todas as ferramentas de Favoritos são agrupadas em uma lista suspensa na barra de controle.

@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o Visualizador de catálogo eletrônico
-description: A classe principal do Visualizador de Catálogo Eletrônico é o eCatalogViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o eCatalog Viewer
+description: A classe principal do eCatalog Viewer é eCatalogViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o Visualizador de catálogo eletrônico{#javascript-api-reference-for-ecatalog-viewer}
+# Referência da API JavaScript para o eCatalog Viewer{#javascript-api-reference-for-ecatalog-viewer}
 
-A classe principal do Visualizador de Catálogo Eletrônico é o eCatalogViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do eCatalog Viewer é eCatalogViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado do `s7viewers.eCatalogViewer` classe .
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.eCatalogViewer` classe.

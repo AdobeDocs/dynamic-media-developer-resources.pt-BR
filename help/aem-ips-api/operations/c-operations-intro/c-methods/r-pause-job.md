@@ -35,8 +35,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
-| jobHandle | `xsd:string` | Sim | Manipule o trabalho que deseja pausar. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
+| jobHandle | `xsd:string` | Sim | Processe a tarefa que você deseja pausar. |
 
 **Saída (PauseJobReturn)**
 
@@ -44,7 +44,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Esta amostra de código pausa um trabalho ativo.
+Este exemplo de código pausa uma tarefa ativa.
 
 **Solicitação**
 

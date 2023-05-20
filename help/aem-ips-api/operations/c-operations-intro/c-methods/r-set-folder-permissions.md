@@ -30,7 +30,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | folderHandle | `xsd:string` | Sim | Identificador de pasta. |
 | setChildren | `xsd:boolean` | Sim | Define permissões em filhos que pertencem à pasta. |
 | permissionArray | `types:PermissionUpdateArray` | Sim | Matriz de permissões. |
@@ -41,7 +41,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-01730da4be874553ab44e3241cdf6357}
 
-Esta amostra de código especifica um identificador de empresa, um identificador de pasta e uma matriz de permissões com informações detalhadas sobre a pasta. Ela aplica as mesmas permissões para os filhos da pasta pai.
+Esta amostra de código especifica um identificador de empresa, um identificador de pasta e uma matriz de permissões com informações detalhadas sobre a pasta. Ela aplica as mesmas permissões aos filhos da pasta principal.
 
 **Solicitação**
 

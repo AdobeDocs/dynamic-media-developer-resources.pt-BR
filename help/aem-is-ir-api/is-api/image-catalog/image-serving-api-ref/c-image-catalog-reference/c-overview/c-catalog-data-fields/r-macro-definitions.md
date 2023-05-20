@@ -1,20 +1,20 @@
 ---
-description: Os campos a seguir são reconhecidos nos arquivos de definição de macro.
+description: Os campos a seguir são reconhecidos em arquivos de definição de macro.
 solution: Experience Manager
 title: Definições de macro
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0d95d288-8bd5-4ba8-a673-2a84f39a5dc6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
 
 # Definições de macro{#macro-definitions}
 
-Os campos a seguir são reconhecidos nos arquivos de definição de macro.
+Os campos a seguir são reconhecidos em arquivos de definição de macro.
 
 <table id="simpletable_C34D1161A6E84214AD97F79345BDB180"> 
  <tr class="strow"> 

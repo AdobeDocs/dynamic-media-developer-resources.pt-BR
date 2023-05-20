@@ -1,20 +1,20 @@
 ---
 title: sub
-description: Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado e remover materiais anteriormente aplicados.
+description: Subseleção. Permite aplicar diferentes materiais a diferentes áreas do objeto ou grupo selecionado e remover materiais aplicados anteriormente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '149'
+ht-degree: 4%
 
 ---
 
 # sub{#sub}
 
-Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto ou grupo selecionado e remover materiais anteriormente aplicados.
+Subseleção. Permite aplicar diferentes materiais a diferentes áreas do objeto ou grupo selecionado e remover materiais aplicados anteriormente.
 
 `sub=0|1|2|3|4|5`
 
@@ -37,21 +37,21 @@ Subseleção. Permite aplicar materiais diferentes a áreas diferentes do objeto
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Selecione a área da borda da parede central. </p> </td> 
+  <td class="stentry"> <p>Selecione a área da borda da parede do meio. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Selecione a área da borda da parede inferior. </p> </td> 
+  <td class="stentry"> <p>Selecione a área da borda inferior da parede. </p> </td> 
  </tr> 
 </table>
 
-Atualmente, há suporte somente para objetos de parede. Encerra um MSS anterior e inicia um novo MSS para o material a ser aplicado à subseleção especificada.
+Atualmente suportado apenas para objetos da parede. Encerra um MSS anterior e inicia um novo MSS para o material a ser aplicado à subseleção especificada.
 
-Um material especificado para a parede superior ou inferior aplica-se a toda a parede, a menos que também tenha sido especificado um material diferente para a outra metade da parede.
+Um material especificado para a parede superior ou inferior aplica-se a toda a parede, a menos que um material diferente para a outra metade da parede também tenha sido especificado.
 
 ## Propriedades {#section-b202139d6d0847cc8d520a154104ab9d}
 
-comando Seleção; Delimitador MSS.
+Comando de seleção; delimitador de MSS.
 
 ## Padrão {#section-5b45a167a17c451596e4c59b7d53c368}
 

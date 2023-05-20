@@ -1,6 +1,6 @@
 ---
-title: Efeito do ícone de exibição de zoom
-description: O indicador de zoom é sobreposto na área de visualização do zoom. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
+title: Efeito de ícone da exibição de zoom
+description: O indicador de zoom é sobreposto na área de exibição de zoom. Ela é exibida quando a imagem está em um estado redefinido e também depende do parâmetro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Efeito do ícone de exibição de zoom{#zoom-view-icon-effect}
+# Efeito de ícone da exibição de zoom{#zoom-view-icon-effect}
 
-O indicador de zoom é sobreposto na área de visualização do zoom. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
+O indicador de zoom é sobreposto na área de exibição de zoom. Ela é exibida quando a imagem está em um estado redefinido e também depende do parâmetro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,15 +35,15 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Arte do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 >[!NOTE]
 >
->O efeito de ícone suporta `media-type` seletor de atributos, que pode ser usado para aplicar efeitos de ícones diferentes em dispositivos diferentes. Em especial, `media-type='standard'` corresponde a sistemas de desktop em que a entrada do mouse é normalmente utilizada e `media-type='multitouch'` corresponde a dispositivos com entrada por toque.
+>O efeito de ícone suporta o `media-type` seletor de atributos, que você pode usar para aplicar diferentes efeitos de ícone em diferentes dispositivos. Em especial, `media-type='standard'` corresponde a sistemas desktop nos quais a entrada do mouse é normalmente utilizada e `media-type='multitouch'` corresponde a dispositivos com entrada por toque.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels com arte diferente para sistemas de desktop e dispositivos de toque.
 

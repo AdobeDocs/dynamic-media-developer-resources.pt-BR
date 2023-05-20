@@ -2,13 +2,13 @@
 description: FavoritesView.maxloadradius
 solution: Experience Manager
 title: FavoritesView.maxloadradius
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 440f147e-865c-4615-8d83-ea6431271612
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p>Quando definido como <span class="codeph"> 0</span>, somente as miniaturas visíveis são carregadas. </p> <p> Quando definido como <span class="codeph"><span class="varname"> preloadnbr</span></span>, você pode especificar quantas linhas invisíveis ao redor da área visível serão pré-carregadas. </p> </td> 
+   <td colname="col2"> <p> Especifica o comportamento do carregamento prévio do componente. </p> <p>Quando definido como <span class="codeph"> -1</span>, todas as miniaturas são carregadas simultaneamente quando o componente é inicializado ou o ativo é alterado. </p> <p>Quando definido como <span class="codeph"> 0</span>, somente as miniaturas visíveis serão carregadas. </p> <p> Quando definido como <span class="codeph"><span class="varname"> preloadnbr</span></span>, você pode especificar quantas linhas invisíveis em torno da área visível são pré-carregadas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

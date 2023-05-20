@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define as permissões de um único ativo usando um ativo de permissão.
 
-Por padrão, os ativos herdam as permissões da pasta pai. Depois de definir permissões em um ativo, elas não herdam mais as permissões do pai, a menos que você chame `removeAssetPermissions`.
+Por padrão, os ativos herdam as permissões da pasta principal. Depois de definir permissões em um ativo, ele não herda mais as permissões de seu pai, a menos que você chame `removeAssetPermissions`.
 
 ## Tipos de usuário autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,11 +26,11 @@ Por padrão, os ativos herdam as permissões da pasta pai. Depois de definir per
 
 ## Parâmetros {#section-e05abbce6453450fb38747101cb5e228}
 
-**Entrada (setAssetPermissionsParam)**
+**Entrada (setAssetPermissonsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém a pasta com a qual deseja trabalhar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém a pasta com a qual você deseja trabalhar. |
 | assetHandle | `xsd:string` | Sim | Identificador de pasta. |
 | permissionArray | `types:PermissionsUpdateArray` | Sim | Matriz de permissões. |
 
@@ -40,7 +40,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-38955bc330bb4909b6b06027ef2b143e}
 
-Este exemplo de código define permissões em um ativo. Ele contém a empresa e o identificador de ativos e um storage de permissões.
+Esta amostra de código define permissões em um ativo. Ele contém a empresa, o identificador de ativos e uma matriz de permissões.
 
 **Solicitação**
 

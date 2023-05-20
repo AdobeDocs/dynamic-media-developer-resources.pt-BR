@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:TagCondition` | Uma matriz de condições de tag. |
+| itens | `types:TagCondition` | Uma matriz de condições de tag. |

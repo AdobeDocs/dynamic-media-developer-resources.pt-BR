@@ -46,7 +46,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-9d4617b322e8442d80e59be0f8714841}
 
-Esse código de amostra exclui uma pasta da raiz da empresa. Ele requer um identificador de pasta, que deve ser obtido de outra operação.
+Este código de amostra exclui uma pasta da raiz da empresa. Ela requer um identificador de pasta, que você deve obter de outra operação.
 
 **Solicitação**
 

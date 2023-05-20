@@ -8,7 +8,7 @@ exl-id: c5061a5c-44d7-4b42-a062-5ee622829429
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a exibição da animação de buffer (ícone de espera). </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a exibição da animação em buffer (ícone de espera). </p> </td> 
   </tr> 
  </tbody> 
 </table>

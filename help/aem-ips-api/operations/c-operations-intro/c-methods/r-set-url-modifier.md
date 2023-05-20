@@ -1,5 +1,5 @@
 ---
-description: Define os comandos do protocolo Image Serving ou Image Rendering para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
+description: Define os comandos do protocolo Servidor de imagens ou Renderização de imagens para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # setUrlModifier{#seturlmodifier}
 
-Define os comandos do protocolo Image Serving ou Image Rendering para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
+Define os comandos do protocolo Servidor de imagens ou Renderização de imagens para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 
-Para o Image Serving, os comandos no `urlModifier` são publicados no campo Modificador catálogo e aplicados antes de qualquer comando especificado na URL da solicitação. Comandos em `urlPostApplyModifier` são publicadas para `PostModifier` campo de catálogo e substitua quaisquer comandos no URL da solicitação ou em `urlModifier`. Para renderização de imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenadas e publicadas no campo Modifier catalog .
+Para o Servidor de imagens, os comandos na `urlModifier` são publicados no campo Catálogo do modificador e aplicados antes de qualquer comando especificado no URL da solicitação. Comandos em `urlPostApplyModifier` são publicados na `PostModifier` catálogo e substituir quaisquer comandos no URL da solicitação ou no `urlModifier`. Para Renderização de imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenadas e publicadas no campo Modifier catalog.
 
 ## Tipos de usuário autorizados {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -33,10 +33,10 @@ Para o Image Serving, os comandos no `urlModifier` são publicados no campo Modi
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| urlModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar antes da solicitação ou `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering para aplicar depois de `urlModifier` e solicitar comandos. |
+| urlModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering a serem aplicados antes da solicitação ou `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering a serem aplicados após `urlModifier` comandos e request. |
 
 **Saída (setUrlModifierReturn)**
 

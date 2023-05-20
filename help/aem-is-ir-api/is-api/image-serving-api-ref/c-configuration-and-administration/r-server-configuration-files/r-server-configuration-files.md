@@ -1,5 +1,5 @@
 ---
-description: Todos os arquivos de configuração estão localizados em install_folder/conf e podem ser editados com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
+description: Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
 solution: Experience Manager
 title: Arquivos de configuração do servidor
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Arquivos de configuração do servidor{#server-configuration-files}
 
-Todos os arquivos de configuração estão localizados em install_folder/conf e podem ser editados com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
+Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que sejam instruídas especificamente pelo suporte técnico da Dynamic Media.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que especificamente instruídas pelo suporte técnico da Dynamic Media.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 
@@ -36,7 +36,7 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
-   <td> <p>Configuração Tomcat. </p> </td> 
+   <td> <p>Configuração do Tomcat. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
@@ -44,15 +44,15 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> catalog-service.conf</span> </p> </td> 
-   <td> <p>Configuração do Serviço de Catálogo. </p> </td> 
+   <td> <p>Configuração do serviço de catálogo. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> monitor.conf</span> </p> </td> 
-   <td> <p>Configuração de monitoramento do servidor. </p> </td> 
+   <td> <p>Configuração de Monitoramento de Servidor. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> ImageServerRegistry.xml</span> </p> </td> 
-   <td> <p>Configuração do Servidor de imagem. </p> </td> 
+   <td> <p>Configuração do servidor de imagens. </p> </td> 
   </tr> 
  </tbody> 
 </table>

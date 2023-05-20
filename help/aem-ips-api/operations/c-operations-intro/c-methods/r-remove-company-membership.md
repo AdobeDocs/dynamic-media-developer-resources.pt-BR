@@ -31,7 +31,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| userHandle | `xsd:string` | Não | O nome do usuário com a associação que você deseja remover. |
+| userHandle | `xsd:string` | Não | O identificador para o usuário com a associação que você deseja remover. |
 | companyHandleArray | `types:HandleArray` | Sim | O identificador da empresa da qual você está removendo o usuário. |
 
 **Saída (removeCompanyMembershipReturn)**
@@ -40,7 +40,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Essa amostra de código remove um usuário de uma empresa. Omita o identificador de usuário opcional para remover todos os usuários das empresas especificadas na matriz de controle da empresa.
+Esta amostra de código remove um usuário de uma empresa. Omita o identificador de usuário opcional para remover todos os usuários das empresas especificadas na matriz de identificadores de empresa.
 
 **Solicitação**
 

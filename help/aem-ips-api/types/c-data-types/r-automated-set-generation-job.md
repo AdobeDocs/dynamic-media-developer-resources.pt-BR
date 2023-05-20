@@ -1,5 +1,5 @@
 ---
-description: Agrupe arquivos em conjuntos usando uma matriz de lista do identificador de ativos.
+description: Agrupar arquivos em conjuntos usando uma matriz de lista de identificadores de ativos.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
-Agrupe arquivos em conjuntos usando uma matriz de lista do identificador de ativos.
+Agrupar arquivos em conjuntos usando uma matriz de lista de identificadores de ativos.
 
 Sintaxe
 
@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Uma matriz de identificadores de ativos usada para criar o conjunto. <p>Por padrão, 1000 é o número máximo de ativos que você pode ter na matriz. </p></td> 
+   <td colname="col3">Uma matriz de manipuladores de ativos usados para criar o conjunto. <p>Por padrão, 1000 é o número máximo de ativos que você pode ter na matriz. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
@@ -41,33 +41,33 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Define um sinalizador para indicar se os ativos devem ser publicados ou não. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Uma matriz de scripts de geração de conjunto que podem ser executados nos arquivos carregados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoDefinirOpçõesDeCriação</span> </td> 
+   <td colname="col3">Uma matriz de scripts de geração definidos que você pode executar nos arquivos carregados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoDefinirOpçõesDeCriação</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Configure uma notificação de email automatizada para a tarefa. </p> </td> 
+   <td colname="col3"> <p>Configure uma notificação por email automática para o trabalho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**opções de emailSetting**
+**Opções de configuração de email**
 
-O `emailSetting` inclui as seguintes opções:
+A variável `emailSetting` O parâmetro inclui as seguintes opções:
 
 | Opção | Devoluções |
 |---|---|
-| `All` | Todas as notificações de trabalho (erros, avisos, conclusão) para o recipient especificado. |
-| `Error` | Erros de tarefa para o recipient especificado. |
-| `ErrorAndWarning` | Erros de tarefa e avisos para o recipient especificado. |
-| `JobCompletion` | Uma notificação de conclusão de trabalho para o recipient especificado. |
-| `None` | O trabalho não envia notificações de trabalho para o recipient especificado. |
+| `All` | Todas as notificações de tarefas (erros, avisos, conclusão) para o recipient especificado. |
+| `Error` | Erros de trabalho para o destinatário especificado. |
+| `ErrorAndWarning` | Erros e avisos de trabalho para o destinatário especificado. |
+| `JobCompletion` | Uma notificação de conclusão de tarefa para o recipient especificado. |
+| `None` | O trabalho não envia notificações ao destinatário especificado. |
 
 ## Exemplo {#section-d01ee7671f274a1fa12737e8df91d2cf}
 

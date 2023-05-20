@@ -1,5 +1,5 @@
 ---
-description: Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
+description: Anexa as configurações do visualizador a um ativo. Eles podem ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 solution: Experience Manager
 title: setViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setViewerConfigSettings{#setviewerconfigsettings}
 
-Anexa as configurações do visualizador a um ativo. Pode ser uma predefinição do visualizador ou o ativo de origem do visualizador.
+Anexa as configurações do visualizador a um ativo. Eles podem ser uma predefinição do visualizador ou o ativo de origem do visualizador.
 
 Sintaxe
 
@@ -31,11 +31,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
 | name | `xsd:string` | Sim | Nome do ativo. |
 | type | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
-| configSettingArray | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
+| configSettingArray | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicado ao ativo. |
 
 **Saída (setViewerConfigSettingsParam)**
 

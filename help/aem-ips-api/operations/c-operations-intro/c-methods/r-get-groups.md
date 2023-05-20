@@ -30,7 +30,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
 
 **Saída (getGroupsReturn)**
 

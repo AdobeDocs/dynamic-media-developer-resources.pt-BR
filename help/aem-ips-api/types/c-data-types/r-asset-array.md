@@ -1,6 +1,6 @@
 ---
 title: AssetArray
-description: Uma matriz de ativos.
+description: Uma variedade de ativos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetArray]{#assetarray}
 
-Uma matriz de ativos.
+Uma variedade de ativos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Asset` | Matriz de ativos. |
+| itens | `types:Asset` | Matriz de ativos. |

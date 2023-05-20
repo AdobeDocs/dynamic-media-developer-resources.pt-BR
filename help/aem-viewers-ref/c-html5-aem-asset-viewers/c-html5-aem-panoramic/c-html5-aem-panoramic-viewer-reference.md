@@ -1,6 +1,6 @@
 ---
 title: Visualizador panorâmico
-description: HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
+description: HTML5 Panoramic Viewer é um visualizador de imagens que exibe uma imagem panorâmica. A finalidade deste visualizador é exibir um panorama esférico, também conhecido como imagem equiretangular. Suporta o movimento panorâmico automático e panorâmico por movimento giroscópico. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível em dispositivos móveis compatíveis.
 keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 # Panorâmica{#panoramic}
 
-HTML5 Panorâmica Viewer é um visualizador de imagens que exibe uma imagem panorâmica. O objetivo desse visualizador é exibir um panorama esférico, também conhecido como imagem equidirecional. Suporta o deslocamento automático e o deslocamento por movimentos giroscópicos. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível no suporte a dispositivos móveis.
+HTML5 Panoramic Viewer é um visualizador de imagens que exibe uma imagem panorâmica. A finalidade deste visualizador é exibir um panorama esférico, também conhecido como imagem equiretangular. Suporta o movimento panorâmico automático e panorâmico por movimento giroscópico. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível em dispositivos móveis compatíveis.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 
-Tipo de visualizador 514.
+Visualizador tipo 514.
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample](http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample)
 
-## Uso do Visualizador panorâmico {#section-f21ac23d3f6449ad9765588d69584772}
+## Uso do Visualizador Panorâmico {#section-f21ac23d3f6449ad9765588d69584772}
 
-HTML5 Panorâmica Viewer representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. O conjunto de arquivos auxiliares é uma única inclusão do JavaScript com todos os componentes do SDK do visualizador do HTML5 usados por esse visualizador, ativos, CSS específico.
-HTML5 O Visualizador panorâmico pode ser usado no modo pop-up usando a página HTML pronta para produção fornecida com os IS-Viewers ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
-A configuração e o esfolamento são semelhantes aos dos outros visualizadores do HTML5. Toda a definição de skins pode ser alcançada por meio de CSS personalizado.
+O Visualizador panorâmico do HTML5 representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador no tempo de execução. O conjunto de arquivos auxiliares é uma única inclusão de JavaScript com todos os componentes do SDK do Visualizador de HTML5 usados por esse visualizador específico, ativos, CSS.
+O Visualizador panorâmico do HTML5 pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+A configuração e a aparência são semelhantes às dos outros visualizadores do HTML5. Toda a atribuição de capa pode ser obtida por meio de CSS personalizado.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interação com o Visualizador Panorâmico do HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-HTML5 O Visualizador panorâmico é compatível com o deslocamento automático e a navegação por arrastar ou girescópio.
+O Visualizador panorâmico do HTML5 suporta panorama automático e navegação por arrastar ou movimento giroscópico.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -47,73 +47,73 @@ HTML5 O Visualizador panorâmico é compatível com o deslocamento automático e
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Desktop </p> </td> 
-   <td colname="col2"> <p>Faça o deslocamento automático e arraste para navegar. </p> </td> 
+   <td colname="col2"> <p>Desloque-se automaticamente e arraste para navegar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dispositivo de toque </p> </td> 
-   <td colname="col2"> <p>Deslocar e arrastar automaticamente para navegar por padrão. Navegue pelo movimento giroscópico no modo de renderização VR (vrrender=true).
+   <td colname="col2"> <p>Deslocar automaticamente e arrastar para navegar por padrão. Navegar por movimento giroscópico no modo de renderização VR (vrrender=true).
  </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O visualizador aceita entrada de toque e entrada de mouse em dispositivos Windows com tela sensível ao toque e mouse. No entanto, esse suporte é limitado somente aos navegadores da Web Chrome, Internet Explorer 11 e Edge.
-O Visualizador panorâmico pode renderizar imagens panorâmicas no modo de Realidade Virtual (VR) especificando o modificador de renderização. Quando a renderização está ativada, uma imagem panorâmica é exibida em telas divididas. Um caso de uso comum seria servir a imagem em um celular montado em um fone de ouvido de realidade virtual, fornecendo imagens separadas para cada olho. O visualizador responde ao movimento giroscópico da cabeça e navega pela imagem.
+O visualizador é compatível com entrada de toque e entrada de mouse em dispositivos Windows com tela sensível ao toque e mouse, no entanto, esse suporte é limitado apenas ao Chrome, Internet Explorer 11 e navegadores da Web Edge.
+O Visualizador panorâmico pode renderizar imagens panorâmicas no modo Realidade Virtual (VR) especificando o modificador vrrender. Quando o vrrender está ativado, uma imagem panorâmica é exibida em telas divididas. Um caso de uso comum seria veicular a imagem em um celular montado em um headset de realidade virtual, fornecendo imagens separadas para cada olho. O visualizador responde ao movimento giroscópico da cabeça e navega pela imagem.
 
 ## Incorporando o Visualizador Panorâmico do HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link. Selecionar esse link abre o visualizador em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o visualizador na página de hospedagem. No último caso, a página da Web pode ter layout estático ou ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva.
+Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link. Selecionar esse link abre o visualizador em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o visualizador na página de hospedagem. No último caso, a página da Web pode ter layout estático ou ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela do navegador. Para acomodar essas necessidades, o visualizador suporta três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva.
 
 **Sobre o modo pop-up**
 
-No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Pega toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
+No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ela ocupa toda a área da janela do navegador e é ajustada caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, um elemento HTML corretamente configurado ou qualquer outra maneira adequada.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, elemento HTML configurado corretamente ou qualquer outra maneira adequada.
 
-É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. É chamado de [!DNL PanoramicViewer.html] e está localizado sob a [!DNL html5/] subpasta da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML para o modo de operação pop-up. É chamado de [!DNL PanoramicViewer.html] e está localizado sob o [!DNL html5/] subpasta da implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
-A personalização visual pode ser alcançada com a aplicação de CSS personalizado.
+A personalização visual pode ser obtida ao aplicar CSS personalizado.
 
-Este é um exemplo de HTML code que abre o visualizador na nova janela:
+Este é um exemplo de código HTML que abre o visualizador na nova janela:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
-**Sobre o modo de incorporação de tamanho fixo e o modo de incorporação responsivo**
+**Sobre o modo de incorporação de tamanho fixo e o modo de incorporação responsiva**
 
-No modo incorporado, o visualizador é adicionado à página da Web existente, que pode já ter algum conteúdo de cliente não relacionado ao visualizador. Normalmente, o visualizador ocupa apenas uma parte do espaço da página web.
+No modo incorporado, o visualizador é adicionado à página da Web existente, que pode já ter algum conteúdo de cliente não relacionado ao visualizador. O visualizador normalmente ocupa apenas uma parte do espaço físico da página da Web.
 
-Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, e também páginas da Web responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
+Os principais casos de uso são páginas da Web orientadas para desktops ou dispositivos tablets e também páginas da Web responsivas que ajustam o layout automaticamente dependendo do tipo de dispositivo.
 
 A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Esse método é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva supõe que o visualizador deve redimensionar no tempo de execução em resposta à alteração de tamanho do DIV do contêiner. O caso de uso mais comum é adicionar visualizador a uma página da Web que use um layout flexível.
+A incorporação responsiva presume que o visualizador deve redimensionar em tempo de execução em resposta à alteração de tamanho de seu container DIV. O caso de uso mais comum é a adição do visualizador a uma página da Web que usa layout flexível.
 
-No modo responsivo, o visualizador se comporta de forma diferente dependendo da maneira como a página da Web dimensiona o DIV do contêiner. Se a página da Web definir apenas a largura do DIV do contêiner, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Esse método garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas como Bootstrap, Foundation e assim por diante.
+No modo responsivo, o visualizador se comporta de forma diferente dependendo da forma como a página da Web dimensiona seu container DIV. Se a página da Web definir somente a largura do contêiner DIV, deixando sua altura irrestrita, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Esse método garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap, Foundation e outras.
 
-Caso contrário, se a página da Web definir a largura e a altura do DIV do contêiner do visualizador, o visualizador preencherá essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura para o container DIV do visualizador, o visualizador preencherá essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é a incorporação do visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
 1. Definição do contêiner `DIV`.
-1. Definição do tamanho do visualizador.
-1. Criação e inicialização do visualizador.
+1. Definindo o tamanho do visualizador.
+1. Criar e inicializar o visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, verifique se você incluiu [!DNL PanoramicViewer.js]. O [!DNL PanoramicViewer.js] O arquivo está localizado sob a variável [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL PanoramicViewer.js]. A variável [!DNL PanoramicViewer.js] O arquivo está localizado sob o [!DNL html5/js/] subpasta da implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores da Adobe Dynamic Media Classic que têm os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media Classic e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic que têm os Visualizadores IS instalados.
 
-O caminho relativo é semelhante ao seguinte:
+O caminho relativo tem a seguinte aparência:
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
@@ -121,29 +121,29 @@ O caminho relativo é semelhante ao seguinte:
 
 >[!NOTE]
 >
->Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Fazer referência apenas ao JavaScript do visualizador principal `include` arquivo na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Em particular, não faça referência direta ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho de contexto (o chamado SDK consolidado) `include`). O motivo é que a localização de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
+>Como resultado, ao inserir uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
-1. Definição do DIV do contêiner.
+1. Definição do container DIV.
 
-   Adicione um elemento DIV vazio à página onde você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
+   Adicione um elemento DIV vazio à página em que você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida porque essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio de CSS.
 
-   O espaço reservado DIV é um elemento posicionado, o que significa que a variável `position` A propriedade CSS está definida como `relative` ou `absolute`.
+   O espaço reservado DIV é um elemento posicionado, o que significa que o `position` A propriedade CSS está definida como `relative` ou `absolute`.
 
 
-   Este é um exemplo de um elemento DIV de espaço reservado definido:
+   Veja a seguir um exemplo de um elemento DIV de espaço reservado definido:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
-1. Definição do tamanho do visualizador
+1. Definir o tamanho do visualizador
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7panoramicviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   O dimensionamento no CSS pode ser colocado diretamente na página HTML ou no arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AOD ou passado explicitamente usando o comando style. Consulte Personalização da seção Visualizador para obter mais informações sobre como estilizar o visualizador com CSS. Veja abaixo um exemplo de definição do tamanho estático do visualizador em HTML page:
+   O dimensionamento no CSS pode ser colocado diretamente na página do HTML ou no arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AOD ou passado explicitamente usando o comando style. Consulte a seção Personalização do visualizador para obter mais informações sobre como estilizar o visualizador com CSS. Veja abaixo um exemplo de definição do tamanho do visualizador estático na página HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -152,7 +152,7 @@ O caminho relativo é semelhante ao seguinte:
    }
    ```
 
-   `stagesize` O modificador pode ser transmitido explicitamente com o código de inicialização do visualizador com a coleção de parâmetros ou como uma chamada de API, conforme descrito na seção Referência de comandos , desta forma:
+   `stagesize` o modificador pode ser transmitido explicitamente com o código de inicialização do visualizador com a coleção params ou como uma chamada de API, conforme descrito na seção Referência de comandos, desta forma:
 
    ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
@@ -160,15 +160,15 @@ O caminho relativo é semelhante ao seguinte:
 
    A abordagem baseada em CSS é recomendada e é usada neste exemplo.
 
-1. Criação e inicialização do visualizador.
+1. Criar e inicializar o visualizador.
 
-   Depois de concluir as etapas acima, crie uma instância de `s7viewers.PanoramicViewer` classe , passe todas as informações de configuração para seu construtor e chame `init(`) em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo containerId que contém o nome da ID do contêiner do visualizador e o objeto JSON de parâmetros aninhados com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o objeto params deve ter pelo menos o URL de Exibição de Imagem passado como `serverUrl` propriedade e ativo inicial como parâmetro de ativo. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Quando tiver concluído as etapas acima, você criará uma instância de `s7viewers.PanoramicViewer` classe, transmita todas as informações de configuração para seu construtor e chame `init(`) em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo containerId, que contém o nome da ID do contêiner do visualizador e o objeto JSON de parâmetros aninhados com parâmetros de configuração compatíveis com o visualizador. Nesse caso, o objeto params deve ter pelo menos o URL do Servidor de imagens passado como `serverUrl` propriedade e ativo inicial como parâmetro do ativo. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
+   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. Para obter compatibilidade máxima, chame o `init()` método antes do fechamento `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, pode ser oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . Este exemplo supõe `panoramicViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado `DIV`, [!DNL http://s7d1.scene7.com/is/image/] é o URL de disponibilização de imagens e [!DNL Scene7SharedAssets/PanoramicImage-Sample] é o ativo.
+   Este é um exemplo de criação de uma instância do visualizador, transmissão de opções de configuração mínimas necessárias para o construtor e chamada de `init()` método. Este exemplo assume `panoramicViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado `DIV`, [!DNL http://s7d1.scene7.com/is/image/] é o URL do Servidor de imagens e [!DNL Scene7SharedAssets/PanoramicImage-Sample] é o ativo.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -182,7 +182,7 @@ O caminho relativo é semelhante ao seguinte:
    </script> 
    ```
 
-   O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de panorâmica com um tamanho fixo:
+   O código a seguir é um exemplo completo de uma página da Web trivial que incorpora o Visualizador panorâmico com um tamanho fixo:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,9 +211,9 @@ O caminho relativo é semelhante ao seguinte:
     </html>
    ```
 
-**Incorporação de design responsivo com altura irrestrita**
+**Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação responsiva, a página da Web normalmente tem algum tipo de layout flexível em vigor, que determina o tamanho do tempo de execução do DIV do contêiner do visualizador. Para as finalidades deste exemplo, vamos supor que a página da Web permite que o DIV do contêiner do visualizador pegue 80% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web pode ser semelhante a:
+Com a incorporação responsiva, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador DIV. Para os fins deste exemplo, vamos supor que a página da Web permita que o container do visualizador DIV ocupe 80% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web pode ser semelhante a:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -233,11 +233,11 @@ Com a incorporação responsiva, a página da Web normalmente tem algum tipo de 
 
 Adicionar o visualizador a essa página é semelhante à incorporação de tamanho fixo, com a única diferença de que você não precisa definir explicitamente o tamanho do visualizador:
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definição do DIV do contêiner.
-1. Criação e inicialização do visualizador.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Definição do container DIV.
+1. Criar e inicializar o visualizador.
 
-Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. O DIV do contentor deve ser adicionado ao DIV do &quot;titular&quot; existente. O código a seguir é um exemplo completo, você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas da incorporação de tamanho fixo. O contêiner DIV deve ser adicionado ao &quot;titular&quot; DIV existente. O código a seguir é um exemplo completo de como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
 
 ```html {.line-numbers}
 <!DOCTYPE html>
@@ -267,15 +267,15 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 </html>
 ```
 
-A página de exemplos a seguir ilustra o uso mais real da incorporação responsiva de design com altura irrestrita:
+A página de exemplos a seguir ilustra mais o uso real de incorporação de design responsivo com altura irrestrita:
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Incorporação de design responsivo com largura e altura definidas**
+**Incorporação responsiva de design com largura e altura definidas**
 
-Se houver incorporação de design responsivo com largura e altura definidas, o estilo da página da Web será diferente; fornece ambos os tamanhos ao &quot; detentor&quot; `DIV` e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%:
+Se houver incorporação de design responsiva com largura e altura definidas, o estilo da página da Web será diferente; ele fornece ambos os tamanhos para o &quot;suporte&quot; `DIV` e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` elemento a 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -339,9 +339,9 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 </html>
 ```
 
-**Como incorporar usando a API baseada em setter**
+**Incorporação usando a API baseada em setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. Com essa API, o construtor não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`e `setAsset()` Métodos de API com chamadas JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. Com essa API, o construtor não aceita parâmetros e os parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`, e `setAsset()` Métodos de API do com chamadas de JavaScript separadas.
 
 O exemplo a seguir ilustra a incorporação de tamanho fixo com a API baseada em setter:
 

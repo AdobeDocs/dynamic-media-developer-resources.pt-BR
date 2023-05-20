@@ -1,5 +1,5 @@
 ---
-description: Envia uma tarefa para o sistema.
+description: Envia um processo ao sistema.
 solution: Experience Manager
 title: submitJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # submitJob{#submitjob}
 
-Envia uma tarefa para o sistema.
+Envia um processo ao sistema.
 
 Sintaxe
 
@@ -46,43 +46,43 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>Manuseio da empresa. </p> </td> 
+   <td colname="col4"> <p>Identificador da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Manipule o usuário que enviou o trabalho. </p> <p> <p>Observação: O sistema envia emails para o usuário especificado por <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> não for fornecido, a pessoa que enviou o trabalho receberá os emails. </p> </p> </td> 
+   <td colname="col4"> <p>Processe o usuário que enviou o job. </p> <p> <p>Observação: o sistema envia um email ao usuário especificado por <span class="codeph"> userHandle</span>. Se <span class="codeph"> userHandle</span> não for fornecido, a pessoa que enviou o trabalho receberá os emails. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>Nome da tarefa. </p> </td> 
+   <td colname="col4"> <p>Nome do trabalho. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> localidade</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>A localidade usada para detalhes do log de tarefas e localização de email. </p> <p>As localidades são especificadas como <span class="codeph"> &lt;language_code&gt;</span> e <span class="codeph"> [&lt;country_code&gt;]</span>, em que o código linguístico é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional do país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: en-US. </p> </td> 
+   <td colname="col4"> <p>A localidade usada para detalhes do log de trabalho e localização do email. </p> <p>As localidades são especificadas como <span class="codeph"> &lt;language_code&gt;</span> e <span class="codeph"> [&lt;country_code&gt;]</span>, em que o código de idioma é minúsculo, de duas letras, conforme especificado pela norma ISO-639, e o código opcional de país é maiúsculo, de duas letras, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres do local para inglês (Estados Unidos) seria: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Data e hora para executar a tarefa. </p> <p>Observação: Forneça o fuso horário com a solicitação. Os fusos horários são ajustados para o fuso horário do servidor IPS de destino. </p> </td> 
+   <td colname="col4"> <p>Data e hora de execução do job. </p> <p>Observação: forneça o fuso horário com a solicitação. Os fusos horários são ajustados ao fuso horário do servidor IPS de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser um <span class="codeph"> cron</span> sequência de caracteres que executa o trabalho de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação do IPS para ver o formato de agendamento personalizado. </p> </td> 
+   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser um <span class="codeph"> cron</span> string que executa a tarefa de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação de IPS para obter o formato de agendamento personalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Descrição da tarefa. </p> </td> 
+   <td colname="col4"> <p>Descrição do trabalho. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
@@ -94,7 +94,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ImageServingPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Detalhes de um trabalho de publicação de fornecimento de imagem. </p> </td> 
+   <td colname="col4"> <p>Detalhes de um trabalho de publicação do servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
@@ -106,13 +106,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:VideoPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Detalhes de um trabalho de publicação de vídeo. </p> <p>Consulte <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
+   <td colname="col4"> <p>Detalhes de um trabalho de publicação de vídeo. </p> <p>Consulte <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> TrabalhoDePublicaçãoDeVídeo</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Detalhes de um trabalho de publicação do diretório do servidor. </p> </td> 
+   <td colname="col4"> <p>Detalhes de um trabalho de publicação de diretório de servidor. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
@@ -124,7 +124,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UploadUrlsJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Detalhes de um trabalho de upload de URL. </p> </td> 
+   <td colname="col4"> <p>Detalhes de um trabalho de URL de upload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> otimizeImagesJob</span> </span> </td> 
@@ -145,10 +145,10 @@ Sintaxe
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> automaticSetGenerationJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> automatedSetGenerationJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Processar uma lista de ativos em conjuntos usando Scripts de conjunto automatizado. </p> <p>Consulte <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
+   <td colname="col4"> <p>Processar uma lista de ativos em conjuntos usando Scripts de conjunto automatizados. </p> <p>Consulte <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,11 +157,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| jobHandle | `xsd:string` | Sim | Identificador da tarefa. |
+| jobHandle | `xsd:string` | Sim | Identificador do trabalho. |
 
 ## Exemplos {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Esta amostra de código envia um trabalho de publicação de fornecimento de imagem para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de trabalho na solicitação. Porque `userHandle` for omitido, as notificações por email serão enviadas ao usuário que enviou o trabalho. Este trabalho de amostra é executado imediatamente porque `execTime` e `execSchedule` foram omitidos.
+Esta amostra de código envia um trabalho de publicação de servidor de imagens para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de trabalho na solicitação. Porque `userHandle` for omitida, as notificações por email serão enviadas ao usuário que enviou o trabalho. Esse trabalho de amostra é executado imediatamente porque `execTime` e `execSchedule` foram omitidos.
 
 **Solicitação**
 
@@ -186,7 +186,7 @@ Esta amostra de código envia um trabalho de publicação de fornecimento de ima
 
 ## Notas {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Você pode especificar, no máximo, um de `execTime` e `execSchedule`. Se nenhum dos dois for aprovado, a tarefa será executada imediatamente. Você pode usar somente um dos seguintes:
+É possível especificar no máximo um dos `execTime` e `execSchedule`. Se nenhum for aprovado, o job será executado imediatamente. Você pode usar apenas um dos seguintes:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

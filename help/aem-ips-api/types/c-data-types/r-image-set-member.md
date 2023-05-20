@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Ativos que pertencem a um conjunto de imagens.
 
-A redefinição de página significa que uma [!DNL eCatalog] deve iniciar uma nova página. `RenderSet` indica que faz parte de um `RenderSet` amostra. O valor é forçado a `true` para `eCatalog` e `RenderSet` conjuntos.
+A redefinição de página significa que um [!DNL eCatalog] A deve iniciar uma nova página. `RenderSet` indica que faz parte de um `RenderSet` amostra. O valor é forçado a `true` para `eCatalog` e `RenderSet` conjuntos.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

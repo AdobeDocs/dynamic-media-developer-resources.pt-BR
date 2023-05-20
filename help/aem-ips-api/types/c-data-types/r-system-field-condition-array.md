@@ -1,7 +1,7 @@
 ---
-description: Uma matriz de condições de campo do sistema.
+description: Uma matriz de condição de campo do sistema.
 solution: Experience Manager
-title: SystemFieldConditionArray
+title: MatrizCondiçãoCampoSistema
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-Uma matriz de condições de campo do sistema.
+Uma matriz de condição de campo do sistema.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:SystemFieldConditions` | Uma matriz de condições de campo do sistema. |
+| itens | `types:SystemFieldConditions` | Uma matriz de condições de campo do sistema. |

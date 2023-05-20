@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Requisitos do sistema dos visualizadores do Dynamic Media HTML5{#system-requirements}
+# Requisitos do sistema de visualizadores Dynamic Media HTML5{#system-requirements}
 
 Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
@@ -21,26 +21,26 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Hardware e software para servidor {#section-05099146f1f0418988c196635110bee6}
+## Hardware e software do servidor {#section-05099146f1f0418988c196635110bee6}
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 ou posterior.
-* Os visualizadores do HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.11.5 ou posterior.
-* *Enviar email para um amigo* os recursos sociais exigem o s7ondemand 5.0.9 ou posterior.
-* Visualizador de eCatalog - [Pop-up do painel Informações](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) o suporte exige o servidor de informações 2.1.8 ou posterior.
+* Visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.11.5 ou posterior.
+* *Enviar para um amigo* os recursos sociais exigem o s7ondemand 5.0.9 ou posterior.
+* Visualizador de eCatalog - [Pop-up do painel Informações](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) o suporte exige o info server 2.1.8 ou posterior.
 * Os componentes do recurso de pesquisa exigem o s7search 2.3.0 ou posterior.
 
-## Requisitos do sistema de visualizadores {#section-cc72b1e209524d038b4d5b92b35e998e}
+## Requisitos de sistema dos visualizadores {#section-cc72b1e209524d038b4d5b92b35e998e}
 
 **Requisitos mínimos do navegador do cliente para visualizadores de componentes:**
 
-* Suportado nas seguintes versões do sistema operacional ou posterior:
+* Compatível com as seguintes versões de sistema operacional ou posteriores:
    * Microsoft® Windows® 7
    * macOS X 10.12
-* Suportado nas seguintes versões de navegador/plataforma ou posterior:
+* Compatível com as seguintes versões de navegador/plataforma ou posteriores:
    * Android™ OS 4.x
-   * BlackBerry® 10 em navegadores nativos. Somente a reprodução de vídeo é compatível.
+   * BlackBerry® 10 em navegadores nativos. Somente a reprodução de vídeo é suportada.
    * Chrome 82
    * Edge
    * Firefox 77
@@ -49,23 +49,23 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
    * iPad 2 (somente navegadores Safari e Chrome)
    * iPhone 3GS
    * Safari 11
-* O Internet Explorer em dispositivos móveis não é compatível.
-* *PanorâmicaViewer* é compatível com as seguintes versões de navegador/plataforma ou posterior:
-   * Android™ 4.4 (somente dispositivos telefônicos)
+* Não há suporte para o Internet Explorer em dispositivos móveis.
+* *VisualizadorPanorâmico* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
+   * Android™ 4.4 (somente dispositivos de telefone)
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Visualizador de vídeo360* e *DimensionalViewer* é compatível com as seguintes versões de navegador/plataforma ou posterior:
-   * Android™ 5 (somente dispositivos telefônicos)
+* *Video360Viewer* e *DimensionalViewer* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
+   * Android™ 5 (somente dispositivos de telefone)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* é compatível com as seguintes versões de navegador/plataforma ou posterior:
+* *ZoomVerticalViewer* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
    * Android™ 4.x
    * Chrome 82
    * Edge
@@ -78,7 +78,7 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partir de 30 de setembro de 2022, os visualizadores do Adobe Dynamic Media encerrarão o suporte para o seguinte:
+A partir de 30 de setembro de 2022, o Adobe Dynamic Media Viewers encerrará o suporte para o seguinte:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * As seguintes cifras fracas no TLS 1.2:
@@ -97,16 +97,16 @@ A partir de 30 de setembro de 2022, os visualizadores do Adobe Dynamic Media enc
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Navegador da Web não suportado e combinações de sistema operacional para Visualizadores do Dynamic Media {#browser-os-support}
+## Combinações de navegador da Web e sistema operacional não compatíveis com visualizadores do Dynamic Media {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Os visualizadores Adobe Dynamic Media não são compatíveis com as seguintes combinações de navegador da Web e sistema operacional:
+Os visualizadores Adobe Dynamic Media não suportam as seguintes combinações de navegador da Web e sistema operacional:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
 * Internet Explorer 11 + Windows Phone 8.1
-* Atualização do Internet Explorer 11 + Windows Phone 8.1
+* Internet Explorer 11 + Atualização do Windows Phone 8.1
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
 * Safari 7 + OS X 10.9 Mavericks

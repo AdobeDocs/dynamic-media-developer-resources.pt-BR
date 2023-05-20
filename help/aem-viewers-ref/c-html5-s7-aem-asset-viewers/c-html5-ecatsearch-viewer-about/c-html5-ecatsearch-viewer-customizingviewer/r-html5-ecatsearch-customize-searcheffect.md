@@ -1,6 +1,6 @@
 ---
 title: Efeito de pesquisa
-description: O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
+description: O visualizador exibe as regiões de resultado da pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Efeito de pesquisa{#search-effect}
 
-O visualizador exibe regiões de resultados de pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
+O visualizador exibe as regiões de resultado da pesquisa sobre a exibição principal para destacar palavras ou frases encontradas no catálogo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
-A aparência das regiões de resultados de pesquisa é controlada com o seguinte seletor de classe CSS:
+A aparência das regiões de resultado de pesquisa é controlada com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -33,8 +33,8 @@ A aparência das regiões de resultados de pesquisa é controlada com o seguinte
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fundo </span> </p> </td> 
-   <td colname="col2"> <p>Plano de fundo da região do resultado da pesquisa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> plano de fundo </span> </p> </td> 
+   <td colname="col2"> <p>Plano de fundo da região de resultados da pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -33,19 +33,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyName | `xsd:string` | Sim | Manuseio da empresa. |
-| projectHandle | `xsd:string` | Sim | Manipulador do projeto. |
+| companyName | `xsd:string` | Sim | Identificador da empresa. |
+| projectHandle | `xsd:string` | Sim | Identificador de projeto. |
 | assetHandleArray | `types:HandleArray` | Sim | A matriz de manipuladores de ativos que você deseja associar ao projeto. |
 
 **Saída (setProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
+| successCount | `xsd:int` | Sim | O número de ativos adicionados com sucesso. |
 
 ## Exemplos {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Essa amostra de código atribui um ativo a um projeto. A solicitação retorna uma contagem de sucesso.
+Essa amostra de código atribui um ativo a um projeto. A solicitação retorna uma contagem de sucesso de um.
 
 **Solicitação**
 

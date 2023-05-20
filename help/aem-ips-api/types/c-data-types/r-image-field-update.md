@@ -26,4 +26,4 @@ Sintaxe
 | [!DNL resolution] | `xsd:double` | Resolução da imagem em pixels por polegada. |
 | [!DNL anchorX] | `xsd:int` | Âncora de imagem do eixo X. |
 | [!DNL anchorY] | `xsd:int` | Âncora de imagem do eixo Y. |
-| [!DNL userData] | `xsd:string` | Valor de `userData` campo de metadados, que é publicado no campo de catálogo de dados do usuário que serve a imagem. |
+| [!DNL userData] | `xsd:string` | Valor de `userData` campo de metadados, que é publicado no campo de catálogo de dados do usuário do servidor de imagens. |

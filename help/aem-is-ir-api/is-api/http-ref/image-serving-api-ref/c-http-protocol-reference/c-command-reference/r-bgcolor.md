@@ -1,37 +1,37 @@
 ---
-description: Cor do Plano de Fundo da Camada. Especifica a cor de plano de fundo e a opacidade da camada atual.
+description: Cor do plano de fundo da camada. Especifica a cor do plano de fundo e a opacidade da camada atual.
 solution: Experience Manager
 title: bgColor
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 22c957e6-1a82-43a7-8467-871a150e7453
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
 # bgColor{#bgcolor}
 
-Cor do Plano de Fundo da Camada. Especifica a cor de plano de fundo e a opacidade da camada atual.
+Cor do plano de fundo da camada. Especifica a cor do plano de fundo e a opacidade da camada atual.
 
-`bgColor= *`color`*`
+`bgColor= *`cor`*`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cor</span></span> </p> </td> 
   <td class="stentry"> <p>Valor de cor cinza, RGB ou CMYK, com ou sem alfa. </p></td> 
  </tr> 
 </table>
 
-Áreas transparentes e semiopacas dentro do retângulo delimitador da camada são preenchidas com a cor especificada* após* `opac=`, `rotate=` e `extend=` serem aplicadas.
+Áreas transparentes e semiopacas dentro do retângulo delimitador da camada são preenchidas com a cor especificada* após* `opac=`, `rotate=`, e `extend=` são aplicados.
 
 ## Propriedades {#section-19dfc13e997f4a33889a1df1e4ad50b9}
 
-Atributo de camada. Aplica-se à camada atual ou à camada 0 se `layer=comp`. Ignorado por camadas de efeito.
+Atributo de camada. Aplica-se à camada atual ou à camada 0 se `layer=comp`. Ignorado pelas camadas de efeito.
 
-*`color`* presume-se que existe no espaço de cores de trabalho correspondente ao tipo de pixel de  *`color`*. *`color`* é convertida com precisão se a imagem da camada final tiver um tipo de pixel diferente.
+*`color`* presume-se que exista no espaço de cor de trabalho correspondente ao tipo de pixel de *`color`*. *`color`* é convertido com precisão se a imagem da camada final tiver um tipo de pixel diferente.
 
 ## Padrão {#section-30cd43f922c04ed9b75875ff7f20c88f}
 
@@ -43,4 +43,4 @@ Consulte [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pr
 
 ## Consulte também {#section-64b3f153c6d94ab58f46e77324697818}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93),  [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423),  [blendMode=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172),  [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5),  [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac),  [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [Gerenciamento de cores](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[cor](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [color=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423), [blendMode=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [girar=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Gerenciamento de cores](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

@@ -8,7 +8,7 @@ exl-id: 4f25112b-9e51-4a0e-9500-1b5ab0f4de87
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Especifica o alinhamento interno (âncora) do contêiner de amostras dentro da área do componente. Em Amostras, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de amostras seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. Esse comando especifica como o contêiner de amostras interno é posicionado dentro do componente.
+Especifica o alinhamento interno (ancoragem) do contêiner de amostras dentro da área do componente. Nas amostras, o contêiner interno da miniatura é dimensionado de forma que somente o número inteiro das amostras seja exibido. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. Esse comando especifica como o contêiner interno de amostras é posicionado dentro do componente.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
@@ -25,7 +25,7 @@ Especifica o alinhamento interno (âncora) do contêiner de amostras dentro da �
    <td> <p> Define o alinhamento das amostras horizontais. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> top|centro|inferior</span> </p> </td> 
+   <td> <p><span class="codeph"> superior|centro|inferior</span> </p> </td> 
    <td> <p> Define o alinhamento das amostras verticais. </p> </td> 
   </tr> 
  </tbody> 

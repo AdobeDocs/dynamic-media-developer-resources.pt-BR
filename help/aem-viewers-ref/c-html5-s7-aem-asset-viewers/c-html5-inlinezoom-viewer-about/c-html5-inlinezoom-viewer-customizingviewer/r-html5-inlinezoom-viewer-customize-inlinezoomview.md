@@ -1,6 +1,6 @@
 ---
-title: Visualização de zoom de menu suspenso
-description: A exibição principal consiste na imagem estática e na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática. Também consiste na mensagem de dica mostrada na parte superior da imagem estática.
+title: Exibição de zoom de imagem suspensa
+description: A visualização principal consiste na imagem estática e na imagem com zoom mostrada na visualização da imagem suspensa na parte superior da imagem estática. Também consiste na mensagem de dica mostrada sobre a imagem estática.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Visualização de zoom de menu suspenso{#flyout-zoom-view}
+# Exibição de zoom de imagem suspensa{#flyout-zoom-view}
 
-A exibição principal consiste na imagem estática e na imagem com zoom mostrada na exibição de flyout na parte superior da imagem estática. Também consiste na mensagem de dica mostrada na parte superior da imagem estática.
+A visualização principal consiste na imagem estática e na imagem com zoom mostrada na visualização da imagem suspensa na parte superior da imagem estática. Também consiste na mensagem de dica mostrada sobre a imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriedades CSS da exibição principal**
 
-A aparência da exibição principal é controlada com o seguinte seletor de classe CSS:
+A aparência da visualização principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -35,8 +35,8 @@ A aparência da exibição principal é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> A cor de plano de fundo da exibição principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> A cor do plano de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo, o tamanho, a aparência e o deslocamento vertical da fonte por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Substituição por CSS usando `left` ou `right` não há suporte para propriedades do .
+É possível configurar o estilo da fonte, o tamanho, a aparência e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Substituição por CSS usando `left` ou `right` não há suporte para propriedades.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -69,35 +69,35 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Deslocamento na parte inferior da exibição principal. </p> </td> 
+   <td colname="col2"> <p>Deslocamento da parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
-   <td colname="col2"> <p>Preenchimento em torno do texto da mensagem. </p> </td> 
+   <td colname="col2"> <p>Preenchimento ao redor do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento do plano de fundo do texto da mensagem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento do fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Raio da borda do plano de fundo do texto da mensagem. </p> </td> 
+   <td colname="col2"> <p>Raio da borda do fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
-   <td colname="col2"> <p>Opacidade do texto da mensagem em segundo plano. </p> <p>No Internet Explorer 8, use <span class="codeph"> filtro:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacidade do plano de fundo do texto da mensagem. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filtro:alfa(opacidade-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ A mensagem de dica pode ser localizada. Consulte [Localização dos elementos da
 
 .
 
-Exemplo - para configurar uma mensagem de ponta semitransparente com fonte branca Arial® de 12 px, 50 pixels deslocados da parte inferior da exibição principal, preenchimento e uma borda arredondada:
+Exemplo - para configurar uma mensagem de dica semitransparente com fonte Arial® de 12 px branca, deslocamento de 50 pixels da parte inferior da exibição principal, preenchimento e uma borda arredondada:
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

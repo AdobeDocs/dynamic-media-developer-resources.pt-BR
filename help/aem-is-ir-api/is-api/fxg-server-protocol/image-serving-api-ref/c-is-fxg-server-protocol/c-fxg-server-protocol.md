@@ -1,6 +1,6 @@
 ---
-title: Protocolo do servidor FXG
-description: Para manipular um gráfico, você pode usar pontos de referência semelhantes a pontos de bússola.
+title: Protocolo de servidor FXG
+description: Para manipular um gráfico, é possível usar pontos de referência semelhantes a pontos de bússola.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# Protocolo do servidor FXG{#fxg-server-protocol}
+# Protocolo de servidor FXG{#fxg-server-protocol}
 
-Para manipular um gráfico, você pode usar pontos de referência semelhantes a pontos de bússola.
+Para manipular um gráfico, é possível usar pontos de referência semelhantes a pontos de bússola.
 
-Usando pontos de referência, você pode girar, dimensionar ou redimensionar um gráfico em relação a um ponto de referência específico. Os pontos de referência são `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` e `southeast`. Por exemplo, usando o ponto de referência central, é possível girar um gráfico em 45° em seu centro. A imagem a seguir mostra onde os pontos de referência estão localizados, um gráfico, o gráfico girado 20° a partir de seu ponto de referência `northWest` e o gráfico girado 20° a partir de seu ponto de referência `east`.
+Usando pontos de referência, você pode girar, dimensionar ou redimensionar um gráfico em relação a um ponto de referência específico. Os pontos de referência `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south`, e `southeast`. Por exemplo, usando o ponto de referência central, é possível girar um gráfico 45° em seu centro. A imagem a seguir mostra onde estão localizados os pontos de referência, um gráfico, o gráfico rotacionado 20° a partir de seu `northWest` ponto de referência, e o gráfico girou 20° em relação ao seu `east` referência.
 
-![Imagem dos pontos de referência](assets/wp_ref_points.png)
+![Imagem de pontos de referência](assets/wp_ref_points.png)
 
-* A. Locais dos pontos de referência
-* B. Gráfico A
-* C. O gráfico rotacionado 20° a partir do seu ponto de referência `northWest`
-* D. O gráfico rotacionado 20° a partir do seu ponto de referência `east`
+* A. Localizações dos pontos de referência
+* B. Um gráfico
+* C. O gráfico girou 20° em relação ao seu `northWest` ponto de referência
+* D. O gráfico girou 20° em relação ao seu `east` ponto de referência
 
 A sintaxe é:
 
 `referencePoint <string> (northWest, north, northEast, west, center, east, southWest, south, southEast, none, inherit)`
 
-O valor padrão é nenhum. O valor `inherit` passa o valor `s7:referencePoint`, desde que não seja `none`, da parte superior da página ou do nível do grupo para todos os filhos. A configuração `none` significa que não há um ponto de referência para o objeto e o sistema de coordenadas FXG é usado.
+O valor padrão é none. A variável `inherit` o valor passa o `s7:referencePoint` desde que não seja `none`, da parte superior da página ou nível de grupo para todos os filhos. A variável `none` Configurar significa que não há ponto de referência para o objeto e o sistema de coordenadas FXG é usado.
 
 >[!NOTE]
 >
->Para usar um ponto de referência e não ter nenhum deslocamento no objeto após ele ser manipulado, atualize os valores x e y do objeto depois de manipulá-lo.
+>Para usar um ponto de referência e não ter nenhum deslocamento no objeto após sua manipulação, atualize os valores x e y do objeto após manipulá-lo.
 
-Quando um valor de `s7:referencePoint` é usado com grupos (ou caminhos, elementos de linha ou qualquer elemento que não tenha definições explícitas de largura e altura), o valor se aplica à caixa delimitadora cumulativa do grupo. Por exemplo, o ponto superior esquerdo da caixa delimitadora de todos os objetos do grupo serve como o ponto de referência `northWest` para o grupo; o ponto inferior direito serve como o ponto de referência `southEast`.
+Quando um valor de `s7:referencePoint` for usada com grupos (ou caminhos, elementos de linha ou qualquer elemento que não tenha definições explícitas de largura e altura), o valor se aplicará à caixa delimitadora cumulativa do grupo. Por exemplo, o ponto superior esquerdo da caixa delimitadora de todos os objetos no grupo serve como `northWest` ponto de referência para o grupo; o ponto inferior direito serve de `southEast` referência.

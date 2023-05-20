@@ -36,8 +36,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador para a empresa que contém o arquivo Zip. |
-| assetHandle | `xsd:string` | Sim | Manipule o arquivo Zip. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o arquivo Zip. |
+| assetHandle | `xsd:string` | Sim | Processe o arquivo Zip. |
 
 **Saída (getZipEntriesReturn)**
 
@@ -47,7 +47,7 @@ Sintaxe
 
 ## Exemplos {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Essa amostra de código retorna informações do arquivo Zip, incluindo o tamanho compactado e descompactado.
+Esta amostra de código retorna informações do arquivo Zip, incluindo tamanho compactado e descompactado.
 
 **Solicitação**
 

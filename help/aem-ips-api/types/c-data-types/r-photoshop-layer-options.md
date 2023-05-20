@@ -1,5 +1,5 @@
 ---
-description: Opções de camada de imagem da Photoshop.
+description: Opções de camada de imagem do Photoshop.
 solution: Experience Manager
 title: PhotoshopLayerOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PhotoshopLayerOptions]{#photoshoplayeroptions}
 
-Opções de camada de imagem da Photoshop.
+Opções de camada de imagem do Photoshop.
 
 Sintaxe
 
@@ -22,8 +22,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| layerNaming | `xsd:string` | Escolha dos modos de nomenclatura da camada da Photoshop. |
-| âncora | `xsd:string` | Opção de modos de âncora Photoshop. |
-| createTemplate | `xsd:boolean` | Criar um modelo a partir de camadas do Photoshop. |
+| layerNaming | `xsd:string` | Escolha de Modos de Nomeação de Camada do Photoshop. |
+| âncora | `xsd:string` | Escolha de Modos de âncora do Photoshop. |
+| createTemplate | `xsd:boolean` | Se um modelo deve ser criado a partir das camadas do Photoshop. |
 | extractText | `xsd:boolean` | Se o texto deve ser extraído como camadas de texto. |
-| estenderLayers | `xsd:boolean` | Estender camadas ao tamanho total do plano de fundo. |
+| extendLayers | `xsd:boolean` | Se as camadas devem ser estendidas para o tamanho total do plano de fundo. |

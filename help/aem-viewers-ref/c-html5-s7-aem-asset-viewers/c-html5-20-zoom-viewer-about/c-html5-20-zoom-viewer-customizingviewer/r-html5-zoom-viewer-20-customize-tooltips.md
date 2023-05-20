@@ -1,6 +1,6 @@
 ---
-title: Dicas de ferramentas
-description: Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
+title: Dicas de ferramenta
+description: Em sistemas desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Dicas de ferramentas{#tooltips}
+# Dicas de ferramenta{#tooltips}
 
-Em sistemas de desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
+Em sistemas desktop, alguns elementos da interface do usuário, como botões, têm dicas de ferramentas exibidas ao passar o mouse.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência das dicas de ferramentas é controlada com o seguinte seletor de classe CSS:
 
@@ -36,26 +36,26 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Raio da borda do plano de fundo. </p> </td> 
+   <td colname="col2"> <p> Raio da borda do fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor da borda </span> </p> </td> 
-   <td colname="col2"> <p> Cor da borda do plano de fundo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor da borda do fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ A aparência das dicas de ferramentas é controlada com o seguinte seletor de cl
 
 >[!NOTE]
 >
->Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades precisam conter `!IMPORTANT` regra. Essa regra não é necessária se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
+>Se os estilos de dica de ferramenta forem personalizados na página da Web de incorporação, todas as propriedades deverão conter `!IMPORTANT` regra. Essa regra não é necessária se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
 
-Exemplo - Para configurar dicas de ferramentas com uma borda cinza com um raio de canto de 3 pixels, plano de fundo preto e texto branco gravado com Arial®, tamanho de 11 pixels:
+Exemplo - Para configurar dicas de ferramentas com uma borda cinza com um raio de canto de 3 pixels, plano de fundo preto e texto branco escrito com Arial®, tamanho de 11 pixels:
 
 ```
 .s7tooltip { 

@@ -1,7 +1,7 @@
 ---
 description: Adiciona um termo de pesquisa para uso com searchAssets.
 solution: Experience Manager
-title: MetadataCondition
+title: CondiçãoMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
@@ -37,7 +37,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Escolha de operadores de comparação de string. </td> 
+   <td colname="col3"> Escolha de operadores de comparação de sequência. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
@@ -46,7 +46,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Valor de comparação booleano (somente para campos do tipo booleano). </td> 
   </tr> 
   <tr> 
@@ -57,47 +57,47 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor mínimo longo na comparação do intervalo (somente para campos do tipo int). </td> 
+   <td colname="col3"> Valor longo mínimo em comparação de intervalo (somente para campos do tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor longo máximo na comparação do intervalo (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor longo máximo em comparação de intervalo (somente para campos do tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor de comparação duplo (somente para campos de tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col3"> Valor de comparação dupla (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor duplo mínimo na comparação do intervalo (somente para campos do tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col3"> Valor duplo mínimo em comparação de intervalo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor duplo máximo na comparação do intervalo (somente para campos do tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col3"> Valor máximo duplo em comparação de intervalo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor de comparação de data (somente para campos do tipo data). </td> 
+   <td colname="col3"> Valor de comparação de datas (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor mínimo de data na comparação do intervalo (somente para campos do tipo data). </td> 
+   <td colname="col3"> Valor mínimo de data em comparação de intervalo (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor máximo de data na comparação do intervalo (somente para campos do tipo data). </td> 
+   <td colname="col3"> Valor máximo de data em comparação de intervalo (somente para campos digitados por data). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> diferencia maiúsculas de minúsculas</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Estabelece a diferenciação entre maiúsculas e minúsculas para o Servidor de metadados. Usado no <span class="codeph"> searchAssetsByMetadata</span> chame. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Estabelece distinção entre maiúsculas e minúsculas para o servidor de metadados. Usado no <span class="codeph"> searchAssetsByMetadata</span> chame. </p> <p>Consulte <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

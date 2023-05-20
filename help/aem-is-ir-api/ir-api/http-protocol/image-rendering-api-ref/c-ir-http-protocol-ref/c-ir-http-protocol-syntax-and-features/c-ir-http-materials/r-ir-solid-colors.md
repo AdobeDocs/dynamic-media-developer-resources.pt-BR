@@ -1,6 +1,6 @@
 ---
 title: Cores sólidas
-description: Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis e qualquer outra aplicação em que não sejam necessárias texturas.
+description: Esta categoria de material inclui tintas para paredes, carpintaria, guarnições, automotivo e qualquer outra aplicação onde as texturas não são necessárias.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Cores sólidas{#solid-colors}
 
-Esta categoria de material inclui tintas para paredes, madeira e aparas, automóveis e qualquer outra aplicação em que não sejam necessárias texturas.
+Esta categoria de material inclui tintas para paredes, carpintaria, guarnições, automotivo e qualquer outra aplicação onde as texturas não são necessárias.
 
-Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário em que não são necessárias mudanças de textura, ou para definir a cor para o acabamento plástico e a carpete de um interior automotivo. Um material é considerado sólido se não `src=` está presente no MSS.
+Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias alterações de textura, ou para definir a cor para o acabamento plástico e carpete de um interior automotivo. Um material é considerado cor sólida se não `src=` valor está presente no MSS.
 
 Cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
 

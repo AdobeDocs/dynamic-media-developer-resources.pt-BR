@@ -1,7 +1,7 @@
 ---
-description: Define valores de campo de tag novos e antigos.
+description: Define valores de campo de tag antigos e novos.
 solution: Experience Manager
-title: TagValueUpdate
+title: AtualizaçãoDoValorDaMarca
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL TagValueUpdate]{#tagvalueupdate}
 
-Define valores de campo de tag novos e antigos.
+Define valores de campo de tag antigos e novos.
 
 Sintaxe
 
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| oldValue | `xsd:string` | Valor original do campo de tag. |
-| newValue | `xsd:string` | Novo valor do campo de tag . |
+| oldValue | `xsd:string` | Valor do campo da tag original. |
+| newValue | `xsd:string` | Novo valor de campo de tag. |

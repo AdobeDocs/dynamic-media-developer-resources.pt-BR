@@ -1,20 +1,20 @@
 ---
 title: Amostras principais
-description: As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
+description: As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais nos lados esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não couberem na largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do contêiner, os botões de rolagem não serão exibidos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 # Amostras principais{#main-swatches}
 
-As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
+As Amostras principais consistem em uma linha de imagens em miniatura com botões de rolagem opcionais nos lados esquerdo e direito. Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não couberem na largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do contêiner, os botões de rolagem não serão exibidos.
 
 A aparência do contêiner de amostras é controlada com o seletor de classe CSS:
 
@@ -47,7 +47,7 @@ Exemplo - para configurar amostras com uma altura de 100 pixels.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O espaçamento entre as miniaturas da amostra é controlado com o seguinte seletor de classe CSS:
+O espaçamento entre as miniaturas de amostra é controlado com o seguinte seletor de classe CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7thumbcell`
 
@@ -61,7 +61,7 @@ O espaçamento entre as miniaturas da amostra é controlado com o seguinte selet
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -105,9 +105,9 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura é compatível com o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao resto das miniaturas, e `state="over"` é usada ao passar o mouse.
+>A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
-Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada.
+Exemplo - para configurar miniaturas com 56 x 56 pixels, tem uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb { 
@@ -122,7 +122,7 @@ Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão
 }
 ```
 
-O tipo do ativo é exibido como um ícone sobreposto na parte superior da imagem em miniatura e é controlado com o seguinte seletor de classe CSS:
+O tipo do ativo é exibido como um ícone sobreposto na parte superior da imagem da miniatura e é controlado com o seguinte seletor de classe CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay`
 
@@ -136,18 +136,18 @@ O tipo do ativo é exibido como um ícone sobreposto na parte superior da imagem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
-   <td colname="col2"> <p>Largura da sobreposição de ícone. </p> </td> 
+   <td colname="col2"> <p>Largura da sobreposição do ícone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
-   <td colname="col2"> <p>Altura da sobreposição de ícone. </p> </td> 
+   <td colname="col2"> <p>Altura da sobreposição do ícone. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-A sobreposição é compatível com a variável `type` seletor de atributos com os seguintes valores possíveis: `image` (para imagens únicas), `swatchset` (para conjuntos de amostras), `spinset` (para conjuntos de rotação), e `video` (para vídeos individuais ou conjuntos de vídeos adaptáveis).
+A sobreposição suporta a variável `type` seletor de atributos com os seguintes valores possíveis: `image` (para imagens únicas), `swatchset` (para amostras), `spinset` (para conjuntos de rotação) e `video` (para vídeos únicos ou conjuntos de vídeos adaptáveis).
 
-Exemplo - para configurar as sobreposições de ícone para conjuntos de rotação, conjuntos de amostras e vídeos:
+Exemplo - para configurar sobreposições de ícones para conjuntos de rotação, conjuntos de amostras e vídeos:
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay[type="swatchset"] { 
@@ -161,13 +161,13 @@ Exemplo - para configurar as sobreposições de ícone para conjuntos de rotaç�
 }
 ```
 
-A aparência dos botões de rolagem esquerdo e direito é controlada pelos seguintes seletores de classe CSS:
+A aparência dos botões de rolagem para a esquerda e para a direita é controlada com os seguintes seletores de classe CSS:
 
 `.s7mixedmediaviewer .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`e `right` propriedades. Em vez disso, a lógica do visualizador os posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -186,23 +186,23 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar diferentes capas a diferentes estados de botão: `up`, `down`, `over`e `disabled`.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-Exemplo - para configurar botões de rolagem que tenham 56 x 56 pixels e tenham arte-final diferente para cada estado.
+Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham arte-final diferente para cada estado.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 

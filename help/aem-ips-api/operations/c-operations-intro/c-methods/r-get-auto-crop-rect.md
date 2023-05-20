@@ -1,5 +1,5 @@
 ---
-description: Retorna uma região cortada para uma imagem com base em sua cor de fundo ou transparência.
+description: Retorna uma região cortada de uma imagem com base na cor ou na transparência do plano de fundo.
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getAutoCropRect{#getautocroprect}
 
-Retorna uma região cortada para uma imagem com base em sua cor de fundo ou transparência.
+Retorna uma região cortada de uma imagem com base na cor ou na transparência do plano de fundo.
 
 Sintaxe
 
@@ -38,16 +38,16 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo que deseja trabalhar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo com o qual você deseja trabalhar. |
 | assetHandle | `xsd:string` | Sim | O identificador do ativo com o qual você deseja trabalhar. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base na cor. Consulte [Opções deCortarCorAutomática](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Não | Calcule o retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| autoColorCropOptions | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base na cor. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Não | Calcular retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Saída (getAutoCropRectReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| xOffset | `xsd:int` | Sim | A coordenada inicial de pixels à esquerda da região de corte calculada. |
+| xOffset | `xsd:int` | Sim | A coordenada inicial de pixels esquerdos da região de corte calculada. |
 | Deslocamento | `xsd:int` | Sim | A coordenada de pixel superior inicial da região de corte calculada. |
 | largura | `xsd:int` | Sim | Largura da região de corte calculada (em pixels). |
 | altura | `xsd:int` | Sim | Altura da região de corte calculada (em pixels). |
@@ -80,6 +80,6 @@ Sintaxe
 
 >[!MORELIKETHIS]
 >
->* [Opções deCortarCorAutomática](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+>* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 

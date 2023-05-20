@@ -1,10 +1,11 @@
 ---
 title: Compartilhamento de link
-description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
+description: A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e à caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 # Compartilhamento de link{#link-share}
 
-A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e a caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta de compartilhamento Social .
+A ferramenta Compartilhamento de links consiste em um botão adicionado ao painel Compartilhamento em redes sociais e à caixa de diálogo modal que é exibida quando a ferramenta é ativada. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -28,7 +29,7 @@ A aparência do botão de compartilhamento de link é controlada com o seguinte 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -36,25 +37,25 @@ A aparência do botão de compartilhamento de link é controlada com o seguinte 
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-É possível remover o botão do painel Compartilhamento do Social ao configurar `display:none` Propriedade CSS na classe CSS.
+É possível remover o botão do painel Compartilhamento em redes sociais configurando `display:none` Propriedade CSS em sua classe CSS.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um botão de compartilhamento de link de 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
+Exemplo - para configurar um botão de compartilhamento de link com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7smartcropvideoviewer .s7linkshare { 
@@ -75,23 +76,23 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-A sobreposição em segundo plano que abrange a página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
+A sobreposição de plano de fundo que cobre a página da Web quando a caixa de diálogo está ativa é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7backoverlay
 ```
 
-**Propriedades CSS da sobreposição em segundo plano**
+**Propriedades CSS da sobreposição do plano de fundo**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
-   <td colname="col2"> <p>Opacidade da sobreposição em segundo plano. </p> </td> 
+   <td colname="col2"> <p>Opacidade de sobreposição de plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor da sobreposição do plano de fundo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de sobreposição do plano de fundo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +106,7 @@ Exemplo - para configurar uma sobreposição de plano de fundo para ficar cinza 
 }
 ```
 
-Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistemas de desktop e leva toda a área da página da Web em dispositivos de toque. Em todos os casos, o posicionamento e o dimensionamento da caixa de diálogo são gerenciados pelo componente . A caixa de diálogo é controlada com o seguinte seletor de classe CSS:
+Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistemas desktop e ocupa toda a área da página da Web em dispositivos de toque. Em todos os casos, o posicionamento e o dimensionamento da caixa de diálogo são gerenciados pelo componente. A caixa de diálogo é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialog
@@ -117,24 +118,24 @@ Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistem
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Raio da borda da caixa de diálogo, caso a caixa de diálogo não use o navegador inteiro. </p> </td> 
+   <td colname="col2"> <p> Raio da borda da caixa de diálogo, caso a caixa de diálogo não use todo o navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
-   <td colname="col2"> <p>Deve ser desativado ou definido como 100%, nesse caso, a caixa de diálogo ocupa toda a janela do navegador (esse modo é preferencial em dispositivos de toque). </p> </td> 
+   <td colname="col2"> <p>Deve ser desdefinido ou definido como 100%, nesse caso, a caixa de diálogo usa toda a janela do navegador (esse modo é preferível em dispositivos de toque). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
-   <td colname="col2"> <p>Deve ser desativado ou definido como 100%, nesse caso, a caixa de diálogo ocupa toda a janela do navegador (esse modo é preferencial em dispositivos de toque). </p> </td> 
+   <td colname="col2"> <p>Deve ser desdefinido ou definido como 100%, nesse caso, a caixa de diálogo usa toda a janela do navegador (esse modo é preferível em dispositivos de toque). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar a caixa de diálogo para usar toda a janela do navegador e ter um plano de fundo branco em dispositivos de toque:
+Exemplo - para configurar a caixa de diálogo para usar toda a janela do navegador e ter um fundo branco em dispositivos de toque:
 
 ```
 .s7smartcropvideoviewer .s7touchinput .s7linkdialog .s7dialog { 
@@ -144,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e um botão fechar. O contêiner de cabeçalho é controlado com
+O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e um botão Fechar. O contêiner de cabeçalho é controlado com
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader
@@ -156,12 +157,12 @@ O cabeçalho da caixa de diálogo consiste em um ícone, um texto de título e u
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
-   <td colname="col2"> <p> Preenchimento interno para o conteúdo do cabeçalho. </p> </td> 
+   <td colname="col2"> <p> Preenchimento interno para conteúdo de cabeçalho. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O ícone e o texto do título são vinculados em um contêiner extra controlado com
+O ícone e o texto do título são colocados em um container extra controlado com
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -173,12 +174,12 @@ O ícone e o texto do título são vinculados em um contêiner extra controlado 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
-   <td colname="col2"> <p> Preenchimento interno para o ícone e o título do cabeçalho </p> </td> 
+   <td colname="col2"> <p> Preenchimento interno para o ícone e título do cabeçalho </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O ícone Cabeçalho é controlado com o seguinte seletor de classe CSS
+O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheadericon
@@ -197,12 +198,12 @@ O ícone Cabeçalho é controlado com o seguinte seletor de classe CSS
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Imagem do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,15 +220,15 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Espessura da fonte. </p> </td> 
+   <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Altura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
-   <td colname="col2"> <p>Família de fontes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
@@ -248,10 +249,10 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Posição do botão vertical em relação ao contêiner de cabeçalho. </p> </td> 
+   <td colname="col2"> <p> Posição vertical do botão em relação ao contêiner de cabeçalho. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> direita </span> </p> </td> 
    <td colname="col2"> <p> Posição do botão horizontal em relação ao contêiner de cabeçalho. </p> </td> 
   </tr> 
   <tr> 
@@ -267,23 +268,23 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Preenchimento interno do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - Para configurar um cabeçalho de caixa de diálogo com o preenchimento, um ícone de 22 x 12 pixels e um título de 16 pontos em negrito. Finalmente, um botão Fechar de 28 x 28 pixels que é posicionado em dois pixels da parte superior e em dois pixels à direita do contêiner da caixa de diálogo:
+Exemplo - Para configurar um cabeçalho de caixa de diálogo com preenchimento, ícone de 22 x 12 pixels e um título em negrito de 16 pontos. Finalmente, um botão Fechar de 28 x 28 pixels posicionado a dois pixels da parte superior e a dois pixels da direita do contêiner da caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -334,19 +335,19 @@ O rodapé da caixa de diálogo consiste no botão &quot;cancelar&quot;. O contê
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p> Borda que você pode usar para separar visualmente o rodapé do restante da caixa de diálogo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O rodapé tem um contêiner interno que mantém o botão. É controlado com o seguinte seletor de classe CSS:
+O rodapé tem um contêiner interno que mantém o botão. Ele é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**Propriedades CSS do contêiner do botão da caixa de diálogo**
+**Propriedades CSS do contêiner de botão da caixa de diálogo**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -363,7 +364,7 @@ O botão Selecionar tudo é controlado com o seguinte seletor de classe CSS:
 .s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton
 ```
 
-O botão só está disponível em sistemas de desktop.
+O botão só está disponível em sistemas desktop.
 
 **Propriedades CSS do botão Selecionar tudo**
 
@@ -378,19 +379,19 @@ O botão só está disponível em sistemas de desktop.
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor de fundo do botão para cada estado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->O botão Selecionar tudo suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>O botão Selecionar tudo é compatível com a `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
@@ -411,21 +412,21 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor de fundo do botão para cada estado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-Além disso, ambos os botões compartilham uma classe CSS comum que pode conter configurações CSS que são as mesmas para outros botões de caixa de diálogo:
+Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -437,14 +438,14 @@ Além disso, ambos os botões compartilham uma classe CSS comum que pode conter 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>Espessura da fonte do botão. </p> </td> 
+   <td colname="col2"> <p>Peso da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -452,19 +453,19 @@ Além disso, ambos os botões compartilham uma classe CSS comum que pode conter 
    <td colname="col2"> <p> Altura do texto dentro do botão. Afeta o alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sombra de caixa </span> </p> </td> 
-   <td colname="col2"> <p>Sombra. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col2"> <p>Sombra projetada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem direita </span> </p> </td> 
-   <td colname="col2"> <p>Margem do botão direito. </p> </td> 
+   <td colname="col2"> <p>Margem direita do botão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - para configurar um rodapé de caixa de diálogo com um botão Cancelar de 64 x 34, com cor de texto e cor de plano de fundo diferentes para cada estado de botão:
+Exemplo - para configurar um rodapé de caixa de diálogo com um botão Cancelar 64 x 34, com cores de texto e cores de plano de fundo diferentes para cada estado de botão:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter { 
@@ -524,22 +525,22 @@ Exemplo - para configurar um rodapé de caixa de diálogo com um botão Cancelar
 }
 ```
 
-A área de diálogo principal (entre o cabeçalho e o rodapé) contém conteúdo da caixa de diálogo. Em todos os casos, o componente gerencia a largura dessa área — não é possível defini-la em CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
+A área principal da caixa de diálogo (entre o cabeçalho e o rodapé) contém conteúdo da caixa de diálogo. Em todos os casos, o componente gerencia a largura dessa área; não é possível defini-la no CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Propriedades CSS da área de visualização da caixa de diálogo **
+**Propriedades CSS da área de exibição da caixa de diálogo **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
-   <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funcionar no modo de desktop. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar toda a janela do navegador. </p> </td> 
+   <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funciona no modo desktop. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar toda a janela do navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>A cor de fundo da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -549,7 +550,7 @@ A área de diálogo principal (entre o cabeçalho e o rodapé) contém conteúdo
  </tbody> 
 </table>
 
-Exemplo - para configurar uma área da caixa de diálogo principal para ter 300 pixels de altura, tenha uma margem de dez pixels e use um plano de fundo branco:
+Exemplo - para configurar uma área da caixa de diálogo principal com altura de 300 pixels, ter uma margem de dez pixels e usar um plano de fundo branco:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea { 
@@ -559,7 +560,7 @@ Exemplo - para configurar uma área da caixa de diálogo principal para ter 300 
 }
 ```
 
-Todo o conteúdo do formulário (como rótulos e campos de entrada) reside em um contêiner controlado com
+Todo o conteúdo do formulário (como rótulos e campos de entrada) reside dentro de um container controlado com
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody
@@ -576,7 +577,7 @@ Todo o conteúdo do formulário (como rótulos e campos de entrada) reside em um
  </tbody> 
 </table>
 
-Exemplo - para configurar o conteúdo do formulário para ter o preenchimento de dez pixels:
+Exemplo - para configurar o conteúdo do formulário para ter um preenchimento de dez pixels:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogbody { 
@@ -590,7 +591,7 @@ Todos os rótulos estáticos no formulário da caixa de diálogo são controlado
 .s7smartcropvideoviewer .s7linkdialog .s7dialoglabel
 ```
 
-Essa classe não é adequada para controlar o tamanho ou a posição do rótulo, pois você pode aplicá-lo a textos em vários lugares da interface do usuário do formulário.
+Essa classe não é adequada para controlar o tamanho ou a posição do rótulo porque você pode aplicá-la a textos em vários locais da interface do usuário do formulário.
 
 **Propriedades CSS do rótulo da caixa de diálogo. **
 
@@ -601,15 +602,15 @@ Essa classe não é adequada para controlar o tamanho ou a posição do rótulo,
    <td colname="col2"> <p>Espessura da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
-   <td colname="col2"> <p>Rotular família de fontes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>Família de fontes do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto do rótulo. </p> </td> 
   </tr> 
  </tbody> 
@@ -657,19 +658,19 @@ Exemplo - para definir a cópia de texto como 430 pixels de largura e ter um pre
 }
 ```
 
-O link de compartilhamento é encapsulado em um contêiner e controlado com o seguinte seletor de classe CSS:
+O link de compartilhamento é colocado em um container e controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**Propriedades CSS do contêiner de entrada da caixa de diálogo**
+**Propriedades CSS do container de entrada da caixa de diálogo**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
-   <td colname="col2"> <p>Borda em torno do contêiner de link de compartilhamento. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
+   <td colname="col2"> <p>Borda ao redor do contêiner de link compartilhado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> preenchimento </span> </p> </td> 
@@ -704,7 +705,7 @@ O próprio link de compartilhamento é controlado com o seguinte seletor de clas
  </tbody> 
 </table>
 
-Exemplo - para definir o link de compartilhamento como 450 pixels de largura:
+Exemplo - para definir o link de compartilhamento para ter 450 pixels de largura:
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialoglink { 

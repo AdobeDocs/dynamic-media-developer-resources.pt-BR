@@ -1,6 +1,6 @@
 ---
 title: Amostras
-description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito.
+description: As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais nos lados esquerdo e direito.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Amostras{#swatches}
 
-As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais no lado esquerdo e direito.
+As amostras consistem em uma linha de imagens em miniatura com botões de rolagem opcionais nos lados esquerdo e direito.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não puderem se encaixar na largura do contêiner. Em dispositivos móveis ou se as miniaturas couberem na largura do contêiner, os botões de rolagem não são exibidos.
+Os botões de rolagem só estarão visíveis na área de trabalho se todas as miniaturas não couberem na largura do container. Em dispositivos móveis, ou se as miniaturas puderem se ajustar à largura do contêiner, os botões de rolagem não serão exibidos.
 
 **Propriedades CSS das amostras**
 
@@ -37,7 +37,7 @@ A aparência do contêiner de amostras é controlada com o seguinte seletor de c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p> A largura das amostras. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ Exemplo - para configurar amostras para 460 x 100 pixels:
 }
 ```
 
-**Propriedades CSS do espaçamento da amostra em miniatura**
+**Propriedades CSS do espaçamento da amostra de miniatura**
 
 O espaçamento entre as miniaturas de amostra é controlado com o seletor de classe CSS:
 
@@ -78,12 +78,12 @@ O espaçamento entre as miniaturas de amostra é controlado com o seletor de cla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar o espaçamento para ter dez pixels, vertical e horizontalmente:
+Exemplo - para configurar o espaçamento como dez pixels verticalmente e horizontalmente:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -116,7 +116,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>A altura das amostras de miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>A borda das amostras de miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,9 +124,9 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura é compatível com o `state` seletor de atributos, que é usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao resto das miniaturas, e `state="over"` é usada ao passar o mouse.
+>A miniatura suporta o `state` seletor de atributos, que é usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
-Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada:
+Exemplo - para configurar miniaturas com 56 x 56 pixels, ter uma borda padrão cinza-claro e uma borda selecionada cinza-escuro:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -143,14 +143,14 @@ Exemplo - para configurar miniaturas com 56 x 56 pixels, tenha uma borda padrão
 
 **Propriedades CSS dos botões de rolagem esquerdo e direito**
 
-A aparência dos botões de rolagem esquerda e direita é controlada pelos seguintes seletores de classe CSS:
+A aparência dos botões de rolagem para a esquerda e para a direita é controlada com os seguintes seletores de classe CSS:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`e `right` propriedades. Em vez disso, a lógica do visualizador os posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -169,23 +169,23 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>A altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que é usado para aplicar diferentes capas aos estados do botão `up`, `down`, `over`e `disabled`.
+>Esse botão oferece suporte ao `state` seletor de atributo, que é usado para aplicar capas diferentes a estados de botão `up`, `down`, `over`, e `disabled`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 
-Exemplo - para configurar botões de rolagem que tenham 56 x 56 pixels e tenham arte-final diferente para cada estado:
+Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham um trabalho artístico diferente para cada estado:
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

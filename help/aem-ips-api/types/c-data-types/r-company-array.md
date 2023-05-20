@@ -1,7 +1,7 @@
 ---
-description: Uma matriz de empresas
+description: Uma série de empresas
 solution: Experience Manager
-title: CompanyArray
+title: Matriz da empresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c3a6849d-f17b-481c-a67c-a239af0a3d10
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL CompanyArray]{#companyarray}
 
-Uma matriz de empresas
+Uma série de empresas
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Company` | Uma matriz de empresas. |
+| itens | `types:Company` | Uma série de empresas. |

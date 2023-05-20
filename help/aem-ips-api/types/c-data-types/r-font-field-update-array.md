@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de atualizações de campo de fonte.
 solution: Experience Manager
-title: FontFieldUpdateArray
+title: MatrizDeAtualizaçãoDeCampoDeFonte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:FontFieldUpdate` | Um item na matriz de atualização do campo de fonte. |
+| itens | `types:FontFieldUpdate` | Um item na matriz de atualização do campo de fonte. |

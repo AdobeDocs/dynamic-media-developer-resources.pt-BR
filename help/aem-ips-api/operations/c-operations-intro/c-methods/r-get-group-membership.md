@@ -35,7 +35,7 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | userHandle | `xsd:string` | Não | O identificador para o usuário. |
-| companyHandle | `xsd:string` | Não | O nome da empresa. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa. |
 
 **Saída (getGroupMembershipReturn)**
 
@@ -45,7 +45,7 @@ Sintaxe
 
 ## Exemplos {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Essa amostra de código retorna todos os membros de um grupo. Como os identificadores de empresa e usuário são opcionais, a operação pode retornar todos os membros de todos os grupos.
+Esta amostra de código retorna todos os membros de um grupo. Como os identificadores de empresa e usuário são opcionais, a operação pode retornar todos os membros de todos os grupos.
 
 **Solicitação**
 

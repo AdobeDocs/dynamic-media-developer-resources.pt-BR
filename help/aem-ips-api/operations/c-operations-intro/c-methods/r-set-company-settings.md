@@ -31,14 +31,14 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | overwriteMode | `xsd:string` | Não | Modo de substituição de ativo. |
-| keepPublishState | `xsd:boolean` | Não | Defina como `true` para preservar o estado de publicação quando um ativo é carregado novamente. |
+| keepPublishState | `xsd:boolean` | Não | Defina como `true` para preservar o estado de publicação quando um ativo for recarregado. |
 | defaultSourceProfileHandle | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de origem padrão. |
 | defaultDisplayProfileHandle | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de exibição padrão. |
 | iptcExifMappingXsltHandle | `xsd:string` | Não | Ativo XSL usado para mapear metadados IPTC e EXIF para campos de metadados IPS. |
 | xmpMappingXsltHandle | `xsd:string` | Não | Ativo XSL usado para mapear metadados XMP para campos de metadados IPS. |
-| diskSpaceWarningMin | `xsd:int` | Não | Espaço mínimo em disco livre (em KB) disponível antes do envio de uma mensagem de aviso. |
+| diskSpaceWarningMin | `xsd:int` | Não | Mínimo de espaço livre em disco (em KB) disponível antes do envio de uma mensagem de aviso. |
 | emailTrashCleanupWarning | `xsd:boolean` | Não | Defina como `true` para enviar uma notificação aos administradores da empresa sempre que os ativos forem esvaziados da lixeira. |
 
 **Saída (setCompanySettingsReturn)**
@@ -47,7 +47,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 
-Essa amostra de código define a configuração de uma empresa.
+Esta amostra de código define a configuração de uma empresa.
 
 **Solicitação**
 

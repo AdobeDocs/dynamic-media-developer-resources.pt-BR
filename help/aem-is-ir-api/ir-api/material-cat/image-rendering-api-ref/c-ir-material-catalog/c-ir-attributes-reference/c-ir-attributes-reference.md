@@ -1,6 +1,6 @@
 ---
 title: Referência de atributos
-description: Todos os atributos do catálogo são opcionais, exceto o ID raiz do catálogo. Todos os atributos são necessários no arquivo de atributo do catálogo padrão (default.ini).
+description: Todos os atributos do catálogo são opcionais, exceto a RootId do catálogo. Todos os atributos são necessários no arquivo de atributo de catálogo padrão (default.ini).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referência de atributos{#attributes-reference}
 
-Todos os atributos do catálogo são opcionais, exceto catalog::RootId. Todos os atributos são necessários no arquivo de atributo do catálogo padrão (default.ini).
+Todos os atributos de catálogo são opcionais, exceto catalog::RootId. Todos os atributos são necessários no arquivo de atributo de catálogo padrão (default.ini).

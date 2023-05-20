@@ -16,6 +16,6 @@ ht-degree: 0%
 
 O valor de resolução de uma textura repetível ou outro material define o tamanho da imagem do material no espaço de coordenadas da cena.
 
-Os valores de resolução de textura são especificados em pixels por polegada (ou as unidades que a vinheta determinar para seu espaço de coordenadas de cena).
+Os valores de resolução da textura são especificados em pixels por polegada (ou quaisquer unidades que a vinheta determinar para seu espaço de coordenadas de cena).
 
 A resolução do material é especificada com `res=`.

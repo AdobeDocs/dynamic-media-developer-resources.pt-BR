@@ -1,5 +1,5 @@
 ---
-description: Um storage usado para designar o originador ou uma lista de até 5 endereços de email para receber a notificação de confirmação.
+description: Matriz usada para designar o originador ou uma lista de até cinco endereços de email para receber a notificação de confirmação.
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL EmailArray]{#emailarray}
 
-Um storage usado para designar o originador ou uma lista de até 5 endereços de email para receber a notificação de confirmação.
+Matriz usada para designar o originador ou uma lista de até cinco endereços de email para receber a notificação de confirmação.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `xsd:string` | endereços de email. |
+| itens | `xsd:string` | endereços de email. |

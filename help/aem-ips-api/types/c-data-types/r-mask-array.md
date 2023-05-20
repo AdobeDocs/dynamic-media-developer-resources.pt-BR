@@ -1,7 +1,7 @@
 ---
-description: Um conjunto de máscaras.
+description: Uma série de máscaras.
 solution: Experience Manager
-title: MaskArray
+title: MatrizMáscara
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a0539a30-051c-4442-abae-99588bdfff10
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL MaskArray]{#maskarray}
 
-Um conjunto de máscaras.
+Uma série de máscaras.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Mask` | Matriz de máscaras. |
+| itens | `types:Mask` | Matriz de máscaras. |

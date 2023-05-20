@@ -8,7 +8,7 @@ exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ Atributo de configuração para o Visualizador de vídeo interativo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> tooltip</span> é especificado, o texto do rótulo é exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> none</span> para desativar o rótulo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inferior|superior|esquerdo|direito|nenhum|dica de ferramenta</span> </p> </td> 
+   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem de amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> dica de ferramenta</span> for especificada, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> nenhum</span> para desativar o rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

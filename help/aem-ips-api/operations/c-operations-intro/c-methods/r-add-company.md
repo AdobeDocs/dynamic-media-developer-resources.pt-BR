@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Adiciona uma empresa ao sistema.
 
-Envia o nome da empresa a ser adicionada ao sistema e, como opção, envia se a empresa expira.
+Envia o nome da empresa a ser adicionada ao sistema e, opcionalmente, envia se a empresa expira.
 
-Quando esta operação é invocada, o sistema obtém um tipo companyInfo que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitado já existir no sistema, ele emitirá um `ipsApiFault`.
+Quando essa operação é chamada, o sistema obtém um tipo companyInfo que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitado já existir no sistema, ele acionará um `ipsApiFault`.
 
 ## Tipos de usuário autorizados {#section-ae926c7672984be79f6102748accab72}
 
@@ -44,13 +44,13 @@ Quando esta operação é invocada, o sistema obtém um tipo companyInfo que con
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O nome da empresa a ser adicionada. </p> </td> 
+   <td colname="col4"> <p>O nome da empresa a adicionar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira em</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>A data de expiração da empresa. Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para Hora central. </p> </td> 
+   <td colname="col4"> <p>A data de vencimento da empresa. Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para a Hora central. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,14 +71,14 @@ Quando esta operação é invocada, o sistema obtém um tipo companyInfo que con
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Manipule e nomeie, caminho raiz, data de expiração e hora da nova empresa. </p> </td> 
+   <td colname="col4"> <p>Processe e nomeie, o caminho raiz, a data de expiração e a hora da nova empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemplos {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Este exemplo demonstra uma solicitação para adicionar uma empresa ao sistema IPS e a resposta detalhando as informações sobre a empresa adicionada, necessárias para executar outras operações.
+Este exemplo demonstra uma solicitação para adicionar uma empresa ao sistema IPS e a resposta detalhando as informações sobre a empresa adicionada necessárias para executar outras operações.
 
 **Solicitação**
 

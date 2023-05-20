@@ -1,5 +1,5 @@
 ---
-title: MacroFile
+title: ArquivoMacro
 description: Caminho do arquivo de definições de macro. Especifica o arquivo que contém as definições de macro para este catálogo de materiais.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# MacroFile{#macrofile}
+# ArquivoMacro{#macrofile}
 
 Caminho do arquivo de definições de macro. Especifica o arquivo que contém as definições de macro para este catálogo de materiais.
 
 ## Propriedades {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
-Valor da string de texto. Caminho ou caminho de arquivo absoluto relativo à pasta de catálogo.
+Valor da string de texto. Caminho absoluto do arquivo ou caminho relativo para a pasta do catálogo.
 
 ## Padrão {#section-1ceb724a30444a5fbb870105b83c212c}
 

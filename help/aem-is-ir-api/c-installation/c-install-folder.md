@@ -1,6 +1,6 @@
 ---
-title: Instalar pasta
-description: A pasta de instalação do Image Serving (install_folder) é install_root/ImageServing.
+title: Pasta de instalação
+description: A pasta de instalação do Servidor de imagens (install_folder) é install_root/ImageServing.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Instalar pasta{#install-folder}
+# Pasta de instalação{#install-folder}
 
-A pasta de instalação do Image Serving (install_folder) é install_root/ImageServing.
+A pasta de instalação do Servidor de imagens (install_folder) é install_root/ImageServing.
 
-*[!DNL install_root]* o padrão é `C:\Program Files\Scene7` no Windows (um diferente *[!DNL install_root]* pode ser selecionada durante a instalação). No Linux®, *[!DNL install_root]* deve ser sempre [!DNL /usr/local/scene7] (podem ser usados links simbólicos).
+*[!DNL install_root]* toma como padrão `C:\Program Files\Scene7` no Windows (um sistema *[!DNL install_root]* pode ser selecionada durante a instalação). No Linux®, *[!DNL install_root]* deve ser sempre [!DNL /usr/local/scene7] (links simbólicos podem ser usados).
 
-Neste documento, *[!DNL install_folder]* pode fazer-se representar por &quot; [!DNL ./]&quot;.
+Neste documento, *[!DNL install_folder]* pode ser representado por &quot; [!DNL ./]&#39;.
 
-Todos os caminhos de arquivo fazem distinção entre maiúsculas e minúsculas no UNIX® e não fazem distinção entre maiúsculas e minúsculas no Windows.
+Todos os caminhos de arquivos fazem distinção entre maiúsculas e minúsculas no UNIX® e entre maiúsculas e minúsculas no Windows.

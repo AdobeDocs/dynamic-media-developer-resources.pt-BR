@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de históricos de publicação.
+description: Uma série de históricos de publicação.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-Uma matriz de históricos de publicação.
+Uma série de históricos de publicação.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:PublishHistory` | A matriz do histórico de publicação. |
+| itens | `types:PublishHistory` | A matriz do histórico de publicação. |

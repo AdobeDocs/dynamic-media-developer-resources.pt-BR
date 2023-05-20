@@ -1,5 +1,5 @@
 ---
-description: Registro da string de pesquisa extraído de um arquivo PDF.
+description: Registro de cadeia de caracteres de pesquisa extraído de um arquivo PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Registro da string de pesquisa extraído de um arquivo PDF.
+Registro de cadeia de caracteres de pesquisa extraído de um arquivo PDF.
 
 Sintaxe
 
@@ -22,12 +22,12 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| searchString | `xsd:string` | Texto da string de pesquisa. |
-| keywordsArray | `types:KeywordsArray` | Matriz de palavras-chave na string de pesquisa. |
-| status | `xsd:boolean` | True se a string de pesquisa for válida e ativada. |
-| x | `xsd:int` | Posição do eixo X da string de pesquisa. |
-| y | `xsd:int` | Posição do eixo Y da string de pesquisa. |
+| searchString | `xsd:string` | Texto da sequência de caracteres de pesquisa. |
+| keywordsArray | `types:KeywordsArray` | Matriz de palavras-chave na cadeia de caracteres de pesquisa. |
+| status | `xsd:boolean` | True se a cadeia de caracteres de pesquisa for válida e habilitada. |
+| x | `xsd:int` | Posição do eixo X da cadeia de caracteres de pesquisa. |
+| y | `xsd:int` | Posição do eixo Y da cadeia de caracteres de pesquisa. |
 | largura | `xsd:int` | Largura da string de pesquisa. |
 | altura | `xsd:int` | Altura da string de pesquisa. |
-| fontName | `xsd:string` | Nome da fonte usada na string de pesquisa. |
+| fontName | `xsd:string` | Nome da fonte usada na cadeia de caracteres de pesquisa. |
 | pointSize | `xsd:string` | Tamanho da fonte. |

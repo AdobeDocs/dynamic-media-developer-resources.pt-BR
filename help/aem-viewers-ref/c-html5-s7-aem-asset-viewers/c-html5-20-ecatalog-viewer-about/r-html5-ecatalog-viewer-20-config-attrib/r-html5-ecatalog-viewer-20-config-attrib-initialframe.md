@@ -1,6 +1,6 @@
 ---
-title: InitialFrame
-description: InitialFrame
+title: Quadro inicial
+description: Quadro inicial
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -8,11 +8,11 @@ exl-id: 28b6b981-94f6-4136-b322-992e18d154db
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# InitialFrame{#initialframe}
+# Quadro inicial{#initialframe}
 
 ` initialFrame= *`quadro`*`
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> quadro</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica um índice de propagação com base em zero a ser exibido na carga do visualizador. O índice corresponde ao índice do spread no modo paisagem. Se o visualizador for girado para o modo retrato, o visualizador exibirá a página mais à esquerda da página espelhada apontada pelo <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Especifica um índice espelhado de base zero a ser exibido na carga do visualizador. O índice corresponde ao índice da página espelhada no modo paisagem. Se o visualizador for girado para retrato, ele exibirá a página mais à esquerda da página espelhada apontada pelo <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

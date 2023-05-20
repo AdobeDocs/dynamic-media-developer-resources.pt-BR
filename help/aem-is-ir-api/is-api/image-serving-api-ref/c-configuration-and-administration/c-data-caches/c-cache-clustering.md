@@ -1,33 +1,33 @@
 ---
-description: O clustering de cache permite que vários servidores com balanceamento de carga troquem entradas de cache no cache de resposta principal e no cache de dados secundário (para solicitações aninhadas/incorporadas), com o potencial para aumentar significativamente a capacidade de resposta do servidor, eliminando a necessidade de gerar a mesma entrada de cache em vários servidores.
+description: O agrupamento de cache permite que vários servidores com balanceamento de carga troquem entradas de cache no cache de resposta principal e no cache de dados secundário (para solicitações aninhadas/incorporadas), com o potencial de aumentar significativamente a capacidade de resposta do servidor, eliminando a necessidade de gerar a mesma entrada de cache em vários servidores.
 solution: Experience Manager
-title: Cluster do cache
-feature: Dynamic Media Classic, SDK/API
+title: Cluster de cache
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d1bea565-ac4e-4717-a53f-cbe706664598
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# Cluster do cache{#cache-clustering}
+# Cluster de cache{#cache-clustering}
 
-O clustering de cache permite que vários servidores com balanceamento de carga troquem entradas de cache no cache de resposta principal e no cache de dados secundário (para solicitações aninhadas/incorporadas), com o potencial para aumentar significativamente a capacidade de resposta do servidor, eliminando a necessidade de gerar a mesma entrada de cache em vários servidores.
+O agrupamento de cache permite que vários servidores com balanceamento de carga troquem entradas de cache no cache de resposta principal e no cache de dados secundário (para solicitações aninhadas/incorporadas), com o potencial de aumentar significativamente a capacidade de resposta do servidor, eliminando a necessidade de gerar a mesma entrada de cache em vários servidores.
 
-Se configurado, quando um servidor recebe uma solicitação de um item que não está no cache local, ele entra em contato com os servidores de mesmo nível no cluster. Ele verifica se já tem esse item de dados antes de solicitar ao Servidor de imagem que gere o item.
+Se configurado dessa forma, quando um servidor recebe uma solicitação para um item que não está no cache local, ele contata os servidores pares no cluster. Ele verifica se eles já têm esse item de dados antes de solicitar que o Servidor de imagens gere o item.
 
-O armazenamento em cluster de cache beneficia principalmente os aplicativos que envolvem conteúdo altamente armazenável em cache. As cargas do servidor devem ser significativamente reduzidas durante a implantação inicial e ao entrar em operação com novos conteúdos.
+O agrupamento de cache beneficia principalmente os aplicativos que envolvem conteúdo altamente armazenável em cache. As cargas do servidor devem ser significativamente reduzidas durante a implantação inicial e ao entrar em funcionamento com novos conteúdos.
 
-Os tempos limite e outras salvaguardas garantem que o sistema continue a funcionar com toda a capacidade, mesmo quando um ou mais dos servidores de mesmo nível estiverem offline.
+Os tempos limite e outras proteções garantem que o sistema continue a funcionar com capacidade total mesmo quando um ou mais servidores de mesmo nível estiverem offline.
 
-O cluster de cache pode operar em uma das duas configurações básicas:
+O cluster armazenado em cache pode operar em uma das duas configurações básicas:
 
-* Quando `PS::cacheCluster.updateLocalCache` está ativado (padrão), qualquer entrada de cache encontrada em um servidor de mesmo nível é copiada para o cache local.
+* Quando `PS::cacheCluster.updateLocalCache` estiver ativado (padrão), qualquer entrada de cache encontrada em um servidor par será copiada para o cache local.
 
-   Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também fornece os tempos de resposta mais rápidos a custo de ter todas as entradas de cache replicadas para todos os servidores no cluster. Essa é a configuração recomendada.
+   Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também oferece os tempos de resposta mais rápidos, ao custo de ter todas as entradas de cache replicadas para todos os servidores do cluster. Essa é a configuração recomendada.
 
-* Quando `PS::cacheCluster.updateLocalCache` está desativado, os dados de outros servidores não são copiados para o cache local.
+* Quando `PS::cacheCluster.updateLocalCache` estiver desativado, os dados de outros servidores não serão copiados para o cache local.
 
-   Isso multiplica o espaço em disco disponível para dados de cache. No entanto, aumenta o tráfego entre os servidores de mesmo nível e reduz os tempos de resposta gerais. Use essa configuração somente quando vir taxas de ocorrência de cache baixas.
+   Isso multiplica o espaço em disco disponível para dados do cache. No entanto, aumenta o tráfego entre os servidores de peer e reduz os tempos de resposta geral. Use essa configuração somente quando você vir taxas de ocorrência de cache baixas.

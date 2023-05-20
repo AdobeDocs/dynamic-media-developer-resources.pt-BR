@@ -44,7 +44,7 @@ Nenhum.
 
 ## Exemplos {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Essa amostra de código gera uma senha. Isso é incomum porque a solicitação é simplesmente um parâmetro sem elementos ou valores delimitados. O IPS retorna uma senha forte.
+Este exemplo de código gera uma senha. Isso é incomum porque a solicitação é simplesmente um parâmetro sem elementos ou valores incluídos. O IPS retorna uma senha forte.
 
 **Solicitação**
 

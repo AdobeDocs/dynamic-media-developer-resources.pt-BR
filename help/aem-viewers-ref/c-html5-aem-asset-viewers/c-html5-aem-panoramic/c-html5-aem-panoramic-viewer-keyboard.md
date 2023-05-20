@@ -1,5 +1,5 @@
 ---
-title: Acessibilidade e navegação do teclado
+title: Acessibilidade e navegação pelo teclado
 description: Todos os recursos expostos na interface do usuário do visualizador são acessíveis pelo teclado.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Acessibilidade e navegação do teclado{#keyboard-accessibility-and-navigation}
+# Acessibilidade e navegação pelo teclado{#keyboard-accessibility-and-navigation}
 
 Todos os recursos expostos na interface do usuário do visualizador são acessíveis pelo teclado.
-O usuário final pode usar `Left`, `Right`, `UP` e `DOWN` pressionamentos de teclas para deslocar a imagem.
-O `Esc` pressionamento de tecla pode ser usado para redefinir a imagem.
+O usuário final pode usar `Left`, `Right`, `UP` e `DOWN` pressionamentos de tecla para deslocar a imagem.
+A variável `Esc` é possível usar o pressionamento de tecla para redefinir a imagem.
 

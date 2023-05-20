@@ -1,5 +1,5 @@
 ---
-description: Cria um conjunto de ativos genéricos com uma string de definição de conjunto bruto a ser publicado em um Servidor de imagens.
+description: Cria um conjunto de ativos genérico com uma cadeia de caracteres de definição de conjunto bruto a ser publicada em um Servidor de imagens.
 solution: Experience Manager
 title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # createAssetSet{#createassetset}
 
-Cria um conjunto de ativos genéricos com uma string de definição de conjunto bruto a ser publicado em um Servidor de imagens.
+Cria um conjunto de ativos genérico com uma cadeia de caracteres de definição de conjunto bruto a ser publicada em um Servidor de imagens.
 
 Sintaxe
 
@@ -51,7 +51,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O identificador da pasta em que o novo conjunto de ativos é criado. </td> 
+   <td colname="col4"> O identificador da pasta na qual o novo conjunto de ativos é criado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
@@ -69,40 +69,40 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Os parâmetros na string de definição do conjunto. <p>Eles devem resolver para o formato especificado pelo visualizador de destino. </p> </td> 
+   <td colname="col4"> Os parâmetros na cadeia de caracteres de definição do conjunto. <p>Eles devem ser resolvidos no formato especificado pelo visualizador de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. </td> 
+   <td colname="col4"> Identificador do ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Funções de Substituição para setDefinition**
+**Funções de substituição para setDefinition**
 
-Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa ou publicação do catálogo. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são enumeradas abaixo.
+Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa de catálogo ou publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são enumeradas abaixo.
 
 >[!NOTE]
 >
->Os literais de identificador nas listas de parâmetros devem ser cercados por colchetes `([])`. Todo o texto que está fora de uma sequência de substituição é copiado verbatim para a sequência de saída durante a resolução.
+>Os literais de identificador em listas de parâmetros devem estar entre colchetes `([])`. Todo o texto que está fora de uma cadeia de caracteres de substituição é copiado textualmente para a cadeia de caracteres de saída durante a resolução.
 
-| **Função de Substituição** | **Devoluções** |
+| **Função de substituição** | **Devoluções** |
 |---|---|
 | `getFilePath([asset_handle>])` | O caminho do arquivo de origem principal do ativo. |
-| `getCatalogId([<asset_handle>])` | A ID de catálogo do ativo. |
+| `getCatalogId([<asset_handle>])` | A ID do catálogo do ativo. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valores de metadados para o ativo. |
-| `getThumbCatalogId([<asset_handle>])` | A ID de catálogo do ativo (somente para ativos baseados em imagem). A ID de catálogo do ativo de miniatura associada (para outros ativos). Se um ativo de miniatura associado não estiver disponível, a função retornará uma string vazia. |
+| `getThumbCatalogId([<asset_handle>])` | A ID do catálogo do ativo (somente para ativos baseados em imagem). A ID do catálogo do ativo de miniatura associado (para outros ativos). Se um ativo de miniatura associado não estiver disponível, a função retornará uma cadeia de caracteres vazia. |
 
-**Sequência de caracteres de definição de conjunto de mídia de amostra**
+**Exemplo de cadeia de caracteres de definição de conjunto de mídia**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-No momento da pesquisa ou publicação do catálogo, isso é resolvido como uma sequência de caracteres semelhante ao seguinte:
+No momento da pesquisa ou publicação do catálogo, isso é resolvido como uma string semelhante ao seguinte:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

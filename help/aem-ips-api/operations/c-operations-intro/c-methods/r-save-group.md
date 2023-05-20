@@ -1,5 +1,5 @@
 ---
-description: Crie ou edite um grupo.
+description: Criar ou editar um grupo.
 solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # saveGroup{#savegroup}
 
-Crie ou edite um grupo.
+Criar ou editar um grupo.
 
 Sintaxe
 
@@ -33,7 +33,7 @@ Sintaxe
 | companyHandle | `xsd:string` | Sim | O identificador da empresa com o grupo que você deseja salvar. |
 | groupHandle | `xsd:string` | Não | O identificador do grupo. |
 | name | `xsd:string` | Sim | Nome do grupo. |
-| isSystemDefined | `xsd:boolean` | Sim | `false` é padrão. |
+| isSystemDefined | `xsd:boolean` | Sim | `false` é o padrão. |
 
 **Saída (saveGroupReturn)**
 
@@ -43,7 +43,7 @@ Sintaxe
 
 ## Exemplos {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Essa amostra de código cria um grupo que pertence a uma empresa específica. Se o grupo já existir, ele será salvo com os valores de parâmetro especificados.
+Esta amostra de código cria um grupo que pertence a uma empresa específica. Se o grupo já existir, ele será salvo com os valores de parâmetro especificados.
 
 **Solicitação**
 

@@ -1,6 +1,6 @@
 ---
 title: Vinhetas
-description: Vinhetas são imagens criadas com o Dynamic Media Image Authoring para uso com o Image Rendering.
+description: As vinhetas são imagens criadas com a Criação de imagem do Dynamic Media para uso com a Renderização de imagem.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,35 +14,35 @@ ht-degree: 0%
 
 # Vinhetas{#vignettes}
 
-Vinhetas são imagens criadas com o Dynamic Media Image Authoring para uso com o Image Rendering.
+As vinhetas são imagens criadas com a Criação de imagem do Dynamic Media para uso com a Renderização de imagem.
 
-A IR suporta dois tipos básicos de vinhetas: *2D* e *3D*. As cenas da sala normalmente são vinhetas 3D que podem renderizar reflexos, enquanto a maioria das outras cenas, como vestuário ou estofo, normalmente são vinhetas 2D que não têm capacidade de renderização de reflexo.
+O IR suporta dois tipos básicos de vinhetas: *2D* e *3D*. Cenas de quartos normalmente são vinhetas 3D que podem renderizar reflexos, enquanto a maioria das outras cenas, como vestuário ou estofamento, são normalmente vinhetas 2D que não têm capacidade de renderização de reflexão.
 
-As vinhetas contêm uma *exibir* e uma hierarquia de *objetos*.
+As vinhetas contêm um *exibir* e uma hierarquia de *objetos*.
 
-A exibição é o contêiner da imagem principal, mapas de iluminação compartilhada, mapas de reflexão compartilhados e outros dados associados à imagem inteira.
+A exibição é o contêiner da imagem principal, mapas de iluminação compartilhados, mapas de reflexão compartilhados e outros dados associados à imagem inteira.
 
-A hierarquia de objetos consiste em *grupos de objetos*, *objetos padrão* e *objetos de sobreposição*.
+A hierarquia de objetos consiste em *grupos de objetos*, *objetos padrão*, e *objetos sobrepostos*.
 
-Cada objeto padrão controla uma área da imagem de exibição, definida com uma escala de cinza *máscara*. As máscaras de objetos padrão nunca se sobrepõem. Os objetos padrão não podem ser ocultos diretamente, mas podem ser cobertos parcial ou totalmente por objetos sobrepostos. A maioria ou todos os objetos em uma vinheta típica são objetos padrão.
+Cada objeto padrão controla uma área da imagem de exibição, definida com uma escala de cinza *máscara*. As máscaras de objetos padrão nunca se sobrepõem. Objetos padrão não podem ser ocultos diretamente, mas podem ser parcial ou totalmente cobertos por objetos sobrepostos. A maioria ou todos os objetos em uma vinheta típica são objetos padrão.
 
-Sobrepor objetos em camadas na parte superior da imagem de exibição e entre si. A ordem de sobreposição é definida por um valor z atribuído ao objeto. Objetos de sobreposição são úteis quando partes de uma cena devem ser mostradas ou ocultas dinamicamente.
+Sobrepor a camada de objetos na parte superior da imagem da exibição e entre si. A ordem de sobreposição é definida por um valor z atribuído ao objeto. Objetos sobrepostos são úteis quando partes de uma cena devem ser exibidas ou ocultadas dinamicamente.
 
-Vários tipos de objetos são suportados (padrão e sobreposição), cada um com seu próprio propósito distinto:
+Vários tipos de objetos são suportados (padrão e sobreposição), com cada um tendo sua própria finalidade distinta:
 
-* **Objetos planos** (em vinhetas 3D) e **objetos planos** (em vinhetas 2D) aceitar materiais de textura repetíveis. Normalmente, são usadas para pisos, contratops e outras superfícies planas que exigem apenas o mapeamento de perspectiva.
-* **Objetos Flowline** mapeie superfícies curvas em forma suave, como estofo, e são ocasionalmente usadas para objetos de vestuário também. Elas podem ser usadas em vinhetas 2D e 3D e, se criadas totalmente, participam da renderização de reflexão.
-* **Objetos não texturizáveis** permitir apenas alterações de cor. Elas são permitidas em vinhetas 2D e 3D. Eles são inerentemente não texturizáveis ou podem ser um objeto plano ou flowline com um sinalizador especial &quot;Sem textura&quot; definido. Esse método é útil em vinhetas 3D para permitir que objetos participem da renderização de reflexão, mesmo que o objeto aceite apenas materiais de cor sólida.
-* **Objetos de rascunho** são mais usados para objetos de malha com dobras e rugas, como itens de vestuário. Como objetos flowline, eles podem ser usados em vinhetas 2D e 3D, embora o aplicativo em vinhetas 3D seja limitado.
-* **Objetos de parede** são semelhantes a objetos planares e são compatíveis apenas com vinhetas 3D. Eles têm informações especiais de layout que permitem a aplicação de dois acabamentos de parede diferentes (superior e inferior) e até três materiais de borda de parede. Quando criados corretamente, os materiais aplicados nas paredes fluem com precisão e facilidade entre paredes adjacentes, para aplicações realistas de borda de papel de parede/parede. Objetos de mural não suportam rotação de textura.
-* **Objetos de gabinete** são permitidas somente em vinhetas 3D. Eles são usados para criar armários de cozinha e banho com requisitos complexos de layout. Objetos de gabinete aceitam texturas repetíveis e especialmente criadas *arquivos de estilo do gabinete* contendo imagens redimensionáveis do painel do gabinete.
+* **Objetos planos** (em vinhetas 3D) e **objetos planos** (em vinhetas 2D) aceite materiais de textura repetíveis. Normalmente, são usados para pisos, bancadas e outras superfícies planas que exigem apenas mapeamento de perspectiva.
+* **Objetos Flowline** mapeie superfícies curvas em forma suave, como estofos, e ocasionalmente também são usadas para objetos de vestuário. Eles podem ser usados em vinhetas 2D e 3D e, se forem totalmente criados, participam da renderização de reflexão.
+* **Objetos não texturáveis** só permitir alterações de cor. Eles são permitidos em vinhetas 2D e 3D. Eles são inerentemente não texturáveis ou podem ser um objeto planar ou fluxograma com um sinalizador especial &quot;Sem Textura&quot; definido. Esse método é útil em vinhetas 3D para permitir que os objetos participem da renderização de reflexão, mesmo que o objeto aceite apenas materiais de cores sólidas.
+* **Objetos de rascunho** são mais adequadas para objetos de tecido com dobras e rugas, como peças de vestuário. Como objetos de linha de fluxo, eles podem ser usados em vinhetas 2D e 3D, embora a aplicação em vinhetas 3D seja limitada.
+* **Objetos da parede** são semelhantes a objetos planos e são compatíveis apenas com vinhetas 3D. Eles têm informações de layout especiais que permitem a aplicação de dois acabamentos de parede diferentes (superior e inferior) e até três materiais de borda de parede. Quando adequadamente criados, os materiais aplicados às paredes fluem com precisão e perfeição entre as paredes adjacentes, para aplicações realistas de borda de papel de parede/papel de parede. Os objetos de parede não oferecem suporte à rotação de textura.
+* **Objetos do gabinete** são permitidos somente em vinhetas 3D. Eles são usados para criar armários de cozinha e banheiro com requisitos complexos de layout. Objetos de gabinete aceitam texturas repetíveis e são especialmente criados *arquivos de estilo do gabinete* contendo imagens redimensionáveis do painel do gabinete.
 
-Além dos tipos básicos de objetos, dois tipos especiais de objetos de sobreposição são suportados:
+Além dos tipos de objetos básicos, há suporte para dois tipos especiais de objetos sobrepostos:
 
-* **Objetos de sobreposição estática** são objetos que não aceitam materiais. Elas são permitidas em vinhetas 2D e 3D. Eles são úteis para acessórios removíveis em uma cena de sala, para sombras traseiras de objetos de sobreposição renderizáveis e aplicativos semelhantes.
-* **Objetos de estrutura de revestimento de janelas** forneça informações de posicionamento para aplicar arquivos de estilo de cobertura de janela, que são criados independentemente da vinheta e podem ser compartilhados entre vinhetas.
+* **Objetos de sobreposição estáticos** são objetos que não aceitam materiais. Eles são permitidos em vinhetas 2D e 3D. Eles são úteis para acessórios removíveis na cena de uma sala, para sombras projetadas atrás de objetos de sobreposição renderizáveis e aplicativos semelhantes.
+* **Janela que cobre os objetos do quadro** forneça informações de posicionamento para aplicar arquivos de estilo de coberturas de janelas, que são criados independentemente da vinheta e podem ser compartilhados entre vinhetas.
 
-Os objetos são coletados em *grupos de objetos*, semelhante a um sistema de arquivos. O agrupamento é normalmente baseado na estrutura dos objetos físicos que eles representam (por exemplo, um grupo &#39;Todos os gabinetes&#39; pode conter &#39;Gabinetes base&#39; e &#39;Gabinetes de mural&#39;). É permitido qualquer número de níveis de grupo. O agrupamento suporta a aplicação de materiais em vários objetos semelhantes.
+Os objetos são coletados em *grupos de objetos*, semelhante a um sistema de arquivos. O agrupamento normalmente se baseia na estrutura dos objetos físicos que eles representam (por exemplo, um grupo &quot;Todos os gabinetes&quot; pode conter &quot;Gabinetes de base&quot; e &quot;Gabinetes de parede&quot;). Qualquer número de níveis de grupo é permitido. O agrupamento suporta a aplicação de materiais a múltiplos objetos semelhantes.
 
 * [Coordenadas da cena](c-ir-scene-coordinates.md)
 * [Resolução de material](c-ir-material-resolution.md)

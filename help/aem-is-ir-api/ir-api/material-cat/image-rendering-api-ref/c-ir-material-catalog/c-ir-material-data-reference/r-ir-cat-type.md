@@ -1,29 +1,29 @@
 ---
-description: Tipo de material. Tipo de superfície do material. Usado em conjunto com o glossário de catálogo e a Rigidez do catálogo para controlar os efeitos de renderização da reflexão 3D.
+description: Tipo de Material. Tipo de superfície do material. Usado em conjunto com o catálogo Brilho e Rugosidade do catálogo para controlar efeitos de renderização de reflexão 3D.
 solution: Experience Manager
 title: Tipo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 14%
+source-wordcount: '133'
+ht-degree: 15%
 
 ---
 
 # Tipo{#type}
 
-Tipo de material. Tipo de superfície do material. Usado em conjunto com catalog::Glossário e catálogo::Rigidez para controlar efeitos de renderização de reflexo 3D.
+Tipo de Material. Tipo de superfície do material. Usado em conjunto com catálogo::Brilho e catálogo::Rugosidade para controlar efeitos de renderização de reflexão 3D.
 
 ## Propriedades {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum recurso de renderização de reflexo 3D.
+Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver recurso de renderização de reflexo 3D.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Desconhecido, o servidor usa o padrão . </p> </td> 
+  <td class="stentry"> <p>Desconhecido, servidor usa padrão. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -34,24 +34,24 @@ Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum 
   <td class="stentry"> <p>Madeira natural. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Metais polidos. </p> </td> 
+  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>Metal polido. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Metais escovados. </p> </td> 
+  <td class="stentry"> <p>Metal escovado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Metais antiquados. </p> </td> 
+  <td class="stentry"> <p>Metal antiquado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Tinta. </p> </td> 
+  <td class="stentry"> <p>Pinta. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>Enamel/Lacquer. </p> </td> 
+  <td class="stentry"> <p>Esmalte/verniz. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
@@ -62,44 +62,44 @@ Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum 
   <td class="stentry"> <p>Plástico. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>10º </p> </td> 
-  <td class="stentry"> <p>Superfície sólida. </p> </td> 
+  <td class="stentry"> <p>10 </p> </td> 
+  <td class="stentry"> <p>Superfície sólida </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>11º </p> </td> 
-  <td class="stentry"> <p>Laminato. </p> </td> 
+  <td class="stentry"> <p>11 </p> </td> 
+  <td class="stentry"> <p>Laminado. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>12º </p> </td> 
+  <td class="stentry"> <p>12 </p> </td> 
   <td class="stentry"> <p>Vinil. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>13º </p> </td> 
+  <td class="stentry"> <p>13 </p> </td> 
   <td class="stentry"> <p>Cerâmica. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>14. </p> </td> 
+  <td class="stentry"> <p>14 </p> </td> 
   <td class="stentry"> <p>Pedra natural. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>15. </p> </td> 
+  <td class="stentry"> <p>15 </p> </td> 
   <td class="stentry"> <p>Vidro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>16º </p> </td> 
+  <td class="stentry"> <p>16 </p> </td> 
   <td class="stentry"> <p>Espelho. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>17º </p> </td> 
+  <td class="stentry"> <p>17 </p> </td> 
   <td class="stentry"> <p>Malha. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>18º </p> </td> 
-  <td class="stentry"> <p>Roupa de porco. </p> </td> 
+  <td class="stentry"> <p>18 </p> </td> 
+  <td class="stentry"> <p>Tecido puro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>19º </p> </td> 
-  <td class="stentry"> <p>Carpete. </p> </td> 
+  <td class="stentry"> <p>19 </p> </td> 
+  <td class="stentry"> <p>Tapete. </p> </td> 
  </tr> 
 </table>
 
@@ -109,4 +109,4 @@ Enum. Opcional para todos os materiais. Ignorado se a vinheta não tiver nenhum 
 
 ## Consulte também {#section-a51850093b7140e683a0f8b07845843c}
 
-[catálogo::Brilho](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [catálogo::Rigidez](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [tipo=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[catálogo::Brilho](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) , [catálogo::Rugosidade](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99), [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)

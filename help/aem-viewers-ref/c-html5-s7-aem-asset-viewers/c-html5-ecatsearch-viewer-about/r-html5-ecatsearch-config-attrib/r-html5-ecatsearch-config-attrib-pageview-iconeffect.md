@@ -2,37 +2,37 @@
 description: PageView.iconEffect
 solution: Experience Manager
 title: PageView.iconEffect
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eb2196cb-b771-4828-8390-cd9e3fe6c57e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 1%
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
 
 # PageView.iconEffect{#pageview-iconeffect}
 
-[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`]
+[!DNL `[PageView.|<containerId>_pageView.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`]
 
 <table id="table_DD66FFC263A34220876DD204BFE62D49"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que o ícone <span class="codeph"></span> seja exibido na parte superior da imagem quando ela está em um estado de redefinição e é sugestivo de uma ação disponível para interagir com a imagem. </p> </td> 
+   <td colname="col2"> <p> Ativa o <span class="codeph"> iconeffect</span> para ser exibida na parte superior da imagem quando ela estiver em um estado de redefinição e for sugestivo de uma ação disponível para interagir com a imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o número máximo de vezes em que o ícone <span class="codeph"></span> aparece e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone sempre aparece indefinidamente. </p> </td> 
+   <td colname="col2"> <p> Especifica o número máximo de vezes que o <span class="codeph"> iconeffect</span> é exibido e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone sempre reaparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> desaparecer</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica a duração da animação show ou hide, em segundos. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
+   <td colname="col2"> <p>Especifica a duração da animação de exibição ou ocultação, em segundos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Define o número de segundos em que o ícone <span class="codeph"></span> permanece totalmente visível antes de se ocultar automaticamente. Ou seja, o tempo depois que a animação de esmaecimento é concluída, mas antes do início da animação de esmaecimento. Uma configuração de <span class="codeph"> 0</span> desativa o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p>Define o número de segundos que a variável <span class="codeph"> iconeffect</span> O fica totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo após a conclusão da animação de fade-in, mas antes do início da animação de fade-out. Uma configuração de <span class="codeph"> 0</span> desativa o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
+description: Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de tarefas desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de trabalho desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
+Obtém os logs de trabalho de um ativo. Os itens retornados na matriz contêm informações detalhadas sobre cada entrada no log de tarefas desse ativo. O campo de resposta logMessage é localizado com base no campo authHeader.
 
 Sintaxe
 
@@ -37,17 +37,17 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
-| assetHandle | `xsd:string` | Sim | O identificador para o ativo com os logs de trabalho a serem recuperados. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo com os logs de trabalho a serem recuperados. |
 
 **Saída (getAssetJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| jobLogArray | `types:AssetJobLogArray` | Sim | Matriz de log da tarefa. |
+| jobLogArray | `types:AssetJobLogArray` | Sim | Matriz de log de trabalho. |
 
 ## Exemplos {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Essa amostra de código recupera os logs de trabalho de um ativo específico. A resposta retorna uma matriz de log de trabalhos com informações detalhadas sobre todas as tarefas em que o ativo foi usado.
+Esta amostra de código recupera os logs de trabalho de um ativo específico. A resposta retorna uma matriz de logs de trabalho com informações detalhadas sobre todos os trabalhos nos quais o ativo foi usado.
 
 **Solicitação**
 

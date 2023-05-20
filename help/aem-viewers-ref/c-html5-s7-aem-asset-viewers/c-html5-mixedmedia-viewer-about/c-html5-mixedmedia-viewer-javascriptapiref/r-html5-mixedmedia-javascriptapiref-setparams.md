@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o Visualizador de mídia mista.
+description: Referência da API JavaScript para o Visualizador de mix de mídia.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o Visualizador de mídia mista.
+Referência da API JavaScript para o Visualizador de mix de mídia.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Assim como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Assim como em uma sequência de consulta, os nomes e os valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

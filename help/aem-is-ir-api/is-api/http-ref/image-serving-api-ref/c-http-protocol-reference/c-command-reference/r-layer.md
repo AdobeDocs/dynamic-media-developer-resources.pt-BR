@@ -35,25 +35,25 @@ Selecione Camada. Seleciona uma camada e inicia um novo segmento de definição 
  </tr> 
 </table>
 
-Todos os comandos no segmento de camada são aplicados à camada especificada. Um segmento de camada é finalizado pelo próximo `layer=` ou `effect=` ou o fim da solicitação.
+Todos os comandos dentro do segmento de camada são aplicados à camada especificada. Um segmento de camada é encerrado pelo próximo `layer=` ou `effect=` comando ou no fim da solicitação.
 
 Especificar `layer=comp` para selecionar a imagem composta (ou exibir, para alguns comandos).
 
-O número da camada especifica efetivamente a ordem z da camada. As camadas com número mais alto são colocadas sobre as camadas com número mais baixo.
+O número da camada especifica efetivamente a ordem z para a camada. As camadas com numeração mais alta são colocadas sobre camadas com numeração mais baixa.
 
-Os números de camada não precisam ser consecutivos. A camada 0 é necessária.
+Os números de camada não precisam ser consecutivos. Camada 0 é necessária.
 
-Um nome pode ser atribuído a uma camada com a `layer= *`n`*, *`name`*` variante de comando. Depois que uma camada nomeada é definida, ela pode ser referenciada com ` layer= *`name`*`, sem precisar saber o número da camada. Vários nomes podem ser atribuídos à mesma camada, usando vários `layer= *`n`*, *`name`*` comandos.
+Um nome pode ser atribuído a uma camada com a variável `layer= *`n`*, *`name`*` variante de comando. Depois que uma camada nomeada é definida, ela pode ser referenciada com ` layer= *`name`*`, sem precisar saber o número da camada. Vários nomes podem ser atribuídos à mesma camada, usando vários `layer= *`n`*, *`name`*` comandos.
 
 >[!NOTE]
 >
->A camada 0 determina o tamanho geral da tela de composição. Todas as partes de camadas que se encontram fora dos limites da camada 0 são cortadas quando o compósito é construído.
+>A Camada 0 determina o tamanho geral da tela de composição. Todas as partes das camadas que estão fora dos limites da camada 0 são cortadas quando o composto é construído.
 
 ## Propriedades {#section-499963ee52c14f2898f0d0f90c1d01be}
 
-comando Camada. As referências da variável de substituição não são suportadas em `layer=`.
+Camada. Não há suporte para referências de variável de substituição no `layer=`.
 
-`comp` não é permitido como *`name`* string. Um erro é retornado se o mesmo *`name`* for atribuída a mais de uma camada ou se uma camada for referenciada por *`name`* que não foi definido anteriormente.
+`comp` não é permitido como *`name`* string. Um erro é retornado se o mesmo *`name`* for atribuída a mais de uma camada, ou se uma camada for referenciada por *`name`* que não foi definido anteriormente.
 
 ## Padrão {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -65,13 +65,13 @@ comando Camada. As referências da variável de substituição não são suporta
 * Se o mesmo nome for mapeado para uma única camada várias vezes (por exemplo: `layer=1,image&layer=1,image`), o escopo é definido como de costume, sem erros.
 * Há suporte para vários nomes para a mesma camada.
 
-   Qualquer nome pode ser usado para referenciar a camada (por exemplo: `layer=1,image&layer=1,picture`).
+   Qualquer nome pode ser usado para fazer referência à camada (por exemplo: `layer=1,image&layer=1,picture`).
 * Se um nome referenciado nunca for mapeado para um número de camada (por exemplo: `layer=1,image&layer=picture`), ocorre um erro.
-* As variáveis de substituição não são compatíveis com modificadores de camada (por exemplo: `layer=$image$`).
+* As variáveis de substituição não são suportadas em modificadores de camada (por exemplo: `layer=$image$`).
 
-   Isso se aplica a todas as permutas, não apenas a nomes de camadas, mas a modificadores de camada em geral.
+   Isso se aplica a todas as permutações, não apenas aos nomes de camadas, mas aos modificadores de camadas em geral.
 
-* Todas as regras de mesclagem e substituição devem funcionar exatamente como quando a mesma camada é referenciada em várias fontes (solicitação, registros de catálogo pré ou pós modificador, macros, etc.).
+* Todas as regras de mesclagem e substituição devem funcionar exatamente como quando a mesma camada é referenciada em várias fontes (solicitação, registros de catálogo pré ou pós-modificador, macros etc.).
 
 ## Exemplo {#section-cc40de6a0a754178aa752601539c815b}
 

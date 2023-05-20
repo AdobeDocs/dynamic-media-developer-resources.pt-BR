@@ -1,5 +1,5 @@
 ---
-title: Visão geral do comando Protocolo HTTP de renderização de imagem
+title: Visão geral do comando do protocolo HTTP de renderização de imagem
 description: Os comandos compatíveis com a Renderização de imagem estão listados abaixo, agrupados por categoria.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Visão geral do comando Protocolo HTTP de renderização de imagem{#image-rendering-http-protocol-command-overview}
+# Visão geral do comando do protocolo HTTP de renderização de imagem{#image-rendering-http-protocol-command-overview}
 
 Os comandos compatíveis com a Renderização de imagem estão listados abaixo, agrupados por categoria.
 

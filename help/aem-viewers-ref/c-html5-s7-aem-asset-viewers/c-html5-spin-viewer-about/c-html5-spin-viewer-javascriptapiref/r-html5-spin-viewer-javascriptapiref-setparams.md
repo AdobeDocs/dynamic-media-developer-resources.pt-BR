@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o Visualizador de rotação.
+description: Referência da API JavaScript para o Visualizador de rotação.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o Visualizador de rotação.
+Referência da API JavaScript para o Visualizador de rotação.
 
 ` setParams( *`params`*)`
 
@@ -27,7 +27,7 @@ Referência da API do JavaScript para o Visualizador de rotação.
  </tbody> 
 </table>
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Como em uma sequência de consulta, os nomes e os valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
 Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 

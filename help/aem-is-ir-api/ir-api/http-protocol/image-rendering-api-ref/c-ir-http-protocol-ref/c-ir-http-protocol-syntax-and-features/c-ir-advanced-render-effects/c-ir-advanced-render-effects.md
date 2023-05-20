@@ -1,6 +1,6 @@
 ---
 title: Propriedades
-description: Vários efeitos de renderização avançados estão disponíveis.
+description: Vários efeitos avançados de renderização estão disponíveis.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Efeitos de renderização avançada{#advanced-render-effects}
+# Efeitos de renderização avançados{#advanced-render-effects}
 
-Vários efeitos de renderização avançados estão disponíveis.
+Vários efeitos avançados de renderização estão disponíveis.

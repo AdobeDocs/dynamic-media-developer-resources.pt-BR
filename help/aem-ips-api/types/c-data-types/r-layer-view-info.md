@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| url | `xsd:string` | URL do servidor de imagem que representa o modelo. Combinações `urlModifier` e `urlPostAp- plyModifier` campos. |
-| urlModifier | `xsd:string` | Comandos de protocolo de veiculação de imagens a serem aplicados antes da solicitação ou `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Comandos do protocolo de veiculação de imagens a serem aplicados depois `urlModifier` e solicitar comandos. |
+| url | `xsd:string` | URL do servidor de imagens que representa o modelo. Combina `urlModifier` e `urlPostAp- plyModifier` campos. |
+| urlModifier | `xsd:string` | Comandos de protocolo do servidor de imagens a serem aplicados antes da solicitação ou `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Comandos de protocolo do servidor de imagens a serem aplicados após `urlModifier` comandos e request. |

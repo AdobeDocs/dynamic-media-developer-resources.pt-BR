@@ -1,5 +1,5 @@
 ---
-description: Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog
+description: Dentro desse tipo, o campo pageReset é significativo para os tipos de ativo de imagem RenderSet e Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
-Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem RenderSet e Catalog:
+Dentro desse tipo, o campo pageReset é significativo para os tipos de ativo de imagem RenderSet e Catalog:
 
-* Para `RenderSet`, `pageReset` indica o início de um novo grupo de visualização/amostra de renderização.
+* Para `RenderSet`, `pageReset` indica o início de um novo modo de exibição/grupo de amostras de renderização.
 
-* Para Catálogo, `pageReset` indica o início de uma nova visualização de página. Normalmente, há 2 imagens de página por visualização de página, mas você pode ter mais ou menos.
+* Para Catálogo, `pageReset` indica o início de uma nova exibição de página. Normalmente, há duas imagens de página por exibição de página, mas você pode ter mais ou menos.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,11 +34,11 @@ Nesse tipo, o campo pageReset é significativo para os tipos de ativos de imagem
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de ativo na matriz de membros do conjunto de imagens. </td> 
+   <td colname="col3"> Identificador de ativo na matriz do membro do conjunto de imagens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3">Redefine a página. <p>A configuração é ignorada e o valor é forçado a true para <span class="codeph"> ImageSet</span> e <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 

@@ -1,6 +1,6 @@
 ---
 title: ResMode
-description: Modo de reamostragem padrão. Especifica a reamostragem e os atributos de interpolação padrão a serem usados para dimensionar dados de imagem.
+description: Modo de reamostragem padrão. Especifica os atributos padrão de reamostragem e interpolação a serem usados para dimensionar dados de imagem.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # ResMode{#resmode}
 
-Modo de reamostragem padrão. Especifica a reamostragem e os atributos de interpolação padrão a serem usados para dimensionar dados de imagem.
+Modo de reamostragem padrão. Especifica os atributos padrão de reamostragem e interpolação a serem usados para dimensionar dados de imagem.
 
-Usado quando `resMode=` não é especificado em uma solicitação.
+Usado quando `resMode=` não está especificado em uma solicitação.
 
 ## Propriedades {#section-493f900be522486f97710cebdc4460c2}
 
-Enum. Defina como 2 para `bilin`, 3 para `bicub`ou 4 para `sharp2` modo de interpolação (consulte [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) para obter detalhes). `sharp` (1) está sendo substituído. Use `sharp2` (4) em vez de melhores resultados.
+Enum. Defina como 2 para `bilin`, 3 para `bicub`, ou 4 para `sharp2` modo de interpolação (consulte [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) para obter detalhes). `sharp` (1) está sendo descontinuado. Uso `sharp2` (4) em vez disso, para obter melhores resultados.
 
 ## Padrão {#section-35f980e745fc4d79a2621e8abacc724d}
 

@@ -1,6 +1,6 @@
 ---
 title: sinalizadores
-description: Aplique sinalizadores. Especifica opções de renderização adicionais.
+description: Aplicar sinalizadores. Especifica opções de renderização adicionais.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # sinalizadores {#flags}
 
-Aplique sinalizadores. Especifica opções de renderização adicionais.
+Aplicar sinalizadores. Especifica opções de renderização adicionais.
 
 `flags= *`val`*`
 
@@ -29,11 +29,11 @@ Atualmente usado apenas para materiais de gabinete.
 
 `flags=0` (padrão) Renderiza gabinetes superiores com portas sólidas.
 
-`flags=1` Renderiza caixas superiores com portas de vidro (se a vinheta tiver sido criada com portas de vidro).
+`flags=1` Renderiza armários superiores com portas de vidro (se a vinheta foi criada com portas de vidro).
 
 ## Propriedades {#section-a2b00d7bb15e449ea85178acb92d8285}
 
-Atributo de material. Ignorado se não for um material do gabinete ou se o objeto do gabinete de destino não permitir portas de vidro.
+Atributo de material. Ignorado se não for um material de gabinete, ou se o objeto de gabinete de destino não permitir portas de vidro.
 
 ## Padrão {#section-4c134b02a1da4ffb9841233f98f6e97c}
 

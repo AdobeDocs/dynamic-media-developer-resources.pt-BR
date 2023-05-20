@@ -1,6 +1,6 @@
 ---
 title: Codificação HTTP de renderização de imagem
-description: Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados '=', '&' e '%'.
+description: Os valores de comando devem ser codificados em http usando sequências de escape %xx, de modo que as cadeias de caracteres de valor não incluam os caracteres reservados '=', '&' e '%'.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Codificação HTTP de renderização de imagem{#image-rendering-http-encoding}
 
-Os valores de comando devem ser codificados em http usando %xx sequências de escape, de modo que as sequências de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
+Os valores de comando devem ser codificados em http usando sequências de escape %xx, de modo que as cadeias de caracteres de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-Caso contrário, as regras de codificação HTTP padrão se aplicam. A especificação HTTP requer a codificação dos caracteres não seguros, como &#39; (espaço), &#39;&quot;(aspas duplas), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
+Caso contrário, as regras de codificação HTTP padrão serão aplicadas. A especificação HTTP requer a codificação dos caracteres inseguros, como &#39; &#39; (espaço), &#39;&quot;&#39;(aspas duplas), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
 
-**Cuidado:** As chaves { } usadas como delimitadores de aninhamento de solicitação não devem ser codificadas. Certos clientes de email infelizmente codificam chaves em solicitações HTTP incorporadas. Caso esse problema seja um problema, a Renderização de imagem permite o uso de parênteses ( ) em vez de chaves.
+**Atenção:** As chaves { } usadas como delimitadores de aninhamento de solicitações não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se esse problema ocorrer, a Renderização de imagem permitirá o uso de parênteses ( ) em vez de chaves.
 
 ## Exemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 

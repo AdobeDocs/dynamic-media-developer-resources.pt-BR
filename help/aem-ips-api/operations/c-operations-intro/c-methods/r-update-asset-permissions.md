@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| updateArray | `types:PermissionUpdateArray` | Sim | Permissões que você deseja aplicar ao ativo. |
+| updateArray | `types:PermissionUpdateArray` | Sim | As permissões que você deseja aplicar ao ativo. |
 
 **Saída (updateAssetPermissionsReturn)**
 

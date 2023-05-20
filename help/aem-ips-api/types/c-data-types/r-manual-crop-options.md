@@ -1,7 +1,7 @@
 ---
-description: Opções de recorte manual para imagens.
+description: Opções de corte manual para imagens.
 solution: Experience Manager
-title: ManualCropOptions
+title: OpçõesDeCorteManual
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ManualCropOptions]{#manualcropoptions}
 
-Opções de recorte manual para imagens.
+Opções de corte manual para imagens.
 
 Sintaxe
 
@@ -23,6 +23,6 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | left | `xsd:int` | A posição esquerda do corte manual em pixels. |
-| right | `xsd:int` | A posição correta do corte manual em pixels. |
+| direita | `xsd:int` | A posição direita do corte manual em pixels. |
 | top | `xsd:int` | A posição superior do corte manual em pixels. |
 | bottom | `xsd:int` | A posição inferior do corte manual em pixels. |

@@ -1,6 +1,6 @@
 ---
 title: Video360Player.waiticon
-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o Video360 Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 203dc041-c399-4668-b9f4-44241feb5a82
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o Video360 Viewer.
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a exibição da animação de buffer (ícone de espera). </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a exibição da animação em buffer (ícone de espera). </p> </td> 
   </tr> 
  </tbody> 
 </table>

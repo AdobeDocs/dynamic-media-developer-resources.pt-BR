@@ -2,12 +2,12 @@
 description: Usado por IccProfileFieldUpdate/class.
 solution: Experience Manager
 title: Classes de perfil
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9c6b59a2-bf26-4032-a963-d29268d0a0f8
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---

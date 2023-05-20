@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFault
-description: Contém informações sobre condições de aviso ou erro geradas durante uma operação de ativo em lote. Os campos de código e motivo correspondem aos campos de mensagem de falha que teriam sido lançados para a operação equivalente não em lote.
+description: Contém informações sobre avisos ou condições de erro geradas durante uma operação de ativo em lote. Os campos de código e motivo correspondem aos campos de mensagem de falha que teriam sido acionados para a operação não em lote equivalente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetOperationFault]{#assetoperationfault}
 
-Contém informações sobre condições de aviso ou erro geradas durante uma operação de ativo em lote. Os campos de código e motivo correspondem aos campos de mensagem de falha que teriam sido lançados para a operação equivalente não em lote.
+Contém informações sobre avisos ou condições de erro geradas durante uma operação de ativo em lote. Os campos de código e motivo correspondem aos campos de mensagem de falha que teriam sido acionados para a operação não em lote equivalente.
 
 Sintaxe
 
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| assetHandle | `xsd:string` | Identificador de ativo para a operação com falha. |
+| assetHandle | `xsd:string` | Identificador de ativo da operação que falhou. |
 | código | `xsd:int` | Código de falha da operação. |
-| reason | `xsd:string` | Descrição ou motivo da falha. |
+| motivo | `xsd:string` | Descrição ou motivo da falha. |

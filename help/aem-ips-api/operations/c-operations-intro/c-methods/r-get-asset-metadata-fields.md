@@ -56,7 +56,7 @@ Sintaxe
 
 >[!NOTE]
 >
->Truncado para brevidade.
+>Truncado por brevidade.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

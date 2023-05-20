@@ -1,10 +1,11 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+description: Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 65461c4b-efa3-41f5-9f90-e96d129981da
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores é codificado por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
 Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 

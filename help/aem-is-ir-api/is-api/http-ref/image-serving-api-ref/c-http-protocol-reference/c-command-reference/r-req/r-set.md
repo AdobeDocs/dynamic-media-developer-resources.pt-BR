@@ -1,20 +1,20 @@
 ---
-description: Informações do conjunto de mídia.
+description: Informações do conjunto de mídias.
 solution: Experience Manager
 title: set
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # set{#set}
 
-Informações do conjunto de mídia.
+Informações do conjunto de mídias.
 
 req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
 
@@ -25,19 +25,19 @@ req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> reqId</span> </p></td> 
-  <td class="stentry"> <p>Identificador de solicitação único </p></td> 
+  <td class="stentry"> <p>Identificador exclusivo da solicitação </p></td> 
  </tr> 
 </table>
 
-Retorna informações sobre imagens, vídeos, amostras e vários metadados associados a catalog::ImageSet para a entrada de catálogo de imagem especificada no caminho do URL. Essa resposta é uma estrutura hierárquica, determinada pelo tipo de conjunto fornecido. A formatação apropriada é aplicada quando o formato &#39;xml&#39; ou &#39;json&#39; é solicitado.
+Retorna informações sobre imagens, vídeos, amostras e vários metadados associados a catalog::ImageSet para a entrada do catálogo de imagens especificada no caminho do URL. Essa resposta é uma estrutura hierárquica conforme determinado pelo tipo de conjunto fornecido. A formatação apropriada é aplicada quando o formato &quot;xml&quot; ou &quot;json&quot; é solicitado.
 
-A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::NonImgExpiration`.
+A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::NonImgExpiration`.
 
 >[!NOTE]
 >
->O caractere de dois pontos não é permitido em solicitações req=set.
+>O caractere dois pontos não é permitido em solicitações req=set.
 
-As solicitações que oferecem suporte ao formato de resposta JSON permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSON permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
 
 `req=...,json [&handler = reqHandler ]`
 

@@ -8,13 +8,13 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # estilo{#style}
 
-Você pode aplicar o seguinte comando da string de consulta de URL e da configuração. O comando aplicado na sequência de consulta do URL sempre tem precedência sobre o mesmo comando presente na configuração.
+Você pode aplicar o seguinte comando a partir da string de consulta e da configuração do URL. O comando aplicado na cadeia de caracteres de consulta do URL sempre tem prioridade sobre o mesmo comando presente na configuração.
 
 `style= *`cssPath`*`
 
@@ -22,12 +22,12 @@ Você pode aplicar o seguinte comando da string de consulta de URL e da configur
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Localização CSS relativa ou absoluta. </p> <p>Especifica o local do arquivo CSS personalizado. Se o <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, ele será resolvido em relação ao local da página HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Local de CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se a variável <span class="codeph"><span class="varname"> cssPath</span></span> é relativo, é resolvido em relação ao local da página do HTML do visualizador e ao valor de <span class="codeph"> contentUrl=</span> parâmetro. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todas as referências de ativos no arquivo CSS são resolvidas no local do arquivo CSS, não no local da página HTML de chamada.
+Todas as referências de ativos no arquivo CSS são resolvidas em relação ao local do arquivo CSS, não ao local da página do HTML de chamada.
 
 ## Propriedades {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

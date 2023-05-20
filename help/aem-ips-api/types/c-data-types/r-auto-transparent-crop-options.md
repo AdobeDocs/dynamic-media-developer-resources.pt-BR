@@ -1,5 +1,5 @@
 ---
-description: Opções usadas ao cortar imagens automaticamente com base na transparência.
+description: Opções usadas ao cortar automaticamente imagens com base na transparência.
 solution: Experience Manager
 title: AutoTransparentCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AutoTransparentCropOptions]{#autotransparentcropoptions}
 
-Opções usadas ao cortar imagens automaticamente com base na transparência.
+Opções usadas ao cortar automaticamente imagens com base na transparência.
 
 Sintaxe
 
@@ -31,11 +31,11 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> tolerância</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
    <td colname="col3">Remove o espaço em branco das bordas da imagem com base na transparência. Usa: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder as cores exatamente. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para permitir mais diferenças de cores. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder exatamente às cores. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 para ativar a maioria das diferenças de cores. </li>
     </ul></td> 
   </tr> 
  </tbody> 

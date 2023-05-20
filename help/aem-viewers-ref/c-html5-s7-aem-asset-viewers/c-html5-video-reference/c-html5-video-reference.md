@@ -1,6 +1,6 @@
 ---
 title: Vídeo
-description: O Visualizador de vídeo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
+description: O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
 keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Vídeo{#video}
 
-O Visualizador de vídeo é um reprodutor de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pelo Dynamic Media Classic ou Experience Manager com o Dynamic Media.
+O Visualizador de vídeo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264. Ele é fornecido pela Dynamic Media Classic ou pelo Experience Manager com Dynamic Media.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Vídeo único e Conjuntos de vídeo adaptativo são suportados. Além disso, o visualizador aceita trabalhar com fluxos de vídeo progressivos e HLS hospedados em locais externos. Ele foi projetado para funcionar em navegadores para desktop e dispositivos móveis da Web que suportam vídeo HTML5. Esse visualizador também oferece suporte a legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento de redes sociais.
+Há suporte para vídeo único e Conjuntos de vídeos adaptados. Além disso, o visualizador suporta o trabalho com vídeo progressivo e fluxos HLS hospedados em locais externos. Ele foi projetado para funcionar em navegadores para desktop e para dispositivos móveis que suportam vídeo HTML5. Esse visualizador também oferece suporte a legendas ocultas opcionais que são exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento de redes sociais.
 
-O Visualizador de vídeo usa a reprodução de vídeo de transmissão HTML5 no formato HLS em sua configuração padrão, sempre que o sistema subjacente oferece suporte para isso. Em sistemas que não suportam streaming de HTML5, o visualizador volta para a entrega de vídeo progressivo do HTML5.
+O Visualizador de vídeo usa a reprodução de vídeo de transmissão HTML5 no formato HLS na configuração padrão, sempre que o sistema subjacente a suportar. Em sistemas que não suportam transmissão contínua de HTML5, o visualizador retorna à entrega de vídeo progressiva de HTML5.
 
-Tipo de visualizador 506.
+Visualizador tipo 506.
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -31,94 +31,94 @@ Tipo de visualizador 506.
 
 ## Uso do visualizador de vídeo {#section-f21ac23d3f6449ad9765588d69584772}
 
-O Visualizador de vídeo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares - uma única inclusão do JavaScript com todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos e CSS baixados pelo visualizador em tempo de execução.
+O Visualizador de vídeo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares - um único JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos e CSS baixado pelo visualizador em tempo de execução.
 
-Você pode usar o Visualizador de vídeo no modo pop-up usando a página HTML pronta para produção fornecida com os IS-Viewers. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
+Você pode usar o visualizador de vídeo no modo pop-up usando a página de HTML pronta para produção fornecida com os visualizadores IS. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
 
-A tarefa de configurar e esfolar o visualizador é semelhante a outros visualizadores. Todo o esfolamento é obtido por meio de CSS personalizado.
+A tarefa de configurar e definir a aparência do visualizador é semelhante a outros visualizadores. Toda a atribuição de capa é obtida por meio de CSS personalizado.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interação com o visualizador de vídeo {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interagir com o visualizador de vídeo {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-O Visualizador de vídeo fornece um conjunto de controles padrão da interface do usuário para a reprodução do vídeo, como um botão Reproduzir/Pausar, bolha de tempo do vídeo do depurador de vídeo, indicador de tempo de reprodução/tempo total, controle de volume, botão de tela cheia e alternância de legenda fechada. Todos esses controles são agrupados em uma barra de controle na parte inferior da interface do usuário do visualizador.
+O Visualizador de vídeo fornece um conjunto de controles padrão da interface do usuário para reprodução de vídeo, como um botão reproduzir/pausar, bolha de tempo de vídeo do depurador de vídeo, indicador de tempo/tempo total reproduzido, controle de volume, botão de tela cheia e botão de legenda oculta. Todos esses controles estão agrupados em uma barra de controle na parte inferior da interface do usuário do visualizador.
 
-Em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões de hardware.
+Em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões do hardware.
 
 Quando o visualizador opera no modo pop-up, o botão de tela cheia não está disponível na interface do usuário.
 
-É possível navegar pelo conteúdo de um vídeo rapidamente quando o capítulo de vídeo está ativado. Os capítulos de vídeo são exibidos como marcadores na faixa do depurador de vídeo e mostram o título do capítulo e a descrição associada em uma rolagem do mouse ou com um único toque nos sistemas de toque. Os usuários podem buscar um capítulo específico selecionando um marcador de capítulo ou a bolha de descrição do capítulo.
+É possível navegar pelo conteúdo de um vídeo rapidamente quando um capítulo de vídeo é ativado. Os capítulos de vídeo são exibidos como marcadores no rastreamento do depurador de vídeo e mostram o título do capítulo e a descrição associada em uma rolagem do mouse ou com um único toque em sistemas de toque. Os usuários podem buscar um capítulo específico selecionando um marcador de capítulo ou a bolha de descrição do capítulo.
 
-O visualizador aceita entrada de toque e entrada de mouse em dispositivos Windows com tela sensível ao toque e mouse. No entanto, esse suporte é limitado somente aos navegadores da Web Chrome, Internet Explorer 11 e Edge.
+O visualizador é compatível com entrada por toque e entrada do mouse em dispositivos Windows com tela sensível ao toque e mouse. No entanto, esse suporte está limitado apenas aos navegadores Chrome, Internet Explorer 11 e Edge.
 
-Esse visualizador é totalmente acessível por teclado.
+Este visualizador é totalmente acessível pelo teclado.
 
-Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulte [Acessibilidade e navegação pelo teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Ferramentas de compartilhamento em redes sociais com o Visualizador de vídeo {#section-907d316fe1da4b87abb9775f02464704}
+## Ferramentas de compartilhamento de redes sociais com o Visualizador de vídeo {#section-907d316fe1da4b87abb9775f02464704}
 
-O Visualizador de vídeo é compatível com ferramentas de compartilhamento de mídia social. Eles estão disponíveis como um único botão na interface do usuário, que se expande em uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela.
+O Visualizador de vídeo suporta ferramentas de compartilhamento de redes sociais. Eles estão disponíveis como um único botão na interface do usuário do, que se expande para uma barra de ferramentas de compartilhamento quando o usuário clica ou toca nela.
 
-A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código incorporado e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento de incorporação ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando o Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente.
+A barra de ferramentas de compartilhamento contém um ícone para cada tipo de canal de compartilhamento compatível, como Facebook, Twitter, compartilhamento de email, compartilhamento de código incorporado e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento incorporado ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando Facebook ou Twitter são chamados, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço de mídia social. Além disso, quando uma ferramenta de compartilhamento é ativada, a reprodução de vídeo é pausada automaticamente.
 
-O compartilhamento de ferramentas não está disponível no modo de tela cheia devido a restrições de segurança do navegador da Web.
+As ferramentas de compartilhamento não estão disponíveis no modo de tela cheia devido a restrições de segurança do navegador da Web.
 
-## Como incorporar visualizador de vídeo {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporação do visualizador de vídeo {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando selecionado, abre o visualizador em uma janela separada do navegador. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em dispositivos diferentes ou para tamanhos de janela de navegador diferentes. Para acomodar essas necessidades, o visualizador aceita três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva de design.
+Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link que, quando selecionado, abre o visualizador em uma janela do navegador separada. Em outros casos, é necessário incorporar o visualizador diretamente na página de hospedagem. No último caso, a página da Web pode ter um layout de página estático ou usar um design responsivo que é exibido de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela do navegador. Para acomodar essas necessidades, o visualizador suporta três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação de design responsiva.
 
-A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Geralmente, apenas um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e tenta reproduzir outro, o primeiro é pausado automaticamente. O vídeo que foi pausado automaticamente lembra do tempo de reprodução atual, para que o usuário possa sempre retornar a ele e retomar a reprodução. A única exceção dessa regra é no navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
+A incorporação de vários vídeos na mesma página é compatível com tablets e dispositivos móveis. Normalmente, somente um vídeo pode ser reproduzido de cada vez. Quando um usuário começa a reproduzir um vídeo e, em seguida, tenta reproduzir outro vídeo, o primeiro vídeo é pausado automaticamente. O vídeo que foi pausado automaticamente lembra seu tempo de reprodução atual, para que o usuário possa sempre voltar e retomar a reprodução. A única exceção dessa regra é o navegador Chrome em dispositivos Android™ 4.x, que podem reproduzir vídeos em paralelo.
 
 **Sobre o modo pop-up**
 
-No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Pega toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
+No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ela ocupa toda a área da janela do navegador e é ajustada caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` HTML ou qualquer outro método adequado.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` elemento HTML ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso no modo de operação pop-up. É chamado de [!DNL VideoViewer.html] e está localizado sob a [!DNL html5/] subpasta da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML para o modo de operação pop-up. É chamado de [!DNL VideoViewer.html] e está localizado sob o [!DNL html5/] subpasta da implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
 Você pode obter personalização visual aplicando CSS personalizado.
 
-Este é um exemplo de código HTML que abre o visualizador em uma nova janela:
+Veja a seguir um exemplo do código HTML que abre o visualizador em uma nova janela:
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4" target="_blank">Open popup viewer</a>
 ```
 
-**Sobre o modo de incorporação de tamanho fixo e o modo de incorporação responsivo**
+**Sobre o modo de incorporação de tamanho fixo e o modo de incorporação responsiva**
 
-No modo incorporado, o visualizador é adicionado à página da Web existente, que pode já ter algum conteúdo de cliente não relacionado ao visualizador. Normalmente, o visualizador ocupa apenas parte do imóvel da página.
+No modo incorporado, o visualizador é adicionado à página da Web existente, que pode já ter algum conteúdo de cliente não relacionado ao visualizador. O visualizador normalmente ocupa apenas uma parte do espaço imobiliário da página da Web.
 
-Os casos de uso principais são páginas da Web orientadas para desktops ou tablets, e também páginas de design responsivas que ajustam o layout automaticamente de acordo com o tipo de dispositivo.
+Os principais casos de uso são páginas da Web orientadas para desktops ou dispositivos tablet e também páginas de design responsivas que ajustam o layout automaticamente, dependendo do tipo de dispositivo.
 
-A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa opção é a melhor para páginas da Web que têm um layout de página estático.
+A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa opção é a melhor para páginas da Web com layout de página estático.
 
-A incorporação responsiva de design supõe que o visualizador deve ser redimensionado em tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar o visualizador a uma página da Web que use um layout de página flexível.
+A incorporação responsiva de design presume que o visualizador deve redimensionar em tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar o visualizador a uma página da Web que usa um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente dependendo de como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura sem restrições, o visualizador escolhe automaticamente sua altura de acordo com a proporção de aspecto do ativo usado. Esse método garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam uma estrutura de layout de design responsivo, como Bootstrap ou Foundation.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente, dependendo da forma como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura irrestrita, o visualizador escolhe automaticamente sua altura de acordo com a proporção do ativo usado. Esse método garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam uma estrutura de layout de design responsiva, como Bootstrap ou Foundation.
 
-Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preenche apenas essa área e segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é incorporar o visualizador em uma sobreposição modal, onde a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura do container do visualizador `DIV`, o visualizador preenche apenas essa área e segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é a incorporação do visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
 1. Definição do contêiner `DIV`.
-1. Definição do tamanho do visualizador.
-1. Criação e inicialização do visualizador.
+1. Definindo o tamanho do visualizador.
+1. Criar e inicializar o visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
 
-   A criação de um visualizador requer a adição de uma tag de script no HTML head. Antes de usar a API do visualizador, verifique se você incluiu [!DNL FlyoutViewer.js]. O [!DNL FlyoutViewer.js] O arquivo está localizado sob a variável [!DNL html5/js/] subpasta da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL FlyoutViewer.js]. A variável [!DNL FlyoutViewer.js] O arquivo está localizado sob o [!DNL html5/js/] subpasta da implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores da Adobe Dynamic Media Classic e ele for exibido no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores da Adobe Dynamic Media Classic que têm os IS-Viewers instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media Classic e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic que têm os Visualizadores IS instalados.
 
-O caminho relativo é semelhante ao seguinte:
+O caminho relativo tem a seguinte aparência:
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/VideoViewer.js"></script>
@@ -126,32 +126,32 @@ O caminho relativo é semelhante ao seguinte:
 
 >[!NOTE]
 >
->Referencie somente o JavaScript do visualizador principal `include` na sua página. Não faça referência a arquivos JavaScript adicionais no código da página da Web que possam ser baixados pela lógica do visualizador em tempo de execução. Em particular, não faça referência diretamente ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho do contexto (o chamado SDK consolidado) `include`). O motivo é que a localização da variável `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e as alterações de localização entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Fazer referência apenas ao JavaScript do visualizador principal `include` arquivo na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Em particular, não faça referência direta ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho de contexto (o chamado SDK consolidado) `include`). O motivo é que a localização de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, colocar uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página, interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
+>Como resultado, ao inserir uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
-1. Definição do DIV do contêiner.
+1. Definição do container DIV.
 
-   Adicione um elemento DIV vazio à página onde você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida, pois essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio do CSS.
+   Adicione um elemento DIV vazio à página em que você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida porque essa ID é passada posteriormente para a API do visualizador. O DIV tem seu tamanho especificado por meio de CSS.
 
-   O espaço reservado DIV é um elemento posicionado, o que significa que a variável `position` A propriedade CSS está definida como `relative` ou `absolute`.
+   O espaço reservado DIV é um elemento posicionado, o que significa que o `position` A propriedade CSS está definida como `relative` ou `absolute`.
 
-   Certifique-se de que o recurso de tela cheia funcione corretamente no Internet Explorer. Verifique para garantir que não haja outros elementos no DOM que tenham uma ordem de empilhamento mais alta do que o DIV do espaço reservado.
+   Verifique se o recurso de tela cheia funciona corretamente no Internet Explorer. Verifique se não há outros elementos no DOM com uma ordem de empilhamento superior à do espaço reservado DIV.
 
-   Este é um exemplo de um elemento DIV de espaço reservado definido:
+   Veja a seguir um exemplo de um elemento DIV de espaço reservado definido:
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div> 
    ```
 
-1. Definição do tamanho do visualizador
+1. Definir o tamanho do visualizador
 
    Você pode definir o tamanho estático do visualizador declarando-o para `.s7videoviewer` classe CSS de nível superior em unidades absolutas ou usando o modificador `stagesize`.
 
-   Você pode colocar o dimensionamento no CSS diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado. Posteriormente, ele é atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando style.
+   Você pode colocar o dimensionamento no CSS diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado. Posteriormente, ele é atribuído a um registro de predefinição do visualizador no Dynamic Media Classic ou transmitido explicitamente usando um comando de estilo.
 
-   Consulte [Personalizar visualizador de vídeo](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) para obter mais informações sobre o estilo do visualizador usando CSS.
+   Consulte [Personalização do visualizador de vídeo](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) para obter mais informações sobre como estilizar o visualizador usando CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador estático em uma página de HTML:
 
@@ -162,7 +162,7 @@ O caminho relativo é semelhante ao seguinte:
    }
    ```
 
-   Você pode definir `stagesize` modificador no registro predefinido do visualizador no Dynamic Media Classic ou passe-o explicitamente com o código de inicialização do visualizador com `params` coleção. Ou, como uma chamada de API, conforme descrito na seção Referência de comando , como em:
+   Você pode definir `stagesize` modificador no registro predefinido do visualizador no Dynamic Media Classic, ou passe-o explicitamente com o código de inicialização do visualizador com `params` coleção. Ou, como uma chamada de API, conforme descrito na seção Referência de comandos, como no seguinte:
 
    ```html {.line-numbers}
    videoViewer.setParam("stagesize", "640,480");
@@ -170,15 +170,15 @@ O caminho relativo é semelhante ao seguinte:
 
    Uma abordagem baseada em CSS é recomendada e é usada neste exemplo.
 
-1. Criação e inicialização do visualizador.
+1. Criar e inicializar o visualizador.
 
-   Depois de concluir as etapas acima, crie uma instância de `s7viewers.VideoViewer` classe , transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas para o construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner do visualizador e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador. Nesse caso, `params` O objeto deve ter pelo menos o URL de disponibilização de imagens passado como `serverUrl` propriedade, URL do servidor de vídeo passado como `videoserverurl` e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Quando tiver concluído as etapas acima, você criará uma instância de `s7viewers.VideoViewer` classe, transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner de visualização e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador. Nesse caso, `params` objeto deve ter pelo menos o URL do Servidor de imagens passado como `serverUrl` propriedade, URL do servidor de vídeo passado como `videoserverurl` propriedade e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante ter o contêiner do visualizador adicionado ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação de DOM até o fim da página da Web. Para ter compatibilidade máxima, chame a função `init()` método antes de fechar `BODY` ou no corpo `onload()` evento.
+   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. Para obter compatibilidade máxima, chame o `init()` método antes do fechamento `BODY` ou no corpo `onload()` evento.
 
-   Ao mesmo tempo, o elemento de contêiner ainda não deve fazer parte do layout da página da Web. Por exemplo, pode estar oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento do contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, pode ser oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmitindo as opções mínimas necessárias de configuração ao construtor e chamando a função `init()` método . Este exemplo supõe `videoViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado `DIV`, [!DNL http://s7d1.scene7.com/is/image/] é o URL de disponibilização de imagens, [!DNL http://s7d1.scene7.com/is/content/] é o URL do servidor de vídeo e [!DNL Scene7SharedAssets/Glacier_Climber_MP4] é o ativo.
+   Este é um exemplo de criação de uma instância do visualizador, transmissão de opções de configuração mínimas necessárias para o construtor e chamada de `init()` método. Este exemplo assume `videoViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado `DIV`, [!DNL http://s7d1.scene7.com/is/image/] é o URL do Servidor de imagens, [!DNL http://s7d1.scene7.com/is/content/] é o URL do servidor de vídeo e [!DNL Scene7SharedAssets/Glacier_Climber_MP4] é o ativo.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -193,7 +193,7 @@ O caminho relativo é semelhante ao seguinte:
    </script> 
    ```
 
-   O código a seguir é um exemplo completo de uma página trivial da Web que incorpora o Visualizador de vídeo com um tamanho fixo:
+   O código a seguir é um exemplo completo de uma página da Web trivial que incorpora o Visualizador de vídeo com um tamanho fixo:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -223,9 +223,9 @@ O caminho relativo é semelhante ao seguinte:
    </html> 
    ```
 
-**Incorporação de design responsivo com altura irrestrita**
+**Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação do design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, suponha que a página da Web permita o contêiner do visualizador `DIV` para obter 40% do tamanho da janela do navegador da Web, deixando sua altura sem restrições. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação responsiva de design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador `DIV`. Para os fins deste exemplo, considere que a página da Web permite o container do visualizador `DIV` para obter 40% do tamanho da janela do navegador web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -245,11 +245,11 @@ Com a incorporação do design responsivo, a página da Web normalmente tem algu
 
 Adicionar o visualizador a essa página é semelhante à incorporação de tamanho fixo; a única diferença é que você não precisa definir explicitamente o tamanho do visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
-1. Definição do DIV do contêiner.
-1. Criação e inicialização do visualizador.
+1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Definição do container DIV.
+1. Criar e inicializar o visualizador.
 
-Todas as etapas acima são as mesmas que com a incorporação de tamanho fixo. Adicionar contêiner `DIV` ao atual &quot;detentor&quot; `DIV`. O código a seguir é um exemplo completo. Você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas da incorporação de tamanho fixo. Adicionar contêiner `DIV` ao &quot;detentor&quot; existente `DIV`. O código a seguir é um exemplo completo. Você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -280,15 +280,15 @@ var videoViewer = new s7viewers.VideoViewer({
 </html> 
 ```
 
-A página de exemplos a seguir ilustra o uso mais real da incorporação responsiva de design com altura irrestrita:
+A página de exemplos a seguir ilustra mais o uso real de incorporação de design responsivo com altura irrestrita:
 
 [Demonstrações ao vivo](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Localização de demonstração alternativa](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
-**Incorporação de design responsivo com largura e altura definidas**
+**Incorporação responsiva de design com largura e altura definidas**
 
-Se houver incorporação de design responsivo com largura e altura definidas, o estilo da página da Web será diferente; fornece ambos os tamanhos ao &quot; detentor&quot; `DIV` e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%:
+Se houver incorporação de design responsiva com largura e altura definidas, o estilo da página da Web será diferente; ele fornece ambos os tamanhos para o &quot;suporte&quot; `DIV` e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` elemento a 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -353,9 +353,9 @@ var videoViewer = new s7viewers.VideoViewer({
 </html> 
 ```
 
-**Como incorporar usando a API baseada em setter**
+**Incorporação usando a API baseada em setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor no-args. Com essa API, o construtor não utiliza parâmetros e parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`e `setAsset()` Métodos de API com chamadas JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. Com essa API, o construtor não aceita parâmetros e os parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`, e `setAsset()` Métodos de API do com chamadas de JavaScript separadas.
 
 O exemplo a seguir ilustra a incorporação de tamanho fixo com a API baseada em setter:
 

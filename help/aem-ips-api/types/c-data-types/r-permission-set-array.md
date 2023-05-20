@@ -20,4 +20,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:PermissionSet` | Matriz de conjuntos de permissões. |
+| itens | `types:PermissionSet` | Matriz de conjuntos de permissões. |

@@ -1,5 +1,5 @@
 ---
-description: Crie ou edite um direcionamento de zoom.
+description: Criar ou editar um destino de zoom.
 solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # saveZoomTarget{#savezoomtarget}
 
-Crie ou edite um direcionamento de zoom.
+Criar ou editar um destino de zoom.
 
 Sintaxe
 
@@ -33,25 +33,25 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com o direcionamento de zoom que você deseja salvar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o destino de zoom que você deseja salvar. |
 | assetHandle | `xsd:string` | Sim | A alça para o destino de zoom. |
-| zoomTargetHandle | `xsd:string` | Não | Edita ou cria um direcionamento de zoom. |
-| name | `xsd:string` | Sim | Nome da meta de zoom. |
-| xPosition | `xsd:int` | Sim | Localização de pixel esquerdo. |
-| yPosition | `xsd:int` | Sim | Localização dos pixels principais. |
-| largura | `xsd:int` | Sim | Ampliação da largura de destino. |
-| altura | `xsd:int` | Sim | Altura da meta de zoom. |
+| zoomTargetHandle | `xsd:string` | Não | Edita ou cria um destino de zoom. |
+| name | `xsd:string` | Sim | Nome do destino de zoom. |
+| xPosition | `xsd:int` | Sim | Localização do pixel esquerdo. |
+| yPosition | `xsd:int` | Sim | Localização do pixel superior. |
+| largura | `xsd:int` | Sim | Largura de destino do zoom. |
+| altura | `xsd:int` | Sim | Altura de destino do zoom. |
 | userData | `xsd:string` | Sim | Para obter informações específicas do cliente. Pode conter qualquer tipo de dados. |
 
 **Saída (saveZoomTargetReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| zoomTargetHandle | `xsd:string` | Sim | Manipule o destino de zoom recém-criado. |
+| zoomTargetHandle | `xsd:string` | Sim | Processe o destino de zoom recém-criado. |
 
 ## Exemplos {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Essa amostra de código salva um destino de zoom. A resposta retorna a alça de destino de zoom.
+Esta amostra de código salva um destino de zoom. A resposta retorna o identificador do destino de zoom.
 
 **Solicitação**
 

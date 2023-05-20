@@ -32,7 +32,7 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | userHandle | `xsd:string` | Não | O identificador do usuário cuja associação você deseja adicionar. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas para as quais você está adicionando o usuário. |
+| memberArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de empresas às quais você está adicionando o usuário. |
 
 **Saída (addCompanyMembershipReturn)**
 

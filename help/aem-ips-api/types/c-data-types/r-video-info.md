@@ -1,5 +1,5 @@
 ---
-description: Propriedades do ativo de vídeo.
+description: Propriedades de ativo de vídeo.
 solution: Experience Manager
 title: VideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL VideoInfo]{#videoinfo}
 
-Propriedades do ativo de vídeo.
+Propriedades de ativo de vídeo.
 
 Sintaxe
 
@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| originalPath | `xsd:string` | Caminho relativo para o vídeo carregado. |
+| originalPath | `xsd:string` | O caminho relativo para o vídeo carregado. |
 | originalFile | `xsd:string` | Nome do arquivo de vídeo original. |
 | fileSize | `xsd:int` | Tamanho do arquivo. |
 | imagePath | `xsd:string` | Caminho relativo para o arquivo de vídeo. |

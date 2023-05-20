@@ -1,6 +1,6 @@
 ---
 title: emptyAssetsFromTrash
-description: Esvazia ativos da lixeira do IPS.
+description: Esvazia os ativos da lixeira de IPS.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-Esvazia ativos da lixeira do IPS.
+Esvazia os ativos da lixeira de IPS.
 
-Os ativos vivem no lixo até serem manualmente esvaziados ou até ficarem fora do lixo. Se forem manualmente esvaziadas, elas ficarão na Lixeira até o próximo trabalho de limpeza (normalmente à noite), quando forem finalmente removidas do sistema. Se o tempo limite for excedido na lixeira, os ativos serão limpos como parte dessa mesma atividade de limpeza. O tempo limite é configurável (o padrão é 7 dias).
+Os ativos ficam no lixo até serem esvaziados manualmente ou até que desapareçam do lixo. Se forem esvaziados manualmente, eles permanecerão na Lixeira até o próximo trabalho de limpeza (normalmente à noite), quando finalmente forem removidos do sistema. Se o tempo limite for esgotado, os ativos serão apagados como parte dessa mesma atividade de limpeza. O tempo limite pode ser configurado (o padrão é 7 dias).
 
 ## Tipos de usuário autorizados {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
@@ -33,8 +33,8 @@ Os ativos vivem no lixo até serem manualmente esvaziados ou até ficarem fora d
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | xsd:string | Sim | O identificador da empresa proprietária dos ativos. |
-| assetHandleArray | tipos:HandleArray | Sim | A matriz de identificadores que representam os itens a serem esvaziados do lixo. |
+| companyHandle | xsd:string | Sim | O identificador da empresa que detém os ativos. |
+| assetHandleArray | tipos:HandleArray | Sim | O conjunto de manipuladores que representam os itens a serem esvaziados da lixeira. |
 
 **Saída (emptyAssetsFromTrashParam)**
 
@@ -48,7 +48,7 @@ Os ativos vivem no lixo até serem manualmente esvaziados ou até ficarem fora d
 
 ## Exemplos {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Este exemplo de código usa o identificador da empresa e uma matriz de manipulador de ativos que contém identificadores para os ativos a serem esvaziados da lixeira.
+Esta amostra de código usa o identificador da empresa e uma matriz de identificadores de ativos que contém identificadores para os ativos a serem esvaziados da lixeira.
 
 **Solicitação**
 

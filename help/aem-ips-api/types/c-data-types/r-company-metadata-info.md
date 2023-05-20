@@ -1,7 +1,7 @@
 ---
-description: Possui informações sobre um objeto de metadados da empresa, como ID, nome e tipo.
+description: Contém informações sobre um objeto de metadados da empresa, como ID, nome e tipo.
 solution: Experience Manager
-title: CompanyMetadataInfo
+title: InformaçõesDeMetadadosDaEmpresa
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL CompanyMetadataInfo]{#companymetadatainfo}
 
-Possui informações sobre um objeto de metadados da empresa, como ID, nome e tipo.
+Contém informações sobre um objeto de metadados da empresa, como ID, nome e tipo.
 
 Sintaxe
 

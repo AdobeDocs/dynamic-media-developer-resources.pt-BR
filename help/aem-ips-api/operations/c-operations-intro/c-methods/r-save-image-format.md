@@ -18,7 +18,7 @@ Cria um formato de imagem.
 
 >[!NOTE]
 >
->O `urlModifier` o valor do campo deve consistir em XML válido. Por exemplo, alterar `&` para `&`. Obtenha o `urlModfier` na interface do usuário do IPS.
+>A variável `urlModifier` o valor do campo deve consistir em XML válido. Por exemplo, alterar `&` para `&`. Obtenha o `urlModfier` valor da interface do IPS.
 
 ## Tipos de usuário autorizados {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -33,20 +33,20 @@ Cria um formato de imagem.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador para a empresa com o formato de imagem com o qual você deseja trabalhar. |
-| imageFormatHandle | `xsd:string` | Não | Identificador do formato da imagem que deseja salvar. |
-| name | `xsd:string` | Sim | Nome do formato da imagem. |
-| urlModifier | `xsd:string` | Sim | Pode ser qualquer sequência de consulta de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário do IPS e, em seguida, recortar e colar a string de consulta. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o formato de imagem que você deseja trabalhar. |
+| imageFormatHandle | `xsd:string` | Não | O identificador de formato de imagem que você deseja salvar. |
+| name | `xsd:string` | Sim | Nome do formato de imagem. |
+| urlModifier | `xsd:string` | Sim | Pode ser qualquer sequência de consulta de protocolo IPS. A maneira mais fácil de gerar um modificador de URL é criar um com a interface de usuário IPS e, em seguida, recortar e colar a sequência de consulta. |
 
 **Saída (saveImageFormatReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| imageFormatHandle | `xsd:string` | Sim | Manipule o formato da imagem. |
+| imageFormatHandle | `xsd:string` | Sim | Processe o formato da imagem. |
 
 ## Exemplos {#section-c7bd733212ef494297a97093f3af193f}
 
-Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinada pelo seu valor na interface do usuário do IPS com um formato HTML válido.
+Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface IPS com um formato HTML válido.
 
 **Solicitação**
 

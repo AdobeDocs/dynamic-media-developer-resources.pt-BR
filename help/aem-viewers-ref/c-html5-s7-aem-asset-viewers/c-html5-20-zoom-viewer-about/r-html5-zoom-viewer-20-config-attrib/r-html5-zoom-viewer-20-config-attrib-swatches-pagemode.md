@@ -8,7 +8,7 @@ exl-id: 7ba10df0-9e3e-4c31-9bd6-4d0e6feb7e75
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Quando alternados, os botões de rolagem fazem com que as amostras saltem automaticamente em um tamanho de página completo. </p> <p>O espaço em branco extra é mostrado na última página se as amostras não couberem. Além disso, a última página tem o mesmo número de células que qualquer página anterior. </p> <p>A etapa de rolagem é ignorada e a rolagem do mouse é definida somente nas páginas completas. </p> </td> 
+   <td colname="col2"> <p> Quando ativados, os botões de rolagem fazem automaticamente com que as amostras pulem uma página inteira. </p> <p>Se as amostras não couberem, o espaço em branco extra será exibido na última página. Além disso, a última página tem o mesmo número de células que as páginas anteriores. </p> <p>A etapa de rolagem é ignorada e a rolagem do mouse funciona somente em páginas inteiras. </p> </td> 
   </tr> 
  </tbody> 
 </table>

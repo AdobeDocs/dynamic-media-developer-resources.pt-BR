@@ -8,7 +8,7 @@ exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
 source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporar largura. </p> </td> 
+   <td colname="col2"> <p>Largura incorporada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporar altura. </p> </td> 
+   <td colname="col2"> <p>Altura incorporada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica se esse item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
+   <td colname="col2"> <p> Especifica se este item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

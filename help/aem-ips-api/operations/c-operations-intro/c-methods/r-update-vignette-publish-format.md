@@ -29,29 +29,29 @@ Atualiza as configurações de formato de publicação da vinheta.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
-| vinhetaFormatarIdentificador | `xsd:string` | Sim | Publicar identificador de formato. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
+| vinhetaFormatarAlça | `xsd:string` | Sim | Identificador de formato de publicação. |
 | name | `xsd:string` | Não | Nome do formato de publicação. |
-| targetWidth | `xsd:int` | Sim | Especifica a largura de destino da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta primária. |
-| targetHeight | `xsd:int` | Sim | Especifica a altura do target da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta primária. |
-| createPyramid | `xsd:boolean` | Sim | Cria uma vinheta pirâmide otimizada para aumentar o zoom no servidor de Renderização de imagem. Começando pelo tamanho máximo, definido pelos campos Tamanho da vinheta do Target, isso cria visualizações de vários tamanhos em um único arquivo de saída da vinheta. Cada tamanho de exibição subsequente é dividido até que a largura e a altura estejam dentro de 128x128 pixels. |
-| thumbWidth | `xsd:int` | Sim | Especifica a largura de cada miniatura resultante em pixels. Essa configuração é opcional. Deixe como zero para nenhum arquivo de miniatura. |
-| saveAsVersion | `xsd:int` | Sim | Especifica o formato de arquivo para as vinhetas publicadas. Dada uma nova versão da Criação de Imagens e uma versão mais antiga do Servidor de Renderização de Imagens, você deve especificar uma versão de vinheta que seu Servidor de Renderização de Imagens pode ler. Se você especificar uma versão superior, o servidor de Renderização de imagem não poderá ler as vinhetas publicadas. Defina como zero para publicar vinhetas na versão mais recente. |
+| targetWidth | `xsd:int` | Sim | Especifica a largura alvo da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta principal. |
+| targetHeight | `xsd:int` | Sim | Especifica a altura de destino da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta principal. |
+| createPyramid | `xsd:boolean` | Sim | Cria uma vinheta em pirâmide otimizada para aplicar zoom no servidor de Renderização de imagem. Começando pelo tamanho máximo, definido pelos campos Tamanho da vinheta do Target, isso cria várias exibições de tamanho em um único arquivo de saída de vinheta. Cada tamanho de exibição subsequente é reduzido pela metade até que a largura e a altura fiquem dentro de 128x128 pixels. |
+| thumbWidth | `xsd:int` | Sim | Especifica a largura de cada miniatura resultante em pixels. Esta configuração é opcional. Deixe como zero para nenhum arquivo de miniatura. |
+| saveAsVersion | `xsd:int` | Sim | Especifica o formato de arquivo para as vinhetas publicadas. Dada uma nova versão da Criação de imagem e uma versão mais antiga do Servidor de renderização de imagem, você deve especificar uma versão de vinheta que seu Servidor de renderização de imagem possa ler. Se você especificar uma versão superior, o servidor de Renderização de Imagem não poderá ler as vinhetas publicadas. Defina como zero para publicar vinhetas na versão mais recente. |
 | sizeSuffixSeparator | `xsd:string` | Sim | Especifica o caractere que separa o nome da vinheta e o sufixo que indica sua largura. |
-| afiador | `xsd:int` | Não | Aplica nitidez à imagem de exibição principal para cada tamanho de vinheta de publicação. A nitidez pode compensar o desfoque quando as vinhetas são dimensionadas. |
-| usmAmount | `xsd:double` | Sim | O mascaramento com nitidez digital é uma maneira flexível e poderosa de aumentar a nitidez, especialmente em imagens digitalizadas. Isso controla a magnitude de cada superação (quanto mais escuras e mais claras as bordas se tornam). |
-| usmRadius | `xsd:double` | Sim | Afeta o tamanho das bordas a serem melhoradas ou a largura das bordas, de modo que um raio menor melhora detalhes em escala menor. Valores de raio mais altos podem causar halos nas bordas. Os detalhes finos precisam de um raio menor, pois detalhes minúsculos do mesmo tamanho ou menores que o raio é perdido. |
-| usmThreshold | `xsd:int` | Sim | Controla a alteração mínima do brilho para ser nitidamente definida ou a distância que os valores de tons adjacentes devem estar entre si antes que o filtro funcione. Essa configuração pode tornar as bordas mais pronunciadas mais nítidas, deixando as bordas mais sutis intocadas. O intervalo permitido de limite é de 0 a 255. |
+| nitidez | `xsd:int` | Não | Aplica nitidez à imagem de exibição principal para cada tamanho de vinheta de publicação. A nitidez pode compensar o desfoque quando as vinhetas são dimensionadas. |
+| usmAmount | `xsd:double` | Sim | O mascaramento digital sem nitidez é uma maneira flexível e eficiente de aumentar a nitidez, especialmente em imagens digitalizadas. Isso controla a magnitude de cada superação (o quanto mais escuro e mais claro as bordas se tornam). |
+| usmRadius | `xsd:double` | Sim | Afeta o tamanho das bordas a serem aprimoradas ou a largura das bordas, portanto, um raio menor melhora os detalhes de escala menor. Valores de raio mais altos podem causar halos nas bordas. Detalhes finos precisam de um raio menor, pois detalhes pequenos do mesmo tamanho ou menores do que o raio são perdidos. |
+| usmThreshold | `xsd:int` | Sim | Controla a alteração mínima de brilho a ser nitidez ou a distância entre os valores de tons adjacentes antes do funcionamento do filtro. Essa configuração pode ajustar a nitidez de bordas mais pronunciadas, deixando bordas mais sutis intocadas. O intervalo de limite permitido é de 0 a 255. |
 
 **Saída (updateVignettePublishFormatReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| vinhetaFormatarIdentificador | `xsd:string` | Sim | Manipule o formato de publicação da vinheta atualizado. |
+| vinhetaFormatarAlça | `xsd:string` | Sim | Processe o formato de publicação de vinheta atualizado. |
 
 ## Exemplo {#section-fcba4bf2b7264786a676e315a35dbe43}
 
-Este exemplo de código atualiza um formato de publicação de vinheta e retorna o identificador para o formato atualizado.
+Este exemplo de código atualiza um formato de publicação de vinheta e retorna o identificador ao formato atualizado.
 
 **Solicitação**
 

@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.mutevolume
-description: Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+description: Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
 # SmartCropVideoPlayer.mutevolume{#smartcropvideoplayer-mutevolume}
 
-Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]mutevolume=0|1`
 
@@ -21,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se estiver definido como <span class="codeph"> 1 </span> O volume é absorvido; caso contrário, o vídeo será reproduzido com som. Em certos dispositivos, o reprodutor de vídeo com o recurso mutar ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definida como <span class="codeph"> 1 </span> o volume fica sem áudio; caso contrário, o vídeo é reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite que o vídeo seja reproduzido automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

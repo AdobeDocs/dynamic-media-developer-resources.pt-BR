@@ -37,19 +37,19 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule para a empresa com as pastas que deseja renomear. |
-| folderHandle | `xsd:string` | Sim | Lide com a pasta . |
-| folderName | `xsd:string` | Sim | Novo nome da pasta. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa com as pastas que você deseja renomear. |
+| folderHandle | `xsd:string` | Sim | Processe a pasta. |
+| folderName | `xsd:string` | Sim | Nome da nova pasta. |
 
 **Saída (renameFolderReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Sim | Lida com a pasta renomeada. |
+| folderHandle | `xsd:string` | Sim | Processe a pasta renomeada. |
 
 ## Exemplos {#section-98bdd2f88d164f488676e90aba1dc864}
 
-Essa amostra de código renomeia uma pasta.
+Esta amostra de código renomeia uma pasta.
 
 **Solicitação**
 

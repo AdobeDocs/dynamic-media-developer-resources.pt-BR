@@ -43,7 +43,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetHandleArray | ` `tipos:HandleArray&quot; | Sim | Uma lista de ativos que você deseja consultar para contextos ativos (marcados para publicação). |
 
 **Saída (batchGetAssetPublishContextsReturn)**

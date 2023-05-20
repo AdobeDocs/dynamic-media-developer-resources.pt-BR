@@ -1,6 +1,6 @@
 ---
-title: Instalar em uma conta de usuário diferente do administrador
-description: Após a instalação, configure os serviços a serem executados na outra conta de usuário.
+title: Instalando o em uma conta de usuário diferente da do administrador
+description: Após a instalação, configure os serviços para serem executados na outra conta de usuário.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Instalar em uma conta de usuário diferente do administrador{#installing-under-a-different-user-account-than-administrator}
+# Instalando o em uma conta de usuário diferente da do administrador{#installing-under-a-different-user-account-than-administrator}
 
-Após a instalação, configure os serviços a serem executados na outra conta de usuário.
+Após a instalação, configure os serviços para serem executados na outra conta de usuário.
 
-1. Acesse as configurações da Política de segurança local do Windows selecionando **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
+1. Acesse as configurações de Política de Segurança Local do Windows selecionando **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
 1. Selecionar **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
-1. Clique duas vezes no botão **[!UICONTROL Log on as a service]** política.
-1. Selecionar **[!UICONTROL Add…]** e selecione o Usuário ou Grupo, em seguida, selecione **[!UICONTROL Ok]** para confirmar.
+1. Clique duas vezes no ícone **[!UICONTROL Log on as a service]** política da UE.
+1. Selecionar **[!UICONTROL Add…]** e selecione o Usuário ou Grupo, depois selecione **[!UICONTROL Ok]** para confirmar.

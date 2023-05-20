@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | fieldHandle | `xsd:string` | Sim | Identificador de campo de tag. |
-| valueArray | `types:StringArray` | Sim | Uma matriz de valores de tag que substitui o dicionário existente do campo. As associações de ativos são mantidas quando um novo valor corresponde a um valor existente. |
+| valueArray | `types:StringArray` | Sim | Uma matriz de valores de tag que substitui o dicionário existente do campo. As associações de ativo são mantidas quando um novo valor corresponde a um valor existente. |
 
 **Saída (setTagFieldValuesReturn)**
 

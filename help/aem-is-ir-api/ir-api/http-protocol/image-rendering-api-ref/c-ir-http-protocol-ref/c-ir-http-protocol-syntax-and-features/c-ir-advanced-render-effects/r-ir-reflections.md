@@ -1,6 +1,6 @@
 ---
 title: Reflexões
-description: Vinhetas podem ser criadas para incluir dados de reflexão quase 3D.
+description: As vinhetas podem ser criadas para incluir dados de reflexão próximos a 3D.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Reflexões{#reflections}
 
-Vinhetas podem ser criadas para incluir dados de reflexão quase 3D.
+As vinhetas podem ser criadas para incluir dados de reflexão próximos a 3D.
 
-Se tal for criado, são utilizados os seguintes atributos de material para definir as propriedades da superfície refletora do material:
+Se tiverem sido criados dessa forma, os seguintes atributos de material serão usados para definir as propriedades da superfície refletora do material:
 
 <table id="table_8769C726A17E412FB41F7CB87690B1FE"> 
  <thead> 
@@ -34,11 +34,11 @@ Se tal for criado, são utilizados os seguintes atributos de material para defin
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
-   <td> <p>Variação de brilho (imagem em escala de cinza) </p> </td> 
+   <td> <p>Variação de brilho (imagem em tons de cinza) </p> </td> 
    <td> <p>Nenhum </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> bruxo= </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> áspero= </span> </a> </p> </td> 
    <td> <p>Rugosidade da superfície </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
@@ -50,6 +50,6 @@ Se tal for criado, são utilizados os seguintes atributos de material para defin
  </tbody> 
 </table>
 
-O renderizador ajusta o intervalo da variável `gloss=` e `rough=` de acordo com `type=`. Alguns tipos de materiais, como o tecido, são menos reflexivos do que os tipos de materiais, como pedra ou metal. Além disso, a mesma quantidade de brilho especificada para um resulta frequentemente num efeito de reflexão diferente do outro. O atributo `gloss=` e rugosidade têm uma gama bastante ampla se `type=` não foi especificado ou está definido como `0`.
+O renderizador ajusta o intervalo do `gloss=` e `rough=` atributo de acordo com `type=`. Alguns tipos de materiais, como tecidos, são menos reflexivos do que tipos de materiais, como pedra ou metal. Além disso, a mesma quantidade de brilho especificada para um frequentemente resulta em um efeito de reflexão diferente do outro. O atributo `gloss=` e a rugosidade têm um gamut bastante amplo se `type=` não está especificado ou está definido como `0`.
 
-`glossmap=` Usado para controlar a luminosidade de um material com base em pixel.
+`glossmap=` Usado para controlar a textura clara de um material em pixel por pixel.

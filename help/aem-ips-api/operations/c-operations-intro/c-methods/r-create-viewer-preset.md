@@ -1,5 +1,5 @@
 ---
-description: Cria uma visualização predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A visualização predefinida é aplicada quando os ativos são publicados.
+description: Cria uma exibição predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A exibição predefinida é aplicada quando os ativos são publicados.
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # createViewerPreset{#createviewerpreset}
 
-Cria uma visualização predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A visualização predefinida é aplicada quando os ativos são publicados.
+Cria uma exibição predefinida que determina o que um usuário pode ver. O visualizador pode ser de qualquer tipo disponível no IPS. A exibição predefinida é aplicada quando os ativos são publicados.
 
 Sintaxe
 
@@ -41,11 +41,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | Sim | Manipule a predefinição para o visualizador. |
+| viewerPresetHandle | `xsd:string` | Sim | Identificador da predefinição para o visualizador. |
 
 ## Exemplos {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-Esse exemplo de código cria uma predefinição do reprodutor de vídeo. A resposta retorna um identificador para a predefinição.
+Este exemplo de código cria uma predefinição do reprodutor de vídeo. A resposta retorna um identificador para a predefinição.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

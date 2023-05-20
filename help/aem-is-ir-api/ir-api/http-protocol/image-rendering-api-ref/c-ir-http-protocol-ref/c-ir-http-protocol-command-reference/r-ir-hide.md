@@ -1,6 +1,6 @@
 ---
 title: ocultar
-description: Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou revestimentos de janela aplicados aos quadros de cobertura de janela na seleção atual.
+description: Ocultar objeto sobreposto. Oculta todos os objetos sobrepostos ou revestimentos de janela aplicados aos quadros de revestimentos de janela na seleção atual.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ocultar{#hide}
 
-Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou revestimentos de janela aplicados aos quadros de cobertura de janela na seleção atual.
+Ocultar objeto sobreposto. Oculta todos os objetos sobrepostos ou revestimentos de janela aplicados aos quadros de revestimentos de janela na seleção atual.
 
 `hide[= *`val`*]`
 
@@ -27,7 +27,7 @@ Ocultar objeto de sobreposição. Oculta todos os objetos de sobreposição ou r
 
 ## Propriedades {#section-2952fa43df0547b187b834c819c517ca}
 
-Aplica-se à seleção de grupo ou objeto atual. Ignorado se a seleção atual não incluir objetos de sobreposição ou quadros de cobertura de janela ou se nenhum objeto de sobreposição estiver visível.
+Aplica-se ao grupo atual ou à seleção de objeto. Ignorado se a seleção atual não incluir objetos sobrepostos ou quadros de revestimento de janela ou se nenhum objeto sobreposto estiver visível.
 
 ## Padrão {#section-9da202944d3a49b7ae81c78370b2b5e7}
 

@@ -1,5 +1,5 @@
 ---
-description: Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
+description: Obtém valores de cadeia de caracteres das propriedades do sistema relacionadas ao Portal de Imagens.
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # getProperty{#getproperty}
 
-Obtém valores de sequência de caracteres das propriedades do sistema relacionadas ao Portal de Imagem.
+Obtém valores de cadeia de caracteres das propriedades do sistema relacionadas ao Portal de Imagens.
 
-As propriedades do sistema compatíveis incluem:
+As propriedades de sistema compatíveis incluem:
 
-* `IpsVersion`: Número de versão do IPS.
-* `IpsImageServerUrl`: Prefixo completo e externo de URL para o Servidor de Imagem do IPS.
+* `IpsVersion`: número de versão do IPS.
+* `IpsImageServerUrl`: prefixo de URL externo completo para o Servidor de imagens IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Prefixo de URL para renderizar ativos de SVG.
-* `SvgRenderEnabled`: Verdadeiro se os ativos de SVG puderem ser renderizados por `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: prefixo de URL para renderizar ativos SVG.
+* `SvgRenderEnabled`: verdadeiro se os ativos de SVG puderem ser renderizados por `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitidos em um upload [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
+* `UploadPostMaxFileSize`: tamanho máximo (em bytes) de dados de arquivo permitido em um upload [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
 
 ## Tipos de usuário autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -55,7 +55,7 @@ As propriedades do sistema compatíveis incluem:
 
 ## Exemplos {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-Essa amostra de código usa uma constante de string Propriedades do IPS para retornar um valor específico. Neste exemplo, a propriedade IPS é a versão do servidor IPS.
+Esta amostra de código usa uma constante de string de Propriedades de IPS para retornar um valor específico. Neste exemplo, a propriedade IPS é a versão do servidor IPS.
 
 **Solicitação**
 

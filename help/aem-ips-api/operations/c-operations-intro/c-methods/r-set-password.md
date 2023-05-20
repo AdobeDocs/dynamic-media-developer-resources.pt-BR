@@ -1,20 +1,20 @@
 ---
-description: Define a senha de um usuário específico ou padrão para um valor específico, dependendo de você especificar um identificador de usuário.
+description: Define a senha de um usuário específico ou o usuário padrão para um valor específico, dependendo de você especificar um identificador de usuário.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # setPassword{#setpassword}
 
-Define a senha de um usuário específico ou padrão para um valor específico, dependendo de você especificar um identificador de usuário.
+Define a senha de um usuário específico ou o usuário padrão para um valor específico, dependendo de você especificar um identificador de usuário.
 
 A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
 
@@ -22,7 +22,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
 
 >[!NOTE]
 >
->** Somente o tipo de  `IpsAdmin` usuário está autorizado a executar chamadas setPassword para outros usuários.
+>*Somente* o `IpsAdmin` O tipo de usuário está autorizado a executar chamadas setPassword em relação a outros usuários.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,14 +49,14 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Identificador do usuário. </p> </td> 
+   <td colname="col4"> <p>Identificador de usuário. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> senha  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> senha </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>Senha. </p> <p>Os seguintes requisitos são aplicados na senha escolhida: </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
@@ -64,18 +64,18 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">O comprimento mínimo da senha é de oito caracteres. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">A senha deve conter um ou mais caracteres das seguintes classes de caracteres: 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres em inglês minúsculos. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres em inglês maiúsculos. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres ingleses em minúsculas. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres ingleses em maiúsculas. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por exemplo, <span class="codeph"> 1 2 3 4 5 </span> e assim por diante. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especial. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; " &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &amp;grave; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Determina a data de expiração da senha. <p>Observação:  Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para Hora central. </p> </p> </td> 
+   <td colname="col4"> <p>Determina a data de expiração da senha. <p>Observação: forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para a Hora central. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +86,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-Este exemplo de código cria uma senha de usuário. A senha nunca expira porque `passwordExpires` foi omitida.
+Este exemplo de código cria uma senha de usuário. A senha nunca expira porque `passwordExpires` foi omitido.
 
 **Solicitação**
 

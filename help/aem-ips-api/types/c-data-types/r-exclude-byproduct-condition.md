@@ -1,5 +1,5 @@
 ---
-description: Determina qual mecanismo de geração e tipo de ativo gerado serão excluídos dos resultados de pesquisa.
+description: Determina qual mecanismo de geração e tipo de ativo gerado devem ser excluídos dos resultados da pesquisa.
 solution: Experience Manager
 title: ExcludeByproductCondition
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
-Determina qual mecanismo de geração e tipo de ativo gerado serão excluídos dos resultados de pesquisa.
+Determina qual mecanismo de geração e tipo de ativo gerado devem ser excluídos dos resultados da pesquisa.
 
 Sintaxe
 
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| [!DNL engine] | `xsd:string` | O mecanismo de geração que criou os ativos que deseja excluir. Consulte Informações de geração para obter valores. |
-| generatedAssetType | `xsd:string` | Tipo de ativo excluído. Consulte Tipos de ativos para obter valores. |
+| [!DNL engine] | `xsd:string` | O mecanismo de geração que criou os ativos que você deseja excluir. Consulte Informações de geração para obter valores. |
+| generatedAssetType | `xsd:string` | Tipo de ativo excluído. Consulte Tipos de ativo para valores. |

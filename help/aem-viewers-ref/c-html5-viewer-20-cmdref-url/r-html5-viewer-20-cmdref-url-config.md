@@ -1,5 +1,5 @@
 ---
-title: configuração
+title: config
 description: Parâmetro comum a todos os visualizadores.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# configuração{#config}
+# config{#config}
 
 Parâmetro comum a todos os visualizadores.
 
@@ -21,13 +21,13 @@ Parâmetro comum a todos os visualizadores.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catálogo/ID para a configuração do visualizador. </p> <p> Especifica uma entrada de catálogo de imagem que contém as propriedades de configuração do visualizador no <span class="codeph"> catálogo::UserData </span>. Quando esse comando está presente, o visualizador envia um comando <span class="codeph"> req=userdata </span> para <span class="codeph"> configId </span> para o servidor e extrai propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a cadeia de caracteres do URL especificar as mesmas propriedades, eles substituirão os valores do catálogo <span class="codeph">::UserData </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
+   <td colname="col2"> <p>Catálogo/ID da configuração do visualizador. </p> <p> Especifica uma entrada do catálogo de imagens que contém as propriedades de configuração do visualizador em <span class="codeph"> catálogo::UserData </span>. Quando esse comando está presente, o visualizador envia um <span class="codeph"> req=userdata </span> comando para <span class="codeph"> configId </span> ao servidor e extrai as propriedades da resposta. As propriedades são usadas para inicializar o visualizador. Se a string de URL especificar as mesmas propriedades, elas substituirão os valores de <span class="codeph"> catálogo::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Todos os comandos do visualizador que podem ser especificados em `catalog::UserData` esperam `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` e `config` em si.
+Todos os comandos do visualizador que podem ser especificados em `catalog::UserData` esperado `asset`, `serverUrl`, `contentUrl`, `searchServerUrl`, e `config` próprio.
 
 ## Propriedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -39,7 +39,7 @@ Nenhum.
 
 ## Exemplo 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Um catálogo de imagens chamado 2020 contém a entrada `preset-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens chamado 2020 contém a entrada `preset-oct`. A variável `catalog::UserData` campo desta entrada de catálogo inclui os seguintes dados:
 
 ```
 style=customStyle.css
@@ -59,7 +59,7 @@ style=customStyle.css
 
 ## Exemplo 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Um catálogo de imagens chamado 2019 contém a entrada `spin-oct`. O campo `catalog::UserData` desta entrada de catálogo inclui os seguintes dados:
+Um catálogo de imagens chamado 2019 contém a entrada `spin-oct`. A variável `catalog::UserData` campo desta entrada de catálogo inclui os seguintes dados:
 
 ```
 zoomStep=3 

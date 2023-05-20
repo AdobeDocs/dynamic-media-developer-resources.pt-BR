@@ -1,6 +1,6 @@
 ---
-title: Verificar a instalação
-description: Depois de instalar o Image Serving no Linux®, verifique a instalação.
+title: Verificando a instalação
+description: Após instalar o Servidor de imagens no Linux®, verifique a instalação.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# Verificar a instalação{#verifying-the-installation}
+# Verificando a instalação{#verifying-the-installation}
 
-Depois de instalar o Image Serving no Linux®, verifique a instalação.
+Após instalar o Servidor de imagens no Linux®, verifique a instalação.
 
-O Servidor de imagem é instalado como um daemon Linux®.
+O Servidor de imagens é instalado como um daemon Linux®.
 
 **Para verificar a instalação**
 
-1. Verifique se a Exibição de imagem está configurada para iniciar automaticamente e se está em execução:
+1. Verifique se o Servidor de imagens está configurado para iniciar automaticamente e se está em execução:
 
    `> /sbin/service ImageServing status`
 
    >[!NOTE]
    >
-   >Você deve ter permissões de raiz para executar esses scripts.
+   >Você deve ter permissões raiz para executar esses scripts.
 
 1. Abra um navegador da Internet no mesmo host ou em um host diferente e verifique as respostas padrão do servidor:
 
@@ -34,6 +34,6 @@ O Servidor de imagem é instalado como um daemon Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Nas respostas, verifique a presença de itens começando com `imageServer`, que indicam que [!DNL Platform Server] O pôde se comunicar com êxito com o Servidor de imagem.
+Nas respostas, verifique a presença de itens que começam com `imageServer`, que indicam que a [!DNL Platform Server] O não pôde se comunicar com o Servidor de imagens.
 
->A verificação adicional pode ser realizada usando as páginas de exemplo dos pacotes Documentação e Demonstração, se instaladas.
+>A verificação adicional pode ser executada usando as páginas de exemplo dos pacotes de Documentação e Demonstração, se instalados.

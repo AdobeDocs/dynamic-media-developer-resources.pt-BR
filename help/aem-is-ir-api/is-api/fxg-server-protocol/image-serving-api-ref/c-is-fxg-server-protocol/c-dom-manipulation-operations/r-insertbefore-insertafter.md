@@ -2,12 +2,12 @@
 description: Defina XML antes ou depois de um nó.
 solution: Experience Manager
 title: insertBefore,insertAfter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Se um elemento de nó FXG tiver um `s7:elementID` definido, podemos adicionar fr
 
 ## Exemplo {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-Se houver uma tag de Grupo como esta:
+Se tivermos uma tag de Grupo como esta:
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
-em seguida:
+depois:
 
 `insertBefore.inner_shape=<Rect x="74.354" y="182.762" width="75" height="75" s7:fillOverprint="false" s7:fillOverprintMode="true" visible="true" rotation="0"><fill><SolidColor color="%23ffffff" s7:cmykColor="%2300000000"/></fill></Rect>`
 

@@ -1,5 +1,5 @@
 ---
-title: fechadura
+title: botão fechar
 description: Botão Fechar
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -8,11 +8,11 @@ exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '23'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
-# fechadura{#closebutton}
+# botão fechar{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão Fechar ou defina como <span class="codeph"> 0</span> para ocultar o botão Fechar. </p> </td> 
+   <td colname="col2"> <p> Defina como <span class="codeph"> 1</span> para ativar a exibição do botão Fechar ou definir como <span class="codeph"> 0</span> para ocultar o botão Fechar. </p> </td> 
   </tr> 
  </tbody> 
 </table>

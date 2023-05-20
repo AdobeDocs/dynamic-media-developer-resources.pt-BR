@@ -2,12 +2,12 @@
 description: Descreve os valores usados por vários parâmetros de entrada. Consulte a lista neste artigo para obter detalhes.
 solution: Experience Manager
 title: Tipos de ativos
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---

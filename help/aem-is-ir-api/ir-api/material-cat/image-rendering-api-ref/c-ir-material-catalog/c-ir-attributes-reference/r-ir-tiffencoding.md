@@ -1,6 +1,6 @@
 ---
 title: TiffEncoding
-description: Formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente o padrão para o terceiro valor do comando fmt=).
+description: formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente o padrão para o terceiro valor do comando fmt= ).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # TiffEncoding{#tiffencoding}
 
-Formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente o padrão para o terceiro valor da variável `fmt=` ).
+formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente, o padrão para o terceiro valor de `fmt=` comando).
 
-Defina como `0` sem compressão, `1` LZW, `2` para deflate (ZIP), e `3` para compactação JPEG.
+Defina como `0` para nenhuma compactação, `1` LZW, `2` para deflate (ZIP) e `3` para compactação de JPEG.
 
 ## Propriedades {#section-469f5a1225464542866f5353edd92db3}
 

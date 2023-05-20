@@ -1,5 +1,5 @@
 ---
-description: As palavras-chave da plataforma de metadados extensível de um ativo.
+description: As palavras-chave da plataforma de metadados extensíveis de um ativo.
 solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-As palavras-chave da plataforma de metadados extensível de um ativo.
+As palavras-chave da plataforma de metadados extensíveis de um ativo.
 
 Sintaxe
 
@@ -30,9 +30,9 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> itens</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas ao <span class="codeph"> dc:subject=</span> XMP nó de propriedade. Se uma vírgula for exibida em qualquer um dos valores individuais, ela precisará ser escapada por um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida dupla normal (\\). </p> </td> 
+   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas na variável <span class="codeph"> dc:subject=</span> Nó de propriedade do XMP. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisará ser evitada com um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida dupla usual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

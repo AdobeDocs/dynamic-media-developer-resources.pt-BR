@@ -1,5 +1,5 @@
 ---
-description: Define a associação do grupo para um usuário.
+description: Define a associação de grupo de um usuário.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setGroupMembership{#setgroupmembership}
 
-Define a associação do grupo para um usuário.
+Define a associação de grupo de um usuário.
 
 Sintaxe
 
@@ -31,8 +31,8 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | userHandle | `xsd:string` | Não | O identificador do usuário cuja associação de grupo você deseja definir. |
-| companyHandle | `xsd:string` | Não | Manuseio da empresa. |
-| groupHandleArray | `types:HandleArray` | Sim | A matriz de grupos aos quais o usuário pertence. |
+| companyHandle | `xsd:string` | Não | Identificador da empresa. |
+| groupHandleArray | `types:HandleArray` | Sim | A matriz de identificadores a grupos aos quais o usuário pertence. |
 
 **Saída (setGroupMembershipReturn)**
 
@@ -40,7 +40,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-67b86d259df24938896fe19061845811}
 
-Essa amostra de código torna o usuário membro de um grupo. Adicione um usuário a vários grupos com a matriz de manipuladores de grupo.
+Essa amostra de código torna o usuário membro de um grupo. Adicione um usuário a vários grupos com a matriz de identificadores de grupo.
 
 **Solicitação**
 

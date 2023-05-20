@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o Visualizador de rotação
-description: A classe principal do Visualizador de rotação é o SpinViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o Visualizador de rotação
+description: A classe principal do Spin Viewer é SpinViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o Visualizador de rotação{#javascript-api-reference-for-spin-viewer}
+# Referência da API JavaScript para o Visualizador de rotação{#javascript-api-reference-for-spin-viewer}
 
-A classe principal do Visualizador de rotação é o SpinViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Spin Viewer é SpinViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado do `s7viewers.SpinViewer` classe .
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.SpinViewer` classe.

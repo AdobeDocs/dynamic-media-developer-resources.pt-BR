@@ -1,18 +1,18 @@
 ---
-description: retratoFrames
+description: portraitFrames
 solution: Experience Manager
-title: retratoFrames
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+title: portraitFrames
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
-# retratoFrames{#portraitframes}
+# portraitFrames{#portraitframes}
 
 [!DNL `portraitFrames=split|solid`]
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Defina para <span class="codeph"> dividido</span> para permitir que o visualizador exiba páginas espelhadas duplas como uma página separada quando usada em dispositivo móvel na orientação retrato. Defina como <span class="codeph"> sólido</span> para sempre exibir páginas espelhadas duplas como imagem sólida, independentemente da orientação do dispositivo. </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> split</span> para permitir que o visualizador exiba páginas espelhadas duplas como uma página separada quando usado em um dispositivo móvel na orientação retrato. Defina como <span class="codeph"> sólido</span> para sempre exibir páginas espelhadas duplas como imagem sólida, independentemente da orientação do dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

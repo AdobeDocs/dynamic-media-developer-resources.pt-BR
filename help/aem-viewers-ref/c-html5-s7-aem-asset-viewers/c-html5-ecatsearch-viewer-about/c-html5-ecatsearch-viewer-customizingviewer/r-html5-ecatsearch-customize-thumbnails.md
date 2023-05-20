@@ -16,7 +16,7 @@ ht-degree: 0%
 
 As miniaturas consistem em uma grade de imagens em miniatura com uma barra de rolagem opcional no lado direito para permitir a rolagem vertical.
 
-As miniaturas são alternadas clicando no botão de miniatura na barra de controle principal. Quando as miniaturas estão ativas, elas são exibidas no modo modal sobreposto na parte superior da interface do usuário do visualizador. A lógica do visualizador redimensiona automaticamente o contêiner de miniaturas para toda a área do visualizador.
+As miniaturas são alternadas clicando no botão de miniatura na barra de controle principal. Quando as miniaturas estão ativas, elas são exibidas no modo modal, sobrepostas na parte superior da interface do usuário do visualizador. A lógica do visualizador redimensiona automaticamente o contêiner de miniaturas para toda a área do visualizador.
 
 A aparência do contêiner de miniaturas é controlada com o seguinte seletor de classe CSS:
 
@@ -32,7 +32,7 @@ A aparência do contêiner de miniaturas é controlada com o seguinte seletor de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> O deslocamento vertical do contêiner de miniaturas na parte superior do visualizador. </p> </td> 
+   <td colname="col2"> <p> O deslocamento vertical do contêiner de miniaturas da parte superior do visualizador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
@@ -47,17 +47,17 @@ A aparência do contêiner de miniaturas é controlada com o seguinte seletor de
    <td colname="col2"> <p>A margem direita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem inferior </span> </p> </td> 
    <td colname="col2"> <p>A margem inferior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>A cor de fundo da área de miniaturas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo da área de miniaturas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar miniaturas para ter um deslocamento de 32 pixels da parte superior, margens de 5 pixels na esquerda e na direita e margem de 8 pixels na parte inferior, com `0xDDDDDD` plano de fundo.
+Exemplo - configurar miniaturas para ter 32 pixels deslocados em relação à parte superior, 5 pixels à esquerda e à direita e 8 pixels na margem inferior, com `0xDDDDDD` fundo.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -69,7 +69,7 @@ Exemplo - para configurar miniaturas para ter um deslocamento de 32 pixels da pa
 }
 ```
 
-O espaçamento entre miniaturas é controlado com o seguinte seletor de classe CSS:
+O espaçamento entre as miniaturas é controlado com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7thumbcell`
 
@@ -83,7 +83,7 @@ O espaçamento entre miniaturas é controlado com o seguinte seletor de classe C
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento horizontal real das miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. Espaçamento entre miniaturas verticais é igual à soma das margens superior e inferior. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento de miniatura horizontal real é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. Espaçamento vertical entre miniaturas igual à soma das margens superior e inferior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>A largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -117,23 +117,23 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>A altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>A borda da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>A cor de fundo da miniatura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo da miniatura. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Em dispositivos de toque, quando girado para o modo retrato, o visualizador pode dimensionar miniaturas para metade do que está configurado caso decida dividir o catálogo espalhado em páginas individuais.
+Em dispositivos de toque, quando girado para o modo retrato, o visualizador pode dimensionar miniaturas para metade do que está configurado, caso decida dividir a visualização do catálogo em páginas individuais.
 
 >[!NOTE]
 >
->A miniatura é compatível com o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem exibida no momento na exibição principal, `state="default"` corresponde ao resto das miniaturas, e `state="over"` é usada ao passar o mouse.
+>A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
-Exemplo - para configurar miniaturas com 120 x 85 pixels, tenham um plano de fundo branco, uma borda padrão cinza-claro e uma borda selecionada cinza-escura.
+Exemplo - para configurar miniaturas com 120 x 85 pixels, tenha um plano de fundo branco, uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb { 
@@ -147,7 +147,7 @@ Exemplo - para configurar miniaturas com 120 x 85 pixels, tenham um plano de fun
 }
 ```
 
-A aparência do rótulo de miniatura é controlada com o seguinte seletor de classe CSS:
+A aparência do rótulo da miniatura é controlada com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7label`
 
@@ -160,11 +160,11 @@ A aparência do rótulo de miniatura é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -179,7 +179,7 @@ Exemplo - para configurar rótulos para usar a fonte Helvetica® de 14 pixels.
 }
 ```
 
-Se houver mais miniaturas do que podem caber verticalmente na exibição, elas renderizarão a barra de rolagem vertical no lado direito. A aparência da área da barra de rolagem é controlada com o seguinte seletor de classe CSS:
+Se houver mais miniaturas que possam caber verticalmente na exibição, elas renderizarão a barra de rolagem vertical no lado direito. A aparência da área da barra de rolagem é controlada com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -201,16 +201,16 @@ Se houver mais miniaturas do que podem caber verticalmente na exibição, elas r
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>O deslocamento da barra de rolagem vertical a partir da parte inferior da área de miniaturas. </p> </td> 
+   <td colname="col2"> <p>O deslocamento da barra de rolagem vertical na parte inferior da área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
-   <td colname="col2"> <p> O deslocamento da barra de rolagem horizontal da borda direita da área de miniaturas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> direita </span> </p> </td> 
+   <td colname="col2"> <p> O deslocamento da barra de rolagem horizontal a partir da borda direita da área de miniaturas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma barra de rolagem com 28 pixels de largura e uma margem de 8 pixels da parte superior, direita e inferior da área de miniaturas.
+Exemplo - para configurar uma barra de rolagem com 28 pixels de largura e uma margem de 8 pixels na parte superior, direita e inferior da área de miniaturas.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar { 
@@ -221,7 +221,7 @@ Exemplo - para configurar uma barra de rolagem com 28 pixels de largura e uma ma
 }
 ```
 
-O rastreamento da barra de rolagem é a área entre os botões de rolagem superior e inferior. O componente define automaticamente a posição e a altura da faixa. A faixa é controlada com o seguinte seletor de classe CSS:
+A faixa da barra de rolagem é a área entre os botões de rolagem superior e inferior. O componente define automaticamente a posição e a altura da faixa. A faixa é controlada com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -235,16 +235,16 @@ O rastreamento da barra de rolagem é a área entre os botões de rolagem superi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
-   <td colname="col2"> <p>A largura do rastreamento da barra de rolagem. </p> </td> 
+   <td colname="col2"> <p>A largura da faixa da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> A cor de fundo do rastreamento da barra de rolagem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> A cor do plano de fundo da faixa da barra de rolagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um rastreamento de barra de rolagem com 28 pixels de largura e um plano de fundo cinza semitransparente.
+Exemplo - para configurar uma faixa de barra de rolagem com 28 pixels de largura e um plano de fundo cinza semitransparente.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -253,7 +253,7 @@ Exemplo - para configurar um rastreamento de barra de rolagem com 28 pixels de l
 }
 ```
 
-O polegar da barra de rolagem se move verticalmente na área de trilha de rolagem. Sua posição vertical é totalmente controlada pela lógica do componente. No entanto, a altura da miniatura não muda dinamicamente, dependendo da quantidade de conteúdo. A altura do polegar e outros aspectos são controlados com o seguinte seletor de classe CSS:
+A miniatura da barra de rolagem se move verticalmente dentro da área de rolagem da trilha. Sua posição vertical é totalmente controlada pela lógica do componente. No entanto, a altura da miniatura não muda dinamicamente, dependendo da quantidade de conteúdo. A altura da miniatura e outros aspectos são controlados com o seguinte seletor de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -267,36 +267,36 @@ O polegar da barra de rolagem se move verticalmente na área de trilha de rolage
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
-   <td colname="col2"> <p>A largura do polegar da barra de rolagem. </p> </td> 
+   <td colname="col2"> <p>A largura da miniatura da barra de rolamento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>A altura da miniatura da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte superior do preenchimento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p>O preenchimento vertical entre a parte superior da faixa da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parte inferior do preenchimento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento inferior </span> </p> </td> 
    <td colname="col2"> <p>O preenchimento vertical entre a parte inferior da faixa da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
-   <td colname="col2"> <p>A imagem exibida para um determinado estado de polegar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->O polegar suporta o `state` seletor de atributos, que pode ser usado para aplicar diferentes capas aos estados de polegar `up`, `down`, `over`e `disabled`.
+>A miniatura suporta o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes aos estados de miniatura `up`, `down`, `over`, e `disabled`.
 
-Exemplo - para configurar um polegar da barra de rolagem que seja 28 x 45 pixels, tenha margens de 10 pixels na parte superior e inferior e tenha arte-final diferente para cada estado.
+Exemplo - para configurar uma miniatura de barra de rolagem com 28 x 45 pixels, tem margens de 10 pixels na parte superior e inferior e tem arte-final diferente para cada estado.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -321,13 +321,13 @@ Exemplo - para configurar um polegar da barra de rolagem que seja 28 x 45 pixels
 }
 ```
 
-A aparência dos botões de rolagem superior e inferior é controlada pelos seguintes seletores de classe CSS:
+A aparência dos botões de rolagem superior e inferior é controlada com os seguintes seletores de classe CSS:
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton`
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`e `right` propriedades. Em vez disso, a lógica do visualizador os posiciona automaticamente.
+Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -346,23 +346,23 @@ Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bo
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
-   <td colname="col2"> <p>A imagem exibida para um determinado estado de polegar. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esses botões suportam o `state` seletor de atributos, que pode ser usado para aplicar diferentes capas aos diferentes estados do botão `up`, `down`, `over`e `disabled`.
+>Esses botões suportam o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes `up`, `down`, `over`, e `disabled`.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - para configurar botões de rolagem que são 28 x 32 pixels e têm arte-final diferente para cada estado.
+Exemplo - para configurar botões de rolagem com 28 x 32 pixels e diferentes trabalhos artísticos para cada estado.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 

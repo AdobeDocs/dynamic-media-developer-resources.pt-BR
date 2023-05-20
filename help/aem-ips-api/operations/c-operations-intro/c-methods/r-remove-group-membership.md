@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Remove usuários de uma matriz de grupos.
 
-**Diferenças entre comandos Remover**
+**Diferenças Entre Comandos Remove**
 
-* `removeGroupMembers`: Remove vários usuários de um grupo.
-* `removeGroupMembership`: Remove um usuário individual de uma matriz de grupos.
+* `removeGroupMembers`: remove vários usuários de um grupo.
+* `removeGroupMembership`: remove um usuário individual de uma matriz de grupos.
 
 ## Tipos de usuário autorizados {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
@@ -34,7 +34,7 @@ Remove usuários de uma matriz de grupos.
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | userHandle | `xsd:string` | Não | O identificador da empresa cuja associação de grupo você deseja remover. |
-| groupHandleArray | `types:HandleArray` | Sim | A matriz de grupos a partir dos quais você deseja que a empresa seja removida. |
+| groupHandleArray | `types:HandleArray` | Sim | A matriz de identificadores para grupos dos quais você deseja que a empresa seja removida. |
 
 **Saída (removeGroupMembershipReturn)**
 
@@ -42,7 +42,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-f8d4181170a243efb9faf5824ae96197}
 
-Essa amostra de código remove um usuário de um grupo.
+Esta amostra de código remove um usuário de um grupo.
 
 **Solicitação**
 

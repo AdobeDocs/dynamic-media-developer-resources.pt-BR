@@ -34,18 +34,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O responsável da empresa. |
-| assetType | `xsd:string` | Sim | Tipos de ativos a partir dos quais obter metadados. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
+| assetType | `xsd:string` | Sim | Tipos de ativos dos quais obter metadados. |
 
 **Saída (getMetadataFieldsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| Frase do código | `Code Phrase` |  |  |
+| Frase de código | `Code Phrase` |  |  |
 
 ## Exemplos {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Essa amostra de código retorna ativos de metadados para o tipo e empresa especificados. A resposta contém uma matriz de campos de metadados em uma matriz de campos. Nem todos os ativos têm os mesmos metadados. O usuário IPS define o campo de metadados do ativo.
+Esta amostra de código retorna ativos de metadados para o tipo e a empresa especificados. A resposta contém uma matriz de campos de metadados em uma matriz de campos. Nem todos os ativos têm os mesmos metadados. O usuário do IPS define o campo de metadados do ativo.
 
 **Solicitação**
 

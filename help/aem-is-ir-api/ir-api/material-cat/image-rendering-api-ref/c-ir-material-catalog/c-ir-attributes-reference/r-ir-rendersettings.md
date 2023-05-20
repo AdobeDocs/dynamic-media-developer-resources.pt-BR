@@ -1,6 +1,6 @@
 ---
 title: RenderSettings
-description: Configurações de renderização avançadas padrão. Padrão para RenderSettings do catálogo.
+description: Configurações de renderização avançadas padrão. Padrão, para Configurações de renderização do catálogo.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -18,7 +18,7 @@ Configurações de renderização avançadas padrão. Padrão para `catalog::Ren
 
 ## Propriedades {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Sequência de texto. Se especificado, deve ser uma string válida de configurações de renderização, conforme definido com a Ferramenta de criação de vinhetas (parte do pacote Criação de imagem do Dynamic Media).
+String de texto. Se especificada, ela deve ser uma cadeia de caracteres de configurações de renderização válida, conforme definido com a Ferramenta de Criação de Vinheta (parte do pacote de Criação de imagem do Dynamic Media).
 
 ## Padrão {#section-4e76784aeecd4f09a33124aded7406cb}
 

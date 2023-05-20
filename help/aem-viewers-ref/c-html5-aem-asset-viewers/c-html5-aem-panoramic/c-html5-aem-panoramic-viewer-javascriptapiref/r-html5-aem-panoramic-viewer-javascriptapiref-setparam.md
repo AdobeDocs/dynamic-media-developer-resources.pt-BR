@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Referência da API do JavaScript para Visualizador panorâmico.
+description: Referência da API JavaScript para o Visualizador panorâmico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API do JavaScript para Visualizador panorâmico.
+Referência da API JavaScript para o Visualizador panorâmico.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador tiverem sido passadas com `config` Objeto JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` Objeto JSON para o construtor.
 
 
 

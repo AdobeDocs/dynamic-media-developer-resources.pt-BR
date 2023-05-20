@@ -8,7 +8,7 @@ exl-id: 6126d7de-5d5f-4a8a-898e-8a9bb5b37627
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`url de email`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> url de email</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica o URL básico para o serviço de email Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col2"> <p> Especifica o URL de base para o serviço de email Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>

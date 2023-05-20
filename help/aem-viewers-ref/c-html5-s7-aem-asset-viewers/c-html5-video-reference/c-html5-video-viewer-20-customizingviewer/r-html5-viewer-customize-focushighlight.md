@@ -1,20 +1,20 @@
 ---
-title: Destaque da focagem
-description: O realce do foco de entrada exibido em torno do elemento da interface do usuário do visualizador focado é controlado com o seletor de classe CSS.
+title: Foco em destaque
+description: O destaque do foco de entrada exibido em torno do elemento da interface do visualizador focalizado é controlado com o seletor de classe CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 9968c67b-02cc-4ac0-8ab1-c7eda565912d
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
-# Destaque da focagem{#focus-highlight}
+# Foco em destaque{#focus-highlight}
 
-O realce do foco de entrada exibido em torno do elemento da interface do usuário do visualizador focado é controlado com o seletor de classe CSS.
+O destaque do foco de entrada exibido em torno do elemento da interface do visualizador focalizado é controlado com o seletor de classe CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,13 +35,13 @@ A aparência é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> outline </span> </p> </td> 
-   <td colname="col2"> <p>Estilo do destaque de foco. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> estrutura </span> </p> </td> 
+   <td colname="col2"> <p>Estilo de destaque da focagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para desativar o destaque de foco padrão do navegador para todos os elementos da interface do usuário do visualizador, adicione o seguinte seletor de CSS à folha de estilos do visualizador:
+Exemplo - para desativar o destaque de foco do navegador padrão para todos os elementos da interface do usuário do visualizador, adicione o seguinte seletor de CSS à folha de estilos do visualizador:
 
 ```
 .s7videoviewer *:focus { 

@@ -1,7 +1,7 @@
 ---
-description: Elemento do cabeçalho de resposta HTTP. Opcional em <rule> elementos.
+description: Elemento de cabeçalho de resposta HTTP. Opcional em <rule> elementos.
 solution: Experience Manager
-title: header
+title: cabeçalho
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# header{#header}
+# cabeçalho{#header}
 
-Elemento do cabeçalho de resposta HTTP. Opcional em `<rule>` elementos.
+Elemento de cabeçalho de resposta HTTP. Opcional em `<rule>` elementos.
 
 ## Atributos {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
@@ -28,9 +28,9 @@ Valor do cabeçalho.
 
 ## Descrição {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-Permite adicionar novos cabeçalhos de resposta HTTP, bem como adicionar ou substituir valores de cabeçalhos predefinidos. Nomes e valores devem estar em conformidade com os padrões HTTP. Nenhuma codificação adicional é aplicada.
+Permite adicionar novos cabeçalhos de resposta HTTP, bem como adicionar ou substituir valores de cabeçalhos predefinidos. Os nomes e valores devem estar em conformidade com os padrões HTTP. Nenhuma codificação adicional é aplicada.
 
-As variáveis de substituição do Image Serving podem ser usadas no nome do cabeçalho e no valor do cabeçalho. Isso permite controlar ambas as cadeias de caracteres da solicitação.
+As variáveis de substituição do Servidor de imagens podem ser usadas no nome e no valor do cabeçalho. Isso permite controlar ambas as cadeias de caracteres da solicitação.
 
 ## Exemplo {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 

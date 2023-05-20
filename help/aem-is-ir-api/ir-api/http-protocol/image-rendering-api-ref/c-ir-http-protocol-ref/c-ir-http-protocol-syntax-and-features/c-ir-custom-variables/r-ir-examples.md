@@ -1,6 +1,6 @@
 ---
 title: Exemplos
-description: Este exemplo usa o Serviço de imagem para colorir um objeto e aplicar um decalque contendo texto personalizado em uma de um conjunto de vinhetas.
+description: Este exemplo usa o Servidor de imagens para colorir um objeto e aplicar um decalque contendo texto personalizado em um de um conjunto de vinhetas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # Exemplos{#examples}
 
-Este exemplo usa o Serviço de imagem para colorir um objeto e aplicar um decalque contendo texto personalizado em uma de um conjunto de vinhetas.
+Este exemplo usa o Servidor de imagens para colorir um objeto e aplicar um decalque contendo texto personalizado em um de um conjunto de vinhetas.
 
 As variáveis IR são usadas para identificar a vinheta, a imagem do logotipo e o texto personalizado.
 
-O `vignette::Modifier` no registro nomeado *modelo* no mapa da vinheta do catálogo de materiais `myCat` contém o seguinte:
+A variável `vignette::Modifier` campo no registro chamado *modelo* no mapa de vinheta do catálogo de materiais `myCat` contém o seguinte:
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Todas as vinhetas usadas estão listadas no mapa de vinheta do catálogo de materiais `myCat`.
+Todas as vinhetas usadas estão listadas no mapa de vinhetas do catálogo de materiais `myCat`.
 
-O cliente agora pode fazer a seguinte solicitação para recuperar a imagem padrão (usa as variáveis definidas no início do template):
+O cliente agora pode fazer a seguinte solicitação para recuperar a imagem padrão (usa as variáveis definidas no início do modelo):
 
 [!DNL `https://server/myCat/template`]
 
-A solicitação a seguir especifica o conteúdo a ser renderizado:
+A solicitação a seguir especifica determinado conteúdo a ser renderizado:
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Consulte a Documentação de disponibilização de imagens para obter detalhes sobre o fornecimento de imagens `text=` comando.
+Consulte a Documentação do Servidor de imagens para obter detalhes sobre esse serviço `text=` comando.

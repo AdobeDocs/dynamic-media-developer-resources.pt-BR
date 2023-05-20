@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um arquivo Excel do Microsoft.
+description: Propriedades de um arquivo do Microsoft Excel.
 solution: Experience Manager
 title: ExcelInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ExcelInfo]{#excelinfo}
 
-Propriedades de um arquivo Excel do Microsoft.
+Propriedades de um arquivo do Microsoft Excel.
 
 Sintaxe
 

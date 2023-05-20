@@ -76,13 +76,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
    <td colname="col3"> <p>Pixels por polegada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Identificação do produto. </p> </td> 
+   <td colname="col3"> <p>ID do produto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL description]</span> </span> </td> 
@@ -97,7 +97,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL userData]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Informações do usuário associadas à imagem (obsoleta). </p> </td> 
+   <td colname="col3"> <p>Informações do usuário associadas à imagem (obsoleto). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorX]</span> </span> </td> 
@@ -112,21 +112,21 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parâmetro de URL do servidor de imagem. </p> </td> 
+   <td colname="col3"> <p>Parâmetro do URL do servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parâmetros concatenados ao final do <span class="codeph"> urlModifier</span>. Lista de parâmetros do formato da string de consulta que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagem. </p> </td> 
+   <td colname="col3"> <p>Parâmetros concatenados até o final do <span class="codeph"> urlModifier</span>. Formato da string de consulta lista de parâmetros que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Matriz de alvos de zoom (5 máx.). </p> </td> 
+   <td colname="col3"> <p>Matriz de destinos de zoom (máximo 5). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MaskArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizMáscara</span> </td> 
    <td colname="col3"> <p>Matriz de máscaras. </p> </td> 
   </tr> 
   <tr> 

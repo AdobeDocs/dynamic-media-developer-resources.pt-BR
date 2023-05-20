@@ -1,6 +1,6 @@
 ---
-title: Processamento de variável em solicitações externas incorporadas
-description: As referências $var$ que ocorrem em qualquer lugar nas chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
+title: Processamento de variáveis em solicitações externas inseridas
+description: As referências $var$ que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Processamento de variável em solicitações externas incorporadas{#variable-processing-in-embedded-foreign-requests}
+# Processamento de variáveis em solicitações externas inseridas{#variable-processing-in-embedded-foreign-requests}
 
 Qualquer `$var$` as referências que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 
-Permite que solicitações externas incorporadas sejam colocadas em um modelo em um catálogo de imagem.
+Permite que solicitações externas incorporadas sejam colocadas em um modelo em um catálogo de imagens.
 
-Os valores de variáveis que devem ser substituídos em solicitações estrangeiras normalmente devem ser codificados duas vezes, pois nenhuma recodificação é aplicada antes que o servidor tente transmitir o url externo final.
+Os valores de variáveis que devem ser substituídos em solicitações estrangeiras normalmente devem ser codificados duas vezes, porque nenhuma nova codificação é aplicada antes que o servidor tente transmitir o URL externo final.

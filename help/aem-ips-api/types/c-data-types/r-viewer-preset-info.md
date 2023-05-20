@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um ativo predefinido do visualizador.
+description: Propriedades de um ativo de predefinição do visualizador.
 solution: Experience Manager
 title: ViewerPresetInfo
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ViewerPresetInfo]{#viewerpresetinfo}
 
-Propriedades de um ativo predefinido do visualizador.
+Propriedades de um ativo de predefinição do visualizador.
 
 Sintaxe
 

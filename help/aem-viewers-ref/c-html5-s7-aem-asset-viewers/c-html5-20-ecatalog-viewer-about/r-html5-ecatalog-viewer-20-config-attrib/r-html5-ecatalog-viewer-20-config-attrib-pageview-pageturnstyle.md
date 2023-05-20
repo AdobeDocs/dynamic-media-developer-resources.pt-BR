@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-` [PageView.|<containerId>_pageView.]pageturnstyle= *`divWidth`*, *`divColor`*, *`divOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
+` [PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`
 
-Controla a aparência do componente quando um `PageView.frametransition` está definida como `turn` ou `auto` em sistemas desktop.
+Controla a aparência do componente quando um `PageView.frametransition` está definida como `turn` ou para `auto` em sistemas desktop.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> divWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> A largura em pixels da sombra do divisor de página que separa as páginas esquerda e direita na página espelhada. Ele também controla a largura da sombra em execução exibida ao lado da página de viragem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
+   <td colname="col2"> <p> A largura em pixels da sombra do divisor de página que separa as páginas espelhada esquerda e direita. Também controla a largura da sombra em execução exibida ao lado da página de viragem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> divOpacity</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
    <td colname="col2"> <p> A cor da sombra no formato RRGGBB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> divOpacity</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
    <td colname="col2"> <p>A opacidade da sombra no intervalo de <span class="codeph"> 0</span> para <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> O sinalizador (ou <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda em torno da página de viragem. </p> </td> 
+   <td colname="col2"> <p> O sinalizador (ou <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) que ativa e desativa a borda ao redor da página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

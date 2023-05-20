@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Define a taxa de bits do vídeo (em kilobits por segundo ou kbps) usada para a reprodução inicial do vídeo em um desktop. </p> <p>Se esse valor da taxa de bits não existir no Conjunto de vídeos adaptáveis, o reprodutor de vídeo iniciará com o vídeo que apresenta a próxima taxa de bits mais baixa. </p> <p>Se definido como <span class="codeph"> 0</span>, o reprodutor de vídeo iniciará a partir da menor taxa de bits possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HTML5 HLS (como os navegadores Firefox, Chrome e Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como automático. </p> </td> 
+   <td colname="col2"> <p> Define a taxa de bits de vídeo (em quilobits por segundo ou kbps) usada para a reprodução inicial de vídeo em um desktop. </p> <p>Se esse valor de taxa de bits não existir no Conjunto de vídeos adaptados, o reprodutor de vídeo começará com o vídeo que tiver a taxa de bits mais baixa. </p> <p>Se definida como <span class="codeph"> 0</span>, o reprodutor de vídeo começa com a taxa de bits mais baixa possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HTML5 HLS (como Firefox, Chrome e navegadores Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como automático. </p> </td> 
   </tr> 
  </tbody> 
 </table>

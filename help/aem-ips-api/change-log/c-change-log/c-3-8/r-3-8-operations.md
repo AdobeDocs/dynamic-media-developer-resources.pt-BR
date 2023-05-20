@@ -1,18 +1,18 @@
 ---
 description: Descreve métodos de operações novos e alterados para a API do IPS versão 3.8.
 solution: Experience Manager
-title: Operações novas e modificadas
-feature: Dynamic Media Classic, SDK/API
+title: Operações Novas e Modificadas
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-# Operações: Novo e modificado{#operations-new-and-modified}
+# Operações: Novas e Modificadas{#operations-new-and-modified}
 
 Descreve métodos de operações novos e alterados para a API do IPS versão 3.8.
 
@@ -28,12 +28,12 @@ Sintaxe
 * `createImageSet`
 * `getImageSetMembers`
 
-## Operações modificadas {#section-25eee732b69c49d0a27b1f3290f8654a}
+## Operações Modificadas {#section-25eee732b69c49d0a27b1f3290f8654a}
 
 **searchAssets**
 
-* O parâmetro opcional `publishState` permite pesquisar no estado do ativo `MarkedForPublish/NotMarkedForPublish`.
+* O modelo opcional `publishState` permite pesquisar no `MarkedForPublish/NotMarkedForPublish` estado do ativo.
 
 **getJobLogs**
 
-* O parâmetro opcional `userHandle` permite recuperar registros de tarefas enviados por um usuário específico.
+* O modelo opcional `userHandle` permite recuperar logs de processos enviados por um usuário específico.

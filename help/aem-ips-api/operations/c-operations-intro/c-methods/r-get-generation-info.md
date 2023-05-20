@@ -1,5 +1,5 @@
 ---
-description: Retorna 2 tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
+description: Retorna dois tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre etapas usadas para gerar o ativo ou arquivo especificado.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getGenerationInfo{#getgenerationinfo}
 
-Retorna 2 tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre as etapas usadas para gerar o ativo ou arquivo especificado.
+Retorna dois tipos diferentes de informações com base nos parâmetros transmitidos. originatorHandle retorna informações sobre ativos gerados a partir do ativo especificado. generateHandle retorna informações sobre etapas usadas para gerar o ativo ou arquivo especificado.
 
 Sintaxe
 
@@ -36,12 +36,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| Frase do código | `xsd:string` | Sim | O nome da empresa. |
-| Frase do código | `xsd:string` | Não | O mecanismo usado na geração. Consulte Estilos de fonte. |
-| Frase do código | `xsd:string` | Não | O identificador do ativo que será consultado para os ativos gerados. |
-| Frase do código | `xsd:string` | Não | O identificador do ativo para consultar ativos e mecanismos usados na geração. |
-| Frase do código | `xsd:StringArray` | Não | Propriedades incluídas na operação. |
-| Frase do código | `xsd:StringArray` | Não | Propriedades excluídas da operação. |
+| Frase de código | `xsd:string` | Sim | O identificador da empresa. |
+| Frase de código | `xsd:string` | Não | O mecanismo que foi usado na geração. Consulte Estilos de fonte. |
+| Frase de código | `xsd:string` | Não | O identificador do ativo para consultar por ativos gerados. |
+| Frase de código | `xsd:string` | Não | O identificador do ativo para consultar ativos e mecanismos usados em sua geração. |
+| Frase de código | `xsd:StringArray` | Não | Propriedades incluídas na operação. |
+| Frase de código | `xsd:StringArray` | Não | Propriedades excluídas da operação. |
 
 **Saída (getGenerationInfoReturn)**
 
@@ -51,7 +51,7 @@ Sintaxe
 
 ## Exemplos {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Essa amostra de código retorna informações sobre ativos gerados a partir de um ativo específico. Ele não recupera informações sobre as etapas usadas para gerar o ativo especificado. A resposta é truncada por brevidade.
+Esta amostra de código retorna informações sobre ativos gerados de um ativo específico. Ele não recupera informações sobre as etapas usadas para gerar o ativo especificado. A resposta é truncada por brevidade.
 
 **Solicitação**
 

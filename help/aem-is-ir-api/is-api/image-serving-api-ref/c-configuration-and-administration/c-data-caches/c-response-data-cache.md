@@ -1,5 +1,5 @@
 ---
-description: O [!DNL Platform Server] armazena em cache todas as imagens de resposta e determinados dados de texto em disco, a menos que uma solicitação seja marcada como não armazenável em cache.
+description: A variável [!DNL Platform Server] armazena em cache toda a imagem de resposta e determinados dados de texto no disco, a menos que uma solicitação esteja marcada como não armazenável em cache.
 solution: Experience Manager
 title: Cache de dados de resposta
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # Cache de dados de resposta{#response-data-cache}
 
-O [!DNL Platform Server] armazena em cache todas as imagens de resposta e determinados dados de texto em disco, a menos que uma solicitação seja marcada como não armazenável em cache.
+A variável [!DNL Platform Server] armazena em cache toda a imagem de resposta e determinados dados de texto no disco, a menos que uma solicitação esteja marcada como não armazenável em cache.
 
-A localização da variável [!DNL Platform Server]O cache de disco do está definido com `PS::cache.rootPaths`.
+A localização do [!DNL Platform Server]O cache de disco do está configurado com `PS::cache.rootPaths`.
 
-Para aplicativos com altas taxas de ocorrência de cache, você pode aumentar o desempenho e a capacidade do servidor distribuindo o cache de dados de resposta entre vários dispositivos de disco. Para isso, crie uma pasta raiz de cache em cada disco e registre-a em `PS::cache.rootPaths`.
+Para aplicativos com altas taxas de acerto de cache, você pode aumentar o desempenho e a capacidade do servidor distribuindo o cache de dados de resposta entre vários dispositivos de disco. Você consegue isso criando uma pasta raiz de cache em cada disco e registrando-as em `PS::cache.rootPaths`.
 
-`PS::cache.maxSize` especifica o tamanho total de todas as entradas de cache, não considerando nenhuma sobrecarga do sistema de arquivos. A quantidade de espaço em disco realmente necessária depende das propriedades do sistema de arquivos, como o tamanho do bloco de disco e o número de entradas de cache. É recomendável reservar duas vezes mais espaço em disco para o cache de disco HTTP que a quantidade especificada por `PS::cache.maxSize`. Um algoritmo usado menos recentemente é usado para manter a quantidade de dados em cache dentro do limite.
+`PS::cache.maxSize` especifica o tamanho total de todas as entradas do cache, sem considerar a sobrecarga do sistema de arquivos. A quantidade de espaço em disco realmente necessária depende das propriedades do sistema de arquivos — como o tamanho do bloco do disco — e do número de entradas do cache. É recomendável reservar o dobro de espaço em disco para o cache em disco HTTP do que a quantidade especificada por `PS::cache.maxSize`. Um algoritmo menos usado recentemente é empregado para manter a quantidade de dados em cache dentro do limite.
 
-Além de `PS::cache.maxSize`, o cache de resposta também é gerenciado pela limitação do número máximo de entradas de cache com `PS::cache.maxEntries`. No Linux, essa configuração deve especificar um valor não maior que o número de nós disponíveis na partição do cache.
+Além de `PS::cache.maxSize`, o cache de resposta também é gerenciado limitando o número máximo de entradas do cache com `PS::cache.maxEntries`. No Linux, essa configuração deve especificar um valor não maior que o número de inodes disponíveis na partição de cache.
 
 >[!NOTE]
 >
->O [!DNL Platform Server] mantém um índice de cache na memória. O tamanho deste índice é 32 bytes vezes o valor de `PS::cache.maxEntries`. Pode ter necessidade de aumentar a [!DNL Platform Server] tamanho do heap para acomodar caches maiores.
+>A variável [!DNL Platform Server] O mantém um índice de cache na memória. O tamanho desse índice é de 32 bytes vezes o valor de `PS::cache.maxEntries`. Talvez seja necessário aumentar o [!DNL Platform Server] tamanho do heap para acomodar caches maiores.
 
-O sistema usa um arquivo de índice de cache que é salvo em disco quando o servidor é desligado de forma ordenada. No caso de eventos inesperados, como falha de energia, esse arquivo pode não ser salvo. Além disso, pode levar vários minutos para a variável [!DNL Platform Server] para se preparar.
+O sistema usa um arquivo de índice de cache que é salvo em disco quando o servidor é desligado de forma ordenada. No caso de eventos inesperados, como falta de energia, esse arquivo pode não ser salvo. Além disso, pode levar vários minutos para que o [!DNL Platform Server] para ficar pronto.

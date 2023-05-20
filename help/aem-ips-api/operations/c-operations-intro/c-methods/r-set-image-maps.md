@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define o mapa de imagem de um ativo.
 
-Você já deve ter criado os mapas de imagem. Mapas de imagem são aplicados na ordem de recuperação da matriz. Isso significa que o segundo mapa de imagem se sobrepõe ao primeiro, o terceiro se sobrepõe ao segundo e assim por diante.
+Você já deve ter criado os mapas de imagem. Os mapas de imagem são aplicados na ordem de recuperação da matriz. Isso significa que o segundo mapa de imagem se sobrepõe ao primeiro, o terceiro se sobrepõe ao segundo e assim por diante.
 
 ## Tipos de usuário autorizados {#section-adb21c5b679249939dd83816e4a0ee97}
 
@@ -33,7 +33,7 @@ Você já deve ter criado os mapas de imagem. Mapas de imagem são aplicados na 
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
 | imageMapArray | `types:ImageMapDefinitionArray` | Sim | Matriz de mapas de imagem predefinidos. |
 
@@ -41,11 +41,11 @@ Você já deve ter criado os mapas de imagem. Mapas de imagem são aplicados na 
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| imageMapHandleArray | `types:HandleArray` | Sim | Uma matriz com identificadores de mapa de imagem aplicados ao ativo. |
+| imageMapHandleArray | `types:HandleArray` | Sim | Uma matriz com alças de mapa de imagem aplicadas ao ativo. |
 
 ## Exemplos {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Essa amostra de código define 2 mapas de imagem para um ativo de imagem. O código especifica o tipo de forma, a região e a ação executada quando os mapas de imagem são chamados. A resposta contém uma matriz com identificadores para os mapas de imagem.
+Essa amostra de código define dois mapas de imagem para um ativo de imagem. O código especifica o tipo de forma, a região e a ação executada quando os mapas de imagem são invocados. A resposta contém uma matriz com identificadores para os mapas de imagem.
 
 **Solicitação**
 

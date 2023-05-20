@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um direcionamento de Zoom.
+description: Propriedades de um destino de Zoom.
 solution: Experience Manager
 title: ZoomTarget
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # [!DNL ZoomTarget]{#zoomtarget}
 
-Propriedades de um direcionamento de Zoom.
+Propriedades de um destino de Zoom.
 
 Sintaxe
 
@@ -23,11 +23,11 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | zoomTargetHandle | `xsd:string` | Alça de destino de zoom. |
-| name | `xsd:string` | Nome da meta de zoom. |
+| name | `xsd:string` | Nome do destino de zoom. |
 | xPosition | `xsd:int` | A posição X do destino de zoom. |
 | yPosition | `xsd:int` | A posição Y do destino de zoom. |
-| largura | `xsd:int` | Ampliação da largura de destino. |
-| altura | `xsd:int` | Altura da meta de zoom. |
-| userData | `xsd:string` | Dados do usuário associados ao direcionamento do Zoom. |
-| position | `xsd:int` | Permite que os destinos de Zoom associados a um ativo sejam ordenados com base na posição |
+| largura | `xsd:int` | Largura de destino do zoom. |
+| altura | `xsd:int` | Altura de destino do zoom. |
+| userData | `xsd:string` | Dados do usuário associados ao alvo de Zoom. |
+| position | `xsd:int` | Permite direcionamentos de Zoom associados a um ativo a ser ordenado com base na posição |
 | lastModified | `xsd:dateTime` | Data da última modificação. |

@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:TagValueUpdateFault` | Uma matriz de falhas de atualização do valor da tag (mensagens de erro). |
+| itens | `types:TagValueUpdateFault` | Uma matriz de falhas de atualização de valor de tag (mensagens de erro). |

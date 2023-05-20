@@ -1,19 +1,20 @@
 ---
 title: SmartCropVideoPlayer.loop
-description: Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+description: Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '32'
+ht-degree: 3%
 
 ---
 
 # SmartCropVideoPlayer.loop{#smartcropvideoplayer-loop}
 
-Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]loop=0|1`
 

@@ -1,7 +1,7 @@
 ---
-description: Lista de scripts de geração de conjunto automático para tarefas de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
+description: Lista automática de scripts de geração de conjunto para trabalhos de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
 solution: Experience Manager
-title: AutoSetCreationOptions
+title: AutoDefinirOpçõesDeCriação
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-Lista de scripts de geração de conjunto automático para tarefas de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
+Lista automática de scripts de geração de conjunto para trabalhos de upload. O teste z assume que cada script especificado para o upload é aplicado a todos os ativos carregados.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] trata da definição dos scripts de geração de conjunto automático aplicados durante o upload. |
+| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] manipuladores que definem os scripts de geração de conjunto automático aplicados durante o upload. |

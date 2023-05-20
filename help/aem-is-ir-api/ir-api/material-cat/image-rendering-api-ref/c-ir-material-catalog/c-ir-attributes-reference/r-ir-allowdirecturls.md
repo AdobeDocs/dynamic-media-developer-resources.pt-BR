@@ -1,6 +1,6 @@
 ---
 title: AllowDirectURLs
-description: Permitir URLs de origem absoluta.
+description: Permitir URLs de origem absolutos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # AllowDirectURLs{#allowdirecturls}
 
-Permitir URLs de origem absoluta.
+Permitir URLs de origem absolutos.
 
 Defina como `1` para permitir URLs HTTP absolutos (começando com &quot; `http://`&quot;) em `src=` comandos. Defina como `0` para não permitir URLs absolutos.
 
@@ -28,4 +28,4 @@ Herdado de `default::AllowDirectUrls` se não estiver definido ou se estiver vaz
 
 ## Consulte também {#section-66e0c597a8b04155b40538385312b389}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)

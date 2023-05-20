@@ -1,20 +1,20 @@
 ---
-description: Resolução de impressão padrão. Fornece uma resolução de impressão padrão no caso de um registro de catálogo específico não conter um valor PrintResolution de catálogo válido.
+description: Resolução de impressão padrão. Fornece uma resolução de impressão padrão caso um determinado registro de catálogo não contenha um valor PrintResolution de catálogo válido.
 solution: Experience Manager
-title: PrintResolution
-feature: Dynamic Media Classic, SDK/API
+title: ResoluçãoDeImpressão
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
-# PrintResolution{#printresolution}
+# ResoluçãoDeImpressão{#printresolution}
 
-Resolução de impressão padrão. Fornece uma resolução de impressão padrão no caso de um registro de catálogo específico não conter um valor de catalog::PrintResolution válido.
+Resolução de impressão padrão. Fornece uma resolução de impressão padrão caso um determinado registro de catálogo não contenha um valor catalog::PrintResolution válido.
 
 ## Propriedades {#section-8f3cffb0f3f3406b81bc967366b241d6}
 

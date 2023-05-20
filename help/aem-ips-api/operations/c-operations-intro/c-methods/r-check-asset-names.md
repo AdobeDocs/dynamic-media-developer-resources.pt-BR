@@ -1,5 +1,5 @@
 ---
-description: Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
+description: Verifica se há conflitos de ID de IPS comparando os nomes de ativos com todos os nomes do namespace de catálogo do Servidor de imagens/Renderização de imagens de uma empresa.
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # checkAssetNames{#checkassetnames}
 
-Verifica conflitos de ID de IPS, comparando os nomes dos ativos com todos os nomes do namespace de catálogo de Exibição de imagem/Renderização de imagem de uma empresa.
+Verifica se há conflitos de ID de IPS comparando os nomes de ativos com todos os nomes do namespace de catálogo do Servidor de imagens/Renderização de imagens de uma empresa.
 
 Sintaxe
 
@@ -35,7 +35,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O identificador para a empresa que contém o usuário. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa que contém o usuário. |
 | assetNamesArray | `types:StringArray` | Sim | Uma matriz de nomes de ativos a serem verificados. |
 
 **Saída (checkAssetNamesReturn)**
@@ -46,7 +46,7 @@ Sintaxe
 
 ## Exemplos {#section-bc5d120d74614a63a425ca3acc337219}
 
-Este código de exemplo solicita os nomes dos ativos em uso para uma empresa especificada. A resposta retorna uma matriz de nomes de ativos que estão em uso.
+Este código de amostra solicita os nomes de ativos em uso para uma empresa especificada. A resposta retorna uma matriz de nomes de ativos que estão em uso.
 
 **Solicitação**
 

@@ -1,7 +1,7 @@
 ---
-description: Um conjunto de projetos.
+description: Uma matriz de projetos.
 solution: Experience Manager
-title: ProjectArray
+title: MatrizProjeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6f9b5a38-49b1-4975-8ab9-c129a8e07d05
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ProjectArray]{#projectarray}
 
-Um conjunto de projetos.
+Uma matriz de projetos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Project` | A matriz do projeto. |
+| itens | `types:Project` | A matriz do projeto. |

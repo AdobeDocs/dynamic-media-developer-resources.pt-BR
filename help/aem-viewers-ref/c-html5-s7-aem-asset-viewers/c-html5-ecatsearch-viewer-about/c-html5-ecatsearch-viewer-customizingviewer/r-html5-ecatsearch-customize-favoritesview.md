@@ -1,6 +1,6 @@
 ---
 title: Exibição de favoritos
-description: A exibição Favoritos consiste em uma coluna de imagens em miniatura.
+description: A visualização Favoritos consiste em uma coluna de imagens em miniatura.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 # Exibição de favoritos{#favorites-view}
 
-A exibição Favoritos consiste em uma coluna de imagens em miniatura.
+A visualização Favoritos consiste em uma coluna de imagens em miniatura.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-A aparência do contêiner de exibição de favoritos é controlada com o seguinte seletor de classe CSS:
+A aparência do contêiner de visualização de favoritos é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-A posição e a altura da exibição Favoritos são gerenciadas pela exibição; em CSS, só é possível definir a largura.
+A posição e a altura da visualização Favoritos são gerenciadas pela visualização; no CSS, é possível definir apenas a largura.
 
 **Propriedades CSS da exibição Favoritos**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo da exibição Favoritos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor de fundo da visualização Favoritos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura da exibição. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma exibição Favoritos com 100 pixels de largura com um plano de fundo cinza semitransparente.
+Exemplo - para configurar uma visualização de Favoritos com 100 pixels de largura e um plano de fundo cinza semitransparente.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -50,24 +50,24 @@ Exemplo - para configurar uma exibição Favoritos com 100 pixels de largura com
 }
 ```
 
-O espaçamento entre miniaturas Favoritos é controlado com o seguinte seletor de classe CSS:
+O espaçamento entre as miniaturas de Favoritos é controlado com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell
 ```
 
-**Propriedades CSS das miniaturas Favoritas**
+**Propriedades CSS das miniaturas de Favoritos**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem vertical em torno de cada miniatura. O espaçamento real das miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real entre miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - Para configurar um espaçamento de dez pixels.
+Exemplo - Para configurar o espaçamento de dez pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -81,7 +81,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
 ```
 
-**Propriedades CSS das miniaturas Favoritas**
+**Propriedades CSS das miniaturas de Favoritos**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
@@ -94,7 +94,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,9 +102,9 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura é compatível com o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura recentemente selecionada pelo usuário. Ao `state="default"` corresponde ao restante das miniaturas. E `state="over"` é usada ao passar o mouse.
+>A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura selecionada recentemente pelo usuário. Enquanto `state="default"` corresponde ao restante das miniaturas. E `state="over"` é usado ao passar o mouse.
 
-Exemplo - Para configurar miniaturas com 75 x 75 pixels, tenha uma borda padrão cinza-claro e uma borda cinza-escura selecionada.
+Exemplo - Para configurar miniaturas com 75 x 75 pixels, tenha uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb { 
@@ -119,7 +119,7 @@ Exemplo - Para configurar miniaturas com 75 x 75 pixels, tenha uma borda padrão
 }
 ```
 
-A aparência do rótulo de miniatura é controlada com o seguinte seletor de classe CSS:
+A aparência do rótulo da miniatura é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
@@ -130,11 +130,11 @@ A aparência do rótulo de miniatura é controlada com o seguinte seletor de cla
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 

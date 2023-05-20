@@ -1,7 +1,7 @@
 ---
-description: CompanyMemberArray
+description: MatrizDeMembrosDaEmpresa
 solution: Experience Manager
-title: CompanyMemberArray
+title: MatrizDeMembrosDaEmpresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7f41ffa4-4077-4a27-baf6-e7b83449a868
@@ -20,4 +20,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:CompanyMember` |  |
+| itens | `types:CompanyMember` |  |

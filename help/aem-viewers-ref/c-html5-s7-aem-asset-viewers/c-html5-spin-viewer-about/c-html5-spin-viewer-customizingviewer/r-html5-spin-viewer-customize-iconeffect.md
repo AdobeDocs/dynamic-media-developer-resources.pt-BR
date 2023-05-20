@@ -1,6 +1,6 @@
 ---
-title: Efeito de ícone
-description: O indicador de rotação é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
+title: Efeito do ícone
+description: O indicador de rotação é sobreposto na área de exibição principal. Ela é exibida quando a imagem está em um estado redefinido e também depende do parâmetro iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Efeito de ícone{#icon-effect}
+# Efeito do ícone{#icon-effect}
 
-O indicador de rotação é sobreposto na área de visualização principal. Ele é exibido quando a imagem está em um estado de redefinição e também depende do parâmetro de efeito de ícone.
+O indicador de rotação é sobreposto na área de exibição principal. Ela é exibida quando a imagem está em um estado redefinido e também depende do parâmetro iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,15 +35,15 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Arte do indicador de rotação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Trabalho artístico do indicador de rotação. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do indicador de rotação. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </tbody> 
 </table>
 
-O indicador de rotação suporta `state` seletor de atributo que está definido como `spin_1D` se houver um conjunto de rotação unidimensional e como `spin_2D` se houver um conjunto de rotação multidimensional.
+O indicador de rotação suporta o `state` seletor de atributo que está definido como `spin_1D` se houver um conjunto de rotação unidimensional, e para `spin_2D` se houver um conjunto de rotação multidimensional.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels.
 

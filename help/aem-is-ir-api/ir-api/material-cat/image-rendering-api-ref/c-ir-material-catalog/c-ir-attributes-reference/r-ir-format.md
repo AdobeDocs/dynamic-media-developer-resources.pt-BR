@@ -18,7 +18,7 @@ Formato de imagem de resposta padrão. Especifica o formato padrão para imagens
 
 ## Propriedades {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Sequência de texto. Deve ser um dos tokens de formato suportados pelo `fmt=` comando:
+String de texto. Deve ser um dos tokens de formato compatíveis com o `fmt=` comando:
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 

@@ -8,7 +8,7 @@ exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Configura como o componente busca novas imagens para a exibição principal e de flyout durante o redimensionamento. </p> <p>Defina como <span class="codeph"> 0 </span>, o componente não carrega novas imagens durante o redimensionamento e a resolução da imagem na exibição do flyout não muda. </p> <p>Defina como <span class="codeph"> 1 </span> permite especificar um ou mais pontos de interrupção de largura para a imagem carregada na exibição principal. </p> </td> 
+   <td colname="col2"> <p> Configura como o componente busca novas imagens para a exibição principal e de imagem suspensa durante o redimensionamento. </p> <p>Defina como <span class="codeph"> 0 </span>, o componente não carrega novas imagens durante o redimensionamento e a resolução da imagem na exibição de imagem suspensa não é alterada. </p> <p>Defina como <span class="codeph"> 1 </span> permite especificar um ou mais pontos de interrupção de largura para a imagem carregada na exibição principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ponto de interrupção, <span class="varname"> largura </span>; <span class="varname"> largura </span> </span> </p> </td> 
-   <td colname="col2"> <p>Pontos de interrupção de largura para a imagem carregada na exibição principal. </p> <p>O componente sempre usa o tamanho de melhor ajuste para a carga inicial. Após o redimensionamento, a imagem na exibição principal sempre será baixada usando a largura igual ao ponto de interrupção maior mais próximo e baixada no cliente. </p> </td> 
+   <td colname="col2"> <p>Pontos de interrupção de largura da imagem carregada na exibição principal. </p> <p>O componente sempre usa o melhor tamanho para a carga inicial. Após o redimensionamento, ele garante que a imagem na exibição principal sempre seja baixada com a largura igual ao ponto de interrupção maior mais próximo e seja reduzida no cliente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

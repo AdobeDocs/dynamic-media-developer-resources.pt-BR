@@ -30,7 +30,7 @@ Exclui um formato de publicação de vinheta.
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa à qual a vinheta pertence. |
-| vinhetaFormatarIdentificador | `xsd:string` | Sim | O identificador para o formato de publicação da vinheta a ser excluído. |
+| vinhetaFormatarAlça | `xsd:string` | Sim | O identificador para o formato de publicação de vinheta a ser excluído. |
 
 **Saída (deleteVignettePublishFormatParam)**
 
@@ -38,7 +38,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Essa amostra de código exclui um formato de publicação de vinheta especificado por seu identificador.
+Essa amostra de código exclui um formato de publicação de vinheta especificado pelo identificador.
 
 **Solicitação**
 

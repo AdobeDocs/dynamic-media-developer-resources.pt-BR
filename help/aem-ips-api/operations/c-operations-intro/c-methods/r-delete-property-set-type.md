@@ -31,7 +31,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades a ser excluído. |
+| typeHandle | `xsd:string` | Sim | O identificador para o tipo de conjunto de propriedades a ser excluído. |
 
 **Saída (deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Essa amostra de código usa o identificador do tipo como um campo no `deletePropertySetTypeParam` enviado para o servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
+Esta amostra de código usa o identificador do tipo como um campo na `deletePropertySetTypeParam` enviado ao servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
 
 **Solicitação**
 

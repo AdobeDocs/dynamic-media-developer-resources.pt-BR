@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numérico|pontilhado</span> </p> </td> 
-   <td colname="col2"> <p> Configura o estilo de renderização do indicador de conjunto. </p> <p>Quando definido como <span class="codeph"> pontilhado </span>, o componente renderiza indicadores idênticos para todas as páginas. </p> <p>Quando definido como <span class="codeph"> numérico</span>, coloca um número de página com base em 1 dentro de cada elemento indicador. </p> <p>O modo de operação <span class="codeph"> numérico</span> não é suportado em dispositivos com entrada de toque. Em vez disso, o componente usa <span class="codeph"> pontilhado</span> nesses dispositivos. </p> </td> 
+   <td colname="col2"> <p> Configura o estilo de renderização do indicador de definição. </p> <p>Quando definido como <span class="codeph"> pontilhado </span>, o componente renderiza indicadores idênticos para todas as páginas. </p> <p>Quando definido como <span class="codeph"> numérico</span> ele coloca um número de página com base em 1 dentro de cada elemento indicador. </p> <p>A variável <span class="codeph"> numérico</span> não há suporte para o modo de operação em dispositivos com entrada por toque. Em vez disso, o componente usa <span class="codeph"> pontilhado</span> nesses dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

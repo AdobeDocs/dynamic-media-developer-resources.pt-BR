@@ -1,6 +1,6 @@
 ---
-title: nítido
-description: Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
+title: sharp
+description: Nitidez da textura. Especifica a nitidez a ser aplicada na renderização deste material.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# nítido{#sharp}
+# sharp{#sharp}
 
-Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material.
+Nitidez da textura. Especifica a nitidez a ser aplicada na renderização deste material.
 
 `sharp=0|1|2|3`
 
@@ -29,21 +29,21 @@ Textura nítida. Especifica a nitidez a ser aplicada ao renderizar este material
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>0 nitidez alternativa (início). </p> </td> 
+  <td class="stentry"> <p>0 nitidez alternativa (antecipada). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Mais nitidez (inicial e final). </p> </td> 
+  <td class="stentry"> <p>Mais nitidez (precoce e tardia). </p> </td> 
  </tr> 
 </table>
 
-`sharp=1` Aplica a nitidez após a renderização do material; `sharp=2` Aplica a nitidez após a escala inicial da textura, mas antes de a transformar em cena; `sharp=3` aplica a nitidez antes e depois da transformação.
+`sharp=1` Aplica nitidez após a renderização do material; `sharp=2` aplica nitidez após a primeira escala da textura, mas antes de ser transformada em cena; `sharp=3` aplica nitidez antes e depois da transformação.
 
-O algoritmo de nitidez e a quantidade de nitidez e outros parâmetros USM (máscara com nitidez) são controlados pelo modelo de material padrão fornecido pela vinheta ou com `rs=`.
+O algoritmo de nitidez e a quantidade de nitidez e outros parâmetros USM (unsharp masking) são controlados pelo modelo de material predefinido fornecido pela vinheta ou com `rs=`.
 
 ## Propriedades {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
-Atributo de material. Ignorado por materiais de cor sólida.
+Atributo de material. Ignorado por materiais de cores sólidas.
 
 ## Padrão {#section-febfa16e65864987b4d328e2ff1df64d}
 
@@ -51,4 +51,4 @@ Atributo de material. Ignorado por materiais de cor sólida.
 
 ## Consulte também {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[catálogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [nitidez=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[catálogo::Nítido](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [nitidez=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)

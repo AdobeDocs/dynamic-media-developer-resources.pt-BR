@@ -1,6 +1,6 @@
 ---
-title: Exibição do carrossel
-description: A exibição principal consiste na imagem do banner.
+title: Exibição de carrossel
+description: A visualização principal consiste na imagem do banner.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Exibição do carrossel{#carousel-view}
+# Exibição de carrossel{#carousel-view}
 
-A exibição principal consiste na imagem do banner.
+A visualização principal consiste na imagem do banner.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,8 +35,8 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da janela principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>

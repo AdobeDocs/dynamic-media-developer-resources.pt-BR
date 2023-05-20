@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ImageFormat` | Matriz de formatos de imagem. |
+| itens | `types:ImageFormat` | Matriz de formatos de imagem. |

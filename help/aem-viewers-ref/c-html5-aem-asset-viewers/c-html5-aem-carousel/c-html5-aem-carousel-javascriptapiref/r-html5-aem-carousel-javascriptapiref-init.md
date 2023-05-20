@@ -1,6 +1,6 @@
 ---
 title: init
-description: Referência da API do JavaScript para o Visualizador do carrossel.
+description: Referência da API JavaScript para o Visualizador do carrossel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # init{#init}
 
-Referência da API do JavaScript para o Visualizador do carrossel.
+Referência da API JavaScript para o Visualizador do carrossel.
 
 `init()`
 
-Inicia a inicialização do Visualizador de carrossel. Nesse momento, o elemento DOM do contêiner deve ser criado para que o código do visualizador possa encontrá-lo por sua ID.
+Inicia a inicialização do Visualizador do carrossel. Nesse momento, o elemento DOM do contêiner deve ser criado para que o código do visualizador possa encontrá-lo pela ID.
 
-Se o elemento do contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode ser oculto usando o estilo `display:none` - o visualizador suspende seu processo de inicialização. É suspenso até o momento em que a página da Web traz o elemento do contêiner de volta ao layout, no qual o carregamento do visualizador é retomado automaticamente.
+Se o elemento de contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode estar oculto usando `display:none` style - o visualizador suspende o processo de inicialização. Ela fica suspensa até o momento em que a página da Web traz o elemento de contêiner de volta ao layout, momento em que o carregamento do visualizador é retomado automaticamente.
 
-Chame esse método apenas uma vez durante o ciclo de vida do visualizador; chamadas subsequentes são ignoradas.
+Chame esse método apenas uma vez durante o ciclo de vida do visualizador; as chamadas subsequentes são ignoradas.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
@@ -30,7 +30,7 @@ Nenhum.
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Uma referência para a instância do visualizador.
+`{Object}` Uma referência à instância do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

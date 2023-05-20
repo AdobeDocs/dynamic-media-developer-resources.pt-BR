@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| assetHandle | `xsd:string` | O identificador do ativo que deseja mover. |
-| folderHandle | `xsd:string` | O identificador para a pasta de destino. |
+| assetHandle | `xsd:string` | O identificador do ativo que você deseja mover. |
+| folderHandle | `xsd:string` | O identificador da pasta de destino. |

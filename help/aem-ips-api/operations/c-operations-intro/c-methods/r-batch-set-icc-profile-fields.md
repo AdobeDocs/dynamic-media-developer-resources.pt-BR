@@ -1,5 +1,5 @@
 ---
-description: Define campos de metadados de perfil ICC.
+description: Define os campos de metadados do perfil ICC.
 solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
-Define campos de metadados de perfil ICC.
+Define os campos de metadados do perfil ICC.
 
 Sintaxe
 
@@ -33,7 +33,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule para a empresa que contém os perfis ICC. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa que contém os perfis ICC. |
 | atualizar matriz | `xsd:string` | Sim | Matriz de atualizações de perfil ICC. |
 
 **Saída (batchSetIccProfileFields)**

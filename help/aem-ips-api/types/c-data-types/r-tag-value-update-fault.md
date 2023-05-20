@@ -1,5 +1,5 @@
 ---
-description: O erro é lançado quando uma atualização de valor de tag falha.
+description: O erro lançado quando um valor de tag falha.
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-O erro é lançado quando uma atualização de valor de tag falha.
+O erro lançado quando um valor de tag falha.
 
 Sintaxe
 
@@ -24,4 +24,4 @@ Sintaxe
 |---|---|---|
 | value | `xsd:string` | Valor da tag para a qual a atualização falhou. |
 | código | `xsd:int` | Número do código de erro. |
-| reason | `xsd:string` | Mensagem de erro (texto simples). |
+| motivo | `xsd:string` | Mensagem de erro (texto simples). |

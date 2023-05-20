@@ -1,5 +1,5 @@
 ---
-title: Pontos de conexão e mapas de imagem
+title: Pontos de acesso e mapas de imagem
 description: O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Pontos de conexão e mapas de imagem{#hotspots-and-image-maps}
+# Pontos de acesso e mapas de imagem{#hotspots-and-image-maps}
 
 O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência do ícone de ponto de acesso é controlada com o seguinte seletor de classe CSS:
 
@@ -35,25 +35,25 @@ A aparência do ícone de ponto de acesso é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Arte do ícone de ponto de acesso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Arte do ícone do ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Scripts CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Posicione dentro da imagem do trabalho artístico, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do ícone do ponto de acesso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
+   <td colname="col2"> <p>Largura do ícone de ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do ícone do ponto de acesso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configure um ícone de ponto de acesso de 56 x 56 pixels que exibe uma imagem diferente para cada um dos dois estados de ícone diferentes:
+Exemplo - configure um ícone de ponto de acesso de 56 x 56 pixels que exiba uma imagem diferente para cada um dos dois estados de ícone diferentes:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -83,21 +83,21 @@ A aparência da região do mapa de imagem é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> plano de fundo </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especificar esta cor em <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique essa cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especificar esta cor em <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p> Estilo da borda da região do mapa de imagem. Deve ser especificado como " <span class="codeph"> largura </span> <span class="codeph"> cor sólida </span>", onde <span class="codeph"> largura </span> é expressa em pixels e <span class="codeph"> cor </span> é definida como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a1 1/&gt; ou <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
+   <td colname="col2"> <p> Estilo de borda da região do mapa de imagem. Deve ser especificado como " <span class="codeph"> largura </span> <span class="codeph"> cor sólida </span>", onde <span class="codeph"> largura </span> é expresso em pixels e <span class="codeph"> cor </span> está definido como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configure uma região de mapa de imagem transparente com uma borda preta de um pixel:
+Exemplo - configurar uma região de mapa de imagem transparente com uma borda preta de um pixel:
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 

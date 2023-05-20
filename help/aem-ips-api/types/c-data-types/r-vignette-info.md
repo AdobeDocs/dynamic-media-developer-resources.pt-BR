@@ -1,7 +1,7 @@
 ---
 description: Propriedades de um ativo de vinheta.
 solution: Experience Manager
-title: VignetteInfo
+title: InformaçõesDaVinheta
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b

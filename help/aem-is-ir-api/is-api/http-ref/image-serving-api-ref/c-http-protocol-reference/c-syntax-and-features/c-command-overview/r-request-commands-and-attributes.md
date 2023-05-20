@@ -1,25 +1,25 @@
 ---
 description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 solution: Experience Manager
-title: Comandos da solicitação
-feature: Dynamic Media Classic, SDK/API
+title: Comandos de solicitação
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Comandos da solicitação{#request-commands}
+# Comandos de solicitação{#request-commands}
 
 Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache</a> </p></td> 
-  <td class="stentry"> <p>Substitui o comportamento padrão de armazenamento em cache de resposta. </p></td> 
+  <td class="stentry"> <p>Substitui o comportamento padrão do cache de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> defaultImage</a> </p></td> 
@@ -31,11 +31,11 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517" type="reference" format="dita" scope="local"> icc</a> </p></td> 
-  <td class="stentry"> <p>Define o perfil de cores de saída. </p></td> 
+  <td class="stentry"> <p>Define o perfil de cor de saída. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
-  <td class="stentry"> <p>Incorpora o perfil de cor na imagem de resposta. </p></td> 
+  <td class="stentry"> <p>Incorpora o perfil de cores na imagem de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
@@ -43,7 +43,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>Incorpora XMP metadados na imagem de resposta. </p></td> 
+  <td class="stentry"> <p>Incorpora metadados de XMP na imagem de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
@@ -51,14 +51,14 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
-  <td class="stentry"> <p>Especifica os atributos de codificação JPEG. </p></td> 
+  <td class="stentry"> <p>Especifica os atributos de codificação de JPEG. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> quantizar</a> </p> </td> 
-  <td class="stentry"> <p>Especifica atributos de quantificação de cores para saída GIF. </p></td> 
+  <td class="stentry"> <p>Especifica atributos de quantização de cores para saída de GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> solic</a> </p></td> 
   <td class="stentry"> <p>Seleciona o tipo de solicitação. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -70,7 +70,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Especifica um modelo de composição. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb" type="reference" format="dita" scope="local"> locale</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb" type="reference" format="dita" scope="local"> localidade</a> </p></td> 
   <td class="stentry"> <p>Especifica um modelo de composição. </p></td> 
  </tr> 
  <tr class="strow"> 

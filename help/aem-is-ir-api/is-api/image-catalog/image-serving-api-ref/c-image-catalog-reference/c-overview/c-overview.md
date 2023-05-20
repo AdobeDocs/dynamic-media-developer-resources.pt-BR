@@ -20,17 +20,17 @@ Os catálogos de imagens são usados para fornecer informações sobre imagens e
 
 Cada catálogo de imagens consiste em um arquivo de atributo de catálogo necessário e um conjunto de arquivos de dados de catálogo opcionais:
 
-* O arquivo de dados da imagem, que classifica imagens e modelos e seus metadados associados.
-* O arquivo de dados SVG, que classifica os arquivos SVG e seus metadados associados.
+* O arquivo de dados de imagem, que relaciona imagens e modelos e seus metadados associados.
+* O arquivo de dados SVG, que discrimina os arquivos SVG e seus metadados associados.
 * O arquivo de definições de macro, que fornece definições para macros de solicitação.
-* O arquivo do mapa de fontes, que mantém o controle das fontes de texto.
-* O arquivo de mapa de perfil, que discrimina perfis de cores ICC.
-* O arquivo do conjunto de regras, que define as regras de pré-processamento da solicitação HTTP.
+* O arquivo do mapa de fontes, que controla as fontes de texto.
+* O arquivo do mapa de perfis, que apresenta os perfis de cores do ICC.
+* O arquivo de conjunto de regras, que define as regras de pré-processamento da solicitação HTTP.
 
-Os arquivos de dados do catálogo são associados a catálogos de imagens por referências de arquivo no arquivo de atributo do catálogo. O mesmo arquivo de dados de catálogo pode ser compartilhado por vários catálogos de imagens.
+Os arquivos de dados de catálogo são associados aos catálogos de imagem por referências de arquivo no arquivo de atributo de catálogo. O mesmo arquivo de dados de catálogo pode ser compartilhado por vários catálogos de imagem.
 
-Os arquivos de atributo do catálogo devem ter um [!DNL .ini] sufixo do arquivo e deve estar localizado no [!DNL Platform Server]pasta do catálogo do ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem estar localizados na mesma pasta ou em qualquer outra pasta acessível ao [!DNL Platform Server].
+Os arquivos de atributo de catálogo devem ter um [!DNL .ini] sufixo do arquivo e deve estar localizado no [!DNL Platform Server]Pasta de catálogo do ( `PlatformServer::catalog.rootPath`). Os arquivos de dados do catálogo podem estar localizados na mesma pasta ou em qualquer outra pasta acessível ao [!DNL Platform Server].
 
-Este documento descreve o formato de arquivo do Catálogo de Imagens para o sistema Dynamic Media Image Serving. O público-alvo é programadores experientes e desenvolvedores de sites que desejam utilizar o Dynamic Media Image Serving para um aplicativo da Web ou personalizado.
+Este documento descreve o formato de arquivo do Catálogo de imagens para o sistema Dynamic Media Image Serving. O público-alvo é de programadores experientes e desenvolvedores de sites que desejam aproveitar o Dynamic Media Image Serving para um aplicativo da Web ou personalizado.
 
-Pressupõe-se que o leitor esteja familiarizado com o sistema Dynamic Media Image Serving, padrões e convenções gerais de protocolo HTTP e terminologia básica de geração de imagens.
+Presume-se que o leitor esteja familiarizado com o sistema Dynamic Media Image Serving, padrões e convenções gerais do protocolo HTTP e terminologia básica de geração de imagens.

@@ -1,5 +1,5 @@
 ---
-description: Suporta a filtragem por subproduto na operação searchAssets.
+description: Suporta filtragem de subprodutos na operação searchAssets.
 solution: Experience Manager
 title: ExcludeByproductArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
-Suporta a filtragem por subproduto na operação searchAssets.
+Suporta filtragem de subprodutos na operação searchAssets.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ExcludeByproductCondition` | Item na matriz. |
+| itens | `types:ExcludeByproductCondition` | Item na matriz. |

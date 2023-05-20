@@ -1,7 +1,7 @@
 ---
-description: Matriz de detalhes do registro de tarefas.
+description: Matriz de detalhes do log de tarefas.
 solution: Experience Manager
-title: JobLogDetailArray
+title: MatrizDeDetalhesDoLogDeTrabalho
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL JobLogDetailArray]{#joblogdetailarray}
 
-Matriz de detalhes do registro de tarefas.
+Matriz de detalhes do log de tarefas.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:JobLogDetail` | Uma matriz de detalhes do registro de tarefas. |
+| itens | `types:JobLogDetail` | Uma matriz de detalhes de log do trabalho. |

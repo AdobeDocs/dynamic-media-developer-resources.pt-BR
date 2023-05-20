@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
-| groupHandle | `xsd:string` | Sim | O identificador de grupo. |
-| userHandleArray | `types:HandleArray` | Sim | Uma matriz de usuários que você deseja adicionar a um grupo. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
+| groupHandle | `xsd:string` | Sim | O identificador do grupo. |
+| userHandleArray | `types:HandleArray` | Sim | Uma matriz de identificadores para usuários que você deseja adicionar a um grupo. |
 
 **Saída (addGroupMembersParam)**
 

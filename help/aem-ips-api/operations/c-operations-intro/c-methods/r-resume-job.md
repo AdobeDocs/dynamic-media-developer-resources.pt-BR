@@ -1,5 +1,5 @@
 ---
-description: Reinicializa um trabalho pausado.
+description: Reinicia um trabalho pausado.
 solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # resumeJob{#resumejob}
 
-Reinicializa um trabalho pausado.
+Reinicia um trabalho pausado.
 
 Sintaxe
 
@@ -35,8 +35,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com o trabalho que deseja reiniciar. |
-| jobHandle | `xsd:string` | Sim | O identificador para o trabalho pausado. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o trabalho que você deseja reiniciar. |
+| jobHandle | `xsd:string` | Sim | O identificador do trabalho pausado. |
 
 **Saída (resumeJobReturn)**
 

@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o Visualizador básico de zoom
-description: A classe principal do Visualizador de Zoom Básico é BasicZoomViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o Visualizador de zoom básico
+description: A classe principal do Visualizador de zoom básico é BasicZoomViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o Visualizador básico de zoom{#javascript-api-reference-for-basic-zoom-viewer}
+# Referência da API JavaScript para o Visualizador de zoom básico{#javascript-api-reference-for-basic-zoom-viewer}
 
-A classe principal do Visualizador de Zoom Básico é BasicZoomViewer. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Visualizador de zoom básico é BasicZoomViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador JavaScript que é instanciado do `s7viewers.BasicZoomViewer` classe .
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.BasicZoomViewer` classe.

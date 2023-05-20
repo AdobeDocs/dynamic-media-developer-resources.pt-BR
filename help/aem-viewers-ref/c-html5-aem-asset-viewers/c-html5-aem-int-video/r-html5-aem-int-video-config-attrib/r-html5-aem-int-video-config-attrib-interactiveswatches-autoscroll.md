@@ -8,7 +8,7 @@ exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a capacidade de rolagem automática de amostras interativas junto com cada transição de mídia, como durante a reprodução do vídeo. </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a opção de rolagem automática das amostras interativas juntamente com cada transição de mídia, como durante a reprodução de vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

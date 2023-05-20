@@ -1,5 +1,5 @@
 ---
-description: Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
+description: Obtém logs de trabalho especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getJobLogs{#getjoblogs}
 
-Obtém registros de tarefas especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
+Obtém logs de trabalho especificados para a empresa selecionada. Você pode classificar por caracteres, direção, datas de início e término e número de linhas.
 
 Sintaxe
 
@@ -36,23 +36,23 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O responsável da empresa. |
-| userHandle | `xsd:string` | Não | Obtém registros para tarefas enviadas por um usuário específico. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa. |
+| userHandle | `xsd:string` | Não | Obtém logs de trabalhos enviados por um usuário específico. |
 | sortBy | `xsd:string` | Não | Permite selecionar campos de classificação. |
 | sortDirection | `xsd:string` | Não | Ordem de classificação (crescente ou decrescente). |
-| startDate | `xsd:dateTime` | Não | A data e a hora do início do log de trabalhos. Forneça o fuso horário com a solicitação para esse campo. |
-| endDate | `xsd:dateTime` | Não | A data e a hora do fim do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
-| numRows | `xsd:int` | Não | Número máximo de linhas a serem retornadas. |
+| startDate | `xsd:dateTime` | Não | A data e a hora de início do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
+| endDate | `xsd:dateTime` | Não | A data e a hora de término do log de trabalho. Forneça o fuso horário com a solicitação para esse campo. |
+| numRows | `xsd:int` | Não | Número máximo de linhas a retornar. |
 
 **Saída (getJobLogsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| jobLogArray | `types: JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| jobLogArray | `types: JobLogArray` | Sim | Matriz de logs de trabalho. |
 
 ## Exemplos {#section-35871c94b4a44559912577efddbc46a6}
 
-Esta amostra de código retorna registros de trabalhos do IPS para uma empresa específica. Também é possível usá-lo para retornar registros de trabalhos para um usuário ou empresa e usuário específicos.
+Esta amostra de código retorna logs de trabalho de IPS para uma empresa específica. Você também pode usá-lo para retornar logs de trabalho de um usuário específico ou de uma empresa e usuário.
 
 **Solicitação**
 

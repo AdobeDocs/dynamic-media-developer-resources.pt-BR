@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Referência da API do JavaScript para o Visualizador de Zoom em Linha.
+description: Referência da API JavaScript para o Visualizador de zoom em linha.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # setContainerId{#setcontainerid}
 
-Referência da API do JavaScript para o Visualizador de Zoom em Linha.
+Referência da API JavaScript para o Visualizador de zoom em linha.
 
 ` setContainerId( *`containerId`*)`
 
-Define a ID do contêiner DOM (normalmente um `DIV`) em que o visualizador é inserido. Não é necessário ter o elemento container criado pelo momento em que esse método é chamado. No entanto, o contêiner deve existir quando `init()` é executado. Ele deve ser chamado antes de `init()`. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
+Define a ID do contêiner DOM (normalmente um `DIV`) no qual o visualizador é inserido. Não é necessário criar o elemento de contêiner quando esse método for chamado. No entanto, o contêiner deve existir quando `init()` é executado. Deve ser chamado antes de `init()`. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID do contêiner. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID do container. </p> </td> 
   </tr> 
  </tbody> 
 </table>

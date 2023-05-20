@@ -2,12 +2,12 @@
 description: Parâmetros de operação
 solution: Experience Manager
 title: Parâmetros de operação
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 * [forceRepublishAssets](r-force-republish-assets.md)
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
-* [getAtivePublishContext](r-get-active-publish-contexts.md)
+* [getActivePublishContext](r-get-active-publish-contexts.md)
 * [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
 * [getAssetCounts](r-get-asset-counts.md)
@@ -78,14 +78,14 @@ ht-degree: 0%
 * [getCompanyMembership](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
-* [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
+* [getDistinctMetadataValue](r-get-distinct-metadata-values.md)
 * [getFolders](r-get-folders.md)
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
 * [getGroupMembership](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
-* [getImageFormats](r-get-image-formats.md)
+* [getImageFormato](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
 * [getImageServingPublishSettings](r-get-image-serving-publish-settings.md)
 * [getImageSetMembers](r-get-image-set-members.md)

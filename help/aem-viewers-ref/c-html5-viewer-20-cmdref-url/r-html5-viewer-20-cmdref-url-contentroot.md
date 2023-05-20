@@ -8,7 +8,7 @@ exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o caminho base para arquivos CSS personalizados, qualquer conteúdo de legenda ou conteúdo de navegação. </p> <p>Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando um comando de estilo não é especificado. </p> </td> 
+   <td colname="col2"> <p>Especifica o caminho base para arquivos CSS personalizados, qualquer conteúdo de legendas ocultas ou conteúdo de navegação. </p> <p>Se o caminho não tiver uma entrelinha <span class="filepath"> /</span>, é relativo ao local da página do HTML do visualizador. Se o caminho tiver uma entrelinha <span class="filepath"> /</span>, especifica um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando você não especifica um comando style. </p> </td> 
   </tr> 
  </tbody> 
 </table>

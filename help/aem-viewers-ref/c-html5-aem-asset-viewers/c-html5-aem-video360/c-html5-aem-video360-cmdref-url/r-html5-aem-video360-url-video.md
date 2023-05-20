@@ -1,6 +1,6 @@
 ---
 title: vídeo
-description: comando URL para o visualizador do Video360.
+description: Comando de URL para o visualizador de Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # vídeo{#video}
 
-comando URL para o visualizador do Video360.
+Comando de URL para o visualizador de Video360.
 
 ` video= *`videoURL`*`
 
@@ -22,14 +22,14 @@ comando URL para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> O URL absoluto de um vídeo externo. </p> </td> 
+   <td colname="col2"> <p> O URL absoluto para um vídeo externo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obrigatório. (A menos que o parâmetro `asset` seja usado. Consulte [Suporte a Vídeo Externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Obrigatório. (a menos que `asset` é usado. Consulte [Suporte a vídeo externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}
 

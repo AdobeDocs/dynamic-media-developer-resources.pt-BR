@@ -1,6 +1,6 @@
 ---
 title: Efeito Favoritos
-description: O visualizador exibe ícones Favoritos sobre a exibição principal nos locais em que ele foi adicionado originalmente pelo usuário.
+description: O visualizador exibe ícones Favoritos sobre a exibição principal nos locais em que foi originalmente adicionado pelo usuário.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Efeito Favoritos{#favorites-effect}
 
-O visualizador exibe ícones Favoritos sobre a exibição principal nos locais em que ele foi adicionado originalmente pelo usuário.
+O visualizador exibe ícones Favoritos sobre a exibição principal nos locais em que foi originalmente adicionado pelo usuário.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,15 +29,15 @@ A aparência do ícone Favorito é controlada com o seguinte seletor de classe C
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para o ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do ícone. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ A aparência do ícone Favorito é controlada com o seguinte seletor de classe C
  </tbody> 
 </table>
 
-Exemplo - configure um ícone de 36 x 36 pixels Favoritos.
+Exemplo - configurar um ícone Favoritos com 36 x 36 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon { 
@@ -57,7 +57,7 @@ Exemplo - configure um ícone de 36 x 36 pixels Favoritos.
 }
 ```
 
-Em sistemas de desktop, o componente suporta o `cursortype` seletor de atributos que você pode aplicar ao `.s7favoriteseffect` e controla o tipo do cursor com base na ação do usuário selecionada. O seguinte `cursortype` são compatíveis:
+Nos sistemas desktop, o componente suporta a função `cursortype` seletor de atributo que pode ser aplicado ao `.s7favoriteseffect` classe e controla o tipo do cursor com base na ação do usuário selecionada. As seguintes `cursortype` Os valores de são compatíveis:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -67,7 +67,7 @@ Em sistemas de desktop, o componente suporta o `cursortype` seletor de atributos
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>O usuário exibido está removendo um ícone Favorito existente. </p> </td> 
+   <td colname="col2"> <p>O usuário exibido remove um ícone Favorito existente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
@@ -76,7 +76,7 @@ Em sistemas de desktop, o componente suporta o `cursortype` seletor de atributos
  </tbody> 
 </table>
 
-Exemplo - tem cursores de mouse diferentes para cada tipo de estado de componente.
+Exemplo - ter cursores de mouse diferentes para cada tipo de estado do componente.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect[cursortype="mode_add"] { 

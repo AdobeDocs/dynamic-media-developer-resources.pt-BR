@@ -1,6 +1,6 @@
 ---
-title: Botão Vídeo de tela cheia
-description: O botão de tela cheia faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Ele é usado quando o visualizador exibe vídeo e é posicionado na barra de controle. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa.
+title: Botão de tela cheia do vídeo
+description: O botão de tela cheia faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. É usado quando o visualizador está exibindo o vídeo e está posicionado na barra de controle. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Botão Vídeo de tela cheia{#video-full-screen-button}
+# Botão de tela cheia do vídeo{#video-full-screen-button}
 
-O botão Tela cheia faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Ele é usado quando o visualizador exibe vídeo e é posicionado na barra de controle. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não oferecer suporte a tela cheia nativa.
+O botão Tela cheia faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. É usado quando o visualizador está exibindo o vídeo e está posicionado na barra de controle. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-É possível dimensionar, usar a capa e posicionar o botão de tela cheia, em relação à barra de controle que a contém, por CSS.
+Você pode dimensionar, aplicar capa e posicionar o botão de tela cheia, relativo à barra de controle que o contém, por CSS.
 
 A aparência do botão de tela cheia é controlada com o seletor de classe CSS:
 
@@ -35,7 +35,7 @@ A aparência do botão de tela cheia é controlada com o seletor de classe CSS:
    <td colname="col2"> <p> Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> direita </span> </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ A aparência do botão de tela cheia é controlada com o seletor de classe CSS:
    <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p> A largura do botão de tela cheia. </p> </td> 
   </tr> 
   <tr> 
@@ -55,25 +55,25 @@ A aparência do botão de tela cheia é controlada com o seletor de classe CSS:
    <td colname="col2"> <p>A altura do botão de tela cheia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` e `selected` seletores de atributos, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
+>Esse botão suporta as opções `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado de &quot;tela cheia&quot; e `selected='false'` corresponde ao estado &quot;normal&quot;.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um botão de tela cheia com 32 x 32 pixels e posicionado 6 pixels da borda superior e direita da barra de controle. Além disso, exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Para configurar um botão de tela cheia com 32 x 32 pixels e posicionado a 6 pixels da borda superior e direita da barra de controle. Além disso, exiba uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não.
 
 ```
 .s7mixedmediaviewer . s7fullscreenbutton { 

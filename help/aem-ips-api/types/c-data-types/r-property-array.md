@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Property` | A matriz da propriedade. |
+| itens | `types:Property` | A matriz de propriedades. |

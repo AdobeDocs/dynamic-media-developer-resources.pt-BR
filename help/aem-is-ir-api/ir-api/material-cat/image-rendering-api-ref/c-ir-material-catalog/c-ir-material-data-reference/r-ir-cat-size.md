@@ -1,5 +1,5 @@
 ---
-description: Tamanho Decal. Largura, altura e espessura de um objeto de material de decalque.
+description: Tamanho do decalque. Largura, altura e espessura de um objeto de material de decalque.
 solution: Experience Manager
 title: Tamanho
 feature: Dynamic Media Classic,SDK/API
@@ -14,34 +14,34 @@ ht-degree: 1%
 
 # Tamanho{#size}
 
-Tamanho Decal. Largura, altura e espessura de um objeto de material de decalque.
+Tamanho do decalque. Largura, altura e espessura de um objeto de material de decalque.
 
 ## Propriedades {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-Três números reais separados por vírgulas. Não pode ser negativo. Defina os valores não usados como 0. Os zeros à direita podem ser omitidos.
+Três números reais separados por vírgulas. Não pode ser negativo. Defina os valores não utilizados como 0. Zeros à direita podem ser omitidos.
 
-Especifique a largura e a altura somente se a imagem deve ser ampliada para se ajustar ao tamanho especificado (a proporção de aspecto pode mudar). Defina a largura ou a altura para dimensionar a imagem proporcionalmente. Defina a largura e a altura como 0 para usar `catalog::Resolution`para determinar o tamanho do objeto.
+Especifique a largura e a altura somente se a imagem precisar ser esticada para se ajustar ao tamanho especificado (a proporção pode mudar). Defina largura ou altura para dimensionar a imagem proporcionalmente. Defina a largura e a altura como 0 para usar `catalog::Resolution`para determinar o tamanho do objeto.
 
-Forneça um valor de espessura para adicionar uma sombra ao objeto decal. Facultativo para materiais de decalque, ignorado por todos os outros materiais.
+Forneça um valor de espessura para adicionar uma sombra projetada ao objeto de decalque. Opcional para materiais de decalque, ignorado por todos os outros materiais.
 
 ## Padrão {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0.0.0. Isso indica que o tamanho da decalque deve ser determinado com base em catalog::Resolution e que o objeto não tem uma espessura (portanto, nenhuma sombra é renderizada).
+0,0,0. Isso indica que o tamanho do decalque deve ser determinado com base em catalog::Resolution, e que o objeto não tem uma espessura (portanto, nenhuma sombra projetada é renderizada).
 
 ## Exemplos {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 
 <table id="simpletable_E3503BD975F342C58DDB4C2B56BF0CEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p>12,3 </p></td> 
-  <td class="stentry"> <p>O decalque é forçado a 12x3 polegadas de tamanho e não tem espessura (isto é, nenhuma sombra). </p></td> 
+  <td class="stentry"> <p>O decalque é forçado a 12x3 polegadas de tamanho e não tem espessura (isto é, sem sombra). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0,5,1 </p></td> 
   <td class="stentry"> <p>O decalque tem 5 polegadas de largura, a altura é determinada pela proporção da imagem e uma sombra é renderizada com base em uma espessura de 1 polegada. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0, 5 </p></td> 
-  <td class="stentry"> <p>A largura e a altura do decalque são determinadas pelo catálogo::Resolution e têm meia polegada de espessura. </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
+  <td class="stentry"> <p>A largura e a altura do decalque são determinadas pelo catálogo::Resolution, e que tem meia polegada de espessura. </p></td> 
  </tr> 
 </table>
 

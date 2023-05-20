@@ -18,10 +18,10 @@ Uma matriz de alças.
 
 >[!NOTE]
 >
->A matriz pode conter qualquer tipo de alças necessárias para executar uma operação.
+>A matriz pode conter qualquer tipo de manipulador necessário para executar uma operação.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `xsd:string` | Uma matriz de alças. |
+| itens | `xsd:string` | Uma matriz de alças. |

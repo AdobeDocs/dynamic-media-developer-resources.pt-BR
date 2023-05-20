@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de elementos CompanyMetadataInfo.
 solution: Experience Manager
-title: CompanyMetadataInfoArray
+title: MatrizInfoMetadadosEmpresa
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 424a2f52-9cc2-46d6-817b-6ea64f46a229
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| Frase do código | `Code Phrase` |  |
-| Frase do código | `Code Phrase` |  |
+| Frase de código | `Code Phrase` |  |
+| Frase de código | `Code Phrase` |  |

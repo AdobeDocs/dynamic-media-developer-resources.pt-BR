@@ -1,5 +1,5 @@
 ---
-description: Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
+description: Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do Catálogo de Materiais de Renderização de Imagens.
 solution: Experience Manager
 title: setImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setImageServingPublishSettings{#setimageservingpublishsettings}
 
-Somente para desenvolvedores do Scene7. Consulte a seção Atributos do catálogo de referência de materiais de renderização de imagens .
+Somente para desenvolvedores do Scene 7. Consulte a seção Atributos do Catálogo de Materiais de Renderização de Imagens.
 
 Sintaxe
 
@@ -24,6 +24,6 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Sim | Manuseio da empresa. |
-| publishSettingsArray | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene7. |
-| contextHandle | `xsd:string` | Não | Lidar com o contexto de publicação. |
+| CompanyHandle | `xsd:string` | Sim | Identificador da empresa. |
+| publishSettingsArray | `types:ConfigSettingArray` | Sim | Somente para desenvolvedores do Scene 7. |
+| contextHandle | `xsd:string` | Não | Processe o contexto de publicação. |

@@ -1,5 +1,5 @@
 ---
-description: Gerencia direitos para acessar, modificar, criar ou excluir ativos por grupo.
+description: Gerencia direitos de acesso, modificação, criação ou exclusão de ativos por grupo.
 solution: Experience Manager
 title: Permissão
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL Permission]{#permission}
 
-Gerencia direitos para acessar, modificar, criar ou excluir ativos por grupo.
+Gerencia direitos de acesso, modificação, criação ou exclusão de ativos por grupo.
 
 Sintaxe
 

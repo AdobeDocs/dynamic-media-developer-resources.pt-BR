@@ -8,18 +8,18 @@ exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`Etapa`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> Etapa</span> </span> </p> </td> 
    <td> <p>Etapa horizontal. </p> </td> 
   </tr> 
   <tr> 
@@ -29,7 +29,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-Especifica o número de amostras a serem roladas para cada clique ou toque no botão de rolagem correspondente.
+Especifica o número de amostras a serem roladas para cada clique ou toque do botão de rolagem correspondente.
 
 ## Propriedades {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 

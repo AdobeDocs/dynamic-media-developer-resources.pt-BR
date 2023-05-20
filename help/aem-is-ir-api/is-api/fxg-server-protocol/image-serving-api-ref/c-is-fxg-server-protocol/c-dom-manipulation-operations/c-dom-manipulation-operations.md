@@ -1,20 +1,20 @@
 ---
-description: Várias operações de manipulação de DOM são suportadas.
+description: Há suporte para várias operações de manipulação de DOM.
 solution: Experience Manager
 title: Operações de manipulação de DOM FXG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
 
 # Operações de manipulação de DOM FXG{#fxg-dom-manipulation-operations}
 
-Várias operações de manipulação de DOM são suportadas.
+Há suporte para várias operações de manipulação de DOM.
 
 * [appendElement](r-appendelement.md)
 * [deleteAttr](r-deleteattr.md)

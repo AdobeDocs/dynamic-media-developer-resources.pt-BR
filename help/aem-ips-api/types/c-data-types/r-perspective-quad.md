@@ -1,7 +1,7 @@
 ---
-description: Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
+description: Coordenadas do local da imagem retornadas pela operação getPhotoshopPath.
 solution: Experience Manager
-title: PerspectivaQuad
+title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dae44565-083d-47f5-8a08-2567590315a4
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL PerspectiveQuad]{#perspectivequad}
 
-Coordenadas de localização da imagem retornadas pela operação getPhotoshopPath.
+Coordenadas do local da imagem retornadas pela operação getPhotoshopPath.
 
 Sintaxe
 
@@ -23,17 +23,17 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | x0 | `xsd:double` | Coordenada superior esquerda do eixo x. |
-| y0 | `xsd:double` | Coordenada do eixo y superior esquerda. |
-| x1 | `xsd:double` | Coordenada do eixo x superior direito. |
-| y1 | `xsd:double` | Coordenada do eixo y superior direito. |
-| x2 | `xsd:double` | Coordenada do eixo x inferior direito. |
-| y2 | `xsd:double` | Coordenada do eixo y inferior direito. |
-| x3 | `xsd:double` | Correspondência do eixo x esquerdo inferior. |
-| y3 | `xsd:double` | Coordenada inferior do eixo y à esquerda. |
+| y0 | `xsd:double` | Coordenada superior esquerda do eixo Y. |
+| x1 | `xsd:double` | Coordenada superior direita do eixo x. |
+| y1 | `xsd:double` | Coordenada superior direita do eixo Y. |
+| x2 | `xsd:double` | Coordenada inferior direita do eixo x. |
+| y2 | `xsd:double` | Coordenada inferior direita do eixo Y. |
+| x3 | `xsd:double` | Coordenada inferior esquerda do eixo x. |
+| y3 | `xsd:double` | Coordenada inferior esquerda do eixo Y. |
 
 ## Exemplo {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-O `PerspectiveQuad` tipo retorna dados nesta ordem:
+A variável `PerspectiveQuad` O tipo retorna dados nesta ordem:
 
 ```
 <complexType name="PerspectiveQuad">

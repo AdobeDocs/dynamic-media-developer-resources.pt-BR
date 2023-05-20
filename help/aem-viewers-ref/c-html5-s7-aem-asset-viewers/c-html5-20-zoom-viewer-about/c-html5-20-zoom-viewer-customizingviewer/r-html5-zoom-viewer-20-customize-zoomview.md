@@ -1,6 +1,6 @@
 ---
 title: Exibição de zoom
-description: A exibição principal consiste na imagem com zoom.
+description: A visualização principal consiste na imagem com zoom.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Exibição de zoom{#zoom-view}
 
-A exibição principal consiste na imagem com zoom.
+A visualização principal consiste na imagem com zoom.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,12 +35,12 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da janela principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>Cursor exibido sobre a exibição principal. </p> </td> 
+   <td colname="col2"> <p>O cursor exibido sobre a visualização principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +53,19 @@ Exemplo - Para tornar a exibição principal transparente.
 }
 ```
 
-Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos que pode ser aplicado ao `.s7zoomview` classe . Ele controla o tipo do cursor com base no estado do componente e na ação do usuário. O seguinte `cursortype` são compatíveis:
+Nos sistemas de desktop, o componente suporta `cursortype` seletor de atributo que pode ser aplicado ao `.s7zoomview` classe. Ele controla o tipo de cursor com base no estado do componente e na ação do usuário. As seguintes `cursortype` Os valores de são compatíveis:
 
 * `default`
 
-   Exibida quando a imagem não é ampliável devido a uma pequena resolução de imagem, configurações de componente ou ambos.
+   Exibido quando a imagem não é ampliada devido a uma pequena resolução de imagem, configurações de componente ou ambas.
 
 * `zoomin`
 
-   Exibido quando a imagem puder ser ampliada.
+   Exibido quando é possível ampliar a imagem.
 
 * `reset`
 
-   Exibida quando a imagem está no nível máximo de zoom e pode ser redefinida para o estado inicial.
+   Exibida quando a imagem está no nível de zoom máximo e pode ser redefinida para seu estado inicial.
 
 * `drag`
 
@@ -73,4 +73,4 @@ Em sistemas de desktop, o componente suporta `cursortype` seletor de atributos q
 
 * `slide`
 
-   Exibido quando o usuário realiza a troca de imagem fazendo um deslizamento horizontal ou um clique.
+   Exibido quando o usuário executa a troca de imagem passando um dedo horizontal ou um toque.

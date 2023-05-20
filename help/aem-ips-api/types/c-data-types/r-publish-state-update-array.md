@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:PublishStateUpdate` | A matriz de atualizações de estado de publicação. |
+| itens | `types:PublishStateUpdate` | A matriz de atualizações do estado de publicação. |

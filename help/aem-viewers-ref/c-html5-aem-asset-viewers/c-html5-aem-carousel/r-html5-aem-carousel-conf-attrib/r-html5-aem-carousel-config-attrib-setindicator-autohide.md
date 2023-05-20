@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">0|1[, <span class="varname"> limite</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Configura o comportamento de ocultação automática, dependendo do número de páginas e do tamanho do componente de tempo de execução. </p> <p> <span class="codeph"> 0</span> desativa a ocultação automática. </p> <p> <span class="codeph"> 1</span> ativa a ocultação automática. O componente oculta seus pontos se pelo menos uma das seguintes condições se tornar verdadeira: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limite</span>]</span> </p> </td> 
+   <td colname="col2"> <p> Configura o comportamento de ocultação automática dependendo do número de páginas e do tamanho dos componentes de tempo de execução. </p> <p> <span class="codeph"> 0</span> desativa a ocultação automática. </p> <p> <span class="codeph"> 1</span> ativa a ocultação automática. O componente oculta os pontos se pelo menos uma das condições a seguir for verdadeira: </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
-      <li id="li_39332158806445DF874C5A52F1331B8B">a linha com pontos se torna maior que a largura do componente de tempo de execução, ou </li> 
-      <li id="li_E30BAC8B609147ADB8824000F5729B21">o número de páginas definidas para este componente excede o limite configurado pelo parâmetro <span class="codeph"><span class="varname"> limit</span></span>. </li> 
-     </ul> </p> <p> Definir <span class="codeph"><span class="varname"> limite</span></span> para <span class="codeph"> -1</span> desativa a segunda condição de ocultação automática. </p> </td> 
+      <li id="li_39332158806445DF874C5A52F1331B8B">a linha com pontos se torna mais larga que a largura do componente de tempo de execução, ou </li> 
+      <li id="li_E30BAC8B609147ADB8824000F5729B21">o número de páginas definido para este componente excede o limite configurado pelo <span class="codeph"><span class="varname"> limite</span></span> parâmetro. </li> 
+     </ul> </p> <p> Configuração <span class="codeph"><span class="varname"> limite</span></span> para <span class="codeph"> -1</span> desativa a segunda condição de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

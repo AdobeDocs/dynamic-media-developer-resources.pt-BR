@@ -22,10 +22,10 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| userHandle | `xsd:string` | Identificador do usuário. |
+| userHandle | `xsd:string` | Identificador de usuário. |
 | firstName | `xsd:string` | Nome do usuário. |
 | lastName | `xsd:string` | Sobrenome do usuário. |
-| email | `xsd:string` | endereço de email. |
+| email | `xsd:string` | endereço de e-mail. |
 | defaultRole | `xsd:string` | Define a função de um usuário em cada empresa à qual ele pertence. No entanto, a função de usuário `IpsAmin` substitui outras funções de usuário. |
 | isValid | `xsd:boolean` | Determina se o usuário é válido. |
 | passwordExpires | `xsd:dateTime` | Define a data de expiração da senha. |

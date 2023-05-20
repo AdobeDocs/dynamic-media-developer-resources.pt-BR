@@ -16,21 +16,21 @@ ht-degree: 0%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
+` [ControlBar.|<containerId>_controls.]transition=none|fade[, *`delaytohide`*[, *`duração`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|desaparecer</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Use <span class="codeph"> nenhum</span> para show e ocultação instantâneos. Use <span class="codeph"> desaparecer</span> para proporcionar um efeito gradual de atenuação e desvanecimento. </p> <p>O Fade não é compatível com o Internet Explorer 8. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhum|esmaecer</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de efeito usado para mostrar ou ocultar a barra de controle e seu conteúdo. </p> <p>Uso <span class="codeph"> nenhum</span> para mostrar e ocultar instantâneos. Uso <span class="codeph"> fade</span> para proporcionar um efeito de aparecimento e desaparecimento gradual. </p> <p>O fade não é compatível com o Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento mouse/toque registrado pela barra de controle e o tempo em que a barra de controle se oculta. </p> <p> Se estiver definido como <span class="codeph"> -1</span>, o componente nunca aciona seu efeito de ocultação automática e sempre fica visível na tela. </p> </td> 
+   <td colname="col2"> <p>Especifica o tempo em segundos entre o último evento de mouse/toque registrado pela barra de controle e o tempo ocultado pela barra de controle. </p> <p> Se definida como <span class="codeph"> -1</span>, o componente nunca aciona o efeito de ocultação automática e sempre permanece visível na tela. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duration</span> </span> </p> </td> 
-   <td colname="col2"> <p>Define a duração do esmaecimento e do esmaecimento da animação, em segundos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração</span> </span> </p> </td> 
+   <td colname="col2"> <p>Define a duração da animação de aparecimento e desaparecimento gradual, em segundos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

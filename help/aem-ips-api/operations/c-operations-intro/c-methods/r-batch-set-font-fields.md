@@ -30,8 +30,8 @@ Define campos de metadados de fonte.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa que contém as fontes. |
-| updateArray | `types:FontFieldUpdateArray` | Sim | Matriz de atualizações de campos de fonte. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa que contém as fontes. |
+| updateArray | `types:FontFieldUpdateArray` | Sim | Matriz de atualizações de campo de fonte. |
 
 **Saída (batchSetFontFieldsParam)**
 

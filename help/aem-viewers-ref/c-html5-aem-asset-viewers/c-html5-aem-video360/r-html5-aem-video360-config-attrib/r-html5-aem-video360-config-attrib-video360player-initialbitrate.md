@@ -1,6 +1,6 @@
 ---
 title: Video360Player.initialbitrate
-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o Video360 Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o Video360 Viewer.
 
 ` [Video360Player.|<containerId>_video360Player.]initialbitrate= *`value`*`
 
@@ -22,7 +22,7 @@ Atributo de configuração para o visualizador do Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Define a taxa de bits do vídeo (em kilobits por segundo ou kbps) usada para a reprodução inicial do vídeo em um desktop. </p> <p>Se esse valor da taxa de bits não existir no Conjunto de vídeos adaptáveis, o reprodutor de vídeo iniciará com o vídeo que apresenta a próxima taxa de bits mais baixa. </p> <p>Se estiver definido como <span class="codeph"> 0</span>, o reprodutor de vídeo é iniciado a partir da menor taxa de bits possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HLS do HTML5 (como os navegadores Firefox, Chrome e Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como auto. </p> </td> 
+   <td colname="col2"> <p> Define a taxa de bits de vídeo (em quilobits por segundo ou kbps) usada para a reprodução inicial de vídeo em um desktop. </p> <p>Se esse valor de taxa de bits não existir no Conjunto de vídeos adaptados, o reprodutor de vídeo começará com o vídeo que tiver a taxa de bits mais baixa. </p> <p>Se definida como <span class="codeph"> 0</span>, o reprodutor de vídeo começa com a taxa de bits mais baixa possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HTML5 HLS (como Firefox, Chrome e navegadores Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como automático. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: getComponent
-description: Referência da API do JavaScript para o Visualizador de catálogo eletrônico
+description: Referência da API JavaScript para o eCatalog Viewer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # getComponent{#getcomponent}
 
-Referência da API do JavaScript para o Visualizador de catálogo eletrônico
+Referência da API JavaScript para o eCatalog Viewer
 
 `getComponent(componentId)`
 
-Retorna uma referência ao componente do SDK do visualizador usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador pronto para uso. Chame este método somente após a `initComplete` o retorno de chamada do visualizador foi executado, caso contrário, o componente pode não ser criado ainda pela lógica do visualizador.
+Retorna uma referência ao componente de SDK do Visualizador usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador pronto para uso. Chame esse método somente após o `initComplete` o retorno de chamada do visualizador foi executado, caso contrário, o componente pode não ter sido criado ainda pela lógica do visualizador.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` uma ID do componente do SDK do visualizador usado pelo visualizador. Esse visualizador é compatível com as seguintes IDs de componente:
+`*`componentID`*` - `{String}` uma ID do componente do Visualizador SDK usada pelo visualizador. Esse visualizador é compatível com as seguintes IDs de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID do componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome da classe do componente SDK do visualizador </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome da classe do componente do visualizador do SDK </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -61,8 +61,8 @@ Retorna uma referência ao componente do SDK do visualizador usado pelo visualiz
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.ThumbnailGridView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tableOfContents </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContents </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sumário </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContent </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> infoPanelPopup </span> </p> </td> 
@@ -157,47 +157,47 @@ Retorna uma referência ao componente do SDK do visualizador usado pelo visualiz
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> print </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imprimir </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> download </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> baixar </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritosEfeito </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesEffect </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritosEffect </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.FavoritesEffect </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritosView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritesView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.FavoritesView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritesMenu </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritosMenu </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.MenuFavoritos </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> addFavoriteButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.AddFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.AddFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> removeFavoriteButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.RemoveFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.RemoveFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> viewAllFavoriteButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.ViewAllFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favoritos.ViewAllFavoriteButton </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ao trabalhar com APIs do SDK, é importante usar o namespace do SDK totalmente qualificado, conforme descrito em [Namespace do SDK do visualizador](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+Ao trabalhar com APIs de SDK, é importante usar o namespace de SDK totalmente qualificado e correto, conforme descrito em [Namespace do visualizador do SDK](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
 
-Consulte a *API do SDK do visualizador* documentação para obter mais informações sobre um componente específico.
+Consulte a *Visualizador da API do SDK* para obter mais informações sobre um componente específico.
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Uma referência ao componente do SDK do visualizador. O método retorna `null` se a variável `componentId` não é um componente do visualizador compatível ou se o componente ainda não foi criado pela lógica do visualizador.
+`{Object}` Uma referência ao componente do Visualizador SDK. O método retorna `null` se a variável `componentId` não é um componente de visualizador compatível ou se o componente ainda não foi criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

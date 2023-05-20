@@ -36,8 +36,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades. |
-| primaryOwnerHandle | `xsd:string` | Sim | O proprietário principal dos dados vinculados ao objeto de banco de dados. |
+| typeHandle | `xsd:string` | Sim | O identificador para o tipo de conjunto de propriedades. |
+| primaryOwnerHandle | `xsd:string` | Sim | O proprietário principal dos dados associados ao objeto de banco de dados. |
 | secondaryOwnerHandle | `xsd:string` | Não | Um proprietário secundário opcional dos dados. |
 
 **Saída (getPropertySetsReturn)**
@@ -48,7 +48,7 @@ Sintaxe
 
 ## Exemplos {#section-1358af974eab4259864910337a6f0bd2}
 
-Esta amostra de código retorna conjuntos de propriedades do proprietário principal, especificado por um identificador de tipo.
+Essa amostra de código retorna conjuntos de propriedades do proprietário principal, especificados por um identificador de tipo.
 
 **Solicitação**
 

@@ -8,7 +8,7 @@ exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> esquerda|centro|direita</span> </p> </td> 
-   <td> <p> Especifica o alinhamento horizontal interno (âncora) do contêiner de miniaturas na área do componente. Em ThumbnailGridView, o contêiner de miniatura interno é dimensionado para que somente um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td> <p> Especifica o alinhamento horizontal interno (ancoragem) do contêiner de miniaturas na área de componente. Em ThumbnailGridView, o contêiner interno da miniatura é medido de modo que apenas o número inteiro de miniaturas seja mostrado. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. Esse modificador especifica como o contêiner interno de miniaturas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

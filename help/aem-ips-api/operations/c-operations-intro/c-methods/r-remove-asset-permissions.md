@@ -1,5 +1,5 @@
 ---
-description: Remove permissões de ativos selecionados.
+description: Remove permissões dos ativos selecionados.
 solution: Experience Manager
 title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # removeAssetPermissions{#removeassetpermissions}
 
-Remove permissões de ativos selecionados.
+Remove permissões dos ativos selecionados.
 
 Sintaxe
 
@@ -30,8 +30,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
-| assetHandle | `xsd:string` | Sim | O identificador do ativo com permissões que você deseja remover. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo com as permissões que você deseja remover. |
 
 **Saída (removeAssetPermissionsReturn)**
 
@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-Esta amostra de código remove as permissões de um ativo.
+Esta amostra de código remove permissões de um ativo.
 
 **Solicitação**
 

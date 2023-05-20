@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Folder` | Matriz de pastas. |
+| itens | `types:Folder` | Matriz de pastas. |

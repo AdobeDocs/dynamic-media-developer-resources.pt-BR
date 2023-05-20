@@ -1,20 +1,20 @@
 ---
-description: Usado por JobLogDetial/assetType.
+description: Usado por JobLogDetail/assetType.
 solution: Experience Manager
-title: Tipos de Arquivo de Log de Trabalho
-feature: Dynamic Media Classic, SDK/API
+title: Tipos de arquivo de registro de tarefas
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '18'
 ht-degree: 0%
 
 ---
 
-# Tipos de Arquivo de Log de Trabalho{#job-log-file-types}
+# Tipos de arquivo de registro de tarefas{#job-log-file-types}
 
-Usado por JobLogDetial/assetType.
+Usado por JobLogDetail/assetType.
 
 Sintaxe
 

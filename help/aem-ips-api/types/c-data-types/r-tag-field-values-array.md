@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de valores de campo de tag.
 solution: Experience Manager
-title: TagFieldValuesArray
+title: MatrizDeValoresDeCampoDeMarca
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 68762d4c-b006-4a1a-ab0b-dafde2ab0a80
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:TagFieldValues` | Uma matriz de valores de campo de tag. |
+| itens | `types:TagFieldValues` | Uma matriz de valores de campo de tag. |

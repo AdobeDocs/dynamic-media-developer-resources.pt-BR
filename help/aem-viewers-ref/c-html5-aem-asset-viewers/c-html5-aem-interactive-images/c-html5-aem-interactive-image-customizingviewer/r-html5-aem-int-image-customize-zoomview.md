@@ -1,6 +1,6 @@
 ---
 title: Exibição de zoom
-description: A exibição principal consiste na imagem estática.
+description: A visualização principal consiste na imagem estática.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Exibição de zoom{#zoom-view}
 
-A exibição principal consiste na imagem estática.
+A visualização principal consiste na imagem estática.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,8 +35,8 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal da exibição principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da janela principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>

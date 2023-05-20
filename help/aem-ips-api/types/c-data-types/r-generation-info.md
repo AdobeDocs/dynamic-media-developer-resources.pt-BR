@@ -23,6 +23,6 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | [!DNL engine] | `xsd:string` | Mecanismo de geração usado (consulte &quot;Informações de geração&quot; para valores). |
-| [!DNL originator] | `types:Asset` | Registro de ativo do ativo principal usado na geração. |
+| [!DNL originator] | `types:Asset` | Registro do ativo principal usado na geração. |
 | [!DNL generated] | `types:Asset` | Registro de ativo do ativo gerado. |
 | attributeArray | `types:GenerationAttributeArray` | Matriz de atributos associados ao processo de geração. |

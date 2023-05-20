@@ -33,9 +33,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyName | `xsd:string` | Sim | Lide com a empresa com o projeto que deseja renomear. |
-| projectHandle | `xsd:string` | Sim | Manipule o projeto. |
-| projectName | `xsd:string` | Sim | Novo nome do projeto. |
+| companyName | `xsd:string` | Sim | Processe a empresa com o projeto que você deseja renomear. |
+| projectHandle | `xsd:string` | Sim | Identificador para o projeto. |
+| projectName | `xsd:string` | Sim | Novo nome de projeto. |
 
 **Saída (renameProjectParam)**
 
@@ -45,7 +45,7 @@ Sintaxe
 
 ## Exemplos {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Essa amostra de código renomeia um projeto e retorna o identificador do projeto.
+Esta amostra de código renomeia um projeto e retorna o identificador do projeto.
 
 **Solicitação**
 

@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Registro do servidor{#server-logging}
 
-Todos os arquivos de log são gravados na mesma pasta de log especificada com o diretório TC::.
+Todos os arquivos de log são gravados na mesma pasta de log especificada com TC::diretory.
 
-Os arquivos de log normalmente são criados e rodados diariamente. Arquivos de log mais antigos na pasta de log são excluídos automaticamente após um número especificado de dias ( `TC::maxDays`).
+Os arquivos de registro normalmente são criados e rotacionados diariamente. Os arquivos de log mais antigos na pasta de log são excluídos automaticamente após um número especificado de dias ( `TC::maxDays`).
 
-Importante Uma quantidade suficiente de espaço em disco deve ser reservada para arquivos de log para evitar a falta de espaço em disco. Pode ser necessário de 1 a 2 GB/dia para um servidor de uso intenso e configurações de log padrão.
+Importante: uma quantidade suficiente de espaço em disco deve ser reservada para os arquivos de log para evitar ficar sem espaço em disco. Pode ser necessário de 1 a 2 GB/dia para um servidor muito usado e configurações de log padrão.
 
-O [!DNL Platform Server] e o Servidor de imagem cria os três tipos de arquivos de log descritos abaixo.
+A variável [!DNL Platform Server] O e o Servidor de imagens criam os três tipos de arquivos de registro descritos abaixo.
 
-Outros componentes do Image Serving e alguns outros pacotes do Dynamic Media, como os Visualizadores do Dynamic Media, também podem criar arquivos de log na mesma pasta. Esses arquivos de log são para uso interno da Dynamic Media e podem ser solicitados pelo suporte técnico da Dynamic Media para fins de solução de problemas.
+Outros componentes do Servidor de imagens e outros pacotes do Dynamic Media, como os Visualizadores do Dynamic Media, também podem criar arquivos de log na mesma pasta. Esses arquivos de registro são para uso interno da Dynamic Media e podem ser solicitados pelo suporte técnico da Dynamic Media para fins de solução de problemas.
 
 * [Log de acesso](c-access-log.md)
 * [Log de rastreamento](c-trace-log.md)
@@ -30,4 +30,4 @@ Outros componentes do Image Serving e alguns outros pacotes do Dynamic Media, co
 
 ## Consulte também {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Registro de acesso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Registro de depuração/rastreamento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Log de acesso](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Log de depuração/rastreamento](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

@@ -8,7 +8,7 @@ exl-id: b7346f72-5fe9-4608-8ea0-27012b73b696
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Região inicial de interesse em coordenadas normalizadas. Se esses valores não forem especificados, toda a imagem será instalada dentro da janela de visualização inicial. </p> </td> 
+   <td colname="col2"> <p> Região de interesse inicial em coordenadas normalizadas. Se esses valores não forem especificados, a imagem inteira será ajustada dentro do viewport inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: Atributo de configuração para Visualizador de vídeo de mídia mista.
+description: Atributo de configuração para o Visualizador de vídeo de mídia mista.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Atributo de configuração para Visualizador de vídeo de mídia mista.
+Atributo de configuração para o Visualizador de vídeo de mídia mista.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuração para Visualizador de vídeo de mídia mista.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Ativa ou desativa a exibição da animação de buffer (ícone de espera). </p> </td> 
+   <td colname="col2"> <p> Ativa ou desativa a exibição da animação em buffer (ícone de espera). </p> </td> 
   </tr> 
  </tbody> 
 </table>

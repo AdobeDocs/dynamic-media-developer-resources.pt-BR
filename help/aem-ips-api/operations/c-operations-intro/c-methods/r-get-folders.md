@@ -1,5 +1,5 @@
 ---
-description: Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
+description: Retorna todas as pastas e subpastas, iniciando no caminho da pasta. A resposta getFolders retorna um máximo de 100.000 pastas.
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # getFolders{#getfolders}
 
-Retorna todas as pastas e subpastas, começando no caminho da pasta. A resposta getFolders retorna no máximo 100.000 pastas.
+Retorna todas as pastas e subpastas, iniciando no caminho da pasta. A resposta getFolders retorna um máximo de 100.000 pastas.
 
 ## Finalidade das pastas {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Uma pasta permite organizar subpastas e ativos. Todos os nomes de pasta e ativo devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causarão um conflito de namespace, mesmo se estiverem em hierarquias de pastas diferentes.
+Uma pasta permite organizar subpastas e ativos. Todos os nomes de pastas e ativos devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causarão um conflito de namespace, mesmo se estiverem em hierarquias de pastas diferentes.
 Sintaxe
 
 ## Tipos de usuário autorizados {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
@@ -35,7 +35,7 @@ Sintaxe
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura à pasta para retornar os dados nela.
+>O usuário deve ter acesso de leitura à pasta para retornar dados nela.
 
 ## Parâmetros {#section-0c1976503eaa418a9226b51667901176}
 
@@ -43,11 +43,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
 | accessUserHandle | `xsd:string` | Não | Usado pelos administradores para representar um usuário específico. |
 | accessGroupHandle | `xsd:string` | Não | Filtrar por um grupo específico. |
-| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. |
-| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas os tipos de ativos especificados. |
+| folderPath | `xsd:string` | Não | A pasta raiz para recuperar pastas e todas as subpastas para o nível folha. Se excluída, a raiz da empresa é usada. |
+| assetTypeArray | `types:StringArray` | Não | Retorna pastas que contêm apenas tipos de ativos especificados. |
 | responseFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja incluir na resposta. |
 | excludeFieldArray | `types:StringArray` | Não | Contém uma lista de campos que você deseja excluir da resposta. |
 
@@ -55,7 +55,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| folderArray | `types:FolderArray` | Não | Uma matriz de pastas que correspondem aos critérios de filtro. A resposta é limitada a 100.000 pastas no máximo. |
+| folderArray | `types:FolderArray` | Não | Uma matriz de pastas que correspondem aos critérios do filtro. A resposta é limitada a no máximo 100.000 pastas. |
 | permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exemplos {#section-b5cb06e9fb9945ad898dbdc3692b754e}

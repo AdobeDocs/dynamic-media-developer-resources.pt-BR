@@ -1,6 +1,6 @@
 ---
 title: FavoritesMenu.bearing
-description: Specifies the direction of slide animation for the buttons container.
+description: Especifica a direção da animação do slide para o contêiner de botões.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,20 +14,20 @@ ht-degree: 0%
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
-Especifica a direção da animação de slide para o contêiner de botões.
+Especifica a direção da animação do slide para o contêiner de botões.
 
 `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> para cima|para baixo|para a esquerda|para a direita|para-vertical|para-caber-lateral</span> </p> </td> 
-   <td colname="col2"> <p> When set to <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>, or <span class="codeph"> right</span>, the panel rolls out in specified direction without an extra bounds check, which results in panel clipping by an outside container. </p> <p>When set to <span class="codeph"> fit-vertical</span>, the component first shifts the base panel position to the bottom of the Favorites menu. It tries to roll out the panel in one of the following directions from such base location: bottom, right, left. Com cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. If all attempts fail, the component tries to shift the base panel position to the top and repeat roll-out attempts from a top, right, and left direction. </p> <p>Quando definido como <span class="codeph"> elementos de apoio</span>, o componente usa uma lógica semelhante. A base é deslocada para a direita primeiro, tentando para a direita, para baixo, e para cima, em direção à esquerda. Then, it shifts the base to the left, trying left, down and up roll out directions. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> para cima|para baixo|para a esquerda|para a direita|ajuste vertical|ajuste lateral</span> </p> </td> 
+   <td colname="col2"> <p> Quando definido como <span class="codeph"> para cima</span>, <span class="codeph"> para baixo</span>, <span class="codeph"> left</span>ou <span class="codeph"> direita</span>, o painel é implantado na direção especificada sem uma verificação de limites extras, o que resulta no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> ajustar-vertical</span>, o componente muda primeiro a posição do painel base para a parte inferior do menu Favoritos. Ele tenta implantar o painel em uma das seguintes direções a partir desse local base: inferior, direita, esquerda. A cada tentativa, o componente verifica se o painel está recortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação de uma direção superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> ajuste lateral</span>, o componente usa uma lógica semelhante. A base é deslocada para a direita primeiro, tentando para a direita, para baixo, e para cima para implantar direções. Em seguida, desloca a base para a esquerda, tentando para a esquerda, para baixo e para cima em direção de implantação. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Properties {#section-f42369774e2740dcb399626a0e4e930e}
+## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
 Opcional.
 

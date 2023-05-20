@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de falhas de metadados.
 solution: Experience Manager
-title: SetMetadataFaultArray
+title: DefinirMatrizFalhaMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 76f453d0-27c5-4971-b854-25fc3cefd92c
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:SetMetadataFault` | Uma matriz de falhas de metadados. |
+| itens | `types:SetMetadataFault` | Uma matriz de falhas de metadados. |

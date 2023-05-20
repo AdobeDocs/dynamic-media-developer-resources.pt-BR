@@ -1,5 +1,5 @@
 ---
-description: Interrompe um trabalho em andamento.
+description: Para uma tarefa em andamento.
 solution: Experience Manager
 title: stopJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # stopJob{#stopjob}
 
-Interrompe um trabalho em andamento.
+Para uma tarefa em andamento.
 
 Sintaxe
 
@@ -35,10 +35,10 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
-| jobHandle | `xsd:string` | Sim | Lide com o trabalho que deseja parar. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
+| jobHandle | `xsd:string` | Sim | Processe o trabalho que deseja interromper. |
 
-**Saída (stopJobReturn0**
+**Saída (stopJobReturn0)**
 
 A API do IPS não retorna uma resposta para esta operação.
 

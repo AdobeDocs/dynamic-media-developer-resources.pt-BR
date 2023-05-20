@@ -36,7 +36,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação de ativos. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o histórico de publicação do ativo. |
 | assetHandle | `xsd:string` | Sim | O ativo com o histórico de publicação que você deseja examinar. |
 
 **Saída (getAssetPublishHistoryReturn)**

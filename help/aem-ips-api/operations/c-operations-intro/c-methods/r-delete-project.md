@@ -1,5 +1,5 @@
 ---
-description: Exclui um projeto de uma empresa. Os links entre os ativos e o projeto são quebrados, mas os ativos não são excluídos do IPS.
+description: Exclui um projeto de uma empresa. Os links entre os ativos e o projeto estão quebrados, mas os ativos não são excluídos do IPS.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # deleteProject{#deleteproject}
 
-Exclui um projeto de uma empresa. Os links entre os ativos e o projeto são quebrados, mas os ativos não são excluídos do IPS.
+Exclui um projeto de uma empresa. Os links entre os ativos e o projeto estão quebrados, mas os ativos não são excluídos do IPS.
 
 Sintaxe
 
@@ -42,7 +42,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-e38507f1f7ec41b9a625f47390490254}
 
-Esta amostra de código usa o identificador da empresa e o identificador do projeto como campos no deleteProjectParam enviados ao servidor de serviços Web IPS para excluir o projeto.
+Esta amostra de código usa o identificador da empresa e o identificador do projeto como campos no deleteProjectParam enviado ao servidor de serviços Web IPS para excluir o projeto.
 
 **Solicitação**
 

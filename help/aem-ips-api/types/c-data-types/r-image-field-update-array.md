@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ImageFieldUpdate` | Matriz de atualizações de campo de imagem. |
+| itens | `types:ImageFieldUpdate` | Matriz de atualizações de campo de imagem. |

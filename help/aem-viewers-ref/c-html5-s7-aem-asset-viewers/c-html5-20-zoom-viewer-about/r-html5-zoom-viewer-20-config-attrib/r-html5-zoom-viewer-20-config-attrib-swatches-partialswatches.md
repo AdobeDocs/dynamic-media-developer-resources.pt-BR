@@ -8,7 +8,7 @@ exl-id: b2a65077-c322-446a-8d71-bded292215bf
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Especifica se o componente permite que a rolagem pare quando qualquer uma das amostras estiver parcialmente visível (a rolagem não está alinhada). O valor recomendado é <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Especifica se o componente permite a rolagem até o fim quando qualquer amostra estiver parcialmente visível (rolagem não alinhada). O valor recomendado é <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,19 +1,20 @@
 ---
-title: Compartilhamento em redes sociais
-description: A ferramenta de compartilhamento social aparece no canto superior direito por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
+title: Compartilhamento social
+description: Por padrão, a ferramenta de compartilhamento em redes sociais é exibida no canto superior direito. Consiste em um botão e um painel que se expande quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 650e1a57-9b0e-4132-a9b0-42c33cacdc04
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-# Compartilhamento em redes sociais{#social-share}
+# Compartilhamento social{#social-share}
 
-A ferramenta de compartilhamento social aparece no canto superior direito por padrão. Consiste em um botão e um painel que é expandido quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
+Por padrão, a ferramenta de compartilhamento em redes sociais é exibida no canto superior direito. Consiste em um botão e um painel que se expande quando o usuário clica ou toca em um botão e contém ferramentas de compartilhamento individuais.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -23,7 +24,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 .s7smartcropvideoviewer .s7socialshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento social**
+**Propriedades CSS da ferramenta de compartilhamento em redes sociais**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,10 +34,10 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento social em relação ao contêiner do visualizador. </p> </td> 
+   <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p> A largura da ferramenta de compartilhamento social. </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
  </tbody> 
 </table>
 
-Exemplo - configure uma ferramenta de compartilhamento social que esteja posicionada em quatro pixels da parte superior e em cinco pixels à direita do contêiner do visualizador e seja dimensionada para 28 x 28 pixels.
+Exemplo - configure uma ferramenta de compartilhamento em redes sociais posicionada a quatro pixels da parte superior e a cinco pixels da direita do contêiner do visualizador e dimensionada para 28 x 28 pixels.
 
 ```
 .s7smartcropvideoviewer .s7socialshare { 
@@ -57,34 +58,34 @@ Exemplo - configure uma ferramenta de compartilhamento social que esteja posicio
 }
 ```
 
-A aparência do botão de ferramenta de compartilhamento social é controlada pelo seguinte seletor de classe CSS:
+A aparência do botão de ferramenta de compartilhamento em redes sociais é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialbutton
 ```
 
-**Propriedades CSS do botão social**
+**Propriedades CSS do botão de redes sociais**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
-Exemplo - configure um botão de ferramenta de compartilhamento social que exibe uma imagem diferente para cada um dos quatro estados de botão diferentes.
+Exemplo - configure um botão de ferramenta de compartilhamento em redes sociais que exiba uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -101,24 +102,24 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-A aparência do painel que contém os ícones individuais de compartilhamento social é controlada pelo seguinte seletor de classe CSS:
+A aparência do painel que contém os ícones individuais de compartilhamento em redes sociais é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriedades de CSS do painel de compartilhamento social**
+**Propriedades CSS do painel compartilhamento em redes sociais**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>A cor de plano de fundo do painel. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configure um painel para ter uma cor transparente:
+Exemplo - configurar um painel para ter cor transparente:
 
 ```
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel { 

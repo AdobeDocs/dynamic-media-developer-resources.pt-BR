@@ -1,31 +1,31 @@
 ---
-description: Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0) ou erode (raio < 0) aos dados da máscara.
+description: Dilata/erode a imagem. Aplica um dilatador morfológico (raio > 0) ou erosão (raio < 0) aos dados da máscara.
 solution: Experience Manager
 title: op_growthMask
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
 # op_growthMask{#op-growmask}
 
-Dilate/erode imagem. Aplica um dilatador morfológico (raio > 0) ou erode (raio &lt; 0) aos dados da máscara.
+Dilata/erode a imagem. Aplica um dilatador morfológico (raio > 0) ou erosão (raio &lt; 0) aos dados da máscara.
 
-`op_growMask= *`radius`*`
+`op_growMask= *`raio`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> radius</span> </p> </td> 
-  <td class="stentry"> <p>Raio de dilato/erode em pixels onde o raio é presumido para aplicar à máscara de resolução completa e, portanto, é dimensionado para menos máscaras (int -100..100). </p></td> 
+  <td class="stentry"> <p><span class="varname"> raio</span> </p> </td> 
+  <td class="stentry"> <p>Raio de dilatação/erosão em pixels, onde o raio é aplicado à máscara de resolução total e, portanto, é reduzido para máscaras com resolução reduzida (int -100..100). </p></td> 
  </tr> 
 </table>
 
-Usada principalmente para aumentar ou diminuir ligeiramente uma máscara para evitar artefatos ao redor da borda da máscara.
+Usado principalmente para aumentar ou diminuir ligeiramente uma máscara para evitar artefatos ao redor da borda da máscara.
 
 ## Propriedades {#section-b1c66d65168d4ea695e8662ea690bd4e}
 

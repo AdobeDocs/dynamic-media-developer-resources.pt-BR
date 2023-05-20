@@ -1,6 +1,6 @@
 ---
-title: Fontes de imagem externas
-description: O Image Serving oferece suporte ao acesso a imagens de origem em servidores HTTP e FTP estrangeiros.
+title: Fontes de imagem estrangeiras
+description: O Servidor de imagens oferece suporte ao acesso a imagens de origem em servidores HTTP e FTP externos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Fontes de imagem externas{#foreign-image-sources}
+# Fontes de imagem estrangeiras{#foreign-image-sources}
 
-O Image Serving oferece suporte ao acesso a imagens de origem em servidores HTTP e FTP estrangeiros.
+O Servidor de imagens oferece suporte ao acesso a imagens de origem em servidores HTTP e FTP externos.
 
-Especificação de um URL externo para um `src=` ou `mask=` comando; delimite todo o URL incorporado com chaves:
+Para especificar um URL externo para um `src=` ou um `mask=` ; basta delimitar todo o URL incorporado com chaves:
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-URLs absolutos completos (se `attribute::AllowDirectUrls` é definido) e URLs relativos a `attribute::RootUrl` são permitidas. Um erro ocorre se um URL absoluto for incorporado e o atributo : `AllowDirectUrls` for 0 ou se um URL relativo for especificado e `attribute::RootUrl` está vazio.
+URLs absolutos completos (se `attribute::AllowDirectUrls` está definido) e URLs referentes a `attribute::RootUrl` são permitidos. Ocorre um erro se um URL absoluto for incorporado e o atributo:: `AllowDirectUrls` é 0 ou se uma URL relativa for especificada e `attribute::RootUrl` está vazio.
 
 Imagens estrangeiras são armazenadas em cache pelo servidor de acordo com os cabeçalhos de cache incluídos na resposta HTTP.

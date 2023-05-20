@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API do JavaScript para o visualizador do Video360.
+description: Referência da API JavaScript para o visualizador Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API do JavaScript para o visualizador do Video360.
+Referência da API JavaScript para o visualizador Video360.
 
 `setAsset(asset)`
 
@@ -25,8 +25,8 @@ Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ativo  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID de ativo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ativo </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} ID do novo ativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

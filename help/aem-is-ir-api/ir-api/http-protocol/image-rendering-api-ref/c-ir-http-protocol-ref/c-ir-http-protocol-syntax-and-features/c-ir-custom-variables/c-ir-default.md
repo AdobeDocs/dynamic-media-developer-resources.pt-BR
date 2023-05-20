@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Não há padrão.
 
-Somente as variáveis definidas são substituídas pelo servidor. Quaisquer ocorrências de `$ *[!DNL name]*$` que não correspondem a nenhuma variável personalizada definida permanecem literais.
+Somente as variáveis definidas são substituídas pelo servidor. Qualquer ocorrência de `$ *[!DNL name]*$` que não correspondem a nenhuma variável personalizada definida permanecem literais.

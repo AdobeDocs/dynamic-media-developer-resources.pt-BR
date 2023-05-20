@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API do JavaScript para o Flyout Viewer.
+description: Referência da API JavaScript para o Visualizador de imagem suspensa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API do JavaScript para o Flyout Viewer.
+Referência da API JavaScript para o Visualizador de imagem suspensa.
 
 ` setAsset( *`ativo`*)`
 
@@ -22,7 +22,7 @@ Referência da API do JavaScript para o Flyout Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, conjunto de imagens explícito ou conjunto de imagens explícito com modificadores de Exibição de imagem específicos de quadro, com modificadores opcionais globais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID do ativo, conjunto de imagens explícitas ou conjunto de imagens explícitas com modificadores do Servidor de imagens específicos do quadro, com modificadores opcionais do Servidor de imagens global anexados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,19 +49,19 @@ Referência única a um conjunto de imagens definido em um catálogo:
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Imagem explícita definida da seguinte maneira:
+Conjunto de imagens explícito da seguinte maneira:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Conjunto de imagens explícito com modificadores de Exibição de imagens específicos de quadro:
+Conjunto de imagens explícito com modificadores do Servidor de imagens específicos do quadro:
 
 ```
 <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-Modificador de nitidez adicionado a todas as imagens no conjunto:
+Modificador de nitidez adicionado a todas as imagens do conjunto:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")

@@ -1,5 +1,5 @@
 ---
-description: Informações do log de trabalhos.
+description: Informações de log do trabalho.
 solution: Experience Manager
 title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL JobLogDetail]{#joblogdetail}
 
-Informações do log de trabalhos.
+Informações de log do trabalho.
 
 Sintaxe
 
@@ -22,9 +22,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| logMessage | `xsd:string` | Mensagens no log de tarefas. |
-| logType | `xsd:string` | Tipo de arquivo de log da tarefa. |
+| logMessage | `xsd:string` | Mensagens no registro de tarefas. |
+| logType | `xsd:string` | Tipo de arquivo de log do trabalho. |
 | assetName | `xsd:string` | Nome do ativo no log de trabalho (opcional). |
 | assetType | `xsd:string` | Escolha do tipo de ativo. |
 | assetHandle | `xsd:string` | Identificador de ativo referenciado no log de trabalho. |
-| auxArray | `types:JobLogDetailAuxArray` | Fornece informações adicionais detalhadas sobre o log de trabalhos além dos cinco tipos de log de trabalhos descritos acima. |
+| auxArray | `types:JobLogDetailAuxArray` | Fornece informações adicionais detalhadas sobre o registro do trabalho além dos cinco tipos de registro do trabalho descritos acima. |

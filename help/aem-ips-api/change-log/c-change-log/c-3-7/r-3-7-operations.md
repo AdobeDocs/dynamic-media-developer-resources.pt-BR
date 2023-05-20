@@ -1,18 +1,18 @@
 ---
 description: Descreve métodos de operações novos e alterados para a API do IPS versão 3.7.
 solution: Experience Manager
-title: Operações novas e modificadas
-feature: Dynamic Media Classic, SDK/API
+title: Operações Novas e Modificadas
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
-# Operações: Novo e modificado{#operations-new-and-modified}
+# Operações: Novas e Modificadas{#operations-new-and-modified}
 
 Descreve métodos de operações novos e alterados para a API do IPS versão 3.7.
 
@@ -36,18 +36,18 @@ Sintaxe
 * `executeJob`
 * `deleteJob`
 
-## Operações modificadas {#section-596ea55a371e4c2ab5531e21ea9d8090}
+## Operações Modificadas {#section-596ea55a371e4c2ab5531e21ea9d8090}
 
 **searchAsset**
 
-* Remoção do parâmetro `name`.
-* Adição de `excludeFieldArray`.
+* Removido `name` parâmetro.
+* Adicionado `excludeFieldArray`.
 
 **getFolders**
 
-* Adição de `excludeFieldArray`.
+* Adicionado `excludeFieldArray`.
 
 **getFolderTree**
 
-* Adição de `excludeFieldArray` e `getUniqueMetadataValues`.
-* `fieldHandle` tornou-se um parâmetro obrigatório.
+* Adicionado `excludeFieldArray` e `getUniqueMetadataValues`.
+* Feito `fieldHandle` um parâmetro obrigatório.

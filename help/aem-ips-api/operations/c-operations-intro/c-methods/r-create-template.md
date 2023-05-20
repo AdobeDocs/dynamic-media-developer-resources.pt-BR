@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 
-O `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armazenados no catálogo do Servidor de Imagens aplicado antes de qualquer comando fornecido pelo usuário no URL. O `urlPostApplyModifier` especifica comandos de protocolo aplicados após qualquer comando de URL, o que substituirá quaisquer configurações conflitantes fornecidas pelo usuário.
+A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens e aplicados antes de qualquer comando fornecido pelo usuário no URL. A variável `urlPostApplyModifier` O parâmetro especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário.
 
 ## Tipos de usuário autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -36,8 +36,8 @@ O `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armaz
 | folderHandle | `xsd:string` | Sim | O identificador de pasta que representa a pasta onde o modelo reside. |
 | name | `xsd:string` | Sim | Nome do modelo. |
 | type | `xsd:string` | Sim | Tipo de modelo. |
-| urlModifier | `xsd:string` | Sim | Especifica os comandos do Servidor de Imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
-| urlPostApplyModifier | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirá quaisquer configurações conflitantes fornecidas pelo usuário. |
+| urlModifier | `xsd:string` | Sim | Especifica os comandos do Servidor de imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
+| urlPostApplyModifier | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário. |
 
 **Saída (createTemplateParam)**
 
@@ -47,7 +47,7 @@ O `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armaz
 
 ## Exemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Essa amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, a `urlModifier`e um `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
+Esta amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, um `urlModifier`, e uma `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
 
 **Solicitação**
 

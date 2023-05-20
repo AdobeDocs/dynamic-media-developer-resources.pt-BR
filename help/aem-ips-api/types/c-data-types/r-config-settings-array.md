@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de configurações.
+description: Uma matriz de definições de configuração.
 solution: Experience Manager
 title: ConfigSettingArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ConfigSettingArray]{#configsettingarray}
 
-Uma matriz de configurações.
+Uma matriz de definições de configuração.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ConfigSetting` | Uma matriz de configurações. |
+| itens | `types:ConfigSetting` | Uma matriz de definições de configuração. |

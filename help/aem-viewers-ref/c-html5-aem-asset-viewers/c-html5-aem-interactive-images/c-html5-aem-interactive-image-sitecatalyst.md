@@ -1,6 +1,6 @@
 ---
-title: Suporte para rastreamento de análises
-description: Suporte para rastreamento de análises
+title: Suporte para rastreamento de análise
+description: Suporte para rastreamento de análise
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Suporte para rastreamento de análises{#support-for-analytics-tracking}
+# Suporte para rastreamento de análise{#support-for-analytics-tracking}
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Por padrão, o visualizador envia uma única solicitação de rastreamento HTTP para o Image Server configurado com o tipo de visualizador e as informações da versão.
+Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -54,7 +54,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
-   <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 

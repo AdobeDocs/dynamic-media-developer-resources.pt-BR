@@ -8,7 +8,7 @@ exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> esquerda|centro|direita</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou âncora) do contêiner de miniaturas dentro da área do componente. </p> <p>Na chamada para a ação, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou ancoragem) do contêiner de miniaturas na área de componente. </p> <p>Na frase de chamariz, o contêiner interno da miniatura é dimensionado de modo que somente o número inteiro de miniaturas seja exibido. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner interno de miniaturas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

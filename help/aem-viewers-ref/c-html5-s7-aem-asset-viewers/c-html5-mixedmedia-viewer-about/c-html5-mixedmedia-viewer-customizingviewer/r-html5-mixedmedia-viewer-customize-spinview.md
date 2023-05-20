@@ -1,6 +1,6 @@
 ---
-title: Exibição em rotação
-description: A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
+title: Modo de exibição de rotação
+description: A exibição principal consiste na imagem giratória quando o ativo atual é um conjunto de rotação.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Exibição em rotação{#spin-view}
+# Modo de exibição de rotação{#spin-view}
 
-A exibição principal consiste na imagem de rotação quando o ativo atual é um conjunto de rotação.
+A exibição principal consiste na imagem giratória quando o ativo atual é um conjunto de rotação.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da exibição de rotação. </p> </td> 
   </tr> 
  </tbody> 

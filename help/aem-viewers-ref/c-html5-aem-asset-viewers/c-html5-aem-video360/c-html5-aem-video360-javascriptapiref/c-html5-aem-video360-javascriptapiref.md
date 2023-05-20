@@ -1,6 +1,6 @@
 ---
-title: Referência da API do JavaScript para o visualizador do Video360
-description: A classe principal do Visualizador de vídeo360é o Visualizador de vídeo360Vídeo. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API JavaScript para o visualizador Video360
+description: A classe principal do Video360Viewer é Video360Viewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Referência da API do JavaScript para o visualizador do Video360{#javascript-api-reference-for-video-viewer}
+# Referência da API JavaScript para o visualizador Video360{#javascript-api-reference-for-video-viewer}
 
-A classe principal do Visualizador de vídeo360é `Video360Viewer`. Ela é declarada no namespace s7viewers. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Video360Viewer é `Video360Viewer`. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` representa o nome real do objeto do visualizador JavaScript que é instanciado da classe `s7viewers.Video360Viewer`.
+Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.Video360Viewer` classe.

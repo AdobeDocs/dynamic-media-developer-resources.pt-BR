@@ -1,7 +1,7 @@
 ---
-description: CompanyMembershipArray
+description: MatrizDeAssociaçãoDaEmpresa
 solution: Experience Manager
-title: CompanyMembershipArray
+title: MatrizDeAssociaçãoDaEmpresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3c272b30-c433-4350-a17c-6f49f48ec0fd

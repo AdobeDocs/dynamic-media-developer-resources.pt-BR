@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de metadados.
 solution: Experience Manager
-title: MetadataArray
+title: MatrizDeMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1833237d-4ef9-4899-8d14-317db350b223
@@ -30,8 +30,8 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipo:Metadados</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> itens</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> texto:Metadados</span> </p> </td> 
    <td colname="col3"> <p>Uma matriz de metadados. </p> </td> 
   </tr> 
  </tbody> 

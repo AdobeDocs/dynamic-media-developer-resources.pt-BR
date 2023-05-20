@@ -1,7 +1,7 @@
 ---
 description: Atualização da imagem em miniatura.
 solution: Experience Manager
-title: ThumbAssetUpdate
+title: AtualizaçãoDoAtivoDeMiniatura
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ef51d01c-1434-40ac-a383-b07ef49c3bab
@@ -23,4 +23,4 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | assetHandle | `xsd:string` | Identificador de ativo. |
-| thumbAssetHandle | `xsd:string` | Manuseio de ativo de miniatura. |
+| thumbAssetHandle | `xsd:string` | Identificador de ativo da miniatura. |

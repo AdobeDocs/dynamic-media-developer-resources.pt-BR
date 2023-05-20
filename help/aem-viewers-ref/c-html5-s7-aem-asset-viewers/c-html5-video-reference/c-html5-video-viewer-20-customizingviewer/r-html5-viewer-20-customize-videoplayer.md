@@ -1,6 +1,6 @@
 ---
 title: Reprodutor de vídeo
-description: O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
+description: O reprodutor de vídeo é a área retangular onde o conteúdo do vídeo é exibido no visualizador.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Reprodutor de vídeo{#video-player}
 
-O reprodutor de vídeo é a área retangular na qual o conteúdo de vídeo é exibido no visualizador.
+O reprodutor de vídeo é a área retangular onde o conteúdo do vídeo é exibido no visualizador.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Se as dimensões do vídeo que está sendo reproduzido não corresponderem às dimensões do reprodutor de vídeo, o conteúdo do vídeo será centralizado na área de exibição do retângulo do reprodutor de vídeo.
+Se as dimensões do vídeo que está sendo reproduzido não corresponderem às dimensões do reprodutor de vídeo, o conteúdo do vídeo será centralizado na área de exibição retangular do reprodutor de vídeo.
 
-O seguinte seletor de classe CSS controla a aparência do reprodutor de vídeo:
+O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 
 ```
 .s7videoviewer .s7videoplayer
@@ -31,13 +31,13 @@ O seguinte seletor de classe CSS controla a aparência do reprodutor de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor do plano de fundo da exibição principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-A mensagem de erro que é exibida se o sistema não for capaz de reproduzir o vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
+A mensagem de erro exibida se o sistema não for capaz de reproduzir o vídeo pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
 Exemplo - Para configurar um visualizador de vídeo com o tamanho do reprodutor de vídeo definido como 512 x 288 pixels.
 
@@ -47,38 +47,38 @@ background-color: transparent;
 }
 ```
 
-As legendas ocultas são colocadas em um contêiner interno no reprodutor de vídeo. A posição desse contêiner é controlada por operadores de posicionamento WebVTT compatíveis. O texto da legenda em si está dentro desse contêiner e seu estilo é controlado com o seguinte seletor de classe CSS:
+As legendas ocultas são colocadas em um container interno no reprodutor de vídeo. A posição desse contêiner é controlada por operadores de posicionamento WebVTT compatíveis. O texto da legenda em si está dentro desse container, e seu estilo é controlado com o seguinte seletor de classe CSS:
 
 `. s7videoviewer .s7 videoplayer .s7caption`
 
-**Propriedades CSS de legendas ocultas**
+**Propriedades CSS das legendas ocultas**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>Plano de fundo do texto da legenda fechada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Plano de fundo do texto da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Fechar cor do texto da legenda. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col2"> <p>Cor do texto da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p> Peso da fonte da legenda fechada. </p> </td> 
+   <td colname="col2"> <p> Peso da fonte da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> Tamanho da fonte da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Fonte da legenda oculta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - Para configurar o texto da legenda fechada para ter 14 pixels, cinza claro, Arial®, em um plano de fundo preto semitransparente:
+Exemplo - Para configurar o texto de legenda oculta para 14 pixels, cinza claro, Arial®, em um plano de fundo preto semitransparente:
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -90,7 +90,7 @@ Exemplo - Para configurar o texto da legenda fechada para ter 14 pixels, cinza c
 }
 ```
 
-A aparência da animação de buffering é controlada com o seguinte seletor de classe CSS:
+A aparência da animação em buffer é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7videoviewer .s7videoplayer .s7waiticon
@@ -107,7 +107,7 @@ A aparência da animação de buffering é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p> Largura do ícone de animação. </p> </td> 
   </tr> 
   <tr> 
@@ -116,20 +116,20 @@ A aparência da animação de buffering é controlada com o seguinte seletor de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem esquerda </span> </p> </td> 
-   <td colname="col2"> <p> Ícone de animação margem esquerda, normalmente menos metade da largura do ícone. </p> </td> 
+   <td colname="col2"> <p> Margem esquerda do ícone de animação, normalmente menos metade da largura do ícone. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem superior </span> </p> </td> 
-   <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos a metade da altura do ícone. </p> </td> 
+   <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Arte do botão. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> Obstrução de arte. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar uma animação de buffer de 101 pixels de largura, 29 pixels de altura:
+Exemplo - para configurar uma animação em buffer com 101 pixels de largura e 29 pixels de altura:
 
 ```
 .s7videoviewer .s7videoplayer .s7waiticon { 

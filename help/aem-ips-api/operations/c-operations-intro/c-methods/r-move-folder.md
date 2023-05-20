@@ -1,5 +1,5 @@
 ---
-description: Mova uma pasta para um novo local.
+description: Mover uma pasta para um novo local.
 solution: Experience Manager
 title: moveFolder
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # moveFolder{#movefolder}
 
-Mova uma pasta para um novo local.
+Mover uma pasta para um novo local.
 
 Sintaxe
 
@@ -33,15 +33,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | folderHandle | `xsd:string` | Sim | Identificador de pasta. |
-| destFolderHandle | `xsd:string` | Sim | Lide com a pasta de destino. |
+| destFolderHandle | `xsd:string` | Sim | Processe a pasta de destino. |
 
 **Saída (moveFolderReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Sim | Lide com a pasta movida. |
+| folderHandle | `xsd:string` | Sim | Processe a pasta movida. |
 
 ## Exemplos {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

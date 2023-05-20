@@ -1,36 +1,36 @@
 ---
-description: Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
+description: Esses comandos se aplicam a camadas de imagem, texto e cores sólidas. A maioria não é significativa para a imagem composta e para solicitações simples, sem camadas. Elas não se aplicam às camadas de efeito.
 solution: Experience Manager
-title: Comandos comuns de camada
-feature: Dynamic Media Classic, SDK/API
+title: Comandos de camada comuns
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c95d198c-757f-405e-ba08-094cd402c929
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# Comandos comuns de camada{#common-layer-commands}
+# Comandos de camada comuns{#common-layer-commands}
 
-Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria não é significativa para a imagem composta e para solicitações simples e não em camadas. Elas não se aplicam às camadas de efeito.
+Esses comandos se aplicam a camadas de imagem, texto e cores sólidas. A maioria não é significativa para a imagem composta e para solicitações simples, sem camadas. Elas não se aplicam às camadas de efeito.
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> blendMode</a> </p> </td> 
-  <td class="stentry"> <p>Especifica o modo de mesclagem de camada. </p></td> 
+  <td class="stentry"> <p>Especifica o modo de mesclagem da camada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab" type="reference" format="dita" scope="local"> bgColor</a> </p></td> 
-  <td class="stentry"> <p>Especifica a cor e a opacidade de plano de fundo da camada. </p></td> 
+  <td class="stentry"> <p>Especifica a cor e a opacidade do plano de fundo da camada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> estender</a> </p></td> 
-  <td class="stentry"> <p>Estende (ou recorta) o retângulo de camada. </p></td> 
+  <td class="stentry"> <p>Estende (ou recorta) o retângulo da camada. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
+  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> cor</a> </p></td> 
   <td class="stentry"> <p>Especifica a cor e a opacidade da camada. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -54,11 +54,11 @@ Esses comandos se aplicam a camadas de imagem, texto e cor sólida. A maioria n�
   <td class="stentry"> <p>Posiciona a camada em relação à camada 0. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md#reference-04d383f32c7b4003bed9978cb854747b" type="reference" format="dita" scope="local"> size</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md#reference-04d383f32c7b4003bed9978cb854747b" type="reference" format="dita" scope="local"> tamanho</a> </p></td> 
   <td class="stentry"> <p>Especifica a restrição de tamanho da camada. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md#reference-e336facb21a644eea78c2c84c1c4576e" type="reference" format="dita" scope="local"> ocultar</a> </p></td> 
-  <td class="stentry"> <p>Oculte a camada. </p></td> 
+  <td class="stentry"> <p>Ocultar a camada. </p></td> 
  </tr> 
 </table>

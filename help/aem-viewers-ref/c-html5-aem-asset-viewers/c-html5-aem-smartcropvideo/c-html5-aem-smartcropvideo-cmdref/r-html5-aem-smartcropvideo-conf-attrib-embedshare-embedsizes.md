@@ -1,37 +1,38 @@
 ---
 title: EmbedShare.embedsizes
-description: Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+description: Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: c638d9fd-39bb-4baa-9b3a-99d9bc0307b5
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '61'
+ht-degree: 1%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Atributo de configuração para o Visualizador de vídeo de recorte inteligente.
+Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`largura`*, *`altura`*[,0|1][; *`largura`*, *`altura`*[,0|1]]`
 
-Especifica uma lista de tamanhos incorporados para a caixa de combinação de tamanho na caixa de diálogo modal de compartilhamento incorporado.
+Especifica uma lista de tamanhos incorporados para a caixa de combinação de tamanho na caixa de diálogo modal de compartilhamento incorporada.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura </span> </span> </p> </td> 
-   <td colname="col2"> <p> Incorporar largura. </p> </td> 
+   <td colname="col2"> <p> Largura incorporada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporar altura. </p> </td> 
+   <td colname="col2"> <p>Altura incorporada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica se esse item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
+   <td colname="col2"> <p> Especifica se este item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

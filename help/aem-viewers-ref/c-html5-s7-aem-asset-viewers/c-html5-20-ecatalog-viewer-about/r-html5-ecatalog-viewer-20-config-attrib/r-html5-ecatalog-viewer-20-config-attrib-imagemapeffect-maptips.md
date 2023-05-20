@@ -8,7 +8,7 @@ exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica se dicas de ferramenta são ativadas para elementos de área de mapa individuais. </p> <p> Ignorado em dispositivos de toque, incluindo sistemas de desktop habilitados para toque. </p> </td> 
+   <td colname="col2"> <p> Especifica se as dicas de ferramenta são ativadas para elementos individuais da área do mapa. </p> <p> Ignorado em dispositivos de toque, incluindo sistemas desktop habilitados para toque. </p> </td> 
   </tr> 
  </tbody> 
 </table>

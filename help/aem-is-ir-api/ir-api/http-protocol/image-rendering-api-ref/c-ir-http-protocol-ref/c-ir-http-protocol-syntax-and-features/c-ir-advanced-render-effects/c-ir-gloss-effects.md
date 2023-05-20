@@ -1,6 +1,6 @@
 ---
-title: Efeitos de perda
-description: Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente por meio do controle do contraste).
+title: Efeitos de brilho
+description: Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Efeitos de perda{#gloss-effects}
+# Efeitos de brilho{#gloss-effects}
 
-Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente por meio do controle do contraste).
+Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 
-Esse efeito é independente da renderização do reflexo e o complementa simulando reflexos especulares. O efeito é controlado com o mesmo `gloss=`, `glossmap=`e `type=` atributos usados para controlar reflexos.
+Esse efeito é independente da renderização da reflexão e o complementa simulando reflexões especulares. O efeito é controlado com o mesmo `gloss=`, `glossmap=`, e `type=` atributos que são usados para controlar reflexões.

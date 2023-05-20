@@ -1,5 +1,5 @@
 ---
-description: Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
+description: Somente para uso interno. Consulte a seção Atributos do Catálogo de Referência de Materiais de Renderização de Imagens.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-Apenas para uso interno. Consulte a seção Atributos do catálogo de referência do material de renderização de imagens .
+Somente para uso interno. Consulte a seção Atributos do Catálogo de Referência de Materiais de Renderização de Imagens.
 
 Sintaxe
 
@@ -32,10 +32,10 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa cujas configurações de publicação de renderização de imagem você deseja obter. |
-| contextHandle | `xsd:string` | Sim | Lidar com o contexto de publicação. |
+| contextHandle | `xsd:string` | Sim | Processe o contexto de publicação. |
 
 **Saída (getImageRenderingPublishSettingsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| publishSettingsArray | `type:ConfigSettingArray` | Sim | Configurações de publicação da renderização da imagem. |
+| publishSettingsArray | `type:ConfigSettingArray` | Sim | Configurações de publicação de renderização de imagem. |

@@ -20,11 +20,11 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Representa o número máximo de quadros para pré-carregar em cada direção quando o SpinView estiver inativo. Um valor de <span class="codeph"> -1</span> pré-carrega todos os quadros no conjunto. Os quadros pré-carregados são sempre vistos na resolução original de que o SpinView foi inicialmente carregado. </p> </td> 
+   <td colname="col2"> <p> Representa o número máximo de quadros para pré-carregar em cada direção quando o SpinView está ocioso. Um valor de <span class="codeph"> -1</span> pré-carrega todos os quadros do conjunto. Os quadros pré-carregados são sempre vistos na resolução original de carregamento inicial do SpinView. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. Quando definido como <span class="codeph"> 1</span> quadros carregam em alta qualidade, correspondendo ao tamanho do componente. Quando definido como <span class="codeph"> 0</span> somente o bloco de visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em tempo de início mais lento e maior consumo de rede, portanto, use com cautela. Quando um pré-carregamento de alta resolução é usado, os quadros pré-carregados sempre estão na resolução original na qual o componente foi inicialmente carregado. </p> </td> 
+   <td colname="col2"> <p> Controla a qualidade dos quadros pré-carregados. Quando definido como <span class="codeph"> 1</span> os quadros são carregados em alta qualidade, correspondendo ao tamanho do componente. Quando definido como <span class="codeph"> 0</span> somente o bloco de visualização de baixa resolução é carregado. </p> <p>O pré-carregamento em alta resolução melhora a experiência do usuário final, especialmente quando a rotação automática está ativada. Ao mesmo tempo, resulta em um tempo de início mais lento e maior consumo de rede, portanto, use com cuidado. Quando um pré-carregamento de alta resolução é usado, os quadros pré-carregados estão sempre na resolução original na qual o componente foi carregado inicialmente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

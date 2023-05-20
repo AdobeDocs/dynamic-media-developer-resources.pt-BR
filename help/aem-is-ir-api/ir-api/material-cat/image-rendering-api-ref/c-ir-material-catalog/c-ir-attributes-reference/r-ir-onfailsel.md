@@ -1,6 +1,6 @@
 ---
-title: OnFailSel
-description: Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se o comando sel= falhar porque o local de pixel especificado não está dentro da área de máscara de um objeto selecionável.
+title: NoFailSel
+description: Tratamento de erros de seleção de separação. Especifica a ação a ser tomada se o comando sel= falhar porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 4%
 
 ---
 
-# OnFailSel{#onfailsel}
+# NoFailSel{#onfailsel}
 
-Escolha a manipulação de erros de seleção. Especifica a ação a ser executada se a variável `sel=` falha porque a localização de pixel especificada não está dentro da área de máscara de um objeto selecionável.
+Tratamento de erros de seleção de separação. Especifica a ação a ser tomada se a variável `sel=` O comando falha porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
 
 ## Propriedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -31,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos é ignorada. </p> </td> 
+  <td class="stentry"> <p>Desmarcar; qualquer tentativa de aplicar um material ou mostrar/ocultar objetos será ignorada. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -49,4 +49,4 @@ Herdado de `default::OnFailSel` se não estiver definido.
 
 ## Consulte também {#section-f8b15dd64c674c5484d190dd9e3016af}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) , [atributo::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b) , [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

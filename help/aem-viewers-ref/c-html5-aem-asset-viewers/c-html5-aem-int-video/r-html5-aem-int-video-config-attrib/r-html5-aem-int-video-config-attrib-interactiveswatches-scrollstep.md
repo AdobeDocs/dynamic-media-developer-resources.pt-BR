@@ -8,7 +8,7 @@ exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 Atributo de configuração para o Visualizador de vídeo interativo.
 
-` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`step`*`
+` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`etapa`*`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> step</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o número de amostras a serem roladas para cada toque do botão de rolagem correspondente. </p> <p>Se o valor especificado for maior que o número de amostras interativas visíveis, cada toque só rola pelo número de amostras visíveis para evitar a omissão de qualquer amostra. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> etapa</span></span> </p> </td> 
+   <td colname="col2"> <p>Especifica o número de amostras que devem ser roladas para cada toque do botão de rolagem correspondente. </p> <p>Se o valor especificado for maior que o número de amostras interativas visíveis, cada toque somente rola pelo número de amostras visíveis para evitar a omissão de qualquer amostra. </p> </td> 
   </tr> 
  </tbody> 
 </table>

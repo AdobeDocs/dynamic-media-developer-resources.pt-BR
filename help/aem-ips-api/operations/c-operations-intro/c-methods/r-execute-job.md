@@ -1,20 +1,20 @@
 ---
-description: Executa um trabalho específico.
+description: Executa uma tarefa específica.
 solution: Experience Manager
 title: executeJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
 # executeJob{#executejob}
 
-Executa um trabalho específico.
+Executa uma tarefa específica.
 
 Sintaxe
 
@@ -53,7 +53,7 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O identificador do trabalho a ser executado. </p> </td> 
+   <td colname="col4"> <p>O identificador do job a ser executado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-96f71aa58a954293b9a98ff96d86f232}
 
-Esta amostra de código executa uma tarefa agendada para execução no IPS.
+Esta amostra de código executa um trabalho agendado para execução no IPS.
 
 **Solicitação**
 

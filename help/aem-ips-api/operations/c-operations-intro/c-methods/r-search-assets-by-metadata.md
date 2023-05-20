@@ -1,5 +1,5 @@
 ---
-description: Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
+description: Pesquisa no repositório de índice de metadados os termos de pesquisa fornecidos. Retorna dados de ativos como o método searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Pesquisa o repositório de índice de metadados para os termos de pesquisa fornecidos. Retorna dados do ativo como o método searchAssets.
+Pesquisa no repositório de índice de metadados os termos de pesquisa fornecidos. Retorna dados de ativos como o método searchAssets.
 
-Ao `searchAssetsByMetadata` permite que você pesquise em Campos de metadados definidos pelo usuário, esses campos não serão retornados se forem especificados na variável `responseMetadataArray`. Para ilustrar esse ponto, o seguinte exemplo de código:
+Enquanto `searchAssetsByMetadata` permite pesquisar em Campos de metadados definidos pelo usuário, esses campos não serão retornados se forem especificados na variável `responseMetadataArray`. Para ilustrar esse ponto, o seguinte exemplo de código:
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ retorna um valor nulo:
 </items>
 ```
 
-Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesquisa para execução `getAssets` (consulte também [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Esse método obtém os valores de Campos Definidos pelo Usuário para os ativos em questão. Use o exemplo de sintaxe a seguir para pesquisar em Campos de Metadados Definidos pelo Usuário:
+Para contornar esse problema, você pode usar o `fieldHandles` dos ativos retornados pela pesquisa para serem executados `getAssets` (consulte também [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Esse método obtém os valores dos Campos definidos pelo usuário para os ativos em questão. Use o exemplo de sintaxe a seguir para pesquisar em Campos de Metadados Definidos pelo Usuário:
 
 ```java
 <ns:metadataConditionArray>
@@ -73,25 +73,25 @@ Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesq
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O nome da empresa. </p> </td> 
+   <td colname="col4"> <p>O identificador da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtro</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> tipo:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> texto:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Filtros que ajudam você a definir critérios de pesquisa. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtros que ajudam a definir critérios de pesquisa. </p> <p>Consulte <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> tipo:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Condições que definem critérios de pesquisa. Consulte abaixo para obter mais informações. </p> </td> 
+   <td colname="col4"> <p>Condições que definem os critérios de pesquisa. Consulte a seção abaixo para obter informações adicionais. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> texto:MatrizCadeiaDeCaracteres</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Campos adicionais que você deseja que tenham preenchido na resposta no resumo do ativo. Os campos devem ser especificados no formato normalizado. </p> </td> 
+   <td colname="col4"> <p>Campos adicionais que você deseja preencher na resposta do resumo do ativo. Os campos devem ser especificados no formato normalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -109,13 +109,13 @@ Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesq
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Classificar por campo de ativo selecionado. </p> </td> 
+   <td colname="col4"> <p>Classifique por campo de ativo selecionado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Escolha de uma espécie de direção. Crescente é padrão. </p> </td> 
+   <td colname="col4"> <p>Escolha da direção da classificação. Crescente é o padrão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,11 +127,11 @@ Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesq
 | totalRows | `xsd:int` | Não | Número de correspondências. |
 | assetArray | `types:AssetArray` | Não | Matriz de ativos retornados pela pesquisa. |
 
-## Detalhes de metadataConditionArray {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
+## metadataConditionArray Detalhes {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
 **Estrutura do item**
 
-`metadataConditionArray` A estrutura é a seguinte:
+`metadataConditionArray` estrutura é a seguinte:
 
 ```java
 <ns1:items>
@@ -143,7 +143,7 @@ Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesq
 
 **Valores**
 
-`field_handle` é a chave de pesquisa de metadados. Ele pode conter notação de pontos. Os valores possíveis incluem:
+`field_handle` é a chave de pesquisa de metadados. Ele pode conter a notação de pontos. Os valores possíveis incluem:
 
 * `asset_id` (sem prefixo)
 * `name`
@@ -156,13 +156,13 @@ Para contornar esse problema, use o `fieldHandles` dos ativos retornados da pesq
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (igual a `modified_at` (Data no formulário: Sex 25 de julho de 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (igual a `modified_at` (Data no formato: sexta-feira, 25 de julho de 2014 22:13:45 GMT-0500 (CDT)
 
 * `created_by`
 
 **Operadores permitidos**
 
-O [!DNL operator] define como comparar o valor e incluir:
+A variável [!DNL operator] define como comparar o valor e inclui:
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ O [!DNL operator] define como comparar o valor e incluir:
 * `StartsWith`
 * `EndsWith`
 
-O `comparison_value` é o termo que deve ser procurado.
+A variável `comparison_value` é o termo a ser pesquisado.
 
 ## Exemplos {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Essa amostra de código realiza uma pesquisa com os seguintes critérios de metadados:
 
-* `name` campo contém `1000801`.
+* `name` o campo contém `1000801`.
 
-* `dc.rights` campo igual `Per Jessen Schmidt`.
+* `dc.rights` campo igual a `Per Jessen Schmidt`.
 
 **Solicitação**
 

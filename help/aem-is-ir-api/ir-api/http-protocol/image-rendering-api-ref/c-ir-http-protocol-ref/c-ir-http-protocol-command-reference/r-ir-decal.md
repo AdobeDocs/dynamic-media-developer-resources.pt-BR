@@ -1,6 +1,6 @@
 ---
 title: decalque
-description: Seletor de material de decalque. Inicia um segmento de especificação de material (MSS) para um material decal não repetível.
+description: Seletor de material de decalque. Inicia um segmento de especificação de material (MSS) para um material de decalque não repetível.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # decalque {#decal}
 
-Seletor de material de decalque. Inicia um segmento de especificação de material (MSS) para um material decal não repetível.
+Seletor de material de decalque. Inicia um segmento de especificação de material (MSS) para um material de decalque não repetível.
 
 ` decal[= *`val`*]`
 
@@ -27,7 +27,7 @@ Seletor de material de decalque. Inicia um segmento de especificação de materi
 
 ## Propriedades {#section-4f975f78869e4c829c30cf3ca7646539}
 
-comando Seleção; Delimitador MSS.
+Comando de seleção; delimitador de MSS.
 
 ## Padrão {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

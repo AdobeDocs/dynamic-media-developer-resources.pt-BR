@@ -1,20 +1,20 @@
 ---
-description: A string de comando Image Serving que é aplicada a todas as miniaturas.
+description: A sequência de comando do Servidor de imagens que é aplicada a todas as miniaturas.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-A string de comando Image Serving que é aplicada a todas as miniaturas.
+A sequência de comando do Servidor de imagens que é aplicada a todas as miniaturas.
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`]
 
@@ -22,7 +22,7 @@ A string de comando Image Serving que é aplicada a todas as miniaturas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas por HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve ser codificado em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

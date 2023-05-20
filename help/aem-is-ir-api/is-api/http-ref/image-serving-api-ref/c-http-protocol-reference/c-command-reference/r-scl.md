@@ -1,33 +1,33 @@
 ---
-description: Visualização de escala. Dimensiona a imagem composta pelo inverso de renceFactor.
+description: Modo de exibição de escala. Dimensiona a imagem composta pelo inverso de invFactor.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
 # scl{#scl}
 
-Visualização de escala. Dimensiona a imagem composta pelo inverso de renceFactor.
+Modo de exibição de escala. Dimensiona a imagem composta pelo inverso de invFactor.
 
-`scl= *`renceFactor`*`
+`scl= *`invFactor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> renceFactor</span> </p> </td> 
-  <td class="stentry"> <p>Fator de escala inverso (real superior a 0,0). </p></td> 
+  <td class="stentry"> <p><span class="varname"> invFactor</span> </p> </td> 
+  <td class="stentry"> <p>Fator de escala inversa (real maior que 0,0). </p></td> 
  </tr> 
 </table>
 
-Nenhum dimensionamento é aplicado quando `scl=1`. *`invFactor`* maior que 1,0 de escala baixa e menor que 1,0 amplia a imagem composta.
+Nenhum dimensionamento é aplicado quando `scl=1`. *`invFactor`* maior que 1,0 diminui a escala e menor que 1,0 aumenta a imagem composta.
 
-Se `scl=` for especificado, e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
+Se `scl=` for especificada e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
 
 >[!NOTE]
 >
@@ -35,16 +35,16 @@ Se `scl=` for especificado, e `wid=` e/ou `hei=` também estiverem presentes, a 
 
 ## Propriedades {#section-60af012719db477db4a4703e9a6da5f5}
 
-Exibir atributo. Aplica-se independentemente da configuração de camada atual.
+Exibir atributo. Aplica-se independentemente da configuração atual da camada.
 
 ## Padrão {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se `wid=`, `hei=` ou `scl=` não forem especificadas, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
+Se nenhuma delas `wid=`, `hei=`, nem `scl=` forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
 
 ## Exemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
-Veja o exemplo em [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para uma aplicação comum de `scl=`.
+Veja o exemplo em [girar=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para uma aplicação comum do `scl=`.
 
 ## Consulte também {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [atributo::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)

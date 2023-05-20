@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:MetadataUpdate` | Matriz de atualizações de metadados. |
+| itens | `types:MetadataUpdate` | Matriz de atualizações de metadados. |

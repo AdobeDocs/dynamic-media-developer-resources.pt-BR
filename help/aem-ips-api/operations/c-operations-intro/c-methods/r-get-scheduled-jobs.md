@@ -1,5 +1,5 @@
 ---
-description: Obtém tarefas agendadas para execução.
+description: Obtém os trabalhos agendados para execução.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getScheduledJobs{#getscheduledjobs}
 
-Obtém tarefas agendadas para execução.
+Obtém os trabalhos agendados para execução.
 
 Sintaxe
 
@@ -35,8 +35,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
-| jobHandle | `xsd:string` | Não | Identificador da tarefa. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
+| jobHandle | `xsd:string` | Não | Identificador do trabalho. |
 | originalName | `xsd:string` | Não | O nome especificado por `submitJob`. |
 
 **Saída (getScheduledJobsReturn)**
@@ -47,7 +47,7 @@ Sintaxe
 
 ## Exemplos {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Esta amostra de código retorna todas as tarefas agendadas em uma matriz de tarefas. O próprio storage contém informações detalhadas sobre as tarefas.
+Esta amostra de código retorna todos os trabalhos agendados em uma matriz de trabalhos. A própria matriz contém informações detalhadas sobre os trabalhos.
 
 **Solicitação**
 

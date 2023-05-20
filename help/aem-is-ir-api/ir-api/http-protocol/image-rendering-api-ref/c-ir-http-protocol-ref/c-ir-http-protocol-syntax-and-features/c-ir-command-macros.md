@@ -20,21 +20,21 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
 ** *[!DNL name]* ** Nome da macro
 
-As macros são definidas em arquivos separados de definição de macro, que podem ser anexados a catálogos de materiais ou ao catálogo padrão.
+As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de materiais ou ao catálogo padrão.
 
-*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir de qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
+*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-Chame macros em qualquer lugar em uma solicitação após o &#39;?&#39; ou em qualquer lugar dentro de uma `vignette::Modifier` campo. As macros só podem representar um ou mais comandos de Renderização de Imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
+Chame macros em qualquer lugar em uma solicitação depois do &#39;?&#39; ou em qualquer lugar dentro de um `vignette::Modifier` campo. As macros só podem representar um ou mais comandos de Renderização de imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 
-As invocações de macro são substituídas por suas sequências de substituição precocemente durante a análise. Os comandos em macros substituem os mesmos comandos na solicitação se ocorrerem antes da chamada de macro na solicitação. Esse workflow é diferente de `vignette::Modifier`, em que os comandos na cadeia de caracteres de solicitação substituem os comandos no `vignette::Modifier` , independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Este fluxo de trabalho é diferente de `vignette::Modifier`, onde os comandos na string de solicitação substituem os comandos na variável `vignette::Modifier` independentemente da posição na solicitação.
 
-As macros de comando não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
+Macros de comandos não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
-As macros podem não estar aninhadas.
+As macros não podem ser aninhadas.
 
 **Exemplo**
 
-As macros podem ser úteis se os mesmos comandos ou atributos forem aplicados a imagens renderizadas diferentes.
+As macros podem ser úteis se os mesmos comandos ou atributos forem aplicados a diferentes imagens renderizadas.
 
 `http://server/ir/render/cat/vig0?fmt=jpeg&qlt=80&sharpen=1&src=cat/matA&res=40 http://server/ir/render/cat/vig1?fmt=jpeg&qlt=80&sharpen=1&src=cat/matB&res=40 http://server/ir/render/cat/vig2?fmt=jpeg&qlt=95&sharpen=1&src=cat/matC&res=40`
 
@@ -46,7 +46,7 @@ A macro seria usada da seguinte maneira:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Porque `qlt=` for diferente para a terceira solicitação, o software substituirá o valor depois que a macro for chamada (especificando `qlt=` *before* `$render$`é ineficaz).
+Porque `qlt=` for diferente para a terceira solicitação, o software substituirá o valor depois que a macro for chamada (especificando `qlt=` *antes* `$render$`é ineficaz).
 
 **Consulte também**
 

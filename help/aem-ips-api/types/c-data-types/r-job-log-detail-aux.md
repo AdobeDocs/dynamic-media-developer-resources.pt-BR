@@ -1,5 +1,5 @@
 ---
-description: Contém mensagens suplementares associadas à mensagem de registro de tarefas principal (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado no momento.
+description: Contém mensagens suplementares associadas à mensagem principal do log de trabalho (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado atualmente.
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-Contém mensagens suplementares associadas à mensagem de registro de tarefas principal (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado no momento.
+Contém mensagens suplementares associadas à mensagem principal do log de trabalho (JobDetail). Inclui avisos e outros detalhes associados ao ativo processado atualmente.
 
 Sintaxe
 

@@ -1,6 +1,6 @@
 ---
-title: Instalar no Windows
-description: O Image Serving pode ser instalado no Windows de 64 bits.
+title: Instalação no Windows
+description: O Servidor de imagens pode ser instalado no Windows de 64 bits.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Instalar no Windows{#installing-on-windows}
+# Instalação no Windows{#installing-on-windows}
 
-O Image Serving pode ser instalado no Windows de 64 bits.
+O Servidor de imagens pode ser instalado no Windows de 64 bits.
 
 * [Instalação pela primeira vez](t-first-time-installation-win.md)
-* [Instalar em uma conta de usuário diferente do administrador](t-diff-account-win.md)
-* [Atualização do IS 4.7.4 ou posterior](t-update-win.md)
-* [Verificar a instalação](t-verify-win.md)
+* [Instalando o em uma conta de usuário diferente da do administrador](t-diff-account-win.md)
+* [Atualizando do IS 4.7.4 ou posterior](t-update-win.md)
+* [Verificando a instalação](t-verify-win.md)

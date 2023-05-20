@@ -1,10 +1,11 @@
 ---
 title: setParam
-description: Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+description: Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 193719b8-f158-4ffc-9916-b7b1bf36b2de
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador de kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`.
 
-Esse método é opcional se as informações de configuração do visualizador tiverem sido passadas com `config` Objeto JSON para o construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` Objeto JSON para o construtor.
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 

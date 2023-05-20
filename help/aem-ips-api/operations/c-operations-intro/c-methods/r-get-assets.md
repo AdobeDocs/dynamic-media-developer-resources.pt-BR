@@ -1,5 +1,5 @@
 ---
-description: Retorna ativos do IPS.
+description: Retorna ativos de IPS.
 solution: Experience Manager
 title: getAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
 source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # getAssets{#getassets}
 
-Retorna ativos do IPS.
+Retorna ativos de IPS.
 
 Sintaxe
 
@@ -52,13 +52,13 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O responsável da empresa. </p> </td> 
+   <td colname="col4"> <p>O identificador da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Representar um usuário específico. Usado somente por administradores do . </p> </td> 
+   <td colname="col4"> <p>Representar um usuário específico. Usado somente por administradores do. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -70,24 +70,24 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>A pasta raiz para recuperar pastas e todas as subpastas para o nível da folha. Se for excluída, a raiz da empresa será usada. </p> </td> 
+   <td colname="col4"> <p>A pasta raiz para recuperar pastas e todas as subpastas para o nível folha. Se excluída, a raiz da empresa é usada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Campos e subcampos incluídos na resposta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Campos e subcampos excluídos da resposta. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Saída (getAssetsReturn)**
+**Outpub (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -103,7 +103,7 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Matriz de ativos que correspondem aos critérios de filtro. </p> </td> 
+   <td colname="col4"> <p>Matriz de ativos que correspondem aos critérios do filtro. </p> </td> 
   </tr> 
  </tbody> 
 </table>

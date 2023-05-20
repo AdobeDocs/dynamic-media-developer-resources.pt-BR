@@ -1,7 +1,7 @@
 ---
 description: Informações de progresso do item de tarefa.
 solution: Experience Manager
-title: TaskItemProgress
+title: ProgressoDoItemDaTarefa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 568a5601-b928-447d-8297-01139f36cf73
@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| itemName | `xsd:string` | Nome do item que está sendo processado. |
-| progresso | `xsd:double` | % de progresso concluído. |
-| progressMessage | `xsd:string` | Mensagem de processo. |
+| itemName | `xsd:string` | Nome do item sendo processado. |
+| progresso | `xsd:double` | Progresso concluído %. |
+| progressMessage | `xsd:string` | Processar mensagem. |
 | lastProgressUpdate | `xsd:dateTime` | Hora da última atualização. |

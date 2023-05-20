@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de atualizações de permissão.
+description: Uma série de atualizações de permissão.
 solution: Experience Manager
 title: PermissionUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-Uma matriz de atualizações de permissão.
+Uma série de atualizações de permissão.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:PermissionUpdateArray` | A matriz de atualização de permissões. |
+| itens | `types:PermissionUpdateArray` | A matriz de atualização de permissões. |

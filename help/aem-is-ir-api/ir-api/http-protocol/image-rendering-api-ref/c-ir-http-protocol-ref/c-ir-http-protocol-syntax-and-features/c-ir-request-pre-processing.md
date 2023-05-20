@@ -1,6 +1,6 @@
 ---
-title: Solicitar pré-processamento
-description: A Renderização de Imagens fornece um pré-processador de solicitação simples com base nas regras de substituição e correspondência de expressões regulares.
+title: Pré-processamento de solicitação
+description: A Renderização de imagem fornece um pré-processador de solicitação simples com base na correspondência de expressão regular e regras de substituição.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Solicitar pré-processamento{#request-pre-processing}
+# Pré-processamento de solicitação{#request-pre-processing}
 
-A Renderização de Imagens fornece um pré-processador de solicitação simples com base nas regras de substituição e correspondência de expressões regulares.
+A Renderização de imagem fornece um pré-processador de solicitação simples com base na correspondência de expressão regular e regras de substituição.
 
-Coleções de regras (conjuntos de regras) podem ser anexadas a cada catálogo de materiais, incluindo o catálogo padrão. As regras são especificadas com arquivos formatados em XML.
+As coleções de regras (conjuntos de regras) podem ser anexadas a cada catálogo de materiais, incluindo o catálogo padrão. As regras são especificadas com arquivos formatados em XML.
 
-As regras de pré-processamento de solicitação podem modificar o caminho e as partes de consulta das solicitações antes de serem processadas pelo analisador de Renderização de Imagem. Este preceito inclui manipular o caminho, adicionar comandos, alterar valores de comando e aplicar modelos ou macros. As regras também podem ser usadas para configurar e substituir determinados recursos que normalmente são controlados apenas com atributos de catálogo, como definir o tamanho padrão da imagem de resposta ou limitar o serviço HTTP a endereços IP de cliente específicos.
+As regras de pré-processamento de solicitações podem modificar o caminho e as partes de consulta de solicitações antes que sejam processadas pelo analisador de Renderização de imagem. Este preceito inclui manipular o caminho, adicionar comandos, alterar valores de comando e aplicar modelos ou macros. As regras também podem ser usadas para configurar e substituir determinados recursos que normalmente são controlados apenas com atributos de catálogo, como definir o tamanho padrão da imagem de resposta ou limitar o serviço HTTP a endereços IP de clientes específicos.
 
 As regras de pré-processamento de solicitações são adequadas para vários aplicativos, alguns dos quais estão listados abaixo:
 
 * Implementar um *caminhos virtuais* , que permite o remapeamento do caminho da solicitação para caminhos de arquivo, FTP e HTTP.
-* Não permitindo o uso de comandos com uso intensivo da CPU para evitar o abuso do servidor.
-* Controle as configurações de qualidade da imagem (como qualidade do JPEG ou nitidez) dependendo do caminho da solicitação ou do nome da imagem.
+* Proibição do uso de comandos que fazem uso intenso da CPU para impedir o abuso do servidor.
+* Controle as configurações de qualidade da imagem (como qualidade ou nitidez de JPEG) dependendo do caminho da solicitação ou do nome da imagem.
 
 Informações detalhadas sobre como criar, usar e gerenciar conjuntos de regras podem ser encontradas na Referência do conjunto de regras.
 

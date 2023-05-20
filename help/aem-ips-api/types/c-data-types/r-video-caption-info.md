@@ -29,7 +29,7 @@ Propriedades da legenda do vídeo
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Caminho relativo para o vídeo carregado. </p> </td> 
+   <td colname="col3"> <p>O caminho relativo para o vídeo carregado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 

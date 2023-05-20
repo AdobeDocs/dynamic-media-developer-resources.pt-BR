@@ -1,7 +1,7 @@
 ---
 description: Retorna todos os valores de um campo de metadados.
 solution: Experience Manager
-title: getDistinctMetadataValues
+title: getDistinctMetadataValue
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# getDistinctMetadataValues{#getdistinctmetadatavalues}
+# getDistinctMetadataValue{#getdistinctmetadatavalues}
 
 Retorna todos os valores de um campo de metadados.
 

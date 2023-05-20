@@ -2,12 +2,12 @@
 description: Define a lista de ativos associados a um conjunto de imagens.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic, SDK/API, Conjuntos de imagens
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define a lista de ativos associados a um conjunto de imagens.
 
-Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e força o valor a true.
+Esta operação ignora o `pageReset` parâmetro para `ImageSets` e `SpinSets` e força o valor para true.
 
 ## Tipos de usuário autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -29,7 +29,7 @@ Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e 
 
 >[!NOTE]
 >
->O usuário deve ter acesso de leitura e gravação ao ativo do conjunto de imagens e acesso de leitura a cada ativo do membro.
+>O usuário deve ter acesso de leitura e gravação ao ativo do conjunto de imagens e acesso de leitura a cada ativo membro.
 
 ## Parâmetros {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -49,13 +49,13 @@ Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Manuseio da empresa. </p> </td> 
+   <td colname="col4"> <p>Identificador da empresa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Identificador do conjunto de imagens. </td> 
+   <td colname="col4"> Identificador de conjunto de imagens. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 

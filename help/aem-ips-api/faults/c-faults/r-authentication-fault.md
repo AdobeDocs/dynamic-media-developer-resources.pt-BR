@@ -2,13 +2,13 @@
 description: Lançado quando um usuário não pode ser autenticado.
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fce5c227-9291-4d17-801f-4ef4b8d43eb4
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 7%
+source-wordcount: '37'
+ht-degree: 8%
 
 ---
 
@@ -30,5 +30,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| `code` | `xsd:int` | ID de falha |
+| `code` | `xsd:int` | ID da falha |
 | `reason` | `xsd:string` | Uma mensagem informativa descrevendo a falha. |

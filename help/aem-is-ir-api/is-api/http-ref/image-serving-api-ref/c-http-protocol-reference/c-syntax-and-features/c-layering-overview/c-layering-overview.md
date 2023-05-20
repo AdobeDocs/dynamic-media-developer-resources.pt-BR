@@ -1,6 +1,6 @@
 ---
-title: Visão geral da camada
-description: O Serviço de imagem permite combinar qualquer número de camadas de imagem, texto e cor sólida em uma imagem composta.
+title: Visão geral de camadas
+description: O Servidor de imagens permite combinar qualquer número de camadas de imagem, texto e cores sólidas em uma imagem composta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Visão geral da camada{#layering-overview}
+# Visão geral de camadas{#layering-overview}
 
-O Image Serving permite combinar qualquer número de camadas de imagem, texto e cor sólida em uma imagem composta.
+O Servidor de imagens permite combinar qualquer número de camadas de imagem, texto e cores sólidas em uma imagem composta.
 
-## Consulte também {#section-9d47587692d94637af61de851f3d118f}
+## Consulte Também {#section-9d47587692d94637af61de851f3d118f}
 
 * [Modelos](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
 * [Efeitos de camada](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-layer-effects.md)
@@ -25,8 +25,8 @@ O Image Serving permite combinar qualquer número de camadas de imagem, texto e 
 * [text=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md)
 * [textPs=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md)
 * [pos=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md)
-* [size](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md)
-* [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
-* [âncora=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
+* [tamanho](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md)
+* [origem=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+* [anchor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
 * [textPath=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md)
 * [textFlowPath=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md)

@@ -1,6 +1,6 @@
 ---
 title: pathEmbed
-description: Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
+description: Incorporar dados de caminhos. Especifica se os caminhos Photoshop inseridos na vinheta devem ser incluídos na imagem de resposta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # pathEmbed{#pathembed}
 
-Incorporar dados de caminhos. Especifica se os caminhos do Photoshop incorporados na vinheta devem ser incluídos na imagem de resposta.
+Incorporar dados de caminhos. Especifica se os caminhos Photoshop inseridos na vinheta devem ser incluídos na imagem de resposta.
 
 `pathEmbed=0|1`
 
 ## Propriedades {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Atributo da solicitação. Ignorado se a vinheta não contiver dados de caminhos. Os dados dos caminhos são dimensionados para `wid=` e/ou `hei=` se necessário.
+Solicitar atributo. Ignorado se a vinheta não contiver dados de caminhos. Os dados de caminhos são dimensionados para `wid=` e/ou `hei=` se necessário.
 
-Ignorado se o formato de imagem de saída não oferecer suporte para incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte para incorporação de caminho.
+Ignorado se o formato de imagem de saída não suportar incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação de caminhos.
 
 ## Padrão {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, para não incorporar caminhos em imagens de saída.
+`pathEmbed=0`, para nenhuma incorporação de caminhos em imagens de saída.
 
 ## Consulte também {#section-4e6151658c384b6f9d0446f55dde7b7f}
 

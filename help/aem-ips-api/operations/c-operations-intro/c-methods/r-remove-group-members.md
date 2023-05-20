@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Remove usuários da empresa de um grupo específico.
 
-**Diferenças entre comandos Remover**
+**Diferenças Entre Comandos Remove**
 
-* `removeGroupMembers`: Remove vários usuários de um grupo.
-* `removeGroupMembership`: Remove um usuário individual de uma matriz de grupos.
+* `removeGroupMembers`: remove vários usuários de um grupo.
+* `removeGroupMembership`: remove um usuário individual de uma matriz de grupos.
 
 ## Tipos de usuário autorizados {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
@@ -33,7 +33,7 @@ Remove usuários da empresa de um grupo específico.
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | A conta com a empresa com os usuários com os quais deseja trabalhar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com os usuários com os quais você deseja trabalhar. |
 | groupHandle | `xsd:string` | Sim | Identificador de grupo. |
 | userHandleArray | `types:HandleArray` | Sim | Uma matriz de identificadores para usuários cujas associações de grupo você deseja remover. |
 
@@ -43,7 +43,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Esta amostra de código remove um usuário da empresa especificada. Remova vários usuários de um grupo com a matriz de identificador do usuário.
+Esta amostra de código remove um usuário da empresa especificada. Remova vários usuários de um grupo com a matriz de identificadores de usuários.
 
 **Solicitação**
 

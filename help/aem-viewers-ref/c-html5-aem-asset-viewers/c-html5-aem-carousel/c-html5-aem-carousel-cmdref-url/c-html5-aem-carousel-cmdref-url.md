@@ -1,6 +1,6 @@
 ---
 title: Referência de comando - URL
-description: Documentação de referência de comando do Visualizador de carrossel.
+description: Documentação de referência de comando do Visualizador do carrossel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referência de comando - URL{#command-reference-url}
 
-Documentação de referência de comando do Visualizador de carrossel.
+Documentação de referência de comando do Visualizador do carrossel.

@@ -2,12 +2,12 @@
 description: Descreve os valores usados por vários parâmetros de entrada. Consulte a lista neste artigo para obter detalhes.
 solution: Experience Manager
 title: Configurações de email
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---

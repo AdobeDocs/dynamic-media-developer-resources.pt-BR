@@ -1,6 +1,6 @@
 ---
 title: Barra de controle
-description: A barra de controle é a área retangular que contém e fica atrás de todos os controles de interface disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar e os controles de volume.
+description: A barra de controle é a área retangular que contém e fica atrás de todos os controles da interface do usuário disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar e os controles de volume.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Barra de controle{#control-bar}
 
-A barra de controle é a área retangular que contém e fica atrás de todos os controles de interface disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar e os controles de volume.
+A barra de controle é a área retangular que contém e fica atrás de todos os controles da interface do usuário disponíveis para o visualizador de vídeo, como o botão Reproduzir/pausar e os controles de volume.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-A barra de controle sempre obtém a largura total do visualizador disponível. É possível alterar a cor, a altura e a posição vertical por CSS, em relação ao contêiner do visualizador de vídeo.
+A barra de controle sempre ocupa toda a largura disponível do visualizador. É possível alterar a cor, a altura e a posição vertical por CSS, em relação ao contêiner do visualizador de vídeo.
 
-O seguinte seletor de classe CSS controla a aparência da barra de controle:
+O seletor de classe CSS a seguir controla a aparência da barra de controle:
 
 ```
 .s7videoviewer .s7controlbar
@@ -43,7 +43,7 @@ O seguinte seletor de classe CSS controla a aparência da barra de controle:
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ O seguinte seletor de classe CSS controla a aparência da barra de controle:
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um visualizador de vídeo com uma barra de controle cinza com 30 pixels de altura e que fica na parte superior do contêiner do visualizador de vídeo.
+Para configurar um visualizador de vídeo com uma barra de controle cinza com 30 pixels de altura e localizada na parte superior do contêiner do visualizador de vídeo.
 
 ```
 .s7videoviewer .s7controlbar {  

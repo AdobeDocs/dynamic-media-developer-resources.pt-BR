@@ -1,7 +1,7 @@
 ---
-description: ZoomTargetDefinitionArray
+description: MatrizDeDefiniçãoDeDestinoDeZoom
 solution: Experience Manager
-title: ZoomTargetDefinitionArray
+title: MatrizDeDefiniçãoDeDestinoDeZoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
@@ -20,4 +20,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ZoomTargetDefinition` | Uma matriz de definições de direcionamento de Zoom. |
+| itens | `types:ZoomTargetDefinition` | Uma matriz de definições de destino de Zoom. |

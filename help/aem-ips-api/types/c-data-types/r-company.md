@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| companyHandle | `xsd:string` | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Identificador da empresa. |
 | [!DNL name] | `xsd:string` | Nome da empresa. |
 | rootPath | `xsd:string` | Caminho raiz da empresa. |
 | [!DNL expires] | `xsd:dateTime` | Data e hora em que a empresa expira. |

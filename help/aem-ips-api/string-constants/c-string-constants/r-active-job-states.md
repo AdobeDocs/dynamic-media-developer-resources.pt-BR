@@ -1,18 +1,18 @@
 ---
 description: Usado por AtiveJobs/estado.
 solution: Experience Manager
-title: Estados de Trabalho Ativo
-feature: Dynamic Media Classic, SDK/API
+title: Estados de Trabalho Ativos
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
+source-wordcount: '16'
 ht-degree: 0%
 
 ---
 
-# Estados de Trabalho Ativo{#active-job-states}
+# Estados de Trabalho Ativos{#active-job-states}
 
 Usado por AtiveJobs/estado.
 

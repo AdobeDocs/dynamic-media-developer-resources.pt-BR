@@ -1,6 +1,6 @@
 ---
-title: Desinstalação da renderização de imagem
-description: Se for necessário, é possível desinstalar a Renderização de imagem.
+title: Desinstalando a renderização de imagem
+description: Se for necessário, você poderá desinstalar a Renderização de imagem.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Desinstalação da renderização de imagem{#uninstalling-image-rendering}
+# Desinstalando a renderização de imagem{#uninstalling-image-rendering}
 
-Se for necessário, é possível desinstalar a Renderização de imagem.
+Se for necessário, você poderá desinstalar a Renderização de imagem.
 
-A desinstalação pode remover alguns documentos de usuário na pasta de instalação. Faça o backup de todos os arquivos que deseja manter antes de desinstalar.
+A desinstalação pode remover alguns documentos do usuário na pasta de instalação. Faça backup de todos os arquivos que deseja manter antes de desinstalar.
 
-Antes de desinstalar, faça logon no host do servidor com privilégios administrativos ou raiz.
+Antes de desinstalar, efetue login no host do servidor com privilégios administrativos ou de raiz.

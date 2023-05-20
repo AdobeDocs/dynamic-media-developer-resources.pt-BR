@@ -8,7 +8,7 @@ exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indica se o visualizador começa a reproduzir o vídeo quando carregado. Alguns sistemas, como certos dispositivos móveis, não suportam a Reprodução Automática. </p> </td> 
+   <td colname="col2"> <p> Indica se o visualizador começa a reproduzir o vídeo quando carregado. Alguns sistemas, como certos dispositivos móveis, não suportam a reprodução automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Move vários ativos independentemente um do outro. Isso é feito usando o tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
+description: Move vários ativos independentemente uns dos outros. Isso é feito por meio do tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # moveAssets{#moveassets}
 
-Move vários ativos independentemente um do outro. Isso é feito usando o tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
+Move vários ativos independentemente uns dos outros. Isso é feito por meio do tipo AssetMove contido no assetMoveArray. Cada campo AssetMove contém uma pasta de destino.
 
 Sintaxe
 
@@ -33,8 +33,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com ativos a serem movidos. |
-| assetMoveArray | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativos. Ele contém um ativo e uma pasta de destino de ativo. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com os ativos a serem movidos. |
+| assetMoveArray | `types:AssetMoveArray` | Sim | Uma matriz de movimentação de ativo. Ele contém um ativo e uma pasta de destino de ativo. |
 
 **Saída (moveAssetsReturn)**
 
@@ -52,7 +52,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Contagem de ativos movida com êxito. </td> 
+   <td colname="col4"> Contagem de ativos movida com sucesso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
@@ -70,9 +70,9 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contenham: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ativos que exibiram os avisos. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ativos que emitiram avisos. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Códigos de aviso. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo do aviso. </li> 
     </ul> </td> 
@@ -81,9 +81,9 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contenham: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ativos que exibiram os erros. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ativos que emitiram os erros. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Códigos de erro. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Motivo dos erros. </li> 
     </ul> </td> 
@@ -93,7 +93,7 @@ Sintaxe
 
 ## Exemplos {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Essa amostra de código move ativos para um local específico especificado pela variável `assetMoveArray`. A matriz inclui o identificador de ativo e seu identificador de pasta. A resposta indica que os ativos foram movidos com êxito.
+Esta amostra de código move ativos para um local específico especificado pelo `assetMoveArray`. A matriz inclui o identificador do ativo e o identificador da pasta. A resposta indica que os ativos foram movidos com êxito.
 
 **Solicitação**
 

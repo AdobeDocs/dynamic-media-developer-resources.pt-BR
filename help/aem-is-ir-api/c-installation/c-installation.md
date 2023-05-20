@@ -1,6 +1,6 @@
 ---
 title: Instalação
-description: Instalação do fornecimento de imagem.
+description: Instalar o Servidor de imagens.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# Instalação do serviço de imagem {#installation}
+# Instalação do Servidor de imagens {#installation}
 
-A instalação do Image Serving inclui dois componentes principais do servidor:
+A instalação do Servidor de imagens inclui dois componentes principais do servidor:
 
-* Servidor de imagem. Um executável de código nativo independente.
-* [!DNL Platform Server]. Um aplicativo Web Java™ independente e um servidor de aplicativos.
+* Servidor de imagens. Um executável de código nativo independente.
+* [!DNL Platform Server]. Um aplicativo web Java™ independente e um servidor de aplicativos.
 
 A Renderização de imagem faz parte desses dois componentes de servidor.
 
-Nas instruções subsequentes, `install_root` refere-se à pasta raiz na qual o Image Serving e a Image Rendering são instalados. E `server:port` refere-se ao nome do host ou endereço IP e ao número da porta configurados como a porta de escuta principal do [!DNL Platform Server].
+Nas instruções seguintes, `install_root` refere-se à pasta raiz na qual o Servidor de imagens e a Renderização de imagens são instalados. E `server:port` refere-se ao nome do host ou ao endereço IP e ao número da porta configurados como a porta de atendimento principal do [!DNL Platform Server].
 
 * [Licenciamento](c-licensing.md)
 * [Conteúdo](c-contents.md)
-* [Instalar pasta](c-install-folder.md)
-* [Instalar no Windows](t-installing-on-windows/t-installing-on-windows.md)
+* [Pasta de instalação](c-install-folder.md)
+* [Instalação no Windows](t-installing-on-windows/t-installing-on-windows.md)
 * [Instalação no Linux®](c-installing-linux/c-installing-linux.md)
-* [Iniciar e parar a exibição de imagens](t-starting-and-stopping/t-starting-and-stopping.md)
+* [Iniciar e parar o Servidor de imagens](t-starting-and-stopping/t-starting-and-stopping.md)

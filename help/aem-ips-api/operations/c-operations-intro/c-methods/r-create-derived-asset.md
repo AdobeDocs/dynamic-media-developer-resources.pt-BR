@@ -1,5 +1,5 @@
 ---
-description: Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
+description: Cria um novo ativo derivado de um ativo de imagem de origem principal existente.
 solution: Experience Manager
 title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # createDerivedAsset{#createderivedasset}
 
-Cria um novo ativo derivado de um ativo de imagem de origem primária existente.
+Cria um novo ativo derivado de um ativo de imagem de origem principal existente.
 
 Sintaxe
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Os ativos derivados especificam comandos de protocolo do Servidor de Imagem que modificam a representação da imagem do proprietário. O `AdjustedView` o tipo derivado ajuda a aplicar modificações simples em uma única imagem (por exemplo, ao especificar um retângulo de corte), enquanto o `LayerView` ajuda a criar uma visualização com várias camadas, que pode incluir texto ou imagens adicionais.
+Os ativos derivados especificam comandos de protocolo do Servidor de imagens que modificam a representação da imagem do proprietário. A variável `AdjustedView` o tipo derivado ajuda a aplicar modificações simples a uma única imagem (por exemplo, especificando um retângulo de recorte), enquanto o `LayerView` ajuda a criar uma exibição de várias camadas que pode incluir texto ou imagens adicionais.
 
-Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), uma imagem derivada é vinculada à imagem proprietária. Alterações na imagem do proprietário modifica ativos derivados associados. A exclusão da imagem do proprietário excluirá quaisquer imagens derivadas associadas.
+Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), uma imagem derivada é vinculada à sua imagem proprietária. As alterações na imagem do proprietário modificam os ativos derivados associados. A exclusão da imagem do proprietário excluirá todas as imagens derivadas associadas.
 
 ## Tipos de usuário autorizados {#authorized-user-types}
 
@@ -39,13 +39,13 @@ Ao contrário de uma cópia de imagem (consulte [copyImage](../../../operations/
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador para a empresa que contém o ativo do qual você vai derivar o novo ativo. |
-| ownerHandle | `xsd:string` | Sim | O identificador para o ativo de Imagem principal do qual a nova imagem é derivada. |
-| folderHandle | `xsd:string` | Sim | O identificador da pasta em que o novo ativo derivado é criado. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o ativo do qual você derivará o novo ativo. |
+| ownerHandle | `xsd:string` | Sim | O identificador do ativo de imagem principal do qual a nova imagem é derivada. |
+| folderHandle | `xsd:string` | Sim | O identificador da pasta na qual o novo ativo derivado é criado. |
 | name | `xsd:string` | Sim | O nome do ativo derivado. |
-| type | `xsd:string` | Sim | O tipo de ativo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
-| urlModifier | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *before* o pedido ou `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo de disponibilização de imagens ou de renderização de imagens aplicados *after* ao pedido ou `urlPostApplyModifier` comandos. |
+| type | `xsd:string` | Sim | O tipo do novo ativo derivado: `AdjustedView` ou `LayerView`. |
+| urlModifier | `xsd:string` | Não | Comandos de protocolo de disponibilização de imagens ou de renderização de imagens aplicados *antes* o pedido ou `urlPostApplyModifier` comandos. |
+| urlPostApplyModifier | `xsd:string` | Não | Comandos de protocolo de disponibilização de imagens ou de renderização de imagens aplicados *após* ao pedido ou `urlPostApplyModifier` comandos. |
 
 **Saída (createDerivedAssetParam)**
 

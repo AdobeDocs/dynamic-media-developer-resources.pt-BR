@@ -1,5 +1,5 @@
 ---
-description: O catálogo padrão fornece valores padrão para todos os atributos do catálogo para todos os catálogos de imagens.
+description: O catálogo padrão fornece valores padrão para todos os atributos de catálogo para todos os catálogos de imagem.
 solution: Experience Manager
 title: Catálogo padrão
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Catálogo padrão{#default-catalog}
 
-O catálogo padrão fornece valores padrão para todos os atributos do catálogo para todos os catálogos de imagens.
+O catálogo padrão fornece valores padrão para todos os atributos de catálogo para todos os catálogos de imagem.
 
-Se um atributo específico não puder ser encontrado em um catálogo de imagem específico, o servidor usará o valor correspondente do catálogo padrão. Da mesma forma, o catálogo padrão pode ser usado para fornecer padrões para registros de dados de catálogo específicos (imagens, definições de macro, fontes e perfis ICC). Se um registro de dados específico não puder ser encontrado em um catálogo de imagem específico, o servidor tentará encontrá-lo no catálogo padrão. Isso permite que os catálogos de imagens sejam preenchidos de forma esparsa e simplifica o gerenciamento de atributos e dados globais, como modelos compartilhados, macros, fontes, etc.
+Se um determinado atributo não puder ser encontrado em um catálogo de imagens específico, o servidor usará o valor correspondente do catálogo padrão. Da mesma forma, o catálogo padrão pode ser usado para fornecer padrões para registros de dados de catálogo específicos (imagens, definições de macro, fontes e perfis ICC). Se um registro de dados específico não puder ser encontrado em um catálogo de imagens específico, o servidor tentará encontrá-lo no catálogo padrão. Isso permite que os catálogos de imagem sejam populados de forma esparsa e simplifica o gerenciamento de atributos e dados globais, como modelos compartilhados, macros, fontes etc.
 
-Além disso, o catálogo padrão fornece todos os atributos e registros de dados (macros, fontes, perfis ICC, regras de pré-processamento de solicitação) quando nenhum catálogo de imagem específico está envolvido em uma operação.
+Além disso, o catálogo padrão fornece todos os atributos e registros de dados (macros, fontes, perfis ICC, regras de pré-processamento de solicitação) quando nenhum catálogo de imagens específico está envolvido em uma operação.
 
-Para o funcionamento correto do [!DNL Platform Server] o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], deve sempre existir na pasta de catálogo e deve ser totalmente preenchida com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
+Para o correto funcionamento do [!DNL Platform Server] o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], sempre devem existir na pasta do catálogo e devem ser totalmente preenchidos com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados de catálogo, que são opcionais.
 
 >[!NOTE]
 >
->Todos os arquivos de atributos do catálogo exceto [!DNL default.ini] deve conter um `attribute::RootId` valor. `attribute::RootId` em [!DNL default.ini] deve estar vazio.
+>Todos os arquivos de atributo de catálogo exceto [!DNL default.ini] deve conter um caractere exclusivo `attribute::RootId` valor. `attribute::RootId` in [!DNL default.ini] deve estar vazio.

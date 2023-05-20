@@ -1,38 +1,38 @@
 ---
-description: Todos os atributos do catálogo são opcionais, exceto o ID raiz do catálogo.
+description: Todos os atributos do catálogo são opcionais, exceto a RootId do catálogo.
 solution: Experience Manager
 title: Referência de atributos
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Referência de atributos{#attributes-reference}
 
-Todos os atributos do catálogo são opcionais, exceto catalog::RootId.
+Todos os atributos de catálogo são opcionais, exceto catalog::RootId.
 
-Todos os atributos são necessários no arquivo de atributo do catálogo padrão ( [!DNL default.ini]).
+Todos os atributos são obrigatórios no arquivo de atributo de catálogo padrão ( [!DNL default.ini]).
 
-* [AllowDirectAccess](r-allowdirectaccess.md)
+* [PermitirAcessoDireto](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
 * [ApplyEffectMask](r-applyeffectmask.md)
-* [AudioBitRate](r-audiobitrate.md)
+* [TaxaDeBitDeÁudio](r-audiobitrate.md)
 * [Bfc](r-bfc.md)
 * [BkgColor](r-bkgcolor.md)
-* [CacheValidationPolicy](r-cachevalidationpolicy.md)
+* [PolíticaDeValidaçãoDeCache](r-cachevalidationpolicy.md)
 * [ClientAddressFilter](r-clientaddressfilter.md)
-* [CatalogFile](r-catalogfile.md)
+* [ArquivoCatálogo](r-catalogfile.md)
 * [DefaultExpiration](r-defaultexpiration.md)
 * [DefaultExt](r-defaultext.md)
 * [DefaultFont](r-defaultfont.md)
-* [DefaultImage](r-is-cat-defaultimage.md)
+* [ImagemPadrão](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
-* [DefaultLocale](r-defaultlocale.md)
+* [LocalidadePadrão](r-defaultlocale.md)
 * [DefaultPix](r-defaultpix.md)
 * [DefaultThumbPix](r-defaultthumbpix.md)
 * [DigimarcId](r-digimarcid.md)
@@ -40,11 +40,11 @@ Todos os atributos são necessários no arquivo de atributo do catálogo padrão
 * [ErrorImage](r-errorimage.md)
 * [ErrorDetail](r-errordetail.md)
 * [Expiração](r-expiration.md)
-* [FontMapFile](r-fontmapfile.md)
-* [FullMatch](r-fullmatch.md)
+* [ArquivoMapaFonte](r-fontmapfile.md)
+* [CorrespondênciaCompleta](r-fullmatch.md)
 * [HttpAppleStreamingContext](r-httpapplestreamingcontext.md)
 * [HttpFlashStreamingContext](r-httpflashstreamingcontext.md)
-* [IccBlackPointCompensação](r-iccblackpointcompensation.md)
+* [CompensaçãoDePontoPretoIcc](r-iccblackpointcompensation.md)
 * [IccDither](r-iccdither.md)
 * [IccProfileCmyk](r-iccprofilecmyk.md)
 * [IccProfileGray](r-iccprofilegray.md)
@@ -57,11 +57,11 @@ Todos os atributos são necessários no arquivo de atributo do catálogo padrão
 * [JpegQuality](r-jpegquality.md)
 * [LocaleMap](r-localemap.md)
 * [LocaleStrMap](r-localestrmap.md)
-* [MacroFile](r-macrofile.md)
+* [ArquivoMacro](r-macrofile.md)
 * [MaxPix](r-maxpix.md)
 * [NonImgExpiration](r-nonimgexpiration.md)
 * [PublishInfo](r-publishinfo.md)
-* [PrintResolution](r-printresolution.md)
+* [ResoluçãoDeImpressão](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
 * [RequestObfuscation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
@@ -71,19 +71,19 @@ Todos os atributos são necessários no arquivo de atributo do catálogo padrão
 * [RootUrl](r-rooturl.md)
 * [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
-* [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
+* [ArquivoCatálogoDeConteúdoEstático](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SynthesizeFontStyles](r-synthesizefontstyles.md)
-* [ThumbBkgColor](r-thumbbkgcolor.md)
-* [MiniaturaAlinhar](r-thumbhorizalign.md)
+* [SintetizarEstilosDeFonte](r-synthesizefontstyles.md)
+* [CorDoBlocoDeMiniaturas](r-thumbbkgcolor.md)
+* [AlinharMiniaturaHorizontal](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
-* [ThumbVertAlign](r-thumbvertalign.md)
-* [TimeStamp](r-timestamp.md)
+* [AlinharVertMiniatura](r-thumbvertalign.md)
+* [Carimbo de data/hora](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
-* [TrustedDomains](r-trusteddomains.md)
+* [DomíniosConfiáveis](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
-* [VideoBitRate](r-videobitrate-cat.md)
-* [VideoSize](r-videosize-cat.md)
+* [TaxaDeBitDeVídeo](r-videobitrate-cat.md)
+* [TamanhoDoVídeo](r-videosize-cat.md)
 * [Marca d&#39;água](r-watermark.md)

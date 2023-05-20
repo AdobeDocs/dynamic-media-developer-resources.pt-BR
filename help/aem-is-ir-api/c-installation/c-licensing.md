@@ -1,6 +1,6 @@
 ---
 title: Licenciamento
-description: Para usar o Image Serving, é necessária uma chave de licença do Dynamic Media Image Serving que deve ser instalada em cada sistema no qual o Image Serving deve ser usado.
+description: Para usar o Servidor de imagens, é necessária uma chave de licença do Servidor de imagens da Dynamic Media e ela deve ser instalada em cada sistema no qual o Servidor de imagens será usado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Licenciamento{#licensing}
 
-Para usar o Image Serving, é necessária uma chave de licença do Dynamic Media Image Serving que deve ser instalada em cada sistema no qual o Image Serving deve ser usado.
+Para usar o Servidor de imagens, é necessária uma chave de licença do Servidor de imagens da Dynamic Media e ela deve ser instalada em cada sistema no qual o Servidor de imagens será usado.
 
-Da mesma forma, para usar a Renderização de imagem, é necessária uma chave de licença Renderização de imagem do Dynamic Media. A Renderização de imagem pode ser usada sem uma licença de Exibição de imagem e, inversamente.
+Da mesma forma, para usar a Renderização de imagem, é necessária uma chave de licença de Renderização de imagem do Dynamic Media. A Renderização de imagem pode ser usada sem uma licença do Servidor de imagens e vice-versa.
 
 O procedimento de instalação inclui etapas para obter e instalar as chaves de licença necessárias.

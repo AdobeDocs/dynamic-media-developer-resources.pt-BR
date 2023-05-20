@@ -1,5 +1,5 @@
 ---
-description: O eCatalog Search Viewer oferece suporte ao rastreamento Adobe Analytics pronto para uso.
+description: O Visualizador de pesquisa do eCatalog é compatível com o rastreamento do Adobe Analytics pronto para uso.
 solution: Experience Manager
 title: Suporte para rastreamento do Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-O eCatalog Search Viewer oferece suporte ao rastreamento Adobe Analytics pronto para uso.
+O Visualizador de pesquisa do eCatalog é compatível com o rastreamento do Adobe Analytics pronto para uso.
 
 ## Rastreamento pronto para uso {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-O Visualizador de Pesquisa do Catálogo Eletrônico é compatível [!DNL Adobe Analytics] rastreamento pronto para uso. Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
+O Visualizador de pesquisa do eCatalog é compatível [!DNL Adobe Analytics] rastreamento pronto para uso. Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
 
-O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
+O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar-se a sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
@@ -60,10 +60,10 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
-   <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
    <td colname="col2"> <p>um ativo é trocado no visualizador usando o <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
@@ -72,10 +72,10 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>uma imagem é ativada. </p> </td> 
+   <td colname="col2"> <p>uma imagem é exibida em modo panorâmico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> AMOSTRA </span> </p> </td> 
    <td colname="col2"> <p> uma imagem é alterada ao clicar ou tocar em uma amostra. </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>um usuário navega para uma página diferente devido ao clique do mapa de imagem. </p> </td> 
+   <td colname="col2"> <p>um usuário navega para uma página diferente devido ao clique no mapa de imagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>

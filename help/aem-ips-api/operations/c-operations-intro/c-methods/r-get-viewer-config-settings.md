@@ -1,5 +1,5 @@
 ---
-description: Obtém todas as configurações do visualizador associadas ao ativo especificado.
+description: Obtém todas as definições de configuração do visualizador associadas ao ativo especificado.
 solution: Experience Manager
 title: getViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getViewerConfigSettings{#getviewerconfigsettings}
 
-Obtém todas as configurações do visualizador associadas ao ativo especificado.
+Obtém todas as definições de configuração do visualizador associadas ao ativo especificado.
 
 Sintaxe
 
@@ -31,12 +31,12 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
-| assetHandle | `xsd:string` | Sim | Lidar com o ativo. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
+| assetHandle | `xsd:string` | Sim | Identificar o ativo. |
 
-**Saída (getViewerCoinfigSettingsReturn)**
+**Saída (getViewerConfigurationSettingsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| type | `xsd:string` | Sim | Tipo de visualizador ao qual as configurações se aplicam. |
-| configSettingsArray | `types:ConfigSettingsArray` | Sim | Matriz de configurações do visualizador. |
+| type | `xsd:string` | Sim | Tipo de visualizador ao qual as definições de configuração se aplicam. |
+| configSettingsArray | `types:ConfigSettingsArray` | Sim | Matriz de definições de configuração do visualizador. |

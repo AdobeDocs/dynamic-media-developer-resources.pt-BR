@@ -22,7 +22,7 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| originalPath | `xsd:string` | Caminho relativo para o gabinete original. |
+| originalPath | `xsd:string` | Caminho relativo do gabinete original. |
 | originalFile | `xsd:string` | Nome do gabinete. |
 | fileSize | `xsd:int` | Tamanho do gabinete. |
 | imagePath | `xsd:string` | Caminho relativo para o gabinete associado à vinheta. |

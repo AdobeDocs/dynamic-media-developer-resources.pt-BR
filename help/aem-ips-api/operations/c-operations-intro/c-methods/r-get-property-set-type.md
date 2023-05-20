@@ -1,5 +1,5 @@
 ---
-description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
+description: Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura de tipo com o identificador para o tipo, bem como o tipo de propriedade.
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getPropertySetType{#getpropertysettype}
 
-Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura do tipo com o identificador para o tipo , bem como o tipo de propriedade.
+Obtém um tipo de conjunto de propriedades usando um identificador para uma empresa e o nome do tipo de conjunto de propriedades. Ele obtém uma estrutura de tipo com o identificador para o tipo, bem como o tipo de propriedade.
 
 Sintaxe
 
@@ -36,7 +36,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O nome da empresa. Opcional, pois um tipo de conjunto de propriedades pode pertencer a várias empresas. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa. Opcional porque um tipo de conjunto de propriedades pode pertencer a várias empresas. |
 | name | `xsd:string` | Sim | Nome do tipo de conjunto de propriedades. |
 
 **Saída (getPropertySetTypeReturn)**
@@ -57,7 +57,7 @@ Sintaxe
    <td colname="col3"> Sim </td> 
    <td colname="col4">A estrutura de tipo que contém um: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
-     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Manipule. </li> 
+     <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">Alça. </li> 
      <li id="li_6004406A0D1341648A714FF3C61E4004">Digite o nome. </li> 
      <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">Tipo de propriedade. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">Valor que indica se o tipo permite vários tipos de propriedade. </li> 
@@ -68,7 +68,7 @@ Sintaxe
 
 ## Exemplos {#section-1b57199415e34a8fa449f864f8895b14}
 
-Essa amostra de código retorna um tipo de conjunto de propriedades por nome.
+Esta amostra de código retorna um tipo de conjunto de propriedades por nome.
 
 **Solicitação**
 

@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.mutevolume
-description: Atributo de configuração para Visualizador de vídeo de mídia mista.
+description: Atributo de configuração para o Visualizador de vídeo de mídia mista.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Atributo de configuração para Visualizador de vídeo de mídia mista.
+Atributo de configuração para o Visualizador de vídeo de mídia mista.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ Atributo de configuração para Visualizador de vídeo de mídia mista.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se estiver definido como <span class="codeph"> 1 </span> O volume é absorvido; caso contrário, o vídeo será reproduzido com som. Em certos dispositivos, o reprodutor de vídeo com o recurso mutar ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definida como <span class="codeph"> 1 </span> o volume fica sem áudio; caso contrário, o vídeo é reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite que o vídeo seja reproduzido automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

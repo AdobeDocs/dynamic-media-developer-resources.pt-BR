@@ -1,6 +1,6 @@
 ---
 title: Pré-carregar imagem
-description: A imagem de pré-carregamento é uma imagem de visualização de ativo estático que é carregada logo após chamar o método init() e é exibida durante o download das bibliotecas, do ativo e das informações predefinidas do SDK do Visualizador. A finalidade da imagem de pré-carregamento é melhorar visualmente o tempo de carregamento do visualizador e apresentar conteúdo ao usuário rapidamente.
+description: A imagem pré-carregada é uma imagem de pré-visualização de ativo estático que é carregada logo após chamar o método init() e é exibida enquanto as bibliotecas, o ativo e as informações predefinidas do SDK do Visualizador são baixados. O objetivo do pré-carregamento da imagem é melhorar visualmente o tempo de carregamento do visualizador e apresentar conteúdo ao usuário rapidamente.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Pré-carregar imagem{#preload-image}
 
-A imagem de pré-carregamento é uma imagem de visualização de ativo estático que é carregada logo após chamar o método init() e é exibida durante o download das bibliotecas, do ativo e das informações predefinidas do SDK do Visualizador. A finalidade da imagem de pré-carregamento é melhorar visualmente o tempo de carregamento do visualizador e apresentar conteúdo ao usuário rapidamente.
+A imagem pré-carregada é uma imagem de pré-visualização de ativo estático que é carregada logo após chamar o método init() e é exibida enquanto as bibliotecas, o ativo e as informações predefinidas do SDK do Visualizador são baixados. O objetivo do pré-carregamento da imagem é melhorar visualmente o tempo de carregamento do visualizador e apresentar conteúdo ao usuário rapidamente.
 
-A imagem de pré-carregamento funciona bem para o método de incorporação do visualizador mais comum, que é a incorporação responsiva com altura irrestrita. Consulte o cabeçalho [Incorporação de design responsivo com altura irrestrita](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
+O pré-carregamento de imagens funciona bem para o método de incorporação do visualizador mais comum, que é a incorporação responsiva com altura irrestrita. Consulte o cabeçalho [Incorporação responsiva de design com altura irrestrita](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-No entanto, o recurso tem determinadas limitações quando outros métodos de incorporação ou opções de configuração específicas são usados. A imagem de pré-carregamento pode não ser renderizada corretamente nos seguintes casos:
+No entanto, o recurso tem determinadas limitações quando outros métodos de incorporação ou opções de configuração específicas são usados. A imagem pré-carregada pode não ser renderizada corretamente nos seguintes casos:
 
-* Quando o visualizador é fixado em tamanho e o tamanho é definido usando o atributo de configuração `stagesize` dentro do registro predefinido do visualizador. Ou, usando o arquivo CSS do visualizador externo para o elemento do contêiner do visualizador de nível superior.
-* Ao usar a incorporação de tamanho flexível com o método de incorporação de largura e altura definido pelo visualizador. Consulte o cabeçalho [Incorporação de tamanho flexível com largura e altura definidas](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
+* Quando o tamanho do visualizador é fixo e o tamanho é definido usando `stagesize` atributo de configuração dentro do registro de predefinição do visualizador. Ou, usando o arquivo CSS do visualizador externo para o elemento de contêiner do visualizador de nível superior.
+* Ao usar a incorporação de tamanho flexível com o método definido por largura e altura da incorporação do visualizador. Consulte o cabeçalho [Incorporação de tamanho flexível com largura e altura definidas](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Desative o recurso de pré-carregamento de imagem usando o atributo de configuração `preloadImage` se estiver usando o visualizador em um dos modos de operação listados acima.
+Desative o recurso de pré-carregamento de imagem usando a `preloadImage` atributo de configuração se estiver usando o visualizador em um dos modos de operação listados acima.
 
-Além disso, a imagem de pré-carregamento não é usada - mesmo se ativada na configuração - se o visualizador estiver incorporado ao elemento DOM estiver oculto usando a configuração `display:none` CSS ou desconectado da árvore DOM.
+Além disso, a imagem de pré-carregamento não é usada, mesmo se habilitada na configuração, se o visualizador estiver incorporado no elemento DOM estiver oculto usando `display:none` Configuração de CSS ou desanexado da árvore DOM.

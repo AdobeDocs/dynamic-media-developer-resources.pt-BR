@@ -1,5 +1,5 @@
 ---
-description: Propriedades de uma janela que cobre o arquivo.
+description: Propriedades de um arquivo de cobertura de janela.
 solution: Experience Manager
 title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL WindowCoveringInfo]{#windowcoveringinfo}
 
-Propriedades de uma janela que cobre o arquivo.
+Propriedades de um arquivo de cobertura de janela.
 
 Sintaxe
 
@@ -25,7 +25,7 @@ Sintaxe
 | originalPath | `xsd:string` | Caminho do arquivo. |
 | originalFile | `xsd:string` | Nome do arquivo. |
 | fileSize | `xsd:int` | Tamanho do arquivo. |
-| imagePath | `xsd:string` | Caminho relativo para a imagem. |
+| imagePath | `xsd:string` | Caminho relativo da imagem. |
 | imageFile | `xsd:string` | Nome do arquivo da imagem de cobertura da janela. |
 | otimizedPath | `xsd:string` | Caminho otimizado para o arquivo. |
 | otimizedFile | `xsd:string` | Nome de arquivo otimizado. |

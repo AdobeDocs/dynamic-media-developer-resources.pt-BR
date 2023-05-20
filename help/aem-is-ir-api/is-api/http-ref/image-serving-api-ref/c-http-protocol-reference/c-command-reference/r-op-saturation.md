@@ -2,12 +2,12 @@
 description: Ajuste a saturação. Altera a saturação de cada pixel visível da camada ou imagem composta.
 solution: Experience Manager
 title: op_saturation
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -25,18 +25,18 @@ Ajuste a saturação. Altera a saturação de cada pixel visível da camada ou i
  </tr> 
 </table>
 
-`op_saturation=-100` dessatura totalmente a imagem.
+`op_saturation=-100` elimina totalmente a saturação da imagem.
 
 ## Propriedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado por camadas de efeito.
+Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, sem alteração na saturação. Imagens ou camadas CMYK são convertidas em RGB antes da aplicação da operação.
+`op_saturation=0`, para nenhuma alteração na saturação. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
 
 ## Exemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipule uma fotografia colorida para obter uma aparência &quot;de alta definição&quot;:
+Manipule uma fotografia colorida para obter uma aparência de &quot;alta definição&quot;:
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`

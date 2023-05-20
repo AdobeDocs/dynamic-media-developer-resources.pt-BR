@@ -1,20 +1,20 @@
 ---
-description: Exclui valores de metadados para um ativo. Funciona com uma matriz de exclusão de metadados para definir valores em um lote.
+description: Exclui valores de metadados de um ativo. Funciona com uma matriz de exclusão de metadados para definir valores em um lote.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic, SDK/API, metadados, gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # deleteAssetMetadata{#deleteassetmetadata}
 
-Exclui valores de metadados para um ativo. Funciona com uma matriz de exclusão de metadados para definir valores em um lote.
+Exclui valores de metadados de um ativo. Funciona com uma matriz de exclusão de metadados para definir valores em um lote.
 
 Sintaxe
 
@@ -61,13 +61,13 @@ Sintaxe
    <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Metadados para excluir do ativo. </p> </td> 
+   <td colname="col4"> <p>Metadados a serem excluídos do ativo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Matriz de metadados para excluir do ativo. </p> </td> 
+   <td colname="col4"> <p>Matriz de metadados a ser excluída do ativo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-d5657289f5234bb0a613dcf691507958}
 
-MetadataDelete
+ExclusãoDeMetadados
 
 ```java
     <complexType name="MetadataDelete">

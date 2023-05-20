@@ -1,20 +1,20 @@
 ---
-description: Cria uma cópia de um ativo de imagem existente. Os comandos de protocolo do Servidor de Imagens especificados são aplicados para gerar a nova cópia
+description: Cria uma cópia de um ativo de imagem existente. Os comandos de protocolo do Servidor de imagens especificados são aplicados para gerar a nova cópia
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 # copyImage{#copyimage}
 
-Cria uma cópia de um ativo de imagem existente. Os comandos de protocolo do Servidor de Imagens especificados são aplicados para gerar a nova cópia
+Cria uma cópia de um ativo de imagem existente. Os comandos de protocolo do Servidor de imagens especificados são aplicados para gerar a nova cópia
 
 Sintaxe
 
@@ -45,19 +45,19 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O identificador para a empresa que contém a imagem. </p> </td> 
+   <td colname="col4"> <p>O identificador da empresa que contém a imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O identificador para o ativo de imagem. </p> </td> 
+   <td colname="col4"> <p>O identificador do ativo de imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O identificador da pasta onde a imagem deve ser copiada. </p> </td> 
+   <td colname="col4"> <p>O identificador da pasta para a qual a imagem deve ser copiada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 

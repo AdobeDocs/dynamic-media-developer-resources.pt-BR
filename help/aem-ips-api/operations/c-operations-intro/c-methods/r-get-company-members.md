@@ -32,17 +32,17 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa cujos membros você deseja obter. |
-| includeInvalid | `xsd:boolean` | Sim | Incluir empresas inválidas. |
+| includeInvalid | `xsd:boolean` | Sim | Inclua empresas inválidas. |
 
 **Saída (getCompanyMembersReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| memberArray | `types:CompanyMemberArray` | Sim | Matriz de associações de usuários. |
+| memberArray | `types:CompanyMemberArray` | Sim | Matriz de associações de usuário. |
 
 ## Exemplos {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Esta amostra de código retorna todos os membros de uma empresa em uma matriz de usuários. A resposta foi truncada por brevidade.
+Esta amostra de código retorna todos os membros de uma empresa em uma matriz de usuário. A resposta foi truncada por brevidade.
 
 **Solicitação**
 

@@ -2,12 +2,12 @@
 description: Resolução de impressão. Substitui o valor de resolução de impressão incorporado na imagem de resposta.
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Resolução de impressão. Substitui o valor de resolução de impressão incorp
  </tr> 
 </table>
 
-A resolução de impressão é normalmente definida por `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem da camada com o número de camada mais baixo.
+A resolução de impressão é normalmente definida por `catalog::PrintResolution` no caso de uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. No caso de um modelo ou de uma imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta é a resolução de impressão da imagem da camada com o número de camada mais baixo.
 
-Definir a resolução de impressão não altera o tamanho do pixel da imagem de resposta.
+A definição da resolução de impressão não altera o tamanho do pixel da imagem de resposta.
 
 ## Propriedades {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-Atributo da solicitação. Aplica-se independentemente da configuração de camada atual.
+Solicitar atributo. Aplica-se independentemente da configuração da camada atual.
 
 ## Padrão {#section-d7d89fd235cc418fb381014612530f00}
 

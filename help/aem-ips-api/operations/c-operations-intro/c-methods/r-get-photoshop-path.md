@@ -1,5 +1,5 @@
 ---
-description: Retorna as coordenadas do quadrilateral que delimita o caminho nomeado do Photoshop.
+description: Retorna as coordenadas para o quadrilátero que delimita o caminho Photoshop nomeado.
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getPhotoshopPath{#getphotoshoppath}
 
-Retorna as coordenadas do quadrilateral que delimita o caminho nomeado do Photoshop.
+Retorna as coordenadas para o quadrilátero que delimita o caminho Photoshop nomeado.
 
 Sintaxe
 
@@ -27,7 +27,7 @@ Sintaxe
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
+* ``
 
 ## Parâmetros {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -35,15 +35,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Lide com a empresa com a imagem que deseja trabalhar. |
-| assetHandle | `xsd:string` | Sim | Lide com o ativo de imagem. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa com a imagem com a qual você deseja trabalhar. |
+| assetHandle | `xsd:string` | Sim | Processe o ativo de imagem. |
 | pathName | `xsd:string` | Sim | Nome do caminho do Photoshop que você deseja retornar. |
 
 **Saída (getPhotoshopPathReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| perspectivaQuad | `types:PerspectiveQuad` | Sim | Retorna as coordenadas da imagem com base no caminho. Consulte [PerspectivaQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| perspectivaQuad | `types:PerspectiveQuad` | Sim | Retorna coordenadas de imagem com base no caminho. Consulte [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exemplos {#section-1f0461cbdc184c8d8925336d5279db47}
 
@@ -76,5 +76,5 @@ Sintaxe
 
 >[!MORELIKETHIS]
 >
->* [PerspectivaQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
+>* [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)
 

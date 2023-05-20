@@ -1,5 +1,5 @@
 ---
-description: Atualiza o estado do contexto de publicação de um ativo.
+description: Atualiza o estado de contexto de publicação de um ativo.
 solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # [!DNL ContextStateUpdate]{#contextstateupdate}
 
-Atualiza o estado do contexto de publicação de um ativo.
+Atualiza o estado de contexto de publicação de um ativo.
 
 Sintaxe
 
 ## Parâmetros {#section-9f747df071854c6896fdbb95684ad947}
 
-Defina o estado do contexto de publicação de um ativo com `setAssetsContextState`.
+Definir o estado de contexto de publicação de um ativo com `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -34,12 +34,12 @@ Defina o estado do contexto de publicação de um ativo com `setAssetsContextSta
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Lidar com o contexto de publicação. </td>
+   <td colname="col3"> Processe o contexto de publicação. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">O estado atualizado do ativo publicado para o contexto de publicação especificado. Inclui: 
+   <td colname="col3">O estado publicado atualizado do ativo para o contexto de publicação especificado. Inclui: 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
      <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> MarkedForPublish</span></li>
      <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
@@ -51,5 +51,5 @@ Defina o estado do contexto de publicação de um ativo com `setAssetsContextSta
 
 >[!MORELIKETHIS]
 >
->* [Estado de publicação](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Publicar estado](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
 

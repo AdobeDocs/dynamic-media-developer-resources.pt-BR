@@ -1,7 +1,7 @@
 ---
-description: Uma matriz de eventos do MediaPortal.
+description: Uma série de eventos do MediaPortal.
 solution: Experience Manager
-title: MPEeventArray
+title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6af68714-bdba-485c-89c4-51b79d93405a
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL MPEventArray]{#mpeventarray}
 
-Uma matriz de eventos do MediaPortal.
+Uma série de eventos do MediaPortal.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:MPEvent` | Matriz de eventos do MediaPortal. |
+| itens | `types:MPEvent` | Matriz de eventos do MediaPortal. |

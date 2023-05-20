@@ -2,12 +2,12 @@
 description: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: fa094d84-927b-48f2-9c82-61f2a446158b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> para cima|para baixo|para a esquerda|para a direita|para-vertical|para-caber-lateral  </span> </p> </td> 
-   <td colname="col2"> <p> Especifica a direção da animação de slide para o contêiner de botões. </p> <p> Quando definido para <span class="codeph"> para cima </span>, <span class="codeph"> para baixo </span>, <span class="codeph"> para a esquerda </span> ou <span class="codeph"> para a direita </span>, o painel é implantado em uma direção especificada sem uma verificação de limites adicional. Esse comportamento pode resultar no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> ajuste vertical </span>, o componente primeiro alterna a posição do painel base para a parte inferior do SocialShare e tenta implantar o painel da parte inferior, direita ou esquerda, a partir desse local base. A cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para a parte superior e repetir as tentativas de implantação a partir da parte superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral </span>, o componente usa uma lógica semelhante à do fit-vertical, mas, em vez disso, alterna a base para a direita, tentando primeiro, para baixo e para cima, para as direções de implantação e, em seguida, alterna a base para a esquerda, tentando assim reduzir, para baixo e para cima, para as direções de implantação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> para cima|para baixo|para a esquerda|para a direita|ajuste vertical|ajuste lateral </span> </p> </td> 
+   <td colname="col2"> <p> Especifica a direção da animação do slide para o contêiner de botões. </p> <p> Quando definido como <span class="codeph"> para cima </span>, <span class="codeph"> para baixo </span>, <span class="codeph"> left </span>ou <span class="codeph"> direita </span>, o painel é implantado em uma direção especificada sem uma verificação de limites adicionais. Esse comportamento pode resultar no recorte do painel por um contêiner externo. </p> <p>Quando definido como <span class="codeph"> ajustar-vertical </span>, o componente muda primeiro a posição do painel base para a parte inferior do SocialShare e tenta implantar o painel da parte inferior, direita ou esquerda, a partir desse local base. A cada tentativa, o componente verifica se o painel é recortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação nas direções superior, direita e esquerda. </p> <p>Quando definido como <span class="codeph"> ajuste lateral </span>, o componente usa uma lógica semelhante à do ajuste vertical, mas, em vez disso, desloca a base para a primeira direção de implantação à direita, para baixo e para cima. Em seguida, desloca a base para a esquerda, tentando direções de implantação à esquerda, para baixo e para cima. </p> </td> 
   </tr> 
  </tbody> 
 </table>

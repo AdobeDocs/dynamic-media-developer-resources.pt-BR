@@ -1,5 +1,5 @@
 ---
-description: Exclui um trabalho atual ou programado.
+description: Exclui um trabalho atual ou agendado.
 solution: Experience Manager
 title: deleteJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # deleteJob{#deletejob}
 
-Exclui um trabalho atual ou programado.
+Exclui um trabalho atual ou agendado.
 
 Sintaxe
 
@@ -38,13 +38,13 @@ Sintaxe
 | companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o trabalho pertence. |
 | jobHandle | `xsd:string` | Sim | O identificador do trabalho a ser excluído. |
 
-**Saída**
+**Output**
 
 A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Esta amostra de código exclui um trabalho que está em execução ou está agendado para execução no IPS. Ele requer um identificador de trabalho, que deve ser obtido de outra operação.
+Esta amostra de código exclui um trabalho que está em execução ou está agendado para execução no IPS. Requer um identificador de trabalho, que você deve obter de outra operação.
 
 **Solicitação**
 

@@ -1,18 +1,18 @@
 ---
-title: Add Favorite button
-description: The position of the Add Favorite button is fully managed by the Favorites menu.
+title: Botão Adicionar favorito
+description: A posição do botão Adicionar favorito é totalmente gerenciada pelo menu Favoritos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3602fa7b-d654-4976-a62d-d959898cb530
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Add Favorite button{#add-favorite-button}
+# Botão Adicionar favorito{#add-favorite-button}
 
 A posição do botão Adicionar favorito é totalmente gerenciada pelo menu Favoritos.
 
@@ -24,20 +24,20 @@ A aparência do botão Adicionar favorito é controlada com o seguinte seletor d
 .s7ecatalogviewer .s7addfavoritebutton
 ```
 
-**CSS properties of the Add Favorite button**
+**Propriedades CSS do botão Adicionar favorito**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Position inside artwork sprite, if CSS sprites are used. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Posicionar dentro da imagem de arte-final, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ A aparência do botão Adicionar favorito é controlada com o seguinte seletor d
 
 >[!NOTE]
 >
->Esse botão suporta `state` e `selected` seletores de atributos, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado em que um usuário pode adicionar um novo ícone Favorito ao selecionar ou tocar em. The attribute `selected='false'` corresponds to the normal operation mode when a user can zoom, pan, and swap pages.
+>Esse botão suporta as opções `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado em que um usuário pode adicionar um novo ícone Favorito selecionando ou tocando. O atributo `selected='false'` corresponde ao modo de operação normal quando um usuário pode aplicar zoom, deslocar e trocar páginas.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-Exemplo - Para configurar um botão Adicionar Favorito com 28 x 28 pixels. E exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
+Exemplo - Para configurar um botão Adicionar favorito com 28 x 28 pixels. E exibe uma imagem diferente para cada um dos quatro estados de botão diferentes quando selecionado ou não selecionado.
 
 ```
 .s7ecatalogviewer .s7addfavoritebutton { 

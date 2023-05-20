@@ -8,7 +8,7 @@ exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo muted para reprodução de vídeo no carregamento inicial. Se estiver definido como <span class="codeph"> 1 </span> O volume é absorvido; caso contrário, o vídeo será reproduzido com som. Em certos dispositivos, o reprodutor de vídeo com o recurso mutar ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definida como <span class="codeph"> 1 </span> o volume fica sem áudio; caso contrário, o vídeo é reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite que o vídeo seja reproduzido automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

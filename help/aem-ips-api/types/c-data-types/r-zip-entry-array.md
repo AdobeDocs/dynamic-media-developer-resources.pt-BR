@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de entradas ZIP.
 solution: Experience Manager
-title: ZipEntryArray
+title: MatrizDeEntradaZip
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 243449ab-423d-45e8-9011-8165300bc619
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ZipEntry` | Uma matriz de entradas ZIP. |
+| itens | `types:ZipEntry` | Uma matriz de entradas ZIP. |

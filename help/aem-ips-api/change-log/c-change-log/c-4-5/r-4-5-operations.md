@@ -1,7 +1,7 @@
 ---
-description: Descreve métodos de operações novos e alterados para a API IPS versão 4.5.
+description: Descreve métodos de operações novos e alterados para a API do IPS versão 4.5.
 solution: Experience Manager
-title: Operações - Novo e Modificado
+title: Operações - Novas e Modificadas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Operações: Novo e modificado{#operations-new-and-modified}
+# Operações: Novas e Modificadas{#operations-new-and-modified}
 
-Descreve métodos de operações novos e alterados para a API IPS versão 4.5.
+Descreve métodos de operações novos e alterados para a API do IPS versão 4.5.
 
 Sintaxe
 
@@ -35,10 +35,10 @@ Sintaxe
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## Operações modificadas {#section-1c022cc62d274c349837013f1c02ca51}
+## Operações Modificadas {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` inclui `animatedGifInfo`, `swcInfo`, `cssInfo`e `javascriptInfo` parâmetros.
+* `Asset` inclui `animatedGifInfo`, `swcInfo`, `cssInfo`, e `javascriptInfo` parâmetros.
 * `createMetadataField` inclui uma `isHidden` parâmetro.
 * `saveMetadataField` inclui uma `isHidden` parâmetro.
 * `searchAssets`
-* O `renameFiles` foi descontinuado para versões anteriores e removido do `renameAsset` operação. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos de arquivo físico não são afetados. Os clientes da API precisam remover referências a esse parâmetro ao atualizar para a nova versão da API.
+* A variável `renameFiles` foi descontinuado para versões anteriores e removido do `renameAsset` operação. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos do arquivo físico não são afetados. Os clientes da API precisam remover as referências a esse parâmetro ao atualizar para a nova versão da API.

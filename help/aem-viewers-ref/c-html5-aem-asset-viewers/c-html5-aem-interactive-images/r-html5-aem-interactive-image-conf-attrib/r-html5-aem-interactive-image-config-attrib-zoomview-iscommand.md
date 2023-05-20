@@ -1,6 +1,6 @@
 ---
 title: ZoomView.iscommand
-description: A string de comando Exibição de imagem que é aplicada à imagem de zoom.
+description: A sequência de comando do Servidor de imagens que é aplicada à imagem com zoom.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
-A string de comando Exibição de imagem que é aplicada à imagem de zoom.
+A sequência de comando do Servidor de imagens que é aplicada à imagem com zoom.
 
 ` [ZoomView.|<containerId>_zoomView.]iscommand= *`isCommand`*`
 
@@ -22,7 +22,7 @@ A string de comando Exibição de imagem que é aplicada à imagem de zoom.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas por HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve ser codificado em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Exemplo C
-description: Crie um aplicativo de camadas de "boneca de papel".
+description: Crie um aplicativo em camadas de "boneca de papel".
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Exemplo C{#example-c}
 
-Crie um aplicativo de camadas de &quot;boneca de papel&quot;.
+Crie um aplicativo em camadas de &quot;boneca de papel&quot;.
 
-Uma imagem de plano de fundo contém a foto de um modelo ou manequim. Registros adicionais no catálogo de imagens contêm vários itens de vestuário e acessórios, fotografados para corresponder ao manequim em forma e tamanho.
+Uma imagem de fundo contém a foto de um modelo ou manequim. Registros adicionais no catálogo de imagens contêm vários artigos de vestuário e acessórios, fotografados para corresponder ao manequim em forma e tamanho.
 
-Cada foto de vestuário/acessório é mascarada e cortada na caixa delimitadora de máscara para minimizar os tamanhos de imagem. As âncoras e resoluções de imagem são cuidadosamente controladas para manter o alinhamento entre as camadas e a imagem de plano de fundo, e todas as imagens são adicionadas a um catálogo de imagens, com os valores apropriados armazenados em `catalog::Resolution` e `catalog::Anchor`.
+Cada foto de vestuário/acessório é mascarada e cortada na caixa delimitadora de máscara para minimizar os tamanhos de imagem. As âncoras e resoluções de imagem são cuidadosamente controladas para manter o alinhamento entre as camadas e a imagem de plano de fundo, e todas as imagens são adicionadas a um catálogo de imagens, com os valores apropriados armazenados no `catalog::Resolution` e `catalog::Anchor`.
 
-Além da disposição em camadas, você também deseja alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de forma adequada ao comando de colorização. Esse pré-processamento pode ser feito off-line, usando uma ferramenta de edição de imagem, como o Adobe Photoshop, ou, em casos simples, pode ser feito trivialmente adicionando `op_brightness=` e `op_contrast=` ao campo `catalog::Modifier`.
+Além da disposição em camadas, também é necessário alterar a cor dos itens selecionados. Os registros desses itens são pré-processados para remover a cor original e ajustar o brilho e o contraste de uma forma adequada para o comando de coloração. Esse pré-processamento pode ser feito off-line, usando uma ferramenta de edição de imagens, como o Adobe Photoshop, ou, em casos simples, pode ser feito trivialmente adicionando `op_brightness=` e `op_contrast=` para o `catalog::Modifier`campo.
 
-Este aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente por suas âncoras de imagem ( `catalog::Anchor`) e dimensionados ( `catalog::Resolution`). Fica a cargo do cliente garantir a ordem de camada apropriada.
+Esse aplicativo não garante um modelo separado, pois todos os objetos já estão alinhados corretamente por suas âncoras de imagem ( `catalog::Anchor`) e dimensionado ( `catalog::Resolution`). Cabe ao cliente garantir a ordem apropriada das camadas.
 
-Uma solicitação típica pode ser semelhante a:
+Uma solicitação típica pode ter esta aparência:
 
 ```
 http://server/rootId/mannequin?&hei=400&qlt=90&
@@ -36,15 +36,15 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Somente a altura é especificada. Isso permite que a imagem retornada varie na largura, dependendo da proporção da imagem do manequim, sem obter margens preenchidas com a cor do fundo.
+Somente a altura é especificada. Isso permite que a imagem retornada varie em largura, dependendo da proporção da imagem do manequim, sem que as margens sejam preenchidas com a cor de fundo.
 
-Não importa qual resolução é especificada para cada camada, desde que sejam todas iguais. Esta versão pode não permitir que as visualizações sejam maiores do que as imagens compostas. Especificar um valor de resolução grande evita problemas relacionados a essa limitação. Todo o processamento e composição são feitos na resolução ideal para o tamanho de imagem solicitado, para ajudar a alcançar o melhor desempenho e qualidade de saída.
+Não importa qual resolução é especificada para cada camada, desde que todas sejam iguais. Esta versão pode não permitir exibições maiores do que as imagens compostas. Especificar um valor de resolução grande evita problemas relacionados a essa limitação. Todo o processamento e composição é feito na resolução ideal para o tamanho de imagem solicitado, para ajudar a alcançar o melhor desempenho e qualidade de saída.
 
-Os comandos `res=` podem ser omitidos se todas as imagens de origem tiverem a mesma resolução em escala completa (o que provavelmente acontece com esse tipo de aplicativo).
+A variável `res=` os comandos podem ser omitidos se todas as imagens de origem tiverem a mesma resolução em escala completa (o que provavelmente é o caso desse tipo de aplicativo).
 
-O `rootId` deve ser especificado para todos os comandos `src=`, mesmo que sejam iguais ao `rootId` especificado no caminho de url.
+A variável `rootId` deve ser especificado para todos `src=` mesmo que sejam os mesmos que os comandos `rootId` especificado no caminho do url.
 
-Se nenhum catálogo de imagem for usado, uma abordagem baseada em resolução para dimensionamento não será possível. Nesse caso, fatores de escala explícitos devem ser calculados para cada item de camada, com base na proporção dos valores `catalog::Resolution` para cada camada com o valor `catalog::Resolution` da camada de plano de fundo. A solicitação de composição (com menos camadas) pode, portanto, ter a seguinte aparência:
+Se nenhum catálogo de imagens for usado, não será possível uma abordagem de dimensionamento baseada em resolução. Nesse caso, os fatores de escala explícitos devem ser calculados para cada item da camada, com base na proporção do `catalog::Resolution` valores de cada camada para o `catalog::Resolution` valor da camada de plano de fundo. A solicitação de composição (com menos camadas) pode ter esta aparência:
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&

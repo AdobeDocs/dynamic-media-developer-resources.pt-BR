@@ -1,6 +1,6 @@
 ---
 title: Amostras interativas
-description: O painel de amostras interativas é exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto como "Clique para exibir", uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas de desktop).
+description: O painel de amostras interativas será exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto, como "Clique para exibir", uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas desktop).
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Amostras interativas{#interactive-swatches}
 
-O painel de amostras interativas é exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto como &quot;Clique para exibir&quot;, uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas de desktop).
+O painel de amostras interativas será exibido ao lado do conteúdo do vídeo se os dados interativos tiverem sido passados para o visualizador na configuração. Ele consiste em um banner na parte superior que renderiza texto, como &quot;Clique para exibir&quot;, uma coluna de uma ou mais amostras interativas e dois botões de rolagem (disponíveis apenas em sistemas desktop).
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
-Em sistemas de desktop e dispositivos de toque, na orientação paisagem, as amostras interativas são renderizadas verticalmente à direita do conteúdo de vídeo. Em dispositivos de toque na orientação retrato, eles aparecem na parte inferior do visualizador, como uma linha horizontal de amostras.
+Em sistemas desktop e em dispositivos de toque, na orientação paisagem, as amostras interativas são renderizadas verticalmente à direita do conteúdo de vídeo. Em dispositivos de toque com orientação de retrato, eles são exibidos na parte inferior do visualizador como uma linha horizontal de amostras.
 
-O seguinte seletor de classe CSS controla o local e a orientação do painel de amostras interativas:
+O seletor de classe CSS a seguir controla o local e a orientação do painel de amostras interativo:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches
@@ -31,42 +31,42 @@ O seguinte seletor de classe CSS controla o local e a orientação do painel de 
 <table id="table_352DAD495AE742E39B4F12629C43F712"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do painel de amostras interativas </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
+   <td colname="col2"> <p>Largura do painel de amostras interativo </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
-   <td colname="col2"> <p>Altura do painel Amostras interativas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
+   <td colname="col2"> <p>Altura do painel de amostras interativo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top  </span> </p> </td> 
-   <td colname="col2"> <p>Posição superior do painel Amostras interativas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Posição superior do painel de amostras interativo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Posição inferior do painel Amostras interativas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col2"> <p>Posição inferior do painel interativo de amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left  </span> </p> </td> 
-   <td colname="col2"> <p>Posição esquerda do painel Amostras interativas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col2"> <p>Posição esquerda do painel interativo de amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right  </span> </p> </td> 
-   <td colname="col2"> <p>Posição direita do painel de amostras interativas. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> direita </span> </p> </td> 
+   <td colname="col2"> <p>Posição direita do painel interativo de amostras. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O local e a orientação do tempo de execução do painel de amostras interativas são definidos por uma combinação das propriedades de CSS acima, da seguinte maneira:
+O local e a orientação do tempo de execução do painel de amostras interativo são definidos por uma combinação das propriedades CSS acima, da seguinte maneira:
 
-* Para renderizar amostras interativas horizontalmente na parte inferior do visualizador, defina a altura para um valor de pixel absoluto; esquerda e inferior a 0px; largura, direita e superior para auto.
-* Para renderizar amostras interativas verticalmente à direita do conteúdo do vídeo, defina a largura para um pixel absoluto; direito e superior a 0px; altura, esquerda e inferior para auto.
+* Para renderizar as amostras interativas horizontalmente na parte inferior do visualizador, defina a altura como um valor de pixel absoluto; esquerda e inferior como 0px; largura, direita e superior como auto.
+* Para renderizar as amostras interativas verticalmente à direita do conteúdo do vídeo, defina a largura como um pixel absoluto; à direita e acima como 0px; à altura, à esquerda e abaixo como auto.
 
-É possível usar marcadores CSS com esse estilo para obter o posicionamento adaptável do painel de amostras interativas.
+É possível usar marcadores CSS com esse estilo para obter a colocação adaptável do painel de amostras interativo.
 
 ## Exemplo {#example}
 
-Para configurar um painel de amostras interativas para renderizar horizontalmente na parte inferior do visualizador em dispositivos de toque na orientação paisagem. E, para exibi-lo verticalmente à direita do conteúdo de vídeo em todos os outros casos:
+Para configurar um painel de amostras interativo para renderizar horizontalmente na parte inferior do visualizador em dispositivos de toque na orientação paisagem. E para mostrá-lo verticalmente à direita do conteúdo de vídeo em todos os outros casos:
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -90,45 +90,45 @@ Para configurar um painel de amostras interativas para renderizar horizontalment
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O tamanho e a posição do banner são gerenciados pelo componente de amostras interativas com base em outro estilo aplicado com CSS e não podem ser definidos explicitamente.
+O tamanho e a posição do banner são gerenciados pelo componente interativo de amostras com base em outro estilo aplicado com CSS e não podem ser definidos explicitamente.
 
-O seguinte seletor de classe CSS controla a aparência do painel do banner:
+O seletor de classe CSS a seguir controla a aparência do painel de banner:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner
 ```
 
-## Propriedades CSS do painel do banner {#css-properties-of-the-banner-panel}
+## Propriedades CSS do painel Banner {#css-properties-of-the-banner-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Cor do plano de fundo do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de fundo do painel Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p>Cor do texto dentro do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
+   <td colname="col2"> <p>Cor do texto dentro do painel Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
-   <td colname="col2"> <p>Borda em torno do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
+   <td colname="col2"> <p>Borda ao redor do painel banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
-   <td colname="col2"> <p>O peso da fonte a ser usado para o texto dentro do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>A espessura da fonte a ser usada para o texto dentro do painel banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte  </span> </p> </td> 
-   <td colname="col2"> <p>O tamanho da fonte a ser usado para o texto dentro do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>O tamanho da fonte a ser usada para o texto dentro do painel Banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
-   <td colname="col2"> <p>A família de fontes a ser usada para o texto dentro do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>A família da fonte a ser usada para o texto dentro do painel banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alinhamento de fonte  </span> </p> </td> 
-   <td colname="col2"> <p>O alinhamento da fonte a ser usado para o texto dentro do painel do banner. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
+   <td colname="col2"> <p>O alinhamento da fonte a ser usada para o texto dentro do painel Banner. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -137,7 +137,7 @@ A dica de ferramenta do banner pode ser localizada. Consulte [Localização dos 
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Para configurar um banner com fundo cinza escuro, cinza claro, com duas bordas de pixel e o texto branco centrado horizontalmente:
+Para configurar um banner com plano de fundo cinza escuro, borda de dois pixels cinza claro e texto branco centralizado horizontalmente:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7banner { 
@@ -148,7 +148,7 @@ Para configurar um banner com fundo cinza escuro, cinza claro, com duas bordas d
 }
 ```
 
-O seguinte seletor de classe CSS controla a aparência das amostras:
+O seletor de classe CSS a seguir controla a aparência das amostras:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches
@@ -159,7 +159,7 @@ O seguinte seletor de classe CSS controla a aparência das amostras:
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da área de amostras. </p> </td> 
   </tr> 
  </tbody> 
@@ -167,7 +167,7 @@ O seguinte seletor de classe CSS controla a aparência das amostras:
 
 ## Exemplo {#section-9cadd62a09fd44a280f55ff42437e416}
 
-Para configurar a área de amostras com fundo cinza escuro:
+Para configurar a área de amostras com plano de fundo cinza escuro:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches { 
@@ -175,24 +175,24 @@ Para configurar a área de amostras com fundo cinza escuro:
 }
 ```
 
-O seguinte seletor de classe CSS controla o espaçamento entre miniaturas de amostra:
+O seletor de classe CSS a seguir controla o espaçamento entre as miniaturas de amostra:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## Propriedades CSS do espaçamento de miniatura das amostras {#css-properties-of-the-swatches-thumbnail-spacing}
+## Propriedades CSS do espaçamento da miniatura das amostras {#css-properties-of-the-swatches-thumbnail-spacing}
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margem  </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento de miniatura real é igual à soma da margem esquerda e direita definida para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemplo {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Para configurar o espaçamento vertical para ter dez pixels:
+Para configurar o espaçamento vertical como dez pixels:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -200,7 +200,7 @@ Para configurar o espaçamento vertical para ter dez pixels:
 }
 ```
 
-O seguinte seletor de classe CSS controla a aparência de miniaturas individuais:
+O seletor de classe CSS a seguir controla a aparência de miniaturas individuais:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
@@ -209,15 +209,15 @@ O seguinte seletor de classe CSS controla a aparência de miniaturas individuais
 <table id="table_FB760FE6BEA44E129C07DD912C86DE57"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>Borda da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -225,7 +225,7 @@ O seguinte seletor de classe CSS controla a aparência de miniaturas individuais
 
 >[!NOTE]
 >
->A miniatura é compatível com o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em particular, `state="selected"` corresponde à miniatura da imagem selecionada no momento; `state="default"` corresponde ao resto das miniaturas; `state="over"` é usado com o mouse.
+>A miniatura suporta o `state` seletor de atributos, que você pode usar para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem atualmente selecionada; `state="default"` corresponde ao restante das miniaturas; `state="over"` é usado ao passar o mouse.
 
 ## Exemplo {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -238,7 +238,7 @@ Para configurar miniaturas com 100 x 75 pixels:
 }
 ```
 
-O seguinte seletor de classe CSS controla a aparência do rótulo de miniatura:
+O seletor de classe CSS a seguir controla a aparência do rótulo da miniatura:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label`
 
@@ -247,19 +247,19 @@ O seguinte seletor de classe CSS controla a aparência do rótulo de miniatura:
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor </span> </p> </td> 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
    <td colname="col2"> <p>Borda do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alinhamento de texto  </span> </p> </td> 
-   <td colname="col2"> <p>Alinhamento horizontal do texto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col2"> <p>Alinhamento de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> família de fontes  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -267,7 +267,7 @@ O seguinte seletor de classe CSS controla a aparência do rótulo de miniatura:
 
 ## Exemplo {#section-eb141eb6c1154183baa69796edb90536}
 
-Para configurar rótulos para usar um alinhamento à esquerda, branco, 12 pixels, em fonte Helvetica® e uma borda inferior:
+Para configurar rótulos para usar branco, alinhado à esquerda, 12 pixels, em fonte Helvetica® e uma borda inferior:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 
@@ -279,46 +279,46 @@ font-size: 12px;
 }
 ```
 
-O seguinte seletor de classe CSS controla a aparência dos botões de rolagem para cima e para baixo:
+O seletor de classe CSS a seguir controla a aparência dos botões de rolagem para cima e para baixo:
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton`
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Não é possível posicionar os botões de rolagem usando as propriedades CSS `top`, `left`, `bottom` e `right`; em vez disso, a lógica do visualizador os posiciona automaticamente.
+Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades; em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 ## Propriedades CSS da aparência dos botões de rolagem para cima e para baixo {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>Largura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>A posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte também <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>A posição dentro da imagem do trabalho artístico, se as imagens CSS forem usadas. </p> <p>Consulte também <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Esse botão suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos estados do botão: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; e &quot; `disabled`&quot;.
+>Esse botão oferece suporte ao `state` o seletor de atributos, que você pode usar para aplicar capas diferentes aos estados do botão: &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot;, e &quot; `disabled`&quot;.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
 ## Exemplo {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-Para configurar o botão de rolagem para cima que tem 60 x 36 pixels, tenha uma arte-final diferente para cada estado e retire essa arte da imagem de sprite do componente:
+Para configurar um botão de rolagem para cima com 60 x 36 pixels, tenha um trabalho artístico diferente para cada estado e o tire da imagem gráfica do componente:
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 

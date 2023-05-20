@@ -1,6 +1,6 @@
 ---
 title: preloadimage
-description: comando URL para Visualizador de imagem de vídeo.
+description: Comando do URL para o Visualizador de imagem de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 5bb61804-8c61-473f-a8a7-aa30a410e22b
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
 # preloadimage{#preloadimage}
 
-comando URL para Visualizador de imagem de vídeo.
+Comando do URL para o Visualizador de imagem de vídeo.
 
 `preloadImage=0|1`
 

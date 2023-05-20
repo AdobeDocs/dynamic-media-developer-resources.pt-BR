@@ -1,6 +1,6 @@
 ---
-title: Retornos de chamada do evento
-description: Retornos de chamada do evento
+title: Retornos de chamada de evento
+description: Retornos de chamada de evento
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# Retornos de chamada do evento{#event-callbacks}
+# Retornos de chamada de evento{#event-callbacks}
 
 O visualizador suporta retornos de chamada de evento JavaScript que a página da Web usa para rastrear o processo de inicialização do visualizador ou o comportamento do tempo de execução.
 
-Os manipuladores de retorno de chamada são atribuídos transmitindo nomes de evento e funções de manipulador correspondentes com a propriedade `handlers` para `config` objeto JSON no construtor do visualizador. Como alternativa, é possível usar o método da API `setHandlers()`.
+Os manipuladores de retorno de chamada são atribuídos passando nomes de evento e funções de manipulador correspondentes com o `handlers` propriedade para `config` Objeto JSON no construtor do visualizador. Alternativamente, é possível utilizar `setHandlers()` método da API.
 
-Os eventos compatíveis do visualizador incluem:
+Os eventos do visualizador compatíveis incluem o seguinte:
 
-* `initComplete` - dispara quando a inicialização do visualizador é concluída e todos os componentes internos são criados, para que seja possível usar a  `getComponent()` API. O manipulador de retorno de chamada não aceita argumentos.
-* `trackEvent` - dispara sempre que um evento ocorre no visualizador, o que pode ser manipulado por um sistema de rastreamento de eventos, como o Adobe Analytics. O manipulador de retorno de chamada aceita os seguintes argumentos:
+* `initComplete` - é acionado quando a inicialização do visualizador é concluída e todos os componentes internos são criados, para que seja possível usar `getComponent()` API. O manipulador de retorno de chamada não aceita argumentos.
+* `trackEvent` - é acionado sempre que um evento ocorre dentro do visualizador, que pode ser manipulado por um sistema de rastreamento de eventos, como o Adobe Analytics. O manipulador de retorno de chamada usa os seguintes argumentos:
 
    * `objID {String}` não usado no momento.
    * `compClass {String}` não usado no momento.
-   * `instName {String}` um nome de instância do componente HTML5 Viewer SDK que acionou o evento.
+   * `instName {String}` um nome de instância do componente do SDK do Visualizador do HTML5 que acionou o evento.
    * `timeStamp {Number}` carimbo de data e hora do evento.
-   * `eventInfo {String}` carga do evento.
+   * `eventInfo {String}` carga útil do evento.
 
 Consulte também [Video360Viewer](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md#reference-bd16cadc0c054fafb0db4994741d47cd) e [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).

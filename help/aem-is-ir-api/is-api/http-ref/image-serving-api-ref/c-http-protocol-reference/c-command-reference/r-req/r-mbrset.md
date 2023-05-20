@@ -1,22 +1,22 @@
 ---
-description: Dados de taxa de bits múltipla.
+description: Dados de taxa de múltiplos bits.
 solution: Experience Manager
-title: mrSet
-feature: Dynamic Media Classic, SDK/API
+title: mbrSet
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
 
-# mrSet{#mbrset}
+# mbrSet{#mbrset}
 
-Dados de taxa de bits múltipla.
+Dados de taxa de múltiplos bits.
 
-`req=mbrSet[,text|xml[, *``*]][&fmt= *`encodingfmtType`*]`
+`req=mbrSet[,text|xml[, *`codificação`*]][&fmt= *`fmtType`*]`
 
 <table id="simpletable_D2B8704E09B34337870A257CD7CB5C56"> 
  <tr class="strow"> 
@@ -29,16 +29,16 @@ Dados de taxa de bits múltipla.
  </tr> 
 </table>
 
-Retorna uma resposta de texto ou xml que contém uma lista de URLs (e as taxas de bits correspondentes) que correspondem às entradas de vídeo válidas no conjunto de vídeos associado à id de caminho de rede.
+Retorna uma resposta text ou xml que contém uma lista de URLs (e taxas de bits correspondentes) que correspondem a entradas de vídeo válidas no conjunto de vídeos associado à id do caminho de rede.
 
-O requisito anterior de que uma entrada de vídeo válida contenha um valor para `catalog::VideoBitRate` foi relaxado. A entrada pode conter um valor para `catalog::VideoBitRate`*ou* `catalog::AudioBitRate`*ou* `catalog::TotalStreamBitRate`. Somente uma dessas opções precisa ser definida para que a entrada de vídeo seja válida. Observe que os requisitos para `catalog::Path` e uma extensão de arquivo de vídeo válida não foram alterados.
+O requisito anterior de que uma entrada de vídeo válida contenha um valor para `catalog::VideoBitRate` foi relaxado. A entrada pode conter um valor para `catalog::VideoBitRate`*ou* `catalog::AudioBitRate`*ou* `catalog::TotalStreamBitRate`. Somente um deles precisa ser definido para que a entrada de vídeo seja válida. Observe que os requisitos para `catalog::Path` e uma extensão de arquivo de vídeo válida não foram alteradas.
 
-As respostas destinam-se ao consumo da Apple e dos servidores de transmissão de Flashes e, portanto, estão estruturalmente em conformidade com essas especificações. Os URLs são gerados usando prefixos `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
+As respostas são destinadas ao consumo por servidores de transmissão Apple e Flash e, portanto, estão estruturalmente em conformidade com essas especificações. URLs são gerados usando prefixos `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
 
-As respostas do m3u8 contêm apenas arquivos mp4, se houver algum presente no conjunto de vídeos. Se nenhum arquivo mp4 estiver presente, essas respostas conterão apenas arquivos f4v. Se nenhum arquivo mp4 ou f4v estiver presente, a resposta será vazia.
+as respostas m3u8 contêm apenas arquivos mp4, se houver algum presente no conjunto de vídeos. Se nenhum arquivo mp4 estiver presente, essas respostas conterão apenas arquivos f4v. Se não houver arquivos mp4 ou f4v, a resposta estará vazia.
 
-As respostas do f4m contêm arquivos f4v somente se houver algum no conjunto de vídeos. Se nenhum arquivo f4v estiver presente, essas respostas conterão apenas arquivos mp4. Se nenhum arquivo f4v ou arquivo mp4 estiver presente, a resposta será vazia.
+As respostas do f4m contêm apenas arquivos f4v se houver algum no conjunto de vídeos. Se nenhum arquivo f4v estiver presente, essas respostas conterão apenas arquivos mp4. Se nenhum arquivo f4v ou mp4 estiver presente, a resposta estará vazia.
 
-As taxas de bits que aparecem nas respostas f4m/m3u8 correspondem aos valores em `catalog::TotalStreamBitRate` (convertidos em unidades apropriadas). Se `catalog::TotalStreamBitRate` não estiver definido, a soma de `catalog::VideoBitRate` e `catalog::AudioBitRate` é usada.
+As taxas de bits que aparecem nas respostas f4m/m3u8 correspondem aos valores em `catalog::TotalStreamBitRate` (convertido em unidades adequadas). Se `catalog::TotalStreamBitRate` não estiver definido, a soma de `catalog::VideoBitRate` e `catalog::AudioBitRate` é usada.
 
-A resposta HTTP pode ser armazenada em cache com o TTL baseado em `catalog::NonImgExpiration`.
+A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::NonImgExpiration`.

@@ -1,7 +1,7 @@
 ---
 description: Publica arquivos nos servidores de publicação de vídeo configurados.
 solution: Experience Manager
-title: VideoPublishJob
+title: TrabalhoDePublicaçãoDeVídeo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4b295025-6e8d-4329-87c1-63633bf26129
@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| emailSetting | `xsd:string` | Escolha das configurações de email. |
+| emailSetting | `xsd:string` | Opção de configurações de email. |
 | httpCompletionUrl | `xsd:string` | URL para enviar um aviso de conclusão. |
-| contextHandle | `xsd:string` | Lidar com o contexto de publicação. |
+| contextHandle | `xsd:string` | Processe o contexto de publicação. |

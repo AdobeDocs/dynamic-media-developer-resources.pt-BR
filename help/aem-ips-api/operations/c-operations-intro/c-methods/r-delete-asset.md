@@ -46,7 +46,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-d5657289f5234bb0a613dcf691507958}
 
-Esse código de amostra exclui qualquer tipo de ativo de uma empresa específica. Requer um identificador de ativo, que deve ser obtido de outra operação.
+Este código de amostra exclui qualquer tipo de ativo de uma empresa específica. Requer um identificador de ativo, que você deve obter de outra operação.
 
 **Solicitação**
 

@@ -1,6 +1,6 @@
 ---
 title: Suporte para rastreamento do Adobe Analytics
-description: O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pronto para uso.
+description: O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-O Visualizador de rotação é compatível com o rastreamento Adobe Analytics pronto para uso.
+O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
 ## Rastreamento pronto para uso {#section-d06145cfa2b9491bb485b599368d466e}
 
 O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
+Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
 
-O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
+O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir o `trackEvent` retorno de chamada do visualizador e processe o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -62,10 +62,10 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
-   <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
    <td colname="col2"> <p>um ativo é trocado no visualizador usando o <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
@@ -74,11 +74,11 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>uma imagem é ativada. </p> </td> 
+   <td colname="col2"> <p>uma imagem é exibida em modo panorâmico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SPIN </span> </p> </td> 
-   <td colname="col2"> <p> um spin é executado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ROTAÇÃO </span> </p> </td> 
+   <td colname="col2"> <p> uma rotação é executada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

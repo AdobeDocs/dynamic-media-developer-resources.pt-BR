@@ -1,5 +1,5 @@
 ---
-description: Recupera um pacote de Metadados XMP para o ativo especificado.
+description: Recupera um pacote de metadados XMP para o ativo especificado.
 solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getXMPPacket{#getxmppacket}
 
-Recupera um pacote de Metadados XMP para o ativo especificado.
+Recupera um pacote de metadados XMP para o ativo especificado.
 
 Sintaxe
 
@@ -30,18 +30,18 @@ Sintaxe
 
 ## Parâmetros {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrada (getXMPPacketParam**
+**Entrada (getXMPPacketParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa com o pacote que você deseja retornar (por exemplo, `c|656`). |
-| assetHandle | `xsd:string` | Sim | O ativo para o qual o pacote de XMP deve ser recuperado. |
+| assetHandle | `xsd:string` | Sim | O ativo para o qual o pacote XMP deve ser recuperado. |
 
 **Saída (getXMPPacketReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] XMP pacote. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote XMP. |
 
 ## Exemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

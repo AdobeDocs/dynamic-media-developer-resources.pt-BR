@@ -1,5 +1,5 @@
 ---
-description: Um processo que recria um ativo PDF existente.
+description: Um processo que remove novamente um ativo PDF existente.
 solution: Experience Manager
 title: RipPdfsJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Um processo que recria um ativo PDF existente.
+Um processo que remove novamente um ativo PDF existente.
 
 >[!NOTE]
 >
->Esse tipo de trabalho está obsoleto. Transição para `ReprocessAssetsJob` para todas as integrações futuras.
+>Este tipo de trabalho está obsoleto. Transição para `ReprocessAssetsJob` para todas as integrações futuras.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,17 +34,17 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Lide com a matriz de arquivos PDF a serem removidos. </p> </td> 
+   <td colname="col3"> <p>Processe a matriz de arquivos PDF a serem extraídos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Determina se você deseja criar ou não uma máscara. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:booleano</span> </p> </td> 
+   <td colname="col3"> <p>Determina se você deseja criar uma máscara ou não. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções de recorte manual. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDeCorteManual</span> </p> </td> 
+   <td colname="col3"> <p>Opções de corte manual. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
@@ -63,12 +63,12 @@ Um processo que recria um ativo PDF existente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:PDFOoptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:PDFOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> ilustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDoIllustrator</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Uma matriz de identificadores de projetos. </p> </td> 
+   <td colname="col3"> <p>Uma matriz de identificadores de projeto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
@@ -89,12 +89,12 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>O URL para onde os arquivos estão sendo carregados. </p> </td> 
+   <td colname="col3"> <p>O URL no qual os arquivos estão sendo carregados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>Detalhes do trabalho para um trabalho de publicação de fornecimento de imagem a ser executado após a conclusão do upload. </p> </td> 
+   <td colname="col3"> <p>Detalhes do trabalho de publicação de um servidor de imagens a serem executados após a conclusão do upload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
@@ -109,12 +109,12 @@ Um processo que recria um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções para carregar arquivos Adobe InDesign no servidor de imagem. </p> </td> 
+   <td colname="col3"> <p>Opções para fazer upload de arquivos Adobe InDesign no servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> nockoutBackground</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo de imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> OpçõesDePlanoDeFundoDeConhecimento</a> </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

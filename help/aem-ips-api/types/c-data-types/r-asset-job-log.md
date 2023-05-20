@@ -1,6 +1,6 @@
 ---
 title: AssetJobLog
-description: Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
+description: Os detalhes de uma entrada do log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-Os detalhes de uma entrada de log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
+Os detalhes de uma entrada do log de trabalho associada a um ativo específico. Dados retornados por getAssetJobLogs.
 
 Sintaxe
 
@@ -32,37 +32,37 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador da tarefa. </td> 
+   <td colname="col3"> Identificador do trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nome do trabalho. </td> 
+   <td colname="col3"> Nome da tarefa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensagem no log de trabalho. <p><span class="codeph"> [!DNL logMessage]</span> o campo de resposta é localizado com base em <span class="codeph"> authHeader</span> campo de localidade. </p></td> 
+   <td colname="col3">Mensagem no log do trabalho. <p><span class="codeph"> [!DNL logMessage]</span> o campo de resposta é localizado com base em <span class="codeph"> authHeader</span> campo local. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Tipo de trabalho na entrada de log. </td> 
+   <td colname="col3"> Tipo de trabalho na entrada do log. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> email do usuário que enviou o trabalho. </td> 
+   <td colname="col3"> e-mail do usuário que enviou o job. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data da tarefa. </td> 
+   <td colname="col3"> Data do trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Matriz de mensagens de registro de tarefas auxiliares para cada registro de tarefas. </td> 
+   <td colname="col3"> Matriz de mensagens de log de trabalho auxiliar para cada log de trabalho. </td> 
   </tr> 
  </tbody> 
 </table>

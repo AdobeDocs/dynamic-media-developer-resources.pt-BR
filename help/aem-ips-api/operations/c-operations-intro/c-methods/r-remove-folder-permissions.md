@@ -2,12 +2,12 @@
 description: Remove as permissões da pasta.
 solution: Experience Manager
 title: removeFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -42,21 +42,21 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O identificador para a empresa com pastas com permissões que você deseja remover. </td> 
+   <td colname="col4"> O identificador da empresa com as pastas com permissões que você deseja remover. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Lide com a pasta . </td> 
+   <td colname="col4"> Processe a pasta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> <p>Quando <span class="codeph"> true</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">A remoção de permissões se propaga por meio de todas as operações de permissão da pasta. </li> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">A remoção de permissões se propaga por todas as operações de permissão de pastas. </li> 
      </ul> </p> <p>Quando <span class="codeph"> false</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">A operação afeta somente a pasta especificada. </li> 
@@ -71,7 +71,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Essa amostra de código remove permissões de uma pasta e suas subpastas. Defina `updateChildren` como `false` se precisar remover permissões somente da pasta pai.
+Esta amostra de código remove as permissões de uma pasta e suas subpastas. Definir `updateChildren` para `false` se precisar remover permissões somente da pasta principal.
 
 **Solicitação**
 

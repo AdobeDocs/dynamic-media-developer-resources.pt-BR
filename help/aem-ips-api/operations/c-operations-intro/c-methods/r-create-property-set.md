@@ -1,5 +1,5 @@
 ---
-description: Os conjuntos de propriedades são conjuntos específicos do aplicativo de pares de nome-valor que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
+description: Os conjuntos de propriedades são conjuntos específicos de pares de nome-valor do aplicativo que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # createPropertySet{#createpropertyset}
 
-Os conjuntos de propriedades são conjuntos específicos do aplicativo de pares de nome-valor que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
+Os conjuntos de propriedades são conjuntos específicos de pares de nome-valor do aplicativo que podem ser anexados a vários objetos IPS, dependendo do tipo de conjunto de propriedades. Se o tipo de conjunto de propriedades não permitir que vários conjuntos sejam anexados a um objeto (PropertySetType/allowMultipleisfalse) e o objeto já tiver um conjunto associado do mesmo tipo, o novo conjunto substituirá o existente.
 
 Sintaxe
 
@@ -31,8 +31,8 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sim | O identificador do tipo de conjunto de propriedades. |
-| primaryOwnerHandle | `xsd:string` | Sim | O identificador do proprietário principal do conjunto de propriedades. |
+| typeHandle | `xsd:string` | Sim | O identificador para o tipo de conjunto de propriedades. |
+| primaryOwnerHandle | `xsd:string` | Sim | O identificador para o proprietário principal do conjunto de propriedades. |
 | secondaryOwnerHandle | `xsd:string` | Não | O identificador para o proprietário secundário do conjunto de propriedades. |
 | propertyArray | `types:PropertyArray` | Sim | A matriz de propriedades. |
 | permissionArray | `types:PermissionUpdateArray` |  |  |
@@ -41,11 +41,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| setHandle | `xsd:string` | Sim | O identificador do novo conjunto de propriedades. |
+| setHandle | `xsd:string` | Sim | O identificador para o novo conjunto de propriedades. |
 
 ## Exemplos {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-Essa amostra de código cria um conjunto de propriedades que contém nomes e valores de propriedades. A resposta retorna um identificador para o novo conjunto de propriedades.
+Esta amostra de código cria um conjunto de propriedades que contém nomes e valores de propriedades. A resposta retorna um identificador para o novo conjunto de propriedades.
 
 **Solicitação**
 

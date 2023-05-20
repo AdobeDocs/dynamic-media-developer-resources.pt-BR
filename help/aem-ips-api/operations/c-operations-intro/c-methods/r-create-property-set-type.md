@@ -31,20 +31,20 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. If `companyHandle` não é transmitido e o chamador é um `IpsAdmin`, um tipo de conjunto de propriedades global é criado. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se `companyHandle` não é transmitido e o chamador é um `IpsAdmin`, um tipo de conjunto de propriedades global é criado. |
 | name | `xsd:string` | Sim | O nome do tipo de conjunto de propriedades. |
 | propertyType | `xsd:string` | Sim | Escolha dos tipos de conjunto de propriedades. |
-| allowMultiple | `xsd:boolean` | Sim | Determina se o programa pode ter vários conjuntos de propriedades. |
+| allowMultiple | `xsd:boolean` | Sim | Determina se seu programa pode ter vários conjuntos de propriedades. |
 
 **Saída (createPropertySetTypeReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Sim | Um identificador para o tipo . |
+| typeHandle | `xsd:string` | Sim | Um identificador para o tipo. |
 
 ## Exemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Essa amostra de código cria um conjunto de propriedades com um nome e um tipo especificados pela função `PropertySet Types` constante. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades global será criado.
+Esta amostra de código cria um conjunto de propriedades com um nome e tipo especificados pela variável `PropertySet Types` constante. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades globais será criado.
 
 **Solicitação**
 

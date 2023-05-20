@@ -1,7 +1,7 @@
 ---
 description: Obtém uma lista de contextos de publicação ativos para a empresa especificada. Um contexto de publicação é considerado ativo se houver pelo menos um servidor ativo definido para o contexto.
 solution: Experience Manager
-title: getAtivePublishContext
+title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# getAtivePublishContext{#getactivepublishcontext}
+# getActivePublishContext{#getactivepublishcontext}
 
 Obtém uma lista de contextos de publicação ativos para a empresa especificada. Um contexto de publicação é considerado ativo se houver pelo menos um servidor ativo definido para o contexto.
 
@@ -32,11 +32,11 @@ Sintaxe
 
 ## Parâmetros {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Entrada (getAtivePublishContextsParam)**
+**Entrada (getActivePublishContextsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa para consultar contextos de publicação ativos |
+| companyHandle | `xsd:string` | Sim | O identificador para a empresa consultar por contextos de publicação ativos |
 
 **Saída (getActivePublishContextsReturn)**
 

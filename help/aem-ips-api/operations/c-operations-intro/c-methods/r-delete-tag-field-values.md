@@ -1,5 +1,5 @@
 ---
-description: Remove valores de campo de tag do dicionário de um campo de tag.
+description: Remove os valores de campo de tag do dicionário de um campo de tag.
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
-Remove valores de campo de tag do dicionário de um campo de tag.
+Remove os valores de campo de tag do dicionário de um campo de tag.
 
 ## Tipos de usuário autorizados {#section-e6f97c875c2a4cf0a7bc22096b649497}
 

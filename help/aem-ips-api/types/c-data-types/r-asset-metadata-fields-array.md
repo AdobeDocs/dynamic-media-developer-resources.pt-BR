@@ -1,5 +1,5 @@
 ---
-title: AssetMetadataFieldsArray
+title: MatrizDeCamposDeMetadadosDoAtivo
 description: Uma matriz de AssetMetadataFields. Usado por getAssetMetadataFields para retornar todos os campos de metadados de ativos em uma única chamada com resultados agrupados por tipo de ativo.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:AssetMetadataFields` | Um `AssetMetadataFields` item de matriz. |
+| itens | `types:AssetMetadataFields` | Um `AssetMetadataFields` item da matriz. |

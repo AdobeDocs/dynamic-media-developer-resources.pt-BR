@@ -1,5 +1,5 @@
 ---
-description: Referência da API do JavaScript para o Visualizador de vídeo.
+description: Referência da API JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API do JavaScript para o Visualizador de vídeo.
+Referência da API JavaScript para o Visualizador de vídeo.
 
 [!DNL ` setAsset( *`ativo`*)`]
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Cadeia de caracteres </span>} nova id de ativo ou conjunto de imagens explícito com modificadores opcionais do Image Serving anexados após <span class="codeph"> ? </span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nova ID do ativo ou conjunto de imagens explícitas com modificadores opcionais do Servidor de imagens anexados após <span class="codeph"> ? </span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Conjunto de imagens explícito, com imagens de página individuais:
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")
 ```
 
-Modificador de nitidez adicionado a todas as imagens no conjunto:
+Modificador de nitidez adicionado a todas as imagens do conjunto:
 
 ```
  <instance>.setAsset("Viewers/Pluralist?op_sharpen=1")

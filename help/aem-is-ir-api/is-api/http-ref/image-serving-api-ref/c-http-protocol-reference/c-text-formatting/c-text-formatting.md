@@ -1,26 +1,26 @@
 ---
-description: O Image Serving fornece várias alternativas para renderizar texto, acessíveis com os comandos text= e textPs= .
+description: O Servidor de imagens fornece várias alternativas para renderizar o texto, acessíveis com os comandos text= e textPs=.
 solution: Experience Manager
 title: Formatação de texto
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Formatação de texto{#text-formatting}
 
-O Image Serving fornece várias alternativas para renderizar texto, acessíveis com os comandos text= e textPs= .
+O Servidor de imagens fornece várias alternativas para renderizar o texto, acessíveis com os comandos text= e textPs=.
 
 `textPs=` O fornece um alto nível de similaridade com o texto renderizado com o Adobe Photoshop e o Illustrator. `text=` é razoavelmente compatível com o texto renderizado com o Windows Wordpad.
 
 >[!NOTE]
 >
->Além das diferenças listadas em outro lugar, `text=` produz sutis diferenças no texto renderizado quando comparado a `textPs=`. Por exemplo, sublinhados não têm a mesma espessura e posição, e itálico sintetizado é renderizado em um ângulo um pouco diferente. Se o texto não se encaixar no espaço disponível, `text=` poderá cortar parcialmente a última linha, enquanto `textPs=` renderizará apenas as linhas completas.
+>Além das diferenças listadas em outros lugares, `text=` produz diferenças sutis no texto renderizado quando comparado com `textPs=`. Por exemplo, os sublinhados não têm a mesma espessura e posição e o itálico sintetizado é renderizado em um ângulo ligeiramente diferente. Se o texto não se ajustar ao espaço disponível, `text=` pode cortar parcialmente a última linha, enquanto `textPs=` O só irá renderizar linhas completas.
 
 Todos os comandos de texto aceitam texto formatado com base em um subconjunto da especificação RTF (Rich Text Format). Cada camada de texto pode especificar um comando de texto diferente.
 
@@ -43,7 +43,7 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Fluir texto em formas arbitrárias </p> </td> 
+   <td> <p>Fluxo de texto em formas arbitrárias </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>textFlowPath=, textFlowXPath= </p> </td> 
@@ -55,61 +55,61 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
    <td> <p>textPath= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Montagem de cópias </p> </td> 
+   <td> <p>Ajuste de cópia </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
-   <td> Ajuste de cópia <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
+   <td> Copiar ajuste <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Margens da caixa de texto </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
-   <td> <p><pre>\margin</pre>, <pre>\margr</pre>, <pre>\margin</pre>, <pre>\margin</pre> </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Justificação completa do parágrafo </p> </td> 
+   <td> <p>Justificação de parágrafo completo </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>justificação da última linha </p> </td> 
+   <td> <p>justificativa da última linha </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>\lastql, \lastqr, \lastqc, \lastqj </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Recuo de parágrafo </p> </td> 
+   <td> <p>Recuo do parágrafo </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>\fi, \li, \ri </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Todas as maiúsculas e texto de maiúsculas </p> </td> 
+   <td> <p>Texto em maiúsculas e minúsculas </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
-   <td> <p>\caps, \scaps </p> </td> 
+   <td> <p>\caps, \escapes </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Cores do fornecimento de imagens </p> </td> 
+   <td> <p>Cores do Servidor de imagens </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>\*\iscolortbl </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Vários modos anti-aliasing </p> </td> 
+   <td> <p>Vários modos de suavização de borda </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>fluxo de texto superior inferior/direito à esquerda </p> </td> 
+   <td> <p>fluxo de texto superior-inferior/direito-esquerdo </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>\stextFlow </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Suporte para Photofont® </p> </td> 
+   <td> <p>Suporte para o Photofont® </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>sim </p> </td> 
    <td> Manuseio de fonte </td> 
@@ -124,7 +124,7 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
    <td> <p>Suporte a CMYK </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>sim </p> </td> 
-   <td> <p>\cmykcolortbl, \*\iscolortbl </p> </td> 
+   <td> <p>\cmykcolortbl,\ *\iscolortbl </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fluxo de caracteres da direita para a esquerda </p> </td> 
@@ -139,7 +139,7 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
    <td> <p>textAttr= </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dimensionar o texto automaticamente para ajustá-lo à camada (por resolução variável) </p> </td> 
+   <td> <p>Dimensionar o texto automaticamente para ajustar-se à camada (variando a resolução) </p> </td> 
    <td> <p>sim </p> </td> 
    <td> <p>não </p> </td> 
    <td> <p>textAttr= </p> </td> 
@@ -147,23 +147,23 @@ A tabela a seguir lista os principais recursos disponíveis para cada comando de
  </tbody> 
 </table>
 
-As strings compatíveis com RTF podem ser montadas manualmente ou formatando o texto desejado em um editor de texto ou processador de texto capaz de salvar arquivos RTF. O arquivo RTF pode então ser aberto em um editor de texto simples e o conteúdo RTF bruto relevante do arquivo copiado para o URL da solicitação.
+As cadeias de caracteres compatíveis com RTF podem ser montadas manualmente ou formatando o texto desejado em um editor de texto ou processador de texto capaz de salvar arquivos RTF. O arquivo RTF pode então ser aberto em um editor de texto simples, e o conteúdo RTF bruto relevante do arquivo copiado para o URL da solicitação.
 
-Alguns processadores de texto geram arquivos muito grandes, que incluem preâmbulos substanciais que não são usados pelo Dynamic Media Image Serving. Recomenda-se remover os elementos RTF não utilizados da string antes de passar a string para os comandos de texto.
+Alguns processadores de texto geram arquivos muito grandes, que incluem preâmbulos substanciais que não são usados pelo Dynamic Media Image Serving. É recomendável remover os elementos RTF não utilizados da cadeia de caracteres antes de passá-la para os comandos de texto.
 
-A codificação de idioma baseada em padrões UTF-8 e ISO é suportada em strings RTF como uma alternativa aos mecanismos padrão de codificação de caracteres RTF. Isso permite que os aplicativos enviem texto em idioma diferente do inglês para o servidor sem conhecimento da codificação RTF.
+A codificação de idioma com base nos padrões UTF-8 e ISO é suportada em cadeias de caracteres RTF como uma alternativa aos mecanismos de codificação de caracteres RTF padrão. Isso permite que os aplicativos enviem texto em inglês para o servidor sem conhecimento de codificação RTF.
 
-Todos os caracteres não compatíveis com HTTP devem ser escapados corretamente, se a sequência de caracteres for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam ser evitados se a cadeia de caracteres for incorporada ao campo `catalog::Modifiers` de um registro de catálogo de imagem. Caracteres de controle, incluindo `<CR>`, `<LF>` e `<TAB>` devem ser sempre removidos.
+Todos os caracteres compatíveis com não HTTP devem ter escape adequado, se a cadeia de caracteres for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam de escape se a sequência de caracteres estiver incorporada no `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`, e `<TAB>` deve ser sempre removido.
 
-Os mecanismos de texto do Image Serving interpretam um subconjunto de comandos definidos pela Especificação Rich Text Format (RTF), versão 1.6. Esse subconjunto é focado na formatação de fonte/caractere, formatação de parágrafo simples e suporte para fontes e conjuntos de caracteres internacionais. No momento, não há suporte para construções de formatação mais avançadas, como folhas de estilos e tabelas.
+Os mecanismos de texto do Servidor de imagens interpretam um subconjunto de comandos definidos pela Especificação Rich Text Format (RTF), versão 1.6. Esse subconjunto tem como foco a formatação de fonte/caractere, a formatação de parágrafo simples e o suporte para fontes e conjuntos de caracteres internacionais. Não há suporte para construções de formatação mais avançadas, como folhas de estilos e tabelas, no momento.
 
-Familiaridade com a especificação Rich Text Format (RTF), conforme publicada pela Microsoft, é necessária ao tentar construir strings de texto codificadas em RTF manualmente.
+É necessária a familiaridade com a Especificação de Formato Rich Text (RTF), conforme publicada pelo Microsoft, ao tentar criar cadeias de texto codificadas em RTF manualmente.
 
-* [Tratamento de fontes](r-font-handling.md)
+* [Manuseio de fonte](r-font-handling.md)
 * [Tratamento de cores](r-color-handling.md)
-* [Montagem de cópias](r-copy-fitting.md)
+* [Ajuste de cópia](r-copy-fitting.md)
 * [Camadas de texto](r-text-layers.md)
 * [Posicionamento do texto](r-text-positioning.md)
 * [Caracteres reservados](r-reserved-characters.md)
-* [Comandos e palavras-chave RTF suportados](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
+* [Comandos e palavras-chave RTF compatíveis](c-supported-rtf-commands-and-keywords/c-supported-rtf-commands-and-keywords.md)
 * [Exemplos de codificação RTF](r-rtf-encoding-examples.md)

@@ -1,6 +1,6 @@
 ---
 title: Área do visualizador principal
-description: A área de visualização principal é a área ocupada pela imagem de zoom. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+description: A área de visualização principal é a área ocupada pela imagem de zoom. Normalmente, ele é configurado para se ajustar à tela do dispositivo disponível quando nenhum tamanho é especificado.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Área do visualizador principal{#main-viewer-area}
 
-A área de visualização principal é a área ocupada pela imagem de zoom. Normalmente, ele é configurado para ajustar a tela de dispositivo disponível quando nenhum tamanho é especificado.
+A área de visualização principal é a área ocupada pela imagem de zoom. Normalmente, ele é configurado para se ajustar à tela do dispositivo disponível quando nenhum tamanho é especificado.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência da área de visualização é controlada com o seguinte seletor de classe CSS:
 
@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
    <td colname="col2"> <p>A largura do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo em formato hexadecimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador com fundo branco ( `#FFFFFF`) e torne seu tamanho de 512 x 288 pixels.
+Exemplo - para configurar um visualizador com fundo branco ( `#FFFFFF`) e definir seu tamanho como 512 x 288 pixels.
 
 ```
 .s7basiczoomviewer{ 

@@ -29,7 +29,7 @@ Retorna informações sobre a estrutura de uma empresa (número de arquivos, etc
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa cujo uso de disco você deseja obter. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa cujo uso do disco você deseja obter. |
 
 **Saída (getDiskUsageReturn)**
 
@@ -39,7 +39,7 @@ Retorna informações sobre a estrutura de uma empresa (número de arquivos, etc
 
 ## Exemplos {#section-cb16a97badc94076ad5da277db5ed16a}
 
-O nome deste pedido é enganador. Em vez de retornar apenas um valor escalar que reflete quanto espaço em disco uma empresa está usando, ela também recebe outras informações sobre a estrutura de uma empresa.
+O nome desta solicitação é enganoso. Em vez de retornar apenas um valor escalar que reflete o espaço em disco utilizado por uma empresa, ele obtém também outras informações sobre a estrutura de uma empresa.
 
 **Solicitação**
 

@@ -1,5 +1,5 @@
 ---
-description: A Renderização de Imagem é incorporada ao Servidor de Imagem do Servidor de Imagem e [!DNL Platform Server] componentes.
+description: A Renderização de imagem é incorporada ao Servidor de imagens do Servidor de imagens e [!DNL Platform Server] componentes.
 solution: Experience Manager
 title: Iniciar e parar o servidor
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Iniciar e parar o servidor{#starting-and-stopping-the-server}
 
-A Renderização de Imagem é incorporada ao Servidor de Imagem do Servidor de Imagem e [!DNL Platform Server] componentes.
+A Renderização de imagem é incorporada ao Servidor de imagens do Servidor de imagens e [!DNL Platform Server] componentes.
 
-Consulte a Documentação de disponibilização de imagens para obter mais informações.
+Consulte a Documentação do Servidor de imagens para obter mais informações.

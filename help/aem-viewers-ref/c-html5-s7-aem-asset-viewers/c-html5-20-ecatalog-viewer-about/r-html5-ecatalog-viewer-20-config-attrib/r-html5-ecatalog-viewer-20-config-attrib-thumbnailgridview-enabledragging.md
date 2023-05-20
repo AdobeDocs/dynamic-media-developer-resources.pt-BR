@@ -8,7 +8,7 @@ exl-id: e3615e82-d8f0-427e-ab32-f7d0f2b6cbf3
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td> <p> Ativa ou desativa a capacidade de um usuário rolar as amostras com um mouse ou usando gestos de toque </p> </td> 
+   <td> <p> Ativa ou desativa a opção de rolagem das amostras com o mouse ou com gestos de toque </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funções no <span class="codeph"> 0-1 </span> intervalo. É um <span class="codeph"> % </span> valor do movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, não permite que você se mova na direção errada. </p> </td> 
+   <td> <p> Funções na <span class="codeph"> 0-1 </span> intervalo. Trata-se <span class="codeph"> % </span> valor do movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>No entanto, ela não permite que você se mova na direção errada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

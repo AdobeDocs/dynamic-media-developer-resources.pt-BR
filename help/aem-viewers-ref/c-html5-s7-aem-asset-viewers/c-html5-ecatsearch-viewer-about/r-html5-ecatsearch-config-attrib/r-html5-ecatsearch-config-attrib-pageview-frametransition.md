@@ -2,34 +2,34 @@
 description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 19239fa8-65a8-487f-9370-42bb93d862d5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
 
 # PageView.frametransition{#pageview-frametransition}
 
-[!DNL ` [PageView.|<containerId>_pageView.]frametransition=slide|turn|auto[, *`duration`*]`]
+[!DNL ` [PageView.|<containerId>_pageView.]frametransition=slide|turn|auto[, *`duração`*]`]
 
 <table id="table_625D0EEDA21B46FEA3F5CF7DDF769B50"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> slide|rodar|automático</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de efeito que é aplicado na alteração de quadro. </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> slide|turn|auto</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de efeito aplicado na alteração do quadro. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> O </span> slide ativa uma transição em que o quadro antigo desliza para fora da exibição e os novos slides do quadro para exibir. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> </span> ativa um efeito de virar página, quando um usuário pode arrastar um dos quatro cantos de disseminação e executar um flip de página interativo. </p> <p>Quando <span class="codeph"> Turn</span> é usado, a aparência do componente é controlada com o modificador <span class="codeph"> pageturnstyle</span> e a classe CSS <span class="codeph"> .s7pagedivider</span> é ignorada. </p> <p>Observação:  <p><span class="codeph"> </span> a animação não é compatível com o Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> O </span> define automaticamente a transição de giro em sistemas de desktop e a transição de slide em dispositivos de toque. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> slide</span> ativa uma transição em que o quadro antigo desaparece da exibição e o novo quadro surge na exibição. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> girar</span> permite um efeito de inversão de página, quando um usuário pode arrastar um dos quatro cantos espelhados e executar um inversão de página interativo. </p> <p>Quando <span class="codeph"> girar</span> é usada a aparência do componente é controlada com a tag <span class="codeph"> pageturnstyle</span> modificador e o <span class="codeph"> .s7pagedivider</span> A classe CSS é ignorada. </p> <p>Nota:  <p><span class="codeph"> girar</span> animação não é suportada no Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> automático</span> define a transição de estrutura de virada em sistemas desktop e a transição de slides em dispositivos de toque. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica a duração em segundos de um efeito de transição <span class="codeph"> slide</span> ou <span class="codeph"> girar</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> duração</span></span> </p> </td> 
+   <td colname="col2"> <p>Especifica a duração em segundos de um <span class="codeph"> slide</span> ou <span class="codeph"> girar</span> efeito de transição. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Obtém as sequências de pesquisa, palavras-chave e outras informações sobre um ativo. A resposta contém informações adicionais sobre o ativo.
+description: Obtém as cadeias de caracteres de pesquisa, palavras-chave e outras informações sobre um ativo. A resposta contém informações adicionais sobre o ativo.
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getSearchStrings{#getsearchstrings}
 
-Obtém as sequências de pesquisa, palavras-chave e outras informações sobre um ativo. A resposta contém informações adicionais sobre o ativo.
+Obtém as cadeias de caracteres de pesquisa, palavras-chave e outras informações sobre um ativo. A resposta contém informações adicionais sobre o ativo.
 
 Sintaxe
 
@@ -31,18 +31,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
-| assetHandle | `xsd:string` | Sim | Lidar com o ativo. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
+| assetHandle | `xsd:string` | Sim | Identificar o ativo. |
 
 **Saída (getSearchStringsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| searchStringArray | `types:SearchStrings` | Sim | Uma matriz de cadeias de caracteres de pesquisa de ativos. |
+| searchStringArray | `types:SearchStrings` | Sim | Uma matriz de sequências de caracteres de pesquisa de ativos. |
 
 ## Exemplos {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-Essa amostra de código retorna cadeias de pesquisa específicas do ativo. A resposta retorna uma matriz vazia.
+Esta amostra de código retorna sequências de pesquisa específicas do ativo. A resposta retorna uma matriz vazia.
 
 **Solicitação**
 

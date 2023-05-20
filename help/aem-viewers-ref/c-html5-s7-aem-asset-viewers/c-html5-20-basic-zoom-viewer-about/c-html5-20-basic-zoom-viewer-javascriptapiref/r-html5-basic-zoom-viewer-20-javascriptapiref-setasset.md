@@ -1,20 +1,20 @@
 ---
 title: setAsset
-description: Referência da API do JavaScript para o Visualizador básico de zoom.
+description: Referência da API JavaScript para o Visualizador de zoom básico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
 # setAsset{#setasset}
 
-Referência da API do JavaScript para o Visualizador básico de zoom.
+Referência da API JavaScript para o Visualizador de zoom básico.
 
 ` setAsset( *`ativo`*)`
 
@@ -22,7 +22,7 @@ Referência da API do JavaScript para o Visualizador básico de zoom.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, com modificadores IS opcionais anexados após "?" </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} ID do novo ativo, com modificadores IS opcionais anexados após "?" </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +43,7 @@ Referência de imagem única:
 <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Modificador de nitidez adicionado a todas as imagens no conjunto:
+Modificador de nitidez adicionado a todas as imagens do conjunto:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B?op_sharpen=1")

@@ -2,12 +2,12 @@
 description: Exclui vários ativos.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>O número de ativos excluídos com êxito. </p> </td> 
+   <td colname="col4"> <p>O número de ativos excluídos com sucesso. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
@@ -103,7 +103,7 @@ Sintaxe
 
 ## Exemplos {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Esta amostra de código envia um identificador para uma empresa e uma matriz de identificadores de ativos em uma solicitação `deleteAssetsParam` para o servidor de serviços da Web. `deleteAssetsReturn` retorna uma contagem de sucesso de 2, indicando que ambos os ativos foram excluídos.
+Esta amostra de código envia um identificador a uma empresa e uma matriz de identificadores de ativos em um `deleteAssetsParam` para o servidor de serviços Web. `deleteAssetsReturn` retorna uma contagem de sucesso de 2, indicando que ambos os ativos foram excluídos.
 
 **Solicitação**
 

@@ -2,12 +2,12 @@
 description: Se xml for especificado como o formato de resposta, os dados de resposta serão formatados como um documento XML que pode ser analisado por qualquer analisador XML padrão.
 solution: Experience Manager
 title: Propriedades XML
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,8 @@ Um documento de resposta de propriedades típicas tem esta estrutura geral:
 </prop-group>
 ```
 
-O elemento `<prop-group>` é usado como o contêiner mais externo e para agrupar propriedades. Se um grupo for nomeado, o nome corresponderá ao nome do objeto Java/JavaScript.
+A variável `<prop-group>` O elemento é usado como o contêiner mais externo e para agrupar propriedades. Se um grupo for nomeado, o nome corresponderá ao nome do objeto Java/JavaScript.
 
 >[!NOTE]
 >
->A codificação de caracteres pode ser especificada para alguns tipos `req=`. Consulte a descrição do comando específico `req=`para obter detalhes.
+>A codificação de caracteres pode ser especificada para alguns `req=` tipos. Consulte a descrição da variável `req=`para obter detalhes.

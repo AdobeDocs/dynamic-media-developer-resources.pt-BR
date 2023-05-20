@@ -1,6 +1,6 @@
 ---
-title: BasicZoomViewer
-description: Referência da API do JavaScript para o Visualizador básico de zoom.
+title: VisualizadorDeZoomBásico
+description: Referência da API JavaScript para o Visualizador de zoom básico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -8,30 +8,30 @@ exl-id: 320f740e-c6b9-44d6-9369-9c2ec31189c5
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# BasicZoomViewer{#basiczoomviewer}
+# VisualizadorDeZoomBásico{#basiczoomviewer}
 
-Referência da API do JavaScript para o Visualizador básico de zoom.
+Referência da API JavaScript para o Visualizador de zoom básico.
 
 `BasicZoomViewer([config])`
 
-Construtor, cria uma instância do Visualizador de Zoom Básico.
+Construtor, cria uma ocorrência do Visualizador de zoom básico.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configuração </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {object} </span> objeto de configuração JSON opcional, permite que todas as configurações do visualizador sejam transmitidas ao construtor para evitar chamar métodos de setter individuais. Contém as seguintes propriedades: </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {object} </span> objeto de configuração JSON opcional, permite que todas as configurações do visualizador sejam transmitidas para o construtor para evitar a chamada de métodos setter individuais. Contém as seguintes propriedades: </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID do contêiner DOM (normalmente um <span class="codeph"> DIV </span>) em que o visualizador é inserido. Quando esse método é chamado, não é necessário criar o elemento container. No entanto, o contêiner deve existir quando <span class="codeph"> init() </span> é executado. Obrigatório. </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params </span> - <span class="codeph"> {Objeto} </span> Objeto JSON com parâmetros de configuração do visualizador em que o nome da propriedade é a opção de configuração específica do visualizador ou o modificador de SDK, e o valor dessa propriedade é um valor de configurações correspondente. Obrigatório. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> manipuladores </span> - <span class="codeph"> {Objeto} </span> Objeto JSON com retornos de chamada do evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para o retorno de chamada apropriado. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> Retornos de chamada do evento </a> para obter mais informações sobre eventos do visualizador. </p> </li> 
-      <li id="li_528FE03845F847E08F964E38D6AB6E86"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Objeto} </span> Objeto JSON com dados de localização. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localização dos elementos da interface do usuário </a> para obter mais informações. </p> <p> Consulte também a <i>Guia do usuário do SDK do visualizador</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. Opcional </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID do contêiner DOM (normalmente um <span class="codeph"> DIV </span>) em que o visualizador está inserido. Quando esse método é chamado, não é necessário criar o elemento de contêiner. No entanto, o contêiner deve existir quando <span class="codeph"> init() </span> é executado. Obrigatório. </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> Objeto JSON com parâmetros de configuração do visualizador, em que o nome da propriedade é uma opção de configuração específica do visualizador ou um modificador SDK, e o valor dessa propriedade é um valor de configurações correspondente. Obrigatório. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> manipuladores </span> - <span class="codeph"> {Object} </span> O objeto JSON com retornos de chamada de evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para o retorno de chamada apropriado. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> Retornos de chamada de evento </a> para obter mais informações sobre eventos do visualizador. </p> </li> 
+      <li id="li_528FE03845F847E08F964E38D6AB6E86"> <p> <span class="codeph"> textoslocalizados </span> - <span class="codeph"> {Object} </span> Objeto JSON com dados de localização. Opcional. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localização dos elementos da interface do usuário </a> para obter mais informações. </p> <p> Consulte também a <i>Guia do usuário do Viewer SDK</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. Opcional </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

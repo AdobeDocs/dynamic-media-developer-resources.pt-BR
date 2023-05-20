@@ -1,18 +1,18 @@
 ---
 description: Tipo de solicitação. Especifica o tipo de solicitação.
 solution: Experience Manager
-title: req
-feature: Dynamic Media Classic, SDK/API
+title: solic
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-# req{#req}
+# solic{#req}
 
 Tipo de solicitação. Especifica o tipo de solicitação.
 
@@ -26,21 +26,21 @@ Tipo de solicitação. Especifica o tipo de solicitação.
 * [loadcache](r-loadcache.md)
 * [mapa](r-map-req.md)
 * [máscara](r-mask-req.md)
-* [mrSet](r-mbrset.md)
-* [message](r-message.md)
+* [mbrSet](r-mbrset.md)
+* [mensagem](r-message.md)
 * [props](r-props.md)
-* [resolve](r-resolve.md)
+* [resolver](r-resolve.md)
 * [saveToFile](r-savetofile.md)
 * [set](r-set.md)
 * [targets](r-targets.md)
 * [tmb](r-tmb.md)
 * [userdata](r-userdata.md)
-* [validate](r-is-http-validate.md)
+* [validar](r-is-http-validate.md)
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Salvo indicação em contrário nas descrições detalhadas, o servidor retorna `text` respostas com o tipo MIME `text/plain`. Muitos tipos de solicitação permitem especificar um tipo de resposta, como `text`, que normalmente é o padrão, `javascript`, `xml` ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml` e `text/javascript`, respectivamente.
+A menos que seja indicado de outra forma nas descrições detalhadas, o servidor retorna `text` respostas com tipo MIME `text/plain`. Muitos tipos de solicitação permitem especificar um tipo de resposta, como `text`, que normalmente é o padrão, `javascript`, `xml`ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml`, e `text/javascript`, respectivamente.
 
-Salvo indicação em contrário, as respostas formatar a resposta como um conjunto de pares `name=value`.
+Salvo indicação em contrário, as respostas formatam a resposta como um conjunto de `name=value` pares.
 
 Consulte [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

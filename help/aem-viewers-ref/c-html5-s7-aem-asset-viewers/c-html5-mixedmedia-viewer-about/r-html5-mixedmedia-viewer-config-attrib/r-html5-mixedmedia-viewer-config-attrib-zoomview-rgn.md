@@ -8,7 +8,7 @@ exl-id: b5ac5c43-3a02-4163-8683-db08e988223b
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Região inicial de interesse em coordenadas de pixel. Se esse valor não for especificado, a imagem inteira se encaixará no visor inicial. </p> </td> 
+   <td colname="col2"> <p> Região de interesse inicial em coordenadas de pixel. Se esse valor não for especificado, a imagem inteira será ajustada dentro do viewport inicial. </p> </td> 
   </tr> 
  </tbody> 
 </table>

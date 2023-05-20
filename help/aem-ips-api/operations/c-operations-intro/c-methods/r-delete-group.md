@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Este código de amostra exclui um grupo de uma empresa. Requer um identificador de grupo, que deve ser obtido de outra operação.
+Este código de amostra exclui um grupo de uma empresa. Ela requer um identificador de grupo, que deve ser obtido de outra operação.
 
 **Solicitação**
 

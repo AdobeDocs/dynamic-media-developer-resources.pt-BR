@@ -1,26 +1,26 @@
 ---
-description: Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
+description: String de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, a data de publicação etc.
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 32bd12cf-f149-489f-ae74-f1da051d0730
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
 # PublishInfo{#publishinfo}
 
-Sequência de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, data de publicação, etc.
+String de anotação do catálogo. Sequência de texto que pode ser usada para identificar a versão do catálogo, a data de publicação etc.
 
-O conteúdo deste campo é retornado com `req=catalogprops`. Caso contrário, este atributo não será utilizado.
+O conteúdo deste campo é retornado com `req=catalogprops`. Caso contrário, esse atributo não será usado.
 
 ## Propriedades {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
-Sequência de texto.
+String de texto.
 
 ## Padrão {#section-82e5a885e142414f996c609efbb962b1}
 

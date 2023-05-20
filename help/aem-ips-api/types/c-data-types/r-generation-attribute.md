@@ -1,5 +1,5 @@
 ---
-description: Um par nome-valor que contém informações sobre uma etapa de geração de ativos. Consulte getGenerationInfo.
+description: Um par nome-valor que contém informações sobre a etapa de geração de um ativo. Consulte getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '38'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # [!DNL GenerationAttribute]{#generationattribute}
 
-Um par nome-valor que contém informações sobre uma etapa de geração de ativos. Consulte getGenerationInfo.
+Um par nome-valor que contém informações sobre a etapa de geração de um ativo. Consulte getGenerationInfo.
 
 Sintaxe
 

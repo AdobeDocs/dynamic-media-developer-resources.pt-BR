@@ -16,4 +16,4 @@ ht-degree: 0%
 
 O número da camada também determina a ordem z.
 
-É necessária a camada 0 (a camada de fundo); outros números de camada não precisam ser consecutivos e são desenhados sobre a camada de plano de fundo, em ordem de número de camada crescente. A camada com o número de camada mais alto é renderizada na parte superior e nunca é ocultada por outras camadas.
+A camada 0 (a camada de plano de fundo) é obrigatória; outros números de camada não precisam ser consecutivos e são desenhados na parte superior da camada de plano de fundo, em ordem crescente do número da camada. A camada com o número mais alto é renderizada na parte superior e nunca é ocultada por outras camadas.

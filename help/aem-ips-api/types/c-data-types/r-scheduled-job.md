@@ -1,7 +1,7 @@
 ---
-description: Uma tarefa agendada para execução.
+description: Um trabalho programado para ser executado.
 solution: Experience Manager
-title: ScheduledJob
+title: Trabalho Agendado
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ScheduledJob]{#scheduledjob}
 
-Uma tarefa agendada para execução.
+Um trabalho programado para ser executado.
 
 Sintaxe
 
@@ -22,32 +22,32 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| companyHandle | `xsd:string` | Manuseio da empresa. |
-| jobHandle | `xsd:string` | Manuseio de trabalho agendado. |
-| name | `xsd:string` | Nome da tarefa. |
+| companyHandle | `xsd:string` | Identificador da empresa. |
+| jobHandle | `xsd:string` | Identificador de trabalho agendado. |
+| name | `xsd:string` | Nome do trabalho. |
 | originalName | `xsd:string` | Nome original do trabalho agendado. |
-| type | `xsd:string` | Tipo de tarefa. |
+| type | `xsd:string` | Tipo de trabalho. |
 | submitUserEmail | `xsd:string` | O endereço de email do usuário que agendou o trabalho. |
-| locale | `xsd:string` | A localidade a ser usada para detalhes do log de tarefas e localização de email. As localidades são especificadas como `<language_code>[- <country_code>]`, em que o código linguístico é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional do país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres da localidade para inglês (Estados Unidos) seria: `en-US`. |
-| descrição | `xsd:string` | Uma descrição da tarefa conforme especificado originalmente em `submitJob`. |
-| execSchedule | `xsd:string` | Quando a tarefa estiver agendada para execução. |
-| nextFireTime | `xsd:dateTime` | A data, a hora e o fuso horário em que a tarefa é acionada. |
+| localidade | `xsd:string` | A localidade a ser usada para detalhes do log de trabalho e localização do email. As localidades são especificadas como `<language_code>[- <country_code>]`, em que o código de idioma é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional de país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres do local para inglês (Estados Unidos) seria: `en-US`. |
+| descrição | `xsd:string` | Uma descrição do processo, conforme especificado originalmente em `submitJob`. |
+| execSchedule | `xsd:string` | Quando o trabalho está programado para ser executado. |
+| nextFireTime | `xsd:dateTime` | A data, hora e fuso horário em que o trabalho é acionado. |
 | timeZone | `xsd:dateTime` | O fuso horário do trabalho agendado. |
-| triggerState | `xsd:int` | Estado do gatilho de escolha de trabalho. |
-| imageServingPublishJob | `types:ImageServingPublishJob` | Detalhes do trabalho para um trabalho de publicação de fornecimento de imagem. |
+| triggerState | `xsd:int` | Escolha do estado do acionador do trabalho. |
+| imageServingPublishJob | `types:ImageServingPublishJob` | Detalhes de um trabalho de publicação de servidor de imagens. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Detalhes do trabalho para um trabalho de renderização de imagem. |
-| videoPublishJob | `types:VideoPublishJob` | Detalhes do trabalho para um trabalho de publicação de vídeo. Consulte [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
-| serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Detalhes do trabalho para um trabalho de publicação do diretório do servidor. |
-| uploadDirectoryJob | `types:UploadDirectoryJob` | Detalhes do trabalho para um trabalho de diretório de upload. |
-| uploadUrlsJob | `types:UploadUrlsJob` | Detalhes do trabalho para um trabalho de upload de URLs. |
+| videoPublishJob | `types:VideoPublishJob` | Detalhes de um trabalho de publicação de vídeo. Consulte [TrabalhoDePublicaçãoDeVídeo](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Detalhes do trabalho de publicação de um diretório de servidor. |
+| uploadDirectoryJob | `types:UploadDirectoryJob` | Detalhes do job para um job do diretório de upload. |
+| uploadUrlsJob | `types:UploadUrlsJob` | Detalhes do trabalho para um trabalho de URLs de upload. |
 | otimizeImagesJob | `types:OptimizeImagesJob` |  |
 | ripPdfsJob | `types:RipPdfsJob` |  |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` |  |
-| exportJob | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar trabalho](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| exportJob | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar tarefa](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Ao especificar um valor do tipo de tarefa em `submitJob`, o sistema retorna uma tarefa com base nesse tipo. As seguintes tarefas podem ser retornadas:
+Quando você especifica um valor de tipo de trabalho em `submitJob`, o sistema retorna um trabalho com base nesse tipo. As seguintes tarefas podem ser retornadas:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

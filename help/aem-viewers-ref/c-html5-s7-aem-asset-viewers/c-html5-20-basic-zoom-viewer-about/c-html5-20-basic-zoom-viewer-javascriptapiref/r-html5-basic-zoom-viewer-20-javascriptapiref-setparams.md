@@ -1,26 +1,26 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o Visualizador básico de zoom.
+description: Referência da API JavaScript para o Visualizador de zoom básico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f142dd72-5e45-44f6-a79b-3eaf6a310bde
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o Visualizador básico de zoom.
+Referência da API JavaScript para o Visualizador de zoom básico.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Como em uma sequência de consulta, os nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. Como em uma sequência de consulta, os nomes e os valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
-Esse método é opcional se as informações de configuração do visualizador tiverem sido passadas com `config` Objeto JSON para construtor.
+Esse método é opcional se as informações de configuração do visualizador foram passadas com `config` Objeto JSON para construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 

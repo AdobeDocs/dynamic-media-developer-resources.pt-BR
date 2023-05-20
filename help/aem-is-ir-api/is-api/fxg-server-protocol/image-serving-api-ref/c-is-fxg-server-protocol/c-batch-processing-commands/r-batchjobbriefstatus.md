@@ -1,6 +1,6 @@
 ---
-title: batchjobbrief
-description: Recuperar o status resumido de um job enviado.
+title: batchjobbriefstatus
+description: Recuperar status resumido de um trabalho enviado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# batchjobbrief{#batchjobbriefstatus}
+# batchjobbriefstatus{#batchjobbriefstatus}
 
-Recuperar o status resumido de um job enviado.
+Recuperar status resumido de um trabalho enviado.
 
 Este parâmetro:
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>ID do trabalho obtida no momento do envio. </p> </td> 
+  <td class="stentry"> <p>A ID do trabalho obtida no momento do envio. </p> </td> 
  </tr> 
 </table>
 
-Retorna:
+Devoluções:
 
-Breve status da tarefa no formato XML; erro se o jobid for inválido ou o trabalho tiver sido excluído.
+Breve status do trabalho no formato XML; erro se a id do trabalho for inválida ou se o trabalho tiver sido excluído.
 
 ## Exemplo {#section-806460949bb043438ad4dd4e7ab74145}
 

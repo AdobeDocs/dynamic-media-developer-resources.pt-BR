@@ -18,4 +18,4 @@ Algumas restrições se aplicam ao aninhamento e à incorporação.
 
 Para um bom desempenho do servidor, a resolução de imagens retornadas por solicitações aninhadas deve corresponder razoavelmente à resolução de textura dos objetos aos quais o material está sendo aplicado.
 
-Imagens estrangeiras são armazenadas em cache localmente. Quaisquer alterações nessas imagens são detectadas somente após a entrada do cache local se tornar obsoleta (com base no cabeçalho HTTP expirado).
+Imagens estrangeiras são armazenadas em cache localmente. Quaisquer alterações nessas imagens são detectadas somente depois que a entrada de cache local se torna obsoleta (com base no cabeçalho HTTP expires ).

@@ -1,18 +1,18 @@
 ---
 description: Solicitar validação.
 solution: Experience Manager
-title: validate
-feature: Dynamic Media Classic, SDK/API
+title: validar
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# validate{#validate}
+# validar{#validate}
 
 Solicitar validação.
 
@@ -21,17 +21,17 @@ Solicitar validação.
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
-  <td class="stentry"> <p>Identificador de solicitação exclusivo. </p></td> 
+  <td class="stentry"> <p>Identificador exclusivo da solicitação. </p></td> 
  </tr> 
 </table>
 
-Analisa a cadeia de caracteres da solicitação como se `req=img` tivesse sido especificado, mas sem substituir variáveis e avaliar objetos referenciados (imagens, perfis ICC, fontes e assim por diante). A resposta de erro padrão é retornada se a análise falhar, caso contrário, a seguinte propriedade é retornada:
+Analisa a string de solicitação como se fosse `req=img` foram especificados, mas sem substituir variáveis e avaliar objetos referenciados (imagens, perfis ICC, fontes e assim por diante). A resposta de erro padrão é retornada se a análise falhar, caso contrário, a seguinte propriedade é retornada:
 
 `request.isValid=1`
 
 A resposta HTTP não pode ser armazenada em cache.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
 
 `req=...,json [&handler = reqHandler ]`
 

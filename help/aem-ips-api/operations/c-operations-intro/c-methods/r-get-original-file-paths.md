@@ -38,18 +38,18 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
-| assetHandleArray | `types:HandleArray` | Sim | Matriz de ativos que usam o caminho de arquivo original que você deseja obter. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
+| assetHandleArray | `types:HandleArray` | Sim | Matriz de identificadores para ativos cujo caminho de arquivo original você deseja obter. |
 
 **Saída (getOriginalFilePathsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| originalFileArray | `types:StringArray` | Sim | A matriz de sequências de caracteres que representam os caminhos de arquivo originais. |
+| originalFileArray | `types:StringArray` | Sim | A matriz de cadeias de caracteres que representam os caminhos do arquivo original. |
 
 ## Exemplos {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Essa amostra de código retorna os caminhos de arquivo dos ativos especificados com identificadores de ativos exclusivos em uma matriz de manipulador de ativos.
+Esta amostra de código retorna os caminhos de arquivo dos ativos especificados com identificadores de ativos exclusivos em uma matriz de identificadores de ativos.
 
 **Solicitação**
 

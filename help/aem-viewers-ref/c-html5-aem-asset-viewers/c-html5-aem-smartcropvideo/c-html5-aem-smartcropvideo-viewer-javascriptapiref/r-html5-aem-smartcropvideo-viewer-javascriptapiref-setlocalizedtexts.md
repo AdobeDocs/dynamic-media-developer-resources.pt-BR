@@ -4,10 +4,11 @@ description: setLocalizedTexts
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 313069b6-f114-487a-8322-55b4dff43f68
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,12 +20,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objeto </span>} Objeto JSON com dados de localização. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Namespace do SDK do visualizador </a> para obter mais informações. </p> <p>Consulte a <i>Guia do usuário do SDK do visualizador</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. Opcional. </p> </td> 
+   <td colname="col2"> <p> { <span class="codeph"> Objeto </span>} objeto JSON com dados de localização. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Namespace do visualizador do SDK </a> para obter mais informações. </p> <p>Consulte a <i>Guia do usuário do Viewer SDK</i> e o exemplo para obter mais informações sobre o conteúdo do objeto. Opcional. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define valores SYMBOL de localização para uma ou mais localidades. Este parâmetro deve ser chamado antes de `init()`.
+Define valores de SYMBOL de localização para um ou mais locais. Esse parâmetro deve ser chamado antes de `init()`.
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 

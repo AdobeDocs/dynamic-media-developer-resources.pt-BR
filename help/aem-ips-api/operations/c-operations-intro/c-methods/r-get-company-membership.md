@@ -1,5 +1,5 @@
 ---
-description: Obtém as associações de um usuário em um array de empresas.
+description: Obtém associações de um usuário em uma matriz da empresa.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getCompanyMembership{#getcompanymembership}
 
-Obtém as associações de um usuário em um array de empresas.
+Obtém associações de um usuário em uma matriz da empresa.
 
 Sintaxe
 
@@ -43,11 +43,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | Sim | Matriz de associações a empresas. |
+| memberArray | `types:CompanyMembershipArray` | Sim | Matriz de associações de empresa. |
 
 ## Exemplos {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Essa amostra de código obtém um identificador de usuário e todas as associações de empresa do usuário em uma matriz. A resposta foi truncada por brevidade.
+Essa amostra de código pega um identificador do usuário e obtém todas as associações de empresa do usuário em uma matriz. A resposta foi truncada por brevidade.
 
 **Solicitação**
 

@@ -1,18 +1,18 @@
 ---
 description: Usado por JobLogDetail/logType e JobLog/logType.
 solution: Experience Manager
-title: Tipos de Log de Trabalho
-feature: Dynamic Media Classic, SDK/API
+title: Tipos de log do trabalho
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
+source-wordcount: '22'
 ht-degree: 0%
 
 ---
 
-# Tipos de Log de Trabalho{#job-log-types}
+# Tipos de log do trabalho{#job-log-types}
 
 Usado por JobLogDetail/logType e JobLog/logType.
 

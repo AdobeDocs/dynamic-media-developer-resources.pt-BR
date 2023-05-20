@@ -1,5 +1,5 @@
 ---
-title: AssetContextStateUpdate
+title: AtualizaçãoDeEstadoDeContextoDoAtivo
 description: Defina um novo conjunto de sinalizadores de estado de publicação para o contexto de publicação associado a um ativo.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -20,5 +20,5 @@ Defina um novo conjunto de sinalizadores de estado de publicação para o contex
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| assetHandle | `xsd:string` | Manipule o ativo que deseja atualizar. |
+| assetHandle | `xsd:string` | Processe o ativo que você deseja atualizar. |
 | contextStateUpdateArray | `types:ContextStateUpdateArray` | Uma matriz de estados de contato de publicação para o ativo que você deseja atualizar. |

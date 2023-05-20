@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:User` | Uma matriz de usuários. |
+| itens | `types:User` | Uma matriz de usuários. |

@@ -1,6 +1,6 @@
 ---
 title: AssetCount
-description: Tipos de ativos e contar para uma empresa.
+description: Tipos de ativos e contagem de uma empresa.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # [!DNL AssetCount]{#assetcount}
 
-Tipos de ativos e contar para uma empresa.
+Tipos de ativos e contagem de uma empresa.
 
-Os tipos de ativos incluem [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]e outros.
+Os tipos de ativos incluem [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], e outros.
 
 | Nome | Tipo | Descrição |
 |---|---|---|

@@ -1,29 +1,30 @@
 ---
-title: dispor
-description: Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+title: descartar
+description: Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 10144ced-3eb1-424a-b478-976cf1f6e9c5
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# dispor{#dispose}
+# descartar{#dispose}
 
-Referência da API do JavaScript para o visualizador de vídeo de recorte inteligente.
+Referência da API JavaScript para o visualizador de corte inteligente de vídeo.
 
 `dispose()`
 
-Dispõe essa instância do visualizador, liberando todos os recursos usados pela lógica do visualizador e excluindo todos os objetos e componentes internos criados pelo visualizador em tempo de execução.
+Descarta essa instância do visualizador, liberando todos os recursos usados pela lógica do visualizador e excluindo todos os objetos e componentes internos criados pelo visualizador no tempo de execução.
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador, ou referências externas armazenadas a esses componentes, esses ouvintes deverão ser explicitamente cancelados pelo código da página da Web. E essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas para esses componentes, esses ouvintes deverão ter o registro cancelado explicitamente pelo código da página da Web. E, essas referências de componentes externos devem ser excluídas antes da chamada `dispose()`.
 
-Não acesse mais a API do visualizador depois de `dispose()` é chamado.
+Não acessar mais a API do visualizador após `dispose()` é chamado.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

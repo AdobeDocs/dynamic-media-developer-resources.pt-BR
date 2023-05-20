@@ -1,5 +1,5 @@
 ---
-description: Renderizar propriedades de ativos de cena.
+description: Renderiza propriedades de ativos da cena.
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL RenderSceneInfo]{#rendersceneinfo}
 
-Renderizar propriedades de ativos de cena.
+Renderiza propriedades de ativos da cena.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| url | `xsd:string` | URL do servidor de imagem que representa a cena de renderização. |
+| url | `xsd:string` | URL do servidor de imagens que representa a cena de renderização. |

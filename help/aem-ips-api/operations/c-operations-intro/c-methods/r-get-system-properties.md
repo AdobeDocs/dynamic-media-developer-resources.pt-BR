@@ -44,7 +44,7 @@ Nenhum.
 
 ## Exemplos {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Essa amostra de código retorna uma matriz de propriedades do sistema. Resposta truncada para brevidade.
+Esta amostra de código retorna uma matriz de propriedades do sistema. Resposta truncada por brevidade.
 
 **Solicitação**
 

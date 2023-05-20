@@ -1,5 +1,5 @@
 ---
-title: AssetMetadataFields
+title: CamposDeMetadadosDoAtivo
 description: Retorna definições de campo de metadados para tipos de ativos especificados.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| assetType | `xsd:string` | Tipo de ativo associado às definições de campo (consulte &quot;Tipos de ativo&quot; para obter valores). |
-| fieldArray | `types:MetadataFieldArray` | Matriz de definições de campos de metadados associadas ao tipo de ativo especificado em `assetType`. |
+| assetType | `xsd:string` | Tipo de ativo associado a definições de campo (consulte &quot;Tipos de ativo&quot; para valores). |
+| fieldArray | `types:MetadataFieldArray` | Matriz de definições de campo de metadados associada ao tipo de ativo especificado em `assetType`. |

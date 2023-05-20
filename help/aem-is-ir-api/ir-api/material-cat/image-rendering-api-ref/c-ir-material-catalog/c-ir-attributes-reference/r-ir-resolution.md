@@ -1,6 +1,6 @@
 ---
 title: Resolução
-description: Resolução padrão. Fornece uma resolução padrão no caso de um registro de catálogo específico não conter um valor de Resolução de catálogo válido.
+description: Resolução padrão. Fornece uma resolução padrão caso um determinado registro de catálogo não contenha um valor de Resolução de catálogo válido.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Resolução{#resolution}
 
-Resolução padrão. Fornece uma resolução padrão no caso de um registro de catálogo específico não conter um `catalog::Resolution` valor.
+Resolução padrão. Fornece uma resolução padrão caso um determinado registro de catálogo não contenha uma `catalog::Resolution` valor.
 
 ## Propriedades {#section-06d519158b9f479896f945747c670736}
 
-Número real, maior que `0`. Normalmente expresso como pixels por polegada, mas também pode estar em outras unidades, como pixels por metro.
+Número real, maior que `0`. Normalmente expresso em pixels por polegada, mas também pode estar em outras unidades, como pixels por metro.
 
 ## Padrão {#section-eea922c37c224e1dbcab3bc53ee13aca}
 

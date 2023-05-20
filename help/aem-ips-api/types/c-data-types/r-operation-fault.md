@@ -1,5 +1,5 @@
 ---
-description: Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de invalidação CDN.
+description: Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de invalidação da CDN.
 solution: Experience Manager
 title: OperationFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # [!DNL OperationFault]{#operationfault}
 
-Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de invalidação CDN.
+Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de invalidação da CDN.
 
-**Suportado desde**
+**Compatível desde**
 
 4.5.0, patch 2011-02
 
@@ -24,5 +24,5 @@ Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de inv
 
 | ** Nome** | ** Tipo** | ** Descrição** |
 |---|---|---|
-| código | `xsd:int` | Código de erro fornecido pelo CDN |
-| reason | `xsd:string` | Mensagem de erro fornecida pela CDN |
+| código | `xsd:int` | Código de erro fornecido pela CDN |
+| motivo | `xsd:string` | Mensagem de erro fornecida pela CDN |

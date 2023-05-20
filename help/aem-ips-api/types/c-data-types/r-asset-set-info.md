@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| setDefinition | `xsd:string` | Definição de conjunto de ativos formatada de acordo com os requisitos do Visualizador IS de destino. Pode conter parâmetros opcionais de substituição de IPS. |
+| setDefinition | `xsd:string` | Definição do conjunto de ativos formatada de acordo com os requisitos do Visualizador de IS direcionado. Pode conter parâmetros opcionais de substituição de IPS. |

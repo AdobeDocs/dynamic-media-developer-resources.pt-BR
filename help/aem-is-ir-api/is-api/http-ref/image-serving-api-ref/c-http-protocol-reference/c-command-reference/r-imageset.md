@@ -1,20 +1,20 @@
 ---
-description: Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao gerar resposta req=set.
+description: Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao gerar a resposta req=set.
 solution: Experience Manager
 title: imageSet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # imageSet{#imageset}
 
-Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao gerar resposta req=set.
+Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao gerar a resposta req=set.
 
 `imageSet=val`
 
@@ -25,11 +25,11 @@ Conjunto de imagens. Especifica um valor de conjunto de imagens a ser usado ao g
  </tr> 
 </table>
 
-Para escapar do valor e garantir que todos os modificadores incluídos não sejam interpretados como parte da string de consulta de URL, o valor inteiro deve ser inserido em chaves. Se o registro do catálogo for especificado no caminho de rede, esse valor do modificador substituirá `catalog::ImageSet` do registro principal. Para obter uma descrição da sintaxe de conjunto de imagens válida, consulte a documentação `catalog::ImageSet` .
+Para escapar o valor e garantir que qualquer modificador incluído não seja interpretado como parte da string de consulta do URL, o valor inteiro deve ser delimitado por chaves. Se o registro do catálogo for especificado no caminho líquido, esse valor do modificador substituirá `catalog::ImageSet` do registro principal. Para obter uma descrição de sintaxe de conjunto de imagens válida, consulte `catalog::ImageSet` documentação.
 
 ## Propriedades {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 
-Atributo da solicitação. Opcional. Substitui `catalog::ImageSet` do registro principal.
+Solicitar atributo. Opcional. Substituições `catalog::ImageSet` do registro principal.
 
 ## Padrão {#section-e8622ff40408450fb79d028f8d37fa6b}
 
@@ -37,10 +37,10 @@ Nenhum.
 
 ## Exemplo {#section-68513d3c601f477399602a0741dab390}
 
-Especifique o conjunto de imagens para usar com a solicitação `req=set`:
+Especificar conjunto de imagens para uso com `req=set` solicitação:
 
 `http://server/myRootId?imageSet={asset1,asset2,asset3}&req=set`
 
 ## Consulte também {#section-7e0320b2e09d475897082711a8f023a9}
 
-[catálogo::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) ,  [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), Solicitações do conjunto de  [mídia](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) , [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Solicitações de conjunto de mdias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)

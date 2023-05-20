@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de atualizações de metadados em lote.
 solution: Experience Manager
-title: BatchMetadataUpdateArray
+title: MatrizDeAtualizaçãoDeMetadadosEmLote
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:BatchMetadataUpdate` | A matriz de atualizações em lote. |
+| itens | `types:BatchMetadataUpdate` | A matriz de atualizações em lote. |

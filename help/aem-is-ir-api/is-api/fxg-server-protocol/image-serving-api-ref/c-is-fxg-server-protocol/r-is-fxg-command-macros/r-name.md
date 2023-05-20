@@ -2,13 +2,13 @@
 description: Nome da macro de comando.
 solution: Experience Manager
 title: name
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 9%
+source-wordcount: '28'
+ht-degree: 0%
 
 ---
 
@@ -25,4 +25,4 @@ Nome da macro de comando.
  </tr> 
 </table>
 
-*`name`* não diferencia maiúsculas de minúsculas e pode consistir de qualquer combinação de letras, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
+*`name`* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.

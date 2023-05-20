@@ -1,7 +1,7 @@
 ---
-description: Define um target de publicação para uma empresa.
+description: Define um público alvo para uma empresa.
 solution: Experience Manager
-title: PublicarContexto
+title: PublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # [!DNL PublishContext]{#publishcontext}
 
-Define um target de publicação para uma empresa.
+Define um público alvo para uma empresa.
 
 Sintaxe
 
 ## Parâmetros {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Os ativos mantêm um marcador separado para cada estado e contexto de publicação. Defina o estado de publicação com [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Os ativos mantêm um marcador separado para cada estado e contexto de publicação. Definir o estado de publicação com [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -34,7 +34,7 @@ Os ativos mantêm um marcador separado para cada estado e contexto de publicaç�
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Lidar com o contexto de publicação. </td>
+   <td colname="col3"> Processe o contexto de publicação. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
@@ -57,5 +57,5 @@ Os ativos mantêm um marcador separado para cada estado e contexto de publicaç�
 
 >[!MORELIKETHIS]
 >
->* [Publicar contexto](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Contexto de publicação](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
 

@@ -21,21 +21,21 @@ Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segm
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>Número da camada do efeito (não é igual a 0). </p></td> 
+  <td class="stentry"> <p>Número da camada de efeito (int diferente de 0). </p></td> 
  </tr> 
 </table>
 
-Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é finalizado pelo próximo `layer=` ou `effect=` ou até o fim da solicitação.
+Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é terminado pelo próximo `layer=` ou `effect=` ou no final da solicitação.
 
-*`n`* deve ser inferior a 0 para efeitos da camada exterior (ou seja, efeitos por trás da camada principal) e superior a 0 para efeitos da camada interna (ou seja, efeitos dentro da camada principal). Os números de camada de efeito não precisam ser consecutivos.
+*`n`* deve ser menor que 0 para efeitos de camada externa (ou seja, efeitos atrás da camada pai) e maior que 0 para efeitos de camada interna (ou seja, efeitos dentro da camada pai). Os números das camadas de efeito não precisam ser consecutivos.
 
-O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com número mais alto são colocadas sobre as camadas com número mais baixo.
+O número da camada de efeito especifica a ordem z, no caso de várias camadas de efeito para a mesma camada pai. As camadas com numeração mais alta são colocadas sobre camadas com numeração mais baixa.
 
-As camadas de efeito podem ser fixadas a `layer=comp`.
+As camadas de efeito podem ser anexadas a `layer=comp`.
 
 ## Propriedades {#section-e11f795deff345779ce280a82cf221ca}
 
-Comando da camada de efeito. *`n`* não deve ser 0.
+Comando de camada de efeito. *`n`* não pode ser 0.
 
 ## Padrão {#section-84bbe1cfe7a94040827c994323ac59d4}
 

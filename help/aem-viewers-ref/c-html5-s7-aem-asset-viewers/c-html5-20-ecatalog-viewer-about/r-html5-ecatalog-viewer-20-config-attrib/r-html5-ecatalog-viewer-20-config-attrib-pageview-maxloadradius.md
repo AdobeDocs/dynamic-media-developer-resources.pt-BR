@@ -8,7 +8,7 @@ exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Especifica o comportamento de pré-carregamento do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> o componente pré-carrega todos os quadros do catálogo quando em um estado inativo. </p> <p> Quando definido como <span class="codeph"> 0</span> o componente carrega apenas o quadro que está visível no momento, anterior e próximo quadro. </p> <p>Definir <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantos quadros invisíveis ao redor do quadro exibido no momento são pré-carregados em um estado inativo. </p> </td> 
+   <td colname="col2"> <p>Especifica o comportamento do carregamento prévio do componente. </p> <p>Quando definido como <span class="codeph"> -1</span> o componente pré-carrega todos os quadros do catálogo quando está em estado ocioso. </p> <p> Quando definido como <span class="codeph"> 0</span> o componente carrega somente o quadro visível atualmente, o quadro anterior e o quadro seguinte. </p> <p>Definir <span class="codeph"><span class="varname"> preloadnbr</span></span> para definir quantos quadros invisíveis em torno do quadro exibido atualmente são pré-carregados em estado ocioso. </p> </td> 
   </tr> 
  </tbody> 
 </table>

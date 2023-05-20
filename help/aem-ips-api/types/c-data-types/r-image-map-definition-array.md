@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ImageMapDefinition` | Matriz de definições de mapa de imagem. |
+| itens | `types:ImageMapDefinition` | Matriz de definições de mapa de imagem. |

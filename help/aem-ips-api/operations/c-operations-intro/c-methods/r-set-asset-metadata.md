@@ -37,7 +37,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo que deseja atualizar. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo que você deseja atualizar. |
 | assetHandle | `xsd:string` | Sim | O identificador do ativo. |
 | updateArray | `types:MetadataUpdateArray` | Sim | Atualizações em uma matriz de atualização de metadados. |
 
@@ -47,7 +47,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-Este exemplo de código usa uma matriz de atualizações de metadados para definir os metadados do ativo especificado.
+Esta amostra de código usa uma matriz de atualizações de metadados para definir os metadados do ativo especificado.
 
 **Solicitação**
 

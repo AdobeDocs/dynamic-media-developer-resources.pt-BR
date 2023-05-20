@@ -1,5 +1,5 @@
 ---
-title: copião
+title: áspero
 description: Rugosidade da superfície do material. Especifica a rugosidade relativa da superfície do material.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# copião{#rough}
+# áspero{#rough}
 
 Rugosidade da superfície do material. Especifica a rugosidade relativa da superfície do material.
 
@@ -21,19 +21,19 @@ Rugosidade da superfície do material. Especifica a rugosidade relativa da super
 <table id="simpletable_432E33EC87144AC7A2A8D9406F862708"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Agitação superficial (0...100%) ou -1 para selecionar a rugosidade padrão. </p> </td> 
+  <td class="stentry"> <p>Rugosidade da superfície (0 a 100%) ou -1 para selecionar a rugosidade padrão. </p> </td> 
  </tr> 
 </table>
 
-Usado para controlar o efeito de renderização do reflexo 3D. Os valores de rugosidade mais baixos produzem normalmente efeitos de reflexão mais suaves. valores mais altos causam aleatoriedade e dispersão da imagem refletida.
+Usado para controlar o efeito de renderização da reflexão 3D. Valores de rugosidade mais baixos normalmente produzem efeitos de reflexão mais suaves; valores mais altos causam aleatoriedade e dispersão da imagem refletida.
 
-Cada tipo de material ( `type=`) define um efeito de renderização de reflexo mínimo e máximo com base em rugosidade. Para alguns tipos de materiais (por exemplo, papel de parede), `rough=` tenha um impacto mínimo no aspecto da reflexão, enquanto para outros tipos de materiais (por exemplo, pedra ou cerâmica) o efeito é substancialmente mais pronunciado.
+Cada tipo de material ( `type=`) define um efeito de renderização mínimo e máximo de reflexão com base na rugosidade. Para alguns tipos de materiais (por exemplo, papel de parede), `rough=` tem impacto mínimo na aparência da reflexão, enquanto para outros tipos de materiais (pedra ou cerâmica, por exemplo), o efeito é substancialmente mais pronunciado.
 
-`rough=-1` Define a rugosidade para um valor padrão interno do servidor (40% para tipos de materiais típicos).
+`rough=-1` Define a rugosidade como um valor padrão interno do servidor (40% para tipos de materiais típicos).
 
 ## Propriedades {#section-515375758b254c80af576271bdb61bb8}
 
-Atributo de material. Ignorado se a vinheta não tiver nenhum recurso de reflexão 3D, se o objeto de destino não tiver geometria 3D associada a ela ou se o objeto de destino não estiver refletindo nenhum outro objeto na cena.
+Atributo de material. Ignorado se a vinheta não tiver o recurso de reflexão 3D, se o objeto de destino não tiver geometria 3D associada a ele ou se o objeto de destino não estiver refletindo outros objetos na cena.
 
 ## Padrão {#section-11861a5e6e8649ee988267d2707fd7cc}
 

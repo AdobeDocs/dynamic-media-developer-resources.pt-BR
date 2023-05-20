@@ -1,7 +1,7 @@
 ---
-description: Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
+description: A seguir está uma lista de palavras-chave e comandos suportados pelo mecanismo de texto do Servidor de imagens do Scene7.
 solution: Experience Manager
-title: Comandos e palavras-chave RTF suportados
+title: Comandos e palavras-chave RTF compatíveis
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Comandos e palavras-chave RTF suportados{#supported-rtf-commands-and-keywords}
+# Comandos e palavras-chave RTF compatíveis{#supported-rtf-commands-and-keywords}
 
-Veja a seguir a lista de palavras-chave e comandos compatíveis com o mecanismo de texto Scene7 Image Serving.
+A seguir está uma lista de palavras-chave e comandos suportados pelo mecanismo de texto do Servidor de imagens do Scene7.
 
-Consulte a [RTF 1.6 Specification](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) publicada para obter detalhes sobre cada palavra-chave ou comando.
+Consulte as [Especificação RTF 1.6](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) para obter detalhes sobre cada palavra-chave ou comando.
 
 Os comandos RTF não listados abaixo são ignorados pelo analisador.
 
@@ -24,5 +24,5 @@ Os comandos RTF não listados abaixo são ignorados pelo analisador.
 * [Formatação de parágrafo](r-paragraph-formatting.md)
 * [Formatação básica de caracteres](r-basic-character-formatting.md)
 * [Formatação de texto avançada](r-advanced-text-formatting.md)
-* [Entidades de texto especiais](r-special-text-entities.md)
+* [Entidades de texto especial](r-special-text-entities.md)
 * [Codificação de caracteres](r-is-http-character-encoding.md)

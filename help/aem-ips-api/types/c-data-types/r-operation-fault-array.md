@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de invalidação CDN.
+description: Uma matriz de mensagens que respondem a um dos URLs fornecidos na solicitação de invalidação da CDN.
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # [!DNL OperationFaultArray]{#operationfaultarray}
 
-Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de invalidação CDN.
+Uma matriz de mensagens que respondem a um dos URLs fornecidos na solicitação de invalidação da CDN.
 
-**Suportado desde**
+**Compatível desde**
 
 4.5.0, patch 2011-02
 
@@ -32,9 +32,9 @@ Uma matriz de mensagens respondendo a uma URL fornecida na solicitação de inva
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> itens</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> tipos:OperationFault</span> </p> </td> 
-   <td> <p> A lista de mensagens resultantes da solicitação de invalidação CDN. </p> </td> 
+   <td> <p> A lista de mensagens resultantes da solicitação de invalidação da CDN. </p> </td> 
   </tr> 
  </tbody> 
 </table>

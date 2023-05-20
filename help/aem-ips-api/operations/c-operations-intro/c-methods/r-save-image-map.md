@@ -61,13 +61,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> O identificador do mapa de imagem. Cria um mapa de imagem se for NULO. </td> 
+   <td colname="col4"> O identificador para o mapa de imagem. Cria um mapa de imagem se NULL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O nome do mapa de imagem que foi criado ou salvo. </td> 
+   <td colname="col4"> O nome do mapa de imagem criado ou salvo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
@@ -79,13 +79,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> região </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Uma lista de pontos delimitada por vírgulas que define a região. </td> 
+   <td colname="col4"> Uma lista delimitada por vírgulas de pontos que definem a região. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ação </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>O <span class="codeph"> href </span> valor associado ao mapa de imagem conforme especificado na interface IPS. </p> <p>Para obter o <span class="codeph"> href </span> , clique na imagem na interface do IPS, copie e cole o URL neste elemento e formate o URL do IPS como um URL apropriado. Por exemplo, <span class="codeph"> &amp; </span> become <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>A variável <span class="codeph"> href </span> valor associado ao mapa de imagem conforme especificado na interface IPS. </p> <p>Para obter a <span class="codeph"> href </span> , clique na imagem na interface do IPS, copie e cole o URL nesse elemento e formate o URL do IPS como um URL apropriado. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
@@ -94,8 +94,8 @@ Sintaxe
    <td colname="col4"> A ordem na lista de mapas de imagem (o eixo Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ativado </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> habilitado </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -106,11 +106,11 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | Sim | O identificador do mapa de imagem novo ou editado. |
+| imageMapHandle | `xsd:string` | Sim | O identificador para o mapa de imagem novo ou editado. |
 
 ## Exemplos {#section-fdac488b640f427c8aa3d549c5032851}
 
-Essa amostra de código cria um novo mapa de imagem para um ativo. Ele usa um tipo de forma determinado por uma constante de string de forma de região e retorna um identificador para o novo mapa de imagem.
+Esta amostra de código cria um novo mapa de imagem para um ativo. Ele usa um tipo de forma determinado por uma constante de sequência de forma de região e retorna uma alça ao novo mapa de imagem.
 
 **Solicitação**
 

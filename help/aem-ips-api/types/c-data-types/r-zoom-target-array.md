@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de metas de Zoom.
+description: Uma matriz de destinos de Zoom.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Uma matriz de metas de Zoom.
+Uma matriz de destinos de Zoom.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ZoomTarget` | Matriz de metas de zoom. |
+| itens | `types:ZoomTarget` | Matriz de destinos de Zoom. |

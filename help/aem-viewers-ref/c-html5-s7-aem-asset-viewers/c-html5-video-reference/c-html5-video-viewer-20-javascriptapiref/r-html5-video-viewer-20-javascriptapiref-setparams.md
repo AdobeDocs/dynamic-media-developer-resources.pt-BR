@@ -1,6 +1,6 @@
 ---
 title: setParams
-description: Referência da API do JavaScript para o Visualizador de vídeo.
+description: Referência da API JavaScript para o Visualizador de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setParams{#setparams}
 
-Referência da API do JavaScript para o Visualizador de vídeo.
+Referência da API JavaScript para o Visualizador de vídeo.
 
 ` setParams( *`params`*)`
 
-Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores é codificado por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
+Define um ou mais parâmetros para um determinado valor. A sintaxe do argumento do método é idêntica a uma string de consulta de URL. Ou seja, representa pares name=value separados por `&`. O mesmo que em uma sequência de consulta, nomes e valores são codificados por porcentagem usando UTF8. Antes de chamar `init()`, esse parâmetro deve ser chamado.
 
 Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
 

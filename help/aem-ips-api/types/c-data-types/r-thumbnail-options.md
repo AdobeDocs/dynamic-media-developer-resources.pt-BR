@@ -1,7 +1,7 @@
 ---
-description: Um tipo opcional que permite escolher um quadro de vídeo específico para usar como imagem em miniatura.
+description: Um tipo opcional que permite escolher um quadro de vídeo específico para usar como a imagem em miniatura.
 solution: Experience Manager
-title: Opções de miniatura
+title: OpçõesDeMiniatura
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ThumbnailOptions]{#thumbnailoptions}
 
-Um tipo opcional que permite escolher um quadro de vídeo específico para usar como imagem em miniatura.
+Um tipo opcional que permite escolher um quadro de vídeo específico para usar como a imagem em miniatura.
 
 Sintaxe
 
@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Define o tempo (em milissegundos a partir do início do vídeo) do quadro que deseja usar para a miniatura do vídeo. Os valores variam de 0 ao fim do vídeo. <p>Observação: O sistema usa o primeiro quadro do vídeo para a miniatura se você especificar o tempo incorretamente. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col3"> <p>Define o tempo (em milissegundos, desde o início do vídeo) para o quadro a ser usado na miniatura do vídeo. Os valores variam de 0 ao final do vídeo. <p>Observação: o sistema usa o primeiro quadro do vídeo para a miniatura se você especificar o tempo incorretamente. Consulte <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

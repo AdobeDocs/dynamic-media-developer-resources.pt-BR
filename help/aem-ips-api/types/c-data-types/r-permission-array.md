@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de permissões.
 solution: Experience Manager
-title: PermissionArray
+title: MatrizPermissão
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:Permission` | A matriz de permissões. |
+| itens | `types:Permission` | A matriz de permissões. |

@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de resumos de ativos.
 solution: Experience Manager
-title: AssetSummaryArray
+title: MatrizResumoDeAtivos
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:AssetSummary` | Matriz de resumos de ativos. |
+| itens | `types:AssetSummary` | Matriz de resumos de ativos. |

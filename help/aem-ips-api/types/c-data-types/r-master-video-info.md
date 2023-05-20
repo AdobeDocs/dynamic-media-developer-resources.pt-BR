@@ -1,5 +1,5 @@
 ---
-description: Informações do arquivo para ativos de vídeo principais.
+description: Informações de arquivo para ativos de vídeo principais.
 solution: Experience Manager
 title: MasterVideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL MasterVideoInfo]{#mastervideoinfo}
 
-Informações do arquivo para ativos de vídeo principais.
+Informações de arquivo para ativos de vídeo principais.
 
 Sintaxe
 

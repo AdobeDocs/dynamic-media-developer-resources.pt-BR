@@ -1,5 +1,5 @@
 ---
-description: Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
+description: Verifica se um usuário com uma empresa específica (identificada pelo identificador), endereço de email e senha pode fazer logon.
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # checkLogin{#checklogin}
 
-Verifica se um usuário com uma empresa específica (identificada por identificador), endereço de email e senha pode fazer logon.
+Verifica se um usuário com uma empresa específica (identificada pelo identificador), endereço de email e senha pode fazer logon.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Verifica se um usuário com uma empresa específica (identificada por identifica
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O identificador para a empresa que contém o usuário. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa que contém o usuário. |
 | email | `xsd:string` | Sim | O endereço de email do usuário. |
 | senha | `xsd:string` | Sim | A senha do usuário. |
 
@@ -50,7 +50,7 @@ Verifica se um usuário com uma empresa específica (identificada por identifica
 
 ## Exemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este código de exemplo usa um parâmetro de identificador da empresa, um endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *can* fazer logon, esse método retorna a string, `ValidLogin`. Se o usuário *cannot* fazer logon, esse método retorna a string, `InvalidLogin`.
+Este código de exemplo usa um parâmetro de identificador de empresa, endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *pode* fazer logon, esse método retornará a string, `ValidLogin`. Se o usuário *não é possível* fazer logon, esse método retornará a string, `InvalidLogin`.
 
 **Solicitação**
 

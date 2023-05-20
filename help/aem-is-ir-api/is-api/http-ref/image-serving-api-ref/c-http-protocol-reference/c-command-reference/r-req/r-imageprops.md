@@ -1,35 +1,35 @@
 ---
-description: Propriedades da imagem de origem. Retorna as propriedades selecionadas do arquivo de imagem ou entrada de catálogo especificado no caminho do URL.
+description: Propriedades da imagem de origem. Retorna as propriedades selecionadas do arquivo de imagem ou da entrada de catálogo especificada no caminho do URL.
 solution: Experience Manager
 title: imageprops
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # imageprops{#imageprops}
 
-Propriedades da imagem de origem. Retorna as propriedades selecionadas do arquivo de imagem ou entrada de catálogo especificado no caminho do URL.
+Propriedades da imagem de origem. Retorna as propriedades selecionadas do arquivo de imagem ou da entrada de catálogo especificada no caminho do URL.
 
 `req=imageprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_8E03127D50444CA7878A6B08E866EE2E"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p> </td> 
-  <td class="stentry"> <p>Identificador de solicitação exclusivo. </p></td> 
+  <td class="stentry"> <p>Identificador exclusivo da solicitação. </p></td> 
  </tr> 
 </table>
 
-A resposta HTTP pode ser armazenada em cache com o TTL baseado em `attribute::NonImgExpiration`.
+A resposta HTTP pode ser armazenada em cache com o TTL com base em `attribute::NonImgExpiration`.
 
 Outros comandos na cadeia de caracteres de solicitação são ignorados.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -47,17 +47,17 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> catálogo: </span> Âncora o ponto de ancoragem padrão </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Âncora</span> ou o ponto de ancoragem padrão </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
-   <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> catalog::</span> Expiração ou o tempo padrão de entrada </p> </td> 
+   <td> <p> duplo </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Expiração</span> ou o tempo de vida padrão </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
-   <td> <p> integer </p> </td> 
-   <td> <p>Altura da imagem com resolução completa em pixels </p> </td> 
+   <td> <p> inteiro </p> </td> 
+   <td> <p>Altura da imagem com resolução total em pixels </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile</span> </p> </td> 
@@ -72,7 +72,7 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.embedded PhotoshopPaths</span> </p> </td> 
    <td> <p> booleano </p> </td> 
-   <td> <p> 1 se a imagem incluir os dados de caminho do Photoshop </p> </td> 
+   <td> <p> 1 se a imagem incluir dados de caminho do Photoshop </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> imagem. embeddedXmpData</span> </p> </td> 
@@ -87,7 +87,7 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> catálogo::</span> Modificador ou vazio se não for uma entrada de catálogo </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Modificador</span> ou vazio se não for uma entrada de catálogo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> imagem. photoshopPathNames</span> </p> </td> 
@@ -97,12 +97,12 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Tipo de imagem, pode ser 'CMYK', 'RGB' ou 'BW' (para imagens em escala de cinza) </p> </td> 
+   <td> <p> Tipo de imagem, pode ser 'CMYK', 'RGB' ou 'BW' (para imagens em tons de cinza) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> atributo: </span> PostModifier ou vazio se não for uma entrada de catálogo </p> </td> 
+   <td> <p> <span class="codeph"> attribute::PostModifier</span> ou vazio se não for uma entrada de catálogo </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -112,32 +112,32 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.resolution</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catalog::</span> Resolver ou a resolução de objeto padrão </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::Resolução</span> ou a resolução de objeto padrão </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p>Data/hora de modificação (do <span class="codeph"> catálogo::TimeStamp</span> ou do arquivo de imagem) </p> </td> 
+   <td> <p>Data/hora de modificação (de <span class="codeph"> catálogo::Carimbo de data/hora</span> ou o arquivo de imagem) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
    <td> <p> real </p> </td> 
-   <td> <p> <span class="codeph"> catálogo: </span> ThumbResor a resolução de miniatura padrão </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::ThumbRes</span> ou a resolução de miniatura padrão </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbType</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> catálogo: </span> ThumbType ou o tipo de miniatura padrão </p> </td> 
+   <td> <p> <span class="codeph"> catálogo::ThumbType</span> ou o tipo de miniatura padrão </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.width</span> </p> </td> 
-   <td> <p> integer </p> </td> 
-   <td> <p> Largura da imagem com resolução completa em pixels </p> </td> 
+   <td> <p> inteiro </p> </td> 
+   <td> <p> Largura da imagem com resolução total em pixels </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.translationId</span> </p> </td> 
+   <td> <p> <span class="codeph"> image.convertedId</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> ID do catálogo ao qual o <span class="varname"> objeto</span> especificado no caminho é resolvido (consulte <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Tradução da ID do objeto</a>). </p> </td> 
+   <td> <p> ID do catálogo para o qual o <span class="varname"> objeto</span> especificado no caminho é resolvido (consulte <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> Conversão Da Id Do Objeto</a>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

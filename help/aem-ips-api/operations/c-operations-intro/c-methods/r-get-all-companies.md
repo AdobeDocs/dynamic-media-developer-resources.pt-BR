@@ -28,17 +28,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| includeExpirou | `xsd:boolean` | Sim | Defina como true para retornar empresas expiradas e não expiradas. |
+| includeExpired | `xsd:boolean` | Sim | Defina como verdadeiro para retornar empresas expiradas e não expiradas. |
 
 **Saída (getAllCompaniesReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Sim | A matriz de empresas. |
+| companyArray | `types:CompanyArray` | Sim | O conjunto de empresas. |
 
 ## Exemplos {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Esta amostra de código retorna todas as empresas no IPS em um array. Observe que a resposta da amostra é truncada por motivos de brevidade.
+Esta amostra de código retorna todas as empresas no IPS em uma matriz. Observe que a resposta da amostra é truncada por questões de brevidade.
 
 **Solicitação**
 

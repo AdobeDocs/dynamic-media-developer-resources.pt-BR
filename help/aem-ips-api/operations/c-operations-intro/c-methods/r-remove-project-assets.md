@@ -32,15 +32,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O controle da empresa com os ativos que deseja mover. |
-| projectHandle | `xsd:string` | Sim | O identificador dos ativos do projeto que deseja mover. |
-| assetHandleArray | `types:HandleArray` | Sim | Matriz de ativos que você deseja mover. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com os ativos que você deseja mover. |
+| projectHandle | `xsd:string` | Sim | O identificador dos ativos de projeto que você deseja mover. |
+| assetHandleArray | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja mover. |
 
 **Saída (removeProjectAssetsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | Contagem de ativos removida com êxito. |
+| successCount | `xsd:int` | Sim | Contagem de ativos removida com sucesso. |
 | warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou remover ativos do projeto. |
 | errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou remover ativos do projeto. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou removê-los do projeto. |
@@ -48,7 +48,7 @@ Sintaxe
 
 ## Exemplos {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-Esta amostra de código remove 2 ativos de um projeto (especificado pelo identificador do projeto).
+Esta amostra de código remove dois ativos de um projeto (especificado pelo identificador do projeto).
 
 **Solicitação**
 

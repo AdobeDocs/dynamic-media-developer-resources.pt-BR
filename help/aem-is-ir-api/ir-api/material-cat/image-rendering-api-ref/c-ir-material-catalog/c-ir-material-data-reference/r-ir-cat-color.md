@@ -1,24 +1,24 @@
 ---
-description: Cor do material. A cor principal dos materiais de cor sólida e a cor aditiva dos materiais de textura colorida.
+description: Cor do material. A cor principal para materiais de cor sólida e a cor aditiva para materiais de textura colorizados.
 solution: Experience Manager
 title: Cor
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
 # Cor{#color}
 
-Cor do material. A cor principal dos materiais de cor sólida e a cor aditiva dos materiais de textura colorida.
+Cor do material. A cor principal para materiais de cor sólida e a cor aditiva para materiais de textura colorizados.
 
 ## Propriedades {#section-073772b43b264b37bd96d1fb7404d10b}
 
-Cor. Necessário para materiais de cor sólida. Opcional para materiais de cobertura de textura, armário e janela repetíveis, para especificar a cor de colorização. Este campo deve ficar vazio se a cor de uma textura repetível ou de materiais de gabinete não puder ser modificada.
+Cor. Necessário para materiais de cor sólida. Opcional para textura, gabinete e materiais de revestimento de janela repetíveis, para especificar a cor de colorização. Este campo deve ser deixado em branco se a cor de uma textura repetível ou de materiais do gabinete não for modificada.
 
 ## Padrão {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

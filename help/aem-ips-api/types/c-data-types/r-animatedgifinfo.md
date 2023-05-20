@@ -1,6 +1,6 @@
 ---
 title: AnimatedGifInfo
-description: Propriedades de um ativo de arquivo GIF Animado.
+description: Propriedades de um ativo de arquivo GIF animado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-Propriedades de um ativo de arquivo GIF Animado.
+Propriedades de um ativo de arquivo GIF animado.
 
 Sintaxe
 

@@ -1,7 +1,7 @@
 ---
-description: Opções de arquivo PDF.
+description: opções do arquivo PDF.
 solution: Experience Manager
-title: PDFOoptions
+title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-Opções de arquivo PDF.
+opções do arquivo PDF.
 
 Sintaxe
 
@@ -22,9 +22,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| processo | `xsd:string` | Escolha de &quot;PDF processes&quot;. |
-| resolution | `xsd:double` | Resolução de arquivo. |
-| colorspace | `xsd:string` | Opção de Modo Colorspace Pós-script. |
-| pdfCatalog | `xsd:boolean` | Combinar um PDF de várias páginas em um eCatalog após a renderização (o padrão é verdadeiro). |
+| processo | `xsd:string` | Escolha de &quot;processos de PDF&quot;. |
+| resolution | `xsd:double` | Resolução do arquivo. |
+| colorspace | `xsd:string` | Opção de Modo Colorspace pós-script. |
+| pdfCatalog | `xsd:boolean` | Se um PDF de várias páginas deve ser combinado em um eCatalog após a renderização (o padrão é verdadeiro). |
 | extractSearchWords | `xsd:boolean` | Se as palavras de pesquisa devem ser extraídas do arquivo PDF. |
-| extractLinks | `xsd:boolean` | Se os links PDF devem ser extraídos em mapas de imagem atribuídos às páginas rasterizadas no IPS. |
+| extractLinks | `xsd:boolean` | Se os links de PDF devem ser extraídos em mapas de imagem atribuídos às páginas rasterizadas no IPS. |

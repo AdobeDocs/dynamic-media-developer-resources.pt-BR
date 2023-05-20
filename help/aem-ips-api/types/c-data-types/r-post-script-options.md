@@ -23,7 +23,7 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | processo | `xsd:string` | Opção de processo PostScript. |
-| resolution | `xsd:double` | Resolução de arquivo. |
+| resolution | `xsd:double` | Resolução do arquivo. |
 | colorspace | `xsd:string` | Modo de espaço de cores PostScript. |
-| alfa | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Em caso afirmativo, ele criará um plano de fundo transparente se o arquivo original estiver definido dessa maneira. Geralmente usado para criar logotipos sobrepostos. |
-| extractSearchWords | `xsd:boolean` | Extrair palavras de pesquisa do arquivo PostScript. |
+| alfa | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Em caso afirmativo, ele criará um plano de fundo transparente se o arquivo original for definido dessa maneira. Geralmente usado para criar logotipos de sobreposição. |
+| extractSearchWords | `xsd:boolean` | Se as palavras de pesquisa devem ser extraídas do arquivo PostScript. |

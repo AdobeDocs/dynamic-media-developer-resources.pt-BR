@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um ativo SWF do visualizador.
+description: Propriedades de um ativo de arquivo SWF do visualizador.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Propriedades de um ativo SWF do visualizador.
+Propriedades de um ativo de arquivo SWF do visualizador.
 
 Sintaxe
 
@@ -23,5 +23,5 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | originalPath | `xsd:string` | Caminho relativo para o arquivo SWF do visualizador carregado originalmente. |
-| originalFile | `xsd:string` | Nome do arquivo de SWF do visualizador original. |
+| originalFile | `xsd:string` | Nome do arquivo SWF do visualizador original. |
 | fileSize | `xsd:int` | Tamanho do arquivo. |

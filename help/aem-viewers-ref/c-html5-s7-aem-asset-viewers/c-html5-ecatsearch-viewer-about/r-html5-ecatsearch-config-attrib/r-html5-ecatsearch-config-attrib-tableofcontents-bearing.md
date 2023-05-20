@@ -2,12 +2,12 @@
 description: TableOfContents.bearing
 solution: Experience Manager
 title: TableOfContents.bearing
-feature: Dynamic Media Classic,Visualizadores,SDK/API,Pesquisa de catálogo eletrônico
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d8b88ea2-38fe-41b8-89cb-c3603c513142
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> fit-vertical</span>, o componente primeiro alterna a posição do painel base para a parte inferior do botão e tenta implantar o painel à direita ou à esquerda a partir do local base. A cada tentativa, o componente verifica se o painel está cortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação no sentido direito e esquerdo. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante, mas alterna a base para a direita primeiro, tentando para baixo e para cima em direções de implantação. Então, ele muda a base para a esquerda, tentando descer e subir direções. </p> </td> 
+   <td> <p> <span class="codeph"> ajuste lateral|ajuste vertical</span> </p> </td> 
+   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> ajustar-vertical</span>, o componente muda primeiro a posição do painel base para a parte inferior do botão e tenta distribuir o painel para a direita ou para a esquerda a partir do local base. A cada tentativa, o componente verifica se o painel é recortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação para a direita e para a esquerda. </p> <p>Quando definido como <span class="codeph"> ajuste lateral</span>, o componente usa uma lógica semelhante, mas desloca a base para a direita primeiro, tentando direções de implantação para baixo e para cima. Em seguida, ele desloca a base para a esquerda, tentando para baixo e para cima instruções de implantação. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Define o atraso em segundos do temporizador de ocultação automática suspenso que oculta o painel quando um usuário está ocioso. </p> </td> 
+   <td> <p> Define o atraso em segundos para o temporizador de ocultação automática suspenso que oculta o painel quando um usuário está ocioso. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,31 +1,31 @@
 ---
 description: Permitir acesso direto a ativos baseados em caminho.
 solution: Experience Manager
-title: AllowDirectAccess
-feature: Dynamic Media Classic, SDK/API
+title: PermitirAcessoDireto
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# AllowDirectAccess{#allowdirectaccess}
+# PermitirAcessoDireto{#allowdirectaccess}
 
 Permitir acesso direto a ativos baseados em caminho.
 
-Quando este atributo é definido, o acesso baseado em caminho é permitido ou restrito para os tipos de objeto especificados, dependendo se a palavra-chave `include` ou `exclude` é usada.
+Quando este atributo é definido, o acesso baseado em caminho é permitido ou restrito para os tipos de objeto especificados, dependendo se a variável `include` ou `exclude` palavra-chave é usada.
 
 >[!NOTE]
 >
->Se o atributo `AllowDirectAccess` não for especificado, o valor padrão será `exclude`.
+>Se a variável `AllowDirectAccess` atributo não for especificado, o valor padrão será `exclude`.
 
-* `include` permite o acesso para os tipos de objetos especificados e restringe o acesso para todos os outros.
-* `exclude` restringe o acesso dos tipos de objetos especificados e permite o acesso de todos os outros.
+* `include` permite o acesso aos tipos de objeto especificados e restringe o acesso a todos os outros.
+* `exclude` restringe o acesso aos tipos de objeto especificados e permite o acesso a todos os outros.
 
-Se `include` ou `exclude` não for especificado, `include` será assumido.
+Se nenhuma delas `include` nem `exclude` é especificado, `include` é presumido.
 
 Os seguintes tipos podem ser controlados:
 
@@ -39,26 +39,26 @@ Os seguintes tipos podem ser controlados:
 
 ## Exemplos {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Permitir acesso direto apenas para os tipos de objetos `IS` e `STATIC`
+* Permitir acesso direto apenas para `IS` e `STATIC` tipos de objeto
 
    `AllowDirectAccess=include:IS,STATIC`
 
 * Permitir acesso direto para todos os tipos de objetos, exceto `IS` e `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Permitir acesso direto para tipos de objetos *no* (ou seja, não incluir nenhum)
+* Permitir acesso direto a *não* tipos de objeto (ou seja, não incluir)
 
    `AllowDirectAccess=include:`
 
-* Permitir acesso direto para os tipos de objetos *all* (ou seja, excluir nenhum)
+* Permitir acesso direto a *all* tipos de objeto (ou seja, excluir nenhum)
 
    `AllowDirectAccess=exclude:`
 
-* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não estiver presente, `include` será assumido)
+* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não está presente, `include` é presumido)
 
    `AllowDirectAccess=IS,STATIC`
 
-   Observe que é o valor padrão usado se o atributo `AllowDirectAccess` não for especificado para essa empresa.
+   Observe que é o valor padrão usado se a variável `AllowDirectAccess` o atributo não foi especificado para esta empresa.
 
-* Inclua nenhum, equivalente a `include:` (se `include`/ `exclude` não estiver presente, `include` será considerado)
+* Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não está presente, `include` é presumido)
 
    `AllowDirectAccess=`

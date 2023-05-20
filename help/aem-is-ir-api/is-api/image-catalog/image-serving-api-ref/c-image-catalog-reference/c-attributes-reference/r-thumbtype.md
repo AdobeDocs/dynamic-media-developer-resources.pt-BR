@@ -1,26 +1,26 @@
 ---
-description: Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um registro de catálogo específico não contenha um valor ThumbType de catálogo válido.
+description: Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um determinado registro de catálogo não contenha um valor ThumbType de catálogo válido.
 solution: Experience Manager
 title: ThumbType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac29ac3a-8c6b-4c87-954f-37d1ddec76f5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 # ThumbType{#thumbtype}
 
-Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura no caso de um registro de catálogo específico não conter um valor de catalog::ThumbType válido.
+Tipo de miniatura padrão. Fornece um padrão para o tipo de miniatura caso um determinado registro de catálogo não contenha um valor catalog::ThumbType válido.
 
 Usado apenas para solicitações de miniatura ( `req=tmb`).
 
 ## Propriedades {#section-ae0babfe3c8e4c8ebe0124bc55051265}
 
-Enum. Os valores permitidos são 1, 2 e 3, para os tipos de miniatura *`crop`*, *`fit`* e *`texture`*, respectivamente.
+Enum. Os valores permitidos são 1, 2 e 3, para *`crop`*, *`fit`*, e *`texture`* tipos de miniaturas, respectivamente.
 
 ## Padrão {#section-0237fcae4f304c5b876fceaa839b6b05}
 

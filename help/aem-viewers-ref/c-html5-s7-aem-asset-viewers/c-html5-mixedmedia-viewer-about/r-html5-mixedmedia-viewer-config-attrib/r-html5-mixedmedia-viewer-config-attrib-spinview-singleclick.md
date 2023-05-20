@@ -8,7 +8,7 @@ exl-id: 18c5c21d-af31-4b1c-ab8b-c04d08650123
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_0824E332DF1340A2ABC40A3EB428F2D0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de ações de clique/toque único para aumentar o zoom. Configurar como <span class="codeph"> nenhum </span> desativa o zoom de clique/toque único. Se estiver definido como <span class="codeph"> zoom </span> clicar nos zoom da imagem em uma etapa de zoom; CTRL + Clique com o zoom para baixo em uma etapa de zoom. Configurar como <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível inicial de rotação. Para <span class="codeph"> zoomReset </span>, a redefinição será aplicada se o fator de zoom atual estiver acima ou acima do limite especificado, caso contrário, o zoom será aplicado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de clique único/toque para ações de zoom. Configuração para <span class="codeph"> nenhum </span> desativa o zoom de clique único/toque. Se definida como <span class="codeph"> zoom </span> clicar na imagem dá zoom em uma etapa de zoom; CTRL+Clique dá zoom em uma etapa de zoom. Configuração para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível de rotação inicial. Para <span class="codeph"> zoomReset </span>, reset será aplicada se o fator de zoom atual estiver no limite especificado ou ultrapassá-lo, caso contrário, o zoom será aplicado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Opcional.
 
 ## Padrão {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`zoomReset` Em computadores de mesa; `none` em dispositivos de toque.
+`zoomReset` Em computadores de secretária; `none` em dispositivos sensíveis ao toque.
 
 ## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

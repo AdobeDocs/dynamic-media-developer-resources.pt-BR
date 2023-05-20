@@ -1,20 +1,20 @@
 ---
-description: Ajuste o contraste. Ajusta o contraste da imagem, aumentando o brilho dos pixels com mais de 50% de brilho, e reduzindo o brilho dos pixels com menos de 50% de brilho.
+description: Ajuste o contraste. Ajusta o contraste da imagem aumentando o brilho dos pixels com mais de 50% de brilho e reduzindo o brilho dos pixels com menos de 50% de brilho.
 solution: Experience Manager
-title: op_contraste
-feature: Dynamic Media Classic, SDK/API
+title: op_contrast
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# op_contraste{#op-contrast}
+# op_contrast{#op-contrast}
 
-Ajuste o contraste. Ajusta o contraste da imagem, aumentando o brilho dos pixels com mais de 50% de brilho, e reduzindo o brilho dos pixels com menos de 50% de brilho.
+Ajuste o contraste. Ajusta o contraste da imagem aumentando o brilho dos pixels com mais de 50% de brilho e reduzindo o brilho dos pixels com menos de 50% de brilho.
 
 `op_contrast= *`adj`*`
 
@@ -27,16 +27,16 @@ Ajuste o contraste. Ajusta o contraste da imagem, aumentando o brilho dos pixels
 
 ## Propriedades {#section-d319ed55057344eab0a3c93f720acdbf}
 
-comando Camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado por camadas de efeito.
+Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, sem alterações no contraste. Imagens ou camadas CMYK são convertidas em RGB antes da aplicação da operação.
+`op_contrast=0`, para que não haja alteração no contraste. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
 
 ## Exemplo {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 
 Diminua o contraste e a nitidez de uma camada de imagem de maior qualidade para combiná-la visualmente a uma foto de fundo de baixa qualidade:
 
-... `&op_blur=3&op_contrast=-12&`
+… `&op_blur=3&op_contrast=-12&`
 
 Uma versão futura pode usar o brilho mediano da imagem em vez de um brilho fixo de 50%.

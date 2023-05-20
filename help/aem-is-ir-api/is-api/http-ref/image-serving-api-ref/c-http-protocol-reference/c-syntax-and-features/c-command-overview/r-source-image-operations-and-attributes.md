@@ -1,20 +1,20 @@
 ---
-description: Esses comandos se aplicam às imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como às máscaras anexadas a camadas de cores sólidas.
+description: Esses comandos se aplicam a imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como a máscaras anexadas a camadas de cores sólidas.
 solution: Experience Manager
-title: Operações de imagem de origem
-feature: Dynamic Media Classic, SDK/API
+title: Operações da imagem de origem
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
-# Operações de imagem de origem{#source-image-operations}
+# Operações da imagem de origem{#source-image-operations}
 
-Esses comandos se aplicam às imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como às máscaras anexadas a camadas de cores sólidas.
+Esses comandos se aplicam a imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como a máscaras anexadas a camadas de cores sólidas.
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 
@@ -22,7 +22,7 @@ Esses comandos se aplicam às imagens de origem usadas em solicitações simples
   <td class="stentry"> <p>Define o ponto de ancoragem da imagem de origem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> cultura</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> cortar</a> </p></td> 
   <td class="stentry"> <p>Corta ou estende a imagem de origem. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +38,7 @@ Esses comandos se aplicam às imagens de origem usadas em solicitações simples
   <td class="stentry"> <p>Dimensiona a imagem de origem com base na resolução. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> scale</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> escala</a> </p></td> 
   <td class="stentry"> <p>Dimensiona a imagem de origem usando o fator de escala. </p></td> 
  </tr> 
 </table>

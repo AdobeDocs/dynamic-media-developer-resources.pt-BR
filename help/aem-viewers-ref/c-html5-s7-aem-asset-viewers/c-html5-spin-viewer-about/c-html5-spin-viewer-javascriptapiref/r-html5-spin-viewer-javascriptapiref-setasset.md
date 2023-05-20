@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API do JavaScript para o Visualizador de rotação.
+description: Referência da API JavaScript para o Visualizador de rotação.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API do JavaScript para o Visualizador de rotação.
+Referência da API JavaScript para o Visualizador de rotação.
 
 ` setAsset( *`ativo`*)`
 
@@ -22,7 +22,7 @@ Referência da API do JavaScript para o Visualizador de rotação.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova id de ativo, conjunto de rotação único ou multidimensional com modificadores opcionais de Exibição de imagem anexados após <span class="codeph"> ?</span>. </p> <p> As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são suportadas por esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} novo id de ativo, conjunto de rotação única ou multidimensional com modificadores opcionais do Servidor de imagens anexados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,13 +37,13 @@ Nenhum.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Referência única para um conjunto de rotação que é definido em um catálogo:
+Referência única a um conjunto de rotação definido em um catálogo:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
 ```
 
-Conjunto de rotação explícito:
+Grupo de rotação explícito:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Frame-1,Scene7SharedAssets/Frame-2,Scene7SharedAssets/Frame-3,Scene7SharedAssets/Frame-4,Scene7SharedAssets/Frame-5,Scene7SharedAssets/Frame-6,Scene7SharedAssets/Frame-7,Scene7SharedAssets/Frame-8")

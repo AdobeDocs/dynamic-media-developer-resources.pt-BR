@@ -1,6 +1,6 @@
 ---
 title: Definir indicador
-description: O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
+description: Definir indicador é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Definir indicador{#set-indicator}
 
-O indicador Set é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
+Definir indicador é uma série de pontos renderizados sobre amostras quando um visualizador é usado em um dispositivo de toque. Os pontos ajudam os usuários a navegar pelas páginas de miniaturas quando os botões de rolagem não estão disponíveis.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS do indicador de conjunto**
+**Propriedades CSS do indicador de definição**
 
-A aparência do contêiner indicador definido é controlada com o seguinte seletor de classe CSS:
+A aparência do contêiner do indicador de definição é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7zoomviewer .s7setindicator
@@ -35,13 +35,13 @@ A aparência do contêiner indicador definido é controlada com o seguinte selet
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador definido. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador de definição. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - Para criar um indicador de conjunto com um fundo branco:
+Exemplo - Para criar um indicador de definição com um plano de fundo branco:
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,7 +49,7 @@ Exemplo - Para criar um indicador de conjunto com um fundo branco:
 }
 ```
 
-A aparência de um ponto indicador de conjunto individual é controlada com o seletor de classe CSS:
+A aparência de um ponto indicador de definição individual é controlada com o seletor de classe CSS:
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
@@ -62,8 +62,8 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do ponto indicador definido. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
+   <td colname="col2"> <p>Largura do ponto indicador de definição. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
@@ -82,7 +82,7 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Margem direita em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margem inferior </span> </p> </td> 
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
@@ -90,17 +90,17 @@ A aparência de um ponto indicador de conjunto individual é controlada com o se
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cor do fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor do plano de fundo em formato hexadecimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Definir ponto indicador suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à página atual de miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
+>Definir ponto indicador é compatível com `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à página atual de miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
 
-Exemplo - Para criar um ponto indicador definido para ser 15 x 15 pixels, com 2 pixels de margem horizontal, 5 pixels de margem superior, 1 pixel de margem inferior, 12 pixels de raio, #D5D3D3 de cor padrão e #939393 de cor ativa:
+Exemplo - Para criar um ponto indicador definido para ser de 15 x 15 pixels, com margem horizontal de 2 pixels, margem superior de 5 pixels, margem inferior de 1 pixel, raio de 12 pixels, cor padrão #D5D3D3 e cor ativa #939393:
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

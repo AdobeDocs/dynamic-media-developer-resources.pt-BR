@@ -1,5 +1,5 @@
 ---
-description: Obtém os detalhes de um log de trabalho da empresa.
+description: Obtém os detalhes do log de trabalho de uma empresa.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtém os detalhes de um log de trabalho da empresa.
+Obtém os detalhes do log de trabalho de uma empresa.
 
-O `logMessage` O campo de resposta é localizado com base na variável `authHeader` `locale` campo.
+A variável `logMessage` o campo de resposta é localizado com base na variável `authHeader` `locale` campo.
 
 ## Tipos de usuário autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -59,13 +59,13 @@ O `logMessage` O campo de resposta é localizado com base na variável `authHead
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Nome original do log de trabalho. </td> 
+   <td colname="col4"> Nome original do log do trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Uma ou mais constantes de Tipo de Log. Se houver, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
+   <td colname="col4"> Uma ou mais constantes de tipo de log. Se presente, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
@@ -77,19 +77,19 @@ O `logMessage` O campo de resposta é localizado com base na variável `authHead
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número da página de <span class="codeph"> recordsPerPage</span>-resulta para retornar. O valor padrão é 1. </td> 
+   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>- resultados a serem retornados. O valor padrão é 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Um dos valores constantes do Campo de Classificação Detalhado da Ordem de Produção (Data ou LogType). O valor padrão é Data. </p> </td> 
+   <td colname="col4"> <p>Um dos valores constantes do Campo de classificação de detalhes da tarefa (Data ou LogType). O valor padrão é Data. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Uma das constantes da string Direção da Classificação . O valor padrão é crescente. </p> </td> 
+   <td colname="col4"> <p>Uma das constantes da string Sort Direction. O valor padrão é crescente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,11 +98,11 @@ O `logMessage` O campo de resposta é localizado com base na variável `authHead
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| jobLogArray | `types:JobLogArray` | Sim | Matriz de registros de trabalhos. |
+| jobLogArray | `types:JobLogArray` | Sim | Matriz de logs de trabalho. |
 
 ## Exemplos {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Esta amostra de código retorna todos os detalhes do log de tarefas de uma empresa específica. A primeira matriz contém detalhes padrão do log de trabalhos. Uma matriz incorporada retorna informações adicionais sobre a tarefa.
+Esta amostra de código retorna todos os detalhes do log de trabalho de uma empresa específica. A primeira matriz contém detalhes de log de tarefa padrão. Uma matriz incorporada retorna informações adicionais sobre a tarefa.
 
 **Solicitação**
 

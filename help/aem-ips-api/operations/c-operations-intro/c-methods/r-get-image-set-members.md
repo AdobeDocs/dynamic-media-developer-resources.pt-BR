@@ -31,7 +31,7 @@ Sintaxe
 
 >[!NOTE]
 >
->Requer acesso de leitura à imagem e ao conjunto de membros.
+>Requer acesso de leitura à imagem e ao ativo do conjunto de membros.
 
 ## Parâmetros {#section-a67ba98095574533980997c83ceaa316}
 
@@ -40,7 +40,7 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o conjunto de imagens. |
-| assetHandle | `xsd:string` | Sim | O identificador de ativo do conjunto de imagens. |
+| assetHandle | `xsd:string` | Sim | O identificador do ativo do conjunto de imagens. |
 
 **Saída (getImageSetMembersReturn)**
 

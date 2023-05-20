@@ -1,5 +1,5 @@
 ---
-description: Propriedades do arquivo de máscara.
+description: Mascarar propriedades do arquivo.
 solution: Experience Manager
 title: MaskInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-Propriedades do arquivo de máscara.
+Mascarar propriedades do arquivo.
 
 Sintaxe
 
@@ -23,4 +23,4 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | maskPath | `xsd:string` | Caminho do arquivo de máscara. |
-| maskFile | `xsd:string` | Nome do arquivo de máscara. |
+| maskFile | `xsd:string` | Mascarar nome do arquivo. |

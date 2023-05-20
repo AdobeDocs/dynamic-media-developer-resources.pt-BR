@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->O Adobe está descontinuando o suporte para o `ExcludeMasterVideoFromAVS` parâmetro 1º de setembro de 2022. Consulte também [Chamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
+>O Adobe está encerrando o suporte para o `ExcludeMasterVideoFromAVS` parâmetro em 1 de setembro de 2022. Consulte também [Chamadas obsoletas](/help/aem-ips-api/c-deprecated-calls.md).
 
 Exclui o vídeo principal do conjunto de vídeos adaptáveis.
 
@@ -36,8 +36,8 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Exclui o arquivo de vídeo principal do conjunto de vídeos adaptáveis. </p> <p>O padrão é true. </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col3"> <p>Exclui o arquivo de vídeo principal do conjunto de vídeos adaptados. </p> <p>O padrão é true. </p> </td> 
   </tr> 
  </tbody> 
 </table>

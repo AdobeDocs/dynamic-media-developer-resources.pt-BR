@@ -1,6 +1,6 @@
 ---
-title: Decretos
-description: Os materiais decalques incluem peças de vestuário, como appliqués, impressões de camisetas e logotipos bordados ou impressos. Também inclui objetos planos não repetitivos usados em aplicações interiores ou exteriores, como tapetes de área, arte pendurada na parede e sinais.
+title: Decalques
+description: Materiais decalques incluem construções de vestuário, como apliques, estampas de camisetas e logotipos bordados ou impressos. Também inclui objetos planos não repetíveis usados em aplicações internas ou externas, como tapetes de área, arte pendurada na parede e sinais.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Decretos{#decals}
+# Decalques{#decals}
 
-Os materiais decalques incluem peças de vestuário, como appliqués, impressões de camisetas e logotipos bordados ou impressos. Também inclui objetos planos não repetitivos usados em aplicações interiores ou exteriores, como tapetes de área, arte pendurada na parede e sinais.
+Materiais decalques incluem construções de vestuário, como apliques, estampas de camisetas e logotipos bordados ou impressos. Também inclui objetos planos não repetíveis usados em aplicações internas ou externas, como tapetes de área, arte pendurada na parede e sinais.
 
-Um material é considerado um decalque se for especificado num MSS de decalque. Um decalque é tipicamente uma imagem RGBA, com o canal alfa definindo a forma do decalque.
+Um material é considerado um decalque se for especificado em um MSS de decalque. Um decalque é normalmente uma imagem RGBA, com o canal alfa definindo a forma do decalque.
 
-Um decalque pode ser aplicado a cada plano, flowline, rascunho, plano ou objeto de parede (a menos que o sinalizador &quot;Sem textura&quot; esteja definido). As decalagens são aplicadas ao objeto ao alinhar os decalques `anchor=` com o ponto de origem decal do objeto de vinheta. A posição pode ser ajustada com mais pormenor `pos=`.
+Um decalque pode ser aplicado a cada objeto plano, fluido, esboço, plano ou parede (a menos que o sinalizador &#39;Sem textura&#39; esteja definido). Os decalques são aplicados ao objeto alinhando os decalques `anchor=` com o ponto de origem do decalque do objeto de vinheta. A posição pode ser ajustada com `pos=`.
 
-Uma sombra é renderizada se o material decalque definir uma espessura e o objeto de vinheta definir um vetor de luz.
+A sombra projetada é renderizada se o material de decalque definir uma espessura e o objeto de vinheta definir um vetor de luz.
 
 <table id="table_3F119BC9B7654FD092826A34F5827268"> 
  <thead> 
@@ -43,26 +43,26 @@ Uma sombra é renderizada se o material decalque definir uma espessura e o objet
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Resolução de textura (ignorada se size= é especificada). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
+   <td colname="col2"> <p>Resolução da textura (ignorada se size= for especificado). </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> âncora= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Ponto de alinhamento decimal. </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
+   <td colname="col2"> <p>Ponto de alinhamento de decalque. </p> </td> 
    <td colname="col3"> <p>Centro de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> pos= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Posição relativa de decalque. </p> </td> 
+   <td colname="col2"> <p>Posição de decalque relativa. </p> </td> 
    <td colname="col3"> <p>0, 0 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md#reference-136b8563da714313a9e103f4ce179c5b" type="reference" format="dita" scope="local"> <span class="codeph"> opac= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Opacidade decal. </p> </td> 
+   <td colname="col2"> <p>Opacidade de decalque. </p> </td> 
    <td colname="col3"> <p>100% </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> shar= </span> </a> </td> 
+   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </td> 
    <td colname="col2"> <p>Nitidez. </p> </td> 
    <td colname="col3"> <p>0 (sem nitidez) </p> </td> 
   </tr> 

@@ -1,7 +1,7 @@
 ---
-description: TimeStamp
+description: Carimbo de data/hora
 solution: Experience Manager
-title: TimeStamp
+title: Carimbo de data/hora
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# TimeStamp{#timestamp}
+# Carimbo de data/hora{#timestamp}
 
-If `attribute::UseLastModified` estiver definida, a variável `catalog::TimeStamp` é retornado na resposta HTTP como um cabeçalho HTTP Last-Modified. O cabeçalho Last-Modified é sempre retornado para conteúdo estático, mesmo se `attribute::UseLastModified` não está definido.
+Se `attribute::UseLastModified` for definido, a variável `catalog::TimeStamp` é retornado na resposta HTTP como um cabeçalho HTTP de Última modificação. O cabeçalho Última modificação é sempre retornado para conteúdo estático, mesmo se `attribute::UseLastModified` não está definido.
 
-Para conteúdo de imagem e SVG, `catalog::TimeStamp` também é usada para validação de cache baseada em catálogo (consulte [atributo::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+Para conteúdo de imagem e SVG, `catalog::TimeStamp` também é usado para validação de cache baseada em catálogo (consulte [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
 
 ## Propriedades {#section-2298a384b5cb43929542655c5a49beb2}
 
-Valor de data/hora no formato Java. Pode ser o número inteiro de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT, ou um valor de string de data/hora com um dos seguintes formatos:
+Valor de data/hora em formato Java. Pode ser o número inteiro de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT, ou um valor de string de data/hora com um dos seguintes formatos:
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* *`zzz`*
 
 *`mm`*/ *`dd`*/ *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT *`offset`*
 
-*`hh`* está no intervalo 0 - 23.
+*`hh`* está no intervalo de 0 a 23.
 
-*`zzz`* é um código de fuso horário de três ou quatro caracteres, como &#39;GMT&#39; ou &#39;PST&#39;. Conta para o horário de verão no código do fuso horário. Por exemplo, &quot;PST&quot; para Horário Padrão do Pacífico, versus &quot;PDT&quot; para Horário de Verão do Pacífico).
+*`zzz`* é um código de fuso horário de três ou quatro caracteres, como &quot;GMT&quot; ou &quot;PST&quot;. Conta para o Horário de verão no código do fuso horário. Por exemplo, &quot;PST&quot; para a Hora Padrão do Pacífico, versus &quot;PDT&quot; para o Horário de Verão do Pacífico).
 
-*`offset`* é um deslocamento de fuso horário em horas ou `hours:minutes`, em relação ao GMT. Por exemplo, &#39;PDT&#39; é equivalente a &#39;GMT -7&#39;.
+*`offset`* é uma diferença de fuso horário em horas ou `hours:minutes`, relativo a GMT. Por exemplo, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
 
-Todos os elementos de valores de data/hora formatados na string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do `*`catálogo`*.ini` em vez disso, o arquivo é usado.
+Todos os elementos de valores de data/hora formatados com string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do `*`catálogo`*.ini` arquivo é usado em seu lugar.
 
 ## Padrão {#section-0cbf801401ff4857bdda168fd12358af}
 
-`attribute::TimeStamp` se o campo estiver vazio ou não estiver presente.
+`attribute::TimeStamp` se o campo estiver vazio ou ausente.
 
 ## Consulte também {#section-c42a427aa4794c548408dc4de028d578}
 
-[atributo::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296), [atributo::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8), [atributo::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)
+[attribute::TimeStamp](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-timestamp.md#reference-4213c599a64942ee8cb9d80696b08296), [attribute::UseLastModified](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8), [attribute::CacheValidationPolicy](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57)

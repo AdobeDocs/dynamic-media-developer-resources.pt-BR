@@ -1,5 +1,5 @@
 ---
-description: Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
+description: Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
 solution: Experience Manager
 title: saveMetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # saveMetadataField{#savemetadatafield}
 
-Crie ou edite um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
+Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
 
 >[!NOTE]
 >
->Esse método está obsoleto.
+>Este método está obsoleto.
 
 ## Tipos de usuário autorizados {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
@@ -45,7 +45,7 @@ Crie ou edite um campo de metadados. Omita o identificador de campo opcional par
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O nome da empresa. </td> 
+   <td colname="col4"> O identificador da empresa. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -57,7 +57,7 @@ Crie ou edite um campo de metadados. Omita o identificador de campo opcional par
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Escolha dos tipos de ativos dos quais salvar metadados. </td> 
+   <td colname="col4"> Escolha dos tipos de ativos dos quais os metadados serão salvos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -69,7 +69,7 @@ Crie ou edite um campo de metadados. Omita o identificador de campo opcional par
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> Escolha dos tipos de campos de metadados. </td> 
+   <td colname="col4"> Escolha de tipos de campos de metadados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
@@ -79,15 +79,15 @@ Crie ou edite um campo de metadados. Omita o identificador de campo opcional par
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Ocultar ou expor os metadados específicos do sistema IPS. </td> 
+   <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como true, uma falha será lançada se um valor inválido for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será lançada se um valor ilegal estiver definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ Crie ou edite um campo de metadados. Omita o identificador de campo opcional par
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Sim | Manipule o novo campo de metadados. |
+| fieldHandle | `xsd:string` | Sim | Identificador do novo campo de metadados. |
 
 ## Exemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Essa amostra de código cria um novo campo de metadados restrito pelas constantes de string Tipo de ativo e Tipos de campo de metadados . Se a variável `fieldHandle` tem um valor válido de identificador de campo, altera os valores de metadados e obtém o mesmo identificador de campo especificado na solicitação.
+Esta amostra de código cria um novo campo de metadados restrito pelas constantes de sequência Tipo de ativo e Tipos de campo de metadados. Se a variável `fieldHandle` O elemento tem um valor de identificador de campo válido, ele altera os valores de metadados e obtém o mesmo identificador de campo especificado na solicitação.
 
 **Solicitação**
 

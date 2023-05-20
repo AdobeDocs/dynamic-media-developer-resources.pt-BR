@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define a associação de grupo de usuários que pertencem a uma empresa específica.
 
-A operação gera uma falha de autenticação se você não tiver privilégios para realizar essa operação. Isso também é verdade se qualquer um dos usuários na matriz de identificador do usuário não pertencer à empresa especificada no identificador da empresa,
+A operação acionará uma falha de autenticação se você não tiver privilégios para realizar essa operação. Isso também é verdadeiro se qualquer um dos usuários na matriz de identificadores de usuário não pertencer à empresa especificada no identificador da empresa,
 
 ## Tipos de usuário autorizados {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,11 +30,11 @@ A operação gera uma falha de autenticação se você não tiver privilégios p
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | groupHandle | `xsd:string` | Sim | Identificador de grupo. |
 | userHandleArray | `types:HandleArray` | Sim | Matriz de identificadores para usuários cuja associação de grupo você deseja definir. |
 
-**Saída (setGroupMembesReturn)**
+**Saída (setGroupMembresReturn)**
 
 A API do IPS não retorna uma resposta para esta operação.
 

@@ -8,7 +8,7 @@ exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Esse atributo se aplica ao Visualizador de Zoom, Visualizador de Vídeo, Visualizador de Rotação, Visualizador de Imagem Interativa, Visualizador de Vídeo Interativo e Visualizador de Carrossel.
+>Esse atributo se aplica ao Zoom Viewer, Video Viewer, Spin Viewer, Interative Image Viewer, Interative Video Viewer e Carousel Viewer.
 
-`stageSize= *``*, *`largura/altura`*`
+`stageSize= *`largura`*, *`altura`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> largura</span>, <span class="varname"> altura</span></span> </p> </td> 
-   <td colname="col2"> <p> A largura e a altura gerais do visualizador. O valor <span class="codeph"> 0,0</span> significa que o visualizador é dimensionado de acordo com as regras de CSS e o layout da página da Web. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> largura</span>,<span class="varname"> altura</span></span> </p> </td> 
+   <td colname="col2"> <p> A largura e a altura gerais do visualizador. O valor de <span class="codeph"> 0,0</span> significa que o visualizador é dimensionado de acordo com as regras CSS e o layout da página da Web. </p> </td> 
   </tr> 
  </tbody> 
 </table>

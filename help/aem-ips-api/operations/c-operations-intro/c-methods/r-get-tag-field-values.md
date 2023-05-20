@@ -1,5 +1,5 @@
 ---
-description: Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
+description: Obtém todos os valores de dicionário de marcas definidos para um ou mais campos de marca.
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getTagFieldValues{#gettagfieldvalues}
 
-Obtém todos os valores de dicionário de tags definidos para um ou mais campos de tag.
+Obtém todos os valores de dicionário de marcas definidos para um ou mais campos de marca.
 
 Sintaxe
 
@@ -37,13 +37,13 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o campo de tag. |
-| fieldHandleArray | `types:HandleArray` | Sim | Uma matriz de campo trata os valores de tag que você deseja retornar. |
+| fieldHandleArray | `types:HandleArray` | Sim | Uma matriz de manipuladores de campo para marcar os valores que você deseja retornar. |
 
 **Saída (getTagFieldValuesReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| fieldArray | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores da tag no dicionário para cada campo solicitado. |
+| fieldArray | `types:TagFieldValuesArray` | Sim | Uma matriz dos valores de tag no dicionário para cada campo solicitado. |
 
 ## Exemplos {#section-4492742614e44bb191a7d397dc1a1407}
 

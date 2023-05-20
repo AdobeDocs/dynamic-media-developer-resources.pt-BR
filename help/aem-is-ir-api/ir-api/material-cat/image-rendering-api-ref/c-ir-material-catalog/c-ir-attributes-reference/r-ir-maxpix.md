@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Limite de tamanho da imagem de resposta. Largura e altura máximas da imagem de resposta que podem ser retornadas ao cliente.
 
-O servidor retornará um erro se uma solicitação causar uma imagem de resposta cuja largura e/ou altura é maior que `attribute::MaxSize`.
+O servidor retorna um erro se uma solicitação fizer com que uma imagem de resposta cuja largura e/ou altura seja maior do que `attribute::MaxSize`.
 
 ## Propriedades {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 

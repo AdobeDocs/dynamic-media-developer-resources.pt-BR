@@ -1,6 +1,6 @@
 ---
 title: Propriedades
-description: Os dados da propriedade são retornados em resposta ao seguinte req= types imageprops e props.
+description: Os dados da propriedade são retornados em resposta aos seguintes tipos req= imageprops e props.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Propriedades{#properties}
 
-Os dados da propriedade são retornados em resposta aos seguintes tipos req= : imageprops e props.
+Os dados de propriedade são retornados em resposta aos seguintes tipos req=: imageprops e props.
 
-Os dados de resposta são formatados para serem legíveis como propriedades do Java™. Uma resposta de propriedades de texto típica tem esta estrutura geral:
+Os dados de resposta são formatados para serem legíveis como propriedades Java™. Uma resposta de propriedades de texto típica tem esta estrutura geral:
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ Os dados de resposta são formatados para serem legíveis como propriedades do J
 
 ...
 
-` *[!DNL propertyValue]*` Pode estar em branco. O espaço em branco é opcional no início e no fim de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de string, mas não são obrigatórias.
+` *[!DNL propertyValue]*` Pode ficar em branco. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de cadeias de caracteres, mas não são obrigatórias.
 
-Os valores da string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`ou `\\`.
+Os valores de string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`ou `\\`.
 
 **Consulte também**
 

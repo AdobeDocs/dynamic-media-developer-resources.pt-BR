@@ -22,6 +22,6 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| usuário | `types:User` | Nome do usuário. |
+| usuário | `types:User` | Nome de usuário. |
 | função | `xsd:string` | Função que o usuário tem para cada empresa à qual pertence. |
 | isActive | `xsd:boolean` | Define o status do usuário para cada empresa à qual ele pertence. |

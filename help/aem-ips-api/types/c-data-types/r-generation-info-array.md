@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:GenerationInfo` | Uma matriz de propriedades de geração. |
+| itens | `types:GenerationInfo` | Uma matriz de propriedades de geração. |

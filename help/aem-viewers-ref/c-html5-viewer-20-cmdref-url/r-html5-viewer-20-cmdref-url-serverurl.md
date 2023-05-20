@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,14 +22,14 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Serviço de imagem. </p> <p> Especifica um caminho relativo ou absoluto para o Serviço de imagem, de onde o visualizador recupera imagens. Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especificará um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo Compartilhamento de email esteja ativado no visualizador. </p> </td> 
+   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Servidor de imagens. </p> <p> Especifica um caminho relativo ou absoluto para o Servidor de imagens, de onde o visualizador recupera imagens. Se o caminho não tiver uma entrelinha <span class="filepath"> /</span>, é relativo ao local da página do HTML do visualizador. Se o caminho tiver uma entrelinha <span class="filepath"> /</span>, especifica um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo de compartilhamento de email esteja habilitado no visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Opcional. Não é necessário para o uso padrão do SaaS (software como um serviço).
+Opcional. Não é necessário para o uso padrão de SaaS (software como serviço).
 
 ## Padrão {#section-d411e450028c460392cb8508f8ccc5d9}
 

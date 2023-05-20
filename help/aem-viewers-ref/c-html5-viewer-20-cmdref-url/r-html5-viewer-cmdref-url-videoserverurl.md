@@ -8,7 +8,7 @@ exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Parâmetro comum a todos os visualizadores.
 
 >[!NOTE]
 >
->Este comando não se aplica ao Visualizador de imagem de vídeo.
+>Esse comando não se aplica ao Visualizador de imagem de vídeo.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -26,14 +26,14 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> O caminho raiz do servidor de vídeo. Se nenhum domínio for especificado, o domínio do qual a página é disponibilizada será aplicado. A resolução de caminho URI padrão se aplica. </p> </td> 
+   <td colname="col2"> <p> O caminho raiz do servidor de vídeo. Se nenhum domínio for especificado, o domínio que fornece a página será aplicado. É aplicada a resolução de caminho URI padrão. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriedades {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Opcional. Não é necessário para o software padrão como uso de serviço.
+Opcional. Não é necessário para o uso do software como um serviço padrão.
 
 ## Padrão {#section-d411e450028c460392cb8508f8ccc5d9}
 

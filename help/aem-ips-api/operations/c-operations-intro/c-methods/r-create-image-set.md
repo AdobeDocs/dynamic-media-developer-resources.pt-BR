@@ -41,13 +41,13 @@ Sintaxe
 | folderHandle | `xsd:string` | Sim | O identificador da pasta. |
 | name | `xsd:string` | Sim | Nome do conjunto de imagens. |
 | type | `xsd:string` | Sim | Tipo de conjunto de imagens. |
-| thumbAssetHandle | `xsd:string` | Não | Gerenciar o ativo que atua como a miniatura do novo conjunto de imagens. Se não especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
+| thumbAssetHandle | `xsd:string` | Não | Identificador do ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
 
-**Saída**
+**Output**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Sim | O identificador do novo conjunto de imagens. |
+| assetHandle | `xsd:string` | Sim | O identificador para o novo conjunto de imagens. |
 
 ## Exemplos {#section-385fe3b0af8044b0a2451336ec137fc5}
 

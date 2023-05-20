@@ -1,7 +1,7 @@
 ---
-description: Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não pode ser aberta ou lida com êxito.
+description: Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não possa ser aberta ou lida com êxito.
 solution: Experience Manager
-title: Redirecionar para erro
+title: Redirecionar em caso de erro
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
@@ -12,30 +12,30 @@ ht-degree: 0%
 
 ---
 
-# Redirecionar para erro{#redirect-on-error}
+# Redirecionar em caso de erro{#redirect-on-error}
 
-Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não pode ser aberta ou lida com êxito.
+Os servidores IS podem ser configurados para failover para servidores alternativos para solicitações que envolvam uma imagem de origem que não possa ser aberta ou lida com êxito.
 
-Os seguintes tipos de solicitações são redirecionadas:
+Os seguintes tipos de solicitações são redirecionados:
 
 * IS Imagens que estão no catálogo, mas não no disco.
 
    Se uma imagem não estiver em um catálogo, o redirecionamento de erro não deverá ocorrer quando a imagem não puder ser encontrada.
 
-* Imagens corrompidas, perfis de cores ou fontes.
+* Imagens, perfis de cores ou fontes corrompidos.
 * O conteúdo estático não pode ser encontrado no disco.
 
    As solicitações de conteúdo estático são redirecionadas quando não podem ser encontradas no disco, mesmo que o conteúdo estático referenciado não tenha um registro de catálogo.
 
-O redirecionamento de erros não ocorrerá em nenhum outro caso.
+O redirecionamento de erro não ocorrerá em nenhum outro caso.
 
-Quando ativado e esse erro ocorrer durante o processamento da solicitação, o servidor primário enviará a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente para o cliente. O servidor principal marca as entradas de log dessas solicitações encaminhadas com o uso do cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
+Quando habilitado e quando esse erro ocorrer durante o processamento da solicitação, o servidor primário enviará a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente ao cliente. O servidor primário marca as entradas de log dessas solicitações encaminhadas com uso de cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
 
-O redirecionamento de erro é ativado ao configurar `PS::errorRedirect.rootUrl` ao nome de domínio HTTP e número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário esperará por uma resposta do servidor secundário antes de retornar um erro para o cliente ser configurado com `PS::errorRedirect.socketTimeout`.
+O redirecionamento de erro está habilitado pela configuração `PS::errorRedirect.rootUrl` ao nome de domínio HTTP e ao número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com o `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário aguardará uma resposta do servidor secundário antes de retornar um erro para o cliente que está configurado com o `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >
->Se o servidor secundário não puder ser contatado, uma resposta de erro de texto será retornada ao cliente, mesmo se uma imagem padrão ou uma imagem de erro estiver configurada.
+>Se não for possível entrar em contato com o servidor secundário, uma resposta de erro de texto será retornada ao cliente, mesmo se uma imagem padrão ou de erro estiver configurada.
 
 >[!NOTE]
 >

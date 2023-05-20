@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: Uma matriz de contagens de ativos.
+description: Uma série de contagens de ativos.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-Uma matriz de contagens de ativos.
+Uma série de contagens de ativos.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:AssetCount` | Matriz de contagens de ativos. |
+| itens | `types:AssetCount` | Matriz de contagens de ativos. |

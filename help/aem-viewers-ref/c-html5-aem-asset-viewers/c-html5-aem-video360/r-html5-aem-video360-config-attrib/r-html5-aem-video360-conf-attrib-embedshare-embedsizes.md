@@ -1,6 +1,6 @@
 ---
 title: EmbedShare.embedsizes
-description: Atributo de configuração para o visualizador do Video360.
+description: Atributo de configuração para o Video360 Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -8,31 +8,31 @@ exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Atributo de configuração para o visualizador do Video360.
+Atributo de configuração para o Video360 Viewer.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`largura`*, *`altura`*[,0|1][; *`largura`*, *`altura`*[,0|1]]`
 
-Especifica uma lista de tamanhos incorporados para a caixa de combinação de tamanho na caixa de diálogo modal de compartilhamento incorporado.
+Especifica uma lista de tamanhos incorporados para a caixa de combinação de tamanho na caixa de diálogo modal de compartilhamento incorporada.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Incorporar largura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> largura </span> </span> </p> </td> 
+   <td colname="col2"> <p> Largura incorporada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporar altura. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> altura </span> </span> </p> </td> 
+   <td colname="col2"> <p>Altura incorporada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0|1  </span> </p> </td> 
-   <td colname="col2"> <p> Especifica se esse item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Especifica se este item de lista deve ser inicialmente pré-selecionado na caixa de combinação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

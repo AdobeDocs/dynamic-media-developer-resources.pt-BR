@@ -1,5 +1,5 @@
 ---
-description: Uma matriz de itens de atualização do campo de perfil ICC.
+description: Uma matriz de itens de atualização de campo de perfil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-Uma matriz de itens de atualização do campo de perfil ICC.
+Uma matriz de itens de atualização de campo de perfil ICC.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:IccProfileUpdate` | `IccProfileFieldUpdate` item de matriz. |
+| itens | `types:IccProfileUpdate` | `IccProfileFieldUpdate` item da matriz. |

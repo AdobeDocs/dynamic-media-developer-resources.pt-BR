@@ -8,7 +8,7 @@ exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,cima|centro|inferior</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno - ou âncora - do contêiner de miniaturas dentro da área do componente. </p> <p>Em FavoritosView, o contêiner de miniatura interno é dimensionado para que apenas um número inteiro de miniaturas seja exibido. Como resultado, há algum preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner de miniaturas internas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> esquerda|centro|direita,superior|centro|inferior</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ancoragem) do contêiner de miniaturas na área de componente. </p> <p>Em FavoritosView, o contêiner interno da miniatura é dimensionado de forma que somente o número inteiro de miniaturas seja exibido. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner interno de miniaturas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

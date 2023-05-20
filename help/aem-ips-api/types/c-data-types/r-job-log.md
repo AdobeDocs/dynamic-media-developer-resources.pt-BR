@@ -22,16 +22,16 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| companyHandle | `xsd:string` | Manuseio da empresa. |
-| jobHandle | `xsd:string` | Identificador da tarefa. |
-| jobName | `xsd:string` | Nome da tarefa. |
-| originalJobName | `xsd:string` | O nome original enviado para o trabalho com `submitJob`. |
+| companyHandle | `xsd:string` | Identificador da empresa. |
+| jobHandle | `xsd:string` | Identificador do trabalho. |
+| jobName | `xsd:string` | Nome do trabalho. |
+| originalJobName | `xsd:string` | O nome original enviado para o processo com `submitJob`. |
 | submitUserEmail | `xsd:string` | O endereço de email do usuário que enviou o trabalho. |
-| logType | `xsd:string` | Escolha dos tipos de log de trabalho. |
-| jobSubType | `xsd:string` | Informações adicionais sobre o trabalho. |
-| startDate | `xsd:dateTime` | A data de início, a hora e o fuso horário da tarefa. |
-| endDate | `xsd:dateTime` | A data final, a hora e o fuso horário da tarefa. |
-| [!DNL description] | `xsd:string` | Uma descrição da tarefa conforme especificado originalmente em `submitJob`. |
+| logType | `xsd:string` | Escolha de tipos de log de job. |
+| jobSubType | `xsd:string` | Informações adicionais sobre o cargo. |
+| startDate | `xsd:dateTime` | A data inicial, a hora e o fuso horário do trabalho. |
+| endDate | `xsd:dateTime` | A data, hora e fuso horário de término do trabalho. |
+| [!DNL description] | `xsd:string` | Uma descrição do processo, conforme especificado originalmente em `submitJob`. |
 | fileSuccessCount | `xsd:int` | Número de arquivos processados com êxito. |
 | fileErrorCount | `xsd:int` | Número de arquivos que causaram um erro. |
 | fileWarningCount | `xsd:int` | Número de arquivos que geraram um aviso. |
@@ -42,5 +42,5 @@ Sintaxe
 | transferErrorCount | `xsd:int` | Número de erros de transferência. |
 | transferWarningCount | `xsd:int` | Número de avisos de transferência. |
 | fatalError | `xsd:boolean` | Se o trabalho gerou um erro fatal. |
-| detailTotalRows | `xsd:int` | O número total de linhas que correspondem ao query, que pode ser maior que o tamanho de `detailArray` devido aos limites de tamanho da página. |
+| detailTotalRows | `xsd:int` | O número total de linhas correspondentes à consulta, que pode ser maior do que o tamanho de `detailArray` devido a limites de tamanho de página. |
 | detailArray | `types:JobLogDetailArray` | A matriz de detalhes sobre o trabalho registrado. |

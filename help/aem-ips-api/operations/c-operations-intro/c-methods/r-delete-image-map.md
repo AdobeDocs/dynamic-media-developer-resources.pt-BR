@@ -46,7 +46,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Essa amostra de código exclui um mapa de imagem de uma empresa. Você deve obter o identificador do mapa de imagem de outra operação.
+Esta amostra de código exclui um mapa de imagem de uma empresa. Você deve obter o identificador de mapa de imagem de outra operação.
 
 **Solicitação**
 

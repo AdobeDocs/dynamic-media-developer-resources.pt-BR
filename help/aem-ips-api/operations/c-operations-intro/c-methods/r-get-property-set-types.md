@@ -1,5 +1,5 @@
 ---
-description: Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
+description: Obtém os tipos de conjunto de propriedades associados à empresa especificada ou os tipos de conjunto de propriedades globais se nenhuma empresa for especificada.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtém os tipos de conjunto de propriedades associados com a empresa especificada ou os tipos de conjunto de propriedades global se nenhuma empresa for especificada.
+Obtém os tipos de conjunto de propriedades associados à empresa especificada ou os tipos de conjunto de propriedades globais se nenhuma empresa for especificada.
 
 Sintaxe
 
@@ -48,7 +48,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">O identificador da empresa à qual os tipos de conjunto de propriedades estão associados. <p>Omita se desejar retornar tipos de conjuntos de propriedades globais. </p> </td> 
+   <td colname="col4">O identificador da empresa à qual os tipos de conjunto de propriedades estão associados. <p>Omita se quiser retornar tipos de conjunto de propriedades globais. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| typeArray | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjunto de propriedades associados à empresa especificada ou aos tipos de conjunto de propriedades global se nenhuma empresa foi especificada. |
+| typeArray | `types:PropertySetTypeArray` | Sim | Uma matriz de tipos de conjuntos de propriedades associados à empresa especificada ou os tipos de conjuntos de propriedades globais se nenhuma empresa tiver sido especificada. |
 
 ## Exemplos {#section-280c406a90864409856aee44d4069a52}
 

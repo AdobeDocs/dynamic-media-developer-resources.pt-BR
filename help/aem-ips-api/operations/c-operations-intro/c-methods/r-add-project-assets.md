@@ -33,15 +33,15 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Lida com a empresa associada ao projeto atual. |
-| projectHandle | `xsd:string` | Sim | Lide com o projeto ao qual você está adicionando ativos. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa associada ao projeto atual. |
+| projectHandle | `xsd:string` | Sim | Identifique o projeto ao qual você está adicionando ativos. |
 | projectHandleArray | `xsd:HandleArray` | Sim | Matriz de ativos que você está adicionando ao projeto atual. |
 
 **Saída (addProjectAssetsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | O número de ativos adicionados com êxito. |
+| successCount | `xsd:int` | Sim | O número de ativos adicionados com sucesso. |
 | warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou adicionar ativos a um projeto. |
 | errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou adicionar ativos a um projeto. |
 | warningDetailHandle | `xsd:AssetOperationFaultArray` | Não | Matriz de avisos gerados por ativos quando a operação tentou adicioná-los a um projeto. |
@@ -49,7 +49,7 @@ Sintaxe
 
 ## Exemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Este exemplo adiciona um único ativo (referenciado pelo identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` devoluções `1`.
+Este exemplo adiciona um único ativo (referenciado por seu identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` devoluções `1`.
 
 **Solicitação**
 

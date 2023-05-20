@@ -14,29 +14,29 @@ ht-degree: 0%
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`horário`*[, *`oculto`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|desvanecer </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição do menu suspenso é mostrada ou oculta. Com <span class="codeph"> nenhum </span>, a imagem flyout aparece instantaneamente quando ativada e pronta; <span class="codeph"> slide </span> faz com que a animação de slides seja reproduzida na direção esquerda para a direita; <span class="codeph"> desaparecer </span> aplica uma transição alfa à imagem do flyout. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|esmaecer </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição da imagem suspensa é exibida ou ocultada. Com <span class="codeph"> nenhum </span>, a imagem suspensa aparece instantaneamente quando ativada e está pronta; <span class="codeph"> slide </span> faz com que a animação de slides seja reproduzida na direção da esquerda para a direita; <span class="codeph"> fade </span> aplica uma transição alfa à imagem da imagem suspensa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Número de segundos que a animação de exibição leva para ser concluída. </p> </td> 
+   <td colname="col2"> <p> O número de segundos que a animação da exibição leva para terminar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação show e o início da própria animação show. </p> </td> 
+   <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação de exibição e o início da animação de exibição propriamente dita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> horário </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
    <td colname="col2"> <p> Número de segundos que a animação de ocultação leva para ser concluída. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> oculto </span> </span> </p> </td> 
-   <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação de ocultação e o início da própria animação de ocultação. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 
+   <td colname="col2"> <p> O atraso em segundos entre a ação do usuário que inicia a animação de ocultação e o início da animação de ocultação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
 description: Retorna formatos de imagem, como PDF, EPS, SWF e outros.
 solution: Experience Manager
-title: getImageFormats
+title: getImageFormato
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# getImageFormats{#getimageformats}
+# getImageFormato{#getimageformats}
 
 Retorna formatos de imagem, como PDF, EPS, SWF e outros.
 
@@ -34,17 +34,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | A identificação da empresa com os formatos de imagem que deseja obter. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com os formatos de imagem que você deseja obter. |
 
 **Saída (getImageFormatsParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| imageFormatArray | `types:ImageFormatArray` | Sim | A matriz de formato da imagem. |
+| imageFormatArray | `types:ImageFormatArray` | Sim | A matriz de formato de imagem. |
 
 ## Exemplos {#section-73881e12839b4904bf3299b0920bdd0c}
 
-Essa amostra de código retorna todos os formatos de imagem da empresa especificada.
+Esta amostra de código retorna todos os formatos de imagem da empresa especificada.
 
 **Solicitação**
 

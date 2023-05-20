@@ -1,6 +1,6 @@
 ---
 title: RootUrl
-description: URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos.
+description: URL raiz para URLs de imagem relativos. Especifica a URL raiz para URLs de imagem relativas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # RootUrl{#rooturl}
 
-URL raiz para URLs de imagem relativos. Especifica o URL raiz de URLs de imagem relativos. O`attribute::RootUrl` é usado em vez de `attribute::RootPath` quando um `src=` é incluído por { chaves chaves }.
+URL raiz para URLs de imagem relativos. Especifica a URL raiz para URLs de imagem relativas. A variável`attribute::RootUrl` é usado em vez de `attribute::RootPath` quando um `src=` o valor é delimitado por { curly braces }.
 
 ## Propriedades {#section-69cd0f71ea614770a8778c745d23197a}
 
-Valor da string de texto. Caminho raiz do URL absoluto, incluindo o identificador de protocolo à esquerda. Os seguintes protocolos são compatíveis: HTTP, HTTPS e FTP.
+Valor da string de texto. Caminho raiz absoluto do URL, incluindo o identificador de protocolo principal. Os seguintes protocolos são compatíveis: HTTP, HTTPS e FTP.
 
 ## Padrão {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Herdado de `default::RootUrl` se não estiver definido. Se definido, mas vazio, URLs relativos não são compatíveis com esse catálogo de materiais.
+Herdado de `default::RootUrl` se não estiver definido. Se definido, mas vazio, os URLs relativos não são suportados por este catálogo de materiais.
 
 ## Consulte também {#section-e33bbe7034b24367b68f9142718a8be1}
 

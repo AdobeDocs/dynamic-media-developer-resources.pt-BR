@@ -1,5 +1,5 @@
 ---
-description: Atualiza a definição do conjunto de ativos existente.
+description: Atualiza a definição de conjunto para um Conjunto de ativos existente.
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Atualiza a definição do conjunto de ativos existente.
+Atualiza a definição de conjunto para um Conjunto de ativos existente.
 
 Sintaxe
 
@@ -33,35 +33,35 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O identificador para a empresa com o conjunto de ativos. |
-| assetHandle | `xsd:string` | Sim | Identificador de conjunto de ativos |
-| setDefinition | `xsd:string` | Sim | Sequência de definição. Veja abaixo. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa com o conjunto de ativos. |
+| assetHandle | `xsd:string` | Sim | Identificador do conjunto de ativos |
+| setDefinition | `xsd:string` | Sim | String de definição. Veja abaixo. |
 
 **Saída (setAssetSetDefinitionReturn)**
 
 A API do IPS não retorna uma resposta para esta operação.
 
-## parâmetro setDefinition: Sobre {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Parâmetro setDefinition: sobre {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **Funções setDefinition**
 
-Especificar `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}`e incluir o seguinte:
+Especificar `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`e incluem o seguinte:
 
 >[!NOTE]
 >
->Tratar literais nas listas de parâmetros deve ser cercado por colchetes `([])`. O texto fora de uma string de substituição é copiado para a string de saída durante a resolução.
+>Os literais de identificador nas listas de parâmetros devem estar entre colchetes `([])`. O texto fora de uma cadeia de caracteres de substituição é copiado para a cadeia de caracteres de saída durante a resolução.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Função de Substituição </th> 
-   <th colname="col2" class="entry"> Retorna o </th> 
+   <th colname="col1" class="entry"> Função de substituição </th> 
+   <th colname="col2" class="entry"> Retorna o valor do ativo </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Caminho do arquivo principal. </td> 
+   <td colname="col2"> Caminho do arquivo primário. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
@@ -73,14 +73,14 @@ Especificar `setDefinition` funções de substituição em linha. Eles são reso
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Exibição ajustada, Exibição de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de ouro (se houver). Se nenhum ativo em miniatura estiver associado ao ativo, a função retornará uma string vazia. </p> </td> 
+   <td colname="col2"> ID do catálogo. Aplica-se a ativos baseados em imagem (Imagem, Exibição ajustada, Exibição de camada). <p>Para outros ativos, retorna a ID de catálogo do ativo de miniatura (se houver). Se nenhum ativo de miniatura estiver associado ao ativo, a função retornará uma cadeia de caracteres vazia. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemplos de setDefinition**
 
-Esta string de definição de conjunto de mídia:
+Esta cadeia de caracteres de definição do conjunto de mídia:
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 

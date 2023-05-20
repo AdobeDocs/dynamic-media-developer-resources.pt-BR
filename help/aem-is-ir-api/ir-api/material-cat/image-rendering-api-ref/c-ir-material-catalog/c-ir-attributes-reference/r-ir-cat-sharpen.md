@@ -1,6 +1,6 @@
 ---
 title: Nitidez
-description: Aprimoramento padrão da imagem de resposta. Especifica se as imagens respondentes devem ser dimensionadas antes da codificação.
+description: Nitidez de imagem de resposta padrão. Especifica se as imagens de resposta devem ser ajustadas com nitidez se forem dimensionadas antes da codificação.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Nitidez{#sharpen}
 
-Aprimoramento padrão da imagem de resposta. Especifica se as imagens respondentes devem ser dimensionadas antes da codificação.
+Nitidez de imagem de resposta padrão. Especifica se as imagens de resposta devem ser ajustadas com nitidez se forem dimensionadas antes da codificação.
 
 ## Propriedades {#section-faf57183efa0456fb37a7803a9486248}
 

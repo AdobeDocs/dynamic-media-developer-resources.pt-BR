@@ -2,12 +2,12 @@
 description: Retorna informações sobre a empresa especificada, incluindo o identificador da empresa, o nome da empresa, o caminho raiz e a data de expiração. Você deve especificar companyHandle ou companyName cujas informações deseja recuperar.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é necessário. </p> </td> 
+   <td colname="col3"> <p>Ou <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é obrigatório. </p> </td> 
    <td colname="col4"> <p>O identificador da empresa cujas informações você deseja obter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é necessário. </p> </td> 
+   <td colname="col3"> <p>Ou <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é obrigatório. </p> </td> 
    <td colname="col4"> <p>O nome da empresa cujas informações você deseja obter. </p> </td> 
   </tr> 
  </tbody> 
@@ -74,14 +74,14 @@ Sintaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:Empresa</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Manipule e outras informações descritivas sobre a empresa. </p> </td> 
+   <td colname="col4"> <p>Identificador e outras informações descritivas sobre a empresa. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemplos {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Esta amostra de código retorna todas as informações sobre uma empresa usando um nome e identificador da empresa. Ele retorna dados semelhantes à resposta recebida ao criar uma empresa.
+Esta amostra de código retorna todas as informações sobre uma empresa usando um nome de empresa e um identificador. Ele retorna dados semelhantes à resposta recebida ao criar uma empresa.
 
 **Solicitação**
 

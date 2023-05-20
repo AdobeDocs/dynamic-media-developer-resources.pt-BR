@@ -1,5 +1,5 @@
 ---
-description: Atualize as permissões da pasta.
+description: Atualizar permissões de pasta.
 solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # updateFolderPermissions{#updatefolderpermissions}
 
-Atualize as permissões da pasta.
+Atualizar permissões de pasta.
 
 Sintaxe
 
@@ -30,9 +30,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | folderHandle | `xsd:string` | Sim | Identificador de pasta. |
-| updateChildren | `xsd:boolean` | Sim | Determina se deseja atualizar filhos com permissões definidas para a pasta de nível superior. |
+| updateChildren | `xsd:boolean` | Sim | Determina se os filhos devem ser atualizados com permissões definidas para a pasta de nível superior. |
 | updateArray | `types:PermissionUpdateArray` | Sim | A matriz de atualizações de permissão que você deseja aplicar à pasta. |
 
 **Saída (updateFolderPermissionsReturn)**

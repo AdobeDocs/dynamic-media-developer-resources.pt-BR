@@ -1,5 +1,5 @@
 ---
-description: Descreve alterações de permissão.
+description: Descreve as alterações de permissão.
 solution: Experience Manager
 title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PermissionUpdate]{#permissionupdate}
 
-Descreve alterações de permissão.
+Descreve as alterações de permissão.
 
 Sintaxe
 

@@ -33,22 +33,22 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O controle de uma empresa com os ativos que você deseja restaurar. |
-| assetHandleArray | `types:HandleArray` | Sim | Matriz de manipuladores para os ativos que você deseja restaurar. |
+| companyHandle | `xsd:string` | Sim | O identificador de uma empresa com os ativos que você deseja restaurar. |
+| assetHandleArray | `types:HandleArray` | Sim | Matriz de identificadores para os ativos que você deseja restaurar. |
 
 **Saída (restoreAssetsFromTrashReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | Número de ativos removidos da lixeira com êxito. |
-| warningCount | `xsd:int` | Sim | Número de avisos gerados quando a operação tentou restaurar ativos da lixeira. |
+| successCount | `xsd:int` | Sim | Número de ativos removidos com êxito da lixeira. |
+| warningCount | `xsd:int` | Sim | Número de avisos gerados quando a operação tentou restaurar os ativos da lixeira. |
 | errorCount | `xsd:int` | Sim | Número de erros gerados ao tentar restaurar ativos da lixeira. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram avisos quando a operação tentou restaurar ativos da lixeira. |
 | errorDetailArray | `types:AssetOperationFaultArray` | Não | A matriz de detalhes associados aos ativos que geraram erros quando a operação tentou restaurar ativos da lixeira. |
 
 ## Exemplos {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Essa amostra de código restaura ativos da lixeira. A resposta indica que a operação foi concluída com êxito.
+Esta amostra de código restaura ativos da lixeira. A resposta indica que a operação foi concluída com êxito.
 
 **Solicitação**
 

@@ -1,29 +1,29 @@
 ---
-description: Caminho de recorte de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Todas as partes da camada que estão dentro da área definida por clipXPath= são renderizadas de forma transparente.
+description: Caminho de clipe de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Qualquer parte da camada que esteja dentro da área definida por clipXPath= é renderizada como transparente.
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # clipXPath{#clipxpath}
 
-Caminho de recorte de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Todas as partes da camada que estão dentro da área definida por clipXPath= são renderizadas de forma transparente.
+Caminho de clipe de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Qualquer parte da camada que esteja dentro da área definida por clipXPath= é renderizada como transparente.
 
 `clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *``*&#42;[, *`pathNameName`*]`
+`clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition</span> </span> </p> </td> 
-  <td class="stentry"> <p>Dados do caminho. </p></td> 
+  <td class="stentry"> <p>Dados de caminho. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName</span> </span> </p> </td> 
@@ -35,7 +35,7 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 ## Propriedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de camada. Aplica-se à camada atual ou à imagem composta se `layer=comp`. Ignorado se `clipPath=` não for especificado. Ignorado por camadas de efeito.
+Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado se `clipPath=` não foi especificado. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-d1986aa31af14767aeb1b4a57add67f4}
 

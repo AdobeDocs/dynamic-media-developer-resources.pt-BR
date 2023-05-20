@@ -1,6 +1,6 @@
 ---
 title: Formatos de arquivo
-description: Os arquivos de atributo de catálogo e de dados de catálogo são arquivos de texto simples.
+description: Os arquivos de atributo de catálogo e os arquivos de dados de catálogo são arquivos de texto simples.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Formatos de arquivo{#file-formats}
 
-Os arquivos de atributo de catálogo e de dados de catálogo são arquivos de texto simples.
+Os arquivos de atributo de catálogo e os arquivos de dados de catálogo são arquivos de texto simples.

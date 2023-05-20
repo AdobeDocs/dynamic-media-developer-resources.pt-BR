@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `type:Metadata` | Uma matriz de parâmetros de metadados a serem excluídos. |
+| itens | `type:Metadata` | Uma matriz de parâmetros de metadados a serem excluídos. |

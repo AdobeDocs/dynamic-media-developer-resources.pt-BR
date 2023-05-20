@@ -1,5 +1,5 @@
 ---
-title: Pontos de conexão
+title: Pontos de acesso
 description: O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Pontos de conexão{#hotspots}
+# Pontos de acesso{#hotspots}
 
 O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades CSS da área principal do visualizador**
+**Propriedades CSS da área do visualizador principal**
 
 A aparência do ícone de ponto de acesso é controlada com o seguinte seletor de classe CSS:
 
@@ -35,25 +35,25 @@ A aparência do ícone de ponto de acesso é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imagem de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Arte do ícone de ponto de acesso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>Arte do ícone do ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> posição de fundo  </span> </p> </td> 
-   <td colname="col2"> <p>Posição dentro da estrutura de arte, se os sprites CSS forem usados. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Scripts CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>Posicione dentro da imagem do trabalho artístico, se as imagens CSS forem usadas. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largura do ícone do ponto de acesso. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
+   <td colname="col2"> <p>Largura do ícone de ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> altura  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> altura </span> </p> </td> 
    <td colname="col2"> <p>Altura do ícone do ponto de acesso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configure um ícone de ponto de acesso de 56 x 56 pixels que exibe uma imagem diferente para cada um dos dois estados de ícone diferentes:
+Exemplo - configure um ícone de ponto de acesso de 56 x 56 pixels que exiba uma imagem diferente para cada um dos dois estados de ícone diferentes:
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

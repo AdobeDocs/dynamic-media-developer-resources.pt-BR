@@ -1,5 +1,5 @@
 ---
-description: Opções para um arquivo Adobe Illustrator.
+description: Opções para um arquivo do Adobe Illustrator.
 solution: Experience Manager
 title: IllustratorOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL IllustratorOptions]{#illustratoroptions}
 
-Opções para um arquivo Adobe Illustrator.
+Opções para um arquivo do Adobe Illustrator.
 
 Sintaxe
 
@@ -23,6 +23,6 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | [!DNL process] | `xsd:string` | Escolha de processos do Illustrator. |
-| [!DNL resolution] | `xsd:string` | Resolução de arquivo. |
-| colorSpace | `xsd:string` | Espaço de cores de destino. |
-| [!DNL alpha] | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Em caso positivo, crie um fundo transparente se o arquivo original estiver definido dessa forma para a criação de logotipos sobrepostos. |
+| [!DNL resolution] | `xsd:string` | Resolução do arquivo. |
+| colorSpace | `xsd:string` | Espaço de cor de destino. |
+| [!DNL alpha] | `xsd:boolean` | Se o arquivo deve ser rasterizado em uma imagem. Nesse caso, crie um plano de fundo transparente se o arquivo original for definido dessa maneira para criar logotipos de sobreposição. |

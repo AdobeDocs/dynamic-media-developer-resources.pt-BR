@@ -1,6 +1,6 @@
 ---
 title: Referência de comando - URL
-description: Documentação de referência de comando do visualizador de vídeo.
+description: Documentação de referência de comandos para o Visualizador de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referência de comando - URL{#command-reference-url}
 
-Documentação de referência de comando do visualizador de vídeo.
+Documentação de referência de comandos para o Visualizador de vídeo.

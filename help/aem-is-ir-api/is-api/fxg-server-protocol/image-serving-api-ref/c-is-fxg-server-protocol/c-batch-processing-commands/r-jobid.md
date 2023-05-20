@@ -1,19 +1,19 @@
 ---
-description: ID da tarefa do trabalho em lote.
+description: ID do trabalho em lotes.
 solution: Experience Manager
 title: jobid
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c00b7191-f162-4c51-bcfb-fe27f9253ca8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
 # jobid{#jobid}
 
-ID da tarefa do trabalho em lote.
+ID do trabalho em lotes.
 
-Usado em solicitações de trabalho em lote para especificar o trabalho para o qual o status ou a saída é solicitada ou para excluir um trabalho específico. O valor é a string da ID do trabalho que foi retornada quando o trabalho foi enviado.
+Usado em solicitações de processo em lote para especificar o processo para o qual o status ou a saída é solicitado ou para excluir um processo específico. O valor é a cadeia de caracteres da ID do trabalho retornada quando o trabalho foi enviado.

@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ImageMap` | A matriz do mapa de imagem. |
+| itens | `types:ImageMap` | A matriz do mapa de imagem. |

@@ -29,17 +29,17 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | O nome da empresa. |
+| companyHandle | `xsd:string` | Sim | O identificador da empresa. |
 
 **Saída (getVignettePublishFormatsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| vinhetaFormatArray | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | Sim | Matriz de formatos de publicação de vinheta. |
 
 ## Exemplos {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Essa amostra de código retorna dois formatos de publicação de vinheta associados a uma empresa específica. As informações são retornadas em uma matriz, que é truncada por motivos de brevidade.
+Essa amostra de código retorna dois formatos de publicação de vinheta associados a uma empresa específica. As informações são retornadas em uma matriz, que é truncada por brevidade.
 
 **Solicitação**
 

@@ -1,7 +1,7 @@
 ---
 description: Estatísticas de espaço em disco para um ativo ou pasta.
 solution: Experience Manager
-title: Uso de disco
+title: Uso do disco
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
@@ -22,8 +22,8 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| companyHandle | `xsd:string` | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Identificador da empresa. |
 | companyName | `xsd:string` | Nome da empresa. |
 | imageCount | `xsd:int` | Número de imagens armazenadas. |
-| diskSpaceUsage | `xsd:long` | Lado total do arquivo em kilobytes. |
-| lastModified | `xsd:dateTime` | Data, hora e fuso horário na `DiskUsage` foi modificado pela última vez. |
+| diskSpaceUsage | `xsd:long` | Lado do arquivo total em quilobytes. |
+| lastModified | `xsd:dateTime` | Data, hora e fuso horário que `DiskUsage` O tipo foi modificado pela última vez. |

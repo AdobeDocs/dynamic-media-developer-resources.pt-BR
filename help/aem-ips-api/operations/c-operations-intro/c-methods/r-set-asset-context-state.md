@@ -1,5 +1,5 @@
 ---
-description: Defina ou atualize o estado de publicação de um ou mais ativos. Você pode definir estados de publicação separados para cada contexto de publicação em uma empresa.
+description: Defina ou atualize o estado de publicação de um ou mais ativos. É possível definir estados de publicação separados para cada contexto de publicação em uma empresa.
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAssetsContextState{#setassetscontextstate}
 
-Defina ou atualize o estado de publicação de um ou mais ativos. Você pode definir estados de publicação separados para cada contexto de publicação em uma empresa.
+Defina ou atualize o estado de publicação de um ou mais ativos. É possível definir estados de publicação separados para cada contexto de publicação em uma empresa.
 
 ## Tipos de usuário autorizados {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -38,21 +38,21 @@ Defina ou atualize o estado de publicação de um ou mais ativos. Você pode def
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sim | Uma matriz de ativos e seus novos estados de publicação. |
 
-**Saída (setAssetsContexStateReturn)**
+**Saída (setAssetsContextStateReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | O número de ativos alterados com êxito. |
+| successCount | `xsd:int` | Sim | O número de ativos alterados com sucesso. |
 | warningCount | `xsd:int` | Sim | O número de avisos gerados quando a operação tentou modificar ativos. |
 | errorCount | `xsd:int` | Sim | O número de erros gerados quando a operação tentou modificar ativos. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Não | Matriz de erros gerados por ativos quando a operação tentou modificá-los. |
 
 ## Exemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Essa amostra de código define o estado da publicação de um ativo usando `NotMarkedForPublish`.
+Essa amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 

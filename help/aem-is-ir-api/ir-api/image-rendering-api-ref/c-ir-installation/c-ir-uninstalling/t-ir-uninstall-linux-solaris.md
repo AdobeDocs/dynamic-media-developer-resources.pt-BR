@@ -1,5 +1,5 @@
 ---
-title: Desinstalação no Linux® e no Solaris™
+title: Desinstalando no Linux® e Solaris™
 description: Siga estas instruções para desinstalar a Renderização de imagem em um sistema Linux® ou Solaris™.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Desinstalação no Linux® e no Solaris™{#uninstalling-on-linux-and-solaris}
+# Desinstalando no Linux® e Solaris™{#uninstalling-on-linux-and-solaris}
 
 Siga estas instruções para desinstalar a Renderização de imagem em um sistema Linux® ou Solaris™. Há dois métodos diferentes que você pode usar. Siga um destes procedimentos:
 
@@ -20,19 +20,19 @@ Siga estas instruções para desinstalar a Renderização de imagem em um sistem
 
 1. Localizar [!DNL uninstall.sh].
 
-   Está no diretório do qual ImageRendering foi instalado. Se esse diretório tiver sido removido, o pacote de instalação original deverá ser descompactado e não poderá ser extraído [!DNL uninstall.sh].
+   Ela está no diretório no qual o ImageRendering foi instalado. Se esse diretório tiver sido removido, o pacote de instalação original deverá ser descompactado e não testado para extrair [!DNL uninstall.sh].
 1. Executar [!DNL uninstall.sh] e siga as instruções na tela.
 
 ## Método 2
 
-1. Pare a renderização de imagem com o seguinte:
+1. Interromper ImageRendering com o seguinte:
 
    ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 
-1. Remova ImageRendering do seu sistema. O comando usado depende do sistema.
+1. Remova ImageRendering do sistema. O comando usado depende do sistema.
    * Linux®: `rpm -e ImageRendering`
 
    * Solaris™: `pkgrm ImageRendering`
 
-1. Exclua todos os diretórios ou arquivos que não foram removidos na etapa 2.
+1. Exclua diretórios ou arquivos que não foram removidos na etapa 2.
 

@@ -33,9 +33,9 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manipule a empresa. |
-| assetHandle | `xsd:string` | Sim | Manipule o ativo que deseja mover. |
-| folderHandle | `xsd:string` | Sim | Lide com a pasta de destino. |
+| companyHandle | `xsd:string` | Sim | Processe a empresa. |
+| assetHandle | `xsd:string` | Sim | Processe o ativo que você deseja mover. |
+| folderHandle | `xsd:string` | Sim | Processe a pasta de destino. |
 
 **Saída (moveAssetReturn)**
 
@@ -43,7 +43,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Essa amostra de código move um ativo para uma pasta.
+Esta amostra de código move um ativo para uma pasta.
 
 **Solicitação**
 

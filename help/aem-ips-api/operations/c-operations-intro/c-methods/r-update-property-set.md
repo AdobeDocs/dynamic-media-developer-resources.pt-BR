@@ -36,7 +36,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| setHandle | `xsd:string` | Sim | Manipule para o conjunto de propriedades. |
+| setHandle | `xsd:string` | Sim | Identificador para o conjunto de propriedades. |
 | replaceProperties | `xsd:string` | Não | Defina como `true` para substituir propriedades. |
 | propertyArray | `types:PropertyArray` | Sim | Matriz de propriedades atualizadas para o conjunto de propriedades. |
 
@@ -46,7 +46,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-Este exemplo de código atualiza um conjunto de propriedades com propriedades na matriz de propriedades.
+Esta amostra de código atualiza um conjunto de propriedades com propriedades na matriz de propriedades.
 
 **Solicitação**
 

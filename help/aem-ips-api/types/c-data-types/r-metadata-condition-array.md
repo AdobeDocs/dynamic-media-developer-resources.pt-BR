@@ -1,7 +1,7 @@
 ---
 description: Uma matriz de condições de metadados.
 solution: Experience Manager
-title: MetadataConditionArray
+title: MatrizCondiçãoMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bcc7631b-cff3-4cbb-ae3e-f6e0fb670ee0
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:MetadataCondition` | A matriz de condições de metadados. |
+| itens | `types:MetadataCondition` | A matriz de condições de metadados. |

@@ -1,7 +1,7 @@
 ---
-description: Usado por MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
+description: Usado por MetadataField/tipo, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
 solution: Experience Manager
-title: Tipos de campo de metadados
+title: Tipos de campos de metadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Tipos de campo de metadados{#metadata-field-types}
+# Tipos de campos de metadados{#metadata-field-types}
 
-Usado por MetadataField/type, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
+Usado por MetadataField/tipo, saveMetadataFieldParam/fieldType e createMetadataField/fieldType.
 
 Sintaxe
 
@@ -22,7 +22,7 @@ Sintaxe
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: Um caso especial de [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado para os valores [!DNL `True`] e [!DNL `False`].
+* [!DNL `BooleanTag`]: um caso especial de [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado para os valores [!DNL `True`] e [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ Sintaxe
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]: Zero ou mais valores de string de um dicionário fechado. Somente usuários administradores podem modificar o dicionário.
-* [!DNL `MultiTag`]: Zero ou mais valores de string.
-* [!DNL `SingleFixedTag`]: Um único valor de string de um dicionário fechado. If `setAssetMetadata` ou `batchSetAssetMetadata` são chamados com um valor que não está no dicionário, uma falha é retornada. Somente usuários administradores podem modificar o dicionário.
+* [!DNL `MultiFixedTag`]: zero ou mais valores de sequência de caracteres de um dicionário fechado. Somente usuários administradores podem modificar o dicionário.
+* [!DNL `MultiTag`]: zero ou mais valores da string.
+* [!DNL `SingleFixedTag`]: um único valor de string de um dicionário fechado. Se `setAssetMetadata` ou `batchSetAssetMetadata` são chamados com um valor fora do dicionário, uma falha é retornada. Somente usuários administradores podem modificar o dicionário.
 
-* [!DNL `SingleTag`]: Qualquer valor de string único.
+* [!DNL `SingleTag`]: qualquer valor único de string.
 * [!DNL `String`]

@@ -1,5 +1,5 @@
 ---
-description: Um objeto ou contêiner na hierarquia de pastas.
+description: Um objeto ou container na hierarquia de pastas.
 solution: Experience Manager
 title: Ativo
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL Asset]{#asset}
 
-Um objeto ou contêiner na hierarquia de pastas.
+Um objeto ou container na hierarquia de pastas.
 
 Sintaxe
 
@@ -37,7 +37,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Detalhes sobre um arquivo GIF animado. </td> 
+   <td colname="col3"> Detalhes sobre um arquivo de GIF animado. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
@@ -46,7 +46,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -71,22 +71,22 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Retorna o nome do arquivo virtual. O caminho de arquivo virtual completo é <span class="codeph"> pasta</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">Retorna o nome de arquivo virtual. O caminho completo do arquivo virtual é <span class="codeph"> pasta</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -97,11 +97,11 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Lida com a pasta principal do ativo. </td> 
+   <td colname="col3"> Processe a pasta principal do ativo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> texto:fontInfo</span> </td> 
    <td colname="col3"> Propriedades de um ativo de fonte. </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -121,13 +121,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> URL relativo que representa uma visualização em miniatura do ativo. </td> 
+   <td colname="col3"> O URL relativo que representa uma exibição em miniatura do ativo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
@@ -137,7 +137,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModified]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Data e hora em que o ativo foi modificado pela última vez. </td> 
+   <td colname="col3"> Data e hora da última modificação do ativo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModifyUser]</span> </span> </td> 
@@ -147,21 +147,21 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL layerViewInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:LayerViewInfo</span> </td> 
-   <td colname="col3"> Propriedades de um ativo de exibição de camada. </td> 
+   <td colname="col3"> Propriedades de um ativo de exibição em camada. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MetadataArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizDeMetadados</span> </td> 
    <td colname="col3"> Matriz de valores de metadados associados ao ativo. </td> 
   </tr> 
   <tr> 
@@ -171,47 +171,47 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> Propriedades de um ativo de configurações de PDF. </td> 
+   <td colname="col3"> Propriedades de um ativo de configurações PDF. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL projects]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Lista de nomes de projetos. </td> 
+   <td colname="col3"> Lista de nomes de projeto. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Define um sinalizador para indicar se um ativo deve ser publicado ou não. </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:SvgInfo</span> </td> 
-   <td colname="col3"> Propriedades de um SVG asset. </td> 
+   <td colname="col3"> Propriedades de um ativo SVG. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 
@@ -241,13 +241,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:TemplateInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:InformaçõesModelo</span> </td> 
    <td colname="col3"> Propriedades de um ativo de modelo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indica se um ativo está na lixeira ou ao vivo (consulte "Estado da lixeira" para obter valores). </td> 
+   <td colname="col3"> Indica se um ativo está na lixeira ou ao vivo (consulte "Estado da lixeira" para valores). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
@@ -261,13 +261,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> <p>Propriedades de um ativo de vídeo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> Propriedades de um ativo predefinido do visualizador. </td> 
+   <td colname="col3"> Propriedades de um ativo de predefinição do visualizador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
@@ -276,7 +276,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:VignetteInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:InformaçõesVinheta</span> </td> 
    <td colname="col3"> Propriedades de um ativo de vinheta. </td> 
   </tr> 
   <tr> 
@@ -287,11 +287,11 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:WindowCoveringInfo</span> </td> 
-   <td colname="col3"> Propriedades de uma janela que cobre o ativo. </td> 
+   <td colname="col3"> Propriedades de uma janela que abrange o ativo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase do código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

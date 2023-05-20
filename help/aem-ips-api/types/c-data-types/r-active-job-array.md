@@ -1,6 +1,6 @@
 ---
 title: AtiveJobArray
-description: Uma matriz de trabalhos ativos.
+description: Uma matriz de tarefas ativas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ActiveJobArray]{#activejobarray}
 
-Uma matriz de trabalhos ativos.
+Uma matriz de tarefas ativas.
 
 Sintaxe
 
@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| items | `types:ActiveJob` | Matriz de trabalhos ativos. |
+| itens | `types:ActiveJob` | Matriz de trabalhos ativos. |

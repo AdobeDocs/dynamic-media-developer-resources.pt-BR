@@ -1,6 +1,6 @@
 ---
-title: Efeitos da camada
-description: A sombra da camada de estilo Photoshop e os efeitos de brilho são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada pai), incluindo layer=0 e layer=comp.
+title: Efeitos de camada
+description: Os efeitos de sombra e brilho da camada de estilo Photoshop são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada principal), incluindo layer=0 e layer=comp.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 ---
 
-# Efeitos da camada{#layer-effects}
+# Efeitos de camada{#layer-effects}
 
-A sombra da camada de estilo Photoshop e os efeitos de brilho são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada pai), incluindo layer=0 e layer=comp.
+Os efeitos de sombra e brilho da camada de estilo Photoshop são implementados usando subcamadas especiais (camadas de efeito) que podem ser anexadas a qualquer camada (a camada principal), incluindo layer=0 e layer=comp.
 
-Embora as camadas de efeito sejam compatíveis com vários atributos e comandos padrão de imagem e camada, elas não se destinam a camadas de propósito geral e não são compatíveis com dados independentes de imagem ou texto.
+Embora as camadas de efeito sejam compatíveis com vários atributos e comandos padrão de imagem e camada, elas não se destinam a camadas de uso geral e não são compatíveis com dados de imagem ou texto independentes.
 
-Qualquer número de efeitos de camada pode ser anexado a uma única camada pai.
+Qualquer número de efeitos de camada pode ser anexado a uma única camada principal.
 
 ## Efeitos internos e externos {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Efeitos internos* são renderizados na parte superior da camada pai e são visíveis apenas em áreas opacas da camada pai. *Efeitos secundários* são renderizadas atrás da camada pai (dessa forma, elas nunca serão visíveis em áreas opacas da camada pai) e podem ser posicionadas em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo um número de camada de efeito positivo ou negativo com o `effect=` comando. O `effect=` O comando também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada pai.
+*Efeitos internos* são renderizados na parte superior da camada principal e são visíveis apenas em áreas opacas da camada principal. *Efeitos externos* são renderizados atrás da camada principal (portanto, nunca estarão visíveis em áreas opacas da camada principal) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo-se um número de camada de efeito positivo ou negativo com o `effect=` comando. A variável `effect=` Esse comando também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada principal.
 
-## Relação com camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
+## Relação com a camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-As camadas de efeito são dimensionadas automaticamente e posicionadas para coincidir com a camada pai (ou seja, a camada de efeito herda a `size=` e `origin=` valores da camada pai). `pos=` pode ser usada para afastar a camada de efeito da camada pai, como é normalmente necessário para efeitos de sombra interna e de sombra. Enquanto para camadas padrão `pos=` especifica um deslocamento entre as origens dessa camada e da camada 0, para camadas de efeito `pos=` especifica o deslocamento entre as origens da camada de efeito e da camada pai.
+As camadas de efeito são dimensionadas e posicionadas automaticamente para coincidir com a camada principal (ou seja, a camada de efeito herda a `size=` e `origin=` da camada principal). `pos=` pode ser usado para afastar a camada de efeito da camada principal, como normalmente é necessário para efeitos de soltar e sombra interna. Enquanto para camadas padrão `pos=` especifica um deslocamento entre as origens dessa camada e a camada 0, para camadas de efeito `pos=` especifica o deslocamento entre as origens da camada de efeito e da camada pai.
 
 ## Comandos e atributos compatíveis {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -46,7 +46,7 @@ Todos os outros comandos de imagem e camada contidos nas camadas de efeito são 
 
 ## Macros de efeito padrão {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-Para facilitar o uso de efeitos de camada, o IS fornece duas macros com o catálogo de imagem padrão, `$shadow$` e `$glow$`, que fornecem valores padrão para atributos de camada de efeito semelhantes a efeitos de camada do Photoshop. A tabela a seguir lista qual efeito o comando e a macro devem ser usados para implementar os efeitos de camada padrão. Naturalmente, qualquer um dos atributos especificados nas macros pode ser modificado no URL ou macros alternativas podem ser criadas para implementar efeitos de camada personalizados.
+Para facilitar o uso de efeitos de camada, o IS fornece duas macros com o catálogo de imagens padrão, `$shadow$` e `$glow$`, que fornecem valores padrão para atributos de camada de efeito semelhantes aos efeitos de camada do Photoshop. A tabela a seguir lista qual comando de efeito e macro devem ser usados para implementar os efeitos de camada padrão. Naturalmente, qualquer um dos atributos especificados nas macros pode ser modificado no URL ou macros alternativas podem ser criadas para implementar efeitos de camada personalizados.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -65,7 +65,7 @@ Para facilitar o uso de efeitos de camada, o IS fornece duas macros com o catál
    <td> <p> <span class="codeph"> efeito=1&amp;$shadow$</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Brilho externo </p> </td> 
+   <td> <p> Brilho Externo </p> </td> 
    <td> <p> <span class="codeph"> efeito=-1&amp;$glow$</span> </p> </td> 
   </tr> 
   <tr> 
@@ -81,14 +81,14 @@ Adicione uma borda vermelha de três pixels de largura com 50% de opacidade a um
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-A borda seguirá os contornos do canal alfa ou da máscara da imagem. Configuração `effect=1` colocaria a borda interna em vez disso.
+A borda seguirá os contornos do canal ou máscara alfa da imagem. Configuração `effect=1` em vez disso, colocaria a borda na borda interna.
 
-Adicione uma sombra suspensa azulada a uma imagem, usando as configurações de efeito padrão (exceto para a cor):
+Adicionar uma sombra projetada azulada a uma imagem, usando as configurações de efeito padrão (exceto para a cor):
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` adiciona uma pequena margem às margens inferiores direita da imagem, o que impede que a sombra seja cortada nos limites da imagem.
+`extend=` adiciona uma pequena margem às bordas inferiores direita da imagem, o que impede que a sombra seja recortada nos limites da imagem.
 
 ## Consulte também {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[efeito=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[efeito=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de Comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

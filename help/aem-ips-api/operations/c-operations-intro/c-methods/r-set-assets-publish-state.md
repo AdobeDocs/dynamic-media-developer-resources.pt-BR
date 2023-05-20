@@ -37,14 +37,14 @@ Esta é a versão em lote de [setAssetState](../../../operations/c-operations-in
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Sim | Manuseio da empresa. |
+| companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | publishStateUpdateArray | `types:PublishStateUpdateArray` | Sim | Matriz de valores de estado de publicação para os ativos. |
 
 **Saída (setAssetsPublishStateParam)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| successCount | `xsd:int` | Sim | A quantidade de ativos atualizados com êxito. |
+| successCount | `xsd:int` | Sim | O número de ativos atualizados com sucesso. |
 | warningCount | `xsd:int` | Sim | O número de ativos que geraram um aviso quando a operação tentou atualizá-los. |
 | errorCount | `xsd:int` | Sim | O número de ativos que geraram um erro quando a operação tentou excluí-los. |
 | warningDetailArray | `types:AssetOperationFaultArray` | Não | Detalhes associados às atualizações de ativos que geraram um aviso. |
@@ -52,7 +52,7 @@ Esta é a versão em lote de [setAssetState](../../../operations/c-operations-in
 
 ## Exemplos {#section-38cfdd3436214a06a1bae16875501d51}
 
-Essa amostra de código define o estado da publicação de um ativo.
+Essa amostra de código define o estado de publicação de um ativo.
 
 **Solicitação**
 

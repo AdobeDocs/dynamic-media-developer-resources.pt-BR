@@ -1,6 +1,6 @@
 ---
 title: Suporte para rastreamento do Adobe Analytics
-description: O Visualizador de vídeo de recorte inteligente oferece suporte ao rastreamento de Adobe Analytics pronto para uso.
+description: O Visualizador de vídeo de recorte inteligente é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-O Visualizador de vídeo de recorte inteligente oferece suporte ao rastreamento de Adobe Analytics pronto para uso.
+O Visualizador de vídeo de recorte inteligente é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
 ## Rastreamento pronto para uso {#section-3b101fe30be943c1b679fd5c273569ca}
 
-O Visualizador de vídeo de recorte inteligente oferece suporte ao rastreamento de Adobe Analytics pronto para uso.
+O Visualizador de vídeo de recorte inteligente é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome predefinido da empresa apropriado como `config2` parâmetro.
+Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
 
-O visualizador também envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e as informações da versão.
+O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrar com sistemas de análise de terceiros, é necessário ouvir `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar a sistemas analíticos de terceiros, é necessário acompanhar `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -63,27 +63,27 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CARREGAR </span> </p> </td> 
-   <td colname="col2"> <p>O visualizador é carregado primeiro. </p> </td> 
+   <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
    <td colname="col2"> <p>um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> REPRODUZIR </span> </p> </td> 
-   <td colname="col2"> <p>a reprodução é iniciada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col2"> <p>reprodução iniciada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSA </span> </p> </td> 
-   <td colname="col2"> <p>a reprodução está pausada. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSAR </span> </p> </td> 
+   <td colname="col2"> <p>reprodução em pausa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
-   <td colname="col2"> <p>a reprodução foi interrompida. </p> </td> 
+   <td colname="col2"> <p>reprodução interrompida. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MARCO </span> </p> </td> 
-   <td colname="col2"> <p>a reprodução atinge um dos seguintes marcos: 0%, 25%, 50%, 75% e 100%. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ETAPA </span> </p> </td> 
+   <td colname="col2"> <p>a reprodução atinge uma das seguintes millstones: 0%, 25%, 50%, 75% e 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>

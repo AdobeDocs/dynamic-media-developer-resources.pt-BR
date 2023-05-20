@@ -1,18 +1,18 @@
 ---
 description: Usado por setCompanySettingsParam/overwriteMode.
 solution: Experience Manager
-title: Modos de substituição de ativos
-feature: Dynamic Media Classic, SDK/API, Gerenciamento de ativos
+title: Modos de substituição de ativo
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1a62026c-bad1-4459-8fe6-a94b87939ce1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
+source-wordcount: '16'
 ht-degree: 0%
 
 ---
 
-# Modos de substituição de ativos{#asset-overwrite-modes}
+# Modos de substituição de ativo{#asset-overwrite-modes}
 
 Usado por setCompanySettingsParam/overwriteMode.
 

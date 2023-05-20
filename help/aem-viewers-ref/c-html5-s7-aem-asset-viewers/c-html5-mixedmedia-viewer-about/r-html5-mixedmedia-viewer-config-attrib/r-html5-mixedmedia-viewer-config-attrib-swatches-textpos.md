@@ -8,7 +8,7 @@ exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 2%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. When <span class="codeph"> tooltip</span> for especificado, nenhum rótulo será desenhado. </p> </td> 
+   <td> <p> <span class="codeph"> inferior|superior|esquerdo|direito|nenhum|dica de ferramenta</span> </p> </td> 
+   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. Quando <span class="codeph"> dica de ferramenta</span> for especificado, nenhum rótulo será desenhado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

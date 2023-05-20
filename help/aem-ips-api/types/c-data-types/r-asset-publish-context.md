@@ -1,7 +1,7 @@
 ---
-description: Mapeia um ativo para o PublishContexts no qual ele é marcado para publicação.
+description: Mapeia um ativo para o PublishContexts no qual um ativo está marcado para publicação.
 solution: Experience Manager
-title: AtivoPublicarContextos
+title: AssetPublishContexts
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-Mapeia um ativo para o PublishContexts no qual ele é marcado para publicação.
+Mapeia um ativo para o PublishContexts no qual um ativo está marcado para publicação.
 
 Sintaxe
 
@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| assetHandle | `xsd:string` | Lidar com o ativo. |
-| publishContextArray | `types:PublishContextArray` | Uma matriz de contextos de publicação em que o ativo é marcado para publicação. |
+| assetHandle | `xsd:string` | Identificar o ativo. |
+| publishContextArray | `types:PublishContextArray` | Uma matriz de contextos de publicação nos quais o ativo é marcado para publicação. |

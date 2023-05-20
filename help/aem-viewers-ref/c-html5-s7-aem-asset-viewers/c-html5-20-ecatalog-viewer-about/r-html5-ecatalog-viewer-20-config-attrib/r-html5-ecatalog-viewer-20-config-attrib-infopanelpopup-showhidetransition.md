@@ -8,23 +8,23 @@ exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`time`*]`
+` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`hora`*]`
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esmaecimento|nenhum</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo de animação show/hide do painel de informações. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> esmaecer|nenhum</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo de animação de exibição/ocultação do painel de informações. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td> <p> Duração (em segundos) da animação show ou hide. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> hora</span></span> </p> </td> 
+   <td> <p> Duração (em segundos) para mostrar ou ocultar a animação. </p> </td> 
   </tr> 
  </tbody> 
 </table>

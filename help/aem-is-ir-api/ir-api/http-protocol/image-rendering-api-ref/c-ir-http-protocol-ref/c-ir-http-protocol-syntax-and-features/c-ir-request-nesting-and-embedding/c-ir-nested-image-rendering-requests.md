@@ -1,6 +1,6 @@
 ---
 title: Solicitações de renderização de imagem aninhada
-description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
+description: Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem do material, como uma imagem obtida no Servidor de imagens.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Solicitações de renderização de imagem aninhada{#nested-image-rendering-requests}
 
-Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem material, como uma imagem obtida do Serviço de imagem.
+Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem do material, como uma imagem obtida no Servidor de imagens.
 
-Uma solicitação de renderização pode ser usada como uma imagem de material ao especificá-la na variável `src=` comando como segue:
+Uma solicitação de renderização pode ser usada como uma imagem do material especificando-a no campo `src=` comando da seguinte maneira:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-O `ir` O token diferencia maiúsculas de minúsculas.
+A variável `ir` O token diferencia maiúsculas e minúsculas.
 
-A solicitação aninhada não deve incluir o caminho raiz da Renderização de imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regras de pré-processamento.
+A solicitação aninhada não deve incluir o caminho raiz de Renderização de imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regra de pré-processamento.
 
-Os comandos a seguir são ignorados quando especificados em solicitações aninhadas (no url da solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
+Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (no url da solicitação ou no `catalog::Modifier` ou `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -36,4 +36,4 @@ Os comandos a seguir são ignorados quando especificados em solicitações aninh
 
 Também são ignoradas `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
 
-O resultado da imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente, incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários é desativado. O armazenamento em cache só deve ser ativado quando a imagem intermediária for reutilizada em um pedido diferente dentro de um período de tempo razoável. O gerenciamento de cache padrão do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
+O resultado de imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários está desativado. O armazenamento em cache só deve ser ativado quando a imagem intermediária for reutilizada em uma solicitação diferente em um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.

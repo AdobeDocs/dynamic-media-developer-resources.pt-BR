@@ -1,6 +1,6 @@
 ---
 title: textPath
-description: Caminho do texto. Especifica o caminho a ser usado como linha de base para o texto fornecido com textPs=.
+description: Caminho do texto. Especifica o caminho a ser usado como a linha de base para o texto fornecido com textPs=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 # textPath{#textpath}
 
-Caminho do texto. Especifica o caminho a ser usado como linha de base para o texto fornecido com textPs=.
+Caminho do texto. Especifica o caminho a ser usado como a linha de base para o texto fornecido com textPs=.
 
 textPath= *`pathDefinition`*
 
 <table id="simpletable_74F549E8625B483A9B334B24A7EB6D22"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Dados do caminho. </p></td> 
+  <td class="stentry"> <p>Dados de caminho. </p></td> 
  </tr> 
 </table>
 
-Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para informações adicionais, incluindo uma descrição de *`pathDefinition`*.
+Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para obter informações adicionais, incluindo uma descrição de *`pathDefinition`*.
 
 >[!NOTE]
 >
->Diferente de `clipPath=`, os caminhos de texto não são fechados automaticamente quando &#39;z&#39; ou &#39;Z&#39; não for especificado no final de um subcaminho.
+>Diferente de `clipPath=`, caminhos de texto não são fechados automaticamente quando &#39;z&#39; ou &#39;Z&#39; não são especificados no final de um subcaminho.
 
 *`pathDefinition`* pode incluir vários subcaminhos. O texto é renderizado nos subcaminhos na ordem especificada.
 
-Os comandos RTF `\ql`, `\qc`, `\qr`, `\li`e `\ri` pode ser usada para posicionar o texto renderizado ao longo do caminho.
+Os comandos RTF `\ql`, `\qc`, `\qr`, `\li`, e `\ri` pode ser usado para posicionar o texto renderizado ao longo do caminho.
 
 ## Propriedades {#section-068137df436c46b9b55d271eb60e7285}
 
-Atributo de camada de texto ( `textPs=` somente). Ignorado por outras camadas. Aplica-se a `layer=0` se especificado para `layer=comp`. Ignorado se `textPs=` estão presentes.
+Atributo de camada de texto ( `textPs=` somente). Ignorado por outras camadas. Aplicável a `layer=0` se especificado para `layer=comp`. Ignorado se `textPs=` estão presentes.
 
 Um erro é retornado se uma camada incluir ambos `textPath=` e `textFlowPath=`.
 

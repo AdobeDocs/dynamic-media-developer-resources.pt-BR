@@ -1,20 +1,20 @@
 ---
-description: Os arquivos de atributos de catálogo reconhecem esses atributos de solicitação.
+description: Os arquivos de atributo de catálogo reconhecem esses atributos de solicitação.
 solution: Experience Manager
 title: Atributos da solicitação
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1f2905f-f4e8-4944-8b27-469f09aa4bce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
 
 # Atributos da solicitação{#request-attributes}
 
-Os arquivos de atributos de catálogo reconhecem esses atributos de solicitação.
+Os arquivos de atributo de catálogo reconhecem esses atributos de solicitação.
 
 Sintaxe
 
@@ -29,15 +29,15 @@ Sintaxe
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> RootUrl</a> </span> </p></td> 
-  <td class="stentry"> <p>URL raiz para URLs de fonte de imagem relativa. </p></td> 
+  <td class="stentry"> <p>URL raiz para URLs de origem de imagem relativos. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> RequestObfuscation</a> </span> </p></td> 
-  <td class="stentry"> <p>Modo de ofuscação de solicitação. </p></td> 
+  <td class="stentry"> <p>Modo de solicitação de ofuscação. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> RequestLock</a> </span> </p></td> 
-  <td class="stentry"> <p>Solicitar modo de bloqueio. </p></td> 
+  <td class="stentry"> <p>Modo de bloqueio de solicitação. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> Marca d'água</a> </span> </p></td> 
@@ -52,16 +52,16 @@ Sintaxe
   <td class="stentry"> <p>Detalhes da mensagem de erro. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> TrustedDomains</a> </span> </p></td> 
-  <td class="stentry"> <p>Domínios da Web permitidos para acessar imagens de resposta swf. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md#reference-563bd5c54f914d9abcd2304ab292e12f" type="reference" format="dita" scope="local"> DomíniosConfiáveis</a> </span> </p></td> 
+  <td class="stentry"> <p>Domínios da Web com permissão para acessar imagens de resposta swf. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultexpiration.md#reference-0526166fab654fceb243b75d1ea4f0cf" type="reference" format="dita" scope="local"> DefaultExpiration</a> </span> </p></td> 
-  <td class="stentry"> <p>TTL do cache do cliente para respostas de imagem padrão. </p></td> 
+  <td class="stentry"> <p>TTL de cache do cliente para respostas de imagem padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-nonimgexpiration.md#reference-a8066cd0d24b4ea98100ade4821f1f9d" type="reference" format="dita" scope="local"> NonImgExpiration</a> </span> </p></td> 
-  <td class="stentry"> <p>TTL do cache do cliente para respostas que não sejam de imagem. </p></td> 
+  <td class="stentry"> <p>TTL de cache do cliente para respostas que não são de imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318" type="reference" format="dita" scope="local"> LocaleMap</a></span> </p></td> 
@@ -73,7 +73,7 @@ Sintaxe
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md#reference-8a996af162f84e46bbe9e6e0d4e26782" type="reference" format="dita" scope="local"> DefaultImageMode</a> </span> </p></td> 
-  <td class="stentry"> <p>Comportamento da imagem padrão. </p></td> 
+  <td class="stentry"> <p>Comportamento de imagem padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-clientaddressfilter.md#reference-7000c1f77b134462a1f06b733f29ba68" type="reference" format="dita" scope="local"> ClientAddressFilter</a></span> </p></td> 

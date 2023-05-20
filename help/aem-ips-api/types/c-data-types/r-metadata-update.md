@@ -1,7 +1,7 @@
 ---
 description: Define valores de metadados para um ativo específico usado com setAssetMetadata. Descreve as alterações que você deseja fazer nos metadados.
 solution: Experience Manager
-title: MetadataUpdate
+title: AtualizaçãoDeMetadados
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
@@ -34,7 +34,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Identificador de campo de metadados. </td> 
+   <td colname="col3"> Identificador do campo de metadados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
@@ -43,46 +43,46 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Valor de metadados booleanos (somente para campos do tipo Booliano). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
+   <td colname="col3"> Valor de metadados booleanos (somente para campos do tipo booleano). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valor de metadados longo (somente para campos sem tipo). </td> 
+   <td colname="col3"> Valor de metadados longo (somente para campos do tipo int). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> Valor de metadados duplos (somente para campos de tipo flutuante). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col3"> Valor de metadados duplo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valor dos metadados de data (somente para campos do tipo data). </td> 
+   <td colname="col3"> Valor de metadados de data (somente para campos do tipo data). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
    <td colname="col3"> <p>Adiciona à lista de valores de tag existente para o ativo. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
-      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Campos de tag de valor único armazenam somente o último valor. </li> 
+      <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Os campos de tag de valor único armazenam somente o último valor. </li> 
       <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Um campo de tag de dicionário fixo retornará uma falha se o valor não estiver no dicionário. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
    <td colname="col3">Substitui a lista de valores de tag existente para o ativo. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
-     <li id="li_6E85019335034B2EB1302696AE690ED5">Campos de tag de valor único armazenam somente o último valor. </li> 
+     <li id="li_6E85019335034B2EB1302696AE690ED5">Os campos de tag de valor único armazenam somente o último valor. </li> 
      <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Um campo de tag de dicionário fixo retornará uma falha se o valor não estiver no dicionário. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
-   <td colname="col3"> Exclui os valores especificados da lista de valores da tag do ativo, se houver. </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col3"> Exclui os valores especificados da lista de valores de tag do ativo, se presente. </td> 
   </tr> 
  </tbody> 
 </table>

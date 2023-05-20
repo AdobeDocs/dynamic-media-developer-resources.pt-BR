@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.ssl
-description: Atributo de configuração para Visualizador de vídeo de mídia mista.
+description: Atributo de configuração para o Visualizador de vídeo de mídia mista.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Atributo de configuração para Visualizador de vídeo de mídia mista.
+Atributo de configuração para o Visualizador de vídeo de mídia mista.
 
 <!-- >[!NOTE]
 >
@@ -25,8 +25,8 @@ Atributo de configuração para Visualizador de vídeo de mídia mista.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> auto</span> o protocolo de entrega de vídeo é herdado do protocolo da página da web de incorporação. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS e, inversamente. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> on</span>, a entrega de vídeo sempre ocorre por uma conexão segura independentemente do protocolo da página da Web. </p> <p>Afeta apenas a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|ativado</span> </p> </td> 
+   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> automático</span> o protocolo de entrega de vídeo é herdado do protocolo da página da web de incorporação. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS e vice-versa. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> em</span>, a entrega de vídeo sempre ocorre em uma conexão segura, independentemente do protocolo da página da Web. </p> <p>Afeta somente a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-Consulte também [Entrega segura de vídeo](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).
+Consulte também [Entrega de vídeo segura](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb).

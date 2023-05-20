@@ -25,7 +25,7 @@ Sintaxe
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa que contém o conjunto de imagens que você deseja modificar. |
-| assetHandle | `xsd:string` | Ys | O identificador do conjunto de imagens que você deseja modificar. |
+| assetHandle | `xsd:string` | Sim | O identificador do conjunto de imagens que você deseja modificar. |
 | memberArray | `types:ImageSetMemberUpdateArray` | Não | Redefine os membros do conjunto de imagens. |
 | thumbAssetHandle | `xsd:string` | Não | O identificador do ativo que atua como a miniatura do conjunto de imagens. |
 

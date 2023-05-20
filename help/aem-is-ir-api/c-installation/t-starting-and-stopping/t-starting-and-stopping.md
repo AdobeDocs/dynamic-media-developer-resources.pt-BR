@@ -1,6 +1,6 @@
 ---
-title: Iniciar e parar a exibição de imagens
-description: Esta seção fornece instruções para iniciar e parar o Image Serving no Windows e Linux®.
+title: Iniciar e parar o Servidor de imagens
+description: Esta seção fornece instruções para iniciar e parar o Servidor de imagens no Windows e no Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Iniciar e parar a exibição de imagens{#starting-and-stopping-image-serving}
+# Iniciar e parar o Servidor de imagens{#starting-and-stopping-image-serving}
 
-Esta seção fornece instruções para iniciar e parar o Image Serving no Windows e Linux®.
+Esta seção fornece instruções para iniciar e parar o Servidor de imagens no Windows e no Linux®.
 
-* [Iniciar ou parar no Windows](t-startstop-windows.md)
-* [Iniciar ou parar no Linux®](t-startstop-linux.md)
+* [Iniciando ou interrompendo no Windows](t-startstop-windows.md)
+* [Iniciando ou interrompendo no Linux®](t-startstop-linux.md)

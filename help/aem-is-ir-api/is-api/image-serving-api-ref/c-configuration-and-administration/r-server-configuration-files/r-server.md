@@ -1,5 +1,5 @@
 ---
-description: Contém as configurações do servidor da plataforma.
+description: Contém configurações do servidor da plataforma.
 solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # server.xml{#server-xml}
 
-Contém as configurações do servidor da plataforma.
+Contém configurações do servidor da plataforma.
 
-Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida, caso contrário, a variável [!DNL Platform Server] pode falhar no início.
+Ao modificar esse arquivo XML, é necessário ter cuidado para manter a sintaxe XML válida; caso contrário, a variável [!DNL Platform Server] pode falhar ao iniciar.
 
-Para que as alterações entrem em vigor, a variável [!DNL Platform Server] deve ser reiniciado após a edição deste arquivo.
+Para que as alterações entrem em [!DNL Platform Server] deve ser reiniciado após a edição deste arquivo.
 
-O diagrama a seguir ilustra quais configurações podem ser alteradas neste arquivo. Consulte as seções correspondentes anteriormente neste documento para obter uma descrição dessas configurações. Observe que esse diagrama não é uma representação completa de [!DNL server.xml].
+O diagrama a seguir ilustra quais configurações podem ser alteradas nesse arquivo. Consulte as seções correspondentes apresentadas anteriormente neste documento para obter uma descrição dessas configurações. Observe que este diagrama não é uma representação completa de [!DNL server.xml].
 
 ```
 <Server>

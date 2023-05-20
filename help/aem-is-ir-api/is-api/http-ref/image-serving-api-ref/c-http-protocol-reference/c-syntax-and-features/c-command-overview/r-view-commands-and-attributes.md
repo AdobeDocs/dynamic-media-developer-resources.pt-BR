@@ -2,12 +2,12 @@
 description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 solution: Experience Manager
 title: Exibir comandos
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc</a> </p> </td> 
-  <td class="stentry"> <p>Define a cor de fundo da exibição. </p></td> 
+  <td class="stentry"> <p>Define a cor do plano de fundo da exibição. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> ajuste</a> </p></td> 
-  <td class="stentry"> <p>Ajusta a exibição à imagem composta. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> ajustar</a> </p></td> 
+  <td class="stentry"> <p>Ajusta a visualização à imagem composta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96" type="reference" format="dita" scope="local"> hei</a> </p> </td> 
@@ -38,7 +38,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Especifica o retângulo de exibição final. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> gn</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rgn.md#reference-daa9b80e0d8c4b1aa67d116b578d592f" type="reference" format="dita" scope="local"> rgn</a> </p> </td> 
   <td class="stentry"> <p>Especifica uma região de interesse na imagem composta. </p></td> 
  </tr> 
  <tr class="strow"> 
