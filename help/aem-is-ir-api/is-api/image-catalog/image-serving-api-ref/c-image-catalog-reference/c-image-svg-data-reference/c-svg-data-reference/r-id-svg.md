@@ -1,20 +1,20 @@
 ---
-description: ID
-solution: Experience Manager
 title: ID
+description: Normalmente, um identificador curto e exclusivo, como um número SKU, possivelmente com algum tipo de sufixo, como se um SKU tivesse várias imagens ou variações específicas de localidade.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # ID{#id}
 
-Normalmente, um identificador curto e exclusivo, como um número SKU, possivelmente com algum tipo de sufixo, como se um SKU tiver várias imagens ou variações específicas de localidade. Também pode ser uma sequência de caracteres mais complexa, que se parece mais com um caminho de arquivo, para oferecer suporte à fácil adaptação de sites com o Servidor de imagens.
+Normalmente, um identificador curto e exclusivo, como um número SKU, possivelmente com algum tipo de sufixo, como se um SKU tivesse várias imagens ou variações específicas de localidade. Também pode ser uma sequência de caracteres mais complexa, que se parece mais com um caminho de arquivo, para oferecer suporte à fácil adaptação de sites com o Servidor de imagens.
 
 >[!NOTE]
 >

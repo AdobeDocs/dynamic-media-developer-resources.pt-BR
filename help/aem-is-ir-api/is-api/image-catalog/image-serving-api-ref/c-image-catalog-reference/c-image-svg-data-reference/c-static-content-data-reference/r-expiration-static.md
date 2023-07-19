@@ -1,13 +1,13 @@
 ---
-description: Expiração
-solution: Experience Manager
 title: Expiração
+description: Usado para gerenciar o cache do cliente e do servidor proxy. O servidor calcula a hora/data de expiração dos dados de resposta HTTP adicionando esse valor à hora/data de transmissão.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---

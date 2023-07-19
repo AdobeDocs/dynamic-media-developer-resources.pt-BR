@@ -1,13 +1,13 @@
 ---
-description: Carimbo de data/hora
-solution: Experience Manager
 title: Carimbo de data/hora
+description: Se `attribute::UseLastModified` estiver definido, o valor `catalog::TimeStamp` será retornado na resposta HTTP como um cabeçalho HTTP de última modificação.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5532b182-cc8c-4a51-844f-e70c758f80a1
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
