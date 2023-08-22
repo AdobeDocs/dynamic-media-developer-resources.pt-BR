@@ -1,11 +1,11 @@
 ---
+title: maskUse
 description: Uso da máscara de imagem. Especifica como a máscara ou o canal alfa da imagem é usado para operações na imagem (por exemplo, colorize=). Quando especificado em uma camada de efeito, permite a aplicação do efeito à área de plano de fundo da camada pai ou ao retângulo inteiro da camada pai.
 solution: Experience Manager
-title: maskUse
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%

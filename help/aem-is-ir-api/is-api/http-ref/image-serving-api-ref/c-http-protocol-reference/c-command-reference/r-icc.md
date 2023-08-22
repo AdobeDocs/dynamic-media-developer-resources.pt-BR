@@ -1,11 +1,11 @@
 ---
+title: icc
 description: Perfil de cores de saída.
 solution: Experience Manager
-title: icc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Perfil de cores de saída.
  </tr> 
 </table>
 
-*`object`* especifica o perfil do espaço de cores de saída no qual a imagem deve ser convertida se for diferente do perfil de trabalho. *`profile`* deve ser um válido `icc::Name` definido no mapa de perfis ICC de um catálogo de imagens ou catálogo padrão, ou um caminho relativo para um arquivo de perfil (normalmente com [!DNL .icc] ou [!DNL .icm] sufixo). Consulte [ *`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)para obter informações adicionais.
+*`object`* especifica o perfil do espaço de cores de saída no qual a imagem deve ser convertida se for diferente do perfil de trabalho. *`profile`* deve ser um válido `icc::Name` definido no mapa de perfis ICC de um catálogo de imagens ou catálogo padrão, ou um caminho relativo para um arquivo de perfil (normalmente com [!DNL .icc] ou [!DNL .icm] sufixo). Consulte [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) para obter informações adicionais.
 
 >[!NOTE]
 >

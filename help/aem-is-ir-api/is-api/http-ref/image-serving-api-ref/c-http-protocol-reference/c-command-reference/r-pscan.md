@@ -1,13 +1,13 @@
 ---
-description: Análise de JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade. À medida que a digitalização continua, ela se torna mais clara à medida que os dados da imagem são baixados. Esse parâmetro permite que você defina o número de digitalizações que são feitas (3, 4 ou 5) para a imagem inteira aparecer.
-solution: Experience Manager
 title: pscan
+description: Análise de JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---

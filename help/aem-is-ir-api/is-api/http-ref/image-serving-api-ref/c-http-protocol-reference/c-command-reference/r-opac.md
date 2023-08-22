@@ -1,11 +1,11 @@
 ---
+title: opac
 description: Ajuste a opacidade da imagem. Permite diminuir a opacidade do primeiro plano de uma imagem, texto, cor sólida ou camada de efeito.
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

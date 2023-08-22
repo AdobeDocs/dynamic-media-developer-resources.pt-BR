@@ -1,11 +1,11 @@
 ---
+title: id
 description: Versão da imagem/metadados. Ao trabalhar com conteúdo que muda com frequência, os servidores no armazenamento em cache de redes, como Akamai, caches de navegador e caches de servidor proxy corporativo podem armazenar respostas do Servidor de imagens que podem estar desatualizadas por períodos.
 solution: Experience Manager
-title: id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%

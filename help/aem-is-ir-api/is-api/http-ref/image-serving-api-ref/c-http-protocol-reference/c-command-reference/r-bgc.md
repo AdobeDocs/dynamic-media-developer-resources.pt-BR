@@ -1,11 +1,11 @@
 ---
+title: bgc
 description: Cor do plano de fundo da exibição. Especifica a cor do plano de fundo da imagem composta (exibir imagem).
 solution: Experience Manager
-title: bgc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Exibir atributo. Aplica-se independentemente da configuração da camada atual. 
 
 Qualquer valor alfa especificado com a cor é ignorado.
 
-*`color`* deve pertencer ao espaço de cores de saída (conforme especificado em `icc=`) e devem ter o mesmo tipo de pixel que a imagem de saída. Se os tipos de pixel não corresponderem, *`color`* é convertido usando a conversão nativa.
+*`color`* deve pertencer ao espaço de cores de saída (conforme especificado em `icc=`) e devem ter o mesmo tipo de pixel que a imagem de saída. Se os tipos de pixel não corresponderem, *`color`* é convertido usando a conversão naïve.
 
 ## Padrão {#section-4e025cbd723547b5ab4450f7aad70da3}
 

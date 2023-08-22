@@ -1,11 +1,11 @@
 ---
+title: rect
 description: Retângulo de visão final. Permite que a imagem de visualização final seja desmontada em várias tiras ou blocos, que podem ser entregues separadamente e remontados pelo cliente sem problemas, sem artefatos ao longo das bordas.
 solution: Experience Manager
-title: rect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%

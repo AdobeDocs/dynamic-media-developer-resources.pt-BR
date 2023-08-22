@@ -1,11 +1,11 @@
 ---
+title: pathEmbed
 description: Incorporar dados de caminhos. Especifica se os caminhos de Photoshop do arquivo de imagem de origem da camada 0 devem ser incluídos na imagem de resposta.
 solution: Experience Manager
-title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
