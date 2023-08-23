@@ -4,9 +4,9 @@ description: Proporção de pixels do dispositivo (DPR)&mdash;também conhecida 
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ Devido à otimização da DPR, quando a imagem resultante é maior que a configu
 | 816 x 500 | 3 | 2448 x 1500 |
 | 816 x 500 | 4 | 3264 x 2000 |
 
+Os valores de DPR são baseados nos valores detectados do lado do cliente do CDN agrupado. Esses valores às vezes são imprecisos. Por exemplo, iPhone5 com `dpr=2`e iPhone12 com dpr=3, ambos mostram `dpr=2`. Ainda, para dispositivos de alta resolução, enviar `dpr=2` é melhor do que enviar `dpr=1`. No entanto, a melhor maneira de superar essa imprecisão é usar a DPR do lado do cliente para fornecer valores 100% precisos. E funciona para qualquer dispositivo, seja Apple ou qualquer outro dispositivo que tenha sido iniciado. Consulte [Usar Imagem inteligente com proporção de pixels do dispositivo no lado do cliente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## Propriedades
 
 
@@ -60,4 +62,4 @@ Devido à otimização da DPR, quando a imagem resultante é maior que a configu
 
 ## Consulte também
 
-[rede](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [rede](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
