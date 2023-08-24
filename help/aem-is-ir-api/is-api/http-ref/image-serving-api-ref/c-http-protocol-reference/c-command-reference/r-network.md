@@ -4,9 +4,9 @@ description: Saiba mais sobre como usar a otimização da largura de banda da re
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Os valores de largura de banda da rede são baseados nos valores detectados do l
 
 ## Propriedades
 
-
+Um atributo de solicitação. Não tem efeito se as condições da rede forem excelentes.
 
 ## Padrão
 

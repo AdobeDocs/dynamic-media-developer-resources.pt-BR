@@ -4,9 +4,9 @@ description: Proporção de pixels do dispositivo (DPR)&mdash;também conhecida 
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ Os valores de DPR são baseados nos valores detectados do lado do cliente do CDN
 
 ## Propriedades
 
-
+Um atributo de solicitação. Não tem efeito se `dpr` está desativado ou se `dprValue=1`.
 
 ## Padrão
 
