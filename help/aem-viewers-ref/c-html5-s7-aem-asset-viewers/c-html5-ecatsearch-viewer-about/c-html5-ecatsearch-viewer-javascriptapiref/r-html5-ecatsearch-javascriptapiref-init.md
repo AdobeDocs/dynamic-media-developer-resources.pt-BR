@@ -1,13 +1,13 @@
 ---
+title: init
 description: Referência da API JavaScript para o eCatalog Viewer.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Referência da API JavaScript para o eCatalog Viewer.
 
 [!DNL `init()`]
 
-Inicia a inicialização do Visualizador de eCatalog. Nesse momento, o elemento DOM do contêiner de tempo deve ser criado para que o código do visualizador possa localizá-lo pela ID.
+Inicia a inicialização do Visualizador de eCatalog. Nesse momento, o elemento DOM do contêiner deve ser criado para que o código do visualizador possa encontrá-lo pela ID.
 
-Se o elemento de contêiner ainda não fizer parte do layout da página da Web (por exemplo, ele pode estar oculto usando [!DNL `display:none`] estilo atribuído a ele), o visualizador suspende o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando isso acontece, o carregamento do visualizador é retomado automaticamente.
+Se o elemento de contêiner ainda não fizer parte do layout da página da Web, por exemplo, poderá ser ocultado usando [!DNL `display:none`] estilo atribuído a ele — o visualizador suspende seu processo de inicialização. Isso é feito até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando esse evento ocorre, o carregamento do visualizador é retomado automaticamente.
 
 Chame esse método apenas uma vez durante o ciclo de vida do visualizador; as chamadas subsequentes são ignoradas.
 

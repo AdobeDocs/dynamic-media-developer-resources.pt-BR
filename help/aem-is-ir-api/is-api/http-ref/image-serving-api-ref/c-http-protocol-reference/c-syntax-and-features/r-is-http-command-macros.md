@@ -1,13 +1,13 @@
 ---
+title: Macros de comando
 description: As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de imagens ou ao catálogo padrão.
 solution: Experience Manager
-title: Macros de comando
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As ma
 
 `*`name`*` não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-As macros podem ser invocadas em qualquer lugar em uma solicitação após &quot;?&quot;, bem como em qualquer lugar dentro de um `catalog::Modifier` ou `catalog::PostModifier` campo. As macros só podem representar um ou mais comandos completos do Servidor de imagens e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
+As macros podem ser invocadas em qualquer lugar em uma solicitação após &quot;?&quot; e em qualquer lugar dentro de um `catalog::Modifier` ou `catalog::PostModifier` campo. As macros só podem representar um ou mais comandos completos do Servidor de imagens e devem ser separadas de outros comandos com `&` separadores.
 
-As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituirão os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Isso é diferente de `catalog::Modifier`, em que os comandos na sequência de solicitação sempre substituirão os comandos na variável `catalog::Modifier` independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Esse fluxo de processamento é diferente de `catalog::Modifier`, em que os comandos na string de solicitação sempre substituem os comandos na variável `catalog::Modifier` independentemente da posição na solicitação.
 
 Macros de comandos não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
-As macros podem ser aninhadas, com a seguinte restrição: Uma macro só pode ser invocada se já estiver definida no momento em que a definição de macro é analisada, seja ao aparecer anteriormente no mesmo arquivo de definição de macro, ou ao colocar a definição de tal macro incorporada no arquivo de definição de macro padrão.
+As macros podem estar aninhadas. No entanto, uma macro só poderá ser invocada se já estiver definida no momento em que a definição da macro for analisada. Esse fluxo de trabalho é feito ao aparecer anteriormente no mesmo arquivo de definição de macro ou ao colocar a definição dessa macro incorporada no arquivo de definição de macro padrão.
 
 ## Exemplo {#section-2f73d36ac8d64254a03bae5afeae2fb9}
 
@@ -41,7 +41,7 @@ As macros podem ser úteis se os mesmos atributos forem aplicados a imagens dife
 
 `http://server/cat/1345?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/1435?wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1 http://server/cat/8243?wid=480&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
 
-Podemos definir uma macro para os atributos comuns:
+Você pode definir uma macro para os atributos comuns:
 
 `view wid=240&fmt=jpeg&qlt=85&op_usm=5,2&bgc=200,200,200&align=-1,-1`
 
@@ -49,7 +49,7 @@ A macro seria usada da seguinte maneira:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-Desde `wid=` for diferente para a terceira solicitação, simplesmente substituímos o valor *após* a macro é invocada (especificando `wid=`*antes* `$view$` não teria qualquer efeito).
+Porque `wid=` for diferente para a terceira solicitação, basta substituir o valor *após* a macro é invocada (especificando `wid=`*antes* `$view$` não tem efeito).
 
 ## Consulte também {#section-8cdba0ed2480444ca61e719e54f8871c}
 

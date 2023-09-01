@@ -5,9 +5,9 @@ title: Configurações da empresa
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,5 @@ Sintaxe
 | iptcExifMappingXslt | `types:Asset` | A extração de dados de cabeçalho de imagem IPTC e EXIF para o IPS requer uma conversão de nomes de campos internos para nomes de campos definidos pelo usuário para a empresa. Determina uma tabela de conversão XSL (o padrão é &quot;Não extrair campos IPTC ou EXIF&quot;) para imagens carregadas. |
 | xmpMappingXslt | `types:Asset` | A extração de dados do cabeçalho da imagem XMP no IPS requer uma conversão de nomes de campos internos para nomes de campos definidos pelo usuário para a empresa. Determina uma tabela de tradução XSL (o padrão é &quot;Não extrair campos XMP&quot;) para imagens carregadas. |
 | diskSpaceWarningMin | `xsd:int` | Quantidade mínima de espaço livre em disco do diretório de imagens antes do envio de um aviso. |
-| emailTrashCleanupWarning | `xsd:boolean` | Determina se os emails devem ser enviados antes que os itens colocados na lixeira sejam excluídos automaticamente. |
-| javascriptUploadEnabled | `types:Asset` | Determina se os arquivos JavaScript devem ser carregados. Esse é um risco de segurança em potencial, portanto, use essa opção com cuidado. |
+| emailTrashCleanupWarning | `xsd:boolean` | Determina se os emails devem ser enviados antes que os itens da lixeira sejam excluídos automaticamente. |
+| javascriptUploadEnabled | `types:Asset` | Determina se os arquivos JavaScript devem ser carregados. Essa opção é um risco de segurança em potencial, portanto, use com cuidado. |

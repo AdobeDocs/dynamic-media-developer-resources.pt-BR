@@ -1,13 +1,13 @@
 ---
+title: DescompactarOpções
 description: Fazer upload da configuração para processar arquivos ZIP e TAR como ativos principais (Nenhum) ou para extrair e fazer upload de seu conteúdo (Descompactar).
 solution: Experience Manager
-title: DescompactarOpções
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Fazer upload da configuração para processar arquivos ZIP e TAR como ativos pri
 
 >[!NOTE]
 >
->`None` é o padrão.
+>A configuração `None` é o padrão.
 
 ## Parâmetros {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,11 +34,11 @@ Fazer upload da configuração para processar arquivos ZIP e TAR como ativos pri
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controla o processamento de arquivos ZIP e TAR. Fornece duas opções: 
+   <td colname="col3"> <p>Controla o processamento de arquivos ZIP e TAR. Ela fornece duas opções: 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Nenhum:</span> Processar como ativos principais. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> Extrair e processar conteúdo. </li>
-     </ul><p>Observação: as constantes de sequência fazem distinção entre maiúsculas e minúsculas. Uso <span class="codeph"> Descompactar</span>, não <span class="codeph"> descompactar</span> ou <span class="codeph"> Descompactar</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Descompactar:</span> Extraia e processe o conteúdo. </li>
+     </ul><p>Observação: as constantes de sequência fazem distinção entre maiúsculas e minúsculas. Uso <span class="codeph"> Descompactar</span>, não <span class="codeph"> descompactar</span>ou <span class="codeph"> Descompactar</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

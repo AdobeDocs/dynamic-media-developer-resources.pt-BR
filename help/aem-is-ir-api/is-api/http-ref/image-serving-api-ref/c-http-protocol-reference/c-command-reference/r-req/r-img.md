@@ -1,13 +1,13 @@
 ---
+title: img
 description: Imagem (padrão). Solicita dados de imagem padrão.
 solution: Experience Manager
-title: img
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5338358e-755b-41d6-a941-8754d0deb9aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '54'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Imagem (padrão). Solicita dados de imagem padrão.
 
 `req=img`
 
-O formato de dados de resposta e o tipo de MIME de resposta são determinados por `fmt=`. `req=img` é o tipo de solicitação padrão e não precisa ser especificado explicitamente. A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
+O formato de dados de resposta e o tipo de MIME de resposta são determinados por `fmt=`. O modificador `req=img` é o tipo de solicitação padrão e não é necessário explicitamente. A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
 
 Outros comandos request são aplicados conforme documentado.

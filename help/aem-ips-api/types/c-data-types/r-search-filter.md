@@ -1,13 +1,13 @@
 ---
+title: SearchFilter
 description: Filtros que ajudam você a definir critérios de pesquisa para tornar as pesquisas mais eficientes.
 solution: Experience Manager
-title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -46,12 +46,12 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> texto:MatrizCadeiaDeCaracteres</span> </td> 
-   <td colname="col3">Uma lista de tipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, <span class="codeph"> imagem</span>. </td> 
+   <td colname="col3">Uma lista de tipos de ativos que você deseja retornar em uma pesquisa. Por exemplo, a variável <span class="codeph"> imagem</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> texto:MatrizCadeiaDeCaracteres</span> </td> 
-   <td colname="col3"> Especifique um tipo de ativo para excluir de uma pesquisa. Por exemplo, imagem. </td> 
+   <td colname="col3"> Especifique um tipo de ativo para excluir de uma pesquisa. Por exemplo, a imagem. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 

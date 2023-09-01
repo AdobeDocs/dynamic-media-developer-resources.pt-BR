@@ -1,20 +1,20 @@
 ---
-description: Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
-solution: Experience Manager
 title: saveMetadataField
+description: Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um campo de metadados.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # saveMetadataField{#savemetadatafield}
 
-Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um novo campo de metadados.
+Criar ou editar um campo de metadados. Omita o identificador de campo opcional para criar um campo de metadados.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Criar ou editar um campo de metadados. Omita o identificador de campo opcional p
 
 ## Exemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Esta amostra de código cria um novo campo de metadados restrito pelas constantes de sequência Tipo de ativo e Tipos de campo de metadados. Se a variável `fieldHandle` O elemento tem um valor de identificador de campo válido, ele altera os valores de metadados e obtém o mesmo identificador de campo especificado na solicitação.
+Esta amostra de código cria um campo de metadados restrito pelas constantes de sequência Tipo de ativo e Tipos de campo de metadados. Se a variável `fieldHandle` O elemento tem um valor de identificador de campo válido, ele altera os valores de metadados e obtém o mesmo identificador de campo especificado na solicitação.
 
 **Solicitação**
 

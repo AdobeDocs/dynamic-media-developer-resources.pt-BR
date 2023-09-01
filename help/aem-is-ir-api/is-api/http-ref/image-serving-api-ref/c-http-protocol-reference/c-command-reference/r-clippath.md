@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Qualquer parte da camada que esteja fora da área definida por `clipPath=` são 
 
 Se `size=` for especificada e não for 0,0, a camada será pré-dimensionada. Nesse caso, as coordenadas do caminho são relativas ao canto superior esquerdo do retângulo da camada e a camada é posicionada com base em `origin=` ou seu padrão. Todas as regiões do caminho fora do retângulo de camada permanecem transparentes.
 
-Se `size=` não for especificada para uma camada de texto ou cor sólida, a camada será considerada autodimensionável com a extensão do caminho determinando seu tamanho. Se `origin=` não é especificado, o padrão é (0,0) do espaço de coordenadas do caminho. Isso permite que as coordenadas do caminho sejam especificadas de acordo com a origem da camada 0.
+Se `size=` não for especificada para uma camada de texto ou cor sólida, a camada será considerada autodimensionável com a extensão do caminho determinando seu tamanho. Se `origin=` não é especificado, o padrão é (0,0) do espaço de coordenadas do caminho. Esse processo de fluxo de trabalho permite que coordenadas de caminho sejam especificadas de acordo com a origem da camada 0.
 
 >[!NOTE]
 >
@@ -105,13 +105,13 @@ Se um subcaminho começar com um moveto relativo (&#39;m&#39;), ele será relati
 
 * O ponto inicial do subcaminho anterior, se ele foi fechado com &#39;z&#39; ou &#39;Z&#39;.
 * O ponto final do subcaminho anterior, se ele não foi fechado explicitamente.
-* 0,0, se este for o primeiro subcaminho.
+* 0,0, se for o primeiro subcaminho.
 
 ## Propriedades {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
 Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`. As camadas de efeito o ignoram.
 
-`clipPathE=` será ignorado se nenhum caminho com o nome especificado for encontrado na imagem de origem da camada, ou se a origem da camada não for uma imagem.
+O modificador `clipPathE=` será ignorado se nenhum caminho com o nome especificado for encontrado na imagem de origem da camada, ou se a origem da camada não for uma imagem.
 
 ## Padrão {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

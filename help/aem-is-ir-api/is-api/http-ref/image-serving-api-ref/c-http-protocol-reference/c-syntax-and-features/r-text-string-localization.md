@@ -1,13 +1,13 @@
 ---
+title: Localização da cadeia de caracteres de texto
 description: A localização da sequência de caracteres de texto permite que os catálogos de imagem contenham várias representações específicas do local para o mesmo valor da sequência de caracteres.
 solution: Experience Manager
-title: Localização da cadeia de caracteres de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A localização da sequência de caracteres de texto permite que os catálogos de imagem contenham várias representações específicas do local para o mesmo valor da sequência de caracteres.
 
-O servidor retorna ao cliente a representação correspondente ao local especificado com `locale=`, evitando assim a localização no lado do cliente e permitindo que os aplicativos alternem os locais simplesmente enviando o `locale=` com as solicitações de texto IS.
+O servidor retorna ao cliente a representação correspondente ao local especificado com `locale=`, evitando a localização no lado do cliente e permitindo que os aplicativos alternem as localidades simplesmente enviando o arquivo apropriado `locale=` com as solicitações de texto IS.
 
 ## Escopo {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
@@ -79,11 +79,11 @@ Habilitado para localização *`string`* os elementos no catálogo de imagens co
  </tr> 
 </table>
 
-*`locId`* deve ser ASCII e não pode incluir &#39;^&#39;.
+A variável *`locId`* deve ser ASCII e não pode incluir &#39;^&#39;.
 
-&#39;^&#39; pode ocorrer em qualquer lugar em sub-strings com ou sem codificação HTTP. O servidor corresponde a todo *`localizationToken`* `^loc=locId^` padrão para separar subsequências.
+O &#39;^&#39; pode ocorrer em qualquer lugar em substrings com ou sem codificação HTTP. O servidor corresponde a todo *`localizationToken`* `^loc=locId^` padrão para separar subsequências.
 
-*`stringElements`* que não incluam pelo menos um *`localizationToken`* não são considerados para localização.
+A variável *`stringElements`*, que não incluem pelo menos um *`localizationToken`*, não são considerados para localização.
 
 ## O mapa de tradução {#section-f7ce3df91b724adf95cee44eac4915d4}
 
@@ -103,7 +103,7 @@ Digamos que `catalog::UserData` para `myCat/myItem` contém o seguinte (quebras 
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
-O servidor retornaria o seguinte em resposta à nossa solicitação de exemplo:
+O servidor retornaria o seguinte em resposta à solicitação do exemplo:
 
 `val1=111 str1=Dutch1 val2=value2 str2=Dutch2 str3=Dutch3`
 
@@ -111,7 +111,7 @@ O servidor retornaria o seguinte em resposta à nossa solicitação de exemplo:
 
 No exemplo acima, `attribute::LocaleStrMap` tem uma entrada com um vazio *`locale`* valor. O servidor usa essa entrada para lidar com todas as `locale=` valores que não estão explicitamente especificados de outra forma no mapa de tradução.
 
-O exemplo de mapa de tradução especifica que, nesse caso, o *`defaultString`* deve ser retornado se disponível. Assim, o seguinte será retornado se este mapa de tradução for aplicado à solicitação `/is/image/myCat/myItem?req=&locale=ja`:
+O exemplo de mapa de tradução especifica que, nesse caso, o *`defaultString`* deve ser retornado, se disponível. Portanto, o seguinte será retornado se este mapa de tradução for aplicado à solicitação `/is/image/myCat/myItem?req=&locale=ja`:
 
 `val1=111 str1=Default1 val2=value2 str2= str3=Default3`
 
@@ -119,11 +119,11 @@ O exemplo de mapa de tradução especifica que, nesse caso, o *`defaultString`* 
 
 **Famílias de idiomas**
 
-Múltiplo *`locId`* podem ser associados a cada *`locale`* no mapa de tradução. Isso permite o suporte a variações específicas de país ou região (por exemplo, inglês dos EUA versus inglês do Reino Unido) para determinados *`stringElements`* ao manipular a maioria dos conteúdos com localidades de base comuns (por exemplo, inglês internacional).
+Múltiplo *`locId`* podem ser associados a cada *`locale`* no mapa de tradução. O motivo é que ela permite o suporte de variações específicas de país ou região (por exemplo, inglês dos EUA versus inglês do Reino Unido) para seleção *`stringElements`* ao manipular a maioria dos conteúdos com localidades de base comuns (por exemplo, inglês internacional).
 
-Para nosso exemplo, queremos adicionar suporte para inglês específico dos EUA ( `*`locId`* EUS`) e inglês específico do Reino Unido ( `*`locId`* EUK`), para dar suporte à ortografia alternativa ocasional. Se EUK ou EUS não existirem, recorreríamos a E. Da mesma forma, variantes alemãs específicas da Áustria ( `DAT`) poderia ser disponibilizado, se necessário, durante o regresso do alemão comum *`localizedStrings`* (marcado com `D`na maioria das vezes.
+Por exemplo, há suporte para inglês específico dos EUA ( `*`locId`* EUS`) e inglês específico do Reino Unido ( `*`locId`* EUK`), para dar suporte à ortografia alternativa ocasional. Se o EUK ou o EUS não existirem, recorrerá a E. Do mesmo modo, as variantes alemãs específicas da Áustria ( `DAT`) poderia ser disponibilizado, se necessário, durante o regresso do alemão comum *`localizedStrings`* (marcado com `D`na maioria das vezes.
 
-`attribute::LocaleStrMap` seria semelhante a:
+A variável `attribute::LocaleStrMap` seria semelhante a:
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 
@@ -149,7 +149,7 @@ A tabela a seguir descreve a saída de alguns *`stringElement`* e *`locale`* com
    <td> <p>Inglês </p> <p>Reino Unido - Inglês </p> <p>Alemão </p> <p>Austríaco </p> <p>- </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Observe que, para este exemplo, a variável <span class="varname"> locId </span> O DDE não existe no <span class="codeph"> attribute::LocaleStrMap </span>e, portanto, a subsequência associada a isso <span class="varname"> locId </span> nunca é retornado. </p> </td> 
+   <td> <p> <span class="codeph"> ^ loc=en^English^loc=USE^US-English^loc=D^German^loc=DDE^Deutsch </span> </p> <p> Neste exemplo, a variável <span class="varname"> locId </span> O DDE não existe no <span class="codeph"> attribute::LocaleStrMap </span>e, portanto, a subsequência associada a isso <span class="varname"> locId </span> nunca é retornado. </p> </td> 
    <td> <p> en, en_uk </p> <p> en_us </p> <p> de, de_at, de_de </p> <p>todos os outros </p> </td> 
    <td> <p>Inglês </p> <p>Inglês (EUA) </p> <p>Alemão </p> <p>- </p> </td> 
   </tr> 

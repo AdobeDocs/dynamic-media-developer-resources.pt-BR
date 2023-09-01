@@ -1,11 +1,11 @@
 ---
+title: appendElement
 description: Anexe XML a um elementID s7.
 solution: Experience Manager
-title: appendElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Anexe XML a um s7:elementID.
 
 `appendElement.elementID=<XML>`
 
-Se um elemento de nó FXG tiver um `s7:elementID` definido, a variável `<XML>` o valor é anexado como um elemento filho. A variável `<XML>` deve ser codificado.
+Se um elemento de nó FXG tiver uma `s7:elementID` definido, a variável `<XML>` o valor é anexado como um elemento filho. A variável `<XML>` deve ser codificado.
 
 ## Exemplo {#section-4368570aa198485d91b73b4d0741478f}
 

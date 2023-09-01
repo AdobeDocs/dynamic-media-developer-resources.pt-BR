@@ -1,24 +1,24 @@
 ---
-description: As configurações desta seção precisam ser consideradas somente se a renderização de SVG for necessária.
-solution: Experience Manager
 title: SVG
+description: As configurações desta seção devem ser consideradas somente se a renderização de SVG for necessária.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 # SVG{#svg}
 
-As configurações desta seção precisam ser consideradas somente se a renderização de SVG for necessária.
+As configurações desta seção devem ser consideradas somente se a renderização de SVG for necessária.
 
 ## SV::SvgHeapSize - Tamanho do heap de SVG {#section-59ab17681daa4be8b5d794713e1a504e}
 
-O tamanho do heap de Java do Renderizador de SVG. O padrão é &quot;200m&quot; (200 Mbytes).
+O tamanho do heap de Java do Renderizador de SVG. O padrão é &quot;200m&quot; (200 MB).
 
 ## PS::svgProvider.rootPaths - Pastas de Raiz de Dados SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
@@ -40,7 +40,7 @@ Importante Para o funcionamento correto do componente SVGRender, essa opção de
 
 ## PS::svgProvider.fontRoot - Pasta de arquivos de fontes SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Especifica onde o SvgRender encontrará os arquivos de fonte necessários para renderizar o texto SVG; normalmente, um dos caminhos especificados em `IS::RootPaths`. O padrão é [!DNL  *[!DNL install_folder]*/images].
+Especifica onde o SvgRender encontra os arquivos de fonte necessários para renderizar o texto SVG; normalmente, um dos caminhos especificados em `IS::RootPaths`. O padrão é [!DNL  *[!DNL install_folder]*/images].
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - Porta de Comunicação SVG {#section-608687123aa644b7b58fe42385d71b79}
 

@@ -1,20 +1,20 @@
 ---
 title: rect
-description: Retângulo de visão final. Permite que a imagem de visualização final seja desmontada em várias tiras ou blocos, que podem ser entregues separadamente e remontados pelo cliente sem problemas, sem artefatos ao longo das bordas.
+description: Retângulo de visão final. Ele permite que a imagem de visualização final seja desmontada em várias tiras ou blocos, que podem ser entregues separadamente e remontados pelo cliente sem problemas, sem artefatos ao longo das bordas.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
 
 # rect{#rect}
 
-Retângulo de visão final. Permite que a imagem de visualização final seja desmontada em várias tiras ou blocos, que podem ser entregues separadamente e remontados pelo cliente sem problemas, sem artefatos ao longo das bordas.
+Retângulo de visão final. Ele permite que a imagem de visualização final seja desmontada em várias tiras ou blocos, que podem ser entregues separadamente e remontados pelo cliente sem problemas, sem artefatos ao longo das bordas.
 
 `rect= *`coord`*, *`tamanho`*[, *`escala`*]`
 
@@ -37,11 +37,11 @@ Usando esse comando, o Servidor de imagens pode fornecer imagens grandes via HTT
 
 >[!NOTE]
 >
->Para obter melhores resultados quando a compactação JPEG é usada, o tamanho da faixa ou do bloco deve ser um múltiplo do tamanho do bloco de codificação JPEG (16x16 pixels).
+>Para obter melhores resultados, quando a compactação de JPEG é usada, o tamanho da faixa ou do bloco deve ser um múltiplo do tamanho do bloco de codificação de JPEG (16x16 pixels).
 
 ## Exemplo {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Separe uma imagem CMYK imprimível em várias tiras de resolução total para reduzir os tamanhos dos arquivos baixados. Se solicitarmos uma imagem contígua:
+Separe uma imagem CMYK imprimível em várias tiras de resolução total para reduzir os tamanhos dos arquivos baixados. Se você solicitou uma imagem contígua:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ A resposta de texto inclui estas propriedades:
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Com base nessas informações, decidimos que queremos quatro faixas de pixel de 600x2000. A variável `rect=` é usado para descrever os tamanhos e as posições das faixas.
+Com base nessas informações, são desejadas quatro faixas de pixel de 600x2000. A variável `rect=` é usado para descrever os tamanhos e as posições das faixas.
 
-Como essa imagem é alterada com frequência, incluiremos a variável `id=` para minimizar a chance de acabarmos com uma ou mais tiras de uma versão mais antiga da imagem que pode ter sido armazenada em cache em um CDN ou servidor proxy. O valor de `image.version` propriedade é usada para essa finalidade.
+Como essa imagem é alterada com frequência, a variável `id=` é incluído. Isso minimiza a chance de acabar com uma ou mais tiras de uma versão mais antiga da imagem que pode ter sido armazenada em cache em um CDN ou servidor proxy. O valor de `image.version` propriedade é usada para essa finalidade.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Propriedades {#section-aae223cee13e46d38b74680c048d945b}
 
-Exibir atributo. Aplica-se independentemente da configuração da camada atual.
+Exibir atributo. Ela se aplica independentemente da configuração atual da camada.
 
 Todas as áreas do ROI que se estendem para fora da imagem de exibição são preenchidas com `bgc=`.
 

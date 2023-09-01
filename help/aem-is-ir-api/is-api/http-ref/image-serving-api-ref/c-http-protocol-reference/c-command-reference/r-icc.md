@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Perfil de cores de saída.
  </tr> 
 </table>
 
-*`object`* especifica o perfil do espaço de cores de saída no qual a imagem deve ser convertida se for diferente do perfil de trabalho. *`profile`* deve ser um válido `icc::Name` definido no mapa de perfis ICC de um catálogo de imagens ou catálogo padrão, ou um caminho relativo para um arquivo de perfil (normalmente com [!DNL .icc] ou [!DNL .icm] sufixo). Consulte [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) para obter informações adicionais.
+O valor *`object`* especifica o perfil do espaço de cores de saída no qual a imagem deve ser convertida se for diferente do perfil de trabalho. O valor *`profile`* deve ser um válido `icc::Name` definido no mapa de perfis ICC de um catálogo de imagens ou catálogo padrão, ou um caminho relativo para um arquivo de perfil (normalmente com [!DNL .icc] ou [!DNL .icm] sufixo). Consulte [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) para obter informações adicionais.
 
 >[!NOTE]
 >
->*`object`* não pode incluir caracteres &#39;,&#39;, mesmo se codificado em HTTP.
+>O valor *`object`* não pode incluir caracteres &#39;,&#39;, mesmo se codificado em HTTP.
 
-*`renderIntent`* permite substituir a tentativa de renderização padrão.
+O valor *`renderIntent`* permite substituir a tentativa de renderização padrão.
 
-*`blackpointComp`* ativa a compensação de blackpoint se o perfil de saída suportar esse recurso.
+O valor *`blackpointComp`* ativa a compensação de blackpoint se o perfil de saída suportar esse recurso.
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ Perfil de cores de saída.
 
 Nota
 
-*`dither`* permite o pontilhamento (difusão de erro), que pode evitar ou reduzir artefatos de banda de cores.
+O modificador *`dither`* permite o pontilhamento (difusão de erro), que pode evitar ou reduzir artefatos de banda de cores.
 
 ## Propriedades {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
 Solicitar atributo. O servidor retornará um erro se um tipo de imagem for especificado com `fmt=` que não corresponde a *`profile`*.
 
-*`renderIntent`* e *`blackpointComp`* são ignorados se não forem compatíveis com o perfil ICC especificado. Os perfis de dispositivo de saída CMYK têm mais probabilidade de suportar diferentes intenções de renderização.
+Os modificadores *`renderIntent`* e *`blackpointComp`* são ignorados se não forem compatíveis com o perfil ICC especificado. Os perfis de dispositivo de saída CMYK têm mais probabilidade de suportar diferentes intenções de renderização.
 
 ## Padrão {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 

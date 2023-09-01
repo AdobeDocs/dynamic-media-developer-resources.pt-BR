@@ -1,11 +1,11 @@
 ---
+title: createAssetSet
 description: Cria um conjunto de ativos genérico com uma cadeia de caracteres de definição de conjunto bruto a ser publicada em um Servidor de imagens.
 solution: Experience Manager
-title: createAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> O identificador da empresa que conterá o conjunto de ativos. </td> 
+   <td colname="col4"> O identificador da empresa que contém o conjunto de ativos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -69,7 +69,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Os parâmetros na cadeia de caracteres de definição do conjunto. <p>Eles devem ser resolvidos no formato especificado pelo visualizador de destino. </p> </td> 
+   <td colname="col4"> Os parâmetros na cadeia de caracteres de definição do conjunto. <p>Esses parâmetros devem ser resolvidos para o formato especificado pelo visualizador de destino. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ Sintaxe
 
 **Funções de substituição para setDefinition**
 
-Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa de catálogo ou publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são enumeradas abaixo.
+Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa de catálogo ou publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são descritas abaixo.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Você pode especificar funções de substituição em linha que são resolvidas 
 | `getFilePath([asset_handle>])` | O caminho do arquivo de origem principal do ativo. |
 | `getCatalogId([<asset_handle>])` | A ID do catálogo do ativo. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valores de metadados para o ativo. |
-| `getThumbCatalogId([<asset_handle>])` | A ID do catálogo do ativo (somente para ativos baseados em imagem). A ID do catálogo do ativo de miniatura associado (para outros ativos). Se um ativo de miniatura associado não estiver disponível, a função retornará uma cadeia de caracteres vazia. |
+| `getThumbCatalogId([<asset_handle>])` | A ID do catálogo do ativo (somente para ativos baseados em imagem). A ID de catálogo do ativo de miniatura associado (para outros ativos). Se um ativo de miniatura associado não estiver disponível, a função retornará uma cadeia de caracteres vazia. |
 
 **Exemplo de cadeia de caracteres de definição de conjunto de mídia**
 
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-No momento da pesquisa ou publicação do catálogo, isso é resolvido como uma string semelhante ao seguinte:
+Na pesquisa de catálogo ou no momento da publicação, esse processo é resolvido como uma cadeia de caracteres semelhante à seguinte:
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

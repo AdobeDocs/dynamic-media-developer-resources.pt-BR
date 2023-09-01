@@ -1,11 +1,11 @@
 ---
+title: substituição
 description: Elemento de string de substituição. Opcional em <rule> elementos.
 solution: Experience Manager
-title: substituição
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -28,7 +28,7 @@ String de substituição.
 
 Define uma cadeia de caracteres de substituição para a cadeia de caracteres ou subcadeia correspondente no caminho ou na consulta.
 
-Se a expressão padrão incluir subexpressões (delimitadas com parênteses), a primeira substring correspondente será substituída pela string de substituição. Se a expressão padrão não incluir subexpressões, toda a string correspondente será substituída.
+Se a expressão padrão incluir subexpressões (delimitadas por parênteses), a primeira substring correspondente será substituída pela string de substituição. Se a expressão padrão não incluir subexpressões, toda a string correspondente será substituída.
 
 Se `<expression>` estiver vazio ou ausente, a cadeia de caracteres de substituição será anexada ao caminho ou à consulta.
 

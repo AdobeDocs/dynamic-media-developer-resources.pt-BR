@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Cor da camada. Especifica a cor do primeiro plano e a opacidade das camadas de c
  </tr> 
 </table>
 
-No caso de camadas de imagem e texto, `color=` preenche áreas transparentes e semiopacas dentro do retângulo delimitador da camada com a cor especificada* antes* `rotate=` e `extend=` são aplicados.
+Se houver camadas de imagem e texto, `color=` preenche áreas transparentes e semiopacas dentro do retângulo delimitador da camada com a cor especificada* antes* `rotate=` e `extend=` são aplicados.
 
 ## Propriedades {#section-d6e74c36a49547849212e4db8927e678}
 
 Atributo de camada. Aplica-se à camada atual ou à camada 0 se `layer=comp`.
 
-*`color`* presume-se que exista no espaço de cor de trabalho correspondente ao tipo de pixel de *`color`*. *`color`* é convertido com precisão se a imagem da camada tiver um tipo de pixel diferente no momento da mesclagem.
+O modificador *`color`* presume-se que exista no espaço de cor de trabalho correspondente ao tipo de pixel de *`color`*. E *`color`* é convertido com precisão se a imagem da camada tiver um tipo de pixel diferente no momento da mesclagem.
 
 ## Padrão {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -39,7 +39,7 @@ Não há padrão para camadas de cores sólidas e efeitos; uma cor deve ser espe
 
 ## Exemplo {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-No fragmento de modelo a seguir, definimos o plano de fundo do texto para uma cor opaca de 50% e usamos a mesma cor para adicionar uma borda de 10 pixels semitransparente ao redor da imagem da camada 2:
+No fragmento de modelo a seguir, o plano de fundo do texto é definido como uma cor opaca de 50% e usa a mesma cor para adicionar uma borda de 10 pixels semitransparente ao redor da imagem da camada 2:
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

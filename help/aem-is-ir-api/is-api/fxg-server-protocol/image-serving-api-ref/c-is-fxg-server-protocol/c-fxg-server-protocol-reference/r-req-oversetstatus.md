@@ -1,13 +1,13 @@
 ---
+title: solic
 description: Tipo de solicitação. Especifica o tipo de solicitação.
 solution: Experience Manager
-title: solic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,11 @@ Tipo de solicitação. Especifica o tipo de solicitação.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Retorna a lista XML da qual <span class="codeph"> &lt;richtext /&gt;</span> os elementos estão com excesso de tipos. </p> <p>Retorna uma lista xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos com excesso de tipos para processamento no cliente. Somente <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> os elementos com excesso de tipos são retornados. <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> é obrigatório <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo ao usar <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Qualquer excesso <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos sem um <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> não está listado. Each <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> o elemento na lista tem o <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>e a caixa delimitadora do quadro de texto com excesso de tipos. A variável <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> atributo indica o índice de texto na matéria até o qual o texto pôde ser ajustado no quadro. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> aplica-se somente a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos no FXG solicitado. Ele não listará nenhum <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos de qualquer FXG incorporado. </p> </td> 
+   <td colname="col2"> <p>Retorna uma lista XML da qual <span class="codeph"> &lt;richtext /&gt;</span> os elementos estão com excesso de tipos. </p> <p>Retorna uma lista xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos com excesso de tipos para processamento no cliente. Somente <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> os elementos com excesso de tipos são retornados. A variável <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> é obrigatório <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> atributo ao usar <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Qualquer excesso <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos sem um <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> não está listado. Each <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> o elemento na lista tem o <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>e a caixa delimitadora do quadro de texto com excesso de tipos. A variável <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> atributo indica o índice de texto na matéria até o qual o texto pôde ser ajustado no quadro. A variável <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> aplica-se somente a <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos no FXG solicitado. Ele não lista nenhum <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> elementos de qualquer FXG incorporado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> existe</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificador de solicitação exclusivo do reqId </p> <p>Retorna uma única propriedade chamada catalogRecord.exists. O valor da propriedade é definido como "1" se a entrada do catálogo especificado existir na imagem ou no catálogo padrão, caso contrário, é definido como "0". As solicitações req=exists no contexto /is/content indicarão a presença ou a ausência de um registro especificado no catálogo de conteúdo estático. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> req=exists[,text|javascript|xml|{json[&amp;id=reqId]}]</span> </p> <p>identificador de solicitação exclusivo do reqId </p> <p>Retorna uma única propriedade chamada catalogRecord.exists. O valor da propriedade é definido como "1" se a entrada do catálogo especificado existir na imagem ou no catálogo padrão, caso contrário, é definido como "0". req=exists solicitações em relação ao contexto /is/content indica a presença ou a ausência de um registro especificado no catálogo de conteúdo estático. </p> </td> 
   </tr> 
  </tbody> 
 </table>
