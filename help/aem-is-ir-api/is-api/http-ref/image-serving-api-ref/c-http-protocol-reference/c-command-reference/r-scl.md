@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Modo de exibição de escala. Dimensiona a imagem composta pelo inverso de invFa
  </tr> 
 </table>
 
-Nenhum dimensionamento é aplicado quando `scl=1`. *`invFactor`* maior que 1,0 diminui a escala e menor que 1,0 aumenta a imagem composta.
+Nenhum dimensionamento é aplicado quando `scl=1`. Um *`invFactor`* um valor maior que 1,0 diminui a escala e menor que 1,0 aumenta a imagem composta.
 
 Se `scl=` for especificada e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
 
@@ -35,7 +35,7 @@ Se `scl=` for especificada e `wid=` e/ou `hei=` também estiverem presentes, a i
 
 ## Propriedades {#section-60af012719db477db4a4703e9a6da5f5}
 
-Exibir atributo. Aplica-se independentemente da configuração atual da camada.
+Exibir atributo. Ela se aplica independentemente da configuração atual da camada.
 
 ## Padrão {#section-32502fa218a24e1f9c65f41c0260b56a}
 

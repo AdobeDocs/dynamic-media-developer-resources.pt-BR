@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Atributos da camada de texto. Especifica atributos adicionais para camadas de te
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Fornece um meio de dimensionar a camada de texto sem alterar os tamanhos de fonte. Valores de resolução mais altos aumentam o tamanho do texto renderizado em relação ao tamanho da tela de desenho; valores menores reduzem o tamanho do texto. Resolução do texto em pontos por polegada (int maior que 0). </p> </td> 
+  <td class="stentry"> <p>Ela fornece um meio de dimensionar a camada de texto sem alterar os tamanhos de fonte. Valores de resolução mais altos aumentam o tamanho do texto renderizado em relação ao tamanho da tela de desenho; valores menores reduzem o tamanho do texto. Resolução do texto em pontos por polegada (int maior que 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
@@ -55,17 +55,17 @@ Atributos da camada de texto. Especifica atributos adicionais para camadas de te
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Use a resolução especificada. </p> <p>Use se o texto deve ser renderizado em um tamanho exato em relação à tela de composição. O texto pode ser recortado para o tamanho da camada (se especificado) se a caixa de texto for muito pequena. Este é o único <span class="varname"> resMode </span> opção compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Use a resolução especificada. </p> <p>Use se o texto deve ser renderizado em um tamanho exato em relação à tela composta. O texto pode ser recortado para o tamanho da camada (se especificado) se a caixa de texto for muito pequena. Este é o único <span class="varname"> resMode </span> opção compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Ajuste a resolução automaticamente para preencher melhor a camada com o texto. </p> <p>Use para ajustar automaticamente o tamanho do texto para que a caixa de texto seja preenchida o máximo possível, sem risco de truncamento. Se a quebra de linha estiver ativa, o texto poderá ser requebrado na resolução final. <span class="varname"> res </span> é ignorado se <span class="codeph"> autoRes </span> está selecionada. Não compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Ajuste a resolução automaticamente para preencher melhor a camada com o texto. </p> <p>Use para ajustar automaticamente o tamanho do texto para que a caixa de texto seja preenchida o máximo possível, sem risco de truncamento. Se a quebra de linha estiver ativa, o texto poderá ser requebrado na resolução final. A variável <span class="varname"> res </span> é ignorado se <span class="codeph"> autoRes </span> está selecionada. Não compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Use a resolução especificada; diminua-a, se necessário, para impedir que o texto seja truncado na camada de retângulo. </p> <p>Use para renderizar o texto na resolução especificada exata, desde que não ocorra recorte. No caso de recorte, a resolução é automaticamente diminuída para garantir que todo o texto esteja totalmente contido dentro da caixa de texto. Se a quebra de linha estiver ativa, o texto poderá ser requebrado na resolução final. Não compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Use a resolução especificada; diminua-a, se necessário, para impedir que o texto seja truncado na camada de retângulo. </p> <p>Use para renderizar texto na resolução especificada, desde que não ocorra recorte. Se houver recorte, a resolução será automaticamente diminuída para garantir que todo o texto esteja totalmente contido dentro da caixa de texto. Se a quebra de linha estiver ativa, o texto poderá ser requebrado na resolução final. Não compatível com o <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Se o tamanho da camada de texto não for especificado com size= ou se apenas a largura for especificada, as configurações "autoRes" e "maxRes" serão ignoradas e a resolução especificada será usada para renderizar o texto. </p> </td> 
+    </table> </p> <p>Se o tamanho da camada de texto não for especificado com size= ou se apenas a largura for especificada, as configurações "autoRes" e "maxRes" serão ignoradas. Nesses casos, a resolução especificada é usada para renderizar o texto. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Atributos da camada de texto. Especifica atributos adicionais para camadas de te
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> quebra automática </span> </p> </td> 
-      <td class="stentry"> <p>Ativar quebra automática de linha padrão. </p> <p>Quebra palavras longas se necessário. <span class="codeph"> textPs= </span> apenas suporta <span class="codeph"> quebra automática </span>. </p> </td> 
+      <td class="stentry"> <p>Ativar quebra automática de linha padrão. </p> <p>Quebra palavras longas, se necessário. <span class="codeph"> textPs= </span> apenas suporta <span class="codeph"> quebra automática </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Ativar quebra automática de linha. </p> <p>Nunca quebra uma palavra, mesmo que ela fique truncada no final. Normalmente usada em conjunto com <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> para garantir que palavras longas nunca sejam quebradas. </p> </td> 
+      <td class="stentry"> <p>Ativar quebra automática de linha. </p> <p>Nunca quebra uma palavra, mesmo que ela fique truncada no final. Normalmente usada com <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> para garantir que palavras longas nunca sejam quebradas. </p> </td> 
      </tr> 
     </table> </p> <p>Ambos <span class="codeph"> quebra automática </span> e <span class="codeph"> nbwrap </span> quebra automática de linha em limites de palavras e hifens. </p> </td> 
  </tr> 

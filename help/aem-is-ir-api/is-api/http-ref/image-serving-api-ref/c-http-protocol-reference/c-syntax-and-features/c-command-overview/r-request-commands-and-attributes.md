@@ -1,13 +1,13 @@
 ---
+title: Comandos de solicitação
 description: Esses comandos se aplicam independentemente de onde aparecem na solicitação.
 solution: Experience Manager
-title: Comandos de solicitação
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>Incorpora dados de caminhos do Photoshop na imagem de resposta. </p></td> 
+  <td class="stentry"> <p>Incorpora os dados de caminho do Photoshop na imagem de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 

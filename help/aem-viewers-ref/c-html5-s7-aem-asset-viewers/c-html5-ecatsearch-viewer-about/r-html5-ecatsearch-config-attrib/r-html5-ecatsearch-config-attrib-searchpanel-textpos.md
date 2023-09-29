@@ -1,13 +1,13 @@
 ---
+title: SearchPanel.textpos
 description: SearchPanel.textpos
 solution: Experience Manager
-title: SearchPanel.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5422763c-68cd-4662-b2aa-9f45275ced6a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> inferior|superior|esquerdo|direito|nenhum|dica de ferramenta</span> </p> </td> 
-   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> dica de ferramenta</span> for especificada, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Quando definido como <span class="codeph"> nenhum</span>, desativa a exibição do rótulo. </p> </td> 
+   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando um <span class="codeph"> dica de ferramenta</span> for especificada, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Quando definido como <span class="codeph"> nenhum</span>, ele desativa a exibição do rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

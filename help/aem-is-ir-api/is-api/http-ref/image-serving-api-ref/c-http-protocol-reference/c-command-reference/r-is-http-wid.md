@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Largura da exibição. Especifica a largura da imagem de resposta (exibir imagem) quando fit= não está presente na solicitação.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -39,17 +39,17 @@ Se nenhuma delas `wid=`, `hei=`, nem `scl=` forem especificados, a imagem de res
 
 ## Propriedades {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Exibir atributo. Aplica-se independentemente da configuração da camada atual.
+Exibir atributo. Ela se aplica independentemente da configuração atual da camada.
 
 ## Exemplo {#section-82bc98b7c15a451bbe9b915d414c0470}
 
 Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem no canto superior direito se ela não for quadrada. Qualquer área do plano de fundo é preenchida com `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Servidor`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-A mesma imagem, entregue em uma largura fixa de 200 pixels, mas com uma altura variável para manter a proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. Observe que, nesse caso, align= não teria nenhum efeito.
+A mesma imagem, entregue em uma largura fixa de 200 pixels, mas com uma altura variável para manter a proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. Nesse caso, `align=` não teria qualquer efeito.
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`Servidor`*/myRootId/myImageId?wid=200`
 
 ## Consulte também {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

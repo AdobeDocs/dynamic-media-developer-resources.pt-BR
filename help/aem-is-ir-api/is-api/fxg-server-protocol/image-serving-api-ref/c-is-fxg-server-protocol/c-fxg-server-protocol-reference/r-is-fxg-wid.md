@@ -1,13 +1,13 @@
 ---
+title: wid
 description: Largura da exibição. Especifica a largura da imagem de resposta (exibir imagem).
 solution: Experience Manager
-title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,15 @@ Largura da exibição. Especifica a largura da imagem de resposta (exibir imagem
 
 Se nenhuma delas `wid=`, `hei=`, nem `scale=` forem especificados, a imagem de resposta será o tamanho de exibição padrão especificado no arquivo FXG.
 
-Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**, em seguida, insira os valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve as configurações e execute uma Publicação no Servidor de imagens para aplicar uma alteração.
+Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**, em seguida, insira os valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve as configurações e execute uma publicação do Servidor de imagens para aplicar uma alteração.
 
 Se você aplicar uma `scale=1` , uma solicitação de formato rasterizado é processada no tamanho especificado no FXG.
 
 ## Exemplo {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 
-[!DNL http://server/is/agm/myRootId/myImageId?wid=200]
+`http://server/is/agm/myRootId/myImageId?wid=200`
 
-A menos que um formato seja especificado, a imagem é renderizada como um arquivo SWF. Nesse caso, altura e largura não têm significado, pois o SWF geralmente se expande para o tamanho da janela do navegador. Como resultado, hei e wid só se aplicam aos formatos raster ou PDF. Os formatos de rasterização incluem:
+A menos que um formato seja especificado, a imagem é renderizada como um arquivo SWF. Nesse caso, altura e largura não têm significado, pois o SWF geralmente se expande para o tamanho da janela do navegador. Como resultado, `hei` e `wid` aplica-se somente aos formatos raster ou PDF. Os formatos de rasterização incluem:
 
 * GIF
 * TIF

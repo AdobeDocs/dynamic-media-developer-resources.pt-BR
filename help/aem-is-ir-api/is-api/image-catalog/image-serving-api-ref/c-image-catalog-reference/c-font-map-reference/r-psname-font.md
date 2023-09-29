@@ -1,22 +1,22 @@
 ---
-description: Nome da face da fonte Postscript. O nome da face da fonte Postscript.
-solution: Experience Manager
 title: PsName
+description: O nome da face da fonte Postscript.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
 
 # PsName{#psname}
 
-Nome da face da fonte Postscript. O nome da face da fonte Postscript.
+O nome da face da fonte Postscript.
 
-No momento, somente o renderizador FXG pode fazer referência a fontes por seus nomes Postscript.
+Atualmente, somente o renderizador FXG pode fazer referência a fontes por seus nomes Postscript.
 
 ## Propriedades {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 

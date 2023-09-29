@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Filtro de tipo de conteúdo estático. Especifica uma cadeia de caracteres de fi
  </tr> 
 </table>
 
-O servidor comparará val com o valor de `catalog::Type` do item de conteúdo estático solicitado. O item é retornado ao cliente se os valores corresponderem (diferencia maiúsculas de minúsculas); caso contrário, um erro é retornado.
+O servidor compara `val` com o valor de `catalog::Type` do item de conteúdo estático solicitado. O item é retornado ao cliente se os valores corresponderem (diferencia maiúsculas de minúsculas); caso contrário, um erro é retornado.
 
 ## Propriedades {#section-529b088434a44a9f86a64ef548d2925b}
 

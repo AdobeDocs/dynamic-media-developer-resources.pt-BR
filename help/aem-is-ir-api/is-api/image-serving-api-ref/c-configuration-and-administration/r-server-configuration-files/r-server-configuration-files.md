@@ -1,24 +1,24 @@
 ---
-description: Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
-solution: Experience Manager
 title: Arquivos de configuração do servidor
+description: Todos os arquivos de configuração estão na install_folder/conf e são editáveis com a maioria dos editores de texto. Reinicie o servidor para que as alterações entrem em vigor.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
 # Arquivos de configuração do servidor{#server-configuration-files}
 
-Todos os arquivos de configuração estão localizados em install_folder/conf e são editáveis com a maioria dos editores de texto. Talvez seja necessário reiniciar o servidor para que as alterações entrem em vigor.
+Todos os arquivos de configuração estão no estado `install_folder/conf` e são editáveis com a maioria dos editores de texto. Reinicie o servidor para que as alterações entrem em vigor.
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que especificamente instruídas pelo suporte técnico da Dynamic Media.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que instruídas pelo suporte técnico da Dynamic Media.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 

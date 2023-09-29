@@ -1,13 +1,13 @@
 ---
+title: Tamanho
 description: Tamanho do decalque. Largura, altura e espessura de um objeto de material de decalque.
 solution: Experience Manager
-title: Tamanho
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Tamanho do decalque. Largura, altura e espessura de um objeto de material de dec
 
 ## Propriedades {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-Três números reais separados por vírgulas. Não pode ser negativo. Defina os valores não utilizados como 0. Zeros à direita podem ser omitidos.
+Três números reais separados por vírgulas. Não deve ser negativo. Defina os valores não utilizados como 0. Zeros à direita podem ser omitidos.
 
 Especifique a largura e a altura somente se a imagem precisar ser esticada para se ajustar ao tamanho especificado (a proporção pode mudar). Defina largura ou altura para dimensionar a imagem proporcionalmente. Defina a largura e a altura como 0 para usar `catalog::Resolution`para determinar o tamanho do objeto.
 

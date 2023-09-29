@@ -4,7 +4,7 @@ description: Especifica o formato de imagem a ser usado pelo componente para car
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado termina com &quot;-alpha&quot;, o componente renderiza imagens como transparentes. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. Observe que o componente tem um fundo transparente por padrão. Portanto, para torná-lo opaco, defina o `background-color` Propriedade CSS para `desired_color`
+Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado termina com &quot;-alpha&quot;, o componente renderiza as imagens como transparentes. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. O componente tem um plano de fundo transparente por padrão. Portanto, para torná-lo opaco, defina o `background-color` Propriedade CSS para `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ Especifica o formato de imagem a ser usado pelo componente para carregar imagens
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado terminar com "-alpha", o componente renderiza imagens como conteúdo transparente; para todos os outros formatos de imagem, o componente trata as imagens como opacas. Observe que o componente tem plano de fundo transparente por padrão. Portanto, para ficar opaco, defina a propriedade CSS background-color com a cor desejada. </p> </td> 
+   <td colname="col2"> <p> Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado terminar com "-alpha", o componente renderiza imagens como conteúdo transparente; para todos os outros formatos de imagem, o componente trata as imagens como opacas. O componente tem um plano de fundo transparente por padrão. Portanto, para opaco, defina a propriedade CSS background-color para a cor desejada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

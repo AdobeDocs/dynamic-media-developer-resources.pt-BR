@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Altura da exibição. Especifica a altura da imagem de resposta (imagem de exibi
 
 Se ambos `wid=` e `scl=` forem especificadas, a imagem composta poderá ser cortada de acordo com as `align=`atributo. Quando `fit=` está presente, `hei=` especifica a altura exata, mínima ou máxima da imagem de resposta; consulte a descrição de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) para obter detalhes.
 
-Se `scl=` não for especificada, a imagem composta será dimensionada para caber. Se ambos `wid=` e `hei=` são especificados e `scl=` não for especificada, a imagem é dimensionada para caber inteiramente no retângulo wid/hei, deixando a menor área de fundo exposta possível; nesse caso, a imagem é posicionada dentro do retângulo de visualização de acordo com a `align=` atributo. A área de plano de fundo é preenchida com `bgc=`, ou, se não especificado com `attribute::BkgColor`.
+Se `scl=` não for especificada, a imagem composta será dimensionada para caber. Se ambos `wid=` e `hei=` são especificados e `scl=` não for especificada, então a imagem é dimensionada para caber inteiramente dentro do retângulo wid/hei, deixando a menor área de fundo exposta possível. Nesse caso, a imagem é posicionada dentro do retângulo de exibição de acordo com a variável `align=` atributo. A área de plano de fundo é preenchida com `bgc=`, ou, se não especificado com `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Se `scl=` não for especificada, a imagem composta será dimensionada para caber
 
 ## Propriedades {#section-534923644a1e464496eeba83dedcbd3c}
 
-Exibir atributo. Aplica-se independentemente da configuração da camada atual.
+Exibir atributo. Ela se aplica independentemente da configuração atual da camada.
 
 ## Padrão {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -47,7 +47,7 @@ Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem 
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-A mesma imagem, entregue em uma altura fixa de 200 pixels, mas com uma largura variável para corresponder à proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. Observe que, nesse caso `align=` não teria qualquer efeito.
+A mesma imagem, entregue em uma altura fixa de 200 pixels, mas com uma largura variável para corresponder à proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. E, neste caso, `align=` não teria qualquer efeito.
 
 `http://server/myRootId/myImageId?hei=200`
 

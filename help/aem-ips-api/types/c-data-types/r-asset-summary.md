@@ -1,13 +1,13 @@
 ---
+title: Resumo do ativo
 description: Resultados da pesquisa de metadados que contêm informações resumidas sobre um ativo.
 solution: Experience Manager
-title: Resumo do ativo
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,6 @@ Sintaxe
 | createUser | `xsd:string` | O usuário que criou o ativo. |
 | lastModified | `xsd:dateTime` | A data em que o ativo foi atualizado pela última vez. |
 | lastModifyUser | `xsd:string` | O último usuário que modificou o ativo. |
-| metadataArray | `types:MetadataArray` | Matriz de valores de metadados associados ao ativo. |
-| pontuação | `xsd:double` | Define a precisão em caso de pesquisa de similaridade (0 = sem correspondência, 1 = correspondência exata). |
-| scoreDetail | `xsd:string` | Contém informações detalhadas sobre áreas semelhantes como resultado de uma pesquisa de similaridade. |
+| metadataArray | `types:MetadataArray` | Uma matriz de valores de metadados associados ao ativo. |
+| pontuação | `xsd:double` | Define a precisão se houver uma pesquisa de similaridade (0 = sem correspondência, 1 = correspondência exata). |
+| scoreDetail | `xsd:string` | Ele contém informações detalhadas sobre áreas semelhantes como resultado de uma pesquisa de similaridade. |
