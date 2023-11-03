@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a879994d-2f26-4fdd-9a51-73644fc033cd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3046'
 ht-degree: 0%
@@ -1296,7 +1296,7 @@ A aparência da área da barra de rolagem é controlada com o seguinte seletor d
  </tbody> 
 </table>
 
-Exemplo - para configurar uma barra de rolagem com 28 pixels de largura e uma margem de oito pixels na parte superior, direita e inferior do painel de rolagem:
+Exemplo - para configurar uma barra de rolagem com 28 pixels de largura, uma margem de oito pixels na parte superior, direita e inferior do painel de rolagem:
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar { 

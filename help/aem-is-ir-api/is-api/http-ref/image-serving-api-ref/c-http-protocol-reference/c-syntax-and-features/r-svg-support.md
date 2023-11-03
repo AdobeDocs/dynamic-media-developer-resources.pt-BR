@@ -5,9 +5,9 @@ title: suporte para SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Especifique uma solicitação completa do Servidor de imagens, começando com `h
 
 ## Gerenciamento de cores {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 
-Pressupõe-se que todos os valores de cores incorporados aos arquivos SVG e passados aos modelos SVG por meio de variáveis de substituição existam no `sRgb` espaço de cores.
+Todos os valores de cores incorporados aos arquivos SVG e passados aos modelos SVG por meio de variáveis de substituição são considerados como existindo no `sRgb` espaço de cores.
 
 Nenhuma conversão de cores é executada quando as imagens são incorporadas no SVG. Para garantir a fidelidade das cores, especifique `icc=sRgb` para todas as solicitações de imagem incorporadas.
 
@@ -66,7 +66,7 @@ Esse template de SVG pode ser usado da seguinte maneira:
 
 Os arquivos SVG devem ser independentes e não devem fazer referência a arquivos ou recursos secundários, com exceção das imagens externas referenciadas com as solicitações do Servidor de imagens ou de Renderização de imagens (veja acima).
 
-Somente o conteúdo estático é renderizado. Animação, recursos interativos, como botões etc. pode estar presente, mas pode não ser renderizado conforme esperado.
+Somente o conteúdo estático é renderizado. Animação, recursos interativos, como botões e assim por diante. pode estar presente, mas pode não ser renderizado conforme esperado.
 
 As especificações de cores baseadas em perfis ICC não são compatíveis no momento.
 

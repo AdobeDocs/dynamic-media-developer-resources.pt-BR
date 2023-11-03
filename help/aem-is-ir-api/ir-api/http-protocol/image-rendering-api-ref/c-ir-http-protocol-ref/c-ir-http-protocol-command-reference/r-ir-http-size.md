@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Atributo de material. Usado apenas por decalques; ignorado por todos os outros m
 
 ## Exemplo {#section-04fdc2b60b9e4071b672bf6a913738ad}
 
-Um MSS para um decalque, que é dimensionado com base na resolução, girado em 20 graus no sentido horário, e tem uma espessura de 2,5 polegadas, para um efeito de sombra de queda apropriado:
+Um MSS para um decalque, que é dimensionado com base na resolução, girado em 20 graus no sentido horário, e tem uma espessura de 2,5 polegadas, para um efeito de sombra de gota apropriado:
 
 `…&decal&src=myDecal.png&res=34&rotate=20&size=0,0,2.5&…`
 

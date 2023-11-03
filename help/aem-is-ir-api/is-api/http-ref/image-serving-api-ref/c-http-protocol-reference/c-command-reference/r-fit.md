@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Na descrição a seguir das opções de modo, presume-se que *`xScale`* é a rel
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> ajustar </span> </p> </td> 
-   <td colname="col2"> <p>Dimensiona a imagem composta para que ela se ajuste ao espaço alocado com <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, com espaço em branco mínimo e sem corte. A imagem de resposta terá o tamanho exato especificado com <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>. O menor dos <span class="varname"> xScale </span> e <span class="varname"> yScale </span> é aplicada. </p> </td> 
+   <td colname="col2"> <p>Dimensiona a imagem composta para que ela se ajuste ao espaço alocado com <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>, com espaço em branco mínimo e sem corte. A imagem de resposta tem o tamanho exato especificado com <span class="codeph"> wid= </span> e <span class="codeph"> hei= </span>. O menor dos <span class="varname"> xScale </span> e <span class="varname"> yScale </span> é aplicada. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> restringir </span> </p> </td> 

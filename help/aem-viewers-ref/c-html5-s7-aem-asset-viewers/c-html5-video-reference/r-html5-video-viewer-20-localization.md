@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo exibido pelo Visualizador de vídeo está sujeito a localização. Esse conteúdo inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado padrão para o local em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado ao padrão para o local em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado para o local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -94,7 +94,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o estado de botão de tela cheia desmarcado. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta para o estado de botão em tela cheia desmarcado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -258,7 +258,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar do Twitter. </p> </td> 
+   <td colname="col2"> <p>Dica de ferramenta para o botão Compartilhar no Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

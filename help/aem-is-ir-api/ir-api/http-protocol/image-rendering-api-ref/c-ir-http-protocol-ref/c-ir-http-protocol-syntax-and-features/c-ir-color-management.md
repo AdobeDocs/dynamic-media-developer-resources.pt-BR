@@ -5,9 +5,9 @@ title: Gerenciamento de cores de renderização de imagem *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Arquivos de estilo de gabinete (.vnc) e arquivos de estilo de coberturas de jane
 
 **Consulte também**
 
-[Consórcio internacional de cores](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , Mapas de perfis ICC
+[Consórcio internacional de cores](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , Mapas de perfis ICC
 
 ## Espaços de cor padrão {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ Normalmente, o espaço de cores de trabalho é definido pelo perfil de cores ICC
 
 Todas as operações de processamento são executadas no espaço de cores de trabalho.
 
-**Importante:** O perfil ICC para o espaço de cores de trabalho deve suportar transformações de entrada e saída. Se um perfil somente de saída for usado como um espaço de cores de trabalho, o IR não poderá converter materiais nele. Esse perfil de cores pode ainda ser utilizado se existirem materiais no mesmo espaço de cores de trabalho. A tentativa de aplicar materiais em outros espaços de cores falhará.
+**Importante:** O perfil ICC para o espaço de cores de trabalho deve suportar transformações de entrada e saída. Se um perfil somente de saída for usado como um espaço de cores de trabalho, o IR não poderá converter materiais nele. Esse perfil de cores pode ainda ser utilizado se existirem materiais no mesmo espaço de cores de trabalho. Falha ao tentar aplicar materiais em outros espaços de cores.
 
 ## Valores de cor explícitos {#section-31727bf1b23e477ca92572fbbf422d2f}
 

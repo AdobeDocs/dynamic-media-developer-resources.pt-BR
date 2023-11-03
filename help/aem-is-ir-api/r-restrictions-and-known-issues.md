@@ -5,9 +5,9 @@ title: Restrições e problemas conhecidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Há algumas restrições e problemas conhecidos que devem ser considerados ao us
 
 ## Errata da documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
-* O número de linhas não excederá o máximo de `\copyfitmaxlines` e o número de linhas explícitas na entrada de texto.
+* O número de linhas não excede o máximo de `\copyfitmaxlines` e o número de linhas explícitas na entrada de texto.
 * As chaves e os parênteses correspondentes são necessários nos conjuntos de imagens. Se as chaves e os parênteses não corresponderem, eles precisarão ser codificados por URL.
 * O alerta de tempo de resposta global do lado do servidor inclui respostas de erro.
 * A variável `id=` é necessário no momento ao usar o `rect=` comando com uma solicitação de imagem ou máscara.
@@ -61,51 +61,51 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 * Os URLs remotos que retornam um redirecionamento (status HTTP 301, 302 ou 303) são rejeitados.
 * Ao configurar `errorRedirect.rootUrl` o endereço IP definido nesta propriedade precisa ser incluído no conjunto de regras `<addressfilter>` valor da tag nesse servidor.
 
-   *Exemplo*:
+  *Exemplo*:
 
-   O servidor A definiu `errorRedirect.rootUrl=10.10.10.10` .
+  O servidor A definiu `errorRedirect.rootUrl=10.10.10.10` .
 
-   O Servidor B, que tem o endereço IP 10.10.10.10, define o `<addressfilter>` no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
+  O servidor B, que tem o endereço IP 10.10.10.10, define o `<addressfilter>` no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
 
 * O texto de ponto e o caminho de texto com posicionamento podem exibir recorte.
 * `text=` somente se aplica `\sa` e `\sb` ao bloco de texto inteiro e não por parágrafo.
 
 * Ao usar uma empresa definida no URL e outra empresa definida para o `src=` ou `mask=` modificador, você deve prefixar uma barra à empresa definida para `src=` ou `mask=` para que esta forma de requisição funcione.
 
-   *Exemplo*:
+  *Exemplo*:
 
-   `/is/image/MyCompany?src=/YourCompany/MyImage` .
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   Em vez de: `/is/image/MyCompany?src=YourCompany/MyImage` .
+  Em vez de: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * As solicitações de Tiff ou vinheta não piramidadas produzem uma mensagem de erro semelhante a
 
-   *&quot;Imagem `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` não tem um DSF válido, e a área de 2,25 MPixel excede o máximo de 2 MPixel&quot;* .
+  *&quot;Imagem `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` não tem um DSF válido, e a área de 2,25 MPixel excede o máximo de 2 MPixel&quot;* .
 
-   A prática recomendada é usar Tiffs e vinhetas em pirâmide. Se tiver necessidade de utilizar dispositivos de segurança ou vinhetas não piramidadas, siga as instruções abaixo para aumentar o limite de tamanho.
+  A prática recomendada é usar Tiffs e vinhetas em pirâmide. Se tiver necessidade de utilizar dispositivos de segurança ou vinhetas não piramidadas, siga as instruções abaixo para aumentar o limite de tamanho.
 
-   *Solução alternativa*:
+  *Solução alternativa*:
 
-   Para Renderização de imagem em vinhetas não piramidadas, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] arquivo de configuração.
+  Para Renderização de imagem em vinhetas não piramidadas, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] arquivo de configuração.
 
-   Para TIFF não piramidados do Servidor de imagens, aumente o valor da propriedade para `MaxNonDsfSize` no [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] arquivo de configuração.
+  Para TIFF não piramidados do Servidor de imagens, aumente o valor da propriedade para `MaxNonDsfSize` no [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] arquivo de configuração.
 
 * Adobe [!DNL Photoshop] Por padrão, o CS3 não salva arquivos PSD em camadas em uma imagem composta.
 
-   *Sintomas*:
+  *Sintomas*:
 
-   O ADOBE [!DNL Photoshop] O arquivo de PSD em camadas CS3 é exibido em preto com o texto declarando: &quot;This layered [!DNL Photoshop] o arquivo não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
+  O ADOBE [!DNL Photoshop] O arquivo de PSD em camadas CS3 é exibido em preto com o texto declarando: &quot;This layered [!DNL Photoshop] o arquivo não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
 
-   *Solução alternativa*:
+  *Solução alternativa*:
 
-   Salve o Adobe [!DNL Photoshop] O arquivo CS3 com compatibilidade máxima está ativado.
+  Salve o Adobe [!DNL Photoshop] O arquivo CS3 com compatibilidade máxima está ativado.
 
 * Atribuir um perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução alternativa*:
 
-   Alterar formato de imagem de resposta usando `fmt=`
+  Alterar formato de imagem de resposta usando `fmt=`
 
 * O tamanho dos dados da imagem de resposta HTTP após a compactação, incluindo o cabeçalho do arquivo, é limitado a 16 MB.
-* &quot; ..&quot; não é permitido em nenhum elemento path em solicitações HTTP.
+* &quot; ..&quot; não é permitido em nenhum elemento de caminho em solicitações HTTP.
 * A desinstalação pode remover arquivos criados ou modificados pelo usuário do *[!DNL install_root]* ou qualquer subpasta. Copie esses arquivos para um local diferente antes de desinstalar.
 
 ## Restrições aplicáveis apenas ao Servidor de imagens {#section-b08ad535e4454265b8157dec244c4faf}
@@ -120,19 +120,19 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 * No momento, o Servidor de imagens não oferece suporte ao processamento de arquivos TIFF exportados com o Adobe Media Encoder 4.0.1 ou anterior. A Adobe Media Encoder está incluída no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
 * Usar `text=` com camadas de autodimensionamento não suporta strings RTF que usam mais de uma configuração para justificação de linha.
 
-   *Exemplo*
+  *Exemplo*
 
-   A cadeia de caracteres RTF não pode usar justificativas de linha esquerda e direita para uma camada de texto de autodimensionamento.
+  A cadeia de caracteres RTF não pode usar justificativas de linha esquerda e direita para uma camada de texto de autodimensionamento.
 
 * O SVG tem sua própria propriedade para o caminho de pesquisa de fontes referenciadas que não estão incorporadas no arquivo SVG.
 
-   *Sintomas*
+  *Sintomas*
 
-   Imagens de SVG renderizadas que contêm definições de fonte estão usando a fonte incorreta.
+  Imagens de SVG renderizadas que contêm definições de fonte estão usando a fonte incorreta.
 
-   *Solução alternativa*
+  *Solução alternativa*
 
-   Definir a propriedade `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+  Definir a propriedade `svgProvider.fontRoot=` in [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * Cortar está usando no momento `bgColor=` em vez de `color=` para preencher qualquer área estendida recentemente.
 
@@ -146,9 +146,9 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 
 * Os mecanismos JavaScript nos dados de resposta do cache do Netscape e Opera, mesmo que o cabeçalho nocache esteja definido. Isso interfere no funcionamento correto de solicitações com informações de estado.
 
-   *Solução alternativa*
+  *Solução alternativa*
 
-   Anexe um carimbo de data e hora ou outro identificador exclusivo à cadeia de caracteres da solicitação, como `"&.ts=currentTime`.
+  Anexe um carimbo de data e hora ou outro identificador exclusivo à cadeia de caracteres da solicitação, como `"&.ts=currentTime`.
 
 ## Restrições aplicáveis apenas a serviços públicos {#section-906a6b2378154b3da122b2332983f7a5}
 

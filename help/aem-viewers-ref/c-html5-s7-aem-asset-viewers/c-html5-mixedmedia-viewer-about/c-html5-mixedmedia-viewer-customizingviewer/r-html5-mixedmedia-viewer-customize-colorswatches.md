@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -165,7 +165,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
 >
 >Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
 
-Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham arte-final diferente para cada estado.
+Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham um trabalho artístico diferente para cada estado.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollleftbutton { 

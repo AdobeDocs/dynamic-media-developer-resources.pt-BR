@@ -5,16 +5,16 @@ title: Namespace do visualizador do SDK
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: aaad8f43-f6f2-440f-a6c4-52db585b48da
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
 # Namespace do visualizador do SDK{#viewer-sdk-namespace}
 
-O visualizador é composto de muitos componentes do SDK do visualizador. Na maioria dos casos, a página da Web não precisa interagir diretamente com a API de componentes do SDK; todas as necessidades comuns são cobertas na própria API do visualizador.
+O visualizador é composto de muitos componentes do SDK do visualizador. Na maioria dos casos, a página da Web não precisa interagir diretamente com a API de componentes do SDK. Todas as necessidades comuns são cobertas na própria API do visualizador.
 
 No entanto, alguns casos de uso avançados exigem que a página da Web obtenha uma referência a um componente SDK interno usando o `getComponent()` e, em seguida, usar toda a flexibilidade das APIs do próprio SDK.
 

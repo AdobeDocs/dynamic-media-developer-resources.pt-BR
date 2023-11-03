@@ -1,20 +1,20 @@
 ---
 title: Veiculação de conteúdo estático (não imagem)
-description: Você pode usar o Servidor de imagens para gerenciar conteúdo não relacionado a imagens em catálogos e distribuí-lo por meio de um contexto /is/content separado.
+description: Você pode usar o Servidor de imagens para gerenciar conteúdo não relacionado a imagens em catálogos e disponibilizá-lo por meio de um contexto /is/content separado.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
 # Veiculação de conteúdo estático (não imagem){#serving-static-non-image-contents}
 
-Você pode usar o Servidor de imagens para gerenciar conteúdo não relacionado a imagens em catálogos e distribuí-lo por meio de um contexto /is/content separado.
+Você pode usar o Servidor de imagens para gerenciar conteúdo não relacionado a imagens em catálogos e disponibilizá-lo por meio de um contexto /is/content separado.
 
 Esse recurso permite configurar o TTL para cada item separadamente.
 

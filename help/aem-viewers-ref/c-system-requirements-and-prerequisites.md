@@ -6,7 +6,7 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partir de 30 de setembro de 2022, o Adobe Dynamic Media Viewers encerrará o suporte para o seguinte:
+A partir de 30 de setembro de 2022, o Adobe Dynamic Media Viewers encerrou o suporte para o seguinte:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * As seguintes cifras fracas no TLS 1.2:
@@ -119,19 +119,19 @@ Os visualizadores Adobe Dynamic Media não suportam as seguintes combinações d
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

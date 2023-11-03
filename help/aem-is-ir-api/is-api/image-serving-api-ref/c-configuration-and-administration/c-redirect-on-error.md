@@ -5,9 +5,9 @@ title: Redirecionar em caso de erro
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,18 +20,18 @@ Os seguintes tipos de solicitações são redirecionados:
 
 * IS Imagens que estão no catálogo, mas não no disco.
 
-   Se uma imagem não estiver em um catálogo, o redirecionamento de erro não deverá ocorrer quando a imagem não puder ser encontrada.
+  Se uma imagem não estiver em um catálogo, o redirecionamento de erro não deverá ocorrer quando a imagem não puder ser encontrada.
 
 * Imagens, perfis de cores ou fontes corrompidos.
 * O conteúdo estático não pode ser encontrado no disco.
 
-   As solicitações de conteúdo estático são redirecionadas quando não podem ser encontradas no disco, mesmo que o conteúdo estático referenciado não tenha um registro de catálogo.
+  As solicitações de conteúdo estático são redirecionadas quando não podem ser encontradas no disco, mesmo que o conteúdo estático referenciado não tenha um registro de catálogo.
 
-O redirecionamento de erro não ocorrerá em nenhum outro caso.
+O redirecionamento de erro não ocorre em nenhum outro caso.
 
-Quando habilitado e quando esse erro ocorrer durante o processamento da solicitação, o servidor primário enviará a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente ao cliente. O servidor primário marca as entradas de log dessas solicitações encaminhadas com uso de cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
+Quando ativado e quando um erro ocorre durante o processamento da solicitação, o servidor primário envia a solicitação ao servidor secundário para processamento. A resposta, independentemente de indicar sucesso ou falha, é encaminhada diretamente ao cliente. O servidor primário marca as entradas de log dessas solicitações encaminhadas com uso de cache `REMOTE`. Os dados de resposta não são armazenados em cache localmente pelo servidor primário.
 
-O redirecionamento de erro está habilitado pela configuração `PS::errorRedirect.rootUrl` ao nome de domínio HTTP e ao número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com o `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário aguardará uma resposta do servidor secundário antes de retornar um erro para o cliente que está configurado com o `PS::errorRedirect.socketTimeout`.
+O redirecionamento de erro está habilitado pela configuração `PS::errorRedirect.rootUrl` ao nome de domínio HTTP e ao número da porta do servidor secundário. Além disso, o tempo limite da conexão é configurado com o `PS::errorRedirect.connectTimeout` e o tempo máximo que o servidor primário aguarda uma resposta do servidor secundário antes de retornar um erro ao cliente que está configurado com o `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

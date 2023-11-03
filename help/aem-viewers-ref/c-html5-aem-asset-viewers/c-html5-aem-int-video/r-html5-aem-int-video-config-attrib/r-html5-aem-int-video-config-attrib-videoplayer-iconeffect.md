@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 690dc488-2db0-4166-a308-f1f3438c480a
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo depois que a animação de aparecimento e desaparecimento gradual é concluída e antes que a animação de desaparecimento gradual seja iniciada. Defina como <span class="codeph"> 0</span> para desativar o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p> Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo depois que a animação de desaparecimento gradual é concluída e antes que a animação de desaparecimento gradual seja iniciada. Defina como <span class="codeph"> 0</span> para desativar o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

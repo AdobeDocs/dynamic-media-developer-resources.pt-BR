@@ -5,9 +5,9 @@ title: PermitirAcessoDireto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,24 @@ Os seguintes tipos podem ser controlados:
 
 * Permitir acesso direto apenas para `IS` e `STATIC` tipos de objeto
 
-   `AllowDirectAccess=include:IS,STATIC`
+  `AllowDirectAccess=include:IS,STATIC`
 
 * Permitir acesso direto para todos os tipos de objetos, exceto `IS` e `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
 * Permitir acesso direto a *não* tipos de objeto (ou seja, não incluir)
 
-   `AllowDirectAccess=include:`
+  `AllowDirectAccess=include:`
 
 * Permitir acesso direto a *all* tipos de objeto (ou seja, excluir nenhum)
 
-   `AllowDirectAccess=exclude:`
+  `AllowDirectAccess=exclude:`
 
 * Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não está presente, `include` é presumido)
 
-   `AllowDirectAccess=IS,STATIC`
+  `AllowDirectAccess=IS,STATIC`
 
-   Observe que é o valor padrão usado se a variável `AllowDirectAccess` o atributo não foi especificado para esta empresa.
+  Observe que é o valor padrão usado se a variável `AllowDirectAccess` o atributo não foi especificado para esta empresa.
 
 * Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não está presente, `include` é presumido)
 
-   `AllowDirectAccess=`
+  `AllowDirectAccess=`

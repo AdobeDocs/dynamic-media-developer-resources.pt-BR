@@ -5,9 +5,9 @@ title: Dados de fonte de conteúdo estático
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3cf01fc2-c925-4039-8e03-cb909cca6a51
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Todos ` *[!DNL rootPath]*` os segmentos podem ser segmentos de caminho vazios, r
 
 ` *[!DNL catalogPath]*` é um caminho/nome de arquivo absoluto ou relativo. *[!DNL requestPath]* deve ser um caminho/nome de arquivo relativo.
 
-Múltiplo `PS::staticContent.rootPaths` os valores podem ser definidos em [!DNL PlatformServer.conf]. Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. A variável [!DNL Platform Server] tentará caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.
+Múltiplo `PS::staticContent.rootPaths` os valores podem ser definidos em [!DNL PlatformServer.conf]. Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. A variável [!DNL Platform Server] O tenta caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.

@@ -5,9 +5,9 @@ title: MaskPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Se uma imagem principal ( `catalog::Path`) e uma imagem de máscara ( `catalog::
 
 `mask=` nas sobreposições de solicitação `catalog::MaskPath`.
 
-`catalog::MaskPath` substitui o canal alfa na imagem principal ( `catalog::Path`), se presente, e se o canal alfa não estiver associado (ou seja, não for pré-multiplicado). Se o alfa da imagem for pré-multiplicado, `catalog::MaskPath` é ignorado e o canal alfa é sempre usado.
+`catalog::MaskPath` substitui o canal alfa na imagem principal ( `catalog::Path`), se presente e se o canal alfa não estiver associado (ou seja, não for pré-multiplicado). Se o alfa da imagem for pré-multiplicado, `catalog::MaskPath` é ignorado e o canal alfa é sempre usado.
 
 ## Padrão {#section-78533e35bfec469ba087cb68a35bb81b}
 

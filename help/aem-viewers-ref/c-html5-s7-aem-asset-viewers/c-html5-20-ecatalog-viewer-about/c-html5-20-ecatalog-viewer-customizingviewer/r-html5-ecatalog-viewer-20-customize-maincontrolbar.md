@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A barra de controle principal é a área retangular nos sistemas de desktop e tablets que contém todos os controles da interface do usuário (exceto botões de Página grande) disponíveis para o visualizador de eCatalog.
 
-Nos telefones celulares, ele ainda mantém os botões Miniaturas, Índice, Download, Imprimir, Favoritos, Compartilhamento em redes sociais, Tela cheia e Fechar. No entanto, os botões Primeira e Última página e o Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas desktop e celulares, e movida para a parte inferior da área do visualizador em tablets. Leva sempre toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical no CSS, em relação ao contêiner do visualizador.
+Nos telefones celulares, ele ainda mantém as miniaturas, o índice, os botões Download, Imprimir, Favoritos, Compartilhamento em redes sociais, tela cheia e Fechar. No entanto, os botões Primeira e Última página e o Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas desktop e celulares, e movida para a parte inferior da área do visualizador em tablets. Leva sempre toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical no CSS, em relação ao contêiner do visualizador.
 
 A aparência da barra de controle principal é controlada com o seguinte seletor de classe CSS:
 

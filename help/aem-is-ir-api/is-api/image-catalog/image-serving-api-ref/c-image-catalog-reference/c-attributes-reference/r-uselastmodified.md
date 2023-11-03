@@ -5,9 +5,9 @@ title: UseLastModified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ Deve ser habilitado somente se uma rede de cache distribuída ou outro sistema d
 >
 >* Nenhuma `catalog::TimeStamp` nem `attribute::TimeStamp`, de modo a que o momento da modificação do [!DNL catalog.ini] O arquivo é usado como padrão para `catalog::TimeStamp`.
 >
->* Em vez de compartilhar os arquivos do catálogo de imagens por meio de uma montagem de rede, cada servidor tem sua própria instância dos arquivos do catálogo em um sistema de arquivos local.
+>* Em vez de compartilhar os arquivos do catálogo de imagens por meio de uma montagem em rede, cada servidor tem sua própria instância dos arquivos do catálogo em um sistema de arquivos local.
 >* Duas ou mais instâncias do mesmo [!DNL catalog.ini] Os arquivos têm datas de modificação diferentes, possivelmente causadas pela cópia incorreta dos arquivos.
 >
-
 
 ## Propriedades {#section-7e26009b7d0a4a3ab234bf2a37f599e0}
 

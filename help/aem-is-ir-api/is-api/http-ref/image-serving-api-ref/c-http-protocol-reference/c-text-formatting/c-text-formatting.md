@@ -5,9 +5,9 @@ title: Formatação de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ O Servidor de imagens fornece várias alternativas para renderizar o texto, aces
 
 >[!NOTE]
 >
->Além das diferenças listadas em outros lugares, `text=` produz diferenças sutis no texto renderizado quando comparado com `textPs=`. Por exemplo, os sublinhados não têm a mesma espessura e posição e o itálico sintetizado é renderizado em um ângulo ligeiramente diferente. Se o texto não se ajustar ao espaço disponível, `text=` pode cortar parcialmente a última linha, enquanto `textPs=` O só irá renderizar linhas completas.
+>Além das diferenças listadas em outros lugares, `text=` produz diferenças sutis no texto renderizado quando comparado com `textPs=`. Por exemplo, os sublinhados não têm a mesma espessura e posição e o itálico sintetizado é renderizado em um ângulo ligeiramente diferente. Se o texto não se ajustar ao espaço disponível, `text=` pode cortar parcialmente a última linha, enquanto `textPs=` renderiza apenas linhas completas.
 
 Todos os comandos de texto aceitam texto formatado com base em um subconjunto da especificação RTF (Rich Text Format). Cada camada de texto pode especificar um comando de texto diferente.
 
@@ -153,7 +153,7 @@ Alguns processadores de texto geram arquivos muito grandes, que incluem preâmbu
 
 A codificação de idioma com base nos padrões UTF-8 e ISO é suportada em cadeias de caracteres RTF como uma alternativa aos mecanismos de codificação de caracteres RTF padrão. Isso permite que os aplicativos enviem texto em inglês para o servidor sem conhecimento de codificação RTF.
 
-Todos os caracteres compatíveis com não HTTP devem ter escape adequado, se a cadeia de caracteres for transmitida via http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam de escape se a sequência de caracteres estiver incorporada no `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`, e `<TAB>` deve ser sempre removido.
+Todos os caracteres compatíveis com não HTTP devem ter escape adequado, se a cadeia de caracteres for transmitida por meio de http. Somente &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39; precisam de escape se a sequência de caracteres estiver incorporada no `catalog::Modifiers` campo de um registro de catálogo de imagens. Caracteres de controle, incluindo `<CR>`, `<LF>`, e `<TAB>` deve ser sempre removido.
 
 Os mecanismos de texto do Servidor de imagens interpretam um subconjunto de comandos definidos pela Especificação Rich Text Format (RTF), versão 1.6. Esse subconjunto tem como foco a formatação de fonte/caractere, a formatação de parágrafo simples e o suporte para fontes e conjuntos de caracteres internacionais. Não há suporte para construções de formatação mais avançadas, como folhas de estilos e tabelas, no momento.
 

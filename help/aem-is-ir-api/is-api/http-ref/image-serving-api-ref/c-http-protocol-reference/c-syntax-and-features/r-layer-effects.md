@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Qualquer número de efeitos de camada pode ser anexado a uma única camada princ
 
 ## Efeitos internos e externos {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Efeitos internos* são renderizados na parte superior da camada principal e são visíveis apenas em áreas opacas da camada principal. *Efeitos externos* são renderizados atrás da camada principal (portanto, nunca estarão visíveis em áreas opacas da camada principal) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo-se um número de camada de efeito positivo ou negativo com o `effect=` comando. A variável `effect=` Esse comando também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada principal.
+*Efeitos internos* são renderizados na parte superior da camada principal e são visíveis apenas em áreas opacas da camada principal. *Efeitos externos* são renderizados atrás da camada principal (portanto, nunca são visíveis em áreas opacas da camada principal) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo-se um número de camada de efeito positivo ou negativo com o `effect=` comando. A variável `effect=` Esse comando também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada principal.
 
 ## Relação com a camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
@@ -81,7 +81,7 @@ Adicione uma borda vermelha de três pixels de largura com 50% de opacidade a um
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-A borda seguirá os contornos do canal ou máscara alfa da imagem. Configuração `effect=1` em vez disso, colocaria a borda na borda interna.
+A borda segue os contornos do canal ou máscara alfa da imagem. Configuração `effect=1` em vez disso, colocaria a borda na borda interna.
 
 Adicionar uma sombra projetada azulada a uma imagem, usando as configurações de efeito padrão (exceto para a cor):
 

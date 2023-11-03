@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ O Visualizador de mídia mista é compatível com gestos de toque único e multi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passar ou mover horizontalmente </p> </td> 
-   <td colname="col2"> <p> Quando o ativo atual é um conjunto de rotação e a imagem está em um estado de redefinição, ela gira horizontalmente pelo conjunto de rotação. </p> <p> Quando o ativo atual é um conjunto de rotação ou uma imagem e a imagem é ampliada, ele move a imagem horizontalmente. Se a imagem for movida para a borda da exibição e o deslizamento ainda for feito nessa direção, o gesto executará uma rolagem de página nativa. </p> <p> Rola pela lista de amostras na barra de amostras. </p> </td> 
+   <td colname="col2"> <p> Quando o ativo atual é um conjunto de rotação e a imagem está em um estado de redefinição, ela gira horizontalmente pelo conjunto de rotação. </p> <p> Quando o ativo atual é um conjunto de rotação ou uma imagem e o zoom da imagem é aplicado, ele move a imagem horizontalmente. Se a imagem for movida para a borda da exibição e o deslizamento ainda for feito nessa direção, o gesto executará uma rolagem de página nativa. </p> <p> Rola pela lista de amostras na barra de amostras. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passar o dedo ou mover-se verticalmente </p> </td> 

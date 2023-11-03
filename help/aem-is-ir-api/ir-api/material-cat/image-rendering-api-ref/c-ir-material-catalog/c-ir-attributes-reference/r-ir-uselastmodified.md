@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Deve ser habilitado somente se uma rede de cache distribuída, como a Akamai, fo
 
 * `catalog::TimeStamp`, `vignette::TimeStamp`ou `attribute::TimeStamp` não estiver definido, de modo que o tempo de modificação do [!DNL catalog.ini] O arquivo é usado como padrão para `catalog::TimeStamp`.
 
-* Em vez de compartilhar os arquivos do catálogo de materiais por meio de uma montagem em rede, cada servidor tem sua própria instância dos arquivos do catálogo em um sistema de arquivos local.
+* Em vez de compartilhar os arquivos de catálogo de materiais por meio de uma montagem em rede, cada servidor tem sua própria instância dos arquivos de catálogo em um sistema de arquivos local.
 * Duas ou mais instâncias do mesmo [!DNL catalog.ini] Os arquivos têm datas de modificação diferentes, possivelmente causadas pela cópia incorreta dos arquivos.
 
 ## Propriedades {#section-453952244193452caccfaf7f601007c1}

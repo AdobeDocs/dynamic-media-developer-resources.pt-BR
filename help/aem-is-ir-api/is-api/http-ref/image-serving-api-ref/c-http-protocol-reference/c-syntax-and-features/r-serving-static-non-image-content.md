@@ -5,16 +5,16 @@ title: Veiculação de conteúdo estático (não relacionado à imagem)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Veiculação de conteúdo estático (não relacionado à imagem){#serving-static-non-image-content}
 
-O Servidor de imagens fornece um mecanismo para gerenciar conteúdo não relacionado a imagens em catálogos e distribuí-lo por meio de uma `context /is/content`. O mecanismo permite configurar o TTL para cada item separadamente.
+O Servidor de imagens fornece um mecanismo para gerenciar conteúdos que não sejam de imagens em catálogos e distribuí-los por meio de um `context /is/content`. O mecanismo permite configurar o TTL para cada item separadamente.
 
 ## Sintaxe básica {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -113,7 +113,7 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagem, 
 
 ## Filtragem de conteúdo estático {#section-896c37cf68bc446eb0766fb378898262}
 
-Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supor que o conteúdo estático esteja marcado com o apropriado `catalog::UserType`valores, o cliente poderá adicionar a variável `type=` à solicitação. O Servidor de imagens comparará o valor fornecido com o `type=` ao valor de `catalog::UserType` e, no caso de uma incompatibilidade, retornam um erro em vez de conteúdos potencialmente inadequados.
+Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supor que o conteúdo estático esteja marcado com o apropriado `catalog::UserType`valores, o cliente poderá adicionar a variável `type=` à solicitação. O Servidor de imagens compara o valor fornecido com o `type=` ao valor de `catalog::UserType` e, no caso de uma incompatibilidade, retornam um erro em vez de conteúdos potencialmente inadequados.
 
 ## Consulte também {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Encaminha a lista de URLs fornecida ao provedor Dynamic Media CDN (Content Distr
 
 ## cdnCacheInvalidation: Sobre {#section-4f70d2bc79d64288b961836ab17e9690}
 
-A invalidação do cache do CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Dynamic Media depois que essa solicitação de invalidação for processada pela rede CDN. Qualquer URL que não esteja conectado à estrutura de URL de serviço do Dynamic Media e que corresponda diretamente à ID raiz da empresa do Dynamic Media atribuída quando a empresa foi criada resultará em uma falha de API para toda a solicitação. Quaisquer URLs inválidos que a CDN não aceite e que considere inválidos também resultarão em uma falha de API para toda a solicitação.
+A invalidação do cache do CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Dynamic Media depois que essa solicitação de invalidação for processada pela rede CDN. Qualquer URL que não esteja conectado à estrutura de URL de serviço do Dynamic Media e que corresponda diretamente à ID raiz da empresa do Dynamic Media atribuída quando a empresa foi criada resultará em uma falha de API para toda a solicitação. Quaisquer URLs inválidos não suportados pelo CDN e considerados inválidos também resultam em uma falha de API para toda a solicitação.
 
 **Frequência de uso: regras**
 
-As regras que regem a frequência de uso desse recurso são controladas pelos parceiros CDN do Dynamic Media. A CDN mantém a discrição de degradar a capacidade de resposta dessas invalidações para manter o desempenho ideal de seu serviço para seus usuários. Se a Dynamic Media for notificada de uso excessivo desse recurso, precisaremos recorrer à desativação do recurso por empresa ou inteiramente por todo o serviço.
+As regras que regem a frequência de uso desse recurso são controladas pelos parceiros CDN da Dynamic Media. A CDN mantém a discrição de degradar a capacidade de resposta dessas invalidações para manter o desempenho ideal de seu serviço para seus usuários. Se a Dynamic Media for notificada de uso excessivo desse recurso, o Adobe deverá recorrer à desativação do recurso por empresa ou inteiramente por todo o serviço.
 
 **Emails de confirmação**
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Dispositivo detectado como tablet no modo retrato com Tela cheia nas configurações do navegador.
+* Dispositivo detectado como tablet no modo retrato com tela cheia nas configurações do navegador.
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 

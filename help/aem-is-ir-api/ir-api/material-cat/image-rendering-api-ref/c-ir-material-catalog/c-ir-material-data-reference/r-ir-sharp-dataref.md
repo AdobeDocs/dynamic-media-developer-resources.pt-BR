@@ -5,9 +5,9 @@ title: Nítido
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Nitidez. Atributo de nitidez, determina quando o material é nitidez durante o processamento.
 
-O tipo e a quantidade de nitidez são controlados pela vinheta através de um modelo de material padrão ou com `catalog::RenderSettings`.
+O tipo e a quantidade de nitidez são controlados pela vinheta por meio de um modelo de material padrão ou com `catalog::RenderSettings`.
 
 ## Propriedades {#section-aac81b1a611b4bca90b8544eae7896df}
 

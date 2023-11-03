@@ -5,9 +5,9 @@ title: Versões WSDL do Serviço Web IPS
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -229,7 +229,7 @@ Onde `base64()` aplica a codificação padrão Base64, `<IPS_user_email>` é o e
 
 Envie o cabeçalho de Autorização preventivamente com a solicitação inicial. Se nenhuma credencial de autenticação estiver incluída na solicitação, `IpsApiService` não responde com um código de status de `401 (Unauthorized)`. Em vez disso, um código de status de `500 (Internal Server Error)` é retornado com um corpo de falha SOAP informando que a solicitação não pôde ser autenticada.
 
-Antes do IPS 3.8, a autenticação via cabeçalho SOAP era implementada usando o `AuthUser` e `AuthPassword` elementos no namespace `http://www.scene7.com/IpsApi`. Por exemplo:
+Antes do IPS 3.8, a autenticação por meio do cabeçalho SOAP era implementada usando o `AuthUser` e `AuthPassword` elementos no namespace `http://www.scene7.com/IpsApi`. Por exemplo:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 

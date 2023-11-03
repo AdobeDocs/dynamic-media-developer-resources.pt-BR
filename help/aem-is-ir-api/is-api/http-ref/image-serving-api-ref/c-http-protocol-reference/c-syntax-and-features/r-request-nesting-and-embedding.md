@@ -5,9 +5,9 @@ title: Aninhamento e incorporação de solicitações
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Esse mecanismo aceita os mesmos formatos de arquivo de imagem compatíveis com o
 
 >[!NOTE]
 >
->O Servidor de imagens executará automaticamente o utilitário de validação quando uma imagem estrangeira for usada pela primeira vez, para garantir que a imagem seja válida e não tenha sido corrompida durante a transmissão. Isso pode causar um pequeno atraso no primeiro acesso. Para obter o melhor desempenho, é recomendável limitar o tamanho dessas imagens e/ou usar um formato de arquivo de imagem que seja bem compactado.
+>O Servidor de imagens executa automaticamente o utilitário de validação quando uma imagem externa é usada pela primeira vez, para garantir que a imagem seja válida e não tenha sido corrompida durante a transmissão. Isso pode causar um pequeno atraso no primeiro acesso. Para obter o melhor desempenho, é recomendável limitar o tamanho dessas imagens e/ou usar um formato de arquivo de imagem que seja bem compactado.
 
 ## Restrições {#section-fb68e3f0d40947feb94d7bf183b64929}
 

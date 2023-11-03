@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 8e37bb60-c875-48d6-8c86-93aba7f50f74
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # Namespace do visualizador do SDK{#viewer-sdk-namespace}
 
-O visualizador é composto de muitos componentes do SDK do visualizador. Normalmente, a página da Web não precisa interagir diretamente com a API dos componentes do SDK; todas as necessidades comuns são cobertas na própria API do visualizador.
+O visualizador é composto de muitos componentes do SDK do visualizador. Normalmente, a página da Web não precisa interagir diretamente com a API de componentes do SDK; todas as necessidades comuns são cobertas na própria API do visualizador.
 
 No entanto, alguns casos de uso avançados exigem que a página da Web faça referência a um componente interno do SDK usando o `getComponent()` e, em seguida, usar toda a flexibilidade das APIs do próprio SDK.
 

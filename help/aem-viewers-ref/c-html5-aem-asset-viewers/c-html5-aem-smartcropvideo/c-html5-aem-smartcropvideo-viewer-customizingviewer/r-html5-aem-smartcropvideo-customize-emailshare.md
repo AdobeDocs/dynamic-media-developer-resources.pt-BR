@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 0%
@@ -1292,7 +1292,7 @@ A aparência da área da barra de rolagem é controlada com o seguinte seletor d
  </tbody> 
 </table>
 
-Exemplo - para configurar uma barra de rolagem com 28 pixels de largura e uma margem de oito pixels na parte superior, direita e inferior do painel de rolagem:
+Exemplo - para configurar uma barra de rolagem com 28 pixels de largura, uma margem de oito pixels na parte superior, direita e inferior do painel de rolagem:
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7scrollbar { 

@@ -1,20 +1,20 @@
 ---
 title: type
-description: Filtro de tipo de conteúdo estático. Especifica uma cadeia de caracteres de filtro para conteúdo estático entregue via /is/content.
+description: Filtro de tipo de conteúdo estático. Especifica uma cadeia de caracteres de filtro para conteúdo estático entregue por meio de /is/content.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # type{#type}
 
-Filtro de tipo de conteúdo estático. Especifica uma cadeia de caracteres de filtro para conteúdo estático entregue via /is/content.
+Filtro de tipo de conteúdo estático. Especifica uma cadeia de caracteres de filtro para conteúdo estático entregue por meio de /is/content.
 
 `type= *`val`*`
 
@@ -29,7 +29,7 @@ O servidor compara `val` com o valor de `catalog::Type` do item de conteúdo est
 
 ## Propriedades {#section-529b088434a44a9f86a64ef548d2925b}
 
-Compatível somente com solicitações de conteúdo estático (não imagens) veiculadas via. Ignorado se `catalog::Type` está vazio ou não está definido.
+Compatível somente com solicitações de conteúdo estático (não imagens) fornecidas por meio de. Ignorado se `catalog::Type` está vazio ou não está definido.
 
 ## Padrão {#section-e9e8f51d0a01452183ccb510efd87d46}
 

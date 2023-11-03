@@ -5,7 +5,7 @@ title: Solução de problemas
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -51,8 +51,8 @@ O Servidor de imagens e [!DNL Platform Server] iniciar um novo arquivo de log to
 
 **Se você tiver um software antivírus instalado no servidor**
 
-É recomendável desativar a verificação de diretórios do Servidor de imagens. Caso contrário, a varredura de diretórios de leitura/gravação de alto volume (como cache, imagens, fontes, perfis e diretórios de catálogo) causará problemas.
+É recomendável desativar a verificação de diretórios do Servidor de imagens. Caso contrário, a varredura de diretórios de leitura/gravação de alto volume (como cache, imagens, fontes, perfis e diretórios de catálogo) pode causar problemas.
 
 **A Digimarc causa problemas de desempenho para imagens com zoom**
 
-Não use a Digimarc em imagens com zoom. O desempenho não será aceitável. Se necessário, crie um catálogo separado para imagens a serem usadas para aplicar zoom e desative a Digimarc para esse catálogo.
+Não use a Digimarc em imagens com zoom. O desempenho não é aceitável. Se necessário, crie um catálogo separado para imagens a serem usadas para aplicar zoom e desative a Digimarc para esse catálogo.

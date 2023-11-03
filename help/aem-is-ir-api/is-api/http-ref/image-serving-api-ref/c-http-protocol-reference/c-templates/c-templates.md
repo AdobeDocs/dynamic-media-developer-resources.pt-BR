@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ As variáveis personalizadas podem ser usadas para simplificar ainda mais o uso 
 
 Os modelos são armazenados como registros em catálogos de imagem, com o corpo do modelo no `catalog::Modifier` e a variável `catalog::Path` campo vazio ou especificando uma imagem de fundo estática que não pode ser alterada dinamicamente.
 
-Os modelos são especificados com o `template=` ou no componente de caminho do URL da solicitação. Para a maioria dos aplicativos, é recomendável usar o `template=` para especificar modelos. A variável `template=`comando não deve ocorrer no `catalog::PostModifier` e só pode ocorrer no campo `catalog::Modifier` em uma solicitação IS aninhada (ou seja, em um `src=is{...}` construir). Os registros de modelo não podem ser referenciados em `src=` ou `mask=`comandos.
+Os modelos são especificados com o `template=` ou no componente de caminho do URL da solicitação. Para a maioria dos aplicativos, é recomendável usar o `template=` para especificar modelos. A variável `template=`comando não deve ocorrer no `catalog::PostModifier` e só pode ocorrer no campo `catalog::Modifier` em uma solicitação IS aninhada (ou seja, em uma variável `src=is{...}` construir). Os registros de modelo não podem ser referenciados em `src=` ou `mask=`comandos.
 
 Qualquer `src=` ou `mask=`Os comandos incorporados no modelo podem ser resolvidos no catálogo principal da solicitação ou em um catálogo de imagens diferente. Se não `rootId` for especificado explicitamente, o catálogo principal será assumido. O modelo especificado com `template=` O também pode estar localizado no catálogo principal ou em um catálogo de imagens diferente.
 

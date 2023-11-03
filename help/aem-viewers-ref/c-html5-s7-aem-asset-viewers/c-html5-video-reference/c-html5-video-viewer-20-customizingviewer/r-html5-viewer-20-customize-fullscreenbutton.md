@@ -1,18 +1,18 @@
 ---
-title: Botão de tela cheia
+title: botão de tela cheia
 description: O botão de tela cheia faz com que o reprodutor de vídeo entre ou saia do modo de tela cheia quando um usuário clica nele.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Botão de tela cheia{#full-screen-button}
+# botão de tela cheia{#full-screen-button}
 
 O botão de tela cheia faz com que o reprodutor de vídeo entre ou saia do modo de tela cheia quando um usuário o seleciona.
 

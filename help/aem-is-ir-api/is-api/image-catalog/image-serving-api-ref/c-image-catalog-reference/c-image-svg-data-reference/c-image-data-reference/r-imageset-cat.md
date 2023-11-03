@@ -5,7 +5,7 @@ title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classificados de imagens e controlar atributos usados pelos visualizadores do Dynamic Media.
 
-Um conjunto de imagens consiste em uma lista de itens classificados e separados por vírgulas, com cada item consistindo em um ou mais subitens (ids de imagem, ids de amostra, caminhos de arquivo de mídia, rótulos etc.), separados por ponto e vírgula e/ou dois pontos.
+Um conjunto de imagens consiste em uma lista de itens classificados e separados por vírgulas. Cada item consiste em um ou mais subitens (IDs de imagem, IDs de amostra, caminhos de arquivo de mídia, rótulos e assim por diante), separados por ponto e vírgula, dois pontos ou ambos.
 
-Chaves `{ }` e parênteses `( )` podem ser usados para delimitar determinado conteúdo (como valores de cor) ou indicar conjuntos aninhados. Chaves ou parênteses usados dessa maneira não devem ser codificados e devem sempre aparecer como pares correspondentes, caso contrário, ocorrerá um erro de análise de catálogo.
+Chaves `{ }` e parênteses `( )` podem ser usados para delimitar determinado conteúdo (como valores de cor) ou indicar conjuntos aninhados. Chaves ou parênteses usados dessa maneira não devem ser codificados e devem sempre aparecer como pares correspondentes; caso contrário, ocorrerá um erro de análise de catálogo.
 
 >[!NOTE]
 >
@@ -31,7 +31,6 @@ Chaves `{ }` e parênteses `( )` podem ser usados para delimitar determinado con
 >* `}`
 >* `(`
 >* `)`
-
 
 
 Consulte a documentação dos Visualizadores do servidor de imagens para obter detalhes adicionais sobre a estrutura e o uso de conjuntos de imagens.
@@ -53,7 +52,7 @@ Cada item em um conjunto de amostras básico consiste em uma referência a um re
 | `*`imageId`*` | Referência da imagem IS (catálogo/id) |
 | `*`swatchId`*` | Referência da imagem IS (catálogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`rótulo`*]'}'` |
-| `*`rrggbb`*` | Valor de cor de RGB hexadecimal de 6 dígitos embalado para amostras de cores sólidas |
+| `*`rrggbb`*` | Valor de cor de RGB hexadecimal de 6 dígitos compactado para amostras de cores sólidas |
 | `*`rótulo`*` | Rótulo de texto opcional para amostras de cores sólidas |
 
 **Conjuntos de amostras hierárquicas**
@@ -82,7 +81,7 @@ Cada item em um conjunto de rotação bidimensional pode consistir em uma imagem
 
 **Conjuntos de páginas**
 
-Cada item em um conjunto de páginas pode consistir em até três imagens de página separadas por dois pontos.
+Cada item em um conjunto de páginas pode consistir em imagens de até três páginas separadas por dois pontos.
 
 | `*`pageSet`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
 |---|---|

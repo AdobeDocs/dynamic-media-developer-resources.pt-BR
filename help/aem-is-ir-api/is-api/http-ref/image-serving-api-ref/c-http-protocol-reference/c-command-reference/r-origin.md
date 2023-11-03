@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Origem da camada.
 >
 >O ret da camada sempre inclui qualquer modificação por `extend=`.
 
-Define o ponto de alinhamento do retângulo da camada, que é usado para posicionar o retângulo da camada em relação à camada 0 via `pos=`. `originN=0,0` posiciona a origem da camada no centro do retângulo da camada. `originN=-0.5,-0.5` e `origin=0,0` é o canto superior esquerdo e `originN=0.5,0.5` é o canto inferior direito do retângulo da camada.
+Define o ponto de alinhamento do retângulo da camada, que é usado para posicionar o retângulo da camada em relação à camada 0 por meio de `pos=`. `originN=0,0` posiciona a origem da camada no centro do retângulo da camada. `originN=-0.5,-0.5` e `origin=0,0` é o canto superior esquerdo e `originN=0.5,0.5` é o canto inferior direito do retângulo da camada.
 
 ## Propriedades {#section-60f639e36ada43d1abc6bfc100afc925}
 

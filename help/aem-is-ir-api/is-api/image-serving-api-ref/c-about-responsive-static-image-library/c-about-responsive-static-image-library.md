@@ -5,7 +5,7 @@ title: Sobre a biblioteca de imagens responsiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -75,4 +75,4 @@ O caso de uso mais simples da Biblioteca de imagens responsiva é definir uma li
 * iOS 6 ou posterior.
 * Certificado no iPhone3GS ou posterior e iPad2 ou posterior (somente navegadores nativos).
 * Android™ OS 2.3 ou posterior.
-* O Internet Explorer em dispositivos móveis não é suportado atualmente.
+* O Internet Explorer em dispositivos móveis não é compatível no momento.

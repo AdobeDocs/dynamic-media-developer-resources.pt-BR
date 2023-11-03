@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Para obter a documentação completa, consulte [Guia de referência de visualiza
 
 * Compatibilidade com as bibliotecas RequireJS e DOJO.
 
-   Armazenamento em cache JS consolidado do SDK durante a implantação do visualizador.
+  Armazenamento em cache JS consolidado do SDK durante a implantação do visualizador.
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
@@ -109,7 +109,7 @@ Para obter a documentação completa, consulte [Guia de referência de visualiza
 
 * Galaxy S4
 
-   * Dispositivo detectado como tablet no modo retrato com Tela cheia nas configurações do navegador.
+   * Dispositivo detectado como tablet no modo retrato com tela cheia nas configurações do navegador.
 
 * Galaxy Nexus
 
@@ -128,15 +128,15 @@ Para obter a documentação completa, consulte [Guia de referência de visualiza
 
    * Internet Explorer 9: imagens de pôster personalizadas não são exibidas.
    * `IntialBitRate` O modificador só é compatível com o software HLS e a reprodução de HDS do Flash. Não funciona quando a reprodução está usando o reprodutor nativo.
-   * A reprodução progressiva OGG e WebM não é suportada no momento.
+   * A reprodução progressiva OGG e WebM não é compatível no momento.
    * O dimensionamento do navegador pode fazer com que o reprodutor de vídeo seja exibido em um tamanho incorreto (inclui configurações de exibição do painel de controle do SO Windows).
    * A busca de vídeo usando o streaming HLS no Safari pode ser inconsistente.
 
 * Internet Explorer
 
-   * O modo Quirks não é suportado atualmente.
-   * No momento, não há suporte para o modo de compatibilidade.
-   * Atualmente, o Internet Explorer em dispositivos móveis não é suportado.
+   * O modo Quirks não é suportado no momento.
+   * O modo de compatibilidade não tem suporte no momento.
+   * O Internet Explorer em dispositivos móveis não é suportado no momento.
 
 * iOS
 
@@ -153,7 +153,7 @@ Para obter a documentação completa, consulte [Guia de referência de visualiza
 
 * Os modificadores do Servidor de imagens de `iscommands` não são adicionados à `req=set` por design. Os modificadores que afetam apenas a exibição da imagem funcionam bem. Os modificadores que afetam o tamanho devem ser usados em um ativo complexo. Por exemplo,
 
-   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
+  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [Flyout] O IE9 às vezes permanece na tela após o mouse sair.
 * O dimensionamento do navegador leva ao redimensionamento incorreto.
@@ -168,7 +168,7 @@ Para obter a documentação completa, consulte [Guia de referência de visualiza
 
    * A incorporação do visualizador na tabela pode resultar no dimensionamento ou posicionamento incorreto do visualizador no modo de tela cheia não nativo. Sugira usar DIVs.
    * Parâmetros com nomes de instância explícitos no código exigem nomes de instância no URL, além de serem substituídos (por exemplo, `zoomView.iconfeffect=0`).
-   * No momento, não há suporte para o recorte do comando do Servidor de imagens.
+   * O recorte do comando do Servidor de imagens não tem suporte no momento.
    * O botão Fechar funciona somente se o visualizador estiver aberto na janela filho.
    * A variável `iscommands` O modificador não oferece suporte a modificadores do Servidor de imagens que afetam o tamanho da imagem.
 
@@ -234,7 +234,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 
    * Para desativar o padrão, realce azul a seguinte regra CSS deve ser adicionada para o componente:
 
-      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
+     `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * BlackBerry®
 
@@ -267,7 +267,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 
    * No IE 10 e modo de tela cheia mais antigo não ocupa a tela inteira, em vez disso, ele apenas redimensiona o aplicativo para o tamanho da janela do navegador.
    * O modo de renderização Quirks não é suportado.
-   * Atualmente, o Internet Explorer em dispositivos móveis não é suportado.
+   * O Internet Explorer em dispositivos móveis não é suportado no momento.
    * O Util.js pode falhar ao carregar se incluído de forma assíncrona.
    * O ícone IconEffect bloqueia eventos de clique nos componentes SpinView e ZoomView.
 
@@ -279,9 +279,9 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 
 * Dispositivos sensíveis ao toque
 
-   * O modo de tela cheia não ocupa a tela inteira do dispositivo. Em vez disso, ele apenas redimensiona o aplicativo para o tamanho da janela do navegador.
+   * o modo de tela cheia não ocupa a tela inteira do dispositivo. Em vez disso, ele apenas redimensiona o aplicativo de acordo com o tamanho da janela do navegador.
    * Cursores personalizados não funcionam em dispositivos de toque.
-   * No momento, não há suporte para o dimensionamento de página em dispositivos de toque. A incorporação de visualizadores HTML5 exige a meta tag viewport com configurações apropriadas.
+   * No momento, o dimensionamento de página em dispositivos de toque não é compatível. A incorporação de visualizadores HTML5 exige a meta tag viewport com configurações apropriadas.
 
 * Xoom
 
@@ -294,7 +294,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
    * Nas versões 2.7.2 e anteriores, alguns componentes foram adicionados ao DOM usando `insertBefore()` API. Como resultado, esses componentes se colocavam na parte inferior da ordem de empilhamento, independentemente de quando a instância do componente é criada em relação a outros componentes. Com a versão 2.8.1, todos os componentes estão usando `appendChild()` API agora, o que significa que a ordem de empilhamento dos componentes corresponderia à ordem de criação da instância.
 
    * Usar `iscommand` não há suporte para o modificador para definir o formato de canal alfa da imagem. Usar componente `FMT` em vez disso.
-   * No momento, não há suporte para a propriedade de transformação CSS.
+   * A propriedade de transformação de CSS não tem suporte no momento.
 
 * Dispositivos sensíveis ao toque
 

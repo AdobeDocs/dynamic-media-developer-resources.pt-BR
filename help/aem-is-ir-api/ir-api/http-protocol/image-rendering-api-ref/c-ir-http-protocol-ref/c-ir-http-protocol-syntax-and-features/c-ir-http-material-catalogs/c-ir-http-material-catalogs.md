@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Catálogos de materiais oferecem várias características.
 
 * Permitir definição persistente de materiais, incluindo todas as propriedades do material.
 
-   Os materiais definidos no catálogo de materiais podem ser referenciados usando uma ID simples, em vez de um conjunto de propriedades do material.
+  Os materiais definidos no catálogo de materiais podem ser referenciados usando uma ID simples, em vez de um conjunto de propriedades do material.
 * Forneça padrões para determinados atributos de solicitação, como a qualidade do JPEG ou o tamanho padrão da imagem de resposta.
 * Gerencie vinhetas, perfis ICC e modelos de solicitação.
 
@@ -34,4 +34,4 @@ As vinhetas e os perfis de ICC podem ser discriminados em catálogos de materiai
 
 **Consulte também**
 
-Referência do Catálogo de Materiais, [ `src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`
+Referência do Catálogo de Materiais, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`

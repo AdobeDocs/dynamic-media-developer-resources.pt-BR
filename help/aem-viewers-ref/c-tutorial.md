@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 
 1. Salve o arquivo como um modelo vazio. Você pode usar qualquer nome de arquivo desejado.
 
-   Você usará esse arquivo de modelo vazio como uma referência ao criar visualizadores no futuro. Esse template funciona localmente e quando veiculado a partir de um servidor Web.
+   Você pode usar esse arquivo de modelo vazio como uma referência ao criar visualizadores no futuro. Esse template funciona localmente e quando veiculado a partir de um servidor Web.
 
 Agora adicione o estilo ao visualizador.
 
@@ -178,8 +178,8 @@ Agora inclua os componentes `Container` e `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    

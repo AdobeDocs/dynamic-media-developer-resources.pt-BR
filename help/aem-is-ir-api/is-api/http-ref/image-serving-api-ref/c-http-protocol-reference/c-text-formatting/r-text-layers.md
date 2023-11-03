@@ -5,9 +5,9 @@ title: Camadas de texto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ As regras comuns e as definições são as seguintes:
 
 ## Texto pontual (autodimensionamento) {#section-db99ec98eb114458b2dbc9911a58f74a}
 
-O texto de ponto de estilo Photoshop é simulado quando `textPs=` é especificado sem `size=`, `textPath=`ou `textFlowPath=`. O tamanho da camada é determinado horizontalmente pela largura do texto renderizado e verticalmente pelo espaçamento entre linhas. O texto nunca será quebrado automaticamente.
+O texto de ponto de estilo Photoshop é simulado quando `textPs=` é especificado sem `size=`, `textPath=`ou `textFlowPath=`. O tamanho da camada é determinado horizontalmente pela largura do texto renderizado e verticalmente pelo espaçamento entre linhas. O texto nunca é quebrado automaticamente.
 
 Se nenhuma delas `anchor=` nem `origin=` forem especificadas, a primeira linha do texto será posicionada imediatamente acima da origem da camada; os parágrafos serão marcados com `\ql` posicionados à direita da origem da camada, parágrafos que incluem `\qr` são renderizados à esquerda da origem e parágrafos com `\qc` são centralizadas horizontalmente em torno da origem. As regras padrão de posicionamento de camada se aplicam se `anchor=` ou `origin=` são especificados.
 
@@ -75,7 +75,7 @@ Os seguintes comandos RTF são ignorados:
 
 Se `size=` é especificado juntamente com `textFlowPath=`, o tamanho da camada é predeterminado. (0,0) do espaço de coordenadas em pixels usado para definir o(s) caminho(s) está localizado no canto superior esquerdo do retângulo da camada.
 
-A variável `textFlowPath=` as regiões podem estar localizadas fora do retângulo da camada. O texto sempre fluirá e será renderizado em todas as regiões do caminho, mesmo que isso resulte na renderização do texto fora do retângulo da camada. `extend=0,0,0,0`para cortar o texto renderizado no retângulo da camada.
+A variável `textFlowPath=` as regiões podem estar localizadas fora do retângulo da camada. O texto sempre flui e é renderizado em todas as regiões do caminho, mesmo que isso resulte na renderização do texto fora do retângulo da camada. `extend=0,0,0,0`para cortar o texto renderizado no retângulo da camada.
 
 Para fins de posicionamento de camadas, o retângulo da camada tem como base o `size=`, independentemente de quanto texto é realmente renderizado, mesmo se parte dele estiver localizada fora do retângulo da camada. O posicionamento de camada padrão é aplicável.
 
@@ -105,7 +105,7 @@ Qualquer texto depois do primeiro `\par` ou `\line` é ignorado.
 
 Se `size=` é especificado juntamente com `textPath=`, o tamanho da camada é predeterminado. (0,0) do espaço de coordenadas em pixels usado para definir o(s) caminho(s) está localizado no canto superior esquerdo do retângulo da camada.
 
-Os caminhos podem estar localizados parcial ou totalmente fora do retângulo da camada. O texto sempre será aplicado e renderizado ao longo do caminho inteiro, mesmo se estiver fora do retângulo da camada. `extend=0,0,0,0` para cortar o texto renderizado no retângulo da camada.
+Os caminhos podem estar localizados parcial ou totalmente fora do retângulo da camada. O texto é sempre aplicado e renderizado ao longo de todo o caminho, mesmo se estiver fora do retângulo da camada. `extend=0,0,0,0` para cortar o texto renderizado no retângulo da camada.
 
 Para fins de posicionamento de camadas, o retângulo da camada tem como base o `size=`, mesmo que parte do texto seja renderizado fora do retângulo da camada. O posicionamento de camada padrão é aplicável.
 

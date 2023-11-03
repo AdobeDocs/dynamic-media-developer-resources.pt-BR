@@ -1,20 +1,20 @@
 ---
-description: Define atributos do usuário (por exemplo, nome, email, função etc.)
+description: Define os atributos do usuário (por exemplo, nome, email, função e assim por diante).
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-Define atributos do usuário (por exemplo, nome, email, função etc.)
+Define os atributos do usuário (por exemplo, nome, email, função e assim por diante).
 
 Sintaxe
 

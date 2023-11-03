@@ -1,23 +1,23 @@
 ---
-description: O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem ampliar cada página para obter mais detalhes.
+description: O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página. O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou o modo dedicado de miniaturas. Os usuários também podem ampliar cada página para obter mais detalhes.
 keywords: responsivo
 solution: Experience Manager
 title: Pesquisa no eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
 
 # Pesquisa no eCatalog{#ecatalog-search}
 
-O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página, O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou modo de miniaturas dedicado. Os usuários também podem ampliar cada página para obter mais detalhes.
+O eCatalog Search Viewer é um visualizador de catálogo que exibe folhetos eletrônicos em uma página espelhada ou página por página. O eCatalog permite que os usuários naveguem pelo catálogo usando elementos adicionais da interface do usuário ou o modo dedicado de miniaturas. Os usuários também podem ampliar cada página para obter mais detalhes.
 
-Esse visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opcionais e ferramentas de compartilhamento em redes sociais. Ele tem ferramentas de zoom, ferramentas de navegação do catálogo, suporte a tela cheia, miniaturas e um botão de fechamento opcional. O visualizador também oferece suporte a ferramentas de compartilhamento em redes sociais, Impressão, Download e Favoritos. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+Esse visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opcionais e ferramentas de compartilhamento em redes sociais. Ele tem ferramentas de zoom, ferramentas de navegação no catálogo, suporte para tela cheia, miniaturas e um botão de fechamento opcional. O visualizador também oferece suporte a ferramentas de compartilhamento em redes sociais, Impressão, Download e Favoritos. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
 O usuário também pode fazer uma pesquisa com base em palavras-chave ou frases no conteúdo do catálogo.
 
@@ -84,7 +84,7 @@ Esse visualizador também oferece suporte à entrada por toque e à entrada do m
 
 ## Ferramentas de compartilhamento de redes sociais com o eCatalog Search Viewer {#section-eb575084a99647c3a9591f439f40b412}
 
-O Visualizador de pesquisa do eCatalog é compatível com ferramentas de compartilhamento de redes sociais. Elas estão disponíveis como um botão na barra de controle principal, que se expande para uma barra de ferramentas de compartilhamento quando um usuário clica ou toca nela.
+O Visualizador de pesquisa do eCatalog é compatível com ferramentas de compartilhamento em redes sociais. Eles estão disponíveis como um botão na barra de controle principal, que se expande para uma barra de ferramentas de compartilhamento quando um usuário clica ou toca nela.
 
 A barra de ferramentas de compartilhamento contém ícones para cada tipo de canal de compartilhamento compatível, que inclui Facebook, Twitter, compartilhamento de email, compartilhamento de código incorporado e compartilhamento de link. Quando as ferramentas de compartilhamento de email, compartilhamento incorporado ou compartilhamento de link são ativadas, o visualizador exibe uma caixa de diálogo modal com um formulário de entrada de dados correspondente. Quando Facebook ou Twitter é chamado, o visualizador redireciona o usuário para uma caixa de diálogo de compartilhamento padrão a partir de um serviço social. As ferramentas de compartilhamento não estão disponíveis no modo de tela cheia devido a restrições de segurança do navegador da Web.
 

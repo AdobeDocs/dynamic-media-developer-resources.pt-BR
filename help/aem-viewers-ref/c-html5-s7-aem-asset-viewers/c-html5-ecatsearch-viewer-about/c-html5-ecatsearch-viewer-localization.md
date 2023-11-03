@@ -5,9 +5,9 @@ title: Localização dos elementos da interface do usuário
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões da barra de rolagem.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado padrão para o local em inglês ( `"en"`) fornecidos com o visualizador pronto para uso e também podem ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado ao padrão para o local em inglês ( `"en"`) fornecidos com o visualizador pronto para uso e também podem ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado no local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -82,11 +82,11 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botão de tela cheia no estado normal. </p> </td> 
+   <td colname="col2"> <p>botão de tela cheia no estado normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Botão de tela cheia no estado de tela cheia. </p> </td> 
+   <td colname="col2"> <p>botão de tela cheia no estado de tela cheia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> BotãoDeRolagemParaCima.DICADEFERRAMENTA </span> </p> </td> 
@@ -298,7 +298,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Botão Compartilhar do twitter. </p> </td> 
+   <td colname="col2"> <p>Botão de compartilhamento do Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Imprimir.DICA.FERRAMENTA </span> </p> </td> 

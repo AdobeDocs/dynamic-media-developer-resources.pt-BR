@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Os materiais dos gabinetes especificam um arquivo de estilo de gabinete (extensão de arquivo .vnc), um arquivo de dados especiais que contém representações fotográficas de gabinetes, juntamente com definições de layout paramétrico e outras informações necessárias para renderizar as frentes do gabinete.
 
-[!DNL vnc] arquivos podem incluir uma textura de grão de madeira repetível, ou a textura pode ser fornecida externamente através de um segundo argumento para `src=`. Certos [!DNL vnc] os arquivos permitem colorir ou texturizar determinadas áreas das frentes do gabinete (normalmente usadas para estilos de gabinete laminados).
+[!DNL vnc] arquivos podem incluir uma textura de grão de madeira repetível, ou a textura pode ser fornecida externamente por meio de um segundo argumento para `src=`. Certos [!DNL vnc] os arquivos permitem colorir ou texturizar determinadas áreas das frentes do gabinete (normalmente usadas para estilos de gabinete laminados).
 
 Os materiais do gabinete só podem ser aplicados a objetos do gabinete.
 

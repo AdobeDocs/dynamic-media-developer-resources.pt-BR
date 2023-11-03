@@ -5,9 +5,9 @@ title: Log de acesso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ A pasta para a qual o [!DNL Platform Server] grava arquivos de log. Pode ser um 
 
 ## TC::maxDays - Número de Dias para Manter Arquivos de Log {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-O número de dias que os arquivos de log devem ser preservados. Novos arquivos de log são criados todos os dias à meia-noite. Nesse momento, o servidor excluirá todos os arquivos na pasta do arquivo de log com mais de um número especificado de dias, incluindo aqueles gravados pelo Servidor de imagens ou pelo Servidor de renderização. O padrão é 10.
+O número de dias que os arquivos de log devem ser preservados. Novos arquivos de log são criados todos os dias à meia-noite. No momento, o servidor exclui todos os arquivos na pasta do arquivo de log que tenham ultrapassado o número especificado de dias, incluindo aqueles gravados pelo Servidor de imagens ou pelo Servidor de renderização. O padrão é 10.
 
 ## TC::prefix - Nome do arquivo de log de acesso {#section-1003856323b844049632710a5a056aa7}
 

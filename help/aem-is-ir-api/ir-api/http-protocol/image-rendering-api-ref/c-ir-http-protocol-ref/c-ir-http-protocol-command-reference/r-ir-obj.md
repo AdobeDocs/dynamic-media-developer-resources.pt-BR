@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Selecione o objeto por nome. Seleciona o grupo de vinhetas especificado por nome
  </tr> 
 </table>
 
-Os subgrupos ou objetos individuais podem ser selecionados usando um caminho de grupo totalmente qualificado (ou seja, especificando o nome do grupo ou objeto de destino precedido por todos os grupos principais, separados por / (barras).
+Subgrupos ou objetos individuais podem ser selecionados usando um caminho de grupo totalmente qualificado (isto é, especificando o nome do grupo alvo ou objeto precedido por todos os grupos pai, separados por / (barras).
 
 Se nenhum grupo/objeto com o nome especificado for encontrado, a ação especificada em `attribute::OnObjFail` é tomada.
 

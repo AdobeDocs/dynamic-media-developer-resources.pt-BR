@@ -5,9 +5,9 @@ title: Serviço de catálogo de imagens
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c089ef35-47a1-4921-8a5e-1ca78f29794d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ Tempo em ms que o serviço de catálogo aguarda após um [!DNL catalog.ini] é a
 
 ## CS::catalog.refreshInterval - Frequência de verificação do arquivo de catálogo {#section-517fefc1d8784777a1026abec8630d58}
 
-Frequência na qual o serviço de catálogo verificará alterações nos catálogos de imagens. Valor inteiro em ms.
+Frequência na qual o serviço de catálogo verifica se há alterações nos catálogos de imagens. Valor inteiro em ms.

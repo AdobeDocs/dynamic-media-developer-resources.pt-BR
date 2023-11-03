@@ -5,9 +5,9 @@ title: Caminho
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f2d17309-c4d0-477f-a8d8-b40f05a1a60b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ String de texto. Necessário para registros de imagem e SVG, pode estar vazio pa
 
 Consulte a descrição do utilitário Conversor de imagens (IC) para obter uma lista completa dos formatos de arquivo de imagem suportados.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução PTIFF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIFF de qualquer formato de imagem suportado.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIFF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIFF de qualquer formato de imagem suportado.
 
 ## Padrão {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

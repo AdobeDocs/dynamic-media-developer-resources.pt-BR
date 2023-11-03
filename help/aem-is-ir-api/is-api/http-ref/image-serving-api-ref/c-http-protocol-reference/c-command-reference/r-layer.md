@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Camada. Não há suporte para referências de variável de substituição no `la
 * Se o mesmo nome for mapeado para uma única camada várias vezes (por exemplo: `layer=1,image&layer=1,image`), o escopo é definido como de costume, sem erros.
 * Há suporte para vários nomes para a mesma camada.
 
-   Qualquer nome pode ser usado para fazer referência à camada (por exemplo: `layer=1,image&layer=1,picture`).
+  Qualquer nome pode ser usado para fazer referência à camada (por exemplo: `layer=1,image&layer=1,picture`).
 * Se um nome referenciado nunca for mapeado para um número de camada (por exemplo: `layer=1,image&layer=picture`), ocorre um erro.
 * As variáveis de substituição não são suportadas em modificadores de camada (por exemplo: `layer=$image$`).
 
-   Isso se aplica a todas as permutações, não apenas aos nomes de camadas, mas aos modificadores de camadas em geral.
+  Isso se aplica a todas as permutações, não apenas aos nomes de camadas, mas aos modificadores de camadas em geral.
 
-* Todas as regras de mesclagem e substituição devem funcionar exatamente como quando a mesma camada é referenciada em várias fontes (solicitação, registros de catálogo pré ou pós-modificador, macros etc.).
+* Todas as regras de mesclagem e substituição devem funcionar exatamente como quando a mesma camada é referenciada em várias fontes (solicitação, registros de catálogo pré ou pós-modificador, macros e assim por diante).
 
 ## Exemplo {#section-cc40de6a0a754178aa752601539c815b}
 

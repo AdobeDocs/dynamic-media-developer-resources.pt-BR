@@ -5,9 +5,9 @@ title: objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Especificador de Objeto de Origem. Os objetos de perfil de imagem, SVG e ICC pod
 
 *`rootId`* identifica um catálogo de imagens. (Consulte [Catálogo de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes.) Se *`rootId`* for especificado no caminho do URL, esse catálogo se tornará o *catálogo principal* para esta solicitação. Caso contrário, o catálogo padrão será usado como o catálogo principal. Vários catálogos de imagens diferentes podem ser usados na mesma solicitação.
 
-Inicialmente, o servidor presume que *`rootId`* é omitido em `src=`, `mask=`, e `icc=` e tentará encontrar uma entrada de catálogo no catálogo principal. Efetivamente, o servidor tenta usar todo o *`object`* string como *`objId.`*
+Inicialmente, o servidor presume que *`rootId`* é omitido em `src=`, `mask=`, e `icc=` e tenta encontrar uma entrada de catálogo no catálogo principal. Efetivamente, o servidor tenta usar todo o *`object`* string como *`objId.`*
 
 Se uma entrada de catálogo for encontrada, ela será usada; caso contrário, o servidor tentará corresponder ao *`rootId`* de um catálogo de imagens. Se um catálogo for identificado, ele será pesquisado *`objId`*. Se uma entrada for encontrada, ela será usada.
 
@@ -59,7 +59,7 @@ Consulte *Gerenciamento de conteúdo* no *Guia de configuração do servidor* pa
 
 Consulte a descrição do utilitário IC (Conversor de imagens) para obter uma lista completa dos formatos de arquivo suportados.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução PTIF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIF a partir de qualquer formato de imagem suportado.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIF a partir de qualquer formato de imagem suportado.
 
 ## Exemplos {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

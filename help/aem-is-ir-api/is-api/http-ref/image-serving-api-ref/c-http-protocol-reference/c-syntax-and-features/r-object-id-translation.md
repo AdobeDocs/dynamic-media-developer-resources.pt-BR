@@ -5,7 +5,7 @@ title: Conversão da ID do objeto
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 O Servidor de imagens fornece um mecanismo para converter IDs de objeto externo em IDs de objeto (catálogo) específicas da localidade. O aplicativo principal é o de fornecer conteúdo específico de local e conteúdo compartilhado entre várias localidades, sem que o aplicativo cliente precise saber as IDs de objeto específicas da localidade.
 
-O aplicativo pode ser gravado usando apenas IDs de objeto global, e o Servidor de imagens substituirá automaticamente imagens específicas do local e outros conteúdos disponíveis.
+O aplicativo pode ser gravado usando apenas IDs de objeto global, e o Servidor de imagens substitui automaticamente imagens específicas da localidade e outros conteúdos disponíveis.
 
 A variável *`locale`* é especificado em solicitações do Servidor de imagens com o `locale=` comando.
 
@@ -48,7 +48,7 @@ Dado o exemplo acima, o servidor primeiro procura pela variável *`locale`* &quo
 
 ## Localidades desconhecidas {#section-b2f3c83f2dc845d69b5908107b775537}
 
-No exemplo acima, `attribute::LocaleMap` inclui um vazio *`locale`* que define a regra de conversão padrão, usada para `locale=` (ou seja, aqueles não listados explicitamente no mapa de tradução). Se este mapa de tradução foi aplicado à solicitação `/is/image/myCat/myImg?locale=ja`, resolveria para `myCat/myImg_E`, se existir, ou de outra forma `myCat/myImg`.
+No exemplo acima, `attribute::LocaleMap` inclui um vazio *`locale`* que define a regra de conversão padrão, usada para `locale=` valores (ou seja, aqueles não listados explicitamente no mapa de tradução). Se este mapa de tradução foi aplicado à solicitação `/is/image/myCat/myImg?locale=ja`, resolveria para `myCat/myImg_E`, se existir, ou de outra forma `myCat/myImg`.
 
 Se um mapa de tradução não especificar uma regra de tradução padrão, um erro será retornado para todas as solicitações com nomes desconhecidos `locale=` valores.
 

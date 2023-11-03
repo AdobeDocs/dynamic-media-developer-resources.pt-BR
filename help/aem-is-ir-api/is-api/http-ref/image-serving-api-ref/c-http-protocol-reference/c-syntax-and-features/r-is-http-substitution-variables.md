@@ -5,9 +5,9 @@ title: Variáveis de substituição
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ O nome da variável *`var`* não diferencia maiúsculas de minúsculas e pode co
 
 >[!NOTE]
 >
->*`value`* deve ser codificado em URL de passagem única para transmissão HTTP segura. A codificação dupla é necessária se *`value`* é retransmitido via HTTP. É o que acontece quando *`value`* é substituído em uma solicitação externa aninhada ou no atributo href de um SVG `<image>` elemento.
+>*`value`* deve ser codificado em URL de passagem única para transmissão HTTP segura. A codificação dupla é necessária se *`value`* O é retransmitido por meio de HTTP. É o que acontece quando *`value`* é substituído em uma solicitação externa aninhada ou no atributo href de um SVG `<image>` elemento.
 
-As referências variáveis consistem no nome da variável delimitado por &#39;$&#39; à esquerda e à direita ($*var*$). As referências podem ocorrer em qualquer lugar na porção do valor de qualquer comando IS (ou seja, entre o &#39;=&#39; após o nome do comando e o &#39;&amp;&#39; subsequente ou o fim da solicitação). Variáveis personalizadas não podem ser aplicadas ao `layer=` e `effect=` comandos. Várias variáveis são permitidas no mesmo valor de comando. O servidor substitui cada ocorrência de ` $ *`var`*$` com *`value`*.
+As referências variáveis consistem no nome da variável delimitado por &#39;$&#39; à esquerda e à direita ($*var*$). As referências podem ocorrer em qualquer lugar na porção do valor de qualquer comando IS (isto é, entre o &#39;=&#39; após o nome do comando e o &#39;&amp;&#39; subsequente ou o fim da solicitação). Variáveis personalizadas não podem ser aplicadas ao `layer=` e `effect=` comandos. Várias variáveis são permitidas no mesmo valor de comando. O servidor substitui cada ocorrência de ` $ *`var`*$` com *`value`*.
 
 As referências variáveis não podem ser aninhadas. Qualquer ocorrência de ` $ *`var`*$` no prazo de *`value`* não são substituídas.
 
@@ -81,7 +81,7 @@ Os valores de variáveis que devem ser substituídos em solicitações estrangei
 
 A variável *`object`* especificado no caminho da solicitação é atribuído à variável predefinida `*`$object`*`. &#39; ` $ *`objeto`*$`&quot;pode ser colocado em qualquer lugar na solicitação, no modelo referenciado pela solicitação ou em uma solicitação aninhada/incorporada onde esse objeto é permitido, incluindo o valor de `src=` e `mask=`e o caminho de uma solicitação aninhada/incorporada.
 
-Por exemplo, a solicitação a seguir reutilizará a imagem especificada no caminho como a origem de uma camada em uma solicitação aninhada:
+Por exemplo, a solicitação a seguir reutiliza a imagem especificada no caminho como a origem de uma camada em uma solicitação aninhada:
 
 `/is/image/a/b?…&layer=3&src=is{…&src=$object$}&…`
 
@@ -95,7 +95,7 @@ A variável de caminho predefinida geralmente é usada em conjunto com `template
 
 ## Padrão {#section-b02483d15529444586a2e9504805b155}
 
-Nenhum. Somente as variáveis que foram definidas são substituídas pelo servidor (exceto a variável de caminho predefinida $object, que sempre será substituída). Qualquer ocorrência de ` $ *`var`*$` permanecer literal se `*`var`*`não pode corresponder a uma definição de variável existente.
+Nenhum. Somente as variáveis que foram definidas são substituídas pelo servidor (exceto a variável de caminho predefinida $object, que é sempre substituída). Qualquer ocorrência de ` $ *`var`*$` permanecer literal se `*`var`*`não pode corresponder a uma definição de variável existente.
 
 ## Exemplos {#section-fba9393df6984247b7e30b3f93992e86}
 

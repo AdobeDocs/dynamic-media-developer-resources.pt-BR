@@ -5,9 +5,9 @@ title: Expiração
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62d2368b-ea56-4964-ab9c-07454e19540c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---

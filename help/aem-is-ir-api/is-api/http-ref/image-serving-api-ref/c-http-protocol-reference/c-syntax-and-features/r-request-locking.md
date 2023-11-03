@@ -5,9 +5,9 @@ title: Bloqueio de solicitação
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Para reduzir a oportunidade de adulteração de solicitações, é fornecido um simples recurso de bloqueio.
 
-Se attribute::RequestLock estiver definido, um valor de bloqueio deverá ser anexado à solicitação, na forma de `&xxxx`, sendo xxxx um valor hexadecimal de quatro dígitos. Esse valor hexadecimal é gerado usando um algoritmo de hash simples aplicado ao *modificadores* parte da solicitação (depois do caractere &quot;?&quot;) que separa o caminho do URL da variável *modificadores*). Isso deve ser feito depois que a solicitação é totalmente codificada em http, mas antes de ser ofuscada (opcionalmente). Depois de desofuscar a solicitação, o servidor usará o mesmo algoritmo de hash na cadeia de caracteres do modificador (excluindo os últimos 5 caracteres, que contêm o valor de bloqueio ). Se a chave gerada não corresponder ao bloqueio, a solicitação será rejeitada.
+Se attribute::RequestLock estiver definido, um valor de bloqueio deverá ser anexado à solicitação, na forma de `&xxxx`, sendo xxxx um valor hexadecimal de quatro dígitos. Esse valor hexadecimal é gerado usando um algoritmo de hash simples aplicado ao *modificadores* parte da solicitação (depois do caractere &quot;?&quot;) que separa o caminho do URL da variável *modificadores*). Isso deve ser feito depois que a solicitação é totalmente codificada em http, mas antes de ser ofuscada (opcionalmente). Depois de desofuscar a solicitação, o servidor usa o mesmo algoritmo de hash na string do modificador (excluindo os últimos 5 caracteres, que contêm o valor lock). Se a chave gerada não corresponder ao bloqueio, a solicitação será rejeitada.
 
 >[!IMPORTANT]
 >

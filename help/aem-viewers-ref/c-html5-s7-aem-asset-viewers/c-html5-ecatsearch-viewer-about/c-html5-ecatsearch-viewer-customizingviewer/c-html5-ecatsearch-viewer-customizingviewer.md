@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Veja a seguir a documentação de referência dos elementos da interface do usu�
 * [Exibição de favoritos](r-html5-ecatsearch-customize-favoritesview.md)
 * [Botão Primeira página](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Foco em destaque](r-html5-ecatsearch-customize-focushighlight.md)
-* [Botão de tela cheia](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [botão de tela cheia](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Efeito do ícone](r-html5-ecatsearch-customize-iconeffect.md)
 * [Pop-up do painel Informações](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Efeito do mapa de imagem](r-html5-ecatsearch-customize-imagemapeffect.md)
@@ -216,7 +216,7 @@ Veja a seguir a documentação de referência dos elementos da interface do usu�
 * [Miniaturas](r-html5-ecatsearch-customize-thumbnails.md)
 * [Botão Miniaturas](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Dicas de ferramenta](r-html5-ecatsearch-customize-tooltips.md)
-* [Compartilhamento twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Compartilhamento de twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Botão Exibir todos os favoritos](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Botão de Mais zoom](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Botão de menos zoom](r-html5-ecatsearch-customize-zoomoutbutton.md)

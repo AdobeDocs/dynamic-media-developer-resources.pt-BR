@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Tempo de vida do cache do cliente. Número de horas até a expiração. Usado pa
 
 O servidor calcula a data/hora de expiração dos dados de resposta NTTP adicionando esse valor à data/hora de transmissão.
 
-Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verificará seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação condicional GET (por exemplo, com o cabeçalho de solicitação HTTP If-Modified-Since ) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. O navegador simplesmente carregará o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
+Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verifica seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação condicional GET (por exemplo, com o cabeçalho de solicitação HTTP If-Modified-Since ) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. Em seguida, o navegador simplesmente carrega o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
 
-O servidor definirá o cabeçalho de resposta HTTP expires para a data/hora atual mais o menor dos valores vignette::Expiration e catalog::Expiration para a vinheta e todos os materiais envolvidos na operação de renderização.
+O servidor define o cabeçalho de resposta HTTP expires para a data/hora atual mais o menor dos valores vignette::Expiration e all catalog::Expiration para a vinheta e todos os materiais envolvidos na operação de renderização.
 
-A expiração é definida principalmente para respostas de dados de imagem. Determinados tipos de respostas sempre serão marcados para expiração imediata (ou marcados como não armazenáveis em cache), incluindo todas as respostas de erro ou respostas de propriedade.
+A expiração é definida principalmente para respostas de dados de imagem. Determinados tipos de respostas são sempre marcados para expiração imediata (ou marcados como não armazenáveis em cache), incluindo todas as respostas de erro ou respostas de propriedade.
 
 ## Propriedades {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 

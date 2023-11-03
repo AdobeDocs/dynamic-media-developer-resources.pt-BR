@@ -5,9 +5,9 @@ title: Geral
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Especifica o caminho raiz HTTP para permitir o acesso do Servidor de imagens ao 
 
 ## IS::RemoteUrlDefaultExpiration - TTL Padrão do Image Source Remoto {#section-e4c31228b459492cacd2f482d9575f71}
 
-O TTL para imagens em cache obtidas via HTTP de uma origem remota usando o `src={…}` construir. Usado somente quando o servidor remoto não inclui um cabeçalho de Expiração na resposta HTTP. Valor inteiro em segundos.
+O TTL para imagens em cache obtidas por meio de HTTP de uma fonte remota usando o `src={…}` construir. Usado somente quando o servidor remoto não inclui um cabeçalho de Expiração na resposta HTTP. Valor inteiro em segundos.
 
 ## IS::RemoteUrlTimeout - Tempo Limite do Image Source Remoto {#section-437646c479cc4bea81dae42100a3c50a}
 
-O tempo que o Servidor de imagens aguardará até que um servidor remoto entregue o arquivo de imagem solicitado via HTTP antes de retornar um erro. Valor inteiro em segundos.
+O tempo que o Servidor de imagens aguarda um servidor remoto entregar o arquivo de imagem solicitado por meio de HTTP antes de retornar um erro. Valor inteiro em segundos.
 
 ## PS::allowDefaultCatalogRequests - Ativar/Desativar solicitações do catálogo padrão {#section-484e442a115a49b4ac269d1718b351e1}
 

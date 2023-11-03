@@ -5,9 +5,9 @@ title: Caminho *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ String de texto. Necessário para materiais de textura e decalque, opcional para
 
 A Renderização de imagem é compatível com os mesmos formatos de imagem de origem que o Dynamic Media Image Serving.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes terão melhor desempenho ao usar o formato de multiresolução PTIFF (Dynamic Media pyramid TIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIFF (Dynamic Media pyramid TIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
 
 Consulte a descrição do utilitário IC na documentação do Servidor de imagens para obter uma lista completa dos formatos de arquivo suportados.
 

@@ -1,20 +1,20 @@
 ---
-title: Botão de tela cheia
-description: Faz o visualizador entrar ou sair do modo de tela cheia quando selecionado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa. Você pode dimensionar, aplicar capa e posicionar esse botão usando CSS.
+title: botão de tela cheia
+description: Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa. Você pode dimensionar, aplicar capa e posicionar esse botão usando CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
-# Botão de tela cheia{#full-screen-button}
+# botão de tela cheia{#full-screen-button}
 
-Faz o visualizador entrar ou sair do modo de tela cheia quando selecionado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa. Você pode dimensionar, aplicar capa e posicionar esse botão usando CSS.
+Faz com que o visualizador entre ou saia do modo de tela cheia quando selecionado pelo usuário. Esse botão não será exibido se o visualizador funcionar no modo pop-up e o sistema não for compatível com tela cheia nativa. Você pode dimensionar, aplicar capa e posicionar esse botão usando CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

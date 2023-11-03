@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Conversão de formato de navegador. Especifica se a funcionalidade de conversão
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ligado|desligado </span> </p> </td> 
-  <td class="stentry"> <p>Especifica se a funcionalidade de conversão do formato do navegador - conversão de imagens JPEG ou PNG em formatos de arquivo específicos do navegador menores - é verdadeira ( <span class="codeph"> em </span>) ou falso ( <span class="codeph"> desligado </span> para nenhuma conversão de formato específica do navegador). </p> </td> 
+  <td class="stentry"> <p>Especifica se a funcionalidade de conversão de formato do navegador - conversão de imagens JPEG ou PNG em formatos de arquivo específicos do navegador menores - é verdadeira ( <span class="codeph"> em </span>) ou falso ( <span class="codeph"> desligado </span> para nenhuma conversão de formato específica do navegador). </p> </td> 
  </tr> 
 </table>
 

@@ -5,9 +5,9 @@ title: Dados de origem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Todos `*`rootPath`*` os segmentos podem ser segmentos de caminho vazios, relativ
 
 `*`catalogPath`*` é um caminho/nome de arquivo absoluto ou relativo. `*`requestPath`*` deve ser um caminho/nome de arquivo relativo.
 
-`Multiple IS::RootPath` Os valores de podem ser definidos em ImageServerRegistry.xml (ou por meio da interface de administrador). Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. O Servidor de imagens tentará caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.
+`Multiple IS::RootPath` Os valores de podem ser definidos em ImageServerRegistry.xml (ou por meio da interface de administrador). Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. O Servidor de imagens tenta caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.
 
 Novos arquivos de dados de qualquer tipo podem ser adicionados a qualquer momento sem interromper o servidor.

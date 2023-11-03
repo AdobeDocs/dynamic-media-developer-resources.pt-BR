@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A barra de controle principal é a área retangular nos sistemas de desktop e tablets que contém todos os controles da interface do usuário (exceto botões de Página grande) disponíveis para o visualizador do eCatalog Search.
 
-Nos telefones celulares, ele ainda mantém os botões Miniaturas, Índice, Download, Imprimir, Favoritos, Compartilhamento em redes sociais, Tela cheia e Fechar. No entanto, os botões Primeira e Última página e o Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas desktop e celulares, e movida para a parte inferior da área do visualizador em tablets. Leva sempre toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical no CSS, em relação ao contêiner do visualizador.
+Nos telefones celulares, ele ainda mantém as miniaturas, o índice, os botões Download, Imprimir, Favoritos, Compartilhamento em redes sociais, tela cheia e Fechar. No entanto, os botões Primeira e Última página e o Indicador de página são removidos da barra de controle principal e adicionados à barra de controle secundária. Por padrão, a barra de controle principal é exibida na parte superior da área do visualizador em sistemas desktop e celulares, e movida para a parte inferior da área do visualizador em tablets. Leva sempre toda a largura disponível do visualizador. É possível alterar sua cor, altura e posição vertical no CSS, em relação ao contêiner do visualizador.
 
 A aparência da barra de controle principal é controlada com o seguinte seletor de classe CSS:
 

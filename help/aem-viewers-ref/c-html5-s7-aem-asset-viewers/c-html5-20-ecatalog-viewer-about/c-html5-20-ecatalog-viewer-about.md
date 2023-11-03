@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2158'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Visualizador tipo 507.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Esse visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opcionais e ferramentas de compartilhamento em redes sociais. Ele tem ferramentas de zoom, ferramentas de navegação do catálogo, suporte a tela cheia, miniaturas e um botão de fechamento opcional. O visualizador também oferece suporte a ferramentas de compartilhamento em redes sociais, Impressão, Download e Favoritos. Ele foi projetado para funcionar em desktops e dispositivos móveis.
+Esse visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opcionais e ferramentas de compartilhamento em redes sociais. Ele tem ferramentas de zoom, ferramentas de navegação no catálogo, suporte para tela cheia, miniaturas e um botão de fechamento opcional. O visualizador também oferece suporte a ferramentas de compartilhamento em redes sociais, Impressão, Download e Favoritos. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 

@@ -5,7 +5,7 @@ title: getFolders
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Retorna todas as pastas e subpastas, iniciando no caminho da pasta. A resposta g
 
 ## Finalidade das pastas {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Uma pasta permite organizar subpastas e ativos. Todos os nomes de pastas e ativos devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causarão um conflito de namespace, mesmo se estiverem em hierarquias de pastas diferentes.
+Uma pasta permite organizar subpastas e ativos. Todos os nomes de pastas e ativos devem ser exclusivos. Pastas e ativos que compartilham o mesmo nome causam um conflito de namespace, mesmo se estiverem em hierarquias de pastas diferentes.
 Sintaxe
 
 ## Tipos de usuário autorizados {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}

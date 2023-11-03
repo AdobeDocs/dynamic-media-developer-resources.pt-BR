@@ -5,9 +5,9 @@ title: existe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 810453f0-7b35-4eed-8b23-6b59a8300c50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A imagem já existe.
 
 *`reqId`* identificador de solicitação exclusivo
 
-Retorna uma única propriedade chamada `catalogRecord.exists`. O valor da propriedade é definido como &quot;1&quot; se a entrada do catálogo especificado existir na imagem ou no catálogo padrão, caso contrário, é definido como &quot;0&quot;. `req=exists` solicitações contra a `/is/content` O contexto indicará a presença ou ausência de um registro especificado no catálogo de conteúdo estático.
+Retorna uma única propriedade chamada `catalogRecord.exists`. O valor da propriedade é definido como &quot;1&quot; se a entrada do catálogo especificado existir na imagem ou no catálogo padrão, caso contrário, é definido como &quot;0&quot;. `req=exists` solicitações contra a `/is/content` context indica a presença ou a ausência de um registro especificado no catálogo de conteúdo estático.
 
 Outros comandos na cadeia de caracteres de solicitação são ignorados. A resposta HTTP pode ser armazenada em cache com o TTL com base em `attribute::NonImgExpiration`.
 

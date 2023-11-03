@@ -5,9 +5,9 @@ title: Solicitações de conjunto de mídia
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -96,11 +96,11 @@ Quando um `req=set` for recebida, o tipo de resposta a ser gerada será determin
    * Assumir vídeo baseado em arquivo se a extensão de arquivo estiver no seguinte conjunto: mp3, mp4, flv, f4v, swf, xml
    * Assumir imagem baseada em arquivo de outra forma
 
-Em todos os casos, a resposta xml resultante estará em conformidade com o documento XML especificado com o nó raiz definido correspondente ao tipo detectado.
+Em todos os casos, a resposta xml resultante está em conformidade com o documento XML especificado com o nó raiz definido correspondente ao tipo detectado.
 
 ## Detecção de tipo de conjunto interno {#section-8f46490e467247e69ce284704def06f3}
 
-Quando o conjunto externo for detectado como um conjunto de mídia do tipo, a resposta conterá um conjunto de itens do conjunto de mídia correspondentes a cada entrada do conjunto de mídia em `catalog::ImageSet`. Se o parâmetro de tipo opcional for especificado para uma determinada entrada do conjunto de mídia, ele será mapeado para um tipo de saída de acordo com a tabela a seguir:
+Quando o conjunto externo é detectado como um conjunto de mídias do tipo, a resposta contém um conjunto de itens do conjunto de mídias correspondentes a cada entrada do conjunto de mídias no `catalog::ImageSet`. Se o parâmetro de tipo opcional for especificado para uma determinada entrada do conjunto de mídia, ele será mapeado para um tipo de saída de acordo com a tabela a seguir:
 
 | Tipo de entrada | Tipo de saída |
 |---|---|

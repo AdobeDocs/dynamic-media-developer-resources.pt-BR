@@ -5,9 +5,9 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 
-A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens e aplicados antes de qualquer comando fornecido pelo usuário no URL. A variável `urlPostApplyModifier` O parâmetro especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário.
+A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens e aplicados antes de qualquer comando fornecido pelo usuário no URL. A variável `urlPostApplyModifier` O parâmetro especifica comandos de protocolo aplicados após qualquer comando de URL, que substitui qualquer configuração conflitante fornecida pelo usuário.
 
 ## Tipos de usuário autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -37,7 +37,7 @@ A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Se
 | name | `xsd:string` | Sim | Nome do modelo. |
 | type | `xsd:string` | Sim | Tipo de modelo. |
 | urlModifier | `xsd:string` | Sim | Especifica os comandos do Servidor de imagens armazenados no catálogo IS que são aplicados antes de qualquer comando fornecido pelo usuário no URL. |
-| urlPostApplyModifier | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substituirão quaisquer configurações conflitantes fornecidas pelo usuário. |
+| urlPostApplyModifier | `xsd:string` | Não | Especifica comandos de protocolo aplicados após qualquer comando de URL, que substitui qualquer configuração conflitante fornecida pelo usuário. |
 
 **Saída (createTemplateParam)**
 

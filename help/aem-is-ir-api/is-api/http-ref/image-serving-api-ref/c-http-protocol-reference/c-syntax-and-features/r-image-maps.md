@@ -5,9 +5,9 @@ title: Mapas de imagem
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 O IS fornece mecanismos para simplificar o uso de mapas de imagem de HTML. Os visualizadores baseados em JAVA e em Flash no IS também incluem suporte limitado para mapas de imagem.
 
-Os mapas de imagem de origem são fornecidos para a IS via `catalog::Map` ou com o `map=` e os mapas processados são recuperados usando o comando `req=map` comando.
+Os mapas de imagem de origem são fornecidos à IS por meio de `catalog::Map` ou com o `map=` e os mapas processados são recuperados usando o comando `req=map` comando.
 
-Um mapa de imagem consiste em um ou mais elementos de HTML AREA, delimitados corretamente com &#39;&lt;&#39; e &#39;>&#39;. Se fornecido por catálogo::Map, todos os valores de coordenadas de pixel são considerados como estando na resolução da imagem original e relativos ao canto superior esquerdo da imagem de origem (não modificada). Quando fornecido via `map=` os valores de coordenadas são considerados coordenadas de camada, relativas ao canto superior esquerdo da camada (após `rotate=` e `extend=`).
+Um mapa de imagem consiste em um ou mais elementos de HTML AREA, delimitados corretamente com &#39;&lt;&#39; e &#39;>&#39;. Se fornecido por meio de catalog::Map, todos os valores de coordenadas de pixel são considerados como estando na resolução da imagem original e relativos ao canto superior esquerdo da imagem de origem (não modificada). Quando fornecido por meio de um `map=` os valores de coordenadas são considerados coordenadas de camada, relativas ao canto superior esquerdo da camada (após `rotate=` e `extend=`).
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Um mapa de imagem consiste em um ou mais elementos de HTML AREA, delimitados cor
 
 IS gera um mapa de imagem composta a partir dos mapas de imagem de origem de cada camada constituinte aplicando as transformações espaciais (como dimensionamento e rotação) às coordenadas do mapa e, em seguida, montando os mapas de camada processados na ordem z apropriada (da frente para trás) e com o posicionamento apropriado.
 
-Os seguintes comandos são considerados para o processamento do mapa de imagem quando fornecidos em conjunto com o `req=map` (diretamente na solicitação, por meio de modelos de catálogo ou em `catalog::Modifier` strings):
+Os seguintes comandos são considerados para o processamento do mapa de imagem quando fornecidos em conjunto com o `req=map` diretamente na solicitação, por meio de modelos de catálogo ou em `catalog::Modifier` strings):
 
 * `align=`
 * `wid=`
@@ -51,7 +51,7 @@ A variável `SHAPE` e `COORDS` atributos de um `AREA` pode ser alterado durante 
 
 Qualquer `AREA` os elementos que ficam vazios durante o processamento são totalmente removidos. Se um mapa estiver associado a `layer=comp` ela é colocada atrás de todos os outros mapas. Os dados são retornados em forma de texto como um ou mais HTML `AREA` elementos. Uma cadeia de caracteres de resposta vazia indica que não existe mapa de imagem para os objetos especificados.
 
-A transparência de camada não é considerada para o processamento do mapa. Uma camada totalmente transparente ainda pode ter um mapa de imagem associado a ela. O mapa de uma camada parcialmente transparente não será recortado para as regiões transparentes.
+A transparência de camada não é considerada para o processamento do mapa. Uma camada totalmente transparente ainda pode ter um mapa de imagem associado a ela. O mapa de uma camada parcialmente transparente não é recortado para as regiões transparentes.
 
 ## Consulte também {#see-also}
 

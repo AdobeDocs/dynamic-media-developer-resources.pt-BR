@@ -5,9 +5,9 @@ title: Catálogos de imagens
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Os catálogos de imagens oferecem os seguintes recursos:
 
 * Permite a associação persistente de imagens com determinados metadados e comandos modificadores.
 
-   As entradas em catálogos de imagem são referenciadas usando uma notação de atalho `*`rootId/objId`*`, onde `*`rootId`*` identifica o catálogo de imagens e `*`objId`*` identifica um registro de dados no catálogo.
+  As entradas em catálogos de imagem são referenciadas usando uma notação de atalho `*`rootId/objId`*`, onde `*`rootId`*` identifica o catálogo de imagens e `*`objId`*` identifica um registro de dados no catálogo.
 * Forneça padrões para determinados atributos de solicitação, como a qualidade do JPEG ou se uma marca d&#39;água deve ser aplicada.
 * Gerenciar fontes, perfis ICC, definições de macro e modelos de solicitação
 
