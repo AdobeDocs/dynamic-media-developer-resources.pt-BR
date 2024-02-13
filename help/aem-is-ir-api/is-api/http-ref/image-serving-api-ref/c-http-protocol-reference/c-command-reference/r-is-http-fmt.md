@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Formato de imagem de resposta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | alfa-da-web | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Descrição |
 |---|---|
@@ -28,6 +28,7 @@ Formato de imagem de resposta.
 | `f4m` | Formato de manifesto do Servidor de Streaming do Flash. |
 | `gif-alpha` | GIF com 2 a 255 cores, além de transparência de cores-chave. |
 | `gif` | GIF com 2 a 256 cores. |
+| `heic` | HEIC sem perdas. Esse formato é baixado por padrão do navegador se não for compatível. |
 | `jpeg` | JPEG com perda. |
 | `jpeg2000-alpha` | JPEG 2000 com canal alfa sem perdas e sem perdas. |
 | `jpeg2000` | JPEG 2000 com perdas e sem perdas. |
@@ -57,7 +58,7 @@ Formato de imagem de resposta.
 | `gray` | Retorna dados de imagem em tons de cinza. |
 | `rgb` | Retorna dados da imagem de RGB. |
 
-| *`compression`* - nenhuma | lzw | zip | jpeg | com perdas | sem perda |
+| *`compression`* - jpeg | com perdas | sem perda | lzw | nenhum | zip |
 | *`compression`* | Descrição |
 |---|---|
 | `jpeg` | compactação JPEG (com perda). |
