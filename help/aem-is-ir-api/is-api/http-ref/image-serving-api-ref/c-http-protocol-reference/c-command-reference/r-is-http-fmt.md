@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
+source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -93,18 +93,60 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
  </thead>
  <tbody> 
   <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rgb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
+   <td> <p>Não </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compactação </span> </span> ( <span class="codeph"> com perdas </span>, <span class="codeph"> sem perda </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perda </span>. </p> <p>Como não há conceito de redução de resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>) o segundo valor ( <span class="codeph"> 1 </span>) é ignorado. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> eps </p> </td> 
+   <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Sim </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
+   <td colname="col2"> <p>rgb, cinza </p> <p>Os dados são convertidos em paleta após a conversão para cinza ou rgb. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Não </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> quantize= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> heic </p> </td> 
+   <td colname="col2"> <p>rgb </p> <p> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/heic&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Não </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
+   <td> <p>rgb, cinza </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p>Não </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compactação </span> </span> ( <span class="codeph"> com perdas </span>, <span class="codeph"> sem perda </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perda </span>. </p> <p>Como não há conceito de redução de resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>) o segundo valor ( <span class="codeph"> 1 </span>) é ignorado. </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>A variável <span class="codeph"> pscan= </span> se aplica somente ao formato pjpeg. </p> </td> 
-  </tr> 
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"> <p> png, png-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, cinza </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
+   <td> <p>rgb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p>Não </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compactação </span> </span> ( <span class="codeph"> com perdas </span>, <span class="codeph"> sem perda </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perda </span>. </p> <p>Como não há conceito de redução de resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>) o segundo valor ( <span class="codeph"> 1 </span>) é ignorado. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> pdf </p> </td> 
+   <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <p> </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorado, a menos que <span class="codeph"> <span class="varname"> compactação </span> </span> está definida como <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -114,6 +156,20 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
+   <td colname="col1"> <p> png, png-alpha </p> </td> 
+   <td colname="col2"> <p>rgb, cinza </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Sim </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
+   <td colname="col2"> <p>rgb, cinza </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Não </p> <p> <p>Observação: o Flash Player Adobe ignora perfis ICC incorporados. </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
@@ -121,60 +177,11 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>somente 'tiff'; 'tiff-alpha' não é compatível com a compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorado, a menos que <span class="varname"> compactação </span> está definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
-   <td colname="col2"> <p>rgb, cinza </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Não </p> <p> <p>Observação: o Flash Player Adobe ignora perfis ICC incorporados. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> pdf </p> </td> 
-   <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> é ignorado, a menos que <span class="codeph"> <span class="varname"> compactação </span> </span> está definida como <span class="codeph"> jpeg </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> eps </p> </td> 
-   <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, cinza </p> <p>Os dados são convertidos em paleta após a conversão para cinza ou rgb. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Não </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> quantize= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Não </p> </td> 
    <td> <p> <span class="codeph"> <span class="varname"> compactação </span> </span> ( <span class="codeph"> com perdas </span>, <span class="codeph"> sem perda </span>) </p> <p> <span class="codeph"> qlt= </span> é ignorado para <span class="codeph"> sem perda </span>. </p> <p>Como não há conceito de redução de resolução de crominância com o formato WebP, se você usar um segundo valor com <span class="codeph"> qlt </span> (por exemplo, <span class="codeph"> qlt=80,1 </span>) o segundo valor ( <span class="codeph"> 1 </span>) é ignorado. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
-   <td> <p>rgb, cinza </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
-   <td> <p>Não </p> </td> 
-   <td> <p>O mesmo que acima. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpegxr, jpegxr-alpha </p> </td> 
-   <td> <p>rgb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
-   <td> <p>Não </p> </td> 
-   <td> <p>O mesmo que acima. </p> </td> 
-  </tr>
-  <tr valign="top"> 
-   <td> <p> avif, avif-alpha </p> </td> 
-   <td> <p>rgb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
-   <td> <p>Não </p> </td> 
-   <td> <p>O mesmo que acima. </p> </td> 
   </tr> 
  </tbody> 
 </table>
