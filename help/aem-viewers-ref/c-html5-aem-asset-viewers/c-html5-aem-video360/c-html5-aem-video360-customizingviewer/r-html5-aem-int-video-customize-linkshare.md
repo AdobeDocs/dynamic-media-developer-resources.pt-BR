@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização
 }
 ```
 
-A área principal da caixa de diálogo (entre o cabeçalho e o rodapé) contém conteúdo da caixa de diálogo. Em todos os casos, o componente gerencia a largura dessa área; não é possível defini-la no CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
+A área principal da caixa de diálogo, entre o cabeçalho e o rodapé, contém conteúdo da caixa de diálogo. Em todos os casos, o componente gerencia a largura dessa área; não é possível defini-la no CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea

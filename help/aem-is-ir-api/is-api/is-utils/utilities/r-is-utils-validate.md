@@ -1,20 +1,20 @@
 ---
-description: Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Servidor de imagens.
+description: Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e que o Servidor de imagens possa lê-los sem dificuldade.
 solution: Experience Manager
 title: validar
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # validar{#validate}
 
-Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos sem dificuldade pelo Servidor de imagens.
+Utilitário de validação de imagem. Esse utilitário de linha de comando verifica os arquivos de imagem para garantir que eles sejam válidos e possam ser lidos pelo Servidor de imagens sem dificuldade.
 
 Todos os arquivos de imagem não PTIFF devem passar pela validação antes que o arquivo seja disponibilizado para o Servidor de imagens como uma imagem de origem. Imagens PTIFF devem ser validadas após operações de cópia potencialmente não confiáveis.
 
@@ -54,7 +54,7 @@ Todos os arquivos de imagem não PTIFF devem passar pela validação antes que o
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>Verifica a validade do perfil de cores incorporado. Por padrão, o corpo do perfil não é marcado. </p> </td> 
+  <td class="stentry"> <p>Verifica a validade do perfil de cores incorporado. Por padrão, o perfil do corpo não está marcado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 

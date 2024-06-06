@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
@@ -37,15 +37,15 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Papel de parede de um quarto de gota. </p> </td> 
+  <td class="stentry"> <p>Um quarto de parede pendurado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Papel de parede de terceira gota. </p> </td> 
+  <td class="stentry"> <p>Papel de parede pendurado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Meio-drop papel de parede pendurar. </p> </td> 
+  <td class="stentry"> <p>Papel de parede meia-gota pendurado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 

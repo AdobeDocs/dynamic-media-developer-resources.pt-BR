@@ -5,9 +5,9 @@ title: Sobre esta versão
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Esta versão (Servidor de imagens 6.6.1 e Renderização de imagem 6.6.1) substi
 ## Problemas conhecidos e alterações de comportamento {#section-9dbc05206187477f926a78e8108a34e1}
 
 * O uso do caractere de ponto de interrogação nas IDs de ativos não é mais suportado, mesmo que o caractere esteja codificado no URL.
-* Banner dinâmico `/xfl/flash/` as solicitações do não são mais suportadas e agora retornam um código de erro http 404.
+* Banner dinâmico `/xfl/flash/` As solicitações do não são mais suportadas e agora retornam um código de erro HTTP 404.
 * W2P `/is/agm/` As solicitações do não são mais compatíveis.
 * Algumas mensagens de erro não são mais renderizadas para o navegador. Dessa forma, você precisa revisar o log de rastreamento para depurar.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2640'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ Exemplo - Para configurar um rodapé de caixa de diálogo com um botão Cancelar
 }
 ```
 
-A área de diálogo principal (entre o cabeçalho e o rodapé) contém conteúdo de diálogo rolável e painel de rolagem à direita. Em todos os casos, o componente gerencia a largura dessa área. Não é possível defini-la no CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
+A área de diálogo principal, entre o cabeçalho e o rodapé, contém conteúdo de diálogo rolável e painel de rolagem à direita. Em todos os casos, o componente gerencia a largura dessa área. Não é possível defini-la no CSS. A área de diálogo principal é controlada com o seguinte seletor de classe CSS:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogviewarea

@@ -5,9 +5,9 @@ title: Repetir
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '128'
 ht-degree: 15%
 
 ---
@@ -41,15 +41,15 @@ Os seguintes valores são permitidos para materiais de textura repetíveis:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Papel de parede de um quarto de gota. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Um quarto de parede pendurado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Papel de parede de terceira gota. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papel de parede pendurado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Meio-drop papel de parede pendurar. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papel de parede meia-gota pendurado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
@@ -57,7 +57,7 @@ Os seguintes valores são permitidos para materiais de textura repetíveis:
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Invertendo papel de parede pendurado. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Revertendo papel de parede pendurado. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
