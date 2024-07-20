@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Expiração{#expiration}
 
-Tempo de vida padrão do cache do cliente. Fornece um intervalo de expiração padrão caso um determinado registro de catálogo não contenha um `catalog::Expiration` ou `vignette::Expiration` valor. Ou, se um arquivo de vinheta ou de material for acessado diretamente, não por meio de um registro de catálogo.
+Tempo de vida padrão do cache do cliente. Fornece um intervalo de expiração padrão caso um determinado registro de catálogo não contenha um valor de `catalog::Expiration` ou `vignette::Expiration` válido. Ou, se um arquivo de vinheta ou de material for acessado diretamente, não por meio de um registro de catálogo.
 
 ## Propriedades {#section-8e2bade105ec4905ae5c4911f500279f}
 
-Número real, `0` ou superior. Número de horas até a expiração desde que os dados de resposta foram gerados. Defina como `0` para sempre expirar a imagem de resposta imediatamente, o que desativa efetivamente o cache do cliente. Defina como `-1` para marcar como *nunca expira*.
+Número real, `0` ou maior. Número de horas até a expiração desde que os dados de resposta foram gerados. Defina como `0` para sempre expirar a imagem de resposta imediatamente, o que desabilita efetivamente o cache do cliente. Defina como `-1` para marcar como *nunca expirará*.
 
 ## Padrão {#section-18cfce46edb441bfae7dd9d3e0217ba9}
 

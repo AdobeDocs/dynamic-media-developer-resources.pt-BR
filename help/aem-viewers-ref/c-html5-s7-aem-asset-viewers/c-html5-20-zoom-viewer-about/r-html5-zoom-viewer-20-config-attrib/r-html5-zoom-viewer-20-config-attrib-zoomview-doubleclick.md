@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de clique duplo/toque para ações de zoom. Configuração para <span class="codeph"> nenhum </span> desabilita o zoom de clique duplo/toque. Se definida como <span class="codeph"> zoom </span> clicar na imagem dá zoom em uma etapa de zoom; CTRL+Clique dá zoom em uma etapa de zoom. Configuração para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível inicial. Para <span class="codeph"> zoomReset </span>, reset será aplicada se o fator de zoom atual estiver no limite especificado ou ultrapassá-lo, caso contrário, o zoom será aplicado. </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de clique duplo/toque para ações de zoom. Configurar como <span class="codeph"> nenhum </span> desabilita o zoom de clique duplo/toque. Se estiver definido como <span class="codeph">, o zoom </span> ao clicar na imagem dá zoom de uma só vez; CTRL+Clique dá zoom de uma só vez. Configurar como <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina o zoom para o nível inicial. Para <span class="codeph"> zoomReset </span>, a redefinição é aplicada se o fator de zoom atual estiver no limite especificado ou além dele, caso contrário o zoom é aplicado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Opcional.
 
 ## Padrão {#section-71fb773f814649b2885aefee68073641}
 
-`reset` - Em computadores de secretária; `zoomReset` em dispositivos sensíveis ao toque.
+`reset` - Em computadores desktop; `zoomReset` em dispositivos de toque.
 
 ## Exemplo {#section-bce98c31f08a4a0ab262fab7f95ba020}
 

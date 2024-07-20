@@ -26,7 +26,7 @@ Incorporar metadados de XMP. Especifica se os metadados de XMP devem ser incluí
 
 Solicitar atributo. Ignorado se a imagem de origem não contiver dados de XMP. Somente dados de XMP da imagem de origem de `layer=0` são processados. Dados de XMP de outras imagens de camada são ignorados.
 
-Ignorado se o formato de imagem de saída não suportar a incorporação do XMP. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação do XMP.
+Ignorado se o formato de imagem de saída não suportar a incorporação do XMP. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação de XMP.
 
 ## Padrão {#section-aedbedd04d664ba184b2cfe35644b960}
 

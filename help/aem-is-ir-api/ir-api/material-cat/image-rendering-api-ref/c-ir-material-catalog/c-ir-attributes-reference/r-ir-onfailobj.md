@@ -23,7 +23,7 @@ Enum.
 <table id="simpletable_538B76AB784D4DEE9B8021A6BDCE06AB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>Herdar de <span class="codeph"> default::OnFailObj </span>. </p> </td> 
+  <td class="stentry"> <p>Herdar de <span class="codeph"> padrão::OnFailObj </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 

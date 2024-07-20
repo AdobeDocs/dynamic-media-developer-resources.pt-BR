@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -16,33 +16,33 @@ ht-degree: 0%
 
 Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenciar imagens existentes com a biblioteca, conclua as etapas a seguir.
 
-**Para usar a biblioteca de imagens responsivas**
+**Para usar a Biblioteca de imagens responsiva**
 
-1. No Dynamic Media Classic, [criar uma predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a Biblioteca de imagens responsivas com predefinições.
+1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
 
-   Ao definir as Predefinições de imagem usadas com a Biblioteca de imagens responsiva, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=`ou `scl=`. Não especifique campos de tamanho na Predefinição de imagem. Em vez disso, deixe-os como valores em branco.
+   Ao definir as Predefinições de imagem usadas com a Biblioteca de imagens responsiva, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=` ou `scl=`. Não especifique campos de tamanho na Predefinição de imagem. Em vez disso, deixe-os como valores em branco.
 1. Adicione o arquivo JavaScript da biblioteca à página da Web.
 
-   Antes de usar a API da biblioteca, inclua `responsive_image.js`. Esse arquivo JavaScript está localizado no `libs/` subpasta da implantação padrão do IS-Viewers:
+   Antes de poder usar a API da biblioteca, certifique-se de incluir `responsive_image.js`. Esse arquivo do JavaScript está localizado na subpasta `libs/` da sua implantação padrão do IS-Viewers:
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. Configurar imagens existentes.
 
-   A biblioteca lê determinados atributos de configuração de uma instância de imagem com a qual está trabalhando. Definir atributos antes da variável `s7responsiveImage` A função da API é chamada para essa imagem.
+   A biblioteca lê determinados atributos de configuração de uma instância de imagem com a qual está trabalhando. Defina os atributos antes que a função da API `s7responsiveImage` seja chamada para essa imagem.
 
-   Também é recomendável colocar o URL da imagem existente na tag `data-src` atributo. Em seguida, configure o existente `src` para ter uma imagem de GIF 1x1 codificada como URI de dados. Ao fazer isso, o reduz o número de solicitações HTTP enviadas pela página da Web no momento do carregamento. Observe, no entanto, que se a SEO (otimização do mecanismo de pesquisa) for necessária, é melhor configurar um `title` atributo na instância da imagem.
+   Também é recomendável colocar a URL da imagem existente no atributo `data-src`. Em seguida, configure o atributo `src` existente para ter uma imagem de GIF 1x1 codificada como URI de Dados. Ao fazer isso, o reduz o número de solicitações HTTP enviadas pela página da Web no momento do carregamento. Observe, no entanto, que se a SEO (otimização do mecanismo de pesquisa) for necessária, é melhor configurar um atributo `title` na instância da imagem.
 
-   Veja a seguir um exemplo de definição `data-breakpoints` atributo para a imagem e usando um GIF 1x1 codificado como URI de dados:
+   Este é um exemplo de definição do atributo `data-breakpoints` para a imagem e uso de um GIF 1x1 codificado como URI de Dados:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. Chame o `s7responsiveImage` Função da API para cada instância de imagem gerenciada pela biblioteca.
+1. Chame a função de API `s7responsiveImage` para cada instância de imagem gerenciada pela biblioteca.
 
-   Chame o `s7responsiveImage` Função da API para cada instância de imagem gerenciada pela biblioteca. Após essa chamada, a biblioteca substituirá a imagem original pela imagem baixada do Servidor de imagens de acordo com o tamanho do tempo de execução do `IMG` elemento no layout da página da Web e a densidade da tela do dispositivo.
+   Chame a função de API `s7responsiveImage` para cada instância de imagem gerenciada pela biblioteca. Após essa chamada, a biblioteca substituirá a imagem original pela imagem baixada do Servidor de imagens, de acordo com o tamanho do tempo de execução do elemento `IMG` no layout da página da Web e a densidade da tela do dispositivo.
 
-   O código a seguir é um exemplo de chamada `s7responsiveImage` função da API em uma imagem, supondo que `responsiveImage` é uma ID dessa imagem:
+   O código a seguir é um exemplo de chamada à função de API `s7responsiveImage` em uma imagem, supondo que `responsiveImage` seja uma ID dessa imagem:
 
    ```
    <script type="text/javascript"> 
@@ -83,14 +83,14 @@ O código a seguir é um exemplo completo de uma página da Web trivial que tem 
 </html>
 ```
 
-**Uso do Corte inteligente**
+**Usando o Corte Inteligente**
 
 Há dois modos de Corte inteligente disponíveis no AEM 6.4 e Dynamic Media Viewers 5.9:
 
-* **Manual** - pontos de interrupção definidos pelo usuário e comandos correspondentes do Serviço de imagens são definidos em um atributo no elemento de imagem.
-* **Corte inteligente** - as representações de corte inteligente calculadas são recuperadas automaticamente do servidor de entrega. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.
+* **Manual** - os pontos de interrupção definidos pelo usuário e os comandos de Serviço de Imagem correspondentes são definidos em um atributo no elemento de imagem.
+* **Recorte inteligente** - as representações de recorte inteligente computadas são recuperadas automaticamente do servidor de entrega. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.
 
-Para usar o modo Corte inteligente, defina a `data-mode` atributo para `smart crop`. Por exemplo:
+Para usar o modo Corte inteligente, você define o atributo `data-mode` como `smart crop`. Por exemplo:
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-O elemento de imagem associado envia um `s7responsiveViewer` durante o tempo de execução quando o ponto de interrupção muda.
+O elemento de imagem associado despacha um evento `s7responsiveViewer` durante o tempo de execução quando o ponto de interrupção é alterado.
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

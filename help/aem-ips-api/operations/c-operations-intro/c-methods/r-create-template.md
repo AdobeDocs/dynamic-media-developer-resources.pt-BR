@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cria uma imagem em camadas que pode ter várias camadas de texto e imagem.
 
-A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Servidor de imagens armazenados no catálogo do Servidor de imagens e aplicados antes de qualquer comando fornecido pelo usuário no URL. A variável `urlPostApplyModifier` O parâmetro especifica comandos de protocolo aplicados após qualquer comando de URL, que substitui qualquer configuração conflitante fornecida pelo usuário.
+O parâmetro `urlModifier` especifica os comandos de protocolo do Servidor de Imagens armazenados no catálogo do Servidor de Imagens e aplicados antes de qualquer comando fornecido pelo usuário na URL. O parâmetro `urlPostApplyModifier` especifica comandos de protocolo aplicados após qualquer comando de URL, que substitui qualquer configuração conflitante fornecida pelo usuário.
 
 ## Tipos de usuário autorizados {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,7 +47,7 @@ A variável `urlModifier` O parâmetro especifica os comandos de protocolo do Se
 
 ## Exemplos {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Esta amostra de código cria um modelo em uma pasta especificada por um identificador, com um nome de `APIcreateTemplate`, um `urlModifier`, e uma `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
+Esta amostra de código cria um modelo em uma pasta especificada por um identificador, com o nome `APIcreateTemplate`, `urlModifier` e `urlPostApplyModifier`. A resposta retorna o identificador para o modelo recém-criado.
 
 **Solicitação**
 

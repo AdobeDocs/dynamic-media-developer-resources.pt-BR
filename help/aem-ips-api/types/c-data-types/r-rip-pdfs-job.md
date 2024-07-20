@@ -43,7 +43,7 @@ Um processo que repete um ativo PDF existente.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDeCorteManual</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Opções de corte manual. </p> </td> 
   </tr> 
   <tr> 
@@ -67,8 +67,8 @@ Um processo que repete um ativo PDF existente.
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDoIllustrator</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> opçõesDoIlustrador</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -114,20 +114,20 @@ Um processo que repete um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo das imagens selecionadas. Essa capacidade permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo das imagens selecionadas. Essa capacidade permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Veja<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Notas {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Opções para `*CropOptions` incluem:
+As opções para `*CropOptions` incluem:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opções para `*PublishJob` incluem:
+As opções para `*PublishJob` incluem:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

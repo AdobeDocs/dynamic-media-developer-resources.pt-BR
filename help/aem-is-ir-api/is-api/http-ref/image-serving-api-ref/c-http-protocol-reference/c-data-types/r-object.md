@@ -1,5 +1,5 @@
 ---
-description: Especificador de Objeto de Origem. Os objetos de perfil de imagem, SVG e ICC podem ser especificados como entradas de catálogo de imagem ou caminhos de arquivo relativos
+description: Especificador de objeto do Source. Os objetos de perfil de imagem, SVG e ICC podem ser especificados como entradas de catálogo de imagem ou caminhos de arquivo relativos
 solution: Experience Manager
 title: objeto
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # objeto{#object}
 
-Especificador de Objeto de Origem. Os objetos de perfil de imagem, SVG e ICC podem ser especificados como entradas de catálogo de imagem ou caminhos de arquivo relativos
+Especificador de objeto do Source. Os objetos de perfil de imagem, SVG e ICC podem ser especificados como entradas de catálogo de imagem ou caminhos de arquivo relativos
 
 `*`objeto`*[/]{[ *`rootId`*/] *`objId`*}| *`caminho`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> rootId </span> </span> </p> </td> 
-  <td class="stentry"> <p>nome do catálogo de imagens ( <span class="codeph"> attribute::RootId </span>) </p> </td> 
+  <td class="stentry"> <p>nome do catálogo de imagens ( <span class="codeph"> atributo::RootId </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objectId </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span> </span> </p> </td> 
   <td class="stentry"> <p>id do registro de imagem, SVG, modelo ou perfil ICC no catálogo de imagens especificado, principal ou padrão </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,27 +33,27 @@ Especificador de Objeto de Origem. Os objetos de perfil de imagem, SVG e ICC pod
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objeto </span> </span> </p> </td> 
-  <td class="stentry"> <p>pode ocorrer no caminho do URL principal ou em um <span class="codeph"> src= </span>, <span class="codeph"> mask= </span>ou <span class="codeph"> icc= </span> comando </p> </td> 
+  <td class="stentry"> <p>pode ocorrer no caminho da URL principal ou em um comando <span class="codeph"> src= </span>, <span class="codeph"> mask= </span> ou <span class="codeph"> icc= </span> </p> </td> 
  </tr> 
 </table>
 
-*`rootId`* identifica um catálogo de imagens. (Consulte [Catálogo de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes.) Se *`rootId`* for especificado no caminho do URL, esse catálogo se tornará o *catálogo principal* para esta solicitação. Caso contrário, o catálogo padrão será usado como o catálogo principal. Vários catálogos de imagens diferentes podem ser usados na mesma solicitação.
+*`rootId`* identifica um catálogo de imagens. (Consulte [Catálogo de imagens](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes.) Se *`rootId`* for especificado no caminho da URL, esse catálogo se tornará o *catálogo principal* dessa solicitação. Caso contrário, o catálogo padrão será usado como o catálogo principal. Vários catálogos de imagens diferentes podem ser usados na mesma solicitação.
 
-Inicialmente, o servidor presume que *`rootId`* é omitido em `src=`, `mask=`, e `icc=` e tenta encontrar uma entrada de catálogo no catálogo principal. Efetivamente, o servidor tenta usar todo o *`object`* string como *`objId.`*
+Inicialmente, o servidor presume que *`rootId`* seja omitido nos comandos `src=`, `mask=` e `icc=` e tenta encontrar uma entrada de catálogo no catálogo principal. Efetivamente, o servidor tenta usar toda a cadeia de caracteres *`object`* como *`objId.`*
 
-Se uma entrada de catálogo for encontrada, ela será usada; caso contrário, o servidor tentará corresponder ao *`rootId`* de um catálogo de imagens. Se um catálogo for identificado, ele será pesquisado *`objId`*. Se uma entrada for encontrada, ela será usada.
+Se uma entrada de catálogo for encontrada, ela será usada; caso contrário, o servidor tentará corresponder ao *`rootId`* de um catálogo de imagens. Se um catálogo for identificado, ele será pesquisado por *`objId`*. Se uma entrada for encontrada, ela será usada.
 
-Caso contrário, *`object`* é considerado um caminho de arquivo explícito. Nesse caso, se `attribute::FullMatch` for definido no catálogo principal, o catálogo será ignorado para esse objeto e o catálogo padrão será usado no lugar dele. Se `attribute::FullMatch` não estiver definido, o catálogo principal será usado para processamento adicional.
+Caso contrário, presume-se que *`object`* seja um caminho de arquivo explícito. Nesse caso, se `attribute::FullMatch` estiver definido no catálogo principal, o catálogo será ignorado para esse objeto e o catálogo padrão será usado no lugar dele. Se `attribute::FullMatch` não estiver definido, o catálogo principal será usado para processamento adicional.
 
-Ambos *`rootId`* e *`objId`* fazem distinção entre maiúsculas e minúsculas. *`path`* diferencia maiúsculas e minúsculas somente no UNIX.
+*`rootId`* e *`objId`* diferenciam maiúsculas de minúsculas. *`path`* diferencia maiúsculas de minúsculas somente no UNIX.
 
-Se uma entrelinha `/` for especificado, o catálogo padrão será pesquisado em vez do catálogo principal. Isso é útil principalmente quando um caminho explícito requer `default::RootPath` em vez do catálogo principal `attribute::RootPath`, mas também pode ser usado para obter acesso a entradas no catálogo padrão que, de outra forma, seriam substituídas por entradas no catálogo principal.
+Se um `/` à esquerda for especificado, o catálogo padrão será pesquisado em vez do catálogo principal. Isso é útil principalmente quando um caminho explícito requer `default::RootPath` em vez de `attribute::RootPath` do catálogo principal, mas também pode ser usado para obter acesso a entradas no catálogo padrão que, de outra forma, seriam substituídas por entradas no catálogo principal.
 
-Consulte *Gerenciamento de conteúdo* no *Guia de configuração do servidor* para obter detalhes sobre como *`path`* é traduzido para um caminho de arquivo físico.
+Consulte *Gerenciamento de Conteúdo* no *Guia de Configuração do Servidor* para obter detalhes sobre como o *`path`* é convertido em um caminho de arquivo físico.
 
 >[!NOTE]
 >
->Caracteres &#39;,&#39; de vírgula não são permitidos em *`object.`*
+>Os caracteres &#39;,&#39; de vírgula não são permitidos em *`object.`*
 
 ## Formatos de arquivo de imagem compatíveis {#section-12c85aead78e4f759856ca9ff10637d7}
 
@@ -63,21 +63,21 @@ Os aplicativos que exigem dados de imagem em várias resoluções diferentes tê
 
 ## Exemplos {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
-**Acesso a uma imagem e a um perfil ICC em dois catálogos de imagens diferentes**
+**Acessando uma imagem e um perfil ICC em dois catálogos de imagens diferentes**
 
-Recuperar a imagem &#39; [!DNL myImage]&#39; no catálogo de imagens identificado como &#39; [!DNL myCatalog]&#39; e anexar o perfil ICC &#39; [!DNL sRGB]&#39; localizado no catálogo de imagens chamado &#39; [!DNL myProfiles]&#39;:
+Recupere a imagem &#39; [!DNL myImage]&#39; no catálogo de imagens identificado como &#39; [!DNL myCatalog]&#39; e anexe o perfil ICC &#39; [!DNL sRGB]&#39; localizado no catálogo de imagens denominado &#39; [!DNL myProfiles]&#39;:
 
-` http:// *`server`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
+` http:// *`servidor`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
 Uso de um catálogo de imagens único com camadas
 
-**Criar uma imagem composta simples consistindo em três camadas, todas recuperadas de &#39; [!DNL myCatalog]&#39;:**
+**Criar uma imagem composta simples que consiste em três camadas, todas recuperadas de &#39; [!DNL myCatalog]&#39;:**
 
-` http:// *`server`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
+` http:// *`servidor`*/myCatalog?layer=0&src=img0&layer=1&src=img1&layer=2&src=img2&wid=200`
 
-**Acesso direto a arquivos de imagem enquanto ainda usa um catálogo para fornecer atributos**
+**Acessando arquivos de imagem diretamente enquanto ainda usa um catálogo para fornecer atributos**
 
-Access [!DNL my/image/path/myImage.tif], utilizando os atributos jpg padrão configurados no `myImageCatalog`:
+Acesse [!DNL my/image/path/myImage.tif], usando os atributos jpg padrão configurados em `myImageCatalog`:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 

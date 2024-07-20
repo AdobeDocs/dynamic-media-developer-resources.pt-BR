@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # RootUrl{#rooturl}
 
-URL raiz para URLs de imagem relativos. Especifica a URL raiz para URLs de imagem relativas. A variável`attribute::RootUrl` é usado em vez de `attribute::RootPath` quando um `src=` o valor é delimitado por { curly braces }.
+URL raiz para URLs de imagem relativos. Especifica a URL raiz para URLs de imagem relativas. O `attribute::RootUrl` é usado em vez de `attribute::RootPath` quando um valor `src=` é delimitado por { chaves }.
 
 ## Propriedades {#section-69cd0f71ea614770a8778c745d23197a}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência do ícone de ponto de acesso é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Arte do ícone do ponto de acesso. </p> </td> 
   </tr> 
   <tr> 
@@ -84,15 +84,15 @@ A aparência da região do mapa de imagem é controlada com o seguinte seletor d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> plano de fundo </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especificar esta cor em <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique esta cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especificar esta cor em <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> formatos. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
+   <td colname="col2"> <p>Cor de preenchimento da região do mapa de imagem. </p> <p>Especifique esta cor nos formatos <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
-   <td colname="col2"> <p> Estilo de borda da região do mapa de imagem. Deve ser especificado como " <span class="codeph"> largura </span> <span class="codeph"> cor sólida </span>", onde <span class="codeph"> largura </span> é expresso em pixels e <span class="codeph"> cor </span> está definido como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Estilo de borda da região do mapa de imagem. Deve ser especificado como " <span class="codeph"> largura </span> <span class="codeph"> cor sólida </span>", onde <span class="codeph"> largura </span> é expresso em pixels e <span class="codeph"> cor </span> é definido como <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

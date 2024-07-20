@@ -33,7 +33,7 @@ A aparência é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> estrutura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> estrutura de tópicos </span> </p> </td> 
    <td colname="col2"> <p>Estilo de destaque da focagem. </p> </td> 
   </tr> 
  </tbody> 

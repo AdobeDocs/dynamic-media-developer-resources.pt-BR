@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Especifique um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monocromático</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Os valores incluem <span class="codeph"> 0</span> ou <span class="codeph"> 1</span> somente. </p><p>Defina como <span class="codeph"> 0</span> para aplicar separadamente a cada componente de cor ou para <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara da camada ou a máscara composta também é afiada. </p><p><span class="codeph"><span class="varname"> monocromático</span></span> é ignorado para imagens em tons de cinza. </p></td>
+   <td colname="col3"><p>Os valores incluem somente <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>. </p><p>Defina como <span class="codeph"> 0</span> para aplicar separadamente a cada componente de cor ou como <span class="codeph"> 1</span> para aplicar somente ao brilho da imagem (intensidade). A máscara da camada ou a máscara composta também é afiada. </p><p><span class="codeph"><span class="varname"> monocromático</span></span> é ignorado para imagens em tons de cinza. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ Especifique um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".
 
 ## Usado por {#section-db8124a5468b498694a780f8a56a4560}
 
-A variável `unsharpMaskOptions` tipo é usado por:
+O tipo `unsharpMaskOptions` é usado por:
 
 * [TrabalhoReprocessAssets](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -93,4 +93,3 @@ A variável `unsharpMaskOptions` tipo é usado por:
 >[!MORELIKETHIS]
 >
 >* [Referência da API de disponibilização de imagens: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-

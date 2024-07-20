@@ -34,7 +34,7 @@ Sintaxe
 | companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetHandle | `xsd:string` | Sim | Identificar o ativo. |
 
-**Saída (getViewerConfigurationSettingsReturn)**
+**Saída (getViewerConfigSettingsReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|

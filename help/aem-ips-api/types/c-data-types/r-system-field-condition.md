@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Uma condição de pesquisa de campo do sistema para a operação searchAssets.
 
-Para comparações unárias, passe exatamente um valor ( `boolVal`, `longVal`, `doubleVal`ou `dateVal`) dependendo do tipo de campo do sistema. Para intervalos de pesquisa, transmita `min<Type>` e `max<Type>` parâmetros e transmitir um `op` valor de `Between` ou `NotBetween`.
+Para comparações unárias, passe exatamente um valor ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`), dependendo do tipo de campo do sistema. Para intervalos de pesquisa, passe os parâmetros `min<Type>` e `max<Type>` e passe um valor `op` de `Between` ou `NotBetween`.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

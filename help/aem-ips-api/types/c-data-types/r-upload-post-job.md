@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Usa getActiveJobs para rastrear os uploads de desktop.
 
-Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Consulte também [Upload de ativos por meio de POSTs HTTP no Upload...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:AutoDefinirCriarOpções</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoSetCreateOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Matriz de scripts de geração de conjunto automático a ser aplicada aos arquivos carregados. </p> </td> 
   </tr> 
@@ -77,8 +77,8 @@ Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../
    <td colname="col4"> <p>Opções para fazer upload de arquivos InDesign para o Servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDoIllustrator</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Opções do Illustrator</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:IllustratorOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Opções de upload de arquivos Illustrator para o Servidor de imagens. </p> </td> 
   </tr> 
@@ -90,7 +90,7 @@ Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDeCorteManual</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:ManualCropOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Opções para recortes manuais de imagens. </p> </td> 
   </tr> 
@@ -134,7 +134,7 @@ Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você fizer <i>não</i> Se você fornecer o parâmetro manualCropOptions, o valor de preserveCrop será mantido. E, no caso de true, os valores preserveCrop existentes são retidos; no caso de false, os valores preserveCrop são removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>não</i> fornecer o parâmetro manualCropOptions, o valor de preserveCrop será mantido. E, no caso de true, os valores preserveCrop existentes são retidos; no caso de false, os valores preserveCrop são removidos.</p><p>Exemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -158,13 +158,13 @@ Consulte também [Fazendo upload de ativos por meio de HTTP POSTs para o](../../
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UnCompressOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescompactarOpções</a>. </p> </td> 
+   <td colname="col4"> <p>Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesTirarNitidezMáscara</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> OpçõesDeMáscaraSemNitidez</a>. </p> </td> 
+   <td colname="col4"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 

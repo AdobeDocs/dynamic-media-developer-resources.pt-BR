@@ -31,7 +31,7 @@ Atributo de material. Exigido para materiais de cor sólida, opcional para todos
 
 ## Padrão {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` Se o material for baseado em uma entrada do catálogo. Caso contrário, `none` para não colorir.
+`catalog::Color` Se o material for baseado em uma entrada de catálogo. Caso contrário, `none` sem coloração.
 
 ## Consulte também {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 

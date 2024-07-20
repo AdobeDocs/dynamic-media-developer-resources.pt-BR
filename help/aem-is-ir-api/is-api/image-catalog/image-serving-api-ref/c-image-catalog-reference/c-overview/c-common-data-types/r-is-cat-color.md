@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Tipo de dados de cor.
 
-Valor da cor. Hexadecimal, valor de RGB compactado, opcionalmente precedido por `0x`. Por exemplo, o valor RGB `128,255,0` pode ser especificado como `0x80ff00` ou `80ff00` .
+Valor da cor. Valor de RGB hexadecimal compactado, opcionalmente precedido por `0x`. Por exemplo, o valor de RGB `128,255,0` pode ser especificado como `0x80ff00` ou `80ff00`.

@@ -35,7 +35,7 @@ Sintaxe
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
 | name | `xsd:string` | Sim | Nome do ativo. |
 | type | `xsd:string` | Sim | O tipo de ativo ao qual você deseja aplicar a configuração do visualizador. |
-| configSettingArray | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicado ao ativo. |
+| configSettingArray | `types:ConfigSettingArray` | Sim | A matriz de `ConfigSettings` aplicada ao ativo. |
 
 **Saída (setViewerConfigSettingsParam)**
 

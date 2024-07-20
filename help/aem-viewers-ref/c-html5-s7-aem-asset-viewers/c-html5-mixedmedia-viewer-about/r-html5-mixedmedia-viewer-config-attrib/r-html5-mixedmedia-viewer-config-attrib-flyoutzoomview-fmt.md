@@ -22,7 +22,7 @@ Especifica o formato de imagem que o componente usa para carregar imagens do Ser
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Se o formato especificado termina com <span class="codeph"> -alpha</span>, o componente renderiza imagens como conteúdo transparente. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. </p> <p>Por padrão, o componente possui um plano de fundo branco. Por conseguinte, para torná-lo transparente, <span class="codeph"> background-color</span> Propriedade CSS para <span class="codeph"> transparente</span>. </p> </td> 
+   <td colname="col2"> <p> Se o formato especificado termina com <span class="codeph"> -alpha</span>, o componente renderiza imagens como conteúdo transparente. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. </p> <p>Por padrão, o componente possui um plano de fundo branco. Portanto, para torná-lo transparente, defina a propriedade CSS <span class="codeph"> background-color</span> como <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

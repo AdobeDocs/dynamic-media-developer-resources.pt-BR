@@ -21,8 +21,8 @@ Atributo de configuração para o Visualizador de vídeo interativo.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> inferior|superior|esquerdo|direito|nenhum|dica de ferramenta</span> </p> </td> 
-   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem de amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando <span class="codeph"> dica de ferramenta</span> for especificada, o texto do rótulo será exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> nenhum</span> para desativar o rótulo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inferior|superior|esquerda|direita|nenhum|dica</span> </p> </td> 
+   <td colname="col2"> <p> Especifica onde o rótulo é desenhado em relação à imagem de amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura. </p> <p>Quando a dica de ferramenta <span class="codeph"> </span> é especificada, o texto da etiqueta é exibido como uma dica de ferramenta flutuante sobre a imagem em miniatura. </p> <p>Defina como <span class="codeph"> none</span> para desativar o rótulo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

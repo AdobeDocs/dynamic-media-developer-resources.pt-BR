@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ A aparência do contêiner de amostras é controlada com o seguinte seletor de c
    <td colname="col2"> <p>A altura das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> O deslocamento das amostras verticais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,7 +78,7 @@ O espaçamento entre as miniaturas de amostra é controlado com o seletor de cla
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real entre miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +124,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que é usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que é usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem que está sendo exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 56 x 56 pixels, ter uma borda padrão cinza-claro e uma borda selecionada cinza-escuro:
 
@@ -141,7 +141,7 @@ Exemplo - para configurar miniaturas com 56 x 56 pixels, ter uma borda padrão c
 }
 ```
 
-**Propriedades CSS dos botões de rolagem esquerdo e direito**
+**Propriedades CSS dos botões de rolagem para a esquerda e para a direita**
 
 A aparência dos botões de rolagem para a esquerda e para a direita é controlada com os seguintes seletores de classe CSS:
 
@@ -150,7 +150,7 @@ A aparência dos botões de rolagem para a esquerda e para a direita é controla
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando propriedades CSS `top`, `left`, `bottom` e `right`. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -169,7 +169,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>A altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -181,7 +181,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que é usado para aplicar capas diferentes a estados de botão `up`, `down`, `over`, e `disabled`.
+>Este botão oferece suporte ao seletor de atributos `state`, que é usado para aplicar capas diferentes aos estados de botão `up`, `down`, `over` e `disabled`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) para obter mais informações.
 

@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Especifica como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; </p> <p> <span class="codeph"> direita </span> inverte a ordem para que a exibição seja preenchida da direita para a esquerda e de cima para baixo. </p> <p>Quando <span class="codeph"> automático </span> estiver definido, o componente aplicará <span class="codeph"> direita </span> quando localidade estiver definida como <span class="codeph"> ja </span>; caso contrário, left será usado. </p> </td> 
+   <td> <p> Especifica como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; </p> <p> <span class="codeph"> direita </span> inverte a ordem para que o modo de exibição seja preenchido da direita para a esquerda e de cima para baixo. </p> <p>Quando <span class="codeph"> auto </span> está definido, o componente aplica o modo <span class="codeph"> right </span> quando a localidade está definida como <span class="codeph"> ja </span>; caso contrário, left será usado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

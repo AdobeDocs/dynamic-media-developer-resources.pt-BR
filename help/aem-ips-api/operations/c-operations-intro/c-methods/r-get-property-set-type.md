@@ -52,7 +52,7 @@ Sintaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PropertySetType</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4">A estrutura de tipo que contém um: 

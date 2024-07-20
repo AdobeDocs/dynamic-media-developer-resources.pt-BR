@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 2%
+source-wordcount: '47'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Quando definido como <span class="codeph"> 1</span>, o componente preencherá o painel suspenso com elementos para todas as páginas, mesmo para páginas que não têm o rótulo definido. </p> <p>Quando definido como <span class="codeph"> 0</span> somente itens com rótulos explícitos são exibidos no painel suspenso. </p> </td> 
+   <td> <p> Quando definido como <span class="codeph"> 1</span>, o componente irá preencher o painel suspenso com elementos para todas as páginas, mesmo para páginas que não possuem o rótulo definido. </p> <p>Quando definido como <span class="codeph"> 0</span>, somente itens com rótulos explícitos serão exibidos no painel suspenso. </p> </td> 
   </tr> 
  </tbody> 
 </table>

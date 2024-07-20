@@ -18,15 +18,15 @@ Os modelos podem ser usados para reduzir o comprimento e a complexidade de solic
 
 As variáveis personalizadas podem ser usadas para simplificar ainda mais o uso do modelo. Geralmente, os modelos são configurados para permitir uma fácil troca de imagens ou texto ou a configuração de outras opções no tempo de execução.
 
-Os modelos são armazenados como registros em catálogos de imagem, com o corpo do modelo no `catalog::Modifier` e a variável `catalog::Path` campo vazio ou especificando uma imagem de fundo estática que não pode ser alterada dinamicamente.
+Os modelos são armazenados como registros em catálogos de imagens, com o corpo do modelo no campo `catalog::Modifier` e o campo `catalog::Path` vazio ou especificando uma imagem de fundo estática que não pode ser alterada dinamicamente.
 
-Os modelos são especificados com o `template=` ou no componente de caminho do URL da solicitação. Para a maioria dos aplicativos, é recomendável usar o `template=` para especificar modelos. A variável `template=`comando não deve ocorrer no `catalog::PostModifier` e só pode ocorrer no campo `catalog::Modifier` em uma solicitação IS aninhada (ou seja, em uma variável `src=is{...}` construir). Os registros de modelo não podem ser referenciados em `src=` ou `mask=`comandos.
+Os modelos são especificados com o comando `template=` ou no componente de caminho da URL de solicitação. Para a maioria dos aplicativos, é recomendável usar o comando `template=` para especificar modelos. O comando `template=` não deve ocorrer no campo `catalog::PostModifier` e só pode ocorrer no campo `catalog::Modifier` em uma solicitação IS aninhada (ou seja, em uma construção `src=is{...}`). Os registros de modelo não podem ser referenciados em `src=` ou `mask=` comandos.
 
-Qualquer `src=` ou `mask=`Os comandos incorporados no modelo podem ser resolvidos no catálogo principal da solicitação ou em um catálogo de imagens diferente. Se não `rootId` for especificado explicitamente, o catálogo principal será assumido. O modelo especificado com `template=` O também pode estar localizado no catálogo principal ou em um catálogo de imagens diferente.
+Quaisquer comandos `src=` ou `mask=` inseridos no modelo podem ser resolvidos no catálogo principal da solicitação ou em um catálogo de imagens diferente. Se nenhum `rootId` for especificado explicitamente, o catálogo principal será presumido. O modelo especificado com `template=` também pode estar localizado no catálogo principal ou em um catálogo de imagens diferente.
 
-É altamente recomendável sempre incluir definições padrão para todas as variáveis usadas em um modelo. Dessa forma, a saída de imagem do template sempre pode ser visualizada especificando-se sua `attribute::RootId` e `catalog::Id`, sem precisar saber quais variáveis são usadas no modelo.
+É altamente recomendável sempre incluir definições padrão para todas as variáveis usadas em um modelo. Dessa forma, a saída de imagem do modelo sempre pode ser visualizada simplesmente especificando seus `attribute::RootId` e `catalog::Id`, sem precisar saber quais variáveis são usadas no modelo.
 
-A variável de substituição de caminho predefinida `$object$` pode ser usado para aplicar o objeto de imagem especificado no caminho do url a qualquer origem ou máscara de camada ( `src=` ou `mask=`), mesmo em solicitações aninhadas ou incorporadas.
+A variável de substituição de caminho predefinida `$object$` pode ser usada para aplicar o objeto de imagem especificado no caminho da url a qualquer origem ou máscara de camada ( `src=` ou `mask=`), mesmo em solicitações aninhadas ou inseridas.
 
 * [Exemplo A](r-example-a.md)
 * [Exemplo B](r-example-b.md)

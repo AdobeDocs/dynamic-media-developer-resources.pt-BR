@@ -36,7 +36,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:AutoDefinirOpçõesDeCriação</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
    <td colname="col3"> Matriz de scripts de geração de conjunto automático a ser aplicada aos arquivos carregados. </td> 
   </tr> 
   <tr> 
@@ -60,8 +60,8 @@ Sintaxe
    <td colname="col3"> Opção de configurações de email. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDoIllustrator</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> Opções do Illustrator</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:IllustratorOptions</span> </td> 
    <td colname="col3"> Opções de upload de arquivos Illustrator para o Servidor de imagens. </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDeCorteManual</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:ManualCropOptions</span> </td> 
    <td colname="col3"> Opções para recortes manuais de imagens. </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UnCompressOptions</span> </td> 
-   <td colname="col3">Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescompactarOpções</a>. </td> 
+   <td colname="col3">Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesTirarNitidezMáscara</span> </td> 
-   <td colname="col3">Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> OpçõesDeMáscaraSemNitidez</a>. </td> 
+   <td colname="col2"> <span class="codeph"> tipos:UnsharpMaskOptions</span> </td> 
+   <td colname="col3">Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. Consulte <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ A aparência das dicas de ferramenta é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda do fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor da borda </span> </p> </td> 
    <td colname="col2"> <p> Cor da borda do fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ A aparência das dicas de ferramenta é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ A aparência das dicas de ferramenta é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->Caso os estilos de dica de ferramenta sejam personalizados na página da Web de incorporação, todas as propriedades devem conter `!IMPORTANT` regra. Essa etapa não será necessária se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
+>Caso os estilos de dica de ferramenta sejam personalizados na página da Web incorporada, todas as propriedades devem conter a regra `!IMPORTANT`. Essa etapa não será necessária se as dicas de ferramentas forem personalizadas no arquivo CSS do visualizador.
 
 Exemplo - para configurar dicas de ferramentas com uma borda cinza com um raio de canto de 3 pixels, plano de fundo preto e texto branco em Arial®, tamanho de 11 pixels:
 

@@ -18,7 +18,7 @@ Os campos a seguir são compatíveis com catálogos de conteúdo estático (que 
 
 <table id="simpletable_D1DEF6268BA744AD804B9BA3D9AEE800"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> ID</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> Id</a></span> </p></td> 
   <td class="stentry"> <p>Identificador de registro de catálogo (chave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Os campos a seguir são compatíveis com catálogos de conteúdo estático (que 
   <td class="stentry"> <p>Tipo de objeto definido pelo usuário. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> Dados do Usuário</a></span> </p></td> 
   <td class="stentry"> <p>Propriedades definidas pelo usuário. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +42,7 @@ Os campos a seguir são compatíveis com catálogos de conteúdo estático (que 
   <td class="stentry"> <p>Taxa de bits do vídeo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md" type="reference" format="dita" scope="local"> TamanhoDoVídeo</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md" type="reference" format="dita" scope="local"> TamanhoVídeo</a></span> </p></td> 
   <td class="stentry"> <p>Tamanho do vídeo. </p></td> 
  </tr> 
 </table>

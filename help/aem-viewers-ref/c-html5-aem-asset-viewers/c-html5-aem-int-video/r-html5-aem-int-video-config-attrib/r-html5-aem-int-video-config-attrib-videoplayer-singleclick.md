@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configuração para <span class="codeph"> nenhum</span> desativa o clique único/toque para reproduzir/pausar. Se definida como <span class="codeph"> playPause</span>, em seguida, selecionar o vídeo alterna entre reproduzir e pausar o vídeo. Em alguns dispositivos, você pode usar controles nativos. Neste caso, uma <span class="codeph"> singleclick</span> O comportamento do está desativado. </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configurar como <span class="codeph"> nenhum</span> desabilita o clique único/toque para reproduzir/pausar. Se definido como <span class="codeph"> playPause</span>, a seleção do vídeo alterna entre a reprodução e a pausa do vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, um comportamento <span class="codeph"> singleclick</span> está desabilitado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

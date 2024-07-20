@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ O plano de fundo do painel Informações cobre toda a área do visualizador e é
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Preenchimento do plano de fundo do painel Informações. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ A caixa de diálogo do painel de informações é exibida por padrão no meio da
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição horizontal da caixa de diálogo do painel de informações dentro do preenchimento do plano de fundo do painel da área do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -88,15 +88,15 @@ A caixa de diálogo do painel de informações é exibida por padrão no meio da
    <td colname="col2"> <p>Preenchimento da caixa de diálogo interna. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra-caixa </span> </p> </td> 
    <td colname="col2"> <p>Sombra de diálogo. </p> </td> 
   </tr> 
  </tbody> 
@@ -145,11 +145,11 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Posição da borda direita da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição da borda esquerda da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição na borda inferior da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributos, que você pode usar para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que você pode usar para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

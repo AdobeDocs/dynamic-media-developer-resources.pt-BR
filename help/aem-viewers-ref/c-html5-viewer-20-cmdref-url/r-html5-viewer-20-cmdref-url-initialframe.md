@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Parâmetro comum a todos os visualizadores.
 >
 >Esse comando não se aplica ao Visualizador de imagem de vídeo.
 
-` initialFrame= *`frameIdx`*[ *`, pageIdx`*]`
+` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
@@ -30,7 +30,7 @@ Parâmetro comum a todos os visualizadores.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Um índice baseado em zero da página espelhada quando o dispositivo está na orientação de retrato. Para um ambiente da "esquerda para a direita", <span class="codeph"> 0</span> significa "página esquerda" e <span class="codeph"> 1</span> significa "página direita". Para um ambiente da "direita para a esquerda", é oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não especificado, <span class="codeph"> 0</span> é presumida por padrão. Ignorado quando o dispositivo está na orientação paisagem. </p> </td> 
+   <td colname="col2"> <p>Um índice baseado em zero da página espelhada quando o dispositivo está na orientação de retrato. Para um ambiente da "esquerda para a direita", <span class="codeph"> 0</span> significa "página esquerda" e <span class="codeph"> 1</span> significa "página direita". Para um ambiente da "direita para a esquerda", é oposto: <span class="codeph"> 0</span> significa "página direita" e <span class="codeph"> 1</span> significa "página esquerda". </p> <p>Se não especificado, <span class="codeph"> 0</span> é assumido como padrão. Ignorado quando o dispositivo está na orientação paisagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>

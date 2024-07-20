@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Atributo de configuração para o Visualizador Panorâmico.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem.  Se estiver especificado no URL, certifique-se de codificar HTTP em todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> as <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem.  Se estiver especificado na URL, certifique-se de codificar HTTP todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # NoFailSel{#onfailsel}
 
-Tratamento de erros de seleção de separação. Especifica a ação a ser tomada se a variável `sel=` O comando falha porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
+Tratamento de erros de seleção de separação. Especifica a ação a ser tomada se o comando `sel=` falhar porque o local do pixel especificado não está dentro da área de máscara de um objeto selecionável.
 
 ## Propriedades {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 

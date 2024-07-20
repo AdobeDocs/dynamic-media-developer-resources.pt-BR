@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f4bb0087-1e49-47e2-84b4-44b92fade36a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>O modelo de URL do servidor de informações é usado para buscar pares de chave/valor para a substituição de variável no modelo de conteúdo do painel de informações. O modelo especificado geralmente contém marcadores de posição de macro que são substituídos pelos dados reais antes que a solicitação seja enviada ao servidor. </p> <p><span class="codeph"> $ 1$</span> é substituído pelo valor de substituição que acionou a <span class="codeph"> InfoPanelPopup</span> ativação. </p> <p><span class="codeph"> $ 2$</span> é substituído pelo número de sequência do quadro atual no conjunto de imagens. </p> <p><span class="codeph"> $ 3$</span> é substituído pelo primeiro elemento de caminho especificado no nome do conjunto pai do item atual. Normalmente, corresponde à ID do catálogo. </p> <p><span class="codeph"> $ 4$</span> é substituído pelo seguinte elemento no caminho e corresponde à id do ativo. A sintaxe de solicitação do servidor de informações real depende do servidor de informações e é diferente de servidor para servidor. Por exemplo, o código a seguir é um modelo típico de solicitação do Dynamic Media info Server: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>O modelo de URL do servidor de informações é usado para buscar pares de chave/valor para a substituição de variável no modelo de conteúdo do painel de informações. O modelo especificado geralmente contém marcadores de posição de macro que são substituídos pelos dados reais antes que a solicitação seja enviada ao servidor. </p> <p><span class="codeph"> $1$</span> é substituído pelo valor de substituição que disparou a ativação de <span class="codeph"> InfoPanelPopup</span>. </p> <p><span class="codeph"> $2$</span> é substituído pelo número de sequência do quadro atual no conjunto de imagens. </p> <p><span class="codeph"> $3$</span> é substituído pelo primeiro elemento de caminho especificado no nome do conjunto pai do item atual. Normalmente, corresponde à ID do catálogo. </p> <p><span class="codeph"> $4$</span> é substituído pelo seguinte elemento no caminho e corresponde à id do ativo. A sintaxe de solicitação do servidor de informações real depende do servidor de informações e é diferente de servidor para servidor. Por exemplo, o código a seguir é um modelo típico de solicitação do Dynamic Media info Server: </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

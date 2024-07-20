@@ -18,7 +18,7 @@ Adiciona uma empresa ao sistema.
 
 Envia o nome da empresa a ser adicionada ao sistema e, opcionalmente, envia se a empresa expira.
 
-Quando essa operação é chamada, o sistema obtém um tipo companyInfo que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitado já existir no sistema, ele acionará um `ipsApiFault`.
+Quando essa operação é chamada, o sistema obtém um tipo companyInfo que contém um identificador de empresa e campos descritivos. Se o nome da empresa solicitado já existir no sistema, ele aciona um `ipsApiFault`.
 
 ## Tipos de usuário autorizados {#section-ae926c7672984be79f6102748accab72}
 
@@ -47,7 +47,7 @@ Quando essa operação é chamada, o sistema obtém um tipo companyInfo que cont
    <td colname="col4"> <p>O nome da empresa a adicionar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira em</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expira</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>A data de vencimento da empresa. Forneça o fuso horário com a solicitação para esse campo. Os fusos horários são ajustados para a Hora central. </p> </td> 

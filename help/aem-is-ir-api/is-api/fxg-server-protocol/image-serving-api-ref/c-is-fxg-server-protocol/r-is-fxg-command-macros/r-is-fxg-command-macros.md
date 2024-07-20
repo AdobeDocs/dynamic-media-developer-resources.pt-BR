@@ -18,9 +18,9 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
 As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de imagens ou ao catálogo padrão.
 
-As macros podem ser invocadas em qualquer lugar em uma solicitação após &quot;?&quot; e em qualquer lugar dentro de um `catalog::Modifier` campo. As macros só podem representar um ou mais comandos completos do Servidor de imagens, portanto, elas devem ser delimitadas por separadores &quot;&amp;&quot; (exceto quando no início ou no fim da sequência do modificador).
+As macros podem ser invocadas em qualquer lugar em uma solicitação depois do &#39;?&#39; e em qualquer lugar dentro de um campo `catalog::Modifier`. As macros só podem representar um ou mais comandos completos do Servidor de imagens, portanto, elas devem ser delimitadas por separadores &quot;&amp;&quot; (exceto quando no início ou no fim da sequência do modificador).
 
-As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Esse fluxo é diferente de `catalog::Modifier`, em que os comandos na string de solicitação sempre substituem os comandos na variável `catalog::Modifier` independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Esse fluxo é diferente de `catalog::Modifier`, em que os comandos na cadeia de caracteres da solicitação sempre substituem comandos na cadeia de caracteres `catalog::Modifier`, independentemente da posição na solicitação.
 
 As macros podem ser aninhadas. No entanto, uma macro só poderá ser invocada se já estiver definida no momento em que a definição da macro for analisada. Esse fluxo é realizado ao aparecer anteriormente no mesmo arquivo de definição de macro ou ao colocar a definição dessa macro incorporada no arquivo de definição de macro padrão.
 
@@ -44,6 +44,6 @@ A macro seria usada da seguinte maneira:
 
 [!DNL `http://server/cat/8243?$view$&wid=480`]
 
-Porque `wid=` for diferente para a terceira solicitação, basta substituir o valor *após* a macro é invocada (especificando `wid=` *antes* `$view$` não tem efeito).
+Como `wid=` é diferente para a terceira solicitação, você simplesmente substitui o valor *após* a macro é invocada (especificando `wid=` *antes* `$view$`, que não tem efeito).
 
 + [name](r-name.md)

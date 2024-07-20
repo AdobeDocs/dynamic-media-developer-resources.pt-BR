@@ -20,11 +20,11 @@ Se especificado, o servidor aplica a marca d&#39;água aos dados de imagem solic
 
 ## Propriedades {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-String de texto. Se especificado, deve ser um válido `Catalog::Id` neste catálogo de imagens (ou no catálogo padrão, se especificado em [!DNL default.ini]).
+String de texto. Se especificado, deve ser um valor `Catalog::Id` válido neste catálogo de imagens (ou no catálogo padrão, se especificado em [!DNL default.ini]).
 
 ## Padrão {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Herdado de `default::Watermark` se não estiver definido. Se definido, mas vazio, nenhuma marca d&#39;água é aplicada a este catálogo de imagens, mesmo se `default::Watermark` está definido.
+Herdado de `default::Watermark` se não estiver definido. Se definido, mas vazio, nenhuma marca d&#39;água é aplicada a este catálogo de imagens, mesmo se `default::Watermark` for definido.
 
 ## Consulte também {#section-f15dbe31013849828d78588742dde58e}
 

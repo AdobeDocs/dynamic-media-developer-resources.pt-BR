@@ -29,7 +29,7 @@ Ajuste a saturação. Altera a saturação de cada pixel visível da camada ou i
 
 ## Propriedades {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito.
+Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-ef0e78f55c8b4d22aee09104dad6410a}
 

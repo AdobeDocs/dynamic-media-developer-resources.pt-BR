@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador flyout com fundo branco ( `#FFFFFF`) e tornar seu tamanho 260 x 500 pixels.
+Exemplo - para configurar um visualizador de imagem suspensa com plano de fundo branco ( `#FFFFFF`) e definir seu tamanho como 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 

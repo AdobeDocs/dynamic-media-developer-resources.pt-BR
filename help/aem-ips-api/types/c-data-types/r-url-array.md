@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Uma matriz de URLS para invalidar o cache do CDN.
 
-**Compatível desde**
+**Com Suporte Desde**
 
 4.5.0, patch 2011-02
 

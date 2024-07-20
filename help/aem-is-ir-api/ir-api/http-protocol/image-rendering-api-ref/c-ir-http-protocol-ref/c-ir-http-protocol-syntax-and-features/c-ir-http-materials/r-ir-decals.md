@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Materiais decalques incluem construções de vestuário, como apliques, estampas
 
 Um material é considerado um decalque se for especificado em um MSS de decalque. Um decalque é normalmente uma imagem RGBA, com o canal alfa definindo a forma do decalque.
 
-Um decalque pode ser aplicado a cada objeto plano, fluido, esboço, plano ou parede (a menos que o sinalizador &#39;Sem textura&#39; esteja definido). Os decalques são aplicados ao objeto alinhando os decalques `anchor=` com o ponto de origem do decalque do objeto de vinheta. A posição pode ser ajustada com `pos=`.
+Um decalque pode ser aplicado a cada objeto plano, fluido, esboço, plano ou parede (a menos que o sinalizador &#39;Sem textura&#39; esteja definido). Os decalques são aplicados ao objeto alinhando o `anchor=` do decalque com o ponto de origem do decalque do objeto de vinheta. A posição pode ser ajustada com `pos=`.
 
 A sombra projetada é renderizada se o material de decalque definir uma espessura e o objeto de vinheta definir um vetor de luz.
 
@@ -37,17 +37,17 @@ A sombra projetada é renderizada se o material de decalque definir uma espessur
    <td colname="col3"> <p>Nenhum. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> tamanho= </span> </a> </p> </td> 
    <td colname="col2"> <p>Largura, altura e espessura do decalque (para sombra). </p> </td> 
    <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> imageHeight </span> x <span class="codeph"> res, 0 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>Resolução da textura (ignorada se size= for especificado). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Resolution </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> âncora= </span> </a> </p> </td> 
    <td colname="col2"> <p>Ponto de alinhamento de decalque. </p> </td> 
    <td colname="col3"> <p>Centro de imagens. </p> </td> 
   </tr> 

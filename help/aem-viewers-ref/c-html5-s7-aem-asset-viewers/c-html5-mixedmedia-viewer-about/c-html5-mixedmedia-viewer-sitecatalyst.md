@@ -7,7 +7,7 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ O Visualizador de mídia mista é compatível com o rastreamento de Adobe Analyt
 
 ## Rastreamento pronto para uso {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-O Visualizador de mix de mídia é compatível [!DNL Adobe Analytics] rastreamento pronto para uso. Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
+O Visualizador de Mídia Mista oferece suporte ao rastreamento de [!DNL Adobe Analytics] pronto para uso. Para habilitar o rastreamento, passe o nome de predefinição da empresa correto como o parâmetro `config2`.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
@@ -64,15 +64,15 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p>uma imagem é ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PANORÂMICA </span> </p> </td> 
    <td colname="col2"> <p>uma imagem é exibida em modo panorâmico. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p> uma imagem é alterada ao clicar ou tocar em uma amostra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JOGAR </span> </p> </td> 
    <td colname="col2"> <p>reprodução iniciada. </p> </td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>reprodução em pausa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARADA </span> </p> </td> 
    <td colname="col2"> <p>reprodução interrompida. </p> </td> 
   </tr> 
   <tr> 

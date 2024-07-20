@@ -52,11 +52,11 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:booleano</span> </p> </td> 
-   <td colname="col3"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você fizer <i>não</i> Se você fornecer o parâmetro manualCropOptions, o valor de preserveCrop será mantido. E, no caso de true, os valores preserveCrop existentes são retidos; no caso de false, os valores preserveCrop são removidos.</p><p>Exemplo:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Controla a preservação de qualquer definição de cultura existente. O padrão é verdadeiro.</p> <p>Se você fornecer o parâmetro manualCropOptions e os valores correspondentes, os novos valores (excluindo 0,0,0,0) serão aplicados ao ativo independentemente do valor preserveCrop.</p><p>Se você <i>não</i> fornecer o parâmetro manualCropOptions, o valor de preserveCrop será mantido. E, no caso de true, os valores preserveCrop existentes são retidos; no caso de false, os valores preserveCrop são removidos.</p><p>Exemplo:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDeCorteManual</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Opções de corte manual. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:PostScriptOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções para fazer upload de arquivos PostScript no servidor de imagens. </p> </td> 
+   <td colname="col3"> <p>Opções de upload de arquivos PostScript para o Servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
@@ -90,8 +90,8 @@ Sintaxe
    <td colname="col3"> <p>Opções de arquivo de mídia A/V. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesDoIllustrator</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> opçõesDoIlustrador</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:IllustratorOptions</span> </p> </td> 
    <td colname="col3"> <p>Opções de upload de arquivos Illustrator para o Servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:AutoDefinirOpçõesDeCriação</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:AutoSetCreationOptions</span> </p> </td> 
    <td colname="col3"> <p>Matriz de scripts de geração de conjunto automático a ser aplicada aos arquivos carregados. </p> </td> 
   </tr> 
   <tr> 
@@ -147,25 +147,25 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>Mascarar o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Consulte<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>Mascarar o plano de fundo das imagens selecionadas. Isso permite que você as sobreponha em outras camadas com uma transparência fora da imagem do assunto. </p> <p>Opcional. </p> <p>Veja<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:OpçõesTirarNitidezMáscara</span> </p> </td> 
-   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> OpçõesDeMáscaraSemNitidez</a>. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
+   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Notas**
 
-Opções para `*CropOptions` incluem:
+As opções para `*CropOptions` incluem:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Opções para `*PublishJob` incluem:
+As opções para `*PublishJob` incluem:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

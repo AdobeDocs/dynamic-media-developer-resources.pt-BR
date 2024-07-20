@@ -54,10 +54,10 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>Quando <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>Quando <span class="codeph"> verdadeiro</span>: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">A remoção de permissões se propaga por todas as operações de permissão de pastas. </li> 
-     </ul> </p> <p>Quando <span class="codeph"> false</span>: 
+     </ul> </p> <p>Quando <span class="codeph"> falso</span>: 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">A operação afeta somente a pasta especificada. </li> 
      </ul> </p> </td> 
@@ -71,7 +71,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Esta amostra de código remove as permissões de uma pasta e suas subpastas. Definir `updateChildren` para `false` para remover permissões somente da pasta principal.
+Esta amostra de código remove as permissões de uma pasta e suas subpastas. Defina `updateChildren` como `false` para remover permissões somente da pasta pai.
 
 **Solicitação**
 

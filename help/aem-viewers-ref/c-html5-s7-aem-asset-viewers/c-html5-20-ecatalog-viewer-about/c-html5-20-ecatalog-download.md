@@ -19,5 +19,5 @@ ht-degree: 0%
 O botão &quot;Download&quot; fica disponível automaticamente na interface do usuário do visualizador quando o seguinte ocorre:
 
 * Um arquivo PDF real está presente na empresa do cliente.
-* O nome corresponde ao nome do ativo de catálogo eletrônico passado para o visualizador e inclui um `.pdf` extensão.
+* O nome corresponde ao nome do ativo de catálogo eletrônico passado para o visualizador e inclui uma extensão `.pdf`.
 * O arquivo PDF é publicado no Dynamic Media Classic.

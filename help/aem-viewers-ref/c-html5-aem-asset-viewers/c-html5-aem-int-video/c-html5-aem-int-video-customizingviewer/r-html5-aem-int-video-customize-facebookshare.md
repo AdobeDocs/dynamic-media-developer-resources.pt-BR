@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 209dfe87-ca9d-405f-ba78-4e88f6ebe1d2
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ A aparência do botão de compartilhamento do Facebook é controlada com o segui
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ A aparência do botão de compartilhamento do Facebook é controlada com o segui
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-É possível remover o botão do painel Compartilhamento em redes sociais configurando `display:none` Propriedade CSS em sua classe CSS.
+É possível remover o botão do painel Compartilhamento em redes sociais definindo a propriedade CSS `display:none` em sua classe CSS.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exemplo {#section-01cbe0096b1443e0a7d91956bd264465}
 

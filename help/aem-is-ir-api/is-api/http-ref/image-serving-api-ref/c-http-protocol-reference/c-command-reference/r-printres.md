@@ -25,7 +25,7 @@ Resolução de impressão. Substitui o valor de resolução de impressão incorp
  </tr> 
 </table>
 
-A resolução de impressão é normalmente definida por `catalog::PrintResolution` se for uma entrada de catálogo, caso contrário, pelo valor de resolução de impressão incorporado na imagem de origem. Se houver um modelo ou uma imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta será a resolução de impressão da imagem da camada com o número de camada mais baixo.
+A resolução de impressão é normalmente definida por `catalog::PrintResolution` se for uma entrada do catálogo, caso contrário, é definida pelo valor da resolução de impressão incorporado na imagem de origem. Se houver um modelo ou uma imagem composta em camadas, a resolução de impressão padrão incorporada no arquivo de resposta será a resolução de impressão da imagem da camada com o número de camada mais baixo.
 
 A definição da resolução de impressão não altera o tamanho do pixel da imagem de resposta.
 

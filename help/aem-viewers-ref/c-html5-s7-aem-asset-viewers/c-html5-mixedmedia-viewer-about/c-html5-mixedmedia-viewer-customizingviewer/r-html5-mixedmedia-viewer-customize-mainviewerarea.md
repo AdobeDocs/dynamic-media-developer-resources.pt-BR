@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 

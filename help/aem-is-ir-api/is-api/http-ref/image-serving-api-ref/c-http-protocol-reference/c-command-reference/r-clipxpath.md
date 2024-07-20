@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminho de clipe de camada invertido. Especifica um caminho de clipe de exclusão para a camada atual. Qualquer parte da camada que esteja dentro da área definida por clipXPath= é renderizada como transparente.
 
-`clipXPath= *`pathDefinition`*`
+`clipXPath= *`definiçãoCaminho`*`
 
 `clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
@@ -35,7 +35,7 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 ## Propriedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado se `clipPath=` não foi especificado. Ignorado pelas camadas de efeito.
+Atributo de camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado se `clipPath=` não for especificado. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-d1986aa31af14767aeb1b4a57add67f4}
 

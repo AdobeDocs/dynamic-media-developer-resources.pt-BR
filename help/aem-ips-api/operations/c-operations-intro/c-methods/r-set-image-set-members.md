@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define a lista de ativos associados a um conjunto de imagens.
 
-Esta operação ignora o `pageReset` parâmetro para `ImageSets` e `SpinSets` e força o valor para true.
+Esta operação ignora o parâmetro `pageReset` para `ImageSets` e `SpinSets` e força o valor para true.
 
 ## Tipos de usuário autorizados {#section-8968d6a39a344cfc8521020d92ae8916}
 

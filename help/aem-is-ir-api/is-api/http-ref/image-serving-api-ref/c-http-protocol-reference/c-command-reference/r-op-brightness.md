@@ -27,7 +27,7 @@ Ajuste o brilho. Diminui ou aumenta o brilho da imagem.
 
 ## Propriedades {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
+Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
 
 ## Padrão {#section-be56be0759634c79b4f264f194a94dbc}
 

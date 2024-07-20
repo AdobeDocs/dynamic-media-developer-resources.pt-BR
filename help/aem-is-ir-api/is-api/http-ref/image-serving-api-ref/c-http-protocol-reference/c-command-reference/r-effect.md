@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Selecione Camada de efeito. Seleciona uma camada de efeito e inicia um novo segm
  </tr> 
 </table>
 
-Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é terminado pelo próximo `layer=` ou `effect=` ou no final da solicitação.
+Todos os comandos no novo segmento são aplicados à camada de efeito especificada. Um segmento de camada de efeito é terminado pelo próximo comando `layer=` ou `effect=` ou pelo fim da solicitação.
 
 O valor *`n`* deve ser menor que 0 para efeitos de camada externa (ou seja, efeitos atrás da camada pai) e maior que 0 para efeitos de camada interna (ou seja, efeitos dentro da camada pai). Os números das camadas de efeito não precisam ser consecutivos.
 
 O número da camada de efeito especifica a ordem z, se houver várias camadas de efeito para a mesma camada pai. As camadas com numeração mais alta são colocadas sobre camadas com numeração mais baixa.
 
-As camadas de efeito podem ser anexadas a `layer=comp`.
+Camadas de efeito podem ser anexadas a `layer=comp`.
 
 ## Propriedades {#section-e11f795deff345779ce280a82cf221ca}
 
-Comando de camada de efeito. O valor *`n`* não pode ser 0.
+Comando de camada de efeito. O valor *`n`* não deve ser 0.
 
 ## Padrão {#section-84bbe1cfe7a94040827c994323ac59d4}
 

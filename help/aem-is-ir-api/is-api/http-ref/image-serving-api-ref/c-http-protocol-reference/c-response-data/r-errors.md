@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ A quantidade de detalhes incluída na mensagem de erro é configurável com `att
 
 O Servidor de imagens pode ser configurado para retornar mensagens de erro renderizadas em uma imagem.
 
-Consulte [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) na referência do catálogo de imagens para obter detalhes.
+Consulte [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) na referência de catálogo de imagens para obter detalhes.
 
 Se a imagem de erro for gerada com êxito, o status da resposta HTTP será 200. Se ocorrer um erro ao processar a imagem de erro, a resposta de erro HTTP padrão e a mensagem de texto serão retornadas ao cliente.
 
 ## Imagem padrão {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-O Servidor de imagens pode ser configurado para substituir uma imagem ausente por uma imagem padrão. A imagem padrão pode ser especificada com `attribute::DefaultImage` ou o `defaultImage=` comando.
+O Servidor de imagens pode ser configurado para substituir uma imagem ausente por uma imagem padrão. A imagem padrão pode ser especificada com o comando `attribute::DefaultImage` ou `defaultImage=`.
 
 ## Consulte também {#section-e261d7f224ca4546bb64bf8cb909db08}
 

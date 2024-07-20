@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ A Renderização de imagem é compatível com um mecanismo de pré-processamento
 
 <!--<a id="section_F44601A65CE1451EAD0A449C66B773CC"></a>-->
 
-Coleções de regras de pré-processamento (*conjuntos de regras*) podem ser anexados a catálogos de materiais ou ao catálogo padrão. As regras no catálogo padrão se aplicam somente se a solicitação não anexar um catálogo de materiais específico.
+Coleções de regras de pré-processamento (*conjuntos de regras*) podem ser anexadas a catálogos de materiais ou ao catálogo padrão. As regras no catálogo padrão se aplicam somente se a solicitação não anexar um catálogo de materiais específico.
 
 As regras de pré-processamento de solicitações podem modificar o caminho e as partes de consulta de solicitações antes que elas sejam processadas pelo analisador de solicitações do servidor, incluindo manipulação do caminho, adição de comandos, alteração de valores de comando e aplicação de modelos ou macros. As regras também podem ser usadas para configurar e substituir alguns atributos de catálogo, bem como para limitar o serviço a endereços IP de clientes específicos.
 
@@ -47,9 +47,9 @@ Os conjuntos de regras são armazenados como arquivos de documento XML. O caminh
 </ruleset>
 ```
 
-A variável `<?xml>`, `<!DOCTYPE>` e `<ruleset>` Os elementos são sempre necessários em um arquivo XML válido de conjunto de regras, mesmo se nenhuma regra real estiver definida.
+Os elementos `<?xml>`, `<!DOCTYPE>` e `<ruleset>` são sempre necessários em um arquivo XML de conjunto de regras válido, mesmo se nenhuma regra real estiver definida.
 
-Um `<ruleset>` elemento que contém qualquer número de `<rule>` elementos são permitidos.
+Um elemento `<ruleset>` contendo qualquer número de elementos `<rule>` é permitido.
 
 O conteúdo dos arquivos de regras de pré-processamento diferencia maiúsculas de minúsculas.
 
@@ -57,15 +57,15 @@ O conteúdo dos arquivos de regras de pré-processamento diferencia maiúsculas 
 
 Antes de qualquer outro processamento, uma solicitação HTTP de entrada é parcialmente analisada para determinar qual catálogo de materiais deve ser aplicado. Depois que o catálogo é identificado, o conjunto de regras do catálogo selecionado (ou o catálogo padrão, se nenhum catálogo específico foi identificado) é aplicado.
 
-A variável `<rule>` os elementos são pesquisados na ordem especificada para uma correspondência com o conteúdo do `<expression>` elemento ( *`expression`*).
+Os elementos `<rule>` são pesquisados na ordem especificada para uma correspondência com o conteúdo do elemento `<expression>` ( *`expression`*).
 
-Se um `<rule>` for correspondente, a variável *`substitution`* é aplicado e a string de solicitação modificada é passada para o analisador de solicitação do servidor para processamento normal.
+Se um `<rule>` for correspondido, o *`substitution`* opcional será aplicado e a cadeia de caracteres de solicitação modificada será passada para o analisador de solicitações do servidor para processamento normal.
 
-Se nenhuma correspondência bem-sucedida for feita quando o final da `<ruleset>` for atingida, a solicitação será transmitida ao analisador sem modificação.
+Se nenhuma correspondência bem-sucedida for feita quando o final de `<ruleset>` for atingido, a solicitação será passada para o analisador sem modificação.
 
 ## O atributo OnMatch {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-O comportamento padrão pode ser modificado com a variável `OnMatch` atributo de `<rule>` elementos. `OnMatch` pode ser definido como `break` (padrão), `continue`ou `error.`
+O comportamento padrão pode ser modificado com o atributo `OnMatch` dos elementos `<rule>`. `OnMatch` pode ser definido como `break` (padrão), `continue` ou `error.`
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 
@@ -84,7 +84,7 @@ O comportamento padrão pode ser modificado com a variável `OnMatch` atributo d
    <td colname="col2"> <p>A substituição é aplicada e o processamento continua com a próxima regra. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> &lt;rule OnMatch="error"&gt;</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> &lt;regra OnMatch="erro"&gt;</span> </p> </td> 
    <td colname="col2"> <p>O processamento de regras é encerrado imediatamente e um status de resposta "solicitação recusada" é retornado ao cliente. </p> </td> 
   </tr> 
  </tbody> 
@@ -92,21 +92,21 @@ O comportamento padrão pode ser modificado com a variável `OnMatch` atributo d
 
 ## Substituição de atributos de catálogo {#section-1f59ce84234f4576ba8473b0e6ba22ee}
 
-`<rule>` os elementos podem, opcionalmente, definir atributos que substituem os atributos de catálogo correspondentes quando a regra é correspondida com sucesso e `OnMatch="break"` está definido. Nenhum atributo é aplicado se `OnMatch="continue"` está definido. Consulte a descrição de `<rule>` para obter uma lista de atributos que podem ser controlados com regras.
+`<rule>` elementos podem, opcionalmente, definir atributos que substituem os atributos de catálogo correspondentes quando a regra é correspondida com êxito e `OnMatch="break"` é definido. Nenhum atributo é aplicado se `OnMatch="continue"` estiver definido. Consulte a descrição de `<rule>` para obter uma lista de atributos que podem ser controlados com regras.
 
 ## Expressões regulares {#section-4d326507b52544b0960a9a5f303e3fe6}
 
 A correspondência de strings simples funciona para aplicativos muito básicos, mas expressões regulares são necessárias na maioria das instâncias. Embora as expressões regulares sejam padrão do setor, a implementação específica varia de instância para instância.
 
-[pacote java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descreve a implementação de expressão regular específica usada pelo Servidor de imagens.
+O [pacote java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/) descreve a implementação da expressão regular específica usada pelo Servidor de imagens.
 
 ## Substrings capturadas {#section-8057cd65d48949ffb6a50e929bd3688b}
 
-Para facilitar modificações complexas de URL, substrings podem ser capturadas na expressão ao colocar a substring entre parênteses (...). As subsequências de caracteres capturadas são numeradas sequencialmente, começando com 1 de acordo com a posição do parêntese inicial. As substrings capturadas podem ser inseridas na substituição usando *`$n`*, onde *`n`* é o número de sequência da substring capturada.
+Para facilitar modificações complexas de URL, substrings podem ser capturadas na expressão ao colocar a substring entre parênteses (...). As subsequências de caracteres capturadas são numeradas sequencialmente, começando com 1 de acordo com a posição do parêntese inicial. As subsequências de caracteres capturadas podem ser inseridas na substituição usando *`$n`*, onde *`n`* é o número de sequência da subsequência de caracteres capturada.
 
 ## Gerenciamento de arquivos de conjunto de regras {#section-e8ce976b56404c009496426fd334d23d}
 
-Um arquivo de conjunto de regras pode ser anexado a cada catálogo de materiais com o atributo de catálogo `attribute::RuleSetFile`. Embora você possa editar o arquivo de conjunto de regras a qualquer momento, o servidor de imagens reconhece as alterações somente quando o catálogo de materiais associado é recarregado. Isso acontece quando a variável [!DNL Platform Server] seja iniciado ou reiniciado e sempre que o arquivo de catálogo principal (que tem um [!DNL .ini] file suffix) for modificado ou &quot;tocado&quot; (para alterar a data do arquivo).
+Um arquivo de conjunto de regras pode ser anexado a cada catálogo de materiais com o atributo de catálogo `attribute::RuleSetFile`. Embora você possa editar o arquivo de conjunto de regras a qualquer momento, o servidor de imagens reconhece as alterações somente quando o catálogo de materiais associado é recarregado. Isso acontece quando o [!DNL Platform Server] é iniciado ou reiniciado e sempre que o arquivo de catálogo principal (que tem um sufixo de arquivo [!DNL .ini]) é modificado ou &quot;tocado&quot; (para alterar a data do arquivo).
 
 ## Exemplos {#section-c4142a41f5cd4ff799a72fbc130c3700}
 

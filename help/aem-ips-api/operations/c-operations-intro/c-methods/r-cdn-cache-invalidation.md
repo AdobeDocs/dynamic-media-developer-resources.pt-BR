@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ Encaminha a lista de URLs fornecida ao provedor Dynamic Media CDN (Content Distr
 
 A invalidação do cache do CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Dynamic Media depois que essa solicitação de invalidação for processada pela rede CDN. Qualquer URL que não esteja conectado à estrutura de URL de serviço do Dynamic Media e que corresponda diretamente à ID raiz da empresa do Dynamic Media atribuída quando a empresa foi criada resultará em uma falha de API para toda a solicitação. Quaisquer URLs inválidos não suportados pelo CDN e considerados inválidos também resultam em uma falha de API para toda a solicitação.
 
-**Frequência de uso: regras**
+**Frequência de Uso: Regras**
 
 As regras que regem a frequência de uso desse recurso são controladas pelos parceiros CDN da Dynamic Media. A CDN mantém a discrição de degradar a capacidade de resposta dessas invalidações para manter o desempenho ideal de seu serviço para seus usuários. Se a Dynamic Media for notificada de uso excessivo desse recurso, o Adobe deverá recorrer à desativação do recurso por empresa ou inteiramente por todo o serviço.
 
-**Emails de confirmação**
+**Emails de Confirmação**
 
-Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviados ao criador da lista ou até 5 outros endereços de email. A API envia a confirmação quando toda a rede CDN é notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` O pode enviar vários emails se o número de URLs fornecidos exceder o número que o Dynamic Media pode entregar ao parceiro de CDN em uma única notificação. Atualmente, isso acontece se a solicitação exceder 100 URLs, mas estiver sujeita a alterações com base na solicitação do parceiro de CDN.
+Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviados ao criador da lista ou até 5 outros endereços de email. A API envia a confirmação quando toda a rede CDN é notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` poderá enviar vários emails se o número de URLs fornecidas exceder o número que a Dynamic Media pode entregar ao parceiro de CDN em uma única notificação. Atualmente, isso acontece se a solicitação exceder 100 URLs, mas estiver sujeita a alterações com base na solicitação do parceiro de CDN.
 
-**Compatível desde**
+**Com Suporte Desde**
 
-6.0
+6,0
 
 ## Tipos de usuário autorizados {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -46,7 +46,7 @@ Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviado
   <tr> 
    <th class="entry"> <b> Nome</b> </th> 
    <th class="entry"> <b> Tipo</b> </th> 
-   <th class="entry"> <b> Obrigatório</b> </th> 
+   <th class="entry"> <b> Necessário</b> </th> 
    <th class="entry"> <b> Descrição</b> </th> 
   </tr> 
  </thead>
@@ -66,14 +66,14 @@ Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviado
  </tbody> 
 </table>
 
-**Output**( `cdnCacheInvalidationReturn`)
+**Saída**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
   <tr> 
    <th class="entry"> <b> Nome</b> </th> 
    <th class="entry"> <b> Tipo</b> </th> 
-   <th class="entry"> <b> Obrigatório</b> </th> 
+   <th class="entry"> <b> Necessário</b> </th> 
    <th class="entry"> <b> Descrição</b> </th> 
   </tr> 
  </thead>
@@ -82,7 +82,7 @@ Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviado
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
-   <td colname="col4"> <p>Um identificador que faz referência à solicitação de limpeza. </p> <p>A variável <span class="codeph"> cdnCacheInvalidation</span> A API agora invalida o cache quase imediatamente (~5 segundos). Dessa forma, a pesquisa do status de invalidação geralmente não é mais necessária. </p> 
+   <td colname="col4"> <p>Um identificador que faz referência à solicitação de limpeza. </p> <p>A API <span class="codeph"> cdnCacheInvalidation</span> agora invalida o cache quase imediatamente (~5 segundos). Dessa forma, a pesquisa do status de invalidação geralmente não é mais necessária. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
@@ -100,7 +100,7 @@ Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviado
 
 Esse exemplo solicita quatro URLs a serem invalidados no cache da CDN. A resposta contém contagens resumidas do sucesso das operações e uma lista de detalhes de erros fornecidos diretamente da CDN para ajudar o cliente a usar esse recurso.
 
-`getCdnCacheInvalidationStatus` operação.
+Operação `getCdnCacheInvalidationStatus`.
 
 **Solicitação**
 

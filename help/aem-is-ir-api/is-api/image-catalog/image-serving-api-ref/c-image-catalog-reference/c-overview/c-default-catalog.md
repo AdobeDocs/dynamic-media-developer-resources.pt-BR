@@ -20,8 +20,8 @@ Se um determinado atributo não puder ser encontrado em um catálogo de imagens 
 
 Além disso, o catálogo padrão fornece todos os atributos e registros de dados (macros, fontes, perfis ICC, regras de pré-processamento de solicitação) quando nenhum catálogo de imagens específico está envolvido em uma operação.
 
-Para o correto funcionamento do [!DNL Platform Server] o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini], sempre devem existir na pasta do catálogo e devem ser totalmente preenchidos com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados de catálogo, que são opcionais.
+Para o funcionamento correto do [!DNL Platform Server], o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado como [!DNL default.ini], deve sempre existir na pasta do catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados do catálogo, que são todos opcionais.
 
 >[!NOTE]
 >
->Todos os arquivos de atributo de catálogo exceto [!DNL default.ini] deve conter um caractere exclusivo `attribute::RootId` valor. `attribute::RootId` in [!DNL default.ini] deve estar vazio.
+>Todos os arquivos de atributos de catálogo, exceto [!DNL default.ini], devem conter um valor `attribute::RootId` exclusivo. `attribute::RootId` em [!DNL default.ini] deve estar vazio.

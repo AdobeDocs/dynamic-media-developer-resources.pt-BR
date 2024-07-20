@@ -18,7 +18,7 @@ As opções a seguir controlam o processamento de arquivos no estilo do gabinete
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph">-resolução <span class="varname"> val</span></span> </p> </td> 
   <td class="stentry"> <p>Especifica a resolução de destino para arquivos de estilo de gabinete. Valor real em pixels por polegada. Se não for especificado, o arquivo de estilo do gabinete de produção terá a mesma resolução que o arquivo de origem. </p></td> 
  </tr> 
 </table>

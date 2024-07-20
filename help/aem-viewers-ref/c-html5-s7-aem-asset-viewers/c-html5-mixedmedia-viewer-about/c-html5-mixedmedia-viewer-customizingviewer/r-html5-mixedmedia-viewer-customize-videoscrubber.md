@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ A aparência geral do depurador de vídeo é controlada com o seguinte seletor d
    <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ A aparência geral do depurador de vídeo é controlada com o seguinte seletor d
    <td colname="col2"> <p>Altura do depurador de vídeo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do depurador de vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -68,7 +68,7 @@ Os seletores de classe CSS a seguir rastreiam os indicadores de plano de fundo, 
    <td colname="col2"> <p>Altura da faixa correspondente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor da faixa correspondente. </p> </td> 
   </tr> 
  </tbody> 
@@ -97,7 +97,7 @@ O seletor de classe CSS a seguir controla o botão:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Obstrução de arte. </p> </td> 
   </tr> 
   <tr> 
@@ -118,11 +118,11 @@ O seletor de classe CSS a seguir controla a bolha de tempo reproduzida:
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> A família da fonte a ser usada para o texto de exibição de hora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p> O tamanho da fonte a ser usada para o texto de exibição de tempo. </p> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ O seletor de classe CSS a seguir controla a bolha de tempo reproduzida:
    <td colname="col2"> <p>Preenchimento da área de bolhas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Trabalho artístico em bolha. </p> </td> 
   </tr> 
   <tr> 

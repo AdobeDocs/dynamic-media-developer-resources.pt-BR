@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> itens</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas na variável <span class="codeph"> dc:subject=</span> Nó de propriedade do XMP. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisará ser evitada com um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida dupla usual (\\). </p> </td> 
+   <td colname="col3"> <p>Uma lista separada por vírgulas de palavras-chave que são mescladas no nó de propriedade XMP <span class="codeph"> dc:subject=</span>. Se uma vírgula aparecer em qualquer um dos valores individuais, ela precisará ser evitada com um caractere de barra invertida (\). Uma barra invertida literal é a barra invertida dupla usual (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

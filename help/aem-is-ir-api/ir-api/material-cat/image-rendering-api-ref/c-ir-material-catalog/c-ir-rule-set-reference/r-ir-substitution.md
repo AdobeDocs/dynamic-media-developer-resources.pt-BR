@@ -1,6 +1,6 @@
 ---
 title: substituição
-description: Elemento de string de substituição. Opcional em <rule> elementos.
+description: Elemento de string de substituição. Opcional em elementos <rule>.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -32,10 +32,10 @@ Se a expressão padrão incluir subexpressões (delimitadas por parênteses), a 
 
 Se `<expression>` estiver vazio ou ausente, a cadeia de caracteres de substituição será anexada ao caminho ou à consulta.
 
-Se `<substitution>` estiver vazio, a string ou substring correspondente será removida. Se `<substitution>` não for especificado, o caminho ou a sequência de consulta não será modificada.
+Se `<substitution>` estiver vazio, a cadeia ou subcadeia correspondente será removida. Se `<substitution>` não for especificado, o caminho ou a cadeia de consulta não será modificada.
 
 ## Nota {#section-90fe89bb17a04804b7ff3c93df082892}
 
-A cadeia de caracteres de substituição não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia de caracteres inteira pode ser inserida em um XML `CDATA` seção:
+A cadeia de caracteres de substituição não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia inteira pode ser inserida em uma seção XML `CDATA`:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

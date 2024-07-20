@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definida como <span class="codeph"> 1 </span> o volume fica sem áudio; caso contrário, o vídeo é reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite a reprodução automática do vídeo. </p> </td> 
+   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span>, o volume será silenciado; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite a reprodução automática do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

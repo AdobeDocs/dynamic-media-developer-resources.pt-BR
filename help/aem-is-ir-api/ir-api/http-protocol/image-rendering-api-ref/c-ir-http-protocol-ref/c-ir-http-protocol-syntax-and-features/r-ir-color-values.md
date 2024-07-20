@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 9%
+source-wordcount: '117'
+ht-degree: 1%
 
 ---
 
 # Valores de cor{#color-values}
 
-Valores de cor para `color=` e `bgc=` os atributos podem ser especificados usando uma lista de valores de componentes decimais separados por vírgulas ou uma notação hexadecimal, semelhante a HTML.
+Os valores de cor para os atributos `color=` e `bgc=` podem ser especificados usando uma lista de valores de componente decimais separados por vírgula ou uma notação hexadecimal, semelhante a HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -26,7 +26,7 @@ Valores de cor para `color=` e `bgc=` os atributos podem ser especificados usand
   <td class="stentry"> <p>Valor do componente de cor (0 a 255, número inteiro decimal). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>hex6</i> </p></td> 
+  <td class="stentry"> <p><i>hexa6</i> </p></td> 
   <td class="stentry"> <p>Valor de cor de RGB hexadecimal de seis dígitos compactado (RRGGBB). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -41,12 +41,12 @@ Alguns exemplos de especificadores de cor válidos e sua interpretação de valo
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,100,200 </p></td> 
+  <td class="stentry"> <p>0.100.200 </p></td> 
   <td class="stentry"> <p>(0,100,200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
-  <td class="stentry"> <p>(128,128,128) </p></td> 
+  <td class="stentry"> <p>(128 128 128) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>0x010203 </p></td> 
@@ -54,10 +54,10 @@ Alguns exemplos de especificadores de cor válidos e sua interpretação de valo
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>00b1c2 </p></td> 
-  <td class="stentry"> <p>(160,177,194) </p></td> 
+  <td class="stentry"> <p>(160 177 194) </p></td> 
  </tr> 
 </table>
 
 ## Consulte também {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [calda=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)

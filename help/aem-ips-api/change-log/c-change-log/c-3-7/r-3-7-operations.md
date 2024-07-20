@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Sintaxe
 
 **searchAsset**
 
-* Removido `name` parâmetro.
+* Parâmetro `name` removido.
 * Adicionado `excludeFieldArray`.
 
 **getFolders**
@@ -50,4 +50,4 @@ Sintaxe
 **getFolderTree**
 
 * Adicionado `excludeFieldArray` e `getUniqueMetadataValues`.
-* Feito `fieldHandle` um parâmetro obrigatório.
+* `fieldHandle` tornou-se um parâmetro obrigatório.

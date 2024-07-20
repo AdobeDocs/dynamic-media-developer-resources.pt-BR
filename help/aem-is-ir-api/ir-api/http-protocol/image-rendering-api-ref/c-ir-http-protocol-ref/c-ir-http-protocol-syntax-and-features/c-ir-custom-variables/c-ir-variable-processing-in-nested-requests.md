@@ -16,8 +16,8 @@ ht-degree: 0%
 
 As referências $var$ podem ocorrer em qualquer lugar dentro das chaves de uma solicitação aninhada de Servidor de imagens ou de Renderização de imagens, inclusive à esquerda de &#39;?&#39; separar o caminho da consulta.
 
-O servidor substitui essas referências por valores (do url ou do `catalog::Modifier` do catálogo de imagens principal) antes de analisar e processar a solicitação aninhada.
+O servidor substitui essas referências por valores (da url ou do `catalog::Modifier` do catálogo de imagens principal) antes de analisar e processar a solicitação aninhada.
 
-Além disso, todas as `$ *[!DNL var]*=` definições do url e `catalog::Modifier` são encaminhadas para todas as solicitações aninhadas de Servidor de imagens e Renderização de imagens. Isso garante que todas as definições de variável estejam disponíveis para todos os modelos, independentemente do nível de aninhamento.
+Além disso, todas as definições `$ *[!DNL var]*=` da URL e `catalog::Modifier` são encaminhadas para todas as solicitações aninhadas de Servidor de Imagens e de Renderização de Imagens. Isso garante que todas as definições de variável estejam disponíveis para todos os modelos, independentemente do nível de aninhamento.
 
 Independentemente do nível de aninhamento, somente a codificação HTTP de passagem única deve ser aplicada aos valores de variável que devem ser substituídos em qualquer lugar nas solicitações aninhadas de Renderização de imagem ou de Servidor de imagens.

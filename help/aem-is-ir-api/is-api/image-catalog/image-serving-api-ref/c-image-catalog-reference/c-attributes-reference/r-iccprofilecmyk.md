@@ -18,7 +18,7 @@ Perfil de cor de saída padrão CMYK. Especifica o nome do perfil de cores ICC a
 
 ## Propriedades {#section-d8b6102cc1c744d482f99808ccfcaa24}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
 
 ## Padrão {#section-62442df09a724950bfbdd0640b3e6678}
 

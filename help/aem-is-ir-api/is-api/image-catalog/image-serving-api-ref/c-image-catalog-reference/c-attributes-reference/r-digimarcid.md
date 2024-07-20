@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Cinco ou seis números inteiros separados por vírgulas. O terceiro e o quarto n
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-A variável `creator-id` e `creator-pin` são fornecidos pela Digimarc quando o serviço é adquirido. Os valores não utilizados devem ser deixados em branco.
+O `creator-id` e o `creator-pin` são fornecidos pela Digimarc quando o serviço é comprado. Os valores não utilizados devem ser deixados em branco.
 
 `durability` especifica a intensidade de incorporação da marca d&#39;água da Digimarc. Pode ser 1, 2, 3 ou 4, com 1 indicando a durabilidade mais fraca e 4 mais fortes.
 
-Definir `chroma` para 1 para codificar a marca d&#39;água nos dados de crominância da imagem ou para 0 (padrão) para codificá-la na luminância. Essa configuração é ignorada ao gerar imagens em tons de cinza.
+Defina `chroma` como 1 para codificar a marca d&#39;água nos dados de crominância da imagem ou como 0 (padrão) para codificá-la na luminosidade. Essa configuração é ignorada ao gerar imagens em tons de cinza.
 
 ## Padrão {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 

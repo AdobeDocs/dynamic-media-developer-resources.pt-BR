@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Se esse valor for fornecido, o Servidor de imagens o usará para evitar a necess
 
 >[!NOTE]
 >
->Se `catalog::Size`for fornecido e não for o mesmo que o tamanho real da imagem com resolução total. Poderá ocorrer um comportamento indefinido.
+>Se `catalog::Size`for fornecido e não for o mesmo que o tamanho real da imagem com resolução total, poderá ocorrer um comportamento indefinido.
 
 ## Propriedades {#section-5c914ec8b1444a8e99d811b647cd42a3}
 

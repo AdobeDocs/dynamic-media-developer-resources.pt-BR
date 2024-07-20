@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3">Gera o mapa do site quando definido como <span class="codeph"> true</span>. <p><p>Observação: se a Configuração de Geração de Mapa do Site estiver definida como manual e <span class="codeph"> forceUpdate</span> não estiver definido, o mapa do site não será gerado. </p></p></td> 
+   <td colname="col3">Gera o mapa do site quando definido como <span class="codeph"> true</span>. <p><p>Observação: se a Configuração de Geração de Mapa do Site estiver definida como manual e <span class="codeph"> forceUpdate</span> não estiver definida, o mapa do site não será gerado. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

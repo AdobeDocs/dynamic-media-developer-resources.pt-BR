@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cc0e8c18-f9c1-4451-9fbe-3b082f78a7ec
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Posição a partir da borda direita da barra de controle principal, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda da barra de controle principal, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior da barra de controle principal, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

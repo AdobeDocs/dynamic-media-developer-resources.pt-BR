@@ -29,7 +29,7 @@ Permite cortar a caixa delimitadora de um caminho nomeado incorporado. Esse cort
 
 ## Propriedades {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito.
+Atributo de camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito.
 
 `cropPathE=` será ignorado se nenhum caminho com o nome especificado for encontrado na imagem de origem da camada, ou se a origem da camada não for uma imagem.
 
@@ -39,4 +39,4 @@ Nenhum, para nenhum corte adicional da camada.
 
 ## Consulte também {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[cortar](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recorte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

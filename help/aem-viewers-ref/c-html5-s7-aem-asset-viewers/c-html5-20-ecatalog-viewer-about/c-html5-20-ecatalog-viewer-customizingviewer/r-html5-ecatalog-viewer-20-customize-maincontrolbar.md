@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da barra de controle principal é controlada com o seguinte seletor
    <td colname="col2"> <p>Posição na parte superior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição na parte inferior do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ A aparência da barra de controle principal é controlada com o seguinte seletor
    <td colname="col2"> <p>A altura da barra de controle principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da barra de controle principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -74,8 +74,8 @@ O recurso de rolagem está habilitado para a barra de controle principal e desab
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Quando definido como <span class="codeph"> estático </span> o recurso de rolagem está desativado. </p> <p>Defina esta propriedade como <span class="codeph"> absoluto </span> para ativar o recurso de rolagem. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> posição </span> </p> </td> 
+   <td colname="col2"> <p>Quando definido como <span class="codeph"> static </span>, o recurso de rolagem está desabilitado. </p> <p>Defina esta propriedade como <span class="codeph"> absoluto </span> para habilitar o recurso de rolagem. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ A aparência desse contêiner de botão de rolagem é controlada com o seguinte 
    <td colname="col2"> <p>Normalmente deve ser igual ou maior que a largura do próprio botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo do contêiner. </p> </td> 
   </tr> 
  </tbody> 
@@ -128,7 +128,7 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -140,11 +140,11 @@ A aparência desse botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `state="selected"` corresponde ao estado inicial do botão de rolagem quando é possível rolar o conteúdo da barra de controle para a esquerda. O atributo `state="default"` corresponde ao estado quando o conteúdo é rolado totalmente para a esquerda, e o botão de rolagem sugere retorná-lo ao estado inicial.
+>Este botão oferece suporte aos seletores de atributos `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `state="selected"` corresponde ao estado inicial do botão de rolagem quando é possível rolar o conteúdo da barra de controle para a esquerda. O atributo `state="default"` corresponde ao estado quando o conteúdo é rolado totalmente para a esquerda, e o botão de rolagem sugere retorná-lo ao estado inicial.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
-**Exemplo** - Para ativar o recurso de rolagem na barra de controle principal para telefones celulares. E configure um botão de rolagem com 64 x 64 pixels que exiba uma imagem diferente para cada um dos 4 estados de botão diferentes quando selecionado ou não selecionado:
+**Exemplo** - Para habilitar o recurso de rolagem na barra de controle principal para celulares. E configure um botão de rolagem com 64 x 64 pixels que exiba uma imagem diferente para cada um dos 4 estados de botão diferentes quando selecionado ou não selecionado:
 
 ```
 .s7ecatalogviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

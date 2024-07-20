@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerância</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Especificação de correspondência de cores. Usa: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder exatamente às cores. </li>

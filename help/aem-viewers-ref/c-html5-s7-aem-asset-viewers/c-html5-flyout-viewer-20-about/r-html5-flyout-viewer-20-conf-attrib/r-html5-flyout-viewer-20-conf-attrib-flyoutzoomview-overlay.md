@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Controla a aparência do destaque da exibição principal quando a imagem suspensa está ativa. Quando definido como <span class="codeph"> 0</span>, a área visível na janela da imagem suspensa é realçada com os estilos fornecidos pelo <span class="codeph"> .s7highlight</span> ou por <span class="codeph"> .s7cursor</span> Nomes de classe CSS (dependendo do valor de <span class="codeph"> modo realce</span> modificador). Quando definido como <span class="codeph"> 1</span> entra no modo "inverso" onde a área visualizada atualmente é totalmente transparente (caso <span class="codeph"> modo realce</span> está definida como <span class="codeph"> realçar</span>) ou estilizado com <span class="codeph"> .s7cursor</span> Nome da classe CSS (caso esteja <span class="codeph"> modo realce</span> está definida como <span class="codeph"> cursor</span>), mas a área ao redor é preenchida com estilos fornecidos por <span class="codeph"> .s7overlay</span> Nome da classe CSS. </p> </td> 
+   <td colname="col2"> <p> Controla a aparência do destaque da exibição principal quando a imagem suspensa está ativa. Quando definida como <span class="codeph"> 0</span>, a área visível na janela da imagem suspensa é realçada usando os estilos fornecidos pelo <span class="codeph"> .s7highlight</span> ou pelos nomes de classe CSS <span class="codeph"> .s7cursor</span> (dependendo do valor do modificador <span class="codeph"> highlightmode</span>). Quando definido como <span class="codeph"> 1</span>, o componente insere o modo "inverse", no qual a área vista atualmente é totalmente transparente (caso <span class="codeph"> highlightmode</span> esteja definido como <span class="codeph"> highlight</span>) ou estilizado com <span class="codeph"> .s7cursor</span> nome de classe CSS (caso <span class="codeph"> highlightmode</span> esteja definido como <span class="codeph"> cursor</span>), mas a área ao redor é preenchida usando os estilos fornecidos pelo nome de classe CSS <span class="codeph"> .s7overlay</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento para o Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 

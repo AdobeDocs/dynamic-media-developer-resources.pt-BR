@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cor de imagem dominante. Cor subtrativa, usada para colorização de textura. Deve ser a cor dominante média na imagem de textura.
 
-Também é possível usar `BaseColor`como uma cor de preenchimento se um material de textura que não `catalog::Color` é aplicado a um objeto de vinheta não texturável.
+Você também pode usar `BaseColor` como uma cor de preenchimento se um material de textura que não tem `catalog::Color` for aplicado a um objeto de vinheta não texturável.
 
 ## Propriedades {#section-d9aec235f28b402581cf2277f5fc6fbb}
 

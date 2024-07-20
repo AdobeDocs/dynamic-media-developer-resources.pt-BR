@@ -41,7 +41,7 @@ Defina ou atualize o estado de publicação de um ou mais ativos. É possível d
 | companyHandle | `xsd:string` | Sim | Processe a empresa. |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | Sim | Uma matriz de ativos e seus novos estados de publicação. |
 
-**Saída (setAssetsContextStateReturn)**
+**Saída (setAssetsContexStateReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
@@ -52,7 +52,7 @@ Defina ou atualize o estado de publicação de um ou mais ativos. É possível d
 
 ## Exemplos {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Essa amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
+Esta amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 

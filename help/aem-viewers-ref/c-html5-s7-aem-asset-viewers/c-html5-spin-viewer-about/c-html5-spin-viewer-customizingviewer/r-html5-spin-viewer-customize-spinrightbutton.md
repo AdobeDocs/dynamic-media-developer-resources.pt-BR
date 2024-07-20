@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 312260ae-8604-49a1-9874-3650919d91ab
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ O botão é adicionado a um contêiner interno controlado por DIV com o seletor 
    <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -84,11 +84,11 @@ A aparência desse botão dentro do container é controlada com o seletor de cla
    <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ A aparência desse botão dentro do container é controlada com o seletor de cla
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -112,7 +112,7 @@ A aparência desse botão dentro do container é controlada com o seletor de cla
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) para obter mais informações.
 

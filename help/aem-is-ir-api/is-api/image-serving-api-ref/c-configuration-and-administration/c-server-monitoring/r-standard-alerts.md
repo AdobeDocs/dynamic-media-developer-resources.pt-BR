@@ -21,8 +21,8 @@ A tabela a seguir descreve cada tipo de alerta padrão.
 <table id="table_02611F1B920E48A6973BFA969CA564EB"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Tipo de alerta</b> </th> 
-   <th class="entry"> <b>ID do título</b> </th> 
+   <th class="entry"> <b>Tipo de Alerta</b> </th> 
+   <th class="entry"> <b>Id do Título</b> </th> 
    <th class="entry"> <b>Descrição</b> </th> 
   </tr> 
  </thead>
@@ -35,7 +35,7 @@ A tabela a seguir descreve cada tipo de alerta padrão.
   <tr> 
    <td> <p>Alta simultaneidade </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Emitido quando o número de solicitações processadas simultaneamente (a variável <i>sobreposição</i>) excede o limite especificado. Pode indicar uma condição de sobrecarga do servidor. </td> 
+   <td> Emitido quando o número de solicitações processadas simultaneamente (a <i>sobreposição</i>) excede o limite especificado. Pode indicar uma condição de sobrecarga do servidor. </td> 
   </tr> 
   <tr> 
    <td> <p>Tráfego mínimo </p> </td> 

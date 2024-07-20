@@ -45,7 +45,7 @@ Sintaxe
 
 ## Exemplos {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Esta amostra de código substitui uma imagem e aplica uma `urlModifier` com um comando que especifica que o Servidor de imagens não executa nenhuma ação na substituição.
+Esta amostra de código substitui uma imagem e aplica um `urlModifier` com um comando que especifica que o Servidor de imagens não executa nenhuma ação na substituição.
 
 **Solicitação**
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-Se houver uma imagem, texto e camadas de cores sólidas, `pos=` especifica a posição de uma âncora de camada em relação à âncora de camada 0. A variável `posN=` os valores de coordenadas são normalizados em relação ao tamanho reto real da camada 0.
+Se houver uma imagem, texto e camadas de cores sólidas, `pos=` especifica a posição de uma âncora de camada em relação à âncora de camada 0. Os valores de coordenadas `posN=` são normalizados em relação ao tamanho reto real da camada 0.
 
-Se houver camadas de efeito, `pos=` desloca a camada de efeito em relação à camada principal.
+Se houver camadas de efeito, `pos=` desloca a camada de efeito em relação à camada pai.
 
-Os valores positivos movem a camada para a direita/para baixo e os negativos para a esquerda/para cima. Entrada `posN=0.5,0.5`, move a camada pela metade da largura e altura da camada 0 para baixo e para a direita.
+Os valores positivos movem a camada para a direita/para baixo e os negativos para a esquerda/para cima. No `posN=0.5,0.5`, ele move a camada pela metade da largura e altura da camada 0 para baixo e para a direita.
 
 ## Propriedades {#section-51a60cdc52d040538fef378ace7c2e7d}
 

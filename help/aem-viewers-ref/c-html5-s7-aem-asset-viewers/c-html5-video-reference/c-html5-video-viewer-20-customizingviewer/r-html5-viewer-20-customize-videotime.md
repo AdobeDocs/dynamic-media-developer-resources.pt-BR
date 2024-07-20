@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ A aparência do tempo de vídeo é controlada com o seguinte seletor de classe C
    <td colname="col2"> <p> A largura do controle de tempo do vídeo. Esta propriedade é necessária para que o Internet Explorer 8 ou posterior funcione corretamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>A família da fonte a ser usada para o texto de exibição de hora. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>O tamanho da fonte a ser usada para o texto de exibição de tempo. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ A aparência do tempo de vídeo é controlada com o seguinte seletor de classe C
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Defina a hora do vídeo como cinza-claro (hexadecimal) `#BBBBBB`), dimensionado em 12 pixels, posicionado a 15 pixels da parte superior da barra de controle e a 80 pixels das bordas direitas da barra de controle.
+Defina o tempo do vídeo como cinza-claro (hexadecimal `#BBBBBB`), dimensionado a 12 pixels, posicionado a 15 pixels da parte superior da barra de controle e a 80 pixels das bordas direitas da barra de controle.
 
 ```
 .s7videoviewer .s7videotime { 

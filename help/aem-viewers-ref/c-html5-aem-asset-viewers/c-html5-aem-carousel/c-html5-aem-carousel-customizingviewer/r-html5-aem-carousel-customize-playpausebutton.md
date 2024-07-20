@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O botão Reproduzir/Pausar permite que o usuário pause ou retome o comportament
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-O botão estará visível somente se a variável `CarouselViewer.autoplay` está definido como `1`; caso contrário, ela ficará oculta. Você pode dimensionar, capa e posicionar esse botão, em relação à barra de controle que o contém, usando CSS.
+O botão é visível somente se o parâmetro `CarouselViewer.autoplay` estiver definido como `1`; caso contrário, ele fica oculto. Você pode dimensionar, capa e posicionar esse botão, em relação à barra de controle que o contém, usando CSS.
 
 **Propriedades CSS da área do visualizador principal**
 
@@ -43,11 +43,11 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Posição a partir da direita da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição à esquerda do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição na parte inferior da borda do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) para obter mais informações.
 

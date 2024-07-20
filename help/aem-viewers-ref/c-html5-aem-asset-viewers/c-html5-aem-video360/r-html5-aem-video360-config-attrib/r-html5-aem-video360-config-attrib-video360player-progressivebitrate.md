@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 4%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 4%
 
 Atributo de configuração para o Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
+` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`valor`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valor</span> </p> </td> 
    <td colname="col2"> <p> Especifica a taxa de bits de vídeo desejada (em quilobits por segundo ou kbps) para ser reproduzida a partir de um Conjunto de vídeos adaptados caso o sistema atual não suporte a reprodução de vídeo adaptado. </p> <p>O componente captura o fluxo de vídeo com a taxa de bits mais próxima (mas sem ultrapassar) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptados tiverem uma qualidade maior do que o valor especificado, a lógica escolherá a taxa de bits com a menor qualidade. </p> </td> 
   </tr> 
  </tbody> 

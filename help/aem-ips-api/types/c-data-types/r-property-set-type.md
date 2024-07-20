@@ -44,14 +44,14 @@ Os valores incluem:
    <td colname="col3">Identificador da empresa. <p>Observação: o tipo será global se o identificador da empresa não estiver presente. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Digite o nome. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Um dos Tipos de conjunto de propriedades. Consulte Entrada (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col3">Um dos Tipos de conjunto de propriedades. Consulte a Entrada (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 

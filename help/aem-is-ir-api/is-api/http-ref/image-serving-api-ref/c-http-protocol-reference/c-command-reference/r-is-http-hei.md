@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Altura da exibição. Especifica a altura da imagem de resposta (imagem de exibi
  </tr> 
 </table>
 
-Se ambos `wid=` e `scl=` forem especificadas, a imagem composta poderá ser cortada de acordo com as `align=`atributo. Quando `fit=` está presente, `hei=` especifica a altura exata, mínima ou máxima da imagem de resposta; consulte a descrição de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) para obter detalhes.
+Se `wid=` e `scl=` forem especificados, a imagem composta poderá ser cortada de acordo com o atributo `align=`. Quando `fit=` está presente, `hei=` especifica a altura exata, mínima ou máxima da imagem de resposta; consulte a descrição de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) para obter detalhes.
 
-Se `scl=` não for especificada, a imagem composta será dimensionada para caber. Se ambos `wid=` e `hei=` são especificados e `scl=` não for especificada, então a imagem é dimensionada para caber inteiramente dentro do retângulo wid/hei, deixando a menor área de fundo exposta possível. Nesse caso, a imagem é posicionada dentro do retângulo de exibição de acordo com a variável `align=` atributo. A área de plano de fundo é preenchida com `bgc=`, ou, se não especificado com `attribute::BkgColor`.
+Se `scl=` não for especificado, a imagem composta será dimensionada para caber. Se `wid=` e `hei=` forem especificados e `scl=` não for, a imagem será dimensionada para caber inteiramente no retângulo wid/hei, deixando a menor área de plano de fundo exposta possível. Nesse caso, a imagem é posicionada dentro do retângulo de exibição de acordo com o atributo `align=`. A área de plano de fundo está preenchida com `bgc=`, ou, se não for especificada com `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ Exibir atributo. Ela se aplica independentemente da configuração atual da cama
 
 ## Padrão {#section-76544d34806d4124a8b173e229cba71f}
 
-Se nenhuma delas `wid=`, `hei=`, nem `scl=` forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
+Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
 
 ## Exemplos {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem na parte superior esquerda se ela não for quadrada. Qualquer área do plano de fundo é preenchida com `attribute::BkgColor`.
+Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem na parte superior esquerda se ela não for quadrada. Qualquer área da tela de fundo é preenchida com `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-A mesma imagem, entregue em uma altura fixa de 200 pixels, mas com uma largura variável para corresponder à proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. E, neste caso, `align=` não teria qualquer efeito.
+A mesma imagem, entregue em uma altura fixa de 200 pixels, mas com uma largura variável para corresponder à proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. E, neste caso, `align=` não teria nenhum efeito.
 
 `http://server/myRootId/myImageId?hei=200`
 

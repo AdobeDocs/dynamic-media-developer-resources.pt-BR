@@ -1,6 +1,6 @@
 ---
 title: descartar
-description: Referência da API JavaScript para o Visualizador de rotação.
+description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # descartar{#dispose}
 
-Referência da API JavaScript para o Visualizador de rotação.
+Referência da API do JavaScript para o Visualizador de rotação.
 
 `dispose()`
 
@@ -22,9 +22,9 @@ Descarta essa instância do visualizador, liberando todos os recursos usados pel
 
 O código da página da Web também deve excluir a variável da instância do visualizador para remover completamente o visualizador da memória do navegador da Web.
 
-Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas para esses componentes, esses ouvintes deverão ter o registro cancelado explicitamente pelo código da página da Web. E, essas referências de componentes externos devem ser excluídas antes da chamada `dispose()`.
+Se o código da página da Web tiver registrado ouvintes de eventos diretamente nos componentes do SDK do visualizador usados pelo visualizador ou referências externas armazenadas para esses componentes, esses ouvintes deverão ter o registro cancelado explicitamente pelo código da página da Web. Essas referências de componentes externos devem ser excluídas antes de chamar `dispose()`.
 
-Não acessar mais a API do visualizador após `dispose()` é chamado.
+Não acesse mais a API do Visualizador depois que `dispose()` for chamado.
 
 ## Parâmetros {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

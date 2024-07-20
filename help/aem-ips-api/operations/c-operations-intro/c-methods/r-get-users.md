@@ -31,7 +31,7 @@ Obtém uma matriz de usuários, conforme especificado pelos manipuladores de emp
 | companyHandleArray | `types:HandleArray` | Não | Filtrar resultados por empresa. |
 | groupHandleArray | `types:HandleArray` | Não | Filtrar resultados por grupo. |
 | userRoleArray | `types:StringArray` | Não | Filtrar resultados por função de usuário. |
-| charFilterField | `xsd:string` | Não | Filtrar resultados por prefixo da string do campo (consulte [!DNL Trash State).] |
+| charFilterField | `xsd:string` | Não | Filtrar resultados pelo prefixo da cadeia de caracteres do campo (consulte [!DNL Trash State).] |
 | charFilter | `xsd:string` | Não | Filtrar resultados por um caractere específico. |
 | sortBy | `xsd:string` | Não | Escolha de campos de classificação do usuário. |
 | recordsPerPage | `xsd:int` | Não | Retorna o número especificado de registros por página. |

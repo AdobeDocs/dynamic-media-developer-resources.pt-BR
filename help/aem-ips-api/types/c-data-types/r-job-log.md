@@ -25,13 +25,13 @@ Sintaxe
 | companyHandle | `xsd:string` | Identificador da empresa. |
 | jobHandle | `xsd:string` | Identificador do trabalho. |
 | jobName | `xsd:string` | Nome do trabalho. |
-| originalJobName | `xsd:string` | O nome original enviado para o processo com `submitJob`. |
+| originalJobName | `xsd:string` | O nome original enviado para o trabalho com `submitJob`. |
 | submitUserEmail | `xsd:string` | O endereço de email do usuário que enviou o trabalho. |
 | logType | `xsd:string` | Escolha de tipos de log de job. |
 | jobSubType | `xsd:string` | Informações adicionais sobre o cargo. |
 | startDate | `xsd:dateTime` | A data inicial, a hora e o fuso horário do trabalho. |
 | endDate | `xsd:dateTime` | A data, hora e fuso horário de término do trabalho. |
-| [!DNL description] | `xsd:string` | Uma descrição do processo, conforme especificado originalmente em `submitJob`. |
+| [!DNL description] | `xsd:string` | Uma descrição do trabalho conforme originalmente especificado em `submitJob`. |
 | fileSuccessCount | `xsd:int` | Número de arquivos processados com êxito. |
 | fileErrorCount | `xsd:int` | Número de arquivos que causaram um erro. |
 | fileWarningCount | `xsd:int` | Número de arquivos que geraram um aviso. |

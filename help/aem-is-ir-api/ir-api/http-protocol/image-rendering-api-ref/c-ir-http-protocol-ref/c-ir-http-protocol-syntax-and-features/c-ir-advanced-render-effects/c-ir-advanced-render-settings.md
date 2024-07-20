@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 17%
+source-wordcount: '576'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ A Ferramenta de criação de vinheta (parte do pacote de criação de imagem do 
 >
 >As Configurações de renderização são um recurso avançado de Renderização de imagem e Criação de imagem. Entre em contato com o Suporte Técnico da Adobe ou com seu representante de consultoria da Adobe para obter treinamento, consultoria ou ambos sobre como usar as Configurações de renderização.
 
-Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de imagem usando o `rs=` (ou com o comando `catalog::RenderSettings` valor). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização de iluminação, como variar a saturação dos realces ou o contraste nas sombras.
+Essas configurações são controladas interativamente na Criação de imagens. É possível aplicar as mesmas configurações na Renderização de Imagem usando o comando `rs=` (ou com o valor `catalog::RenderSettings`). Esse mecanismo é usado para selecionar diferentes opções de nitidez para cada material e modificar o comportamento dos algoritmos de renderização de iluminação, como variar a saturação dos realces ou o contraste nas sombras.
 
 ## Valores de Configuração de renderização avançada (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -149,7 +149,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>Efeitos de renderização (sombreador mais antigo)</b> </td> 
+   <td colname="col1"><b>Renderizar efeitos (sombreador mais antigo)</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
@@ -205,7 +205,7 @@ Essas configurações são controladas interativamente na Criação de imagens. 
    <td colname="col5"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b>sombreador alternativo</b> </td> 
+   <td colname="col1"><b>Sombreador alternativo</b> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 

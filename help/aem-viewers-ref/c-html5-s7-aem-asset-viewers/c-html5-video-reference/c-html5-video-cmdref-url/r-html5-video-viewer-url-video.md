@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # vídeo{#video}
 
-Comando do URL para o Visualizador de vídeo.
+Comando do URL para o Visualizador de Vídeo.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ Comando do URL para o Visualizador de vídeo.
 
 ## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obrigatório. (a menos que `asset` é usado. Consulte [Suporte a vídeo externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Obrigatório. (A menos que o parâmetro `asset` seja usado. Consulte [Suporte de vídeo externo](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}
 

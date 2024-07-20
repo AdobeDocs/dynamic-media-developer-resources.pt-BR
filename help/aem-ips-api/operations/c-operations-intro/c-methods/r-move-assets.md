@@ -70,9 +70,9 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contenham: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ativos que emitiram avisos. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets que emitiu os avisos. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Códigos de aviso. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motivo do aviso. </li> 
     </ul> </td> 
@@ -81,9 +81,9 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contenham: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>que contêm: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ativos que emitiram os erros. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets que emitiu os erros. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Códigos de erro. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Motivo dos erros. </li> 
     </ul> </td> 

@@ -19,7 +19,7 @@ Os comandos compatíveis com o Servidor de imagens estão listados abaixo, agrup
 * [Comandos de solicitação](r-request-commands-and-attributes.md)
 * [Exibir comandos](r-view-commands-and-attributes.md)
 * [Operações comuns](r-common-operations-and-attributes.md)
-* [Operações da imagem de origem](r-source-image-operations-and-attributes.md)
+* [Operações de imagem do Source](r-source-image-operations-and-attributes.md)
 * [Comandos de camada comuns](r-common-layer-commands-and-attributes.md)
 * [Comandos da camada de imagem](r-image-layer-commands-and-attributes.md)
 * [Comandos da camada de texto](r-text-layer-commands-and-attributes.md)

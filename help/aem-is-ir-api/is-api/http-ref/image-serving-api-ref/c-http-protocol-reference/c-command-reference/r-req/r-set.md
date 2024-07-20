@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc69f094-ff21-4dd7-9e10-daddb3de0c65
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Informações do conjunto de mídias.
 
-req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]}]
+req=set[,xml[, *`encoding`*]|{json[&amp;id=*`reqId`*]]
 
 <table id="simpletable_02C955F4EBAD4251A728F0FC68F432B5"> 
  <tr class="strow"> 
@@ -37,7 +37,7 @@ A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Non
 >
 >O caractere dois pontos não é permitido em solicitações req=set.
 
-As solicitações que oferecem suporte ao formato de resposta JSON permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSON permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

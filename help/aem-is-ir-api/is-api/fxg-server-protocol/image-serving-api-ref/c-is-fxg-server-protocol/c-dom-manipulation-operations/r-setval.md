@@ -18,11 +18,11 @@ Defina o valor do nó de texto para s7:elementID.
 
 `setVal.elementID= *[!DNL value]*`
 
-Se um elemento de nó FXG tiver uma `s7:elementID` definido, o valor de texto desse nó poderá ser manipulado.
+Se um elemento de nó FXG tiver um `s7:elementID` definido, o valor de texto desse nó poderá ser manipulado.
 
 ## Exemplo {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-Assuma um `s7:elementID="paragraph1"` o atributo é definido para um `TextGraphic` então o seguinte é válido:
+Suponha que um atributo `s7:elementID="paragraph1"` esteja definido para um nó `TextGraphic`, o seguinte será válido:
 
 `&setVal.paragraph=Hello`
 

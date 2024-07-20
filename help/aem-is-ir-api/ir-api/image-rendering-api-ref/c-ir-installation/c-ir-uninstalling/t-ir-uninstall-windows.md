@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Siga estas instruções para desinstalar a Renderização de imagem em um sistema Windows.
 
-1. Inicie o desinstalador executando ` *[!DNL install_folder]*\_uninst\uninstaller.exe`, ou no Menu Iniciar, selecione **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
+1. Inicie o desinstalador executando o ` *[!DNL install_folder]*\_uninst\uninstaller.exe` ou, no Menu Iniciar, selecione **[!UICONTROL Programs]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.

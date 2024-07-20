@@ -22,11 +22,11 @@ Todos os recursos expostos nas interfaces de visualização Basic Zoom, eCatalog
 
 Todos os recursos expostos nas interfaces de visualização Basic Zoom, eCatalog, eCatalog Search, Flyout, Inline Zoom, Mixed Media, Spin, Video, Zoom, Carousel, Dimensional (3D), Interative Image, Interative Video e Video360 são acessíveis pelo teclado.
 
-Um usuário final pode navegar entre elementos da interface do usuário do visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. Usar **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; usando **[!UICONTROL Shift+Tab]** O traz o foco de entrada de volta para o elemento anterior da interface do usuário. O percurso do foco segue o local natural do elemento da interface do usuário na tela e se move da esquerda para a direita e de cima para baixo.
+Um usuário final pode navegar entre os elementos da interface do usuário do visualizador usando **[!UICONTROL Tab]** e **[!UICONTROL Shift+Tab]** pressionamentos de teclas. O uso de **[!UICONTROL Tab]** avança o foco de entrada para o próximo elemento da interface do usuário na ordem de tabulação; o uso de **[!UICONTROL Shift+Tab]** traz o foco de entrada de volta para o elemento da interface do usuário anterior. O percurso do foco segue o local natural do elemento da interface do usuário na tela e se move da esquerda para a direita e de cima para baixo.
 
 Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário com foco de entrada recebe uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada ao redor do elemento da interface do usuário.
 
-É possível desativar ou personalizar esse destaque de foco no CSS do visualizador. No índice desse sistema de Ajuda, em um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalização *nome do visualizador*** >** Foco em destaque **.
+É possível desativar ou personalizar esse destaque de foco no CSS do visualizador. No índice deste sistema de Ajuda, sob um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalizando o *nome do visualizador*** >** Focalizar destaque **.
 
 Os pressionamentos de tecla suportados por elementos da interface do usuário do visualizador individual são, na maioria dos casos, óbvios e fáceis de descobrir.
 

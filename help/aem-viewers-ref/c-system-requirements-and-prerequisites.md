@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 ou posterior.
-* Visualizadores HTML5 exigem bibliotecas do lado do servidor JavaScript do SDK 3.11.5 ou posterior.
-* *Enviar para um amigo* os recursos sociais exigem o s7ondemand 5.0.9 ou posterior.
-* Visualizador de eCatalog - [Pop-up do painel Informações](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) o suporte exige o info server 2.1.8 ou posterior.
+* Visualizadores HTML5 exigem bibliotecas do lado do servidor SDK JavaScript 3.11.5 ou posterior.
+* *Envie um email para um amigo*. Os recursos sociais exigem o s7ondemand 5.0.9 ou posterior.
+* Visualizador de eCatalog - O suporte ao [pop-up do painel de informações](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) requer o servidor de informações 2.1.8 ou posterior.
 * Os componentes do recurso de pesquisa exigem o s7search 2.3.0 ou posterior.
 
 ## Requisitos de sistema dos visualizadores {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -39,18 +39,18 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
    * Microsoft® Windows® 7
    * macOS X 10.12
 * Compatível com as seguintes versões de navegador/plataforma ou posteriores:
-   * Android™ OS 4.x
+   * SO Android™ 4.x
    * BlackBerry® 10 em navegadores nativos. Somente a reprodução de vídeo é suportada.
    * Chrome 82
    * Edge
    * Firefox 77
    * Internet Explorer 11
-   * iOS6
+   * IOS6
    * iPad 2 (somente navegadores Safari e Chrome)
    * iPhone 3GS
    * Safari 11
 * Não há suporte para o Internet Explorer em dispositivos móveis.
-* *VisualizadorPanorâmico* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
+* *PanoramicViewer* tem suporte nas seguintes versões de navegador/plataforma ou posteriores:
    * Android™ 4.4 (somente dispositivos de telefone)
    * Chrome 82
    * Edge
@@ -58,14 +58,14 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* e *DimensionalViewer* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
+* O *Video360Viewer* e o *DimensionalViewer* têm suporte nas seguintes versões de navegador/plataforma ou posteriores:
    * Android™ 5 (somente dispositivos de telefone)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* O é compatível com as seguintes versões de navegador/plataforma ou posteriores:
+* *ZoomVerticalViewer* tem suporte nas seguintes versões de navegador/plataforma ou posteriores:
    * Android™ 4.x
    * Chrome 82
    * Edge

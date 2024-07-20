@@ -37,7 +37,7 @@ Atributo de material.
 
 ## Exemplo {#section-47e4811882574441a4d517e42a35f352}
 
-Depois de alguns experimentos em Criação de imagens, determina-se que a máscara sem nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A string de configurações de renderização que configura o USM é copiada para o `rs=` comando a ser usado com este material:
+Depois de alguns experimentos em Criação de imagens, determina-se que a máscara sem nitidez (USM) fornece a quantidade correta de nitidez para o aplicativo e o material em questão. A cadeia de caracteres de configurações de renderização que configura o USM é copiada para o comando `rs=` para ser usada com este material:
 
 `…&rs=U2V20W50X2&…`
 

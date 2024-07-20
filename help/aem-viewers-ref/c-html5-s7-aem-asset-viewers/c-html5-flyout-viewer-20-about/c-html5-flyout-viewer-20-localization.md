@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo que o Visualizador de imagem suspensa exibe está sujeito a localização. Esse conteúdo inclui dicas de ferramentas do elemento da interface do usuário e mensagens de informações exibidas pela exibição de zoom de imagem suspensa ao carregar.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado ao padrão para o local em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para a localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado para o local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto de localização define dois locais ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada local.
+No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos de interface do usuário em cada localidade.
 
-O código da página da Web deve passar o objeto de localização para o construtor do visualizador, como um valor de `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar o objeto de localização para o construtor do visualizador como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,7 +53,7 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RÓTULO.Contêiner </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Dica de ferramenta do botão de rolagem para a direita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BotãoDeRolagemParaCima.DICADEFERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão de rolagem para cima. </p> </td> 
   </tr> 
   <tr> 

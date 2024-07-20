@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão suporta as opções `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado do visualizador quando o modo de miniatura está no estado ativo e `selected='false'` corresponde ao estado padrão com a visualização principal.
+>Este botão oferece suporte aos seletores de atributo `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `selected='true'` corresponde ao estado do visualizador quando o modo de miniatura está ativo e `selected='false'` corresponde ao estado padrão com o modo de exibição principal.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

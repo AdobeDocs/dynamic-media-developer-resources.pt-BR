@@ -20,7 +20,7 @@ Sintaxe
 
 ## Parâmetros {#section-9f747df071854c6896fdbb95684ad947}
 
-Definir o estado de contexto de publicação de um ativo com `setAssetsContextState`.
+Defina o estado de contexto de publicação de um ativo com `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -51,5 +51,4 @@ Definir o estado de contexto de publicação de um ativo com `setAssetsContextSt
 
 >[!MORELIKETHIS]
 >
->* [Publicar estado](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
-
+>* [Estado do Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

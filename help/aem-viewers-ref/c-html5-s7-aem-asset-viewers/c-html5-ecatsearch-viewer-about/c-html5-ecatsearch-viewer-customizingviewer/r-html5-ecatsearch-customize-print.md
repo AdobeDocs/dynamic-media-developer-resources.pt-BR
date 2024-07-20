@@ -45,7 +45,7 @@ A aparência do botão de impressão é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ A aparência do botão de impressão é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -99,7 +99,7 @@ A sobreposição de plano de fundo que cobre a página da Web quando a caixa de 
    <td colname="col2"> <p> Opacidade de sobreposição de plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de sobreposição do plano de fundo. </p> </td> 
   </tr> 
  </tbody> 
@@ -125,11 +125,11 @@ Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistem
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo da caixa de diálogo; </p> </td> 
   </tr> 
  </tbody> 
@@ -196,7 +196,7 @@ O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do ícone. </p> </td> 
   </tr> 
   <tr> 
@@ -217,15 +217,15 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Altura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -266,7 +266,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Preenchimento interno do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -278,7 +278,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -362,7 +362,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**Propriedades CSS do botão Cancelar da caixa de diálogo**
+**Propriedades CSS do botão de cancelamento da caixa de diálogo**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -379,7 +379,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 O botão Enviar para impressão é controlado com o seguinte seletor de classe CSS:
 
@@ -412,7 +412,7 @@ O botão Enviar para impressão é controlado com o seguinte seletor de classe C
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ O botão Enviar para impressão é controlado com o seguinte seletor de classe C
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
 
@@ -433,15 +433,15 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -449,7 +449,7 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
    <td colname="col2"> <p> Altura do texto dentro do botão. Afeta o alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra-caixa </span> </p> </td> 
    <td colname="col2"> <p>Sombra projetada. </p> </td> 
   </tr> 
   <tr> 
@@ -536,7 +536,7 @@ A área principal da caixa de diálogo, entre o cabeçalho e o rodapé, contém 
    <td colname="col2"> <p> A altura da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor de fundo da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -649,15 +649,15 @@ Essa classe não é adequada para controlar o tamanho ou a posição do rótulo 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Espessura da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do rótulo. </p> </td> 
   </tr> 
   <tr> 
@@ -685,7 +685,7 @@ Os controles de entrada são colocados no container e controlados com o seguinte
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**Propriedades CSS do container de entrada da caixa de diálogo**
+**Propriedades CSS do contêiner de entrada da caixa de diálogo**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 

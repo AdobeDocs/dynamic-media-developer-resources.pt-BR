@@ -38,7 +38,7 @@ Sintaxe
 | companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | jobHandle | `xsd:string` | Sim | Processe o trabalho que deseja interromper. |
 
-**Saída (stopJobReturn0)**
+**Saída (stopJobReturn0**)
 
 A API do IPS não retorna uma resposta para esta operação.
 

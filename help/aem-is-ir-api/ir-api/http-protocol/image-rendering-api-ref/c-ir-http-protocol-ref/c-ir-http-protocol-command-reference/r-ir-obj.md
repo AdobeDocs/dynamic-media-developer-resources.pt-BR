@@ -16,22 +16,22 @@ ht-degree: 0%
 
 Selecione o objeto por nome. Seleciona o grupo de vinhetas especificado por nome e inicia um novo MSS.
 
-` obj= *`name`*`
+` obj= *`nome`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> nome </span> </span> </p> </td> 
   <td class="stentry"> <p>Nome do grupo ou caminho/nome. </p> </td> 
  </tr> 
 </table>
 
 Subgrupos ou objetos individuais podem ser selecionados usando um caminho de grupo totalmente qualificado (isto é, especificando o nome do grupo alvo ou objeto precedido por todos os grupos pai, separados por / (barras).
 
-Se nenhum grupo/objeto com o nome especificado for encontrado, a ação especificada em `attribute::OnObjFail` é tomada.
+Se nenhum grupo/objeto com o nome especificado for encontrado, a ação especificada em `attribute::OnObjFail` será executada.
 
 ## Propriedades {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Comando de seleção; delimitador de MSS. A seleção de objeto é persistente até que outro objeto seja selecionado, seja com `obj=` ou `sel=`.
+Comando de seleção; delimitador de MSS. A seleção de objeto é persistente até que outro objeto seja selecionado, com `obj=` ou `sel=`.
 
 Os caminhos e os nomes de grupo/objeto não fazem distinção entre maiúsculas e minúsculas.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 ## Exemplo {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Para configurar um visualizador com um fundo branco ( `#FFFFFF`) e definir seu tamanho como 512 x 288 pixels.
+Para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e definir seu tamanho como 512 x 288 pixels.
 
 ```
 .s7video360viewer { 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c81feaba-18da-441a-bfd5-40275558a384
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Siga estas instruções para desinstalar a Renderização de imagem em um sistem
 
 1. Localizar [!DNL uninstall.sh].
 
-   Ela está no diretório no qual o ImageRendering foi instalado. Se esse diretório tiver sido removido, o pacote de instalação original deverá ser descompactado e não testado para extrair [!DNL uninstall.sh].
-1. Executar [!DNL uninstall.sh] e siga as instruções na tela.
+   Ela está no diretório no qual o ImageRendering foi instalado. Se este diretório tiver sido removido, o pacote de instalação original deverá ser descompactado e não testado para extrair [!DNL uninstall.sh].
+1. Execute [!DNL uninstall.sh] e siga as instruções na tela.
 
 ## Método 2
 

@@ -46,13 +46,13 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Ou <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é obrigatório. </p> </td> 
+   <td colname="col3"> <p>É necessário <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>O identificador da empresa cujas informações você deseja obter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Ou <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> é obrigatório. </p> </td> 
+   <td colname="col3"> <p>É necessário <span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span>. </p> </td> 
    <td colname="col4"> <p>O nome da empresa cujas informações você deseja obter. </p> </td> 
   </tr> 
  </tbody> 

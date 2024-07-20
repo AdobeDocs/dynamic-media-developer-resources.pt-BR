@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Esse tipo de dados é opcional e desativado por padrão.
 
 >[!IMPORTANT]
 >
->Se estiver configurando o `KnockoutBackgroundOptions` no Adobe Experience Manager, use os seguintes parâmetros:
+>Se você estiver configurando o `KnockoutBackgroundOptions` no Adobe Experience Manager, use os seguintes parâmetros:
 >* `kbCorner`
 >* `kbTolerance`
 >* `kbFillMethod`
@@ -43,7 +43,7 @@ Esse tipo de dados é opcional e desativado por padrão.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> canto</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Seleciona o canto com o qual você deseja trabalhar. <span class="codeph"> canto</span> O aceita estes valores: 
+   <td colname="col3">Seleciona o canto com o qual você deseja trabalhar. <span class="codeph"> canto</span> aceita estes valores: 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> SuperiorEsquerdo</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> Inferior esquerdo</span></li>
@@ -53,7 +53,7 @@ Esse tipo de dados é opcional e desativado por padrão.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tolerância</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Uma configuração opcional que remove o espaço em branco das bordas da imagem com base na transparência. Aceita um intervalo de valores de 0,0 a 1,0. Especificar: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 para corresponder exatamente às cores. </li>
@@ -63,10 +63,10 @@ Esse tipo de dados é opcional e desativado por padrão.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Controlar transparência de pixels no local especificado pelo <span class="codeph"><span class="varname"> canto</span></span> variável. A variável <span class="codeph"> fillMethod</span> O aceita estes valores: </p> 
+   <td colname="col3"> <p>Controla a transparência de pixels no local especificado pela variável <span class="codeph"><span class="varname"></span></span> do canto. O <span class="codeph"> fillMethod</span> aceita estes valores: </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: transforma todos os pixels no canto especificado em transparentes. </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: transforma todos os pixels correspondentes em transparentes, independentemente do local. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Gira todos os pixels no canto especificado transparente. </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: transforma todos os pixels correspondentes transparentes, independentemente do local. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +89,7 @@ Esse tipo de dados é opcional e desativado por padrão.
 
 ## Usado por {#section-28c43baafe85434a9ee9e303ed10569a}
 
-A variável `KnockoutBackgroundOptions` tipo é usado por:
+O tipo `KnockoutBackgroundOptions` é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

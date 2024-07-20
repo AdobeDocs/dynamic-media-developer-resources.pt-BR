@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ O indicador da página de aparência é controlado com o seguinte seletor de cla
    <td colname="col2"> <p>Posição a partir da borda direita da barra de controle principal (em sistemas desktop e tablets) ou da barra de controle secundária (em celulares), incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda da barra de controle principal (em sistemas desktop e tablets) ou da barra de controle secundária (em celulares), incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda inferior da barra de controle principal (em sistemas desktop e tablets) ou da barra de controle secundária (em celulares), incluindo preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -57,11 +57,11 @@ O indicador da página de aparência é controlado com o seguinte seletor de cla
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 

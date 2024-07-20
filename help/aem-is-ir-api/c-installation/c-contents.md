@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
    <td colname="col4"> <p>Pasta de arquivos de licença para Linux®. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> ImageServing/ </span> </p> </td> 
+   <td colname="col1"> <p> Servidor de imagens <span class="filepath">/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Pasta raiz de instalação do Servidor de imagens. </p> </td> 
@@ -69,7 +69,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
+   <td colname="col3"> <p> ic <span class="filepath"> (.exe) </span> </p> </td> 
    <td colname="col4"> <p>Utilitário de conversão de imagem do Servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> catalog-bin/ </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> compartimento de catálogo/ </span> </p> </td> 
    <td colname="col4"> <p>O PS salva os dados de catálogo compilados aqui. </p> </td> 
   </tr> 
   <tr> 
@@ -130,11 +130,11 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> é necessário para que o servidor funcione. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> é necessário para que o servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> conf/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath">conf/</span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Os arquivos de configuração do servidor estão localizados aqui. </p> </td> 
   </tr> 
@@ -146,13 +146,13 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-fonts/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> fontes padrão/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contém as fontes padrão. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> perfis padrão/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contém os perfis padrão para o Servidor de imagens. </p> </td> 
   </tr> 
@@ -164,7 +164,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> images/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> imagens/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Pasta de dados de origem do Servidor de imagens; edite os arquivos de configuração manualmente. </p> </td> 
   </tr> 
@@ -189,7 +189,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> Supervisor-*.log </span> </p> </td> 
+   <td colname="col3"> <p> Supervisor-*.log </span> de <span class="filepath"> </p> </td> 
    <td colname="col4"> <p>Logs de erro/depuração do supervisor. </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> conteúdo estático/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Pasta de fonte de dados de conteúdo estático; edite os arquivos de configuração manualmente. </p> </td> 
   </tr> 
@@ -224,7 +224,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> aplicativos Web/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Implante aplicações Web Java™ aqui (incluindo is-docs, ir-docs e is-views). </p> </td> 
   </tr> 
@@ -262,11 +262,11 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> é necessário para que o servidor funcione. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> é necessário para que o servidor funcione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> perfis padrão/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contém os perfis padrão para Renderização de imagem. </p> </td> 
   </tr> 

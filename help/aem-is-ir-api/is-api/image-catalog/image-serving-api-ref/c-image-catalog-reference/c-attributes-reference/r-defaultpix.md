@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tamanho de exibição padrão.
 
-As restrições do servidor respondem que as imagens não são maiores que essa largura e altura, se a solicitação não especificar explicitamente o tamanho da exibição usando `wid=`, `hei=`ou `scl=`.
+As restrições do servidor respondem que as imagens não são maiores que essa largura e altura, se a solicitação não especificar explicitamente o tamanho da exibição usando `wid=`, `hei=` ou `scl=`.
 
 ## Propriedades {#section-c3e658cf82c540d986b118f74f0fe1b2}
 

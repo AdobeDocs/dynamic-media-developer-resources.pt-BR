@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da janela principal. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Exemplo - para tornar a exibição principal transparente.
 }
 ```
 
-Nos sistemas desktop, o componente suporta a função `cursortype` seletor de atributo que pode ser aplicado ao `.s7zoomview` classe e controla o tipo de cursor com base no estado do componente e na ação do usuário. As seguintes `cursortype` Os valores de são compatíveis:
+Em sistemas desktop, o componente oferece suporte ao seletor de atributo `cursortype` que pode ser aplicado à classe `.s7zoomview` e controla o tipo de cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` têm suporte:
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -72,7 +72,7 @@ Nos sistemas desktop, o componente suporta a função `cursortype` seletor de at
    <td colname="col2"> <p>Exibido quando é possível aumentar o zoom da imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redefinir </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefiniu </span> </p> </td> 
    <td colname="col2"> <p>Exibida quando a imagem está no nível de zoom máximo e pode ser redefinida para seu estado inicial. </p> </td> 
   </tr> 
   <tr> 

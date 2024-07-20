@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Parâmetro comum a todos os visualizadores.
  </tbody> 
 </table>
 
-Essa propriedade é obrigatória, a menos que `video` é usado. Consulte [Suporte a vídeo externo](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) em Vídeo ou [Suporte a vídeo externo](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) em Video360.
+Esta propriedade é obrigatória, a menos que o parâmetro `video` seja usado. Consulte [Suporte a Vídeo Externo](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) em Vídeo ou [Suporte a vídeo externo](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) em Vídeo360.
 
 ou
 
@@ -44,13 +44,13 @@ ou
 
 ou
 
-` asset= *`imagem`* | *`imageList`* | *`imageListWithModifiers`* | *`grupoDeRotaçãoMultidimensional`* [%3F *`modificadores`*]`
+` asset= *`image`* | *`imageList`* | *`imageListWithModifiers`* | *`multiDimensionalSpinSet`* [%3F *`modifiers`*]`
 
 <table id="table_A2A0ACD942E942BC99AF0DC80FB1C670"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imagem </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica uma única imagem. Aplique a codificação HTTP dupla a qualquer caractere inseguro que exista no nome da imagem. </p> <p>Ou especifica uma referência a um conjunto de imagens. O visualizador recupera conjuntos de imagens do servidor, usando <span class="codeph"> req=set IS </span> solicitação. </p> </td> 
+   <td colname="col2"> <p> Especifica uma única imagem. Aplique a codificação HTTP dupla a qualquer caractere inseguro que exista no nome da imagem. </p> <p>Ou especifica uma referência a um conjunto de imagens. O visualizador recupera conjuntos de imagens do servidor, usando a solicitação <span class="codeph"> req=set IS </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList </span> </span> </p> </td> 
@@ -61,19 +61,19 @@ ou
    <td colname="col2"> <p> Especifica um conjunto de imagens explícito em que cada quadro tem seus próprios modificadores do Servidor de imagens. Nesse caso, a lista de quadros é colocada entre parênteses. Aplique a codificação HTTP dupla a qualquer vírgula presente no modificador do Servidor de imagens específico do quadro. </p> <p> <p>Observação: esse recurso é compatível com o Adobe Dynamic Media Classic; ele não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> grupoDeRotaçãoMultidimensional </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <span class="codeph"> ( <span class="varname"> horizontalSpinSet </span>)[,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> onde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> deve ter o mesmo número de quadros. </p> <p> <p>Observação: esse recurso é compatível com o Adobe Dynamic Media Classic; ele não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
+   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>)[,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> onde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devem ter o mesmo número de quadros. </p> <p> <p>Observação: esse recurso é compatível com o Adobe Dynamic Media Classic; ele não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 
-   <td colname="col2"> <p> Comandos do Servidor de imagens; <span class="codeph"> &amp; </span> e <span class="codeph"> = </span> separadores devem ser codificados em HTTP como <span class="codeph"> %26 </span> e <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> Comandos do Servidor de imagens; os separadores <span class="codeph"> &amp; </span> e <span class="codeph"> = </span> devem ser codificados em HTTP como <span class="codeph"> %26 </span> e <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ou
 
-` asset=( *`mediaSet`* | ( *`vídeo`*; *`swatchId`* | *`imagem`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;( *`vídeo`*; *`swatchId`* | *`imagem`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;] [%3F *`modificadores`*]`
+` asset=( *`mediaSet`* | ( *`video`*; *`swatchId`* | *`image`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;( *`video`*; *`swatchId`* | *`image`*; *`swatchId`* | *`setId`*; *`swatchId`*); *`ID`*;] [%3F *`modifiers`*]`
 
 <table id="table_D31C8507C02A4452A79DEDDEC62EF2F5"> 
  <tbody> 
@@ -101,7 +101,7 @@ ou
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID </span> </span> </p> </td> 
    <td colname="col2"> <p> O identificador do tipo de item do conjunto de mdias pode ser um dos seguintes: </p> <p> 
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
-      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image </span> </p> <p>Para imagem única. </p> </li> 
+      <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> imagem_avançada </span> </p> <p>Para imagem única. </p> </li> 
       <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>Para o conjunto de amostras aninhado. </p> </li> 
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> rotação </span> </p> <p>Para grupo de rotação. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> vídeo </span> </p> <p>Para um único vídeo. </p> </li> 
@@ -110,7 +110,7 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 
-   <td colname="col2"> <p> Comandos do Servidor de imagens; <span class="codeph"> &amp; </span> e <span class="codeph"> = </span> separadores devem ser codificados em HTTP como <span class="codeph"> %26 </span> e <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
+   <td colname="col2"> <p> Comandos do Servidor de imagens; os separadores <span class="codeph"> &amp; </span> e <span class="codeph"> = </span> devem ser codificados em HTTP como <span class="codeph"> %26 </span> e <span class="codeph"> %3D </span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

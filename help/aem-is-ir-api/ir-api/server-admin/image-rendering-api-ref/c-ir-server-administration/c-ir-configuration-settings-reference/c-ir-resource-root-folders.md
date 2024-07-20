@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Uma lista de caminhos, delimitada por ponto e vírgula, serve como raiz para todos os arquivos de dados com caminhos de arquivo relativos.
 
-Pode ser caminhos absolutos ou caminhos relativos a *[!DNL install_folder]*. Quando vários caminhos são especificados, o servidor tenta cada raiz na ordem especificada até que o arquivo seja encontrado. O padrão é [!DNL ./resources], para um caminho raiz padrão de [!DNL install_folder/resources].
+Eles podem ser caminhos absolutos ou caminhos relativos a *[!DNL install_folder]*. Quando vários caminhos são especificados, o servidor tenta cada raiz na ordem especificada até que o arquivo seja encontrado. O padrão é [!DNL ./resources], para um caminho raiz padrão de [!DNL install_folder/resources].

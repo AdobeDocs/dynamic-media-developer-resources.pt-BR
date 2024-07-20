@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1b05fe7-901b-4030-9b71-e4e0e5191abf
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem da página. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve ser codificado em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação: não há suporte para comandos de manipulação de dimensionamento de imagem. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">isCommand</span></span> </p> </td> 
+   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem da página. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> <p> <p>Observação: não há suporte para comandos de manipulação de dimensionamento de imagem. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

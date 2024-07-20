@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Propriedades{#properties}
 
-Os dados de propriedade são retornados em resposta ao seguinte `req=` tipos:
+Os dados da propriedade são retornados em resposta aos `req=` tipos a seguir:
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` as respostas são formatadas como propriedades somente quando o conteúdo de `catalog::UserData` siga o formato de propriedades.
+`userdata` respostas são formatadas como propriedades somente quando o conteúdo de `catalog::UserData` segue o formato das propriedades.
 
 * [Propriedades do texto (Java)](r-text-java-properties.md)
 * [Propriedades do JavaScript](r-javascript-properties.md)

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
 
 >[!NOTE]
 >
->*Somente* o `IpsAdmin` O tipo de usuário está autorizado a executar chamadas setPassword em relação a outros usuários.
+>*Somente* o tipo de usuário `IpsAdmin` está autorizado a executar chamadas setPassword em relação a outros usuários.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -67,7 +67,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres ingleses em minúsculas. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres ingleses em maiúsculas. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por exemplo, <span class="codeph"> 1 2 3 4 5 </span> e assim por diante. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &amp;grave; ~! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

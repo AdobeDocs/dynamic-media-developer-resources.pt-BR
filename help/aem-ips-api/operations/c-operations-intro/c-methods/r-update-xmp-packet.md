@@ -36,13 +36,13 @@ Sintaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote de XMP que você deseja definir ou atualizar. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] pacote XMP que você deseja definir ou atualizar. |
 
 **Saída (updateXMPPacketReturn)**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| success | `xsd:boolean` | Sim | Devoluções `true` se o pacote foi atualizado. |
+| success | `xsd:boolean` | Sim | Retorna `true` se o pacote foi atualizado. |
 
 ## Exemplos {#section-38b556b94e5044bf97a954519ff6c212}
 

@@ -29,7 +29,7 @@ A aparência do destaque do foco é controlada com o seguinte seletor de classe 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> estrutura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> estrutura de tópicos </span> </p> </td> 
    <td colname="col2"> <p> Estilo de destaque da focagem. </p> </td> 
   </tr> 
  </tbody> 

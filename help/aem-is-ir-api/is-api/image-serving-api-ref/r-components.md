@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ O Servidor de imagens da Dynamic Media consiste nos seguintes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serviço de cache </p> </td> 
-   <td colname="col2"> <p>aplicativo J2EE. Gerencia o [!DNL Platform Server]Caches de dados do. Acesso HTTP em /is/cache. </p> </td> 
+   <td colname="col2"> <p>aplicativo J2EE. Gerencia os caches de dados de [!DNL Platform Server]. Acesso HTTP em /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidor de imagens </p> </td> 
@@ -58,9 +58,9 @@ O Servidor de imagens da Dynamic Media consiste nos seguintes componentes:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renderização de imagem do Dynamic Media (também conhecido como. Servidor de renderização) </p> </td> 
-   <td colname="col2"> <p>Ela requer uma licença separada para ser ativada. Acesso HTTP em <span class="filepath"> /ir/render</span>. Toda a funcionalidade de Renderização de imagem está integrada à [!DNL Platform Server] e o Servidor de imagens, sem componentes executáveis separados. </p> </td> 
+   <td colname="col2"> <p>Ela requer uma licença separada para ser ativada. Acesso HTTP em <span class="filepath"> /ir/render</span>. Toda a funcionalidade de Renderização de Imagem está integrada ao [!DNL Platform Server] e ao Servidor de Imagens, sem componentes executáveis separados. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou catálogos de imagens específicos (consulte [Catálogos de imagens](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes).
+Configurações adicionais são fornecidas pelo catálogo padrão ( [!DNL default.ini]) ou por catálogos de imagens específicos (consulte [Catálogos de imagens](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) para obter detalhes).

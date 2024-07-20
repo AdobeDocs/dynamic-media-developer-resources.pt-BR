@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Versões específicas do local disponíveis. Retorna uma lista de versões espec
  </tr> 
 </table>
 
-Consulte [Conversão Da Id Do Objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Consulte [Conversão De Id De Objeto](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Por exemplo:
 
@@ -33,7 +33,7 @@ Por exemplo:
 
 A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

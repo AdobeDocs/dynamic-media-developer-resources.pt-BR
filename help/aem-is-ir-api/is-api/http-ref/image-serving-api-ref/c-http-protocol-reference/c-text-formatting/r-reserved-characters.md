@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta seção lista os caracteres reservados para fins específicos.
 
-RTF usa chaves &#39; `{`&#39; e &#39; `}`&#39; como delimitadores de grupo. Eles devem ocorrer em pares e podem estar aninhados. Para exibir chaves em cadeias de texto, use &#39; `\{`&#39; e &#39; `\}`&quot;, respectivamente.
+RTF usa chaves &#39; `{`&#39; e &#39; `}`&#39; como delimitadores de grupo. Eles devem ocorrer em pares e podem estar aninhados. Para exibir chaves em cadeias de texto, use &#39; `\{`&#39; e &#39; `\}`&#39;, respectivamente.
 
 >[!NOTE]
 >

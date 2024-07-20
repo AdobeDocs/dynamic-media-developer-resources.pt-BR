@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Tipo de dados da sequência de texto.
 
-Os delimitadores de string são opcionais, a menos que a string contenha qualquer `<CR>`, `<LF>`ou `<TAB>` caracteres. Aspas simples ou duplas podem ser usadas como delimitadores. Se as aspas forem usadas, qualquer aspas incorporada na cadeia de caracteres deverá ser evitada com o uso de duas aspas consecutivas (por exemplo, o Especial deste mês).
+Os delimitadores de cadeia são opcionais, a menos que a cadeia contenha `<CR>`, `<LF>` ou `<TAB>` caracteres. Aspas simples ou duplas podem ser usadas como delimitadores. Se as aspas forem usadas, qualquer aspas incorporada na cadeia de caracteres deverá ser evitada com o uso de duas aspas consecutivas (por exemplo, o Especial deste mês).

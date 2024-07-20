@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Notas de versão do Dynamic Media{#dynamic-media-release-notes}
 
-As notas de versão mais recentes do [!DNL Adobe Dynamic Media Classic]-parte do [!DNL Adobe Experience Manager] solução no [!DNL Adobe Experience Cloud].
+As notas de versão mais recentes da parte [!DNL Adobe Dynamic Media Classic] da solução [!DNL Adobe Experience Manager] no [!DNL Adobe Experience Cloud].

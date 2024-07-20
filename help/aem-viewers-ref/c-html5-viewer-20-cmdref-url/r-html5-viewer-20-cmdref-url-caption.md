@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Parâmetro comum a todos os visualizadores.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado de legenda padrão. Ativado é <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Especifica o estado de legenda padrão. Habilitado é <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,13 +54,13 @@ Esse visualizador oferece suporte a legendas ocultas por meio de arquivos WebVTT
    <td colname="col4"> <p> Controla o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> meio </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>posição do texto </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentagem de margem interna no componente VideoPlayer para o início do texto da legenda. </p> <p>O padrão é <span class="codeph"> 0% </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">S </span> </p> </td> 
    <td colname="col2"> <p>tamanho da linha </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentagem da largura do vídeo usada para legendas. </p> <p>O padrão é <span class="codeph"> 100% </span>. </p> </td> 
@@ -84,7 +84,7 @@ Se houver outros recursos WebVTT presentes no arquivo WebVTT, eles não serão c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado de legenda padrão. </p> <p>Ativado é <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Especifica o estado de legenda padrão. </p> <p>Habilitado é <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

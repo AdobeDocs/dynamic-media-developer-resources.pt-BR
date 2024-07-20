@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Exibir marcas da impressora. Especifica como exibir as marcas de impressora.
 
-` printerMark= *`marcas de aparagem`*, *`marcas de sangria`*, *`marcas de registro`*, *`barras de cores`*, *`informações da página`*, *`estilo`*, *`espessura da linha`*, *`camada incorporada`*`
+` printerMark= *`marcas de aparagem`*, *`marcas de sangria`*, *`marcas de registro`*, *`barras de cor`*, *`informações de página`*, *`estilo`*, *`espessura da linha`*, *`camada incorporada`*`
 
 As diferentes marcas podem ser desativadas ou ativadas. O estilo das marcas da impressora também pode ser controlado.
 

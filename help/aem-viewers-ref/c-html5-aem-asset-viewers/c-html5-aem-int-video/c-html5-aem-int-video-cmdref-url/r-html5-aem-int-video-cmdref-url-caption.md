@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 1%
+source-wordcount: '208'
+ht-degree: 0%
 
 ---
 
@@ -37,13 +37,13 @@ O visualizador é compatível com legendas ocultas por meio de arquivos WebVTT h
    <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> meio </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>posição do texto </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentagem de margem interna no componente VideoPlayer para o início do texto da legenda. </p> <p>O padrão é 0%. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">S </span> </p> </td> 
    <td colname="col2"> <p>tamanho da linha </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
    <td colname="col4"> <p> Porcentagem da largura do vídeo usada para legendas. </p> <p>O padrão é 100%. </p> </td> 
@@ -67,7 +67,7 @@ Outros recursos de WebVTT presentes no arquivo WebVTT não são compatíveis, ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado de legenda padrão (ativado é <span class="codeph"> 1 </span>). </p> </td> 
+   <td colname="col2"> <p> Especifica o estado de legenda padrão (habilitado é <span class="codeph"> 1 </span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

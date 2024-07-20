@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API JavaScript para o Visualizador panorâmico.
+description: Referência da API do JavaScript para o Visualizador panorâmico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador panorâmico.
+Referência da API do JavaScript para o Visualizador panorâmico.
 
 `setAsset(asset)`
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
+Define o novo ativo. Você pode chamar este parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador trocará o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-html5-aem-panoramic-viewer-javascriptapiref/r-html5-aem-panoramic-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ativo </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} ID do novo ativo. Imagens que usam Renderização de Imagem (IR) ou Conteúdo Gerado pelo Usuário (UGC) não são compatíveis com esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova ID do ativo. Imagens que usam Renderização de Imagem (IR) ou Conteúdo Gerado pelo Usuário (UGC) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

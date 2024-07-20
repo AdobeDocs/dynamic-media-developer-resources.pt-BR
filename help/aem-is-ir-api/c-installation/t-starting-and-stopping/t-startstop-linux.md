@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Há duas opções para iniciar ou parar o Servidor de imagens no Linux®.
 
-* O script para verificar o status do Servidor de imagens, ou para iniciar e parar o Servidor de imagens, é encontrado no [!DNL ImageServing/bin] pasta:
+* O script para verificar o status do Servidor de Imagens, ou para iniciar e parar o Servidor de Imagens, é encontrado na pasta [!DNL ImageServing/bin]:
 
-   `ImageServing.sh {start|stop|restart|status}`
+  `ImageServing.sh {start|stop|restart|status}`
 * A alternativa a seguir deve ser familiar aos administradores do sistema:
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

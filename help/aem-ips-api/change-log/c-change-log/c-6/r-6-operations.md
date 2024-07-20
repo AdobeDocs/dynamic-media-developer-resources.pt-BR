@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -31,59 +31,57 @@ Sintaxe
 
 **Adicionado**
 
-* Adicionado `isHidden` e `initialTagValue` para:
+* Adicionado `isHidden` e `initialTagValue` a:
 
    * `saveMetadataField`
-   * ` `updateMetadataField
+   * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* Adicionado `thumbAssetHandle` para:
+* Adicionado `thumbAssetHandle` a:
 
    * `createImageSet`
    * `createAssetSet`
 
-   Adicionado `companyHandle` para:
+  Adicionado `companyHandle` a:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   Adicionado `contextHandle` para:
+  Adicionado `contextHandle` a:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
 
-
-
 * Inclusão de includeInative adicionada a:
 
    * `getUsers`.
    * `getUserChars`.
 
-* Adicionado `permissionArray` para `createPropertySet`.
+* Adicionado `permissionArray` a `createPropertySet`.
 
-* Adicionado `exportJob` para `submitJob`.
+* Adicionado `exportJob` a `submitJob`.
 
 **Alterado**
 
-* Entrada `addUser` e `setUser`, alterado `role` para `defaultRole`.
+* Em `addUser` e `setUser`, alterado `role` para `defaultRole`.
 
-* Entrada `getCompanyMembers`, alterado `userArray` para `memberArray`.
+* Em `getCompanyMembers`, alterado `userArray` para `memberArray`.
 
-* Entrada `getCompanyMembership`, alterado `companyArray` para `membershipArray`.
+* Em `getCompanyMembership`, alterado `companyArray` para `membershipArray`.
 
-* Entrada `addUser`, `setCompanyMembership`, e `addCompanyMembership`, alterado `membershipArray` para `companyHandleArray`.
+* Em `addUser`, `setCompanyMembership` e `addCompanyMembership`, mudou `membershipArray` para `companyHandleArray`.
 
-* Entrada `getCompanyMembership`, alterado `companyArray` para `membershipArray`.
+* Em `getCompanyMembership`, alterado `companyArray` para `membershipArray`.
 
-* Entrada `getUserChars`, `includeInvalid` O agora é opcional.
+* Em `getUserChars`, `includeInvalid` agora é opcional.
 
 **Removido**
 
 * Removido `renameFiles` de `renameAsset`.
 
 * Removido `getXMPPanelViewDefinition`.
-* Removido `searchAssetsByFulltext` e `searchAssetsBySimilarity`.
+* Removidos `searchAssetsByFulltext` e `searchAssetsBySimilarity`.

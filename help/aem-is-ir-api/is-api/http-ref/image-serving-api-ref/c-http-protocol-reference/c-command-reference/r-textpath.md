@@ -33,13 +33,13 @@ Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http
 
 *`pathDefinition`* pode incluir vários subcaminhos. O texto é renderizado nos subcaminhos na ordem especificada.
 
-Os comandos RTF `\ql`, `\qc`, `\qr`, `\li`, e `\ri` pode ser usado para posicionar o texto renderizado ao longo do caminho.
+Os comandos RTF `\ql`, `\qc`, `\qr`, `\li` e `\ri` podem ser usados para posicionar o texto renderizado ao longo do caminho.
 
 ## Propriedades {#section-068137df436c46b9b55d271eb60e7285}
 
-Atributo de camada de texto ( `textPs=` somente). Ignorado por outras camadas. Aplicável a `layer=0` se especificado para `layer=comp`. Ignorado se `textPs=` estão presentes.
+Atributo de camada de texto (somente `textPs=`). Ignorado por outras camadas. Aplicável a `layer=0`, se especificado, para `layer=comp`. Ignorado se `textPs=` estiverem presentes.
 
-Um erro é retornado se uma camada incluir ambos `textPath=` e `textFlowPath=`.
+Um erro será retornado se uma camada incluir `textPath=` e `textFlowPath=`.
 
 ## Padrão {#section-697b1f2cfc43498080a31327e6eb173d}
 
@@ -47,4 +47,4 @@ Nenhum, para renderização de texto padrão.
 
 ## Consulte também {#section-3050d8f47e1d4f5c9b474dece45ea93d}
 
-[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [Camadas de texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)
+[textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767) , [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [Camadas de Texto](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-layers.md#reference-47e78cfb18134db5ab09e17af14a6a8f)

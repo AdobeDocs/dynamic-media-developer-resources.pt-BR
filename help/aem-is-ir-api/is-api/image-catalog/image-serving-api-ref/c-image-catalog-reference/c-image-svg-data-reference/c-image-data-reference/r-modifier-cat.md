@@ -18,9 +18,9 @@ Cadeia modificadora de solicitação de prefixo. Nenhum ou mais comandos do Serv
 
 Usado para modificar persistentemente imagens e armazenar o corpo de modelos.
 
-Os comandos neste campo são substituídos pelos mesmos comandos na solicitação ou no modelo a partir do qual esse registro é referenciado, e pelos comandos em `catalog::PostModifier`
+Os comandos neste campo são substituídos pelos mesmos comandos na solicitação ou no modelo do qual esse registro é referenciado e pelos comandos em `catalog::PostModifier`
 
-As macros são permitidas em `catalog::Modifier`, desde que estejam definidos no mesmo catálogo ou no catálogo padrão. Variáveis personalizadas também podem ser usadas.
+As macros são permitidas em `catalog::Modifier`, desde que estejam definidas no mesmo catálogo ou no catálogo padrão. Variáveis personalizadas também podem ser usadas.
 
 ## Propriedades {#section-6674388f77d644469371a17e8809c45f}
 

@@ -1,7 +1,7 @@
 ---
 description: Usado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
 solution: Experience Manager
-title: Publicar estado
+title: Estado do Publish
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Publicar estado{#publish-state}
+# Estado do Publish{#publish-state}
 
 Usado por searchAssetsParam/publishState, setAssetPublishStateParam/publishState e ContextStateUpdate/publishState.
 

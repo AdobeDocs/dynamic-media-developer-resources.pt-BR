@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ As macros são definidas em arquivos de definição de macro separados, que pode
 
 *[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-Chame macros em qualquer lugar em uma solicitação depois do &#39;?&#39; ou em qualquer lugar dentro de um `vignette::Modifier` campo. As macros só podem representar um ou mais comandos de Renderização de imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
+Chame macros em qualquer lugar em uma solicitação depois do &#39;?&#39;, ou em qualquer lugar dentro de um campo `vignette::Modifier`. As macros só podem representar um ou mais comandos de Renderização de imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 
-As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Este fluxo de trabalho é diferente de `vignette::Modifier`, onde os comandos na string de solicitação substituem os comandos na variável `vignette::Modifier` independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Este fluxo de trabalho é diferente de `vignette::Modifier`, no qual os comandos da cadeia de caracteres de solicitação substituem os comandos da cadeia de caracteres `vignette::Modifier`, independentemente da posição na solicitação.
 
 Macros de comandos não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
@@ -46,10 +46,10 @@ A macro seria usada da seguinte maneira:
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-Porque `qlt=` for diferente para a terceira solicitação, o software substituirá o valor depois que a macro for chamada (especificando `qlt=` *antes* `$render$`é ineficaz).
+Como `qlt=` é diferente para a terceira solicitação, o software substitui o valor após a macro ser invocada (especificando `qlt=` *antes* `$render$`é ineficaz).
 
 **Consulte também**
 
-`catalog::MacroFile`, `catalog::Modifier`, Referência de definição de macro
+`catalog::MacroFile`, `catalog::Modifier`, Referência de Definição de Macro
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->

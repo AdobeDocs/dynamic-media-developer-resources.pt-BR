@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O painel Chamada para ação é exibido quando o vídeo termina e exibe todas as
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-O painel consiste em uma área de cabeçalho que mostra o título do vídeo, um botão de repetição no canto superior direito e amostras interativas reais exibidas como uma grade rolável. Você pode desativar o painel usando a variável [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) atributo de configuração.
+O painel consiste em uma área de cabeçalho que mostra o título do vídeo, um botão de repetição no canto superior direito e amostras interativas reais exibidas como uma grade rolável. Você pode desativar o painel usando o atributo de configuração [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
 O painel de chamada para ação sempre ocupa toda a área de visualização disponível.
 
@@ -35,7 +35,7 @@ O seletor de classe CSS a seguir controla a aparência da cor do plano de fundo 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do painel de chamada para ação. </p> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ O seletor de classe CSS a seguir controla a aparência do cabeçalho no painel c
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo do cabeçalho. </p> </td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ O seletor de classe CSS a seguir controla a aparência do título do cabeçalho 
    <td colname="col2"> <p> Cor do texto dentro do banner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ O seletor de classe CSS a seguir controla a aparência do título do cabeçalho 
    <td colname="col2"> <p>Altura da linha. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> Família da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ O seletor de classe CSS a seguir controla a aparência do título do cabeçalho 
    <td colname="col2"> <p>Preenchimento esquerdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento à direita </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento direito </span> </p> </td> 
    <td colname="col2"> <p> Preenchimento direito para permitir espaço para o botão Reproduzir. </p> </td> 
   </tr> 
  </tbody> 
@@ -175,7 +175,7 @@ O seletor de classe CSS a seguir controla a aparência do botão Fechar no paine
    <td colname="col2"> <p> Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -187,11 +187,11 @@ O seletor de classe CSS a seguir controla a aparência do botão Fechar no paine
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 ## Exemplo {#example-3}
 
-Para configurar um botão de repetição com 28 x 28 pixels. O botão deve ser posicionado 20 pixels a partir da parte superior e da borda direita do cabeçalho. E deve exibir uma imagem diferente para cada um dos quatro estados de botão diferentes; tira o trabalho artístico da imagem gráfica do componente:
+Para configurar um botão de repetição com 28 x 28 pixels. O botão deve ser posicionado 20 pixels entre a parte superior e a borda direita do cabeçalho. E deve exibir uma imagem diferente para cada um dos quatro estados de botão diferentes; tira o trabalho artístico da imagem gráfica do componente:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -231,7 +231,7 @@ O seletor de classe CSS a seguir controla a aparência da exibição de grade de
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da área de miniaturas. </p> </td> 
   </tr> 
  </tbody> 
@@ -261,7 +261,7 @@ O seletor de classe CSS a seguir controla a aparência da célula de miniatura n
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> Tamanho da margem horizontal e vertical ao redor de cada miniatura. </p> <p>O espaçamento de miniatura horizontal real é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. A mesma regra também se aplica, mas ao espaçamento vertical. </p> </td> 
+   <td colname="col2"> <p> Tamanho da margem horizontal e vertical ao redor de cada miniatura. </p> <p>O espaçamento horizontal real entre miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. A mesma regra também se aplica, mas ao espaçamento vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -308,7 +308,7 @@ O seletor de classe CSS a seguir controla a aparência da miniatura no painel Ch
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem atualmente selecionada; `state="default"` corresponde ao restante das miniaturas; `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem atualmente selecionada; `state="default"` corresponde ao restante das miniaturas; `state="over"` é usado ao passar o mouse.
 
 ## Exemplo {#example-6}
 
@@ -342,11 +342,11 @@ O seletor de classe CSS a seguir controla a aparência do rótulo de miniatura n
    <td colname="col2"> <p>Alinhamento horizontal do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -388,7 +388,7 @@ O seletor de classe CSS a seguir controla a aparência da área da barra de rola
    <td colname="col2"> <p>Deslocamento da barra de rolagem vertical a partir da parte superior da área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Deslocamento da barra de rolagem vertical a partir da parte inferior da área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
@@ -430,7 +430,7 @@ O seletor de classe CSS a seguir controla a aparência da faixa da barra de rola
    <td colname="col2"> <p>Largura da barra de rolagem da trilha. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de faixa. </p> </td> 
   </tr> 
  </tbody> 
@@ -478,15 +478,15 @@ O seletor de classe CSS a seguir controla a aparência da altura da miniatura e 
    <td colname="col2"> <p>Preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do polegar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -498,7 +498,7 @@ O seletor de classe CSS a seguir controla a aparência da altura da miniatura e 
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes aos seguintes estados de miniatura: `"up"`, `"down"`, `"over"`, e `"disabled"`.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos seguintes estados de miniatura: `"up"`, `"down"`, `"over"` e `"disabled"`.
 
 ## Exemplo {#example-10}
 
@@ -539,7 +539,7 @@ Não é possível posicionar botões de rolagem usando propriedades CSS top, lef
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -551,9 +551,9 @@ Não é possível posicionar botões de rolagem usando propriedades CSS top, lef
 
 >[!NOTE]
 >
->Esses botões suportam o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes aos seguintes estados de miniatura: `"up"`, `"down"`, `"over"`, e `"disabled"`.
+>Esses botões oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos seguintes estados de miniatura: `"up"`, `"down"`, `"over"` e `"disabled"`.
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exemplo {#example-11}
 

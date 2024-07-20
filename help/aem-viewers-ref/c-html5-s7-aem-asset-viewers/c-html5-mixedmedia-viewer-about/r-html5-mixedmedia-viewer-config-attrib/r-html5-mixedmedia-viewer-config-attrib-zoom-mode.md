@@ -21,8 +21,8 @@ Define o tipo de interação de zoom.
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|inline|auto </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> contínuo </span> habilita o zoom clássico, no qual a imagem é ampliada gradualmente à medida que você clica, dá um toque duplo ou aperta na exibição principal. Para voltar à exibição inicial, reduza ou redefina o estado de zoom. A classe </p> <p> <span class="codeph"> em linha </span> permite zoom instantâneo, onde a imagem com zoom aparece instantaneamente ao passar o mouse sobre a exibição principal no desktop ou tocar e segurar um dispositivo de toque. A imagem reverte automaticamente para o estado inicial depois de mover o mouse da visualização ou soltar o dedo. Entrada <span class="codeph"> em linha </span> , os conjuntos de imagens aninhadas são nivelados e exibidos como miniaturas individuais. A classe <span class="codeph"> automático </span> ativa o modo inline no desktop e o modo contínuo em dispositivos de toque. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contínuo|em linha|automático </span> </p> </td> 
+   <td colname="col2"> <p> O <span class="codeph"> continuous </span> habilita o zoom clássico no qual a imagem gradualmente dá zoom à medida que você clica, dá um toque duplo ou aperta na exibição principal. Para voltar à exibição inicial, reduza ou redefina o estado de zoom. A classe </p> <p> O <span class="codeph"> incorporado </span> habilita o zoom instantâneo, no qual a imagem com zoom é exibida instantaneamente à medida que você passa o mouse sobre a exibição principal no desktop ou para tocar e segurar um dispositivo de toque. A imagem reverte automaticamente para o estado inicial depois de mover o mouse da visualização ou soltar o dedo. No modo <span class="codeph"> embutido </span>, os conjuntos de imagens aninhados são nivelados e exibidos como miniaturas individuais. A classe <span class="codeph"> auto </span> ativa o modo embutido na área de trabalho e o modo contínuo em dispositivos de toque. </p> </td> 
   </tr> 
  </tbody> 
 </table>

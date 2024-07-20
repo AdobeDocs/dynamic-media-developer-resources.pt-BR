@@ -20,7 +20,7 @@ Atualmente, somente o renderizador FXG pode fazer referência a fontes por seus 
 
 ## Propriedades {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-String de texto. Opcional. Chave de índice secundária do mapa de fontes. O mesmo `font::PsName` o valor só pode ocorrer uma vez no mesmo arquivo de mapa de fontes.
+String de texto. Opcional. Chave de índice secundária do mapa de fontes. O mesmo valor `font::PsName` pode ocorrer apenas uma vez no mesmo arquivo de mapa de fontes.
 
 ## Padrão {#section-c5903d5340e740b69ec0150d2303a893}
 

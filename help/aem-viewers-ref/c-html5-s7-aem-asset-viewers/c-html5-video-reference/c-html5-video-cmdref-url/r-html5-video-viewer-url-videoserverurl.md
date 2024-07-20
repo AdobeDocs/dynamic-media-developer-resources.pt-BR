@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # videoServerUrl{#videoserverurl}
 
-Comando do URL para o Visualizador de vídeo.
+Comando do URL para o Visualizador de Vídeo.
 
 ` videoServerUrl= *`videoRootPath`*`
 

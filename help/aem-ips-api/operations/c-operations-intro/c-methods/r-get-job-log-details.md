@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Obtém os detalhes do log de trabalho de uma empresa.
 
-A variável `logMessage` o campo de resposta é localizado com base na variável `authHeader` `locale` campo.
+O campo de resposta `logMessage` é localizado com base no campo `authHeader` `locale`.
 
 ## Tipos de usuário autorizados {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -63,7 +63,7 @@ A variável `logMessage` o campo de resposta é localizado com base na variável
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Uma ou mais constantes de tipo de log. Se presente, somente os tipos de log especificados serão retornados. Por padrão, todos os tipos de log são retornados. </td> 
   </tr> 
@@ -71,13 +71,13 @@ A variável `logMessage` o campo de resposta é localizado com base na variável
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número máximo de <span class="codeph"> detailArray</span> itens para retornar. O valor máximo e padrão é 1000. </td> 
+   <td colname="col4">Número máximo de <span class="codeph"> itens detailArray</span> para retornar. O valor máximo e padrão é 1000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4">Número de página de <span class="codeph"> recordsPerPage</span>- resultados a serem retornados. O valor padrão é 1. </td> 
+   <td colname="col4">Número de páginas de <span class="codeph"> recordsPerPage</span>-results a serem retornados. O valor padrão é 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

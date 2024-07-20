@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Política de validação de cache do servidor. Especifica quando as entradas de cache do servidor são validadas.
 
-Com a validação baseada em expiração, os materiais de origem e as vinhetas são verificados periodicamente para ver se foram alterados. Com a validação baseada em catálogo, as imagens de origem são verificadas somente após a `catalog::TimeStamp` valor alterado.
+Com a validação baseada em expiração, os materiais de origem e as vinhetas são verificados periodicamente para ver se foram alterados. Com a validação baseada em catálogo, as imagens de origem são verificadas somente após a alteração do valor `catalog::TimeStamp`.
 
 A validação baseada em catálogo é recomendada quando são usados catálogos de material e vinheta. A validação baseada em expiração deve ser usada quando as vinhetas são referenciadas nas solicitações de Renderização de imagem diretamente pelo caminho.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência do contêiner do indicador de definição é controlada com o segui
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador de definição. </p> </td> 
   </tr> 
  </tbody> 
@@ -43,7 +43,7 @@ A aparência do contêiner do indicador de definição é controlada com o segui
 
 >[!NOTE]
 >
->Definir indicador suporta o seletor de atributo de modo, que você pode usar para aplicar diferentes estilos para modos de operação pontilhados e numéricos. Em especial, `mode="numeric"` corresponde ao modo de operação numérico; `mode="dotted"` corresponde ao estado de ponto padrão.
+>Definir indicador suporta o seletor de atributo de modo, que você pode usar para aplicar diferentes estilos para modos de operação pontilhados e numéricos. Especificamente, `mode="numeric"` corresponde ao modo de operação numérica; `mode="dotted"` corresponde ao estado de ponto padrão.
 
 Por exemplo, suponha que você queira configurar um indicador de definição com um fundo branco:
 
@@ -90,19 +90,19 @@ A aparência de um ponto indicador de definição individual é controlada com o
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ A aparência de um ponto indicador de definição individual é controlada com o
    <td colname="col2"> <p>Cor da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-alinhamento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinhamento vertical </span> </p> </td> 
    <td colname="col2"> <p>Alinhamento vertical do índice do banner. </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ A aparência de um ponto indicador de definição individual é controlada com o
 
 >[!NOTE]
 >
->Definir itens indicadores para suportar o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado de item padrão.
+>Os itens de indicador definidos oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde ao elemento atual no conjunto; `state="unselected"` corresponde ao estado de item padrão.
 
 Por exemplo, suponha que você queira configurar um indicador definido em modo pontilhado para sistemas desktop. Você deseja que ele seja posicionado 20 pixels da parte inferior do visualizador. E você deseja que os pontos não selecionados sejam pretos com 50% de transparência, 15 x 15 pixels com sete pixels de vértices arredondados. Os pontos selecionados são pretos com 90% de transparência, 18 x 18 pixels com nove pixels de cantos arredondados. O espaçamento entre pontos é de cinco pixels.
 

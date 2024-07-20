@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 ## Exemplo {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Para configurar um visualizador com um fundo branco ( `#FFFFFF`) e definir seu tamanho como 512 x 288 pixels.
+Para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e definir seu tamanho como 512 x 288 pixels.
 
 ```
 .s7interactivevideoviewer { 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 1%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definida como <span class="codeph"> 1 </span> o volume fica sem áudio; caso contrário, o vídeo é reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite que o vídeo seja reproduzido automaticamente. </p> </td> 
+   <td colname="col2"> <p> Define o modo Silencioso para a reprodução de vídeo no carregamento inicial. Se definido como <span class="codeph"> 1 </span>, o volume será silenciado; caso contrário, o vídeo será reproduzido com som. Em determinados dispositivos, silenciar a reprodução de vídeo ao carregar também permite que o vídeo seja reproduzido automaticamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

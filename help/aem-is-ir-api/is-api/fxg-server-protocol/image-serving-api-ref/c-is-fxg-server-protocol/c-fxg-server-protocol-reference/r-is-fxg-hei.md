@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Altura da exibição. Especifica a altura da imagem de resposta.
  </tr> 
 </table>
 
-Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Selecionar **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**, em seguida, insira os valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve as configurações e execute uma publicação do Servidor de imagens para aplicar uma alteração.
+Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Selecione **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e insira seus valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve suas configurações e execute um Publish do Servidor de imagens para aplicar uma alteração.
 
-Se você aplicar uma `scale=1` , uma solicitação de formato rasterizado é processada no tamanho especificado no FXG.
+Se você aplicar um comando `scale=1`, uma solicitação de formato rasterizado será renderizada no tamanho especificado no FXG.
 
 ## Padrão {#section-76ee3daa77cb468ab310821357cc9404}
 
-Se `wid=`, `hei=`ou `scale=` não forem especificados, a imagem de resposta será o tamanho de exibição padrão especificado no arquivo FXG.
+Se `wid=`, `hei=` ou `scale=` não forem especificados, a imagem de resposta será o tamanho de exibição padrão especificado no arquivo FXG.
 
 ## Exemplo {#section-a91c14d31e71481ba054412d9f642885}
 

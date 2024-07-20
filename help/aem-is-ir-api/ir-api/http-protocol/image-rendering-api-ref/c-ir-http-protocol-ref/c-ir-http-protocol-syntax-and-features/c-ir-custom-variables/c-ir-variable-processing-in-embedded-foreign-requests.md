@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Processamento de variáveis em solicitações externas inseridas{#variable-processing-in-embedded-foreign-requests}
 
-Qualquer `$var$` as referências que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
+Quaisquer referências `$var$` que ocorrem em qualquer lugar dentro das chaves de uma solicitação externa incorporada são substituídas por valores de definição de variável correspondentes.
 
 Permite que solicitações externas incorporadas sejam colocadas em um modelo em um catálogo de imagens.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,11 @@ Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de i
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> solicitação</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vinheta</span> ] [ ?<span class="varname"> modificadores</span> ] </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> vignette</span> ] [ ?<span class="varname"> modificadores</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> server </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> porta</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> servidor </span> </p> </td> 
+   <td colname="col2"> <p><span class="varname"> endereço_servidor</span> [ :<span class="varname"> porta</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> vinheta </span> </p> </td> 
@@ -46,7 +46,7 @@ Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de i
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> comando </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 
@@ -65,17 +65,17 @@ Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de i
    <td colname="col2"> <p>Nome de uma variável personalizada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> value </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> valor </span> </p> </td> 
    <td colname="col2"> <p>Valor do comando ou da variável. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`server`*, *`cmdName`*, *`macro`*, e *`var`* não diferenciam maiúsculas de minúsculas. O servidor preserva as letras maiúsculas e minúsculas de todos os outros valores de string.
+*`server`*, *`cmdName`*, *`macro`* e *`var`* não diferenciam maiúsculas de minúsculas. O servidor preserva as letras maiúsculas e minúsculas de todos os outros valores de string.
 
 **Identificador do servidor**
 
-O &#39; `/ir/render`O contexto raiz &#39;&#39; é necessário para todas as solicitações HTTP para a Renderização de imagem.
+O contexto raiz &#39; `/ir/render`&#39; é necessário para todas as solicitações HTTP para a Renderização de Imagem.
 
 **Comentários**
 
@@ -83,4 +83,4 @@ Os comentários podem ser incorporados nas sequências de solicitação em qualq
 
 **Decodificação HTTP**
 
-Primeiras extrações de renderização de imagem *`object`* e *`modifiers`* da solicitação recebida. A variável *`object`* O é separado em elementos de caminho que são decodificados individualmente por HTTP. A variável *`modifiers`* a sequência de caracteres é separada em *`command`*= *`value`* pares e *`value`* é então decodificado por HTTP antes do processamento específico do comando.
+A Renderização de Imagem primeiro extrai *`object`* e *`modifiers`* da solicitação de entrada. O *`object`* é então separado em elementos de caminho que são decodificados individualmente por HTTP. A cadeia de caracteres *`modifiers`* é separada em *`command`*= *`value`* pares e *`value`* é então decodificado em HTTP antes do processamento específico do comando.

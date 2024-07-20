@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 21%
+source-wordcount: '227'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Os valores de comando devem ser codificados em http usando sequências de escape %xx, de modo que as cadeias de caracteres de valor não incluam os caracteres reservados &#39;=&#39;, &#39;&amp;&#39; e &#39;%&#39;.
 
-Caso contrário, as regras de codificação HTTP padrão serão aplicadas. A especificação HTTP exige a codificação dos caracteres inseguros, bem como de quaisquer caracteres de controle, como `<return>` e `<tab>`. A codificação de URL de um caractere consiste em um símbolo &quot;%&quot;, seguido pela representação hexadecimal de dois dígitos (não diferencia maiúsculas de minúsculas) do ponto de código ISO-Latin do caractere. Os caracteres e pontos de código inseguros são:
+Caso contrário, as regras de codificação HTTP padrão serão aplicadas. A especificação HTTP requer a codificação dos caracteres não seguros, bem como de quaisquer caracteres de controle, como `<return>` e `<tab>`. A codificação de URL de um caractere consiste em um símbolo &quot;%&quot;, seguido pela representação hexadecimal de dois dígitos (não diferencia maiúsculas de minúsculas) do ponto de código ISO-Latin do caractere. Os caracteres e pontos de código inseguros são:
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -183,4 +183,4 @@ Se a ofuscação for aplicada, a codificação pode ser limitada para remover os
 
 ## Consulte também {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Solicitar ofuscação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [Especificação HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Solicitar Ofuscação](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [Especificação HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Os valores de comando devem ser codificados em http usando sequências de escape
 
 Caso contrário, as regras de codificação HTTP padrão serão aplicadas. A especificação HTTP requer a codificação dos caracteres inseguros, como &#39; &#39; (espaço), &#39;&quot;&#39;(aspas duplas), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; e &#39;>&#39;, bem como quaisquer caracteres de controle, como `<return>` e `<tab>`.
 
-**Atenção:** As chaves { } usadas como delimitadores de aninhamento de solicitações não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se esse problema ocorrer, a Renderização de imagem permitirá o uso de parênteses ( ) em vez de chaves.
+**Cuidado:** As chaves { } usadas como delimitadores de aninhamento de solicitações não devem ser codificadas. Alguns clientes de email infelizmente codificam chaves na solicitação HTTP incorporada. Se esse problema ocorrer, a Renderização de imagem permitirá o uso de parênteses ( ) em vez de chaves.
 
 ## Exemplo {#section-3edc5b8ee2354220a281b01722ad337a}
 

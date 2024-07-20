@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Definir margem de corte. Define a margem de apara definida no arquivo PDF.
 
-` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` nos pontos
+` trimMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` em pontos
 
-Por padrão, a variável `trimMargin` está definido com o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. A variável *[!DNL left]*, *[!DNL bottom]*, e *[!DNL right]* os valores são padronizados para o *[!DNL top]* valor, se não for especificado.
+Por padrão, o `trimMargin` está definido como o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. Os valores *[!DNL left]*, *[!DNL bottom]* e *[!DNL right]* assumem como padrão o valor *[!DNL top]*, se não forem especificados.

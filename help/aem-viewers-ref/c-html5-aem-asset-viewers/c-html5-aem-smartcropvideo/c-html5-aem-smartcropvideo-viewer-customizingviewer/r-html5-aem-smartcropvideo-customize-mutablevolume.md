@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e0a3e849-842b-4137-acc2-34301e89518f
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '534'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ A aparência da área de volume mutável é controlada com o seguinte seletor de
    <td colname="col2"> <p>A altura do controle de volume mutável. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do controle de volume mutável. </p> </td> 
   </tr> 
  </tbody> 
@@ -66,7 +66,7 @@ Você pode controlar a imagem de fundo para cada estado do botão. O tamanho do 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Você pode controlar a imagem de fundo para cada estado do botão. O tamanho do 
 
 >[!NOTE]
 >
->Esse botão suporta as opções `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado &quot;mudo&quot; e `selected='false'` corresponde ao estado &quot;sem áudio&quot;.
+>Este botão oferece suporte aos seletores de atributo `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `selected='true'` corresponde ao estado &quot;sem áudio&quot; e `selected='false'` corresponde ao estado &quot;sem áudio&quot;.
 
 A área da barra de volume vertical é controlada com o seguinte seletor de classe CSS:
 
@@ -91,7 +91,7 @@ A área da barra de volume vertical é controlada com o seguinte seletor de clas
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo do volume vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ A faixa dentro do controle de volume vertical é controlada com os seguintes sel
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo do controle de volume vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ O botão de volume vertical é controlado com o seguinte seletor de classe CSS:
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Trabalho artístico do botão de controle de volume vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ O botão de volume vertical é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do botão de controle de volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição horizontal do controle de volume vertical. </p> </td> 
   </tr> 
  </tbody> 
@@ -242,4 +242,4 @@ Este é um exemplo de como é possível personalizar o reprodutor de vídeo para
                 }
 ```
 
-No exemplo de código acima, o nível de volume está definido como `0` no `mutableVolume` componente. Em seguida, o mesmo componente é desativado para que não possa ser usado pelo usuário final.
+No exemplo de código acima, o nível de volume está definido como `0` no componente `mutableVolume`. Em seguida, o mesmo componente é desativado para que não possa ser usado pelo usuário final.

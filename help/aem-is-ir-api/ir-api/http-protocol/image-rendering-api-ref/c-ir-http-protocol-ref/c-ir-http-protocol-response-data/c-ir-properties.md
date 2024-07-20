@@ -24,11 +24,11 @@ Os dados de resposta são formatados para serem legíveis como propriedades Java
 
 ` *[!DNL objectName.propertyName]*= *[!DNL propertyValue]*`
 
-...
+..
 
-` *[!DNL propertyValue]*` Pode ficar em branco. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de cadeias de caracteres, mas não são obrigatórias.
+` *[!DNL propertyValue]*` Pode estar vazio. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador &#39;=&#39;. Aspas simples ou duplas podem ser usadas para delimitar valores de cadeias de caracteres, mas não são obrigatórias.
 
-Os valores de string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`ou `\\`.
+Os valores da cadeia de caracteres podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:` ou `\\`.
 
 **Consulte também**
 

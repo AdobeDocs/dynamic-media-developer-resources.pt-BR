@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API JavaScript para o Visualizador de imagem de vídeo.
+description: Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de imagem de vídeo.
+Referência da API do JavaScript para o Visualizador de imagem de vídeo.
 
 ` setAsset( *`ativo`*)`
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
+Define o novo ativo. Você pode chamar este parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador trocará o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -26,7 +26,7 @@ Consulte também [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interacti
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} ID do novo ativo. </p> <p>As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são compatíveis com esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova ID do ativo. </p> <p>As imagens que usam IR (Renderização de imagem) ou UGC (Conteúdo gerado pelo usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -26,4 +26,4 @@ Sintaxe
 | companyName | `xsd:string` | Nome da empresa. |
 | imageCount | `xsd:int` | Número de imagens armazenadas. |
 | diskSpaceUsage | `xsd:long` | Lado do arquivo total em quilobytes. |
-| lastModified | `xsd:dateTime` | Data, hora e fuso horário que `DiskUsage` O tipo foi modificado pela última vez. |
+| lastModified | `xsd:dateTime` | Data, hora e fuso horário da última modificação do tipo `DiskUsage`. |

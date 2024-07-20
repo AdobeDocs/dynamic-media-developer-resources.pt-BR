@@ -42,7 +42,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Mensagem no log do trabalho. <p><span class="codeph"> [!DNL logMessage]</span> o campo de resposta é localizado com base em <span class="codeph"> authHeader</span> campo local. </p></td> 
+   <td colname="col3">Mensagem no log do trabalho. <p>O campo de resposta <span class="codeph"> [!DNL logMessage]</span> foi localizado com base no campo de localidade <span class="codeph"> authHeader</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 

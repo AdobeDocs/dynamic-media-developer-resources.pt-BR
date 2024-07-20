@@ -27,4 +27,4 @@ Coordenadas em pixels. Usado para especificar coordenadas de imagem na forma de 
  </tr> 
 </table>
 
-A coordenada `0,0` refere-se ao canto superior esquerdo da imagem ou do retângulo. O aumento dos valores se move em direção à parte inferior direita.
+A coordenada `0,0` refere-se ao canto superior esquerdo da imagem ou retângulo. O aumento dos valores se move em direção à parte inferior direita.

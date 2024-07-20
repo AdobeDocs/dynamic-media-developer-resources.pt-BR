@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -46,8 +46,8 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:AutoDefinirOpçõesDeCriação</span> </td> 
-   <td colname="col3">Uma matriz de scripts de geração definidos que você pode executar nos arquivos carregados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoDefinirOpçõesDeCriação</a></td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">Uma matriz de scripts de geração definidos que você pode executar nos arquivos carregados. Consulte <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
@@ -57,9 +57,9 @@ Sintaxe
  </tbody> 
 </table>
 
-**Opções de configuração de email**
+**Opções de emailSetting**
 
-A variável `emailSetting` O parâmetro inclui as seguintes opções:
+O parâmetro `emailSetting` inclui as seguintes opções:
 
 | Opção | Devoluções |
 |---|---|

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Além do espaço necessário para instalar o software, o Servidor de imagens tem
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Descrição/ Localização Padrão/ Definir Com</b> </th> 
-   <th class="entry"> <b>Cálculo/recomendação</b> </th> 
+   <th class="entry"> <b>Descrição/ Localização Padrão/ Definida Com</b> </th> 
+   <th class="entry"> <b>Cálculo/ Recomendação</b> </th> 
    <th class="entry"> <b>Comentários</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><b>Imagens de origem, fontes, perfis ICC</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
+   <td> <p><b>Imagens, fontes e perfis ICC do Source</b> </p> <p> <span class="filepath"> <span class="varname"> pasta_de_instalação </span>/imagens </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
    <td> <p>Varia; consulte os comentários abaixo. </p> </td> 
    <td> <p>Somente deve ser acessível ao Servidor de imagens; os servidores nunca modificam dados. </p> </td> 
   </tr> 
@@ -36,17 +36,17 @@ Além do espaço necessário para instalar o software, o Servidor de imagens tem
    <td> <p>Esse cache também armazena dados aninhados/incorporados e imagens de origem estrangeira. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Cache de dados do catálogo de imagens</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/catalog </span> </p> <p> <span class="codeph"> CS::CatalogCacheFolder </span> </p> </td> 
+   <td> <p><b>Cache de dados do catálogo de imagens</b> </p> <p> <span class="filepath"> <span class="varname"> pasta_de_instalação </span>/cache/catálogo </span> </p> <p> <span class="codeph"> CS::CatalogCacheFolder </span> </p> </td> 
    <td> <p>Permita que a pasta de catálogo use 1,5x o espaço. </p> </td> 
    <td> <p>Preenchido quando os catálogos são carregados inicialmente. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Registrar dados</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
+   <td> <p><b>Dados de log</b> </p> <p> <span class="filepath"> <span class="varname"> pasta_de_instalação </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
    <td> <p>100 MB ou mais. </p> </td> 
    <td> <p>Isso varia dependendo da configuração de registro e do uso do servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Arquivos temporários do Servidor de imagens</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
+   <td> <p><b>Arquivos temporários do Servidor de Imagens</b> </p> <p> <span class="filepath"> <span class="varname"> pasta_de_instalação </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
    <td> <p>100 MB são suficientes para a maioria dos usos. </p> </td> 
    <td> <p>Dados de vida curta; podem ser necessários para imagens de origem diferentes de PTIFFs e determinados formatos de imagem de resposta. </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ O Adobe recomenda que você converta todas as imagens de origem no formato de ar
 
 Quando você usa arquivos PTIFF, as seguintes regras básicas podem ajudá-lo a determinar os requisitos de espaço.
 
-*`total_space`* (bytes) = *`number_of_images`*  × (2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
+*`total_space`* (bytes) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* O tamanho médio em pixels (largura x altura) de todas as imagens de origem. Por exemplo, se as imagens originais são tipicamente em torno de 2k × 2k pixels, isso seria 4 megapixels.
 * *`avg_num_components`* Depende do tipo de imagens. Para a maioria das imagens de RGB, é 3; para a maioria das imagens CMYK ou RGBA, é 4. Use 3,5 se metade das imagens for RGB e a outra metade for RGBA.
@@ -98,4 +98,4 @@ Uma implantação do Servidor de imagens espera usar 30.000 imagens herdadas de 
 
 *`total_space`* = 30.000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10.000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = aproximadamente 270 GB
 
-Para garantir a melhor qualidade, uma compactação, como zip, pode ser empregada. Presumindo uma *`p_factor`* de 0,4, a quantidade total de espaço em disco necessária é aproximadamente quatro vezes maior. Nesse caso, pouco mais de 1 terabyte.
+Para garantir a melhor qualidade, uma compactação, como zip, pode ser empregada. Presumindo-se um *`p_factor`* de 0,4, a quantidade total de espaço em disco necessária é aproximadamente quatro vezes maior. Nesse caso, pouco mais de 1 terabyte.

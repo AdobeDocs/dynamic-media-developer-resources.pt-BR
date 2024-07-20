@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ A posição e o tamanho do botão do sumário na interface do usuário do visual
    <td colname="col2"> <p> A altura do botão de índice. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ A posição e o tamanho do botão do sumário na interface do usuário do visual
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -96,7 +96,7 @@ A aparência do painel suspenso é controlada com o seguinte seletor de classe C
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo do painel suspenso. </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ A aparência do painel suspenso é controlada com o seguinte seletor de classe C
    <td colname="col2"> <p> Deslocamento interno entre os limites do painel e o conteúdo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra-caixa </span> </p> </td> 
    <td colname="col2"> <p> Sombra projetada ao redor do painel. </p> </td> 
   </tr> 
  </tbody> 
@@ -135,11 +135,11 @@ A aparência e comportamento do item individual são controlados com o seguinte 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ A aparência e comportamento do item individual são controlados com o seguinte 
 
 >[!NOTE]
 >
->O item da lista suspensa suporta o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes para passar o mouse e selecionar estados do item.
+>O item de lista suspensa suporta o seletor de atributos `state`, que pode ser usado para aplicar capas diferentes para passar o mouse sobre os estados dos itens selecionados.
 
 Exemplo - configurar um item suspenso com uma fonte Helvetica® de 14 pixels e 19 pixels de altura. Um item tem um plano de fundo cinza escuro ao passar o mouse e um plano de fundo cinza claro quando selecionado:
 
@@ -179,20 +179,20 @@ Um elemento que mostra o índice da página é controlado com o seguinte seletor
 .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7index
 ```
 
-**Propriedades CSS do índice da página**
+**Propriedades CSS do índice de página**
 
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura mínima </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-largura </span> </p> </td> 
    <td colname="col2"> <p> Largura mínima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura máxima </span> </p> </td> 
    <td colname="col2"> <p> Largura máxima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> preenchimento à direita </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> preenchimento direito </span> </p> </td> 
    <td colname="col2"> <p> Distância entre o índice da página e o rótulo da página. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Um elemento que mostra o índice da página é controlado com o seguinte seletor
 
 >[!NOTE]
 >
->É possível ocultar o índice de página totalmente ao configurar `display:none` para o `s7index` Classe CSS.
+>É possível ocultar o índice de página totalmente definindo `display:none` para a classe CSS `s7index`.
 
 Exemplo 1: configurar um índice de página com uma largura mínima de 40 pixels, uma largura máxima de 70 pixels e uma margem de 5 pixels no lado direito:
 
@@ -231,11 +231,11 @@ O rótulo da página é controlado com o seguinte seletor de classe CSS:
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> largura mínima </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> min-largura </span> </p> </td> 
    <td colname="col2"> <p> Largura mínima do elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> max-width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largura máxima </span> </p> </td> 
    <td colname="col2"> <p> Largura máxima do elemento. </p> </td> 
   </tr> 
  </tbody> 
@@ -269,7 +269,7 @@ Se houver mais itens que possam caber verticalmente no painel suspenso - e o sis
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte superior da área do painel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte inferior da área do painel. </p> </td> 
   </tr> 
   <tr> 
@@ -305,7 +305,7 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
    <td colname="col2"> <p>A largura da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da faixa. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,7 +347,7 @@ A miniatura da barra de rolagem se move verticalmente dentro da área de rolagem
    <td colname="col2"> <p>O preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -359,7 +359,7 @@ A miniatura da barra de rolagem se move verticalmente dentro da área de rolagem
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes ao `up`, `down`, `over`, e `disabled` estados de miniatura.
+>A miniatura dá suporte ao seletor de atributo `state`, que pode ser usado para aplicar capas diferentes aos estados de miniatura `up`, `down`, `over` e `disabled`.
 
 Exemplo - configure uma miniatura de barra de rolagem com 28 x 45 pixels, tenha margens de 10 pixels na parte superior e inferior e tenha arte-final diferente para cada estado:
 
@@ -396,9 +396,9 @@ A aparência dos botões de rolagem superior e inferior é controlada com os seg
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades; em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar os botões de rolagem usando as propriedades CSS `top`, `left`, `bottom` e `right`; em vez disso, a lógica do visualizador os posiciona automaticamente.
 
-**Propriedades CSS do botão de rolagem para cima e rolagem para baixo**
+**Propriedades CSS do botão de rolagem para cima e para baixo**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
@@ -411,7 +411,7 @@ Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bo
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -423,7 +423,7 @@ Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bo
 
 >[!NOTE]
 >
->O botão suporta a variável `state` seletor de atributo, que pode ser usado para aplicar capas diferentes ao `up`, `down`, `over`, e `disabled` estados do botão.
+>O botão dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos estados de botão `up`, `down`, `over` e `disabled`.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

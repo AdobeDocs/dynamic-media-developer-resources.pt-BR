@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API JavaScript para o Visualizador de zoom em linha.
+description: Referência da API do JavaScript para o Visualizador de zoom em linha.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de zoom em linha.
+Referência da API do JavaScript para o Visualizador de zoom em linha.
 
 ` setAsset( *`ativo`*)`
 
@@ -22,12 +22,12 @@ Referência da API JavaScript para o Visualizador de zoom em linha.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nova ID do ativo, conjunto de imagens explícitas ou conjunto de imagens explícitas com modificadores do Servidor de imagens específicos do quadro, com modificadores opcionais do Servidor de imagens global anexados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova ID de ativo, conjunto de imagens explícitas, ou conjunto de imagens explícitas com modificadores de Servidor de imagens específicos de quadro, com modificadores de Servidor de imagens globais opcionais anexados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
+Define o novo ativo. Você pode chamar este parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador trocará o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 

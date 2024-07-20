@@ -18,7 +18,7 @@ Renomeia um ativo.
 
 >[!NOTE]
 >
->A variável `renameFiles` foi descontinuado para versões anteriores e removido de `renameAsset`. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos do arquivo físico não são afetados. Os clientes da API precisam remover as referências a esse parâmetro ao atualizar para a nova versão da API.
+>O parâmetro `renameFiles` foi substituído em versões anteriores e removido de `renameAsset`. O caminho do arquivo virtual é alterado para corresponder ao novo nome do ativo (preservando a extensão do arquivo), enquanto os caminhos do arquivo físico não são afetados. Os clientes da API precisam remover as referências a esse parâmetro ao atualizar para a nova versão da API.
 
 ## Tipos de usuário autorizados {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -42,11 +42,11 @@ Renomeia um ativo.
 | companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o ativo pertence. |
 | assetHandle | `xsd:string` | Sim | O identificador do ativo que você deseja renomear. |
 | newName | `xsd:string` | Sim | Novo nome do ativo. |
-| validateName | `xsd:boolean` | Sim | Se a variável `validateName` é `true` e o tipo de ativo exigir uma ID de IPS exclusiva, então o novo nome será verificado em busca de exclusividade global e `renameAsset` aciona uma falha se ela não for exclusiva. |
+| validateName | `xsd:boolean` | Sim | Se o `validateName` for `true` e o tipo de ativo exigir uma ID de IPS exclusiva, o novo nome será verificado para exclusividade global e `renameAsset` acionará uma falha se não for exclusiva. |
 
 **Saída (renameAssetReturn)**
 
-A API do IPS não retorna uma resposta para esta operação. Consulte a descrição do `<ns1:validateName>` elemento para avisos sobre esse elemento.
+A API do IPS não retorna uma resposta para esta operação. Consulte a descrição do elemento `<ns1:validateName>` para avisos sobre esse elemento.
 
 ## Exemplos {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

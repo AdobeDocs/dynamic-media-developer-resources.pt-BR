@@ -22,10 +22,10 @@ ht-degree: 0%
    <td colname="col1"> <p> <span class="codeph"> ícone|região|auto|nenhum </span> </p> </td> 
    <td colname="col2"> <p>Especifica a aparência do mapa de imagem. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> ícone </span> os ícones do mapa são mostrados estaticamente no desktop e em dispositivos de toque. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> região </span> renderiza regiões do mapa de imagem; no desktop, elas são mostradas em rolagem e em dispositivos de toque são sempre visíveis. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> automático </span> em sistemas desktop, as regiões do mapa de imagem são mostradas em rolagem e, em dispositivos de toque, os ícones de mapa são sempre visíveis. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> nenhum </span> desativa mapas de imagem. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> ícone </span> ícones de mapa são mostrados estaticamente na área de trabalho e em dispositivos de toque. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> A região <span class="codeph"> </span> renderiza regiões do mapa de imagem; no desktop, elas são mostradas em rolagem e em dispositivos de toque são sempre visíveis. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto </span> em sistemas desktop, as regiões do mapa de imagem são mostradas na rolagem e nos dispositivos de toque os ícones de mapa são sempre visíveis. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none </span> desabilita mapas de imagem. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

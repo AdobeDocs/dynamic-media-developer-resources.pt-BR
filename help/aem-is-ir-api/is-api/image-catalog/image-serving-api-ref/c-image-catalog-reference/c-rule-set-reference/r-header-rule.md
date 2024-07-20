@@ -1,6 +1,6 @@
 ---
 title: cabeçalho
-description: Elemento de cabeçalho de resposta HTTP. Opcional em <rule> elementos.
+description: Elemento de cabeçalho de resposta HTTP. Opcional em elementos <rule>.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -20,7 +20,7 @@ Elemento de cabeçalho de resposta HTTP. Opcional em `<rule>` elementos.
 
 **`Name`= &quot;*texto*&quot;** : Obrigatório. Especifica o nome do cabeçalho HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: Opcional. O padrão é `"set"`, que substitui qualquer valor de cabeçalho atual. Especificar `"add"` para que você possa anexar o valor do cabeçalho, separado por vírgula.
+**`Action`= &quot;definido&quot; |`"add"`**: Opcional. O padrão é `"set"`, que substitui qualquer valor de cabeçalho atual. Especifique `"add"` para que você possa anexar o valor do cabeçalho, separado por vírgula.
 
 ## Dados {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ A regra a seguir aplica um cabeçalho personalizado quando o valor do cabeçalho
 </rule>
 ```
 
-Essa regra é acionada pela seguinte solicitação, definindo o cabeçalho de resposta HTTP do `Edge-Control::no-store`:
+Esta regra é disparada pela seguinte solicitação, definindo o cabeçalho de resposta HTTP `Edge-Control::no-store`:
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

@@ -20,10 +20,10 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> ajuste lateral|ajuste vertical</span> </p> </td> 
-   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> ajustar-vertical</span>, o componente muda primeiro a posição do painel base para a parte inferior do botão e tenta distribuir o painel para a direita ou para a esquerda a partir do local base. A cada tentativa, o componente verifica se o painel é recortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação para a direita e para a esquerda. </p> <p>Quando definido como <span class="codeph"> ajuste lateral</span>, o componente usa uma lógica semelhante, mas desloca a base para a direita primeiro, tentando direções de implantação para baixo e para cima. Em seguida, ele desloca a base para a esquerda, tentando para baixo e para cima instruções de implantação. </p> </td> 
+   <td> <p> Controla a direção da aparência do painel suspenso. </p> <p>Quando definido como <span class="codeph"> ajuste vertical</span>, o componente primeiro desloca a posição do painel base para a parte inferior de seu botão e tenta distribuir o painel para a direita ou para a esquerda a partir do local base. A cada tentativa, o componente verifica se o painel é recortado por um contêiner externo. Se todas as tentativas falharem, o componente tentará deslocar a posição do painel base para o topo e repetir as tentativas de implantação para a direita e para a esquerda. </p> <p>Quando definido como <span class="codeph"> fit-lateral</span>, o componente usa uma lógica semelhante, mas desloca a base para a direita primeiro, tentando para baixo e para cima direções de implantação. Em seguida, ele desloca a base para a esquerda, tentando para baixo e para cima instruções de implantação. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname">autoHideDelay</span></span> </p> </td> 
    <td> <p> Define o atraso em segundos para o temporizador de ocultação automática suspenso que oculta o painel quando um usuário está ocioso. </p> </td> 
   </tr> 
  </tbody> 

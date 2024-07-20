@@ -18,7 +18,7 @@ Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento 
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({

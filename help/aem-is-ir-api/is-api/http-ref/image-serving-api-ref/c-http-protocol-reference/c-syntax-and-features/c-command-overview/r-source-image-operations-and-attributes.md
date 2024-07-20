@@ -1,7 +1,7 @@
 ---
 description: Esses comandos se aplicam a imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como a máscaras anexadas a camadas de cores sólidas.
 solution: Experience Manager
-title: Operações da imagem de origem
+title: Operações de imagem do Source
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Operações da imagem de origem{#source-image-operations}
+# Operações de imagem do Source{#source-image-operations}
 
 Esses comandos se aplicam a imagens de origem usadas em solicitações simples ou em camadas de imagem, bem como a máscaras anexadas a camadas de cores sólidas.
 
@@ -22,7 +22,7 @@ Esses comandos se aplicam a imagens de origem usadas em solicitações simples o
   <td class="stentry"> <p>Define o ponto de ancoragem da imagem de origem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> cortar</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> recorte</a> </p></td> 
   <td class="stentry"> <p>Corta ou estende a imagem de origem. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Esses comandos se aplicam a imagens de origem usadas em solicitações simples o
   <td class="stentry"> <p>Especifica a máscara de imagem de origem ou o uso do canal alfa. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55" type="reference" format="dita" scope="local"> res</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55" type="reference" format="dita" scope="local">res</a> </p></td> 
   <td class="stentry"> <p>Dimensiona a imagem de origem com base na resolução. </p></td> 
  </tr> 
  <tr class="strow"> 

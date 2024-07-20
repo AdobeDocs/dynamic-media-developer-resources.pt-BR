@@ -18,4 +18,4 @@ A Renderização de imagem permite a incorporação de solicitações do Servido
 
 Esses mecanismos não são compatíveis com materiais de gabinete e de revestimento de janelas.
 
-Consulte também [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Referência do servidor de imagens.
+Consulte também [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) e Referência do Servidor de Imagens.

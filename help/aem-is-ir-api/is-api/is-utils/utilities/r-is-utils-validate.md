@@ -20,12 +20,12 @@ Todos os arquivos de imagem não PTIFF devem passar pela validação antes que o
 
 ## Uso {#usage}
 
-` validate *`fileType`* [ *`opções`*] [ *`sourceFile`* [ … ]]`
+` validate *`fileType`* [ *`options`*] [ *`sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualquer </span> </p> <p>Tipo de arquivo de origem; pelo menos um deve ser especificado (-any permite os mesmos tipos de arquivo de imagem compatíveis com IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -qualquer </span> </p> <p>Tipo de arquivo Source; pelo menos um deve ser especificado (qualquer permite os mesmos tipos de arquivo de imagem compatíveis com IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> opções </span> </span> </p> </td> 
@@ -46,7 +46,7 @@ Todos os arquivos de imagem não PTIFF devem passar pela validação antes que o
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>Especifica um arquivo de texto separado contendo a lista de arquivos de imagem. Um registro por arquivo. Se <span class="codeph"> -fileList </span> está incluído, <span class="varname"> sourceFile </span> não deve ser especificado. </p> </td> 
+  <td class="stentry"> <p>Especifica um arquivo de texto separado contendo a lista de arquivos de imagem. Um registro por arquivo. Se <span class="codeph"> -fileList </span> estiver incluído, <span class="varname"> sourceFile </span> não deverá ser especificado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -61,19 +61,19 @@ Todos os arquivos de imagem não PTIFF devem passar pela validação antes que o
   <td class="stentry"> <p> Rejeita imagens com 16 bits por componente de imagem. Sempre especificado pelo Servidor de imagens quando ele valida imagens de origem remota. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -verboso </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> - detalhada </span> </p> </td> 
   <td class="stentry"> <p> Imprime mais informações se a imagem for inválida. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -silencioso </span> </p> </td> 
-  <td class="stentry"> <p>Desabilita <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> saída. Somente um status é retornado. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> - </span> silencioso </p> </td> 
+  <td class="stentry"> <p>Desabilita a saída <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Somente um status é retornado. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 
   <td class="stentry"> <p>Encerra o processamento quando ocorre uma falha de validação de arquivo, mesmo se arquivos adicionais ainda não tiverem sido validados. Por padrão, o processamento continua quando ocorre um erro de validação </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -versão </span> </p> </td> 
   <td class="stentry"> <p>Retorna informações de versão para este utilitário. Especifique sem nenhuma outra opção. </p> </td> 
  </tr> 
 </table>

@@ -18,8 +18,8 @@ ID da localidade padrão. A ID da localidade a ser usada para fins de localizaç
 
 ## Propriedades {#section-a101e9658d304e9caf032a99ecb80386}
 
-String de texto. Ignorado se `attribute::LocaleMap` e `attribute::LocaleStrMap` estão em branco ou quando `locale=` está especificado e não está vazio.
+String de texto. Ignorado se `attribute::LocaleMap` e `attribute::LocaleStrMap` estiverem vazios, ou quando `locale=` for especificado e não estiver vazio.
 
 ## Consulte também {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 
-[locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb) , [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [attribute::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)
+[localidade=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb) , [atributo::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [atributo::LocaleStrMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localestrmap.md#reference-98c42070a4bc4baf92537132be2b5b1e)

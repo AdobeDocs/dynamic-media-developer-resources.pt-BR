@@ -22,7 +22,7 @@ Normalmente, um identificador curto e exclusivo, como um número SKU, possivelme
 
 ## Propriedades {#section-874a6853f67b4b229341ca76682884ae}
 
-String de texto. Obrigatório. Identificador de registro para a imagem/SVG ou tabela de dados de conteúdo estático. Each `catalog::Id` o valor nesse catálogo de imagens/catálogo de SVG ou nesse catálogo de conteúdo estático deve ser exclusivo e não deve incluir caracteres &quot;,&quot;.
+String de texto. Obrigatório. Identificador de registro para a imagem/SVG ou tabela de dados de conteúdo estático. Cada valor `catalog::Id` nesse catálogo de imagens/catálogo de SVG ou nesse catálogo de conteúdo estático deve ser exclusivo e não deve incluir caracteres &#39;,&#39;.
 
 ## Padrão {#section-a26e7d83a5ee44b5918baef82ee48e14}
 

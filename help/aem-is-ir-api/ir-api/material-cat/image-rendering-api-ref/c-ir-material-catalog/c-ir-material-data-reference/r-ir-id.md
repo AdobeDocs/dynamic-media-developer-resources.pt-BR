@@ -18,7 +18,7 @@ Identificador de registro do catálogo. Valor da chave pelo qual os registros de
 
 ## Propriedades {#section-9b20bf2545314620808b4210bce7afc9}
 
-String de texto. Obrigatório. Each `catalog::Id` o valor deve ser exclusivo dentro deste catálogo de materiais e não deve conter os caracteres &quot;,&quot;.
+String de texto. Obrigatório. Cada valor `catalog::Id` deve ser exclusivo dentro deste catálogo de materiais e não deve conter os caracteres &#39;,&#39;.
 
 ## Padrão {#section-6a517046c43a40a7ba0af0212b5f31d2}
 

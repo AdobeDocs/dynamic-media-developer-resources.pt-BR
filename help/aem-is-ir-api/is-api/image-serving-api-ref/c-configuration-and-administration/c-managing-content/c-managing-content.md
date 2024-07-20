@@ -17,6 +17,6 @@ ht-degree: 0%
 Estes tópicos contêm informações sobre o gerenciamento de conteúdo.
 
 * [Catálogos de imagens](c-image-catalogs.md)
-* [Dados de origem](r-source-data.md)
+* [Dados do Source](r-source-data.md)
 * [Dados de fonte de conteúdo estático](c-static-content-source-data.md)
 * [Exclusão ou substituição de arquivos de dados](c-deleting-or-replacing-data-files.md)

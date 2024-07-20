@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 7%
+source-wordcount: '243'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +20,15 @@ Informações da imagem da Digimarc. Habilita a incorporação da Digimarc e esp
 
 Quatro valores inteiros, separados por vírgulas.
 
-`*`type`*, *`sinalizadores`*, *`val1`*, *`val2`*`
+`*`tipo`*, *`sinalizadores`*, *`val1`*, *`val2`*`
 
-`*`type`*` habilita a incorporação da Digimarc e especifica o tipo de marca d&#39;água:
+`*`type`*` habilita a incorporação de Digimarc e especifica o tipo de marca d&#39;água:
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><b>Tipo de marca d'água</b> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span> </span> </p> </th> 
+   <th class="entry"> <p><b>Tipo de Marca D'Água</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -100,12 +100,12 @@ Quatro valores inteiros, separados por vírgulas.
  </tbody> 
 </table>
 
-A interpretação do `*`val1`*` e `*`val2`*` depende de `*`type`*`:
+A interpretação de `*`val1`*` e `*`val2`*` depende do `*`tipo`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> tipo</span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 

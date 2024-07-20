@@ -46,7 +46,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -71,12 +71,12 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> texto:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
    <td colname="col3"> Propriedades de um ativo de fonte. </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -151,17 +151,17 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeMetadados</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MetadataArray</span> </td> 
    <td colname="col3"> Matriz de valores de metadados associados ao ativo. </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -181,22 +181,22 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:InformaçõesModelo</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:TemplateInfo</span> </td> 
    <td colname="col3"> Propriedades de um ativo de modelo. </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Tipo de ativo. Consulte <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipos de ativos</a> para valores. </td> 
+   <td colname="col3">Tipo de ativo. Consulte <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Tipos de ativos</a> para obter valores. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -261,7 +261,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> <p>Propriedades de um ativo de vídeo. </p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:InformaçõesVinheta</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:VignetteInfo</span> </td> 
    <td colname="col3"> Propriedades de um ativo de vinheta. </td> 
   </tr> 
   <tr> 
@@ -291,7 +291,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -306,7 +306,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

@@ -97,7 +97,7 @@ Modo de repetição de textura. Especifica o modo de repetição para materiais 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>O randomizador de borda. </p> </td> 
+  <td class="stentry"> <p>Edge randomizer. </p> </td> 
  </tr> 
 </table>
 

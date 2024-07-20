@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
 
 `src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
-`srcE= *`name`*`
+`srcE= *`nome`*`
 
 `srcN= *`índice`*`
 
@@ -37,14 +37,14 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>ID do catálogo de materiais (<span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID do catálogo de materiais (<span class="codeph"> atributo::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Entrada do catálogo de materiais (<span class="codeph"> catálogo::Id</span>). </p></td> 
+  <td class="stentry"> <p>Entrada de catálogo de materiais (<span class="codeph"> catálogo::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
+  <td class="stentry"> <p><span class="varname">arquivoEstilo</span> </p></td> 
   <td class="stentry"> <p>Arquivo de estilo de material (<span class="filepath"> .vnc</span> ou <span class="filepath"> .vnw</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -52,11 +52,11 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
   <td class="stentry"> <p>Arquivo de dados de imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
+  <td class="stentry"> <p><span class="varname">isReq</span> </p></td> 
   <td class="stentry"> <p>Solicitação para o Servidor de imagens. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
+  <td class="stentry"> <p><span class="varname">irReq</span> </p></td> 
   <td class="stentry"> <p>Solicitação para renderização de imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -64,7 +64,7 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
   <td class="stentry"> <p>Solicitação para um servidor externo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> nome</span> </p></td> 
   <td class="stentry"> <p>Nome de um material incorporado. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -75,19 +75,19 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
 
 Os materiais de Textura, Decalque e Papel de parede repetíveis exigem uma única imagem, que pode ser especificada como um arquivo ou uma solicitação incorporada.
 
-Os materiais do gabinete exigem um arquivo de estilo ( [!DNL .vnc]), que não pode ser especificada como uma solicitação aninhada. Um arquivo de imagem de textura é opcional para gabinetes e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
+Os materiais de gabinete exigem um arquivo de estilo de gabinete ( [!DNL .vnc]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de imagem de textura é opcional para gabinetes e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
 
-Materiais de revestimentos de janelas exigem um arquivo de estilo de revestimentos de janelas ( [!DNL .vnw]), que não pode ser especificada como uma solicitação aninhada. Um arquivo de textura é opcional e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
+Os materiais de revestimentos de janelas exigem um arquivo de estilo de revestimentos de janelas ( [!DNL .vnw]), que não pode ser especificado como uma solicitação aninhada. Um arquivo de textura é opcional e, se especificado, pode ser um arquivo ou uma solicitação incorporada.
 
-A Renderização de imagem usa as mesmas regras do Servidor de imagens para procurar catálogos de materiais, entradas de catálogo e arquivos de dados. Consulte a descrição do *`object`* Tipo de dados na documentação do Servidor de imagens para obter mais detalhes.
+A Renderização de imagem usa as mesmas regras do Servidor de imagens para procurar catálogos de materiais, entradas de catálogo e arquivos de dados. Consulte a descrição do Tipo de Dados *`object`* na documentação do Servidor de Imagens para obter mais detalhes.
 
 *`materialFile`* É um caminho relativo a `attribute::RootPath`.
 
-*`foreignReq`* Pode ser um URL relativo a `attribute::RootUrl`, ou um URL absoluto se `attribute::AllowDirectUrls` está definido.
+*`foreignReq`* Pode ser uma URL relativa a `attribute::RootUrl` ou uma URL absoluta se `attribute::AllowDirectUrls` estiver definido.
 
-Se *`catId`* não for especificado, o catálogo de sessões será usado.
+Se *`catId`* não for especificado, o catálogo da sessão será usado.
 
-`srcE=` e `srcN=` fornecer acesso aos materiais incorporados na vinheta.
+`srcE=` e `srcN=` fornecem acesso aos materiais incorporados na vinheta.
 
 ## Formatos de arquivo não suportados {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -111,7 +111,7 @@ Um MSS para um gabinete colorido com uma textura repetível separada:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-O mesmo material poderia estar em um catálogo de materiais `'cat`&#39; no registro &#39; `12-3-2`&#39;:
+O mesmo material pode estar em um catálogo de materiais `'cat`&#39; no registro &#39; `12-3-2`&#39;:
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ Uma solicitação aninhada ao Servidor de imagens para obter uma imagem de textu
 
 ## Consulte também {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Catálogos de materiais](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Catálogos de Materiais](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [atributo::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [atributo::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

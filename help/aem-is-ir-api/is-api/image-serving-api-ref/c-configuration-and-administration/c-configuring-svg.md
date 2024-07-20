@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 O componente SvgRender é um aplicativo Java independente.
 
-As configurações de SVG estão localizadas em [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml], e [!DNL ServerSupervisorRegistry.xml].
+As configurações de SVG estão localizadas em [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] e [!DNL ServerSupervisorRegistry.xml].
 
-Uma conexão de soquete é usada para comunicação entre o SvgRender e o Servidor de imagens. O número da porta é 27346. Se necessário, pode ser alterado configurando `SVGRender.port` in [!DNL svg.conf] e `<SVGTcpPort>` in [!DNL ImageServerRegistry.xml] para um novo valor.
+Uma conexão de soquete é usada para comunicação entre o SvgRender e o Servidor de imagens. O número da porta é 27346. Se necessário, ele pode ser alterado configurando `SVGRender.port` em [!DNL svg.conf] e `<SVGTcpPort>` em [!DNL ImageServerRegistry.xml] para um novo valor.
 
 ## Consulte também {#section-c085b47d54d44059bdaa67fd5e226e91}
 

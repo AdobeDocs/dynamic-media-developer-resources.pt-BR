@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '209'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ O visualizador é compatível com legendas ocultas por meio de arquivos WebVTT h
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>alinhamento de texto </p> </td> 
    <td colname="col3"> <p><span class="codeph"> esquerda|direita|meio|início|fim</span> </p> </td> 
-   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> meio</span>. </p> </td> 
+   <td colname="col4"> <p> Controle o alinhamento do texto. </p> <p>O padrão é <span class="codeph"> middle</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ Outros recursos de WebVTT presentes no arquivo WebVTT não são compatíveis, ma
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o estado de legenda padrão (ativado é <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Especifica o estado de legenda padrão (habilitado é <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # resMode{#resmode}
 
-Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com `wid=`, `hei=`ou `scl=`.
+Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação a ser usado para dimensionar a imagem renderizada para o tamanho especificado com `wid=`, `hei=` ou `scl=`.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
 <table id="table_AF954C101B30473FAFE9930C7B694305"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bilhão </span> </p> </td> 
    <td colname="col2"> <p>Seleciona a interpolação bilinear padrão. Método de reamostragem mais rápido; alguns artefatos de suavização podem ser visíveis. </p> </td> 
   </tr> 
   <tr> 
@@ -30,11 +30,11 @@ Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bicúbico a um custo de CPU mais alto. </p> <p> <span class="codeph"> sharp </span> foi substituída por <span class="codeph"> sharp2 </span>, que tem uma menor probabilidade de causar artefatos de suavização, também conhecido como Moiré. </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bicúbico a um custo de CPU mais alto. </p> <p> <span class="codeph"> sharp </span> foi substituído por <span class="codeph"> sharp2 </span>, que tem uma probabilidade menor de causar artefatos de suavização, também conhecido como Moiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona o <span class="keyword"> Adobe Photoshop </span> reamostragem padrão para redução do tamanho da imagem, chamada de "bicúbico mais nítido" em <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col2"> <p>Seleciona o reamostragem padrão <span class="keyword"> do Adobe Photoshop </span> para redução do tamanho da imagem, o qual é chamado de "nitidez bicúbica" no <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

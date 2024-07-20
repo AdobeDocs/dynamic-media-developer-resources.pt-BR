@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Dados do usuário do catálogo de imagens. Retorna os dados do usuário para a e
  </tr> 
 </table>
 
-O conteúdo de `catalog::UserData` são retornados. Quando o formato &#39;texto&#39; for especificado, todas as instâncias de `??` in `catalog::UserData`são substituídos por terminadores de linha, e um terminador de linha única (CR/LF) é anexado à extremidade. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta consistirá apenas em um terminador de linha única. A formatação apropriada é aplicada quando o formato &quot;xml&quot; ou &quot;json&quot; é solicitado.
+O conteúdo de `catalog::UserData` foi retornado. Quando o formato &#39;text&#39; é especificado, todas as instâncias de `??` em `catalog::UserData` são substituídas por terminadores de linha, e um terminador de linha única (CR/LF) é anexado ao final. Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta consistirá apenas em um terminador de linha única. A formatação apropriada é aplicada quando o formato &quot;xml&quot; ou &quot;json&quot; é solicitado.
 
 Outros comandos na cadeia de caracteres de solicitação são ignorados.
 
@@ -35,7 +35,7 @@ A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Exp
 >
 >O caractere dois pontos não é permitido em nomes de chave de propriedade userdata.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

@@ -7,32 +7,32 @@ role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Tratamento de cores{#color-handling}
 
-A especificação RTF permite valores de cor de RGB especificados com `\colortbl`. Cada componente é fornecido separadamente com o `\red`, `\green`, e `\blue` comandos.
+A especificação RTF permite valores de cor de RGB especificados com `\colortbl`. Cada componente é fornecido separadamente com os comandos `\red`, `\green` e `\blue`.
 
-O comando de extensão RTF proprietário `\cmykcolortbl` permite especificar cores CMYK, com cada componente de cor fornecido com o `\cyan`, `\magenta`, `\yellow`, e `\black` comandos.
+O comando de extensão RTF proprietário `\cmykcolortbl` permite especificar cores CMYK, com cada componente de cor fornecido com os comandos `\cyan`, `\magenta`, `\yellow` e `\black`.
 
-Valores do componente de cor para `\colortbl` estão no intervalo de 0 a 255. Valores de componente para `\cmykcolortbl` estão no intervalo de 0 a 100.
+Os valores do componente de cor para `\colortbl` estão no intervalo de 0 a 255. Os valores de componente para `\cmykcolortbl` estão no intervalo de 0 a 100.
 
-O comando de extensão RTF `\*\iscolortbl`, com suporte do `textPs=`, fornece uma maneira de especificar uma tabela de cores com valores de cores padrão do Servidor de imagens, com suporte completo a RGB, cinza, CMYK e alfa. Ela tem a seguinte sintaxe:
+O comando de extensão RTF `\*\iscolortbl`, com suporte de `textPs=`, fornece uma maneira de especificar uma tabela de cores com valores de cores padrão do Servidor de Imagens, com suporte completo para RGB, cinza, CMYK e alfa. Ela tem a seguinte sintaxe:
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* um ou mais valores de cor IS, separados por &#39;;&#39;
 
-Mais de um tipo de tabela de cores pode ser especificada na mesma `text=` ou `textPs=` String RTF. Cada tabela de cores pode ter um número diferente de entradas. O Servidor de imagens tenta encontrar cores nesta ordem: `\iscolortbl` antes `\cmykcolortbl` (somente se o tipo de pixel da camada de texto for CMYK) antes de `\colortbl`. Para `textPs=` somente, as cores são convertidas com precisão entre CMYK e RGB, se necessário (por exemplo, quando as cores de RGB são especificadas, mas a saída CMYK é necessária). Se nenhuma cor para um determinado valor de índice for encontrada, a cor padrão (preto) será usada.
+Mais de um tipo de tabela de cores pode ser especificada na mesma cadeia de caracteres RTF `text=` ou `textPs=`. Cada tabela de cores pode ter um número diferente de entradas. O Servidor de imagens tentará localizar cores nesta ordem: `\iscolortbl` antes de `\cmykcolortbl` (somente se o tipo de pixel da camada de texto for CMYK) antes de `\colortbl`. Somente para `textPs=`, as cores são convertidas com precisão entre CMYK e RGB, se necessário (por exemplo, quando as cores de RGB são especificadas, mas a saída CMYK é necessária). Se nenhuma cor para um determinado valor de índice for encontrada, a cor padrão (preto) será usada.
 
 Consulte [cor](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) para obter uma descrição da sintaxe dos valores de cor IS.
 
 ## Restrições {#section-c5173e672d854e4aa9656844f7fc4d0e}
 
-O modificador `text=` não suporta `\*\iscolortbl`. O modificador `textPs=` não suporta `\cmykcolortbl`.
+O modificador `text=` não dá suporte a `\*\iscolortbl`. O modificador `textPs=` não dá suporte a `\cmykcolortbl`.
 
 As seleções de cores são ignoradas ao renderizar as fontes fotográficas.
 

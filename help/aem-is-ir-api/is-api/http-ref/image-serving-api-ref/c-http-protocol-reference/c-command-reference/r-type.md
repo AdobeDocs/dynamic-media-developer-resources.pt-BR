@@ -29,12 +29,12 @@ O servidor compara `val` com o valor de `catalog::Type` do item de conteúdo est
 
 ## Propriedades {#section-529b088434a44a9f86a64ef548d2925b}
 
-Compatível somente com solicitações de conteúdo estático (não imagens) fornecidas por meio de. Ignorado se `catalog::Type` está vazio ou não está definido.
+Compatível somente com solicitações de conteúdo estático (não imagens) fornecidas por meio de. Ignorado se `catalog::Type` estiver vazio ou não estiver definido.
 
 ## Padrão {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Nenhuma correspondência de tipo é aplicada se `type=` não está especificado ou está vazio.
+Nenhuma correspondência de tipo será aplicada se `type=` não for especificado ou estiver vazio.
 
 ## Consulte também {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Veiculação De Conteúdo Estático (Não Imagem)](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catálogo:::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Veiculação de Conteúdo Estático (Sem Imagem)](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catálogo:::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)

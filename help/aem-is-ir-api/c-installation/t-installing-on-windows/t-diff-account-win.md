@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Após a instalação, configure os serviços para serem executados na outra conta de usuário.
 
-1. Acesse as configurações de Política de Segurança Local do Windows selecionando **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
-1. Selecionar **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
-1. Clique duas vezes no ícone **[!UICONTROL Log on as a service]** política da UE.
-1. Selecionar **[!UICONTROL Add…]** e selecione o Usuário ou Grupo, depois selecione **[!UICONTROL Ok]** para confirmar.
+1. Acesse as configurações da Política de Segurança Local do Windows selecionando **[!UICONTROL Start Menu]** > **[!UICONTROL Settings]** > **[!UICONTROL Control Panel]** > **[!UICONTROL Administration Tools]** > **[!UICONTROL Local Security Policy]**.
+1. Selecione **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
+1. Clique duas vezes na política **[!UICONTROL Log on as a service]**.
+1. Selecione **[!UICONTROL Add…]**, selecione o Usuário ou Grupo e selecione **[!UICONTROL Ok]** para confirmar.

@@ -55,6 +55,6 @@ Essa amostra de código exclui um formato de imagem de uma empresa. Obtenha o id
 
 Nenhum.
 
-**Tópico relacionado:**
+**Tópico Relacionado:**
 
 [saveImageFormat](../../../operations/c-operations-intro/c-methods/r-save-image-format.md#reference-d15c27f533ef41e38b54a539a304bd1d)

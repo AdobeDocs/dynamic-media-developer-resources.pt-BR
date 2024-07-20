@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -16,22 +16,22 @@ ht-degree: 0%
 
 Os arquivos de atributos de catálogo podem ter qualquer nome, mas devem ter um sufixo de arquivo .ini. Elas podem ser prontamente mantidas usando qualquer editor de texto.
 
-Os arquivos de atributo de catálogo consistem em um conjunto de registros de texto, separados por um único `<CR>` (código ASCII `0xD`), um único `<LF>` (código ASCII `0xA`) ou um `<CR><LF>` emparelhar. Cada registro consiste em um nome de atributo e um ou mais valores de atributo separados por vírgulas:
+Os arquivos de atributo de catálogo consistem em um conjunto de registros de texto, separados por um único `<CR>` (código ASCII `0xD`), um único `<LF>` (código ASCII `0xA`) ou um par `<CR><LF>`. Cada registro consiste em um nome de atributo e um ou mais valores de atributo separados por vírgulas:
 
-`*`name`*= *`valores`*{<CR>|<LF>|<CR><LF }`
+`*`nome`*= *`valores`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> valores</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> valores</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> nome</span> </p> </td> 
   <td class="stentry"> <p>Nome do atributo. Pode consistir em uma ou mais letras, número, - e _. Não diferencia maiúsculas de minúsculas. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Valor do atributo. Não deve incluir <span class="codeph"> &lt;cr&gt;</span> ou <span class="codeph"> &lt;lf&gt;</span> caracteres, a menos que sejam evitados por uma única barra invertida logo antes do caractere de nova linha. </p></td> 
+  <td class="stentry"> <p>Valor do atributo. Não deve incluir <span class="codeph"> &lt;CR&gt;</span> ou <span class="codeph"> &lt;LF&gt;</span> caracteres, a menos que seja evitado por uma única barra invertida logo antes do caractere de nova linha. </p></td> 
  </tr> 
 </table>
 

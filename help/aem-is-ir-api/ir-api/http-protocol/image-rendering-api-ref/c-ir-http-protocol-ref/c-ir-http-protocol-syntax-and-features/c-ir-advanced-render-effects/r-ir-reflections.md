@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -38,18 +38,18 @@ Se tiverem sido criados dessa forma, os seguintes atributos de material serão u
    <td> <p>Nenhum </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> áspero= </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> bruto= </span> </a> </p> </td> 
    <td> <p>Rugosidade da superfície </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> tipo=</span> </a> </p> </td> 
    <td> <p>Tipo de material </p> </td> 
    <td> <p>0 (desconhecido) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-O renderizador ajusta o intervalo do `gloss=` e `rough=` atributo de acordo com `type=`. Alguns tipos de materiais, como tecidos, são menos reflexivos do que tipos de materiais, como pedra ou metal. Além disso, a mesma quantidade de brilho especificada para um frequentemente resulta em um efeito de reflexão diferente do outro. O atributo `gloss=` e a rugosidade têm um gamut bastante amplo se `type=` não está especificado ou está definido como `0`.
+O renderizador ajusta o intervalo do atributo `gloss=` e `rough=` de acordo com `type=`. Alguns tipos de materiais, como tecidos, são menos reflexivos do que tipos de materiais, como pedra ou metal. Além disso, a mesma quantidade de brilho especificada para um frequentemente resulta em um efeito de reflexão diferente do outro. O atributo `gloss=` e a rugosidade terão um gamut bastante amplo se `type=` não for especificado ou estiver definido como `0`.
 
-`glossmap=` Usado para controlar a textura clara de um material em pixel por pixel.
+`glossmap=` Usado para controlar a textura clara de um material pixel por pixel.

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> <p>Pixels por polegada. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Parâmetros concatenados até o final do <span class="codeph"> urlModifier</span>. Formato da string de consulta lista de parâmetros que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagens. </p> </td> 
+   <td colname="col3"> <p>Parâmetros concatenados até o final de <span class="codeph"> urlModifier</span>. Formato da string de consulta lista de parâmetros que são comandos para o servidor de imagem. Os valores estão no guia de protocolo do servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
@@ -126,7 +126,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizMáscara</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:MaskArray</span> </td> 
    <td colname="col3"> <p>Matriz de máscaras. </p> </td> 
   </tr> 
   <tr> 

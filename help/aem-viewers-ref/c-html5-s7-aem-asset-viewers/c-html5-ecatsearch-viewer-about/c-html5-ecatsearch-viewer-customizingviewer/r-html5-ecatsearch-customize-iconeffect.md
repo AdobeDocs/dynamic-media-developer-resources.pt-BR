@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 90877e39-04ac-4c6c-b7c9-98ffda9355f2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Arte do indicador de zoom. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
 
 >[!NOTE]
 >
->O efeito de ícone suporta o `media-type` seletor de atributos, que você pode usar para aplicar diferentes efeitos de ícone em diferentes dispositivos. Em especial, `media-type='standard'` corresponde a sistemas desktop nos quais a entrada do mouse é normalmente utilizada e `media-type='multitouch'` corresponde a dispositivos com entrada por toque.
+>O efeito de ícone oferece suporte ao seletor de atributos `media-type`, que você pode usar para aplicar diferentes efeitos de ícone em diferentes dispositivos. Especificamente, `media-type='standard'` corresponde a sistemas desktop nos quais a entrada de mouse é normalmente usada e `media-type='multitouch'` corresponde a dispositivos com entrada de toque.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels com arte diferente para sistemas de desktop e dispositivos de toque.
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Definições de campo definidas pelo usuário para ativos específicos.
 
-Recuperar definições de campo de tag com o `getMetadataFields` ou `getAssetMetadataField` operações.
+Recupere as definições de campo de marca com as operações `getMetadataFields` ou `getAssetMetadataField`.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,17 +35,17 @@ Recuperar definições de campo de tag com o `getMetadataFields` ou `getAssetMet
    <td colname="col3"> Identificador do campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nome do campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Tipo de campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valorPadrão</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valor padrão para o campo de metadados. </td> 
   </tr> 
@@ -65,9 +65,9 @@ Recuperar definições de campo de tag com o `getMetadataFields` ou `getAssetMet
    <td colname="col3">Ocultar ou expor metadados específicos do sistema IPS. Retornado de <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> e <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
-   <td colname="col3"> <p>Um sinalizador booleano que indica se o tipo de campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será lançada se um valor ilegal estiver definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col3"> <p>Um sinalizador booleano que indica se o tipo de campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será gerada se um valor ilegal for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 

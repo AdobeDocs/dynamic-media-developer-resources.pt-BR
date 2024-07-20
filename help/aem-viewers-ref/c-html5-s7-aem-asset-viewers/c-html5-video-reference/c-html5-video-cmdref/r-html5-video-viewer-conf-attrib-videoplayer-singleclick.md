@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`none|playPause`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`nenhum|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configuração para <span class="codeph"> nenhum</span> desativa o clique único/toque para reproduzir/pausar. Se definida como <span class="codeph"> playPause</span>, ao clicar no vídeo, ocorre a alternância entre a reprodução e a pausa do vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, <span class="codeph"> singleclick</span> O comportamento do está desativado. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configurar como <span class="codeph"> nenhum</span> desabilita o clique único/toque para reproduzir/pausar. Se definido como <span class="codeph"> playPause</span>, clicar no vídeo alterna entre reproduzir e pausar o vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, o comportamento <span class="codeph"> singleclick</span> está desabilitado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

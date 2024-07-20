@@ -18,6 +18,6 @@ Imagem (padrão). Solicita dados de imagem padrão.
 
 `req=img`
 
-O formato de dados de resposta e o tipo de MIME de resposta são determinados por `fmt=`. O modificador `req=img` é o tipo de solicitação padrão e não é necessário explicitamente. A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
+O formato de dados de resposta e o tipo MIME de resposta são determinados por `fmt=`. O modificador `req=img` é o tipo de solicitação padrão e não é necessário explicitamente. A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
 
 Outros comandos request são aplicados conforme documentado.

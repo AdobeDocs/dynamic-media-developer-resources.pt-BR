@@ -24,7 +24,7 @@ Sintaxe
 |---|---|---|
 | assetHandle | `xsd:string` | Identificador de ativo de fonte. |
 | fontName | `xsd:string` | Nome da fonte. |
-| postscriptName | `xsd:string` | Nome da fonte PostScript. |
+| postscriptName | `xsd:string` | Nome da fonte do PostScript. |
 | rtfName | `xsd:string` | Nome da fonte de Rich Text. |
 | [!DNL fontFamily] | `xsd:string` | Nome da família de fontes. |
 | [!DNL style] | `xsd:string` | Estilo da fonte (consulte Estilos de fonte para valores). |

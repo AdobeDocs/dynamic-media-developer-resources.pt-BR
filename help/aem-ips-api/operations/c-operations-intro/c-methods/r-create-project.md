@@ -44,7 +44,7 @@ Sintaxe
 
 ## Exemplos {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Esta amostra de código cria um projeto chamado `ApiTestProject` em uma empresa especificada pelo seu identificador. A resposta retorna o identificador para o projeto.
+Esta amostra de código cria um projeto chamado `ApiTestProject` em uma empresa especificada por seu identificador. A resposta retorna o identificador para o projeto.
 
 **Solicitação**
 

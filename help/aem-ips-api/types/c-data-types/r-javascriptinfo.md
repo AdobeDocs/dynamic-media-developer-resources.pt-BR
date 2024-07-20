@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um ativo de arquivo JavaScript.
+description: Propriedades de um ativo de arquivo do JavaScript.
 solution: Experience Manager
 title: JavascriptInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL JavascriptInfo]{#javascriptinfo}
 
-Propriedades de um ativo de arquivo JavaScript.
+Propriedades de um ativo de arquivo do JavaScript.
 
 Sintaxe
 

@@ -20,7 +20,7 @@ Este parâmetro:
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> id do trabalho </span> </p> </td> 
   <td class="stentry"> <p>A ID do trabalho obtida no momento do envio. </p> </td> 
  </tr> 
 </table>

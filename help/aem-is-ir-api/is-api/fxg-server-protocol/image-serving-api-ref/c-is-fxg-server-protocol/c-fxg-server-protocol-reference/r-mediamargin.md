@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Definir margem da mídia. Define a margem de mídia definida no arquivo PDF.
 
-` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` nos pontos
+` mediaMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` em pontos
 
-Por padrão, a variável `mediaMargin` está definido com o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. A variável *[!DNL left]*, *[!DNL bottom]*, e *[!DNL right]* os valores são padronizados para o *[!DNL top]* valor, se não for especificado.
+Por padrão, o `mediaMargin` está definido como o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. Os valores *[!DNL left]*, *[!DNL bottom]* e *[!DNL right]* assumem como padrão o valor *[!DNL top]*, se não forem especificados.

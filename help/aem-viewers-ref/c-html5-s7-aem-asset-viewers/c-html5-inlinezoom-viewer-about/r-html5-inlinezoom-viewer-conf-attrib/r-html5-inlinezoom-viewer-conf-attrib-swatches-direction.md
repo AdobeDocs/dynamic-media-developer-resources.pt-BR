@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Especifica como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; <span class="codeph"> direita </span> inverte a ordem para que a exibição seja preenchida da direita para a esquerda, de cima para baixo. Quando <span class="codeph"> automático </span> estiver definido, o componente aplicará o modo correto quando locale estiver definido como <span class="codeph"> "ja" </span>, e usa left caso contrário. </p> </td> 
+   <td colname="col2"> <p> Especifica como as amostras são preenchidas na exibição. </p> <p> <span class="codeph"> left </span> define a ordem de preenchimento da esquerda para a direita; <span class="codeph"> right </span> inverte a ordem para que a exibição seja da direita para a esquerda, de cima para baixo. Quando <span class="codeph"> auto </span> está definido, o componente aplica o modo right quando a localidade está definida como <span class="codeph"> "ja" </span>, caso contrário usa left. </p> </td> 
   </tr> 
  </tbody> 
 </table>

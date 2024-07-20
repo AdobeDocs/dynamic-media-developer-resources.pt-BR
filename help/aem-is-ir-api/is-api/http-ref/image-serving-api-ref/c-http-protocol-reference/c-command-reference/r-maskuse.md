@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,12 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
    <th class="entry"> <b> Valor</b> </th> 
    <th class="entry"> <b> Sem máscara</b> </th> 
    <th class="entry"> <b> Alfa não associada (ou imagem de máscara separada)</b> </th> 
-   <th class="entry"> <b> Alfa associado (pré-multiplicado)</b> </th> 
+   <th class="entry"> <b> Alfa</b> associado (pré-multiplicado) </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> desligado </span> </p> </td> 
+   <td> <p> <span class="codeph">de </span> </p> </td> 
    <td> <p> Retângulo de imagem opaco </p> </td> 
    <td> <p> Retângulo de imagem opaco </p> </td> 
    <td> <p> Área de primeiro plano da imagem sobre retângulo preenchido com preto sólido </p> </td> 
@@ -53,9 +53,9 @@ A tabela a seguir ilustra o efeito de `maskUse=` dependendo da disponibilidade e
 
 ## Propriedades {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-Imagem ou atributo de camada. Aplica-se à camada 0 se `layer=comp`. Se especificado em uma camada de efeito, o comando modifica a máscara herdada da camada principal.
+Imagem ou atributo de camada. Aplicável à camada 0 se `layer=comp`. Se especificado em uma camada de efeito, o comando modifica a máscara herdada da camada principal.
 
-O comportamento do `maskUse=` é indefinido e não tem suporte quando especificado com camadas de texto ou cores sólidas quando nenhuma máscara de imagem é aplicável (especificado com `mask=` ou `catalog::Mask`).
+O comportamento de `maskUse=` é indefinido e não tem suporte quando especificado com camadas de texto ou cores sólidas quando nenhuma máscara de imagem é aplicável (especificado com `mask=` ou `catalog::Mask`).
 
 ## Padrão {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +69,4 @@ Colore a área do plano de fundo de uma imagem; o primeiro plano da imagem é de
 
 ## Consulte também {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[cor=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [máscara=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)

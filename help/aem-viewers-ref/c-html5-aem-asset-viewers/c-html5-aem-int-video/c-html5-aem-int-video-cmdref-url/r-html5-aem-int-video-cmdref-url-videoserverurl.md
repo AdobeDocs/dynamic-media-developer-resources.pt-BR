@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Comando do URL para o Visualizador de vídeo.
+description: Comando do URL para o Visualizador de Vídeo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User

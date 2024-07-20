@@ -18,15 +18,15 @@ Use essas configurações do servidor para pastas de dados de conteúdo.
 
 ## IS::RootPath - Pastas raiz de dados de imagem {#section-5c57569514bb4d00b19de31d2e137e3b}
 
-A localização de todos os dados de origem, incluindo imagens, fontes e perfis ICC. Pode ser um ou mais caminhos de arquivo absolutos ou caminhos relativos a *[!DNL install_folder]*, separados por ponto-e-vírgula. Se estiver vazio, *[!DNL install_folder]* é a raiz padrão. Vários valores podem ser especificados para distribuir dados de imagem em vários sistemas de arquivos. O Servidor de imagens tenta os caminhos raiz na ordem especificada, até que o arquivo solicitado seja encontrado.
+A localização de todos os dados de origem, incluindo imagens, fontes e perfis ICC. Pode ser um ou mais caminhos de arquivo absolutos ou caminhos relativos a *[!DNL install_folder]*, separados por ponto-e-vírgula. Se estiver vazio, *[!DNL install_folder]* será a raiz padrão. Vários valores podem ser especificados para distribuir dados de imagem em vários sistemas de arquivos. O Servidor de imagens tenta os caminhos raiz na ordem especificada, até que o arquivo solicitado seja encontrado.
 
 ## PS::staticContent.rootPath - Pastas raiz de dados de conteúdo estático {#section-a4f5b6942b7b4abdbf825b1f2e932cfe}
 
-O local dos dados de fonte de conteúdo estático que devem ser entregues por meio da [!DNL /is/static] contexto. Pode ser um ou mais caminhos de arquivo absolutos ou caminhos relativos a *[!DNL install_folder]*, separados por ponto-e-vírgula. Se estiver vazio, *[!DNL install_folder]* é a raiz padrão.
+O local dos dados de fonte de conteúdo estático que devem ser entregues por meio do contexto [!DNL /is/static]. Pode ser um ou mais caminhos de arquivo absolutos ou caminhos relativos a *[!DNL install_folder]*, separados por ponto-e-vírgula. Se estiver vazio, *[!DNL install_folder]* será a raiz padrão.
 
 Vários valores podem ser separados por ponto-e-vírgula para distribuir conteúdo estático entre vários sistemas de arquivos. Normalmente definida com os mesmos valores que `IS::RootPath`.
 
-A variável [!DNL Platform Server] tenta os caminhos raiz na ordem especificada, até que o arquivo solicitado seja encontrado.
+O [!DNL Platform Server] tenta os caminhos raiz na ordem especificada, até que o arquivo solicitado seja encontrado.
 
 >[!NOTE]
 >

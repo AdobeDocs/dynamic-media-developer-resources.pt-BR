@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ID {#id}
 
-O valor da chave de índice pelo qual os registros no arquivo de dados de imagem são pesquisados pelo [!DNL Platform Server].
+Valor da chave de índice pelo qual os registros no arquivo de dados de imagem são pesquisados por [!DNL Platform Server].
 
 Normalmente, um identificador de imagem curto e exclusivo, como um número SKU, possivelmente com algum tipo de sufixo de imagem, se um SKU tiver várias imagens. Também pode ser uma sequência de caracteres mais complexa que se parece mais com um caminho de arquivo, para suportar o redirecionamento fácil de sites com o Servidor de imagens.
 

@@ -49,7 +49,7 @@ Sintaxe
 
 ## Exemplos {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Este exemplo adiciona um único ativo (referenciado por seu identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. A operação foi concluída com êxito quando a resposta `successCount` devoluções `1`.
+Este exemplo adiciona um único ativo (referenciado por seu identificador) em uma matriz de identificador de ativo a um projeto especificado na solicitação. Operação concluída com êxito quando a resposta `successCount` retorna `1`.
 
 **Solicitação**
 

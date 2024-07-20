@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Ajuste a opacidade da imagem. Permite diminuir a opacidade do primeiro plano de uma imagem, texto, cor sólida ou camada de efeito.
 
-`opac= *`opacidade`*[, *`fillOpacity`*]`
+`opac= *`opacidade`*[, *`preenchimentoOpacidade`*]`
 
 <table id="simpletable_DA4B5D86C496480886FADB284AD6047F"> 
  <tr class="strow"> 
@@ -33,23 +33,23 @@ A opacidade do primeiro plano de uma camada de imagem é determinada pela másca
 
 `opac=` nunca modifica a opacidade das áreas preenchidas com `color=` ou `bgColor=`, exceto as áreas de primeiro plano das camadas de cor sólida e efeito (definidas com `color=`).
 
-Quando especificado em uma imagem, texto ou camada de cor sólida, *`opacity`* aplica a camada inteira, incluindo todas as camadas de efeito associadas, enquanto *`fillOpacity`* aplica-se somente ao conteúdo da camada primária. Quando especificado em uma camada de efeito, *`opacity`* aplica-se à camada de efeito, enquanto *`fillOpacity`* é ignorado.
+Quando especificado em uma camada de imagem, texto ou cor sólida, *`opacity`* aplica a camada inteira, incluindo todas as camadas de efeito associadas, enquanto *`fillOpacity`* aplica somente ao conteúdo da camada primária. Quando especificado em uma camada de efeito, *`opacity`* se aplica à camada de efeito, enquanto *`fillOpacity`* é ignorado.
 
-A opacidade efetiva do conteúdo da camada principal é ( *`opacity`* &#42; *`fillOpacity`* / 100). A opacidade efetiva das camadas de efeito é (principal *`opacity`* &#42; efeito *`opacity`* / 100).
+A opacidade efetiva para o conteúdo da camada principal é ( *`opacity`* &#42; *`fillOpacity`* / 100). A opacidade efetiva para camadas de efeito é (principal *`opacity`* &#42; efeito *`opacity`* / 100).
 
 ## Propriedades {#section-ac3f136ff1584a2eab87500b7164f7fa}
 
-Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`.
+Atributo de camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`.
 
 ## Padrão {#section-abba67ed028049048ae43405ea69b164}
 
-`opac=100,100`, para não alterar a opacidade da camada.
+`opac=100,100`, para nenhuma alteração na opacidade da camada.
 
 ## Exemplo {#section-9710810e96af40538652e8ae4aadd3be}
 
-… `&layer=1&text=variable%20opacity&opac=90,70&effect=-1&opac=50&`…
+... `&layer=1&text=variable%20opacity&opac=90,70&effect=-1&opac=50&`...
 
-A opacidade do texto neste exemplo é 90&#42;70/100=63% e a opacidade da camada de efeito é 90&#42;50/100=45%
+A opacidade do texto neste exemplo é 90&#42;70/100=63% e a opacidade da camada de efeito é 90&#42;50/100=45%.
 
 ## Consulte também {#section-dbdad35ccd544590b4b11d31a9ab062e}
 

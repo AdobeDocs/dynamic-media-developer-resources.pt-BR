@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Especifica como as miniaturas são preenchidas na exibição. </p> <p>Defina como <span class="codeph"> left </span> para definir a ordem de preenchimento da esquerda para a direita. </p> <p>Defina como <span class="codeph"> direita </span> inverte a ordem para que a vista seja preenchida da direita para a esquerda, de cima para baixo. </p> <p>Defina como <span class="codeph"> automático </span> para que o componente aplique o modo correto quando a localidade estiver definida como <span class="codeph"> "ja" </span>; caso contrário, <span class="codeph"> left </span> é usada. </p> </td> 
+   <td colname="col2"> <p> Especifica como as miniaturas são preenchidas na exibição. </p> <p>Defina como <span class="codeph"> left </span> para definir a ordem de preenchimento da esquerda para a direita. </p> <p>Definir para <span class="codeph"> direita </span> inverte a ordem para que o modo de exibição seja preenchido da direita para a esquerda, de cima para baixo. </p> <p>Defina como <span class="codeph"> auto </span> para o componente aplicar o modo direito quando a localidade estiver definida como <span class="codeph"> "ja" </span>; caso contrário, <span class="codeph"> left </span> será usado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

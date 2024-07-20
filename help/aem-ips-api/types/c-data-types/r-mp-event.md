@@ -8,7 +8,7 @@ exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ Sintaxe
 | companyName | `xsd:string` | Nome da empresa. |
 | jobName | `xsd:string` | Um nome de trabalho exclusivo. |
 | jobDescription | `xsd:string` | Uma descrição útil para a tarefa. |
-| string1 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| sequência1 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
 | string2 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
 | string3 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
-| string4 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
-| string5 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| sequência4 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
+| sequência5 | `xsd:string` | Titular para informação sobre a sequência de caracteres (opcional). |
 | int1 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
 | int2 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
 | int3 | `xsd:int` | Detentor para informações de número inteiro (opcional). |
@@ -42,4 +42,4 @@ Sintaxe
 | float1 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
 | float2 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
 | float3 | `xsd:double` | Titular para informação sobre flutuação (opcional). |
-| time1 | `xsd:dateTime` | Titular das informações de data/hora (opcional). |
+| hora1 | `xsd:dateTime` | Titular das informações de data/hora (opcional). |

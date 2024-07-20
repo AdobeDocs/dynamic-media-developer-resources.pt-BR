@@ -20,14 +20,14 @@ Este parâmetro:
 
 <table id="simpletable_D8AA325968AD4FAEA7B214F0CBBF3F08"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> id do trabalho </span> </p> </td> 
   <td class="stentry"> <p>A ID do trabalho obtida no momento do envio. </p> </td> 
  </tr> 
 </table>
 
 Devoluções:
 
-A saída de PDF do processo é transmitida em resposta; erro se `jobid` é inválido ou o trabalho foi excluído.
+A saída de PDF do trabalho é transmitida em resposta; erro se `jobid` for inválido ou o trabalho tiver sido excluído.
 
 ## Exemplo {#section-0319e615fa254132a9dab59351b4c252}
 

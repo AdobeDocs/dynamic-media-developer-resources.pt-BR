@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Cor de fundo. Especifica a cor subtrativa para texturas e decalques coloridos.
  </tr> 
 </table>
 
-O algoritmo de colorização de textura da Renderização de imagem é simples - os valores do componente de `bgc=` são subtraídos dos valores dos pixels de textura; `color=` é adicionado e, por fim, o resultado é recortado para `0,0,0` e `255,255,255`.
+O algoritmo de colorização de textura da Renderização de Imagem é simples - os valores de componente de `bgc=` são subtraídos dos valores de pixels de textura; `color=` é adicionado e, finalmente, o resultado é recortado para `0,0,0` e `255,255,255`.
 
-Para usos típicos de colorização de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. O Dynamic Media Image Authoring fornece ferramentas semiautomáticas que extraem informações `bgc=` valores de cor de imagens de texturas.
+Para usos típicos de colorização de textura, o valor de `bgc=` pode ser a cor mais importante ou dominante na imagem de textura. O Dynamic Media Image Authoring fornece ferramentas semiautomáticas que extraem valores razoáveis de `bgc=` cores de imagens de texturas.
 
-Quando um material de textura é aplicado a um objeto de vinheta não texturável, `bgc=` é aplicada como a cor do primeiro plano se `color=` não foi especificado.
+Quando um material de textura é aplicado a um objeto de vinheta não texturável, `bgc=` é aplicado como cor de primeiro plano se `color=` não for especificado.
 
 ## Propriedades {#section-b2db6f147d7f443ba9f671de04c2ef19}
 

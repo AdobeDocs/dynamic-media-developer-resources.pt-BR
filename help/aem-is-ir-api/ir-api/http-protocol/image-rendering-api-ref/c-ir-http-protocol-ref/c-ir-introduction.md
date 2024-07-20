@@ -24,7 +24,7 @@ Este documento destina-se a programadores experientes e desenvolvedores de sites
 
 Presume-se que o leitor esteja familiarizado com a Criação e renderização de imagem do Dynamic Media, padrões e convenções gerais do protocolo HTTP e terminologia básica de geração de imagens.
 
-**Convenções de documento**
+**Convenções de documentos**
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
@@ -40,7 +40,7 @@ Presume-se que o leitor esteja familiarizado com a Criação e renderização de
   <td class="stentry"> <p>Itálico indica uma variável ou parâmetro, a ser substituído por um valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Item </span> </p> </td> 
   <td class="stentry"> <p>Um nome com o prefixo 'attribute::' se refere a um atributo de catálogo de imagem. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -97,4 +97,4 @@ Presume-se que o leitor esteja familiarizado com a Criação e renderização de
 
 ** *`MSS`* ** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
 
-** *`vignette`* ** Uma imagem preparada na Criação de imagem do Dynamic Media para uso com Renderização de imagem.
+** *`vignette`* ** Uma imagem preparada na Criação de Imagem do Dynamic Media para uso com Renderização de Imagem.

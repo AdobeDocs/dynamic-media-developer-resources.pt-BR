@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Permitir URLs de origem absolutos.
 
-Defina como `1` para permitir URLs HTTP absolutos (começando com &quot; `http://`&quot;) em `src=` comandos. Defina como `0` para não permitir URLs absolutos.
+Defina como `1` para permitir URLs HTTP absolutas (começando com &quot; `http://`&quot;) em comandos `src=`. Defina como `0` para não permitir URLs absolutas.
 
 ## Propriedades {#section-9246bc06c7484f9e8f65a5edb24f6854}
 

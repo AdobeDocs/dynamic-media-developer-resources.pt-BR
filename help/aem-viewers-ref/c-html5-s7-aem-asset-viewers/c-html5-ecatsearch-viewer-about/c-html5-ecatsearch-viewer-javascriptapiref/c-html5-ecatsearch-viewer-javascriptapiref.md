@@ -1,22 +1,22 @@
 ---
-title: Referência da API JavaScript para o eCatalog Search Viewer
-description: A classe principal do eCatalog Search Viewer é eCatalogSearchViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API do JavaScript para o eCatalog Search Viewer
+description: A classe principal do eCatalog Search Viewer é eCatalogSearchViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 11436c4f-acd4-4328-a3de-cc00a80cae2b
 source-git-commit: 632b8255a60ad211d86443d883b724e19b137b47
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Referência da API JavaScript para o eCatalog Search Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
+# Referência da API do JavaScript para o eCatalog Search Viewer{#javascript-api-reference-for-ecatalog-search-viewer}
 
-A classe principal do eCatalog Search Viewer é eCatalogSearchViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do eCatalog Search Viewer é eCatalogSearchViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.eCatalogSearchViewer` classe.
+Em todos os exemplos a seguir, `<instance>` representa o nome real do objeto do visualizador do JavaScript que é instanciado da classe `s7viewers.eCatalogSearchViewer`.
 
 * [descartar](r-html5-ecatsearch-javascriptapiref-dispose.md)
 * [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)

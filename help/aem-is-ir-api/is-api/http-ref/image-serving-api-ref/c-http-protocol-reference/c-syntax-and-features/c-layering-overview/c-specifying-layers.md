@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bedd5dac-7577-4c8a-9dc3-43aa4438e53a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,4 +18,4 @@ Na sequência de comando URL or catalog::Modifier, uma sequência de definição
 
 Todos os comandos na sequência de definição da camada são associados à camada.
 
-A variável `layer=` especifica um número de camada, que deve ser um inteiro 0 ou maior. Todos os comandos em sequências de definição de camada com o mesmo número de camada são aplicados à mesma camada. Se o mesmo comando ocorrer mais de uma vez, a última instância prevalecerá.
+O comando `layer=` especifica um número de camada, que deve ser um inteiro 0 ou maior. Todos os comandos em sequências de definição de camada com o mesmo número de camada são aplicados à mesma camada. Se o mesmo comando ocorrer mais de uma vez, a última instância prevalecerá.

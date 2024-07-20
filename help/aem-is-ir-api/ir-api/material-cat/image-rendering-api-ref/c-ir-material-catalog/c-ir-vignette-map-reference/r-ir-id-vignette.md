@@ -20,7 +20,7 @@ Normalmente, um identificador curto e exclusivo, como um número SKU. Também po
 
 ## Propriedades {#section-267bbf34677e4401abbaf6fdce52191b}
 
-String de texto. Obrigatório. Chave de índice principal da tabela de mapa de vinheta. Each `vignette::Id` o valor deve ser exclusivo dentro da tabela e não deve conter caracteres &#39;,&#39;.
+String de texto. Obrigatório. Chave de índice principal da tabela de mapa de vinheta. Cada valor `vignette::Id` deve ser exclusivo dentro da tabela e não deve conter caracteres &#39;,&#39;.
 
 ## Padrão {#section-736d3419b19045efa00887cb595b0337}
 

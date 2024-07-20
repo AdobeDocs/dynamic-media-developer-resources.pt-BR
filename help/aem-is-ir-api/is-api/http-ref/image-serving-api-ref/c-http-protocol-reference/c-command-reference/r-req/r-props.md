@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Propriedades dos dados de resposta. Avalia a solicitação atual como se ela fos
  </tr> 
 </table>
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 
 `<reqHandler>` é o nome do manipulador JS presente na resposta JSONP. Somente caracteres a-z, A-Z e 0-9 são permitidos. Opcional. O padrão é `s7jsonResponse`.
 
-Consulte [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) para obter uma descrição da sintaxe de resposta e do tipo de MIME de resposta. A resposta HTTP pode ser armazenada em cache com um TTL com base em `attribute::NonImgExpiration`.
+Consulte [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9) para obter uma descrição da sintaxe de resposta e do tipo MIME de resposta. A resposta HTTP pode ser armazenada em cache com um TTL baseado em `attribute::NonImgExpiration`.
 
 As seguintes propriedades são retornadas para solicitações /is/image:
 
@@ -45,7 +45,7 @@ As seguintes propriedades são retornadas para solicitações /is/image:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.bgc </span> </p> </td> 
    <td> <p> hexadecimal </p> </td> 
-   <td> <p> Cor do plano de fundo (consulte <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
+   <td> <p> Cor do plano de fundo (Veja <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc= </a> </span>.) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td valign="top"> <p> <span class="codeph"> image.height </span> </p> </td> 
@@ -135,7 +135,7 @@ As seguintes propriedades são retornadas para `/is/content` solicitações:
    <td> <p>Caminho de arquivo parcialmente resolvido. (Consulte <span class="codeph"> static::Path </span>.) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> length </span> </p> </td> 
+   <td> <p> <span class="codeph"> comprimento </span> </p> </td> 
    <td> <p> int </p> </td> 
    <td> <p> Tamanho do arquivo de objeto em bytes </p> </td> 
   </tr> 

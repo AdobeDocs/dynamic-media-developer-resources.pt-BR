@@ -15,6 +15,6 @@ ht-degree: 0%
 # Acessibilidade e navegação pelo teclado{#keyboard-accessibility-and-navigation}
 
 Todos os recursos expostos na interface do usuário do visualizador são acessíveis pelo teclado.
-O usuário final pode usar `Left`, `Right`, `UP`, e `DOWN` pressionamentos de tecla para deslocar a imagem.
-A variável `Esc` é possível usar o pressionamento de tecla para redefinir a imagem.
+O usuário final pode usar as teclas `Left`, `Right`, `UP` e `DOWN` para posicionar a imagem.
+A tecla `Esc` pode ser usada para redefinir a imagem.
 

@@ -20,7 +20,7 @@ Sintaxe
 
 ## Parâmetros {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Os ativos mantêm um marcador separado para cada estado e contexto de publicação. Definir o estado de publicação com [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+O Assets mantém um marcador separado para cada estado e contexto de publicação. Defina o estado de publicação com [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -57,5 +57,4 @@ Os ativos mantêm um marcador separado para cada estado e contexto de publicaç�
 
 >[!MORELIKETHIS]
 >
->* [Contexto de publicação](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
-
+>* [Contexto do Publish](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

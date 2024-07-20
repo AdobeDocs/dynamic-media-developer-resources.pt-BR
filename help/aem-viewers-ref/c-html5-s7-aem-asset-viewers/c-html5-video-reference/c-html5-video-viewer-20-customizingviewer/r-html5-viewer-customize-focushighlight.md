@@ -18,7 +18,7 @@ O destaque do foco de entrada exibido em torno do elemento da interface do visua
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriedades de CSS**
+**Propriedades CSS**
 
 A aparência é controlada com o seguinte seletor de classe CSS:
 
@@ -35,7 +35,7 @@ A aparência é controlada com o seguinte seletor de classe CSS:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> estrutura </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> estrutura de tópicos </span> </p> </td> 
    <td colname="col2"> <p>Estilo de destaque da focagem. </p> </td> 
   </tr> 
  </tbody> 

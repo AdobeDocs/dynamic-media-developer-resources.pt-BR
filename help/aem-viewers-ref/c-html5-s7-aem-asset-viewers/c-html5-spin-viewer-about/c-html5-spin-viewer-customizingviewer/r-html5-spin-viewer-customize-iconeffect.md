@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1ded69eb-62cd-49da-ab53-124348359a58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Trabalho artístico do indicador de rotação. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </tbody> 
 </table>
 
-O indicador de rotação suporta o `state` seletor de atributo que está definido como `spin_1D` se houver um conjunto de rotação unidimensional, e para `spin_2D` se houver um conjunto de rotação multidimensional.
+O indicador de rotação oferece suporte ao seletor de atributo `state`, que é definido como `spin_1D` se houver um conjunto de rotação unidimensional, e como `spin_2D` se houver um conjunto de rotação multidimensional.
 
 Exemplo - para configurar um indicador de zoom de 100 x 100 pixels.
 

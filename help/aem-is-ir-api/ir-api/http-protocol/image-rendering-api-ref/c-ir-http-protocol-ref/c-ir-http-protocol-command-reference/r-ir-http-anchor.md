@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Âncora de imagem (ponto de acesso). Especifica o ponto de ancoragem da textura (ponto de acesso) do material de textura ou decalque repetível.
 
-`anchor= *`x`*, *`y`*`
+`anchor= *`x`*, *`a`*`
 
 `anchorN= *`xn`*, *`yn`*`
 
@@ -31,19 +31,19 @@ ht-degree: 0%
  </tr> 
 </table>
 
-Uma textura repetível é aplicada a um objeto de vinheta, para que o ponto de ancoragem da textura ( `anchor=`) está no ponto de origem da textura do objeto.
+Uma textura repetível é aplicada a um objeto de vinheta, de modo que o ponto de ancoragem da textura ( `anchor=`) esteja no ponto de origem da textura do objeto.
 
-Uma imagem de decalque é aplicada a um objeto de vinheta, de modo que o ponto de ancoragem de decalque esteja no ponto de origem de decalque do objeto. A posição do decalque pode ser ajustada ainda mais usando o `pos=` comando.
+Uma imagem de decalque é aplicada a um objeto de vinheta, de modo que o ponto de ancoragem de decalque esteja no ponto de origem de decalque do objeto. A posição de decalque pode ser ajustada usando o comando `pos=`.
 
-`anchorN=0,0` Coloca a âncora de imagem no centro da imagem de origem. `anchorN=-0.5,-0.5` ou `anchor=0,0` está no canto superior esquerdo e `anchorN=0.5,0.5` O está no canto inferior direito da imagem de origem.
+`anchorN=0,0` Coloca a âncora de imagem no centro da imagem de origem. `anchorN=-0.5,-0.5` ou `anchor=0,0` está no canto superior esquerdo e `anchorN=0.5,0.5` está no canto inferior direito da imagem de origem.
 
 ## Propriedades {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Atributo de material**. Ignorado se `align=2`, ou se o material não for de textura repetível, papel de parede, nem decalque.
+**Atributo de material**. Ignorado se `align=2`, ou se o material não for uma textura repetível, um papel de parede, ou um decalque.
 
 ## Padrão {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, se o material for baseado em uma entrada do catálogo. Caso contrário, `anchor=0,0` (o canto superior esquerdo da imagem) para texturas e papéis de parede repetíveis e `anchorN=0,0` (o centro da imagem) para decalques.
+`catalog::Anchor`, se o material for baseado em uma entrada de catálogo. Caso contrário, `anchor=0,0` (o canto superior esquerdo da imagem) para texturas e papéis de parede repetíveis e `anchorN=0,0` (o centro da imagem) para decalques.
 
 ## Consulte também {#section-b18bf0b035644ca5aedebbc64373718e}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Embora os dados de imagem e SVG sejam muito semelhantes, eles são mantidos em tabelas separadas no catálogo de imagens.
 
-Se os dados de imagem forem necessários, o caminho relativo ou absoluto dos arquivos de dados de imagem que discriminam as imagens deverá ser especificado em `attribute::CatalogFile`. Se forem necessários dados de SVG, o caminho relativo ou absoluto dos arquivos de dados de SVG deverá ser especificado em `attribute::SvgCatalogFile`.
+Se os dados de imagem forem necessários, o caminho relativo ou absoluto dos arquivos de dados de imagem que itemizam as imagens deve ser especificado em `attribute::CatalogFile`. Se forem necessários dados de SVG, o caminho relativo ou absoluto dos arquivos de dados de SVG deverá ser especificado em `attribute::SvgCatalogFile`.
 
 * [Referência de dados de imagem](c-image-data-reference/c-image-data-reference.md)
 * [Referência de dados do SVG](c-svg-data-reference/c-svg-data-reference.md)

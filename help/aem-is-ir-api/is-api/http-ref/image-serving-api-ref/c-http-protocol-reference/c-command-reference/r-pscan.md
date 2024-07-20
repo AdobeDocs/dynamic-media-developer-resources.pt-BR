@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Análise de JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que i
 
 A velocidade real de cada varredura depende da velocidade de transmissão do sistema do usuário e do computador que recebe e descompacta os dados.
 
-`Auto` O usa as configurações de digitalização computadas pela biblioteca de JPEG independente e que dependem do modelo de cores. Os valores de `3`, `4`, `5` corresponde à configuração Digitalização encontrada no Adobe Photoshop quando você salva um arquivo JPEG como pjpeg (JPEG progressivo).
+`Auto` usa as configurações de digitalização computadas pela biblioteca de JPEG independente e que dependem do modelo de cores. Os valores de `3`, `4`, `5` correspondem à configuração de Varredura encontrada no Adobe Photoshop quando você salva um arquivo JPEG como pjpeg (JPEG progressivo).
 
 Se `pscan` não estiver definido, o padrão será `auto`.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Tipo de solicitação. Especifica o tipo de dados solicitados.
 
 <table id="simpletable_D04D41FBB03D4992B257CCBAD7EF0E7B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> depurar </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> depuração </span> </p> </td> 
   <td class="stentry"> <p>Execute comandos no modo de depuração. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -44,20 +44,20 @@ Tipo de solicitação. Especifica o tipo de dados solicitados.
   <td class="stentry"> <p>Execute comandos e retorne a imagem renderizada mascarada para a seleção de objeto atual. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> props </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> propriedades </span> </p> </td> 
   <td class="stentry"> <p>Execute comandos e retorne propriedades da imagem de resposta. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> userdata </span> </p> </td> 
-  <td class="stentry"> <p>Retorna o conteúdo de <span class="codeph"> vinheta::UserData </span>. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">userdata </span> </p> </td> 
+  <td class="stentry"> <p>Retorna o conteúdo da <span class="codeph"> vinheta::DadosUsuário </span>. </p> </td> 
  </tr> 
 </table>
 
-A menos que seja observado de outra forma nas descrições detalhadas, o servidor retorna respostas de texto com o tipo MIME &lt;text plain=&quot;&quot;>.
+A menos que seja observado de outra forma nas descrições detalhadas, o servidor retorna respostas de texto com o tipo MIME &lt;text/plain>.
 
 `debug`
 
-Executa os comandos especificados e retorna a imagem renderizada. Se ocorrer um erro, as informações de erro e depuração serão retornadas, em vez da imagem de erro ( `attribute::ErrorImagePath`).
+Executa os comandos especificados e retorna a imagem renderizada. Se ocorrer um erro, as informações de erro e depuração serão retornadas em vez da imagem de erro ( `attribute::ErrorImagePath`).
 
 `contents`
 
@@ -69,7 +69,7 @@ Executa os comandos especificados e retorna a imagem renderizada. O formato de d
 
 `imageprops`
 
-Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de catálogo especificada no caminho do URL. Consulte [Propriedades](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) para obter uma descrição da sintaxe de resposta e do tipo de MIME de resposta. Outros comandos na solicitação são ignorados. As seguintes propriedades são retornadas:
+Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de catálogo especificada no caminho do URL. Consulte [Propriedades](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) para obter uma descrição da sintaxe de resposta e do tipo MIME de resposta. Outros comandos na solicitação são ignorados. As seguintes propriedades são retornadas:
 
 <table id="table_A30296D29B5D43F1B5383A887252C6B4"> 
  <thead> 
@@ -83,7 +83,7 @@ Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de cat�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.expiration </span> </p> </td> 
    <td colname="col2"> <p>Duplo </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Expiration </span> ou o tempo de vida padrão. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Expiration </span> ou a hora padrão de vida. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.height </span> </p> </td> 
@@ -108,7 +108,7 @@ Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de cat�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.modifier </span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Modifier </span> ou vazio se não for uma entrada de catálogo. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> atributo::Modificador </span> ou vazio se não for uma entrada de catálogo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType </span> </p> </td> 
@@ -123,7 +123,7 @@ Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de cat�
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.timeStamp </span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Data/hora de modificação (de <span class="codeph"> catálogo::Carimbo de data/hora </span> ou o arquivo de vinheta). </p> </td> 
+   <td colname="col3"> <p>Data/hora de modificação (do <span class="codeph"> catálogo::TimeStamp </span> ou do arquivo de vinheta). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.width </span> </p> </td> 
@@ -131,27 +131,27 @@ Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de cat�
    <td colname="col3"> <p>Largura total da resolução em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vinheta.nome </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.name </span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p>Nome da vinheta (string de nome do objeto de vinheta raiz). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vinheta.res </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
-   <td colname="col3"> <p>Resolução máxima do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução do material </a> (normalmente pixels/polegada). </p> </td> 
+   <td colname="col3"> <p>Resolução máxima do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unidades de resolução de material </a> (normalmente pixels/polegada). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vinheta.res.avg </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res.avg </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
-   <td colname="col3"> <p>Resolução média do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução do material </a> unidades (normalmente pixels/pol. <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução do material </a>h). </p> </td> 
+   <td colname="col3"> <p>Resolução média do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> unidades de resolução de material </a> (normalmente pixels/inc <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução de material </a>h). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vinheta.res.min </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.res.min </span> </p> </td> 
    <td colname="col2"> <p>Real </p> </td> 
-   <td colname="col3"> <p>Resolução mínima do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução do material </a> (normalmente pixels/polegada). </p> </td> 
+   <td colname="col3"> <p>Resolução mínima do objeto em <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md#concept-f60103c64e324e2cae78bd76dfb4de8b" type="concept" format="dita" scope="local"> resolução do material </a> unidades (normalmente pixels/polegada). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vinheta.versão </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vignette.version </span> </p> </td> 
    <td colname="col2"> <p>Integer </p> </td> 
    <td colname="col3"> <p>Número da versão do arquivo de vinheta. </p> </td> 
   </tr> 
@@ -164,23 +164,23 @@ Retorna os dados do mapa de imagem incluídos na vinheta. Por padrão, os dados 
 
 `req=map&groupLevel=-1`
 
-Os dados do mapa não são dimensionados para `wid=` ou `hei=` ou modificado de outra forma. O tipo de MIME de resposta é `<text/xml>`.
+Os dados do mapa não estão dimensionados para `wid=` ou `hei=` ou modificados de outra forma. O tipo MIME de resposta é `<text/xml>`.
 
-Os dados de resposta consistem em uma `<map>` elemento que contém um conjunto de `<area>` elementos, semelhantes ao HTML `<AREA>` tag.
+Os dados de resposta consistem em um elemento `<map>` contendo um conjunto de elementos `<area>`, semelhante à marca HTML `<AREA>`.
 
-Each `<area>` elemento inclui o padrão `type=` e `coord=` atributos, e uma `name=` atributo, especificando o nome do grupo de vinhetas ou o caminho do nome. Múltiplo `<area>` elementos com o mesmo nome estarão presentes se as máscaras do grupo de objetos correspondente tiverem regiões descontínuas.
+Cada elemento `<area>` inclui os atributos `type=` e `coord=` padrão e um atributo `name=`, especificando o nome do grupo de vinhetas ou o caminho do nome. Vários elementos `<area>` com o mesmo nome estarão presentes se as máscaras do grupo de objetos correspondente tiverem regiões descontínuas.
 
-Além dos atributos padrão, as vinhetas podem definir atributos adicionais, se criados. Esses atributos personalizados são definidos como atributos de grupo de objetos. Os nomes dos atributos personalizados devem começar com `map` para ser incluído no `<area>` elementos. Por exemplo, se os atributos do grupo incluírem `map.href=http://www.scene7.com`, o correspondente `<area>` element includes `href="http://www.scene7.com"`.
+Além dos atributos padrão, as vinhetas podem definir atributos adicionais, se criados. Esses atributos personalizados são definidos como atributos de grupo de objetos. Os nomes de atributos personalizados devem começar com `map` para serem incluídos nos elementos `<area>`. Por exemplo, se os atributos do grupo incluírem `map.href=http://www.scene7.com`, o elemento `<area>` correspondente incluirá `href="http://www.scene7.com"`.
 
-Um documento XML com um espaço em branco `<map>` o elemento é retornado se a vinheta não incluir dados de mapa.
+Um documento XML com um elemento `<map>` vazio será retornado se a vinheta não incluir dados de mapa.
 
 `object`
 
-Executa os comandos especificados e retorna a imagem renderizada mascarada pela seleção de objeto residual (o grupo ou objeto selecionado com o último `sel=` ou `obj=` na solicitação). Normalmente é usado com um formato de imagem que suporta alfa (consulte [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)). Se um formato de imagem que não suporte alfa for usado, as áreas fora da máscara ficarão pretas.
+Executa os comandos especificados e retorna a imagem renderizada mascarada pela seleção de objeto residual (o grupo ou objeto selecionado com o último comando `sel=` ou `obj=` na solicitação). Normalmente é usado com um formato de imagem que suporta alfa (veja [fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c)). Se um formato de imagem que não suporte alfa for usado, as áreas fora da máscara ficarão pretas.
 
 `props`
 
-Executa os comandos especificados e retorna as propriedades da vinheta e do grupo ou objeto, em vez da imagem renderizada. Consulte [Propriedades](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) para obter uma descrição da sintaxe de resposta e do tipo de MIME de resposta. A seleção padrão se aplica, a menos que `obj=` ou `sel=` também é especificado (consulte [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Executa os comandos especificados e retorna as propriedades da vinheta e do grupo ou objeto, em vez da imagem renderizada. Consulte [Propriedades](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) para obter uma descrição da sintaxe de resposta e do tipo MIME de resposta. A seleção padrão se aplica a menos que `obj=` ou `sel=` também seja especificado (consulte [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 As seguintes propriedades podem ser incluídas na resposta:
 
@@ -206,7 +206,7 @@ As seguintes propriedades podem ser incluídas na resposta:
   <tr> 
    <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
    <td> <p> Booleano </p> </td> 
-   <td> <p>Verdadeiro se o perfil ICC estiver incorporado na imagem de resposta (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>). </p> </td> 
+   <td> <p>Verdadeiro se o perfil ICC estiver inserido na imagem de resposta (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccProfile </span> </p> </td> 
@@ -236,7 +236,7 @@ As seguintes propriedades podem ser incluídas na resposta:
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>Inteiro, booleano </p> </td> 
-   <td> <p> qualidade do JPEG e sinalizador de croma (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> Qualidade de JPEG e sinalizador de chroma (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 
@@ -264,7 +264,7 @@ As seguintes propriedades podem ser incluídas na resposta:
    <td> <p> Valor de recuo da seleção atual. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> selecionar <span class="codeph"> selection.attributes </span>ion.name </span> </p> </td> 
+   <td> <p> <span class="codeph"> selecione <span class="codeph"> selection.attributes </span>ion.name </span> </p> </td> 
    <td> <p> String </p> </td> 
    <td> <p> Caminho do nome completo da seleção de objeto atual. </p> </td> 
   </tr> 
@@ -298,9 +298,9 @@ As seguintes propriedades podem ser incluídas na resposta:
 
 `userdata`
 
-Retorna o conteúdo de `vignette::UserData`. O servidor substitui todas as ocorrências de `'??'` in `vignette::UserData` com terminadores de linha ( `<cr><lf>`). A resposta é formatada como dados de texto com o tipo MIME de resposta definido como &lt;text plain=&quot;&quot;>.
+Retorna o conteúdo de `vignette::UserData`. O servidor substitui todas as ocorrências de `'??'` em `vignette::UserData` por terminadores de linha ( `<cr><lf>`). A resposta é formatada como dados de texto com o tipo MIME de resposta definido como &lt;text/plain>.
 
-Se o objeto especificado no caminho do URL não for resolvido para uma entrada válida do mapa de vinheta ou se a variável `vignette::UserData` estiver vazio, a resposta conterá apenas um terminador de linha ( `CR/LF`).
+Se o objeto especificado no caminho da URL não for resolvido para uma entrada de mapa de vinheta válida ou se `vignette::UserData` estiver vazio, a resposta conterá apenas um terminador de linha ( `CR/LF`).
 
 Quaisquer outros comandos na string de solicitação são ignorados.
 
@@ -322,4 +322,4 @@ Caso contrário, `req=img`
 
 ## Consulte também {#section-f7a955525fb44ef2ae7cd7ede25a96c3}
 
-[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) , [attribute::ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0), [vinheta::UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85), [Propriedades](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)
+[fmt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md#reference-4c743f67d56b47c5b774fcc900ff758c) , [attribute::ErrorImagePath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0), [vignette::UserData](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85), [Properties](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a)

@@ -22,7 +22,7 @@ Sintaxe
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: um caso especial de [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado para os valores [!DNL `True`] e [!DNL `False`].
+* [!DNL `BooleanTag`]: Um caso especial de [!DNL `SingleFixedTag`] com um dicionário não modificável inicializado para os valores [!DNL `True`] e [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ Sintaxe
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]: zero ou mais valores de sequência de caracteres de um dicionário fechado. Somente usuários administradores podem modificar o dicionário.
-* [!DNL `MultiTag`]: zero ou mais valores da string.
-* [!DNL `SingleFixedTag`]: um único valor de string de um dicionário fechado. Se `setAssetMetadata` ou `batchSetAssetMetadata` são chamados com um valor fora do dicionário, uma falha é retornada. Somente usuários administradores podem modificar o dicionário.
+* [!DNL `MultiFixedTag`]: Zero ou mais valores de cadeia de caracteres de um dicionário fechado. Somente usuários administradores podem modificar o dicionário.
+* [!DNL `MultiTag`]: zero ou mais valores de cadeia de caracteres.
+* [!DNL `SingleFixedTag`]: um único valor de cadeia de caracteres de um dicionário fechado. Se `setAssetMetadata` ou `batchSetAssetMetadata` forem chamados com um valor que não está no dicionário, uma falha será retornada. Somente usuários administradores podem modificar o dicionário.
 
-* [!DNL `SingleTag`]: qualquer valor único de string.
+* [!DNL `SingleTag`]: Qualquer valor de cadeia de caracteres.
 * [!DNL `String`]

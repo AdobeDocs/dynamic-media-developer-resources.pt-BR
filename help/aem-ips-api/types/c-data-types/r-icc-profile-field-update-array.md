@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| itens | `types:IccProfileUpdate` | `IccProfileFieldUpdate` item da matriz. |
+| itens | `types:IccProfileUpdate` | Item de matriz `IccProfileFieldUpdate`. |

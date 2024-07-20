@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 
 Você pode localizar a mensagem de erro que é exibida nos casos em que o sistema não consegue reproduzir o vídeo.
 
-Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
 Exemplo - Para configurar um visualizador de vídeo com o tamanho do reprodutor de vídeo definido como 512 x 288 pixels.
 
@@ -84,7 +84,7 @@ A aparência da animação em buffer é controlada com o seguinte seletor de cla
    <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Obstrução de arte. </p> </td> 
   </tr> 
  </tbody> 

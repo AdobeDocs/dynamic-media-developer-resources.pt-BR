@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ A aparência do ícone Favorito é controlada com o seguinte seletor de classe C
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para o ícone. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Exemplo - configurar um ícone Favoritos com 36 x 36 pixels.
 }
 ```
 
-Nos sistemas desktop, o componente suporta a função `cursortype` seletor de atributo que pode ser aplicado ao `.s7favoriteseffect` classe e controla o tipo do cursor com base na ação do usuário selecionada. As seguintes `cursortype` Os valores de são compatíveis:
+Em sistemas desktop, o componente oferece suporte ao seletor de atributos `cursortype`, que pode ser aplicado à classe `.s7favoriteseffect`, e controla o tipo de cursor com base na ação do usuário selecionado. Os seguintes valores `cursortype` têm suporte:
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 

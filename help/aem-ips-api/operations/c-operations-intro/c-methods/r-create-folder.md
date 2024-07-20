@@ -18,7 +18,7 @@ Cria uma pasta.
 
 >[!NOTE]
 >
->A nova pasta é secundária para a pasta Imagens, mesmo se você especificar uma `/` para indicar a raiz da empresa.
+>A nova pasta é subordinada à pasta Images, mesmo que você especifique um `/` para indicar a raiz da empresa.
 
 Sintaxe
 

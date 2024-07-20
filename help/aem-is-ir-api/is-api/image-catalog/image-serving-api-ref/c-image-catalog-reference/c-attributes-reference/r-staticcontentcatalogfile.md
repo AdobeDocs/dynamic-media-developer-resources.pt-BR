@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminhos de arquivos de dados do catálogo de conteúdo estático. Especifica os arquivos que contêm os dados de conteúdo estático para este catálogo.
 
-Os arquivos de dados do catálogo de conteúdo estático são carregados na ordem especificada. Se o mesmo `static::Id` ocorrer em mais de um registro (no mesmo ou em diferentes arquivos de catálogo), a última instância prevalecerá.
+Os arquivos de dados do catálogo de conteúdo estático são carregados na ordem especificada. Se o mesmo valor `static::Id` ocorrer em mais de um registro (no mesmo ou em arquivos de catálogo diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-3f8dc8d21fa84fbeb71db6ca1ecbdd8c}
 

@@ -50,7 +50,7 @@ Verifica se um usuário com uma empresa específica (identificada pelo identific
 
 ## Exemplos {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Este código de exemplo usa um parâmetro de identificador de empresa, endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *pode* fazer logon, esse método retornará a string, `ValidLogin`. Se o usuário *não é possível* fazer logon, esse método retornará a string, `InvalidLogin`.
+Este código de exemplo usa um parâmetro de identificador de empresa, endereço de email e uma senha para determinar se um usuário pode fazer logon no IPS. Se o usuário *puder* fazer logon, esse método retornará a cadeia de caracteres `ValidLogin`. Se o usuário *não puder* fazer logon, esse método retornará a cadeia de caracteres `InvalidLogin`.
 
 **Solicitação**
 

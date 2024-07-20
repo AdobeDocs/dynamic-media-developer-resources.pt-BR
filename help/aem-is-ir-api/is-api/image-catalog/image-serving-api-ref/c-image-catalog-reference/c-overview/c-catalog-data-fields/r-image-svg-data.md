@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Os campos a seguir são reconhecidos em arquivos de dados de imagem e SVG.
 <table id="table_823F89CAD494441690D28F18005F774C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> ID</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> Id</a></span> </p> </td> 
    <td colname="col2"> <p>Identificador de registro de catálogo (chave de índice). </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ Os campos a seguir são reconhecidos em arquivos de dados de imagem e SVG.
    <td colname="col2"> <p>Caminho do arquivo de imagem/SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> ResoluçãoDeImpressão</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> ResoluçãoImpressão</a></span> </p> </td> 
    <td colname="col2"> <p>Resolução de impressão. </p> </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ Os campos a seguir são reconhecidos em arquivos de dados de imagem e SVG.
    <td colname="col2"> <p>Dados do mapa de imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Metas</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Destinos</a></span> </p> </td> 
    <td colname="col2"> <p>Dados de destino do zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> Dados do Usuário</a></span> </p> </td> 
    <td colname="col2"> <p>Dados definidos pelo usuário. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Todas as fontes referenciadas na cadeia de caracteres RTF devem estar disponíve
 
 A melhor qualidade para o texto em itálico e negrito é alcançada pelo registro dos arquivos de fonte correspondentes. Se não estiver disponível, o servidor pode sintetizar faces de fonte em negrito e/ou itálico a partir da face padrão. (Consulte [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
 
-A face da fonte especificada com `attribute::DefaultFont` é usado quando nenhum é especificado explicitamente na cadeia de caracteres RTF.
+A face de fonte especificada com `attribute::DefaultFont` é usada quando nenhuma é especificada explicitamente na cadeia de caracteres RTF.
 
 O Servidor de imagens é compatível com fontes TrueType, OpenType®, Adobe Type 1 (somente Windows).
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## Consulte também {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[Referência do mapa de fontes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[Referência do Mapa de Fontes](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

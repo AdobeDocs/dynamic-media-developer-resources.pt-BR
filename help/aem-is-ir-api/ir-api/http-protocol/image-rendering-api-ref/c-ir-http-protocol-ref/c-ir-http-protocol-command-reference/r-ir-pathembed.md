@@ -20,7 +20,7 @@ Incorporar dados de caminhos. Especifica se os caminhos Photoshop inseridos na v
 
 ## Propriedades {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Solicitar atributo. Ignorado se a vinheta não contiver dados de caminhos. Os dados de caminhos são dimensionados para `wid=` e/ou `hei=` se necessário.
+Solicitar atributo. Ignorado se a vinheta não contiver dados de caminhos. Os dados dos caminhos são dimensionados para `wid=` e/ou `hei=` se necessário.
 
 Ignorado se o formato de imagem de saída não suportar incorporação de caminho. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação de caminhos.
 

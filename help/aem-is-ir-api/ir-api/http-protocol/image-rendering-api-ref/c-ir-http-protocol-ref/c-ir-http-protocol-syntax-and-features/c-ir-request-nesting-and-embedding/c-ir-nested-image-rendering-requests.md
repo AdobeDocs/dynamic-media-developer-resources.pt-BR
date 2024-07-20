@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Para aplicativos avançados, é possível usar o resultado de uma operação de renderização como uma imagem do material, como uma imagem obtida no Servidor de imagens.
 
-Uma solicitação de renderização pode ser usada como uma imagem do material especificando-a no campo `src=` comando da seguinte maneira:
+Uma solicitação de renderização pode ser usada como uma imagem do material especificando-a no comando `src=` da seguinte maneira:
 
 ` …&src=ir{ *[!DNL renderRequest]*}&…`
 
-A variável `ir` O token diferencia maiúsculas e minúsculas.
+O token `ir` diferencia maiúsculas de minúsculas.
 
-A solicitação aninhada não deve incluir o caminho raiz de Renderização de imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regra de pré-processamento.
+A solicitação aninhada não deve incluir o caminho raiz de Renderização de Imagem (normalmente `http:// *[!DNL server]*/ir/render/'`), mas pode incluir tokens de regra de pré-processamento.
 
-Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (no url da solicitação ou no `catalog::Modifier` ou `catalog::PostModifier`):
+Os seguintes comandos são ignorados quando especificados em solicitações aninhadas (na url de solicitação ou em `catalog::Modifier` ou `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -34,6 +34,6 @@ Os seguintes comandos são ignorados quando especificados em solicitações anin
 * `req=`
 * `bgc=`
 
-Também são ignoradas `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
+Também são ignorados `attribute::MaxPix` e `attribute::DefaultPix` do catálogo de materiais que se aplica à solicitação de renderização aninhada.
 
-O resultado de imagem de uma solicitação IR aninhada pode ser armazenado em cache opcionalmente incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários está desativado. O armazenamento em cache só deve ser ativado quando a imagem intermediária for reutilizada em uma solicitação diferente em um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
+O resultado da imagem de uma solicitação de IR aninhada pode ser armazenado em cache opcionalmente incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários está desativado. O armazenamento em cache só deve ser ativado quando a imagem intermediária for reutilizada em uma solicitação diferente em um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.

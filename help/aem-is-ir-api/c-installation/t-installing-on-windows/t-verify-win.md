@@ -18,12 +18,12 @@ Depois de instalar o Dynamic Media Image Serving, você deve verificar a instala
 
 O Servidor de imagens está instalado como um Serviço do Windows.
 
-1. Abra o Painel de controle Serviços e verifique se `Dynamic Media Image Serving` está presente com um status de `Started`.
+1. Abra o Painel de Controle de Serviços e verifique se `Dynamic Media Image Serving` está presente com o status `Started`.
 1. Abra um navegador da Internet no mesmo host ou em um host diferente e verifique as respostas padrão do servidor:
 
    `http:// server:port /is/image`
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Verifique a presença de &quot; `imageServer.`&quot; itens na resposta, que indicam que o Servidor de imagens está escutando.
+Verifique a presença de &quot; `imageServer.`&quot; itens na resposta, o que indica que o Servidor de imagens está escutando.
 >A verificação adicional pode ser executada usando as páginas de exemplo dos pacotes de Documentação e Demonstração, se instalados.

@@ -30,36 +30,36 @@ Este documento usa as convenções a seguir.
   <td class="stentry"> <p>Itálico indica uma variável ou parâmetro, a ser substituído por um valor real. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> comando= </span> </p> </td> 
   <td class="stentry"> <p>Um nome com um '=' à direita refere-se a um comando do Protocolo HTTP do Servidor de imagens. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> atributo:: </span> refere-se a um atributo de catálogo de imagens. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> atributo::Item </span> </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com o atributo <span class="codeph">: </span> refere-se a um atributo de catálogo de imagens. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> catálogo::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> catálogo: </span> refere-se a um campo de dados do catálogo de imagens. </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com o catálogo <span class="codeph">: </span> refere-se a um campo de dados do catálogo de imagens. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> icc: </span> refere-se a um campo no mapa de perfil de cores ICC. </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com <span class="codeph"> icc:: </span> refere-se a um campo no mapa de perfil de cores ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> fonte::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> fonte: </span> refere-se a um campo no mapa de fontes. </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com a fonte <span class="codeph">: </span> refere-se a um campo no mapa de fontes. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro:: Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> macro: </span> refere-se a um campo na tabela de definição de macro. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro: Item </span> </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com macro <span class="codeph">: </span> refere-se a um campo na tabela de definição de macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> conjunto de regras::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> conjunto de regras:: </span> refere-se a um elemento em um conjunto de regras de pré-processamento de URL. </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com o conjunto de regras <span class="codeph">: </span> refere-se a um elemento em um conjunto de regras de pré-processamento de URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> padrão::Item </span> </p> </td> 
-  <td class="stentry"> <p>Um nome com o prefixo <span class="codeph"> padrão: </span> refere-se a um atributo do catálogo de imagens padrão. </p> </td> 
+  <td class="stentry"> <p>Um nome prefixado com o padrão <span class="codeph">: </span> refere-se a um atributo do catálogo de imagens padrão. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> opcional </span>] </span> </p> </td> 
@@ -67,7 +67,7 @@ Este documento usa as convenções a seguir.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> opcional </span>] </span> </p> </td> 
-  <td class="stentry"> <p>A variável <span class="varname"> opcional </span> o elemento de sintaxe pode ser repetido nenhuma ou mais vezes. </p> </td> 
+  <td class="stentry"> <p>O elemento de sintaxe <span class="varname"> </span> opcional pode ser repetido nenhuma ou mais vezes. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 

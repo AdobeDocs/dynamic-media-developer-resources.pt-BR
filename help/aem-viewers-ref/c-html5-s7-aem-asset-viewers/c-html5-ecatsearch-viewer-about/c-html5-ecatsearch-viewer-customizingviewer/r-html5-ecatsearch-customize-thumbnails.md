@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,13 +51,13 @@ A aparência do contêiner de miniaturas é controlada com o seguinte seletor de
    <td colname="col2"> <p>A margem inferior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da área de miniaturas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configurar miniaturas para ter 32 pixels deslocados em relação à parte superior, 5 pixels à esquerda e à direita e 8 pixels na margem inferior, com `0xDDDDDD` fundo.
+Exemplo - configurar miniaturas para ter 32 pixels deslocados da parte superior, 5 pixels à esquerda e à direita e 8 pixels na margem inferior, com `0xDDDDDD` plano de fundo.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -83,7 +83,7 @@ O espaçamento entre as miniaturas é controlado com o seguinte seletor de class
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento de miniatura horizontal real é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. Espaçamento vertical entre miniaturas igual à soma das margens superior e inferior. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento horizontal real entre miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. Espaçamento vertical entre miniaturas igual à soma das margens superior e inferior. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
    <td colname="col2"> <p>A borda da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da miniatura. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ Em dispositivos de toque, quando girado para o modo retrato, o visualizador pode
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem que está sendo exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 120 x 85 pixels, tenha um plano de fundo branco, uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
@@ -160,11 +160,11 @@ A aparência do rótulo da miniatura é controlada com o seguinte seletor de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ Se houver mais miniaturas que possam caber verticalmente na exibição, elas ren
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical a partir da parte superior da área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>O deslocamento da barra de rolagem vertical na parte inferior da área de miniaturas. </p> </td> 
   </tr> 
   <tr> 
@@ -238,7 +238,7 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
    <td colname="col2"> <p>A largura da faixa da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo da faixa da barra de rolagem. </p> </td> 
   </tr> 
  </tbody> 
@@ -282,7 +282,7 @@ A miniatura da barra de rolagem se move verticalmente dentro da área de rolagem
    <td colname="col2"> <p>O preenchimento vertical entre a parte inferior da faixa da barra de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -294,7 +294,7 @@ A miniatura da barra de rolagem se move verticalmente dentro da área de rolagem
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes aos estados de miniatura `up`, `down`, `over`, e `disabled`.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos estados de miniatura `up`, `down`, `over` e `disabled`.
 
 Exemplo - para configurar uma miniatura de barra de rolagem com 28 x 45 pixels, tem margens de 10 pixels na parte superior e inferior e tem arte-final diferente para cada estado.
 
@@ -327,7 +327,7 @@ A aparência dos botões de rolagem superior e inferior é controlada com os seg
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar os botões de rolagem usando as propriedades CSS `top`, `left`, `bottom` e `right`. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -346,7 +346,7 @@ Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bo
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ Não é possível posicionar os botões de rolagem usando CSS `top`, `left`, `bo
 
 >[!NOTE]
 >
->Esses botões suportam o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes `up`, `down`, `over`, e `disabled`.
+>Estes botões oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos diferentes estados de botão `up`, `down`, `over` e `disabled`.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

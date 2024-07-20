@@ -22,7 +22,7 @@ Valor da string de texto. Pode incluir apenas caracteres válidos em caminhos HT
 
 ## Padrão {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Nenhum. Cada catálogo deve ter um `attribute::RootId` valor. [!DNL default.ini] normalmente tem um vazio `attribute::RootId`.
+Nenhum. Cada catálogo deve ter um valor `attribute::RootId` exclusivo. [!DNL default.ini] geralmente tem um `attribute::RootId` vazio.
 
 ## Consulte também {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

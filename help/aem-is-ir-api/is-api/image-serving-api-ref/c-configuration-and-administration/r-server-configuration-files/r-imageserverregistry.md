@@ -52,4 +52,4 @@ A seguir estão os elementos que podem ser alterados. Há outros elementos prese
 
 ## Notas {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Múltiplo `<RootPath>` elementos podem estar presentes (um para cada pasta de arquivo de dados de origem). O Servidor de imagens pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.
+Vários elementos `<RootPath>` podem estar presentes (um para cada pasta de arquivo de dados de origem). O Servidor de imagens pesquisa os caminhos raiz na ordem especificada para localizar um arquivo de origem específico.

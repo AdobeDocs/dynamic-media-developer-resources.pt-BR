@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Largura da exibição. Especifica a largura da imagem de resposta (exibir imagem
  </tr> 
 </table>
 
-Se ambos `hei=` e `scl=` forem especificadas, a imagem composta poderá ser cortada de acordo com as `align=` atributo. Quando `fit=` está presente, `wid=` especifica a largura exata, mínima ou máxima da imagem de resposta; consulte a descrição de `fit=` para obter detalhes.
+Se `hei=` e `scl=` forem especificados, a imagem composta poderá ser cortada de acordo com o atributo `align=`. Quando `fit=` está presente, `wid=` especifica a largura de imagem de resposta exata, mínima ou máxima; consulte a descrição de `fit=` para obter detalhes.
 
-Se `scl=` não for especificada, a imagem composta será dimensionada para caber. Se ambos `wid=` e `hei=` são especificados e `scl=` não for especificada, então a imagem é dimensionada para caber inteiramente dentro do retângulo wid/hei, deixando a menor área de fundo exposta possível. Nesse caso, a imagem é posicionada dentro do retângulo de exibição de acordo com a variável `align=` atributo.
+Se `scl=` não for especificado, a imagem composta será dimensionada para caber. Se `wid=` e `hei=` forem especificados e `scl=` não for, a imagem será dimensionada para caber inteiramente no retângulo wid/hei, deixando a menor área de plano de fundo exposta possível. Nesse caso, a imagem é posicionada dentro do retângulo de exibição de acordo com o atributo `align=`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Se `scl=` não for especificada, a imagem composta será dimensionada para caber
 
 ## Padrão {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Se nenhuma delas `wid=`, `hei=`, nem `scl=` forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
+Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
 
 ## Propriedades {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,11 +43,11 @@ Exibir atributo. Ela se aplica independentemente da configuração atual da cama
 
 ## Exemplo {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem no canto superior direito se ela não for quadrada. Qualquer área do plano de fundo é preenchida com `attribute::BkgColor`.
+Solicite uma imagem para ajustá-la a um retângulo de 200x200; alinhe a imagem no canto superior direito se ela não for quadrada. Qualquer área da tela de fundo é preenchida com `attribute::BkgColor`.
 
 ` http:// *`Servidor`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-A mesma imagem, entregue em uma largura fixa de 200 pixels, mas com uma altura variável para manter a proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. Nesse caso, `align=` não teria qualquer efeito.
+A mesma imagem, entregue em uma largura fixa de 200 pixels, mas com uma altura variável para manter a proporção da imagem. Nesse caso, a imagem retornada nunca tem áreas de preenchimento do plano de fundo. Nesse caso, `align=` não teria nenhum efeito.
 
 ` http:// *`Servidor`*/myRootId/myImageId?wid=200`
 

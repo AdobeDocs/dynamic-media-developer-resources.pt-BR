@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> quadro</span></span> </p> </td> 
-   <td colname="col2"> <p> Especifica um índice espelhado de base zero a ser exibido na carga do visualizador. O índice corresponde ao índice da página espelhada no modo paisagem. Se o visualizador for girado para retrato, ele exibirá a página mais à esquerda da página espelhada apontada pelo <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Especifica um índice espelhado de base zero a ser exibido na carga do visualizador. O índice corresponde ao índice da página espelhada no modo paisagem. Se o visualizador for girado para retrato, ele exibirá a página mais à esquerda da página espelhada apontada por <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

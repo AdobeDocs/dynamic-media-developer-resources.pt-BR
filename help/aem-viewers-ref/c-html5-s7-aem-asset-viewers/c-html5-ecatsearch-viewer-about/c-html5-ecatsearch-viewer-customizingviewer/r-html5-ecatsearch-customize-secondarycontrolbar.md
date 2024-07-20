@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da barra de controle secundária é controlada com o seguinte selet
    <td colname="col2"> <p>Posição na parte superior do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Posição na parte inferior do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ A aparência da barra de controle secundária é controlada com o seguinte selet
    <td colname="col2"> <p>A altura da barra de controle principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da barra de controle secundária. </p> </td> 
   </tr> 
  </tbody> 

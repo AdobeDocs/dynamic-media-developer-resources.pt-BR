@@ -39,19 +39,19 @@ Sintaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Depende do tipo de campo de tag e se o campo value ou valueArray é usado. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se <span class="codeph"> value</span> é aprovado, <span class="codeph"> op</span> deve ser a constante de string Matches. A condição corresponde a qualquer ativo associado ao valor da tag. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> valueArray</span> for transmitido, o campo op poderá ser a constante <span class="codeph"> MatchesAny</span> para campos de tag única ou de vários valores. A <span class="codeph"> MatchesAny</span> condição corresponde a qualquer ativo associado a pelo menos um dos valores de tag em <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Para campos de tag com vários valores, o campo op pode ser definido como a constante <span class="codeph"> MatchesAll</span> com o <span class="codeph"> valueArray</span> campo. Nesse caso, a condição só corresponde aos ativos associados a todos os valores de tag no <span class="codeph"> valueArray</span> (possivelmente além de outros valores de tag). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Se o valor <span class="codeph"> </span> for passado, <span class="codeph"> op</span> deve ser a constante de cadeia de caracteres Matches. A condição corresponde a qualquer ativo associado ao valor da tag. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Se <span class="codeph"> valueArray</span> for transmitido, o campo op poderá ser a constante <span class="codeph"> MatchesAny</span> para campos de marca com um ou vários valores. Uma condição <span class="codeph"> MatchesAny</span> corresponde a qualquer ativo associado a pelo menos um dos valores de marca em <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Para campos de marca com vários valores, o campo op pode ser definido como a constante <span class="codeph"> MatchesAll</span> com o campo <span class="codeph"> valueArray</span>. Nesse caso, a condição só corresponde aos ativos associados a todos os valores de marca em <span class="codeph"> valueArray</span> (possivelmente além de outros valores de marca). </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valor</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Um valor correspondente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Vários valores correspondentes. </td> 
   </tr> 
  </tbody> 

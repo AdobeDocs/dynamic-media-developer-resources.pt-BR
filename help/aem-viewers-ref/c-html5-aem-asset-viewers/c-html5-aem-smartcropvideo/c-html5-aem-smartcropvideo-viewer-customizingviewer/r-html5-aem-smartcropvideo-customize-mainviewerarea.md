@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c8ea6698-e425-491f-8413-2260ddf40c33
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ O seletor de classe CSS a seguir controla a aparência da área de visualizaçã
    <td colname="col2"> <p>Altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a4e187d9-b920-4d0d-adaa-ea369c5694fe
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o layout do visualizador em dispositivos habilitados para toque. Quando o parâmetro é definido como <span class="codeph"> 1 </span>, o visualizador mostra amostras abaixo da exibição principal na área de trabalho; em dispositivos habilitados para toque, as amostras são sobrepostas na parte superior da exibição principal. </p> <p>Quando o parâmetro é definido como <span class="codeph"> 0 </span>, as amostras são renderizadas abaixo da exibição principal em todos os tipos de dispositivos. </p> </td> 
+   <td colname="col2"> <p>Especifica o layout do visualizador em dispositivos habilitados para toque. Quando o parâmetro é definido como <span class="codeph"> 1 </span>, o visualizador mostra amostras abaixo da exibição principal na área de trabalho; em dispositivos habilitados para toque, as amostras são sobrepostas na parte superior da exibição principal. </p> <p>Quando o parâmetro é definido como <span class="codeph"> 0 </span>, as amostras são renderizadas abaixo da exibição principal em todos os tipos de dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ A aparência do botão de menu Favoritos é controlada com o seguinte seletor de
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ A aparência do botão de menu Favoritos é controlada com o seguinte seletor de
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -108,12 +108,12 @@ A aparência do painel que contém ícones Favoritos individuais é controlada c
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel
 ```
 
-**Propriedades CSS do painel do menu Favoritos**
+**Propriedades CSS do painel de menu Favoritos**
 
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 

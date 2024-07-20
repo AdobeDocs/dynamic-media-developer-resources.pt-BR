@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Solicitar validação.
  </tr> 
 </table>
 
-Analisa a string de solicitação como se fosse `req=img` foram especificados, mas sem substituir variáveis e avaliar objetos referenciados (imagens, perfis ICC, fontes e assim por diante). A resposta de erro padrão é retornada se a análise falhar, caso contrário, a seguinte propriedade é retornada:
+Analisa a cadeia de caracteres de solicitação como se `req=img` tivesse sido especificada, mas sem substituir variáveis e avaliar objetos referenciados (imagens, perfis ICC, fontes e assim por diante). A resposta de erro padrão é retornada se a análise falhar, caso contrário, a seguinte propriedade é retornada:
 
 `request.isValid=1`
 
 A resposta HTTP não pode ser armazenada em cache.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

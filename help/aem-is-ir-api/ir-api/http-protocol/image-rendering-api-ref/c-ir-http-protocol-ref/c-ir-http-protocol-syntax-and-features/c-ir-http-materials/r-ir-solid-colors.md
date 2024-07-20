@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esta categoria de material inclui tintas para paredes, carpintaria, guarnições, automotivo e qualquer outra aplicação onde as texturas não são necessárias.
 
-Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias alterações de textura, ou para definir a cor para o acabamento plástico e carpete de um interior automotivo. Um material é considerado cor sólida se não `src=` valor está presente no MSS.
+Por exemplo, você pode usar cores sólidas para variar a cor em um item de vestuário onde não são necessárias alterações de textura, ou para definir a cor para o acabamento plástico e carpete de um interior automotivo. Um material é considerado uma cor sólida se nenhum valor de `src=` estiver presente no MSS.
 
 Cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
 
@@ -30,7 +30,7 @@ Cores sólidas podem ser aplicadas a todos os objetos renderizáveis.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> cor= </span> </a> </p> </td> 
    <td colname="col2"> <p> Valor de cor cinza ou RGB; obrigatório. </p> </td> 
    <td colname="col3"> <p>Nenhum. </p> </td> 
   </tr> 

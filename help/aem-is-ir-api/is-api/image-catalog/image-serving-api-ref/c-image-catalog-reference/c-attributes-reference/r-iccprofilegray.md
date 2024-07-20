@@ -18,7 +18,7 @@ Perfil de cor de saída padrão em tons de cinza. Especifica o nome do perfil de
 
 ## Propriedades {#section-03f090ee2acf4537b83f78840d23ecab}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
 
 ## Padrão {#section-95ba3ab15edc4259b657c6ebf8783d61}
 

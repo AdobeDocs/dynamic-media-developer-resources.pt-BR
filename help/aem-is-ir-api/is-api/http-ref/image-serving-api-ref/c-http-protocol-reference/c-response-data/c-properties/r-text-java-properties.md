@@ -33,6 +33,6 @@ Uma resposta de propriedades de texto típica tem esta estrutura geral:
 ...
 ```
 
-*`propertyValue`* pode estar em branco. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador =. Aspas simples ou duplas podem ser usadas para delimitar valores de cadeias de caracteres, mas não são obrigatórias.
+*`propertyValue`* pode estar vazio. O espaço em branco é opcional no início e no final de cada linha e antes e depois do separador =. Aspas simples ou duplas podem ser usadas para delimitar valores de cadeias de caracteres, mas não são obrigatórias.
 
-Os valores de string podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:`ou `\\`.
+Os valores da cadeia de caracteres podem conter caracteres de escape no estilo JAVA, como `\n`, `\t`, `\:` ou `\\`.

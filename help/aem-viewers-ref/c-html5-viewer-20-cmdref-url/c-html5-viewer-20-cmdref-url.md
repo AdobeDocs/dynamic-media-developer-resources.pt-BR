@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Documentação de referência de comando comum a todos os visualizadores.
 
-Os comandos listados abaixo são aplicados por meio do URL ou usando a API `setParam()` ou `setParams()` métodos.
+Os comandos listados abaixo são aplicados por meio de URL ou usando métodos de API `setParam()` ou `setParams()`.

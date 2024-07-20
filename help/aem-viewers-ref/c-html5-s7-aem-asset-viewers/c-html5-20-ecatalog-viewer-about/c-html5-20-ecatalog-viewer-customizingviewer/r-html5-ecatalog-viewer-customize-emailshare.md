@@ -37,7 +37,7 @@ A aparência do botão de compartilhamento de email é controlada com o seguinte
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -49,9 +49,9 @@ A aparência do botão de compartilhamento de email é controlada com o seguinte
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-É possível remover o botão do painel Compartilhamento em redes sociais configurando `display:none` Propriedade CSS em sua classe CSS.
+É possível remover o botão do painel Compartilhamento em redes sociais definindo a propriedade CSS `display:none` em sua classe CSS.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -91,7 +91,7 @@ A sobreposição de plano de fundo que cobre a página da Web quando a caixa de 
    <td colname="col2"> <p> Opacidade de sobreposição de plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de sobreposição do plano de fundo. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,11 +117,11 @@ Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistem
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda da caixa de diálogo (caso a caixa de diálogo não use toda a janela do navegador); </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo da caixa de diálogo; </p> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do ícone. </p> </td> 
   </tr> 
   <tr> 
@@ -219,15 +219,15 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Altura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Preenchimento interno do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão Fechar e o título da caixa de diálogo podem ser localizados. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -364,7 +364,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 .s7ecatalogviewer .s7emaildialog .s7dialogcancelbutton
 ```
 
-**Propriedades CSS do botão Cancelar da caixa de diálogo**
+**Propriedades CSS do botão de cancelamento da caixa de diálogo**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -381,7 +381,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -389,7 +389,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 O botão Enviar email é controlado com o seguinte seletor de classe CSS:
 
@@ -414,7 +414,7 @@ O botão Enviar email é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -422,7 +422,7 @@ O botão Enviar email é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
 
@@ -435,15 +435,15 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -451,7 +451,7 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
    <td colname="col2"> <p> Altura do texto dentro do botão. Afeta o alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra-caixa </span> </p> </td> 
    <td colname="col2"> <p>Sombra projetada. </p> </td> 
   </tr> 
   <tr> 
@@ -538,7 +538,7 @@ A área de diálogo principal, entre o cabeçalho e o rodapé, contém conteúdo
    <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funciona no modo desktop. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar toda a janela do navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor de fundo da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ A área de diálogo principal, entre o cabeçalho e o rodapé, contém conteúdo
 
 >[!NOTE]
 >
->A área da caixa de diálogo principal é compatível com a `state` seletor de atributo. Está definido como `sendsuccess` quando o formulário de email é enviado e a caixa de diálogo mostra uma mensagem de confirmação. Desde que a mensagem de confirmação seja pequena, esse seletor de atributos pode ser usado para reduzir a altura da caixa de diálogo quando essa mensagem de confirmação é exibida.
+>A área da caixa de diálogo principal oferece suporte ao seletor de atributos `state` opcional. Está definido como `sendsuccess` quando o formulário de email é enviado e a caixa de diálogo mostra uma mensagem de confirmação. Desde que a mensagem de confirmação seja pequena, esse seletor de atributos pode ser usado para reduzir a altura da caixa de diálogo quando essa mensagem de confirmação é exibida.
 
 Exemplo - para configurar a área da caixa de diálogo principal para uma altura inicial de 300 pixels e uma altura de 100 pixels quando a mensagem de confirmação for exibida, tenha uma margem de dez pixels e use um plano de fundo branco:
 
@@ -630,15 +630,15 @@ Essa classe não é adequada para controlar o tamanho ou a posição dos rótulo
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Espessura da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do rótulo. </p> </td> 
   </tr> 
   <tr> 
@@ -706,7 +706,7 @@ Cada campo de entrada de formulário é colocado no container que permite aplica
 .s7ecatalogviewer .s7emaildialog .s7dialoginputcontainer
 ```
 
-**Propriedades CSS do container de entrada da caixa de diálogo**
+**Propriedades CSS do contêiner de entrada da caixa de diálogo**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -723,7 +723,7 @@ Cada campo de entrada de formulário é colocado no container que permite aplica
 
 >[!NOTE]
 >
->O container de campo de entrada é compatível com `state` seletor de atributo. Está definido como `verifyerror` quando o usuário comete um erro no formato dos dados de entrada e a validação em linha falha. Esse seletor de atributo pode ser usado para realçar entradas de usuário incorretas no formulário.
+>O contêiner de campo de entrada dá suporte ao seletor de atributo `state` opcional. Está definido como `verifyerror` quando o usuário comete um erro no formato de dados de entrada e a validação em linha falha. Esse seletor de atributo pode ser usado para realçar entradas de usuário incorretas no formulário.
 
 A maioria dos campos de entrada que se espalham do rótulo à esquerda até a borda direita do corpo da caixa de diálogo (que inclui o campo De e o campo Mensagem) são controlados com o seguinte seletor de classe CSS:
 
@@ -783,7 +783,7 @@ O campo de entrada de mensagens de email também é controlado com:
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage
 ```
 
-Essa classe permite que você defina propriedades específicas para o subjacente `TEXTAREA` elemento.
+Essa classe permite que você defina propriedades específicas para o elemento `TEXTAREA` subjacente.
 
 **Propriedades CSS da mensagem da caixa de diálogo**
 
@@ -800,7 +800,7 @@ Essa classe permite que você defina propriedades específicas para o subjacente
  </tbody> 
 </table>
 
-Exemplo - para configurar uma mensagem de email com 50 pixels de altura e usar `break-word` quebra automática de linha:
+Exemplo - para configurar uma mensagem de email com 50 pixels de altura e usar a quebra automática de linha `break-word`:
 
 ```
 .s7ecatalogviewer .s7emaildialog .s7dialogmessage { 
@@ -828,7 +828,7 @@ O botão Adicionar outro endereço de email permite que um usuário adicione mai
    <td colname="col2"> <p>Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -836,15 +836,15 @@ O botão Adicionar outro endereço de email permite que um usuário adicione mai
    <td colname="col2"> <p>Posição da imagem do botão dentro da área do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -864,7 +864,7 @@ O botão Adicionar outro endereço de email permite que um usuário adicione mai
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -918,7 +918,7 @@ O botão Remover permite que um usuário remova endereços extras do formulário
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -930,7 +930,7 @@ O botão Remover permite que um usuário remova endereços extras do formulário
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -991,7 +991,7 @@ A imagem em miniatura é controlada com o seguinte seletor de classe CSS:
 .s7ecatalogviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-A variável `background-image` é definida pela lógica do componente.
+A propriedade `background-image` é definida pela lógica do componente.
 
 **Propriedades CSS da imagem em miniatura da caixa de diálogo**
 
@@ -1006,7 +1006,7 @@ A variável `background-image` é definida pela lógica do componente.
    <td colname="col2"> <p>Altura da miniatura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-alinhamento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinhamento vertical </span> </p> </td> 
    <td colname="col2"> <p>Miniatura de alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -1067,15 +1067,15 @@ O título do conteúdo é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -1105,15 +1105,15 @@ A origem do conteúdo é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -1142,15 +1142,15 @@ A descrição do conteúdo é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Margem externa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -1176,7 +1176,7 @@ Quando um usuário insere dados de entrada incorretos e a validação em linha f
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Ícone de erro. O padrão é um ponto de exclamação. </p> </td> 
   </tr> 
   <tr> 
@@ -1188,15 +1188,15 @@ Quando um usuário insere dados de entrada incorretos e a validação em linha f
    <td colname="col2"> <p>Cor do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -1212,7 +1212,7 @@ Quando um usuário insere dados de entrada incorretos e a validação em linha f
 
 >[!NOTE]
 >
->Esta mensagem suporta o `state` seletor de atributos com os seguintes valores possíveis: `verifyerror`, `senderror`, e `sendsuccess`. O valor `verifyerror` é definido quando uma mensagem é exibida devido a uma falha de validação de entrada em linha. O valor `senderror` é definido quando um serviço de email de back-end relata um erro. O valor  `sendsuccess` é definido quando o email é enviado com sucesso. Dessa forma, é possível estilizar a mensagem de forma diferente, dependendo do estado da caixa de diálogo.
+>Esta mensagem dá suporte ao seletor de atributos `state` com os seguintes valores possíveis: `verifyerror`, `senderror` e `sendsuccess`. O valor `verifyerror` é definido quando uma mensagem é exibida devido a uma falha de validação de entrada em linha. O valor `senderror` é definido quando um serviço de email de back-end relata um erro. O valor `sendsuccess` é definido quando o email é enviado com êxito. Dessa forma, é possível estilizar a mensagem de forma diferente, dependendo do estado da caixa de diálogo.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -1284,7 +1284,7 @@ A aparência da área da barra de rolagem é controlada com o seguinte seletor d
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte superior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte inferior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
@@ -1320,7 +1320,7 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
    <td colname="col2"> <p>A largura da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo da faixa. </p> </td> 
   </tr> 
  </tbody> 
@@ -1362,7 +1362,7 @@ A miniatura da barra de rolagem se move verticalmente em uma área de rastreamen
    <td colname="col2"> <p> O preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -1374,7 +1374,7 @@ A miniatura da barra de rolagem se move verticalmente em uma área de rastreamen
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes: `up`, `down`, `over`, e `disabled`.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes: `up`, `down`, `over` e `disabled`.
 
 Exemplo - para configurar a miniatura da barra de rolagem com 28 x 45 pixels, tem uma margem de dez pixels na parte superior e inferior e tem um trabalho artístico diferente para cada estado:
 
@@ -1409,7 +1409,7 @@ A aparência dos botões de rolagem superior e inferior é controlada com os seg
 .s7ecatalogviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando propriedades CSS `top`, `left`, `bottom` e `right`. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 **Propriedades CSS dos botões de rolagem superior e inferior**
 
@@ -1424,7 +1424,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>A altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -1436,7 +1436,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
 
 >[!NOTE]
 >
->Esses botões suportam o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
+>Estes botões oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over` e `disabled`.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

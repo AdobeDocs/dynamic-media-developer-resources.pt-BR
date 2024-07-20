@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Quando o painel está ativo, a interface do usuário do visualizador é coberta 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor da sobreposição. </p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ O campo de entrada de pesquisa é controlado pelo seguinte seletor de classe CSS
    <td colname="col2"> <p>Margem do campo de entrada de pesquisa </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -152,11 +152,11 @@ O botão de pesquisa à esquerda do campo de entrada de pesquisa na forma de &qu
    <td colname="col2"> <p>Altura do botão de entrada de pesquisa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>O URL para a imagem do ícone "espelho". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> de tamanho de plano de fundo </p> </td> 
    <td colname="col2"> <p>O tamanho do ícone "espelho". </p> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
@@ -206,7 +206,7 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
    <td colname="col2"> <p>Alinhamento de texto horizontal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho do texto da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ O painel de resultados da pesquisa pode exibir um prompt textual quando o recurs
 
 >[!NOTE]
 >
->Esse painel de texto oferece suporte à `state` seletor de atributo, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Em especial, `state='prompt'` corresponde à solicitação de texto exibida quando o painel é chamado pela primeira vez. A variável `state='results'` corresponde ao texto com informações sobre ocorrências de pesquisa. E, finalmente, o `state='no_results'` corresponde ao texto mostrado quando a consulta de pesquisa não retornou resultados.
+>Este painel de texto oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar estilos diferentes a mensagens de texto diferentes. Especificamente, `state='prompt'` corresponde ao prompt de texto mostrado quando o painel é chamado pela primeira vez. O `state='results'` corresponde ao texto com informações sobre ocorrências de pesquisa. E finalmente, o `state='no_results'` corresponde ao texto mostrado quando a consulta de pesquisa não retornou nenhum resultado.
 
 O texto da mensagem pode ser localizado. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -239,7 +239,7 @@ Os resultados da pesquisa são renderizados como uma única coluna ou linha de m
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem vertical ao redor de cada miniatura. O espaçamento real entre miniaturas é igual à soma das margens superior e inferior definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,11 +302,11 @@ A aparência do rótulo da miniatura é controlada com o seguinte seletor de cla
    <td colname="col2"> <p> Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do texto. </p> </td> 
   </tr> 
  </tbody> 
@@ -344,7 +344,7 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS top, 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS top, 
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a `"up"`, `"down"`, `"over"`, e `"disabled"` estados do botão.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes aos estados de botão `"up"`, `"down"`, `"over"` e `"disabled"`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

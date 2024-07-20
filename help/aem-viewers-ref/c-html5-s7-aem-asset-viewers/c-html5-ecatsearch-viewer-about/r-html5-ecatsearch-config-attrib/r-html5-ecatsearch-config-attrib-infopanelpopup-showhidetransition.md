@@ -19,11 +19,11 @@ ht-degree: 0%
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> esmaecer|nenhum</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> fade|none</span> </p> </td> 
    <td colname="col2"> <p> Especifica o tipo de animação de exibição/ocultação do painel de informações. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> hora</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> vez</span></span> </p> </td> 
    <td> <p> Duração (em segundos) para mostrar ou ocultar a animação. </p> </td> 
   </tr> 
  </tbody> 

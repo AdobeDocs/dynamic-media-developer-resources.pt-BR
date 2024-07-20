@@ -74,13 +74,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Campos e subcampos incluídos na resposta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>Campos e subcampos excluídos da resposta. </p> </td> 
   </tr> 

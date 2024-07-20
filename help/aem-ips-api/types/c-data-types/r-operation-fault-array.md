@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Uma matriz de mensagens que respondem a um dos URLs fornecidos na solicitação de invalidação da CDN.
 
-**Compatível desde**
+**Com Suporte Desde**
 
 4.5.0, patch 2011-02
 

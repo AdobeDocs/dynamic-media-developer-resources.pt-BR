@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define as permissões de um único ativo usando um ativo de permissão.
 
-Por padrão, os ativos herdam as permissões da pasta principal. Depois de definir permissões em um ativo, ele não herda mais as permissões de seu pai, a menos que você chame `removeAssetPermissions`.
+Por padrão, o Assets herda as permissões da pasta principal. Depois que você define permissões em um ativo, ele não herda mais as permissões de seu pai, a menos que você chame `removeAssetPermissions`.
 
 ## Tipos de usuário autorizados {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -34,7 +34,7 @@ Por padrão, os ativos herdam as permissões da pasta principal. Depois de defin
 | assetHandle | `xsd:string` | Sim | Identificador de pasta. |
 | permissionArray | `types:PermissionsUpdateArray` | Sim | Matriz de permissões. |
 
-**Saída (setAssetPermissionsReturn)**
+**Saída (setAssetPermissonsReturn)**
 
 A API do IPS não retorna uma resposta para esta operação.
 

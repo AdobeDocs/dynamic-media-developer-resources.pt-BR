@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2168d72a-1f2b-4833-9e6e-ba3d2ddb6d2b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Resolução de impressão. Resolução de impressão para a imagem em tamanho real.
 
-Esse valor está incorporado no cabeçalho da imagem de resposta, a menos que seja substituído por `printRes=`.
+Este valor está inserido no cabeçalho da imagem de resposta, a menos que seja substituído por `printRes=`.
 
 ## Propriedades {#section-de3c1f73da7b43208beeec841c1778c1}
 

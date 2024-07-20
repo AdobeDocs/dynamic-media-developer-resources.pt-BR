@@ -37,7 +37,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
    <td colname="col3"> Identificador do campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valor</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valor de atualização de metadados. </td> 
   </tr> 
@@ -53,7 +53,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> Valor de metadados duplo (somente para campos do tipo flutuante). </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> <p>Adiciona à lista de valores de tag existente para o ativo. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Os campos de tag de valor único armazenam somente o último valor. </li> 
@@ -72,7 +72,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3">Substitui a lista de valores de tag existente para o ativo. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">Os campos de tag de valor único armazenam somente o último valor. </li> 
@@ -81,7 +81,7 @@ Define valores de metadados para um ativo específico usado com setAssetMetadata
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Exclui os valores especificados da lista de valores de tag do ativo, se presente. </td> 
   </tr> 
  </tbody> 

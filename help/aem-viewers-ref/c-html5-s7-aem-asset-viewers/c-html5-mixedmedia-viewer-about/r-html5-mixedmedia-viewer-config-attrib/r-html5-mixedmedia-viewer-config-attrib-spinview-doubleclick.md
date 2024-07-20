@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de clique duplo/toque para ações de rotação. Configuração para <span class="codeph"> nenhum </span> desativa a rotação de clique duplo/toque. Se definida como <span class="codeph"> zoom </span>, clicar na imagem gira em uma etapa de rotação; CTRL+Clique gira em uma etapa de rotação. Configuração para <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina a rotação para o nível inicial. Para <span class="codeph"> zoomReset </span>, reset é aplicada se o fator de rotação atual estiver no limite especificado ou além dele, caso contrário, a rotação é aplicada. </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de clique duplo/toque para ações de rotação. Configurar como <span class="codeph"> nenhum </span> desabilita a rotação de clique duplo/toque. Se definida como <span class="codeph"> zoom </span>, clicar na imagem gira em uma etapa de rotação; CTRL+Clique gira em uma etapa de rotação. Configurar como <span class="codeph"> redefinir </span> faz com que um único clique na imagem redefina a rotação para o nível inicial. Para <span class="codeph"> zoomReset </span>, a redefinição é aplicada se o fator de rotação atual estiver no limite especificado ou além dele, caso contrário, a rotação é aplicada. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Opcional.
 
 ## Padrão {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` Em computadores de secretária; `zoomReset` em dispositivos sensíveis ao toque.
+`reset` Em computadores desktop; `zoomReset` em dispositivos de toque.
 
 ## Exemplo {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

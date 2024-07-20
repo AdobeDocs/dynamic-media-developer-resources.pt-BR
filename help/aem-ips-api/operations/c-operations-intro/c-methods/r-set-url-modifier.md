@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Define os comandos do protocolo Servidor de imagens ou Renderização de imagens para o ativo especificado. Esses comandos modificam a representação do ativo sem destruí-lo.
 
-Para o Servidor de imagens, os comandos na `urlModifier` são publicados no campo Catálogo do modificador e aplicados antes de qualquer comando especificado no URL da solicitação. Comandos em `urlPostApplyModifier` são publicados na `PostModifier` catálogo e substituir quaisquer comandos no URL da solicitação ou no `urlModifier`. Para Renderização de imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenadas e publicadas no campo Modifier catalog.
+Para o Servidor de imagens, os comandos no parâmetro `urlModifier` são publicados no campo de catálogo Modificador e aplicados antes de qualquer comando especificado na URL da solicitação. Os comandos em `urlPostApplyModifier` são publicados no campo de catálogo `PostModifier` e substituem quaisquer comandos na URL de solicitação ou em `urlModifier`. Para Renderização de Imagem, os comandos em `urlModifier` e `urlPostApplyModifier` são concatenados e publicados no campo de catálogo Modificador.
 
 ## Tipos de usuário autorizados {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -36,7 +36,7 @@ Para o Servidor de imagens, os comandos na `urlModifier` são publicados no camp
 | companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
 | urlModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering a serem aplicados antes da solicitação ou `urlPostApplyModifier` comandos. |
-| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering a serem aplicados após `urlModifier` comandos e request. |
+| urlPostApplyModifier | `xsd:string` | Não | Comandos do protocolo Image Serving ou Image Rendering a serem aplicados após `urlModifier` e comandos request. |
 
 **Saída (setUrlModifierReturn)**
 

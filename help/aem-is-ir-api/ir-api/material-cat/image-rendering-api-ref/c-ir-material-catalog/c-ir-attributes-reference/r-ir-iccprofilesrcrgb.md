@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de material de RGB e vinhetas que não incorporam um perfil de cores. Também para valores de cor de RGB especificados com vários comandos de Renderização de imagem, como `bgc=` e `color=`.
+perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de material de RGB e vinhetas que não incorporam um perfil de cores. Também para valores de cor de RGB especificados com vários comandos de Renderização de Imagem, como `bgc=` e `color=`.
 
 ## Propriedades {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil RGB.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil RGB.
 
 ## Padrão {#section-0171cd6680284bfa9844b9cc3644ca61}
 
-Herdado de `default::IccProfileSrcRgb` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcRgb` não resolve um perfil válido, `attribute::IccProfileRgb` é usado em seu lugar.
+Herdado de `default::IccProfileSrcRgb` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcRgb` não for resolvido para um perfil válido, `attribute::IccProfileRgb` será usado.
 
 ## Consulte também {#section-1ba91666830f4c209c39260ea29f938e}
 

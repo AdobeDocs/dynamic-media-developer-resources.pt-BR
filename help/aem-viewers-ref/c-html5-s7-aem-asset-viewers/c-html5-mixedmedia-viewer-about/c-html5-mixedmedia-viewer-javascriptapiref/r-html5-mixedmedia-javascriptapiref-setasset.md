@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API JavaScript para o Visualizador de mix de mídia.
+description: Referência da API do JavaScript para o Visualizador de mídia mista.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de mix de mídia.
+Referência da API do JavaScript para o Visualizador de mídia mista.
 
 ` setAsset( *`ativo`*[,data]))`
 
-Define o novo ativo e os dados adicionais opcionais do ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
+Define o novo ativo e os dados adicionais opcionais do ativo. Você pode chamar este parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador trocará o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
@@ -45,7 +45,7 @@ Se não for especificado, o botão de legenda não ficará visível na interface
    <td colname="col2"> <p>Imagem a ser exibida no primeiro quadro antes do início da reprodução do vídeo. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> legenda </span> </p> </td> 
+   <td colname="col1"> <p> Legenda <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p> Local do novo arquivo de legenda. </p> <p>Se não for especificado, o botão de legenda não ficará visível na interface. As legendas especificadas com esse parâmetro se aplicam ao vídeo que aparece primeiro no conjunto de mídias. Os vídeos subsequentes são reproduzidos sem legendas. </p> </td> 
   </tr> 
  </tbody> 

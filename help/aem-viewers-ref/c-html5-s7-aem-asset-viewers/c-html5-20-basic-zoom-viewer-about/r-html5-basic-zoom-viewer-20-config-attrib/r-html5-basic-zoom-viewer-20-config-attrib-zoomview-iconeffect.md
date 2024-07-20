@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: faec00b3-b981-4831-bc97-dff442389133
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
-` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`
+` [ZoomView.|<containerId>_zoomView.]iconeffect=0|1[, *`contagem`*][, *`esmaecer`*][, *`autoHide`*]`
 
 <table id="table_6CAA904E976A41BD994D8926F46F0BAF"> 
  <tbody> 
@@ -23,7 +23,7 @@ ht-degree: 0%
    <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior da imagem quando ela estiver em um estado de redefinição e sugere uma ação disponível para interagir com a imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contagem</span> </span> </p> </td> 
    <td colname="col2"> <p> Especifica o número máximo de vezes que o IconEffect aparece e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone sempre reaparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
@@ -32,7 +32,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p>Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo após a conclusão da animação de fade-in, mas antes do início da animação de fade-out. Uma configuração de <span class="codeph"> 0</span> desativa o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p>Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo após a conclusão da animação de fade-in, mas antes do início da animação de fade-out. Uma configuração de <span class="codeph"> 0</span> desabilita o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

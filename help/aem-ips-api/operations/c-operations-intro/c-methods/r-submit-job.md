@@ -64,7 +64,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> localidade</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>A localidade usada para detalhes do log de trabalho e localização do email. </p> <p>As localidades são especificadas como <span class="codeph"> &lt;language_code&gt;</span> e <span class="codeph"> [&lt;country_code&gt;]</span>, em que o código de idioma é minúsculo, de duas letras, conforme especificado pela norma ISO-639, e o código opcional de país é maiúsculo, de duas letras, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres do local para inglês (Estados Unidos) seria: en-US. </p> </td> 
+   <td colname="col4"> <p>A localidade usada para detalhes do log de trabalho e localização do email. </p> <p>As localidades estão especificadas como <span class="codeph"> &lt;código_idioma&gt;</span> e <span class="codeph"> [&lt;código_país&gt;]</span>, onde o código de idioma é em minúsculas, código de duas letras, conforme especificado por ISO-639, e o código opcional de país é em maiúsculas, código de duas letras, conforme especificado por ISO-3166. Por exemplo, a sequência de caracteres do local para inglês (Estados Unidos) seria: en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
@@ -76,7 +76,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser um <span class="codeph"> cron</span> string que executa a tarefa de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação de IPS para obter o formato de agendamento personalizado. </p> </td> 
+   <td colname="col4"> <p>Determina quando executar a tarefa. </p> <p> Pode ser uma cadeia de caracteres <span class="codeph"> cron</span> que executa o trabalho de forma recorrente. </p> <p>O agendamento é sempre relativo ao fuso horário local do servidor. Consulte a documentação de IPS para obter o formato de agendamento personalizado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
@@ -106,7 +106,7 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:VideoPublishJob</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Detalhes de um trabalho de publicação de vídeo. </p> <p>Consulte <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> TrabalhoDePublicaçãoDeVídeo</a>. </p> </td> 
+   <td colname="col4"> <p>Detalhes de um trabalho de publicação de vídeo. </p> <p>Consulte <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
@@ -161,7 +161,7 @@ Sintaxe
 
 ## Exemplos {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Esta amostra de código envia um trabalho de publicação de servidor de imagens para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de trabalho na solicitação. Porque `userHandle` for omitida, as notificações por email serão enviadas ao usuário que enviou o trabalho. Esse trabalho de amostra é executado imediatamente porque `execTime` e `execSchedule` foram omitidos.
+Esta amostra de código envia um trabalho de publicação de servidor de imagens para o IPS e retorna um identificador de trabalho. Escolha apenas um tipo de trabalho na solicitação. Como `userHandle` foi omitido, notificações por email são enviadas ao usuário que enviou o trabalho. Este trabalho de exemplo é executado imediatamente porque `execTime` e `execSchedule` foram omitidos.
 
 **Solicitação**
 
@@ -186,7 +186,7 @@ Esta amostra de código envia um trabalho de publicação de servidor de imagens
 
 ## Notas {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-É possível especificar no máximo um dos `execTime` e `execSchedule`. Se nenhum for aprovado, o job será executado imediatamente. Você pode usar apenas um dos seguintes:
+Você pode especificar no máximo `execTime` e `execSchedule`. Se nenhum for aprovado, o job será executado imediatamente. Você pode usar apenas um dos seguintes:
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

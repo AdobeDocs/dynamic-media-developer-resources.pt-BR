@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ A posição e a altura da visualização Favoritos são gerenciadas pela visuali
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo da visualização Favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura selecionada recentemente pelo usuário. O atributo `state="default"` corresponde ao restante das miniaturas. E, o atributo `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura selecionada recentemente pelo usuário. O atributo `state="default"` corresponde ao restante das miniaturas. E o atributo `state="over"` é usado ao passar o mouse.
 
 Exemplo - Para configurar miniaturas com 75 x 75 pixels, tem uma borda padrão cinza-claro e uma borda selecionada cinza-escuro:
 
@@ -130,11 +130,11 @@ A aparência do rótulo da miniatura é controlada com o seguinte seletor de cla
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
  </tbody> 

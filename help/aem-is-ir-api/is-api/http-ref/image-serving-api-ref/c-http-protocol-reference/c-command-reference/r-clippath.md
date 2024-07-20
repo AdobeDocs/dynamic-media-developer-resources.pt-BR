@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminho do clipe de camada. Especifica um caminho de recorte para a camada atual.
 
-`clipPath= *`pathDefinition`*`
+`clipPath= *`definiçãoCaminho`*`
 
 `clipPathE= *`pathName`*&#42;[, *`pathName`*]`
 
@@ -31,27 +31,27 @@ Caminho do clipe de camada. Especifica um caminho de recorte para a camada atual
  </tr> 
 </table>
 
-Qualquer parte da camada que esteja fora da área definida por `clipPath=` são tornados transparentes.
+Qualquer parte da camada que esteja fora da área definida por `clipPath=` é renderizada transparente.
 
-`*`pathName`*` é o nome de um caminho incorporado na imagem de origem da camada. O caminho é transformado automaticamente para manter o alinhamento relativo com o conteúdo da imagem. Se mais de um `*`pathName`*` for especificada, o servidor recortará a imagem na interseção desses caminhos. Qualquer `*`pathName`*` não encontrado na imagem de origem é ignorado.
-
->[!NOTE]
->
->Somente cadeias de caracteres ASCII são suportadas para `*`pathName`*`.
-
-`*`pathDefinition`*` permite especificar dados de caminho explícitos em coordenadas de pixel da camada.
-
-Se `size=` for especificada e não for 0,0, a camada será pré-dimensionada. Nesse caso, as coordenadas do caminho são relativas ao canto superior esquerdo do retângulo da camada e a camada é posicionada com base em `origin=` ou seu padrão. Todas as regiões do caminho fora do retângulo de camada permanecem transparentes.
-
-Se `size=` não for especificada para uma camada de texto ou cor sólida, a camada será considerada autodimensionável com a extensão do caminho determinando seu tamanho. Se `origin=` não é especificado, o padrão é (0,0) do espaço de coordenadas do caminho. Esse processo de fluxo de trabalho permite que coordenadas de caminho sejam especificadas de acordo com a origem da camada 0.
+`*`pathName`*` é o nome de um caminho incorporado na imagem de origem da camada. O caminho é transformado automaticamente para manter o alinhamento relativo com o conteúdo da imagem. Se mais de um `*`pathName`*` for especificado, o servidor recortará a imagem na interseção desses caminhos. Qualquer `*`pathName`*` não encontrado na imagem de origem será ignorado.
 
 >[!NOTE]
 >
->`scale=`, `rotate=`, e `anchor=` não são permitidos comandos para autodimensionar camadas de cores sólidas.
+>Há suporte somente para cadeias de caracteres ASCII para `*`pathName`*`.
 
-`*`pathDefinition`*` aceita uma string semelhante ao valor de `d=` atributo do SVG `<path>` elemento, exceto que são usadas vírgulas em vez de espaços para separar valores. `*`pathDefinition`*` pode incluir um ou mais subcaminhos de ciclo fechado.
+`*`pathDefinition`*` permite especificar dados de caminho explícitos em coordenadas de pixel de camada.
 
-Os seguintes comandos de caminho são compatíveis com o `*`pathDefinition`*`:
+Se `size=` for especificado e não 0,0, a camada será pré-dimensionada. Nesse caso, as coordenadas do caminho são relativas ao canto superior esquerdo do retângulo da camada e a camada é posicionada com base em `origin=` ou em seu padrão. Todas as regiões do caminho fora do retângulo de camada permanecem transparentes.
+
+Se `size=` não for especificado para uma camada de texto ou cor sólida, a camada será considerada autodimensionável com a extensão do caminho determinando seu tamanho. Se `origin=` não for especificado, o padrão será (0,0) do espaço de coordenadas do caminho. Esse processo de fluxo de trabalho permite que coordenadas de caminho sejam especificadas de acordo com a origem da camada 0.
+
+>[!NOTE]
+>
+>Os comandos `scale=`, `rotate=` e `anchor=` não são permitidos para camadas de cores sólidas de autodimensionamento.
+
+`*`pathDefinition`*` aceita uma cadeia de caracteres semelhante ao valor do atributo `d=` do elemento SVG `<path>`, exceto que são usadas vírgulas em vez de espaços para separar valores. `*`pathDefinition`*` pode incluir um ou mais subcaminhos de ciclo fechado.
+
+Os seguintes comandos de caminho têm suporte em `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
@@ -63,12 +63,12 @@ Os seguintes comandos de caminho são compatíveis com o `*`pathDefinition`*`:
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> M</b> <span class="varname"> x, y</span> </td> 
    <td> <p> mover para absoluto </p> </td> 
    <td> <p> Iniciar um novo subcaminho em x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
+   <td> <b> m</b> <span class="varname"> x, y</span> </td> 
    <td> <p> mover para relativo </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -109,7 +109,7 @@ Se um subcaminho começar com um moveto relativo (&#39;m&#39;), ele será relati
 
 ## Propriedades {#section-d4127db0dac54e3cbd44f7ea1e001960}
 
-Atributo de camada. Se aplica à camada atual ou à imagem composta `layer=comp`. As camadas de efeito o ignoram.
+Atributo de camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. As camadas de efeito o ignoram.
 
 O modificador `clipPathE=` será ignorado se nenhum caminho com o nome especificado for encontrado na imagem de origem da camada, ou se a origem da camada não for uma imagem.
 
@@ -119,4 +119,4 @@ Nenhum, para nenhum recorte adicional da camada.
 
 ## Consulte também {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [estender=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

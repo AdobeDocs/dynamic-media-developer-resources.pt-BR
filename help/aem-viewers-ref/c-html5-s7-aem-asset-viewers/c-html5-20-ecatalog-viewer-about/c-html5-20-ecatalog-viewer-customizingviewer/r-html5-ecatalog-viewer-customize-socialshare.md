@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 .s7ecatalogviewer .s7socialshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS da ferramenta de compartilhamento social**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -68,7 +68,7 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 
@@ -107,12 +107,12 @@ A aparência do painel que contém os ícones individuais de compartilhamento em
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriedades CSS do painel compartilhamento em redes sociais**
+**Propriedades CSS do painel de compartilhamento social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 

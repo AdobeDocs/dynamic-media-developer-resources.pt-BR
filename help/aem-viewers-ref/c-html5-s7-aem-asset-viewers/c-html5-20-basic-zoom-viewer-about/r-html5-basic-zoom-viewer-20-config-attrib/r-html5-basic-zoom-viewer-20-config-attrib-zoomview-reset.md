@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 054cd090-2167-4903-ba19-52bc8606370c
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 2%
+source-wordcount: '42'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Redefine a porta de visualização quando o quadro (imagem) muda. Se definida como <span class="varname"> 0</span>, preserva a porta de visualização atual com o melhor ajuste possível, preservando a proporção da imagem definida recentemente. </p> </td> 
+   <td colname="col2"> <p> Redefine a porta de visualização quando o quadro (imagem) muda. Se definida como <span class="varname"> 0</span>, ela preserva a porta de exibição atual com o melhor ajuste possível, preservando a proporção da imagem definida recentemente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

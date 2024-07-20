@@ -26,6 +26,6 @@ Sintaxe
 | originalFile | `xsd:string` | Nome do arquivo. |
 | fileSize | `xsd:int` | Tamanho do arquivo. |
 | imagePath | `xsd:string` | Caminho para a imagem. |
-| imageFile | `xsd:string` |  |
+| imageFile | `xsd:string` | |
 | otimizedPath | `xsd:string` | Caminho otimizado para o arquivo. |
 | otimizedFile | `xsd:string` | Nome de arquivo otimizado. |

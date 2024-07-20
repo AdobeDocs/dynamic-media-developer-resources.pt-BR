@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Esses comandos se aplicam a camadas de imagem, texto e cores sólidas. Eles tamb
   <td class="stentry"> <p>Aplica a máscara sem nitidez. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> girar</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> virar</a> </p></td> 
   <td class="stentry"> <p>Inverte a camada na horizontal e/ou na vertical. </p></td> 
  </tr> 
  <tr class="strow"> 

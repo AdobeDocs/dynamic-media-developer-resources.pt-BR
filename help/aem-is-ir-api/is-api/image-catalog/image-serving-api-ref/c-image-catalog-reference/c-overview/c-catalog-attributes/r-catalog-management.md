@@ -26,7 +26,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de gerenciamento
   <td class="stentry"> <p>Nomes dos arquivos de dados de SVG associados. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> ArquivoCatálogoDeConteúdoEstático</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentcatalogfile.md#reference-1d5505d9d1b74fe5ba63fbdf7893eb0d" type="reference" format="dita" scope="local"> StaticContentCatalogFile</a> </span> </p></td> 
   <td class="stentry"> <p>Nomes dos arquivos de dados de conteúdo estático associados. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de gerenciamento
   <td class="stentry"> <p>Caminho raiz das imagens gravadas em um arquivo no servidor. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> CorrespondênciaCompleta</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch</a> </span> </p></td> 
   <td class="stentry"> <p>Opção de correspondência de catálogo. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -74,7 +74,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de gerenciamento
   <td class="stentry"> <p>String de anotação do catálogo. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> PolíticaDeValidaçãoDeCache</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md#reference-e55e52fd749041718a9af69fa2027b57" type="reference" format="dita" scope="local"> CacheValidationPolicy</a> </span> </p></td> 
   <td class="stentry"> <p>Política de validação de cache do servidor. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -82,7 +82,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de gerenciamento
   <td class="stentry"> <p>Habilitar cabeçalhos de resposta HTTP de Última Modificação. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SintetizarEstilosDeFonte</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
   <td class="stentry"> <p>Ativar estilos sintéticos em negrito/itálico. </p></td> 
  </tr> 
 </table>

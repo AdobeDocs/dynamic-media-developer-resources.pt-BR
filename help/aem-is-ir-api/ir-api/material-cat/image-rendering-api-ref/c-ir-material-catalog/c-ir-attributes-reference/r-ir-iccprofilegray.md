@@ -18,7 +18,7 @@ Espaço de cor padrão em tons de cinza. Especifica o nome do perfil de cores IC
 
 ## Propriedades {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfil ICC deste catálogo de materiais ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de materiais ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
 
 ## Padrão {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 

@@ -20,13 +20,13 @@ O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics
 
 O Visualizador de rotação é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
+Para habilitar o rastreamento, passe o nome de predefinição da empresa correto como o parâmetro `config2`.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -65,15 +65,15 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando o <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
    <td colname="col2"> <p> uma imagem é ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PANORÂMICA </span> </p> </td> 
    <td colname="col2"> <p>uma imagem é exibida em modo panorâmico. </p> </td> 
   </tr> 
   <tr> 

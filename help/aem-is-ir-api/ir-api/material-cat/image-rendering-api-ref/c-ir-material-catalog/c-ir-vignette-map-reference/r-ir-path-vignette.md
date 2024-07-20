@@ -20,7 +20,7 @@ O servidor combina esse valor com `attribute::RootPath` para criar o caminho rea
 
 ## Propriedades {#section-b3b295feac084b56bd8a153c04987153}
 
-String de texto. Opcional. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Se estiver vazio, `vignette::Modifier` deve incluir o `vignette=` comando.
+String de texto. Opcional. Se especificado, deve ser um caminho de arquivo relativo ou absoluto válido. Se estiver vazio, `vignette::Modifier` deve incluir o comando `vignette=`.
 
 ## Padrão {#section-a1d2133856084eb79a5be8230a4b38fd}
 

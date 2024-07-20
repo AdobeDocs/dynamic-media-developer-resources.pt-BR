@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Os comandos a seguir compõem a API de processamento em lote exposta pelo PlatformServer.
 
-Elas são especificadas no formato de solicitação especial como: `?req=<command>`
+Eles são especificados no formato de solicitação especial como: `?req=<command>`
 
-Os exemplos mostrados para esses comandos usam um código `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot; e uma empresa fictícia chamada AcmeCorp. A ID do trabalho também é fictícia.
+Os exemplos mostrados para esses comandos usam uma URL fictícia `PlatformServer` &quot; [!DNL scene7.adobe.com:8080]&quot; e uma empresa fictícia chamada AcmeCorp. A ID do trabalho também é fictícia.
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)

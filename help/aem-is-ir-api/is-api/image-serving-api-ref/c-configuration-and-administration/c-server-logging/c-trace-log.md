@@ -1,5 +1,5 @@
 ---
-description: A variável [!DNL Platform Server] grava registros neste arquivo de log para registrar avisos e erros, manter um registro de eventos de inicialização, desligamento e carregamento de catálogo.
+description: O  [!DNL Platform Server] grava registros neste arquivo de log para registrar avisos e erros, manter um registro de eventos de inicialização, desligamento e carregamento de catálogo.
 solution: Experience Manager
 title: Log de rastreamento
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Log de rastreamento{#trace-log}
 
-A variável [!DNL Platform Server] grava registros neste arquivo de log para registrar avisos e erros, manter um registro de eventos de inicialização, desligamento e carregamento de catálogo.
+O [!DNL Platform Server] grava registros neste arquivo de log para registrar avisos e erros, manter um registro de eventos de inicialização, desligamento e carregamento de catálogo.

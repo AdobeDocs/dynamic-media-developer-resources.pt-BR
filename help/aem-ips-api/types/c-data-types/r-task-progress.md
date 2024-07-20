@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progresso</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:duplo</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> % de progresso (intervalo de 0,0 a 1,0). </td> 
   </tr> 
   <tr> 
@@ -74,12 +74,12 @@ Sintaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Os valores incluem: 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconhecido</span>: quando o monitor de tarefas faz a transição entre estados. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Desconhecido</span>: quando o monitor de tarefa faz a transição entre estados. </li>
      <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Novo</span>: o monitor de tarefa foi criado, mas ainda não aceitou tarefas. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Processando</span>: o monitor da tarefa está processando tarefas ativamente. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Parando</span>: o monitor da tarefa está interrompendo um trabalho devido a uma solicitação de interrupção de trabalho. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Processando</span>: o monitor de tarefa está processando tarefas ativamente. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Parando</span>: o monitor de tarefa está parando um trabalho devido a uma solicitação de parada de trabalho. </li>
      <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Concluído</span>: os trabalhos atribuídos aos trabalhos do monitor de tarefas foram concluídos. </li>
-     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Failed</span>: indica um erro fatal. </li>
+     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Com falha</span>: indica um erro fatal. </li>
     </ul></td> 
   </tr> 
  </tbody> 

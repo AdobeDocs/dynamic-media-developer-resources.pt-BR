@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 75ee2c74-21c4-41b6-9d0f-15aa8432f177
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Atributo de configuração para o Visualizador de vídeo interativo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`value`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]initialbitrate= *`valor`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Define a taxa de bits de vídeo (em quilobits por segundo ou kbps) usada para a reprodução inicial de vídeo em um desktop. </p> <p>Se esse valor de taxa de bits não existir no Conjunto de vídeos adaptados, o reprodutor de vídeo começará com o vídeo que tiver a taxa de bits mais baixa. </p> <p>Se definida como <span class="codeph"> 0</span>, o reprodutor de vídeo começa com a taxa de bits mais baixa possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HTML5 HLS (como Firefox, Chrome e navegadores Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como automático. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valor</span> </p> </td> 
+   <td colname="col2"> <p> Define a taxa de bits de vídeo (em quilobits por segundo ou kbps) usada para a reprodução inicial de vídeo em um desktop. </p> <p>Se esse valor de taxa de bits não existir no Conjunto de vídeos adaptados, o reprodutor de vídeo começará com o vídeo que tiver a taxa de bits mais baixa. </p> <p>Se definido como <span class="codeph"> 0</span>, o reprodutor de vídeo começará a partir da taxa de bits mais baixa possível. </p> <p>Aplicável apenas para sistemas que não têm suporte nativo para vídeo HTML5 HLS (como Firefox, Chrome e navegadores Internet Explorer 11 no Windows 10) e quando o modo de reprodução é definido como automático. </p> </td> 
   </tr> 
  </tbody> 
 </table>

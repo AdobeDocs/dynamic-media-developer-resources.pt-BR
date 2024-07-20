@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contém configurações relacionadas ao gerenciamento de catálogos de imagens.
 
-Este arquivo é um arquivo de propriedades JAVA. deve ter-se o cuidado de seguir as convenções adequadas; caso contrário, a [!DNL Platform Server] pode falhar ao iniciar. Use uma barra invertida dupla &#39;\\&#39; ou uma barra invertida simples &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows. A barra invertida é usada como um caractere de escape neste tipo de arquivo.
+Este arquivo é um arquivo de propriedades JAVA. Tenha cuidado ao seguir as convenções apropriadas; caso contrário, [!DNL Platform Server] pode falhar ao iniciar. Use uma barra invertida dupla &#39;\\&#39; ou uma barra invertida simples &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows. A barra invertida é usada como um caractere de escape neste tipo de arquivo.
 
 As alterações feitas nesse arquivo entrarão em vigor logo após serem salvas.
 

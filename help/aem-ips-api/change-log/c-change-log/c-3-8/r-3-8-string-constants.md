@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sintaxe
 
 * Valores: `Rectangle` e `Polygon`.
 
-**Publicar estado**
+**Estado do Publish**
 
 * Usado por: `searchAssetsParam/publishState` e `setAssetPublishStateParam/publishState`.
 

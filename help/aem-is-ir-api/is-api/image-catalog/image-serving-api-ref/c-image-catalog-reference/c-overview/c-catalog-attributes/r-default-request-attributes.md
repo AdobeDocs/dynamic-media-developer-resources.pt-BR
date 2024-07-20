@@ -19,15 +19,15 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de solicitação
 <table id="table_129CE5F9711F44D2A90ADADF5EDC3BE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md#reference-1b96c71a253049ddaeae09892d3484a0" format="dita" scope="local"> DefaultExt</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md#reference-1b96c71a253049ddaeae09892d3484a0" format="dita" scope="local">ExtençãodePadrão</a></span> </p> </td> 
    <td colname="col2"> <p> Sufixo do arquivo de imagem padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local">FontePadrão</a></span> </p> </td> 
    <td colname="col2"> <p> Nome da face da fonte padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> ImagemPadrão</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local">ImagemPadrão</a></span> </p> </td> 
    <td colname="col2"> <p> Imagem de resposta padrão. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de solicitação
    <td colname="col2"> <p> Modo de reamostragem padrão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> LocalidadePadrão</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> LocalPadrão</a></span> </p> </td> 
    <td colname="col2"> <p> ID da localidade padrão. </p> </td> 
   </tr> 
  </tbody> 

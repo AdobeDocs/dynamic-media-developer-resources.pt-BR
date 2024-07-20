@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Metadados do XMP. Retorna os metadados de XMP associados à imagem especificada 
 
 `req=xmp`
 
-Outros comandos são ignorados. A codificação UTF-8 se aplica. A resposta é formatada como XML com tipo MIME `text/xml`.
+Outros comandos são ignorados. A codificação UTF-8 se aplica. A resposta está formatada como XML com o tipo MIME `text/xml`.
 
 A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::Expiration`.
 
@@ -42,13 +42,13 @@ Caso contrário, `req=img`
 
 Propriedades do arquivo de imagem de consulta.
 
-` http:// *`server`*/myPath/myImage.tif?req=imageprops`
+` http:// *`servidor`*/myPath/myImage.tif?req=imageprops`
 
 Propriedades do catálogo de imagens de consulta:
 
-` http:// *`server`*/myRootId?req=catalogprops`
+` http:// *`servidor`*/myRootId?req=catalogprops`
 
-Acesse as propriedades de uma entrada de catálogo de imagem do JavaScript do lado do cliente incorporado em um arquivo HTML:
+Acesse as propriedades de uma entrada de catálogo de imagens do JavaScript do lado do cliente incorporado em um arquivo HTML:
 
 ```
 <script language="JavaScript"> 
@@ -63,24 +63,24 @@ Acesse as propriedades de uma entrada de catálogo de imagem do JavaScript do la
 
 Recupere a imagem da máscara de uma entrada de catálogo específica, dimensionada para 25% do tamanho original:
 
-` http:// *`server`*/myRootId/myImageId?req=mask&scale=0.25`
+` http:// *`servidor`*/myRootId/myImageId?req=mask&scale=0.25`
 
 Solicitar uma imagem no tamanho de um oitavo:
 
-` http:// *`server`*/myRootId/myImageId?scl=8`
+` http:// *`servidor`*/myRootId/myImageId?scl=8`
 
 É o mesmo que:
 
-` http:// *`server`*/myRootId/myImageId?req=img&scl=8`
+` http:// *`servidor`*/myRootId/myImageId?req=img&scl=8`
 
 Solicite uma miniatura de uma imagem, dependendo dos atributos de miniatura especificados no catálogo de imagens:
 
-` http:// *`server`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
+` http:// *`servidor`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
 Enviar uma mensagem de texto para os logs do servidor:
 
-` http:// *`server`*/myRootId?req=message&message=This%20is%20the%20message`
+` http:// *`servidor`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## Consulte também {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catálogo::Públicos-alvo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catálogo::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Dimensionamento de miniatura](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Mapas de imagem](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catálogo::Destinos](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catálogo::Dados do Usuário](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Escala de Miniaturas](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Mapas de Imagens](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

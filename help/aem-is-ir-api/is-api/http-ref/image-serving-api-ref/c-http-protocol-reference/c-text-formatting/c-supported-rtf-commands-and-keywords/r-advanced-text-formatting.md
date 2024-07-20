@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fd0e94dc-34ce-4fc1-8d52-f8647c8312b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Use os seguintes comandos para formatação avançada de texto.
   <tr> 
    <td> <span class="codeph"> \kerningóptico </span> </td> 
    <td> <p>Selecione kerning óptico. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> somente. </p> </td> 
+   <td> <p> <span class="codeph"> somente textPs= </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \kerningmetric </span> </td> 
@@ -68,7 +68,7 @@ Use os seguintes comandos para formatação avançada de texto.
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>Escala de caracteres vertical. </p> </td> 
-   <td> <p>Porcentagem positiva ou negativa; o padrão é 100; extensão do Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> também dimensiona o espaçamento entre linhas quando aplicado com <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> O sempre preserva o espaçamento entre linhas independentemente da quantidade de dimensionamento de caracteres verticais. </p> </td> 
+   <td> <p>Porcentagem positiva ou negativa; o padrão é 100; extensão do Dynamic Media. </p> <p> <span class="codeph"> \charscaley </span> também dimensiona o espaçamento entre linhas quando aplicado com <span class="codeph"> text= </span>. <span class="codeph"> textPs= </span> sempre preserva o espaçamento entre linhas independentemente da quantidade de dimensionamento de caracteres verticais. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -78,12 +78,12 @@ Use os seguintes comandos para formatação avançada de texto.
   <tr> 
    <td> <span class="codeph"> \rtlch </span> </td> 
    <td> <p>Selecione fluxo de caracteres da direita para a esquerda. </p> </td> 
-   <td> <p> <span class="codeph"> text= </span> somente. </p> </td> 
+   <td> <p> <span class="codeph"> texto= somente </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \copyfit <span class="varname"> N </span> </span> </td> 
+   <td> <span class="codeph"> \ajuste de texto <span class="varname"> N </span> </span> </td> 
    <td> <p>Habilita o ajuste de cópia e define o maior tamanho de fonte permitido. </p> </td> 
-   <td> <p>Tamanho da fonte em pontos médios; <span class="codeph"> textPs= </span> somente; extensão do Dynamic Media. </p> </td> 
+   <td> <p>Tamanho da fonte em meio pontos; somente <span class="codeph"> textPs= </span>; extensão do Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
@@ -93,12 +93,12 @@ Use os seguintes comandos para formatação avançada de texto.
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 
    <td> <p>Máximo de linhas de ajuste de cópia (truncamento). </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> somente; extensão do Dynamic Media. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= somente </span>; extensão do Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \baselinedir <span class="varname"> N </span> </span> </td> 
+   <td> <span class="codeph"> \linedir <span class="varname"> N </span> </span> </td> 
    <td> <p>Orientação do caractere. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> somente; ignorado para fontes não- romanas; ignorado quando <span class="codeph"> \stextflow1 </span> não está em vigor. </p> <p>0 vertical (padrão). </p> <p>1 girado 90 graus no sentido horário. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= somente </span>; ignorado para fontes não romanas; ignorado quando <span class="codeph"> \stextflow1 </span> não está em vigor. </p> <p>0 vertical (padrão). </p> <p>1 girado 90 graus no sentido horário. </p> </td> 
   </tr> 
  </tbody> 
 </table>

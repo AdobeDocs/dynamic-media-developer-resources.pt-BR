@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -53,22 +53,22 @@ Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Voc�
    <td colname="col3"> Processe a tarefa. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nome exclusivo do trabalho. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nome original do <span class="codeph"> AtiveJob</span> tipo enviado com o job. </td> 
+   <td colname="col3">Nome original do tipo <span class="codeph"> AtiveJob</span> enviado com o trabalho. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tipo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Escolha dos tipos de job retornados pelo sistema. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> estado</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Escolha de estados de trabalho ativos retornados pelo sistema. </td> 
   </tr> 
@@ -80,7 +80,7 @@ Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Voc�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> localidade</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">A localidade para detalhes do log de trabalho e localização do email. <p>Especificar localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, em que o código de idioma é um código de duas letras em minúsculas, conforme especificado pela norma ISO-639, e o código opcional de país é um código de duas letras em maiúsculas, conforme especificado pela norma ISO-3166. Por exemplo, a sequência de caracteres do local para inglês (Estados Unidos) seria: <span class="codeph"> pt-BR</span>. </p></td> 
+   <td colname="col3">A localidade para detalhes do log de trabalho e localização do email. <p>Especifique as localidades como <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, onde o código do idioma é minúsculo, de duas letras, conforme especificado por ISO-639, e o código opcional do país é maiúsculo, de duas letras, conforme especificado por ISO-3166. Por exemplo, a cadeia de caracteres de localidade para inglês (Estados Unidos) seria: <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> descrição</span> </span> </td> 
@@ -98,7 +98,7 @@ Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Voc�
    <td colname="col3"> Data, hora e fuso horário do trabalho ativo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tamanho total</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Tamanho total do trabalho ativo. </td> 
   </tr> 
@@ -170,7 +170,7 @@ Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Voc�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportar tarefa</a>. </td> 
+   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Trabalho de Exportação</a>. </td> 
   </tr> 
  </tbody> 
 </table>

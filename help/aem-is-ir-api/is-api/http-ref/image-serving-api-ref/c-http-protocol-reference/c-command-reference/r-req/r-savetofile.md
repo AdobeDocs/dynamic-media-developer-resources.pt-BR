@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Quando a solicitação de salvamento é concluída com sucesso, a solicitação 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> lastUpdated</span> </p> </td> 
+   <td> <p> <span class="codeph">lastUpdated</span> </p> </td> 
    <td> <p> inteiro </p> </td> 
    <td> <p>Hora de criação do arquivo (número de milissegundos desde a meia-noite, 1º de janeiro de 1970 UTC/GMT ). </p> </td> 
   </tr> 
@@ -55,14 +55,14 @@ Quando a solicitação de salvamento é concluída com sucesso, a solicitação 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> concluído</span> se for bem-sucedido. </p> </td> 
+   <td> <p> <span class="codeph"> concluído</span> com êxito. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Retorna o status de resposta HTTP 200 para êxito e 403 para falha ou tempo limite da solicitação. A resposta tem tipo MIME `text/plain` e não é armazenável em cache.
+Retorna o status de resposta HTTP 200 para êxito e 403 para falha ou tempo limite da solicitação. A resposta tem o tipo MIME `text/plain` e não pode ser armazenada em cache.
 
-Importante Salvar em arquivos deve ser ativado especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se `attribute::SavePath` está vazio.
+Importante Salvar em arquivos deve ser habilitado especificando o caminho para uma pasta gravável existente em `attribute::SavePath`. `saveToFile=` falha se `attribute::SavePath` estiver vazio.
 
 *`file`* é obrigatório e deve ser um caminho relativo combinado com `attribute::SavePath`. O Servidor de imagens não cria pastas. A pasta de destino deve existir no servidor e ter as configurações de permissão apropriadas para que o Servidor de imagens crie arquivos.
 

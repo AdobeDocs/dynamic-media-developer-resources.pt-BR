@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snap-in</span> </span> </p> </td> 
    <td> <p>Faz com que os botões sejam alinhados ao lado das amostras. </p> </td> 
   </tr> 
   <tr> 

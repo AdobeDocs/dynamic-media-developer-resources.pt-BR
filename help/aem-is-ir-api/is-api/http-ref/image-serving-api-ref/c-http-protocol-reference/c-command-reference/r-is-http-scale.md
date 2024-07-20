@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Dimensionar imagem. Dimensiona uma imagem de origem de camada por fator em rela�
  </tr> 
 </table>
 
-Nenhum dimensionamento é aplicado quando `scale=1`. *`factor`* menor que 1,0 diminui a escala e maior que 1,0 aumenta a imagem de origem.
+Nenhum dimensionamento é aplicado quando `scale=1`. *`factor`* menor que 1.0 diminui a escala e maior que 1.0 aumenta a imagem de origem.
 
 ## Propriedades {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
-Atributo de imagem/máscara de origem. Ignorado se `size=` também é especificada para a camada atual. Substituições `res=`. Aplica-se à camada 0, se especificada para `layer=comp`. Ignorado se a camada não estiver associada a uma imagem ou máscara.
+Atributo de imagem/máscara do Source. Ignorado se `size=` também for especificado para a camada atual. Substitui `res=`. Aplica-se à camada 0 se especificada para `layer=comp`. Ignorado se a camada não estiver associada a uma imagem ou máscara.
 
 ## Padrão {#section-26e64904362342a5a62c5f6598f330c4}
 
-Se não especificado, `res=` é usada. Se `res=` não for especificado, a imagem será usada sem dimensionamento.
+Se não especificado, `res=` é usado. Se `res=` não for especificado, a imagem será usada sem dimensionamento.
 
 ## Consulte também {#section-61a11f30d37341d58c10df759bfff951}
 

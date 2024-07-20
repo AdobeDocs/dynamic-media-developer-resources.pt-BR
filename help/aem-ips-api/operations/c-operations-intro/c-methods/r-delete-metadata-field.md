@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Essa amostra de código exclui o campo de metadados de uma empresa. Ele usa o identificador da empresa e o identificador de metadados como campos na `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar esta ação.
+Essa amostra de código exclui o campo de metadados de uma empresa. Ele usa o identificador da empresa e o identificador de metadados como campos no `deleteMetadataFieldParam` passado para o servidor de serviços Web IPS para executar esta ação.
 
 **Solicitação**
 

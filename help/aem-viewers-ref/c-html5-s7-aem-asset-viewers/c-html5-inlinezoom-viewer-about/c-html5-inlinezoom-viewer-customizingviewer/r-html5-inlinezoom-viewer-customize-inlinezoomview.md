@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da visualização principal é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, o tamanho, a aparência e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Substituição por CSS usando `left` ou `right` não há suporte para propriedades.
+É possível configurar o estilo da fonte, o tamanho, a aparência e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para a substituição por CSS usando as propriedades `left` ou `right`.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -68,7 +68,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Deslocamento da parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
@@ -76,11 +76,11 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
    <td colname="col2"> <p>Cor do texto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Nome da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -88,16 +88,16 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
    <td colname="col2"> <p>Preenchimento ao redor do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda do fundo do texto da mensagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacidade </span> </p> </td> 
-   <td colname="col2"> <p>Opacidade do plano de fundo do texto da mensagem. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filtro:alfa(opacidade-...) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacidade do plano de fundo do texto da mensagem. </p> <p>Para o Internet Explorer 8, use <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

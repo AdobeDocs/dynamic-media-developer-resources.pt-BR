@@ -18,12 +18,12 @@ Defina qualquer atributo para um determinado s7:elementID.
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-Se um elemento de nó FXG tiver uma `s7:elementID` definido, é possível manipular os atributos desse nó. Você pode definir quantos pares de atributo/valor desejar. Os atributos não precisam estar já definidos no FXG, mas devem ser válidos para o elemento de nó. Todos os valores entre `{}` deve ser Escaped.
+Se um elemento de nó FXG tiver um `s7:elementID` definido, você poderá manipular os atributos desse nó. Você pode definir quantos pares de atributo/valor desejar. Os atributos não precisam estar já definidos no FXG, mas devem ser válidos para o elemento de nó. Todos os valores entre `{}` devem ser Escaped.
 
 ## Exemplo {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-Assuma um `s7:elementID="Group1"` o atributo é definido para um `BitmapGraphic` , o seguinte será válido:
+Suponha que um atributo `s7:elementID="Group1"` esteja definido para um nó `BitmapGraphic`, então o seguinte é válido:
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-Este exemplo define o *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]*, e *[!DNL scaleY]* para o `BitmapGraphic` e substitui quaisquer valores existentes.
+Este exemplo define *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]* e *[!DNL scaleY]* para `BitmapGraphic` e substitui quaisquer valores existentes.

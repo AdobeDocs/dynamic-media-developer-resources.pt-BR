@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Direcionamento para uma ação de clique no navegador.
 
-Sempre associado a uma imagem. Você pode obter um `ImageMap` direcionar de `ImageInfo`.
+Sempre associado a uma imagem. Você pode obter um público alvo de `ImageMap` de `ImageInfo`.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -24,9 +24,9 @@ Sempre associado a uma imagem. Você pode obter um `ImageMap` direcionar de `Ima
 |---|---|---|
 | imageMapHandle | `xsd:string` | Identificador do mapa de imagem. |
 | [!DNL name] | `xsd:string` | Nome do mapa de imagem. |
-| [!DNL region] | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado no HTML `<area>` atributo da tag. |
-| [!DNL action] | `xsd:string` | Outros atributos a serem incluídos no HTML `<area>` tag, incluindo a `href` URL. |
-| shapeType | `xsd:boolean` | A [!DNL RegionShape] valor. |
-| [!DNL position] | `xsd:string` | Posição no formato do HTML `<area>` do elemento [!DNL coords] atributo. Por exemplo: `coords ="0,0,84,128"`. |
+| [!DNL region] | `xsd:string` | Coordenadas do mapa de imagem. O formato é baseado no atributo de tag HTML `<area>`. |
+| [!DNL action] | `xsd:string` | Outros atributos a serem incluídos na tag HTML `<area>`, incluindo a URL `href`. |
+| shapeType | `xsd:boolean` | Um valor [!DNL RegionShape]. |
+| [!DNL position] | `xsd:string` | Posição no formato do atributo [!DNL coords] do elemento HTML `<area>`. Por exemplo: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True se o mapa de imagem estiver habilitado. |
 | lastModified | `xsd:dateTime` | Data e hora da última modificação do mapa de imagem. |

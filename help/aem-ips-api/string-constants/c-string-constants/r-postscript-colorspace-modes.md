@@ -1,7 +1,7 @@
 ---
 description: Usado por PostScriptOptions/colorspace.
 solution: Experience Manager
-title: Modos PostScript Colorspace
+title: Modos do PostScript Colorspace
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Modos PostScript Colorspace{#postscript-colorspace-modes}
+# Modos do PostScript Colorspace{#postscript-colorspace-modes}
 
 Usado por PostScriptOptions/colorspace.
 

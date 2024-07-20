@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminhos do arquivo de dados de imagem. Especifica os arquivos que contêm os dados de imagem para este catálogo.
 
-Os arquivos de dados de imagem são carregados na ordem especificada. Se o mesmo `catalog::Id` ocorrer em mais de um registro (no mesmo ou em diferentes arquivos de catálogo), a última instância prevalecerá.
+Os arquivos de dados de imagem são carregados na ordem especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (no mesmo ou em arquivos de catálogo diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-6da55f145ecd4e31a5de52637a436983}
 

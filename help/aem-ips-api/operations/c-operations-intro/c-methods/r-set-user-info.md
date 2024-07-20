@@ -35,7 +35,7 @@ Sintaxe
 | firstName | `xsd:string` | Sim | Nome. |
 | lastName | `xsd:string` | Sim | Sobrenome. |
 | email | `xsd:string` | Sim | Email do usuário. |
-| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que `IpsAdmin` a função substitui outras configurações por empresa. |
+| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. No entanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
 | passwordExpires | `xsd:dateTime` | Não | Defina a data de expiração da senha do. |
 | isValid | `xsd:boolean` | Sim | Determina se o usuário é um usuário de IPS válido. |
 | memberArray | `types:CompanyMembershipUpdateArray` | Sim | Uma matriz de manipuladores de empresa. |

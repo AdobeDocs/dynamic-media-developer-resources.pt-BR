@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Nome da macro de comando.
 
-`&$ *`name`*$`
+`&$ *`nome`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nome</span></span> </p> </td> 
   <td class="stentry"> <p>Nome da macro. </p></td> 
  </tr> 
 </table>

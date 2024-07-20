@@ -18,7 +18,7 @@ Compensação de Blackpoint. Especifica se a compensação de pontos negros deve
 
 ## Propriedades {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Sinalizador. Defina como `0` para desativar ou para `1` para ativar a compensação de pontos negros.
+Sinalizador. Defina como `0` para desabilitar ou como `1` para habilitar a compensação de ponto de bloqueio.
 
 ## Padrão {#section-5bc6703a43a149f18af88b70baae568f}
 

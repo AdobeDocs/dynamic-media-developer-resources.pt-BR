@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b892fe86-1b7c-4a49-a1cd-473f51d04d10
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ Este tópico descreve a sintaxe de uso do vntc.
 
 Obrigatório.
 
-*[!DNL destFile]* é o caminho e o nome do arquivo de vinheta de saída. Se não for especificado, o arquivo de saída será colocado na pasta especificada com `-destpath`. Nesse cenário, o nome do arquivo é gerado automaticamente a partir do nome do arquivo de entrada e de um sufixo de tamanho, separado pela cadeia de caracteres especificada com `-separator`. Para vinhetas, o sufixo de tamanho é a largura em pixels da vinheta de saída de resolução única, a largura da primeira vista de uma vinheta de saída de várias resoluções ou &quot;0&quot; se houver uma vinheta em pirâmide. Para arquivos de estilo do gabinete, a resolução de saída é usada como o sufixo do arquivo. *[!DNL destFile]* é ignorado quando `-info` é especificado.
+*[!DNL destFile]* é o caminho e o nome do arquivo de vinheta de saída. Se não for especificado, o arquivo de saída será colocado na pasta especificada com `-destpath`. Nesse cenário, o nome do arquivo é gerado automaticamente a partir do nome do arquivo de entrada e de um sufixo de tamanho, separado com a cadeia de caracteres especificada com `-separator`. Para vinhetas, o sufixo de tamanho é a largura em pixels da vinheta de saída de resolução única, a largura da primeira vista de uma vinheta de saída de várias resoluções ou &quot;0&quot; se houver uma vinheta em pirâmide. Para arquivos de estilo do gabinete, a resolução de saída é usada como o sufixo do arquivo. *[!DNL destFile]* é ignorado quando `-info` é especificado.

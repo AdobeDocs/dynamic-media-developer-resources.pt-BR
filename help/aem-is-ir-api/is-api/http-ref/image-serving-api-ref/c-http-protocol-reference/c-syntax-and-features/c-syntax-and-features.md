@@ -17,7 +17,7 @@ ht-degree: 0%
 Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
 
 * [Sintaxe básica do protocolo HTTP do Servidor de imagens](r-basic-syntax.md)
-* [Visão geral do comando de protocolo HTTP do Servidor de imagens](c-command-overview/c-command-overview.md)
+* [Comando de protocolo HTTP do Servidor de imagens   visão geral](c-command-overview/c-command-overview.md)
 * [Visão geral de camadas](c-layering-overview/c-layering-overview.md)
 * [Operações de camada](c-layering-overview/c-layer-operations.md)
 * [Efeitos de camada](r-layer-effects.md)

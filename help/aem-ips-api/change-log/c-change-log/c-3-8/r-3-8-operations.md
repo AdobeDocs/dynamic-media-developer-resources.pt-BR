@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Sintaxe
 
 **searchAssets**
 
-* O modelo opcional `publishState` permite pesquisar no `MarkedForPublish/NotMarkedForPublish` estado do ativo.
+* O parâmetro `publishState` opcional permite pesquisar o estado do ativo `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* O modelo opcional `userHandle` permite recuperar logs de processos enviados por um usuário específico.
+* O parâmetro `userHandle` opcional permite recuperar logs de trabalho enviados por um usuário específico.

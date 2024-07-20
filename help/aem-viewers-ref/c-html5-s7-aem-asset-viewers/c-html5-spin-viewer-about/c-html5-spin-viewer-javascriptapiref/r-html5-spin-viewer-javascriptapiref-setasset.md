@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: Referência da API JavaScript para o Visualizador de rotação.
+description: Referência da API do JavaScript para o Visualizador de rotação.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setAsset{#setasset}
 
-Referência da API JavaScript para o Visualizador de rotação.
+Referência da API do JavaScript para o Visualizador de rotação.
 
 ` setAsset( *`ativo`*)`
 
@@ -22,12 +22,12 @@ Referência da API JavaScript para o Visualizador de rotação.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ativo</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} novo id de ativo, conjunto de rotação única ou multidimensional com modificadores opcionais do Servidor de imagens anexados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Cadeia de caracteres</span>} nova ID de ativo, rotação única ou multidimensional com modificadores opcionais do Servidor de imagens adicionados após <span class="codeph"> ?</span>. </p> <p> Imagens que usam IR (Renderização de Imagem) ou UGC (Conteúdo Gerado pelo Usuário) não são compatíveis com esse visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Define o novo ativo. Você pode chamar esse parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador troca o ativo no tempo de execução.
+Define o novo ativo. Você pode chamar este parâmetro a qualquer momento, antes ou depois de `init()`. Se for chamado depois de `init()`, o visualizador trocará o ativo no tempo de execução.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 

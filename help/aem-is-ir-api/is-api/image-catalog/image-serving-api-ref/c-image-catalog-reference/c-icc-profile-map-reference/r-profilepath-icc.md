@@ -18,7 +18,7 @@ Caminho do arquivo de perfil. Caminho e nome do arquivo de perfil de cores ICC, 
 
 ## Propriedades {#section-d342866853f24e168ba44215ef594e29}
 
-String de texto. Obrigatório. Deve ser um caminho de arquivo válido do Servidor de imagens, seja absoluto ou relativo a `attribute::RootPath`.
+String de texto. Obrigatório. Deve ser um caminho de arquivo válido do Servidor de Imagens, seja absoluto ou relativo a `attribute::RootPath`.
 
 ## Padrão {#section-838c08a4443648ffb2f5b9255fafa8dc}
 

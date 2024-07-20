@@ -19,8 +19,8 @@ Esta versão (Servidor de imagens 6.6.1 e Renderização de imagem 6.6.1) substi
 ## Problemas conhecidos e alterações de comportamento {#section-9dbc05206187477f926a78e8108a34e1}
 
 * O uso do caractere de ponto de interrogação nas IDs de ativos não é mais suportado, mesmo que o caractere esteja codificado no URL.
-* Banner dinâmico `/xfl/flash/` As solicitações do não são mais suportadas e agora retornam um código de erro HTTP 404.
-* W2P `/is/agm/` As solicitações do não são mais compatíveis.
+* As solicitações de banner dinâmico `/xfl/flash/` não são mais suportadas e agora retornam um código de erro HTTP 404.
+* Não há mais suporte para solicitações `/is/agm/` W2P.
 * Algumas mensagens de erro não são mais renderizadas para o navegador. Dessa forma, você precisa revisar o log de rastreamento para depurar.
 
 ## Novos recursos {#section-b1386e36cb4544ebb79766a06b16842d}
@@ -30,4 +30,4 @@ Esta versão (Servidor de imagens 6.6.1 e Renderização de imagem 6.6.1) substi
 
 ## Correção de erros {#section-58dff74d56f64edeadf8f8b97b7a4161}
 
-* Correção de um problema em que `\qc` A opção RTF seguida por um espaço fez com que uma solicitação não fosse renderizada.
+* Correção de um problema em que a opção RTF `\qc` seguida de um espaço fazia com que uma solicitação não fosse renderizada.

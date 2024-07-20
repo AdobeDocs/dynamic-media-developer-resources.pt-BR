@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Esta amostra de código usa o identificador do conjunto como um campo na `deletePropertySetParam` enviado ao servidor de serviços Web IPS para excluir o conjunto de propriedades.
+Esta amostra de código usa o identificador do conjunto como um campo no `deletePropertySetParam` enviado ao servidor de serviços Web IPS para excluir o conjunto de propriedades.
 
 **Solicitação**
 

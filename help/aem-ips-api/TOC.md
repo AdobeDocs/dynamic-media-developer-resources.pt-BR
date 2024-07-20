@@ -5,7 +5,7 @@ feature-set: Experience Manager Assets
 user-guide-description: A API do Serviço da Web IPS (Sistema de Produção de Imagens) permite que aplicativos externos e desenvolvedores de terceiros acessem programaticamente os ativos e funcionalidades do IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -397,7 +397,7 @@ ht-degree: 0%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [DefiniçãoAlvoZoom](types/c-data-types/r-zoom-target-definition.md)
    + [MatrizDeDefiniçãoDeDestinoDeZoom](types/c-data-types/r-zoom-target-definition-array.md)
-+ Constantes de sequência {#sting-constants}
++ Constantes de cadeia de caracteres {#sting-constants}
    + [Constantes de sequência](string-constants/c-string-constants/c-string-constants.md)
    + [Estados de Trabalho Ativos](string-constants/c-string-constants/r-active-job-states.md)
    + [Campos do sistema de pesquisa de ativos](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -423,12 +423,12 @@ ht-degree: 0%
    + [Tipos de permissão](string-constants/c-string-constants/r-permission-types.md)
    + [Modos de âncora do Photoshop](string-constants/c-string-constants/r-photoshop-anchor-modes.md)
    + [Modos de nomeação de camada do Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
-   + [Modos PostScript Colorspace](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
+   + [Modos do PostScript Colorspace](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Classes de perfil](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publicar estado](string-constants/c-string-constants/r-publish-state.md)
+   + [Estado do Publish](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjunto de propriedades](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexto de publicação](string-constants/c-string-constants/r-publish-context.md)
-   + [Tipos de publicação](string-constants/c-string-constants/r-publish-types.md)
+   + [Contexto do Publish](string-constants/c-string-constants/r-publish-context.md)
+   + [Tipos de Publish](string-constants/c-string-constants/r-publish-types.md)
    + [Forma da Região](string-constants/c-string-constants/r-region-shape.md)
    + [Modos de Correspondência de Pesquisa](string-constants/c-string-constants/r-search-match-modes.md)
    + [Classificar direções](string-constants/c-string-constants/r-sort-directions.md)

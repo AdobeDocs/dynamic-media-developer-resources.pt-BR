@@ -21,8 +21,8 @@ ht-degree: 0%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> inferior|superior|esquerdo|direito|nenhum|dica de ferramenta</span> </p> </td> 
-   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. Quando <span class="codeph"> dica de ferramenta</span> for especificado, nenhum rótulo será desenhado. </p> </td> 
+   <td> <p> <span class="codeph"> inferior|superior|esquerda|direita|nenhum|dica</span> </p> </td> 
+   <td> <p> Especifica onde o rótulo é desenhado em relação à imagem de miniatura da amostra. Ou seja, o rótulo é centralizado no local especificado em relação à miniatura da amostra. Quando a dica de ferramenta <span class="codeph"> </span> é especificada, o rótulo não é desenhado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

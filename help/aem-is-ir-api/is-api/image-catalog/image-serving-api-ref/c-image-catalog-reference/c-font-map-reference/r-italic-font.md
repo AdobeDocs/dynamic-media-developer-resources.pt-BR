@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sinalizador em itálico.
 
-Especifica se o arquivo de fontes referenciado por este registro de mapa de fontes deve ser usado quando solicitado pelo itálico RTF ( `\i`).
+Especifica se o arquivo de fontes referenciado por este registro de mapa de fontes deve ser usado quando solicitado pelo comando RTF itálico ( `\i`).
 
 ## Propriedades {#section-607e76490e87418496d1c6763018a14f}
 

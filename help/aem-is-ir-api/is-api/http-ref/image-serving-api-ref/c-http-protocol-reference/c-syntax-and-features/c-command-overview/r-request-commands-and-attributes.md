@@ -22,7 +22,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Substitui o comportamento padrão do cache de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> defaultImage</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2" type="reference" format="dita" scope="local"> imagemPadrão</a> </p></td> 
   <td class="stentry"> <p>Especifica a imagem a ser usada em vez de um arquivo de imagem ausente. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Define o perfil de cor de saída. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local">iccEmbed</a> </p> </td> 
   <td class="stentry"> <p>Incorpora o perfil de cores na imagem de resposta. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -58,11 +58,11 @@ Esses comandos se aplicam independentemente de onde aparecem na solicitação.
   <td class="stentry"> <p>Especifica atributos de quantização de cores para saída de GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> solic</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 
   <td class="stentry"> <p>Seleciona o tipo de solicitação. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md#reference-29a398cc59dc4caf9acd5f69c9ba9715" type="reference" format="dita" scope="local"> resMode</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md#reference-29a398cc59dc4caf9acd5f69c9ba9715" type="reference" format="dita" scope="local">resMode</a> </p></td> 
   <td class="stentry"> <p>Especifica o modo de reamostragem ou interpolação da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 

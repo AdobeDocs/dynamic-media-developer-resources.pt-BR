@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Enum. &#39;0&#39; para substituir toda a imagem composta, mesmo que a imagem aus
 
 ## Restrições {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-O Servidor de imagens é revertido para `DefaultImageMode=0` ao renderizar imagem aninhada, FXG ou `req=set` falha nas solicitações.
+O Servidor de imagens é revertido para `DefaultImageMode=0` quando há falha na Renderização de imagem aninhada, FXG ou nas solicitações `req=set`.
 
 ## Padrão {#section-9e318524a2a5496386901286748c7ee7}
 

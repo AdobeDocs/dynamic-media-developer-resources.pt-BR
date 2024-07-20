@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Os arquivos de conjunto de regras são arquivos de texto formatados em XML e devem seguir os padrões e convenções apropriados.
 
-[!DNL RuleSet.xsd] O está instalado na pasta de catálogo padrão e deve ser usado para validar arquivos de conjunto de regras antes de enviá-los para o Servidor de imagens. A análise estrita é aplicada e os arquivos de conjunto de regras que não estão em conformidade com [!DNL RuleSet.xsd] não carregar.
+O [!DNL RuleSet.xsd] está instalado na pasta de catálogo padrão e deve ser usado para validar arquivos de conjunto de regras antes de enviá-los ao Servidor de imagens. A análise estrita é aplicada e os arquivos de conjunto de regras que não estão em conformidade com [!DNL RuleSet.xsd] não são carregados.

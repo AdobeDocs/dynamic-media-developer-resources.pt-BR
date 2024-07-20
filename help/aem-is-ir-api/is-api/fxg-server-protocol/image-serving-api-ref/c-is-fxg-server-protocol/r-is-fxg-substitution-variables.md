@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 539d8863-e94d-45dc-bb8c-3db7bead0051
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A variável de substituição é usada para transferir valores do URL da solicit
   <td class="stentry"> <p>Nome da variável. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
   <td class="stentry"> <p>Valor com o qual a variável deve ser definida (string). </p> </td> 
  </tr> 
 </table>

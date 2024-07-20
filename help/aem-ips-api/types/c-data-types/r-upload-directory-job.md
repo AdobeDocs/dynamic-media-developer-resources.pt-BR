@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -31,12 +31,12 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesAutoCor</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoColorOptions</span> </td> 
    <td colname="col3"> <p>Opções de corte automático da imagem (com base na cor). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:AutoDefinirCriarOpções</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:AutoSetCreateOptions</span> </td> 
    <td colname="col3"> <p>Matriz de scripts de geração de conjunto automático a ser aplicada aos arquivos carregados. </p> </td> 
   </tr> 
   <tr> 
@@ -65,8 +65,8 @@ Sintaxe
    <td colname="col3"> <p>Opção de configurações de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDoIllustrator</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> opçõesDoIlustrador</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:IllustratorOptions</span> </td> 
    <td colname="col3"> <p>Opções para fazer upload de arquivos Illustrator no servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDeCorteManual</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:ManualCropOptions</span> </td> 
    <td colname="col3"> <p>Opções de corte manual da imagem. </p> </td> 
   </tr> 
   <tr> 
@@ -167,17 +167,17 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDir</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Diretório de upload de origem. </p> </td> 
+   <td colname="col3"> <p>diretório de upload do Source. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:UnCompressOptions</span> </td> 
-   <td colname="col3"> <p>Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> DescompactarOpções</a>. </p> </td> 
+   <td colname="col3"> <p>Extraia e processe o conteúdo de arquivos TAR/ZIP carregados com essas configurações opcionais. </p> <p>Consulte <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesTirarNitidezMáscara</span> </td> 
-   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> OpçõesDeMáscaraSemNitidez</a>. </p> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:UnsharpMaskOptions</span> </td> 
+   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </p> </td> 

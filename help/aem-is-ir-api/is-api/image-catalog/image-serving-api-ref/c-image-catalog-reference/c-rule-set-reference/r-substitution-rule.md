@@ -1,5 +1,5 @@
 ---
-description: Elemento de string de substituição. Opcional em <rule> elementos.
+description: Elemento de string de substituição. Opcional em elementos <rule>.
 solution: Experience Manager
 title: substituição
 feature: Dynamic Media Classic,SDK/API
@@ -32,14 +32,14 @@ Se a expressão padrão incluir subexpressões (delimitadas por parênteses), a 
 
 Se `<expression>` estiver vazio ou ausente, a cadeia de caracteres de substituição será anexada ao caminho ou à consulta.
 
-Se `<substitution>` estiver vazio, a string ou substring correspondente será removida. Se `<substitution>` não for especificado, o caminho ou a sequência de consulta não será modificada.
+Se `<substitution>` estiver vazio, a cadeia ou subcadeia correspondente será removida. Se `<substitution>` não for especificado, o caminho ou a cadeia de consulta não será modificada.
 
 >[!NOTE]
 >
->Todas as correspondências na cadeia de caracteres de entrada são substituídas quando `replace="all"` é especificado na variável `<rule>`, elemento ao qual isso `<substitution>` o elemento pertence. Por padrão, somente a primeira correspondência é substituída pela cadeia de caracteres de substituição.
+>Todas as correspondências na cadeia de caracteres de entrada são substituídas quando `replace="all"` é especificado no `<rule>`,element ao qual este elemento `<substitution>` pertence. Por padrão, somente a primeira correspondência é substituída pela cadeia de caracteres de substituição.
 
 ## Nota {#section-cedf2adabaaf441c9f598fb0ea180246}
 
-A cadeia de caracteres de substituição não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia de caracteres inteira pode ser colocada em uma seção CDATA XML:
+A cadeia de caracteres de substituição não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia de caracteres inteira pode ser inserida em uma seção CDATA XML:
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

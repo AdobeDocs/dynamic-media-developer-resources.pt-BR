@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a604e61e-be38-4819-b5c3-a79843c1678f
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Modo de reamostragem padrão. Especifica os atributos padrão de reamostragem e interpolação a serem usados para dimensionar dados de imagem.
 
-Usado quando `resMode=` não está especificado em uma solicitação.
+Usado quando `resMode=` não é especificado em uma solicitação.
 
 ## Propriedades {#section-493f900be522486f97710cebdc4460c2}
 
-Enum. Defina como 2 para `bilin`, 3 para `bicub`, ou 4 para `sharp2` modo de interpolação (consulte [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) para obter detalhes). `sharp` (1) está sendo descontinuado. Uso `sharp2` (4) em vez disso, para obter melhores resultados.
+Enum. Defina como 2 para `bilin`, 3 para `bicub` ou 4 para o modo de interpolação `sharp2` (consulte [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) para obter detalhes). `sharp` (1) está sendo descontinuado. Em vez disso, use `sharp2` (4) para obter melhores resultados.
 
 ## Padrão {#section-35f980e745fc4d79a2621e8abacc724d}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo da visualização principal em formato hexadecimal. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Exemplo - para tornar a exibição principal transparente.
 }
 ```
 
-Nos sistemas desktop, o componente suporta a função `cursortype` seletor de atributo que pode ser aplicado a `.s7pageview` classe e controla o tipo de cursor com base no estado do componente e na ação do usuário. As seguintes `cursortype` Os valores de são compatíveis:
+Em sistemas desktop, o componente oferece suporte ao seletor de atributos `cursortype` que pode ser aplicado à classe `.s7pageview` e controla o tipo de cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` têm suporte:
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -72,7 +72,7 @@ Nos sistemas desktop, o componente suporta a função `cursortype` seletor de at
    <td colname="col2"> <p>Exibido quando é possível ampliar a imagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redefinir </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefiniu </span> </p> </td> 
    <td colname="col2"> <p>Exibido quando a imagem está no nível de zoom máximo e pode ser redefinida para o estado inicial. </p> </td> 
   </tr> 
   <tr> 
@@ -100,10 +100,10 @@ O divisor de página que separa visualmente as páginas esquerda e direita da p�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> largura </span> </p> </td> 
-   <td colname="col2"> <p> A largura do divisor de página. Defina como <span class="codeph"> 0 </span> px para ocultar completamente o divisor. </p> </td> 
+   <td colname="col2"> <p> A largura do divisor de página. Defina como <span class="codeph"> 0 </span> px para ocultar o divisor completamente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem que você deseja usar como divisor de página. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +120,9 @@ Exemplo - Ter um divisor de página de 40 pixels de largura com imagem semitrans
 
 >[!NOTE]
 >
->Quando a variável `frametransition` modificador está definido como `turn` ou `auto` (em sistemas desktop), a aparência do divisor de página é controlada com o `pageturnstyle` modificador e o `.s7pagedivider` A classe CSS é ignorada.
+>Quando o modificador `frametransition` é definido como `turn` ou `auto` (em sistemas desktop), a aparência do divisor de página é controlada com o modificador `pageturnstyle` e a classe CSS `.s7pagedivider` é ignorada.
 
-É possível configurar a exibição do cursor do mouse personalizado sobre a área do visualizador principal. Essa capacidade é controlada com os seletores de atributos adicionais aplicados a `.s7ecatalogsearchviewer .s7pageview` Classe CSS:
+É possível configurar a exibição do cursor do mouse personalizado sobre a área do visualizador principal. Essa capacidade é controlada com os seletores de atributos adicionais aplicados à classe CSS `.s7ecatalogsearchviewer .s7pageview`:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -141,7 +141,7 @@ Exemplo - Ter um divisor de página de 40 pixels de largura com imagem semitrans
    <td colname="col2"> <p> Mostra quando uma imagem pode ser ampliada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redefinir </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redefiniu </span> </p> </td> 
    <td colname="col2"> <p>Mostra quando uma imagem está no zoom máximo e pode ser redefinida. </p> </td> 
   </tr> 
   <tr> 

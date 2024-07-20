@@ -58,13 +58,13 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>A matriz de campos de resposta desejada. Consulte response- FieldArray/excludeFieldArray na Introdução. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipos:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>A matriz de campos de resposta excluídos. Consulte response- FieldArray/excludeFieldArray na Introdução. </p> </td> 
   </tr> 
@@ -108,7 +108,7 @@ Sintaxe
    <td colname="col4"> <p>Matriz de ativos que possuem o ativo especificado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> arrayDerivada</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivouArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AssetArray</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
    <td colname="col4"> <p>Matriz de ativos que foram usados para gerar o ativo especificado. </p> </td> 
@@ -117,13 +117,13 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>A variável <span class="codeph"> generatorArray</span> lista a forma como esse ativo foi criado. Por exemplo, se <span class="codeph"> assetHandler</span> era uma página de imagem de um PDF, então ela conteria a ferramenta PDF e referenciaria o ativo PdfFile. </p> </td> 
+   <td colname="col4"> <p>O <span class="codeph"> generatorArray</span> lista a maneira como esse ativo foi criado. Por exemplo, se <span class="codeph"> assetHandler</span> fosse uma página de imagem de um PDF, ela conteria a ferramenta de processador PDF e referenciaria o ativo PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>A variável <span class="codeph"> generatedArray</span> inverte a forma como esse ativo foi criado. Por exemplo, a variável <span class="codeph"> generatedArray</span> pode conter a lista de imagens geradas a partir deste <span class="codeph"> assetHandler</span> se era um ativo PdfFile. </p> </td> 
+   <td colname="col4"> <p>O <span class="codeph"> generatedArray</span> inverte a forma como esse ativo foi criado. Por exemplo, a <span class="codeph"> generatedArray</span> poderia conter a lista de imagens geradas a partir desse <span class="codeph"> assetHandler</span> se esse fosse um ativo PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
@@ -134,11 +134,11 @@ Sintaxe
  </tbody> 
 </table>
 
-Você pode usar os parâmetros `responseFieldArray` ou `excludeFieldArray` para limitar o tamanho da resposta. Em especial, a `GenerationInfo` itens retornados em `generatorArray` ou `generatedArray` padrão para incluir tanto o originador quanto os registros de ativo gerados. Para um tipo de ativo PDF, esse comportamento resulta em várias cópias indesejadas do registro de ativo PDF &quot;originador&quot; na resposta. Você pode eliminar esse problema adicionando `generatedArray/items/originator` para `excludeFieldArray`. Ou você pode especificar uma lista explícita de campos de resposta que deseja incluir no `responseFieldArray`.
+Você pode usar os parâmetros `responseFieldArray` ou `excludeFieldArray` para limitar o tamanho da resposta. Especificamente, os itens `GenerationInfo` retornados em `generatorArray` ou `generatedArray` são padronizados para incluir os registros do originador e do ativo gerado. Para um tipo de ativo PDF, esse comportamento resulta em várias cópias indesejadas do registro de ativo PDF &quot;originador&quot; na resposta. Você pode eliminar esse problema adicionando `generatedArray/items/originator` a `excludeFieldArray`. Ou você pode especificar uma lista explícita de campos de resposta que deseja incluir em `responseFieldArray`.
 
 ## Exemplos {#section-8946ea4b9cb94912a8408249c897f192}
 
-O exemplo básico a seguir é uma solicitação para o identificador do gerador de uma imagem que é extraída de um PDF. Inclui uma `containerArray` de comprimento um com um item incluindo o `assetHandle` do PDF.
+O exemplo básico a seguir é uma solicitação para o identificador do gerador de uma imagem que é extraída de um PDF. Ele inclui um `containerArray` de comprimento, um com um item que inclui o `assetHandle` do PDF.
 
 **Solicitação**
 

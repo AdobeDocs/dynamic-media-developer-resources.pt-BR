@@ -33,7 +33,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-|  |  |  |  |
+|   |  |  |  |
 
 ## Exemplos {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

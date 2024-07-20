@@ -19,13 +19,13 @@ Obtém valores de cadeia de caracteres das propriedades do sistema relacionadas 
 As propriedades de sistema compatíveis incluem:
 
 * `IpsVersion`: número de versão do IPS.
-* `IpsImageServerUrl`: prefixo de URL externo completo para o Servidor de imagens IPS.
+* `IpsImageServerUrl`: Prefixo de URL externo completo para o Servidor de Imagens IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`: prefixo de URL para renderizar ativos SVG.
 * `SvgRenderEnabled`: verdadeiro se os ativos de SVG puderem ser renderizados por `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: tamanho máximo (em bytes) de dados de arquivo permitido em um upload [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
+* `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitido em um carregamento [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
 
 ## Tipos de usuário autorizados {#section-2cd36bbd46ed414b8753569d5895530e}
 

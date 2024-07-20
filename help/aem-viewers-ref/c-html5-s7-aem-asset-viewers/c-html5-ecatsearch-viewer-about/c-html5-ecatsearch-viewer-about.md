@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -98,9 +98,9 @@ Páginas da Web diferentes têm necessidades diferentes para o comportamento do 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ele ocupa toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação de um dispositivo móvel seja alterada.
 
-O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` elemento HTML ou qualquer outro método adequado.
+O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. Nesse caso, é chamado de [!DNL eCatalogSearchViewer.html] e estiver localizado na [!DNL html5/] subpasta da implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL eCatalogSearchViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -120,24 +120,24 @@ Os principais casos de uso são páginas da Web orientadas para desktops ou disp
 
 A incorporação de tamanho fixo é usada quando o visualizador não altera seu tamanho após o carregamento inicial. Essa é a melhor opção para páginas da Web com layout estático.
 
-A incorporação responsiva de design presume que o visualizador pode precisar redimensionar em tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que usa um layout de página flexível.
+A incorporação de design responsivo presume que o visualizador pode precisar redimensionar em tempo de execução em resposta à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que usa um layout de página flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente, dependendo da forma como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do container `DIV`, deixando sua altura irrestrita, o visualizador escolhe automaticamente sua altura de acordo com a proporção do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap, Foundation e assim por diante.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente, dependendo da forma como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir somente a largura do contêiner `DIV`, deixando sua altura irrestrita, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Essa funcionalidade garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap, Foundation e assim por diante.
 
-Caso contrário, se a página da Web definir a largura e a altura do container do visualizador `DIV`, o visualizador preenche apenas essa área e segue o tamanho fornecido pelo layout da página da Web. Um bom exemplo é a incorporação do visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Caso contrário, se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, o visualizador preencherá apenas essa área e seguirá o tamanho fornecido pelo layout da página da Web. Um bom exemplo é a incorporação do visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 **Incorporação de tamanho fixo**
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definição do container DIV.
 1. Definindo o tamanho do visualizador.
 1. Criar e inicializar o visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL eCatalogSearchViewer.js]. A variável [!DNL eCatalogSearchViewer.js] O arquivo está localizado sob o [!DNL html5/js/] subpasta da implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL eCatalogSearchViewer.js]. O arquivo [!DNL eCatalogSearchViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
@@ -153,7 +153,7 @@ O caminho relativo tem a seguinte aparência:
 
    Adicione um elemento DIV vazio à página em que você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida porque essa ID é passada posteriormente para a API do visualizador.
 
-   O espaço reservado DIV é um elemento posicionado, o que significa que o `position` A propriedade CSS está definida como `relative` ou `absolute`.
+   O espaço reservado DIV é um elemento posicionado, o que significa que a propriedade CSS `position` está definida como `relative` ou `absolute`.
 
    Veja a seguir um exemplo de um elemento DIV de espaço reservado definido:
 
@@ -163,11 +163,11 @@ O caminho relativo tem a seguinte aparência:
 
 1. Definir o tamanho do visualizador
 
-   Você pode definir o tamanho estático do visualizador declarando-o para `.s7ecatalogsearchviewer` classe CSS de nível superior em unidades absolutas ou usando `stagesize` modificador.
+   Você pode definir o tamanho estático do visualizador declarando-o para a classe CSS de nível superior `.s7ecatalogsearchviewer` em unidades absolutas ou usando o modificador `stagesize`.
 
    Você pode colocar o dimensionamento no CSS diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado, que será posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando um comando style.
 
-   Consulte [Personalização do eCatalog Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
+   Consulte [Personalizando o visualizador do eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
 
@@ -178,7 +178,7 @@ O caminho relativo tem a seguinte aparência:
    }
    ```
 
-   Você pode definir a variável `stagesize` modificador no registro predefinido do visualizador no Dynamic Media Classic, ou passe-o explicitamente com o código de inicialização do visualizador com `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos, da seguinte maneira:
+   Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`, ou como uma chamada de API, conforme descrito na seção Referência de comando, como a seguir:
 
    ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
@@ -187,13 +187,13 @@ O caminho relativo tem a seguinte aparência:
 
 1. Inicializando o visualizador.
 
-   Quando tiver concluído as etapas acima, você criará uma instância de `s7viewers.eCatalogSearchViewer` classe, transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto tem a função `containerId` campo que contém o nome da ID do contêiner de visualização e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador. Neste caso, o `params` objeto deve ter pelo menos o URL do Servidor de imagens passado como `serverUrl` propriedade e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   Quando tiver concluído as etapas acima, você criará uma instância da classe `s7viewers.eCatalogSearchViewer`, passará todas as informações de configuração para seu construtor e chamará o método `init()` em uma instância do visualizador. As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto tem o campo `containerId`, que contém o nome da ID de contêiner de visualizador e o objeto JSON `params` aninhado com parâmetros de configuração com suporte do visualizador. Nesse caso, o objeto `params` deve ter pelo menos a URL do Servidor de imagens passada como propriedade `serverUrl`, e o ativo inicial como parâmetro `asset`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. No entanto, para obter compatibilidade máxima, chame o `init()` método antes do fechamento `BODY` ou no corpo `onload()` evento.
+   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. No entanto, para obter compatibilidade máxima, chame o método `init()` antes de fechar a marca `BODY` ou no evento de corpo `onload()`.
 
-   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, pode ser oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando isso acontece, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, ela pode ser oculta usando o estilo `display:none` atribuído a ela. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando isso acontece, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmissão das opções de configuração mínimas necessárias para o construtor e chamada de `init()` método. O exemplo assume `eCatalogSearchViewer` é a instância do visualizador; `s7viewer` é o nome do espaço reservado `DIV`; `https://s7d1.scene7.com/is/image/` é o URL do Servidor de imagens e `Viewers/Pluralist` é o ativo:
+   Este é um exemplo de criação de uma instância do visualizador, passagem das opções de configuração mínimas necessárias para o construtor e chamada do método `init()`. O exemplo considera `eCatalogSearchViewer` como a instância do visualizador; `s7viewer` como o nome do espaço reservado `DIV`; `https://s7d1.scene7.com/is/image/` como a URL do Servidor de Imagens e `Viewers/Pluralist` como o ativo:
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -240,7 +240,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação responsiva de design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador `DIV`. Para os fins deste exemplo, considere que a página da Web permite o container do visualizador `DIV` para obter 40% do tamanho da janela do navegador web, deixando sua altura irrestrita. O código de HTML da página da Web resultante é semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web resultante é semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -260,11 +260,11 @@ Com a incorporação responsiva de design, a página da Web normalmente tem algu
 
 Adicionar o visualizador a essa página é semelhante à incorporação de tamanho fixo, com a única diferença sendo que você não precisa definir explicitamente o tamanho do visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definição do container DIV.
 1. Criar e inicializar o visualizador.
 
-Todas as etapas acima são as mesmas da incorporação de tamanho fixo. Adicionar o contêiner `DIV` ao &quot;detentor&quot; existente `DIV`. O código a seguir é um exemplo completo. Você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas da incorporação de tamanho fixo. Adicionar o contêiner `DIV` ao &quot; titular&quot; existente `DIV`. O código a seguir é um exemplo completo. Você pode ver como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -301,7 +301,7 @@ A página de exemplos a seguir ilustra mais casos de uso reais de incorporação
 
 **Incorporação de tamanho flexível com largura e altura definidas**
 
-No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ou seja, fornece ambos os tamanhos ao &quot; titular&quot; `DIV` e centraliza na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` elemento a 100%:
+No caso de incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ou seja, ele fornece ambos os tamanhos ao &quot; titular&quot; `DIV` e centraliza na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` como 100%:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -366,9 +366,9 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-**Incorporação usando API baseada em setter**
+**Incorporando Usando API baseada em Setter**
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. Com essa API, o construtor não aceita parâmetros e os parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`, e `setAsset()` Métodos de API do com chamadas de JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. Com essa API, o construtor não aceita parâmetros e os parâmetros de configuração são especificados usando os métodos de API `setContainerId()`, `setParam()` e `setAsset()` com chamadas JavaScript separadas.
 
 O exemplo a seguir mostra a incorporação de tamanho fixo com a API baseada em setter:
 

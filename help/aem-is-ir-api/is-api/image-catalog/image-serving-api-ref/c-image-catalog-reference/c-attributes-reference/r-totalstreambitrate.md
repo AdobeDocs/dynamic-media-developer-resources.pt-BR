@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Taxa total de bits do fluxo. Valor longo que representa a taxa de bits de fluxo total do ativo de vídeo.
 
-Usado por `req=set` e `req=mbrSet`solicitações para exportar dados de taxa de bits.
+Usado por `req=set` e `req=mbrSet` solicitações para exportar dados de taxa de bits.
 
 Aplica-se somente ao catálogo de conteúdo estático.
 
@@ -30,4 +30,4 @@ Nenhum.
 
 ## Consulte também {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) , [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73), [Solicitações de conjunto de mdias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) , [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73), [Solicitações de conjunto de mídia](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)

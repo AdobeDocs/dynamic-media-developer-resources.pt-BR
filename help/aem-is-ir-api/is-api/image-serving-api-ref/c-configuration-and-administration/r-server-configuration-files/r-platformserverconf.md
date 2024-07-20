@@ -7,16 +7,16 @@ role: Developer,Admin,User
 exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
 # PlatformServer.conf{#platformserver-conf}
 
-Contém [!DNL Platform Server] configurações.
+Contém configurações de [!DNL Platform Server].
 
-Este arquivo é um arquivo de propriedades JAVA. devem ser tomadas precauções para seguir as convenções adequadas; caso contrário, a [!DNL Platform Server] pode falhar ao iniciar. Use uma barra invertida dupla &#39;\\&#39; ou uma barra invertida simples &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows. A barra invertida é usada como um caractere de escape neste tipo de arquivo.
+Este arquivo é um arquivo de propriedades JAVA. Tenha cuidado ao seguir as convenções apropriadas; caso contrário, o [!DNL Platform Server] pode falhar ao iniciar. Use uma barra invertida dupla &#39;\\&#39; ou uma barra invertida simples &#39;/&#39; em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows. A barra invertida é usada como um caractere de escape neste tipo de arquivo.
 
 As alterações feitas neste arquivo entrarão em vigor depois que ele for salvo.
 
@@ -24,12 +24,12 @@ Somente as configurações listadas abaixo podem ser alteradas em [!DNL Platform
 
 <table id="simpletable_38244750F50A46E5B0077F5F860B125C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Geral [!DNL Platform Server] configurações </p> </td> 
+  <td class="stentry"> <p>Configurações gerais de [!DNL Platform Server] </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000 </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824 </span> </p> <p> <span class="codeph"> isConnection.port=27345 </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequsts=true </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000 </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Configuração de cluster de cache </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> cluster.hosts=&lt;empty&gt; </span> </p> <p> <span class="codeph"> cacheCluster.queryTimeout=50 </span> </p> <p> <span class="codeph"> cacheCluster.fetchTimeout=10000 </span> </p> <p> <span class="codeph"> cacheCluster.updateLocalCache=true </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> cluster.hosts=&lt;vazio&gt; </span> </p> <p> <span class="codeph"> cacheCluster.queryTimeout=50 </span> </p> <p> <span class="codeph"> cacheCluster.fetchTimeout=10000 </span> </p> <p> <span class="codeph"> cacheCluster.updateLocalCache=true </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Configuração de redirecionamento de erro </p> </td> 

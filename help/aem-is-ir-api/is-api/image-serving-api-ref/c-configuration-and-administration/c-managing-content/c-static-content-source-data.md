@@ -1,5 +1,5 @@
 ---
-description: Os arquivos de dados de origem de conteúdo estático são acessados somente pelo [!DNL Platform Server].
+description: Os arquivos de dados de fonte de conteúdo estático são acessados somente pelo  [!DNL Platform Server].
 solution: Experience Manager
 title: Dados de fonte de conteúdo estático
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Dados de fonte de conteúdo estático{#static-content-source-data}
 
-Os arquivos de dados de origem de conteúdo estático são acessados somente pelo [!DNL Platform Server].
+Os arquivos de dados de fonte de conteúdo estático são acessados somente pelo [!DNL Platform Server].
 
 O caminho para arquivos de dados de conteúdo estático é resolvido da seguinte maneira:
 
@@ -22,8 +22,8 @@ O caminho para arquivos de dados de conteúdo estático é resolvido da seguinte
 
 O servidor combina segmentos de caminho da direita para a esquerda até que um caminho de arquivo absoluto seja estabelecido.
 
-Todos ` *[!DNL rootPath]*` os segmentos podem ser segmentos de caminho vazios, relativos ou absolutos.
+Todos os ` *[!DNL rootPath]*` segmentos podem ser vazios, relativos ou absolutos.
 
 ` *[!DNL catalogPath]*` é um caminho/nome de arquivo absoluto ou relativo. *[!DNL requestPath]* deve ser um caminho/nome de arquivo relativo.
 
-Múltiplo `PS::staticContent.rootPaths` os valores podem ser definidos em [!DNL PlatformServer.conf]. Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. A variável [!DNL Platform Server] O tenta caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.
+Vários valores `PS::staticContent.rootPaths` podem ser definidos em [!DNL PlatformServer.conf]. Isso permite que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. O [!DNL Platform Server] tenta caminhos alternativos na ordem especificada, até que o arquivo de dados seja encontrado.

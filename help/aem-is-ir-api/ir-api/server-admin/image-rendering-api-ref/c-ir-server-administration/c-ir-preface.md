@@ -20,7 +20,7 @@ Esta documentação discute problemas de administração do servidor e descreve 
 
 Esta documentação destina-se aos administradores do sistema e webmasters que precisam instalar, configurar e administrar a Renderização de imagem do Dynamic Media.
 
-**Convenções de documento**
+**Convenções de documentos**
 
 Os itens descritos nesta documentação geralmente recebem o prefixo dos seguintes tipos de itens:
 

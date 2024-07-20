@@ -54,13 +54,13 @@ Sintaxe
    <td colname="col4"> O identificador da pasta na qual o novo conjunto de ativos é criado. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do ativo. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subtipo </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Um identificador exclusivo criado pelo cliente para o tipo de conjunto de ativos. </td> 
@@ -80,15 +80,15 @@ Sintaxe
  </tbody> 
 </table>
 
-**Funções de substituição para setDefinition**
+**Funções de Substituição para setDefinition**
 
-Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa de catálogo ou publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são descritas abaixo.
+Você pode especificar funções de substituição em linha que são resolvidas durante a pesquisa de catálogo ou publicação. Cadeias de substituição têm o formato `${<substitution_func>}`. As funções disponíveis são descritas abaixo.
 
 >[!NOTE]
 >
 >Os literais de identificador em listas de parâmetros devem estar entre colchetes `([])`. Todo o texto que está fora de uma cadeia de caracteres de substituição é copiado textualmente para a cadeia de caracteres de saída durante a resolução.
 
-| **Função de substituição** | **Devoluções** |
+| **Função de Substituição** | **Devoluções** |
 |---|---|
 | `getFilePath([asset_handle>])` | O caminho do arquivo de origem principal do ativo. |
 | `getCatalogId([<asset_handle>])` | A ID do catálogo do ativo. |

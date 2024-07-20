@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Sintaxe
 
 ## Exemplos {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Esta amostra de código envia um identificador a uma empresa e uma matriz de identificadores de ativos em um `deleteAssetsParam` para o servidor de serviços Web. `deleteAssetsReturn` retorna uma contagem de sucesso de 2, indicando que ambos os ativos foram excluídos.
+Esta amostra de código envia um identificador para uma empresa e uma matriz de identificadores de ativos em uma solicitação `deleteAssetsParam` para o servidor de serviços Web. `deleteAssetsReturn` retorna uma contagem de êxito igual a 2, indicando que ambos os ativos foram excluídos.
 
 **Solicitação**
 

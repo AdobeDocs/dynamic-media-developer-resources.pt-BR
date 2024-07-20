@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Atributo de configuração para o Visualizador de vídeo.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`urldeemail`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> email</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica o URL de base para o serviço de email Dynamic Media Classic OnDemand. </p> </td> 
   </tr> 
  </tbody> 

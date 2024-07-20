@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e36db25c-af45-4256-b982-b7b06b87f5f9
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Modo de exibição de escala. Dimensiona a imagem renderizada pelo fator de esca
  </tr> 
 </table>
 
-Se `scl=` vem após `wid=` ou `hei=` no URL, ele cancela esses comandos e `scl=` define o tamanho da imagem retornada pelo servidor.
+Se `scl=` vier depois de `wid=` ou `hei=` na URL, ele cancelará esses comandos e `scl=` definirá o tamanho da imagem retornada pelo servidor.
 
-No entanto, se `wid=` ou `hei=` vem após `scl=` no URL, eles cancelam `scl=` e `wid=`/ `hei=` defina o tamanho da imagem retornada pelo servidor.
+No entanto, se `wid=` ou `hei=` vir depois de `scl=` na URL, eles cancelam `scl=` e `wid=`/ `hei=` definem o tamanho da imagem retornada pelo servidor.
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ No entanto, se `wid=` ou `hei=` vem após `scl=` no URL, eles cancelam `scl=` e 
 
 Pode ocorrer em qualquer lugar na solicitação. Ignorado se `wid=` ou `hei=` ocorrer após `scl=` na sequência de comandos.
 
-Redimensionar a imagem com `scl=` não altera o valor de resolução de impressão incorporado na imagem de resposta.
+O redimensionamento da imagem com `scl=` não altera o valor da resolução de impressão inserido na imagem de resposta.
 
 ## Padrão {#section-d47ab3fb5a7d486a9fc207904b3e70dd}
 
-Se `wid=`, `hei=`ou `scl=` não forem especificados, a imagem de resposta será dimensionada para se ajustar ao tamanho definido por `attribute::DefaultPix`. Se `attribute::DefaultPix` estiver vazia, a imagem de resposta terá o mesmo tamanho da imagem de visualização da vinheta.
+Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta será dimensionada para se ajustar ao tamanho definido por `attribute::DefaultPix`. Se `attribute::DefaultPix` estiver vazio, a imagem de resposta terá o mesmo tamanho que a imagem de exibição da vinheta.
 
 ## Consulte também {#section-cc5002a1d49340bbb5c7a5864c297621}
 

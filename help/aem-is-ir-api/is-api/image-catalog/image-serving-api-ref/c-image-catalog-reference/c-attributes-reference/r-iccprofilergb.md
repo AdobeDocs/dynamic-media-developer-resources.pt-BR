@@ -18,7 +18,7 @@ perfil de cores de saída padrão do RGB. Especifica o nome do perfil de cores I
 
 ## Propriedades {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil RGB.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil RGB.
 
 ## Padrão {#section-dfe08dd7b851453ca816623a4179955b}
 

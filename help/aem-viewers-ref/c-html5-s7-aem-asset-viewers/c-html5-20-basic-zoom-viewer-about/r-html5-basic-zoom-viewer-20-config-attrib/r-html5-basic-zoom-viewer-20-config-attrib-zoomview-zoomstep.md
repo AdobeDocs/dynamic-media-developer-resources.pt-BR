@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ded8168e-08f7-4bc0-bb8a-624bac82759e
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> limite</span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica a resolução máxima de zoom, relativa à resolução de imagem máxima. O padrão é <span class="codeph"> 1.0</span>, que não permite aplicar zoom além da resolução máxima. </p> </td> 
+   <td colname="col2"> <p> Especifica a resolução máxima de zoom, relativa à resolução de imagem máxima. O padrão é <span class="codeph"> 1.0</span>, o que não permite aplicar zoom além da resolução máxima. </p> </td> 
   </tr> 
  </tbody> 
 </table>

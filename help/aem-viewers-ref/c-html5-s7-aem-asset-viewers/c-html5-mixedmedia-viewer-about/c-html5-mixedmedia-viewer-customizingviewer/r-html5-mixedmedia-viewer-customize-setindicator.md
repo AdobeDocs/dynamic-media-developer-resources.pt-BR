@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência do contêiner do indicador de definição é controlada com o segui
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo em formato hexadecimal do indicador de definição. </p> </td> 
   </tr> 
  </tbody> 
@@ -86,11 +86,11 @@ A aparência de um ponto indicador de definição individual é controlada com o
    <td colname="col2"> <p>Margem inferior em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p>Raio da borda em pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ A aparência de um ponto indicador de definição individual é controlada com o
 
 >[!NOTE]
 >
->Definir ponto indicador é compatível com `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à página atual de miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
+>Definir ponto indicador dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à página atual de miniaturas, `state="unselected"` corresponde ao estado de ponto padrão.
 
 Exemplo - Para criar um ponto indicador de definição com 15 x 15 pixels, com uma margem horizontal de dois pixels, margem superior de cinco pixels, margem inferior de um pixel, raio de 12 pixels, cor padrão #D5D3D3 e cor ativa #939393:
 

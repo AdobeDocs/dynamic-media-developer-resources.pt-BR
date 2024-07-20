@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cria uma conta de usuário e a adiciona a uma ou mais empresas.
 
-Ao adicionar um usuário a várias empresas, especifique essas empresas de acordo com seus manipuladores de empresa em `companyHandleArray`. Esta operação retorna o identificador para o usuário que você acabou de adicionar.
+Ao adicionar um usuário a várias empresas, especifique essas empresas pelos identificadores de empresa em `companyHandleArray`. Esta operação retorna o identificador para o usuário que você acabou de adicionar.
 
 ## Tipos de usuário autorizados {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
@@ -34,7 +34,7 @@ Ao adicionar um usuário a várias empresas, especifique essas empresas de acord
 | firstName | `xsd:string` | Sim | O nome do usuário. |
 | lastName | `xsd:string` | Sim | O sobrenome do usuário. |
 | email | `xsd:string` | Sim | O endereço de email do usuário. |
-| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. Observe, no entanto, que `IpsAdmin` a função substitui outras configurações por empresa. |
+| defaultRole | `xsd:string` | Sim | Define a função de um usuário em cada empresa à qual ele pertence. No entanto, observe que a função `IpsAdmin` substitui outras configurações por empresa. |
 | senha | `xsd:string` | Sim | Define a senha do usuário |
 | passwordExpires | `xsd:dateTime` | Não | Define o período de expiração da senha. Forneça o fuso horário ao transmitir a solicitação. Os fusos horários são ajustados para a Hora central. |
 | isValid | `xsd:boolean` | Sim | Determina se o usuário é válido. |

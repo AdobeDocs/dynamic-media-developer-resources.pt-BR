@@ -16,8 +16,8 @@ ht-degree: 0%
 
 A Renderização de imagem impõe uma limitação de tamanho de dois megapixels para vinhetas que não sejam de pirâmide.
 
-Modifique o valor de `IrMaxNonPyrVignetteSize` no [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se o aplicativo exigir suporte para vinhetas que não sejam de pirâmide com uma área de imagem (largura x altura) maior que esse limite.
+Modifique o valor de `IrMaxNonPyrVignetteSize` em [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] se o aplicativo exigir suporte para vinhetas que não sejam de pirâmide com uma área de imagem (largura x altura) maior que esse limite.
 
 >[!NOTE]
 >
->Ajustar os atributos `attribute::MaxPix` e `IS::MaxMessageSize` para permitir tamanhos de imagem de resposta excepcionalmente grandes. Consulte a documentação do Servidor de imagens para obter mais detalhes.
+>Ajuste os atributos `attribute::MaxPix` e `IS::MaxMessageSize` para permitir tamanhos de imagem de resposta excepcionalmente grandes. Consulte a documentação do Servidor de imagens para obter mais detalhes.

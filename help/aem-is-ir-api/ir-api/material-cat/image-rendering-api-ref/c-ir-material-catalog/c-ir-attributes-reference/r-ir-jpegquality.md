@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Qualidade de codificação de JPEG padrão. Especifica a configuração de quali
 
 ## Propriedades {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1-100 e define a qualidade. O segundo valor pode ser `0` para um comportamento normal, ou `1` para desativar a redução de resolução de cromaticidade utilizada pelos codificadores de JPEG.
+Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1-100 e define a qualidade. O segundo valor pode ser `0` para comportamento normal, ou `1` para desativar a redução de resolução de cromaticidade empregada pelos codificadores de JPEG.
 
 ## Padrão {#section-60900c0fb8c54444b2361513232514db}
 

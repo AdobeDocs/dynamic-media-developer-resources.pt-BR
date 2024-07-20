@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 .s7interactivevideoviewer .s7socialshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS da ferramenta de compartilhamento social**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
    <td colname="col2"> <p> Posição vertical da ferramenta de compartilhamento em redes sociais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 
 ## Exemplo {#example}
 
-Para configurar uma ferramenta de compartilhamento em redes sociais, posicionada a quatro pixels da parte superior e a cinco pixels da direita do contêiner de visualização e dimensionada para 28 x 28 pixels.
+Para configurar uma ferramenta de compartilhamento em redes sociais posicionada a quatro pixels da parte superior e a cinco pixels da direita do contêiner do visualizador e dimensionada a 28 x 28 pixels.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -66,12 +66,12 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 .s7interactivevideoviewer .s7socialshare .s7socialbutton
 ```
 
-**Propriedades CSS do botão de ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS do botão de ferramenta de compartilhamento social**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -83,9 +83,9 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 ## Exemplo {#example-1}
 
@@ -112,12 +112,12 @@ A aparência do painel que contém os ícones individuais de compartilhamento em
 .s7interactivevideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriedades CSS do painel compartilhamento em redes sociais**
+**Propriedades CSS do painel de compartilhamento social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 

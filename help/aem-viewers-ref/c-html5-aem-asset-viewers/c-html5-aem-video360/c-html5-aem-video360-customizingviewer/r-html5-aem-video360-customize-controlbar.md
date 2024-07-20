@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
    <td colname="col2"> <p>Posição a partir da borda superior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ O seletor de classe CSS a seguir controla a aparência da barra de controle:
    <td colname="col2"> <p>Altura da barra de controle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor do plano de fundo da barra de controle. </p> </td> 
   </tr> 
  </tbody> 

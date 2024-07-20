@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a83d6326-9029-4c5c-a069-92bc81120866
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Pressupõe-se que os parâmetros se aplicam à imagem com resolução total e s�
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> quantidade</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> valor</span></span> </p></td> 
   <td class="stentry"> <p>Fator de resistência do filtro (real 0 a 5). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> raio</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p></td> 
   <td class="stentry"> <p>Filtrar raio do kernel em pixels (real 0 a 250). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,11 +43,11 @@ A máscara de camada ou a máscara composta também é afiada.
 
 ## Propriedades {#section-fb5311b34d164946b74dadb32359518a}
 
-Atributo de camada ou atributo de exibição. Aplica-se à camada atual ou à imagem de exibição final se `layer=comp`. Ignorado pelas camadas de efeito.
+Atributo de camada ou atributo de exibição. Aplica-se à camada atual ou à imagem de exibição final, se `layer=comp`. Ignorado pelas camadas de efeito.
 
 ## Padrão {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usm=0,0,0,0` para nenhum efeito de mascaramento sem nitidez.
+`op_usm=0,0,0,0` para nenhum efeito de máscara sem nitidez.
 
 ## Consulte também {#section-63f186b8a1b34ec4bb895230838502a4}
 

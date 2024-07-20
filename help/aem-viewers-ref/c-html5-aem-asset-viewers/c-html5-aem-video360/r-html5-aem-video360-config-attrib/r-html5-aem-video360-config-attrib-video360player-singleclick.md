@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '68'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Atributo de configuração para o Video360 Viewer.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configuração para <span class="codeph"> nenhum</span> desativa o clique único/toque para reproduzir/pausar. Se definida como <span class="codeph"> playPause</span>, em seguida, selecionar o vídeo alterna entre reproduzir e pausar o vídeo. Em alguns dispositivos, você pode usar controles nativos. Neste caso, uma <span class="codeph"> singleclick</span> O comportamento do está desativado. </p> </td> 
+   <td colname="col2"> <p> Configura o mapeamento de um clique único/toque para alternar entre reproduzir/pausar. Configurar como <span class="codeph"> nenhum</span> desabilita o clique único/toque para reproduzir/pausar. Se definido como <span class="codeph"> playPause</span>, a seleção do vídeo alterna entre a reprodução e a pausa do vídeo. Em alguns dispositivos, você pode usar controles nativos. Nesse caso, um comportamento <span class="codeph"> singleclick</span> está desabilitado. </p> </td> 
   </tr> 
  </tbody> 
 </table>

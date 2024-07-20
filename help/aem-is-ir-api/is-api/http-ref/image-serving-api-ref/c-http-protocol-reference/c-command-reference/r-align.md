@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Alinhar imagem com exibição. Alinha a imagem composta (possivelmente após o d
  </tr> 
 </table>
 
-Especificar `align=-1,-1` para alinhar o canto superior esquerdo da imagem composta com o canto superior esquerdo da exibição, especifique `align=1,1` para alinhar a parte inferior direita da imagem com a parte inferior direita da exibição. Para solicitações de imagem e miniatura padrão, qualquer área da exibição que não é coberta por dados de imagem composta é preenchida com `bgc=`.
+Especifique `align=-1,-1` para alinhar o canto superior esquerdo da imagem composta com o canto superior esquerdo da exibição. Especifique `align=1,1` para alinhar o canto inferior direito da imagem com o canto inferior direito da exibição. Para solicitações de imagem e miniatura padrão, qualquer área da exibição que não é coberta pelos dados de imagem composta é preenchida com `bgc=`.
 
 ## Propriedades {#section-3fbec8206fc944eda4746d8be84f3b41}
 
-Exibir atributo. ( `align=` também é usado para definir o alinhamento entre uma imagem de marca d&#39;água e a imagem composta à qual a marca d&#39;água é aplicada.) Aplica-se independentemente da configuração atual da camada. Ignorado se apenas um de `wid=` e `hei=` é especificado e quando `fit=constrain` ou `fit=stretch`.
+Exibir atributo. ( `align=` também é usado para definir o alinhamento entre uma imagem de marca d&#39;água e a imagem composta à qual a marca d&#39;água é aplicada.) Aplica-se independentemente da configuração atual da camada. Ignorado se apenas um de `wid=` e `hei=` for especificado e quando `fit=constrain` ou `fit=stretch`.
 
 ## Padrão {#section-8a9ceff3dcc844c3af23b1c9066dac79}
 
@@ -41,11 +41,11 @@ Exibir atributo. ( `align=` também é usado para definir o alinhamento entre um
 
 ## Exemplo {#section-2c9447aa2e184fb8ab1a4370dc61d554}
 
-A seguinte solicitação se ajusta `myImage` em um retângulo de visualização com 200x200 pixels.
+A solicitação a seguir cabe `myImage` em um retângulo de exibição de 200x200 pixels.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=0,-1`
 
-Se `myImage` é exatamente quadrado, ele preenche o retângulo de exibição inteiro. Se `myImage` tem uma taxa de proporção retrato, é dimensionada para ter 200 pixels de altura e é centralizada horizontalmente na exibição. Se `myImage` tem uma taxa de proporção paisagem, foi dimensionada para ter 200 pixels de largura e está alinhada à borda superior da exibição. Em todos os casos, a imagem retornada tem o tamanho exato de 200x200 pixels; qualquer espaço não coberto pela imagem dimensionada `myImage` é preenchido com `attribute::BkgColor` (especifique bgc= para controlar a cor do plano de fundo dinamicamente).
+Se `myImage` for exatamente quadrado, ele preencherá o retângulo de exibição inteiro. Se `myImage` tiver uma proporção de retrato, ela será dimensionada para ter 200 pixels de altura e centralizada horizontalmente na exibição. Se `myImage` tiver uma taxa de proporção de paisagem, ela será dimensionada para ter 200 pixels de largura e será alinhada à borda superior da exibição. Em todos os casos, a imagem retornada tem exatamente 200x200 pixels de tamanho; qualquer espaço não coberto pelo `myImage` dimensionado é preenchido com `attribute::BkgColor` (especifique bgc= para controlar a cor do plano de fundo dinamicamente).
 
 ## Consulte também {#section-28b42c6db199456a800c8407faa26a99}
 

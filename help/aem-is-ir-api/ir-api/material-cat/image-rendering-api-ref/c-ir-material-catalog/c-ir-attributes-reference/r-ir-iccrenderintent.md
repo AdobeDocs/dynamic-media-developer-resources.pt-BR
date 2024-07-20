@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Enum. Ajuste para 0 para perceptivo, 1 para colorimétrico relativo, 2 para satu
 
 ## Padrão {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Herdado de `default::IccRenderIntent`se não estiver definido. Se vazio, a &quot;colorimétrica relativa&quot; é aplicada.
+Herdado de `default::IccRenderIntent` se não estiver definido. Se vazio, a &quot;colorimétrica relativa&quot; é aplicada.
 
 ## Consulte também {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 

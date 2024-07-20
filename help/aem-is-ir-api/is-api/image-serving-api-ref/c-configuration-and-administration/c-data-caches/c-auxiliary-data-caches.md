@@ -18,4 +18,4 @@ Os dados de imagem intermediários produzidos por solicitações aninhadas/incor
 
 Imagens obtidas de servidores HTTP estrangeiros também são armazenadas no cache de dados de resposta. Essas imagens são validadas automaticamente com o utilitário de validação antes da geração da entrada de cache.
 
-A variável [!DNL Platform Server] O compila os dados do catálogo de imagens para um acesso eficiente. Esses dados são armazenados no `CS::CatalogCacheFolder`.
+O [!DNL Platform Server] compila os dados do catálogo de imagens para obter um acesso eficiente. Estes dados estão armazenados em `CS::CatalogCacheFolder`.

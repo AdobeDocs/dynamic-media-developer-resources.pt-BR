@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Atributos de texto no caminho.
  </tr> 
 </table>
 
-Especificar `norm` para desenhar o texto começando próximo ao primeiro vértice do caminho e `reverse` para desenhar o texto na direção oposta, começando perto do último vértice.
+Especifique `norm` para desenhar o texto começando próximo ao primeiro vértice de caminho e `reverse` para desenhar o texto na direção oposta, começando próximo ao último vértice.
 
-*`startPos`* e *`endPos`* permite ajustar onde o texto é desenhado no demarcador. 0,0 corresponde ao primeiro vértice no caminho e 1,0 ao último vértice; valores intermediários expressam a distância ao longo do caminho entre o primeiro e o último vértice.
+*`startPos`* e *`endPos`* permitem ajustar onde o texto é desenhado no caminho. 0,0 corresponde ao primeiro vértice no caminho e 1,0 ao último vértice; valores intermediários expressam a distância ao longo do caminho entre o primeiro e o último vértice.
 
 ## Propriedades {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Atributo de camada. Ignorado se a camada não incluir `textPs=` e `textPath=` comandos.
+Atributo de camada. Ignorado se a camada não incluir os comandos `textPs=` e `textPath=`.
 
-*`startPos`* deve ser maior ou igual a 0 e menor que 1,0. *`endPos`* deve ser maior que *`startPos`* e menor ou igual a 1.0 quando aplicado a um caminho aberto, ou menor ou igual a ( *`startPos`* + 1.0) quando aplicado a um caminho fechado.
+*`startPos`* deve ser maior ou igual a 0 e menor que 1.0. *`endPos`* deve ser maior que *`startPos`* e menor ou igual a 1.0 quando aplicado a um caminho aberto, ou menor ou igual a ( *`startPos`* + 1.0) quando aplicado a um caminho fechado.
 
 ## Padrão {#section-3e757970885c45e7b6100e78dc08626f}
 

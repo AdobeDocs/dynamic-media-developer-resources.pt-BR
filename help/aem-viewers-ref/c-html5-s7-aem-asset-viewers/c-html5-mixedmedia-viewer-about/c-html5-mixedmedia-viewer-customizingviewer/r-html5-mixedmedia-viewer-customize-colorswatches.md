@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência do contêiner de amostras é controlada com o seletor de classe CSS
    <td colname="col2"> <p>A altura das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>O deslocamento das amostras verticais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ O espaçamento entre as miniaturas de amostra é controlado com o seguinte selet
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margem </span> </p> </td> 
-   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real da miniatura é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> O tamanho da margem horizontal e vertical ao redor de cada miniatura. O espaçamento real entre miniaturas é igual à soma das margens esquerda e direita definidas para <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +109,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem que está sendo exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 56 x 56 pixels, tem uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
@@ -132,7 +132,7 @@ A aparência dos botões de rolagem para a esquerda e para a direita é controla
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando propriedades CSS `top`, `left`, `bottom` e `right`. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -151,7 +151,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over` e `disabled`.
 
 Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham um trabalho artístico diferente para cada estado.
 

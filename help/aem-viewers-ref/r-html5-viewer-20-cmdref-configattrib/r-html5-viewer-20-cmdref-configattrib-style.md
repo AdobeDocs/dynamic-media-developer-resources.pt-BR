@@ -22,7 +22,7 @@ Você pode aplicar o seguinte comando a partir da string de consulta e da config
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Local de CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se a variável <span class="codeph"><span class="varname"> cssPath</span></span> é relativo, é resolvido em relação ao local da página do HTML do visualizador e ao valor de <span class="codeph"> contentUrl=</span> parâmetro. </p> </td> 
+   <td colname="col2"> <p> Local de CSS relativo ou absoluto. </p> <p>Especifica o local do arquivo CSS personalizado. Se o <span class="codeph"><span class="varname"> cssPath</span></span> for relativo, ele será resolvido em relação ao local da página de HTML do visualizador e ao valor do parâmetro <span class="codeph"> contentUrl=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

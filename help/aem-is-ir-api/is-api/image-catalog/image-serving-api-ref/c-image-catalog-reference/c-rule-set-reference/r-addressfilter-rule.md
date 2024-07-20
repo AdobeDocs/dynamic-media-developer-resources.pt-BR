@@ -1,5 +1,5 @@
 ---
-description: Elemento de filtro de endereço. Opcional em <rule> e <pathrule> elementos.
+description: Elemento de filtro de endereço. Opcional nos elementos <rule> e <pathrule>.
 solution: Experience Manager
 title: addressfilter
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # addressfilter{#addressfilter}
 
-Elemento de filtro de endereço. Opcional em `<rule>` e `<pathrule>` elementos.
+Elemento de filtro de endereço. Opcional em elementos `<rule>` e `<pathrule>`.
 
-Substituições `attribute::ClientAddressFilter` quando a regra é aplicada.
+Substitui `attribute::ClientAddressFilter` quando a regra é aplicada.
 
 ## Atributos {#section-31e9ad29e9934933ac154bccbc729172}
 
@@ -28,11 +28,11 @@ Lista de endereços IP separados por vírgulas. Cada endereço individual pode i
 
 ## Descrição {#section-d561b2485e004ef8a2085997d0f4bca6}
 
-O acesso a esse catálogo de imagens pode ser restrito a um ou mais endereços IP de cliente específicos, especificando-os em um `<addressfilter>` elemento. Um erro &quot;request refused&quot; é retornado ao cliente se o endereço IP do cliente não for compatível.
+O acesso a este catálogo de imagens pode ser restrito a um ou mais endereços IP de cliente específicos especificando-os em um elemento `<addressfilter>`. Um erro &quot;request refused&quot; é retornado ao cliente se o endereço IP do cliente não for compatível.
 
-O acesso não é restrito se `<addressfilter>` está vazio ou não foi especificado.
+O acesso não é restrito se `<addressfilter>` estiver vazio ou não for especificado.
 
-Se a variável `<expression>` no `<rule>` estiver ausente ou vazio, a variável `<addressfilter>` é aplicado a todas as solicitações.
+Se o `<expression>` no elemento `<rule>` estiver ausente ou vazio, o `<addressfilter>` será aplicado a todas as solicitações.
 
 ## Consulte também {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

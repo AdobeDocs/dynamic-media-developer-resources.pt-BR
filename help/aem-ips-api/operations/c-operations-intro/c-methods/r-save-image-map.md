@@ -64,7 +64,7 @@ Sintaxe
    <td colname="col4"> O identificador para o mapa de imagem. Cria um mapa de imagem se NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> O nome do mapa de imagem criado ou salvo. </td> 
@@ -85,16 +85,16 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> ação </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Sim </td> 
-   <td colname="col4"> <p>A variável <span class="codeph"> href </span> valor associado ao mapa de imagem conforme especificado na interface IPS. </p> <p>Para obter a <span class="codeph"> href </span> , clique na imagem na interface do IPS, copie e cole o URL nesse elemento e formate o URL do IPS como um URL apropriado. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>O valor <span class="codeph"> href </span> associado ao mapa de imagem conforme especificado na interface IPS. </p> <p>Para obter o valor <span class="codeph"> href </span>, clique na imagem na interface IPS, copie e cole a URL nesse elemento e formate a URL IPS como uma URL apropriada. Por exemplo, <span class="codeph"> &amp; </span> torna-se <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> posição </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> A ordem na lista de mapas de imagem (o eixo Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> habilitado </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> habilitou </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano </span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"></td> 

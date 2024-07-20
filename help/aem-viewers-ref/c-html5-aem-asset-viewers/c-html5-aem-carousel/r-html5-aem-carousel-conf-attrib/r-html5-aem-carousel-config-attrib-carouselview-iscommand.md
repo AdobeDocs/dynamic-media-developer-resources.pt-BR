@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem do banner. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve ser codificado em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">iscommand </span></span> </p> </td> 
+   <td colname="col2"> <p> A sequência de comando do Servidor de imagens que é aplicada à imagem do banner. Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

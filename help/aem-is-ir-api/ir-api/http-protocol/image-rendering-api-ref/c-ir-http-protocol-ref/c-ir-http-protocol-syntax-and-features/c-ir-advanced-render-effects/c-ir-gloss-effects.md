@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Se ativado na vinheta, o renderizador varia o algoritmo de iluminação para simular uma variação do brilho do material (principalmente controlando o contraste).
 
-Esse efeito é independente da renderização da reflexão e o complementa simulando reflexões especulares. O efeito é controlado com o mesmo `gloss=`, `glossmap=`, e `type=` atributos que são usados para controlar reflexões.
+Esse efeito é independente da renderização da reflexão e o complementa simulando reflexões especulares. O efeito é controlado com os mesmos atributos `gloss=`, `glossmap=` e `type=` que são usados para controlar reflexões.

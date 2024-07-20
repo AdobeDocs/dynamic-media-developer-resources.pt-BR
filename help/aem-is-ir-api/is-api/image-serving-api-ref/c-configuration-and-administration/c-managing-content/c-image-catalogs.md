@@ -18,4 +18,4 @@ Os catálogos de imagens fornecem muitas definições de configuração do servi
 
 Eles mapeiam ids de imagem e conteúdo estático usadas em solicitações para caminhos de arquivos reais, armazenam vários metadados de imagem, como mapas de imagem, e fornecem containers para modelos e conjuntos de imagens.
 
-Os catálogos de imagens são acessados somente pelo [!DNL Platform Server], nunca pelo Servidor de imagens. Os arquivos de atributo do catálogo devem ter um sufixo .ini e ser colocados na variável [!DNL Platform Server]Pasta de catálogo do ( `PS::CatalogFolder`). Pelo menos o catálogo de imagens padrão é necessário e deve ser preenchido com todos os atributos para o funcionamento correto do [!DNL Platform Server].
+Os catálogos de imagens são acessados somente pelo [!DNL Platform Server], nunca pelo Servidor de imagens. Os arquivos de atributo de catálogo devem ter um sufixo .ini e ser colocados na pasta de catálogo de [!DNL Platform Server] ( `PS::CatalogFolder`). Pelo menos o catálogo de imagens padrão é necessário e deve ser preenchido com todos os atributos para o funcionamento correto do [!DNL Platform Server].

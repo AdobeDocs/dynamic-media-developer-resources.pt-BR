@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Contém configurações do servidor da plataforma.
 
-Ao modificar esse arquivo XML, é necessário ter cuidado para manter a sintaxe XML válida; caso contrário, a variável [!DNL Platform Server] pode falhar ao iniciar.
+Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida; caso contrário, o [!DNL Platform Server] pode não ser iniciado.
 
-Para que as alterações entrem em [!DNL Platform Server] deve ser reiniciado após a edição deste arquivo.
+Para que as alterações entrem em vigor, o [!DNL Platform Server] deve ser reiniciado após a edição deste arquivo.
 
 O diagrama a seguir ilustra quais configurações podem ser alteradas nesse arquivo. Consulte as seções correspondentes apresentadas anteriormente neste documento para obter uma descrição dessas configurações. Observe que este diagrama não é uma representação completa de [!DNL server.xml].
 

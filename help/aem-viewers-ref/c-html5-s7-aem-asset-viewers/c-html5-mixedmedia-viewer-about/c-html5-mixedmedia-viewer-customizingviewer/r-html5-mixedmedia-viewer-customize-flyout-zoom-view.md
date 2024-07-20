@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência da visualização principal é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Substituição por CSS usando `left` ou `right` não há suporte para propriedades.
+É possível configurar o estilo da fonte, a aparência do tamanho e o deslocamento vertical por meio do CSS. No entanto, o alinhamento horizontal é gerenciado pela lógica do visualizador. Não há suporte para a substituição por CSS usando as propriedades `left` ou `right`.
 
 **Propriedades CSS da mensagem de dica**
 
@@ -70,15 +70,15 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de preenchimento do plano de fundo da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda do fundo da mensagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> Deslocamento da parte inferior da exibição principal. </p> </td> 
   </tr> 
   <tr> 
@@ -86,11 +86,11 @@ A aparência da mensagem de dica é controlada com o seguinte seletor de classe 
    <td colname="col2"> <p>Cor do texto da dica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 

@@ -23,4 +23,4 @@ Você pode configurar caches de dados.
 
 ## Consulte também {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[Caches do servidor](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e), [Clustering de cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[Caches de Servidor](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e), [Clustering de Cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)

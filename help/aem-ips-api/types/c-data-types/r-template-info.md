@@ -23,5 +23,5 @@ Os modelos são definições de camada parametrizadas que constroem uma imagem e
 | Nome | Tipo | Descrição |
 |---|---|---|
 | url | `xsd:string` | URL do servidor de imagens que representa o modelo. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Dados de destino do zoom. Nenhuma ou mais propriedades de direcionamento de zoom, que podem ser usadas em conjunto com o cliente do visualizador de zoom.
 
-O servidor retorna o conteúdo desse campo em resposta a `req=targets`, após substituir &#39; `??`&#39; tokens de terminador de registro.
+O servidor retorna o conteúdo desse campo em resposta a `req=targets`, após substituir os tokens de terminador de registro &#39; `??`&#39;.
 
 Até quatro propriedades podem ser associadas a cada alvo de zoom:
 
-` Target. *`num`*.frame= *`quadro`*`
+` Target. *`núm`*.frame= *`quadro`*`
 
-` Target. *`num`*.rect= *`esquerda,superior,largura,altura`*`
+` Target. *`núm`*.rect= *`esquerda,superior,largura,altura`*`
 
-` Target. *`num`*.label= *`rótulo`*`
+` Target. *`núm`*.label= *`rótulo`*`
 
 ` Target. *`num`*.userData= *`userData`*`
 
@@ -38,7 +38,7 @@ Até quatro propriedades podem ser associadas a cada alvo de zoom:
   <td class="stentry"> <p>Número de quadro/página opcional para direcionar um quadro/página específico de uma rotação ou conjunto de folhetos; o padrão é 0, se não estiver especificado para uso do visualizador de folheto e rotação; ignorado pelo visualizador de zoom. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> esquerda, acima </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> esquerda, </span> </span> superior </p> </td> 
   <td class="stentry"> <p>Deslocamento de pixel do canto superior esquerdo da imagem para o canto superior esquerdo do retângulo de destino de zoom (int, int); deve ser 0 ou maior. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -57,15 +57,15 @@ Até quatro propriedades podem ser associadas a cada alvo de zoom:
 
 Público alvo. *`num`*.rect é necessário para cada destino de zoom e deve especificar um retângulo totalmente dentro da imagem. Todas as outras propriedades são opcionais.
 
-*`label`* e *`userData`* participar da localização da sequência de texto. Consulte [Localização da sequência de caracteres de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) no *Referência de protocolo HTTP* para obter detalhes.
+*`label`* e *`userData`* participam da localização da cadeia de texto. Consulte [Localização de Cadeia de Caracteres de Texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) na *Referência de Protocolo HTTP* para obter detalhes.
 
 Para aplicativos envolvendo os clientes do visualizador de folheto e rotação, os destinos de zoom devem ser definidos no mesmo registro de catálogo que define o conjunto de imagens. Quaisquer definições de destino de zoom nos registros de catálogo dos membros do conjunto de imagens são ignoradas pelo visualizador.
 
-Os visualizadores do Dynamic Media esperam destinos de zoom nas coordenadas da imagem com resolução total já ajustadas pelos comandos de `catalog::Modifier`.
+Os visualizadores do Dynamic Media esperam destinos de zoom nas coordenadas da imagem com resolução total já ajustada pelos comandos de `catalog::Modifier`.
 
 ## Propriedades {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
-[Dados de propriedade](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md) valor.
+Valor de [dados de propriedade](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-property-data.md).
 
 ## Padrão {#section-feab29f6575e482391086a57f547543c}
 
@@ -73,4 +73,4 @@ Nenhum.
 
 ## Consulte também {#section-83dea73b1dbf4aa1b64b0aae2933e6e1}
 
-[catalog::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) , [catálogo::Modificador](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834), [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Localização da sequência de caracteres de texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
+[catálogo::ImageSet](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md#reference-4764d347afd64afdaede9a74c7565256) , [catálogo::Modificador](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md#reference-d2c6884b3a2248fab81a112d27969834), [req=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md), [Localização de Cadeia de Caracteres de Texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)

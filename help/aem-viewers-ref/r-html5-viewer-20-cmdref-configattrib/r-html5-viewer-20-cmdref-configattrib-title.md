@@ -23,7 +23,7 @@ ht-degree: 0%
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleImage</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
    <td colname="col2"> <p>Especifica o título da janela do navegador que contém o visualizador. </p> </td> 
   </tr> 
  </tbody> 

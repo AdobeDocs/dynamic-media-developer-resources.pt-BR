@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo exibido pelo Visualizador de vídeo está sujeito a localização. Esse conteúdo inclui dicas de ferramentas do elemento da interface do usuário e uma mensagem de erro que é exibida quando o vídeo não pode ser reproduzido.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado ao padrão para o local em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para a localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso. Ela também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado para o local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto de localização define dois locais ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada local.
+No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos de interface do usuário em cada localidade.
 
-O código da página da Web deve passar esse objeto de localização para o construtor do visualizador como um valor de `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar esse objeto de localização para o construtor do visualizador como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados:
 
@@ -53,11 +53,11 @@ Os seguintes SYMBOLs são suportados:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RÓTULO.Contêiner </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p> Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELETED </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o estado do botão pausar reprodução selecionado. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Os seguintes SYMBOLs são suportados:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Rótulo do botão deslizante de volume exposto por meio da ARIA <span class="codeph"> aria-valuetext </span> atributo. </p> </td> 
+   <td colname="col2"> <p> Rótulo do botão deslizante de volume exposto por meio do atributo ARIA <span class="codeph"> aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -121,11 +121,11 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Dica de ferramenta para o botão de fechamento superior direito da caixa de diálogo de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.ENDEREÇO_INVÁLIDO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para a mensagem de erro exibida caso o endereço de email esteja malformado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.TO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.PARA </span> </p> </td> 
    <td colname="col2"> <p>Rótulo para o campo de entrada "Para". </p> </td> 
   </tr> 
   <tr> 
@@ -133,11 +133,11 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Dica de ferramenta para o botão "Adicionar outro endereço de email". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.ADD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.ADICIONAR </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão "Adicionar outro endereço de email". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.DE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.DE </span> </p> </td> 
    <td colname="col2"> <p>Rótulo para o campo de entrada "De". </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Dica de ferramenta para o botão "Remover endereço de email". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.CANCELAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão "Cancelar". </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Mensagem de confirmação exibida quando o email foi enviado com êxito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.ENVIAR_FALHA </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de erro exibida quando o email não foi enviado com êxito. </p> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ Os seguintes SYMBOLs são suportados:
    <td colname="col2"> <p>Legenda do botão "Selecionar tudo". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Ação LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> AÇÃO LinkShare.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Dica de ferramenta para o botão "Selecionar tudo". </p> </td> 
   </tr> 
   <tr> 

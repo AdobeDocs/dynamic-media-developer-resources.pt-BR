@@ -29,7 +29,7 @@ ht-degree: 0%
       ]&gt;</code> </p> <p>A sintaxe real do template de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
-      &lt;/info&gt;</code> </p> <p>Ou seja, o template deve começar com o <span class="codeph"> &lt;info&gt;</span> elemento que pode conter padrão opcional <span class="codeph"> &lt;var&gt;</span> elementos. O próprio conteúdo do template, <span class="codeph"> TEMPLATE_CONTENT</span> é texto de HTML. Além disso, o template de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres. Esses caracteres são substituídos pelos valores da variável que o servidor de informações retorna ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de substituição não estiver definido) ou específicas para uma determinada chave de substituição (se o atributo de substituição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para as teclas de rolagem têm prioridade sobre as variáveis globais. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>Ou seja, o modelo deve começar com o elemento <span class="codeph"> &lt;info&gt;</span> que pode conter elementos <span class="codeph"> &lt;var&gt;</span> opcionais padrão. O conteúdo do modelo em si, <span class="codeph"> TEMPLATE_CONTENT</span> é texto HTML. Além disso, o modelo de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres. Esses caracteres são substituídos pelos valores da variável que o servidor de informações retorna ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de substituição não estiver definido) ou específicas para uma determinada chave de substituição (se o atributo de substituição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para as teclas de rolagem têm prioridade sobre as variáveis globais. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +48,6 @@ Nenhum.
 
 ## Exemplo {#section-16d184665c484964af9a22f79ff3f840}
 
-Supor que a resposta do servidor de informações retorne o nome do produto como variável `$1$` e o URL da imagem do produto é retornado como variável `$2$`.
+Presumindo que a resposta do servidor de informações retorna o nome do produto como a variável `$1$` e a URL da imagem do produto é retornada como a variável `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`

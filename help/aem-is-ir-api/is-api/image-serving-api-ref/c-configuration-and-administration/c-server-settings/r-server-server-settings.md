@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ As versões de 32 e 64 bits do Servidor de imagens estão disponíveis para Linu
 
 >[!NOTE]
 >
->Não há suporte para o modo de 64 bits no Windows. Somente `ImageServer32` podem ser especificadas. Caso contrário, o Servidor de imagens não será iniciado.
+>Não há suporte para o modo de 64 bits no Windows. Somente `ImageServer32` pode ser especificado. Caso contrário, o Servidor de imagens não será iniciado.
 
-## SV::PsHeapSize - [!DNL Platform Server] Tamanho do heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Tamanho do Heap {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
 O tamanho do heap de Java para o [!DNL Platform Server]. O padrão é &quot; `512m`&quot; (512 Mbytes).
 
 ## IS::TcpPort, PS::isConnection.port - Porta de Escuta do Servidor de Imagens {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Especifica a porta usada para comunicação entre a [!DNL Platform Server] e o Servidor de imagens. Certifique-se de especificar um número de porta que não seja usado no sistema host.
+Especifica a porta usada para comunicação entre o [!DNL Platform Server] e o Servidor de Imagens. Certifique-se de especificar um número de porta que não seja usado no sistema host.
 
 >[!NOTE]
 >

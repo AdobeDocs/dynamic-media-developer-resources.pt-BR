@@ -43,7 +43,7 @@ Sintaxe
 | type | `xsd:string` | Sim | Tipo de conjunto de imagens. |
 | thumbAssetHandle | `xsd:string` | Não | Identificador do ativo que atua como a miniatura do novo conjunto de imagens. Se não for especificado, o IPS tentará usar o primeiro ativo de imagem referenciado pelo conjunto. |
 
-**Output**
+**Saída**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|

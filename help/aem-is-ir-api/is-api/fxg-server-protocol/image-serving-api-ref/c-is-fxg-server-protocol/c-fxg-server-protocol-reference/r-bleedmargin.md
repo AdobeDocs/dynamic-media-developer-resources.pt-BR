@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Definir margem de sangria. Define a margem de sangria definida no arquivo PDF.
 
-`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` nos pontos
+`bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` em pontos
 
-Por padrão, a variável `bleedMargin` está definido com o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. A variável *[!DNL left]*, *[!DNL bottom]*, e *[!DNL right]* os valores são padronizados para o *[!DNL top]* valor, se não for especificado.
+Por padrão, o `bleedMargin` está definido como o tamanho máximo do documento definido por `viewWidth` e `viewHeight`. Os valores *[!DNL left]*, *[!DNL bottom]* e *[!DNL right]* assumem como padrão o valor *[!DNL top]*, se não forem especificados.

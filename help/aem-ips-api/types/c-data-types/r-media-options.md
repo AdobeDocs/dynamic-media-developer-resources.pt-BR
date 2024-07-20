@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:HandleArray</span> </td> 
-   <td colname="col3">Uma matriz de <span class="codeph"> PropertySet</span> O lida com a referência de predefinições de codificação de vídeo para transcodificar vídeos. </td> 
+   <td colname="col3">Uma matriz de <span class="codeph"> PropertySet</span> manipula a referência às predefinições de codificação de vídeo para transcodificar vídeos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
@@ -41,8 +41,8 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:OpçõesDeMiniatura</span> </td> 
-   <td colname="col3">Opcional. Permite escolher um quadro de vídeo específico para usar como imagem em miniatura. <p>Para especificar uma imagem em miniatura, passe o tempo (em milissegundos a partir do início do vídeo) do quadro que deseja usar. Os valores variam de 0 ao final do vídeo. <p>Observação: se você especificar o horário incorretamente, <span class="codeph"> generateThumbnail</span> O padrão é true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> OpçõesDeMiniatura</a>. </p></td> 
+   <td colname="col2"> <span class="codeph"> tipos:ThumbnailOptions</span> </td> 
+   <td colname="col3">Opcional. Permite escolher um quadro de vídeo específico para usar como imagem em miniatura. <p>Para especificar uma imagem em miniatura, passe o tempo (em milissegundos a partir do início do vídeo) do quadro que deseja usar. Os valores variam de 0 ao final do vídeo. <p>Observação: se você especificar a hora incorretamente, <span class="codeph"> generateThumbnail</span> assumirá como padrão o valor true. </p></p><p>Consulte <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Sintaxe
 
 ## Usado por {#section-87cb83407198432c95eaa2db9f12f9db}
 
-A variável `mediaOptions` tipo é usado por:
+O tipo `mediaOptions` é usado por:
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

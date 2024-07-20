@@ -1,5 +1,5 @@
 ---
-description: A Biblioteca de imagens responsiva é um módulo JavaScript que ajusta dinamicamente a qualidade de imagens veiculadas no Dynamic Media e incorporadas em páginas da Web responsivas. Além disso, oferece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar com agilidade os resultados do Recorte inteligente e do Recorte inteligente.
+description: A Biblioteca de imagens responsiva é um módulo do JavaScript que ajusta dinamicamente a qualidade de imagens veiculadas no Dynamic Media e incorporadas em páginas da Web responsivas. Além disso, oferece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar com agilidade os resultados do Recorte inteligente e do Recorte inteligente.
 solution: Experience Manager
 title: Sobre a biblioteca de imagens responsiva
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # Sobre a biblioteca de imagens responsiva{#about-responsive-image-library}
 
-A Biblioteca de imagens responsiva é um módulo JavaScript que ajusta dinamicamente a qualidade de imagens veiculadas no Dynamic Media e incorporadas em páginas da Web responsivas. Além disso, oferece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar com agilidade os resultados do Recorte inteligente e do Recorte inteligente.
+A Biblioteca de imagens responsiva é um módulo do JavaScript que ajusta dinamicamente a qualidade de imagens veiculadas no Dynamic Media e incorporadas em páginas da Web responsivas. Além disso, oferece qualidade de imagem aprimorada em dispositivos com telas de alta densidade. A biblioteca também pode renderizar com agilidade os resultados do Recorte inteligente e do Recorte inteligente.
 
 ## URLs de demonstração {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
@@ -57,7 +57,7 @@ O caso de uso mais simples da Biblioteca de imagens responsiva é definir uma li
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Você também pode usar os comandos do Servidor de imagens com os Modelos de servidor de imagens para controlar determinados parâmetros de modelo com base no tamanho da imagem. Neste próximo exemplo, um modelo de disponibilização de imagens é usado, onde o tamanho da fonte da sobreposição de texto é parametrizado com o uso de <span class="codeph"> $fontsize </span> parâmetro. A imagem responsiva é configurada para usar um tamanho de fonte maior para tamanhos de imagem menores para garantir que o texto sempre permaneça legível: </p> </td> 
+   <td colname="col2"> <p>Você também pode usar os comandos do Servidor de imagens com os Modelos de servidor de imagens para controlar determinados parâmetros de modelo com base no tamanho da imagem. Neste próximo exemplo, um modelo de disponibilização de imagens é usado, onde o tamanho da fonte da sobreposição de texto é parametrizado usando o parâmetro <span class="codeph"> $fontsize </span>. A imagem responsiva é configurada para usar um tamanho de fonte maior para tamanhos de imagem menores para garantir que o texto sempre permaneça legível: </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo da janela principal. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 
 Você pode localizar a mensagem de erro exibida nos casos em que o sistema não consegue reproduzir o vídeo.
 
-Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exemplo - Para configurar um visualizador de vídeo com o tamanho do reprodutor de vídeo definido como 512 x 288 pixels.
 
@@ -53,12 +53,12 @@ As legendas ocultas são colocadas em um container interno no reprodutor de víd
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**Propriedades CSS das legendas ocultas**
+**Propriedades CSS de legendas ocultas**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do texto da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
@@ -66,15 +66,15 @@ As legendas ocultas são colocadas em um container interno no reprodutor de víd
    <td colname="col2"> <p>Cor do texto da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p> Peso da fonte da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p> Tamanho da fonte da legenda oculta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Fonte da legenda oculta. </p> </td> 
   </tr> 
  </tbody> 
@@ -127,7 +127,7 @@ A aparência da animação em buffer é controlada com o seguinte seletor de cla
    <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Obstrução de arte. </p> </td> 
   </tr> 
  </tbody> 

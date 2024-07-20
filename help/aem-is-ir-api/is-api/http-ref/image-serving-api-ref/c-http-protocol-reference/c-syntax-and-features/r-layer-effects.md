@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Qualquer número de efeitos de camada pode ser anexado a uma única camada princ
 
 ## Efeitos internos e externos {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Efeitos internos* são renderizados na parte superior da camada principal e são visíveis apenas em áreas opacas da camada principal. *Efeitos externos* são renderizados atrás da camada principal (portanto, nunca são visíveis em áreas opacas da camada principal) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo-se um número de camada de efeito positivo ou negativo com o `effect=` comando. A variável `effect=` Esse comando também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada principal.
+*Os efeitos internos* são renderizados na parte superior da camada pai e são visíveis apenas em áreas opacas dessa camada. *Os efeitos externos* são renderizados atrás da camada pai (portanto, nunca são visíveis em áreas opacas da camada pai) e podem ser posicionados em qualquer lugar dentro da tela de composição. Um efeito interno ou externo é escolhido atribuindo-se um número de camada de efeito positivo ou negativo com o comando `effect=`. O comando `effect=` também controla a ordenação z entre várias camadas de efeito anexadas à mesma camada pai.
 
 ## Relação com a camada principal {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-As camadas de efeito são dimensionadas e posicionadas automaticamente para coincidir com a camada principal (ou seja, a camada de efeito herda a `size=` e `origin=` da camada principal). `pos=` pode ser usado para afastar a camada de efeito da camada principal, como normalmente é necessário para efeitos de soltar e sombra interna. Enquanto para camadas padrão `pos=` especifica um deslocamento entre as origens dessa camada e a camada 0, para camadas de efeito `pos=` especifica o deslocamento entre as origens da camada de efeito e da camada pai.
+As camadas de efeito são dimensionadas e posicionadas automaticamente para coincidir com a camada principal (ou seja, a camada de efeito herda os valores `size=` e `origin=` da camada principal). `pos=` pode ser usado para deslocar a camada de efeito para fora da camada pai, como normalmente é necessário para os efeitos de soltar e sombra interna. Enquanto para as camadas padrão `pos=` especifica um deslocamento entre as origens dessa camada e a camada 0, para as camadas de efeito `pos=` especifica o deslocamento entre as origens da camada de efeito e da camada pai.
 
 ## Comandos e atributos compatíveis {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -81,14 +81,14 @@ Adicione uma borda vermelha de três pixels de largura com 50% de opacidade a um
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-A borda segue os contornos do canal ou máscara alfa da imagem. Configuração `effect=1` em vez disso, colocaria a borda na borda interna.
+A borda segue os contornos do canal ou máscara alfa da imagem. Em vez disso, a configuração `effect=1` colocaria a borda na borda interna.
 
 Adicionar uma sombra projetada azulada a uma imagem, usando as configurações de efeito padrão (exceto para a cor):
 
 [!DNL http://server/is/image/myCat/myImage?size=200,200&extend=0,0,10,10&effect=-1&$shadow$&color=50,143,254]
 
-`extend=` adiciona uma pequena margem às bordas inferiores direita da imagem, o que impede que a sombra seja recortada nos limites da imagem.
+`extend=` adiciona uma pequena margem às bordas inferiores direita da imagem, o que impede que a sombra projetada seja recortada para os limites da imagem.
 
 ## Consulte também {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[efeito=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de Comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[efeito=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de comando%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

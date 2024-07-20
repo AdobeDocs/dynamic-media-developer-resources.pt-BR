@@ -18,18 +18,18 @@ A parte de consulta das solicitações e as strings vignette::Modifier podem inc
 
 `$ [!DNL name] = [!DNL value]`
 
-`[!DNL name]` - Nome da variável. Pode consistir em qualquer combinação de caracteres alfabéticos, dígitos e seguros, excluindo `$`.
+`[!DNL name]` - Nome da variável. Pode consistir em qualquer combinação de caracteres alfabéticos, dígitos e seguros, exceto `$`.
 
-`[!DNL value]` - Valor com o qual a variável deve ser definida (string).
+`[!DNL value]` - Valor para o qual a variável deve ser definida (cadeia de caracteres).
 
-As variáveis são definidas de forma semelhante a outros comandos do servidor, usando a sintaxe acima. As variáveis devem ser definidas antes de serem referenciadas. Variáveis definidas em `vignette::Modifier` podem ser referenciados na solicitação de URL e vice-versa.
+As variáveis são definidas de forma semelhante a outros comandos do servidor, usando a sintaxe acima. As variáveis devem ser definidas antes de serem referenciadas. As variáveis definidas em `vignette::Modifier` podem ser referenciadas na solicitação de URL e vice-versa.
 
 >[!NOTE]
 >
->`[!DNL value]` deve ser codificado em URL de passagem única para transmissão HTTP segura. A codificação dupla é necessária se `[!DNL value]` O é retransmitido por meio de HTTP. Esta situação ocorre quando `[!DNL value]` é substituída em uma solicitação externa aninhada.
+>`[!DNL value]` deve ser codificado em URL de passagem única para transmissão HTTP segura. A codificação dupla será necessária se `[!DNL value]` for retransmitido por meio de HTTP. Esta situação ocorre quando `[!DNL value]` é substituído em uma solicitação externa aninhada.
 
-As variáveis são referenciadas incorporando o nome da variável (delimitado por uma à esquerda e uma à direita) `$`) em qualquer lugar nos valores de comando. Por exemplo, entre a variável `=`  seguindo o nome do comando e as configurações subsequentes `&` ou no final da solicitação. O servidor substitui cada ocorrência de `$ [!DNL name]$` com `[!DNL string]`. Não ocorrem substituições em nenhuma ocorrência de `$ [!DNL name]$` em nomes de comando (antes do sinal de igual de um comando) e na parte do caminho da solicitação.
+As variáveis são referenciadas incorporando o nome da variável (delimitado por um `$` à esquerda e à direita) em qualquer lugar nos valores do comando. Por exemplo, entre o `=` que segue o nome do comando e o `&` subsequente ou o fim da solicitação. O servidor substitui cada ocorrência de `$ [!DNL name]$` por `[!DNL string]`. Não ocorrem substituições em nenhuma ocorrência de `$ [!DNL name]$` em nomes de comando (antes do sinal de igual de um comando) e na parte do caminho da solicitação.
 
-As variáveis personalizadas não podem ser aninhadas. Qualquer ocorrência de `$ [!DNL name]$` no prazo de `[!DNL string]` não são substituídas. Por exemplo, o fragmento de solicitação `$var2=apple&$var1=my$var2$tree&text=$var1$` resolve para `text=my$var2$tree`.
+As variáveis personalizadas não podem ser aninhadas. Nenhuma ocorrência de `$ [!DNL name]$` em `[!DNL string]` é substituída. Por exemplo, o fragmento de solicitação `$var2=apple&$var1=my$var2$tree&text=$var1$` é resolvido como `text=my$var2$tree`.
 
-`$` não é um caractere reservado; pode ocorrer de outra forma na solicitação. Por exemplo, `src=my$texture$file.tif` é um comando válido (supondo que uma entrada de catálogo de material ou arquivo de textura chamado `[!DNL my$texture$file.tif]` existe), enquanto `wid=$number$` não é, porque `wid=` requer um argumento numérico.
+`$` não é um caractere reservado; caso contrário, pode ocorrer na solicitação. Por exemplo, `src=my$texture$file.tif` é um comando válido (supondo que exista uma entrada de catálogo de material ou arquivo de textura chamado `[!DNL my$texture$file.tif]`), enquanto `wid=$number$` não é, porque `wid=` requer um argumento numérico.

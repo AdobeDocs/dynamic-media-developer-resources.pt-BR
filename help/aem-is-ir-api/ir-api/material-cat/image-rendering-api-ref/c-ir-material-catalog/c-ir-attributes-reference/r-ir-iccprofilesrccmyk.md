@@ -18,11 +18,11 @@ Perfil de cor de entrada padrão CMYK. Especifica o nome do perfil de cores ICC 
 
 ## Propriedades {#section-0cee77438d914c319ec876edb3490821}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
 
 ## Padrão {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Herdado de `default::IccProfileSrcCmyk` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcCmyk` não resolve um perfil válido, `attribute::IccProfileCmyk` é usado em seu lugar.
+Herdado de `default::IccProfileSrcCmyk` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcCmyk` não for resolvido para um perfil válido, `attribute::IccProfileCmyk` será usado.
 
 ## Consulte também {#section-88adddd70265459a9a5d2f50829a4ba7}
 

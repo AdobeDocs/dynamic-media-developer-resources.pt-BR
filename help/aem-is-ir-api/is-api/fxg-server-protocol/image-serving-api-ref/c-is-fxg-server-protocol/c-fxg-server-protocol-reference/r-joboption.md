@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Aplique as opções de trabalho do PDF. Um arquivo de opções de trabalho ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
 
-` joboption= *`value`*`
+` joboption= *`valor`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valor</span></span> </p> </td> 
   <td class="stentry"> <p>O IPSID do arquivo de opções de trabalho. </p></td> 
  </tr> 
 </table>

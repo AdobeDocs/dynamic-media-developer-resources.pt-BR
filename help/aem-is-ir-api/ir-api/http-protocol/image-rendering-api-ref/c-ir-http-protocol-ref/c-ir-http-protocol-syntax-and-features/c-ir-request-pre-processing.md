@@ -22,7 +22,7 @@ As regras de pré-processamento de solicitações podem modificar o caminho e as
 
 As regras de pré-processamento de solicitações são adequadas para vários aplicativos, alguns dos quais estão listados abaixo:
 
-* Implementar um *caminhos virtuais* , que permite o remapeamento do caminho da solicitação para caminhos de arquivo, FTP e HTTP.
+* Implemente um mecanismo de *caminhos virtuais*, que permite o remapeamento do caminho da solicitação para caminhos de arquivo, FTP e HTTP.
 * Proibição do uso de comandos que fazem uso intenso da CPU para impedir o abuso do servidor.
 * Controle as configurações de qualidade da imagem (como qualidade ou nitidez de JPEG) dependendo do caminho da solicitação ou do nome da imagem.
 

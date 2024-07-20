@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|esmaecer</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo do efeito aplicado à exibição principal na alteração do ativo. A variável <span class="codeph"> nenhum</span> significa sem transição, a mudança de exibição principal acontece instantaneamente. A variável <span class="codeph"> fade</span> ativa a transição cross-fade onde a imagem antiga desaparece e a nova imagem aparece </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhuma|desaparecimento</span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo do efeito aplicado à exibição principal na alteração do ativo. O <span class="codeph"> none</span> significa sem transição, a alteração da exibição principal acontece instantaneamente. O <span class="codeph"> fade</span> ativa a transição cross-fade onde a imagem desaparece e a nova imagem aparece </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> duração</span></span> </p> </td> 

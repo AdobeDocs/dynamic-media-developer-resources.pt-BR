@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Resolução{#resolution}
 
-Resolução padrão. Fornece uma resolução padrão caso um determinado registro de catálogo não contenha uma `catalog::Resolution` valor.
+Resolução padrão. Fornece uma resolução padrão caso um determinado registro de catálogo não contenha um valor `catalog::Resolution` válido.
 
 ## Propriedades {#section-06d519158b9f479896f945747c670736}
 

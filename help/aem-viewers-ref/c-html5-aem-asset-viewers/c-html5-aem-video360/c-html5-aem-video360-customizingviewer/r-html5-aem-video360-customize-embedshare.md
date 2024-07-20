@@ -24,7 +24,7 @@ A aparência do botão de compartilhamento incorporado é controlada com o segui
 .s7video360viewer .s7embedshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento incorporada**
+**Propriedades CSS da ferramenta de compartilhamento de inserção**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -37,7 +37,7 @@ A aparência do botão de compartilhamento incorporado é controlada com o segui
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -49,13 +49,13 @@ A aparência do botão de compartilhamento incorporado é controlada com o segui
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-É possível remover o botão do painel Compartilhamento em redes sociais configurando `display:none` Propriedade CSS em sua classe CSS.
+É possível remover o botão do painel Compartilhamento em redes sociais definindo a propriedade CSS `display:none` em sua classe CSS.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo** - Para configurar um botão de compartilhamento incorporado com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
+**Exemplo** - Para configurar um botão de compartilhamento de inserção com 28 x 28 pixels e exibir uma imagem diferente para cada um dos quatro estados de botão diferentes:
 
 ```
 .s7video360viewer .s7embedshare { 
@@ -82,7 +82,7 @@ A sobreposição de plano de fundo que cobre a página da Web quando a caixa de 
 .s7video360viewer .s7embeddialog .s7backoverlay
 ```
 
-**Propriedades CSS da sobreposição do plano de fundo**
+**Propriedades CSS da sobreposição de plano de fundo**
 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
@@ -91,13 +91,13 @@ A sobreposição de plano de fundo que cobre a página da Web quando a caixa de 
    <td colname="col2"> <p>Opacidade de sobreposição de plano de fundo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de sobreposição do plano de fundo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - para configurar uma sobreposição de plano de fundo para ficar cinza com 70% de opacidade:
+**Exemplo** - para configurar uma sobreposição de plano de fundo para ser cinza com 70% de opacidade:
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -117,11 +117,11 @@ Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistem
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> raio da borda </span> </p> </td> 
    <td colname="col2"> <p> Raio da borda da caixa de diálogo, caso a caixa de diálogo não use todo o navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Cor de fundo da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Por padrão, a caixa de diálogo modal é exibida centralizada na tela em sistem
  </tbody> 
 </table>
 
-**Exemplo** - para configurar a caixa de diálogo para usar toda a janela do navegador e ter um fundo branco em dispositivos de toque:
+**Exemplo** - para configurar a caixa de diálogo para usar toda a janela do navegador e ter um plano de fundo branco em dispositivos de toque:
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -198,7 +198,7 @@ O ícone de cabeçalho é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do ícone. </p> </td> 
   </tr> 
   <tr> 
@@ -219,15 +219,15 @@ O título do cabeçalho é controlado com o seguinte seletor de classe CSS:
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Altura da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p>Preenchimento interno do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -280,11 +280,11 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo** - Para configurar o cabeçalho da caixa de diálogo com preenchimento, ícone de 24 x 14 pixels e um título em negrito de 16 pontos. E, finalmente, um botão Fechar de 28 x 28 pixels, posicionado a dois pixels da parte superior e a dois pixels da direita do contêiner de diálogo:
+**Exemplo** - Para configurar o cabeçalho da caixa de diálogo com preenchimento, ícone de 24 x 14 pixels e um título negrito de 16 pontos. E, finalmente, um botão Fechar de 28 x 28 pixels, posicionado a dois pixels da parte superior e a dois pixels da direita do contêiner de diálogo:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -366,7 +366,7 @@ O botão Selecionar tudo é controlado com o seguinte seletor de classe CSS:
 
 O botão só está disponível em sistemas desktop.
 
-**Propriedades CSS do botão Selecionar tudo**
+**Propriedades CSS do botão Selecionar Tudo**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
@@ -383,7 +383,7 @@ O botão só está disponível em sistemas desktop.
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ O botão só está disponível em sistemas desktop.
 
 >[!NOTE]
 >
->O botão Selecionar tudo é compatível com a `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>O botão Selecionar tudo oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
@@ -399,7 +399,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 .s7video360viewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**Propriedades CSS do botão Cancelar da caixa de diálogo**
+**Propriedades CSS do botão de cancelamento da caixa de diálogo**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -416,7 +416,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
    <td colname="col2"> <p> Cor do texto do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo do botão para cada estado. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ O botão Cancelar é controlado com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter configurações CSS que são as mesmas para outros botões da caixa de diálogo:
 
@@ -437,15 +437,15 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do botão. </p> </td> 
   </tr> 
   <tr> 
@@ -453,7 +453,7 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
    <td colname="col2"> <p> Altura do texto dentro do botão. Afeta o alinhamento vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sombra-caixa </span> </p> </td> 
    <td colname="col2"> <p>Sombra projetada. </p> </td> 
   </tr> 
   <tr> 
@@ -465,7 +465,7 @@ Além disso, ambos os botões compartilham uma classe CSS comum, que pode conter
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo** - para configurar um rodapé da caixa de diálogo com um botão Cancelar 64 x 34, com uma cor de texto e uma cor de plano de fundo diferentes para cada estado do botão:
+**Exemplo** - para configurar um rodapé da caixa de diálogo com um botão Cancelar 64 x 34, com uma cor de texto e uma cor de plano de fundo diferentes para cada estado de botão:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -540,7 +540,7 @@ A área de diálogo principal, entre o cabeçalho e o rodapé, contém conteúdo
    <td colname="col2"> <p> A altura da área da caixa de diálogo principal. Ela deve ser especificada somente quando a caixa de diálogo funciona no modo desktop. Não é aplicável quando a caixa de diálogo é dimensionada para ocupar toda a janela do navegador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor de fundo da área da caixa de diálogo principal. </p> </td> 
   </tr> 
   <tr> 
@@ -600,15 +600,15 @@ Essa classe não é adequada para controlar o tamanho ou a posição do rótulo 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Espessura da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte do rótulo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família de fontes do rótulo. </p> </td> 
   </tr> 
   <tr> 
@@ -666,7 +666,7 @@ O código incorporado é colocado em um container e controlado com o seguinte se
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriedades CSS do container de entrada da caixa de diálogo**
+**Propriedades CSS do contêiner de entrada da caixa de diálogo**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -701,7 +701,7 @@ O texto real do código incorporado é controlado com o seguinte seletor de clas
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriedades CSS do container de entrada da caixa de diálogo**
+**Propriedades CSS do contêiner de entrada da caixa de diálogo**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -712,7 +712,7 @@ O texto real do código incorporado é controlado com o seguinte seletor de clas
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar o código de inserção a ser usado `break-word` quebra automática de linha:
+**Exemplo** - Para configurar o código de inserção para usar a quebra automática de linha `break-word`:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -756,7 +756,7 @@ O tamanho e o alinhamento do rótulo de tamanho incorporado são controlados com
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-alinhamento </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> alinhamento vertical </span> </p> </td> 
    <td colname="col2"> <p>Alinhamento vertical do rótulo. </p> </td> 
   </tr> 
   <tr> 
@@ -766,7 +766,7 @@ O tamanho e o alinhamento do rótulo de tamanho incorporado são controlados com
  </tbody> 
 </table>
 
-**Exemplo** - para definir o rótulo do tamanho incorporado como alinhado na parte superior e com 80 pixels de largura:
+**Exemplo** - para definir o rótulo de tamanho incorporado como alinhado na parte superior e com 80 pixels de largura:
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -794,9 +794,9 @@ A largura da caixa de combinação de tamanho incorporado é controlada com o se
 
 >[!NOTE]
 >
->A caixa de combinação suporta a função `expanded` seletor de atributos com valores possíveis de `true` e `false`. A variável `true` o valor é usado quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto deve ter toda a largura disponível. A variável `false` O valor é usado quando a opção de tamanho personalizado é selecionada na caixa de combinação, portanto, ele deve ser reduzido para permitir espaço para campos de entrada personalizados de largura e altura.
+>A caixa de combinação dá suporte ao seletor de atributos `expanded` com valores possíveis de `true` e `false`. O valor `true` é usado quando a caixa de combinação exibe um dos tamanhos incorporados predefinidos, portanto deve ter toda a largura disponível. O valor `false` é usado quando a opção de tamanho personalizado é selecionada na caixa de combinação; portanto, ele deve ser reduzido para permitir espaço para campos de entrada personalizados de largura e altura.
 
-**Exemplo** - para definir a caixa de combinação tamanho incorporado como 300 pixels de largura ao mostrar um item predefinido e 110 pixels de largura ao mostrar um tamanho personalizado:
+**Exemplo** - para definir a caixa de combinação de tamanho incorporado como 300 pixels de largura ao mostrar um item predefinido e 110 pixels de largura ao mostrar um tamanho personalizado:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -824,7 +824,7 @@ A altura do texto da caixa de combinação é definida por um elemento interno e
  </tbody> 
 </table>
 
-**Exemplo** - para definir a altura do texto da caixa de combinação tamanho incorporado como 40 pixels:
+**Exemplo** - para definir a altura do texto da caixa de combinação de tamanho incorporado como 40 pixels:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -859,7 +859,7 @@ A caixa de combinação tem um botão &quot;suspenso&quot; à direita e é contr
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do botão para cada estado. </p> </td> 
   </tr> 
   <tr> 
@@ -871,9 +871,9 @@ A caixa de combinação tem um botão &quot;suspenso&quot; à direita e é contr
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-**Exemplo** - para definir um botão suspenso para 28 x 28 pixels e ter uma imagem separada para cada estado:
+**Exemplo** - para definir um botão suspenso como 28 x 28 pixels e ter uma imagem separada para cada estado:
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -913,7 +913,7 @@ O tamanho e a posição do painel são controlados pelo componente. Não é poss
  </tbody> 
 </table>
 
-**Exemplo** - para configurar o painel da caixa de combinação para ter uma borda cinza de um pixel:
+**Exemplo** - para definir o painel da caixa de combinação para ter uma borda cinza de um pixel:
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -932,13 +932,13 @@ Um único item em um painel suspenso que é controlado com o seguinte seletor de
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do item. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - para configurar o item do painel da caixa de combinação para ter um fundo branco:
+**Exemplo** - para definir o item do painel da caixa de combinação para ter um plano de fundo branco:
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor { 
@@ -965,7 +965,7 @@ Uma marca de seleção exibida à esquerda do item selecionado dentro do painel 
    <td colname="col2"> <p>Altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Imagem do item. </p> </td> 
   </tr> 
   <tr> 
@@ -996,7 +996,7 @@ Quando a opção &quot;Tamanho personalizado&quot; está selecionada na caixa de
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p> Distância da caixa de combinação de tamanho incorporado. </p> </td> 
   </tr> 
  </tbody> 
@@ -1095,7 +1095,7 @@ A aparência da área da barra de rolagem é controlada com o seguinte seletor d
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte superior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> O deslocamento da barra de rolagem vertical na parte inferior do painel de rolagem. </p> </td> 
   </tr> 
   <tr> 
@@ -1122,7 +1122,7 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**Propriedades CSS da faixa da barra de rolagem**
+**Propriedades CSS da faixa de barra de rolagem**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1131,7 +1131,7 @@ A faixa da barra de rolagem é a área entre os botões de rolagem superior e in
    <td colname="col2"> <p>Largura da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo da faixa. </p> </td> 
   </tr> 
  </tbody> 
@@ -1173,7 +1173,7 @@ A miniatura da barra de rolagem se move verticalmente em uma área de rastreamen
    <td colname="col2"> <p> O preenchimento vertical entre a parte inferior da faixa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de miniatura. </p> </td> 
   </tr> 
   <tr> 
@@ -1185,9 +1185,9 @@ A miniatura da barra de rolagem se move verticalmente em uma área de rastreamen
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes: `up`, `down`, `over`, e `disabled`.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes: `up`, `down`, `over` e `disabled`.
 
-**Exemplo** - para configurar uma miniatura de barra de rolagem com 28 x 45 pixels, possui uma margem de dez pixels na parte superior e inferior e possui um trabalho artístico diferente para cada estado:
+**Exemplo** - para configurar uma miniatura de barra de rolagem com 28 x 45 pixels, tem uma margem de dez pixels na parte superior e inferior e tem arte-final diferente para cada estado:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1220,7 +1220,7 @@ A aparência dos botões de rolagem superior e inferior é controlada com os seg
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `bottom`, e `right` propriedades. Em vez disso, a lógica do visualizador as posiciona automaticamente.
+Não é possível posicionar botões de rolagem usando propriedades CSS `top`, `left`, `bottom` e `right`. Em vez disso, a lógica do visualizador as posiciona automaticamente.
 
 **Propriedades CSS dos botões de rolagem superior e inferior**
 
@@ -1235,7 +1235,7 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -1247,11 +1247,11 @@ Não é possível posicionar botões de rolagem usando CSS `top`, `left`, `botto
 
 >[!NOTE]
 >
->Esses botões suportam o `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
+>Estes botões oferecem suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over` e `disabled`.
 
 As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) para obter mais informações.
 
-**Exemplo** - para configurar botões de rolagem com 28 x 32 pixels que tenham diferentes trabalhos artísticos para cada estado:
+**Exemplo** - para configurar botões de rolagem com 28 x 32 pixels e diferentes trabalhos artísticos para cada estado:
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

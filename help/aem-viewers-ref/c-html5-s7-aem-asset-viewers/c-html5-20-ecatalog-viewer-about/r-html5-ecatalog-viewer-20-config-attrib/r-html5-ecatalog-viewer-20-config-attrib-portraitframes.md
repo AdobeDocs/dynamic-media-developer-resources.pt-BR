@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Defina como <span class="codeph"> split</span> para permitir que o visualizador exiba páginas espelhadas duplas como uma página separada quando usado em um dispositivo móvel na orientação retrato. Defina como <span class="codeph"> sólido</span> para sempre exibir páginas espelhadas duplas como imagem sólida, independentemente da orientação do dispositivo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> divisão|sólida</span> </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> split</span> para permitir que o visualizador exiba páginas duplas como uma página separada quando usado em um dispositivo móvel na orientação retrato. Defina como <span class="codeph"> solid</span> para sempre exibir páginas espelhadas duplas como imagem sólida, independentemente da orientação do dispositivo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

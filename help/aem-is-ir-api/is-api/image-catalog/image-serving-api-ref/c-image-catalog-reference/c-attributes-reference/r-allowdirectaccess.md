@@ -16,16 +16,16 @@ ht-degree: 0%
 
 Permitir acesso direto a ativos baseados em caminho.
 
-Quando este atributo é definido, o acesso baseado em caminho é permitido ou restrito para os tipos de objeto especificados, dependendo se a variável `include` ou `exclude` palavra-chave é usada.
+Quando este atributo é definido, o acesso baseado em caminho é permitido ou restrito para os tipos de objeto especificados, dependendo se a palavra-chave `include` ou `exclude` é usada.
 
 >[!NOTE]
 >
->Se a variável `AllowDirectAccess` atributo não for especificado, o valor padrão será `exclude`.
+>Se o atributo `AllowDirectAccess` não for especificado, o valor padrão será `exclude`.
 
 * `include` permite o acesso aos tipos de objeto especificados e restringe o acesso a todos os outros.
 * `exclude` restringe o acesso aos tipos de objeto especificados e permite o acesso a todos os outros.
 
-Se nenhuma delas `include` nem `exclude` é especificado, `include` é presumido.
+Se `include` ou `exclude` não for especificado, `include` será presumido.
 
 Os seguintes tipos podem ser controlados:
 
@@ -45,20 +45,20 @@ Os seguintes tipos podem ser controlados:
 
 * Permitir acesso direto para todos os tipos de objetos, exceto `IS` e `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Permitir acesso direto a *não* tipos de objeto (ou seja, não incluir)
+* Permitir acesso direto para *no* tipos de objeto (ou seja, não incluir)
 
   `AllowDirectAccess=include:`
 
-* Permitir acesso direto a *all* tipos de objeto (ou seja, excluir nenhum)
+* Permitir acesso direto a *todos* tipos de objetos (ou seja, excluir nenhum)
 
   `AllowDirectAccess=exclude:`
 
-* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não está presente, `include` é presumido)
+* Equivalente a `include:IS,STATIC` (se `include`/ `exclude` não estiver presente, `include` será presumido)
 
   `AllowDirectAccess=IS,STATIC`
 
-  Observe que é o valor padrão usado se a variável `AllowDirectAccess` o atributo não foi especificado para esta empresa.
+  Observe que é o valor padrão que é usado se o atributo `AllowDirectAccess` não for especificado para esta empresa.
 
-* Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não está presente, `include` é presumido)
+* Incluir nenhum, equivalente a `include:` (se `include`/ `exclude` não estiver presente, `include` será presumido)
 
   `AllowDirectAccess=`

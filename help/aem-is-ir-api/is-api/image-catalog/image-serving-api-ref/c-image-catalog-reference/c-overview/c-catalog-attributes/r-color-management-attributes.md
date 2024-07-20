@@ -46,7 +46,7 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de gerenciamento
   <td class="stentry"> <p>Tentativa de processamento padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> CompensaçãoDePontoPretoIcc</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f" type="reference" format="dita" scope="local"> IccBlackPointCompensation</a> </span> </p></td> 
   <td class="stentry"> <p>Ativar/desativar compensação de pontos negros. </p></td> 
  </tr> 
  <tr class="strow"> 

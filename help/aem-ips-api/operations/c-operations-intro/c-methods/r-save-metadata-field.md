@@ -60,7 +60,7 @@ Criar ou editar um campo de metadados. Omita o identificador de campo opcional p
    <td colname="col4"> Escolha dos tipos de ativos dos quais os metadados serão salvos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Nome do campo. </td> 
@@ -72,7 +72,7 @@ Criar ou editar um campo de metadados. Omita o identificador de campo opcional p
    <td colname="col4"> Escolha de tipos de campos de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valorPadrão</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Valor padrão dos campos para todos os ativos. </td> 
@@ -84,10 +84,10 @@ Criar ou editar um campo de metadados. Omita o identificador de campo opcional p
    <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será lançada se um valor ilegal estiver definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será gerada se um valor ilegal for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ Criar ou editar um campo de metadados. Omita o identificador de campo opcional p
 
 ## Exemplos {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Esta amostra de código cria um campo de metadados restrito pelas constantes de sequência Tipo de ativo e Tipos de campo de metadados. Se a variável `fieldHandle` O elemento tem um valor de identificador de campo válido, ele altera os valores de metadados e obtém o mesmo identificador de campo especificado na solicitação.
+Esta amostra de código cria um campo de metadados restrito pelas constantes de sequência Tipo de ativo e Tipos de campo de metadados. Se o elemento `fieldHandle` tiver um valor de identificador de campo válido, ele alterará os valores de metadados e obterá o mesmo identificador de campo especificado na solicitação.
 
 **Solicitação**
 

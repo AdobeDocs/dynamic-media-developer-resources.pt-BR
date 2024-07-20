@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c1413da0-a68d-4345-928f-b532991966a8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tamanho padrão da miniatura. Usado em vez de attribute::DefaultPix para solicitações de miniatura (req=tmb).
 
-As restrições do servidor respondem que as imagens não são maiores que essa largura e altura se uma solicitação de miniatura ( `req=tmb`) não especifica o tamanho explicitamente não especifica o tamanho da exibição explicitamente usando `wid=`, `hei=`ou `scl=`.
+As restrições do servidor respondem que as imagens não são maiores que essa largura e altura, se uma solicitação de miniatura ( `req=tmb`) não especificar explicitamente o tamanho da exibição usando `wid=`, `hei=` ou `scl=`.
 
 ## Propriedades {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 

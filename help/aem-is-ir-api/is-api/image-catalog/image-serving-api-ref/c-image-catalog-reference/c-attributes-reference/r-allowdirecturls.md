@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Permitir URLs absolutos como fontes de imagem.
 
-Habilita ou desabilita o suporte para URLs absolutos incorporados em `src=` e `mask=` comandos. Quando desativado, somente URLs relativos a `attribute::RootUrl` são permitidos.
+Habilita ou desabilita o suporte para URLs absolutas inseridas em comandos `src=` e `mask=`. Quando desabilitadas, somente URLs relativas a `attribute::RootUrl` são permitidas.
 
 ## Propriedades {#section-192825a6b02e4cc4a6aa102f93be89f0}
 

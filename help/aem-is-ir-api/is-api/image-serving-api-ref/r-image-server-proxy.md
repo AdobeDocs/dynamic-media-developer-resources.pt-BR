@@ -18,7 +18,7 @@ Um proxy de servidor de imagens pode ser usado para redimensionar imagens para t
 
 ## Formato de URL {#section-2e8c40b0547c4f99874cdf502b338940}
 
-O formato do URL para o proxy IS é muito semelhante às solicitações IS comuns. Qualquer modificador IS transmitido ao proxy é transmitido ao Servidor de imagens. Você pode encontrar informações sobre os modificadores IS na [Referência de protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+O formato do URL para o proxy IS é muito semelhante às solicitações IS comuns. Qualquer modificador IS transmitido ao proxy é transmitido ao Servidor de imagens. Você pode encontrar informações sobre os modificadores IS na [Referência do Protocolo HTTP](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ O formato do URL para o proxy IS é muito semelhante às solicitações IS comun
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;número&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica a porcentagem da largura utilizável do dispositivo a ser usada como largura da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;número&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica a porcentagem da altura utilizável do dispositivo a ser usada como altura da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;número&gt;</span> </p></td> 
   <td class="stentry"> <p>Especifica a porcentagem da propriedade de Limite de Memória de Mídia Incorporada do dispositivo à qual limitar o tamanho da resposta. Isso se aplica somente a respostas jpg. A qualidade da imagem é reduzida até que o tamanho da resposta esteja dentro da porcentagem especificada. </p></td> 
  </tr> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Dados do conjunto de imagens do catálogo de imagens. Retorna dados do conjunto 
  </tr> 
 </table>
 
-O conteúdo de `catalog::ImageSet` é retornado sem modificações adicionais (exceto localização de cadeia de caracteres, se aplicável), seguido por um terminador de linha única (CR/LF). Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta consistirá apenas em um terminador de linha única.
+O conteúdo de `catalog::ImageSet` é retornado sem modificações adicionais (exceto a localização da cadeia de caracteres, se aplicável), seguido por um terminador de linha única (CR/LF). Se o caminho do URL não for resolvido para uma entrada de catálogo válida, a resposta consistirá apenas em um terminador de linha única.
 
 Outros comandos na cadeia de caracteres de solicitação são ignorados. A resposta HTTP pode ser armazenada em cache com o TTL com base em `catalog::NonImgExpiration`.
 
-As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida de `req=` parâmetro:
+As solicitações que oferecem suporte ao formato de resposta JSONP permitem especificar o nome do manipulador de retorno de chamada JS usando a sintaxe estendida do parâmetro `req=`:
 
 `req=...,json [&handler = reqHandler ]`
 

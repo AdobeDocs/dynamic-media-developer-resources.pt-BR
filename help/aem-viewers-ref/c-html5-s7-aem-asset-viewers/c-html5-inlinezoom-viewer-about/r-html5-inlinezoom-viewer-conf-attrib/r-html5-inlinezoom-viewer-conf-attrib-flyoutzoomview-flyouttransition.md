@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|esmaecer </span> </span> </p> </td> 
-   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição da imagem suspensa é exibida ou ocultada. Com <span class="codeph"> nenhum </span>, a imagem suspensa aparece instantaneamente quando ativada e está pronta; <span class="codeph"> slide </span> faz com que a animação de slides seja reproduzida na direção da esquerda para a direita; <span class="codeph"> fade </span> aplica uma transição alfa à imagem da imagem suspensa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nenhum|slide|fade </span> </span> </p> </td> 
+   <td colname="col2"> <p> Especifica o tipo do efeito aplicado quando a exibição da imagem suspensa é exibida ou ocultada. Com <span class="codeph"> nenhum </span>, a imagem da imagem suspensa aparece instantaneamente quando ativada e está pronta; o <span class="codeph"> slide </span> faz com que a animação de slides seja reproduzida na direção da esquerda para a direita; o <span class="codeph"> fade </span> aplica uma transição alfa para a imagem da imagem suspensa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 

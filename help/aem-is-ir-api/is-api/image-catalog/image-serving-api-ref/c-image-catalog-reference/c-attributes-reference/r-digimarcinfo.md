@@ -24,7 +24,7 @@ Consulte [catalog::DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-
 
 ## Padrão {#section-c77d2620f90148d5ad9041131180d611}
 
-Herdado de `default::DigimarcInfo` se o campo não for especificado ou se estiver vazio.
+Herdado de `default::DigimarcInfo` se o campo não estiver especificado ou se estiver vazio.
 
 ## Consulte também {#section-543464e27f0a43249860a883b1ebfa15}
 

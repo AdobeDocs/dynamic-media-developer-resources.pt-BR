@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 **Funções setDefinition**
 
-Especificar `setDefinition` funções de substituição em linha. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. Cadeias de caracteres de substituição têm o formato `${<substitution_func>}`e incluem o seguinte:
+Especifique `setDefinition` funções de substituição embutidas. Eles são resolvidos durante uma pesquisa de catálogo ou na publicação. As cadeias de caracteres de substituição têm o formato `${<substitution_func>}` e incluem o seguinte:
 
 >[!NOTE]
 >

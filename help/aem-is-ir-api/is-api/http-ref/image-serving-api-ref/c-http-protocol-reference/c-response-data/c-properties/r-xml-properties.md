@@ -38,8 +38,8 @@ Um documento de resposta de propriedades típicas tem esta estrutura geral:
 </prop-group>
 ```
 
-A variável `<prop-group>` O elemento é usado como o contêiner mais externo e para agrupar propriedades. Se um grupo for nomeado, o nome corresponderá ao nome do objeto Java/JavaScript.
+O elemento `<prop-group>` é usado como o contêiner mais externo e para agrupar propriedades. Se um grupo for nomeado, o nome corresponderá ao nome do objeto Java/JavaScript.
 
 >[!NOTE]
 >
->A codificação de caracteres pode ser especificada para alguns `req=` tipos. Consulte a descrição da variável `req=`para obter detalhes.
+>A codificação de caracteres pode ser especificada para alguns `req=` tipos. Consulte a descrição do comando `req=` específico para obter detalhes.

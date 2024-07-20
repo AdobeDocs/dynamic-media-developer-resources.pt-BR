@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ A aparência do contêiner de amostras é controlada com o seguinte seletor de c
    <td colname="col2"> <p>Altura das amostras. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p>Deslocamento vertical das amostras em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ A aparência da miniatura individual é controlada com o seguinte seletor de cla
 
 >[!NOTE]
 >
->A miniatura suporta o `state` seletor de atributos, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Em especial, `state="selected"` corresponde à miniatura da imagem que está sendo exibida na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
+>A miniatura dá suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de miniatura diferentes. Especificamente, `state="selected"` corresponde à miniatura da imagem que está sendo exibida no momento na exibição principal, `state="default"` corresponde ao restante das miniaturas e `state="over"` é usado ao passar o mouse.
 
 Exemplo - para configurar miniaturas com 56 x 56 pixels, tem uma borda padrão cinza-claro e uma borda selecionada cinza-escuro.
 
@@ -160,7 +160,7 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS top, 
    <td colname="col2"> <p>Altura do botão de rolagem. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -172,9 +172,9 @@ Não é possível posicionar botões de rolagem usando as propriedades CSS top, 
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over`, e `disabled`.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes: `up`, `down`, `over` e `disabled`.
 
-As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+As dicas de ferramentas do botão podem ser localizadas. Consulte [Localização de elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exemplo - para configurar botões de rolagem com 56 x 56 pixels e que tenham um trabalho artístico diferente para cada estado.
 

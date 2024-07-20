@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminho raiz para saveToFile=. Caminho relativo da pasta raiz na qual as imagens geradas com req=saveToFile devem ser gravadas.
 
-`SavePath` é um valor de string de texto.
+`SavePath` é um valor de cadeia de texto.
 
 ## Propriedades {#section-343d1371e966491c92854a8df14c3c50}
 

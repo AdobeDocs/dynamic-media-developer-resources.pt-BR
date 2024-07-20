@@ -22,7 +22,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Descrição </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>Identificador de material (chave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -45,11 +45,11 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Caminho ou URL do arquivo de dados de imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> CaminhoAux </a> </p></td> 
   <td class="stentry"> <p>Caminho ou URL do arquivo de dados secundário. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> Resolução </a> </p></td> 
+  <td class="stentry"> <p>Resolução </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> </p></td> 
   <td class="stentry"> <p>Resolução da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -65,7 +65,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Cor subtrativa para um material colorizável. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Ilo </a> </p></td> 
   <td class="stentry"> <p>Seletor de mapa de iluminação. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -81,7 +81,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Tipo de material de superfície. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> Nítido</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> Sharp</a> </p></td> 
   <td class="stentry"> <p>Nitidez da textura/decalque. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -97,7 +97,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Tamanho da camada de decalque/sobreposição. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> RenderSettings </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711" type="reference" format="dita" scope="local"> Configurações de renderização </a> </p></td> 
   <td class="stentry"> <p>Configurações avançadas de renderização. </p></td> 
  </tr> 
 </table>
@@ -108,7 +108,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Descrição </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>Identificador de vinheta (chave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -162,7 +162,7 @@ Os seguintes campos são reconhecidos nos arquivos do mapa de perfil de cores IC
   <td class="stentry"> <p>Nome do perfil de cores (chave de índice). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> ProfilePath</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-profilepath.md#reference-06f756dd364945ee9b50fd94db46e5be" type="reference" format="dita" scope="local"> CaminhoPerfil</a> </p></td> 
   <td class="stentry"> <p>Caminho do arquivo de perfil de cores ICC. </p></td> 
  </tr> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Os seguintes valores são permitidos:
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens com erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis ao relatar problemas ao suporte técnico da Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Informações completas de depuração. Adiciona rastreamentos de pilha Java quando aplicável. As imagens de erro nunca incluem rastreamentos de pilha e, em vez disso, retornam informações de nível 2 em <span class="codeph"> $error.message</span>. Essas informações podem ser úteis ao relatar problemas ao suporte técnico da Dynamic Media. </p></td> 
  </tr> 
 </table>
 

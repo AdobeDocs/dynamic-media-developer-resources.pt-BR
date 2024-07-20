@@ -24,6 +24,6 @@ Lembre-se de que excluir ou substituir um arquivo de dados de origem faz com que
 
 O Servidor de Renderização deve ser interrompido para substituir outros arquivos de dados.
 
-[!DNL Platform Server] as entradas de cache são invalidadas automaticamente quando os arquivos de material ou vinhetas são substituídos. Substituir os arquivos de perfil ICC não invalida os caches.
+[!DNL Platform Server] entradas de cache são invalidadas automaticamente quando arquivos de material ou vinhetas são substituídos. Substituir os arquivos de perfil ICC não invalida os caches.
 
 Para evitar as complicações da substituição de arquivos, é recomendável dar um novo nome a um arquivo de substituição e atualizar as entradas de catálogo correspondentes. Isso permite a substituição de qualquer arquivo de dados enquanto o servidor estiver ativo e faz com que as entradas de cache do servidor se tornem obsoletas automaticamente sem intervenção adicional. Essa abordagem pode ser usada para todos os arquivos de dados gerenciados por catálogos de imagens.

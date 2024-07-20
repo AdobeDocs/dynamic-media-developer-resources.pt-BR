@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| itens | `types:AssetMetadataFields` | Um `AssetMetadataFields` item da matriz. |
+| itens | `types:AssetMetadataFields` | Um item de matriz `AssetMetadataFields`. |

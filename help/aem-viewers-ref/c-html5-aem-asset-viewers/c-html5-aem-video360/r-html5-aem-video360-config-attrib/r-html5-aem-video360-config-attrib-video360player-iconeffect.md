@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 3%
+source-wordcount: '127'
+ht-degree: 0%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 3%
 
 Atributo de configuração para o Video360 Viewer.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`contagem`*][, *`esmaecer`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior do vídeo quando ele estiver no estado pausado. Em alguns dispositivos, os controles nativos são usados. Nesses casos, a <span class="codeph">iconeffect</span> o modificador é ignorado. </p> </td> 
+   <td colname="col2"> <p> Permite que o IconEffect seja exibido na parte superior do vídeo quando ele estiver no estado pausado. Em alguns dispositivos, os controles nativos são usados. Nesses casos, o modificador <span class="codeph">iconeffect</span> será ignorado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">contagem</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica o número máximo de vezes que o IconEffect aparece e reaparece. Um valor de <span class="codeph"> -1</span> indica que o ícone reaparece indefinidamente. </p> </td> 
   </tr> 
   <tr> 
@@ -34,7 +34,7 @@ Atributo de configuração para o Video360 Viewer.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo depois que a animação de desaparecimento gradual é concluída e antes que a animação de desaparecimento gradual seja iniciada. Defina como <span class="codeph"> 0</span> para desativar o comportamento de ocultação automática. </p> </td> 
+   <td colname="col2"> <p> Define o número de segundos que o IconEffect permanece totalmente visível antes de ser ocultado automaticamente. Ou seja, o tempo depois que a animação de desaparecimento gradual é concluída e antes que a animação de desaparecimento gradual seja iniciada. Defina como <span class="codeph"> 0</span> para desabilitar o comportamento de ocultação automática. </p> </td> 
   </tr> 
  </tbody> 
 </table>

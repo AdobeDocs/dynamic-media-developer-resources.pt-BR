@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
 
 # Arquivos de configuração do servidor{#server-configuration-files}
 
-Todos os arquivos de configuração estão no estado `install_folder/conf` e são editáveis com a maioria dos editores de texto. Reinicie o servidor para que as alterações entrem em vigor.
+Todos os arquivos de configuração estão no `install_folder/conf` e são editáveis com a maioria dos editores de texto. Reinicie o servidor para que as alterações entrem em vigor.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
+   <td> <p> <span class="filepath">SupervisorRegistry.xml</span> </p> </td> 
    <td> <p>Configuração do Supervisor do Servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ Este documento discute as configurações dos seguintes arquivos de configuraç�
    <td> <p>Configuração do Tomcat. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="filepath"> PlatformServer.conf</span> </p> </td> 
+   <td> <p> <span class="filepath">PlatformServer.conf</span> </p> </td> 
    <td> <p>[!DNL Platform Server] configuração. </p> </td> 
   </tr> 
   <tr> 

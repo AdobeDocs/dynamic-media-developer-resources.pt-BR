@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador do carrossel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> Especifica ligar/desligar, duração para exibir cada banner no carrossel e direção do loop automático. </p> <p>Defina como <span class="codeph"> 0</span> para desligar o loop automático. </p> <p>Definir <span class="codeph"> 1</span> para realizar o loop automático com a duração da transição em segundos controlada por <span class="codeph"> duração</span>. </p> <p>A direção do loop automático é controlada com <span class="codeph"> direção</span>. A variável <span class="codeph"> direção</span> tem o intervalo entre <span class="codeph"> 1</span> da direita para a esquerda e <span class="codeph"> 0</span> da esquerda para a direita. </p> </td> 
+   <td colname="col2"> <p> Especifica ligar/desligar, duração para exibir cada banner no carrossel e direção do loop automático. </p> <p>Defina como <span class="codeph"> 0</span> para desligar o loop automático. </p> <p>Defina <span class="codeph"> 1</span> para realizar o loop automático com duração de transição em segundos controlada por <span class="codeph"> duration</span>. </p> <p>A direção do loop automático é controlada com a direção <span class="codeph"></span>. A direção <span class="codeph"></span> tem o intervalo entre <span class="codeph"> 1</span> da direita para a esquerda e <span class="codeph"> 0</span> da esquerda para a direita. </p> </td> 
   </tr> 
  </tbody> 
 </table>

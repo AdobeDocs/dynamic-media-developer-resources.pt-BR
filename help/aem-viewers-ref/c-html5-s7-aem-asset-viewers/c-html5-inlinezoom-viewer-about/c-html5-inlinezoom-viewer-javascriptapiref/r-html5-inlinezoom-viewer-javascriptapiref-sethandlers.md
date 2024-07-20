@@ -1,6 +1,6 @@
 ---
 title: setHandlers
-description: Referência da API JavaScript para o Visualizador de zoom em linha.
+description: Referência da API do JavaScript para o Visualizador de zoom em linha.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # setHandlers{#sethandlers}
 
-Referência da API JavaScript para o Visualizador de zoom em linha.
+Referência da API do JavaScript para o Visualizador de zoom em linha.
 
 `setHandlers(handlers)`
 
@@ -26,7 +26,7 @@ Especifica zero ou mais manipuladores de retorno de chamada. Uma chamada para es
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> manipuladores </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> Objeto JSON com retornos de chamada de evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador suportado e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> Retornos de chamada de evento </a> para obter mais informações sobre eventos do visualizador. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objeto JSON com retornos de chamada do evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador com suporte e o valor da propriedade é uma referência de função JavaScript para um retorno de chamada apropriado. </p> <p>Consulte <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> retornos de chamada de evento </a> para obter mais informações sobre eventos do visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

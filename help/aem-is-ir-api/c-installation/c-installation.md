@@ -21,7 +21,7 @@ A instalação do Servidor de imagens inclui dois componentes principais do serv
 
 A Renderização de imagem faz parte desses dois componentes de servidor.
 
-Nas instruções seguintes, `install_root` refere-se à pasta raiz na qual o Servidor de imagens e a Renderização de imagens são instalados. E `server:port` refere-se ao nome do host ou ao endereço IP e ao número da porta configurados como a porta de atendimento principal do [!DNL Platform Server].
+Nas instruções subsequentes, `install_root` se refere à pasta raiz na qual o Servidor de imagens e a Renderização de imagens estão instalados. E `server:port` faz referência ao nome do host ou ao endereço IP e ao número da porta configurados como a porta de escuta principal do [!DNL Platform Server].
 
 * [Licenciamento](c-licensing.md)
 * [Conteúdo](c-contents.md)

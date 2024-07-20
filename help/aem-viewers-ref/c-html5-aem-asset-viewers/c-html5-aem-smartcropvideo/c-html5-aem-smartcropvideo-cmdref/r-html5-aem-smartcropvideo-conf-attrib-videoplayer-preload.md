@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7a83a02e-7b75-4f15-b8c1-aa7b64e6d3bd
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Indica se o visualizador começa a carregar o conteúdo de vídeo antes de a rep
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Se definida como <span class="codeph"> 1 </span> o download do vídeo começa logo após a definição do ativo; caso contrário, o pré-carregamento começa somente após a reprodução ser iniciada pelo usuário final ou por uma chamada de API. </p> <p>Se definida como <span class="codeph"> 0 </span> alguns recursos podem não funcionar até que a reprodução seja iniciada novamente; especificamente, a operação de busca não atualiza o quadro do vídeo. Se a imagem do pôster estiver desativada, o visualizador será exibido como uma área vazia em vez do primeiro quadro do vídeo. </p> <p>A desativação do pré-carregamento de vídeo pode ser ignorada em determinadas versões do Internet Explorer 11 e dos navegadores Edge. </p> </td> 
+   <td colname="col2"> <p> Se definido como <span class="codeph"> 1 </span>, o download do vídeo começará logo após a definição do ativo; caso contrário, o pré-carregamento só será iniciado depois que a reprodução for iniciada pelo usuário final ou por uma chamada de API. </p> <p>Se definido como <span class="codeph"> 0 </span>, alguns recursos podem não funcionar até que a reprodução comece novamente; especificamente, a operação de busca não atualiza o quadro do vídeo. Se a imagem do pôster estiver desativada, o visualizador será exibido como uma área vazia em vez do primeiro quadro do vídeo. </p> <p>A desativação do pré-carregamento de vídeo pode ser ignorada em determinadas versões dos navegadores Internet Explorer 11 e Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

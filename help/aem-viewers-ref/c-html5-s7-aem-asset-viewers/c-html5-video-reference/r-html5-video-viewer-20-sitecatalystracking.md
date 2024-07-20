@@ -7,7 +7,7 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pr
 
 O Visualizador de vídeo é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
-Para ativar o rastreamento, passe o nome correto de predefinição da empresa como `config2` parâmetro.
+Para habilitar o rastreamento, passe o nome de predefinição da empresa correto como o parâmetro `config2`.
 
 O visualizador também envia uma única solicitação HTTP de rastreamento ao Servidor de imagens configurado com o tipo de visualizador e informações de versão.
 
 ## Rastreamento personalizado {#section-ab10bd7caf184721a366cf3953071934}
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar `trackEvent` retorno de chamada e processo do visualizador `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -66,11 +66,11 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JOGAR </span> </p> </td> 
    <td colname="col2"> <p>reprodução iniciada. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>reprodução em pausa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARADA </span> </p> </td> 
    <td colname="col2"> <p>reprodução interrompida. </p> </td> 
   </tr> 
   <tr> 

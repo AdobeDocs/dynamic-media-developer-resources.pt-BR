@@ -22,7 +22,7 @@ Valor da string de texto. Pode incluir quaisquer caracteres válidos em caminhos
 
 ## Padrão {#section-e0ed902557684345850b86672b5dbe5b}
 
-Nenhum. Cada catálogo deve ter um `catalog::RootId` valor. default.ini geralmente tem um vazio `catalog::RootId`.
+Nenhum. Cada catálogo deve ter um valor `catalog::RootId` exclusivo. default.ini normalmente tem um `catalog::RootId` vazio.
 
 ## Consulte também {#section-4670832574f54f9080bb485b047efd5b}
 

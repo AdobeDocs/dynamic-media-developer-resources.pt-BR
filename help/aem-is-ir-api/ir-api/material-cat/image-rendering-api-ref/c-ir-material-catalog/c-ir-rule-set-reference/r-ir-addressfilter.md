@@ -1,5 +1,5 @@
 ---
-description: Elemento de filtro de endereço. Opcional em <rule> elementos. Substitui o atributo ClientAddressFilter quando a regra é aplicada.
+description: Elemento de filtro de endereço. Opcional em elementos <rule>. Substitui o atributo ClientAddressFilter quando a regra é aplicada.
 solution: Experience Manager
 title: addressfilter
 feature: Dynamic Media Classic,SDK/API
@@ -26,13 +26,13 @@ Lista de endereços IP separados por vírgulas. Cada endereço individual pode i
 
 ## Descrição {#section-099b7839c4be40c68cbff29dad14e7d5}
 
-O acesso a esse catálogo de imagens pode ser restrito a um ou mais endereços IP específicos especificando-os em um `<addressfilter>` elemento. Um erro &quot;request refused&quot; é retornado ao cliente se o endereço IP do cliente não for compatível.
+O acesso a este catálogo de imagens pode ser restrito a um ou mais endereços IP específicos especificando-os em um elemento `<addressfilter>`. Um erro &quot;request refused&quot; é retornado ao cliente se o endereço IP do cliente não for compatível.
 
-O acesso não é restrito se `<addressfilter>` está vazio ou não foi especificado.
+O acesso não é restrito se `<addressfilter>` estiver vazio ou não for especificado.
 
-Se a variável `<expression>` no `<rule>` estiver ausente ou vazio, a variável `<addressfilter>` é aplicado a todas as solicitações.
+Se o `<expression>` no elemento `<rule>` estiver ausente ou vazio, o `<addressfilter>` será aplicado a todas as solicitações.
 
-`localhost` sempre faz parte implicitamente do `ClientAddressFilter` definição, mesmo que não seja explicitamente especificada. Solicitações originadas de `localhost` nunca são rejeitados, independentemente da `ClientAddressFilter` especificação.
+`localhost` sempre faz parte implicitamente da definição `ClientAddressFilter`, mesmo que não seja explicitamente especificado. As solicitações originadas de `localhost` nunca são rejeitadas, independentemente da especificação `ClientAddressFilter`.
 
 ## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

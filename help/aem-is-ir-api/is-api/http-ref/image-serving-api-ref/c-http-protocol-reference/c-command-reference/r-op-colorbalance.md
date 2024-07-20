@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Os dados de imagem de entrada em cinza e CMYK são convertidos em RGB usando con
 
 ## Propriedades {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito. As imagens e camadas CMYK são convertidas em RGB antes da operação ser aplicada.
+Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito. As imagens e camadas CMYK são convertidas em RGB antes da operação ser aplicada.
 
 ## Padrão {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -47,4 +47,4 @@ Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado p
 
 Empurre o equilíbrio de cores em direção ao vermelho:
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Área de exclusão de fluxo de texto. Especifica uma ou mais regiões para excluir do fluxo de texto.
 
-`textFlowXPath= *`pathDefinition`*`
+`textFlowXPath= *`definiçãoCaminho`*`
 
 <table id="simpletable_7E0EA48AEBB5426CBE948FCA18882C66"> 
  <tr class="strow"> 
@@ -25,11 +25,11 @@ ht-degree: 0%
  </tr> 
 </table>
 
-Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para obter informações adicionais, incluindo uma descrição de *`pathDefinition`*. Se nenhuma definição de caminho for especificada, `textFlowXPath=` é ignorado.
+Consulte [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) para obter informações adicionais, incluindo uma descrição de *`pathDefinition`*. Se nenhuma definição de caminho for especificada, `textFlowXPath=` será ignorado.
 
 ## Propriedades {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Atributo de camada de texto ( `textPs=` somente). Ignorado por outras camadas ou quando especificado sem `textFlowPath=`. Aplicável a `layer=0` se especificado para `layer=comp`.
+Atributo de camada de texto (somente `textPs=`). Ignorado por outras camadas ou quando especificado sem `textFlowPath=`. Aplicável a `layer=0`, se especificado, para `layer=comp`.
 
 ## Padrão {#section-9405cda904684d829ed12a9e40a4dc46}
 

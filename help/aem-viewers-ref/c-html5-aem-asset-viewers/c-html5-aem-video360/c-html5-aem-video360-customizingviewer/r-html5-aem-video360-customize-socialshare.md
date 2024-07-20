@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 .s7video360viewer .s7socialshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS da ferramenta de compartilhamento social**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
    <td colname="col2"> <p> Posição vertical da ferramenta de compartilhamento em redes sociais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar uma ferramenta de compartilhamento em redes sociais posicionada a quatro pixels da parte superior e a cinco pixels da direita do contêiner de visualização e dimensionada a 28 x 28 pixels.
+**Exemplo** - Para configurar uma ferramenta de compartilhamento em redes sociais que esteja posicionada a quatro pixels da parte superior e a cinco pixels da direita do contêiner do visualizador e que tenha o tamanho de 28 x 28 pixels.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -64,12 +64,12 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 .s7video360viewer .s7socialshare .s7socialbutton
 ```
 
-**Propriedades CSS do botão de ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS do botão de ferramenta de compartilhamento social**
 
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
-A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
+A dica de ferramenta do botão pode ser localizada. Consulte [Localização de elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemplo** - Para configurar um botão de ferramenta de compartilhamento em redes sociais que exiba uma imagem diferente para cada um dos quatro estados de botão diferentes.
+**Exemplo** - Para configurar um botão de ferramenta de compartilhamento social que exiba uma imagem diferente para cada um dos quatro estados de botão diferentes.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -108,18 +108,18 @@ A aparência do painel que contém os ícones individuais de compartilhamento em
 .s7video360viewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriedades CSS do painel compartilhamento em redes sociais**
+**Propriedades CSS do painel de compartilhamento social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemplo** - Para configurar um painel para ter cor transparente:
+**Exemplo** - Para configurar um painel com cor transparente:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: e36660bb-d2ec-464c-b578-fe862bca5c50
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
 # Carimbo de data/hora{#timestamp}
 
-Se `attribute::UseLastModified` for definido, a variável `catalog::TimeStamp` é retornado na resposta HTTP como um cabeçalho HTTP de Última modificação. O cabeçalho Última modificação é sempre retornado para conteúdo estático, mesmo se `attribute::UseLastModified` não está definido.
+Se `attribute::UseLastModified` estiver definido, o valor `catalog::TimeStamp` será retornado na resposta HTTP como um cabeçalho HTTP de Última Modificação. O cabeçalho Last-Modified sempre é retornado para conteúdo estático, mesmo se `attribute::UseLastModified` não estiver definido.
 
-Para conteúdo de imagem e SVG, `catalog::TimeStamp` também é usado para validação de cache baseada em catálogo (consulte [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
+Para conteúdo de imagem e SVG, `catalog::TimeStamp` também é usado para validação de cache com base em catálogo (consulte [attribute::CacheValidationPolicy](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-cachevalidationpolicy.md).
 
 ## Propriedades {#section-2298a384b5cb43929542655c5a49beb2}
 
@@ -28,11 +28,11 @@ Valor de data/hora em formato Java. Pode ser o número inteiro de milissegundos 
 
 *`hh`* está no intervalo de 0 a 23.
 
-*`zzz`* é um código de fuso horário de três ou quatro caracteres, como &quot;GMT&quot; ou &quot;PST&quot;. Conta para o Horário de verão no código do fuso horário. Por exemplo, &quot;PST&quot; para a Hora Padrão do Pacífico, versus &quot;PDT&quot; para o Horário de Verão do Pacífico).
+*`zzz`* é um código de fuso horário com três ou quatro caracteres, como &quot;GMT&quot; ou &quot;PST&quot;. Conta para o Horário de verão no código do fuso horário. Por exemplo, &quot;PST&quot; para a Hora Padrão do Pacífico, versus &quot;PDT&quot; para o Horário de Verão do Pacífico).
 
-*`offset`* é uma diferença de fuso horário em horas ou `hours:minutes`, relativo a GMT. Por exemplo, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
+*`offset`* é uma diferença de fuso horário em horas ou `hours:minutes`, relativa a GMT. Por exemplo, &#39;PDT&#39; equivale a &#39;GMT -7&#39;.
 
-Todos os elementos de valores de data/hora formatados com string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do `*`catálogo`*.ini` arquivo é usado em seu lugar.
+Todos os elementos de valores de data/hora formatados com string devem estar presentes. Se o valor de data/hora não estiver formatado corretamente, ele será ignorado e a hora de modificação do arquivo `*`catálogo`*.ini` será usada em seu lugar.
 
 ## Padrão {#section-0cbf801401ff4857bdda168fd12358af}
 

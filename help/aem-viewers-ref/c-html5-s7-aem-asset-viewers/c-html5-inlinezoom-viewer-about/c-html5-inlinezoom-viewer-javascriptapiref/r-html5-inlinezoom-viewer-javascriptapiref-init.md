@@ -1,6 +1,6 @@
 ---
 title: init
-description: Referência da API JavaScript para o Visualizador de zoom em linha.
+description: Referência da API do JavaScript para o Visualizador de zoom em linha.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # init{#init}
 
-Referência da API JavaScript para o Visualizador de zoom em linha.
+Referência da API do JavaScript para o Visualizador de zoom em linha.
 
 `init()`
 
 Inicia a inicialização do visualizador para que o código do visualizador possa encontrá-lo por sua ID. Nesse momento, o elemento DOM do contêiner deve ser criado.
 
-Se o elemento de contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode estar oculto usando `display:none` estilo atribuído a ele - o visualizador suspende o processo de inicialização. Isso é feito até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
+Se o elemento de contêiner ainda não fizer parte do layout da página da Web - por exemplo, talvez ele esteja oculto usando o estilo `display:none` atribuído a ele - o visualizador suspende seu processo de inicialização. Isso é feito até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
 Chame esse método apenas uma vez durante o ciclo de vida do visualizador; as chamadas subsequentes são ignoradas.
 

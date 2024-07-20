@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Especifica se deve ser permitida uma alteração na direção de rotação se houver um conjunto de rotação 2D. </p> <p>Quando definido como <span class="codeph"> 1 </span>, o componente identifica a direção principal de arrastar ou deslizar (horizontal versus vertical) no início do gesto. Depois disso, mantém essa direção até que o gesto termine. Por exemplo, se o usuário iniciar uma rotação horizontal e decidir continuar o gesto de arrastar na direção vertical, o componente não executará uma rotação vertical. Em vez disso, ele considera apenas o movimento horizontal do mouse ou deslizamento. </p> <p>Um valor de <span class="codeph"> 0 </span> permite que o usuário altere a direção de rotação a qualquer momento durante o progresso do gesto. A configuração não tem efeito se o conjunto de rotação for 1D. </p> </td> 
+   <td colname="col2"> <p> Especifica se deve ser permitida uma alteração na direção de rotação se houver um conjunto de rotação 2D. </p> <p>Quando definido como <span class="codeph"> 1 </span>, o componente identifica a direção principal de arrastar ou deslizar (horizontal versus vertical) no início do gesto. Depois disso, mantém essa direção até que o gesto termine. Por exemplo, se o usuário iniciar uma rotação horizontal e decidir continuar o gesto de arrastar na direção vertical, o componente não executará uma rotação vertical. Em vez disso, ele considera apenas o movimento horizontal do mouse ou deslizamento. </p> <p>Um valor de <span class="codeph"> 0 </span> permite ao usuário mudar a direção de rotação a qualquer momento durante o progresso do gesto. A configuração não tem efeito se o conjunto de rotação for 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>

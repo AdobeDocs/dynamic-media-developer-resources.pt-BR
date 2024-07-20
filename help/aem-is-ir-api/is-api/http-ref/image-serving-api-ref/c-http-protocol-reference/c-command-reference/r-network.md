@@ -4,18 +4,19 @@ description: Saiba mais sobre como usar a otimização da largura de banda da re
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
+exl-id: 7df6eeed-1856-40e1-bd5d-8f06efc7f700
+source-git-commit: 63c0e3b494b6d583117dad01643946900855802e
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
 # rede{#network}
 
-Ativar a Largura de Banda da Rede ajusta automaticamente a qualidade da imagem fornecida com base na largura de banda real da rede. Para largura de banda de rede fraca, [DPR (Relação de pixels do dispositivo)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) a otimização é automaticamente desativada, mesmo que já esteja ativada.
+Ativar a Largura de Banda da Rede ajusta automaticamente a qualidade da imagem fornecida com base na largura de banda real da rede. Para largura de banda de rede insuficiente, a otimização de [DPR (Relação de Pixels do Dispositivo)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) é automaticamente desativada, mesmo que já esteja ativada.
 
-Se desejar, sua empresa pode recusar a otimização da largura de banda da rede no nível da imagem individual anexando `network=off` ao URL da imagem.
+Se desejar, sua empresa pode recusar a otimização da largura de banda da rede no nível da imagem individual, anexando `network=off` à URL da imagem.
 
 `network=on|off`
 
@@ -42,4 +43,4 @@ Um atributo de solicitação. Não tem efeito se as condições da rede forem ex
 
 ## Consulte também
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Imagem inteligente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

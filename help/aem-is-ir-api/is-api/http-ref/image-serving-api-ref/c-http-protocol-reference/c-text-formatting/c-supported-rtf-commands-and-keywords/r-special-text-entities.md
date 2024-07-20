@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -53,17 +53,17 @@ Use as entidades especiais a seguir ao formatar o texto.
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>Espaço ininterrupto. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> somente. </p> </td> 
+   <td> <p><span class="codeph"> somente textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Hífen não-separável. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> somente. </p> </td> 
+   <td> <p><span class="codeph"> somente textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>Hífen opcional. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> somente. </p> </td> 
+   <td> <p><span class="codeph"> somente textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

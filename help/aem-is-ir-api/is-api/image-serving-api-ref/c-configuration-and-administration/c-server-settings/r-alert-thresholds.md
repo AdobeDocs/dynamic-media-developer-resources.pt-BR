@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Um alerta de tráfego mínimo é enviado quando o número médio de solicitaçõ
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace - Limite de espaço livre no Heap {#section-ce6705045f6842769030ccb1894594cc}
 
-Especifica o espaço livre mínimo de heap do Java. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre em heap está abaixo desse limite. 50 MB são recomendados para a operação segura do [!DNL Platform Server]. Manter o espaço de heap livre acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
+Especifica o espaço livre mínimo de heap do Java. Um alerta de prioridade é enviado imediatamente após um ciclo de coleta de lixo Java quando o espaço livre em heap está abaixo desse limite. Recomenda-se 50 MB para a operação segura do [!DNL Platform Server]. Manter o espaço de heap livre acima desse valor reduz a frequência dos ciclos de coleta de lixo, o que pode melhorar o desempenho geral do servidor. Valor inteiro em bytes, 0 ou maior.
 
 ## AS::monitorAlertGenerator.maxOverlap - Número Máximo de Solicitações Simultâneas {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

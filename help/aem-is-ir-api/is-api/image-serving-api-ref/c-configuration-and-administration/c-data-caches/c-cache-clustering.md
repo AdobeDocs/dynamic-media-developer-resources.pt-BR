@@ -24,10 +24,10 @@ Os tempos limite e outras proteções garantem que o sistema continue a funciona
 
 O cluster armazenado em cache pode operar em uma das duas configurações básicas:
 
-* Quando `PS::cacheCluster.updateLocalCache` estiver ativado (padrão), qualquer entrada de cache encontrada em um servidor par será copiada para o cache local.
+* Quando `PS::cacheCluster.updateLocalCache` está habilitado (padrão), qualquer entrada de cache encontrada em um servidor par é copiada para o cache local.
 
-   Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também oferece os tempos de resposta mais rápidos, ao custo de ter todas as entradas de cache replicadas para todos os servidores do cluster. Essa é a configuração recomendada.
+  Essa configuração reduz o tráfego entre os servidores de mesmo nível. Ele também oferece os tempos de resposta mais rápidos, ao custo de ter todas as entradas de cache replicadas para todos os servidores do cluster. Essa é a configuração recomendada.
 
-* Quando `PS::cacheCluster.updateLocalCache` estiver desativado, os dados de outros servidores não serão copiados para o cache local.
+* Quando `PS::cacheCluster.updateLocalCache` está desabilitado, os dados de outros servidores não são copiados para o cache local.
 
-   Isso multiplica o espaço em disco disponível para dados do cache. No entanto, aumenta o tráfego entre os servidores de peer e reduz os tempos de resposta geral. Use essa configuração somente quando você vir taxas de ocorrência de cache baixas.
+  Isso multiplica o espaço em disco disponível para dados do cache. No entanto, aumenta o tráfego entre os servidores de peer e reduz os tempos de resposta geral. Use essa configuração somente quando você vir taxas de ocorrência de cache baixas.

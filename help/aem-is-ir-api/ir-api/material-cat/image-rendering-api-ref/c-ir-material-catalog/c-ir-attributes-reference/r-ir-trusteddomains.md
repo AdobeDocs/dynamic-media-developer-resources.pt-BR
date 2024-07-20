@@ -18,7 +18,7 @@ domínios da Web de aplicativos do Flash. os aplicativos de Flash Adobe podem ex
 
 ## Propriedades {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-String contendo uma lista separada por vírgulas de nomes de domínio da Web. Se estiverem vazios, os aplicativos deverão ser veiculados no mesmo domínio da Renderização de imagem para que seja possível acessar as propriedades das imagens no [!DNL swf]respostas formatadas por.
+String contendo uma lista separada por vírgulas de nomes de domínio da Web. Se estiver vazio, os aplicativos devem ser servidos no mesmo domínio da Renderização de Imagem para que seja possível acessar as propriedades das imagens nas respostas formatadas com [!DNL swf].
 
 ## Padrão {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 

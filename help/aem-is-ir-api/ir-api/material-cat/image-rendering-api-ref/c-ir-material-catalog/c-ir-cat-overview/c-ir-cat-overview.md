@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Os catálogos de materiais fornecem ao servidor informações sobre vinhetas, materiais e dados de suporte, como perfis ICC.
 
-Cada catálogo de materiais consiste em um catálogo *arquivo de atributo de catálogo* e um conjunto de *arquivos de dados de catálogo*:
+Cada catálogo de materiais consiste em um *arquivo de atributo de catálogo* necessário e um conjunto de *arquivos de dados de catálogo* opcionais:
 
 * O arquivo do mapa de vinhetas, que apresenta as vinhetas e os modelos, bem como os respectivos metadados.
 * O arquivo de dados de material, que discrimina materiais e especifica os arquivos de imagem de textura e metadados associados.
@@ -25,9 +25,9 @@ Cada catálogo de materiais consiste em um catálogo *arquivo de atributo de cat
 
 Os arquivos de dados de catálogo são associados a catálogos de materiais por referências de arquivo no arquivo de atributo de catálogo. O mesmo arquivo de dados de catálogo pode ser compartilhado por vários catálogos de material.
 
-Os arquivos de atributo de catálogo devem ter um [!DNL `.ini`] sufixo do arquivo e deve estar na Renderização de imagem *pasta de catálogo* ( [!DNL PlatformServer::ir.catalogRootPath]). Os arquivos de dados do catálogo podem estar na mesma pasta ou em qualquer outra pasta acessível ao Servidor de renderização.
+Os arquivos de atributo do catálogo devem ter um sufixo de arquivo [!DNL `.ini`] e devem estar na *pasta de catálogo* da Renderização de Imagem ( [!DNL PlatformServer::ir.catalogRootPath]). Os arquivos de dados do catálogo podem estar na mesma pasta ou em qualquer outra pasta acessível ao Servidor de renderização.
 
-**Atualizando catálogos de material**
+**Atualizando catálogos de materiais**
 
 O servidor monitora continuamente a pasta do catálogo. Ele recarrega automaticamente um catálogo de materiais — incluindo arquivos de dados de catálogo associados — quando detecta que o arquivo de atributo de catálogo principal foi alterado. Assim, para atualizar catálogos de materiais no servidor, substitua primeiro todos os arquivos de dados de catálogo que precisam ser alterados e substitua (ou &quot;toque&quot;) o arquivo de atributos do catálogo para acionar o recarregamento do catálogo.
 
@@ -37,7 +37,7 @@ O catálogo padrão fornece valores padrão para todos os atributos de catálogo
 
 Além disso, o catálogo padrão fornece todos os atributos e registros de dados (perfis ICC) quando nenhum catálogo de materiais específico está envolvido em uma operação.
 
-Para o funcionamento correto do Servidor de renderização, o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado [!DNL default.ini]. Ele também deve existir sempre na pasta do catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados de catálogo, que são opcionais.
+Para o funcionamento correto do Servidor de Renderização, o arquivo de atributos do catálogo para o catálogo padrão deve ser nomeado como [!DNL default.ini]. Ele também deve existir sempre na pasta de catálogo e deve ser totalmente preenchido com todos os atributos necessários, excluindo `attribute::RootId` e as referências aos vários arquivos de dados de catálogo, que são todos opcionais.
 
 <!-- **See also**
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado termina com &quot;-alpha&quot;, o componente renderiza as imagens como transparentes. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. O componente tem um plano de fundo transparente por padrão. Portanto, para torná-lo opaco, defina o `background-color` Propriedade CSS para `desired_color`
+Especifica o formato de imagem a ser usado pelo componente para carregar imagens do Servidor de imagens. Se o formato especificado termina com &quot;-alpha&quot;, o componente renderiza as imagens como transparentes. Para todos os outros formatos de imagem, o componente trata as imagens como opacas. O componente tem um plano de fundo transparente por padrão. Portanto, para torná-lo opaco, defina a propriedade CSS `background-color` como `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

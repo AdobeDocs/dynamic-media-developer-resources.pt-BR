@@ -39,7 +39,7 @@ A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Esta amostra de código usa o identificador do tipo como um campo na `deletePropertySetTypeParam` enviado ao servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
+Esta amostra de código usa o identificador do tipo como um campo no `deletePropertySetTypeParam` enviado ao servidor de serviços Web IPS para excluir o tipo de conjunto de propriedades.
 
 **Solicitação**
 

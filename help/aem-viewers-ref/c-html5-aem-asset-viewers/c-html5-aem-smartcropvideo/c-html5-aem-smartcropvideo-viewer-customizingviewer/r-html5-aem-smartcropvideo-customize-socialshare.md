@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 650e1a57-9b0e-4132-a9b0-42c33cacdc04
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
 .s7smartcropvideoviewer .s7socialshare
 ```
 
-**Propriedades CSS da ferramenta de compartilhamento em redes sociais**
+**Propriedades CSS da ferramenta de compartilhamento social**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ A posição e o tamanho da ferramenta de compartilhamento social na interface do
    <td colname="col2"> <p> Posição vertical da ferramenta de compartilhamento em redes sociais em relação ao contêiner do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p> Posição horizontal da ferramenta de compartilhamento em redes sociais em relação ao container do visualizador. </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ A aparência do botão de ferramenta de compartilhamento em redes sociais é con
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) para obter mais informações.
 
@@ -108,12 +108,12 @@ A aparência do painel que contém os ícones individuais de compartilhamento em
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriedades CSS do painel compartilhamento em redes sociais**
+**Propriedades CSS do painel de compartilhamento social**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>A cor do plano de fundo do painel. </p> </td> 
   </tr> 
  </tbody> 

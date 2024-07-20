@@ -1,6 +1,6 @@
 ---
-title: Referência da API JavaScript para o Visualizador de zoom em linha
-description: A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API do JavaScript para o Visualizador de zoom incorporado
+description: A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Referência da API JavaScript para o Visualizador de zoom em linha{#javascript-api-reference-for-inline-zoom-viewer}
+# Referência da API do JavaScript para o Visualizador de zoom incorporado{#javascript-api-reference-for-inline-zoom-viewer}
 
-A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Visualizador de zoom incorporado é FlyoutViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.FlyoutViewer` classe.
+Em todos os exemplos a seguir, `<instance>` representa o nome real do objeto do visualizador do JavaScript que é instanciado da classe `s7viewers.FlyoutViewer`.
 
 * [descartar](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

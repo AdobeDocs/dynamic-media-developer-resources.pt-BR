@@ -18,7 +18,7 @@ Nome de atalho do perfil. Um nome de atalho para o perfil de cores.
 
 ## Propriedades {#section-52a4b91bbfa045c49c9541444fad2027}
 
-String de texto. Obrigatório. Chave de índice principal do mapa de perfis ICC. Each `icc::Name` o valor deve ser exclusivo dentro da tabela e não deve conter caracteres &#39;,&#39;.
+String de texto. Obrigatório. Chave de índice principal do mapa de perfis ICC. Cada valor `icc::Name` deve ser exclusivo dentro da tabela e não deve conter caracteres &#39;,&#39;.
 
 ## Padrão {#section-9d23d9b082f541b5b29b4ff92e942942}
 

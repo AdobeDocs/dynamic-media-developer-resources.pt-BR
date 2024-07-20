@@ -40,7 +40,7 @@ Sintaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | O identificador da empresa com o ativo com o qual você deseja trabalhar. |
 | assetHandle | `xsd:string` | Sim | O identificador do ativo com o qual você deseja trabalhar. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base na cor. Consulte [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoColorCropOptions | `types:AutoColorCropOptions` | Não | Calcular retângulo de corte com base na cor. Consulte [Opções de Corte Automático](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
 | autoTransparentCropOptions | `types:AutoTransparentCropOptions` | Não | Calcular retângulo de corte com base na transparência. Consulte [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Saída (getAutoCropRectReturn)**
@@ -80,6 +80,5 @@ Sintaxe
 
 >[!MORELIKETHIS]
 >
->* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-
+>* [OpçõesDeCorteAutomático](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+>* [OpçõesDeCorteAutomáticoTransparente](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)

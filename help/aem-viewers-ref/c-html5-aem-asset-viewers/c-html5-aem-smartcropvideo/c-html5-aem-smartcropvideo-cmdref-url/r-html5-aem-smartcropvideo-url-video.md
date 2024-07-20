@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Comando de URL para o Visualizador de Corte inteligente de vídeo.
 
 ## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obrigatório. (a menos que `asset` é usado. Consulte [Suporte a vídeo externo]
+Obrigatório. (A menos que o parâmetro `asset` seja usado. Consulte [Suporte de Vídeo Externo]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}

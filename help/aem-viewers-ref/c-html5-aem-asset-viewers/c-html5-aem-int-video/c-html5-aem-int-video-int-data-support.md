@@ -22,7 +22,7 @@ A amostra interativa pode ativar uma Visualização rápida na página da Web de
 
 ## Sobre o Quickview {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-Esses tipos de amostras interativas devem ser criadas usando o tipo de ação &quot;quickview&quot; no Adobe Experience Manager Assets - On-demand. Quando um usuário ativa essa amostra, o visualizador executa `quickViewActivate` O retorno de chamada JavaScript do e passa os dados de amostra para ele. Espera-se que a página da Web que incorpora o escute essa chamada de retorno e, quando ela é acionada, a página abre sua própria implementação do Quickview.
+Esses tipos de amostras interativas devem ser criadas usando o tipo de ação &quot;quickview&quot; no Adobe Experience Manager Assets - On-demand. Quando um usuário ativa essa amostra, o visualizador executa o retorno de chamada do JavaScript `quickViewActivate` e passa os dados da amostra para ele. Espera-se que a página da Web que incorpora o escute essa chamada de retorno e, quando ela é acionada, a página abre sua própria implementação do Quickview.
 
 ## Redirecionar para uma página externa da Web {#section-32ebe3c3a7f74892a428c5d48801de4d}
 

@@ -18,7 +18,7 @@ Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL 
 
 Essas operações e tipos estão sujeitos a desativação, alteração ou desativação com atualizações de sistema subsequentes.
 
-**Novos tipos**
+**Novos Tipos**
 
 * AssetPublishContexts
 * AssetPublishContextsArray
@@ -52,57 +52,57 @@ Essas operações e tipos estão sujeitos a desativação, alteração ou desati
 
 **Tipos modificados**
 
-* Alterado `ActiveJob` para incluir um `createVideoSitemapJob` type
+* Alterou `ActiveJob` para incluir um tipo `createVideoSitemapJob`
 
-* Alterado `ScheduledJob` para incluir um `createVideoSitemapJob` type
+* Alterou `ScheduledJob` para incluir um tipo `createVideoSitemapJob`
 
-* Alterado `ImageServingPublishJob` para incluir uma `contextHandle`
+* Alterou `ImageServingPublishJob` para incluir um `contextHandle` opcional
 
-* Alterado `ImageRenderingPublishJob` para incluir uma `contextHandle`
+* Alterou `ImageRenderingPublishJob` para incluir um `contextHandle` opcional
 
-* Alterado `MetadataField` para incluir uma `initialTagField`
+* Alterou `MetadataField` para incluir um `initialTagField` opcional
 
-* Alterado `MetadataCondition` para incluir e opcional `caseSensitive` parâmetro
+* Alterou `MetadataCondition` para incluir e parâmetro `caseSensitive` opcional
 
-* Alterado `PropertySet` para incluir uma `PermissionArray` as `permissions`
+* Alterou `PropertySet` para incluir um `PermissionArray` opcional como `permissions`
 
-* Alterado `UploadDirectoryJob` para incluir opcionais `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride` parâmetros
+* Alterou `UploadDirectoryJob` para incluir parâmetros `xmpKeywords`, `xmpTemplateId` e `xmpTemplateOverride` opcionais
 
-* Alterado `VideoPublishJob` para incluir uma `contextHandle`
+* Alterou `VideoPublishJob` para incluir um `contextHandle` opcional
 
 **Operações Modificadas**
 
-* Alterado `createAssetSet` para incluir uma `thumbAssetHandle`
+* Alterou `createAssetSet` para incluir um `thumbAssetHandle` opcional
 
-* Alterado `createImageSet` para incluir uma `thumbAssetHandle`
+* Alterou `createImageSet` para incluir um `thumbAssetHandle` opcional
 
-* Alterado `createMetadataField` para incluir uma `initialTagValue` parâmetro
+* Alterou `createMetadataField` para incluir um parâmetro `initialTagValue` opcional
 
-* Alterado `createPropertySet` para incluir uma `PermissionUpdateArray` as `permissionArray`
+* Alterou `createPropertySet` para incluir um `PermissionUpdateArray` opcional como `permissionArray`
 
-* Alterado `getImageServingPublishSettings` para incluir uma `contextHandle` parâmetro
+* Alterou `getImageServingPublishSettings` para incluir um parâmetro `contextHandle` opcional
 
-* Alterado `getImageRenderingPublishSettings` para incluir uma `contextHandle` parâmetro
+* Alterou `getImageRenderingPublishSettings` para incluir um parâmetro `contextHandle` opcional
 
 * Alterado `searchAssetsByFullText` para incluir uma série de parâmetros opcionais:
 
-   * `SearchFilter` as `filters` parâmetro
+   * `SearchFilter` como parâmetro `filters`
 
    * `sortBy`
    * `sortDirection`
 
 * Alterado `searchAssetsByMetadata` para incluir uma série de parâmetros opcionais:
 
-   * `SearchFilter` as `filters` parâmetro
+   * `SearchFilter` como parâmetro `filters`
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` sequência de sete parâmetros
+   * Sequência `haystackSearch` de sete parâmetros
 
-* Alterado `setAssetPublishState` para incluir uma `HandleArray` as `contextHandleArray`
+* Alterou `setAssetPublishState` para incluir um `HandleArray` opcional como `contextHandleArray`
 
-* Alterado `setImageServingPublishSettings` para incluir uma `contextHandle` parâmetro
+* Alterou `setImageServingPublishSettings` para incluir um parâmetro `contextHandle` opcional
 
-* Alterado `setImageRenderingPublishSettings` para incluir uma `contextHandle`parâmetro
+* Alterou `setImageRenderingPublishSettings` para incluir um parâmetro `contextHandle` opcional
 
-* Alterado `submitJob` para incluir uma `createVideoSitemap` tipo de tarefa
+* Alterou `submitJob` para incluir um tipo de trabalho `createVideoSitemap` opcional

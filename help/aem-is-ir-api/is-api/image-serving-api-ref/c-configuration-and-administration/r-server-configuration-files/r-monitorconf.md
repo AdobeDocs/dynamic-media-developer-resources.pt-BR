@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 09c30680-dd9f-4744-b5ec-105721058883
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contém configurações para o sistema de monitoramento/alerta.
 
-Este arquivo é um arquivo de propriedades JAVA. deve ter-se o cuidado de seguir as convenções adequadas; caso contrário, a [!DNL Platform Server] pode falhar ao iniciar. Observe especialmente que uma barra invertida dupla &#39;\\&#39; ou uma única barra &#39;/&#39; deve ser usada em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows, já que a barra invertida é usada como um caractere de escape neste tipo de arquivo.
+Este arquivo é um arquivo de propriedades JAVA. Tenha cuidado ao seguir as convenções apropriadas; caso contrário, [!DNL Platform Server] pode falhar ao iniciar. Observe especialmente que uma barra invertida dupla &#39;\\&#39; ou uma única barra &#39;/&#39; deve ser usada em vez de uma barra invertida &#39;\&#39; nos caminhos de arquivo do Windows, já que a barra invertida é usada como um caractere de escape neste tipo de arquivo.
 
 As alterações feitas nesse arquivo entrarão em vigor logo após serem salvas.
 

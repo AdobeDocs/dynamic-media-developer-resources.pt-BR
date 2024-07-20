@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
    <td colname="col2"> <p>A altura do visualizador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de fundo em formato hexadecimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e tornar seu tamanho 1174 x 500 pixels.
+Exemplo - para configurar um visualizador com um plano de fundo branco ( `#FFFFFF`) e definir seu tamanho como 1174 x 500 pixels.
 
 ```
 .s7interactiveimage { 

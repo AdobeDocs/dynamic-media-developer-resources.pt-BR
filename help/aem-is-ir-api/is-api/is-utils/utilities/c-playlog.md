@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ O utilitário playlog pode ser usado para pré-gerar conteúdo para o cache de r
 
 O cache de resposta HTTP existente do Servidor de imagens não é utilizável após uma atualização de versão principal (quando o primeiro ou o segundo dígito do número de versão é alterado). Se o servidor precisar ser colocado em condições de carga total após a atualização, o servidor poderá ficar sobrecarregado ao lidar com as primeiras horas de solicitações de perda de cache até que o cache seja razoavelmente preenchido e a taxa de ocorrência do cache aumente.
 
-Para evitar esse pico de carga inicial, a variável `playlog` pode ser usado para pré-gerar conteúdo para o cache de resposta HTTP. `playlog` O extrai solicitações HTTP de um arquivo de log de acesso existente e o envia ao servidor para gerar entradas de cache. Para cenários de uso típicos, é suficiente reproduzir um único arquivo de log de acesso contendo tráfego de um dia inteiro.
+Para evitar esse pico de carga inicial, o utilitário `playlog` pode ser usado para pré-gerar conteúdo para o cache de resposta HTTP. `playlog` extrai solicitações HTTP de um arquivo de log de acesso existente e o envia ao servidor para gerar entradas de cache. Para cenários de uso típicos, é suficiente reproduzir um único arquivo de log de acesso contendo tráfego de um dia inteiro.
 
 Além de preparar o cache de resposta HTTP após a instalação da atualização, o utilitário também é usado para pré-gerar conteúdo de cache ao adicionar um novo servidor a um ambiente com balanceamento de carga; basta reproduzir um arquivo de log recente de um dos outros servidores.
 
-`playlog` O pode ser configurado para suportar a maioria dos arquivos de log de acesso gerados por versões anteriores do Servidor de imagens.
+O `playlog` pode ser configurado para oferecer suporte à maioria dos arquivos de log de acesso gerados por versões anteriores do Servidor de imagens.
 
 ## Uso {#section-daa126ec469b4a9d90d59def4fdaacdd}
 
@@ -43,7 +43,7 @@ Além de preparar o cache de resposta HTTP após a instalação da atualização
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -m <span class="varname"> marcador </span> </span> </p> </td> 
-  <td class="stentry"> <p>Marcador de solicitação; identifica solicitações no arquivo de log que devem ser reproduzidas; padrão de expressão regular. </p> <p>Padrão: <span class="codeph"> Solicitação: </span>) </p> </td> 
+  <td class="stentry"> <p>Marcador de solicitação; identifica solicitações no arquivo de log que devem ser reproduzidas; padrão de expressão regular. </p> <p>Padrão: <span class="codeph"> (Solicitação: </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> sufixo </span> </span> </p> </td> 
@@ -51,15 +51,15 @@ Além de preparar o cache de resposta HTTP após a instalação da atualização
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 
-  <td class="stentry"> <p>Modo detalhado, imprime os URLs de solicitação gerados em <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p>Modo detalhado, imprime as URLs de solicitação geradas em <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -h </span> </p> </td> 
-  <td class="stentry"> <p>Imprimir uma sinopse para <span class="codeph"> stdout </span>. </p> </td> 
+  <td class="stentry"> <p>Imprimir um resumo para <span class="codeph"> stdout </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -r </span> </p> </td> 
-  <td class="stentry"> <p>método de solicitação - método de solicitação HTTP a ser usado ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Padrão: <span class="codeph"> inteligente </span>) </p> </td> 
+  <td class="stentry"> <p>método de solicitação - método de solicitação HTTP a ser usado ( <span class="codeph"> get|post|head|smart </span>). </p> <p>Padrão: <span class="codeph"> inteligente (</span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -o </span> </p> </td> 
@@ -67,7 +67,7 @@ Além de preparar o cache de resposta HTTP após a instalação da atualização
  </tr> 
 </table>
 
-No Windows, o nome do arquivo é [!DNL playlog.bat] e no Linux é [!DNL playlog.sh].
+Para o Windows, o nome do arquivo é [!DNL playlog.bat] e no Linux é [!DNL playlog.sh].
 
 ## Exemplos {#section-716e5c35e9fa4ee3a4b0687381fcea40}
 

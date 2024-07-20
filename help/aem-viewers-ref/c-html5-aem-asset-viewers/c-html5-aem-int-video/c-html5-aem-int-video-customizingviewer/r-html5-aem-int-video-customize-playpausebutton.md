@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,11 @@ O seletor de classe CSS a seguir controla a aparência do botão:
    <td colname="col2"> <p>Posição a partir da borda direita, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> saiu de </span> </p> </td> 
    <td colname="col2"> <p>Posição a partir da borda esquerda, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> inferior </p> </td> 
    <td colname="col2"> <p> Posição a partir da borda inferior, incluindo o preenchimento. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ O seletor de classe CSS a seguir controla a aparência do botão:
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -67,9 +67,9 @@ O seletor de classe CSS a seguir controla a aparência do botão:
 
 >[!NOTE]
 >
->Esse botão suporta as opções `state`, `selected`, e `replay` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado &quot;play&quot; e `selected='false'` corresponde ao estado &quot;pause&quot;;
+>Este botão oferece suporte aos seletores de atributo `state`, `selected` e `replay`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `selected='true'` corresponde ao estado &quot;play&quot; e `selected='false'` corresponde ao estado &quot;pause&quot;;
 >
->Atributo `replay='true'` é definido quando o vídeo atinge o fim e selecionar o botão reinicia a reprodução desde o início.
+>O atributo `replay='true'` é definido quando o vídeo atinge o fim e selecionar o botão reinicia a reprodução do início.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

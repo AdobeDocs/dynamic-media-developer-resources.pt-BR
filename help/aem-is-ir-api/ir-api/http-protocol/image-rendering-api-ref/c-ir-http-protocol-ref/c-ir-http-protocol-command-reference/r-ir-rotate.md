@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ Girar materiais de textura repetíveis por ângulos arbitrários quando aplicado
 
 Girar materiais decalques por ângulos arbitrários.
 
-Os ângulos positivos giram no sentido horário. A textura ou o decalque é girado em torno do ponto de ancoragem ( `anchor=`); o ponto de ancoragem permanece alinhado com a origem do objeto de destino.
+Os ângulos positivos giram no sentido horário. A textura ou o decalque é girado em torno do ponto âncora ( `anchor=`); o ponto âncora permanece alinhado com a origem do objeto de destino.
 
 ## Propriedades {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Atributo de material. Ignorado por cor sólida, papel de parede, gabinete e materiais de tratamento de janela. *`angle`* Deve ser um múltiplo de 45 para texturas repetíveis, a menos que aplicado a Flowline ou Sketch Objects.
+Atributo de material. Ignorado por cor sólida, papel de parede, gabinete e materiais de tratamento de janela. *`angle`* Deve ser um múltiplo de 45 para texturas repetíveis, a menos que seja aplicado a Flowline ou Objetos de Croqui.
 
 ## Padrão {#section-14c991e71b74449db8ff18a775949b28}
 
-`rotate=0`, para nenhuma rotação.
+`rotate=0`, sem rotação.
 
 ## Consulte também {#section-f73c00e9368b478dac1fd15bb4367a12}
 

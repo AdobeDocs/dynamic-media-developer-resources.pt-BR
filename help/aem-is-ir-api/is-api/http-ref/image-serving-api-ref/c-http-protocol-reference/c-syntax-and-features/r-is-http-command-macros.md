@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 As macros de comando fornecem atalhos nomeados para conjuntos de comandos. As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de imagens ou ao catálogo padrão.
 
-`$ *`name`*$`
+`$ *`nome`*$`
 
 <table id="simpletable_A03541622C354F60B5F304B999C4EF8E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> nome</span></span> </p> </td> 
   <td class="stentry"> <p>Nome da macro. </p></td> 
  </tr> 
 </table>
 
 `*`name`*` não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
 
-As macros podem ser invocadas em qualquer lugar em uma solicitação após &quot;?&quot; e em qualquer lugar dentro de um `catalog::Modifier` ou `catalog::PostModifier` campo. As macros só podem representar um ou mais comandos completos do Servidor de imagens e devem ser separadas de outros comandos com `&` separadores.
+As macros podem ser invocadas em qualquer lugar em uma solicitação depois do &#39;?&#39; e em qualquer lugar dentro de um campo `catalog::Modifier` ou `catalog::PostModifier`. As macros só podem representar um ou mais comandos completos do Servidor de imagens e devem ser separadas de outros comandos com separadores `&`.
 
-As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Esse fluxo de processamento é diferente de `catalog::Modifier`, em que os comandos na string de solicitação sempre substituem os comandos na variável `catalog::Modifier` independentemente da posição na solicitação.
+As invocações de macro são substituídas por suas cadeias de caracteres de substituição no início da análise. Os comandos nas macros substituem os mesmos comandos na solicitação se ocorrerem antes da invocação da macro na solicitação. Esse fluxo de processamento é diferente de `catalog::Modifier`, onde os comandos na cadeia de caracteres da solicitação sempre substituem comandos na cadeia de caracteres `catalog::Modifier`, independentemente da posição na solicitação.
 
 Macros de comandos não podem ter valores de argumento, mas variáveis personalizadas podem ser usadas para transmitir valores da solicitação para a macro.
 
@@ -49,8 +49,8 @@ A macro seria usada da seguinte maneira:
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-Porque `wid=` for diferente para a terceira solicitação, basta substituir o valor *após* a macro é invocada (especificando `wid=`*antes* `$view$` não tem efeito).
+Como `wid=` é diferente para a terceira solicitação, você pode simplesmente substituir o valor *após* a macro é invocada (especificar `wid=`*antes* `$view$` não tem efeito).
 
 ## Consulte também {#section-8cdba0ed2480444ca61e719e54f8871c}
 
-[catalog::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catálogo::Modificador](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), [Referência de definição de macro](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[catalog::MacroFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-macrofile.md#reference-f91d717b3847458ca0f1fe95387554a2) , [catalog::Modifier](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md), [Referência de Definição de Macro](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)

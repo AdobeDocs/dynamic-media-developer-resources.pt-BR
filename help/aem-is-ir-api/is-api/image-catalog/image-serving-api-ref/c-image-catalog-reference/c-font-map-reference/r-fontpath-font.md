@@ -18,7 +18,7 @@ Caminho do arquivo de fonte. Caminho e nome do arquivo de fonte principal, inclu
 
 ## Propriedades {#section-ae2b7daf74a4419ebcec8f13aa8c1462}
 
-String de texto. Obrigatório. Deve ser um caminho de arquivo válido do Servidor de imagens, seja absoluto ou relativo a `attribute::RootPath`.
+String de texto. Obrigatório. Deve ser um caminho de arquivo válido do Servidor de Imagens, seja absoluto ou relativo a `attribute::RootPath`.
 
 ## Padrão {#section-3fb42f362de84fdb8ba9fe4cc9628aa3}
 

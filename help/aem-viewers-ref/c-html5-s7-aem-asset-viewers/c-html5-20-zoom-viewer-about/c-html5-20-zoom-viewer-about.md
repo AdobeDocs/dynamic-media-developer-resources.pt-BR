@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2343'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 ## Usando o visualizador de zoom {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-O Visualizador de zoom representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
+O Visualizador de zoom representa um arquivo principal do JavaScript e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
 Você pode usar o Visualizador de zoom no modo pop-up usando uma página de HTML pronta para produção fornecida com Visualizadores IS ou no modo incorporado, onde ela é integrada à página da Web de destino usando a API documentada.
 
@@ -65,7 +65,7 @@ O Zoom Viewer suporta os seguintes gestos de toque que são comuns em outros apl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passar ou mover horizontalmente </p> </td> 
-   <td colname="col2"> <p> Rola pela lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado de redefinição e a variável <span class="codeph"> frametransition </span> for definido como slide, o ativo será alterado com a animação do slide. Para outras <span class="codeph"> frametransition </span> , o gesto executa a rolagem de página nativa. </p> <p> Se o zoom da imagem for ampliado, ela moverá a imagem horizontalmente. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem de página nativa. </p> </td> 
+   <td colname="col2"> <p> Rola pela lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado redefinido e o parâmetro </span> frametransition <span class="codeph"> estiver definido como slide, o ativo será alterado com a animação do slide. Para outros modos <span class="codeph"> frametransition </span>, o gesto executa a rolagem de página nativa. </p> <p> Se o zoom da imagem for ampliado, ela moverá a imagem horizontalmente. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem de página nativa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deslizamento vertical </p> </td> 
@@ -78,7 +78,7 @@ O visualizador é compatível com entrada por toque e entrada do mouse em dispos
 
 Este visualizador é totalmente acessível pelo teclado.
 
-Consulte [Acessibilidade e navegação pelo teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Consulte [Acessibilidade e navegação do teclado](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporação do visualizador de zoom {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -88,9 +88,9 @@ Páginas da Web diferentes têm necessidades diferentes para o comportamento do 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ela ocupa toda a área da janela do navegador e é ajustada caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando `window.open()` Chamada de JavaScript, configurada corretamente `A` elemento HTML ou qualquer outro método adequado.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. A página de HTML pronta para uso é chamada `ZoomViewer.html` e está localizado sob o `html5/` subpasta da implantação padrão do IS-Viewers, como na seguinte:
+É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. A página de HTML pronta para uso é chamada `ZoomViewer.html` e está localizada na subpasta `html5/` da sua implantação padrão de visualizadores IS, como no exemplo a seguir:
 
 `<s7viewers_root>/html5/ZoomViewer.html`
 
@@ -113,22 +113,22 @@ A incorporação de tamanho fixo é usada quando o visualizador não altera seu 
 
 O modo de incorporação de design responsivo presume que o redimensionamento do visualizador é necessário durante o tempo de execução devido à alteração de tamanho de seu contêiner `DIV`. O caso de uso mais comum é adicionar um visualizador a uma página da Web que usa um layout flexível.
 
-No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente, dependendo da forma como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir apenas a largura do container `DIV`, deixando sua altura irrestrita, o visualizador escolhe automaticamente sua altura de acordo com a proporção do ativo usado. Essa lógica garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap e Foundation.
+No modo de incorporação de design responsivo, o visualizador se comporta de forma diferente, dependendo da forma como a página da Web dimensiona seu contêiner `DIV`. Se a página da Web definir apenas a largura do contêiner `DIV`, deixando sua altura irrestrita, o visualizador escolherá automaticamente sua altura de acordo com a proporção do ativo usado. Essa lógica garante que o ativo se ajuste perfeitamente à exibição sem qualquer preenchimento nas laterais. Esse caso de uso é o mais comum para páginas da Web que usam estruturas de layout responsivas, como Bootstrap e Foundation.
 
-Se a página da Web definir a largura e a altura do container do visualizador `DIV`, o visualizador preenche essa área e segue o tamanho fornecido pela página da Web. Por exemplo, incorporar o visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
+Se a página da Web definir a largura e a altura do contêiner do visualizador `DIV`, ele preencherá essa área e seguirá o tamanho fornecido pela página da Web. Por exemplo, incorporar o visualizador em uma sobreposição modal, em que a sobreposição é dimensionada de acordo com o tamanho da janela do navegador da Web.
 
 ## Incorporação de tamanho fixo {#section-44f365e6c0dd40709467a459afa82a7f}
 
 Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definição do container DIV.
 1. Definindo o tamanho do visualizador.
 1. Criar e inicializar o visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL ZoomViewer.js]. A variável [!DNL ZoomViewer.js] O arquivo está localizado sob o [!DNL html5/js/] subpasta da implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL ZoomViewer.js]. O arquivo [!DNL ZoomViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -142,16 +142,16 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Fazer referência apenas ao JavaScript do visualizador principal `include` arquivo na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Em particular, não faça referência direta ao SDK do HTML5 `Utils.js` biblioteca carregada pelo visualizador de `/s7viewers` caminho de contexto (o chamado SDK consolidado) `include`). O motivo é que a localização de `Utils.js` ou bibliotecas semelhantes do visualizador de tempo de execução são totalmente gerenciadas pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
 >
 >
->Como resultado, ao inserir uma referência direta a qualquer JavaScript secundário `include` usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
+>Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
 1. Definição do container DIV.
 
    Adicione um elemento DIV vazio à página em que você deseja que o visualizador apareça. O elemento DIV deve ter sua ID definida porque essa ID é passada posteriormente para a API do visualizador.
 
-   O espaço reservado DIV é um elemento posicionado, o que significa que o `position` A propriedade CSS está definida como `relative` ou `absolute`.
+   O espaço reservado DIV é um elemento posicionado, o que significa que a propriedade CSS `position` está definida como `relative` ou `absolute`.
 
    Veja a seguir um exemplo de um elemento DIV de espaço reservado definido:
 
@@ -161,11 +161,11 @@ O caminho relativo tem a seguinte aparência:
 
 1. Definindo o tamanho do visualizador.
 
-   Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens, em sistemas desktop, as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal no tempo de execução usando `setAsset()` API. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou você pode manter o tamanho de exibição principal estático e recolher a área externa do visualizador, permitindo que o conteúdo da página da Web se mova para cima e usar o espaço livre restante na tela das miniaturas.
+   Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens, em sistemas desktop, as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal em tempo de execução usando a API `setAsset()`. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou você pode manter o tamanho de exibição principal estático e recolher a área externa do visualizador, permitindo que o conteúdo da página da Web se mova para cima e usar o espaço livre restante na tela das miniaturas.
 
-   Para manter os limites do visualizador externo intactos, defina o tamanho para o `.s7zoomviewer` classe CSS de nível superior em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página do HTML. Ou ele pode ser colocado em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou transmitido explicitamente usando um comando de estilo.
+   Para manter intactos os limites do visualizador externo, defina o tamanho da classe CSS de nível superior `.s7zoomviewer` em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página do HTML. Ou ele pode ser colocado em um arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou transmitido explicitamente usando um comando de estilo.
 
-   Consulte [Personalizar o visualizador de zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
+   Consulte [Personalizando o visualizador de zoom](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
    Este é um exemplo de definição de um tamanho de visualizador externo estático na página HTML:
 
@@ -180,9 +180,9 @@ O caminho relativo tem a seguinte aparência:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   Para tornar as dimensões de exibição principais estáticas, defina o tamanho do visualizador em unidades absolutas para o painel interno `Container` Componente do SDK que usa o `.s7zoomviewer` `.s7container` Seletor de CSS ou usando `stagesize` modificador.
+   Para tornar as dimensões de exibição principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente SDK `Container` interno usando o seletor de CSS `.s7zoomviewer` `.s7container` ou usando o modificador `stagesize`.
 
-   Veja a seguir um exemplo de definição do tamanho do visualizador para o `Container` Componente do SDK para que a área de exibição principal não altere o tamanho ao alternar o ativo:
+   Este é um exemplo de definição do tamanho do visualizador para o componente SDK `Container` interno para que a área de exibição principal não altere seu tamanho ao alternar o ativo:
 
    ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
@@ -195,7 +195,7 @@ O caminho relativo tem a seguinte aparência:
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   Você pode definir a variável `stagesize` modificador no registro de predefinição do visualizador no Dynamic Media Classic. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com o `params` ou como uma chamada de API, conforme descrito na seção Referência de comandos desta Ajuda, como no exemplo a seguir:
+   É possível definir o modificador `stagesize` no registro de predefinição do visualizador no Dynamic Media Classic. Ou você pode passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params` ou como uma chamada de API, conforme descrito na seção Referência de Comandos desta Ajuda, como a seguir:
 
    ```html {.line-numbers}
     zoomViewer.setParam("stagesize", 
@@ -206,15 +206,15 @@ O caminho relativo tem a seguinte aparência:
 
 1. Criar e inicializar o visualizador.
 
-   Quando tiver concluído as etapas acima, você criará uma instância de `s7viewers.ZoomViewer` classe, transmita todas as informações de configuração para seu construtor e chame `init()` em uma instância do visualizador.
+   Quando tiver concluído as etapas acima, você criará uma instância da classe `s7viewers.ZoomViewer`, passará todas as informações de configuração para seu construtor e chamará o método `init()` em uma instância do visualizador.
 
-   As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter `containerId` campo que contém o nome da ID do contêiner de visualização e aninhado `params` Objeto JSON com parâmetros de configuração compatíveis com o visualizador. Neste caso, o `params` objeto deve ter pelo menos o URL do Servidor de imagens passado como `serverUrl` propriedade e o ativo inicial como `asset` parâmetro. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
+   As informações de configuração são passadas ao construtor como um objeto JSON. No mínimo, esse objeto deve ter o campo `containerId`, que contém o nome da ID do contêiner do visualizador e o objeto JSON `params` aninhado com parâmetros de configuração aos quais o visualizador dá suporte. Nesse caso, o objeto `params` deve ter pelo menos a URL do Servidor de imagens passada como propriedade `serverUrl` e o ativo inicial como parâmetro `asset`. A API de inicialização baseada em JSON permite criar e iniciar o visualizador com uma única linha de código.
 
-   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. Para obter compatibilidade máxima, chame o `init()` método antes do fechamento `BODY` ou no corpo `onload()` evento.
+   É importante adicionar o contêiner do visualizador ao DOM para que o código do visualizador possa encontrar o elemento do contêiner por sua ID. Alguns navegadores atrasam a criação do DOM até o fim da página da Web. Para obter compatibilidade máxima, chame o método `init()` antes de fechar a marca `BODY` ou no evento de corpo `onload()`.
 
-   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, pode ser oculto usando `display:none` estilo atribuído a ele. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
+   Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, ela pode ser oculta usando o estilo `display:none` atribuído a ela. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa ação ocorre, o carregamento do visualizador é retomado automaticamente.
 
-   Este é um exemplo de criação de uma instância do visualizador, transmissão das opções de configuração mínimas necessárias para o construtor e chamada de `init()` método. Este exemplo assume `zoomViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado DIV, `http://s7d1.scene7.com/is/image/` é o URL do Servidor de imagens e `Scene7SharedAssets/ImageSet-Views-Sample` é o ativo.
+   Este é um exemplo de criação de uma instância do visualizador, passagem das opções de configuração mínimas necessárias para o construtor e chamada do método `init()`. Este exemplo supõe que `zoomViewer` é a instância do visualizador, `s7viewer` é o nome do espaço reservado DIV, `http://s7d1.scene7.com/is/image/` é a URL do Servidor de Imagens e `Scene7SharedAssets/ImageSet-Views-Sample` é o ativo.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -259,7 +259,7 @@ O caminho relativo tem a seguinte aparência:
 
 ## Incorporação responsiva de design com altura irrestrita {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
-Com a incorporação responsiva de design, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite o container do visualizador `DIV` para obter 40% do tamanho da janela do navegador web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -279,11 +279,11 @@ Com a incorporação responsiva de design, a página da Web normalmente tem algu
 
 Adicionar o visualizador a essa página é semelhante às etapas para incorporação de tamanho fixo. A única diferença é que não é necessário definir explicitamente o tamanho do visualizador.
 
-1. Adicionar o arquivo JavaScript do visualizador à página da Web.
+1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 1. Definição do container DIV.
 1. Criar e inicializar o visualizador.
 
-Todas as etapas acima são as mesmas da incorporação de tamanho fixo. Adicionar o contêiner DIV ao existente `"holder"` DIV O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
+Todas as etapas acima são as mesmas da incorporação de tamanho fixo. Adicione o contêiner DIV ao `"holder"` DIV existente. O código a seguir é um exemplo completo. Observe como o tamanho do visualizador muda quando o navegador é redimensionado e como a taxa de proporção do visualizador corresponde ao ativo.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -319,7 +319,7 @@ A página de exemplos a seguir ilustra mais usos reais da incorporação respons
 
 ## Incorporação de tamanho flexível com largura e altura definidas {#section-3674e6c032594441a6576b7fb1de6e64}
 
-Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para o `"holder"` DIV e centralize-o na janela do navegador. Além disso, a página da Web define o tamanho da variável `HTML` e `BODY` para 100%.
+Se houver incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web será diferente. Ele fornece ambos os tamanhos para o `"holder"` DIV e centralizá-lo na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` como 100%.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -385,7 +385,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 ## Incorporação usando a API baseada em setter {#section-44e014925f24418b900696003855c0a9}
 
-Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. O uso deste construtor de API não aceita parâmetros e os parâmetros de configuração são especificados usando `setContainerId()`, `setParam()`, e `setAsset()` Métodos de API do com chamadas de JavaScript separadas.
+Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. O uso deste construtor de API não aceita parâmetros e os parâmetros de configuração são especificados usando os métodos de API `setContainerId()`, `setParam()` e `setAsset()` com chamadas JavaScript separadas.
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 

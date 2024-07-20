@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões da barra de rolagem.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SÍMBOLO tem um valor de texto associado ao padrão para o local em inglês ( `"en"`) fornecidos com o visualizador pronto para uso e também podem ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para a localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado no local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-No exemplo acima, o objeto de localização define dois locais ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada local.
+No exemplo acima, o objeto de localização define duas localidades ( `"en"` e `"fr"`) e fornece localização para dois elementos da interface do usuário em cada localidade.
 
-O código da página da Web deve passar esse objeto de localização para o construtor do visualizador como um valor de `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando `setLocalizedTexts(localizationInfo)` método.
+O código da página da Web deve passar esse objeto de localização para o construtor do visualizador como um valor do campo `localizedTexts` do objeto de configuração. Uma opção alternativa é passar o objeto de localização chamando o método `setLocalizedTexts(localizationInfo)`.
 
 Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do container do visualizador):
 
@@ -53,7 +53,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RÓTULO.Contêiner </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>Rótulo ARIA para o elemento do visualizador de nível superior. </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Dicas de uso ARIA para usuários de teclado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FecharBotão.DICADEFERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Fechar. </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão de Mais zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> DicaDeBotãoDeZoom.FERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão de menos zoom. </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>botão de tela cheia no estado de tela cheia. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BotãoDeRolagemParaCima.DICADEFERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão de rolagem para cima. </p> </td> 
   </tr> 
   <tr> 
@@ -97,35 +97,35 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão de rolagem para baixo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;ID_contêiner&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão grande da próxima página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;IDdoContêiner&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão grande da página anterior. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;IDdoContêiner&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Última página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;ID_contêiner&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Primeira página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Primeira página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;ID_contêiner&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Próxima página. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão da página anterior. </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão Miniaturas no modo normal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FecharBotão.DICADEFERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Fechar. </p> </td> 
   </tr> 
   <tr> 
@@ -161,11 +161,11 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão de fechamento superior direito da caixa de diálogo de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.ENDEREÇO_INVÁLIDO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de erro exibida caso o endereço de email esteja malformado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.TO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.PARA </span> </p> </td> 
    <td colname="col2"> <p>Rótulo para o campo de entrada "Para". </p> </td> 
   </tr> 
   <tr> 
@@ -173,11 +173,11 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão Adicionar outro endereço de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.ADD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.ADICIONAR </span> </p> </td> 
    <td colname="col2"> <p>Botão Adicionar outro endereço de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.DE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">CompartilhamentoEmail.DE </span> </p> </td> 
    <td colname="col2"> <p>Do campo de entrada. </p> </td> 
   </tr> 
   <tr> 
@@ -189,7 +189,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão Remover endereço de email. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.CANCELAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão Cancelar. </p> </td> 
   </tr> 
   <tr> 
@@ -225,7 +225,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Mensagem de confirmação exibida quando o email foi enviado com êxito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.SEND_FAILURE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CompartilhamentoEmail.ENVIAR_FALHA </span> </p> </td> 
    <td colname="col2"> <p>Mensagem de erro exibida quando o email não foi enviado com êxito. </p> </td> 
   </tr> 
   <tr> 
@@ -301,67 +301,67 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão de compartilhamento do Twitter. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.DICA.FERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão Imprimir. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.CABEÇALHO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.HEADER </span> </p> </td> 
    <td colname="col2"> <p>Imprimir cabeçalho da caixa de diálogo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.DICA_FERRAMENTA_CABEÇALHO_FECHAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
    <td colname="col2"> <p>Caixa de diálogo Imprimir botão Fechar superior direito. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.INTERVALO_DE_IMPRESSÃO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE </span> </p> </td> 
    <td colname="col2"> <p>Etiqueta para a seção "Selecionar páginas para impressão". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.INTERVALO_IMPRESSÃO_ATUAL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão de opção "Páginas atuais". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.INTERVALO_DE_IMPRESSÃO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão de opção "Espalhar intervalo de". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.INTERVALO_DE_IMPRESSÃO_PARA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_TO </span> </p> </td> 
    <td colname="col2"> <p>Legenda para o seletor numérico "para". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.PRINT_RANGE_ALL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_ALL </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão de opção "Todas as páginas". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.PAGE_HANDLING </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING </span> </p> </td> 
    <td colname="col2"> <p>Rótulo para a seção "Manuseio de página". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.PAGE_HANDLING_ONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_ONE </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão de opção "1 página por folha". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.PAGE_HANDLING_TWO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.PAGE_HANDLING_TWO </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão de opção "2 páginas por folha". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.CANCELAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.CANCEL </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão Cancelar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.DICA_FERRAMENTA_CANCELAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p> Botão Cancelar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.AÇÃO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.ACTION </span> </p> </td> 
    <td colname="col2"> <p>Legenda do botão Enviar para imprimir </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Imprimir.DICA_FERRAMENTA_AÇÃO </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_ACTION </span> </p> </td> 
    <td colname="col2"> <p> Botão Enviar para impressão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MenuFavoritos.DICA DE FERRAMENTA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Botão do menu Favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -373,7 +373,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col2"> <p>Botão "Adicionar favorito" no modo normal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RemoverBotãoFavorito.DICA_DE_FERRAMENTA_SELECIONADA </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RemoveFavoriteButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Botão "Remover favorito" no modo Editar favoritos. </p> </td> 
   </tr> 
   <tr> 
@@ -394,7 +394,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice de páginas espelhadas com base em zero na orientação paisagem e opcional <span class="codeph"> AA </span> é um índice de página com base em zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando o <span class="codeph"> setAsset() </span> chamada à API. </p> </td> 
+   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice espelhado de base zero na orientação paisagem, e <span class="codeph"> opcional YY </span> é um índice de página de base zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando a chamada de API </span> setAsset() <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -418,7 +418,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS </span> </p> </td> 
-   <td colname="col2"> <p>Mensagem localizada exibida quando a pesquisa não retornou resultados. </p> <p>Esse símbolo oferece suporte ao seguinte token de substituição em tempo de execução: <span class="codeph"> $SEARCH_TEXT$ </span>. O componente o substitui pelo texto de pesquisa inserido pelo usuário. </p> </td> 
+   <td colname="col2"> <p>Mensagem localizada exibida quando a pesquisa não retornou resultados. </p> <p>Este símbolo oferece suporte ao seguinte token de substituição em tempo de execução: <span class="codeph"> $SEARCH_TEXT$ </span>. O componente o substitui pelo texto de pesquisa inserido pelo usuário. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
@@ -433,13 +433,13 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.THUMBNAIL_LABEL </span> </p> </td> 
    <td colname="col2"> <p>Rótulo localizado para a miniatura de resultados do painel de pesquisa. </p> <p>Esse símbolo oferece suporte aos seguintes tokens de substituição em tempo de execução: </p> <p> 
      <ul id="ul_7620C59FA56544CD9CE9E49B1871BCC1"> 
-      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PÁGINA$ </span> - Número da página. </li> 
+      <li id="li_FAF092734B4B4B55A309413690DA3FCC"> <span class="codeph"> $PAGE$ </span> - Número da página. </li> 
       <li id="li_3414176505BB4A768FB42341A315E96F"> <span class="codeph"> $PAGE_HIT_COUNT$ </span> - O número de resultados de pesquisa encontrados na página. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PesquisarPainel.RÓTULO </span> </p> </td> 
-   <td colname="col2"> <p>Define um valor de <span class="codeph"> aria-label </span> Atributo ARIA para todo o painel de pesquisa. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
+   <td colname="col2"> <p>Define um valor do atributo ARIA </span> aria-label <span class="codeph"> para todo o painel de pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Dentro desse tipo, o campo pageReset é significativo para os tipos de ativo de imagem RenderSet e Catalog:
 
-* Para `RenderSet`, `pageReset` indica o início de um novo modo de exibição/grupo de amostras de renderização.
+* Para `RenderSet`, `pageReset` indica o início de um novo grupo de exibição/amostra de renderização.
 
-* Para Catálogo, `pageReset` indica o início de uma nova exibição de página. Normalmente, há duas imagens de página por exibição de página, mas você pode ter mais ou menos.
+* Para o Catálogo, `pageReset` indica o início de uma nova exibição de página. Normalmente, há duas imagens de página por exibição de página, mas você pode ter mais ou menos.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

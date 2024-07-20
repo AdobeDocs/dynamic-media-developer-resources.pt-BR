@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Referência da API JavaScript para o Visualizador de imagem suspensa.
+description: Referência da API do JavaScript para o Visualizador de submenu.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 # setParam{#setparam}
 
-Referência da API JavaScript para o Visualizador de imagem suspensa.
+Referência da API do JavaScript para o Visualizador de submenu.
 
 ` setParam( *`nome, valor`*)`
 
-Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`. Esse método é opcional se as informações de configuração do visualizador forem passadas com `config` Objeto JSON para o construtor.
+Define o parâmetro do visualizador para um valor especificado. O parâmetro é uma opção de configuração específica do visualizador ou um modificador do kit de desenvolvimento de software. Este parâmetro é chamado antes de `init()`. Este método é opcional se as informações de configuração do visualizador forem passadas com o objeto JSON `config` para o construtor.
 
 Consulte também [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> nome </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> nome do parâmetro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> {string} </span> valor do parâmetro. O valor não pode ser codificado por porcentagem. </p> </td> 
   </tr> 
  </tbody> 

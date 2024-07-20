@@ -36,7 +36,6 @@ Sintaxe
 >* Todos os usuários têm acesso à empresa compartilhada.
 >
 
-
 ## Parâmetros {#section-1742fcb196224545b270eb8241f757a8}
 
 **Entrada (batchGetAssetPublishContextsParam)**

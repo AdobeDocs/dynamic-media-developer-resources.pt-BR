@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numérico|pontilhado</span> </p> </td> 
-   <td colname="col2"> <p> Configura o estilo de renderização do indicador de definição. </p> <p>Quando definido como <span class="codeph"> pontilhado </span>, o componente renderiza indicadores idênticos para todas as páginas. </p> <p>Quando definido como <span class="codeph"> numérico</span> ele coloca um número de página com base em 1 dentro de cada elemento indicador. </p> <p>A variável <span class="codeph"> numérico</span> não há suporte para o modo de operação em dispositivos com entrada por toque. Em vez disso, o componente usa <span class="codeph"> pontilhado</span> nesses dispositivos. </p> </td> 
+   <td colname="col2"> <p> Configura o estilo de renderização do indicador de definição. </p> <p>Quando definido como <span class="codeph"> dotted </span>, o componente renderiza indicadores idênticos para todas as páginas. </p> <p>Quando definido como <span class="codeph"> numérico</span>, ele coloca um número de página com base em 1 dentro de cada elemento indicador. </p> <p>Não há suporte para o modo de operação <span class="codeph"> numérico</span> em dispositivos com entrada por toque. Em vez disso, o componente usa <span class="codeph"> pontilhado</span> nesses dispositivos. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ A aparência do ícone de ponto de acesso é controlada com o seguinte seletor d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Arte do ícone do ponto de acesso. </p> </td> 
   </tr> 
   <tr> 

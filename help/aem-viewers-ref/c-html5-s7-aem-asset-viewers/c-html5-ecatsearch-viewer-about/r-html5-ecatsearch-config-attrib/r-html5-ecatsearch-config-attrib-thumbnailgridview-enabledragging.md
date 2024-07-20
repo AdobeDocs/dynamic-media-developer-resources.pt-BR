@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 011ef772-6760-4794-819e-2a822fbae1b5
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 1%
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Funções na <span class="codeph"> 0-1 </span> intervalo. Trata-se <span class="codeph"> % </span> valor do movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>No entanto, ela não permite que você se mova na direção errada. </p> </td> 
+   <td> <p> Funções dentro do intervalo <span class="codeph"> 0-1 </span>. É um valor de <span class="codeph"> % </span> para o movimento na direção errada da velocidade real. Se estiver definido como <span class="codeph"> 1 </span>, ele se move com o mouse. Se estiver definido como <span class="codeph"> 0 </span>, ele não permite que você mova para a direção errada. </p> </td> 
   </tr> 
  </tbody> 
 </table>

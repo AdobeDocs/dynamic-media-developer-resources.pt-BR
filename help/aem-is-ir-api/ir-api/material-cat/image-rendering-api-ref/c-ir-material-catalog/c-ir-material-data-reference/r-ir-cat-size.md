@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '218'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Tamanho do decalque. Largura, altura e espessura de um objeto de material de dec
 
 Três números reais separados por vírgulas. Não deve ser negativo. Defina os valores não utilizados como 0. Zeros à direita podem ser omitidos.
 
-Especifique a largura e a altura somente se a imagem precisar ser esticada para se ajustar ao tamanho especificado (a proporção pode mudar). Defina largura ou altura para dimensionar a imagem proporcionalmente. Defina a largura e a altura como 0 para usar `catalog::Resolution`para determinar o tamanho do objeto.
+Especifique a largura e a altura somente se a imagem precisar ser esticada para se ajustar ao tamanho especificado (a proporção pode mudar). Defina largura ou altura para dimensionar a imagem proporcionalmente. Defina a largura e a altura como 0 para usar `catalog::Resolution` para determinar o tamanho do objeto.
 
 Forneça um valor de espessura para adicionar uma sombra projetada ao objeto de decalque. Opcional para materiais de decalque, ignorado por todos os outros materiais.
 

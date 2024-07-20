@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # TiffEncoding{#tiffencoding}
 
-formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente, o padrão para o terceiro valor de `fmt=` comando).
+formato de codificação TIFF. Especifica o formato de compactação para imagens TIFF (efetivamente o padrão para o terceiro valor do comando `fmt=`).
 
-Defina como `0` para nenhuma compactação, `1` LZW, `2` para deflate (ZIP) e `3` para compactação de JPEG.
+Defina como `0` para sem compactação, `1` para LZW, `2` para deflate (ZIP) e `3` para compactação JPEG.
 
 ## Propriedades {#section-469f5a1225464542866f5353edd92db3}
 

@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Nítido{#sharp}
 
-Nitidez de material padrão. Define o modo de nitidez de material padrão, caso um determinado registro de catálogo não contenha uma `catalog::Sharp` valor.
+Nitidez de material padrão. Define o modo de nitidez de material padrão, caso um determinado registro de catálogo não contenha um valor `catalog::Sharp` válido.
 
 ## Propriedades {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -45,4 +45,4 @@ Herdado de `default::Sharp` se não estiver definido ou se estiver vazio.
 
 ## Consulte também {#section-7771824f2822443ab0297e8793bb48ae}
 
-[catálogo::Nítido](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a), [catálogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)
+[catálogo::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a), [catálogo::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)

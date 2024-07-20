@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ A aparência do ícone do mapa de imagem é controlada com o seguinte seletor de
 
 >[!NOTE]
 >
->A variável `s7mapoverlay` A classe CSS usada para estilizar ícones de mapa de imagem no passado agora está obsoleta; use `s7icon` em vez disso.
+>A classe CSS `s7mapoverlay` usada para estilizar ícones de mapa de imagem no passado agora está obsoleta; use `s7icon` em seu lugar.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,7 +39,7 @@ A aparência do ícone do mapa de imagem é controlada com o seguinte seletor de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>Ícone do mapa de imagem arte. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ A aparência do ícone do mapa de imagem é controlada com o seguinte seletor de
 
 >[!NOTE]
 >
->O ícone do mapa de imagem suporta o `state` seletor de atributos, que você pode usar para aplicar capas diferentes aos estados de ícone do `default` e `active`.
+>O ícone de mapa de imagem oferece suporte ao seletor de atributos `state`, que você pode usar para aplicar capas diferentes aos estados de ícone de `default` e `active`.
 
 Exemplo - configure um ícone de mapa de imagem de 28 x 28 pixels que exiba uma imagem diferente para cada um dos dois estados de ícone diferentes.
 
@@ -98,17 +98,17 @@ A aparência da região do mapa de imagem é controlada com o seguinte seletor d
    <td colname="col2"> <p> Cor de preenchimento da região do mapa de imagem. </p> <p>Especificado no formato #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor de preenchimento da região do mapa de imagem. </p> <p>Especificado no formato #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> borda </span> </p> </td> 
-   <td colname="col2"> <p> Estilo de borda da região do mapa de imagem. </p> <p>Especificado como <span class="codeph"> <span class="varname"> largura </span> sólido <span class="varname"> cor </span> </span>, onde <span class="codeph"> <span class="varname"> largura </span> </span> é expresso em pixels e <span class="codeph"> <span class="varname"> cor </span> </span> é definido como #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Estilo de borda da região do mapa de imagem. </p> <p>Especificado como <span class="codeph"> <span class="varname"> largura </span> cor <span class="varname"> sólida </span> </span>, onde <span class="codeph"> <span class="varname"> largura </span> </span> é expresso em pixels e <span class="codeph"> <span class="varname"> cor </span> </span> é definido como #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemplo - configurar uma região de mapa de imagem transparente com `1` borda preta em pixels :
+Exemplo - configurar uma região de mapa de imagem transparente com borda preta de `1` pixels:
 
 ```
 .s7ecatalogsearchviewer .s7imagemapeffect .s7region { 

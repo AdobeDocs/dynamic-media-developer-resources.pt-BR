@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esses comandos são usados para selecionar grupos de vinheta, objetos, subáreas de grupos ou objetos.
 
-O comando, ou o material, ou ambos, são especificados após esse comando de seleção e antes do próximo comando de seleção (ou o fim da solicitação) ser aplicado ao item selecionado. Os comandos de seleção delimitam os segmentos de especificação de material (MSS).
+O comando, ou o material, ou ambos, são especificados após este comando de seleção e antes do próximo comando de seleção (ou o fim da solicitação) ser aplicado ao item selecionado. Os comandos de seleção delimitam os segmentos de especificação de material (MSS).
 
 <table id="simpletable_028957E516644FE8A7B1BC056A32FCD1"> 
  <tr class="strow"> 

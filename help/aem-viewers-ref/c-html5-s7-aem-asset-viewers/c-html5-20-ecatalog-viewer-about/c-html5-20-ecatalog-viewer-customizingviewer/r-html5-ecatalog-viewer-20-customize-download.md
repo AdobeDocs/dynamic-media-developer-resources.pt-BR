@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: fb01371b-0aa6-4591-8523-120c217cf45d
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ A aparência do botão Download é controlada com o seguinte seletor de classe C
 .s7ecatalogviewer .s7download
 ```
 
-**Propriedades CSS do botão Download**
+**Propriedades CSS do botão Baixar**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -43,7 +43,7 @@ A aparência do botão Download é controlada com o seguinte seletor de classe C
    <td colname="col2"> <p>Altura do botão. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ A aparência do botão Download é controlada com o seguinte seletor de classe C
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` seletor de atributo, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte ao seletor de atributos `state`, que pode ser usado para aplicar capas diferentes a estados de botão diferentes.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 58c2d7da-31fc-49d1-a404-2e4a66ff0e56
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ Tamanho Normalizado. Usado para especificar tamanhos de imagem ou tamanhos de re
  </tr> 
 </table>
 
-Ambos *nx* e *ny* deve ser maior que 0. 0,0 pode indicar que deve ser utilizado um tamanho predefinido específico. 1,1 especifica um tamanho igual à imagem de referência.
+*nx* e *ny* devem ser maiores que 0. 0,0 pode indicar que deve ser utilizado um tamanho predefinido específico. 1,1 especifica um tamanho igual à imagem de referência.

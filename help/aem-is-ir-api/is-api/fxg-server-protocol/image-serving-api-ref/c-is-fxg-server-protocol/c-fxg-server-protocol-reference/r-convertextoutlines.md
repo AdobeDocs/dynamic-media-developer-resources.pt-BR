@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '63'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,6 @@ Converter texto em contornos em um arquivo PDF.
  </tr> 
 </table>
 
-Usar o comando do URL `convertTextToOutlines=1` para alterar todo o texto em um arquivo PDF para caminhos com contorno.
+Use o comando de URL `convertTextToOutlines=1` para alterar todo o texto de um arquivo PDF para caminhos com contorno.
 
 Quando qualquer efeito é aplicado ao texto em um arquivo de PDF, como a conversão de texto em contornos, a imagem renderizada final é reduzida ou &quot;nivelada&quot; em tamanho.

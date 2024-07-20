@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ O seletor de classe CSS a seguir controla a aparência do reprodutor de vídeo:
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> A cor do plano de fundo do reprodutor de vídeo. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ As legendas são colocadas em um container interno no reprodutor de vídeo. A po
 .s7mixedmediaviewer .s7videoplayer .s7caption
 ```
 
-**Propriedades CSS de legendas**
+**Propriedades CSS das legendas**
 
 <table id="table_5417B0C0343747649502629F43DF231A"> 
  <thead> 
@@ -64,7 +64,7 @@ As legendas são colocadas em um container interno no reprodutor de vídeo. A po
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p>Plano de fundo do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
@@ -72,15 +72,15 @@ As legendas são colocadas em um container interno no reprodutor de vídeo. A po
    <td colname="col2"> <p>Cor do texto da legenda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> espessura da fonte </span> </p> </td> 
    <td colname="col2"> <p>Peso da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tamanho da fonte </span> </p> </td> 
    <td colname="col2"> <p>Tamanho da fonte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> Família de fontes <span class="codeph"> </span> </p> </td> 
    <td colname="col2"> <p>Família da fonte. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ A aparência da animação em buffer é controlada com o seguinte seletor de cla
    <td colname="col2"> <p> Margem superior do ícone de animação, normalmente menos metade da altura do ícone. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> Obstrução de arte. </p> </td> 
   </tr> 
  </tbody> 

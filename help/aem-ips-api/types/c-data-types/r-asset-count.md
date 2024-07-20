@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Tipos de ativos e contagem de uma empresa.
 
-Os tipos de ativos incluem [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], e outros.
+Os tipos de ativos incluem [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] e outros.
 
 | Nome | Tipo | Descrição |
 |---|---|---|

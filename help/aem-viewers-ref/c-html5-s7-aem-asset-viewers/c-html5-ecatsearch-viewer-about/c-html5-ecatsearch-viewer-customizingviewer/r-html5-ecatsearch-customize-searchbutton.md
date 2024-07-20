@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ede7d887-526b-4e00-9885-166dc37627aa
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
    <td colname="col2"> <p> A distância até o próximo botão à esquerda, ou o lado esquerdo da barra de controle se este botão for o primeiro em uma linha. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p>A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -59,9 +59,9 @@ A aparência do botão é controlada com o seguinte seletor de classe CSS:
 
 >[!NOTE]
 >
->Esse botão oferece suporte ao `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes.
+>Este botão oferece suporte aos seletores de atributos `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes.
 >
->Em especial, `selected='false'` corresponde ao estado inicial do botão de rolagem e `selected='true'` corresponde ao estado quando o painel de pesquisa está ativo.
+>Especificamente, `selected='false'` corresponde ao estado inicial do botão de rolagem, e `selected='true'` corresponde ao estado quando o painel de pesquisa está ativo.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

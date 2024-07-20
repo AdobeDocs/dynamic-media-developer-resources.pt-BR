@@ -1,6 +1,6 @@
 ---
 title: Iniciando ou interrompendo no Windows
-description: Existem vários mecanismos para iniciar ou parar o Servidor de imagens e [!DNL Platform Server] no Windows
+description: Existem vários mecanismos para iniciar ou parar o Servidor de Imagens e [!DNL Platform Server] no Windows
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Iniciando ou interrompendo no Windows{#starting-or-stopping-on-windows}
 
-Existem vários mecanismos para iniciar ou parar o Servidor de imagens e [!DNL Platform Server] no Windows.
+Existem vários mecanismos para iniciar ou parar o Servidor de Imagens e o [!DNL Platform Server] no Windows.
 
 1. Escolha uma das seguintes opções para iniciar ou parar o Servidor de imagens:
 
-* O Painel de Controle de Serviços do Windows pode ser usado para iniciar, parar, reiniciar e verificar o status do `Dynamic Media Image Serving` serviço.
-* **[!UICONTROL Start Menu]**> **[!UICONTROL All Programs]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** O fornece comandos para Iniciar, Interromper e Reiniciar o `Dynamic Media Image Serving` serviço.
+* O Painel de Controle de Serviços do Windows pode ser usado para iniciar, parar, reiniciar e verificar o status do serviço `Dynamic Media Image Serving`.
+* **[!UICONTROL Start Menu]**> **[!UICONTROL All Programs]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** fornece comandos para Iniciar, Parar e Reiniciar o serviço `Dynamic Media Image Serving`.

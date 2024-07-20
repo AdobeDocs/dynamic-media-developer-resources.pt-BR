@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ A aparência do ícone de reprodução é controlada com o seguinte seletor de c
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para o ícone de reprodução. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ A aparência do ícone de reprodução é controlada com o seguinte seletor de c
  </tbody> 
 </table>
 
-O efeito de ícone suporta o `state` seletor de atributo. O atributo `state="play"` é usada quando o vídeo é pausado no meio da reprodução e `state="replay"` é usado quando o indicador de reprodução está no final do fluxo.
+O efeito de ícone oferece suporte ao seletor de atributos `state`. O atributo `state="play"` é usado quando o vídeo é pausado no meio da reprodução, e `state="replay"` é usado quando o indicador de reprodução está no final do fluxo.
 
 ## Exemplo {#section-e8caea0a303c425a8a637c2a47c06355}
 

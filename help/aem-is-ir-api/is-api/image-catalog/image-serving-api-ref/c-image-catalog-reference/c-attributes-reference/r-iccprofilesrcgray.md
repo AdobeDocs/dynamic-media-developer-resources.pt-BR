@@ -18,11 +18,11 @@ Perfil de cor de entrada padrão em escala de cinza. Especifica o nome do perfil
 
 ## Propriedades {#section-8cbb316df6eb463aaca7b308d3568086}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil em tons de cinza.
 
 ## Padrão {#section-bcc7250715884412bd0780f60d1cce7b}
 
-Herdado de `default::IccProfileSrcGray` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcGray` não resolve um perfil válido, `attribute::IccProfileGray` é usado em seu lugar.
+Herdado de `default::IccProfileSrcGray` se não estiver definido ou se estiver vazio. Se `attribute::IccProfileSrcGray` não for resolvido para um perfil válido, `attribute::IccProfileGray` será usado.
 
 ## Consulte também {#section-e429b76daf2e4b92b326db2b0bcbd0c5}
 

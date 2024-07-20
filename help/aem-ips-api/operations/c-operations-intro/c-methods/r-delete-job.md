@@ -38,7 +38,7 @@ Sintaxe
 | companyHandle | `xsd:string` | Sim | O identificador da empresa à qual o trabalho pertence. |
 | jobHandle | `xsd:string` | Sim | O identificador do trabalho a ser excluído. |
 
-**Output**
+**Saída**
 
 A API do IPS não retorna uma resposta para esta operação.
 

@@ -35,7 +35,7 @@ A aparência da área de visualização é controlada com o seguinte seletor de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
    <td colname="col2"> <p> Cor do plano de fundo no formato hexadecimal da janela principal. </p> </td> 
   </tr> 
   <tr> 
@@ -53,24 +53,24 @@ Exemplo - Para tornar a exibição principal transparente.
 }
 ```
 
-Nos sistemas de desktop, o componente suporta `cursortype` seletor de atributo que pode ser aplicado ao `.s7zoomview` classe. Ele controla o tipo de cursor com base no estado do componente e na ação do usuário. As seguintes `cursortype` Os valores de são compatíveis:
+Em sistemas desktop, o componente oferece suporte ao seletor de atributos `cursortype` que pode ser aplicado à classe `.s7zoomview`. Ele controla o tipo de cursor com base no estado do componente e na ação do usuário. Os seguintes valores `cursortype` têm suporte:
 
 * `default`
 
-   Exibido quando a imagem não é ampliada devido a uma pequena resolução de imagem, configurações de componente ou ambas.
+  Exibido quando a imagem não é ampliada devido a uma pequena resolução de imagem, configurações de componente ou ambas.
 
 * `zoomin`
 
-   Exibido quando é possível ampliar a imagem.
+  Exibido quando é possível ampliar a imagem.
 
 * `reset`
 
-   Exibida quando a imagem está no nível de zoom máximo e pode ser redefinida para seu estado inicial.
+  Exibida quando a imagem está no nível de zoom máximo e pode ser redefinida para seu estado inicial.
 
 * `drag`
 
-   Exibido quando o usuário expande a imagem que está no estado ampliado.
+  Exibido quando o usuário expande a imagem que está no estado ampliado.
 
 * `slide`
 
-   Exibido quando o usuário executa a troca de imagem passando um dedo horizontal ou um toque.
+  Exibido quando o usuário executa a troca de imagem passando um dedo horizontal ou um toque.

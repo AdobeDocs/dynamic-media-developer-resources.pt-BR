@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 51a779be-568b-40e5-99d9-e875023a2b2c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Tirar nitidez da máscara. Tirar nitidez mascara a camada ou a imagem de exibiç
 
 Os parâmetros são aplicados como estão, independentemente de ter ocorrido ou não amostragem.
 
-`op_usmR= *`quantidade`*[, *`radiusR`*[, *`limite`*[, *`monocromático`*]]]`
+`op_usmR= *`valor`*[, *`raioR`*[, *`limite`*[, *`monocromático`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> quantidade</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> valor</span></span> </p></td> 
   <td class="stentry"> <p>Fator de resistência do filtro (real 0 a 5). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -43,11 +43,11 @@ A máscara de camada ou a máscara composta também é afiada.
 
 ## Propriedades {#section-fb5311b34d164946b74dadb32359518a}
 
-Atributo de camada ou atributo de exibição. Aplica-se à camada atual ou à imagem de exibição final se `layer=comp`. As camadas de efeito o ignoram.
+Atributo de camada ou atributo de exibição. Aplica-se à camada atual ou à imagem de exibição final, se `layer=comp`. As camadas de efeito o ignoram.
 
 ## Padrão {#section-2bedc99866ff473e90e5ea36596d8362}
 
-`op_usmR=0,0,0,0` para nenhum efeito de mascaramento sem nitidez.
+`op_usmR=0,0,0,0` para nenhum efeito de máscara sem nitidez.
 
 ## Consulte também {#section-63f186b8a1b34ec4bb895230838502a4}
 

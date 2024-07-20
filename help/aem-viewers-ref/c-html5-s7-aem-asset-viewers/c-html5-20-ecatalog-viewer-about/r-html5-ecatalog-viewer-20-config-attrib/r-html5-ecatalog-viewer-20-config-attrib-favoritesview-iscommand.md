@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1b6198f4-367d-437a-b8b1-206519567af0
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ A sequência de comando do Servidor de imagens que é aplicada a todas as miniat
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Se especificado no URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> deve ser codificado em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname">isCommand</span></span> </p> </td> 
+   <td colname="col2"> <p> Se especificado na URL, todas as ocorrências de <span class="codeph"> &amp;</span> e <span class="codeph"> =</span> devem ser codificadas em HTTP como <span class="codeph"> %26</span> e <span class="codeph"> %3D</span>, respectivamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

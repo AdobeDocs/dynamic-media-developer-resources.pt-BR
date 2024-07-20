@@ -1,5 +1,5 @@
 ---
-description: Elemento do contêiner de regras. Um arquivo de conjunto de regras válido contém um <ruleset> elemento.
+description: Elemento do contêiner de regras. Um arquivo de conjunto de regras válido contém um elemento <ruleset>.
 solution: Experience Manager
 title: conjunto de regras
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # conjunto de regras{#ruleset}
 
-Elemento do contêiner de regras. Um arquivo de conjunto de regras válido contém um `<ruleset>` elemento.
+Elemento do contêiner de regras. Um arquivo de conjunto de regras válido contém um elemento `<ruleset>`.
 
 ## Atributos {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
 
@@ -22,4 +22,4 @@ Nenhum.
 
 ## Dados {#section-e14075abf630473bba78b5032e4e5a11}
 
-Nenhum ou mais `<rule>` elementos.
+Nenhum ou mais elementos `<rule>`.

@@ -67,25 +67,25 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Sim </td> 
    <td colname="col4"> Matriz de nomes de ativos a serem recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Matriz de tipos de ativos permitidos para ativos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Matriz de Tipos de ativos excluídos para ativos recuperados. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Matriz de subtipos de ativos permitidos para ativos recuperados. </td> 
   </tr> 
@@ -93,17 +93,17 @@ Sintaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiver vazio, somente os ativos cujos subtipos estiverem em <span class="codeph"> assetSubTypeArray</span> são retornados. </p> <p>Se <span class="codeph"> false</span>, os ativos sem subtipo definido serão incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Se <span class="codeph"> true</span> e <span class="codeph"> assetSubTypeArray</span> não estiver vazio, somente os ativos cujos subtipos estão em <span class="codeph"> assetSubTypeArray</span> serão retornados. </p> <p>Se <span class="codeph"> false</span>, os ativos sem subtipo definido serão incluídos. </p> <p>O valor padrão é <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Contém uma lista de campos e subcampos incluídos na resposta. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> tipos:MatrizDeCadeiaDeCaracteres</span> </td> 
+   <td colname="col2"> <span class="codeph"> tipos:StringArray</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Contém uma lista de campos e subcampos excluídos da resposta. </td> 
   </tr> 

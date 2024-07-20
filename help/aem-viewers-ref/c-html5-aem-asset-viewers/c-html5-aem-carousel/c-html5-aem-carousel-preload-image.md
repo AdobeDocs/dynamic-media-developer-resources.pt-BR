@@ -20,9 +20,9 @@ O pré-carregamento de imagens funciona bem para o método de incorporação do 
 
 No entanto, o recurso tem determinadas limitações quando outros métodos de incorporação ou opções de configuração específicas são usados. A imagem pré-carregada pode não ser renderizada corretamente nos seguintes casos:
 
-* Quando o tamanho do visualizador é fixo e o tamanho é definido usando `stagesize` atributo de configuração dentro do registro de predefinição do visualizador ou, no arquivo CSS do visualizador externo, para o elemento de contêiner do visualizador de nível superior.
+* Quando o visualizador é fixo em tamanho e o tamanho é definido usando o atributo de configuração `stagesize` dentro do registro de predefinição do visualizador ou no arquivo CSS do visualizador externo para o elemento de contêiner do visualizador de nível superior.
 * Ao usar a incorporação de tamanho flexível com o método definido por largura e altura da incorporação do visualizador. Consulte o cabeçalho [Incorporação de tamanho flexível com largura e altura definidas](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Se você usar o visualizador em um dos modos de operação listados acima, desative o recurso de pré-carregamento de imagem usando o `preloadImage` atributo de configuração.
+Se você usar o visualizador em um dos modos de operação listados acima, desabilite o recurso de pré-carregamento de imagem usando o atributo de configuração `preloadImage`.
 
-Além disso, a imagem de pré-carregamento não é usada, mesmo se habilitada na configuração, se o visualizador estiver incorporado no elemento DOM estiver oculto usando `display:none` Configuração de CSS ou desanexado da árvore DOM.
+Além disso, a imagem de pré-carregamento não é usada, mesmo se habilitada na configuração, se o visualizador estiver incorporado no elemento DOM estiver oculto usando a configuração CSS `display:none` ou desanexado da árvore DOM.

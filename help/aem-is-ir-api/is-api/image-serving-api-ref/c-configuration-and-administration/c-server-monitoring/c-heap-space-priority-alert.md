@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Um alerta de prioridade é enviado quando o espaço livre do heap de Java está abaixo do limite especificado imediatamente após um ciclo de coleta de lixo Java.
 
-Os alertas repetidos devem ser abordados aumentando o espaço do heap Java. Ocorrências subsequentes dessa condição não resultarão em um alerta por email até o período de atraso especificado com `AS::monitorAlertGenerator.heapSpaceResetInterval` expirou.
+Os alertas repetidos devem ser abordados aumentando o espaço do heap Java. Ocorrências subsequentes dessa condição não resultarão em um alerta por email até que o período de atraso especificado com `AS::monitorAlertGenerator.heapSpaceResetInterval` tenha expirado.

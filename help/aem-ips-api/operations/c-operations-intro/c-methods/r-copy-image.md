@@ -60,7 +60,7 @@ Sintaxe
    <td colname="col4"> <p>O identificador da pasta para a qual a imagem deve ser copiada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> nome</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Sim </p> </td> 
    <td colname="col4"> <p>Nome da nova imagem. </p> </td> 

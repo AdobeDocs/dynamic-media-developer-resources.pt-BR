@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Modo de exibição de escala. Dimensiona a imagem composta pelo inverso de invFa
  </tr> 
 </table>
 
-Nenhum dimensionamento é aplicado quando `scl=1`. Um *`invFactor`* um valor maior que 1,0 diminui a escala e menor que 1,0 aumenta a imagem composta.
+Nenhum dimensionamento é aplicado quando `scl=1`. Um valor de *`invFactor`* maior que 1,0 para baixo-escala e menor que 1,0 aumenta a imagem composta.
 
-Se `scl=` for especificada e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
+Se `scl=` for especificado, e `wid=` e/ou `hei=` também estiverem presentes, a imagem será cortada para `wid=` e/ou `hei=` após o dimensionamento.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ Exibir atributo. Ela se aplica independentemente da configuração atual da cama
 
 ## Padrão {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Se nenhuma delas `wid=`, `hei=`, nem `scl=` forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
+Se `wid=`, `hei=` ou `scl=` não forem especificados, a imagem de resposta terá o tamanho da imagem composta ou `attribute::DefaultPix`, o que for menor.
 
 ## Exemplo {#section-a33f6239476a4b438d939656ad99aa76}
 
-Veja o exemplo em [girar=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para uma aplicação comum do `scl=`.
+Veja o exemplo em [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) para um aplicativo comum de `scl=`.
 
 ## Consulte também {#section-ccefd5de59924059903d66d4974ce317}
 

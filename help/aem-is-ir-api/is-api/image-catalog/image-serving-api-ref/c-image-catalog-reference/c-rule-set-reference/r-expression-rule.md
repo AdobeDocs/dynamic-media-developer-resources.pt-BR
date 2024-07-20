@@ -1,5 +1,5 @@
 ---
-description: Elemento do padrão de expressão regular. Opcional em <rule> elementos.
+description: Elemento do padrão de expressão regular. Opcional em elementos <rule>.
 solution: Experience Manager
 title: expressão
 feature: Dynamic Media Classic,SDK/API
@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Sequência de caracteres de padrão de expressão regular.
 
 ## Descrição {#section-759bfb738ddb45dba1f0807aba8c1113}
 
-A variável `<expression>` O elemento pode estar vazio ou conter uma sequência de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a string de solicitação.
+O elemento `<expression>` pode estar vazio ou conter uma cadeia de caracteres de pesquisa simples ou um padrão de expressão regular. O padrão é aplicado a toda a string de solicitação.
 
-Uma correspondência sempre ocorre quando `<expression>` está vazio ou não especificado; equivale a especificar `<expression>.*</expression>`.
+Uma correspondência sempre ocorre quando `<expression>` está vazio ou não especificado; isso é equivalente a especificar `<expression>.*</expression>`.
 
 A implementação é baseada no pacote Java [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), que fornece sintaxe de expressão regular semelhante à do Perl.
 
 ## Notas {#section-10b472a902674893b49ca49a7052c366}
 
-A sequência de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia de caracteres inteira pode ser inserida em um XML `CDATA` seção:
+A sequência de expressão não deve conter caracteres literais &lt; e &amp;. Esses caracteres reservados podem ser codificados com `&` e `<`, respectivamente, ou a cadeia inteira pode ser inserida em uma seção XML `CDATA`:
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Todos os caracteres entre a variável `<expression>` e `</expression>` As tags são passadas para o analisador de expressão regular, incluindo caracteres fora do `CDATA` seção. Deve-se tomar cuidado para evitar espaços em branco extras.
+Todos os caracteres entre as marcas `<expression>` e `</expression>` são passados para o analisador de expressão regular, incluindo caracteres fora da seção `CDATA` opcional. Deve-se tomar cuidado para evitar espaços em branco extras.
 
 ## Consulte também {#section-ca98548917d945f4b71f18208f0e6840}
 

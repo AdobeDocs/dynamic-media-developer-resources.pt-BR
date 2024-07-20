@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -43,8 +43,8 @@ Adicione ruído. Adiciona ruído aleatório aos dados da imagem de primeiro plan
 
 ## Propriedades {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Camada. Se aplica à camada atual ou à imagem composta `layer=comp`.
+Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`.
 
 ## Padrão {#section-d548868fa4b64a60bcb481cad1f8113e}
 
-`op_noise=0,uniform,0`, para ausência de ruído.
+`op_noise=0,uniform,0`, sem ruído.

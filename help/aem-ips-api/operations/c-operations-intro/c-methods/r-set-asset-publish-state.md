@@ -68,20 +68,20 @@ Sintaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Frase de código </span> </td> 
+   <td colname="col2"> <span class="codeph"> Frase codificada </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output**
+**Saída**
 
 A API do IPS não retorna uma resposta para esta operação.
 
 ## Exemplos {#section-c31ead6d0e594317a12c120509527792}
 
-Essa amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
+Esta amostra de código define o estado de publicação de um ativo usando `NotMarkedForPublish`.
 
 **Solicitação**
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0b167c74-cb1f-45f1-8b15-cb1fcbc8f734
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Além de dimensionar (size=) e posicionar (pos=) camadas em relação à camada 0 e especificar a ordem de composição (a ordem z) com o comando layer=, as camadas podem ser giradas (rotate=) e invertidas (flip=).
 
-A variável `origin=` e `anchor=` os atributos podem ser usados para manter o alinhamento desejado entre camadas quando imagens ou texto são alterados dinamicamente em modelos.
+Os atributos `origin=` e `anchor=` podem ser usados para manter o alinhamento desejado entre camadas quando imagens ou texto são alterados dinamicamente em modelos.
 
-A variável `maskUse=` O comando está disponível para camadas de imagem acessarem a área de plano de fundo de imagens que têm máscaras separadas.
+O comando `maskUse=` está disponível para camadas de imagem acessarem a área de plano de fundo de imagens que têm máscaras separadas.
 
 `opac=` pode ser usado para variar a opacidade da camada e `hide=` para mostrar ou ocultar a camada.

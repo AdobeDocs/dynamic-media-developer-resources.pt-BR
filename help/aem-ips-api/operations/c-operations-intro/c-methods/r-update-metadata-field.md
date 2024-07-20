@@ -51,13 +51,13 @@ Sintaxe
    <td colname="col4"> Identificador do campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nome</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Nome do campo de metadados. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valorPadrão</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
    <td colname="col4"> Valor do campo de metadados. </td> 
@@ -69,16 +69,16 @@ Sintaxe
    <td colname="col4"> Ocultar ou expor metadados específicos do sistema IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será lançada se um valor ilegal estiver definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Um sinalizador booleano que indica se o campo de metadados é aplicado (validado) quando o valor é definido. </p> <p>Se definido como verdadeiro, uma falha será gerada se um valor ilegal for definido em <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Permite criar um conjunto de valores enumerados compartilhados para os quais as tags selecionadas podem apontar. </td> 
+   <td colname="col4"> Permite criar um conjunto de valores enumerados compartilhados para o qual as tags selecionadas podem apontar. </td> 
   </tr> 
  </tbody> 
 </table>

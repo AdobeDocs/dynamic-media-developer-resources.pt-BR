@@ -31,7 +31,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se `companyHandle` não é transmitido e o chamador é um `IpsAdmin`, um tipo de conjunto de propriedades global é criado. |
+| companyHandle | `xsd:string` | Não | O identificador da empresa proprietária do tipo de conjunto de propriedades. Se `companyHandle` não for transmitido e o chamador for `IpsAdmin`, um tipo de conjunto de propriedades global será criado. |
 | name | `xsd:string` | Sim | O nome do tipo de conjunto de propriedades. |
 | propertyType | `xsd:string` | Sim | Escolha dos tipos de conjunto de propriedades. |
 | allowMultiple | `xsd:boolean` | Sim | Determina se seu programa pode ter vários conjuntos de propriedades. |
@@ -44,7 +44,7 @@ Sintaxe
 
 ## Exemplos {#section-13396c9639a6475190e622eae3cdb534}
 
-Esta amostra de código cria um conjunto de propriedades com um nome e tipo especificados pela variável `PropertySet Types` constante. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades globais será criado.
+Esta amostra de código cria um conjunto de propriedades com um nome e tipo especificados pela constante `PropertySet Types`. O identificador da empresa proprietária do tipo de conjunto de propriedades. Se companyHandle não for transmitido e o chamador for um IpsAdmin, um tipo de conjunto de propriedades globais será criado.
 
 **Solicitação**
 

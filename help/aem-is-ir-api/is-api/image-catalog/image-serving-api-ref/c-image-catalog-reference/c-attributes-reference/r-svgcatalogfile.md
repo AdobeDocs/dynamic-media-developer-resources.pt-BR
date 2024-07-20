@@ -16,7 +16,7 @@ ht-degree: 0%
 
 caminhos de arquivos de dados SVG. Especifica os arquivos que contêm os dados de SVG para este catálogo.
 
-Os arquivos de dados de SVG são carregados após todos os arquivos de dados de imagem, na ordem exata especificada. Se o mesmo `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo SVG diferentes), a última instância prevalecerá.
+Os arquivos de dados de SVG são carregados após todos os arquivos de dados de imagem, na ordem exata especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo de SVG diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-fc2d549f76474792837b2b92ec2087ea}
 
@@ -28,4 +28,4 @@ Vazio, que indica que este catálogo de imagens não inclui dados de SVG.
 
 ## Consulte também {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 
-[Dados do catálogo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29), [ArquivoCatálogo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)
+[Dados de Catálogo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29), [ArquivoDeCatálogo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)

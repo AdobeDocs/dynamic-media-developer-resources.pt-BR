@@ -30,7 +30,7 @@ Sintaxe
 
 ## Parâmetros {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrada (getXMPPacketParam)**
+**Entrada (getXMPPacketParam**
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
@@ -41,7 +41,7 @@ Sintaxe
 
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
-| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] Pacote XMP. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] pacote XMP. |
 
 ## Exemplos {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

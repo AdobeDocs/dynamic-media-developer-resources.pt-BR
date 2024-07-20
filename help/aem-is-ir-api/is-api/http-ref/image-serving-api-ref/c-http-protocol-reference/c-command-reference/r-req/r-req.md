@@ -39,8 +39,8 @@ Tipo de solicitação. Especifica o tipo de solicitação.
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-A menos que seja indicado de outra forma nas descrições detalhadas, o servidor retorna `text` respostas com tipo MIME `text/plain`. Muitos tipos de solicitação permitem especificar um tipo de resposta, como `text` que é normalmente o padrão, `javascript`, `xml`ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml`, e `text/javascript`, respectivamente.
+A menos que seja observado de outra forma nas descrições detalhadas, o servidor retorna `text` respostas com o tipo MIME `text/plain`. Muitos tipos de solicitações permitem que você especifique um tipo de resposta, como `text`, que normalmente é o padrão, `javascript`, `xml` ou `json`. Os tipos MIME de resposta associados são `text/plain`, `text/javascript`, `text/xml` e `text/javascript`, respectivamente.
 
-Salvo indicação em contrário, as respostas formatam a resposta como um conjunto de `name=value` pares.
+A menos que seja observado o contrário, as respostas formatam a resposta como um conjunto de pares `name=value`.
 
 Consulte [Propriedades](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

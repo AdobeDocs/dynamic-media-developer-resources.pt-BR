@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Obtém os ativos e o número de ativos associados a uma empresa específica.
 
-A variável `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada um com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento do array.
+O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
 Sintaxe
 
 ## Tipos de usuário autorizados {#section-6234754722184e828352f10eb18fbce9}
@@ -47,7 +47,7 @@ Sintaxe
 
 ## Exemplos {#section-6052a503eb3843f6adb99e200fdba280}
 
-Esta amostra de código usa o identificador da empresa como um campo na `getAssetCountsParam` enviado ao servidor de serviços Web IPS para obter a contagem de ativos.
+Esta amostra de código usa o identificador da empresa como um campo no `getAssetCountsParam` enviado ao servidor de serviços Web IPS para obter as contagens de ativos.
 
 **Solicitação**
 

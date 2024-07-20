@@ -18,7 +18,7 @@ Cria um formato de imagem.
 
 >[!NOTE]
 >
->A variável `urlModifier` o valor do campo deve consistir em XML válido. Por exemplo, alterar `&` para `&`. Obtenha o `urlModfier` valor da interface do IPS.
+>O valor do campo `urlModifier` deve consistir em XML válido. Por exemplo, altere `&` para `&`. Obter o valor `urlModfier` da interface de usuário do IPS.
 
 ## Tipos de usuário autorizados {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -46,7 +46,7 @@ Cria um formato de imagem.
 
 ## Exemplos {#section-c7bd733212ef494297a97093f3af193f}
 
-Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface IPS com um formato HTML válido.
+Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface de usuário do IPS com um formato de HTML válido.
 
 **Solicitação**
 

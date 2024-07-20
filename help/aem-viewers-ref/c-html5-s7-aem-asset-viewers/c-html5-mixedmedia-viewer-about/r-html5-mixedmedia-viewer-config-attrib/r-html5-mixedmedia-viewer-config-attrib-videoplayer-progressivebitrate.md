@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`value`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]progressivebitrate= *`valor`*`
 
 <table id="table_678AFC7BC06F41188F820502D2014C1F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> valor</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica (em quilobits por segundo ou kbps) a taxa de bits de vídeo desejada de um Conjunto de vídeos adaptados caso o sistema atual não suporte a reprodução de vídeo adaptado. </p> <p>O componente captura o fluxo de vídeo com a taxa de bits mais próxima (mas sem ultrapassar) do valor especificado. Se todos os fluxos de vídeo no Conjunto de vídeos adaptados tiverem uma qualidade maior do que o valor especificado, a lógica escolherá a taxa de bits com a menor qualidade. </p> </td> 
   </tr> 
  </tbody> 

@@ -18,4 +18,4 @@ O Servidor de imagens grava registros nesse arquivo de log para registrar avisos
 
 Além disso, o registro do Servidor de imagens pode ser configurado para rastrear detalhes adicionais substanciais, como acessos a arquivos de imagem, para ajudar a depurar problemas do servidor.
 
-O log do Servidor de imagens está configurado em [!DNL ImageServerRegistry.xml].
+O log do Servidor de Imagens está configurado em [!DNL ImageServerRegistry.xml].

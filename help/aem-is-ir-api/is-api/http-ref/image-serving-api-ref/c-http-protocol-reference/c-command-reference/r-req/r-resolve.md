@@ -18,6 +18,6 @@ Solicitação de depuração. Esse comando debug analisa e pré-processa a solic
 
 `req=resolve`
 
-A string de solicitação final é retornada, em vez da imagem resultante, com o tipo MIME `text/plain`.
+A cadeia de caracteres de solicitação final é retornada, em vez da imagem resultante, com o tipo MIME `text/plain`.
 
 A resposta HTTP não pode ser armazenada em cache.

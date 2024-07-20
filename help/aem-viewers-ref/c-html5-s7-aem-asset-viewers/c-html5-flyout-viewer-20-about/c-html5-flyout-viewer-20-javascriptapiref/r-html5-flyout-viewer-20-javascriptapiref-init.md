@@ -1,6 +1,6 @@
 ---
 title: init
-description: Referência da API JavaScript para inicialização do Visualizador de imagem suspensa.
+description: Referência da API do JavaScript para inicialização do Visualizador de imagem suspensa.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # init{#init}
 
-Referência da API JavaScript para o Visualizador de imagem suspensa.
+Referência da API do JavaScript para o Visualizador de submenu.
 
 `init()`
 
 Inicia a inicialização do Visualizador de Submenu. Nesse momento, o elemento DOM do contêiner deve ser criado para que o código do visualizador possa encontrá-lo pela ID.
 
-Se o elemento de contêiner ainda não fizer parte do layout da página da Web - por exemplo, ele pode estar oculto usando `display:none` estilo atribuído a ele - o visualizador suspende o processo de inicialização. Isso é feito até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
+Se o elemento de contêiner ainda não fizer parte do layout da página da Web — por exemplo, ele poderá ser ocultado usando o estilo `display:none` atribuído a ele — o visualizador suspende seu processo de inicialização. Isso é feito até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando isso ocorre, o carregamento do visualizador é retomado automaticamente.
 
 Esse método deve ser chamado apenas uma vez durante o ciclo de vida do visualizador. As chamadas resultantes são ignoradas.
 

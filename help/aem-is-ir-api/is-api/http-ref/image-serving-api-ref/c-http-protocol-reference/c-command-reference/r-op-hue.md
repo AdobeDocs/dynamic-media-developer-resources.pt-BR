@@ -29,8 +29,8 @@ Baseado em um intervalo de matiz de 360 graus.
 
 ## Propriedades {#section-55779644700b4c808a624cdf5a04447e}
 
-Camada. Se aplica à camada atual ou à imagem composta `layer=comp`. Ignorado pelas camadas de efeito. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
+Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignorado pelas camadas de efeito. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
 
 ## Padrão {#section-7314580251f5456fa1f381ec9e99e0bb}
 
-`op_hue=0`, para não alterar o matiz.
+`op_hue=0`, para nenhuma alteração no matiz.

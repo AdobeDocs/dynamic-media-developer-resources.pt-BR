@@ -101,7 +101,7 @@ Tipo de superfície de material. Especifica o tipo de superfície do material.
  </tr> 
 </table>
 
-Usado com `gloss=` e `rough=` para controlar os comportamentos de reflexão e efeito de brilho. Materiais diferentes produzem efeitos diferentes, mesmo que `gloss=` e `rough=` são as mesmas.
+Usado com `gloss=` e `rough=` para controlar comportamentos de reflexão e efeito de brilho. Materiais diferentes produzem efeitos diferentes, mesmo se `gloss=` e `rough=` forem os mesmos.
 
 ## Propriedades {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ Atributo de material. Ignorado se a vinheta não incluir dados de reflexão 3D o
 
 ## Padrão {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Se o material for baseado em uma entrada do catálogo. Caso contrário `type=0`. Se não especificado, ou se `type=0`, o servidor selecionará um padrão adequado, dependendo do objeto de destino e dos outros atributos de material.
+`catalog::Type` Se o material for baseado em uma entrada de catálogo. Caso contrário, `type=0`. Se não for especificado, ou se `type=0`, o servidor selecionará um padrão adequado, dependendo do objeto de destino e dos outros atributos de material.
 
 ## Consulte também {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[brilho=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [áspero=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[lustro=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rugoso=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

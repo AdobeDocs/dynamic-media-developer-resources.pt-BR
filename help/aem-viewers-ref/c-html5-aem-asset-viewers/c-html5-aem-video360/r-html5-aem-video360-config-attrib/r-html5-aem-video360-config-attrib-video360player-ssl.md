@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 3%
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,8 @@ Atributo de configuração para o Video360 Viewer.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|ativado</span> </p> </td> 
-   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> automático</span> o protocolo de entrega de vídeo é herdado do protocolo da página da web de incorporação. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS e vice-versa. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> em</span>, a entrega de vídeo sempre ocorre em uma conexão segura, independentemente do protocolo da página da Web. </p> <p>Afeta somente a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|em</span> </p> </td> 
+   <td colname="col2"> <p> Controla se o vídeo é entregue por uma conexão SSL segura (HTTPS) ou por uma conexão insegura (HTTP). </p> <p>Quando definido como <span class="codeph"> auto</span>, o protocolo de entrega de vídeo é herdado do protocolo da página da Web incorporada. Se a página da Web for carregada por HTTPS, o vídeo também será entregue por HTTPS e vice-versa. Se a página da Web estiver em HTTP, o vídeo será entregue via HTTP. </p> <p>Quando definido como <span class="codeph"> em</span>, a entrega de vídeo sempre ocorre através de uma conexão segura, independentemente do protocolo da página da Web. </p> <p>Afeta somente a entrega de vídeo publicado e é ignorado para visualização de vídeo no modo Autor. </p> </td> 
   </tr> 
  </tbody> 
 </table>

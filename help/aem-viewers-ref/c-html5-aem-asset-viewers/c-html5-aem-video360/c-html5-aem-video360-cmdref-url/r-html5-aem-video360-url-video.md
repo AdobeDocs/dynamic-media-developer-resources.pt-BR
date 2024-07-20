@@ -29,7 +29,7 @@ Comando de URL para o visualizador de Video360.
 
 ## Propriedades {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obrigatório. (a menos que `asset` é usado. Consulte [Suporte a vídeo externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Obrigatório. (A menos que o parâmetro `asset` seja usado. Consulte [Suporte de vídeo externo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Padrão {#section-d016470e92a74f98a18c4ab3489410a5}
 

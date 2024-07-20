@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f57a8a2e-63a1-4a59-9a25-b435d0ac39dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 0%
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|esmaecer|slide </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tipo do efeito aplicado na alteração do quadro. O atributo <span class="codeph"> nenhum </span> significa sem transição; a alteração de quadro ocorre instantaneamente. O atributo <span class="codeph"> fade </span> significa transição cross-fade entre quadros antigos e novos. O atributo <span class="codeph"> slide </span> ativa a transição em que o quadro antigo desaparece da exibição e o novo quadro surge. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
+   <td colname="col2"> <p>Especifica o tipo do efeito aplicado na alteração do quadro. O atributo <span class="codeph"> none </span> significa sem transição; a alteração do quadro ocorre instantaneamente. O atributo <span class="codeph"> fade </span> significa transição cross-fade entre quadros antigos e novos. O slide </span> do atributo <span class="codeph"> ativa a transição em que o quadro antigo desaparece da exibição e o novo quadro surge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração </span> </span> </p> </td> 
@@ -28,7 +28,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espaçamento </span> </span> </p> </td> 
-   <td colname="col2"> <p>O espaçamento entre os quadros adjacentes em <span class="codeph"> slide </span> transição, tem o intervalo de <span class="codeph"> 0 </span> até <span class="codeph"> 1 </span> e é relativo à largura do componente. </p> </td> 
+   <td colname="col2"> <p>O espaçamento entre os quadros adjacentes na transição do slide <span class="codeph"> </span>, tem o intervalo de <span class="codeph"> 0 </span> a <span class="codeph"> 1 </span> e é relativo à largura do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

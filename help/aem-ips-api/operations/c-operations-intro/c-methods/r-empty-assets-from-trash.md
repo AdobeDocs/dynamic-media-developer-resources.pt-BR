@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Esvazia os ativos da lixeira de IPS.
 
-Os ativos ficam no lixo até serem esvaziados manualmente ou até que desapareçam do lixo. Se forem esvaziados manualmente, eles permanecerão na Lixeira até o próximo trabalho de limpeza (normalmente à noite), quando finalmente forem removidos do sistema. Se o tempo limite for esgotado, os ativos serão apagados como parte dessa mesma atividade de limpeza. O tempo limite pode ser configurado (o padrão é 7 dias).
+O Assets fica no lixo até que sejam esvaziados manualmente ou até que desapareçam do lixo. Se forem esvaziados manualmente, eles permanecerão na Lixeira até o próximo trabalho de limpeza (normalmente à noite), quando finalmente forem removidos do sistema. Se o tempo limite for esgotado, os ativos serão apagados como parte dessa mesma atividade de limpeza. O tempo limite pode ser configurado (o padrão é 7 dias).
 
 ## Tipos de usuário autorizados {#section-24dee2bf5f9f4714a64955c80f2803b4}
 

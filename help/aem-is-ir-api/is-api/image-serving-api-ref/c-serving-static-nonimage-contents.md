@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ O Servidor de imagens oferece suporte aos seguintes comandos em [!DNL /is/conten
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> type </a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> tipo </a> </p> </td> 
   <td class="stentry"> <p>Filtro de tipo de conteúdo. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> solic </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, e <span class="codeph"> req=existe </span> somente. </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> e <span class="codeph"> req=existe somente </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
@@ -40,11 +40,11 @@ O Servidor de imagens oferece suporte aos seguintes comandos em [!DNL /is/conten
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> solicitação </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> server </span>/is/content[/catalog/ <span class="varname"> item </span>][? <span class="varname"> modificadores </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> servidor </span>/is/content[/catalog/ <span class="varname"> item </span>][? <span class="varname"> modificadores </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> porta </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> servidor </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> endereço_do_servidor </span>[ : <span class="varname"> porta </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catálogo </span> </span> </p> </td> 
@@ -60,14 +60,14 @@ O Servidor de imagens oferece suporte aos seguintes comandos em [!DNL /is/conten
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> comando </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> valor </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span> </span> </p> </td> 
   <td class="stentry"> <p>Um dos nomes de comando compatíveis. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> valor </span> </span> </p> </td> 
   <td class="stentry"> <p>Valor do comando. </p> </td> 
  </tr> 
 </table>
@@ -94,26 +94,26 @@ Os catálogos de conteúdo estático são semelhantes aos catálogos de imagem, 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::Expiração </span> </p> </td> 
-   <td colname="col2"> <p>O TTL desse item de conteúdo; <span class="codeph"> attribute::Expiration </span> é usado se não especificado ou se estiver vazio. </p> </td> 
+   <td colname="col2"> <p>O TTL deste item de conteúdo; o atributo <span class="codeph">::Expiration </span> será usado se não for especificado ou se estiver vazio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::Carimbo de data/hora </span> </p> </td> 
-   <td colname="col2"> <p>Carimbo de data/hora de modificação de arquivo; necessário quando a validação baseada em catálogo está habilitada com <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>Carimbo de data/hora de modificação de arquivo; necessário quando a validação baseada em catálogo está habilitada com o atributo <span class="codeph">::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catálogo::UserData </span> </p> </td> 
    <td colname="col2"> <p>Metadados opcionais associados a este item de conteúdo estático; disponíveis para o cliente com <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Tipo de dados opcional; pode ser usado para filtrar solicitações de conteúdo estático com o <span class="codeph"> type= command </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catálogo::UserType </span> </p> </td> 
+   <td colname="col2"> <p>Tipo de dados opcional; pode ser usado para filtrar solicitações de conteúdo estático com o comando <span class="codeph"> type= </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Filtragem de conteúdo estático {#section-4c41bf41ff994910840c1352683d1f37}
 
-Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supor que o conteúdo estático esteja marcado com o apropriado `catalog::UserType` valores, o cliente poderá adicionar a variável `type=` à solicitação. O Servidor de imagens compara o valor fornecido com o `type=` ao valor de `catalog::UserType` e, se houver uma incompatibilidade, retornará um erro em vez de conteúdo potencialmente inadequado.
+Esse mecanismo pode ajudar a garantir que os clientes recebam apenas o conteúdo apropriado para suas necessidades. Supondo que o conteúdo estático esteja marcado com os `catalog::UserType` valores apropriados, o cliente pode adicionar o comando `type=` à solicitação. O Servidor de imagens compara o valor fornecido com o comando `type=` ao valor de `catalog::UserType` e, se houver uma incompatibilidade, retorna um erro em vez de conteúdo potencialmente inadequado.
 
 ## Arquivos de legenda de vídeo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
@@ -131,4 +131,4 @@ Consulte [www.json.org](https://www.json.org/json-en.html) para obter mais infor
 
 ## Consulte também {#section-7b28631016044a22a3a6762fd64771e9}
 
-[type=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Referência do catálogo de imagens](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)
+[tipo=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb) , [req=](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Referência do Catálogo de Imagens](../../is-api/image-serving-api-ref/c-image-catalog-reference/c-image-catalog-reference.md#concept-e23d45ea3abe43119d5144e01c14b0b5)

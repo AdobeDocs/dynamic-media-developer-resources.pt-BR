@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e9db5c83-e6cf-4847-99b3-a1cf6a1fbe9f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> hora</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> vez</span></span> </p> </td> 
    <td colname="col2"> <p> Especifica o tempo em segundos que leva a animação de uma única ação de etapa de zoom. </p> </td> 
   </tr> 
   <tr> 

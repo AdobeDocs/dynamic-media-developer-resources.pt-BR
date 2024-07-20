@@ -1,6 +1,6 @@
 ---
-title: Referência da API JavaScript para o Visualizador de submenu
-description: A classe principal do Visualizador de imagem suspensa é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+title: Referência da API do JavaScript para o Visualizador de submenu
+description: A classe principal do Visualizador de imagem suspensa é FlyoutViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Referência da API JavaScript para o Visualizador de submenu{#javascript-api-reference-for-flyout-viewer}
+# Referência da API do JavaScript para o Visualizador de submenu{#javascript-api-reference-for-flyout-viewer}
 
-A classe principal do Visualizador de imagem suspensa é FlyoutViewer. Ele é declarado no namespace s7views. Essa API JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
+A classe principal do Visualizador de imagem suspensa é FlyoutViewer. Ele é declarado no namespace s7views. Essa API do JavaScript abrange construtor, métodos e retornos de chamada dessa classe específica.
 
-Em todos os exemplos a seguir, `<instance>` significa o nome real do objeto do visualizador do JavaScript que é instanciado a partir do `s7viewers.FlyoutViewer` classe.
+Em todos os exemplos a seguir, `<instance>` representa o nome real do objeto do visualizador do JavaScript que é instanciado da classe `s7viewers.FlyoutViewer`.
 
 * [descartar](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)

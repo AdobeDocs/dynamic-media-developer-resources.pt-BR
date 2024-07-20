@@ -22,4 +22,4 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] manipuladores que definem os scripts de geração de conjunto automático aplicados durante o upload. |
+| autoSetsArray | `types:HandleArray` | Matriz de [!DNL PropertySet] identificadores definindo os scripts de geração de conjunto automático aplicados durante o carregamento. |

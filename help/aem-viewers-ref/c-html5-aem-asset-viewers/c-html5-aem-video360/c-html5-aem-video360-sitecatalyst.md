@@ -7,7 +7,7 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Por padrão, o visualizador envia uma única solicitação HTTP de rastreamento 
 
 ## Rastreamento personalizado {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Para integrar a sistemas analíticos de terceiros, é necessário acompanhar a `trackEvent` retorno de chamada do visualizador e processar o `eventInfo` argumento da função de retorno de chamada, conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
+Para integrar com sistemas de análise de terceiros, é necessário ouvir o retorno de chamada do visualizador `trackEvent` e processar o argumento `eventInfo` da função de retorno de chamada conforme necessário. O código a seguir é um exemplo dessa função de manipulador:
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -64,11 +64,11 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>quando o visualizador é carregado primeiro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> TROCAR </span> </p> </td> 
-   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
+   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JOGAR </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução começa. </p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
    <td colname="col2"> <p>quando a reprodução é pausada. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PARAR </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PARADA </span> </p> </td> 
    <td colname="col2"> <p>quando a reprodução é interrompida. </p> </td> 
   </tr> 
   <tr> 

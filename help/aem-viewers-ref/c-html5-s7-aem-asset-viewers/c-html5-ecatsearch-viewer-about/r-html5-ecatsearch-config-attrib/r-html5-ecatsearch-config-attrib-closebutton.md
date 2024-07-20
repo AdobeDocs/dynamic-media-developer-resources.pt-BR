@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '44'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para ativar a exibição do botão fechar. Ou, defina como <span class="codeph"> 0 </span> para ocultar o botão fechar. </p> <p>O botão Fechar é suportado apenas em dispositivos sensíveis ao toque; ele não pode ser exibido em sistemas desktop. </p> </td> 
+   <td colname="col2"> <p>Defina como <span class="codeph"> 1 </span> para habilitar a exibição do botão Fechar. Ou defina como <span class="codeph"> 0 </span> para ocultar o botão Fechar. </p> <p>O botão Fechar é suportado apenas em dispositivos sensíveis ao toque; ele não pode ser exibido em sistemas desktop. </p> </td> 
   </tr> 
  </tbody> 
 </table>

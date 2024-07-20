@@ -25,25 +25,25 @@ Imagem de resposta padrão. Especifica a entrada de imagem ou catálogo a ser us
  </tr> 
 </table>
 
-*`object`* pode ser uma entrada de catálogo (incluindo um modelo) ou um caminho de arquivo de imagem simples. Útil para substituir imagens ausentes por imagens padrão. Esse valor substitui o valor do catálogo correspondente `attribute::DefaultImage`. Um valor vazio ( `defaultImage=`) desativa a manipulação de imagem padrão.
+*`object`* pode ser uma entrada de catálogo (incluindo um modelo) ou um caminho de arquivo de imagem simples. Útil para substituir imagens ausentes por imagens padrão. Este valor substitui o valor do catálogo correspondente `attribute::DefaultImage`. Um valor vazio ( `defaultImage=`) desabilita o tratamento de imagem padrão.
 
 >[!NOTE]
 >
 >O mecanismo de imagem padrão não se aplica a objetos SVG. Um erro será retornado se o objeto SVG especificado na solicitação não for encontrado.
 
-Se `attribute::DefaultImageMode=0`, *`object`* substitui toda a solicitação original, mesmo se apenas uma imagem em uma composição de várias imagens estiver ausente. Os únicos comandos retidos da solicitação original são: `wid=`, `hei=`, `fmt=`, `qlt=`.
+Se `attribute::DefaultImageMode=0`, *`object`* substituirá toda a solicitação original, mesmo se apenas uma imagem em uma composição de várias imagens estiver ausente. Os únicos comandos retidos da solicitação original são: `wid=`, `hei=`, `fmt=`, `qlt=`.
 
-Se `attribute::DefaultImageMode=1`, o objeto substitui somente a imagem de camada ausente; os atributos da camada ausente são aplicados e o composto é processado e retornado normalmente.
+Se `attribute::DefaultImageMode=1`, o objeto substituirá somente a imagem de camada ausente; os atributos da camada ausente serão aplicados e o composto será processado e retornado como de costume.
 
 ## Propriedades {#section-d30923d8dc4042eba10989212dd70887}
 
-Solicitar atributo. Aplica-se independentemente da configuração da camada atual. Ignorado se `req=` é diferente de `img` ou `tmb`.
+Solicitar atributo. Aplica-se independentemente da configuração da camada atual. Ignorado se `req=` for diferente de `img` ou `tmb`.
 
 ## Restrições {#section-30df31bc8cac41cd917f1e45196779c2}
 
 As fontes de imagem estrangeiras não são cobertas pelo mecanismo de imagem padrão; um erro é retornado se uma fonte de imagem estrangeira não for válida.
 
-O Servidor de imagens é revertido para `DefaultImageMode=0` quando as solicitações aninhadas de Renderização de Imagem ou renderização FXG falham.
+O Servidor de imagens é revertido para `DefaultImageMode=0` quando há falha nas solicitações de renderização FXG ou Renderização de imagem aninhadas.
 
 ## Padrão {#section-0676c66b233c46a3a3a1517da4ace998}
 

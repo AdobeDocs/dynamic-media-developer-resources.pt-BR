@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d048ffc4-7819-4897-8ea3-8b678365d5e9
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ A aparência do botão Exibir todos os favoritos é controlada com o seguinte se
 .s7ecatalogsearchviewer .s7viewallfavoritebutton
 ```
 
-**Propriedades CSS do botão Remover favorito**
+**Propriedades CSS do botão Remover Favorito**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imagem de fundo </span> </p> </td> 
    <td colname="col2"> <p> A imagem exibida para um determinado estado de botão. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ A aparência do botão Exibir todos os favoritos é controlada com o seguinte se
 
 >[!NOTE]
 >
->Esse botão suporta as opções `state` e `selected` seletores de atributo, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Em especial, `selected='true'` corresponde ao estado em que um usuário pode adicionar um novo ícone Favorito clicando ou tocando. A variável `selected='false'` corresponde ao modo de operação normal quando um usuário pode aplicar zoom, deslocar e trocar páginas.
+>Este botão oferece suporte aos seletores de atributo `state` e `selected`, que podem ser usados para aplicar capas diferentes a estados de botão diferentes. Especificamente, `selected='true'` corresponde ao estado em que um usuário pode adicionar um novo ícone de Favorito clicando ou tocando. O `selected='false'` corresponde ao modo de operação normal quando um usuário pode aplicar zoom, deslocar e trocar páginas.
 
 A dica de ferramenta do botão pode ser localizada. Consulte [Localização dos elementos da interface do usuário](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) para obter mais informações.
 

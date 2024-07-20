@@ -18,7 +18,7 @@ Espaço de cor padrão CMYK. Especifica o nome do perfil de cores ICC a ser usad
 
 ## Propriedades {#section-849678b272954bdcb236f49aa54f1609}
 
-String de texto. Se especificado, deve ser um válido `icc::Name` valor do mapa de perfis ICC deste catálogo de imagens, do catálogo padrão ou de um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
+String de texto. Se especificado, deve ser um valor `icc::Name` válido do mapa de perfis ICC deste catálogo de imagens ou do catálogo padrão, ou um caminho de arquivo relativo a `attribute::RootPath`. O perfil ICC referenciado deve ser um perfil CMYK.
 
 ## Padrão {#section-55026b7454af4d868bcb47f7743c9c5b}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ As entradas no mapa de fontes de um catálogo de imagens específico substituem 
 
 O Servidor de imagens é compatível com fontes Adobe Type 1, OpenType e TrueType.
 
-`textPs=` O também oferece suporte a fontes CID, ATC e bitmap.
+`textPs=` também oferece suporte às fontes CID, ATC e bitmap.
 
 * [Negrito](r-bold-font.md)
 * [FontPath](r-fontpath-font.md)

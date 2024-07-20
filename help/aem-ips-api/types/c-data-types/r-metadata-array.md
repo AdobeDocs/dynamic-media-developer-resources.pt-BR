@@ -31,7 +31,7 @@ Sintaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> itens</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> texto:Metadados</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> tipo:Metadados</span> </p> </td> 
    <td colname="col3"> <p>Uma matriz de metadados. </p> </td> 
   </tr> 
  </tbody> 

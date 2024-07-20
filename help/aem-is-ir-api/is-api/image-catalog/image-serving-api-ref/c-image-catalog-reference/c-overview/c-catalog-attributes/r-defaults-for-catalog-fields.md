@@ -27,7 +27,7 @@ Os campos de catálogo usam esses padrões.
    <td colname="col2"> <p>Tempo de vida padrão do cache do cliente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> ResoluçãoDeImpressão</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> ResoluçãoImpressão</a></span> </p> </td> 
    <td colname="col2"> <p>Resolução de impressão padrão. </p> </td> 
   </tr> 
   <tr> 
