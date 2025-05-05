@@ -32,11 +32,11 @@ As notas de versão mais recentes da parte da versão [!DNL Adobe Experience Man
 
 A Adobe está animada em anunciar a disponibilidade da entrega de conteúdo HTTP/2 com o benefício geral de um melhor desempenho.
 
-Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=pt-BR#dynamic).
 
 ## Sistema de publicação do Scene7 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obter a documentação completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Para obter a documentação completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=pt-BR)
 
 **Novos recursos, melhorias e correções de erros**
 
@@ -58,7 +58,7 @@ Para obter a documentação completa, consulte [https://experienceleague.adobe.c
 
 ## Visualizadores (Servidor de imagens 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
 
 **Correções de erros do Servidor de imagens 5.5.3**
 
@@ -68,7 +68,7 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
 
 **Correções de erros do Servidor de imagens 5.5.2**
 
@@ -77,7 +77,7 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 ## Visualizadores (Servidor de imagens 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
 
 **Novos recursos, melhorias e correções de erros do Servidor de imagens 5.5.1**
 

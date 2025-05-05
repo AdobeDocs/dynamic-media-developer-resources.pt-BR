@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # API de disponibilização e renderização de imagens do Dynamic Media {#image-serving-api}
 
-+ [Página Inicial da API de Disponibilização e Renderização de Imagens do Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
++ [Página Inicial da API de Disponibilização e Renderização de Imagens do Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=pt-BR) -->
 + [Sobre esta versão](r-about-this-release.md)
 + [Requisitos e pré-requisitos do sistema](r-requirements-and-prerequisites.md)
 + [Requisitos e recomendações de espaço em disco](r-disk-space-reqs.md)

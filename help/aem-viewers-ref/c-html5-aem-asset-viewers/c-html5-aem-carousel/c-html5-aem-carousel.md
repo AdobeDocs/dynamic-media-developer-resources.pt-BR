@@ -24,7 +24,7 @@ Tipo de visualizador 511.
 
 ## URL de demonstração {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=pt-BR)
 
 ## Requisitos do sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -262,7 +262,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 A página de exemplos a seguir ilustra mais usos reais da incorporação responsiva de design com altura irrestrita:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=pt-BR)
 
 **Inserção de tamanho flexível com Largura e Altura Definidas**
 

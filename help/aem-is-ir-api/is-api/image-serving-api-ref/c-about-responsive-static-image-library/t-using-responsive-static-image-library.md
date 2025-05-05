@@ -18,7 +18,7 @@ Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenci
 
 **Para usar a Biblioteca de imagens responsiva**
 
-1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
+1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=pt-BR#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
 
    Ao definir as Predefinições de imagem usadas com a Biblioteca de imagens responsiva, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=` ou `scl=`. Não especifique campos de tamanho na Predefinição de imagem. Em vez disso, deixe-os como valores em branco.
 1. Adicione o arquivo JavaScript da biblioteca à página da Web.
