@@ -22,7 +22,7 @@ Mensagem detalhada que responde a um dos URLs fornecidos na solicitação de inv
 
 ## Parâmetros {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** Nome** | ** Tipo** | ** Descrição** |
+| **&#x200B; Nome** | **&#x200B; Tipo** | **&#x200B; Descrição** |
 |---|---|---|
 | código | `xsd:int` | Código de erro fornecido pela CDN |
 | motivo | `xsd:string` | Mensagem de erro fornecida pela CDN |

@@ -95,6 +95,6 @@ Presume-se que o leitor esteja familiarizado com a Criação e renderização de
 
 **Termos comuns**
 
-** *`MSS`* ** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
+**&#x200B; *`MSS`* &#x200B;** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
 
-** *`vignette`* ** Uma imagem preparada na Criação de Imagem do Dynamic Media para uso com Renderização de Imagem.
+**&#x200B; *`vignette`* &#x200B;** Uma imagem preparada na Criação de Imagem do Dynamic Media para uso com Renderização de Imagem.

@@ -46,7 +46,7 @@ Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de i
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> comando </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 

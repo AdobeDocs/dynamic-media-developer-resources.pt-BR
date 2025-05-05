@@ -1,5 +1,5 @@
 ---
-description: Sinalizador de negrito. Especifica se o arquivo de fontes referenciado por este registro de mapa de fontes deve ser usado quando solicitado pelo comando RTF boldface (\b).
+description: Sinalizador de negrito. Especifica se o arquivo de fontes referenciado por este registro de mapa de fontes deve ser usado quando solicitado pelo comando RTF boldface (b).
 solution: Experience Manager
 title: Negrito
 feature: Dynamic Media Classic,SDK/API
