@@ -53,7 +53,7 @@ ExportJob não oferece suporte para os seguintes tipos de ativos:
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Especifica a cadeia de caracteres da URL de renderização <span class="codeph"> ImageServer</span>, que está anexada à solicitação de conversão<span class="codeph"> do ExportJob </span>. </p> <p>Consulte a <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> documentação do IS</a> para obter detalhes sobre como enviar os modificadores IS. </p> </td> 
+   <td colname="col3"> <p>Especifica a cadeia de caracteres da URL de renderização <span class="codeph"> ImageServer</span>, que está anexada à solicitação de conversão<span class="codeph"> do ExportJob </span>. </p> <p>Consulte a <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=pt-BR" scope="external" format="html"> documentação do IS</a> para obter detalhes sobre como enviar os modificadores IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

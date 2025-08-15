@@ -25,7 +25,7 @@ Esta seção descreve os comandos do protocolo HTTP.
 >* Largura de banda de rede
 >* DPR (Relação de pixels do dispositivo)
 >
->Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutos e 17 segundos).
+>Para saber como é fácil usar o Instantâneo, reproduza o [Vídeo de treinamento do Instantâneo](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=pt-BR) (3 minutos e 17 segundos).
 
 
 **Somente para Dynamic Media no Adobe Experience Manager** - Além das configurações básicas de imagem disponíveis na interface do usuário, o [!DNL Dynamic Media] no AEM ( [!DNL Adobe Experience Manager]) oferece suporte a várias modificações avançadas de imagem que você pode especificar no campo **Modificadores de Imagem**. Esses parâmetros são definidos abaixo. No entanto, esteja ciente de que a seguinte funcionalidade não é compatível com o Dynamic Media no AEM.
@@ -42,7 +42,7 @@ Esta seção descreve os comandos do protocolo HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consulte também as [Opções de predefinição de imagem](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) do Dynamic Media na documentação do AEM 6.5.
+Consulte também as [Opções de predefinição de imagem](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=pt-BR#dynamic) do Dynamic Media na documentação do AEM 6.5.
 
 * [alinhar](r-align.md)
 * [âncora](r-anchor.md)

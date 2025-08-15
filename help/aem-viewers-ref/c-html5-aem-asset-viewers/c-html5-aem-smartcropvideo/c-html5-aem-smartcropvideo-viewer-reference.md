@@ -293,7 +293,7 @@ A página de exemplos a seguir ilustra mais o uso real de incorporação de desi
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
 
 **Incorporação responsiva de design com largura e altura definidas**
 
