@@ -20,14 +20,14 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> modelo</span></span> </p> </td> 
-   <td> <p>O modelo de conteúdo no qual os dados retornados do servidor de informações são mesclados. </p> <p>O modelo de conteúdo é um XML após este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>O modelo de conteúdo no qual os dados retornados do servidor de informações são mesclados. </p> <p>O modelo de conteúdo é um XML após este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      ]&gt;</code> </p> <p>A sintaxe real do template de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
+      &rbrack;&gt;</code> </p> <p>A sintaxe real do template de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&rbrack;&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
       &lt;/info&gt;</code> </p> <p>Ou seja, o modelo deve começar com o elemento <span class="codeph"> &lt;info&gt;</span> que pode conter elementos <span class="codeph"> &lt;var&gt;</span> opcionais padrão. O próprio conteúdo do modelo, <span class="codeph"> TEMPLATE_CONTENT</span> é texto HTML. Além disso, o modelo de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres que são substituídos pelos valores de variáveis retornados pelo servidor de informações ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de substituição não estiver definido) ou específicas para uma determinada chave de substituição (se o atributo de substituição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para as teclas de rolagem têm prioridade sobre as variáveis globais. </p> </td> 
   </tr> 

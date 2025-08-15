@@ -1,6 +1,6 @@
 ---
 title: Carimbo de data/hora
-description: Se `attribute::UseLastModified` estiver definido, o valor `catalog::TimeStamp` será retornado na resposta HTTP como um cabeçalho HTTP de última modificação.
+description: Se &grave;attribute::UseLastModified&grave; estiver definido, o valor &grave;catalog::TimeStamp&grave; será retornado na resposta HTTP como um cabeçalho HTTP de última modificação.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
