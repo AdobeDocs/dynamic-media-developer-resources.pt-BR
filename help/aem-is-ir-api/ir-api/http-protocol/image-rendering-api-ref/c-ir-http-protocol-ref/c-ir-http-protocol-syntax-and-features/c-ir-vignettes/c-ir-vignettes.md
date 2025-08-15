@@ -1,6 +1,6 @@
 ---
 title: Vinhetas
-description: As vinhetas são imagens criadas com a Criação de imagem do Dynamic Media para uso com a Renderização de imagem.
+description: As vinhetas são imagens criadas com a criação de imagem do Dynamic Media para uso com renderização de imagem.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Vinhetas{#vignettes}
 
-As vinhetas são imagens criadas com a Criação de imagem do Dynamic Media para uso com a Renderização de imagem.
+As vinhetas são imagens criadas com a criação de imagem do Dynamic Media para uso com renderização de imagem.
 
 O IR suporta dois tipos básicos de vinhetas: *2D* e *3D*. Cenas de quartos normalmente são vinhetas 3D que podem renderizar reflexos, enquanto a maioria das outras cenas, como vestuário ou estofamento, são normalmente vinhetas 2D que não têm capacidade de renderização de reflexão.
 

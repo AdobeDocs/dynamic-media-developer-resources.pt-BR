@@ -36,7 +36,7 @@ Somente as configurações listadas abaixo podem ser alteradas em [!DNL Platform
   <td class="stentry"> <p> <span class="codeph"> errorRedirect.rootUrl=&lt;empty&gt; </span> </p> <p> <span class="codeph"> errorRedirect.connectTimeout=1000 </span> </p> <p> <span class="codeph"> errorRedirect.socketTimeout=30000 </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>configuração de SVG </p> </td> 
+  <td class="stentry"> <p>Configuração do SVG </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> svgProvider.rootPaths=./images </span> </p> <p> <span class="codeph"> svgProvider.SVGFileSizeLimit=1024 </span> </p> <p> <span class="codeph"> svgProvider.port=8080 </span> </p> <p> <span class="codeph"> svgProvider.fontRoot=./images </span> </p> </td> 
  </tr> 
  <tr class="strow"> 

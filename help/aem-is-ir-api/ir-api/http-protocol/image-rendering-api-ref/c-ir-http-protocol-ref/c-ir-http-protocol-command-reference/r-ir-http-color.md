@@ -21,7 +21,7 @@ Cor do primeiro plano. Especifica a cor dos materiais de cor sólida ou a cor ad
 <table id="simpletable_C5AF9074CCA64EA5921772DF3F7E0F55"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> cor</span> </p> </td> 
-  <td class="stentry"> <p>valor da cor RGB ou cinza. </p></td> 
+  <td class="stentry"> <p>RGB ou valor de cor cinza. </p></td> 
  </tr> 
 </table>
 

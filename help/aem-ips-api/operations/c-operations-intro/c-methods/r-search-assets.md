@@ -96,7 +96,7 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Escolha de estado do Publish. </td> 
+   <td colname="col4"> Escolha de estado de publicação. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
@@ -180,7 +180,7 @@ Limite o tamanho do seu conjunto de dados com os parâmetros `responseFieldArray
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:booleano</span> </td> 
    <td colname="col3"> Não </td> 
-   <td colname="col4"> Se verdadeiro, os ativos de subprodutos gerados durante a assimilação de um ativo principal, como imagens de página de PDF copiadas, serão excluídos dos resultados da pesquisa. O padrão é falso. </td> 
+   <td colname="col4"> Se verdadeiro, os ativos de subprodutos gerados durante a assimilação de um ativo principal, como imagens extraídas da página do PDF, são excluídos dos resultados da pesquisa. O padrão é falso. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 

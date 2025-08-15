@@ -22,5 +22,5 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| ccOriginator | `xsd:boolean` | Se true, inclui a conta de usuário do serviço Web do usuário, que é uma lista de emails designados para receber uma confirmação por email do CDN da Dynamic Media. |
-| ccOthersArray | `types:EmailArray` | Uma matriz de endereços de email (máximo de 5) designada para receber a notificação de confirmação do CDN da Dynamic Media. |
+| ccOriginator | `xsd:boolean` | Se verdadeiro, inclui a conta de usuário do serviço Web do usuário, que é uma lista de emails designados para receber uma confirmação por email do CDN do Dynamic Media. |
+| ccOthersArray | `types:EmailArray` | Uma matriz de endereços de email (máximo de 5) designada para receber a notificação de confirmação do CDN do Dynamic Media. |

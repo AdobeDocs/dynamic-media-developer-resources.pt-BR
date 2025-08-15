@@ -1,6 +1,6 @@
 ---
 title: quantizar
-description: Quantização de cores. Especifica atributos de quantização de cores para a conversão de saída de GIF.
+description: Quantização de cores. Especifica atributos de quantização de cores para a conversão de saída do GIF.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # quantizar{#quantize}
 
-Quantização de cores. Especifica atributos de quantização de cores para a conversão de saída de GIF.
+Quantização de cores. Especifica atributos de quantização de cores para a conversão de saída do GIF.
 
 ` quantize= *`tipo`*[, *`pontilhamento`*[, *`númCores`*[, *`colorList`*]]]`
 
@@ -33,7 +33,7 @@ Quantização de cores. Especifica atributos de quantização de cores para a co
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Lista separada por vírgulas de cores de RGB forçadas no formato hex6. Permite que você especifique cores forçadas a serem incluídas em uma paleta ' <span class="codeph"> adaptável </span>'. Se o número de cores especificado for menor que <span class="codeph"> numColors </span>, as cores adicionais serão calculadas com base no conteúdo da imagem. </p> <p>Usado apenas se <span class="codeph"> fmt=gif </span> ou <span class="codeph"> fmt=gif-alpha </span>. Ignorado de outra forma. As cores especificadas com <span class="codeph"> <span class="varname"> colorList </span> </span> devem ser valores de RGB no formato hex6 (consulte <span class="codeph"> color </span>); nenhum outro especificador de cor é permitido. </p> </td> 
+  <td class="stentry"> <p>Lista separada por vírgulas de cores forçadas do RGB no formato hex6. Permite que você especifique cores forçadas a serem incluídas em uma paleta ' <span class="codeph"> adaptável </span>'. Se o número de cores especificado for menor que <span class="codeph"> numColors </span>, as cores adicionais serão calculadas com base no conteúdo da imagem. </p> <p>Usado apenas se <span class="codeph"> fmt=gif </span> ou <span class="codeph"> fmt=gif-alpha </span>. Ignorado de outra forma. As cores especificadas com <span class="codeph"> <span class="varname"> colorList </span> </span> devem ser valores RGB no formato hex6 (consulte <span class="codeph"> color </span>); nenhum outro especificador de cor é permitido. </p> </td> 
  </tr> 
 </table>
 
@@ -43,10 +43,10 @@ Quantização de cores. Especifica atributos de quantização de cores para a co
 
 ## Exemplo {#section-b3a979dc9ae3459baa093bf17310988f}
 
-Gere uma miniatura de GIF usando a paleta &#39; `web`&#39; e sem pontilhamento:
+Gere uma miniatura GIF usando a paleta &#39; `web`&#39; e sem pontilhamento:
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-Converta a imagem em um GIF bi-tonal com transparência de cor-chave e force as cores para preto e branco:
+Converta a imagem em um GIF bi-tonal com transparência de cor-chave e force as cores para preto-e-branco:
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

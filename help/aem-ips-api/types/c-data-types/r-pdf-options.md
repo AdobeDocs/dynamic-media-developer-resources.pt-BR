@@ -1,5 +1,5 @@
 ---
-description: opções do arquivo PDF.
+description: Opções de arquivo do PDF.
 solution: Experience Manager
 title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-opções do arquivo PDF.
+Opções de arquivo do PDF.
 
 Sintaxe
 
@@ -22,9 +22,9 @@ Sintaxe
 
 | Nome | Tipo | Descrição |
 |---|---|---|
-| processo | `xsd:string` | Escolha de &quot;processos de PDF&quot;. |
+| processo | `xsd:string` | Escolha de &quot;processos PDF&quot;. |
 | resolution | `xsd:double` | Resolução do arquivo. |
 | colorspace | `xsd:string` | Opção de Modo Colorspace pós-script. |
 | pdfCatalog | `xsd:boolean` | Se um PDF de várias páginas deve ser combinado em um eCatalog após a renderização (o padrão é verdadeiro). |
 | extractSearchWords | `xsd:boolean` | Se as palavras de pesquisa devem ser extraídas do arquivo PDF. |
-| extractLinks | `xsd:boolean` | Se os links de PDF devem ser extraídos em mapas de imagem atribuídos às páginas rasterizadas no IPS. |
+| extractLinks | `xsd:boolean` | Se os links do PDF devem ser extraídos em mapas de imagem atribuídos às páginas rasterizadas no IPS. |

@@ -1,5 +1,5 @@
 ---
-description: Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classificados de imagens e controlar atributos usados pelos visualizadores do Dynamic Media.
+description: Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classificados de imagens e atributos de controle usados pelos visualizadores do Dynamic Media.
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # ImageSet{#imageset}
 
-Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classificados de imagens e controlar atributos usados pelos visualizadores do Dynamic Media.
+Dados do conjunto de imagens. Fornece um mecanismo para definir conjuntos classificados de imagens e atributos de controle usados pelos visualizadores do Dynamic Media.
 
 Um conjunto de imagens consiste em uma lista de itens classificados e separados por vírgulas. Cada item consiste em um ou mais subitens (IDs de imagem, IDs de amostra, caminhos de arquivo de mídia, rótulos e assim por diante), separados por ponto e vírgula, dois pontos ou ambos.
 
@@ -52,7 +52,7 @@ Cada item em um conjunto de amostras básico consiste em uma referência a um re
 | `*`imageId`*` | Referência da imagem IS (catálogo/id) |
 | `*`swatchId`*` | Referência da imagem IS (catálogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`rótulo`*]'}'` |
-| `*`rrggbb`*` | Valor de cor de RGB hexadecimal de 6 dígitos compactado para amostras de cores sólidas |
+| `*`rrggbb`*` | Valor de cor RGB hexadecimal de 6 dígitos compactado para amostras de cores sólidas |
 | `*`rótulo`*` | Rótulo de texto opcional para amostras de cores sólidas |
 
 **Conjuntos de Amostras Hierárquicas**

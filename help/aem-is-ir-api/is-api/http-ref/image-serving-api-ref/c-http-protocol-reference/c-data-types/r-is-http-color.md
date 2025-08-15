@@ -19,7 +19,7 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cor</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&lcub;&lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> vermelho</span>,<span class="varname"> verde</span>,<span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> amarelo</span>, <span class="varname"> preto</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub;&amp;lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&amp;rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> vermelho</span>,<span class="varname"> verde</span>,<span class="varname"> azul</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> ciano</span>, <span class="varname"> magenta</span>, <span class="varname"> amarelo</span>, <span class="varname"> preto</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> vermelho</span>, <span class="varname"> verde</span>, <span class="varname"> azul</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
@@ -43,7 +43,7 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hexa6</span> </span> </p> </td> 
-  <td class="stentry"> <p>Valor de cor de RGB hexadecimal de seis dígitos empacotado (RRGGBB) </p></td> 
+  <td class="stentry"> <p>Valor de cor RGB hexadecimal de seis dígitos empacotado (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
@@ -55,13 +55,13 @@ Valores de cor. Você pode especificar valores de cor usando notação hexadecim
  </tr> 
 </table>
 
-Os valores de componentes decimais para cores de RGB estão no intervalo 0 a 255. Os valores de componentes decimais para CMYK e cinza estão no intervalo de 0 a 100%. Todos os valores de componentes hexadecimais estão no intervalo 0 a 0xFF.
+Os valores de componentes decimais para cores RGB estão no intervalo 0 a 255. Os valores de componentes decimais para CMYK e cinza estão no intervalo de 0 a 100%. Todos os valores de componentes hexadecimais estão no intervalo 0 a 0xFF.
 
 Os valores do componente de cor são considerados independentes do valor alfa (não pré-multiplicado).
 
 Todos os valores de cor, prefixos e sufixos não fazem distinção entre maiúsculas e minúsculas.
 
-O sufixo de tipo &#39;k&#39; é necessário para valores de cor CMYK. Um sufixo de tipo pode ser opcionalmente especificado para valores de RGB e cor cinza.
+O sufixo de tipo &#39;k&#39; é necessário para valores de cor CMYK. Um sufixo de tipo pode ser especificado opcionalmente para valores de RGB e cor cinza.
 
 O prefixo &#39;0x&#39; é necessário para valores de cor cinza hexadecimais.
 
@@ -81,7 +81,7 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
    <th class="entry"> <b> <i>cor</i> </b> </th> 
    <th class="entry"> <b>Tipo de pixel</b> </th> 
    <th class="entry"> <b>Valor da Cor</b> </th> 
-   <th class="entry"> <b>Valor Alpha</b> </th> 
+   <th class="entry"> <b>Valor do Alpha</b> </th> 
    <th class="entry"> <b>Espaço de Cor Padrão </b> </th> 
   </tr> 
  </thead>

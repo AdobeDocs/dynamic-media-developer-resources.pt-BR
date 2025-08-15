@@ -20,7 +20,7 @@ Sintaxe
 
 ## TC::diretory - Pasta do arquivo de log {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-A pasta na qual o [!DNL Platform Server] grava arquivos de log. Pode ser um caminho absoluto ou um caminho relativo a *`install_folder`*. O padrão é [!DNL &#x200B; *`install_folder`*/logs].
+A pasta na qual o [!DNL Platform Server] grava arquivos de log. Pode ser um caminho absoluto ou um caminho relativo a *`install_folder`*. O padrão é [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ O número de dias que os arquivos de log devem ser preservados. Novos arquivos d
 
 ## TC::prefix - Nome do arquivo de log de acesso {#section-1003856323b844049632710a5a056aa7}
 
-Prefixo do nome do arquivo no qual os dados de log de acesso são gravados. A data e o sufixo do arquivo ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) estão anexados à cadeia de caracteres especificada. O nome do arquivo de log de acesso deve ser diferente do nome do arquivo de log de rastreamento. O padrão é &quot;`access-`&quot;.
+Prefixo do nome do arquivo no qual os dados de log de acesso são gravados. A data e o sufixo do arquivo ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) estão anexados à cadeia de caracteres especificada. O nome do arquivo de log de acesso deve ser diferente do nome do arquivo de log de rastreamento. O padrão é &quot;`access-`&quot;.
 
 ## TC::pattern - Padrão de log de acesso {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -148,7 +148,7 @@ As seguintes variáveis de padrão são compatíveis:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>O valor do cabeçalho de resposta </span> da tag <span class="codeph"> (assinatura MD5 dos dados de resposta). </p> </td> 
+   <td> <p>O valor do cabeçalho de resposta <span class="codeph"> da tag </span> (assinatura MD5 dos dados de resposta). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 

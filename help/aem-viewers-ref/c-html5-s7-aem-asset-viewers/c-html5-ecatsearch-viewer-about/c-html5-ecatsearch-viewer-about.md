@@ -31,13 +31,13 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## Utilização do eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-O Visualizador de pesquisa do eCatalog representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução
+O Visualizador de pesquisa do eCatalog representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do Viewer SDK usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução
 
-Você pode usar o Visualizador de pesquisa do eCatalog no modo pop-up usando uma página de HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde ela é integrada à página da Web de destino usando a API documentada.
+Você pode usar o Visualizador de pesquisa do eCatalog no modo pop-up usando uma página do HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde ela é integrada à página da Web de destino usando a API documentada.
 
 A configuração e a aparência são semelhantes às dos outros visualizadores. Toda a atribuição de capa é obtida por meio de CSS personalizado.
 
@@ -98,9 +98,9 @@ Páginas da Web diferentes têm necessidades diferentes para o comportamento do 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ele ocupa toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação de um dispositivo móvel seja alterada.
 
-O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento do HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL eCatalogSearchViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL eCatalogSearchViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -137,11 +137,11 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL eCatalogSearchViewer.js]. O arquivo [!DNL eCatalogSearchViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL eCatalogSearchViewer.js]. O arquivo [!DNL eCatalogSearchViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, você especificará um caminho completo para um dos servidores Adobe Dynamic Media que possuem os Visualizadores IS instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media que têm os Visualizadores IS instalados.
 
 O caminho relativo tem a seguinte aparência:
 
@@ -169,7 +169,7 @@ O caminho relativo tem a seguinte aparência:
 
    Consulte [Personalizando o visualizador do eCatalog](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
+   Este é um exemplo de definição de um tamanho de visualizador estático na página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
@@ -240,7 +240,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web resultante é semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web resultante é semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

@@ -1,6 +1,6 @@
 ---
 title: jpegSize
-description: Tamanho do Jpeg em KiloBytes. Especifica o tamanho máximo da resposta de JPEG em quilobytes.
+description: Tamanho do Jpeg em KiloBytes. Especifica o tamanho máximo da resposta do JPEG em quilobytes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # jpegSize{#jpegsize}
 
-Tamanho do Jpeg em KiloBytes. Especifica o tamanho máximo da resposta de JPEG em quilobytes.
+Tamanho do Jpeg em KiloBytes. Especifica o tamanho máximo da resposta do JPEG em quilobytes.
 
 `jpegSize= *`tamanho`*`
 
@@ -25,7 +25,7 @@ Tamanho do Jpeg em KiloBytes. Especifica o tamanho máximo da resposta de JPEG e
  </tr> 
 </table>
 
-Se estiver definido com um valor positivo e se a resposta do JPEG com a qualidade de JPEG especificada não exceder esse valor, essa imagem será retornada como resposta. Caso contrário, a qualidade do JPEG diminuirá até produzir uma imagem que se ajuste ao tamanho especificado ou até determinar que não se ajuste. No último caso, a solicitação falha com um erro.
+Se estiver definida com um valor positivo e se a resposta do JPEG com a qualidade de JPEG especificada não exceder esse valor, essa imagem será retornada como resposta. Caso contrário, a qualidade do JPEG diminui até produzir uma imagem que se ajuste ao tamanho especificado ou até determinar que não se ajuste. No último caso, a solicitação falha com um erro.
 
 Um valor de 0 significa que a resposta não está restrita por tamanho.
 

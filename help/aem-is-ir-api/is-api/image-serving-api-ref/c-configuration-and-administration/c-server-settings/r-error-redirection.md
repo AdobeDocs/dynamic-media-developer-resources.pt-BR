@@ -22,7 +22,7 @@ Use essas configurações do servidor para redirecionar erros.
 
 ## PS::errorRedirect.rootUrl - Servidor de redirecionamento {#section-85f22e48d68842a490b0e1191543b558}
 
-A URL raiz ( HTTP:// *[!DNL domain]*[: *[!DNL port]*]) da implantação secundária do Servidor de Imagens para a qual as solicitações que falharem localmente devem ser redirecionadas. O redirecionamento de erro está desativado (padrão) quando essa configuração está vazia ou não está definida.
+A URL raiz ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) da implantação secundária do Servidor de Imagens para a qual as solicitações que falharem localmente devem ser redirecionadas. O redirecionamento de erro está desativado (padrão) quando essa configuração está vazia ou não está definida.
 
 ## PS::errorRedirect.connectTimeout - Tempo Limite de Conexão de Redirecionamento {#section-3971be8f720d4b32a2cc7860b4085971}
 

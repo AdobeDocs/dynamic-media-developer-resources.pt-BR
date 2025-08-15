@@ -30,8 +30,8 @@ Atualiza as configurações de formato de publicação da vinheta.
 | Nome | Tipo | Obrigatório | Descrição |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | Identificador da empresa. |
-| vinhetaFormatarAlça | `xsd:string` | Sim | Identificador de formato do Publish. |
-| name | `xsd:string` | Não | Nome do formato Publish. |
+| vinhetaFormatarAlça | `xsd:string` | Sim | Identificador de formato de publicação. |
+| name | `xsd:string` | Não | Nome do formato de publicação. |
 | targetWidth | `xsd:int` | Sim | Especifica a largura alvo da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta principal. |
 | targetHeight | `xsd:int` | Sim | Especifica a altura de destino da exibição de vinheta resultante em pixels. Use zero para que a vinheta de saída tenha o mesmo tamanho da vinheta principal. |
 | createPyramid | `xsd:boolean` | Sim | Cria uma vinheta em pirâmide otimizada para aplicar zoom no servidor de Renderização de imagem. Começando pelo tamanho máximo, definido pelos campos Tamanho da vinheta do Target, isso cria várias exibições de tamanho em um único arquivo de saída de vinheta. Cada tamanho de exibição subsequente é reduzido pela metade até que a largura e a altura fiquem dentro de 128x128 pixels. |

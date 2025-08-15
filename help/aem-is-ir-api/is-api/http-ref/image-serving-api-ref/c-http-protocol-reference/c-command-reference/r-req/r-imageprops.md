@@ -77,7 +77,7 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> imagem. embeddedXmpData</span> </p> </td> 
    <td> <p> booleano </p> </td> 
-   <td> <p> 1 se a imagem incluir dados XMP </p> </td> 
+   <td> <p> 1 se a imagem incluir dados do XMP </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask</span> </p> </td> 
@@ -97,7 +97,7 @@ As seguintes propriedades são retornadas:
   <tr> 
    <td> <p> <span class="codeph"> image.pixType</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> Tipo de imagem, pode ser 'CMYK', 'RGB' ou 'BW' (para imagens em tons de cinza) </p> </td> 
+   <td> <p> Tipo de imagem, pode ser "CMYK", "RGB" ou "BW" (para imagens em tons de cinza) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 

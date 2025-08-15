@@ -31,7 +31,7 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 ## Utilização do visualizador de imagem suspensa {#section-f21ac23d3f6449ad9765588d69584772}
 
-O Visualizador de imagem suspensa representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução
+O Visualizador de imagem suspensa representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (uma única JavaScript inclui todos os componentes do Viewer SDK usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução
 
 O Visualizador de imagem suspensa se destina apenas ao uso incorporado, o que significa que ele é integrado à página da Web usando a API documentada. Nenhuma página da Web pronta para produção está disponível para o Visualizador de imagem suspensa.
 
@@ -97,11 +97,11 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua `FlyoutViewer.js`. `FlyoutViewer.js` está na seguinte subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua `FlyoutViewer.js`. `FlyoutViewer.js` está na seguinte subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, você especificará um caminho completo para um dos servidores Adobe Dynamic Media que possuem os Visualizadores IS instalados.
+Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media que têm os Visualizadores IS instalados.
 
 Um caminho relativo tem a seguinte aparência:
 
@@ -111,7 +111,7 @@ Um caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -138,7 +138,7 @@ Um caminho relativo tem a seguinte aparência:
 
    Consulte [Personalizando o visualizador de imagem suspensa](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Veja a seguir um exemplo de definição do tamanho estático do visualizador externo em uma página de HTML:
+   Este é um exemplo de definição do tamanho estático do visualizador externo em uma página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -149,11 +149,11 @@ Um caminho relativo tem a seguinte aparência:
 
    Você pode ver o comportamento com uma área fixa do visualizador externo na página de exemplo a seguir. Observe que, ao alternar entre conjuntos, o tamanho do visualizador externo não é alterado:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Para tornar as dimensões de exibição principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente de SDK `Container` interno usando o seletor de CSS `.s7flyoutviewer .s7container`. Além disso, você deve substituir o tamanho fixo definido para a classe CSS de nível superior `.s7flyoutviewer` no CSS do visualizador padrão, definindo-o como `auto`.
+   Para tornar as dimensões de exibição principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente SDK `Container` interno usando o seletor CSS `.s7flyoutviewer .s7container`. Além disso, você deve substituir o tamanho fixo definido para a classe CSS de nível superior `.s7flyoutviewer` no CSS do visualizador padrão, definindo-o como `auto`.
 
-   Este é um exemplo de definição do tamanho do visualizador para o componente SDK `Container` interno para que a área de exibição principal não altere seu tamanho ao alternar o ativo:
+   Este é um exemplo de definição do tamanho do visualizador para o componente interno do SDK `Container` para que a área de exibição principal não altere seu tamanho ao alternar o ativo:
 
    ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
@@ -168,7 +168,7 @@ Um caminho relativo tem a seguinte aparência:
 
    A página de exemplo a seguir mostra o comportamento do visualizador com um tamanho de exibição principal fixo. Observe que quando você alternar entre conjuntos, a exibição principal permanecerá estática e o conteúdo da página da Web se moverá verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
 
    Além disso, o CSS do visualizador padrão fornece um tamanho fixo para sua área externa pronta para uso.
 
@@ -225,7 +225,7 @@ Um caminho relativo tem a seguinte aparência:
 
 ## Incorporação responsiva de design com altura irrestrita {#section-056cb574713c4d07be6d07cf3c598839}
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -302,7 +302,7 @@ A página de exemplos a seguir ilustra mais usos reais da incorporação respons
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Incorporação de tamanho flexível com largura e altura definidas {#section-0a329016f9414d199039776645c693de}
 

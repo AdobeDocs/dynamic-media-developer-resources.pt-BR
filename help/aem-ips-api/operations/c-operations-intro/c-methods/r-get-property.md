@@ -22,8 +22,8 @@ As propriedades de sistema compatíveis incluem:
 * `IpsImageServerUrl`: Prefixo de URL externo completo para o Servidor de Imagens IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: prefixo de URL para renderizar ativos SVG.
-* `SvgRenderEnabled`: verdadeiro se os ativos de SVG puderem ser renderizados por `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: prefixo de URL para renderizar ativos do SVG.
+* `SvgRenderEnabled`: verdadeiro se os ativos do SVG podem ser renderizados por `SvgRenderRootUrl`.
 
 * `UploadPostMaxFileSize`: Tamanho máximo (em bytes) de dados de arquivo permitido em um carregamento [!DNL POST]. O sistema rejeita arquivos maiores que o limite máximo.
 

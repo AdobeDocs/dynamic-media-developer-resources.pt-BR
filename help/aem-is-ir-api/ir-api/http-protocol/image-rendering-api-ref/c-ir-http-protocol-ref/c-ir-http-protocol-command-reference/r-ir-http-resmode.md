@@ -26,11 +26,11 @@ Modo de reamostragem. Seleciona o algoritmo de reamostragem e/ou interpolação 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais uso intenso da CPU do que a interpolação bilinear, mas produz imagens mais nítidas com menos artefatos de suavização visíveis. </p> </td> 
+   <td colname="col2"> <p>Seleciona a interpolação bicúbica. Mais intensiva em CPU do que a interpolação bilinear, mas produz imagens mais nítidas com menos artefatos de suavização visíveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bicúbico a um custo de CPU mais alto. </p> <p> <span class="codeph"> sharp </span> foi substituído por <span class="codeph"> sharp2 </span>, que tem uma probabilidade menor de causar artefatos de suavização, também conhecido como Moiré. </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que o bicúbico a um custo de CPU mais alto. </p> <p> <span class="codeph"> sharp </span> foi substituído por <span class="codeph"> sharp2 </span>, que tem uma probabilidade menor de causar artefatos de suavização, também conhecido como Moiré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

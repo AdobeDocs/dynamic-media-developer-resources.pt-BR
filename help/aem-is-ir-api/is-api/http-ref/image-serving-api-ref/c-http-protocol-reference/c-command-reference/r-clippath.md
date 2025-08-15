@@ -49,7 +49,7 @@ Se `size=` não for especificado para uma camada de texto ou cor sólida, a cama
 >
 >Os comandos `scale=`, `rotate=` e `anchor=` não são permitidos para camadas de cores sólidas de autodimensionamento.
 
-`*`pathDefinition`*` aceita uma cadeia de caracteres semelhante ao valor do atributo `d=` do elemento SVG `<path>`, exceto que são usadas vírgulas em vez de espaços para separar valores. `*`pathDefinition`*` pode incluir um ou mais subcaminhos de ciclo fechado.
+`*`pathDefinition`*` aceita uma cadeia de caracteres semelhante ao valor do atributo `d=` do elemento `<path>` do SVG, exceto que são usadas vírgulas em vez de espaços para separar valores. `*`pathDefinition`*` pode incluir um ou mais subcaminhos de ciclo fechado.
 
 Os seguintes comandos de caminho têm suporte em `*`pathDefinition`*`:
 

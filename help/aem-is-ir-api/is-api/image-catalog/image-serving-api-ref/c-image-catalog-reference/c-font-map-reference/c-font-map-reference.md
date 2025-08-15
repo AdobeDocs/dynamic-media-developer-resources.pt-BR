@@ -18,7 +18,7 @@ Se um mapa de fontes for necessário para um catálogo de imagens, o caminho rel
 
 As entradas no mapa de fontes de um catálogo de imagens específico substituem as entradas no mapa de fontes do catálogo padrão.
 
-O Servidor de imagens é compatível com fontes Adobe Type 1, OpenType e TrueType.
+O Servidor de imagens é compatível com as fontes Adobe Type 1, OpenType e TrueType.
 
 `textPs=` também oferece suporte às fontes CID, ATC e bitmap.
 

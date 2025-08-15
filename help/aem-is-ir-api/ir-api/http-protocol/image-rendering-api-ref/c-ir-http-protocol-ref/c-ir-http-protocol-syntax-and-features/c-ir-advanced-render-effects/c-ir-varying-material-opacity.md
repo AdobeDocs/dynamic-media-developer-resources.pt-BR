@@ -16,7 +16,7 @@ ht-degree: 0%
 
 A opacidade variável é suportada para cores sólidas e texturas repetíveis aplicadas a objetos sobrepostos, bem como para decalques e materiais de revestimento de janelas.
 
-As informações de opacidade podem ser fornecidas simplesmente usando uma imagem de RGB com um canal alfa. Além disso, a opacidade geral pode variar com o comando `opacity=` (tanto para imagens RGB quanto RGBA).
+As informações de opacidade podem ser fornecidas simplesmente usando uma imagem do RGB com um canal alfa. Além disso, a opacidade geral pode variar com o comando `opacity=` (tanto para imagens RGB quanto RGBA).
 
 Bordas de parede também suportam imagens RGBA, principalmente para suportar bordas cortadas por matriz.
 

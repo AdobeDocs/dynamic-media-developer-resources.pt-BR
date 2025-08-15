@@ -27,13 +27,13 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 ## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
+[https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400)
 
 ## Usar o visualizador de rotação {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 O Visualizador de rotação representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
-O Visualizador de rotação pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores de IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+O Visualizador de rotação pode ser usado no modo pop-up usando a página do HTML pronta para produção fornecida com Visualizadores de IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 
 A configuração e a aparência são semelhantes às dos outros visualizadores. Toda a atribuição de capa pode ser obtida por meio de CSS personalizado.
 
@@ -86,9 +86,9 @@ Páginas da Web diferentes têm necessidades diferentes para o comportamento do 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ele ocupa toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação de um dispositivo móvel seja alterada.
 
-O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento do HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL SpinViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL SpinViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -126,11 +126,11 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua `SpinViewer.js`. `SpinViewer.js` está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua `SpinViewer.js`. `SpinViewer.js` está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, você especificará um caminho completo para um dos servidores Adobe Dynamic Media que possuem os Visualizadores IS instalados.
+   Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media que têm os Visualizadores IS instalados.
 
    O caminho relativo tem a seguinte aparência:
 
@@ -140,7 +140,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
    >[!NOTE]
    >
-   >Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+   >Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
    >
    >
    >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -165,7 +165,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
    Consulte [Personalizando o visualizador de rotação](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
+   Este é um exemplo de definição de um tamanho de visualizador estático na página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
@@ -236,7 +236,7 @@ Você adiciona o Visualizador de rotação a uma página da Web fazendo o seguin
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web resultante é semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web resultante é semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -294,7 +294,7 @@ A página de exemplos a seguir ilustra mais casos de uso reais de incorporação
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação de tamanho flexível com largura e altura definidas**
 

@@ -54,7 +54,7 @@ O resultado da imagem de uma solicitação IS aninhada pode ser armazenado em ca
 
 ## Solicitações de renderização de imagem inseridas {#section-69c5548db930412b9b90d9b2951a6969}
 
-Quando a Renderização de imagem do Dynamic Media está ativada no servidor, as solicitações de renderização podem ser usadas como fontes de camada ao especificá-las no comando src= (ou mask=). Use a seguinte sintaxe:
+Quando a Renderização de imagem do Dynamic Media está ativada no servidor, as solicitações de renderização podem ser usadas como origens de camada ao especificá-las no comando src= (ou mask=). Use a seguinte sintaxe:
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -89,7 +89,7 @@ O token `fxg` diferencia maiúsculas de minúsculas.
 
 >[!NOTE]
 >
->A renderização de gráficos FXG está disponível somente no ambiente hospedado pela Dynamic Media e pode exigir licenciamento adicional. Entre em contato com o suporte técnico da Dynamic Media para obter mais informações.
+>A renderização de gráficos FXG está disponível somente no ambiente hospedado do Dynamic Media e pode exigir licenciamento adicional. Entre em contato com o suporte técnico do Dynamic Media para obter mais informações.
 
 *[!DNL renderRequest]* é a solicitação de renderização FXG normal, excluindo o caminho raiz HTTP ` http:// *[!DNL server]*/agm/render/`.
 
@@ -149,9 +149,9 @@ Com pequenas modificações, podemos pré-dimensionar a imagem da camada 0 e arm
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporando solicitações para Renderização de Imagem Dynamic Media**
+**Incorporando solicitações para a Renderização de Imagem do Dynamic Media**
 
-Usando um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada 2 do modelo usando a Renderização de Imagem Dynamic Media:
+Usando um modelo armazenado em [!DNL myCatalog/myTemplate]; gere a imagem para a camada 2 do modelo usando a Renderização de Imagem do Dynamic Media:
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

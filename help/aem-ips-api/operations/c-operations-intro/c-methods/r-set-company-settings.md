@@ -37,7 +37,7 @@ Sintaxe
 | defaultSourceProfileHandle | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de origem padrão. |
 | defaultDisplayProfileHandle | `xsd:string` | Não | Ativo IccProfile a ser usado como perfil de cor de exibição padrão. |
 | iptcExifMappingXsltHandle | `xsd:string` | Não | Ativo XSL usado para mapear metadados IPTC e EXIF para campos de metadados IPS. |
-| xmpMappingXsltHandle | `xsd:string` | Não | Ativo XSL usado para mapear metadados XMP para campos de metadados IPS. |
+| xmpMappingXsltHandle | `xsd:string` | Não | Ativo XSL usado para mapear metadados do XMP para campos de metadados IPS. |
 | diskSpaceWarningMin | `xsd:int` | Não | Mínimo de espaço livre em disco (em KB) disponível antes do envio de uma mensagem de aviso. |
 | emailTrashCleanupWarning | `xsd:boolean` | Não | Defina como `true` para enviar uma notificação aos administradores da empresa sempre que os ativos forem esvaziados da lixeira. |
 

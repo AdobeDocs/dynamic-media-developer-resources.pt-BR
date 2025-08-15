@@ -69,9 +69,9 @@ Referências ` $ *`var`*$` que ocorrem em qualquer lugar dentro das chaves de um
 
 Os valores de variáveis que devem ser substituídos em solicitações estrangeiras normalmente devem ser codificados duas vezes, já que nenhuma nova codificação é aplicada antes que o servidor tente transmitir o URL externo final.
 
-## Processamento de variáveis em arquivos SVG {#section-a8359f9909764142b6a18ae778dca913}
+## Processamento de variáveis em arquivos do SVG {#section-a8359f9909764142b6a18ae778dca913}
 
-Referências ` $ *`var`*$` podem ocorrer em arquivos SVG em valores de atributo e em `<text>` cadeias de caracteres. O Servidor de imagens os substitui pelas definições ` $ *`var`*=` correspondentes conhecidas no nível de aninhamento de solicitações em que o arquivo SVG é especificado.
+Referências de ` $ *`var`*$` podem ocorrer em arquivos SVG em valores de atributo e em cadeias de caracteres `<text>`. O Servidor de imagens os substitui pelas definições ` $ *`var`*=` correspondentes conhecidas no nível de aninhamento de solicitações em que o arquivo SVG é especificado.
 
 >[!NOTE]
 >

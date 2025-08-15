@@ -1,5 +1,5 @@
 ---
-description: Dados do mapa de imagem. Nenhum ou mais elementos de HTML <AREA> completos, classificados de frente para trás.
+description: Dados do mapa de imagem. Nenhum ou mais elementos completos do HTML <AREA>, classificados de frente para trás.
 solution: Experience Manager
 title: Mapa
 feature: Dynamic Media Classic,SDK/API
@@ -20,7 +20,7 @@ O servidor interpreta e pode alterar os atributos SHAPE e COORDS (SHAPE=CIRCLE n
 
 ## Propriedades {#section-f52d89fd399b4356ac05277e6c12f956}
 
-Valor da string de texto. Se especificado, deve ser um ou mais elementos de HTML `<AREA>` completos.
+Valor da string de texto. Se especificado, deve ser um ou mais elementos `<AREA>` completos do HTML.
 
 Este campo participa da localização da sequência de caracteres de texto. Consulte [Localização de Cadeia de Caracteres de Texto](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) na *Referência de Protocolo HTTP* para obter detalhes.
 

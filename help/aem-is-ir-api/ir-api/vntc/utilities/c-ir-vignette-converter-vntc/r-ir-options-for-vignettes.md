@@ -47,11 +47,11 @@ As opções a seguir controlam o processamento de arquivos de vinheta. Eles ser�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -pirâmide</span> </p></td> 
-  <td class="stentry"> <p>Cria uma vinheta em pirâmide. Obrigatório quando imagens renderizadas devem ser exibidas com visualizadores de zoom do Dynamic Media. Consulte <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Escala de Vinheta</a> para obter informações adicionais. </p></td> 
+  <td class="stentry"> <p>Cria uma vinheta em pirâmide. Obrigatório quando as imagens renderizadas devem ser exibidas com os visualizadores de zoom do Dynamic Media. Consulte <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Escala de Vinheta</a> para obter informações adicionais. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-largura de miniatura <span class="varname"> val</span></span> </p></td> 
-  <td class="stentry"> <p>Restrição de largura e altura de pixels para a imagem em miniatura. Se especificada, uma imagem de JPEG que não é mais larga nem mais alta que <span class="varname"> ival</span> é gerada a partir da imagem de exibição da vinheta, uma imagem de painel do arquivo de estilo do gabinete ou o mapa de iluminação do primeiro estilo no arquivo de estilo de revestimentos de janela. </p></td> 
+  <td class="stentry"> <p>Restrição de largura e altura de pixels para a imagem em miniatura. Se especificada, uma imagem JPEG que não é mais larga e não é mais alta que <span class="varname"> ival</span> é gerada a partir da imagem de exibição da vinheta, de uma imagem de painel do arquivo de estilo do gabinete ou do mapa de iluminação do primeiro estilo no arquivo de estilo de revestimentos de janela. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-largura <span class="varname"> val</span> *[,<span class="varname"> ival</span>]</span> </p></td> 

@@ -64,7 +64,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
-   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
+   <td colname="col2"> <p>um ativo é trocado no visualizador usando a API <span class="codeph"> do </span> setAsset(). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

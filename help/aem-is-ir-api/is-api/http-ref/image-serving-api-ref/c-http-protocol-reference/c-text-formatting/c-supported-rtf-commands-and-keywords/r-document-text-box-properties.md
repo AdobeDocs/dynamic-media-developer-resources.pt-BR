@@ -37,7 +37,7 @@ As seguintes propriedades de documento são suportadas em caixas de texto.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \colortbl </span> </td> 
-   <td> <p>tabela de cores de RGB. </p> </td> 
+   <td> <p>Tabela de cores do RGB. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

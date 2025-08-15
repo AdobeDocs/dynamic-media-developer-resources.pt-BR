@@ -1,6 +1,6 @@
 ---
 title: Instalação de vários visualizadores do Dynamic Media no mesmo servidor
-description: Instruções para instalar a API do Dynamic Media Viewers.
+description: Instruções para instalação da API do Visualizador do Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Instruções para instalar a API de visualizadores do Dynamic Media.
+Instruções para instalação da API de visualizadores do Dynamic Media.
 
 Instale e teste o Servidor de imagens antes de instalar os visualizadores do Servidor de imagens.
 
@@ -24,7 +24,7 @@ Copie os arquivos de Visualizadores IS no disco rígido e implante o arquivo `s7
 
 >[!NOTE]
 >
->Não há instalação de atualização para os visualizadores do Servidor de imagens. A Adobe recomenda que você faça backup de qualquer diretório de visualizadores Dynamic Media (s7views) existente antes de continuar a instalação.
+>Não há instalação de atualização para os visualizadores do Servidor de imagens. A Adobe recomenda fazer backup de qualquer diretório de visualizadores do Dynamic Media (s7views) existente antes de continuar a instalação.
 
 **Para instalar vários visualizadores no mesmo servidor:**
 

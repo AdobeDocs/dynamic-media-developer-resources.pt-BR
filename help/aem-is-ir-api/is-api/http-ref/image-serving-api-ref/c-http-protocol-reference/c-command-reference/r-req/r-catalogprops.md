@@ -80,7 +80,7 @@ Os seguintes valores de propriedade são retornados:
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> string </p> </td> 
-   <td> <p> <span class="codeph"> atributo::LastModified</span> ou, se não estiver presente, a hora da última modificação do arquivo .ini</span> do catálogo <span class="varname"></span><span class="filepath"> </p> </td> 
+   <td> <p> <span class="codeph"> atributo::LastModified</span> ou, se não estiver presente, a hora da última modificação do arquivo .ini<span class="varname"> do catálogo </span><span class="filepath"></span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 

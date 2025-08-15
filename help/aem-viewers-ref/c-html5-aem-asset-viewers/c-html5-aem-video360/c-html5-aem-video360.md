@@ -1,28 +1,28 @@
 ---
 title: Video360
-description: O visualizador HTML5 Video360 é um player de vídeo de 360 graus que reproduz streaming e vídeo progressivo 360 codificado no formato H.264, fornecido pela Dynamic Media Classic ou pela Adobe Experience Manager, Dynamic Media.
+description: O HTML5 Video360 Viewer é um player de vídeo de 360 graus que reproduz streaming e vídeo progressivo 360 codificado no formato H.264, fornecido pela Dynamic Media Classic ou pela Adobe Experience Manager, Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2562'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-O visualizador HTML5 Video360 é um player de vídeo de 360 graus que reproduz streaming e vídeo progressivo 360 codificado no formato H.264, fornecido pela Dynamic Media Classic ou pela Adobe Experience Manager, Dynamic Media.
+O HTML5 Video360 Viewer é um player de vídeo de 360 graus que reproduz streaming e vídeo progressivo 360 codificado no formato H.264, fornecido pela Dynamic Media Classic ou pela Adobe Experience Manager, Dynamic Media.
 
-Vídeos de 360 graus, também conhecidos como vídeos imersivos ou vídeos esféricos, são gravações de vídeo em que uma visualização em todas as direções é gravada ao mesmo tempo, filmada usando uma câmera omnidirecional ou uma coleção de câmeras. Há suporte para vídeo único e Conjuntos de vídeos adaptados. O visualizador também suporta o trabalho com vídeo progressivo e fluxos HLS hospedados em um local externo.
+Vídeos de 360 graus, também conhecidos como vídeos imersivos ou vídeos esféricos, são gravações de vídeo em que uma visualização em todas as direções é gravada ao mesmo tempo, filmada usando uma câmera omnidirecional ou uma coleção de câmeras. Há suporte para vídeo único e Conjuntos de vídeos adaptados. O visualizador também é compatível com o trabalho com fluxos de vídeo progressivo e HLS hospedados em um local externo.
 
-A taxa de proporção recomendada para vídeos 360 é 2:1. Não há suporte para som espacial. O visualizador foi projetado para funcionar somente com vídeo 360; uma tentativa de reproduzir um vídeo não-360 resulta em uma reprodução de vídeo distorcida.
+A taxa de proporção recomendada para vídeo 360 é 2:1. Não há suporte para som espacial. O visualizador foi projetado para funcionar somente com vídeo 360; uma tentativa de reproduzir um vídeo não-360 resulta em uma reprodução de vídeo distorcida.
 
-O visualizador foi projetado para funcionar em navegadores da Web móveis e desktop que suportam vídeo HTML5. O visualizador é compatível com ferramentas opcionais de compartilhamento em redes sociais.
+O visualizador foi projetado para funcionar em navegadores da Web móveis e de desktop compatíveis com vídeo HTML5. O visualizador é compatível com ferramentas opcionais de compartilhamento em redes sociais.
 
-O Video360 Viewer usa a reprodução de vídeo de streaming HTML5 no formato HLS em sua configuração padrão sempre que o sistema subjacente suportar isso. Em sistemas que não suportam transmissão contínua de HTML5, o visualizador retorna à entrega de vídeo progressiva de HTML5.
+O Visualizador de vídeo 360 usa a reprodução de vídeo de transmissão HTML5 no formato HLS em sua configuração padrão sempre que o sistema subjacente suporta isso. Em sistemas que não suportam transmissão contínua do HTML5, o visualizador retorna à entrega de vídeo progressiva do HTML5.
 
 Tipo de visualizador 517.
 
@@ -36,9 +36,9 @@ Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.m
 
 ## Uso do visualizador Video360 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-O Visualizador HTML5 Video360 representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do Visualizador HTML5 usados por esse visualizador, ativos, CSS) baixados pelo visualizador em tempo de execução.
+O Visualizador do HTML5 Video360 representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do HTML5 Viewer SDK usados por esse visualizador, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
-O Visualizador HTML5 Video360 pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+O Visualizador do HTML5 Video360 pode ser usado no modo pop-up usando a página do HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 
 A configuração e a atribuição de capa são semelhantes às dos outros visualizadores descritos neste guia. Toda a atribuição de capa é obtida por meio de folhas de estilos em cascata personalizadas (CSS).
 
@@ -54,7 +54,7 @@ Observe, no entanto, que veicular vídeos codificados com essas configurações 
 
 ## Interação com o visualizador de Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-O Visualizador do HTML5 Video360 fornece um conjunto de controles padrão de interface do usuário para reprodução de vídeo, como o botão reproduzir/pausar, bolhas de tempo de vídeo do depurador de vídeo, indicador de tempo/tempo total reproduzido, controle de volume e botão de tela cheia. Todos esses controles estão agrupados na barra de controle na parte inferior da interface do usuário do visualizador.
+O Visualizador do HTML5 Video360 fornece um conjunto de controles padrão de interface do usuário para reprodução de vídeo, como o botão reproduzir/pausar, a bolha de tempo de vídeo do depurador de vídeo, o indicador de tempo/tempo total reproduzido, o controle de volume e o botão de tela cheia. Todos esses controles estão agrupados na barra de controle na parte inferior da interface do usuário do visualizador.
 
 Em dispositivos de toque, o controle de volume fica oculto na interface do usuário, pois só é possível controlar o volume usando os botões de hardware do dispositivo.
 
@@ -90,9 +90,9 @@ A incorporação de vários vídeos na mesma página é compatível com tablets 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ela ocupa toda a área da janela do navegador e é ajustada caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento do HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML para o modo de operação pop-up. Ele é chamado de [!DNL Video360Viewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML predefinida para o modo de operação pop-up. Ele é chamado de [!DNL Video360Viewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/Video360Viewer.html]
 
@@ -129,7 +129,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL Video360Viewer.js]. O arquivo [!DNL Video360Viewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL Video360Viewer.js]. O arquivo [!DNL Video360Viewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,7 +143,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -170,7 +170,7 @@ O caminho relativo tem a seguinte aparência:
 
    Consulte [Personalizando o visualizador de Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
+   Este é um exemplo de definição de um tamanho de visualizador estático na página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
@@ -250,7 +250,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

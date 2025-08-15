@@ -1,6 +1,6 @@
 ---
-title: Tutorial do visualizador do SDK
-description: O SDK do visualizador fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento de visualizadores personalizados. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada veiculado pelo Adobe Dynamic Media seja incorporado a páginas da Web.
+title: Tutorial do SDK do visualizador
+description: O SDK do visualizador fornece um conjunto de componentes baseados no JavaScript para o desenvolvimento de um visualizador personalizado. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada veiculado pelo Adobe Dynamic Media seja incorporado a páginas da Web.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 ---
 
-# Tutorial do visualizador do SDK{#viewer-sdk-tutorial}
+# Tutorial do SDK do visualizador{#viewer-sdk-tutorial}
 
-O SDK do visualizador fornece um conjunto de componentes baseados em JavaScript para o desenvolvimento de visualizadores personalizados. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada veiculado pelo Adobe Dynamic Media seja incorporado a páginas da Web.
+O SDK do visualizador fornece um conjunto de componentes baseados no JavaScript para o desenvolvimento de um visualizador personalizado. Os visualizadores são aplicativos baseados na Web que permitem que o conteúdo de mídia avançada veiculado pelo Adobe Dynamic Media seja incorporado a páginas da Web.
 
-Por exemplo, o SDK fornece zoom e panorama interativos. Ele também fornece visualização e reprodução de vídeo de 360° dos ativos que foram carregados para o Adobe Dynamic Media por meio do aplicativo de back-end chamado Dynamic Media Classic.
+Por exemplo, o SDK fornece zoom e panorama interativos. Ele também fornece visualização e reprodução de vídeo de 360° dos ativos que foram carregados no Adobe Dynamic Media por meio do aplicativo de back-end chamado Dynamic Media Classic.
 
-Embora os componentes dependam da funcionalidade do HTML5, eles foram projetados para funcionar em dispositivos e desktops Android™ e Apple iOS, incluindo o Internet Explorer e versões posteriores. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas compatíveis.
+Embora os componentes dependam da funcionalidade HTML5, eles foram projetados para funcionar em dispositivos e desktops Android™ e Apple iOS, incluindo o Internet Explorer e versões posteriores. Esse tipo de experiência significa que você pode fornecer um único fluxo de trabalho para todas as plataformas compatíveis.
 
 O SDK consiste em componentes de interface do usuário que compõem o conteúdo do visualizador. É possível estilizar esses componentes por meio de CSS e componentes que não sejam de interface do usuário que tenham algum tipo de função de suporte, como busca e análise de definição de conjunto ou rastreamento. Todos os comportamentos de componentes são personalizáveis por meio de modificadores que podem ser especificados de várias maneiras, por exemplo, como pares de `name=value` na URL.
 
 Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um visualizador de zoom básico:
 
-* [Baixe o SDK do Visualizador mais recente da Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
+* [Baixar a última SDK do Visualizador da Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Carregar o SDK do Visualizador](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
 * [Adicionando estilo ao visualizador](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Incluindo Container e ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
@@ -32,19 +32,19 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
 * [Adicionando botões ao seu visualizador](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuração das amostras verticalmente](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Baixe o SDK do visualizador mais recente da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Baixar a SDK do visualizador mais recente da Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Baixe o SDK do Visualizador mais recente da Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Baixe o Viewer SDK mais recente da Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
-   >Você pode concluir este tutorial sem a necessidade de baixar o pacote do Visualizador SDK, pois o SDK é carregado remotamente. No entanto, o pacote do Visualizador inclui exemplos adicionais e um guia de referência de API que pode ajudar você a criar seus próprios visualizadores.
+   >Você pode concluir este tutorial sem a necessidade de baixar o pacote do Viewer SDK porque o SDK é carregado remotamente. No entanto, o pacote do Visualizador inclui exemplos adicionais e um guia de referência de API que pode ajudar você a criar seus próprios visualizadores.
 
 ## Carregar o SDK do visualizador {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Comece configurando uma nova página para desenvolver o visualizador básico de zoom que você vai criar.
 
-   Considere essa página atualizada como o código do Bootstrap ou carregador usado para configurar um aplicativo SDK vazio. Abra seu editor de texto favorito e cole a seguinte marcação HTML nele:
+   Considere essa página atualizada como o código do Bootstrap - ou carregador - usado para configurar um aplicativo vazio do SDK. Abra seu editor de texto favorito e cole a seguinte marcação HTML nele:
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Este tutorial inclui a seguinte ordem de tarefas para ajudar você a criar um vi
    </html>
    ```
 
-   Adicione o seguinte código JavaScript dentro da tag `script` para que ele inicialize o `ParameterManager`. Isso ajuda você a se preparar para criar e instanciar componentes do SDK dentro da função `initViewer`:
+   Adicione o seguinte código JavaScript dentro da tag `script` para que ele inicialize o `ParameterManager`. Isso o ajuda a preparar a criação e a instanciação de componentes do SDK dentro da função `initViewer`:
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -215,7 +215,7 @@ Agora adicione os componentes `MediaSet` e `Swatches` ao seu visualizador.
 
 1. Para conceder aos usuários a capacidade de selecionar imagens de um conjunto, você pode adicionar os componentes `MediaSet` e `Swatches`.
 
-   Adicione os seguintes inclusões de SDK:
+   Adicione as seguintes inclusões do SDK:
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
@@ -389,4 +389,4 @@ Agora, adicione os botões de ampliar, reduzir e redefinir o zoom ao visualizado
 
    O visualizador básico de zoom está concluído.
 
-   Este tutorial do visualizador aborda os fundamentos do que o SDK do visualizador do Dynamic Media oferece. Ao trabalhar com o SDK, você pode usar os vários componentes padrão para criar e estilizar facilmente experiências de visualização avançadas para os públicos-alvo.
+   Este tutorial do visualizador aborda os fundamentos do que o SDK do visualizador do Dynamic Media oferece. Ao trabalhar com a SDK, é possível usar os vários componentes padrão para criar e estilizar facilmente experiências de visualização avançada para os públicos-alvo.

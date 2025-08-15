@@ -30,7 +30,7 @@ Atributo de camada ou atributo de exibição. Aplica-se à camada atual ou à im
 
 ## Exemplo {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compense o leve desfoque causado pela redefinição da resolução da imagem. Também aumentamos a qualidade do JPEG para evitar artefatos de JPEG adicionais ao longo das bordas nítidas.
+Compense o leve desfoque causado pela redefinição da resolução da imagem. Também aumentamos a qualidade do JPEG para evitar artefatos adicionais do JPEG ao longo das bordas nítidas.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

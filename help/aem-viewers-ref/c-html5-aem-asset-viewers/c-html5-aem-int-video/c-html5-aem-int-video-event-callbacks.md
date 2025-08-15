@@ -25,11 +25,11 @@ Os eventos do visualizador compatíveis incluem o seguinte:
 
    * `objID {String}` não usado atualmente.
    * `compClass {String}` não usado atualmente.
-   * `instName {String}` um nome de instância do componente do Visualizador do SDK que acionou o evento.
+   * `instName {String}` um nome de instância do componente SDK do Visualizador que acionou o evento.
    * Carimbo de data/hora do evento `timeStamp {Number}`.
    * `eventInfo {String}` carga do evento.
 
-* `quickViewActivate` - acionado quando um usuário clica ou toca em uma amostra interativa dentro do componente de amostras interativas ou na tela &quot;chamada para ação&quot; exibida no final da reprodução do vídeo. O manipulador de retorno de chamada utiliza o único argumento que é um objeto JSON com os seguintes campos:
+* `quickViewActivate` - acionado quando um usuário clica ou toca em uma amostra interativa dentro do componente de amostras interativas ou na tela &quot;call to action&quot; exibida no final da reprodução do vídeo. O manipulador de retorno de chamada utiliza o único argumento que é um objeto JSON com os seguintes campos:
 
    * `sku` { `String`} valor de SKU associado à amostra interativa.
    * `<additionalVariable>` { `String`} zero ou mais variáveis adicionais associadas à amostra interativa.

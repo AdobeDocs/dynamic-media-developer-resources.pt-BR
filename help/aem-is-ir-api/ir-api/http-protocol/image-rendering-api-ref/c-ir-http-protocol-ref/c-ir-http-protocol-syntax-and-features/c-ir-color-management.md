@@ -38,7 +38,7 @@ Imagens de materiais podem incorporar perfis ICC para definir o espaço de cores
 
 ## Espaço de cor de trabalho {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
-Normalmente, o espaço de cores de trabalho é definido pelo perfil de cores ICC incorporado na vinheta. Se a vinheta não incluir um perfil, o perfil de entrada de RGB padrão ( `attribute::IccProfileSrcRgb` do catálogo de sessão) será usado para o espaço de cores de trabalho.
+Normalmente, o espaço de cores de trabalho é definido pelo perfil de cores ICC incorporado na vinheta. Se a vinheta não incluir um perfil, o perfil de entrada padrão do RGB ( `attribute::IccProfileSrcRgb` do catálogo de sessão) será usado para o espaço de cores de trabalho.
 
 Todas as operações de processamento são executadas no espaço de cores de trabalho.
 
@@ -46,11 +46,11 @@ Todas as operações de processamento são executadas no espaço de cores de tra
 
 ## Valores de cor explícitos {#section-31727bf1b23e477ca92572fbbf422d2f}
 
-Pressupõe-se que os valores de cor de RGB especificados com `color=`, `bgc=`, `catalog::BgColor` e `catalog::Color` existam no espaço de cor de trabalho atual.
+Pressupõe-se que os valores de cor RGB especificados com `color=`, `bgc=`, `catalog::BgColor` e `catalog::Color` existam no espaço de cor de trabalho atual.
 
 ## Arquivos de dados de material {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-Os arquivos de imagem de material (imagens de textura e de decalque) podem ter o tipo de pixel RGB, tons de cinza ou CMYK e podem incorporar um perfil de cores. Se nenhum perfil de cores estiver incorporado, o espaço de cores de entrada padrão será associado à imagem (por exemplo, o perfil de cores do catálogo de materiais que corresponde ao tipo de pixel da imagem).
+Os arquivos de imagem de material (imagens de textura e decalque) podem ter o tipo de pixel RGB, tons de cinza ou CMYK e podem incorporar um perfil de cores. Se nenhum perfil de cores estiver incorporado, o espaço de cores de entrada padrão será associado à imagem (por exemplo, o perfil de cores do catálogo de materiais que corresponde ao tipo de pixel da imagem).
 
 Imagens de materiais obtidas de solicitações aninhadas de Disponibilização de imagens ou Renderização de imagens normalmente incluem um perfil de cores. Se esse não for o caso, as imagens serão associadas ao espaço de cor de entrada padrão correspondente ao tipo de pixel.
 

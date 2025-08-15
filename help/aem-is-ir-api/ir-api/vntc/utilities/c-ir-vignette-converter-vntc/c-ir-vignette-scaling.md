@@ -24,7 +24,7 @@ Há suporte para quatro tipos gerais de vinhetas de produção.
   Recomendado quando todos os tamanhos de imagem de renderização desejados são conhecidos. Fornece melhor qualidade e renderização mais rápida do que vinhetas de resolução única e pirâmide porque a imagem não precisa ser dimensionada após a renderização.
 * Pirâmide
 
-  Mais adequado para todas as finalidades, recomendado quando vários tamanhos de imagem são necessários e os tamanhos exatos não são predeterminados e quando o visualizador de zoom do Dynamic Media é usado.
+  Melhor todas as finalidades, recomendado quando vários tamanhos de imagem são necessários e os tamanhos exatos não são predeterminados e quando o visualizador de zoom do Dynamic Media é usado.
 * Pirâmide com uma ou mais resoluções adicionais
 
   Fornece alta qualidade para tamanhos específicos, além de flexibilidade e suporte ao visualizador de zoom.

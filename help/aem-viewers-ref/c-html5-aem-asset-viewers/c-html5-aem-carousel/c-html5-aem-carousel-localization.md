@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinados conteúdos exibidos pelo Visualizador do carrossel estão sujeitos a localização. Esse conteúdo inclui botões de navegação de slides.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para uma localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado pelo identificador SDK especial do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para uma localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL compatível para esse local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 

@@ -105,7 +105,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
   <td class="stentry"> <p>Domínios da Web com permissão para acessar imagens de resposta <span class="filepath"> swf</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ClientAddressFilter </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> </p></td> 
+  <td class="stentry"> <p>ClientAddressFilter <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> de </a> </p></td> 
   <td class="stentry"> <p>Filtro de endereço IP do cliente. </p></td> 
  </tr> 
 </table>
@@ -120,7 +120,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
   <td class="stentry"> <p>Configurações de renderização avançadas padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Resolução </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> </p></td> 
+  <td class="stentry"> <p>Resolução <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> de </a> </p></td> 
   <td class="stentry"> <p>Resolução de textura/decalque padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -160,7 +160,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding </a> </p></td> 
-  <td class="stentry"> <p>formato de codificação TIFF. </p></td> 
+  <td class="stentry"> <p>Formato de codificação do TIFF. </p></td> 
  </tr> 
 </table>
 
@@ -171,7 +171,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb </a> </p></td> 
-  <td class="stentry"> Perfil de cor de saída de RGB padrão.</td> 
+  <td class="stentry"> Perfil de cores de saída padrão do RGB.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
@@ -191,7 +191,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcrgb.md#reference-2fb0f7cfc6e74813b82cd98ae165bd49" type="reference" format="dita" scope="local"> IccProfileSrcRgb </a> </p></td> 
-  <td class="stentry"> Perfil de cor de entrada de RGB padrão.</td> 
+  <td class="stentry"> Perfil de cor de entrada padrão do RGB.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent </a> </p> </td> 

@@ -127,13 +127,13 @@ Os aplicativos existentes que precisam ser modificados para usar os novos recurs
 
 **Associações**
 
-O Serviço Web da API de IPS oferece suporte somente a uma vinculação de SOAP.
+O Serviço Web de API de IPS oferece suporte somente a uma vinculação de SOAP.
 
 **Transportes com suporte**
 
-A ligação IPS API SOAP é compatível apenas com transporte HTTP. Faça todas as solicitações de SOAP usando o método POST HTTPS.
+A associação IPS API SOAP é compatível apenas com transporte HTTP. Faça todas as solicitações do SOAP usando o método HTTPS POST.
 
-**Cabeçalho da ação do SOAP**
+**cabeçalho da ação do SOAP**
 
 Para processar uma solicitação, defina o cabeçalho HTTP SOAPAction como o nome da operação solicitada. O atributo nome da operação na seção de vinculação WSDL especifica o nome.
 
@@ -197,7 +197,7 @@ O método preferido para transmitir credenciais de autenticação em solicitaç�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> Parâmetro opcional para substituir o código de status HTTP das respostas a falhas. Por padrão, as respostas de falha retornam o código de status HTTP 500 (Erro interno do servidor). Algumas plataformas clientes, incluindo o Flash Adobe, não conseguem ler o corpo da resposta a menos que um código de status 200 (OK) seja retornado. </p> </td> 
+   <td colname="col2"> <p> Parâmetro opcional para substituir o código de status HTTP das respostas a falhas. Por padrão, as respostas de falha retornam o código de status HTTP 500 (Erro interno do servidor). Algumas plataformas clientes, incluindo o Adobe Flash, não conseguem ler o corpo da resposta a menos que um código de status 200 (OK) seja retornado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,9 +219,9 @@ Este é um exemplo de uso do elemento `authHeader` em um cabeçalho SOAP de soli
 
 **Outros métodos de autenticação de solicitação**
 
-Se, por algum motivo, seu aplicativo cliente não puder passar o cabeçalho SOAP `authHeader`, as solicitações de API também poderão especificar credenciais usando a autenticação básica de HTTP (conforme especificado no RFC 2617).
+Se, por algum motivo, seu aplicativo cliente não puder passar o cabeçalho do SOAP `authHeader`, as solicitações de API também poderão especificar credenciais usando a autenticação básica de HTTP (conforme especificado no RFC 2617).
 
-Para autenticação básica de HTTP, a seção do cabeçalho HTTP de cada solicitação de POST SOAP deve incluir um cabeçalho no formato:
+Para autenticação básica de HTTP, a seção do cabeçalho HTTP de cada solicitação POST do SOAP deve incluir um cabeçalho no formato:
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
@@ -229,7 +229,7 @@ Onde `base64()` aplica a codificação Base64 padrão, `<IPS_user_email>` é o e
 
 Envie o cabeçalho de Autorização preventivamente com a solicitação inicial. Se nenhuma credencial de autenticação estiver incluída na solicitação, `IpsApiService` não responderá com um código de status de `401 (Unauthorized)`. Em vez disso, um código de status de `500 (Internal Server Error)` é retornado com um corpo de falha SOAP informando que a solicitação não pôde ser autenticada.
 
-Antes do IPS 3.8, a autenticação por meio do cabeçalho SOAP era implementada usando os elementos `AuthUser` e `AuthPassword` no namespace `http://www.scene7.com/IpsApi`. Por exemplo:
+Antes do IPS 3.8, a autenticação por meio do cabeçalho do SOAP era implementada usando os elementos `AuthUser` e `AuthPassword` no namespace `http://www.scene7.com/IpsApi`. Por exemplo:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -244,7 +244,7 @@ Este estilo ainda é suportado para compatibilidade com versões anteriores, mas
 
 Após as credenciais do chamador serem autenticadas, a solicitação é verificada para garantir que o chamador esteja autorizado a executar a operação solicitada. A autorização é baseada na função de usuário do chamador e também pode exigir a verificação da empresa de destino, usuário de destino e outros parâmetros de operação. Além disso, os usuários do Portal de imagens devem pertencer a um Grupo com as permissões necessárias para executar determinadas operações de pastas e ativos. A seção de referência Operações detalha os requisitos de autorização para cada operação.
 
-**Exemplo de solicitação e resposta do SOAP**
+**Solicitação e resposta de exemplo do SOAP**
 
 O exemplo a seguir mostra uma operação `addCompany` concluída, incluindo cabeçalhos HTTP:
 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**Falhas de SOAP**
+**Falhas do SOAP**
 
-Quando uma operação encontra uma condição de exceção, uma falha do SOAP é retornada como o corpo da mensagem SOAP no lugar da resposta normal. Por exemplo, se um usuário não administrador tentar enviar a solicitação `addCompany` anterior, a seguinte resposta será retornada:
+Quando uma operação encontra uma condição de exceção, uma falha do SOAP é retornada como o corpo da mensagem do SOAP, em vez da resposta normal. Por exemplo, se um usuário não administrador tentar enviar a solicitação `addCompany` anterior, a seguinte resposta será retornada:
 
 ```
 HTTP/1.1 500 Internal Server Error 

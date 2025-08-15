@@ -1,5 +1,5 @@
 ---
-description: Este documento descreve o protocolo HTTP para renderização de imagem Dynamic Media.
+description: Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
 solution: Experience Manager
 title: Referência de protocolo HTTP
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Referência de protocolo HTTP{#http-protocol-reference}
 
-Este documento descreve o protocolo HTTP para renderização de imagem Dynamic Media.
+Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.

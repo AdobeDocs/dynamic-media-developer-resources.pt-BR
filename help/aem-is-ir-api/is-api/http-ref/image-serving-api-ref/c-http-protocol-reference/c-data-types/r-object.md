@@ -25,7 +25,7 @@ Especificador de objeto do Source. Os objetos de perfil de imagem, SVG e ICC pod
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> objtId </span> </span> </p> </td> 
-  <td class="stentry"> <p>id do registro de imagem, SVG, modelo ou perfil ICC no catálogo de imagens especificado, principal ou padrão </p> </td> 
+  <td class="stentry"> <p>ID da imagem, SVG, modelo ou registro de perfil ICC no catálogo de imagens especificado, principal ou padrão </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> caminho </span> </span> </p> </td> 
@@ -59,7 +59,7 @@ Consulte *Gerenciamento de Conteúdo* no *Guia de Configuração do Servidor* pa
 
 Consulte a descrição do utilitário IC (Conversor de imagens) para obter uma lista completa dos formatos de arquivo suportados.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIF a partir de qualquer formato de imagem suportado.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de várias resoluções PTIF (Dynamic Media pyramid TIFF). O utilitário IC é usado para criar imagens PTIF a partir de qualquer formato de imagem suportado.
 
 ## Exemplos {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

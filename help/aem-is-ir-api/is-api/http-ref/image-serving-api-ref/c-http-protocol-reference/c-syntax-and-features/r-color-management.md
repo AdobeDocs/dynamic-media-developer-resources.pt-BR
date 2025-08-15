@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ O Servidor de imagens suporta conversões de espaço de cores com base em perfis
 
 ## Espaços de cor padrão {#section-8cfe60808bce49968091995e4e521dba}
 
-Cada catálogo de imagens (e o catálogo padrão) pode definir um conjunto de perfis ICC que constituem os espaços de cores padrão para esse catálogo - um perfil de entrada e um perfil de saída para dados em tons de cinza, RGB e CMYK. Consulte
+Cada catálogo de imagens (e o catálogo padrão) pode definir um conjunto de perfis ICC que constituem os espaços de cores padrão para esse catálogo - uma entrada e um perfil de saída para cada um dos dados em tons de cinza, RGB e CMYK. Consulte
 [attribute::IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
 [attribute::IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
 [attribute::IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
@@ -54,7 +54,7 @@ O Servidor de imagens geralmente tenta atrasar as conversões de cores durante o
 
 >[!NOTE]
 >
->Os comandos `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` e `op_saturation=` são operações RGB. Essas operações mantêm a fidelidade de cores somente se o espaço de cores da camada tiver o tipo de pixel RGB. Se diferente de RGB, os dados são convertidos em RGB usando conversão de cores ingênuas e o resultado tem fidelidade de cores limitada. O espaço de cores da camada para essas camadas deve ser considerado indeterminado.
+>Os comandos `op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` e `op_saturation=` são operações do RGB. Essas operações mantêm a fidelidade de cores somente se o espaço de cores da camada tiver o tipo de pixel RGB. Se forem diferentes do RGB, os dados serão convertidos para o RGB usando a conversão de cores ingênua e o resultado terá fidelidade de cores limitada. O espaço de cores da camada para essas camadas deve ser considerado indeterminado.
 
 As opções de conversão de cores são fornecidas com `icc=` ou, se `icc=` não for especificado, com `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` e `attribute::IccDither`.
 
@@ -76,29 +76,29 @@ Somente espaços de cores CMYK, RGB e tons de cinza são suportados no momento.
 
 ## Perfis de cores ICC incluídos {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-O Servidor de imagens inclui a maioria dos perfis Adobe ICC padrão no catálogo de imagens padrão. Esses perfis podem ser acessados por seus nomes comuns (por exemplo, como visto no Photoshop) ou com um identificador um pouco mais curto. A tabela a seguir lista todos os perfis ICC padrão. Ao referenciar um perfil no comando `icc=` por seu nome comum, os espaços devem ser codificados como `%20`.
+O Servidor de imagens inclui a maioria dos perfis padrão do Adobe ICC no catálogo de imagens padrão. Esses perfis podem ser acessados por seus nomes comuns (por exemplo, como visto no Photoshop) ou com um identificador um pouco mais curto. A tabela a seguir lista todos os perfis ICC padrão. Ao referenciar um perfil no comando `icc=` por seu nome comum, os espaços devem ser codificados como `%20`.
 
 Perfis adicionais podem ser adicionados aos perfis padrão, no catálogo padrão ou em um catálogo de imagens específico. Consulte a [Referência do Mapa de Perfil ICC](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) para obter detalhes.
 
 >[!NOTE]
 >
->A tabela a seguir se aplica somente ao *Dynamic Media Hybrid* (executado no modo de execução `dynamicmedia`).
+>A tabela a seguir se aplica somente ao *Dynamic Media Hybrid* (em execução no modo de execução `dynamicmedia`).
 
 | Identificador | Nome comum | Nome do arquivo |
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | RGB Apple | AppleRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
 | `CIERGB` | RGB CIE | CIERGB.icc |
 | `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC (1953) | NTSC1953.icc |
 | `PAL` | PAL/SECAM | PAL_SECAM.icc |
-| `ProPhoto` | RGB ProPhoto | ProPhoto.icm |
+| `ProPhoto` | ProPhoto RGB | ProPhoto.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | Espaço de Cores sRgb Profile.icm |
 | `WideGamutRGB` | RGB de gamut amplo | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | FOGRA27 revestida (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | CoatedFOGRA27.icc |
 | `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `CoatedGraCol` | GRACoL 2006 revestido (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropeISOCoatedFOGRA27.icc |
@@ -114,30 +114,30 @@ Perfis adicionais podem ser adicionados aos perfis padrão, no catálogo padrão
 | `PS5Default` | CMYK padrão do Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 não revestida (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | FOGRA28 revestida com revestimento web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | FOGRA28 revestida com web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Papel revestido para web SWOP 2006 Grade 3 | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | Papel revestido para web SWOP 2006 Grade 5 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncoated.icc |
 
-A tabela a seguir se aplica ao *Dynamic Media Classic Image Serving* e ao *Dynamic Media* (em execução no modo de execução `dynamicmedia_scene7`).
+A tabela a seguir se aplica ao *Servidor de imagens do Dynamic Media Classic* e ao *Dynamic Media* (em execução no modo de execução `dynamicmedia_scene7`).
 
 | Identificador | Nome comum | Nome do arquivo |
 |-- |-- |-- |
 | **RGB** |  |  |
 | `AdobeRGB` | Adobe RGB (1998) | AdobeRGB1998.icc |
-| `AppleRGB` | RGB Apple | AppleRGB.icc |
+| `AppleRGB` | Apple RGB | AppleRGB.icc |
 | `CIERGB|CIE RGB` | CIERGB.icc |
 | `ColorMatchRGB` | ColorMatch RGB | ColorMatchRGB.icc |
 | `NTSC` | NTSC (1953) | NTSC1953.icc |
 | `PAL` | PAL/SECAM | PAL_SECAM.icc |
-| `ProPhoto RGB` | RGB ProPhoto | ProPhoto RGB.icm |
+| `ProPhoto RGB` | ProPhoto RGB | ProPhoto RGB.icm |
 | `SMPTE` | SMPTE-C | SMPTE-C.icc |
 | `sRGB` | sRGB IEC61966-2.1 | Espaço de Cores sRgb Profile.icm |
 | `WideGamutRGB` | RGB de gamut amplo | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | FOGRA27 revestida (ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | CoatedFOGRA27.icc |
 | `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | CoatedFOGRA39.icc |
 | `Coated GRACoL 2006 (ISO 12647-2:2004)` | GRACoL 2006 revestido (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropeISOCoatedFOGRA27.icc |
@@ -152,10 +152,10 @@ A tabela a seguir se aplica ao *Dynamic Media Classic Image Serving* e ao *Dynam
 | `PS5Default` | CMYK padrão do Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
 | `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 não revestida (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `US Newsprint (SNAP 2007)` | Papel de jornal dos EUA (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | FOGRA28 revestida com revestimento web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | FOGRA28 revestida com web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Papel revestido para web SWOP 2006 Grade 3 | WebCoatedSWOP2006Grade3.icc |
 | `Web Coated SWOP Grade 5 Paper` | Papel revestido para web SWOP 2006 Grade 5 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncoated.icc |

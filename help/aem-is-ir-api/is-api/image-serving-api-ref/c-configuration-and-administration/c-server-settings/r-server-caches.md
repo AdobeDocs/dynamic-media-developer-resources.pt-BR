@@ -22,7 +22,7 @@ A(s) pasta(s) raiz para o cache de disco de [!DNL Platform Server]. Um ou mais c
 
 ## PS::cache.maxSize - Tamanho do Cache de Dados de Resposta {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-O tamanho máximo do cache de resposta HTTP em bytes. Essa configuração limita a quantidade de dados reais a serem armazenados em cache; ela não considera a sobrecarga do sistema de arquivos. (Consulte [Cache de Dados de Resposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se várias pastas de dados do cache forem especificadas, os dados do cache serão distribuídos uniformemente em todas as pastas. O valor de `cache.maxSize` em [!DNL PlatformServer.conf] está em bytes.
+O tamanho máximo do cache de resposta HTTP em bytes. Essa configuração limita a quantidade de dados reais a serem armazenados em cache; ela não considera a sobrecarga do sistema de arquivos. (Consulte [Cache de Dados de Resposta](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca).) Se várias pastas de dados de cache forem especificadas, os dados do cache serão distribuídos uniformemente por todas as pastas. O valor de `cache.maxSize` em [!DNL PlatformServer.conf] está em bytes.
 
 ## PS::cache.maxEntries - Máximo de Entradas do Cache de Dados de Resposta {#section-5603e327e90542a5b50aeeb27b080410}
 

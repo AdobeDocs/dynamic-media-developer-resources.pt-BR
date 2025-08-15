@@ -20,7 +20,7 @@ Consulte também [Upload de ativos por meio de POSTs HTTP no Upload...](../../c-
 
 >[!NOTE]
 >
->Todas as solicitações de POST para um trabalho de upload devem se originar do mesmo endereço IP.
+>Todas as solicitações POST para um trabalho de upload devem se originar do mesmo endereço IP.
 
 ## Parâmetros {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -74,7 +74,7 @@ Consulte também [Upload de ativos por meio de POSTs HTTP no Upload...](../../c-
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:InDesignOptions</span> </td> 
    <td colname="col3"> <p>Não </p> </td> 
-   <td colname="col4"> <p>Opções para fazer upload de arquivos InDesign para o Servidor de imagens. </p> </td> 
+   <td colname="col4"> <p>Opções de upload de arquivos InDesign para o Servidor de imagens. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> Opções do Illustrator</span> </span> </td> 

@@ -1,6 +1,6 @@
 ---
 title: xmpEmbed
-description: Incorporar metadados de XMP. Especifica se os metadados de XMP devem ser incluídos na imagem de resposta.
+description: Incorporar metadados do XMP. Especifica se os metadados do XMP devem ser incluídos na imagem de resposta.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # xmpEmbed{#xmpembed}
 
-Incorporar metadados de XMP. Especifica se os metadados de XMP devem ser incluídos na imagem de resposta.
+Incorporar metadados do XMP. Especifica se os metadados do XMP devem ser incluídos na imagem de resposta.
 
 `xmpEmbed=0|1`
 
@@ -24,9 +24,9 @@ Incorporar metadados de XMP. Especifica se os metadados de XMP devem ser incluí
 
 ## Propriedades {#section-27024c4272f44d9a8c264a0629193af2}
 
-Solicitar atributo. Ignorado se a imagem de origem não contiver dados de XMP. Somente dados de XMP da imagem de origem de `layer=0` são processados. Dados de XMP de outras imagens de camada são ignorados.
+Solicitar atributo. Ignorado se a imagem de origem não contiver dados do XMP. Somente dados XMP da imagem de origem de `layer=0` são processados. Os dados do XMP de outras imagens de camada são ignorados.
 
-Ignorado se o formato de imagem de saída não suportar a incorporação do XMP. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação de XMP.
+Ignorado se o formato da imagem de saída não suportar a incorporação do XMP. Consulte a descrição de `fmt=` para obter uma lista de formatos de imagem de saída que oferecem suporte à incorporação do XMP.
 
 ## Padrão {#section-aedbedd04d664ba184b2cfe35644b960}
 

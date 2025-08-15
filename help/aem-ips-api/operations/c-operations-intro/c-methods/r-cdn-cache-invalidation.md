@@ -1,5 +1,5 @@
 ---
-description: Encaminha a lista de URLs fornecida ao provedor Dynamic Media CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
+description: Encaminha a lista de URLs fornecida ao provedor CDN (Content Distribution Network) do Dynamic Media para invalidar o cache existente de respostas HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Encaminha a lista de URLs fornecida ao provedor Dynamic Media CDN (Content Distribution Network) para invalidar o cache existente de respostas HTTP.
+Encaminha a lista de URLs fornecida ao provedor CDN (Content Distribution Network) do Dynamic Media para invalidar o cache existente de respostas HTTP.
 
 ## cdnCacheInvalidation: Sobre {#section-4f70d2bc79d64288b961836ab17e9690}
 
-A invalidação do cache do CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Dynamic Media depois que essa solicitação de invalidação for processada pela rede CDN. Qualquer URL que não esteja conectado à estrutura de URL de serviço do Dynamic Media e que corresponda diretamente à ID raiz da empresa do Dynamic Media atribuída quando a empresa foi criada resultará em uma falha de API para toda a solicitação. Quaisquer URLs inválidos não suportados pelo CDN e considerados inválidos também resultam em uma falha de API para toda a solicitação.
+A invalidação do cache do CDN força todas as solicitações HTTP para esses URLs a serem revalidados em relação aos dados publicados atuais na rede do Dynamic Media depois que essa solicitação de invalidação for processada pela rede CDN. Qualquer URL que não esteja conectado à estrutura de URL do serviço Dynamic Media e que corresponda diretamente à ID raiz da empresa do Dynamic Media atribuída quando a empresa foi criada resulta em uma falha de API para toda a solicitação. Quaisquer URLs inválidos não suportados pelo CDN e considerados inválidos também resultam em uma falha de API para toda a solicitação.
 
 **Frequência de Uso: Regras**
 
-As regras que regem a frequência de uso desse recurso são controladas pelos parceiros CDN da Dynamic Media. A CDN mantém a discrição de degradar a capacidade de resposta dessas invalidações para manter o desempenho ideal de seu serviço para seus usuários. Se a Dynamic Media for notificada de uso excessivo desse recurso, o Adobe deverá recorrer à desativação do recurso por empresa ou inteiramente por todo o serviço.
+As regras que regem a frequência de uso desse recurso são controladas pelos parceiros CDN do Dynamic Media. A CDN mantém a discrição de degradar a capacidade de resposta dessas invalidações para manter o desempenho ideal de seu serviço para seus usuários. Se o Dynamic Media for notificado sobre o uso excessivo desse recurso, a Adobe deverá recorrer à desativação do recurso por empresa ou inteiramente por todo o serviço.
 
 **Emails de Confirmação**
 
-Os emails de confirmação do parceiro de CDN da Dynamic Media podem ser enviados ao criador da lista ou até 5 outros endereços de email. A API envia a confirmação quando toda a rede CDN é notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` poderá enviar vários emails se o número de URLs fornecidas exceder o número que a Dynamic Media pode entregar ao parceiro de CDN em uma única notificação. Atualmente, isso acontece se a solicitação exceder 100 URLs, mas estiver sujeita a alterações com base na solicitação do parceiro de CDN.
+Os emails de confirmação do parceiro de CDN do Dynamic Media podem ser enviados para o criador da lista ou até 5 outros endereços de email. A API envia a confirmação quando toda a rede CDN é notificada de que os URLs referenciados no email foram apagados. Uma única chamada para `cdnCacheInvalidation` poderá enviar vários emails se o número de URLs fornecidas exceder o número que o Dynamic Media pode entregar ao parceiro de CDN em uma única notificação. Atualmente, isso acontece se a solicitação exceder 100 URLs, mas estiver sujeita a alterações com base na solicitação do parceiro de CDN.
 
 **Com Suporte Desde**
 

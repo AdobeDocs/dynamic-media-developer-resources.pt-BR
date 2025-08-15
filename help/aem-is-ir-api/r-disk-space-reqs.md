@@ -55,14 +55,14 @@ Além do espaço necessário para instalar o software, o Servidor de imagens tem
 
 ## Requisitos de espaço em disco para imagens de origem {#section-317da75099ad480d9a461c7e706d4f1c}
 
-O Adobe recomenda que você converta todas as imagens de origem no formato de arquivo de TIFF da pirâmide (PTIFF) usando a ferramenta de linha de comando (IC) do Conversor de imagens. Essa conversão garante o desempenho em tempo de execução ideal do Servidor de imagens para todos os aplicativos. Embora o Servidor de imagens possa processar todos os formatos de arquivo de origem aceitos pelo IC, o Dynamic Media não é compatível com esses usos.
+A Adobe recomenda converter todas as imagens de origem no formato de arquivo TIFF da pirâmide (PTIFF) usando a ferramenta de linha de comando Conversor de imagens (IC). Essa conversão garante o desempenho em tempo de execução ideal do Servidor de imagens para todos os aplicativos. Embora o Servidor de imagens possa processar todos os formatos de arquivo de origem aceitos pelo IC, o Dynamic Media não é compatível com esses usos.
 
 Quando você usa arquivos PTIFF, as seguintes regras básicas podem ajudá-lo a determinar os requisitos de espaço.
 
 *`total_space`* (bytes) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* O tamanho médio em pixels (largura x altura) de todas as imagens de origem. Por exemplo, se as imagens originais são tipicamente em torno de 2k × 2k pixels, isso seria 4 megapixels.
-* *`avg_num_components`* Depende do tipo de imagens. Para a maioria das imagens de RGB, é 3; para a maioria das imagens CMYK ou RGBA, é 4. Use 3,5 se metade das imagens for RGB e a outra metade for RGBA.
+* *`avg_num_components`* Depende do tipo de imagens. Para a maioria das imagens RGB, é 3; para a maioria das imagens CMYK ou RGBA, é 4. Use a versão 3.5 se metade das imagens for RGB e a outra metade for RGBA.
 * *`p_factor`* Depende do tipo de compactação e do conjunto de qualidade quando as imagens são convertidas com IC.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
@@ -83,7 +83,7 @@ Quando você usa arquivos PTIFF, as seguintes regras básicas podem ajudá-lo a 
   </tr> 
   <tr> 
    <td> <p>Compactação JPEG </p> </td> 
-   <td> <p> 1 (típico para qualidade JPEG 95) </p> </td> 
+   <td> <p> 1 (típico para JPEG quality 95) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ Quando você usa arquivos PTIFF, as seguintes regras básicas podem ajudá-lo a 
 
 **Exemplo**
 
-Uma implantação do Servidor de imagens espera usar 30.000 imagens herdadas de baixa resolução, com um tamanho médio de 500 × 500 pixels de RGB. Novos dados de imagem com qualidade de impressão são adicionados a uma taxa de 10.000 por ano. O tamanho típico da imagem CMYK é de 4k × 6k bytes. Todos os dados são compactados em JPEG com alta qualidade. A quantidade total de espaço em disco após três anos de uso é estimada da seguinte maneira:
+Uma implantação do Servidor de imagens espera usar 30.000 imagens herdadas de baixa resolução, com um tamanho médio de 500 × 500 pixels RGB. Novos dados de imagem com qualidade de impressão são adicionados a uma taxa de 10.000 por ano. O tamanho típico da imagem CMYK é de 4k × 6k bytes. Todos os dados são compactados pela JPEG em alta qualidade. A quantidade total de espaço em disco após três anos de uso é estimada da seguinte maneira:
 
 *`total_space`* = 30.000 × (2k + 0,5k × 0,5k × 3 × 0,1) + 3 × 10.000 × (2k + 4k × 6k × 4 × 0,1) = 2,2 G + 268 GB = aproximadamente 270 GB
 

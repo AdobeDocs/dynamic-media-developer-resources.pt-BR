@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> esquerda|centro|direita</span> </p> </td> 
-   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou ancoragem) do contêiner de miniaturas na área de componente. </p> <p>Na frase de chamariz, o contêiner interno da miniatura é dimensionado de modo que somente o número inteiro de miniaturas seja exibido. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner interno de miniaturas é posicionado horizontalmente dentro do componente. </p> </td> 
+   <td colname="col2"> <p> Especifica o alinhamento horizontal interno (ou ancoragem) do contêiner de miniaturas na área de componente. </p> <p>No call-to-action, o contêiner interno da miniatura é dimensionado de forma que somente o número inteiro de miniaturas seja exibido. Como resultado, há um preenchimento entre o contêiner interno e os limites do componente externo. </p> <p>Esse modificador especifica como o contêiner interno de miniaturas é posicionado horizontalmente dentro do componente. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -138,7 +138,7 @@ Não há suporte para conjuntos de mídia aninhados. Um conjunto de mídia aninh
 
 ## Exemplos {#section-588c9d33aa05482c86cd2b1936887228}
 
-Para obter respostas XML de exemplo para a solicitação `req=set`, consulte a página Propriedades sob o cabeçalho Exemplos de HTML.
+Para obter respostas XML de exemplo para a solicitação `req=set`, consulte a página Propriedades no cabeçalho Exemplos de HTML.
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

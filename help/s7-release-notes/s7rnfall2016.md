@@ -1,6 +1,6 @@
 ---
-title: Versão do último trimestre de 2016 da Scene7
-description: "As notas de versão mais recentes da versão do último trimestre de 2016 do Adobe Scene7, parte da solução da Adobe Experience Manager no Adobe Experience Cloud."
+title: Versão do último trimestre de 2016 do Scene7
+description: As notas de versão mais recentes do Adobe Scene7 outono de 2016, parte da solução Adobe Experience Manager na Adobe Experience Cloud.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# Versão do último trimestre de 2016 da Scene7{#scene-fall-release}
+# Versão do último trimestre de 2016 do Scene7{#scene-fall-release}
 
-Adobe Scene7 As notas de versão mais recentes da parte da solução Adobe Experience Manager no Adobe Experience Cloud do último trimestre de 2016.
+As notas de versão mais recentes do Adobe Scene7 do último trimestre de 2016 são parte da solução Adobe Experience Manager na Adobe Experience Cloud.
 
-## Versão do último trimestre de 2016 da Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
+## Versão do último trimestre de 2016 do Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-As notas de versão mais recentes da parte da versão [!DNL Adobe Experience Manager] do último trimestre de 2016 no [!DNL Adobe Experience Cloud].[!DNL Adobe Scene7]
+As notas de versão mais recentes da parte da versão [!DNL Adobe Scene7] do último trimestre de 2016 no [!DNL Adobe Experience Manager].[!DNL Adobe Experience Cloud]
 
 * [Geral](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visualizadores (Servidor de imagens 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visualizadores (Servidor de imagens 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visualizadores (Servidor de imagens 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Visualizador HTML5 SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [HTML5 Viewer SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
 * [Serviço de imagem do Dynamic Media Classic 6.3.2 e Renderização de imagem 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Geral {#section-52afeb72ecb34c1585ea67a5051825a2}
 
 A Adobe está animada em anunciar a disponibilidade da entrega de conteúdo HTTP/2 com o benefício geral de um melhor desempenho.
 
-Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=pt-BR#dynamic).
+Consulte as [Perguntas frequentes sobre entrega de conteúdo HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Sistema de publicação do Scene7 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Para obter a documentação completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=pt-BR](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=pt-BR)
+Para obter a documentação completa, consulte [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Novos recursos, melhorias e correções de erros**
 
 * Recurso de recorte de vídeo removido da interface do usuário do [!DNL Adobe Scene7 Publishing System].
-* Autenticação adicionada a todos os servlets do Scene7, quando necessário e possível
+* Adição de autenticação a todos os servlets do Scene7, quando necessário e possível
 * Correção de erros envolvendo a Exibição de lista na lixeira.
-* Remoção do recurso de usuário **Criar Administrador do Dynamic Media Classic (Scene7)** do Gerenciamento de Usuários por questões de segurança.
+* Remoção do recurso de usuário **Criar Dynamic Media Classic (Scene7) Admin** do Gerenciamento de Usuários devido a preocupações com segurança.
 * O FTP WebAdmin agora é compatível com a autenticação OKTA.
 * Removido o recurso da senha padrão que foi criada para novos usuários do Portal de mídia.
 * Correção de erros envolvendo a senha temporária que foi gerada quando um novo usuário foi adicionado. A senha não atendia aos requisitos de senha necessários.
@@ -52,39 +52,39 @@ Para obter a documentação completa, consulte [https://experienceleague.adobe.c
 * Correção de erros envolvendo a exclusão de um usuário que não permitia recriar o usuário posteriormente.
 * Correção de erros envolvendo o email de boas-vindas enviado aos novos usuários do Scene7 que não incluía autenticação para controlar determinadas configurações.
 * Correção de erros envolvendo a falha ao recuperar uma lista de pastas FTP se qualquer pasta tivesse caracteres especiais em seu nome.
-* Configure provedores de serviços OKTA para ambientes do Scene7.
-* Adição de suporte à ID de organização do Experience Cloud para o Viewer Analytics.
-* Consumidor SAML do Scene7 implementado.
+* Configurar provedores de serviços OKTA para ambientes Scene7.
+* Adição de suporte à ID de organização da Experience Cloud para o Viewer Analytics.
+* Consumidor Scene7 SAML implementado.
 
 ## Visualizadores (Servidor de imagens 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correções de erros do Servidor de imagens 5.5.3**
 
 * Compatibilidade com as bibliotecas RequireJS e DOJO.
 
-  Armazenamento em cache JS consolidado do SDK durante a implantação do visualizador.
+  Armazenamento em cache consolidado do SDK JS durante a implantação do visualizador.
 
 ## Visualizadores (Servidor de imagens 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correções de erros do Servidor de imagens 5.5.2**
 
 * Falha na reprodução do vídeo no Internet Explorer 11 no Windows 7.
-* `initialframe` não estava afetando o modo retrato em dispositivos móveis para o eCatalog HTML5.
+* `initialframe` não estava afetando o modo retrato em dispositivos móveis para o eCatalog do HTML5.
 
 ## Visualizadores (Servidor de imagens 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR).
+Para obter a documentação completa, consulte o [Guia de Referência de Visualizadores](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Novos recursos, melhorias e correções de erros do Servidor de imagens 5.5.1**
 
-* Visualizador de eCatalog do HTML5 com recurso de pesquisa.
+* Visualizador do eCatalog do HTML5 com recurso de pesquisa.
 * Adição da reprodução de vídeo de transmissão HLS como um método de entrega de vídeo padrão para a maioria dos sistemas de desktop. A transmissão de vídeo HDS baseada em Flash ainda está disponível como uma opção alternativa de reprodução.
 * Adição de suporte para dispositivos com entrada de mouse e toque executando o navegador Chrome.
-* Adição do suporte à ID de organização do Experience Cloud na integração do Analytics.
+* Adição do suporte à ID de organização da Experience Cloud na integração do Analytics.
 * Atualize a biblioteca JavaScript do AppMeasurement para a versão 1.6.1.
 * Adição de suporte para orientação da direita para a esquerda no visualizador do eCatalog.
 * Correção de um problema em que `tip=0,-1,0` causava um erro fora do intervalo.
@@ -104,7 +104,7 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 * Galaxy SIII
 
-   * Vazamento de memória observado com visualizadores Zoom e eCatalog HTML5. A navegação repetida pelos quadros pode causar falhas no navegador.
+   * Vazamento de memória observado com visualizadores Zoom e eCatalog do HTML5. A navegação repetida pelos quadros pode causar falhas no navegador.
    * O toque duplo no visualizador pode fazer com que a página inteira aplique zoom, em vez de apenas no visualizador com o dimensionamento do lado do navegador ativado.
 
 * Galaxy S4
@@ -121,16 +121,16 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 * Dispositivos móveis HTC
 
-   * ADOBE de dispositivos móveis HTC mostram que a incapacidade de desativar o pinch-zoom nativo é um &quot;recurso&quot; do invólucro da interface do usuário HTC (HTC Sense). Esse problema pode fazer com que a página inteira use o zoom ao usar o gesto de &quot;apertar para aplicar zoom&quot; no visualizador. Sugestão: em vez disso, toque duas vezes.
+   * Dispositivos móveis HTC As descobertas da Adobe mostram que a incapacidade de desativar o pinch-zoom nativo é um &quot;recurso&quot; do invólucro da interface do usuário HTC (sentido HTC). Esse problema pode fazer com que a página inteira use o zoom ao usar o gesto de &quot;apertar para aplicar zoom&quot; no visualizador. Sugestão: em vez disso, toque duas vezes.
    * Os ícones do mapa de imagem podem se sobrepor se os mapas de imagem forem pequenos e próximos.
 
 * Vídeo HTML5
 
    * Internet Explorer 9: imagens de pôster personalizadas não são exibidas.
-   * O modificador `IntialBitRate` só tem suporte com software HLS e reprodução HDS de Flash. Não funciona quando a reprodução está usando o reprodutor nativo.
+   * O modificador `IntialBitRate` só tem suporte com o software HLS e Flash HDS playback. Não funciona quando a reprodução está usando o reprodutor nativo.
    * A reprodução progressiva OGG e WebM não é compatível no momento.
    * O dimensionamento do navegador pode fazer com que o reprodutor de vídeo seja exibido em um tamanho incorreto (inclui configurações de exibição do painel de controle do SO Windows).
-   * A busca de vídeo usando o streaming HLS no Safari pode ser inconsistente.
+   * A busca de vídeo usando a transmissão do HLS no Safari pode ser inconsistente.
 
 * Internet Explorer
 
@@ -145,9 +145,9 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 * Safari
 
-   * Safari 6.1 ou posterior: as configurações de plug-ins da Internet podem impedir a reprodução de vídeo no Flash.
-   * A &quot;busca&quot; de vídeo usando a transmissão HLS no Safari pode ser inconsistente.
-   * Não é possível buscar o fim do vídeo no Safari 6 usando o streaming HLS.
+   * Safari 6.1 ou posterior: as configurações de plug-ins da Internet podem impedir a reprodução de vídeo Flash.
+   * A &quot;busca&quot; de vídeo usando a transmissão do HLS no Safari pode ser inconsistente.
+   * Não é possível buscar o fim do vídeo no Safari 6 usando a transmissão do HLS.
 
 **Problemas conhecidos e restrições**
 
@@ -164,7 +164,7 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
    * As predefinições de imagem não são compatíveis.
    * A adição ou remoção do visualizador do DOM usando o CSS `display:none` ou desanexando-o dinamicamente do nó pai não tem suporte no momento.
 
-* HTML5 Todos os visualizadores
+* Todos os visualizadores do HTML5
 
    * A incorporação do visualizador na tabela pode resultar no dimensionamento ou posicionamento incorreto do visualizador no modo de tela cheia não nativo. Sugira usar DIVs.
    * Parâmetros com nomes de instância explícitos no código exigem nomes de instância na URL, além de serem substituídos (por exemplo, `zoomView.iconfeffect=0`).
@@ -174,13 +174,13 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 * eCatalog do HTML5
 
-   * Navegar para outra página de HTML e retornar ocasionalmente faz com que o visualizador redefina para a primeira página.
+   * Navegar para outra página do HTML e retornar ocasionalmente faz com que o visualizador redefina para a primeira página.
    * O layout da página ocasionalmente é exibido incorretamente após a rotação do dispositivo iOS. O zoom na página corrige o layout.
    * Links internos somente para a página mais à esquerda em páginas espelhadas múltiplas. Afeta dispositivos móveis no modo retrato.
    * O InitialFrame vincula somente à página mais à esquerda em páginas espelhadas de várias páginas. Afeta dispositivos móveis no modo retrato.
    * Devido às limitações do navegador, o recurso de impressão não está disponível no IE9.
 
-* Mídia mista HTML5
+* HTML5 MixedMedia
 
    * A reprodução da trilha sonora não é suportada.
 
@@ -190,25 +190,25 @@ Para obter a documentação completa, consulte o [Guia de Referência de Visuali
 
 * Vídeo HTML5
 
-   * A imagem do pôster pode encontrar o erro de &quot;tamanho máximo&quot;. A empresa deve aumentar a configuração de limite para o Publish de disponibilização de imagens.
-   * As legendas de vídeo exigem um conjunto de regras de empresa se a hospedagem da página de HTML for fornecida a partir de um servidor externo (não de um servidor Scene7). Entre em contato com o Suporte do Adobe para obter assistência.
+   * A imagem do pôster pode encontrar o erro de &quot;tamanho máximo&quot;. A empresa deve aumentar a configuração de limite para Publicação no Servidor de imagens.
+   * As legendas de vídeo exigem um conjunto de regras de empresa se a hospedagem da página do HTML for fornecida a partir de um servidor externo (não de um servidor Scene7). Entre em contato com o Suporte da Adobe para obter assistência.
    * O rastreamento do Analytics pode relatar porcentagem de reprodução incorreta devido ao buffering
    * A imagem em preto em vez de pôster pode ser exibida em dispositivos iPad ou Android™.
    * O quadro preto pode piscar na tela durante o carregamento do visualizador em dispositivos iPad ou Android™.
    * As bordas pretas são exibidas no lado do componente VideoPlayer quando o plano de fundo é definido como branco/transparente em dispositivos iPad.
    * O último quadro do vídeo pode ser distorcido no iPad usando o iOS 7.
-   * O macrobloqueio ocasional pode ocorrer durante a busca de vídeo no modo de transmissão HLS em navegadores Chrome, Firefox e Internet Explorer.
+   * O macrobloqueio ocasional pode ocorrer durante a busca de vídeo no modo de transmissão do HLS em navegadores Chrome, Firefox e Internet Explorer.
       * A imagem do cartaz pode não ser exibida no navegador Microsoft® Edge pela primeira vez.
       * A imagem de cartaz pode se ocultar após o carregamento do vídeo no Internet Explorer 9 quando a reprodução progressiva é usada.
 
 ## Scene7 HTML5 Viewer SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do cliente. A documentação da API de componentes é encontrada na subpasta docs da instalação do cliente.
+O Guia do usuário fica na pasta Adobe HTML5 Viewer SDK da instalação do cliente. A documentação da API de componentes é encontrada na subpasta docs da instalação do cliente.
 
 **Correções de erros para 3.0.2**
 
 * VideoPlayer - Falha na reprodução do vídeo no Internet Explorer 11 no Windows 7.
-* TableOfContents - `initialframe` não afetou o modo retrato em dispositivos móveis para o visualizador de eCatalog HTML5.
+* TableOfContents - `initialframe` não afetou o modo retrato em dispositivos móveis para o visualizador do eCatalog do HTML5.
 
 **Novos recursos, melhorias e correções de erros para 3.0.1**
 
@@ -218,7 +218,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
    * Adição dos componentes SearchManager, SearchPanel, SearchEffect e SearchButton para oferecer suporte ao novo recurso de Pesquisa nos visualizadores do eCatalog.
    * Adição de suporte para dispositivos com entrada de mouse e toque em execução no navegador Chrome.
    * Refatoração da detecção de versão da Android™ para oferecer suporte a versões futuras do sistema operacional.
-   * Adicione suporte para orientação da direita para a esquerda em componentes SDK específicos do eCatalog.
+   * Adicione suporte para orientação da direita para a esquerda em componentes específicos do eCatalog do SDK.
 
 * ControlBar
 
@@ -281,7 +281,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 
    * o modo de tela cheia não ocupa a tela inteira do dispositivo. Em vez disso, ele apenas redimensiona o aplicativo de acordo com o tamanho da janela do navegador.
    * Cursores personalizados não funcionam em dispositivos de toque.
-   * No momento, o dimensionamento de página em dispositivos de toque não é compatível. A incorporação de visualizadores HTML5 exige a meta tag viewport com configurações apropriadas.
+   * No momento, o dimensionamento de página em dispositivos de toque não é compatível. A incorporação de visualizadores do HTML5 exige a metatag viewport com configurações apropriadas.
 
 * Xoom
 
@@ -302,7 +302,7 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 
 * Container
 
-   * Borda, preenchimento e margens no contêiner não são suportados. Adobe sugere adicionar elementos de estilo ao DIV principal.
+   * Borda, preenchimento e margens no contêiner não são suportados. O Adobe sugere adicionar elementos de estilo ao DIV principal.
    * É necessário definir explicitamente o tamanho do contêiner ou os componentes podem ser dimensionados corretamente.
 
 * Componente de impressão
@@ -341,11 +341,11 @@ O Guia do usuário está na pasta Adobe HTML5 Viewer SDK da instalação do clie
 * VideoPlayer
 
    * O quadro do vídeo não é atualizado se a busca estiver definida como 100%, com o fallback definido como auto.
-   * O bloqueio de macro ocasional pode ocorrer durante a busca de vídeo no modo de transmissão HLS em navegadores Chrome, Firefox e Internet Explorer.
+   * O bloqueio ocasional de macros pode ocorrer durante a busca de vídeo no modo de transmissão do HLS em navegadores Chrome, Firefox e Internet Explorer.
    * A imagem do cartaz pode não ser exibida no navegador Microsoft® Edge pela primeira vez.
    * A imagem de cartaz pode se ocultar após o carregamento do vídeo no Internet Explorer 9 quando a reprodução progressiva é usada.
 
-## Serviço de imagem do Dynamic Media 6.3.2 e Renderização de imagem 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 e Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utilitário IC - o sinalizador `downsample2x2` não é mais suportado. Esse sinalizador era um downsampler 2x2 de baixa qualidade que não é mais usado pelo IPS.
 * Cabeçalho CORS - Atualmente, o cabeçalho CORS está configurado para `/is/content/` solicitações.

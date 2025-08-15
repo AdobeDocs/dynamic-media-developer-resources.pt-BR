@@ -18,7 +18,7 @@ Configurações avançadas de renderização. Configurações avançadas de rend
 
 ## Propriedades {#section-b4c8fe595efc4838ac598659bc820607}
 
-String de texto. Opcional para todos os materiais. Se especificada, ela deve ser uma cadeia de caracteres de configurações de renderização válida, conforme definido com a Ferramenta de Criação de Vinheta (parte do pacote de Criação de imagem do Dynamic Media).
+String de texto. Opcional para todos os materiais. Se especificada, ela deve ser uma cadeia de caracteres de configurações de renderização válida, conforme definido com a Ferramenta de Criação de Vinheta (parte do pacote de Criação de Imagem do Dynamic Media).
 
 ## Padrão {#section-6a4d2013c1d34284b4ff21bb07485d28}
 

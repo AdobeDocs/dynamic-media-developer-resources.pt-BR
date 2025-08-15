@@ -22,7 +22,7 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Servidor de imagens. </p> <p> Especifica um caminho relativo ou absoluto para o Servidor de imagens, de onde o visualizador recupera imagens. Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página de HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especifica um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo de compartilhamento de email esteja habilitado no visualizador. </p> </td> 
+   <td colname="col2"> <p>Caminho raiz relativo ou absoluto do Servidor de imagens. </p> <p> Especifica um caminho relativo ou absoluto para o Servidor de imagens, de onde o visualizador recupera imagens. Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página do visualizador do HTML. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especifica um caminho absoluto no mesmo servidor. </p> <p> Use apenas um caminho absoluto caso o módulo de compartilhamento de email esteja habilitado no visualizador. </p> </td> 
   </tr> 
  </tbody> 
 </table>

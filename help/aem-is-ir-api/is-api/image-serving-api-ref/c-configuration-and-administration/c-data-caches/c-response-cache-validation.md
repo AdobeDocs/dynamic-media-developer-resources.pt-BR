@@ -26,6 +26,6 @@ As entradas de cache se tornam inválidas e estão sujeitas a nova geração qua
 
 >[!NOTE]
 >
->As imagens Dynamic Media pyramid TIFF (PTIFF) mantêm a data do arquivo internamente no cabeçalho do arquivo para fins de validação. O tempo de modificação do arquivo mantido pelo sistema de arquivos é usado para verificar se um arquivo não PTIFF foi alterado.
+>As imagens da TIFF de pirâmide do Dynamic Media (PTIFF) mantêm a data do arquivo internamente no cabeçalho do arquivo para fins de validação. O tempo de modificação do arquivo mantido pelo sistema de arquivos é usado para verificar se um arquivo não PTIFF foi alterado.
 
 Somente arquivos de imagem participam do processo de validação de cache. As alterações nos arquivos de fonte ou nos arquivos de perfil ICC não causam a invalidação automática das entradas de cache.

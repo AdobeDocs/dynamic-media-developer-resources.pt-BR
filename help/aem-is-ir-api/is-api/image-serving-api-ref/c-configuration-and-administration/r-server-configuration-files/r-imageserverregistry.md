@@ -18,7 +18,7 @@ Contém as definições de configuração do Servidor de imagens.
 
 Ao modificar esse arquivo XML, é necessário ter cuidado para manter uma sintaxe XML válida; caso contrário, o Servidor de imagens poderá não ser iniciado.
 
-Para que as alterações entrem em vigor, reinicie o Servidor de imagens após editar esse arquivo. Somente os valores de elemento listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando recomendado pelo suporte técnico da Dynamic Media.
+Para que as alterações entrem em vigor, reinicie o Servidor de imagens após editar esse arquivo. Somente os valores de elemento listados abaixo são suportados para modificação. Edite qualquer outro conteúdo deste arquivo somente quando recomendado pelo suporte técnico do Dynamic Media.
 
 >[!NOTE]
 >

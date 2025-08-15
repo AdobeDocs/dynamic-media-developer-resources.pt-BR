@@ -27,15 +27,15 @@ Visualizador tipo 514.
 
 ## Uso do Visualizador Panorâmico {#section-f21ac23d3f6449ad9765588d69584772}
 
-O Visualizador panorâmico do HTML5 representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador no tempo de execução. O conjunto de arquivos auxiliares é uma única inclusão do JavaScript com todos os componentes do SDK do Visualizador de HTML5 usados por esse visualizador específico, ativos, CSS.
-O Visualizador panorâmico do HTML5 pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
+O Visualizador panorâmico do HTML5 representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador no tempo de execução. O conjunto de arquivos auxiliares é uma única inclusão do JavaScript com todos os componentes do SDK do Visualizador do HTML5 usados por esse visualizador específico, ativos, CSS.
+O Visualizador panorâmico do HTML5 pode ser usado no modo pop-up usando a página do HTML pronta para produção fornecida com Visualizadores IS ou no modo incorporado, onde é integrado à página da Web de destino usando a API documentada.
 A configuração e a aparência são semelhantes às dos outros visualizadores do HTML5. Toda a atribuição de capa pode ser obtida por meio de CSS personalizado.
 
 Consulte [Referência de comando comum a todos os visualizadores - Atributos de configuração](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) e [Referência de comando comum a todos os visualizadores - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interação com o Visualizador Panorâmico do HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interação com o Visualizador panorâmico do HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-O Visualizador panorâmico do HTML5 suporta panorama automático e navegação por arrastar ou movimento giroscópico.
+O Visualizador panorâmico do HTML5 é compatível com panorama automático e navegação por arrastar ou movimento giroscópico.
 
 <table id="table_panoramic"> 
  <thead> 
@@ -60,7 +60,7 @@ O Visualizador panorâmico do HTML5 suporta panorama automático e navegação p
 O visualizador é compatível com entrada por toque e entrada do mouse em dispositivos Windows com tela sensível ao toque e mouse. No entanto, esse suporte é limitado apenas aos navegadores Chrome, Internet Explorer 11 e Edge.
 O Visualizador panorâmico pode renderizar imagens panorâmicas no modo Realidade Virtual (VR) especificando o modificador vrrender. Quando o vrrender está ativado, uma imagem panorâmica é exibida em telas divididas. Um caso de uso comum seria veicular a imagem em um celular montado em um headset de realidade virtual, fornecendo imagens separadas para cada olho. O visualizador responde ao movimento giroscópico da cabeça e navega pela imagem.
 
-## Incorporando o Visualizador Panorâmico do HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporação do Visualizador panorâmico do HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Páginas da Web diferentes têm necessidades diferentes para o comportamento do visualizador. Às vezes, uma página da Web fornece um link. Selecionar esse link abre o visualizador em uma janela separada do navegador. Em outros casos, pode ser necessário incorporar o visualizador na página de hospedagem. No último caso, a página da Web pode ter layout estático ou ser &quot;responsiva&quot; e ser exibida de forma diferente em diferentes dispositivos ou para diferentes tamanhos de janela do navegador. Para acomodar essas necessidades, o visualizador suporta três modos de operação principais: pop-up, incorporação de tamanho fixo e incorporação responsiva.
 
@@ -70,7 +70,7 @@ No modo pop-up, o visualizador é aberto em uma janela ou guia separada do naveg
 
 Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento A HTML configurado corretamente ou qualquer outra maneira adequada.
 
-É recomendável usar uma página de HTML para o modo de operação pop-up. Ele é chamado de [!DNL PanoramicViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML predefinida para o modo de operação pop-up. Ele é chamado de [!DNL PanoramicViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/PanoramicViewer.html]
 
@@ -107,7 +107,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL PanoramicViewer.js]. O arquivo [!DNL PanoramicViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL PanoramicViewer.js]. O arquivo [!DNL PanoramicViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -143,7 +143,7 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode definir o tamanho estático do visualizador declarando-o para a classe CSS de nível superior `.s7panoramicviewer` em unidades absolutas ou usando o modificador `stagesize`.
 
-   O dimensionamento no CSS pode ser colocado diretamente na página do HTML ou no arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AOD ou passado explicitamente usando o comando style. Consulte a seção Personalização do visualizador para obter mais informações sobre como estilizar o visualizador com CSS. Veja abaixo um exemplo de definição do tamanho do visualizador estático na página HTML:
+   O dimensionamento no CSS pode ser colocado diretamente na página do HTML ou no arquivo CSS do visualizador personalizado, que é posteriormente atribuído a um registro predefinido do visualizador no AOD ou passado explicitamente usando o comando style. Consulte a seção Personalização do visualizador para obter mais informações sobre como estilizar o visualizador com CSS. Veja abaixo um exemplo de definição do tamanho do visualizador estático na página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
@@ -213,7 +213,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação responsiva, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador DIV. Para os fins deste exemplo, vamos supor que a página da Web permita que o container do visualizador DIV ocupe 80% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web pode ser semelhante a:
+Com a incorporação responsiva, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do container do visualizador DIV. Para os fins deste exemplo, vamos supor que a página da Web permita que o container do visualizador DIV ocupe 80% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web pode ser semelhante a:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -271,7 +271,7 @@ A página de exemplos a seguir ilustra mais o uso real de incorporação de desi
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação responsiva de design com largura e altura definidas**
 

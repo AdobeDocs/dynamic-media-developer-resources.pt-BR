@@ -1,5 +1,5 @@
 ---
-description: Cor de fundo padrão. Valor de RGB usado para preencher qualquer área de uma imagem de resposta que não contenha dados reais da imagem.
+description: Cor de fundo padrão. O valor de RGB usado para preencher qualquer área de uma imagem de resposta que não contenha dados reais da imagem.
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # BkgColor{#bkgcolor}
 
-Cor de fundo padrão. Valor de RGB usado para preencher qualquer área de uma imagem de resposta que não contenha dados reais da imagem.
+Cor de fundo padrão. O valor de RGB usado para preencher qualquer área de uma imagem de resposta que não contenha dados reais da imagem.
 
 ## Propriedades {#section-2768b2beee214676aa32f17e2a0e3343}
 

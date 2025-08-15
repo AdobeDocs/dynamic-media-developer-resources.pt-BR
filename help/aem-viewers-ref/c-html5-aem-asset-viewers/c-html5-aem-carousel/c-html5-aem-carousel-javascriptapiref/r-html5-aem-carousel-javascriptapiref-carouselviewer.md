@@ -18,7 +18,7 @@ Referência da API do JavaScript para o Visualizador do carrossel.
 
 `CarouselViewer([config])`
 
-, cria uma instância do Visualizador do carrossel HTML 5.
+, cria uma instância do Visualizador do carrossel do HTML 5.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

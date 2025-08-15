@@ -1,5 +1,5 @@
 ---
-description: Propriedades do arquivo de InDesign.
+description: Propriedades do arquivo InDesign.
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-Propriedades do arquivo de InDesign.
+Propriedades do arquivo InDesign.
 
 Sintaxe
 

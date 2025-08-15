@@ -1,5 +1,5 @@
 ---
-description: Registro de cadeia de caracteres de pesquisa extraído de um arquivo PDF.
+description: Pesquisar registro de cadeia de caracteres extraído de um arquivo do PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Registro de cadeia de caracteres de pesquisa extraído de um arquivo PDF.
+Pesquisar registro de cadeia de caracteres extraído de um arquivo do PDF.
 
 Sintaxe
 

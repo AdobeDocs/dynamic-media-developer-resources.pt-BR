@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Caminho do arquivo de métricas de fonte. Caminho e nome de um arquivo de métricas de fonte, incluindo o sufixo do arquivo.
 
-Usado para fontes Adobe Type 1. Se não for especificado, o servidor tentará localizar um arquivo de métricas de fonte na mesma pasta em que o arquivo de fonte principal está localizado. Ocorre um erro se um arquivo de métricas de fonte necessário não for encontrado no momento da renderização.
+Usado para fontes do Adobe Type 1. Se não for especificado, o servidor tentará localizar um arquivo de métricas de fonte na mesma pasta em que o arquivo de fonte principal está localizado. Ocorre um erro se um arquivo de métricas de fonte necessário não for encontrado no momento da renderização.
 
 ## Propriedades {#section-955268c581574875b05253d9e14544f3}
 

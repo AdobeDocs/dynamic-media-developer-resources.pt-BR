@@ -36,7 +36,7 @@ Se não for especificado, o botão de legenda não ficará visível na interface
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID do componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome da classe do componente do visualizador do SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome da classe do componente SDK do visualizador </p> </th> 
   </tr> 
  </thead>
  <tbody> 

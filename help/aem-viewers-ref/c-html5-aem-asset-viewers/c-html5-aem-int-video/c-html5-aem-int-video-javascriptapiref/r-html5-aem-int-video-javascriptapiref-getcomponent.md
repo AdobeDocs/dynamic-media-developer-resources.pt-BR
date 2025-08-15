@@ -18,17 +18,17 @@ Referência da API do JavaScript para o visualizador de vídeo interativo.
 
 `getComponent(componentId)`
 
-Retorna uma referência ao componente de SDK do Visualizador usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador pronto para uso. Chame esse método somente após a execução do retorno de chamada do visualizador `initComplete`, caso contrário, o componente pode não ser criado ainda pela lógica do visualizador.
+Retorna uma referência ao componente SDK do visualizador usado pelo visualizador. A página da Web pode usar esse método para estender ou personalizar o comportamento do visualizador pronto para uso. Chame esse método somente após a execução do retorno de chamada do visualizador `initComplete`, caso contrário, o componente pode não ser criado ainda pela lógica do visualizador.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` uma ID do componente do SDK do Visualizador usado pelo visualizador. Esse visualizador é compatível com as seguintes IDs de componente:
+`*`componentID`*` - `{String}` uma ID do componente SDK do Visualizador usado pelo visualizador. Esse visualizador é compatível com as seguintes IDs de componente:
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>ID do componente </p> </th> 
-   <th colname="col2" class="entry"> <p>Nome da classe do componente do visualizador do SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Nome da classe do componente SDK do visualizador </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -103,13 +103,13 @@ Retorna uma referência ao componente de SDK do Visualizador usado pelo visualiz
  </tbody> 
 </table>
 
-Ao trabalhar com APIs de SDK, é importante usar um namespace de SDK correto e totalmente qualificado, conforme descrito em [Namespace de SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Ao trabalhar com APIs do SDK, é importante usar um namespace do SDK correto e totalmente qualificado, conforme descrito em [Namespace SDK do visualizador](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
 Consulte a documentação da *API do SDK do Visualizador* para obter mais informações sobre um componente específico.
 
 ## Devoluções {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Uma referência ao componente do Visualizador do SDK. O método retornará `null` se `componentId` não for um componente de visualizador com suporte ou se o componente ainda não tiver sido criado pela lógica do visualizador.
+`{Object}` Uma referência ao componente SDK do Visualizador. O método retornará `null` se `componentId` não for um componente de visualizador com suporte ou se o componente ainda não tiver sido criado pela lógica do visualizador.
 
 ## Exemplo {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

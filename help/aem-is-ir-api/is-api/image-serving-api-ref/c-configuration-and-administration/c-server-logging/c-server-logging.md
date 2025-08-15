@@ -22,7 +22,7 @@ Importante: uma quantidade suficiente de espaço em disco deve ser reservada par
 
 O [!DNL Platform Server] e o Servidor de imagens criam os três tipos de arquivos de log descritos abaixo.
 
-Outros componentes do Servidor de imagens e outros pacotes do Dynamic Media, como os Visualizadores do Dynamic Media, também podem criar arquivos de log na mesma pasta. Esses arquivos de registro são para uso interno da Dynamic Media e podem ser solicitados pelo suporte técnico da Dynamic Media para fins de solução de problemas.
+Outros componentes do Servidor de imagens e determinados outros pacotes do Dynamic Media, como os Visualizadores do Dynamic Media, também podem criar arquivos de log na mesma pasta. Esses arquivos de registro são para uso interno do Dynamic Media e podem ser solicitados pelo suporte técnico do Dynamic Media para fins de solução de problemas.
 
 * [Log de acesso](c-access-log.md)
 * [Log de rastreamento](c-trace-log.md)

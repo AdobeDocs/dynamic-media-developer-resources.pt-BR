@@ -23,6 +23,6 @@ Os arquivos de atributo de catálogo reconhecem esses atributos de vídeo.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md#reference-c540fe87640e41f7a689a14a05ef5c72" type="reference" format="dita" scope="local"> HttpFlashStreamingContext</a> </span> </p></td> 
-  <td class="stentry"> <p>Prefixo do URL do Servidor de Streaming do Flash. </p></td> 
+  <td class="stentry"> <p>Prefixo do URL do Flash Streaming Server. </p></td> 
  </tr> 
 </table>

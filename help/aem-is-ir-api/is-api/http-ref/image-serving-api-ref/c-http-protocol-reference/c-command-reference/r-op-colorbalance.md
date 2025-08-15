@@ -1,6 +1,6 @@
 ---
 title: op_colorbalance
-description: Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor de RGB separadamente.
+description: Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor do RGB separadamente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # op_colorbalance{#op-colorbalance}
 
-Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor de RGB separadamente.
+Ajuste o equilíbrio de cores. Ajusta o valor de cada componente de cor do RGB separadamente.
 
 `op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 

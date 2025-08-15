@@ -18,7 +18,7 @@ Contém as definições de configuração do supervisor do servidor.
 
 Ao editar esse arquivo XML, certifique-se de manter uma sintaxe XML válida; caso contrário, o Servidor de imagens poderá não ser iniciado.
 
-Reinicie o Servidor de imagens depois de editar esse arquivo para garantir que as alterações entrem em vigor. Somente os valores de elemento/atributo destacados abaixo são suportados para modificação. Edite todos os outros conteúdos deste arquivo somente quando aconselhado pelo suporte técnico da Dynamic Media.
+Reinicie o Servidor de imagens depois de editar esse arquivo para garantir que as alterações entrem em vigor. Somente os valores de elemento/atributo destacados abaixo são suportados para modificação. Edite todos os outros conteúdos deste arquivo somente quando aconselhado pelo suporte técnico do Dynamic Media.
 
 ```
 <supervisor>

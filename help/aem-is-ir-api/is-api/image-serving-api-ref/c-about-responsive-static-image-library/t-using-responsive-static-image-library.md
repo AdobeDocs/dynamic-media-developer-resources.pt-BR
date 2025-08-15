@@ -18,7 +18,7 @@ Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenci
 
 **Para usar a Biblioteca de imagens responsiva**
 
-1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=pt-BR#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
+1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
 
    Ao definir as Predefinições de imagem usadas com a Biblioteca de imagens responsiva, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=` ou `scl=`. Não especifique campos de tamanho na Predefinição de imagem. Em vez disso, deixe-os como valores em branco.
 1. Adicione o arquivo JavaScript da biblioteca à página da Web.
@@ -30,7 +30,7 @@ Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenci
 
    A biblioteca lê determinados atributos de configuração de uma instância de imagem com a qual está trabalhando. Defina os atributos antes que a função da API `s7responsiveImage` seja chamada para essa imagem.
 
-   Também é recomendável colocar a URL da imagem existente no atributo `data-src`. Em seguida, configure o atributo `src` existente para ter uma imagem de GIF 1x1 codificada como URI de Dados. Ao fazer isso, o reduz o número de solicitações HTTP enviadas pela página da Web no momento do carregamento. Observe, no entanto, que se a SEO (otimização do mecanismo de pesquisa) for necessária, é melhor configurar um atributo `title` na instância da imagem.
+   Também é recomendável colocar a URL da imagem existente no atributo `data-src`. Em seguida, configure o atributo `src` existente para ter uma imagem GIF 1x1 codificada como URI de Dados. Ao fazer isso, o reduz o número de solicitações HTTP enviadas pela página da Web no momento do carregamento. Observe, no entanto, que se a SEO (otimização do mecanismo de pesquisa) for necessária, é melhor configurar um atributo `title` na instância da imagem.
 
    Este é um exemplo de definição do atributo `data-breakpoints` para a imagem e uso de um GIF 1x1 codificado como URI de Dados:
 
@@ -85,7 +85,7 @@ O código a seguir é um exemplo completo de uma página da Web trivial que tem 
 
 **Usando o Corte Inteligente**
 
-Há dois modos de Corte inteligente disponíveis no AEM 6.4 e Dynamic Media Viewers 5.9:
+Há dois modos de Corte inteligente disponíveis no AEM 6.4 e nos Visualizadores do Dynamic Media 5.9:
 
 * **Manual** - os pontos de interrupção definidos pelo usuário e os comandos de Serviço de Imagem correspondentes são definidos em um atributo no elemento de imagem.
 * **Recorte inteligente** - as representações de recorte inteligente computadas são recuperadas automaticamente do servidor de entrega. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.

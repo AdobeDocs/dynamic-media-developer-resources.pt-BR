@@ -1,5 +1,5 @@
 ---
-description: Atributos de codificação de JPEG padrão. Especifica os atributos padrão para imagens de resposta de JPEG.
+description: Atributos de codificação padrão do JPEG. Especifica os atributos padrão para imagens de resposta do JPEG.
 solution: Experience Manager
 title: JpegQuality
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # JpegQuality{#jpegquality}
 
-Atributos de codificação de JPEG padrão. Especifica os atributos padrão para imagens de resposta de JPEG.
+Atributos de codificação padrão do JPEG. Especifica os atributos padrão para imagens de resposta do JPEG.
 
 ## Propriedades {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1-100 e define a qualidade. O segundo valor pode ser 0 para o comportamento normal, ou 1 para desativar a redução de resolução de cromaticidade de RGB, normalmente utilizada por codificadores de JPEG.
+Número inteiro e sinalizador, separados por vírgula. O primeiro valor está no intervalo 1-100 e define a qualidade. O segundo valor pode ser 0 para o comportamento normal ou 1 para desativar a redução de resolução de cromaticidade de RGB normalmente usada por codificadores de JPEG.
 
 ## Padrão {#section-0b25eddd59bc434abfe38eeea9d45df3}
 

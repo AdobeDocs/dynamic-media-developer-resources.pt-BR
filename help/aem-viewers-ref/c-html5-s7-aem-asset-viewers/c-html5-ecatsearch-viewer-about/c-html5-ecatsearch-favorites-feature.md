@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Recurso de pesquisa{#search-feature}
 
-O visualizador suporta a pesquisa de texto no conteúdo do catálogo. Para que o recurso de pesquisa funcione, o recurso &quot;Extrair palavras de pesquisa&quot; do catálogo deve ser ativado quando o arquivo de PDF de origem for carregado no Dynamic Media Classic.
+O visualizador suporta a pesquisa de texto no conteúdo do catálogo. Para que o recurso de pesquisa funcione, o recurso &quot;Extrair palavras de pesquisa&quot; do catálogo deve ser ativado quando o arquivo PDF de origem for carregado para o Dynamic Media Classic.
 
 O recurso Pesquisar é acionado pela ativação de um botão Pesquisar na barra de ferramentas principal. Esta ação exibe um painel de resultados de pesquisa com um campo de entrada de texto. Um usuário pode executar uma pesquisa usando palavras-chave separadas por espaços ou usando frases, as quais estão entre aspas duplas.
 

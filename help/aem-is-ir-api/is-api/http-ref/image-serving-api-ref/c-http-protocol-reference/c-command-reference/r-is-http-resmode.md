@@ -26,11 +26,11 @@ Modo de reamostragem. Escolha o algoritmo de reamostragem e/ou interpolação a 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona a interpolação bi-cúbica. Mais intensiva de CPU do que a interpolação bi-linear, mas produz imagens mais nítidas com menos artefatos de suavização visíveis. </p> </td> 
+   <td colname="col2"> <p>Seleciona a interpolação bi-cúbica. Mais intensa de CPU do que a interpolação bi-linear, mas produz imagens mais nítidas com menos artefatos de suavização visíveis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que bi-cúbicos a um custo de CPU mais alto. <span class="codeph"> sharp </span> foi substituído por <span class="codeph"> sharp2 </span>, que tem uma probabilidade menor de causar artefatos de suavização (Moiré). </p> </td> 
+   <td colname="col2"> <p>Seleciona uma função de janela Lanczos modificada como um algoritmo de interpolação. Pode produzir resultados ligeiramente mais nítidos do que o bi-cúbico a um custo de CPU mais alto. <span class="codeph"> sharp </span> foi substituído por <span class="codeph"> sharp2 </span>, que tem uma probabilidade menor de causar artefatos de suavização (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

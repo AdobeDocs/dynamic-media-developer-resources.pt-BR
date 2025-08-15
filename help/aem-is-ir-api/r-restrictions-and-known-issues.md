@@ -1,5 +1,5 @@
 ---
-description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Dynamic Media Image Serving.
+description: Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Servidor de imagens do Dynamic Media.
 solution: Experience Manager
 title: Restrições e problemas conhecidos
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # Restrições e problemas conhecidos{#restrictions-and-known-issues}
 
-Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Dynamic Media Image Serving.
+Há algumas restrições e problemas conhecidos que devem ser considerados ao usar o Servidor de imagens do Dynamic Media.
 
 ## Errata da documentação {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -65,7 +65,7 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 
   O servidor A definiu `errorRedirect.rootUrl=10.10.10.10`.
 
-  O Servidor B, que tem o endereço IP 10.10.10.10, define o valor da marca `<addressfilter>` no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
+  O Servidor B que tem o endereço IP 10.10.10.10, define o valor da marca `<addressfilter>` no arquivo de conjunto de regras para incluir seu endereço IP (10.10.10.10).
 
 * O texto de ponto e o caminho de texto com posicionamento podem exibir recorte.
 * `text=` aplica somente `\sa` e `\sb` ao bloco de texto inteiro e não por parágrafo.
@@ -88,19 +88,19 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 
   Para Renderização de Imagem de vinhetas não piramidadas, aumente o valor da propriedade para IrMaxNonPyrVignetteSize no arquivo de configuração [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-  Para TIFF não piramidados do Servidor de imagens, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de configuração [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
+  Para TIFFs não piramidados do Servidor de imagens, aumente o valor da propriedade para `MaxNonDsfSize` no arquivo de configuração [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml].
 
-* O Adobe [!DNL Photoshop] CS3 não salva arquivos PSD em camadas como uma imagem composta por padrão.
+* Por padrão, o Adobe [!DNL Photoshop] CS3 não salva arquivos PSD em camadas em uma imagem composta.
 
   *Sintomas*:
 
-  O arquivo de PSD em camadas Adobe [!DNL Photoshop] CS3 é exibido em preto com texto declarando: &quot;Este arquivo [!DNL Photoshop] em camadas não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
+  O arquivo PSD em camadas do Adobe [!DNL Photoshop] CS3 é exibido em preto com texto declarando: &quot;Este arquivo [!DNL Photoshop] em camadas não foi salvo com uma imagem composta.&quot; para a imagem de resposta do Servidor de imagens ou no IPS.
 
   *Solução alternativa*:
 
   Salve o arquivo Adobe [!DNL Photoshop] CS3 com a opção maximizar compatibilidade ativada.
 
-* Atribuir um perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução alternativa*:
+* A atribuição de um perfil ICC a uma imagem de resposta CMYK/JPEG faz com que as cores sejam invertidas em alguns navegadores.*Solução alternativa*:
 
   Alterar formato da imagem de resposta usando `fmt=`
 
@@ -117,18 +117,18 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 * As correções de cores para imagens PNG com perfis de cores incorporados usam opções embutidas em código. A intenção de renderização é colorimétrica relativa e a compensação de Blackpoint está ativada para o texto PhotoFont.
 * Não há suporte para a pesquisa baseada em arquivo quando a conversão de localidade está habilitada no arquivo da empresa [!DNL ini].
 * O Servidor de imagens não grava corretamente caminhos [!DNL Photoshop] não fechados.
-* No momento, o Servidor de imagens não oferece suporte ao processamento de arquivos TIFF exportados com o Adobe Media Encoder 4.0.1 ou anterior. A Adobe Media Encoder está incluída no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
+* No momento, o Servidor de imagens não oferece suporte ao processamento de arquivos TIFF exportados com o Adobe Media Encoder 4.0.1 ou anterior. O Adobe Media Encoder está incluído no Premiere Pro CS4, After Effects CS4 e Creative Suite 4 Production Premium.
 * O uso de `text=` com camadas de autodimensionamento não oferece suporte a cadeias de caracteres RTF que usam mais de uma configuração para justificação de linha.
 
   *Exemplo*
 
   A cadeia de caracteres RTF não pode usar justificativas de linha esquerda e direita para uma camada de texto de autodimensionamento.
 
-* O SVG tem sua própria propriedade para o caminho de pesquisa de fontes referenciadas que não estão incorporadas no arquivo SVG.
+* O SVG tem sua própria propriedade para o caminho de pesquisa de fontes referenciadas que não estão incorporadas ao arquivo SVG.
 
   *Sintomas*
 
-  Imagens de SVG renderizadas que contêm definições de fonte estão usando a fonte incorreta.
+  As imagens renderizadas do SVG que contêm definições de fonte estão usando a fonte incorreta.
 
   *Solução alternativa*
 

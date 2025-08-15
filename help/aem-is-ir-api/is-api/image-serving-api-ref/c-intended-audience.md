@@ -1,5 +1,5 @@
 ---
-description: Programadores experientes e desenvolvedores de sites que desejam aproveitar o Dynamic Media Image Serving para um site ou um aplicativo personalizado.
+description: Programadores experientes e desenvolvedores de sites que desejam aproveitar o Servidor de imagens do Dynamic Media para um site ou um aplicativo personalizado.
 solution: Experience Manager
 title: Público-alvo
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Público-alvo{#intended-audience}
 
-Programadores experientes e desenvolvedores de sites que desejam aproveitar o Dynamic Media Image Serving para um site ou um aplicativo personalizado.
+Programadores experientes e desenvolvedores de sites que desejam aproveitar o Servidor de imagens do Dynamic Media para um site ou um aplicativo personalizado.
 
-Presume-se que o leitor esteja familiarizado com o sistema Dynamic Media Image Serving, padrões e convenções gerais do protocolo HTTP e terminologia básica de geração de imagens.
+Presume-se que o leitor esteja familiarizado com o sistema de disponibilização de imagens do Dynamic Media, padrões e convenções gerais do protocolo HTTP e terminologia básica de geração de imagens.

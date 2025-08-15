@@ -1,5 +1,5 @@
 ---
-description: Define ou atualiza um pacote de metadados XMP para um ativo.
+description: Define ou atualiza um pacote de metadados do XMP para um ativo.
 solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # updateXMPPacket{#updatexmppacket}
 
-Define ou atualiza um pacote de metadados XMP para um ativo.
+Define ou atualiza um pacote de metadados do XMP para um ativo.
 
 Sintaxe
 
@@ -36,7 +36,7 @@ Sintaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Sim | Identificador da empresa. |
 | assetHandle | `xsd:string` | Sim | Identificador de ativo. |
-| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] pacote XMP que você deseja definir ou atualizar. |
+| compressedPacket | `xsd:Base 64 binary` | Sim | [!DNL zlib-compressed] pacote do XMP que você deseja definir ou atualizar. |
 
 **Saída (updateXMPPacketReturn)**
 

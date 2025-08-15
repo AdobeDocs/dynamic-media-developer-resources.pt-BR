@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um ativo de arquivo SWF do visualizador.
+description: Propriedades de um ativo de arquivo do SWF do visualizador.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Propriedades de um ativo de arquivo SWF do visualizador.
+Propriedades de um ativo de arquivo do SWF do visualizador.
 
 Sintaxe
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Usado para gerenciar o cache do cliente e do servidor proxy. O servidor calcula a hora/data de expiração dos dados de resposta HTTP adicionando esse valor à hora/data de transmissão.
 
-Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verifica seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação condicional GET (por exemplo, com o campo If-Modified-Since definido no cabeçalho da solicitação) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. O navegador carrega o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
+Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verifica seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação GET condicional (por exemplo, com o campo If-Modified-Since definido no cabeçalho da solicitação) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. O navegador carrega o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
 
 A expiração é usada para estes tipos de resposta:
 
@@ -30,7 +30,7 @@ Determinados tipos de respostas (por exemplo, respostas de erro) são sempre mar
 
 ## Propriedades {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Número real, -2, -1, ou 0 ou maior. Número de horas até a expiração desde a geração da imagem de resposta. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que desativa efetivamente o cache do cliente. Defina como -1 para marcar como *`never expire`*. Nesse caso, o servidor sempre retorna o status 304 (não modificado) em resposta a solicitações de GET condicionais sem verificar se o arquivo foi realmente alterado. Defina como -2 para usar o padrão fornecido por `attribute::Expiration`.
+Número real, -2, -1, ou 0 ou maior. Número de horas até a expiração desde a geração da imagem de resposta. Defina como 0 para sempre expirar a imagem de resposta imediatamente, o que desativa efetivamente o cache do cliente. Defina como -1 para marcar como *`never expire`*. Nesse caso, o servidor sempre retorna o status 304 (não modificado) em resposta a solicitações condicionais do GET sem verificar se o arquivo foi realmente alterado. Defina como -2 para usar o padrão fornecido por `attribute::Expiration`.
 
 ## Padrão {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

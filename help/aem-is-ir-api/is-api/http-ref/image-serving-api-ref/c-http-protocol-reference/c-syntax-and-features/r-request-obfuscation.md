@@ -20,7 +20,7 @@ O servidor tentará decodificar se `attribute::RequestObfuscation` estiver defin
 
 >[!IMPORTANT]
 >
->Se você habilitar esse recurso, esteja ciente de que há certas limitações para seu uso que incluem o seguinte:<br>- A interface do usuário do Dynamic Media pode não mostrar os detalhes corretos para o campo **[!UICONTROL Last Published]**. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo HLS não funciona quando **[!UICONTROL Request obfuscation]** e **[!UICONTROL Request locking]** estão habilitados.<br>- Atualmente, alguns Visualizadores do Dynamic Media não funcionam quando **[!UICONTROL Request obfuscation]** e **[!UICONTROL Request locking]** estão habilitados.
+>Se você habilitar esse recurso, esteja ciente de que há certas limitações para seu uso que incluem o seguinte:<br>- A interface de usuário do Dynamic Media pode não mostrar os detalhes corretos para o campo **[!UICONTROL Last Published]**. No entanto, esse efeito não afeta a publicação.<br>- Atualmente, o streaming de vídeo do HLS não funciona quando o **[!UICONTROL Request obfuscation]** e o **[!UICONTROL Request locking]** estão habilitados.<br>- Atualmente, alguns Visualizadores do Dynamic Media não funcionam quando o **[!UICONTROL Request obfuscation]** e o **[!UICONTROL Request locking]** estão habilitados.
 
 ## Exemplo {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

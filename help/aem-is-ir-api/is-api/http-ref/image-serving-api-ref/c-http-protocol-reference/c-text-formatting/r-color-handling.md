@@ -1,6 +1,6 @@
 ---
 title: Tratamento de cores
-description: A especificação RTF permite valores de cor de RGB especificados com &bsol;colortbl. Cada componente é fornecido separadamente com os comandos &bsol;red, &bsol;green e &bsol;blue.
+description: A especificação RTF permite valores de cor do RGB especificados com &bsol;colortbl. Cada componente é fornecido separadamente com os comandos &bsol;red, &bsol;green e &bsol;blue.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tratamento de cores{#color-handling}
 
-A especificação RTF permite valores de cor de RGB especificados com `\colortbl`. Cada componente é fornecido separadamente com os comandos `\red`, `\green` e `\blue`.
+A especificação RTF permite valores de cores RGB especificados com `\colortbl`. Cada componente é fornecido separadamente com os comandos `\red`, `\green` e `\blue`.
 
 O comando de extensão RTF proprietário `\cmykcolortbl` permite especificar cores CMYK, com cada componente de cor fornecido com os comandos `\cyan`, `\magenta`, `\yellow` e `\black`.
 
@@ -26,7 +26,7 @@ O comando de extensão RTF `\*\iscolortbl`, com suporte de `textPs=`, fornece um
 
 *[!DNL colors]* um ou mais valores de cor IS, separados por &#39;;&#39;
 
-Mais de um tipo de tabela de cores pode ser especificada na mesma cadeia de caracteres RTF `text=` ou `textPs=`. Cada tabela de cores pode ter um número diferente de entradas. O Servidor de imagens tentará localizar cores nesta ordem: `\iscolortbl` antes de `\cmykcolortbl` (somente se o tipo de pixel da camada de texto for CMYK) antes de `\colortbl`. Somente para `textPs=`, as cores são convertidas com precisão entre CMYK e RGB, se necessário (por exemplo, quando as cores de RGB são especificadas, mas a saída CMYK é necessária). Se nenhuma cor para um determinado valor de índice for encontrada, a cor padrão (preto) será usada.
+Mais de um tipo de tabela de cores pode ser especificada na mesma cadeia de caracteres RTF `text=` ou `textPs=`. Cada tabela de cores pode ter um número diferente de entradas. O Servidor de imagens tentará localizar cores nesta ordem: `\iscolortbl` antes de `\cmykcolortbl` (somente se o tipo de pixel da camada de texto for CMYK) antes de `\colortbl`. Somente para `textPs=`, as cores são convertidas com precisão entre CMYK e RGB, se necessário (por exemplo, quando as cores RGB são especificadas, mas a saída CMYK é necessária). Se nenhuma cor para um determinado valor de índice for encontrada, a cor padrão (preto) será usada.
 
 Consulte [cor](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) para obter uma descrição da sintaxe dos valores de cor IS.
 

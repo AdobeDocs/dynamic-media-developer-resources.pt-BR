@@ -1,5 +1,5 @@
 ---
-description: Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pela Dynamic Media.
+description: Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pelo Dynamic Media.
 solution: Experience Manager
 title: Uso restrito
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uso restrito{#restricted-use}
 
-Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pela Dynamic Media.
+Essas operações novas ou modificadas e os tipos de dados disponíveis no WSDL beta não devem ser usados fora dos aplicativos desenvolvidos pelo Dynamic Media.
 
 Essas operações e tipos estão sujeitos a desativação, alteração ou desativação com atualizações de sistema subsequentes.
 

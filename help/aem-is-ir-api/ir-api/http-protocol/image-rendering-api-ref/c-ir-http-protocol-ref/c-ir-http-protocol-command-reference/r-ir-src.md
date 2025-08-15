@@ -33,7 +33,7 @@ Arquivo de material. Especifica dados de material, na forma de uma única refer�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> ForeignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -93,7 +93,7 @@ Se *`catId`* não for especificado, o catálogo da sessão será usado.
 
 A Renderização de imagem é compatível com os mesmos formatos de imagem de origem que o Dynamic Media Image Serving.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIFF (Scene7 pyramid TIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de várias resoluções Scene7 pyramid TIFF (PTIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
 
 Consulte a descrição do utilitário IC na documentação do Servidor de imagens para obter uma lista completa dos formatos de arquivo suportados.
 

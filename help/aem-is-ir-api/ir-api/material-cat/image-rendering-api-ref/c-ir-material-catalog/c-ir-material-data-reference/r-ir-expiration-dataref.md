@@ -18,7 +18,7 @@ Tempo de vida do cache do cliente. Número de horas até a expiração. Usado pa
 
 O servidor calcula a data/hora de expiração dos dados de resposta NTTP adicionando esse valor à data/hora de transmissão.
 
-Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verifica seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação condicional GET (por exemplo, com o cabeçalho de solicitação HTTP If-Modified-Since ) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. Em seguida, o navegador simplesmente carrega o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
+Os navegadores gerenciam caches usando tempos de expiração de arquivos. Antes de passar uma solicitação para o servidor, o navegador verifica seu cache para ver se o arquivo já foi baixado. Em caso positivo, e se o arquivo ainda não tiver expirado, o navegador enviará uma solicitação GET condicional (por exemplo, com o cabeçalho de solicitação HTTP If-Modified-Since ) em vez de uma solicitação GET normal. O servidor tem a opção de responder com um status &quot;304&quot; e não transmitir a imagem. Em seguida, o navegador simplesmente carrega o arquivo do cache. Isso pode aumentar substancialmente o desempenho geral dos dados acessados com frequência.
 
 O servidor define o cabeçalho de resposta HTTP expires para a data/hora atual mais o menor dos valores vignette::Expiration e all catalog::Expiration para a vinheta e todos os materiais envolvidos na operação de renderização.
 

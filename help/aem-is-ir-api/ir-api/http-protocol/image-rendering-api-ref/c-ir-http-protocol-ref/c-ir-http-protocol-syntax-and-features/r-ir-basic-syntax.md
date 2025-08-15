@@ -46,7 +46,7 @@ Esta seção descreve a sintaxe básica do protocolo HTTP de renderização de i
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> comando </span> </p> </td> 
-   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 
@@ -79,7 +79,7 @@ O contexto raiz &#39; `/ir/render`&#39; é necessário para todas as solicitaç�
 
 **Comentários**
 
-Os comentários podem ser incorporados nas sequências de solicitação em qualquer lugar e são identificados por um ponto final (.) logo após o separador de comandos (&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação do que não são para uso do Servidor de imagens, como carimbos de data e hora e IDs de banco de dados.
+Os comentários podem ser incorporados nas sequências de solicitação em qualquer lugar e são identificados por um ponto (.) imediatamente após o separador de comando (&amp;). O comentário é encerrado pela próxima ocorrência de um separador de comando (não codificado). Esse recurso pode ser usado para adicionar informações à solicitação do que não são para uso do Servidor de imagens, como carimbos de data e hora e IDs de banco de dados.
 
 **Decodificação HTTP**
 

@@ -22,7 +22,7 @@ Parâmetro comum a todos os visualizadores.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o caminho base para arquivos CSS personalizados, qualquer conteúdo de legendas ocultas ou conteúdo de navegação. </p> <p>Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página de HTML do visualizador. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especifica um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando você não especifica um comando style. </p> </td> 
+   <td colname="col2"> <p>Especifica o caminho base para arquivos CSS personalizados, qualquer conteúdo de legendas ocultas ou conteúdo de navegação. </p> <p>Se o caminho não tiver um <span class="filepath"> /</span> à esquerda, ele será relativo ao local da página do visualizador do HTML. Se o caminho tiver um <span class="filepath"> /</span> à esquerda, ele especifica um caminho absoluto no mesmo servidor. </p> <p> Não afeta o carregamento do arquivo CSS padrão quando você não especifica um comando style. </p> </td> 
   </tr> 
  </tbody> 
 </table>

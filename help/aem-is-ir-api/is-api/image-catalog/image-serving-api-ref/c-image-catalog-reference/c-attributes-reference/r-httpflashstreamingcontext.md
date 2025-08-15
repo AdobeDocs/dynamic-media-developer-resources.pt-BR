@@ -1,6 +1,6 @@
 ---
 title: HttpFlashStreamingContext
-description: Prefixo do URL do Servidor de Streaming do Flash. Prefixo do URL do Servidor de Streaming do Flash usado ao gerar respostas f4m de taxa de vários bits com req=mbrSet.
+description: Prefixo do URL do Flash Streaming Server. Prefixo do URL do servidor de streaming Flash usado ao gerar respostas f4m de taxa de vários bits com req=mbrSet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Prefixo do URL do Servidor de Streaming do Flash. Prefixo do URL do Servidor de Streaming do Flash usado ao gerar respostas f4m de taxa de vários bits com req=mbrSet.
+Prefixo do URL do Flash Streaming Server. Prefixo do URL do servidor de streaming Flash usado ao gerar respostas f4m de taxa de vários bits com req=mbrSet.
 
 ## Propriedades {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

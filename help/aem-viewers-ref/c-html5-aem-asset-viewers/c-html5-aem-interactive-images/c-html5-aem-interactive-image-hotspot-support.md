@@ -22,8 +22,8 @@ Os pontos de acesso podem ativar um recurso de Visualização rápida na página
 
 ## Pontos de acesso do Quickview {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Esses tipos de hotspots devem ser criados usando o tipo de ação &quot;Quickview&quot; no Dynamic Media, do Adobe Experience Manager Assets - On-demand. Quando um usuário ativa esse ponto de acesso, o visualizador executa o retorno de chamada do JavaScript `quickViewActivate` e passa os dados do ponto de acesso para ele. Espera-se que a página da Web de incorporação acompanhe esse retorno de chamada. Ao acionar a página, ele abre sua própria implementação do Quickview.
+Esses tipos de hotspots devem ser criados usando o tipo de ação &quot;Quickview&quot; na Mídia dinâmica, do Adobe Experience Manager Assets - Sob demanda. Quando um usuário ativa esse ponto de acesso, o visualizador executa o retorno de chamada do JavaScript `quickViewActivate` e passa os dados do ponto de acesso para ele. Espera-se que a página da Web de incorporação acompanhe esse retorno de chamada. Ao acionar a página, ele abre sua própria implementação do Quickview.
 
 ## Redirecionar para página da Web externa {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Pontos de acesso criados para o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media do Experience Manager Assets - o On-demand redireciona o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL é aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeada.
+Pontos de acesso criados para o tipo de ação &quot;Visualização rápida&quot; no Dynamic Media do Experience Manager Assets - On-demand redireciona o usuário para um URL externo. Dependendo das configurações feitas durante a criação, o URL é aberto em uma nova guia do navegador, na mesma janela ou na janela do navegador nomeada.

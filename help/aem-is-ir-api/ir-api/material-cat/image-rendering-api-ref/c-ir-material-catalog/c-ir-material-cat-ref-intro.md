@@ -1,5 +1,5 @@
 ---
-description: Este documento descreve o catálogo de materiais para a Renderização de imagem do Dynamic Media.
+description: Este documento descreve o catálogo de materiais para renderização de imagem do Dynamic Media.
 solution: Experience Manager
 title: Introdução
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Introdução{#introduction}
 
-Este documento descreve o catálogo de materiais para a Renderização de imagem do Dynamic Media.
+Este documento descreve o catálogo de materiais para renderização de imagem do Dynamic Media.
 
 **Público-alvo**
 

@@ -1,6 +1,6 @@
 ---
-title: Requisitos de sistema para visualizadores Dynamic Media HTML5
-description: Requisitos de sistema para visualizadores Dynamic Media HTML5.
+title: Requisitos de sistema para visualizadores do Dynamic Media HTML5
+description: Requisitos de sistema para visualizadores do Dynamic Media HTML5.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Requisitos do sistema de visualizadores Dynamic Media HTML5{#system-requirements}
+# Requisitos do sistema de visualizadores do Dynamic Media HTML5{#system-requirements}
 
-Requisitos de sistema para visualizadores Dynamic Media HTML5.
+Requisitos de sistema para visualizadores do Dynamic Media HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -25,8 +25,8 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media Image Serving 6.7.1 ou posterior.
-* Visualizadores HTML5 exigem bibliotecas do lado do servidor SDK JavaScript 3.11.5 ou posterior.
+* Serviço de imagem do Adobe Dynamic Media 6.7.1 ou posterior.
+* Os visualizadores do HTML5 exigem bibliotecas do lado do servidor do SDK JavaScript 3.11.5 ou posterior.
 * *Envie um email para um amigo*. Os recursos sociais exigem o s7ondemand 5.0.9 ou posterior.
 * Visualizador de eCatalog - O suporte ao [pop-up do painel de informações](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) requer o servidor de informações 2.1.8 ou posterior.
 * Os componentes do recurso de pesquisa exigem o s7search 2.3.0 ou posterior.
@@ -78,7 +78,7 @@ Requisitos de sistema para visualizadores Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-A partir de 30 de setembro de 2022, o Adobe Dynamic Media Viewers encerrou o suporte para o seguinte:
+A partir de 30 de setembro de 2022, os Visualizadores do Adobe Dynamic Media encerraram o suporte para o seguinte:
 
 * TLS (Transport Layer Security) 1.0 e 1.1
 * As seguintes cifras fracas no TLS 1.2:
@@ -97,11 +97,11 @@ A partir de 30 de setembro de 2022, o Adobe Dynamic Media Viewers encerrou o sup
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Combinações de navegador da Web e sistema operacional não compatíveis com visualizadores do Dynamic Media {#browser-os-support}
+## Combinações de navegador da Web e sistema operacional não compatíveis com os Visualizadores do Dynamic Media {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Os visualizadores Adobe Dynamic Media não suportam as seguintes combinações de navegador da Web e sistema operacional:
+Os Visualizadores do Adobe Dynamic Media não são compatíveis com as seguintes combinações de navegador da Web e sistema operacional:
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1

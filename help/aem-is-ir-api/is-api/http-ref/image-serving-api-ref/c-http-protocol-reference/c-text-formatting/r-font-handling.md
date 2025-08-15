@@ -20,7 +20,7 @@ A melhor qualidade para o texto em itálico e negrito é alcançada pelo registr
 
 A face de fonte especificada com `attribute::DefaultFont` é usada quando nenhuma é especificada explicitamente na cadeia de caracteres RTF.
 
-O Servidor de imagens é compatível com fontes TrueType, OpenType®, Adobe Type 1 (somente Windows).
+O Servidor de imagens suporta fontes TrueType, OpenType®, Adobe Type 1 (somente Windows).
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

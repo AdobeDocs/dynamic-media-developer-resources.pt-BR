@@ -39,7 +39,7 @@ Implementou o parâmetro `trashState` para `searchAssets`.
 
 Implementou a operação `getAssetPublishHistory`.
 
-Adição do cabeçalho SOAP `faultHttpStatusCode` opcional para habilitar o tratamento de falhas no Flex. Para Flex, use `<faultHttpStatusCode>200</faultHttpStatusCode>`. O código de status padrão para respostas de falha é `500 (Internal Server Error)`.
+Adição do cabeçalho `faultHttpStatusCode` SOAP opcional para habilitar o tratamento de falhas no Flex. Para Flex, use `<faultHttpStatusCode>200</faultHttpStatusCode>`. O código de status padrão para respostas de falha é `500 (Internal Server Error)`.
 
 Adição de operações para restaurar ativos da lixeira e esvaziar ativos da lixeira.
 
@@ -79,7 +79,7 @@ Adicionada a operação `createTemplate`. Chamada para criar ativos de Modelo ou
 
 Configurações da empresa de IPS, `CompanySettings`, transferidas para a API de serviços da Web.
 
-Adicionado o sinalizador de filtro `excludeByproducts` à operação `searchAssets`. Configurar este sinalizador como verdadeiro executa `PSDlayer` imagens e PDF imagens extraídas.
+Adicionado o sinalizador de filtro `excludeByproducts` à operação `searchAssets`. Configurar este sinalizador como true executa `PSDlayer` imagens e imagens extraídas do PDF.
 
 Adicionada a operação `getGenerationInfo`.
 
@@ -115,7 +115,7 @@ As capas do visualizador dão suporte a dois parâmetros: `skinFg` e `skinBg`. O
 
 Implementou a operação `getAssociatedAssets`.
 
-Adição do tipo de trabalho `ReprocessAssets` para permitir o reprocessamento de arquivos de origem primários carregados anteriormente, incluindo a nova cópia de PDF e a reotimização de imagens.
+Adição do tipo de trabalho `ReprocessAssets` para permitir o reprocessamento de arquivos de origem primários carregados anteriormente, incluindo a cópia de PDFs e a reotimização de imagens.
 
 Tipo de campo `PropertySetType` renomeado para `propertyType`. Essa renomeação afeta o parâmetro `createPropertySetType` e a resposta `getPropertySetType/getPropertySetTypes`.
 
@@ -160,7 +160,7 @@ Implementou a operação `getSearchStrings`. Ele retorna uma matriz de sequênci
 
 Adição de parâmetros de localidade para trabalhos e um mecanismo para definir a localidade para operações de API. A cadeia de caracteres local deve ser formatada como `<language_code>[-<country_code>]`. O código de idioma é um código de duas letras em minúsculas, conforme especificado pela ISO-639, e o código opcional de país é um código de duas letras em maiúsculas, conforme especificado pela ISO-3166.
 
-Adição do parâmetro de localidade opcional ao cabeçalho SOAP `authHeader` para definir a localidade para operações de API. Se este parâmetro não estiver presente, o cabeçalho HTTP `Accept-Language` será usado. Se esse cabeçalho também não estiver presente, o local padrão do servidor IPS será usado.
+Adição do parâmetro de localidade opcional ao cabeçalho do SOAP `authHeader` para definir a localidade das operações da API. Se este parâmetro não estiver presente, o cabeçalho HTTP `Accept-Language` será usado. Se esse cabeçalho também não estiver presente, o local padrão do servidor IPS será usado.
 
 Adição de suporte get/set para campos de metadados fortemente tipados.
 

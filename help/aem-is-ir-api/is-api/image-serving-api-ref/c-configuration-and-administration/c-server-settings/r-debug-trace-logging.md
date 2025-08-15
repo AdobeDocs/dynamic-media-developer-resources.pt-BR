@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Use estas configurações do servidor para depurar o log de rastreamento.
 
 >[!NOTE]
 >
->O Adobe recomenda que você configure todos os arquivos de log para serem gravados na mesma pasta que `TC::directory`. Isso garante que todos os arquivos de log do Servidor de imagens participem da rotação automática de arquivos de log configurada com `TC::maxDays`, o que evita uma possível instabilidade do servidor devido a condições de espaço insuficiente em disco.
+>A Adobe recomenda configurar todos os arquivos de log para serem gravados na mesma pasta que `TC::directory`. Isso garante que todos os arquivos de log do Servidor de imagens participem da rotação automática de arquivos de log configurada com `TC::maxDays`, o que evita uma possível instabilidade do servidor devido a condições de espaço insuficiente em disco.
 
 ## SV::log - Caminho do Arquivo de Log de Rastreamento do Supervisor de Servidor {#section-3697bc480ff646e79cacc2812c55ef26}
 
@@ -34,7 +34,7 @@ O nível de log pode ser 1, 2, 3 ou 4. O padrão é 2.
 
 ## IS::Log - Caminho do Arquivo de Log de Depuração do Servidor de Imagens {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Pasta e nome do arquivo base para arquivos de log de rastreamento do Servidor de imagens. O caminho pode ser absoluto ou relativo a *[!DNL install_folder]*. O ImageServer anexa um hífen e a data atual ( *[!DNL -yyyy-mm-dd]*) ao nome do arquivo (antes do sufixo do arquivo, se houver). A Adobe recomenda enviar os arquivos de log do Servidor de Imagens para a mesma pasta que os arquivos de log [!DNL Platform Server] ( `PS::LogFolder`) para usar o gerenciamento de arquivos de log implementado pelo [!DNL Platform Server] (consulte `PS::LogDays`).
+Pasta e nome do arquivo base para arquivos de log de rastreamento do Servidor de imagens. O caminho pode ser absoluto ou relativo a *[!DNL install_folder]*. O ImageServer anexa um hífen e a data atual ( *[!DNL -yyyy-mm-dd]*) ao nome do arquivo (antes do sufixo do arquivo, se houver). A Adobe recomenda enviar os arquivos de log do Servidor de Imagens para a mesma pasta que os arquivos de log do [!DNL Platform Server] ( `PS::LogFolder`) para usar o gerenciamento de arquivos de log implementado pelo [!DNL Platform Server] (consulte `PS::LogDays`).
 
 >[!NOTE]
 >

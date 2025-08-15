@@ -1,5 +1,5 @@
 ---
-description: Converter texto em contornos em um arquivo PDF.
+description: Converter texto de um arquivo PDF em contornos.
 solution: Experience Manager
 title: convertTextToOutlines
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # convertTextToOutlines{#converttexttooutlines}
 
-Converter texto em contornos em um arquivo PDF.
+Converter texto de um arquivo PDF em contornos.
 
 <table id="simpletable_FDE0D8786BC747AF87A336452500E695"> 
  <tr class="strow"> 
@@ -25,4 +25,4 @@ Converter texto em contornos em um arquivo PDF.
 
 Use o comando de URL `convertTextToOutlines=1` para alterar todo o texto de um arquivo PDF para caminhos com contorno.
 
-Quando qualquer efeito é aplicado ao texto em um arquivo de PDF, como a conversão de texto em contornos, a imagem renderizada final é reduzida ou &quot;nivelada&quot; em tamanho.
+Quando qualquer efeito é aplicado ao texto em um arquivo PDF, como a conversão de texto em contornos, a imagem renderizada final é reduzida ou &quot;nivelada&quot; em tamanho.

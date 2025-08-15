@@ -26,7 +26,7 @@ Um usuário final pode navegar entre os elementos da interface do usuário do vi
 
 Dependendo das configurações do sistema operacional e do navegador da Web, o elemento da interface do usuário com foco de entrada recebe uma indicação de foco visual. Por exemplo, o indicador visual pode ser uma borda fina renderizada ao redor do elemento da interface do usuário.
 
-É possível desativar ou personalizar esse destaque de foco no CSS do visualizador. No índice deste sistema de Ajuda, sob um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalizando o *nome do visualizador*** >**&#x200B; Focalizar destaque &#x200B;**.
+É possível desativar ou personalizar esse destaque de foco no CSS do visualizador. No índice deste sistema de Ajuda, sob um nome de visualizador específico (por exemplo, Zoom básico ou Vídeo interativo), clique em **Personalizando o *nome do visualizador*** >** Focalizar destaque **.
 
 Os pressionamentos de tecla suportados por elementos da interface do usuário do visualizador individual são, na maioria dos casos, óbvios e fáceis de descobrir.
 

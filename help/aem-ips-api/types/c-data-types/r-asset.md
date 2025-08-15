@@ -37,7 +37,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Detalhes sobre um arquivo de GIF animado. </td> 
+   <td colname="col3"> Detalhes sobre um arquivo animado do GIF. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
@@ -177,7 +177,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> Propriedades de um ativo de configurações PDF. </td> 
+   <td colname="col3"> Propriedades de um ativo de configurações do PDF. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
@@ -232,7 +232,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:SvgInfo</span> </td> 
-   <td colname="col3"> Propriedades de um ativo SVG. </td> 
+   <td colname="col3"> Propriedades de um ativo do SVG. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 

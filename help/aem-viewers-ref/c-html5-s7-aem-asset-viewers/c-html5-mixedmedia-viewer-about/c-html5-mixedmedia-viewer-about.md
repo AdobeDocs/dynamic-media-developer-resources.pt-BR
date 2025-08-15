@@ -19,7 +19,7 @@ O Visualizador de mídia mista é um visualizador de mídia. Ele é compatível 
 
 Uma miniatura na parte inferior do visualizador representa cada elemento de conjunto de mídia, juntamente com seu indicador de tipo de ativo. Quando um elemento do conjunto de amostras é selecionado, uma linha secundária de amostras é exibida para permitir a seleção da variação de cor no conjunto de amostras. Imagens e elementos de conjunto de amostras oferecem suporte ao zoom no modo contínuo ou em linha; os conjuntos de rotação oferecem suporte ao zoom e à rotação. Os vídeos e os Conjuntos de vídeos adaptados são compatíveis com todos os controles básicos de reprodução, desde que as legendas ocultas opcionais sejam exibidas sobre o conteúdo do vídeo. Um usuário pode alternar para o modo de tela cheia a qualquer momento clicando no botão de tela cheia. O visualizador tem o botão Fechar opcional. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
-O Visualizador de mídia mista usa a reprodução de vídeo de transmissão HTML5 no formato HLS na configuração padrão, sempre que o sistema subjacente oferece suporte a isso. Em sistemas que não suportam transmissão contínua de HTML5, o visualizador retorna à entrega de vídeo progressiva de HTML5.
+O Visualizador de mídia mista usa a reprodução de vídeo de transmissão HTML5 no formato HLS em sua configuração padrão sempre que o sistema subjacente oferece suporte a isso. Em sistemas que não suportam transmissão contínua do HTML5, o visualizador retorna à entrega de vídeo progressiva do HTML5.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 ## Uso do visualizador de mix de mídia {#section-f21ac23d3f6449ad9765588d69584772}
 
-O Visualizador de mídia mista representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do SDK do Visualizador usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
+O Visualizador de mídia mista representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares (um único JavaScript inclui todos os componentes do Visualizador SDK usados por esse visualizador específico, ativos, CSS) baixados pelo visualizador em tempo de execução.
 
-Você pode usar o Visualizador de mídia mista no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores IS. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
+Você pode usar o Visualizador de mídia mista no modo pop-up usando a página do HTML pronta para produção fornecida com os Visualizadores IS. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
 
 A tarefa de configurar e definir a aparência do visualizador é semelhante a outros visualizadores. Toda a atribuição de capa é obtida por meio de CSS personalizado.
 
@@ -96,9 +96,9 @@ Páginas da Web diferentes têm necessidades diferentes para o comportamento do 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ele ocupa toda a área da janela do navegador e se ajusta caso o navegador seja redimensionado ou a orientação de um dispositivo móvel seja alterada.
 
-O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+O modo pop-up é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento do HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL MixedMediaViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página HTML pronta para uso para o modo de operação pop-up. Nesse caso, ele é chamado de [!DNL MixedMediaViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 
@@ -135,7 +135,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL MixedMediaViewer.js]. O arquivo [!DNL MixedMediaViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL MixedMediaViewer.js]. O arquivo [!DNL MixedMediaViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
@@ -149,7 +149,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -172,11 +172,11 @@ O caminho relativo tem a seguinte aparência:
 
    Este visualizador exibe miniaturas ao trabalhar com conjuntos de vários itens. Nos sistemas desktop, as miniaturas são colocadas abaixo da exibição principal. Ao mesmo tempo, o visualizador permite a troca do ativo principal durante o tempo de execução usando a API `setAsset()`. Como desenvolvedor, você tem controle sobre como o visualizador gerencia a área de miniaturas na parte inferior quando o novo ativo tem apenas um item. É possível manter o tamanho do visualizador externo intacto e permitir que a exibição principal aumente sua altura e ocupe a área de miniaturas. Ou você pode manter o tamanho da exibição principal estático e recolher a área externa do visualizador, permitindo que o conteúdo da página da Web se mova para cima. Em seguida, use o espaço livre deixado pelas miniaturas.
 
-   Para manter intactos os limites do visualizador externo, defina o tamanho para a classe CSS de nível superior `.s7mixedmediaviewer` em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado e, posteriormente, atribuído a um registro predefinido do visualizador no Dynamic Media Classic, ou passado explicitamente usando o comando style.
+   Para manter intactos os limites do visualizador externo, defina o tamanho para a classe CSS de nível superior `.s7mixedmediaviewer` em unidades absolutas. O dimensionamento no CSS pode ser colocado diretamente na página do HTML ou em um arquivo CSS do visualizador personalizado e, posteriormente, atribuído a um registro predefinido do visualizador no Dynamic Media Classic ou passado explicitamente usando o comando style.
 
    Consulte [Personalizando o visualizador de mídia mista](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Veja a seguir um exemplo de definição do tamanho estático do visualizador externo em uma página de HTML:
+   Este é um exemplo de definição do tamanho estático do visualizador externo em uma página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer { 
@@ -187,11 +187,11 @@ O caminho relativo tem a seguinte aparência:
 
    Você pode ver o comportamento com uma área fixa do visualizador externo na página de exemplo a seguir. Observe que, ao alternar entre conjuntos, o tamanho do visualizador externo não é alterado:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
    Para tornar as dimensões de exibição principais estáticas, defina o tamanho do visualizador em unidades absolutas para o componente SDK `Container` interno usando o seletor CSS `.s7mixedmediaviewer .s7container` ou o modificador `stagesize`.
 
-   Este é um exemplo de definição do tamanho do visualizador para o componente SDK `Container` interno para que a área de exibição principal não altere seu tamanho ao alternar o ativo:
+   Este é um exemplo de definição do tamanho do visualizador para o componente interno do SDK `Container` para que a área de exibição principal não altere seu tamanho ao alternar o ativo:
 
    ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -202,7 +202,7 @@ O caminho relativo tem a seguinte aparência:
 
    A página de exemplo a seguir mostra o comportamento do visualizador com um tamanho de exibição principal fixo. Observe que quando você alternar entre conjuntos, a exibição principal permanecerá estática e o conteúdo da página da Web se moverá verticalmente:
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    Você pode definir o modificador `stagesize` no registro de predefinição do visualizador no Dynamic Media Classic, ou passá-lo explicitamente com o código de inicialização do visualizador com a coleção `params`. Ou, como uma chamada de API, conforme descrito na seção Referência de comandos desta Ajuda, como no exemplo a seguir:
 
@@ -270,7 +270,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 ## Incorporação responsiva com altura irrestrita {#section-056cb574713c4d07be6d07cf3c598839}
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -329,7 +329,7 @@ A página de exemplos a seguir ilustra mais usos reais da incorporação respons
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Incorporação de tamanho flexível com largura e altura definidas {#section-0a329016f9414d199039776645c693de}
 

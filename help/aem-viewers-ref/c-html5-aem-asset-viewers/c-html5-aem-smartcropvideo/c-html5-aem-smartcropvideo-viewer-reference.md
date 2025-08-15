@@ -1,6 +1,6 @@
 ---
 title: Visualizador de corte inteligente de vídeo
-description: O Visualizador de vídeo de recorte inteligente reproduz streaming e vídeo progressivo codificado no formato H.264, além de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com o Dynamic Media.
+description: O Visualizador de vídeo de recorte inteligente reproduz streaming e vídeo progressivo codificado no formato H.264, além de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou Adobe Experience Manager com Dynamic Media.
 keywords: responsivo
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Corte inteligente de vídeo{#smart-crop-video}
 
-O Visualizador de vídeo de recorte inteligente reproduz streaming e vídeo progressivo codificado no formato H.264, além de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou pelo Experience Manager com Dynamic Media.
+O Visualizador de vídeo de recorte inteligente reproduz streaming e vídeo progressivo codificado no formato H.264, além de suporte para recorte inteligente. Ele é fornecido pela Dynamic Media Classic ou Experience Manager com Dynamic Media.
 
 Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Há suporte para vídeo único e Conjuntos de vídeos adaptados. Além disso, o visualizador suporta o trabalho com vídeo progressivo e fluxos HLS hospedados em locais externos. Ele foi projetado para funcionar em navegadores para desktop e para dispositivos móveis que suportam vídeo HTML5. Esse visualizador também oferece suporte a legendas ocultas opcionais que são exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento de redes sociais.
+Há suporte para vídeo único e Conjuntos de vídeos adaptados. Além disso, o visualizador suporta o trabalho com fluxos de vídeo progressivo e HLS hospedados em locais externos. Ele foi projetado para funcionar em navegadores da Web móveis e de desktop compatíveis com vídeo HTML5. Esse visualizador também oferece suporte a legendas ocultas opcionais que são exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento de redes sociais.
 
-O Visualizador de vídeo de recorte inteligente usa a reprodução de vídeo de streaming HTML5 no formato HLS na configuração padrão, sempre que o sistema subjacente a suportar. Em sistemas que não suportam transmissão contínua de HTML5, o visualizador retorna à entrega de vídeo progressiva de HTML5.
+O Visualizador de vídeo de recorte inteligente usa a reprodução de vídeo de streaming do HTML5 no formato HLS em sua configuração padrão, sempre que o sistema subjacente permitir. Em sistemas que não suportam transmissão contínua do HTML5, o visualizador retorna à entrega de vídeo progressiva do HTML5.
 
 Visualizador tipo 518.
 
@@ -31,9 +31,9 @@ Visualizador tipo 518.
 
 ## Uso do visualizador de vídeo de recorte inteligente {#section-f21ac23d3f6449ad9765588d69584772}
 
-O Visualizador de vídeo de recorte inteligente representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares - um único JavaScript inclui todos os componentes do SDK do visualizador usados por esse visualizador específico, ativos e CSS baixados pelo visualizador em tempo de execução.
+O Visualizador de vídeo de recorte inteligente representa um arquivo principal do JavaScript e um conjunto de arquivos auxiliares - um único JavaScript inclui todos os componentes do Viewer SDK usados por esse visualizador específico, ativos e CSS baixados pelo visualizador em tempo de execução.
 
-Você pode usar o Visualizador de vídeo de recorte inteligente no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores IS. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
+Você pode usar o Visualizador de vídeo de recorte inteligente no modo pop-up usando a página do HTML pronta para produção fornecida com os Visualizadores IS. Ou você pode usar o visualizador no modo incorporado, onde ele é integrado em uma página da Web de destino usando a API documentada.
 
 A tarefa de configurar e definir a aparência do visualizador é semelhante a outros visualizadores. Toda a atribuição de capa é obtida por meio de CSS personalizado.
 
@@ -82,9 +82,9 @@ A incorporação de vários vídeos na mesma página é compatível com tablets 
 
 No modo pop-up, o visualizador é aberto em uma janela ou guia separada do navegador da Web. Ela ocupa toda a área da janela do navegador e é ajustada caso o navegador seja redimensionado ou a orientação do dispositivo seja alterada.
 
-Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento de HTML `A` configurado corretamente ou qualquer outro método adequado.
+Esse modo é o mais comum para dispositivos móveis. A página da Web carrega o visualizador usando a chamada do JavaScript `window.open()`, o elemento do HTML `A` configurado corretamente ou qualquer outro método adequado.
 
-É recomendável usar uma página de HTML para o modo de operação pop-up. Ele é chamado de [!DNL SmartCropVideoViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
+É recomendável usar uma página de HTML predefinida para o modo de operação pop-up. Ele é chamado de [!DNL SmartCropVideoViewer.html] e está localizado na subpasta [!DNL html5/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/SmartCropVideoViewer.html]
 
@@ -121,7 +121,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL SmartCropVideoViewer.js]. O arquivo [!DNL SmartCropVideoViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL SmartCropVideoViewer.js]. O arquivo [!DNL SmartCropVideoViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/html5/js/SmartCropVideoViewer.js]
 
@@ -135,7 +135,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -162,7 +162,7 @@ O caminho relativo tem a seguinte aparência:
 
    Consulte [Personalizando o visualizador de vídeo de recorte inteligente](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) para obter mais informações sobre como estilizar o visualizador usando CSS.
 
-   Este é um exemplo de definição de um tamanho de visualizador estático em uma página de HTML:
+   Este é um exemplo de definição de um tamanho de visualizador estático em uma página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7videoviewer { 
@@ -234,7 +234,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para fins deste exemplo, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -293,7 +293,7 @@ A página de exemplos a seguir ilustra mais o uso real de incorporação de desi
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação responsiva de design com largura e altura definidas**
 

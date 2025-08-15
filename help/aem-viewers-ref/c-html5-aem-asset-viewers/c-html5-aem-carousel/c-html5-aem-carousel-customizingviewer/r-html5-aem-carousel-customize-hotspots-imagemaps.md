@@ -1,6 +1,6 @@
 ---
 title: Pontos de acesso e mapas de imagem
-description: O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+description: O visualizador exibe ícones de ponto de acesso sobre a exibição principal em locais onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Pontos de acesso e mapas de imagem{#hotspots-and-image-maps}
 
-O visualizador exibe ícones de pontos de acesso sobre a exibição principal em lugares onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
+O visualizador exibe ícones de ponto de acesso sobre a exibição principal em locais onde os pontos de acesso foram originalmente criados no Dynamic Media do AEM Assets - sob demanda.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

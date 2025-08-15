@@ -33,7 +33,7 @@ Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignora
 
 ## Padrão {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, para nenhuma alteração na saturação. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
+`op_saturation=0`, para nenhuma alteração na saturação. As imagens ou camadas CMYK são convertidas em RGB antes da operação ser aplicada.
 
 ## Exemplo {#section-033b272f1b7e4efeb94e841fd8095357}
 

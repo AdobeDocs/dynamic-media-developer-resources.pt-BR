@@ -189,7 +189,7 @@ Após a instalação, a hierarquia de pastas em install_root inclui os arquivos 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Supervisor-*.log </span> de <span class="filepath"> </p> </td> 
+   <td colname="col3"> <p> Supervisor-*.log <span class="filepath"> de </span> </p> </td> 
    <td colname="col4"> <p>Logs de erro/depuração do supervisor. </p> </td> 
   </tr> 
   <tr> 

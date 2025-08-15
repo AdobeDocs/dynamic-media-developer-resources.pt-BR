@@ -72,7 +72,7 @@ Vários comandos do Servidor de imagens ou nomes de Predefinições de imagens s
 
 ## modo de dados {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Os dois modos de Corte inteligente a seguir estão disponíveis no AEM 6.4 e superior e no Dynamic Media Viewers 5.9 e superior:
+Os dois modos de Corte inteligente a seguir estão disponíveis no AEM 6.4 e superior e nos Visualizadores do Dynamic Media 5.9 e superiores:
 
 * **Manual** - os pontos de interrupção definidos pelo usuário e os comandos de Serviço de Imagem correspondentes são definidos em um atributo no elemento de imagem.
 * **Recorte inteligente** - as representações de recorte inteligente computadas são recuperadas automaticamente do servidor de entrega. A melhor representação é selecionada usando o tamanho do tempo de execução do elemento de imagem.

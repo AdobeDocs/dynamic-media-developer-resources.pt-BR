@@ -25,7 +25,7 @@ Formato de imagem de resposta.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Especifica o formato de codificação de imagem para dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP. </p> <p> <span class="codeph"> jpeg </span>: JPEG com perdas </p> <p> <span class="codeph"> png </span>: PNG sem perda </p> <p> <span class="codeph"> png-alpha </span>: PNG sem perda com canal alpha </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF com canal alpha </p> <p> <span class="codeph"> swf </span>: JPEG com perdas incorporado em um arquivo swf de Adobe </p> <p> <span class="codeph"> pdf </span>: imagem incorporada no PDF </p> <p> <span class="codeph"> gif </span>: GIF com 2 a 256 cores </p> <p> <span class="codeph"> gif-alpha </span>: GIF com 2 a 255 cores mais transparência de cor de chave </p> <p> <span class="codeph"> fxg </span>: FXG com variáveis e manipulação de DOM aplicada </p> <p> <span class="codeph"> fxgraw </span>: FXG original armazenado no servidor </p> </td> 
+  <td class="stentry"> <p> Especifica o formato de codificação de imagem para dados de imagem enviados ao cliente e o tipo MIME de resposta correspondente para o cabeçalho de resposta HTTP. </p> <p> <span class="codeph"> jpeg </span>: JPEG com perdas </p> <p> <span class="codeph"> png </span>: PNG sem perda </p> <p> <span class="codeph"> png-alpha </span>: PNG sem perda com canal alpha </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: TIFF com canal alpha </p> <p> <span class="codeph"> swf </span>: JPEG com perdas incorporado em um arquivo swf do Adobe </p> <p> <span class="codeph"> pdf </span>: imagem incorporada no PDF </p> <p> <span class="codeph"> gif </span>: GIF com 2 a 256 cores </p> <p> <span class="codeph"> gif-alpha </span>: GIF com 2 a 255 cores mais transparência de cor de chave </p> <p> <span class="codeph"> fxg </span>: FXG com variáveis e manipulação de DOM aplicada </p> <p> <span class="codeph"> fxgraw </span>: FXG original armazenado no servidor </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -33,13 +33,13 @@ Formato de imagem de resposta.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> Pode ser usado para afetar o espaço de cores de saída. </p> <p> <span class="codeph"> rgb </span>: retornar dados da imagem RGB </p> <p> <span class="codeph"> cinza </span>: retornar dados de imagem em tons de cinza </p> <p> <span class="codeph"> cmyk </span>: retornar dados de imagem CMYK </p> </td> 
+  <td class="stentry"> <p> Pode ser usado para afetar o espaço de cores de saída. </p> <p> <span class="codeph"> rgb </span>: retornar dados de imagem do RGB </p> <p> <span class="codeph"> cinza </span>: retornar dados de imagem em tons de cinza </p> <p> <span class="codeph"> cmyk </span>: retornar dados de imagem CMYK </p> </td> 
  </tr> 
 </table>
 
 `tiffCompression` é permitido somente se tif, tif-alpha é especificado como o formato. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
 
-`qlt=` pode ser usado para definir as opções de codificação de JPEG para estes formatos: JPEG, TIFF com compactação JPEG. quantize= pode ser usado se fmt=gif ou fmt=gif-alpha. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
+O `qlt=` pode ser usado para definir as opções de codificação do JPEG para estes formatos: JPEG, TIFF com compactação JPEG. quantize= pode ser usado se fmt=gif ou fmt=gif-alpha. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
 
 O componente de 8 bits por pixel é retornado para todos os formatos e `pixelTypes[7]`.
 

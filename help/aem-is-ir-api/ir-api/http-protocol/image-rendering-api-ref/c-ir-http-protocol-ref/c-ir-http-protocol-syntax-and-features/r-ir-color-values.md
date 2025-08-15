@@ -1,6 +1,6 @@
 ---
 title: Valores de cor
-description: Os valores de cor para os atributos color= e bgc= podem ser especificados usando uma lista de valores de componente decimais separados por vírgula ou uma notação hexadecimal, semelhante a HTML.
+description: Os valores de cor para os atributos color= e bgc= podem ser especificados usando uma lista de valores de componente decimais separados por vírgula ou uma notação hexadecimal, semelhante ao HTML.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Valores de cor{#color-values}
 
-Os valores de cor para os atributos `color=` e `bgc=` podem ser especificados usando uma lista de valores de componente decimais separados por vírgula ou uma notação hexadecimal, semelhante a HTML.
+Os valores de cor para os atributos `color=` e `bgc=` podem ser especificados usando uma lista de valores de componente decimais separados por vírgula ou uma notação hexadecimal, semelhante ao HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ Os valores de cor para os atributos `color=` e `bgc=` podem ser especificados us
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hexa6</i> </p></td> 
-  <td class="stentry"> <p>Valor de cor de RGB hexadecimal de seis dígitos compactado (RRGGBB). </p></td> 
+  <td class="stentry"> <p>Valor de cor RGB hexadecimal de seis dígitos compactado (RRGGBB). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 

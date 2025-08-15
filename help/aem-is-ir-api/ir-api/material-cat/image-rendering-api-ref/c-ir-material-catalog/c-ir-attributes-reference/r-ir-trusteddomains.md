@@ -1,6 +1,6 @@
 ---
 title: DomíniosConfiáveis
-description: domínios da Web de aplicativos do Flash. os aplicativos de Flash Adobe podem exigir acesso às propriedades das imagens fornecidas no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo nos quais ele confia.
+description: Domínios da Web de aplicativos Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades das imagens entregues no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo nos quais ele confia.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # DomíniosConfiáveis{#trusteddomains}
 
-domínios da Web de aplicativos do Flash. os aplicativos de Flash Adobe podem exigir acesso às propriedades das imagens fornecidas no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo nos quais ele confia.
+Domínios da Web de aplicativos Flash. Os aplicativos Adobe Flash podem exigir acesso às propriedades das imagens entregues no formato swf. O swf deve conceder acesso explicitamente registrando o nome dos domínios de aplicativo nos quais ele confia.
 
 ## Propriedades {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

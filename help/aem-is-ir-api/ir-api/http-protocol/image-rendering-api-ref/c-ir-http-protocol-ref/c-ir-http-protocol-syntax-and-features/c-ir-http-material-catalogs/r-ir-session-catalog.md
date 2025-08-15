@@ -70,7 +70,7 @@ O catálogo de sessões fornece os seguintes valores padrão de sessão:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::TiffEncoding</span> </p> </td> 
-   <td> <p> Tipo de compactação para saída de imagem TIFF </p> </td> 
+   <td> <p> Tipo de compactação para saída de imagem do TIFF </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> atributo::nitidez</span> </p> </td> 

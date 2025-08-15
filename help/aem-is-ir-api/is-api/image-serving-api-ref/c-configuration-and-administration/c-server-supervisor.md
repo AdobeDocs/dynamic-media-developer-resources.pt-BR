@@ -1,5 +1,5 @@
 ---
-description: Os componentes do Servidor de imagens são gerenciados pelo Supervisor do servidor, que é um daemon Linux ou Serviço do Windows (S7Supervisor.exe, listado como "Servidor de imagens do Dynamic Media" no Painel de controle Serviços).
+description: Os componentes do Servidor de imagens são gerenciados pelo Supervisor do servidor, que é um daemon Linux ou Serviço do Windows (S7Supervisor.exe, listado como 'Servidor de imagens do Dynamic Media' no Painel de controle Serviços).
 solution: Experience Manager
 title: Supervisor de servidor
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Supervisor de servidor{#server-supervisor}
 
-Os componentes do Servidor de imagens são gerenciados pelo Supervisor do servidor, que é um daemon Linux ou Serviço do Windows (S7Supervisor.exe, listado como &quot;Servidor de imagens do Dynamic Media&quot; no Painel de controle Serviços).
+Os componentes do Servidor de imagens são gerenciados pelo Supervisor do servidor, que é um daemon Linux ou Serviço do Windows (S7Supervisor.exe, listado como &#39;Servidor de imagens do Dynamic Media&#39; no Painel de controle Serviços).
 
 Além de iniciar e parar outros componentes do Servidor de imagens, o Supervisor de servidores é responsável por garantir a integridade desses outros componentes. Se um componente falhar, ele será reiniciado automaticamente para minimizar interrupções do serviço.
 

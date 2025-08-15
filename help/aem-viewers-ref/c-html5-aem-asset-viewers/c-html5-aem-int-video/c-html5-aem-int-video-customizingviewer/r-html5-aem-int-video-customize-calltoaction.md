@@ -1,6 +1,6 @@
 ---
-title: Chamada para ação
-description: O painel Chamada para ação é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo específico.
+title: Call to action
+description: O painel Call to action é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo específico.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 0%
 
 ---
 
-# Chamada para ação{#call-to-action}
+# Call to action{#call-to-action}
 
-O painel Chamada para ação é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo específico.
+O painel Call to action é exibido quando o vídeo termina e exibe todas as amostras interativas associadas ao vídeo específico.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 O painel consiste em uma área de cabeçalho que mostra o título do vídeo, um botão de repetição no canto superior direito e amostras interativas reais exibidas como uma grade rolável. Você pode desativar o painel usando o atributo de configuração [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
-O painel de chamada para ação sempre ocupa toda a área de visualização disponível.
+O painel call to action sempre ocupa toda a área de visualização disponível.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência da cor do plano de fundo no painel chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da cor do plano de fundo no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## Propriedades CSS da cor de fundo do painel de chamada para ação {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## Propriedades CSS da cor de fundo do painel call to action {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> cor de fundo </span> </p> </td> 
-   <td colname="col2"> <p> Cor do plano de fundo do painel de chamada para ação. </p> </td> 
+   <td colname="col2"> <p> Cor de fundo do painel do call to action. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemplo {#example}
 
-Para configurar um painel de chamada para ação com plano de fundo cinza escuro:
+Para configurar um painel call to action com plano de fundo cinza escuro:
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ Para configurar um painel de chamada para ação com plano de fundo cinza escuro
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência do cabeçalho no painel chamada para ação:
+O seletor de classe CSS a seguir controla a aparência do cabeçalho no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## Propriedades CSS do cabeçalho do painel de chamada para ação {#css-properties-of-the-call-to-action-panel-header}
+## Propriedades CSS do cabeçalho do painel do call to action {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ Para configurar um cabeçalho com 70 pixels de altura, com um plano de fundo cin
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência do título do cabeçalho no painel chamada para ação:
+O seletor de classe CSS a seguir controla a aparência do título do cabeçalho no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## Propriedades CSS do título do cabeçalho no painel chamada para ação:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## Propriedades CSS do título do cabeçalho no painel call to action:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ Para configurar um título de vídeo com uma altura de linha de 70 pixels, taman
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência do botão Fechar no painel de chamada para ação:
+O seletor de classe CSS a seguir controla a aparência do botão Fechar no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## Propriedades CSS do botão Fechar no painel de chamada para ação: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## Propriedades CSS do botão Fechar no painel call to action: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ Para configurar um botão de repetição com 28 x 28 pixels. O botão deve ser p
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência da exibição de grade de miniaturas no painel Chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da exibição de grade de miniaturas no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## Propriedades CSS da exibição de grade de miniaturas no painel de chamada para ação:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## Propriedades CSS da exibição de grade de miniaturas no painel call to action:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ Para configurar uma área de miniaturas com um plano de fundo cinza escuro:
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência da célula de miniatura no painel chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da célula de miniatura no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propriedades CSS da célula de miniatura no painel chamada para ação: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propriedades CSS da célula de miniatura no painel call to action: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ Para configurar o espaçamento horizontal de 24 pixels e o espaçamento vertical
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência da miniatura no painel Chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da miniatura no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## Propriedades CSS da miniatura no painel de chamada para ação: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## Propriedades CSS da miniatura no painel call to action: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ Para configurar miniaturas com 94 x 100 pixels:
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-O seletor de classe CSS a seguir controla a aparência do rótulo de miniatura no painel Chamada para ação:
+O seletor de classe CSS a seguir controla a aparência do rótulo de miniatura no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## Propriedades CSS do rótulo de miniatura no painel chamada para ação: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## Propriedades CSS do rótulo de miniatura no painel call to action: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ Para configurar rótulos que usem uma cor branca, sejam 15 pixels alinhados ao c
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-Se houver mais miniaturas que possam caber verticalmente na exibição, elas renderizarão uma barra de rolagem vertical no lado direito. Por padrão, o painel de chamada para ação renderiza uma pequena barra vertical sem botões de miniatura e de rolagem. No entanto, é possível personalizar a barra alterando o CSS do visualizador.
+Se houver mais miniaturas que possam caber verticalmente na exibição, elas renderizarão uma barra de rolagem vertical no lado direito. Por padrão, o painel call to action renderiza uma pequena barra vertical sem botões de miniatura e de rolagem. No entanto, é possível personalizar a barra alterando o CSS do visualizador.
 
-O seletor de classe CSS a seguir controla a aparência da área da barra de rolagem no painel chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da área da barra de rolagem no painel call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## Propriedades CSS da área da barra de rolagem no painel chamada para ação: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## Propriedades CSS da área da barra de rolagem no painel call to action: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ Para configurar uma barra de rolagem com 22 pixels de largura e que não tenha n
 
 A faixa da barra de rolagem é a área entre os botões da barra de rolagem superior e inferior. O componente define automaticamente a posição e a altura da faixa.
 
-O seletor de classe CSS a seguir controla a aparência da faixa da barra de rolagem no painel de chamada para ação:
+O seletor de classe CSS a seguir controla a aparência da faixa da barra de rolagem no painel do call to action:
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ O seletor de classe CSS a seguir controla a aparência da altura da miniatura e 
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## Propriedades CSS da altura da miniatura no painel chamada para ação: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## Propriedades CSS da altura da miniatura no painel call to action: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ O seletor de classe CSS a seguir controla a aparência dos botões de rolagem su
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-Não é possível posicionar botões de rolagem usando propriedades CSS top, left, bottom ou right; a lógica do visualizador os posiciona automaticamente. O painel de chamada para ação no visualizador de vídeo interativo não usa esses botões na barra de rolagem, portanto, seu tamanho é definido como 0 pixels no CSS padrão.
+Não é possível posicionar botões de rolagem usando propriedades CSS top, left, bottom ou right; a lógica do visualizador os posiciona automaticamente. O painel call to action no visualizador de vídeo interativo não usa esses botões na barra de rolagem, portanto, seu tamanho é definido como 0 pixels no CSS padrão.
 
-## Propriedades CSS dos botões de rolagem superior e inferior no painel de chamada para ação:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## Propriedades CSS dos botões de rolagem superior e inferior no painel call to action:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

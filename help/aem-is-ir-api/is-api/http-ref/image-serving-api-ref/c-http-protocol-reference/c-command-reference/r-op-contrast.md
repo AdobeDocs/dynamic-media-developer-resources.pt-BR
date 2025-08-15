@@ -31,7 +31,7 @@ Camada. Aplica-se à camada atual ou à imagem composta, se `layer=comp`. Ignora
 
 ## Padrão {#section-896d1b1f7f084e929355a4684f3e833b}
 
-`op_contrast=0`, para nenhuma alteração no contraste. Imagens CMYK ou camadas são convertidas em RGB antes da operação ser aplicada.
+`op_contrast=0`, para nenhuma alteração no contraste. As imagens ou camadas CMYK são convertidas em RGB antes da operação ser aplicada.
 
 ## Exemplo {#section-94bc4348b4bc4f0e9768ea1c45ca8340}
 

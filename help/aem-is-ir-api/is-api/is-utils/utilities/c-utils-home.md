@@ -1,5 +1,5 @@
 ---
-description: O guia Utilitários do Servidor de imagens contém informações sobre os utilitários usados com o Servidor de imagens da Dynamic Media e a Renderização de imagens.
+description: O guia de utilitários do Servidor de imagens contém informações sobre os utilitários usados com o Servidor de imagens do Dynamic Media e a Renderização de imagens.
 solution: Experience Manager
 title: Utilitários de disponibilização de imagens
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Utilitários de disponibilização de imagens{#image-serving-utilities}
 
-O guia Utilitários do Servidor de imagens contém informações sobre os utilitários usados com o Servidor de imagens da Dynamic Media e a Renderização de imagens.
+O guia de utilitários do Servidor de imagens contém informações sobre os utilitários usados com o Servidor de imagens do Dynamic Media e a Renderização de imagens.
 
 * [Localização dos utilitários](c-location-of-utilities.md)
 * [ic](r-ic.md)

@@ -29,7 +29,7 @@ Largura da exibição. Especifica a largura da imagem de resposta (exibir imagem
 
 Se `wid=`, `hei=` ou `scale=` não forem especificados, a imagem de resposta será o tamanho de exibição padrão especificado no arquivo FXG.
 
-Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e digite seus valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve suas configurações e execute um Publish do Servidor de imagens para aplicar uma alteração.
+Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Clique em **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e digite seus valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve as configurações e execute uma publicação do Servidor de imagens para aplicar uma alteração.
 
 Se você aplicar um comando `scale=1`, uma solicitação de formato rasterizado será renderizada no tamanho especificado no FXG.
 

@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de vídeo interativo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Indica se o visualizador mostra o painel de "chamada para ação" na conclusão da reprodução do vídeo. </p> </td> 
+   <td colname="col2"> <p> Indica se o visualizador mostra o painel "call-to-action" na conclusão da reprodução do vídeo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

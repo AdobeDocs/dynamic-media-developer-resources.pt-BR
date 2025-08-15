@@ -49,7 +49,7 @@ Os seguintes campos de dados de catálogo estão disponíveis.
   <td class="stentry"> <p>Caminho ou URL do arquivo de dados secundário. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Resolução </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> </p></td> 
+  <td class="stentry"> <p>Resolução <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-resolution-dataref.md#reference-6a2d64c2d72b438fade58a3391569da7" type="reference" format="dita" scope="local"> de </a> </p></td> 
   <td class="stentry"> <p>Resolução da imagem. </p></td> 
  </tr> 
  <tr class="strow"> 

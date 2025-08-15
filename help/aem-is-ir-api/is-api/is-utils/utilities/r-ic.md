@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Utilitário de conversão de imagem.
 
-`ic` é uma ferramenta de linha de comando que converte arquivos de imagem para o formato de TIFF de Pirâmide otimizado (PTIFF). Embora o Servidor de imagens possa processar imagens sem conversão, recomendamos que você converta todas as imagens com mais de 512x512 pixels em PTIFF. Essa conversão garante o desempenho ideal do servidor e o uso de recursos, além de minimizar os tempos de resposta.
+`ic` é uma ferramenta de linha de comando que converte arquivos de imagem para o formato PTIFF (Pyramid TIFF) otimizado. Embora o Servidor de imagens possa processar imagens sem conversão, recomendamos que você converta todas as imagens com mais de 512x512 pixels em PTIFF. Essa conversão garante o desempenho ideal do servidor e o uso de recursos, além de minimizar os tempos de resposta.
 
-Recomenda-se que os arquivos PTIFF com conteúdo fotográfico sejam codificados em JPEG (especifique `-jpegcompress`). O conteúdo gerado pelo computador pode se beneficiar da compactação sem perdas (`-deflatecompress` ou `-lzwcompress`). A menos que seja necessária uma conversão de cores ou de tipo de pixel, os dados da imagem de origem de JPEG são transferidos para o PTIFF sem decodificação, para evitar degradação de qualidade. Nesse caso, as opções de compactação especificadas se aplicam somente aos níveis de pirâmide de resolução mais baixa.
+Recomenda-se que os arquivos PTIFF com conteúdo fotográfico sejam codificados em JPEG (especifique `-jpegcompress`). O conteúdo gerado pelo computador pode se beneficiar da compactação sem perdas (`-deflatecompress` ou `-lzwcompress`). A menos que seja necessária uma conversão de cores ou de tipo de pixel, os dados da imagem de origem do JPEG são transferidos para o PTIFF sem decodificação, para evitar degradação de qualidade. Nesse caso, as opções de compactação especificadas se aplicam somente aos níveis de pirâmide de resolução mais baixa.
 
-Se você não estiver convertendo imagens grandes, não precisará definir os parâmetros que controlam quanta memória usar. No entanto, se estiver, dê mais memória a `ic` usando a configuração `-maxmem` descrita abaixo. Uma boa regra geral para calcular a quantidade de memória necessária é multiplicar a largura da imagem pela altura da imagem multiplicada pelo número de canais. Por exemplo, quatro para uma imagem de RGB com alfa vezes três. Além disso, se os canais forem de 16 bits por componente, em vez de 8, dobre o resultado final.
+Se você não estiver convertendo imagens grandes, não precisará definir os parâmetros que controlam quanta memória usar. No entanto, se estiver, dê mais memória a `ic` usando a configuração `-maxmem` descrita abaixo. Uma boa regra geral para calcular a quantidade de memória necessária é multiplicar a largura da imagem pela altura da imagem multiplicada pelo número de canais. Por exemplo, quatro para uma imagem RGB com alfa vezes três. Além disso, se os canais forem de 16 bits por componente, em vez de 8, dobre o resultado final.
 
 ## Uso {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -77,15 +77,15 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>Use a codificação JPEG. Ignorado se <span class="codeph"> <span class="varname"> sourceFile </span> </span> inclui dados alfa. </p> </td> 
+   <td colname="col2"> <p>Use a codificação do JPEG. Ignorado se <span class="codeph"> <span class="varname"> sourceFile </span> </span> inclui dados alfa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> quality </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>qualidade de JPEG (0-100; o padrão é 95). </p> </td> 
+   <td colname="col2"> <p>Qualidade do JPEG (0-100; o padrão é 95). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominance </span> </p> </td> 
-   <td colname="col2"> <p>Desative a redução de resolução de croma JPEG (pode melhorar a qualidade do texto e dos gráficos coloridos). Isso não afeta imagens de saída CMYK ou em tons de cinza. </p> </td> 
+   <td colname="col2"> <p>Desative a redução de resolução cromática do JPEG (pode melhorar a qualidade do texto e dos gráficos coloridos). Isso não afeta imagens de saída CMYK ou em tons de cinza. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -usm &lt; <span class="varname"> valor </span>&gt; &lt; <span class="varname"> raio </span>&gt; &lt; <span class="varname"> limite </span>&gt; &lt; <span class="varname"> monocromático </span>&gt; </span> </p> </td> 
@@ -115,7 +115,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedXmpData </span> </p> </td> 
-   <td colname="col2"> <p>Copiar metadados XMP, se disponíveis, de <span class="codeph"> <span class="varname"> sourceFile </span> </span> para <span class="codeph"> <span class="varname"> destFile </span> </span> sem modificação. </p> </td> 
+   <td colname="col2"> <p>Copiar metadados do XMP, se disponíveis, de <span class="codeph"> <span class="varname"> sourceFile </span> </span> para <span class="codeph"> <span class="varname"> destFile </span> </span> sem modificação. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -embedColorProfile </span> </p> </td> 
@@ -159,7 +159,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> - forceJPEGDecompress </span> </p> </td> 
-   <td colname="col2"> <p>Forçar a decodificação e a recodificação de imagens de entrada de JPEG. </p> <p> <b>Cuidado:</b> a aplicação desta opção pode reduzir a qualidade da imagem. </p> </td> 
+   <td colname="col2"> <p>Forçar a decodificação e a recodificação de imagens de entrada do JPEG. </p> <p> <b>Cuidado:</b> a aplicação desta opção pode reduzir a qualidade da imagem. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -downsample2x2 </span> </p> </td> 
@@ -183,7 +183,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -substituir </span> </p> </td> 
-   <td colname="col2"> <p>Permitir substituição de um destFile </span> </span> <span class="codeph"> <span class="varname"> existente. Por padrão, um sufixo numérico é anexado ao nome do arquivo para impedir a substituição. </p> </td> 
+   <td colname="col2"> <p>Permitir substituição de um destFile <span class="codeph"> <span class="varname"> </span> </span> existente. Por padrão, um sufixo numérico é anexado ao nome do arquivo para impedir a substituição. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -ignorado </span> </p> </td> 
@@ -279,7 +279,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
    <td> <p> Se presente, o valor de transparência na paleta é convertido em alfa. </p> </td> 
   </tr> 
   <tr> 
-   <td> <b> JPG </b> <p> (JFIF/JPEG) </p> </td> 
+   <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
    <td> <p> CMYK | RGB | cinza </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
@@ -316,7 +316,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
  </tbody> 
 </table>
 
-Os perfis ICC incorporados são reconhecidos nos arquivos EPS, JPG, PSD, PNG e TIFF.
+Os perfis ICC incorporados são reconhecidos em arquivos EPS, JPG, PSD, PNG e TIFF.
 
 Caminhos incorporados e metadados XMP são reconhecidos em arquivos EPS, JPG, PSD e TIFF.
 
@@ -326,10 +326,10 @@ Converta uma única imagem com a melhor qualidade e mantenha-a na mesma pasta:
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-Converter todas as imagens em *`srcFolder`* para TIFF de pirâmide codificada em JPEG e colocar em *`destFolder`*:
+Converter todas as imagens em *`srcFolder`* em TIFFs de pirâmide codificados em JPEG e colocar em *`destFolder`*:
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-Converter todas as imagens em *`srcFolder`*. Os dados de imagem codificados dos arquivos JPG são usados para a compressão LZW de nível de resolução total e sem perdas para o restante da pirâmide de imagem dessas imagens, bem como para a imagem de saída inteira de todos os arquivos de entrada não JPG. Os tipos de pixel, perfis de cores incorporados, metadados XMP e assim por diante. são mantidos.
+Converter todas as imagens em *`srcFolder`*. Os dados de imagem codificados de arquivos JPG são usados para a compactação LZW de nível de resolução total e sem perdas para o restante da pirâmide de imagem dessas imagens, bem como para a imagem de saída inteira de todos os arquivos de entrada que não sejam JPG. Os tipos de pixel, perfis de cores incorporados, metadados XMP e assim por diante. são mantidos.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

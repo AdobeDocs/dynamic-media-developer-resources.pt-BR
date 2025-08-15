@@ -1,6 +1,6 @@
 ---
 title: Componentes do Servidor de imagens
-description: O Servidor de imagens da Dynamic Media consiste nos seguintes componentes.
+description: O Dynamic Media Image Serving consiste nos seguintes componentes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Componentes do Servidor de imagens{#image-serving-components}
 
-O Servidor de imagens da Dynamic Media consiste nos seguintes componentes:
+O Dynamic Media Image Serving consiste nos seguintes componentes:
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 

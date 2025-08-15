@@ -25,7 +25,7 @@ Configurações avançadas de renderização. Especifica as configurações avan
  </tr> 
 </table>
 
-Usado para ajustar a aparência da renderização. Para criar strings de configurações de renderização, use o recurso de renderização da Ferramenta de Criação de Vinhetas (parte do pacote de Criação de imagens do Dynamic Media).
+Usado para ajustar a aparência da renderização. Para criar cadeias de caracteres de configurações de renderização, use o recurso de renderização da Ferramenta de Criação de Vinhetas (parte do pacote de Criação de Imagem do Dynamic Media).
 
 ## Propriedades {#section-9a2b2228789046658cb80eddf343af75}
 

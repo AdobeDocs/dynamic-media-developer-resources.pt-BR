@@ -1,6 +1,6 @@
 ---
 title: Introdução
-description: Este documento descreve o protocolo HTTP para renderização de imagem Dynamic Media.
+description: Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Introdução{#introduction}
 
-Este documento descreve o protocolo HTTP para renderização de imagem Dynamic Media.
+Este documento descreve o protocolo HTTP para renderização de imagem do Dynamic Media.
 
 Apenas os aspectos do protocolo disponíveis ao público são descritos. O servidor pode suportar comandos adicionais reservados para uso pelo software cliente do Dynamic Media.
 
@@ -95,6 +95,6 @@ Presume-se que o leitor esteja familiarizado com a Criação e renderização de
 
 **Termos comuns**
 
-**&#x200B; *`MSS`* &#x200B;** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
+** *`MSS`* ** Segmento de especificação de material: um conjunto de atributos de material entre dois comandos de seleção na solicitação.
 
-**&#x200B; *`vignette`* &#x200B;** Uma imagem preparada na Criação de Imagem do Dynamic Media para uso com Renderização de Imagem.
+** *`vignette`* ** Uma imagem preparada na Criação de Imagem do Dynamic Media para uso com Renderização de Imagem.

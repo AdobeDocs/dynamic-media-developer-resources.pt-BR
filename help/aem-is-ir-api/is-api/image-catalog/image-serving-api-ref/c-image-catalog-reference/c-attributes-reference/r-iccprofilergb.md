@@ -1,5 +1,5 @@
 ---
-description: perfil de cores de saída padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de resposta de RGB quando nenhum espaço de cores de saída for especificado com icc= e para determinados valores de cores de RGB especificados com vários comandos do Servidor de imagens, como color=.
+description: Perfil de cores de saída padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de resposta do RGB quando nenhum espaço de cores de saída for especificado com icc= e para determinados valores de cores do RGB especificados com vários comandos do Servidor de imagens, como color=.
 solution: Experience Manager
 title: IccProfileRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # IccProfileRgb{#iccprofilergb}
 
-perfil de cores de saída padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de resposta de RGB quando nenhum espaço de cores de saída for especificado com icc= e para determinados valores de cores de RGB especificados com vários comandos do Servidor de imagens, como color=.
+Perfil de cores de saída padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de resposta do RGB quando nenhum espaço de cores de saída for especificado com icc= e para determinados valores de cores do RGB especificados com vários comandos do Servidor de imagens, como color=.
 
 ## Propriedades {#section-3dd55c954d4d4ad4bb715ed7cee31025}
 

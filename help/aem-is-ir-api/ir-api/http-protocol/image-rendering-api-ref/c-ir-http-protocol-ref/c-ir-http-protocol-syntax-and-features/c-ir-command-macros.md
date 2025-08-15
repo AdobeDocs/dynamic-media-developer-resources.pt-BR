@@ -18,7 +18,7 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
 `$ *[!DNL name]*$`
 
-**&#x200B; *[!DNL name]* &#x200B;** Nome da macro
+** *[!DNL name]* ** Nome da macro
 
 As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de materiais ou ao catálogo padrão.
 

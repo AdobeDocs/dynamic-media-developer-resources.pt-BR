@@ -1,5 +1,5 @@
 ---
-description: perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de origem de RGB que não incorporam um perfil de cores e para determinados valores de cores de RGB especificados com vários comandos do Servidor de imagens, como color=.
+description: Perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de origem do RGB que não incorporam um perfil de cores e para determinados valores de cores do RGB especificados com vários comandos do Servidor de imagens, como color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de origem de RGB que não incorporam um perfil de cores e para determinados valores de cores de RGB especificados com vários comandos do Servidor de imagens, como color=.
+Perfil de cor de entrada padrão do RGB. Especifica o nome do perfil de cores ICC a ser usado para imagens de origem do RGB que não incorporam um perfil de cores e para determinados valores de cores do RGB especificados com vários comandos do Servidor de imagens, como color=.
 
 ## Propriedades {#section-3cd753196959462e9e674dab0b033d08}
 

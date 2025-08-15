@@ -1,5 +1,5 @@
 ---
-description: Propriedades de um ativo de arquivo SVG.
+description: Propriedades de um ativo de arquivo do SVG.
 solution: Experience Manager
 title: SvgInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL SvgInfo]{#svginfo}
 
-Propriedades de um ativo de arquivo SVG.
+Propriedades de um ativo de arquivo do SVG.
 
 Sintaxe
 

@@ -21,7 +21,7 @@ O Servidor de Imagens fornece um mecanismo para gerenciar conteúdos que não se
 <table id="simpletable_4A6249F0C40747339524323EB0831CE4"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> solicitação </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> http:// <span class="varname"> servidor </span>/is/content&lbrack;/ <span class="varname"> catálogo </span>/ <span class="varname"> item </span>[? <span class="varname"> modificadores </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> http:// <span class="varname"> servidor </span>/is/content[/ <span class="varname"> catálogo </span>/ <span class="varname"> item </span>[? <span class="varname"> modificadores </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> servidor </span> </span> </p> </td> 

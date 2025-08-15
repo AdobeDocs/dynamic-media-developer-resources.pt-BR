@@ -1,5 +1,5 @@
 ---
-description: Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a nova cópia de PDF e a reotimização de imagens.
+description: Tipo de processo para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a nova cópia de PDFs e a reotimização de imagens.
 solution: Experience Manager
 title: TrabalhoReprocessAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Tipo de trabalho para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a nova cópia de PDF e a reotimização de imagens.
+Tipo de processo para permitir o reprocessamento de arquivos primários carregados anteriormente, incluindo a nova cópia de PDFs e a reotimização de imagens.
 
 Sintaxe
 
@@ -152,7 +152,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=pt-BR"> UnsharpMaskOptions</a>. </p> </td> 
+   <td colname="col3"> <p>Opções que permitem controlar as configurações da Tirar nitidez da máscara ao criar um arquivo TIF de pirâmide otimizado. Use essas configurações para ajudar a melhorar a nitidez da imagem. </p> <p>Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

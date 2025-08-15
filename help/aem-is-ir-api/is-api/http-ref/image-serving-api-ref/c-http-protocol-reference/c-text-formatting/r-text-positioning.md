@@ -28,25 +28,25 @@ Embora o `text=` seja um pouco mais fácil de usar em aplicativos simples, o `te
 
 Os exemplos a seguir são para texto pré-dimensionado. O comportamento do texto de autodimensionamento é diferente.
 
-**&#x200B; `Text=` sempre fornece uma margem estreita no topo:**
+** `Text=` sempre fornece uma margem estreita no topo:**
 
 ![Exemplo de posicionamento de texto em uma imagem](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `textPs=` renderiza o texto alinhado à parte superior da caixa de texto, o que resulta em um pequeno recorte, mesmo em fontes comuns, como Arial®:**
+** `textPs=` renderiza o texto alinhado à parte superior da caixa de texto, o que resulta em um pequeno recorte, mesmo em fontes comuns, como Arial®:**
 
 ![Exemplo de posicionamento de texto de duas imagens](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `text=` desloca automaticamente o texto renderizado para baixo para evitar recorte:**
+** `text=` desloca automaticamente o texto renderizado para baixo para evitar recorte:**
 
 ![Exemplo de posicionamento de texto três imagens](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-**&#x200B; `textPs=` não move texto contendo partes elevadas, resultando em recorte significativo se o texto estiver na camada 0:**
+** `textPs=` não move texto contendo partes elevadas, resultando em recorte significativo se o texto estiver na camada 0:**
 
 ![Exemplo de posicionamento de texto para quatro imagens](assets/tp04.png)
 

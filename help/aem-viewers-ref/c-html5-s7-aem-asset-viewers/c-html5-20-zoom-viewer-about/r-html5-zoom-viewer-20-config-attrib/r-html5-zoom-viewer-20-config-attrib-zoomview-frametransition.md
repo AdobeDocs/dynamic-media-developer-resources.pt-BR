@@ -20,7 +20,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>Especifica o tipo do efeito aplicado na alteração do quadro. O atributo <span class="codeph"> none </span> significa sem transição; a alteração do quadro ocorre instantaneamente. O atributo <span class="codeph"> fade </span> significa transição cross-fade entre quadros antigos e novos. O slide </span> do atributo <span class="codeph"> ativa a transição em que o quadro antigo desaparece da exibição e o novo quadro surge. </p> </td> 
+   <td colname="col2"> <p>Especifica o tipo do efeito aplicado na alteração do quadro. O atributo <span class="codeph"> none </span> significa sem transição; a alteração do quadro ocorre instantaneamente. O atributo <span class="codeph"> fade </span> significa transição cross-fade entre quadros antigos e novos. O slide <span class="codeph"> do atributo </span> ativa a transição em que o quadro antigo desaparece da exibição e o novo quadro surge. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> duração </span> </span> </p> </td> 

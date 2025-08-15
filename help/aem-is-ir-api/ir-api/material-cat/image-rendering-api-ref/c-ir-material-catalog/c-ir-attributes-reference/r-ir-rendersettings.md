@@ -18,7 +18,7 @@ Configurações de renderização avançadas padrão. Padrão para `catalog::Ren
 
 ## Propriedades {#section-fa89db09aeeb420292cf783f07b8547a}
 
-String de texto. Se especificada, ela deve ser uma cadeia de caracteres de configurações de renderização válida, conforme definido com a Ferramenta de Criação de Vinheta (parte do pacote de Criação de imagem do Dynamic Media).
+String de texto. Se especificada, ela deve ser uma cadeia de caracteres de configurações de renderização válida, conforme definido com a Ferramenta de Criação de Vinheta (parte do pacote de Criação de Imagem do Dynamic Media).
 
 ## Padrão {#section-4e76784aeecd4f09a33124aded7406cb}
 

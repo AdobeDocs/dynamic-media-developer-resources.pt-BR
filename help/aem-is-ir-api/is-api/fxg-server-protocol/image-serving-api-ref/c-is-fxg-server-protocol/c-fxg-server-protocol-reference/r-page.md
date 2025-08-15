@@ -27,4 +27,4 @@ Recuperar página. Recupera uma página específica em um FXG de várias página
 
 ## Padrão {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Se `page` não for especificado, a primeira página será retornada para saída raster e todas as páginas para saída PDF.
+Se `page` não for especificado, a primeira página será retornada para saída rasterizada e todas as páginas para saída PDF.

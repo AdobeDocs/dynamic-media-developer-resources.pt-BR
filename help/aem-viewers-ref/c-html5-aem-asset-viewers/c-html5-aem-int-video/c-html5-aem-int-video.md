@@ -16,17 +16,17 @@ ht-degree: 0%
 
 O Visualizador de vídeo interativo é um player de vídeo que reproduz streaming e vídeo progressivo codificado no formato H.264.
 
-O visualizador também mostra amostras de produtos interativas ao lado do conteúdo do vídeo. Há suporte para vídeo único e Conjuntos de vídeos adaptados. Ele foi projetado para funcionar em navegadores para desktop e para dispositivos móveis que suportam vídeo HTML5. O visualizador é compatível com legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento em redes sociais. O objetivo desse visualizador é ajudá-lo a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região de tempo de vídeo específica e ser redirecionados para uma página de detalhes do produto ou de Quickview no site do cliente.
+O visualizador também mostra amostras de produtos interativas ao lado do conteúdo do vídeo. Há suporte para vídeo único e Conjuntos de vídeos adaptados. Ele foi projetado para funcionar em navegadores da Web móveis e de desktop compatíveis com vídeo HTML5. O visualizador é compatível com legendas ocultas opcionais exibidas sobre conteúdo de vídeo, navegação de capítulo de vídeo e ferramentas de compartilhamento em redes sociais. O objetivo desse visualizador é ajudá-lo a implementar uma experiência de &quot;vídeo que pode ser comprado&quot;. Ou seja, os usuários podem selecionar uma amostra associada a uma região de tempo de vídeo específica e ser redirecionados para uma página de detalhes do produto ou de Quickview no site do cliente.
 
 Tipo de visualizador 510.
 
 ## URLs de demonstração {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html?lang=pt-BR)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
 E
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html?lang=pt-BR)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
 ## Requisitos do sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -34,9 +34,9 @@ Consulte [Requisitos do sistema](../../c-system-requirements-and-prerequisites.m
 
 ## Uso do visualizador de vídeo interativo {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. Um único JavaScript é incluído com todos os componentes do SDK do visualizador usados por esse visualizador, ativos e CSS específicos.
+O Visualizador de vídeo interativo representa um arquivo JavaScript principal e um conjunto de arquivos auxiliares baixados pelo visualizador em tempo de execução. Uma única JavaScript é incluída com todos os componentes do Viewer SDK usados por esse visualizador, ativos e CSS específicos.
 
-O Visualizador de vídeo interativo pode ser usado no modo pop-up usando a página de HTML pronta para produção fornecida com os Visualizadores do servidor de imagens. Ele também pode ser usado no modo incorporado, em que é integrado à página da Web direcionada usando a API documentada.
+O Visualizador de vídeo interativo pode ser usado no modo pop-up usando a página do HTML pronta para produção fornecida com os Visualizadores do servidor de imagens. Ele também pode ser usado no modo incorporado, em que é integrado à página da Web direcionada usando a API documentada.
 
 A configuração e a atribuição de capa são semelhantes às dos outros visualizadores descritos neste guia. Toda a atribuição de capa é obtida por meio de folhas de estilos em cascata personalizadas (CSS).
 
@@ -89,7 +89,7 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
 1. Adicionar o arquivo JavaScript do visualizador à sua página da Web.
 
-   A criação de um visualizador exige a adição de uma tag de script no cabeçalho de HTML. Antes de usar a API do visualizador, inclua [!DNL InterativeVideoViewer.js]. O arquivo [!DNL InteractiveVideoViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
+   A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL InterativeVideoViewer.js]. O arquivo [!DNL InteractiveVideoViewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
@@ -103,7 +103,7 @@ O caminho relativo tem a seguinte aparência:
 
 >[!NOTE]
 >
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do SDK HTML5 carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões anteriores do visualizador secundário `includes` no servidor.
+>Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
 >
 >
 >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
@@ -130,7 +130,7 @@ O caminho relativo tem a seguinte aparência:
 
    Consulte [Personalizando o visualizador de vídeo interativo](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) para obter mais informações sobre como estilizar o visualizador com CSS.
 
-   Este é um exemplo de definição de um tamanho de visualizador estático na página HTML:
+   Este é um exemplo de definição de um tamanho de visualizador estático na página do HTML:
 
    ```html {.line-numbers}
    #s7viewer.s7interactivevideoviewer { 
@@ -218,7 +218,7 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código de HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web, deixando sua altura irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -280,7 +280,7 @@ A página de exemplos a seguir ilustra mais usos reais da incorporação respons
 
 [Demonstrações em tempo real](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Local de demonstração alternativo](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporação responsiva com Largura e Altura definidas**
 

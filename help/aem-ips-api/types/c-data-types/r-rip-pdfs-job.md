@@ -1,6 +1,6 @@
 ---
 title: RipPdfsJob
-description: Um processo que repete um ativo PDF existente.
+description: Um processo que repete um ativo existente do PDF.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-Um processo que repete um ativo PDF existente.
+Um processo que repete um ativo existente do PDF.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Um processo que repete um ativo PDF existente.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> tipos:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Processe a matriz de arquivos PDF a serem extraídos. </p> </td> 
+   <td colname="col3"> <p>Processa a matriz de arquivos PDF a serem extraídos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 

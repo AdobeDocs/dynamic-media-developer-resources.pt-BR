@@ -46,7 +46,7 @@ Cria um formato de imagem.
 
 ## Exemplos {#section-c7bd733212ef494297a97093f3af193f}
 
-Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface de usuário do IPS com um formato de HTML válido.
+Essa amostra de código cria um formato de imagem. Neste exemplo, `urlModifier` foi determinado pelo seu valor na interface de usuário IPS com um formato HTML válido.
 
 **Solicitação**
 

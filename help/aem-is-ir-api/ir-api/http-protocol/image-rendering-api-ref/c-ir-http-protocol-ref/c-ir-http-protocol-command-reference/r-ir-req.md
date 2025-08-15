@@ -113,7 +113,7 @@ Retorna as propriedades selecionadas do arquivo de vinheta ou da entrada de cat√
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td colname="col2"> <p>Enum </p> </td> 
-   <td colname="col3"> <p>Tipo de pixel da imagem de resposta; pode ser 'CMYK', 'RGB' ou 'BW' (para imagens em tons de cinza). </p> </td> 
+   <td colname="col3"> <p>Tipo de pixel da imagem de resposta; pode ser "CMYK", "RGB" ou "BW" (para imagens em tons de cinza). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -236,7 +236,7 @@ As seguintes propriedades podem ser inclu√≠das na resposta:
   <tr> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p>Inteiro, booleano </p> </td> 
-   <td> <p> Qualidade de JPEG e sinalizador de chroma (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
+   <td> <p> Qualidade do JPEG e sinalizador do chroma (consulte <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd" type="reference" format="dita" scope="local"> qlt= </a> </span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

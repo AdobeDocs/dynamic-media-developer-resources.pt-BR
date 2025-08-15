@@ -18,7 +18,7 @@ Referência da API do JavaScript para o visualizador Video360.
 
 `Video360Viewer([config])`
 
-Construtor, cria uma nova instância do visualizador HTML5 Video360.
+, cria uma nova instância do Visualizador do HTML5 Video360.
 
 ## Parâmetros {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

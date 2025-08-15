@@ -1,5 +1,5 @@
 ---
-description: caminhos de arquivos de dados SVG. Especifica os arquivos que contêm os dados de SVG para este catálogo.
+description: Caminhos de arquivos de dados do SVG. Especifica os arquivos que contêm os dados SVG para este catálogo.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-caminhos de arquivos de dados SVG. Especifica os arquivos que contêm os dados de SVG para este catálogo.
+Caminhos de arquivos de dados do SVG. Especifica os arquivos que contêm os dados SVG para este catálogo.
 
-Os arquivos de dados de SVG são carregados após todos os arquivos de dados de imagem, na ordem exata especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo de SVG diferentes), a última instância prevalecerá.
+Os arquivos de dados do SVG são carregados após todos os arquivos de dados de imagem, na ordem exata especificada. Se o mesmo valor `catalog::Id` ocorrer em mais de um registro (na mesma imagem ou em arquivos de catálogo SVG diferentes), a última instância prevalecerá.
 
 ## Propriedades {#section-fc2d549f76474792837b2b92ec2087ea}
 
@@ -24,7 +24,7 @@ Um ou mais valores de cadeia de texto, separados por vírgulas. Opcional. Cada v
 
 ## Padrão {#section-a4e58951f3c249599665b823566433c9}
 
-Vazio, que indica que este catálogo de imagens não inclui dados de SVG.
+Vazio, que indica que esse catálogo de imagens não inclui dados do SVG.
 
 ## Consulte também {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 

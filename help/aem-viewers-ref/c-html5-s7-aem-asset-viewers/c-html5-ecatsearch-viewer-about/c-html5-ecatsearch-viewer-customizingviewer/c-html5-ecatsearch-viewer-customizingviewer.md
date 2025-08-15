@@ -167,8 +167,8 @@ background-position: -0px -560px;
 
 ## Observações gerais sobre o estilo e conselhos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não tem suporte para elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. O motivo é que isso pode afetar o comportamento dos componentes corretos. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir as propriedades de CSS documentadas neste guia de referência.
-* Todos os caminhos para ativos externos no CSS são resolvidos em relação ao local do CSS, não ao local da página do HTML do visualizador. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie os ativos padrão ou atualize os caminhos no CSS personalizado.
+* Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não tem suporte para elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou em tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador. O motivo é que isso pode afetar o comportamento dos componentes corretos. Em vez disso, você deve usar seletores de CSS com a especificidade adequada para definir as propriedades de CSS documentadas neste guia de referência.
+* Todos os caminhos para ativos externos no CSS são resolvidos em relação ao local do CSS, não ao local da página do visualizador do HTML. Esteja ciente dessa regra ao copiar o CSS padrão para um local diferente. Copie os ativos padrão ou atualize os caminhos no CSS personalizado.
 * O formato preferido para arte-final de bitmap é PNG.
 * O trabalho artístico de bitmap é atribuído a elementos da interface do usuário usando a propriedade `background-image`.
 * As propriedades `width` e `height` de um elemento da interface do usuário definem seu tamanho lógico. O tamanho do bitmap passado para `background-image` não afeta o tamanho lógico.
@@ -185,7 +185,7 @@ Veja a seguir a documentação de referência dos elementos da interface do usu�
 * [Baixar](r-html5-ecatsearch-customize-download.md)
 * [Compartilhamento de email](r-html5-ecatsearch-customize-emailshare.md)
 * [Incorporar compartilhamento](r-html5-ecatsearch-customize-embedshare.md)
-* [Compartilhamento facebook](r-html5-ecatsearch-customize-facebookshare.md)
+* [Compartilhamento no Facebook](r-html5-ecatsearch-customize-facebookshare.md)
 * [Efeito Favoritos](r-html5-ecatsearch-customize-favoriteseffect.md)
 * [Menu Favoritos](r-html5-ecatsearch-customize-favoritesmenu.md)
 * [Exibição de favoritos](r-html5-ecatsearch-customize-favoritesview.md)
@@ -216,7 +216,7 @@ Veja a seguir a documentação de referência dos elementos da interface do usu�
 * [Miniaturas](r-html5-ecatsearch-customize-thumbnails.md)
 * [Botão Miniaturas](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Dicas de ferramenta](r-html5-ecatsearch-customize-tooltips.md)
-* [Compartilhamento de twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [Compartilhamento no Twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Botão Exibir todos os favoritos](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Botão de Mais zoom](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Botão de menos zoom](r-html5-ecatsearch-customize-zoomoutbutton.md)

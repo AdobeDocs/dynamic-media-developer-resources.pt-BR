@@ -1,6 +1,6 @@
 ---
 title: Requisitos e pré-requisitos do sistema
-description: Antes de usar o Servidor de imagens da Dynamic Media, verifique se seu sistema atende aos requisitos do sistema.
+description: Antes de usar o Dynamic Media Image Serving, verifique se seu sistema atende aos requisitos do sistema.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Requisitos e pré-requisitos do sistema{#system-requirements-and-prerequisites}
 
-Antes de usar o Servidor de imagens da Dynamic Media, verifique se seu sistema atende aos requisitos do sistema.
+Antes de usar o Dynamic Media Image Serving, verifique se seu sistema atende aos requisitos do sistema.
 
 ## Hardware do servidor {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -22,7 +22,7 @@ O servidor deve atender aos seguintes requisitos de hardware.
 
 >[!NOTE]
 >
->Os sistemas com processadores AMD64 e Intel® EM64T são normalmente configurados como plataformas NUMA (Non-Uniform Memory Architecture). Isso significa que o kernel constrói vários nós de memória no momento da inicialização em vez de construir um único nó de memória. A construção de vários nós pode resultar no esgotamento da memória em um ou mais nós antes que outros nós se esgotem. Quando ocorre esgotamento de memória, o kernel pode decidir eliminar processos (por exemplo, o Servidor de imagens ou [!DNL Platform Server]) mesmo que haja memória disponível. Portanto, a Adobe recomenda que, se você estiver executando um sistema desse tipo, desative o NUMA. Use a opção de início `numa=off` para evitar que o kernel interrompa esses processos.
+>Os sistemas com processadores AMD64 e Intel® EM64T são normalmente configurados como plataformas NUMA (Non-Uniform Memory Architecture). Isso significa que o kernel constrói vários nós de memória no momento da inicialização em vez de construir um único nó de memória. A construção de vários nós pode resultar no esgotamento da memória em um ou mais nós antes que outros nós se esgotem. Quando ocorre esgotamento de memória, o kernel pode decidir eliminar processos (por exemplo, o Servidor de imagens ou [!DNL Platform Server]) mesmo que haja memória disponível. Portanto, a Adobe recomenda que, se você estiver executando esse sistema, desative o NUMA. Use a opção de início `numa=off` para evitar que o kernel interrompa esses processos.
 
 **Janelas**
 

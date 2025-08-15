@@ -1,6 +1,6 @@
 ---
-title: Compartilhamento facebook
-description: A ferramenta de compartilhamento do facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais. Quando o botão é selecionado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
+title: Compartilhamento no Facebook
+description: A ferramenta de compartilhamento do Facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais. Quando o botão é selecionado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Compartilhamento facebook{#facebook-share}
+# Compartilhamento no Facebook{#facebook-share}
 
-A ferramenta de compartilhamento do facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais. Quando o botão é selecionado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
+A ferramenta de compartilhamento do Facebook consiste em um botão adicionado ao painel Compartilhamento em redes sociais. Quando o botão é selecionado, o usuário é redirecionado para uma caixa de diálogo de compartilhamento fornecida por um serviço social. A posição do botão é totalmente gerenciada pela ferramenta Compartilhamento em redes sociais.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

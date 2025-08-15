@@ -42,7 +42,7 @@ Finalmente, verifique se a configuração do visualizador inclui os valores apro
 
 >[!NOTE]
 >
->Quando você configura o Pop-up Painel de Informações, o código do HTML e o código do JavaScript passados para o Painel de Informações são executados no computador do cliente. Portanto, verifique se esse código de HTML e JavaScript são seguros.
+>Quando você configura o Pop-up Painel de Informações, o código do HTML e o código do JavaScript passados para o Painel de Informações são executados no computador do cliente. Portanto, verifique se esse código HTML e JavaScript são seguros.
 
 ## Hiperlinks internos {#section-6afa4fb2fe564c429e0201f019a95849}
 

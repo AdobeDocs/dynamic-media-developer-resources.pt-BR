@@ -22,7 +22,7 @@ Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. Quando <span class="codeph"> auto</span> está definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa o fluxo de vídeo HTML5 no formato HLS. Ele retorna à reprodução de HTML5 progressiva em determinados sistemas, como o Internet Explorer e o Android™ mais antigos. </p> <p>Se <span class="codeph"> progressive</span> é especificado, o visualizador depende apenas da reprodução de HTML5 como suporte nativo por navegadores e reproduz vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do Viewer SDK. </p> </td> 
+   <td colname="col2"> <p> Define o tipo de reprodução usado pelo visualizador. Quando <span class="codeph"> auto</span> está definido, na maioria dos navegadores de desktop e em todos os dispositivos iOS, o visualizador usa o fluxo de vídeo HTML5 no formato HLS. Ele se baseia na reprodução progressiva do HTML5 em determinados sistemas, como o Internet Explorer e o Android™ mais antigos. </p> <p>Se <span class="codeph"> progressive</span> é especificado, o visualizador depende apenas da reprodução de HTML5 como suporte nativo por navegadores e reproduz vídeo progressivamente em todos os sistemas. </p> <p>Para obter mais informações sobre a seleção de reprodução nos modos automático e progressivo, consulte o Guia do usuário do Viewer SDK. </p> </td> 
   </tr> 
  </tbody> 
 </table>

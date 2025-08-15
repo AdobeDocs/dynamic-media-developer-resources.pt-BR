@@ -25,7 +25,7 @@ Formato de imagem de resposta.
 | `avif-alpha` | AVIF com e sem perdas com canal alfa. |
 | `avif` | AVIF com e sem perdas. |
 | `eps` | PostScript Encapsulado binário descompactado. |
-| `f4m` | Formato de manifesto do Servidor de Streaming do Flash. |
+| `f4m` | Formato de manifesto do Flash Streaming Server. |
 | `gif-alpha` | GIF com 2 a 255 cores, além de transparência de cores-chave. |
 | `gif` | GIF com 2 a 256 cores. |
 | `heic` | HEIC sem perdas. Esse formato é baixado por padrão do navegador se não for compatível. |
@@ -33,7 +33,7 @@ Formato de imagem de resposta.
 | `jpeg2000-alpha` | JPEG 2000 com canal alfa sem perdas e sem perdas. |
 | `jpeg2000` | JPEG 2000 com perdas e sem perdas. |
 | `jpegxr-alpha` | JPEG XR com canal alfa com perda e sem perda. |
-| `jpegxr` | JPEG XR com perda e sem perda. |
+| `jpegxr` | JPEG XR com e sem perdas. |
 | `jpg` | JPG com perda. |
 | `m3u8` | Formato de manifesto do Apple Streaming Server. |
 | `pdf` | Imagem incorporada no PDF. |
@@ -42,10 +42,10 @@ Formato de imagem de resposta.
 | `png` | PNG sem perda de 24 bits. |
 | `png8-alpha` | PNG sem perda de 8 bits com canal alfa. |
 | `png8` | PNG sem perda de 8 bits. |
-| `swf-alpha` | JPEG com perda e uma máscara compactada por deflação incorporada em um arquivo swf Adobe AS2. |
-| `swf` | JPEG com perda incorporado em um arquivo swf Adobe AS2. |
-| `swf3-alpha` | JPEG com perda e uma máscara compactada por deflação incorporada em um arquivo swf Adobe AS3. **Observação:** os formatos swf e swf-alpha são mais adequados para os aplicativos do ActionScript 2 (Flash Player 8 e anterior). Recomenda-se o uso dos formatos swf3 e swf3-alpha para os aplicativos ActionScript3 (Flash Player 9 e posterior). |
-| `swf3` | JPEG com perda incorporado em um arquivo swf Adobe AS3. |
+| `swf-alpha` | JPEG com perda e uma máscara compactada com deflate incorporada em um arquivo swf do Adobe AS2. |
+| `swf` | JPEG com perda incorporado em um arquivo swf do Adobe AS2. |
+| `swf3-alpha` | JPEG com perda e uma máscara compactada com deflate incorporada em um arquivo swf do Adobe AS3. **Observação:** os formatos swf e swf-alpha são mais adequados para aplicativos ActionScript 2 (Flash Player 8 e anterior). Os formatos swf3 e swf3-alpha são recomendados para uso nos aplicativos do ActionScript3 (Flash Player 9 e posterior). |
+| `swf3` | JPEG com perda incorporado em um arquivo swf do Adobe AS3. |
 | `tif-alpha` | TIFF com canal alfa. |
 | `tif` | TIFF. |
 | `webp-alpha` | WebP com e sem perdas com canal alfa. |
@@ -57,15 +57,15 @@ Formato de imagem de resposta.
 |---|---|
 | `cmyk` | Retorna dados de imagem CMYK. |
 | `gray` | Retorna dados de imagem em tons de cinza. |
-| `rgb` | Retorna dados da imagem de RGB. |
+| `rgb` | Retornar dados de imagem do RGB. |
 
 *`compression`* - jpeg | com perdas | sem perda | lzw | nenhum | zip
 
 | *`compression`* | Descrição |
 |---|---|
-| `jpeg` | compactação JPEG (com perda). |
-| `lossy` | compactação JPEG 2000 e JPEG XR (com perda) e WebP. |
-| `lossless` | Compressão HEIC, JPEG 2000 e JPEG XR (sem perdas) e WebP. |
+| `jpeg` | Compactação de JPEG (com perda). |
+| `lossy` | Compactação JPEG 2000 e JPEG XR (com perdas) e WebP. |
+| `lossless` | Compactação HEIC, JPEG 2000, JPEG XR (sem perdas) e WebP. |
 | `lzw` | Compressão LZW (Lempel-Ziv-Welch) (sem perdas). |
 | `none` | Não compactado. |
 | `zip` | Compactação &quot;Deflate&quot; (sem perda). |
@@ -77,7 +77,7 @@ Formato de imagem de resposta.
 
 * *`compression`* é permitido somente se `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` ou `jpegxr-alpha` for especificado como *`format`*. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
 
-Você pode usar `qlt=` para definir as opções de codificação de JPEG para estes formatos: JPEG, TIFF com compactação de JPEG, PDF com compactação de JPEG e SWF. WebP, JPEG 2000 e JPEG XR também usam `qlt=`, mas os valores resultam em qualidades diferentes para os diferentes formatos. Use `quantize=` se `fmt=gif` ou `fmt=gif-alpha`. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
+Você pode usar o `qlt=` para definir as opções de codificação do JPEG para estes formatos: JPEG, TIFF com compactação JPEG, PDF com compactação JPEG e SWF. WebP, JPEG 2000 e JPEG XR também usam `qlt=`, mas os valores resultam em qualidades diferentes para os diferentes formatos. Use `quantize=` se `fmt=gif` ou `fmt=gif-alpha`. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
 
 O componente de 8 bits por pixel é retornado para todos os *`formats`* e *`pixelTypes`* (8 bits por pixel para o GIF).
 
@@ -168,7 +168,7 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, cinza </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Não </p> <p> <p>Observação: o Flash Player Adobe ignora perfis ICC incorporados. </p> </p> </td> 
+   <td colname="col4"> <p>Não </p> <p> <p>Observação: o Adobe Flash Player ignora perfis ICC incorporados. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> atributo::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -176,7 +176,7 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;imagem/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>somente 'tiff'; 'tiff-alpha' não é compatível com a compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> será ignorado, a menos que a compactação </span> de <span class="varname"> esteja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>somente 'tiff'; 'tiff-alpha' não é compatível com a compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> será ignorado, a menos que a compactação <span class="varname"> de </span> esteja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
@@ -212,7 +212,7 @@ Solicitar atributo. Aplica-se independentemente da configuração atual da camad
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Solicitar o canal alfa para a mesma imagem como uma imagem TIFF em tons de cinza:**
+**Solicitar o canal alfa para a mesma imagem como uma imagem de TIFF em tons de cinza:**
 
 ` http:// *`servidor`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
@@ -220,7 +220,7 @@ Solicitar atributo. Aplica-se independentemente da configuração atual da camad
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Converter a mesma imagem em cmyk usando um perfil ICC diferente e incorporar o perfil na imagem TIFF:**
+**Converta a mesma imagem em cmyk usando um perfil ICC diferente e incorpore o perfil na imagem do TIFF:**
 
 ` http:// *`servidor`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 

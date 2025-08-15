@@ -31,7 +31,7 @@ As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Seleciona a codificação de JPEG com perdas para dados de imagem em RGB e tons de cinza incorporados no arquivo de saída, em vez de PNG sem perdas. As imagens com alfa (RGBA) são sempre salvas usando a codificação PNG. <span class="varname"> ival </span> especifica a qualidade do JPEG (1...100); recomenda-se 85 ou superior. O padrão é <span class="codeph"> -jpegquality 0 </span>, que seleciona a codificação PNG. </p> </td> 
+  <td class="stentry"> <p>Seleciona a codificação com perda do JPEG para dados de imagem do RGB e em tons de cinza incorporados no arquivo de saída, em vez de PNG sem perdas. As imagens com alfa (RGBA) são sempre salvas usando a codificação PNG. <span class="varname"> ival </span> especifica a qualidade do JPEG (1...100); recomenda-se 85 ou superior. O padrão é <span class="codeph"> -jpegquality 0 </span>, que seleciona a codificação PNG. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> caminho </span> </span> </p> </td> 
@@ -39,7 +39,7 @@ As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> val </span> </span> </p> </td> 
-  <td class="stentry"> <p>Diminua a prioridade do processo <span class="filepath"> vntc </span>. Este processo pode ser usado para que o <span class="filepath"> vntc </span> não ocupe uma CPU inteira durante o processamento de uma vinheta. Ele permite que o sistema operacional dê mais tempo a outros processos mais importantes. <span class="varname"> val </span> especifica a porcentagem de prioridade mais baixa (0..100). O padrão é <span class="codeph"> -lowerpriority 0 </span>, que não diminui a prioridade do processo <span class="filepath"> vntc </span>. </p> </td> 
+  <td class="stentry"> <p>Diminua a prioridade do processo <span class="filepath"> vntc </span>. Esse processo pode ser usado para que o <span class="filepath"> vntc </span> não assuma um CPU inteiro durante o processamento de uma vinheta. Ele permite que o sistema operacional dê mais tempo a outros processos mais importantes. <span class="varname"> val </span> especifica a porcentagem de prioridade mais baixa (0..100). O padrão é <span class="codeph"> -lowerpriority 0 </span>, que não diminui a prioridade do processo <span class="filepath"> vntc </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> ival </span> </span> </p> </td> 
@@ -59,7 +59,7 @@ As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> quantia </span> <span class="varname"> raio </span> <span class="varname"> limite </span> </span> </p> </td> 
-  <td class="stentry"> <p>Define os parâmetros de unsharp-masking. Ignorado se <span class="codeph"> -sharpen </span> estiver definido como 0 ou 1; necessário se <span class="codeph"> -sharpen </span> estiver definido como 2 ou 3. A <span class="varname"> quantidade </span> é um valor real no intervalo 0.0...500.0, o <span class="varname"> raio </span> é um valor real no intervalo 0.0...10.0, e o </span> limite <span class="varname"> é um número inteiro de 0 a 255. Consulte a descrição de <span class="codeph"> op_usm= </span> na Referência do protocolo de disponibilização de imagens para obter mais informações. </p> </td> 
+  <td class="stentry"> <p>Define os parâmetros de unsharp-masking. Ignorado se <span class="codeph"> -sharpen </span> estiver definido como 0 ou 1; necessário se <span class="codeph"> -sharpen </span> estiver definido como 2 ou 3. A <span class="varname"> quantidade </span> é um valor real no intervalo 0.0...500.0, o <span class="varname"> raio </span> é um valor real no intervalo 0.0...10.0, e o <span class="varname"> limite </span> é um número inteiro de 0 a 255. Consulte a descrição de <span class="codeph"> op_usm= </span> na Referência do protocolo de disponibilização de imagens para obter mais informações. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 

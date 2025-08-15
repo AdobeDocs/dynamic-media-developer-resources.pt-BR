@@ -24,7 +24,7 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->Todas as solicitações de POST para um trabalho de upload devem se originar do mesmo endereço IP.
+>Todas as solicitações POST para um trabalho de upload devem se originar do mesmo endereço IP.
 
 **URLs de acesso para regiões do Dynamic Media**
 
@@ -61,14 +61,14 @@ O trabalho de carregamento consiste em um ou mais POSTs HTTP que usam um `jobHan
 
 >[!NOTE]
 >
->Todas as solicitações de POST para um trabalho de upload devem se originar do mesmo endereço IP.
+>Todas as solicitações POST para um trabalho de upload devem se originar do mesmo endereço IP.
 
-|  Parte de formulário do POST do HTTP  |  Descrição  |
+|  Parte de formulário HTTP POST  |  Descrição  |
 |---|---|
 | `auth`  |   Obrigatório. Um documento de cabeçalho de autenticação XML que especifica informações de autenticação e do cliente. Consulte **Solicitar autenticação** em [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Opcional. Você pode incluir um ou mais arquivos para fazer upload com cada solicitação POST. Cada parte do arquivo pode incluir um parâmetro de nome de arquivo no cabeçalho Content-Disposition usado como nome de arquivo de destino no IPS se nenhum parâmetro `uploadPostParams/fileName` for especificado. |
 
-|  Parte de formulário do POST do HTTP   |  nome do elemento uploadPostParams   |  Tipo   |  Descrição   |
+|  Parte de formulário HTTP POST   |  nome do elemento uploadPostParams   |  Tipo   |  Descrição   |
 |---|---|---|---|
 | `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento)   |   `companyHandle`  |  `xsd:string`  | Obrigatório. Processe a empresa para a qual o arquivo está sendo carregado.  |
 | `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` é obrigatório. Nome do trabalho de upload.  |
@@ -86,13 +86,13 @@ Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca23
 
 Embora você possa supor que o parâmetro `uploadParams` possa mudar para arquivos individuais como parte do mesmo trabalho, esse não é o caso. Use os mesmos `uploadParams` parâmetros para o trabalho inteiro.
 
-A solicitação de POST inicial para um novo trabalho de carregamento deve especificar o parâmetro `jobName`, de preferência usando um nome de trabalho exclusivo para simplificar a sondagem de status de trabalho subsequente e as consultas de log de trabalho. Solicitações POST adicionais para o mesmo trabalho de carregamento devem especificar o parâmetro `jobHandle` em vez de `jobName`, usando o valor `jobHandle` retornado da solicitação inicial.
+A solicitação POST inicial para um novo trabalho de carregamento deve especificar o parâmetro `jobName`, de preferência usando um nome de trabalho exclusivo para simplificar a sondagem de status de trabalho subsequente e as consultas de log de trabalho. Solicitações POST adicionais para o mesmo trabalho de carregamento devem especificar o parâmetro `jobHandle` em vez de `jobName`, usando o valor `jobHandle` retornado da solicitação inicial.
 
-A solicitação de POST final para um trabalho de carregamento deve definir o parâmetro `endJob` como true para que nenhum arquivo futuro seja POST para esse trabalho. Por sua vez, isso permite que a tarefa seja concluída imediatamente após todos os arquivos POSTed serem assimilados. Caso contrário, a tarefa expirará se nenhuma solicitação de POST adicional for recebida em 30 minutos.
+A solicitação POST final para um trabalho de carregamento deve definir o parâmetro `endJob` como true para que nenhum arquivo futuro seja POST para esse trabalho. Por sua vez, isso permite que a tarefa seja concluída imediatamente após todos os arquivos POSTed serem assimilados. Caso contrário, a tarefa expirará se nenhuma solicitação POST adicional for recebida em 30 minutos.
 
 ## Resposta de UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Para uma solicitação POST bem-sucedida, o corpo da resposta é um documento XML `uploadPostReturn`, conforme especificado pelo XSD em:
+Para uma solicitação POST bem-sucedida, o corpo da resposta é um documento XML `uploadPostReturn`, como o XSD especifica no seguinte:
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -178,7 +178,7 @@ Content-Transfer-Encoding: binary
 --O9-ba7tieRtqA4QRSaVk-eDq6658SPrYfvUcJ--
 ```
 
-## Exemplo de resposta de POST - sucesso {#section-0d515ba14c454ed0b5196ac8d1bb156e}
+## Exemplo de resposta POST - sucesso {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 
@@ -192,7 +192,7 @@ Server: Unknown
 </uploadPostReturn>
 ```
 
-## Exemplo de resposta de POST - erro {#section-efc32bb371554982858b8690b05090ec}
+## Exemplo de resposta POST - erro {#section-efc32bb371554982858b8690b05090ec}
 
 ```{.line-numbers}
 HTTP/1.1 200 OK 

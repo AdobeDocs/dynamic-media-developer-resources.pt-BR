@@ -52,12 +52,12 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>JPEG com perda incorporado em um arquivo swf do Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG com perda incorporado em um arquivo Macromedia swf. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf-alpha </p> </td> 
-  <td class="stentry"> <p>JPEG com perdas e uma Máscara compactada por deflação incorporada a um arquivo swf do Macromedia. </p> </td> 
+  <td class="stentry"> <p>JPEG com perdas e uma Máscara compactada por deflação incorporada a um arquivo Macromedia swf. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -77,12 +77,12 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif-alpha </p> </td> 
-  <td class="stentry"> <p>GIF com 255 cores mais transparência de cores-chave. </p> </td> 
+  <td class="stentry"> <p>GIF com 255 cores, além de transparência de cores-chave. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
   <td class="stentry"> <p>rgb </p> </td> 
-  <td class="stentry"> <p>Retorna dados da imagem de RGB. </p> </td> 
+  <td class="stentry"> <p>Retornar dados de imagem do RGB. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -112,7 +112,7 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>compactação JPEG (com perda). </p> </td> 
+  <td class="stentry"> <p>Compactação de JPEG (com perda). </p> </td> 
  </tr> 
 </table>
 
@@ -120,7 +120,7 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
 
 *`compression`* Permitido somente se tif, tif-alpha ou PDF for especificado como *`format`*. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
 
-`qlt-` Define as opções de codificação de JPEG para estes formatos: JPEG, TIFF com compactação de JPEG, PDF com compactação de JPEG e arquivo SWF. Use `quantize=` se `fmt=gif` ou `fmt=gif-alpha`. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
+`qlt-` Define as opções de codificação do JPEG para estes formatos: JPEG, TIFF com compactação JPEG, PDF com compactação JPEG e arquivo SWF. Use `quantize=` se `fmt=gif` ou `fmt=gif-alpha`. Consulte as descrições do comando para obter detalhes. Os outros formatos não têm opções que podem ser definidas.
 
 Oito bits por componente de pixel são retornados para todos os formatos e tipos de pixel.
 

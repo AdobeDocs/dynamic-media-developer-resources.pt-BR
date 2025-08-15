@@ -18,7 +18,7 @@ Caminho do arquivo de imagem. Caminho relativo e nome de um arquivo de imagem de
 
 O servidor combina esse valor com `attribute::RootPath` para criar o caminho real do arquivo de imagem. Também pode ser um caminho absoluto.
 
-Usado para especificar o arquivo de imagem de textura para materiais de textura, gabinete e revestimento de janelas, e o arquivo de imagem RGB ou RGBA para materiais de borda de decalque e parede. Nem todos os materiais de revestimento de gabinetes e janelas exigem uma imagem de textura repetível separada.
+Usado para especificar o arquivo de imagem de textura para textura, gabinete e materiais de revestimento de janelas, e o arquivo de imagem RGB ou RGBA para materiais de borda de decalque e parede. Nem todos os materiais de revestimento de gabinetes e janelas exigem uma imagem de textura repetível separada.
 
 ## Propriedades {#section-8c12ea24f21d4472be677581893e6681}
 
@@ -28,7 +28,7 @@ String de texto. Necessário para materiais de textura e decalque, opcional para
 
 A Renderização de imagem é compatível com os mesmos formatos de imagem de origem que o Dynamic Media Image Serving.
 
-Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de multiresolução PTIFF (Dynamic Media pyramid TIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
+Os aplicativos que exigem dados de imagem em várias resoluções diferentes têm melhor desempenho ao usar o formato de várias resoluções PTIFF (Dynamic Media pyramid TIFF). O Servidor de imagens inclui o utilitário Conversor de imagens (IC), que cria imagens PTIFF de qualquer formato compatível.
 
 Consulte a descrição do utilitário IC na documentação do Servidor de imagens para obter uma lista completa dos formatos de arquivo suportados.
 

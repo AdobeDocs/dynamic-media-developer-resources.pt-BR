@@ -21,7 +21,7 @@ Colorir imagem. Colore os dados da imagem, preservando sombras e realces.
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> cor </span> </p> </td> 
-  <td class="stentry"> <p>Cor do RGB de substituição. </p> </td> 
+  <td class="stentry"> <p>Substituição de cor do RGB. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph">de </span> </p> </td> 
@@ -32,7 +32,7 @@ Colorir imagem. Colore os dados da imagem, preservando sombras e realces.
   <td class="stentry"> <p>Habilitar compensação automática de brilho (padrão). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> Contraste </span> de <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> Contraste <span class="varname"> de </span> </p> </td> 
   <td class="stentry"> <p>Intervalo de contraste (0 a 100 reais); defina como 0 para preservar o contraste de entrada. </p> </td> 
  </tr> 
 </table>
@@ -45,7 +45,7 @@ Além dos ajustes de brilho e contraste internos, `op_brightness=` e `op_contras
 
 >[!NOTE]
 >
->Os algoritmos de coloração usam apenas as informações de luminosidade nos dados da imagem. Essa conversão em tons de cinza é simples e não gerenciada por cores. `op_colorize` sempre gera dados de RGB, mesmo se a entrada estiver em tons de cinza ou CMYK.
+>Os algoritmos de coloração usam apenas as informações de luminosidade nos dados da imagem. Essa conversão em tons de cinza é simples e não gerenciada por cores. `op_colorize` sempre gera dados do RGB, mesmo se a entrada estiver em tons de cinza ou CMYK.
 
 ## Propriedades {#section-c0f8bd424b864153a1108f384939f55b}
 

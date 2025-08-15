@@ -67,7 +67,7 @@ Sintaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:InDesignOptions</span> </td> 
-   <td colname="col3"> Opções para carregar arquivos InDesign no servidor. </td> 
+   <td colname="col3"> Opções para fazer upload de arquivos InDesign no servidor. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 

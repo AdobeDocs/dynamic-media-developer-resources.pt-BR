@@ -1,6 +1,6 @@
 ---
 title: qlt
-description: qualidade do JPEG. Especifica atributos de codificação de JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+description: Qualidade do JPEG. Especifica atributos de codificação do JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 # qlt{#qlt}
 
-qualidade do JPEG. Especifica atributos de codificação de JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
+Qualidade do JPEG. Especifica atributos de codificação do JPEG para controlar o nível de compactação. Isso, por sua vez, varia o tamanho do arquivo (quantidade de dados de resposta) e, indiretamente, a qualidade visual da imagem resultante.
 
 ` qlt= *`qualidade`*[, *`croma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> qualidade </span> </p> </td> 
-  <td class="stentry"> <p>qualidade de codificação JPEG (1...100 int). </p> </td> 
+  <td class="stentry"> <p>Qualidade de codificação do JPEG (1...100 int). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> croma </span> </p> </td> 
-  <td class="stentry"> <p>Redução de resolução de cromaticidade de JPEG (0=normal, 1=desabilitado); opcional, o padrão é 0. </p> </td> 
+  <td class="stentry"> <p>Redução da resolução de cromaticidade de JPEG (0=normal, 1=desabilitado); opcional, o padrão é 0. </p> </td> 
  </tr> 
 </table>
 
 Valores *`quality`* mais altos aumentam o tamanho e a qualidade do arquivo, valores mais baixos diminuem os tamanhos dos arquivos e reduzem a qualidade da imagem aparente. Valores acima de 90 geralmente geram imagens indistinguíveis da imagem descompactada.
 
-Defina o sinalizador *`chroma`* para desativar a redução de resolução de cromaticidade de RGB usada por codificadores de JPEG típicos. Isso pode aumentar a nitidez percebida das arestas em uma imagem quando a aresta é definida por uma alteração no matiz em vez do brilho. A definição desse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente indefinido.
+Defina o sinalizador *`chroma`* para desabilitar a redução de resolução de cromaticidade de RGB usada por codificadores JPEG típicos. Isso pode aumentar a nitidez percebida das arestas em uma imagem quando a aresta é definida por uma alteração no matiz em vez do brilho. A definição desse sinalizador pode causar um pequeno aumento no tamanho do arquivo. Experimente essa configuração se o texto parecer ligeiramente indefinido.
 
 ## Propriedades {#section-925a44cbdc9042db8d4eb149cd073d21}
 

@@ -18,7 +18,7 @@ comando URL para o Visualizador de Vídeo Interativo.
 
 `interactivedata= *`arquivo`*`
 
-Os dados interativos associam determinadas regiões de tempo no conteúdo do vídeo aos dados do produto que são exibidos posteriormente nas amostras interativas ao lado do vídeo. Ele também está associado ao painel de chamada para ação exibido na conclusão da reprodução do vídeo. Ele também fornece um título para o vídeo interativo exibido no painel de chamada para ação.
+Os dados interativos associam determinadas regiões de tempo no conteúdo do vídeo aos dados do produto que são exibidos posteriormente nas amostras interativas ao lado do vídeo. Também está associado ao painel do call-to-action exibido na conclusão da reprodução do vídeo. Ele também fornece um título para o vídeo interativo exibido no painel do call-to-action.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 

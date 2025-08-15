@@ -21,7 +21,7 @@ Conversão de formato de navegador. Especifica se a funcionalidade de conversão
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> ligado|desligado </span> </p> </td> 
-  <td class="stentry"> <p>Especifica se a funcionalidade de conversão de formato do navegador - converter JPEG ou imagens PNG em formatos de arquivo específicos do navegador menores - é true ( <span class="codeph"> em </span>) ou false ( <span class="codeph"> off </span> para nenhuma conversão de formato específica do navegador). </p> </td> 
+  <td class="stentry"> <p>Especifica se a funcionalidade de conversão de formato do navegador - conversão de imagens JPEG ou PNG em formatos de arquivo específicos do navegador menores - é true ( <span class="codeph"> em </span>) ou false ( <span class="codeph"> off </span> para nenhuma conversão de formato específica do navegador). </p> </td> 
  </tr> 
 </table>
 
@@ -35,4 +35,4 @@ Solicitar atributo. Não tem efeito se não solicitar um arquivo JPEG ou PNG.
 
 ## Consulte também {#section-64b3f153c6d94ab58f46e77324697818}
 
-[Bfc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md#reference-5217a41d9d7447d6b0624077eb38d3de), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [rede](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=pt-BR)
+[Bfc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md#reference-5217a41d9d7447d6b0624077eb38d3de), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [rede](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

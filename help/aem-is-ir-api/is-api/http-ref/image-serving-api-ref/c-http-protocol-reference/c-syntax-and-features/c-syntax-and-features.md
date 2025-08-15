@@ -27,7 +27,7 @@ Os tópicos nesta seção descrevem a sintaxe e os recursos dos protocolos HTTP.
 * [Catálogos de imagens](r-image-catalogs.md)
 * [Conversão da ID do objeto](r-object-id-translation.md)
 * [Localização da cadeia de caracteres de texto](r-text-string-localization.md)
-* [suporte para SVG](r-svg-support.md)
+* [Suporte ao SVG](r-svg-support.md)
 * [Pré-processamento de solicitação](r-request-preprocessing.md)
 * [Mapas de imagem](r-image-maps.md)
 * [Gerenciamento de cores do Servidor de imagens](r-color-management.md)

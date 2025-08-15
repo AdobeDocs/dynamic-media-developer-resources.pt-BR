@@ -53,7 +53,7 @@ As solicitações que oferecem suporte ao formato de resposta JSONP permitem esp
 
 A sintaxe `<reqHandler>` é o nome do manipulador JS presente na resposta JSONP. Somente caracteres a-z, A-Z e 0-9 são permitidos. Opcional. O padrão é `s7jsonResponse`.
 
-O pacote Visualizadores do Servidor de imagens da Dynamic Media inclui um utilitário para solicitar e analisar dados formatados em JSONP do Servidor de imagens.
+O pacote de visualizadores do Dynamic Media Image Serving inclui um utilitário para solicitar e analisar dados formatados em JSONP do Image Serving.
 
 Consulte [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) para obter mais informações sobre o formato JSONP.
 

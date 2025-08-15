@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Determinado conteúdo que o eCatalog Viewer exibe está sujeito a localização, incluindo botões de zoom, botões de alteração de página, botão de miniatura, botão de tela cheia, botão de fechamento e botões da barra de rolagem.
 
-Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador especial do SDK do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para a localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
+Todo conteúdo textual no visualizador que pode ser localizado é representado por um identificador SDK especial do visualizador chamado SYMBOL. Qualquer SYMBOL tem um valor de texto associado ao padrão para a localidade em inglês ( `"en"`) fornecido com o visualizador pronto para uso, e também pode ter valores definidos pelo usuário definidos para quantas localidades forem necessárias.
 
 Quando o visualizador é iniciado, ele verifica o local atual para ver se há um valor definido pelo usuário para cada SYMBOL suportado no local. Se houver, ele usará o valor definido pelo usuário; caso contrário, ele voltará para o texto padrão pronto para uso.
 
@@ -294,11 +294,11 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Botão Compartilhar do facebook. </p> </td> 
+   <td colname="col2"> <p>Botão Compartilhar do Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Botão de compartilhamento do Twitter. </p> </td> 
+   <td colname="col2"> <p>Botão Compartilhar do Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -394,7 +394,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice espelhado de base zero na orientação paisagem, e <span class="codeph"> opcional YY </span> é um índice de página de base zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando a chamada de API </span> setAsset() <span class="codeph">. </p> </td> 
+   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice espelhado de base zero na orientação paisagem, e <span class="codeph"> opcional YY </span> é um índice de página de base zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando a chamada de API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -439,7 +439,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Define um valor do atributo ARIA </span> aria-label <span class="codeph"> para todo o painel de pesquisa. </p> </td> 
+   <td colname="col2"> <p>Define um valor do atributo ARIA <span class="codeph"> aria-label </span> para todo o painel de pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ Todos os arquivos de configuração estão no `install_folder/conf` e são edit�
 
 >[!NOTE]
 >
->A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso interno do servidor e não devem ser modificadas, a menos que instruídas pelo suporte técnico da Dynamic Media.
+>A maioria dos arquivos de configuração do servidor contém propriedades e valores adicionais que não estão descritos neste documento. Essas propriedades são para uso do servidor interno e não devem ser modificadas, a menos que instruídas pelo suporte técnico do Dynamic Media.
 
 Este documento discute as configurações dos seguintes arquivos de configuração:
 

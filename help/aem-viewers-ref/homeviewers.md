@@ -1,6 +1,6 @@
 ---
-title: Manual de referência do Adobe Dynamic Media Viewers
-description: Adobe Guia de referência de visualizadores do Dynamic Media para zoom básico, ecatalog, zoom, pesquisa ecatalog, flyout, zoom em linha, mídia mista, rotação, vídeo, carrossel, Dimensional, vídeo interativo, imagem interativa e visualizadores de vídeo 360.
+title: Guia de referência de visualizadores do Adobe Dynamic Media
+description: Guia de referência de visualizadores do Adobe Dynamic Media para zoom básico, ecatalog, zoom, pesquisa ecatalog, flyout, zoom em linha, mídia mista, rotação, vídeo, carrossel, Dimensional, vídeo interativo, imagem interativa e visualizadores de vídeo 360.
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: ad8ef5f3-684a-49e9-a21e-ececd8d3af5f

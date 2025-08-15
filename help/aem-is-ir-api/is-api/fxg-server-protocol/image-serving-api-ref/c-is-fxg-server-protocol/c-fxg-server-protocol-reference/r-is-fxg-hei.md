@@ -25,7 +25,7 @@ Altura da exibição. Especifica a altura da imagem de resposta.
  </tr> 
 </table>
 
-Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Selecione **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e insira seus valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve suas configurações e execute um Publish do Servidor de imagens para aplicar uma alteração.
+Os formatos de rasterização são renderizados usando o Tamanho de Visualização Padrão (ou a configuração DefaultPix). Selecione **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** e insira seus valores de Largura e Altura. Tamanhos menores fornecem melhor desempenho. Salve as configurações e execute uma publicação do Servidor de imagens para aplicar uma alteração.
 
 Se você aplicar um comando `scale=1`, uma solicitação de formato rasterizado será renderizada no tamanho especificado no FXG.
 

@@ -37,7 +37,7 @@ Usando esse comando, o Servidor de Imagens pode fornecer imagens grandes por mei
 
 >[!NOTE]
 >
->Para obter melhores resultados, quando a compactação de JPEG é usada, o tamanho da faixa ou do bloco deve ser um múltiplo do tamanho do bloco de codificação de JPEG (16x16 pixels).
+>Para obter melhores resultados, quando a compactação JPEG é usada, o tamanho da faixa ou do bloco deve ser um múltiplo do tamanho do bloco de codificação JPEG (16x16 pixels).
 
 ## Exemplo {#section-932fcfcb41d74a29bc929e4430c49601}
 

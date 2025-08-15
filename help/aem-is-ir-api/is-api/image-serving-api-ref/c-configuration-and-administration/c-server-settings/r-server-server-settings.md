@@ -52,7 +52,7 @@ Alguns sistemas operacionais têm modelos de processos com uma alta sobrecarga d
 
 ## IS::NumberOfTextServers - Número de Instâncias do Servidor de Texto {#section-971e20a90c1a473598fba738ed95671a}
 
-O número máximo de renderizadores de texto que ficam ativos simultaneamente. 0 (padrão) é equivalente a 1,5 vez o número de núcleos de CPU disponíveis.
+O número máximo de renderizadores de texto que ficam ativos simultaneamente. 0 (padrão) é equivalente a 1,5 vez o número de núcleos do CPU disponíveis.
 
 ## IS::TextServerTcpPortRange - Portas de Comunicação do Servidor de Texto {#section-a13465de88ed4df09931e5ba840c1942}
 

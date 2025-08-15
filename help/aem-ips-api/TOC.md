@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API do sistema de produção de imagens Dynamic Media
+user-guide-title: API do sistema de produção de imagens do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: A API do Serviço da Web IPS (Sistema de Produção de Imagens) permite que aplicativos externos e desenvolvedores de terceiros acessem programaticamente os ativos e funcionalidades do IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
@@ -11,9 +11,9 @@ ht-degree: 0%
 ---
 
 
-# API do sistema de produção de imagens Dynamic Media {#image-production-api}
+# API do sistema de produção de imagens do Dynamic Media {#image-production-api}
 
-+ [Sobre a API do sistema de produção de imagens do Dynamic Media](c-overview.md)
++ [Sobre a API do sistema de produção de imagem do Dynamic Media](c-overview.md)
 + [Chamadas obsoletas](c-deprecated-calls.md)
 + [Versões WSDL do Serviço Web IPS](c-wsdl-versions.md)
 + Métodos de operação {#operation-methods}
@@ -397,7 +397,7 @@ ht-degree: 0%
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [DefiniçãoAlvoZoom](types/c-data-types/r-zoom-target-definition.md)
    + [MatrizDeDefiniçãoDeDestinoDeZoom](types/c-data-types/r-zoom-target-definition-array.md)
-+ Constantes de cadeia de caracteres {#sting-constants}
++ Constantes de sequência {#sting-constants}
    + [Constantes de sequência](string-constants/c-string-constants/c-string-constants.md)
    + [Estados de Trabalho Ativos](string-constants/c-string-constants/r-active-job-states.md)
    + [Campos do sistema de pesquisa de ativos](string-constants/c-string-constants/r-asset-search-system-fields.md)
@@ -425,10 +425,10 @@ ht-degree: 0%
    + [Modos de nomeação de camada do Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modos do PostScript Colorspace](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Classes de perfil](string-constants/c-string-constants/r-profile-classes.md)
-   + [Estado do Publish](string-constants/c-string-constants/r-publish-state.md)
+   + [Publicar estado](string-constants/c-string-constants/r-publish-state.md)
    + [Tipos de conjunto de propriedades](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexto do Publish](string-constants/c-string-constants/r-publish-context.md)
-   + [Tipos de Publish](string-constants/c-string-constants/r-publish-types.md)
+   + [Contexto de publicação](string-constants/c-string-constants/r-publish-context.md)
+   + [Tipos de publicação](string-constants/c-string-constants/r-publish-types.md)
    + [Forma da Região](string-constants/c-string-constants/r-region-shape.md)
    + [Modos de Correspondência de Pesquisa](string-constants/c-string-constants/r-search-match-modes.md)
    + [Classificar direções](string-constants/c-string-constants/r-sort-directions.md)

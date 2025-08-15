@@ -23,6 +23,6 @@ Sintaxe
 | Nome | Tipo | Descrição |
 |---|---|---|
 | serverName | `xsd:string` | Nome do servidor que possui o histórico de publicação. |
-| contextName | `xsd:string` | Nome do contexto do histórico do Publish. |
-| publishFormat | `xsd:string` | formato Publish. |
+| contextName | `xsd:string` | Nome do contexto do histórico de publicação. |
+| publishFormat | `xsd:string` | Formato de publicação. |
 | lastPublished | `xsd:dateTime` | Data e hora da última publicação do ativo. |

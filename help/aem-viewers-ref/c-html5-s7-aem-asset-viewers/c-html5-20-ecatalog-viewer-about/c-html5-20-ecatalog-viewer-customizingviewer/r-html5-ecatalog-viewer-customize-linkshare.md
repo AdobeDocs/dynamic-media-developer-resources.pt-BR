@@ -243,7 +243,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 .s7ecatalogviewer .s7linkdialog .s7closebutton
 ```
 
-**Propriedades CSS do botão Fechar &#x200B;**
+**Propriedades CSS do botão Fechar **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +330,7 @@ O rodapé da caixa de diálogo consiste em um botão Cancelar. O contêiner de r
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Propriedades CSS do rodapé da caixa de diálogo &#x200B;**
+**Propriedades CSS do rodapé da caixa de diálogo **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +531,7 @@ A área principal da caixa de diálogo, entre o cabeçalho e o rodapé, contém 
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea
 ```
 
-**Propriedades CSS da área de exibição da caixa de diálogo &#x200B;**
+**Propriedades CSS da área de exibição da caixa de diálogo **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +566,7 @@ Todo o conteúdo do formulário (como rótulos e campos de entrada) reside dentr
 .s7ecatalogviewer .s7linkdialog .s7dialogbody
 ```
 
-**Propriedades CSS do corpo da caixa de diálogo &#x200B;**
+**Propriedades CSS do corpo da caixa de diálogo **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -593,7 +593,7 @@ Todos os rótulos estáticos no formulário da caixa de diálogo são controlado
 
 Essa classe não é adequada para controlar o tamanho ou a posição do rótulo porque você pode aplicá-la a textos em vários locais da interface do usuário do formulário.
 
-**Propriedades CSS do rótulo da caixa de diálogo. &#x200B;**
+**Propriedades CSS do rótulo da caixa de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

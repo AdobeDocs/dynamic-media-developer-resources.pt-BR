@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Análise de JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade.
+description: Verificação progressiva do JPEG. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # pscan{#pscan}
 
-Análise de JPEG progressiva. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade. À medida que a digitalização continua, ela se torna mais clara à medida que os dados da imagem são baixados. Esse parâmetro permite que você defina o número de digitalizações que são feitas (3, 4 ou 5) para a imagem inteira aparecer.
+Verificação progressiva do JPEG. O JPEG progressivo exibe uma imagem de forma que inicialmente mostra uma foto indefinida/de baixa qualidade em sua totalidade. À medida que a digitalização continua, ela se torna mais clara à medida que os dados da imagem são baixados. Esse parâmetro permite que você defina o número de digitalizações que são feitas (3, 4 ou 5) para a imagem inteira aparecer.
 
 `pscan=auto|3|4|5`
 
 A velocidade real de cada varredura depende da velocidade de transmissão do sistema do usuário e do computador que recebe e descompacta os dados.
 
-`Auto` usa as configurações de digitalização computadas pela biblioteca de JPEG independente e que dependem do modelo de cores. Os valores de `3`, `4`, `5` correspondem à configuração de Varredura encontrada no Adobe Photoshop quando você salva um arquivo JPEG como pjpeg (JPEG progressivo).
+`Auto` usa as configurações de digitalização computadas pela biblioteca independente do JPEG e que dependem do modelo de cores. Os valores de `3`, `4`, `5` correspondem à configuração de Verificação encontrada no Adobe Photoshop quando você salva um arquivo JPEG como pjpeg (progressive JPEG).
 
 Se `pscan` não estiver definido, o padrão será `auto`.
 

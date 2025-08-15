@@ -53,10 +53,10 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Visualizador de vídeo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* O modificador `IntialBitRate` só tem suporte com software HLS e reprodução HDS de Flash. Não funciona quando a reprodução está usando o reprodutor nativo.
+* O modificador `IntialBitRate` só tem suporte com o software HLS e Flash HDS playback. Não funciona quando a reprodução está usando o reprodutor nativo.
 * Reprodução progressiva OGG e WebM não suportada.
 * O dimensionamento do navegador faz com que o reprodutor de vídeo seja exibido em um tamanho incorreto (inclui configurações de Exibição do painel de controle do Windows®).
-* As buscas de vídeo usando o streaming HLS no Safari são inconsistentes.
+* As buscas de vídeo usando a transmissão do HLS no Safari são inconsistentes.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -70,6 +70,6 @@ Notas de compatibilidade para sistemas operacionais, navegadores e dispositivos 
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 ou posterior: as configurações do plug-in da Internet impedem a reprodução de vídeo do Flash.
-* As buscas de vídeo usando o streaming HLS no Safari são inconsistentes.
-* Não é possível buscar o fim do vídeo no Safari 6 usando o streaming HLS.
+* Safari 6.1 ou posterior: as configurações do plug-in da Internet impedem a reprodução de vídeo Flash.
+* As buscas de vídeo usando a transmissão do HLS no Safari são inconsistentes.
+* Não é possível buscar o fim do vídeo no Safari 6 usando a transmissão do HLS.

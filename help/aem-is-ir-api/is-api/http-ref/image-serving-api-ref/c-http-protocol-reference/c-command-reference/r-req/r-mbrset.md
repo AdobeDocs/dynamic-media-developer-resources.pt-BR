@@ -33,7 +33,7 @@ Retorna uma resposta text ou xml que contém uma lista de URLs (e taxas de bits 
 
 O requisito anterior, de que uma entrada de vídeo válida contenha um valor para `catalog::VideoBitRate`, foi relaxado. A entrada pode conter um valor para `catalog::VideoBitRate`*ou* `catalog::AudioBitRate`*ou* `catalog::TotalStreamBitRate`. Somente um deles precisa ser definido para que a entrada de vídeo seja válida. Observe que os requisitos para `catalog::Path` e uma extensão de arquivo de vídeo válida não foram alterados.
 
-As respostas são destinadas ao consumo por servidores de transmissão Apple e Flash e, portanto, estão estruturalmente em conformidade com essas especificações. As URLs são geradas usando os prefixos `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
+As respostas são destinadas ao consumo por Apple e Flash Streaming Servers e, portanto, estão estruturalmente em conformidade com essas especificações. As URLs são geradas usando os prefixos `attribute::HttpAppleStreamingContext` e `attribute::HttpFlashStreamingContext`.
 
 as respostas m3u8 contêm apenas arquivos mp4, se houver algum presente no conjunto de vídeos. Se nenhum arquivo mp4 estiver presente, essas respostas conterão apenas arquivos f4v. Se não houver arquivos mp4 ou f4v, a resposta estará vazia.
 

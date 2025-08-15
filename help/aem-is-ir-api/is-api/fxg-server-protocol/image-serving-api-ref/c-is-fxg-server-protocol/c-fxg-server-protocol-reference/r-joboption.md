@@ -1,5 +1,5 @@
 ---
-description: Aplique as opções de trabalho do PDF. Um arquivo de opções de trabalho ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
+description: Aplique as opções de tarefa do PDF. Um arquivo de opções de trabalho ou predefinição do PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como do PDF ou predefinições do PDF no InDesign.
 solution: Experience Manager
 title: joboption
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # joboption{#joboption}
 
-Aplique as opções de trabalho do PDF. Um arquivo de opções de trabalho ou predefinição de PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como PDF ou predefinições de PDF no InDesign.
+Aplique as opções de tarefa do PDF. Um arquivo de opções de trabalho ou predefinição do PDF é um arquivo gerado pelo Illustrator na caixa de diálogo de opções Salvar como do PDF ou predefinições do PDF no InDesign.
 
 ` joboption= *`valor`*`
 
@@ -25,7 +25,7 @@ Aplique as opções de trabalho do PDF. Um arquivo de opções de trabalho ou pr
  </tr> 
 </table>
 
-O arquivo de opções de trabalho pode ser carregado e publicado pelo IPS/Dynamic Media Classic. As opções de PDF contidas no arquivo de opções de trabalho são usadas quando o PDF é gerado.
+O arquivo de opções de trabalho pode ser carregado e publicado pelo IPS/Dynamic Media Classic. As opções de PDF contidas no arquivo de opções de trabalho são usadas quando a PDF é gerada.
 
 As seguintes opções são compatíveis no momento:
 

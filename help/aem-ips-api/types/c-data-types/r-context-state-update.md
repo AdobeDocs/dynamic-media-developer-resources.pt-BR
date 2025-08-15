@@ -51,4 +51,4 @@ Defina o estado de contexto de publicação de um ativo com `setAssetsContextSta
 
 >[!MORELIKETHIS]
 >
->* [Estado do Publish](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [Publicar Estado](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

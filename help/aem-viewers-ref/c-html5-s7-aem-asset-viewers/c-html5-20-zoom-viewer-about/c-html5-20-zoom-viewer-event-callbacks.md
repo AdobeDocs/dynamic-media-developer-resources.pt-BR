@@ -26,7 +26,7 @@ Os eventos do visualizador compatíveis incluem o seguinte:
 
    * `objID {String}` não usado atualmente.
    * `compClass {String}` não usado atualmente.
-   * `instName {String}` um nome de instância do componente do Visualizador do SDK que acionou o evento.
+   * `instName {String}` um nome de instância do componente SDK do Visualizador que acionou o evento.
    * Carimbo de data/hora do evento `timeStamp {Number}`.
    * `eventInfo {String}` carga do evento
 

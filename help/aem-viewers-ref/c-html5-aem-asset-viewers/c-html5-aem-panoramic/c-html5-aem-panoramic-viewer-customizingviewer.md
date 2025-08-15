@@ -34,10 +34,10 @@ Ao criar CSS personalizado, lembre-se de que o visualizador atribui a classe `.s
 
 ## Observações gerais sobre o estilo e conselhos {#section-95855dccbbc444e79970f1aaa3260b7b}
 
-* Todos os caminhos para ativos externos no CSS são resolvidos em relação ao local do CSS, não ao local da página do HTML do visualizador. Considere isso ao copiar o CSS padrão em um local diferente: pode ser necessário copiar os ativos padrão também ou atualizar caminhos no CSS personalizado.
+* Todos os caminhos para ativos externos no CSS são resolvidos em relação ao local do CSS, não ao local da página do visualizador do HTML. Considere isso ao copiar o CSS padrão em um local diferente: pode ser necessário copiar os ativos padrão também ou atualizar caminhos no CSS personalizado.
 * Você pode usar vários formatos para valores de cor compatíveis com CSS. Se a transparência for necessária, o formato `rgba(R,G,B,A)` é sugerido. Caso contrário, a transparência não é necessária `#RRGGBB` pode ser usada.
 
-Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não tem suporte para elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou de tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador, pois pode afetar o comportamento adequado dos componentes. Em vez disso, os seletores de CSS com a especificidade adequada devem ser usados para definir as propriedades de CSS documentadas neste guia de referência.
+Ao personalizar a interface do usuário do visualizador com CSS, o uso da regra `!IMPORTANT` não tem suporte para elementos do visualizador de estilo. Especificamente, a regra `!IMPORTANT` não deve ser usada para substituir qualquer estilo padrão ou em tempo de execução fornecido pelo visualizador ou pelo SDK do visualizador, pois pode afetar o comportamento adequado dos componentes. Em vez disso, os seletores de CSS com a especificidade adequada devem ser usados para definir as propriedades de CSS documentadas neste guia de referência.
 
 ## Visualizador panorâmico CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 

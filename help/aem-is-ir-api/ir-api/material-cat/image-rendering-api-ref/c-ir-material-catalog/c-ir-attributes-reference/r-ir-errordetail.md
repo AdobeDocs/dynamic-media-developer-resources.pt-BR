@@ -41,7 +41,7 @@ Os seguintes valores são permitidos:
 
 * O nível 0 é recomendado para servidores em tempo real que podem ser acessados publicamente.
 * O nível 2 é recomendado para servidores de preparo, controle de qualidade e desenvolvimento de aplicativos.
-* As informações de nível 3 podem ser úteis quando problemas forem relatados ao suporte técnico da Dynamic Media.
+* As informações de nível 3 podem ser úteis quando problemas forem relatados ao suporte técnico do Dynamic Media.
 
 ## Propriedades {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

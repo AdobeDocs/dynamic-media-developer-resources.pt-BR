@@ -1,6 +1,6 @@
 ---
 title: Sintaxe e recursos do protocolo HTTP
-description: Esta seção descreve a sintaxe do protocolo HTTP e apresenta recursos para a Renderização de imagem do Dynamic Media.
+description: Esta seção descreve a sintaxe do protocolo HTTP e os recursos de Renderização de imagem do Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Sintaxe e recursos do protocolo HTTP{#http-protocol-syntax-and-features}
 
-Esta seção descreve a sintaxe do protocolo HTTP e apresenta recursos para a Renderização de imagem do Dynamic Media.
+Esta seção descreve a sintaxe do protocolo HTTP e os recursos de Renderização de imagem do Dynamic Media.
 
 * [Sintaxe básica do protocolo HTTP de renderização de imagem](r-ir-basic-syntax.md)
 * [Visão geral do comando do protocolo HTTP de renderização de imagem](c-ir-command-overview/c-ir-command-overview.md)

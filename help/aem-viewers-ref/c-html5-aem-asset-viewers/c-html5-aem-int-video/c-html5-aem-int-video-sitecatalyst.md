@@ -1,6 +1,6 @@
 ---
 title: Suporte para rastreamento do Adobe Analytics
-description: O Visualizador HTML5 Video360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
+description: O Visualizador do HTML5 Video360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Suporte para rastreamento do Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-O Visualizador HTML5 Video360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
+O Visualizador do HTML5 Video360 é compatível com o rastreamento de Adobe Analytics pronto para uso.
 
 Para habilitar o rastreamento, passe o nome de predefinição da empresa correto como o parâmetro `config2`.
 
@@ -63,7 +63,7 @@ O visualizador rastreia os seguintes eventos de usuário do SDK:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TROCA </span> </p> </td> 
-   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando a API </span> do <span class="codeph"> setAsset(). </p> </td> 
+   <td colname="col2"> <p>quando um ativo é trocado no visualizador usando a API <span class="codeph"> do </span> setAsset(). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> JOGAR </span> </p> </td> 
