@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ Tipo de visualizador 511.
 
 ## URL de demonstração {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=pt-BR)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## Requisitos do sistema {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ O modo pop-up é o mais comum para dispositivos móveis. A página da Web carreg
 
 Você pode obter personalização visual aplicando CSS personalizado.
 
-Veja a seguir um exemplo do código HTML que abre o visualizador em uma nova janela:
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **Sobre o modo de incorporação de tamanho fixo e o modo de incorporação de design responsivo**
 
@@ -161,6 +167,7 @@ O caminho relativo tem a seguinte aparência:
 
    Ao mesmo tempo, o elemento de contêiner não deve necessariamente fazer parte do layout da página da Web ainda. Por exemplo, ela pode ser oculta usando o estilo `display:none` atribuído a ela. Nesse caso, o visualizador atrasa o processo de inicialização até o momento em que a página da Web traz o elemento de contêiner de volta ao layout. Quando essa funcionalidade ocorre, a carga do visualizador é retomada automaticamente.
 
+
    Este é um exemplo de criação de uma instância do visualizador, passando opções de configuração mínimas necessárias para o construtor e chamando o método `init()`. O exemplo considera `carouselViewer` como a instância do visualizador; `s7viewer` como o nome do espaço reservado `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` como a URL do Servidor de Imagens e `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` como o ativo:
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ O caminho relativo tem a seguinte aparência:
    }).init(); 
    </script>
    ```
+
 
    O código a seguir é um exemplo completo de uma página da Web trivial que incorpora o Visualizador do carrossel com um tamanho fixo:
 
@@ -206,7 +214,9 @@ O caminho relativo tem a seguinte aparência:
 
 **Incorporação responsiva de design com altura irrestrita**
 
-Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`. Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web. E sua altura é deixada irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
+Com a incorporação de design responsivo, a página da Web normalmente tem algum tipo de layout flexível em vigor que determina o tamanho do tempo de execução do contêiner do visualizador `DIV`.
+
+Para o exemplo a seguir, considere que a página da Web permite que o contêiner do visualizador `DIV` ocupe 40% do tamanho da janela do navegador da Web. E sua altura é deixada irrestrita. O código HTML da página da Web seria semelhante ao seguinte:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 A página de exemplos a seguir ilustra mais usos reais da incorporação responsiva de design com altura irrestrita:
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=pt-BR)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **Inserção de tamanho flexível com Largura e Altura Definidas**
 
 Na incorporação de tamanho flexível com largura e altura definidas, o estilo da página da Web é diferente. Ele fornece ambos os tamanhos para o `"holder"` DIV e centralizá-lo na janela do navegador. Além disso, a página da Web define o tamanho do elemento `HTML` e `BODY` como 100%.
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **Incorporando Usando API baseada em Setter**
 
 Em vez de usar a inicialização baseada em JSON, é possível usar a API baseada em setter e o construtor sem args. O uso deste construtor de API não aceita parâmetros e os parâmetros de configuração são especificados usando os métodos de API `setContainerId()`, `setParam()` e `setAsset()` com chamadas JavaScript separadas.
+
 
 O exemplo a seguir ilustra o uso da incorporação de tamanho fixo com a API baseada em setter:
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Consulte [Requisitos e pré-requisitos do sistema](../../c-system-requirements-a
 
 Esse visualizador funciona com ecatalogs e oferece suporte a mapas de imagem opcionais e ferramentas de compartilhamento em redes sociais. Ele tem ferramentas de zoom, ferramentas de navegação no catálogo, suporte para tela cheia, miniaturas e um botão de fechamento opcional. O visualizador também oferece suporte a ferramentas de compartilhamento em redes sociais, Impressão, Download e Favoritos. Ele foi projetado para funcionar em desktops e dispositivos móveis.
 
-## URL de demonstração {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+-->
 
 ## Utilização do eCatalog Viewer {#section-e6c68406ecdc4de781df182bbd8088b4}
 

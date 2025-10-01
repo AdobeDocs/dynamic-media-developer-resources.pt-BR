@@ -5,9 +5,9 @@ title: Referência de comando - Atributos de configuração
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ Os atributos de configuração são definidos como atributos diretamente em um e
 Opcional.
 
 URL da imagem fornecida pelo Servidor de imagens. Se a URL não estiver presente, a biblioteca usará o valor definido no atributo `src` como fallback. Esse atributo serve a imagem inicial e a imagem dinâmica que a biblioteca de imagens responsivas gerencia de locais diferentes.
-
-**Exemplo**
+<!--
+**Example** 
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -34,13 +35,15 @@ Se `data-src` estiver definido, `src` será opcional e poderá conter qualquer U
 
 Se `data-src` não estiver definido, `src` será obrigatório e deverá conter uma URL para a imagem fornecida pelo Servidor de imagens.
 
-**Exemplo**
+<!--
+**Example**
 
-Usando URI de dados para o atributo `src` e URL do Servidor de imagens para o atributo `data-src`:
+Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## pontos de interrupção de dados {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -52,23 +55,26 @@ Você pode usar qualquer comando com suporte no Servidor de Imagens, exceto os c
 
 Vários comandos do Servidor de imagens ou nomes de Predefinições de imagens são separados com o caractere &quot; `&`&quot;. Se um comando do Servidor de imagens tiver uma vírgula em seu valor, essa vírgula será substituída por `%2C`. Os nomes das Predefinições de imagem são colocados em cifrões ( `$`).
 
-**Exemplos**
+<!--
+**Examples**
 
-**Usando somente pontos de interrupção**
+**Using breakpoints only**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Usando comandos do Servidor de Imagens**
+**Using Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Usando predefinições de imagem**
+**Using Image Presets**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Usando predefinições de imagem e comandos do Servidor de imagens**
+**Using Image Presets & Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+-->
 
 ## modo de dados {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
