@@ -23,7 +23,7 @@ O Servidor de imagens está instalado como um Serviço do Windows.
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 Verifique a presença de &quot; `imageServer.`&quot; itens na resposta, o que indica que o Servidor de imagens está escutando.
 
