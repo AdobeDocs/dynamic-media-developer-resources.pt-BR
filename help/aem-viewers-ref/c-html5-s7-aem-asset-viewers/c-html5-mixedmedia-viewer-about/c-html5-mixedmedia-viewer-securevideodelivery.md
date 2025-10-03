@@ -34,7 +34,7 @@ Dependendo do método de publicação de vídeo do Dynamic Media usado no Adobe 
 
 -->
 
-Consulte também [(Vincular URLs ao Aplicativo Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+Consulte também [(Vincular URLs ao Aplicativo Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=pt-BR#dynamic).
 
 * Se você publicar um vídeo do Dynamic Media com código incorporado, adicionará `VideoPlayer.ssl` à lista de outros parâmetros de configuração do visualizador no trecho de código incorporado.
 
@@ -68,4 +68,4 @@ Consulte também [(Vincular URLs ao Aplicativo Web](https://experienceleague.ado
 
 -->
 
-Consulte também [(Incorporação do Vídeo em uma Página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Consulte também [(Incorporação do Vídeo em uma Página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=pt-BR#dynamic).
