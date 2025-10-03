@@ -5,9 +5,9 @@ title: Sobre a biblioteca de imagens responsiva
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -20,47 +20,46 @@ A Biblioteca de imagens responsiva é um módulo do JavaScript que ajusta dinami
 
 O caso de uso mais simples da Biblioteca de imagens responsiva é definir uma lista de valores de pontos de interrupção para a largura da imagem. Essa lista garante que a representação apropriada seja carregada e exibida quando uma imagem for redimensionada devido a alterações no layout da página da Web feitas por um usuário ao redimensionar a janela do navegador ou alterar a orientação do dispositivo. A biblioteca monitora continuamente o tamanho da imagem na tela e, sempre que uma nova largura de ponto de interrupção é atingida, ela obtém uma nova representação de imagem do Dynamic Media.
 
+<!--
+
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
-   <th colname="col1" class="entry"> <p>URL de demonstração </p> </th> 
-   <th colname="col2" class="entry"> <p>Descrição </p> </th> 
+   <th colname="col1" class="entry"> <p>Demo URL </p> </th> 
+   <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html?lang=pt-BR" scope="external" format="https"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html?lang=pt-BR </a> </p> <p> 
-     <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
-   <td colname="col2"> <p>Este é um exemplo simples onde a imagem responsiva está dentro de um container que ocupa 50% da largura da página da Web. Toda vez que a janela do navegador é redimensionada, a largura do contêiner muda. Quando a largura da imagem atinge um dos pontos de interrupção configurados, que são definidos como 200, 400, 600 e 800 pixels para fins ilustrativos, uma nova representação é baixada e exibida. O objetivo é evitar o carregamento de imagens grandes desnecessárias e economizar largura de banda na rede. </p> <p>Clique no URL para abrir a página da Web, redimensionar a janela do navegador e monitorar o tráfego de rede. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html" scope="external" format="https"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html </a> </p></td> 
+   <td colname="col2"> <p>The following is a simple example where the responsive image is within a container that takes 50% of the web page width. Every time the browser window is resized the container width changes. When the image width reaches one of the configured breakpoints-which are set at 200, 400, 600 and 800 pixels for illustrative purposes-a new rendition is downloaded and displayed. The goal is to avoid loading unnecessary large images and save network bandwidth. </p> <p>Click the URL so you open the web page, resize the browser window, and monitor network traffic. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html?lang=pt-BR" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html?lang=pt-BR </a> </p> <p> 
-     <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>O exemplo de Bootstrap a seguir ilustra o mesmo caso de uso em uma página da Web. De acordo com o Bootstrap CSS, a célula de layout à qual a imagem responsiva é adicionada pode ter uma das seguintes larguras: 360, 720 e 940 pixels. Esses valores são exatamente os que são passados como pontos de interrupção para a Biblioteca de imagens responsiva. Dessa forma, o Dynamic Media garante que a largura de banda da rede do cliente seja usada com eficiência. Além disso, também garante que a imagem seja exibida no tamanho exato necessário, considerando o layout da página da Web atual, sem que nenhum artefato visual seja dimensionado no navegador do lado do cliente. </p> <p>Clique no URL para abrir a página da Web, redimensione a janela do navegador para obter diferentes pontos de interrupção de layout e monitorar o tráfego de rede. </p> <p>Casos de uso mais avançados incluem a associação de diferentes Predefinições de imagem, comandos do Servidor de imagens, ou ambos, a diferentes valores de ponto de interrupção. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html </a> </p></td> 
+   <td colname="col2"> <p>The following Bootstrap example illustrates the same use case in a web page. According to Bootstrap CSS, the layout cell to which the responsive image is added can take one of the following widths: 360, 720 and 940 pixels. These values are exactly what is passed as breakpoints to the Responsive Image Library. As such, Dynamic Media ensures that the client's network bandwidth is used effectively. And, it also ensures that the image is displayed in the exact size needed-given the current web page layout-without any visual artifacts from scaling the client-side browser. </p> <p>Click the URL so you open the web page, resize the browser window to hit different layout breakpoints, and monitor network traffic. </p> <p>More advanced use cases include associating different Image Presets, or Image Serving commands, or both, with different breakpoint values. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html?lang=pt-BR" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html?lang=pt-BR</a> </p> <p> 
-     <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
-   <td colname="col2"> <p>Neste próximo exemplo, são usadas Predefinições de imagem de qualidade e formato de imagem diferentes para tamanhos de pontos de interrupção diferentes. Para um ponto de interrupção pequeno, uma predefinição de baixa qualidade é aplicada, o que força o Servidor de imagens a retornar a imagem do GIF compactada somente para seis cores. Um ponto de interrupção médio está usando uma Predefinição de imagem configurada para JPEG com alta compactação. O maior ponto de interrupção está associado a uma predefinição de imagem de alta qualidade usando PNG sem perdas. Esse método garante que imagens de alta qualidade sejam entregues a esses dispositivos, com base no pressuposto de que dispositivos com telas maiores têm maior largura de banda e poder de processamento. </p> <p>Clique no URL para abrir a página da Web, redimensione a janela do navegador da Web de maior para menor e observe como a qualidade da imagem diminui. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p></td> 
+   <td colname="col2"> <p>In this next example, Image Presets of different image quality and format for different breakpoint sizes are used. For a small breakpoint, a low-quality preset is applied which forces Image Serving to return the GIF image compressed to six colors only. A medium breakpoint is using an Image Preset configured for JPEG with high compression. The largest breakpoint is associated with a high-quality Image Preset using lossless PNG. Such method ensures that high-quality images are delivered to such devices, based on the assumption that devices with larger screens have greater bandwidth and processing power. </p> <p>Click the URL so you open the web page, resize the web browser window from larger to smaller and notice how the image quality degrades. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html?lang=pt-BR" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html?lang=pt-BR </a> </p> <p> 
-     <!--http://sasha.s7qa.com/jira-bugs/S7-7729/crops.html--> </p> </td> 
-   <td colname="col2"> <p>Além das Predefinições de imagem, é possível associar comandos específicos do Servidor de imagens a pontos de interrupção. O exemplo a seguir mostra como é possível cortar gradualmente a imagem do banner na região de interesse à medida que o tamanho da imagem na tela se torna menor. Aqui, o maior ponto de interrupção não tem comandos do Servidor de imagens, portanto, a imagem do banner é totalmente visível. No ponto de interrupção médio aplica corte moderado, tornando visível apenas o executor com o texto "Em execução". Em um ponto de interrupção pequeno, mais cortes são aplicados para que somente o produto seja exibido. </p> <p>Clique no URL para abrir a página da Web e redimensionar a janela do navegador. Observe como a imagem corta gradualmente à medida que passa de um tamanho maior para um menor. </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html </a> </p></td> 
+   <td colname="col2"> <p>In addition to Image Presets, it is possible to associate specific Image Serving commands with breakpoints. The following example shows how it is possible to gradually crop the banner image to the region of interest as the onscreen image size becomes smaller. Here, the largest breakpoint does not have any Image Serving commands at all, so the banner image is fully visible. At medium breakpoint applies moderate cropping, making only the runner with text "Running" visible. At small breakpoint, more cropping is applied so that only the product is shown. </p> <p>Click the URL so you open the web page and resize your browser window. Notice how the image crops gradually as you go from a larger to a smaller size. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html?lang=pt-BR" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html?lang=pt-BR </a> </p> <p> 
-     <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Você também pode usar os comandos do Servidor de imagens com os Modelos de servidor de imagens para controlar determinados parâmetros de modelo com base no tamanho da imagem. Neste próximo exemplo, um modelo de disponibilização de imagens é usado, onde o tamanho da fonte da sobreposição de texto é parametrizado usando o parâmetro <span class="codeph"> $fontsize </span>. A imagem responsiva é configurada para usar um tamanho de fonte maior para tamanhos de imagem menores para garantir que o texto sempre permaneça legível: </p> </td> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p></td> 
+   <td colname="col2"> <p>You can also use Image Serving commands with Image Serving Templates to control certain template parameters based on the image size. In this next example, an Image Serving Template is used where the font size of the text overlay is parameterized using <span class="codeph"> $fontsize </span> parameter. Responsive image is configured to use a larger font size for smaller image sizes to ensure that text always remains readable: </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ## Requisitos do sistema {#section-35ea9e9c79cc43d7bcefdc240340fba4}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenci
 
 **Para usar a Biblioteca de imagens responsiva**
 
-1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=pt-BR#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
+1. No Dynamic Media Classic, [crie uma Predefinição de imagem](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) caso planeje usar a biblioteca de Imagens responsivas com predefinições.
 
    Ao definir as Predefinições de imagem usadas com a Biblioteca de imagens responsiva, não use configurações que afetem o tamanho da imagem, como `wid=`, `hei=` ou `scl=`. Não especifique campos de tamanho na Predefinição de imagem. Em vez disso, deixe-os como valores em branco.
 1. Adicione o arquivo JavaScript da biblioteca à página da Web.
@@ -32,13 +32,13 @@ Para adicionar a Biblioteca de imagens responsiva a uma página da Web e gerenci
 
    Também é recomendável colocar a URL da imagem existente no atributo `data-src`. Em seguida, configure o atributo `src` existente para ter uma imagem GIF 1x1 codificada como URI de Dados. Ao fazer isso, o reduz o número de solicitações HTTP enviadas pela página da Web no momento do carregamento. Observe, no entanto, que se a SEO (otimização do mecanismo de pesquisa) for necessária, é melhor configurar um atributo `title` na instância da imagem.
 
-<!--
-   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
+
+   Este é um exemplo de definição do atributo `data-breakpoints` para a imagem e uso de um GIF 1x1 codificado como URI de Dados:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
--->
+
 
 1. Chame a função de API `s7responsiveImage` para cada instância de imagem gerenciada pela biblioteca.
 
@@ -58,8 +58,8 @@ A biblioteca é compatível com o trabalho simultâneo com muitas instâncias de
 
 É responsabilidade da página da Web estilizar o elemento de imagem para torná-lo flexível em tamanho. A própria biblioteca de imagens responsivas não diferencia imagens de tamanho fixo de imagens &quot;fluídas&quot;. Se aplicada a uma imagem de tamanho fixo, ela carrega a nova imagem apenas uma vez.
 
-<!--
-The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
+
+O código a seguir é um exemplo completo de uma página da Web trivial que tem uma única imagem fluida gerenciada pela Biblioteca de imagens responsiva. O exemplo contém um estilo CSS extra para tornar a imagem &quot;responsiva&quot; ao tamanho da janela do navegador da Web:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -84,9 +84,8 @@ The following code is a complete example of a trivial web page that has a single
   </script> 
  </body> 
 </html>
-
 ```
--->
+
 
 **Usando o Corte Inteligente**
 

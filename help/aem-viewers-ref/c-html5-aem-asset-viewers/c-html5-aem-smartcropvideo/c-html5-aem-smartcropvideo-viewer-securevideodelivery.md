@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: b809a11f-3c2d-4abd-b317-fabb36245b1b
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ Se o visualizador funcionar na configuração conforme descrito no início desta
 
 Dependendo do método de publicação de vídeo do Dynamic Media usado no Adobe Experience Manager, o atributo de configuração `SmartCropVideoPlayer.ssl` é aplicado de forma diferente, conforme demonstrado a seguir:
 
-* Se você publicar um vídeo do Dynamic Media com uma URL, anexe `SmartCropVideoPlayer.ssl` à URL. Por exemplo, para forçar a entrega de vídeo segura, você anexa `&SmartCropVideoPlayer.ssl=on` ao final do seguinte exemplo de URL do visualizador:
+* Se você publicar um vídeo do Dynamic Media com uma URL, anexe `SmartCropVideoPlayer.ssl` à URL.
+
+<!-- For example, to force secure video delivery, you append `&SmartCropVideoPlayer.ssl=on` to the end of the following viewer URL example: -->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/SmartCropVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Video&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&posterimage=/content/dam/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4&SmartCropVideoPlayer.ssl=on
   ```
 
-  Consulte também [Vincular URLs ao Aplicativo Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=pt-BR#dynamic).
+  -->
 
-* Se você publicar um vídeo do Dynamic Media com código incorporado, adicionará `SmartCropVideoPlayer.ssl` à lista de outros parâmetros de configuração do visualizador no trecho de código incorporado. Por exemplo, para forçar a entrega de vídeo HTTPS, você anexa `&SmartCropVideoPlayer.ssl=on` como no exemplo a seguir:
+Consulte também [Vincular URLs ao Aplicativo Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
+
+* Se você publicar um vídeo do Dynamic Media com código incorporado, adicionará `SmartCropVideoPlayer.ssl` à lista de outros parâmetros de configuração do visualizador no trecho de código incorporado.
+
+<!-- For example, to force HTTPS video delivery, you append `&SmartCropVideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```
   <style type="text/css"> 
@@ -57,4 +67,6 @@ Dependendo do método de publicação de vídeo do Dynamic Media usado no Adobe 
   </script>
   ```
 
-  Consulte também [Incorporação do vídeo em uma página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=pt-BR#dynamic).
+  -->
+
+Consulte também [Incorporação do vídeo em uma página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
