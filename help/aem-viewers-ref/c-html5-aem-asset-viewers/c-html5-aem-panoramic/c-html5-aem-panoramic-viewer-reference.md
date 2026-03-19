@@ -2,10 +2,11 @@
 title: Visualizador panorâmico
 description: HTML5 Panoramic Viewer é um visualizador de imagens que exibe uma imagem panorâmica. A finalidade deste visualizador é exibir um panorama esférico, também conhecido como imagem equiretangular. Suporta o movimento panorâmico automático e panorâmico por movimento giroscópico. Ele foi projetado para funcionar em desktops e dispositivos móveis. O modo de visualização de realidade virtual está disponível em dispositivos móveis compatíveis.
 keywords: responsivo
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -275,7 +276,7 @@ A página de exemplos a seguir ilustra mais o uso real de incorporação de desi
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=pt-BR)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

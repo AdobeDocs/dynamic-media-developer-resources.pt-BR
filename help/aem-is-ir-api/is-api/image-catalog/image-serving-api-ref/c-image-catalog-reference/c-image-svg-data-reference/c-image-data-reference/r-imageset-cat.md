@@ -5,9 +5,9 @@ title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Cada item em um conjunto de amostras básico consiste em uma referência a um re
 | `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
 |---|---|
 | `*`swatchItem`*` | `*`imageId`*[';' *`swatch`*]` |
-| `*`amostra`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`amostra`*` | `*`swatchId`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | Referência da imagem IS (catálogo/id) |
 | `*`swatchId`*` | Referência da imagem IS (catálogo/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`rótulo`*]'}'` |
@@ -61,7 +61,7 @@ Cada item em um conjunto de amostras hierárquico pode consistir em um item de a
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`swatchItem`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | Referência IS (catálogo/id) a um registro de catálogo que define um conjunto de amostras básico |
 
 **Conjuntos de rotação básicos**
@@ -76,7 +76,7 @@ Cada item em um conjunto de rotação bidimensional pode consistir em uma imagem
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | Referência IS (catálogo/id) a um registro de catálogo que define um conjunto de rotação básico |
 
 **Conjuntos de páginas**
@@ -93,12 +93,12 @@ Cada item em um conjunto de mídia pode consistir em uma imagem, um conjunto de 
 
 | `*`mediaSet`*` | `*`item`* &#42;[ , *`item`* ]` |
 |---|---|
-| `*`item`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserved`* ] ] ]` |
+| `*`item`*` | `{ *`itemVídeo`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`itemVídeo`*` | `*`vídeo`* ; *`swatchId`*` |
 | `*`recutItem`*` | `*`recorte`* ; *`swatchId`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| básico \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| rotação \| vídeo `]` |
 | `*`swatchId`*` | Id da imagem IS |
 | `*`vídeo`*` | Caminho do arquivo de vídeo/animação ou ID estática do catálogo |
 | `*`recortar`*` | Caminho do arquivo XML de definição do registro ou ID estática do catálogo |

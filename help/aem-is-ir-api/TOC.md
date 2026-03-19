@@ -4,7 +4,7 @@ user-guide-title: API de disponibilização e renderização de imagens do Dynam
 breadcrumb-title: API de disponibilização e renderização de imagens do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Veja a documentação sobre APIs de IS (Disponibilização de imagem) e IR (Renderização de imagem) e tecnologias relacionadas.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # API de disponibilização e renderização de imagens do Dynamic Media {#image-serving-api}
 
-+ [Página Inicial da API de Disponibilização e Renderização de Imagem do Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=pt-BR) -->
++ [Página inicial da API de disponibilização de imagens e renderização de imagens do Dynamic Media](homeisir.md)
 + [Sobre esta versão](r-about-this-release.md)
 + [Requisitos e pré-requisitos do sistema](r-requirements-and-prerequisites.md)
 + [Requisitos e recomendações de espaço em disco](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 0%
       + [Opções para arquivos de estilo de gabinete](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [Devoluções](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [Output](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->
