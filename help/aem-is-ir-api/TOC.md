@@ -4,9 +4,9 @@ user-guide-title: API de disponibilização e renderização de imagens do Dynam
 breadcrumb-title: API de disponibilização e renderização de imagens do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Veja a documentação sobre APIs de IS (Disponibilização de imagem) e IR (Renderização de imagem) e tecnologias relacionadas.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ ht-degree: 0%
       + [conjunto de regras](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [substituição](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [Proxy do servidor de imagens](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [Exemplos do servidor de imagens](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[Exemplos de Servidor de Imagens](is-api/image-serving-api-ref/r-examples-is.md)
    + Biblioteca de imagens estáticas responsivas {#responsive-static-image-library}
       + [Biblioteca responsiva de imagens estáticas](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [Uso da biblioteca de imagens responsiva](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -768,6 +768,6 @@ ht-degree: 0%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=pt-BR)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
