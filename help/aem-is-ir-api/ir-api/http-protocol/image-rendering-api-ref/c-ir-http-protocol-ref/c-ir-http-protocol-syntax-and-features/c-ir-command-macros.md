@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/cXLJJQ5CS-Apmq-8qYV-ew-lcvfRjoNfIbl2qyyKB6U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ As macros de comando fornecem atalhos nomeados para conjuntos de comandos.
 
 As macros são definidas em arquivos de definição de macro separados, que podem ser anexados a catálogos de materiais ou ao catálogo padrão.
 
-*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , &#39;-&#39;, &#39;_&#39; e &#39;.&#39; caracteres.
+*[!DNL name]* não diferencia maiúsculas de minúsculas e pode consistir em qualquer combinação de letras ASCII, números , caracteres &#39;-&#39;, &#39;_&#39; e &#39;.&#39;.
 
 Chame macros em qualquer lugar em uma solicitação depois do &#39;?&#39;, ou em qualquer lugar dentro de um campo `vignette::Modifier`. As macros só podem representar um ou mais comandos de Renderização de imagem e devem ser separadas de outros comandos com separadores &#39;&amp;&#39;.
 

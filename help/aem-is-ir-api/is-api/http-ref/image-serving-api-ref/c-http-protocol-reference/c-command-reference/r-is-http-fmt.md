@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/TZi2AdS9MK2A2WtCCJMmMRvwZ70Kdt2aeHOP--QtA4U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ Formato de imagem de resposta.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | alfa-da-web | webp
 
 | *`format`* | Descrição |
 |---|---|
@@ -59,7 +67,7 @@ Formato de imagem de resposta.
 | `gray` | Retorna dados de imagem em tons de cinza. |
 | `rgb` | Retornar dados de imagem do RGB. |
 
-*`compression`* - jpeg | com perdas | sem perda | lzw | nenhum | zip
+*`compression`* - jpeg | com perdas | sem perdas | lzw | nenhum | CEP
 
 | *`compression`* | Descrição |
 |---|---|
@@ -176,7 +184,7 @@ A tabela a seguir lista as combinações válidas de *`format`*e *`pixelType`*, 
    <td colname="col2"> <p>rgb, cinza, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;imagem/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Sim </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>somente 'tiff'; 'tiff-alpha' não é compatível com a compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> será ignorado, a menos que a compactação <span class="varname"> de </span> esteja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compactação </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>somente 'tiff'; 'tiff-alpha' não é compatível com a compactação jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> será ignorado, a menos que a compactação </span> de <span class="varname"> esteja definida como <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 

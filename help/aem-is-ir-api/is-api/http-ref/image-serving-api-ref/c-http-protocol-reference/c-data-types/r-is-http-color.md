@@ -5,10 +5,18 @@ title: cor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eba88ff0-877d-432e-bbd6-9172f5b460e9
-source-git-commit: 2ff380ad30911a85bc066ae53f0cb69360ed99e4
+TQID: 'https://experienceleague.adobe.com/3NfMrvwXTP9A-KoxjVPtps-0rhO5xNd04WUlrdCQEo8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: 456
+ht-degree: 8%
 
 ---
 
@@ -87,16 +95,16 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>255 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>0,100,200,200rs </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>0.100.200 </p> </td> 
+   <td> <p>0,100,200 </p> </td> 
    <td> <p>200 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
@@ -110,7 +118,7 @@ Alguns exemplos de especificadores de cores válidos e seu tipo de pixel, valor 
   <tr> 
    <td> <p>a0b1c2d3R </p> </td> 
    <td> <p>RGB </p> </td> 
-   <td> <p>160.177.194 </p> </td> 
+   <td> <p>160,177,194 </p> </td> 
    <td> <p>211 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 

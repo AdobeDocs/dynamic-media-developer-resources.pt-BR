@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/P9BzsjyNdKRnbyGUFIy-ALtM7nDPl97G7DSnhgOhIYo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: 292
 ht-degree: 0%
 
 ---
@@ -105,7 +113,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
   <td class="stentry"> <p>Domínios da Web com permissão para acessar imagens de resposta <span class="filepath"> swf</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ClientAddressFilter <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> de </a> </p></td> 
+  <td class="stentry"> <p>ClientAddressFilter </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> </p></td> 
   <td class="stentry"> <p>Filtro de endereço IP do cliente. </p></td> 
  </tr> 
 </table>
@@ -120,7 +128,7 @@ Os atributos a seguir são reconhecidos nos arquivos de atributos do catálogo.
   <td class="stentry"> <p>Configurações de renderização avançadas padrão. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Resolução <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> de </a> </p></td> 
+  <td class="stentry"> <p>Resolução </a> de <a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-resolution.md#reference-09fe14e6bfbf4db6b7f4369fffecc806" type="reference" format="dita" scope="local"> </p></td> 
   <td class="stentry"> <p>Resolução de textura/decalque padrão. </p></td> 
  </tr> 
  <tr class="strow"> 

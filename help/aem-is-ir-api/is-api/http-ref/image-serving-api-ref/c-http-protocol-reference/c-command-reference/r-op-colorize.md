@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/vvDUoUKtzbNV64wfOq3gzJ1KnDb49-kDYUzDwF5A4Q0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: 315
 ht-degree: 0%
 
 ---
@@ -32,7 +40,7 @@ Colorir imagem. Colore os dados da imagem, preservando sombras e realces.
   <td class="stentry"> <p>Habilitar compensação automática de brilho (padrão). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> Contraste <span class="varname"> de </span> </p> </td> 
+  <td class="stentry"> <p> Contraste </span> de <span class="varname"> </p> </td> 
   <td class="stentry"> <p>Intervalo de contraste (0 a 100 reais); defina como 0 para preservar o contraste de entrada. </p> </td> 
  </tr> 
 </table>

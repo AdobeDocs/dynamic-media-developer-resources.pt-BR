@@ -5,9 +5,20 @@ title: Referência do conjunto de regras
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -132,7 +143,7 @@ A expressão de regra especifica uma correspondência que não diferencia maiús
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**Exemplo B.** Um aplicativo Web específico não permite cadeias de caracteres de consulta. Defina uma regra que traduza o elemento de caminho à direita `small`, `medium` ou `large` para um modelo, usando o restante do caminho como o nome da imagem. Por exemplo, `myCat/myImage/small` seria traduzido para `myCat/smallTemplate?src=myCat/myImage`.
+**Exemplo B.** Um aplicativo web específico não permite cadeias de caracteres de consulta. Defina uma regra que traduza o elemento de caminho à direita `small`, `medium` ou `large` para um modelo, usando o restante do caminho como o nome da imagem. Por exemplo, `myCat/myImage/small` seria traduzido para `myCat/smallTemplate?src=myCat/myImage`.
 
 Podemos usar substrings para reestruturar a solicitação:
 

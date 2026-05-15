@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -30,7 +38,7 @@ Os campos de dados não devem conter `<CR>`, `<LF>` ou `<TAB>` caracteres, a men
 
 Vários valores de dados no mesmo campo são separados por vírgulas (&#39;,&#39;), a menos que especificado de outra forma.
 
-Colunas cujos nomes começam com &#39;.&#39; são ignorados; isso permite armazenar dados em catálogos de materiais, o que não é de interesse para a Renderização de imagem. As colunas com nomes de cabeçalho desconhecidos são ignoradas e um aviso é gravado no arquivo de log.
+As colunas cujos nomes começam com &#39;.&#39; são ignoradas; isso permite armazenar dados em catálogos de materiais que não são de interesse para a Renderização de imagem. As colunas com nomes de cabeçalho desconhecidos são ignoradas e um aviso é gravado no arquivo de log.
 
 Os nomes de campos podem consistir em qualquer combinação de letras ASCII, números e &quot;-&quot; e &quot;_&quot;.
 

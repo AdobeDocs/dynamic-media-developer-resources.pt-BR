@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: e87b2a84-735c-4412-a4dd-97b18474a1d2
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+TQID: 'https://experienceleague.adobe.com/VTILhyWja7ccpZeTREmdVA02kApt5VsJPNA-WevQWcM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: 212
 ht-degree: 0%
 
 ---
@@ -30,7 +38,7 @@ Os eventos do visualizador compatíveis incluem o seguinte:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> initComplete </span> </p> </td> 
-   <td colname="col2"> <p>Aciona quando a inicialização do visualizador é concluída e todos os componentes internos são criados, de modo que é possível usar a API <span class="codeph"> getComponent() </span>. O manipulador de retorno de chamada não aceita argumentos. </p> </td> 
+   <td colname="col2"> <p>Aciona quando a inicialização do visualizador é concluída e todos os componentes internos são criados, de modo que é possível usar a API </span> getComponent() <span class="codeph">. O manipulador de retorno de chamada não aceita argumentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 

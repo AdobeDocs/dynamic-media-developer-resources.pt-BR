@@ -5,9 +5,21 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: 2295
 ht-degree: 0%
 
 ---
@@ -18,7 +30,7 @@ As notas de versão mais recentes do Adobe Scene7 do último trimestre de 2016 s
 
 ## Versão do último trimestre de 2016 do Scene7 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-As notas de versão mais recentes da parte da versão [!DNL Adobe Scene7] do último trimestre de 2016 no [!DNL Adobe Experience Manager].[!DNL Adobe Experience Cloud]
+As notas de versão mais recentes da parte da versão [!DNL Adobe Experience Manager] do último trimestre de 2016 no [!DNL Adobe Experience Cloud].[!DNL Adobe Scene7]
 
 * [Geral](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)

@@ -5,9 +5,17 @@ title: Restrições e problemas conhecidos
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TCVO43J9ABVIbKSBwPE6jSfMR8I-2sc-7Nj-gGDEyPM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1250
 ht-degree: 0%
 
 ---
@@ -74,7 +82,7 @@ A biblioteca da Digimarc se recusa a aplicar uma marca d&#39;água da Digimarc a
 
   *Exemplo*:
 
-  `/is/image/MyCompany?src=/YourCompany/MyImage`.
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
   Em vez de: `/is/image/MyCompany?src=YourCompany/MyImage` .
 

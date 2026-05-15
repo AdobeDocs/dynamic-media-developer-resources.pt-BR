@@ -5,9 +5,20 @@ title: Log de acesso
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -76,7 +87,7 @@ As seguintes variáveis de padrão são compatíveis:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G DE </span> </p> </td> 
-   <td> <p>data e hora, formatadas como <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> deslocamento </span> de SSS </span> </p> <p> ( <span class="varname"> SSS </span> estão em ms, <span class="varname"> deslocamento </span> é o deslocamento de tempo GMT); o valor de tempo é capturado quando a resposta é enviada ao cliente. </p> </td> 
+   <td> <p>data e hora, formatadas como <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> Deslocamento </span> do SSS </span> </p> <p> ( <span class="varname"> SSS </span> estão em ms, <span class="varname"> deslocamento </span> é o deslocamento de tempo GMT); o valor de tempo é capturado quando a resposta é enviada ao cliente. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -92,7 +103,7 @@ As seguintes variáveis de padrão são compatíveis:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>Sequência de consulta (precedida por um '?' se existir). </p> </td> 
+   <td> <p>Sequência de consulta (precedida por um '?', se existir). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -136,7 +147,7 @@ As seguintes variáveis de padrão são compatíveis:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
-   <td> <p>[!DNL Platform Server] palavra-chave de gerenciamento de cache: <span class="codeph"> { REUSED | CRIADO | ATUALIZADO | REMOTO | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDADO | IGNORADO | INDEFINIDO } </span>. </p> </td> 
+   <td> <p>[!DNL Platform Server] palavra-chave de gerenciamento de cache: <span class="codeph"> { REUSED | CRIADO | ATUALIZADO | REMOTO | REMOTE_CREATED | ATUALIZAÇÃO_REMOTA | CACHE_REMOTO | VALIDADO | IGNORADO | INDEFINIDO } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
@@ -148,7 +159,7 @@ As seguintes variáveis de padrão são compatíveis:
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>O valor do cabeçalho de resposta <span class="codeph"> da tag </span> (assinatura MD5 dos dados de resposta). </p> </td> 
+   <td> <p>O valor do cabeçalho de resposta </span> da tag <span class="codeph"> (assinatura MD5 dos dados de resposta). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 

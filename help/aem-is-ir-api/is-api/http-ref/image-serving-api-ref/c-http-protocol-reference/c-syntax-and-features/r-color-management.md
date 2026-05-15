@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/IzOzGIHXhgknu9Wms73sua9vEF17EemCmaWPByRAp5M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: 1243
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ Cada catálogo de imagens (e o catálogo padrão) pode definir um conjunto de pe
 [attribute::IccProfileRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md)
 [attribute::IccProfileGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilegray.md)
 [attribute::IccProfileCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md)
-[atributo::IccProfileSrcRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md)
+[attribute::IccProfileSrcRgb](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcrgb.md)
 [attribute::IccProfileSrcGray](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md)
 [attribute::IccProfileSrcCmyk](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrccmyk.md).
 
@@ -98,28 +106,28 @@ Perfis adicionais podem ser adicionados aos perfis padrão, no catálogo padrão
 | `sRGB` | sRGB IEC61966-2.1 | Espaço de Cores sRgb Profile.icm |
 | `WideGamutRGB` | RGB de gamut amplo | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `CoatedGraCol` | GRACoL 2006 revestido (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
-| `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropeISOCoatedFOGRA27.icc |
+| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | FOGRA27.icc revestido |
+| `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | FOGRA39.icc revestido |
+| `CoatedGraCol` | GRACoL 2006 revestido (ISO 12647-2:2004) | GracoL2006.icc revestido |
+| `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropaISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | Revestimento Euroscale | EuroscaleCoated.icc |
-| `EuroscaleUncoated` | Euroscale não revestido v2 | EuroscaleUncoated.icc |
-| `JapanColorCoated` | Japão Colorido 2001 Revestido | JapanColor2001Coated.icc |
-| `JapanColorNewspaper` | Jornal Japan Color 2002 | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japão Colorido 2001 Sem Revestimento | JapanColor2001Uncoated.icc |
-| `JapanColorWebCoated` | Japan Color 2003 Web Coated | JapanColor2003WebCoated.icc |
-| `JapanWebCoated` | Revestimento Para Web No Japão (Anúncio) | JapanWebCoated.icc |
+| `EuroscaleUncoated` | Euroscale não revestido v2 | EuroscaleUncovered.icc |
+| `JapanColorCoated` | Japão Colorido 2001 Revestido | JapãoCor2001Revestido.icc |
+| `JapanColorNewspaper` | Jornal Japan Color 2002 | JapãoCor2002Jornal.icc |
+| `JapanColorUncoated` | Japão Colorido 2001 Sem Revestimento | JapãoCor2001Não revestido.icc |
+| `JapanColorWebCoated` | Japan Color 2003 Web Coated | CorJapão2003Revestimento da Web.icc |
+| `JapanWebCoated` | Revestimento Para Web No Japão (Anúncio) | JapãoWebCoated.icc |
 | `NewsprintSNAP2007` | Papel de jornal dos EUA (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `PS4Default` | Photoshop 4 Padrão CMYK | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK padrão do Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
-| `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncovered.icc |
+| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | FOGRA29.icc não revestida |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 revestida com web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Papel revestido para web SWOP 2006 Grade 3 | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | Papel revestido para web SWOP 2006 Grade 5 | WebCoatedSWOP2006Grade5.icc |
-| `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncoated.icc |
+| `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncovered.icc |
 
 A tabela a seguir se aplica ao *Servidor de imagens do Dynamic Media Classic* e ao *Dynamic Media* (em execução no modo de execução `dynamicmedia_scene7`).
 
@@ -137,28 +145,28 @@ A tabela a seguir se aplica ao *Servidor de imagens do Dynamic Media Classic* e 
 | `sRGB` | sRGB IEC61966-2.1 | Espaço de Cores sRgb Profile.icm |
 | `WideGamutRGB` | RGB de gamut amplo | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `Coated GRACoL 2006 (ISO 12647-2:2004)` | GRACoL 2006 revestido (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
-| `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropeISOCoatedFOGRA27.icc |
+| `CoatedFogra27` | FOGRA27 revestido (ISO 12647-2:2004) | FOGRA27.icc revestido |
+| `CoatedFogra39` | FOGRA39 revestida (ISO 12647-2:2004) | FOGRA39.icc revestido |
+| `Coated GRACoL 2006 (ISO 12647-2:2004)` | GRACoL 2006 revestido (ISO 12647-2:2004) | GracoL2006.icc revestido |
+| `EuropeISOCoated` | Europa ISO Revestido FOGRA27 | EuropaISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
-| `EuroscaleUncoated` | Euroscale não revestido v2 | EuroscaleUncoated.icc |
-| `JapanColorCoated` | Japão Colorido 2001 Revestido | JapanColor2001Coated.icc |
-| `JapanColorNewspaper` | Jornal Japan Color 2002 | JapanColor2002Newspaper.icc |
-| `JapanColorUncoated` | Japão Colorido 2001 Sem Revestimento | JapanColor2001Uncoated.icc |
-| `Japan Color 2003 Web Coated` | Japan Color 2003 Web Coated | JapanColor2003WebCoated.icc |
-| `JapanWebCoated` | Revestimento Para Web No Japão (Anúncio) | JapanWebCoated.icc |
+| `EuroscaleUncoated` | Euroscale não revestido v2 | EuroscaleUncovered.icc |
+| `JapanColorCoated` | Japão Colorido 2001 Revestido | JapãoCor2001Revestido.icc |
+| `JapanColorNewspaper` | Jornal Japan Color 2002 | JapãoCor2002Jornal.icc |
+| `JapanColorUncoated` | Japão Colorido 2001 Sem Revestimento | JapãoCor2001Não revestido.icc |
+| `Japan Color 2003 Web Coated` | Japan Color 2003 Web Coated | CorJapão2003Revestimento da Web.icc |
+| `JapanWebCoated` | Revestimento Para Web No Japão (Anúncio) | JapãoWebCoated.icc |
 | `PS4Default` | Photoshop 4 Padrão CMYK | Photoshop4DefaultCMYK.icc |
 | `PS5Default` | CMYK padrão do Photoshop 5 | Photoshop5DefaultCMYK.icc |
 | `SheetfedCoated` | U.S. Sheetfed Coated v2 | USSheetfedCoated.icc |
-| `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncoated.icc |
-| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | UncoatedFOGRA29.icc |
+| `SheetfedUncoated` | U.S. Sheetfed sem revestimento v2 | USSheetfedUncovered.icc |
+| `UncoatedFogra29` | FOGRA29 sem revestimento (ISO 12647-2:2004) | FOGRA29.icc não revestida |
 | `US Newsprint (SNAP 2007)` | Papel de jornal dos EUA (SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
 | `WebCoatedFogra28` | FOGRA28 revestida com web (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Papel revestido para web SWOP 2006 Grade 3 | WebCoatedSWOP2006Grade3.icc |
 | `Web Coated SWOP Grade 5 Paper` | Papel revestido para web SWOP 2006 Grade 5 | WebCoatedSWOP2006Grade5.icc |
-| `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncoated.icc |
+| `WebUncoated` | Web sem revestimento dos EUA v2 | USWebUncovered.icc |
 
 ## Consulte também {#section-39159397e80b4efca5f631eab8b9aa06}
 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m3ZesKWdK5ltybJWB9ZTOQa19Bimlu-g7xRE2OrQ-rY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 597
 ht-degree: 0%
 
 ---
@@ -116,7 +124,7 @@ Formato de imagem de resposta. Especifica o formato de codificação de imagem p
  </tr> 
 </table>
 
-*`pixelType`* Afeta a conversão do espaço de cores de saída quando `icc=` não é especificado; o perfil de cor padrão correspondente a *`pixelType`* é aplicado. Se o gerenciamento de cores estiver desativado, a conversão ingênua será aplicada. *`pixelType`* É ignorado quando `icc=` é especificado, o que determina o tipo de pixel de saída.
+*`pixelType`* Afeta a conversão do espaço de cores de saída quando `icc=` não é especificado; o perfil de cor padrão correspondente a *`pixelType`* é aplicado. Se o gerenciamento de cores estiver desativado, a conversão ingênua será aplicada. *`pixelType`* Ignorado quando `icc=` é especificado, o que determina o tipo de pixel de saída.
 
 *`compression`* Permitido somente se tif, tif-alpha ou PDF for especificado como *`format`*. Consulte a tabela abaixo para obter as opções de compactação compatíveis com esses formatos de imagem.
 
@@ -206,7 +214,7 @@ Pode ocorrer em qualquer lugar na solicitação.
 
 ## Padrão {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* O padrão é `attribute::Format` e *`tiffCompression`* o padrão é `attribute::TiffEncoding`. O padrão de *`pixelType`* é `rgb` se `icc=` não for especificado, caso contrário, ele corresponde ao tipo de pixel do perfil ICC especificado.
+*`format`* O padrão é `attribute::Format` e *`tiffCompression`* o padrão é `attribute::TiffEncoding`. *`pixelType`* O padrão é `rgb` se `icc=` não for especificado, caso contrário, ele corresponde ao tipo de pixel do perfil ICC especificado.
 
 ## Consulte também {#section-c55efc881fc94c70bff91b870e026a7b}
 
