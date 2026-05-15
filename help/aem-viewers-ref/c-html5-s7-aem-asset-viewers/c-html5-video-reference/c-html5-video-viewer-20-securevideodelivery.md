@@ -79,4 +79,4 @@ Consulte também [Vincular URLs ao Aplicativo Web](https://experienceleague.adob
 
 -->
 
-Consulte também [Incorporação do vídeo em uma página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Consulte também [Incorporação do vídeo em uma página da Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=pt-BR#dynamic).
