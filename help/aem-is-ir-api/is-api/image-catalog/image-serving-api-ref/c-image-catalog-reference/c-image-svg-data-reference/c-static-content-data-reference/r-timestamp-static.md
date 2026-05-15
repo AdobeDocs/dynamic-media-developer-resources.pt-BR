@@ -1,13 +1,17 @@
 ---
 title: Carimbo de data/hora
-description: Se &grave;attribute::UseLastModified&grave; estiver definido, o valor &grave;catalog::TimeStamp&grave; será retornado na resposta HTTP como um cabeçalho HTTP de última modificação. O cabeçalho Last-Modified sempre é retornado para conteúdo estático, mesmo se &grave;attribute::UseLastModified&grave; não estiver definido.
+description: Se `attribute::UseLastModified` estiver definido, o valor `catalog::TimeStamp` será retornado na resposta HTTP como um cabeçalho HTTP de última modificação. O cabeçalho Last-Modified sempre é retornado para conteúdo estático, mesmo se `attribute::UseLastModified` não estiver definido.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+TQID: 'https://experienceleague.adobe.com/wW66KcIShhoLWqgSzWVh5IAGX4pEG4-xUqEZUZ5xckE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 237
 ht-degree: 0%
 
 ---

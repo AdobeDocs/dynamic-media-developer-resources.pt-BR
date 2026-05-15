@@ -5,9 +5,13 @@ title: Bloqueio de solicitação
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/9icGIK7meNSVUzYnsFBFM-GwG7KLe90bMDuqN89xmMk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 219
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 Para reduzir a oportunidade de adulteração de solicitações, é fornecido um simples recurso de bloqueio.
 
-Se attribute::RequestLock estiver definido, um valor de bloqueio deverá ser anexado à solicitação no formato `&xxxx`, com xxxx sendo um valor hexadecimal de quatro dígitos. Este valor hexadecimal é gerado usando um algoritmo de hash simples aplicado à parte *modificadores* da solicitação (após &#39;?&#39; que separa o caminho da URL dos *modificadores*). Isso deve ser feito depois que a solicitação é totalmente codificada em http, mas antes de ser ofuscada (opcionalmente). Depois de desofuscar a solicitação, o servidor usa o mesmo algoritmo de hash na string do modificador (excluindo os últimos 5 caracteres, que contêm o valor lock). Se a chave gerada não corresponder ao bloqueio, a solicitação será rejeitada.
+Se attribute::RequestLock estiver definido, um valor de bloqueio deverá ser anexado à solicitação no formato `&xxxx`, com xxxx sendo um valor hexadecimal de quatro dígitos. Este valor hexadecimal é gerado com o uso de um algoritmo de hash simples aplicado à parte *modificadores* da solicitação (após &#39;?&#39; que separa o caminho da URL dos *modificadores*). Isso deve ser feito depois que a solicitação é totalmente codificada em http, mas antes de ser ofuscada (opcionalmente). Depois de desofuscar a solicitação, o servidor usa o mesmo algoritmo de hash na string do modificador (excluindo os últimos 5 caracteres, que contêm o valor lock). Se a chave gerada não corresponder ao bloqueio, a solicitação será rejeitada.
 
 >[!IMPORTANT]
 >

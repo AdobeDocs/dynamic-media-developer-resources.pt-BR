@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/gQ4YOSwrnbp0uNqQzC-aexuXaU9DZwQHXz3PdfaTaV0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 237
 ht-degree: 0%
 
 ---
@@ -30,11 +34,11 @@ Quantização de cores. Especifica atributos de quantização de cores para a co
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Número de cores de saída (2-256) </p> <p>Especifica quantas cores são incluídas na paleta <span class="codeph"> adaptável </span>.</p> </td> 
+   <td colname="col2"> <p>Número de cores de saída (2-256) </p> <p>Especifica quantas cores são incluídas na paleta </span> adaptável <span class="codeph">.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Uma lista separada por vírgulas de cores forçadas do RGB no formato hex6 </p> <p>Permite especificar as cores a serem incluídas em uma paleta <span class="codeph"> adaptável </span>. Se o número de cores especificado for menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, as cores adicionais serão calculadas com base no conteúdo da imagem.</p> </td> 
+   <td colname="col2"> <p>Uma lista separada por vírgulas de cores forçadas do RGB no formato hex6 </p> <p>Permite especificar as cores a serem incluídas em uma paleta </span> adaptável <span class="codeph">. Se o número de cores especificado for menor que <span class="codeph"> <span class="varname"> numColors </span> </span>, as cores adicionais serão calculadas com base no conteúdo da imagem.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/EylLoY4VQMafn65jykpRSh99ZuybGh5bx-RVhmJnyTE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 562
 ht-degree: 0%
 
 ---
@@ -62,7 +66,7 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;&lbrack;,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> onde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devem ter o mesmo número de quadros. </p> <p> <p>Observação: esse recurso é compatível com o Adobe Dynamic Media Classic; ele não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Especifica um conjunto de rotação multidimensional explícito usando a seguinte sintaxe: </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> onde <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> é uma lista de quadros separada por vírgulas para um determinado eixo horizontal. Todos <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> devem ter o mesmo número de quadros. </p> <p> <p>Observação: esse recurso é compatível com o Adobe Dynamic Media Classic; ele não é compatível com o Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificadores </span> </span> </p> </td> 

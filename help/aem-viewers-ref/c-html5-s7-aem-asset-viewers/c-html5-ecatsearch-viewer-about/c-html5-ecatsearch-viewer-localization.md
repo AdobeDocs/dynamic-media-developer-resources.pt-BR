@@ -5,9 +5,13 @@ title: Localização dos elementos da interface do usuário
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/k-ToJzA2bXCcIYGLiXJtPFESV9Bl-HrVhky1nSfmVao'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
@@ -394,7 +398,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice espelhado de base zero na orientação paisagem, e <span class="codeph"> opcional YY </span> é um índice de página de base zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando a chamada de API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>Rótulo da página gerado pelo visualizador no momento do carregamento. </p> <p>O nome desse símbolo é um modelo, onde <span class="codeph"> XX </span> é um índice espelhado de base zero na orientação paisagem, e <span class="codeph"> opcional YY </span> é um índice de página de base zero dentro da página espelhada direcionada por <span class="codeph"> XX </span>. </p> <p>Aplica-se somente ao ativo carregado inicialmente; ignorado se um ativo for alterado usando a chamada de API </span> setAsset() <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -439,7 +443,7 @@ Os seguintes SYMBOLs são suportados (supondo que containerId seja a ID do conta
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Define um valor do atributo ARIA <span class="codeph"> aria-label </span> para todo o painel de pesquisa. </p> </td> 
+   <td colname="col2"> <p>Define um valor do atributo ARIA </span> aria-label <span class="codeph"> para todo o painel de pesquisa. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/dGeDNaI5x5kVOS2RUeKVZX9CfE685dBW-UQM0vi7Sc8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: 192
 ht-degree: 0%
 
 ---
@@ -31,7 +35,7 @@ Referência da API do JavaScript para o Visualizador do carrossel.
       <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID do contêiner DOM (normalmente um <span class="codeph"> DIV </span>) no qual o visualizador está inserido. Quando esse método é chamado, não é necessário criar o elemento de contêiner. No entanto, o contêiner deve existir quando <span class="codeph"> init() </span> é executado. </p> <p>Obrigatório. </p> </li> 
       <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> parâmetros </span> - <span class="codeph"> {Object} </span> objeto JSON com parâmetros de configuração de visualizador em que o nome da propriedade é uma opção de configuração específica do visualizador ou um modificador SDK, e o valor dessa propriedade é um valor de configurações correspondente. </p> <p>Obrigatório. </p> </li> 
       <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> manipuladores </span> - <span class="codeph"> {Object} </span> objeto JSON com retornos de chamada de evento do visualizador, em que o nome da propriedade é o nome do evento do visualizador com suporte e o valor da propriedade é uma referência de função JavaScript para retorno de chamada apropriado. </p> <p>Opcional. </p> <p>Consulte <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> retornos de chamada de evento </a> para obter mais informações sobre eventos do visualizador. </p> </li> 
-      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph"> TextosLocalizados </span> - <span class="codeph"> {Object} </span> </p> <p> Objeto JSON com dados de localização. Consulte Localização dos elementos da interface do usuário e o exemplo para obter mais informações sobre o conteúdo do objeto. </p> <p>Opcional </p> </li> 
+      <li id="li_CD88EDB586B241DBB87B13709F24C454"> <p> <span class="codeph"> TextosLocalizados </span> - <span class="codeph"> {Objeto} </span> </p> <p> Objeto JSON com dados de localização. Consulte Localização dos elementos da interface do usuário e o exemplo para obter mais informações sobre o conteúdo do objeto. </p> <p>Opcional </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

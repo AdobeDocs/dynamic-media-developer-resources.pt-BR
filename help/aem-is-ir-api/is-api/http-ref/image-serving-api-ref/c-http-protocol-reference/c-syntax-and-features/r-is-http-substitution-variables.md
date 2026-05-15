@@ -5,9 +5,13 @@ title: Variáveis de substituição
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -57,7 +61,7 @@ resolve para:
 
 ## Processamento de variáveis em solicitações aninhadas {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-Referências de ` $ *`var`*$` podem ocorrer em qualquer lugar dentro das chaves de uma solicitação aninhada de Servidor de imagens ou de Renderização de imagens, inclusive à esquerda de &#39;?&#39; separar o caminho da consulta. O servidor substitui essas referências por valores (da url ou do `catalog::Modifier` do catálogo de imagens principal) antes de analisar e processar a solicitação aninhada.
+Referências de ` $ *`var`*$` podem ocorrer em qualquer lugar dentro das chaves de uma solicitação aninhada de Servidor de imagens ou de Renderização de imagens, inclusive à esquerda do caractere &#39;?&#39; que separa o caminho da consulta. O servidor substitui essas referências por valores (da url ou do `catalog::Modifier` do catálogo de imagens principal) antes de analisar e processar a solicitação aninhada.
 
 Além disso, todas as definições ` $ *`var`*=` da url ou `catalog::Modifier` são encaminhadas para todas as solicitações aninhadas de Servidor de Imagens e de Renderização de Imagens. Isso garante que todas as definições de variável estejam disponíveis para todos os modelos, independentemente do nível de aninhamento.
 

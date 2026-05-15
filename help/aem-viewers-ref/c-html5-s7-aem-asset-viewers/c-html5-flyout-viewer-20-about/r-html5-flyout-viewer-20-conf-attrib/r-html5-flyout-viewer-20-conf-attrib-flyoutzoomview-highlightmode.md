@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x43ipzx6iKOODZ10S8o8yJA9pg0Gl8mldfS5fEiVQJ4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Define o tempo (em segundos) necessário para que o destaque ou cursor apareça gradualmente após ser ativado pelo usuário. O fade in é aplicado apenas em dispositivos de toque; em sistemas de desktop, é ignorado pelo componente. </p> <p>O desaparecimento gradual se aplica aos seguintes elementos da interface do usuário: quadro de realce, cursor fixo, sobreposição (caso o parâmetro <span class="codeph"> de sobreposição </span> esteja definido como <span class="codeph"> 1 </span>). A animação da exibição de imagem suspensa começa somente após a conclusão do destaque/cursor. Não há animação de desaparecimento gradual. Quando o usuário desativa a imagem suspensa, os elementos da interface do usuário correspondentes (cursor, destaque e sobreposição) são ocultados instantaneamente. </p> </td> 
+   <td colname="col2"> <p> Define o tempo (em segundos) necessário para que o destaque ou cursor apareça gradualmente após ser ativado pelo usuário. O fade in é aplicado apenas em dispositivos de toque; em sistemas de desktop, é ignorado pelo componente. </p> <p>O desaparecimento gradual se aplica aos seguintes elementos da interface do usuário: quadro de realce, cursor fixo, sobreposição (caso o parâmetro </span> de sobreposição <span class="codeph"> esteja definido como <span class="codeph"> 1 </span>). A animação da exibição de imagem suspensa começa somente após a conclusão do destaque/cursor. Não há animação de desaparecimento gradual. Quando o usuário desativa a imagem suspensa, os elementos da interface do usuário correspondentes (cursor, destaque e sobreposição) são ocultados instantaneamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 

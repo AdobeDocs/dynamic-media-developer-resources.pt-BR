@@ -6,9 +6,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/L-Dy2JpWs29wOU5v-sAqS2DO9uAtbo93hNLDWThMAmk'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 2337
 ht-degree: 0%
 
 ---
@@ -65,7 +70,7 @@ O Zoom Viewer suporta os seguintes gestos de toque que são comuns em outros apl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Passar ou mover horizontalmente </p> </td> 
-   <td colname="col2"> <p> Rola pela lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado redefinido e o parâmetro <span class="codeph"> frametransition </span> estiver definido como slide, o ativo será alterado com a animação do slide. Para outros modos <span class="codeph"> frametransition </span>, o gesto executa a rolagem de página nativa. </p> <p> Se o zoom da imagem for ampliado, ela moverá a imagem horizontalmente. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem de página nativa. </p> </td> 
+   <td colname="col2"> <p> Rola pela lista de amostras na barra de amostras. </p> <p> Se a imagem estiver em um estado redefinido e o parâmetro </span> frametransition <span class="codeph"> estiver definido como slide, o ativo será alterado com a animação do slide. Para outros modos <span class="codeph"> frametransition </span>, o gesto executa a rolagem de página nativa. </p> <p> Se o zoom da imagem for ampliado, ela moverá a imagem horizontalmente. Se a imagem for movida para a borda da exibição e um deslizamento for executado na mesma direção, o gesto executará a rolagem de página nativa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Deslizamento vertical </p> </td> 
@@ -180,7 +185,7 @@ O caminho relativo tem a seguinte aparência:
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
 -->
 
@@ -199,7 +204,7 @@ Este é um exemplo de definição do tamanho do visualizador para o componente i
 
 <!--
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=pt-BR](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=pt-BR)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
 -->
 

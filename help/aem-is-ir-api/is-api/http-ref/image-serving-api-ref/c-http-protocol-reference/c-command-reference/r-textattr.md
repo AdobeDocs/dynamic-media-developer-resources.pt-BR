@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7md74Pcl5SuFEi6v8mdpYTAxj3bJZTykMzg7bpT8Aqo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Atributos da camada de texto. Especifica atributos adicionais para camadas de te
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anti-aliasing </span> </span> </p> </td> 
-  <td class="stentry"> <p>Controla o modo de suavização de serrilhado empregado pelo mecanismo de renderização de texto. </p> <p> <span class="codeph"> desligado | norma | nítido | sharp | forte | suave </span> </p> <p> 
+  <td class="stentry"> <p>Controla o modo de suavização de serrilhado empregado pelo mecanismo de renderização de texto. </p> <p> <span class="codeph"> desligado | norma | estaladiço | sustenido | forte | </span> suave </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph">de </span> </p> </td> 
@@ -69,7 +73,7 @@ Atributos da camada de texto. Especifica atributos adicionais para camadas de te
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
-  <td class="stentry"> <p>Especifica o modo de encapsulamento. </p> <p> <span class="codeph"> quebra automática | noWrap | nbWrap </span> </p> <p> 
+  <td class="stentry"> <p>Especifica o modo de encapsulamento. </p> <p> <span class="codeph"> quebra automática | semQuebra | nbWrap </span> </p> <p> 
     <table id="simpletable_FF2510E029EC41E29BC30D9FC2923EA3"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> noWrap </span> </p> </td> 

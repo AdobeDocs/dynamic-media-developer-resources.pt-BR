@@ -5,10 +5,15 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ALpdD-ZyQbjzCD6-sexqaq2gMQZGAZvMd7MqaDC6Gyo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: 1258
+ht-degree: 1%
 
 ---
 
@@ -103,7 +108,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> canto </span>&gt; &lt; <span class="varname"> modo </span>&gt; &lt; <span class="varname"> tolerância </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Calcule um retângulo de corte para minimizar um plano de fundo de cor sólida. Nenhuma informação de corte é gerada se o algoritmo de corte automático resultar no corte da imagem inteira. </p> <p>Para calcular o retângulo de recorte sem converter a imagem, especifique <span class="codeph"> -autocrop </span> sem <span class="codeph"> -convert </span> e sem <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
-<p><i><b>canto</b></i> - ul | ur | ll | lr </p>
+<p><i><b>canto</b></i> - ul | ur | Todos | lr </p>
    <p> Especifica qual canto da imagem usar um ponto de propagação. Ignorado se o modo for 1.</p>
    <p><i><b>modo</b></i> - 0 | 1</p>
    <p>Defina como 0 para recortar com base na cor do pixel de canto especificado; funciona em dados de cor pré-multiplicados se os dados alfa estiverem associados à imagem de origem.</p>
@@ -183,7 +188,7 @@ Se você não estiver convertendo imagens grandes, não precisará definir os pa
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -substituir </span> </p> </td> 
-   <td colname="col2"> <p>Permitir substituição de um destFile <span class="codeph"> <span class="varname"> </span> </span> existente. Por padrão, um sufixo numérico é anexado ao nome do arquivo para impedir a substituição. </p> </td> 
+   <td colname="col2"> <p>Permitir substituição de um destFile </span> </span> <span class="codeph"> <span class="varname"> existente. Por padrão, um sufixo numérico é anexado ao nome do arquivo para impedir a substituição. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -ignorado </span> </p> </td> 
@@ -287,7 +292,7 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   </tr> 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | grayA </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzentoA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> descompactado | compactado </p> </td> 
    <td> <p> Somente imagem mesclada; camadas e canais extras são ignorados. </p> </td> 
@@ -301,16 +306,16 @@ A tabela a seguir lista os formatos de arquivo de imagem e as opções de format
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
-   <td> <p> RGB | RGBA | cinza | grayA | indexado </p> </td> 
+   <td> <p> RGB | RGBA | cinza | cinzentoA | indexado </p> </td> 
    <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compactado </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | grayA | indexado </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | cinza | cinzentoA | indexado </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> descompactado | ZIP | LZW | JPEG | REGRA CCITT | CCITT G3 | CCITT G4 | Packbits </p> </td> 
+   <td> <p> descompactado | CEP | LZW | JPEG | REGRA CCITT | CCITT G3 | CCITT G4 | Bits de pacotes </p> </td> 
    <td> <p> Com exceção do primeiro canal alfa associado, os canais extras são ignorados. </p> </td> 
   </tr> 
  </tbody> 

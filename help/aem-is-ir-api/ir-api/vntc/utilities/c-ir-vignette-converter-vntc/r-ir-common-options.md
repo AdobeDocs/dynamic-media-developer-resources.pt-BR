@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/3Wz0goEJBDZmEomYaszS1Am7GMuTBxWEl1l-6Y163J0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -59,7 +63,7 @@ As opções a seguir podem ser aplicadas independentemente do tipo de sourceFile
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -usm <span class="varname"> quantia </span> <span class="varname"> raio </span> <span class="varname"> limite </span> </span> </p> </td> 
-  <td class="stentry"> <p>Define os parâmetros de unsharp-masking. Ignorado se <span class="codeph"> -sharpen </span> estiver definido como 0 ou 1; necessário se <span class="codeph"> -sharpen </span> estiver definido como 2 ou 3. A <span class="varname"> quantidade </span> é um valor real no intervalo 0.0...500.0, o <span class="varname"> raio </span> é um valor real no intervalo 0.0...10.0, e o <span class="varname"> limite </span> é um número inteiro de 0 a 255. Consulte a descrição de <span class="codeph"> op_usm= </span> na Referência do protocolo de disponibilização de imagens para obter mais informações. </p> </td> 
+  <td class="stentry"> <p>Define os parâmetros de unsharp-masking. Ignorado se <span class="codeph"> -sharpen </span> estiver definido como 0 ou 1; necessário se <span class="codeph"> -sharpen </span> estiver definido como 2 ou 3. A <span class="varname"> quantidade </span> é um valor real no intervalo 0.0...500.0, o <span class="varname"> raio </span> é um valor real no intervalo 0.0...10.0, e o </span> limite <span class="varname"> é um número inteiro de 0 a 255. Consulte a descrição de <span class="codeph"> op_usm= </span> na Referência do protocolo de disponibilização de imagens para obter mais informações. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
