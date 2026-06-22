@@ -3,7 +3,8 @@ cloud: Experience Cloud
 user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -1012,4 +1013,4 @@ ht-degree: 0%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
-<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR) -->
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
