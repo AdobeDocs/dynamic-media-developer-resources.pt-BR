@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 TQID: 'https://experienceleague.adobe.com/IzqnNnq7aFgXgEYQ6MJwxqnajYSJlULdEKxaa0OtGWI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 0%
@@ -61,3 +57,4 @@ Se tiverem sido criados dessa forma, os seguintes atributos de material serão u
 O renderizador ajusta o intervalo do atributo `gloss=` e `rough=` de acordo com `type=`. Alguns tipos de materiais, como tecidos, são menos reflexivos do que tipos de materiais, como pedra ou metal. Além disso, a mesma quantidade de brilho especificada para um frequentemente resulta em um efeito de reflexão diferente do outro. O atributo `gloss=` e a rugosidade terão um gamut bastante amplo se `type=` não for especificado ou estiver definido como `0`.
 
 `glossmap=` Usado para controlar a textura clara de um material pixel por pixel.
+

@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a6e0be23-8b8a-4b60-aac1-c692319a0bce
 TQID: 'https://experienceleague.adobe.com/VVZ1IdVJ85V-mIrdN6O8Vs-gb4PTsnjxyHnC8oEh1y0'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 166
 ht-degree: 0%
@@ -33,3 +29,4 @@ Até três mapas de iluminação podem ser criados para cada vinheta. O mapa de 
 **Seleção explícita com`illum=`** - Se `illum=` for especificado e definido como `0`, `1` ou `2`, o renderizador usará o mapa de iluminação correspondente; `gloss=` será ignorado para selecionar o mapa de iluminação.
 
 Se a vinheta contiver apenas um mapa de iluminação, o renderizador usará esse mapa e ignorará os comandos `illum=` e `gloss=`.
+
