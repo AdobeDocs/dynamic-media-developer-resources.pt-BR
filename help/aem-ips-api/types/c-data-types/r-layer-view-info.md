@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
 TQID: 'https://experienceleague.adobe.com/cx-B-BmcEP6vefJY5tsrNMZcwWIKM-pW0CYfP7BjxMM'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 46
 ht-degree: 0%
@@ -33,3 +29,4 @@ Sintaxe
 | url | `xsd:string` | URL do servidor de imagens que representa o modelo. Combina campos `urlModifier` e `urlPostAp- plyModifier`. |
 | urlModifier | `xsd:string` | Comandos de protocolo do servidor de imagens a serem aplicados antes da solicitação ou dos comandos `urlPostApplyModifier`. |
 | urlPostApplyModifier | `xsd:string` | Comandos de protocolo do servidor de imagens a serem aplicados após `urlModifier` e comandos request. |
+

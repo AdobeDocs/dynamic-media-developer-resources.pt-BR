@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
 TQID: 'https://experienceleague.adobe.com/OFG30nHlkuRT7HeNob0hkEfaygi8b2gNFEiu67LJBmU'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 276
 ht-degree: 0%
@@ -44,14 +40,14 @@ Sintaxe
 | triggerState | `xsd:int` | Escolha do estado do acionador do trabalho. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Detalhes de um trabalho de publicação de servidor de imagens. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Detalhes do trabalho para um trabalho de renderização de imagem. |
-| videoPublishJob | `types:VideoPublishJob` | Detalhes de um trabalho de publicação de vídeo. Consulte [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=pt-BR). |
+| videoPublishJob | `types:VideoPublishJob` | Detalhes de um trabalho de publicação de vídeo. Consulte [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Detalhes do trabalho de publicação de um diretório de servidor. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Detalhes do job para um job do diretório de upload. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Detalhes do trabalho para um trabalho de URLs de upload. |
 | otimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar Trabalho](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=pt-BR). |
+| exportJob | `types:ExportJob` | Permitir exportação autorizada de arquivos carregados anteriormente. Consulte [Exportar Trabalho](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Notas {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
@@ -63,3 +59,4 @@ Quando você especifica um valor de tipo de trabalho em `submitJob`, o sistema r
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
+
