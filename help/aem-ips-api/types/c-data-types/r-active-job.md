@@ -178,7 +178,7 @@ Para retornar o tipo de trabalho, especifique um valor de tipo de trabalho. Voc�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> tipos:ExportJob</span> </td> 
-   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Trabalho de Exportação</a>. </td> 
+   <td colname="col3">Permitir exportação autorizada de arquivos carregados anteriormente. Consulte <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=pt-BR" format="http" scope="external"> Trabalho de Exportação</a>. </td> 
   </tr> 
  </tbody> 
 </table>
