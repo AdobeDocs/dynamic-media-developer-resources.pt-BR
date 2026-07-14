@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ As listas suspensas são ativadas por botões com o atributo `aria-haspopup` adi
 A interface de usuário de pesquisa está agrupada no elemento com a função `search`. O campo de entrada de pesquisa tem a função `searchbox` e faz referência ao rótulo informativo controlado pelo símbolo de localização `SearchPanel.INFO_PROMPT` com o atributo `aria-describedby`.
 
 As caixas de diálogo modais têm a função `dialog`. O elemento de cabeçalho da caixa de diálogo é referenciado pelo atributo `aria-labelledby`.
+

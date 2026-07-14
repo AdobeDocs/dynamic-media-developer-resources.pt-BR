@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 65
 ht-degree: 0%
@@ -32,3 +32,4 @@ Após a instalação, configure os serviços para serem executados na outra cont
 1. Selecione **[!UICONTROL Security Settings]** > **[!UICONTROL Local Policies]** > **[!UICONTROL User Rights Assignment]**.
 1. Clique duas vezes na política **[!UICONTROL Log on as a service]**.
 1. Selecione **[!UICONTROL Add…]**, selecione o Usuário ou Grupo e selecione **[!UICONTROL Ok]** para confirmar.
+

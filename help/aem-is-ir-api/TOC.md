@@ -4,7 +4,8 @@ user-guide-title: API de disponibilização e renderização de imagens do Dynam
 breadcrumb-title: API de disponibilização e renderização de imagens do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Veja a documentação sobre APIs de IS (Disponibilização de imagem) e IR (Renderização de imagem) e tecnologias relacionadas.
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: f2f81d61572ac294b836be02e46797b83f4f21cf
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 0%

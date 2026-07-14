@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 269
 ht-degree: 0%
@@ -39,3 +39,4 @@ Os rótulos definidos no Dynamic Media Classic são armazenados no registro User
 Os rótulos gerados automaticamente são números sequenciais atribuídos a todas as páginas no catálogo eletrônico. Os rótulos gerados automaticamente são ignorados para a página espelhada fornecida se ela tiver rótulos baseados em SÍMBOLO definidos ou rótulos Dynamic Media Classic definidos.
 
 No índice, é possível desabilitar a exibição de rótulos gerados automaticamente usando o parâmetro `showdefault`.
+

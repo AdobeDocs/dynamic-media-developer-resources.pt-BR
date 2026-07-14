@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 0%
@@ -51,8 +51,7 @@ Especifique um valor para `unsharpMaskOptions` opções com `minOccurs=" *`n`*".
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> raio</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:duplo</span></td>
-   <td colname="col3"><p>Controla a nitidez definindo o número de pixels em torno da borda de uma imagem. O valor correto depende do tamanho da imagem. 
-     <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
+   <td colname="col3"><p>Controla a nitidez definindo o número de pixels em torno da borda de uma imagem. O valor correto depende do tamanho da imagem. <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">Intervalo: 0,0 - 250,0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">Valores baixos ajustam a nitidez somente dos pixels da borda. </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">Valores altos ajustam a nitidez de uma faixa mais ampla de pixels. </li>
@@ -101,3 +100,4 @@ O tipo `unsharpMaskOptions` é usado por:
 >[!MORELIKETHIS]
 >
 >* [Referência da API de disponibilização de imagens: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=pt-BR)
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 0%
@@ -48,3 +48,4 @@ Também são ignorados `attribute::MaxPix` e `attribute::DefaultPix` do catálog
 Se a imagem resultante da solicitação aninhada incluir dados de máscara (alfa), ela será sempre passada para o material. Use uma camada de imagem de plano de fundo de cor sólida para evitar alfa indesejado.
 
 O resultado da imagem de uma solicitação IS inserida pode ser armazenado em cache opcionalmente incluindo `cache=on`. Por padrão, o armazenamento em cache de dados intermediários está desativado. O armazenamento em cache só deve ser ativado quando a imagem intermediária for reutilizada em uma solicitação diferente em um período de tempo razoável. O gerenciamento padrão de cache do lado do servidor se aplica. Os dados são armazenados em cache em um formato sem perdas.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 162
 ht-degree: 0%
@@ -47,3 +47,4 @@ Valor de ponto flutuante assinado (por exemplo, `0, 12.5, 245 , -2.34e4`). 0 ou 
 **Cadeia de caracteres de texto**
 
 Os delimitadores de cadeia são opcionais, a menos que a cadeia contenha `<CR>`, `<LF>` ou `<TAB>` caracteres. Aspas simples e duplas podem ser usadas como delimitadores. Se as aspas forem usadas, qualquer aspas inseridas na cadeia de caracteres deverá ser evitada usando duas aspas consecutivas (por exemplo, &#39; `This month''s Special`&#39;).
+

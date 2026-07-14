@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 0%
@@ -36,3 +36,4 @@ Sintaxe
 | assetType | `xsd:string` | Escolha do tipo de ativo. |
 | assetHandle | `xsd:string` | Identificador de ativo referenciado no log de trabalho. |
 | auxArray | `types:JobLogDetailAuxArray` | Fornece informações adicionais detalhadas sobre o registro do trabalho além dos cinco tipos de registro do trabalho descritos acima. |
+

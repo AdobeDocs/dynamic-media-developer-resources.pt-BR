@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 0%
@@ -49,3 +49,4 @@ Se você estiver atualizando de uma versão mais antiga do Servidor de imagens, 
 Durante uma atualização, o arquivo [!DNL ImageServing/conf/server.xml] é atualizado para as configurações mais recentes. Se você alterou ou adicionou valores, salve o [!DNL server.xml] existente e reimplemente as alterações após a atualização.
 
 Após uma instalação de atualização, considere aquecer o cache de resposta HTTP antes de ativar o servidor. Consulte a descrição do utilitário `playlog` para obter detalhes.
+

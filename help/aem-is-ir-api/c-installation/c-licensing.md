@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 97
 ht-degree: 0%
@@ -27,3 +27,4 @@ Para usar o Servidor de imagens, é necessária uma chave de licença do Servido
 Da mesma forma, para usar a Renderização de imagem, é necessária uma chave de licença de Renderização de imagem do Dynamic Media. A Renderização de imagem pode ser usada sem uma licença do Servidor de imagens e vice-versa.
 
 O procedimento de instalação inclui etapas para obter e instalar as chaves de licença necessárias.
+

@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +39,4 @@ A Renderização de imagem compartilha vários recursos do servidor com o Servid
 A pasta de instalação da Renderização de Imagem ( *[!DNL install_folder]*) é [!DNL *[!DNL install_root]*/ImageRendering]. No Windows, o padrão *[!DNL install_root]* é `C:\Program Files\Scene7`. Uma pasta diferente pode ser especificada durante a instalação. No Linux, *[!DNL install_root]* sempre deve ser [!DNL /usr/local/scene7]. É possível usar links simbólicos.
 
 Todos os caminhos de arquivos fazem distinção entre maiúsculas e minúsculas no UNIX e no Windows.
+

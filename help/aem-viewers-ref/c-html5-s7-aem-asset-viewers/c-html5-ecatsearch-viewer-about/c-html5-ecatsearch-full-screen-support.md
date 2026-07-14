@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 144
 ht-degree: 0%
@@ -29,3 +29,4 @@ Em navegadores de desktop modernos, exceto o Internet Explorer 10 e mais antigo,
 Em dispositivos iOS e em navegadores Internet Explorer mais antigos, o visualizador usa o modo de tela cheia &quot;simulado&quot;. Nesse modo, o visualizador simplesmente é redimensionado para ocupar a área completa da janela do navegador da Web. Além disso, a interface de usuário do navegador da web e outras janelas ainda estão visíveis na tela.
 
 Um usuário final entra e sai do modo de tela cheia pressionando o botão de tela cheia na interface do usuário do visualizador. Quando o modo de tela cheia &quot;nativo&quot; é usado na área de trabalho, também é possível sair pressionando **Esc**.
+

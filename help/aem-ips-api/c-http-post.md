@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 0%
@@ -78,12 +78,12 @@ O trabalho de carregamento consiste em um ou mais POSTs HTTP que usam um `jobHan
 
 |  Parte de formulário HTTP POST   |  nome do elemento uploadPostParams   |  Tipo   |  Descrição   |
 |---|---|---|---|
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento)   |   `companyHandle`  |  `xsd:string`  | Obrigatório. Processe a empresa para a qual o arquivo está sendo carregado.  |
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` é obrigatório. Nome do trabalho de upload.  |
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `jobHandle`  |  `xsd:string`  | `jobName` ou `jobHandle` é obrigatório. O processamento de um trabalho de upload foi iniciado em uma solicitação anterior.  |
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `locale`  |  `xsd:string`  | Opcional. Idioma e código do país para localização.  |
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `description`  |  `xsd:string`  | Opcional. Descrição da tarefa.  |
-| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `destFolder`  |  `xsd:string`  | Opcional. Caminho da pasta de destino para prefixar para uma propriedade de nome de arquivo, especialmente para navegadores e outros clientes que podem não suportar caminhos completos em um nome de arquivo.  |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento)   |   `companyHandle`  |  `xsd:string`  | Obrigatório. Processe a empresa para a qual o arquivo está sendo carregado. |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` é obrigatório. Nome do trabalho de upload. |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `jobHandle`  |  `xsd:string`  | `jobName` ou `jobHandle` é obrigatório. O processamento de um trabalho de upload foi iniciado em uma solicitação anterior. |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `locale`  |  `xsd:string`  | Opcional. Idioma e código do país para localização. |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `description`  |  `xsd:string`  | Opcional. Descrição da tarefa. |
+| `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `destFolder`  |  `xsd:string`  | Opcional. Caminho da pasta de destino para prefixar para uma propriedade de nome de arquivo, especialmente para navegadores e outros clientes que podem não suportar caminhos completos em um nome de arquivo. |
 | `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `fileName`  |  `xsd:string`  | Opcional. Nome do arquivo de destino. Substitui a propriedade do nome de arquivo. |
 | `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `endJob`  |  `xsd:boolean`  | Opcional. O padrão é falso. |
 | `uploadParams` (Obrigatório. Um documento XML `uploadParams` especificando os parâmetros de carregamento) | `uploadParams`  |  `types:UploadPostJob`  | Opcional se esta for uma solicitação subsequente para um trabalho ativo existente. Se houver um trabalho existente, `uploadParams` será ignorado e os parâmetros de carregamento de trabalho existentes serão usados. Consulte [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -212,3 +212,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+

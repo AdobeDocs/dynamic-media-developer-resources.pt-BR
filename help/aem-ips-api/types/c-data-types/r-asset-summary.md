@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 0%
@@ -44,3 +44,4 @@ Sintaxe
 | metadataArray | `types:MetadataArray` | Uma matriz de valores de metadados associados ao ativo. |
 | pontuação | `xsd:double` | Define a precisão se houver uma pesquisa de similaridade (0 = sem correspondência, 1 = correspondência exata). |
 | scoreDetail | `xsd:string` | Ele contém informações detalhadas sobre áreas semelhantes como resultado de uma pesquisa de similaridade. |
+

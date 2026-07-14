@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 0%
@@ -26,8 +26,7 @@ ht-degree: 0%
 
 Obtém os ativos e o número de ativos associados a uma empresa específica.
 
-O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.
-Sintaxe
+O `countArray` retornado consiste em uma matriz de `assetTypes` (tipo de dados `xsd:string`), cada uma com seu próprio campo de contagem (tipo de dados `xsd:int`), permitindo a representação de vários tipos de ativos por elemento da matriz.Sintaxe
 
 ## Tipos de usuário autorizados {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ Esta amostra de código usa o identificador da empresa como um campo no `getAsse
    </countArray>
 </getAssetCountsReturn>
 ```
+

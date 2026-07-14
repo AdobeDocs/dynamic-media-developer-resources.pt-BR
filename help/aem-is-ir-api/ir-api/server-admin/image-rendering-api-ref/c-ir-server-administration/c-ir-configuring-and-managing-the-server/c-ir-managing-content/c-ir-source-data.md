@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -42,3 +42,4 @@ Se nenhum catálogo de imagens estiver envolvido, o caminho será combinado com 
 O local físico dos arquivos de dados de origem geralmente é especificado com [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Vários valores podem ser especificados para permitir que os arquivos de dados de origem sejam distribuídos em vários sistemas de arquivos. O Servidor de renderização tenta cada caminho na ordem especificada, até que o arquivo de dados seja encontrado.
 
 Novos arquivos de dados de qualquer tipo podem ser adicionados a qualquer momento sem interromper o servidor.
+

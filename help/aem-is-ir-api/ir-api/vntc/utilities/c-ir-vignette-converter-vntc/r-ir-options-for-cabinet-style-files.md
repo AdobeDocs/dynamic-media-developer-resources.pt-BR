@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 96
 ht-degree: 0%
@@ -30,3 +30,4 @@ As opções a seguir controlam o processamento de arquivos no estilo do gabinete
   <td class="stentry"> <p>Especifica a resolução de destino para arquivos de estilo de gabinete. Valor real em pixels por polegada. Se não for especificado, o arquivo de estilo do gabinete de produção terá a mesma resolução que o arquivo de origem. </p></td> 
  </tr> 
 </table>
+

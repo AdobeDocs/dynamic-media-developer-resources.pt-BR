@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 0%
@@ -38,3 +38,4 @@ Sempre associado a uma imagem. Você pode obter um público alvo de `ImageMap` d
 | [!DNL position] | `xsd:string` | Posição no formato do atributo [!DNL coords] do elemento `<area>` do HTML. Por exemplo: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True se o mapa de imagem estiver habilitado. |
 | lastModified | `xsd:dateTime` | Data e hora da última modificação do mapa de imagem. |
+

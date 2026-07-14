@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 0%
@@ -32,3 +32,4 @@ Para obter o melhor desempenho, a paginação de memória (troca) deve ser evita
 A Renderização de imagem compartilha o gerenciamento de memória do Servidor de imagens. Ao usar a Renderização de imagem, deve ser alocada memória adicional. 30 a 50% da memória física pode ser razoável.
 
 Consulte a documentação do Servidor de imagens para obter informações sobre como alterar a alocação de memória do Servidor de imagens (ImageServer::PhysicalMemory).
+

@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 84
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 Uma lista de caminhos, delimitada por ponto e vírgula, serve como raiz para todos os arquivos de dados com caminhos de arquivo relativos.
 
 Eles podem ser caminhos absolutos ou caminhos relativos a *[!DNL install_folder]*. Quando vários caminhos são especificados, o servidor tenta cada raiz na ordem especificada até que o arquivo seja encontrado. O padrão é [!DNL ./resources], para um caminho raiz padrão de [!DNL install_folder/resources].
+

@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 0%
@@ -38,3 +38,4 @@ O Servidor de Renderização deve ser interrompido para substituir outros arquiv
 [!DNL Platform Server] entradas de cache são invalidadas automaticamente quando arquivos de material ou vinhetas são substituídos. Substituir os arquivos de perfil ICC não invalida os caches.
 
 Para evitar as complicações da substituição de arquivos, é recomendável dar um novo nome a um arquivo de substituição e atualizar as entradas de catálogo correspondentes. Isso permite a substituição de qualquer arquivo de dados enquanto o servidor estiver ativo e faz com que as entradas de cache do servidor se tornem obsoletas automaticamente sem intervenção adicional. Essa abordagem pode ser usada para todos os arquivos de dados gerenciados por catálogos de imagens.
+

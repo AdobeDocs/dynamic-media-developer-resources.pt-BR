@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 104
 ht-degree: 0%
@@ -27,3 +27,4 @@ A Renderização de imagem suporta catálogos de materiais com codificação ISO
 Uma marca de ordem de byte (BOM) é usada para especificar a codificação de cada arquivo. Para UTF-8, a BOM é a sequência de bytes `EF BB BF`. A codificação UTF-8 é presumida quando esta sequência de caracteres é detectada no início de cada arquivo de catálogo de material. Qualquer outra sequência de bytes faz com que o arquivo seja interpretado como sendo codificado para o padrão ISO-8859-1.
 
 Muitos aplicativos contemporâneos, quando configurados para UTF-8, inserem a BOM automaticamente.
+
