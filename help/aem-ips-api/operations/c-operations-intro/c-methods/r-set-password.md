@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 TQID: 'https://experienceleague.adobe.com/01-S0tkyxnXa6YT4Wch4SB5kPAcTo-ImUhN4uNUY3ks'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 231
@@ -71,7 +75,7 @@ A data de expiração da senha é opcional. Se omitida, a senha nunca expirará.
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caracteres ingleses em minúsculas. Por exemplo, <span class="codeph"> a b c d e </span> e assim por diante </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caracteres ingleses em maiúsculas. Por exemplo, <span class="codeph"> A B C D E </span> e assim por diante. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Números. Por exemplo, <span class="codeph"> 1 2 3 4 5 </span> e assim por diante. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caracteres de símbolo especiais. Por exemplo, você pode usar qualquer um dos seguintes: <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
