@@ -4,7 +4,7 @@ user-guide-title: Guia de referência de visualizadores do Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personalize visualizadores do Dynamic Media para usar em dispositivos de desktop e de tela de toque. Inclua imagens e vídeos interativos, carrosséis, conjuntos de rotação e muito mais.
 nudge: true
-source-git-commit: 55a47d9f3108099100e40bbfffdbf91a9681da7f
+source-git-commit: b40d8ed938698a776b4ca6eb8f456b40ad6060f6
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -199,7 +199,7 @@ ht-degree: 0%
    + Pesquisa no eCatalog {#ecatalog-search}
       + [Pesquisa no eCatalog](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Referência de comando - Atributos de configuração {#command-reference-configuration-attributes-ecatalog-search}
-         + [Referência de comando - Atributos de configuração](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
+         + [Referência de comando C - Atributos de configuração](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
          + [Botão Fechar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-controlbar-transition.md)
          + [direção](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-direction.md)
@@ -1013,4 +1013,4 @@ ht-degree: 0%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
-<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=pt-BR) -->
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->
