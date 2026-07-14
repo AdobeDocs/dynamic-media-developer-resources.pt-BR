@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
 TQID: 'https://experienceleague.adobe.com/QufpY0RGr-YjuCtYjNEWcIvJu-hd9Sb5Bzs3f9CxdD4'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 2687
 ht-degree: 0%
@@ -251,7 +247,7 @@ O botão Fechar é controlado com o seguinte seletor de classe CSS:
 .s7ecatalogsearchviewer .s7embeddialog .s7closebutton
 ```
 
-**Propriedades CSS do botão Fechar &#x200B;**
+**Propriedades CSS do botão Fechar **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -338,7 +334,7 @@ O rodapé da caixa de diálogo consiste no botão &quot;cancelar&quot;. O contê
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogfooter
 ```
 
-**Propriedades CSS do rodapé da caixa de diálogo &#x200B;**
+**Propriedades CSS do rodapé da caixa de diálogo **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -539,7 +535,7 @@ A área de diálogo principal, entre o cabeçalho e o rodapé, contém conteúdo
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**Propriedades CSS da área de exibição da caixa de diálogo &#x200B;**
+**Propriedades CSS da área de exibição da caixa de diálogo **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -576,7 +572,7 @@ Todo o conteúdo do formulário (como rótulos e campos de entrada) reside dentr
 
 Se a altura desse contêiner parecer ser maior que a área da caixa de diálogo principal, a rolagem vertical será ativada automaticamente pelo componente.
 
-**Propriedades CSS do corpo da caixa de diálogo &#x200B;**
+**Propriedades CSS do corpo da caixa de diálogo **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -603,7 +599,7 @@ Todos os rótulos estáticos no formulário da caixa de diálogo são controlado
 
 Essa classe não é adequada para controlar o tamanho ou a posição do rótulo porque você pode aplicá-la a textos em vários locais da interface do usuário do formulário.
 
-**Propriedades CSS do rótulo da caixa de diálogo. &#x200B;**
+**Propriedades CSS do rótulo da caixa de diálogo. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -1295,3 +1291,4 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
+

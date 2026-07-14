@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 12e0eae8-0c88-4262-b1ee-1144eb38ee92
 TQID: 'https://experienceleague.adobe.com/k1HpbWiqZZmjUh2JN5yowlTYriWYIG97N83rK-t-pU0'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 144
 ht-degree: 0%
@@ -29,3 +25,4 @@ Em navegadores de desktop modernos, exceto o Internet Explorer 10 e mais antigo,
 Em dispositivos iOS e em navegadores Internet Explorer mais antigos, o visualizador usa o modo de tela cheia &quot;simulado&quot;. Nesse modo, o visualizador simplesmente é redimensionado para ocupar a área completa da janela do navegador da Web. Além disso, a interface de usuário do navegador da web e outras janelas ainda estão visíveis na tela.
 
 Um usuário final entra e sai do modo de tela cheia pressionando o botão de tela cheia na interface do usuário do visualizador. Quando o modo de tela cheia &quot;nativo&quot; é usado na área de trabalho, também é possível sair pressionando **Esc**.
+
