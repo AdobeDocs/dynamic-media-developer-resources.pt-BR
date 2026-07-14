@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: b792cddb-f3d2-4609-95b7-105d76fb3d6f
 TQID: 'https://experienceleague.adobe.com/VRC82qSYkgsI0ceaXdKtfGq-aYlw-Y0M-nRtq1pjg7A'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 0%
@@ -28,15 +24,15 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> modelo</span></span> </p> </td> 
-   <td> <p>O modelo de conteúdo no qual os dados retornados do servidor de informações são mesclados. </p> <p>O modelo de conteúdo é um XML após este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>O modelo de conteúdo no qual os dados retornados do servidor de informações são mesclados. </p> <p>O modelo de conteúdo é um XML após este DTD: </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>A sintaxe real do template de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>A sintaxe real do template de conteúdo é a seguinte: </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>Ou seja, o modelo deve começar com o elemento <span class="codeph"> &lt;info&gt;</span> que pode conter elementos <span class="codeph"> &lt;var&gt;</span> opcionais padrão. O próprio conteúdo do modelo, <span class="codeph"> TEMPLATE_CONTENT</span> é texto HTML. Além disso, o modelo de conteúdo pode conter nomes de variáveis entre <span class="codeph"> $</span> caracteres. Esses caracteres são substituídos pelos valores da variável que o servidor de informações retorna ou pelos valores padrão. </p> <p>As variáveis padrão definidas no modelo podem ser globais (se o atributo de substituição não estiver definido) ou específicas para uma determinada chave de substituição (se o atributo de substituição estiver presente). </p> <p>Durante o processamento do modelo, as variáveis específicas para as teclas de rolagem têm prioridade sobre as variáveis globais. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,3 +55,4 @@ Nenhum.
 Presumindo que a resposta do servidor de informações retorna o nome do produto como a variável `$1$` e a URL da imagem do produto é retornada como a variável `$2$`.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
+
