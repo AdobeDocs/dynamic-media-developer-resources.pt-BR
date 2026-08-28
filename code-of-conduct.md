@@ -1,11 +1,11 @@
 ---
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
-# Código de conduta do Adobe
+# Código de conduta da Adobe
 
 ## Nosso compromisso
 
@@ -47,4 +47,4 @@ Os responsáveis pela manutenção dos projetos que não seguirem ou não aplica
 
 ## Atribuição
 
-O presente Código de Conduta é adaptado do [Contrato do colaborador](https://www.contributor-covenant.org/), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+Este Código de conduta é adaptado do [Contrato do colaborador](https://www.contributor-covenant.org/), versão 1.4, disponível em [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
