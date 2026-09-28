@@ -49,7 +49,7 @@ Atributo de configuração para o Visualizador de Corte inteligente de vídeo.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nenhum|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nenhum|[<span class="varname"> image_id</span>]&#x200B;[?<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> A imagem a ser exibida no primeiro quadro antes do início da reprodução do vídeo, resolvida em relação a <span class="codeph"> serverurl</span>. Se especificado no URL, HTTP-encode o seguinte: </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> como <span class="codeph"> %3F</span> </p> </li> 
