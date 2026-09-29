@@ -8,28 +8,32 @@ exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 TQID: 'https://experienceleague.adobe.com/exFQtdLDWST-H5pFv3m-q7eGCgtjrYe-TgxQal6VA48'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: dd9621ba856ee23cfaab63ba430118bccdf0b515
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2621'
 ht-degree: 0%
-
 ---
-
 # Video360{#video}
 
 O HTML5 Video360 Viewer é um player de vídeo de 360 graus que reproduz streaming e vídeo progressivo 360 codificado no formato H.264, fornecido pela Dynamic Media Classic ou pela Adobe Experience Manager, Dynamic Media.
 
 Vídeos de 360 graus, também conhecidos como vídeos imersivos ou vídeos esféricos, são gravações de vídeo em que uma visualização em todas as direções é gravada ao mesmo tempo, filmada usando uma câmera omnidirecional ou uma coleção de câmeras. Há suporte para vídeo único e Conjuntos de vídeos adaptados. O visualizador também é compatível com o trabalho com fluxos de vídeo progressivo e HLS hospedados em um local externo.
 
-A taxa de proporção recomendada para vídeo 360 é 2:1. Não há suporte para som espacial. O visualizador foi projetado para funcionar somente com vídeo 360; uma tentativa de reproduzir um vídeo não-360 resulta em uma reprodução de vídeo distorcida.
+A taxa de proporção recomendada para vídeos 360 é 2:1. Não há suporte para som espacial. O visualizador foi projetado para funcionar somente com vídeo 360; uma tentativa de reproduzir um vídeo não-360 resulta em uma reprodução de vídeo distorcida.
 
 O visualizador foi projetado para funcionar em navegadores da Web móveis e de desktop compatíveis com vídeo HTML5. O visualizador é compatível com ferramentas opcionais de compartilhamento em redes sociais.
 
@@ -144,22 +148,22 @@ Você adiciona o visualizador a uma página da Web fazendo o seguinte:
 
    A criação de um visualizador exige a adição de uma tag de script no cabeçalho do HTML. Antes de usar a API do visualizador, inclua [!DNL Video360Viewer.js]. O arquivo [!DNL Video360Viewer.js] está localizado na subpasta [!DNL html5/js/] da sua implantação padrão do IS-Viewers:
 
-[!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
+   [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media Classic e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic que têm os Visualizadores IS instalados.
+   Você pode usar um caminho relativo se o visualizador for implantado em um dos servidores do Adobe Dynamic Media Classic e for distribuído no mesmo domínio. Caso contrário, especifique um caminho completo para um dos servidores do Adobe Dynamic Media Classic que têm os Visualizadores IS instalados.
 
-O caminho relativo tem a seguinte aparência:
+   O caminho relativo tem a seguinte aparência:
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
->
->
->Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
+   >[!NOTE]
+   >
+   >Faça referência somente ao arquivo `include` do visualizador principal do JavaScript na sua página. Não faça referência a nenhum arquivo JavaScript adicional no código da página da Web que possa ser baixado pela lógica do visualizador no tempo de execução. Especificamente, não faça referência direta à biblioteca `Utils.js` do HTML5 SDK carregada pelo visualizador do caminho de contexto `/s7viewers` (o chamado SDK consolidado `include`). O motivo é que a localização de `Utils.js` ou bibliotecas de visualizador de tempo de execução semelhantes é totalmente gerenciada pela lógica do visualizador e a localização muda entre as versões do visualizador. O Adobe não mantém versões mais antigas do visualizador secundário `includes` no servidor.
+   >
+   >
+   >Como resultado, a inserção de uma referência direta a qualquer JavaScript `include` secundário usado pelo visualizador na página interrompe a funcionalidade do visualizador no futuro, quando uma nova versão do produto é implantada.
 
 1. Definindo o container `DIV`.
 
