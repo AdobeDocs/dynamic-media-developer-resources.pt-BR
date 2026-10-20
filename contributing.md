@@ -30,7 +30,7 @@ O método de escolha depende do quanto você se sente confortável em editar a d
 
 >[!NOTE]
 >
->As contribuições enviadas estão cobertas pelos [termos de uso do Adobe.](https://www.adobe.com/legal/terms.html)
+>As contribuições enviadas estão cobertas pelos [termos de uso do Adobe.](https://www.adobe.com/br/legal/terms.html)
 
 ### Criar um tópico {#create-an-issue}
 
